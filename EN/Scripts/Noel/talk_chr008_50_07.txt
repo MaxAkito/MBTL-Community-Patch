@@ -1,0 +1,103 @@
+\\@BG_IN@<"screen_bg06", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 8, 9, 3, 0>
+\\@CHARA_IN@<1, 9, 1, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@CHARA_IN@< 0, 8, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0070", 100>
+Noel
+(Found you! Wait! Is that a new ancestor?! Really?
+ How much bad luck can one person have?!)
+\l
+
+\\@CHARA_IN@< 0, 8, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0071", 100>
+Noel
+(Something seems off about him, though. Is he...sad?
+ He sure doesn't feel as threatening as a Dead Apostle.)
+
+\\@CHARA_IN@< 1, 9, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0040", 100>
+Volv
+I have plenty of heat... For the moment,
+I am content.
+\l
+
+\\@CHARA_IN@< 1, 9, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0041", 100>
+Volv
+I would prefer to remain here in peace, staring into
+the depths of the flames...
+\l
+
+\\@CHARA_IN@< 1, 9, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0042", 100>
+Volv
+But I will take up my sword if you insist on disturbing me.
+\l
+
+\\@CHARA_IN@< 1, 9, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0043", 100>
+Volv
+I suggest you leave before my generosity
+runs out, Executor.
+
+\\@CHARA_IN@< 0, 8, 10, 0, 1>
+\\@CHARA_IN@< 0, 8, -1, 31, 2>
+\aw
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0072", 100>
+Noel
+Generosity? From you?
+\l
+
+
+\\@CHARA_IN@< 0, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0073", 100>
+Noel
+As if you had such a thing! You and your kind have never
+once shown an inkling of generosity.
+\l
+
+\\@CHARA_IN@< 0, 8, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0074", 100>
+Noel
+I'm not exactly thrilled at the prospect of fighting
+a monster like you by myself.
+\l
+
+\\@CHARA_IN@< 0, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0075", 100>
+Noel
+But even us nobodies have
+a sense of pride!
+\l
+
+\\@CHARA_IN@< 0, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0076", 100>
+Noel
+How dare a vampire demand to be left alone when your
+very existence threatens the peace of humanity!
+\l
+
+\\@CHARA_IN@< 0, 8, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0077", 100>
+Noel
+I don't think so! Now are we going to do this or what?!
+I'm not letting this opportunity slip away!
+\l
+
+\\@CHARA_IN@< 0, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0078", 100>
+Noel
+By killing you, I'll be able to prove myself to him!
+Then maybe I'll get the happy ending I deserve!
+
+\\@BGM_STOP@<0>
+\e

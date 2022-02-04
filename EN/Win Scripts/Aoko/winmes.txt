@@ -1,0 +1,151 @@
+WinMesScript
+
+
+WinMes00:
+chara_type 100
+That's that, then.
+Maybe we'll meet again, if fate decrees it.
+\e
+
+WinMes01:
+chara_type 100
+Hey, you've recovered from your injuries, right?
+Using up that kind of stamina won't keep you down long.
+Rest up for a day and you'll be good as new.
+\e
+
+WinMes02:
+chara_type 7
+Mm-mmm! That felt great!
+Thanks for the workout!
+My stiff shoulders feel nice and loose now.　
+\e
+
+WinMes03:
+chara_type 103
+chara_type_sub 100
+chara_switchframe 455
+You haven't had enough, have you?
+You should try new things every now and then.
+Sticking too close to a routine
+can dull your mind.
+\e
+
+WinMes04:
+chara_type 105
+By the way, if you see an artsy girl with glasses
+who's always smoking, punch her for me.
+That's what she gets for embezzling money under my name.
+\e
+
+WinMes05:
+chara_type 6
+chara_type_sub 3
+chara_switchframe 310
+That was more like an all-out battle than a friendly bout.
+Breaking out the firearms was a bit much, don't you think?
+As a cultured and dignified lady, I naturally prefer
+hand-to-hand combat. Ohohoho!
+\e
+
+WinMes06:
+chara_type 103
+It's too bad there aren't so many music stores around anymore.
+I'm really in the mood for a new guitar, one of those nice
+electric blue ones they had in the eighties...
+\e
+
+WinMes07:
+chara_type 104
+chara_type_sub 106
+chara_switchframe 300
+I won't take your life, or your wallet.
+How about you take me to dinner instead?
+I'm in the mood for barbeque...or maybe a mixed grill.
+Then again, you can't beat a good old-fashioned steak!
+\e
+
+WinMes08:
+chara_type 100
+You look so gloomy. Want to come away with me?
+Exploring the seven seas beholden to no one has a way
+of making your troubles disappear, believe me.
+\e
+
+//対死徒、鬼
+WinMes09:
+chara_type 1
+chara_type_sub 3
+chara_switchframe 120
+Don't try to make excuses. You picked the wrong person to
+mess with, that's all there is to it. And against opponents
+like you, I know I don't have to hold back.
+\e
+
+//対志貴
+WinMes10:
+chara_type 100
+You still have a ways to go before you grow into the man
+you're destined to be. Adieu for now. I look forward to seeing
+you in some other backwater town sometime in the future.
+\e
+
+//対秋葉
+WinMes11:
+chara_type 2
+chara_type_sub 5
+chara_switchframe 160
+That's all for today's lesson!
+I realize I'm not one to talk, but you really need to work on
+reining in your power a little more.
+\e
+
+//対ロア
+WinMes12:
+chara_type 104
+chara_type_sub 103
+chara_switchframe 535
+Lightning and vampiric strength? What a combination.
+Despite how you look, you're really a very orthodox apostle.
+Feels like you still have more up your sleeve, though.
+Care to show me?
+\e
+
+// 対ロア（ストーリー専用）
+WinMesArcadeWin05:
+chara_type 4
+Oh geez, he's dead already?
+I wanted to ask him how his
+endless reincarnation works!
+There goes my bonus!
+\e
+
+// 対死徒ノエル（ストーリー専用）
+WinMesArcadeWin14:
+chara_type 5
+Looks like she got away...
+Where have they been hiding that one?
+She's got a ton of potential, but her skills
+are still unpolished... I can relate to that.
+\e
+
+// 99まで追加可能
+
+
+// ３連勝・１０連勝専用セリフ
+
+WinMes3WinStreak00:
+chara_type 7
+You're on fire now!
+And this is only the beginning!
+\e
+
+WinMes10WinStreak00:
+chara_type 0
+chara_type_sub 7
+chara_switchframe 298
+Congrats on your tenth win!
+But you can still do better, right?
+I admire a little perseverance.
+Quitting while you're ahead is more my style, though.
+\e

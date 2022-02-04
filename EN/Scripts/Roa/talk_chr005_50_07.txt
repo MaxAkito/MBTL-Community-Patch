@@ -1,0 +1,133 @@
+\\@BG_IN@<"screen_bg06", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 5, 1, 1, 0>
+\\@CHARA_IN@<1, 0, 0, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@CHARA_IN@< 1, 0, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0040", 100>
+Arcueid
+Well, I'm finally here. I hope
+you're satisfied.
+\l
+
+\\@CHARA_IN@< 1, 0, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0041", 100>
+Arcueid
+If only you'd come straight to me, we could have
+avoided all this unpleasantness.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0042", 100>
+Arcueid
+And for you to avoid me and attack Shiki instead?
+\l
+
+\\@CHARA_IN@< 1, 0, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0043", 100>
+Arcueid
+You will pay for that. You are lower than the lowest beast.
+Do not expect a pleasant death.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0044", 100>
+Arcueid
+Not even I know what awaits you this time.
+
+\\@CHARA_IN@< 0, 5, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0040", 100>
+Roa
+.....
+
+\\@CHARA_IN@< 1, 0, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0045", 100>
+Arcueid
+Now you hesitate? What's wrong? Are you afraid?
+It's no use resisting. There's nothing you can do.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0046", 100>
+Arcueid
+You will not leave this place alive.
+\l
+
+\\@CHARA_IN@< 1, 0, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0047", 100>
+Arcueid
+I will show no mercy, and every fiber of your being shall
+be erased from this world. There is no use begging for--
+
+\\@CHARA_IN@< 0, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0041", 100>
+Roa
+Maybe some other time. I'm done here.
+
+\\@CHARA_IN@< 1, 0, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0048", 100>
+Arcueid
+Excuse me...?
+
+\\@CHARA_IN@< 0, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0042", 100>
+Roa
+I'm saying I don't have time to waste on the likes of you.
+\l
+
+\\@CHARA_IN@< 0, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0043", 100>
+Roa
+You and the rest of those who remain attached to this human
+world no longer concern me.
+\l
+
+\\@CHARA_IN@< 0, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0044", 100>
+Roa
+Begone, Fallen Princess.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0045", 100>
+Roa
+Laying your defects bare for all to see would be an insult
+to both myself and the daughter of such a noble house.
+\l
+
+\\@CHARA_IN@< 0, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0046", 100>
+Roa
+Such a cheap imitation would wither at my touch.
+
+\\@GO_SUB@<"QUAKE_1">
+\\@CHARA_IN@< 1, 0, 7, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 11>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0049", 100>
+Arcueid
+Ahahahahahaha!!!
+\l
+
+\\@CHARA_IN@< 1, 0, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0050", 100>
+Arcueid
+Stop! Please! I can't take any more! You're even more
+hilarious than the last court jester I watched!
+\l
+
+\\@CHARA_IN@< 1, 0, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0051", 100>
+Arcueid
+You make me so angry I might be sick!
+I can stand you no longer!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0052", 100>
+Arcueid
+I'm going to spill every last drop of your blood!
+
+\\@BGM_STOP@<0>
+\e

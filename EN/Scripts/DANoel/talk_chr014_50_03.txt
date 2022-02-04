@@ -1,0 +1,168 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg18", 0, 2, 0>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 14, 0, 1, 0>
+\\@CHARA_IN@<1, 3, 3, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+
+\\@CHARA_IN@< 1, 3, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0000", 100>
+Shiki
+The sewers run red with blood.
+Corpses litter the city's back alleys.
+\l
+
+
+\\@CHARA_IN@< 1, 3, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0001", 100>
+Shiki
+People lock their doors and cower inside while rotting
+remains of what were once humans prowl the streets.
+\l
+
+\\@CHARA_IN@< 1, 3, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0002", 100>
+Shiki
+And now they've built some
+kind of weird church at my school.
+\l
+
+\\@CHARA_IN@< 1, 3, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0003", 100>
+Shiki
+Hey, you.
+Are you setting up for a show or something?
+\l
+
+\\@CHARA_IN@< 1, 3, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0004", 100>
+Shiki
+Was it too late for me at that point?
+Had I already stepped into my own personal hell?
+
+\\@CHARA_IN@<0, 14, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0020", 100>
+Dead_Noel
+Ooh, you're more calm about this than I was expecting.
+How much of that bravado is real, I wonder?
+\l
+
+
+\\@CHARA_IN@<0, 14, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0021", 100>
+Dead_Noel
+And I was sooo looking forward to seeing you panic, too.
+You'd be way cuter that way.
+\l
+
+\\@CHARA_IN@<0, 14, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0022", 100>
+Dead_Noel
+Guess I can't have everything. I'll have to content myself
+with forcing your pathetic cries to reach beyond this reality.
+\l
+
+
+\\@CHARA_IN@<0, 14, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0023", 100>
+Dead_Noel
+Welcome to the confessional. You can confess your sins all
+you want here, but you'll never be forgiven, even in death.
+\l
+
+\\@CHARA_IN@<0, 14, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0024", 100>
+Dead_Noel
+We've been expecting you, Shiki Tohno. And we all think
+you're a piece of trash that can't be allowed to go on living.
+\l
+
+\\@CHARA_IN@<0, 14, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0025", 100>
+Dead_Noel
+I know you're just a regular upstanding human right now.
+But it really makes no difference. Just give up and die\sf000
+\l
+
+\\@CHARA_IN@<0, 14, 8, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0026", 100>
+Dead_Noel
+Oh, where are my manners? I should introduce myself.
+You know, like a blind date!
+\l
+
+\\@CHARA_IN@<0, 14, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0027", 100>
+Dead_Noel
+I've been investigating you for the last two weeks.
+But you don't know anything about m--
+
+\\@CHARA_IN@< 1, 3, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0005", 100>
+Shiki
+Don't bother. I don't care.
+In any case, I'm NOT a regular upstanding human.
+\l
+
+
+//クロスフェードでポーズ切替
+\\@CHARA_OUT@< 1, 3, 3, 0, 1>
+\\@CHARA_IN@< 2, 3, 103, 12, 0>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0006", 100>
+Shiki
+I'm only here to get revenge for my family.
+Your name, your ideals... None of that means anything to me.
+
+\\@CHARA_IN@<0, 14, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0028", 100>
+Dead_Noel
+Oh, that is rich.
+You're giving me chills!
+\l
+
+
+\\@CHARA_IN@<0, 14, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0029", 100>
+Dead_Noel
+Just look at you. You really think
+you're something special, don't you?
+\l
+
+\\@CHARA_IN@<0, 14, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0030", 100>
+Dead_Noel
+You think you can overcome any problem
+by going at it with all you've got, don't you?
+\l
+
+\\@CHARA_IN@<0, 14, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0031", 100>
+Dead_Noel
+In a way, I'm glad. If you weren't so full of yourself,
+grinding you beneath my heel wouldn't be nearly as much fun!
+\l
+
+\\@CHARA_IN@<0, 14, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0032", 100>
+Dead_Noel
+I'm going to take that misplaced confidence
+of yours and shatter it into tiny pieces!
+\l
+
+\\@CHARA_IN@<0, 14, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0033", 100>
+Dead_Noel
+But don't worry, I'm sure you'll be
+a lot happier becoming a part of me!
+
+\\@BGM_STOP@<0>
+\e

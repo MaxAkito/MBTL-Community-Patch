@@ -1,0 +1,264 @@
+\\@SYSTEM@<9999>
+\\@FADE_IN@<1, 0, 0, 0, 0>
+\aw
+\\@BG_IN@<"screen_bg10", 0, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+
+\\@CHARA_IN@< 0, 13, 3, 1, 0>
+\\@CHARA_IN@< 2, 3, 0, 1, 0>
+\\@CHARA_FOCUS_COLOR@<-1,1>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10000", 100>
+Red_Arcueid@Red_Arcueid_Hatena
+Stop right there, little girl. Unless you want to be torn
+to shreds, of course.
+
+\\@CHARA_IN@< 2, 3, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10030", 100>
+Shiki
+Wha--?! That voice!
+
+\\@CHARA_IN@< 0, 13, 6, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10070", 100>
+Miyako
+What's that?! It looks like a tsunami is headed this way!
+
+\\@SQ_CALL@<1>
+
+\\@GO_SUB@<"QUAKE_2">
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_BombE", 0, 100>
+
+//âÊñ ÅAàÍíUäDêFÇ…
+\\@CHARA_OUT@<0, 13, -1, 0, 0>
+\\@CHARA_OUT@<2, 3, -1, 0, 0>
+\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\aw
+
+\\@DRAW_EFFECT@<1>
+\aw
+
+\\@BGM_PLAY@<1, 72, 100>
+
+\\@CHARA_IN@< 3, 53,  0, 44, 0>
+\\@CHARA_MUKI@<3,0>
+\aw
+
+\\@CHARA_IN@< 3, 53, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10090", 100>
+Neco_Arc
+~Quick Recap~
+
+\\@CHARA_IN@< 1, 10, 101, 2, 0>
+\aw
+
+\\@CHARA_IN@< 1, 10, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10001", 100>
+Red_Arcueid
+Forget the recap!
+
+\\@SQ_CALL@<2>
+
+\\@GO_SUB@<"QUAKE_2">
+\\@SE_PLAY@<0, "talk/talk_se/Hit_SlashC", 0, 100>
+
+\\@CHARA_OUT@<3, -1, -1, 0, 0>
+\\aw
+\\@BGM_FADE@<1, 100, 0, -2, 1>
+
+//äDêFÅAâèú
+\\@CHARA_FOCUS_COLOR@< 1, 1>
+\\@DRAW_EFFECT@<0>
+\aw
+
+
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@CHARA_IN@< 0, 13, 3, 11, 0>
+\\@CHARA_IN@< 2, 3,  0, 11, 0>
+\aw
+
+\\@CHARA_IN@< 2, 3, 7, 0, 1>
+\\@CHARA_EMOVE@<2, -1, 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10031", 100>
+Shiki
+Yikes!
+
+\\@CHARA_IN@< 0, 13, 10, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10071", 100>
+Miyako
+Yikes!
+
+\\@CHARA_IN@< 1, 10, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10002", 100>
+Red_Arcueid
+What seems to be the matter, young man? No warning
+for your dear sister this round?
+\l
+
+\\@CHARA_IN@< 1, 10, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10003", 100>
+Red_Arcueid
+And here I was beginning to look forward to your little intro.
+\l
+
+\\@CHARA_IN@< 1, 10, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10004", 100>
+Red_Arcueid
+I even went to the trouble of firing off that shock
+wave and everything. How disappointing.
+\l
+
+\\@CHARA_IN@< 1, 10, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10005", 100>
+Red_Arcueid
+Well? Say something. I'm growing weary of the petrified
+looks of terror on your faces.
+\l
+
+\\@CHARA_IN@< 1, 10, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10006", 100>
+Red_Arcueid
+Are you so surprised to see me here? Could it be that
+you didn't expect to see me again and dropped your guard?
+
+\\@CHARA_IN@< 2, 3, 7, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10032", 100>
+Shiki
+(Surprised is one word for it! This should be impossible!
+ She's right, though... I let my guard down...)
+\l
+
+\\@CHARA_IN@< 2, 3, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10033", 100>
+Shiki
+(This is the Tohno estate. Miyako is the one fighting.
+ Anybody'd assume the last boss to be the family head.)
+\l
+
+\\@CHARA_IN@< 2, 3, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10034", 100>
+Shiki
+(Any normal person would take a hint and stay out of
+ the way. But this crazy woman is anything but normal!)
+
+\\@CHARA_IN@< 1, 10, 1, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10007", 100>
+Red_Arcueid
+Under normal circumstances, I'd be satisfied
+with just a tutorial, but I see you finally understand.
+\l
+
+\\@CHARA_IN@< 1, 10, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10008", 100>
+Red_Arcueid
+I found it both amusing and vexing at the same time.
+It was a game that kept me guessing, that's for sure.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10009", 100>
+Red_Arcueid
+I get bored when the story is too easy to figure out anyway.
+It's best to shake things up every once in a while.
+
+\\@CHARA_IN@< 0, 13, -1, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10072", 100>
+Miyako
+No no no!
+I can't do this! No way!
+\l
+
+\\@CHARA_IN@< 0, 13, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10073", 100>
+Miyako
+Let's run for it, Brother! I honestly can't see
+myself defeating her again!
+
+\\@CHARA_IN@< 1, 10, 6, 0, 10>
+// Red_Arcueid
+\w<20>
+
+\\@CHARA_IN@< 2, 3, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10035", 100>
+Shiki
+Well...
+I suppose I can't fault you for that...
+\l
+
+\\@CHARA_IN@< 2, 3, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10036", 100>
+Shiki
+If it were anybody else, then maybe. But even I can't
+handle this one... I'd just feel guilty afterwards.
+\l
+
+\\@CHARA_IN@< 2, 3, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10037", 100>
+Shiki
+But are you sure you want to run? That would mean
+giving up on being the main heroine, you know?
+\l
+
+\\@CHARA_IN@< 2, 3, 4, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10038", 100>
+Shiki
+And you've already made it this far in your battles
+against destiny. Seems like kind of a waste.
+
+\\@CHARA_IN@< 0, 13, 12, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10074", 100>
+Miyako
+Ugh! You're right!
+I nearly forgot!
+\l
+
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10075", 100>
+Miyako
+She's not the real enemy! I'm here to defeat
+my own cowardice!
+\l
+
+\\@CHARA_IN@< 0, 13, 2, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10076", 100>
+Miyako
+Thanks, Brother! You always know just what to say!
+Now I'm fired up!
+\l
+
+\\@CHARA_IN@< 0, 13, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10077", 100>
+Miyako
+My greatest foe! Here I come! But...please try
+to go easy on me!
+
+\\@CHARA_IN@< 1, 10, 8, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10010", 100>
+Red_Arcueid
+Now that's more like it! I wouldn't expect anything
+less of a giant killer.
+\l
+
+\\@CHARA_IN@< 1, 10, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10011", 100>
+Red_Arcueid
+If you think I'm going to hold back, though, you're in
+for a surprise. Now, show me what you've learned!
+
+\\@BGM_STOP@<0>
+\e

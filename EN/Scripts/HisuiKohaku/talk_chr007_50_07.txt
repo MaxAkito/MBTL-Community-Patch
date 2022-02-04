@@ -1,0 +1,122 @@
+\\@BG_IN@<"screen_bg05", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<1, 8, 0, 4, 0>
+\\@CHARA_IN@<3, 3, 10, 46, 0>
+\aw
+
+\\@BGM_PLAY@<0, 73, 100>
+
+\\@CHARA_IN@< 1, 8, 100, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 3>
+\aw
+\\@CHARA_EMOVE@<1, -1 , 3>
+\aw
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0030", 100>
+Noel
+You are falling deeeeeeply in looove~
+She is older than you, doesn't have much money...
+\l
+
+\\@CHARA_EMOVE@<1, -1 , 3>
+\aw
+\\@CHARA_EMOVE@<1, -1 , 3>
+\aw
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0031", 100>
+Noel
+Possesses little talent, and enjoys slacking off,
+but she does not lack for beauuuuutyyy~
+
+\\@CHARA_IN@< 3, 3, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0060", 100>
+Shiki
+Is she...proud of those qualities...?
+Still... Maybe...that could...work...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0061", 100>
+Shiki
+I can't be sure it wouldn't... Does that mean it would...?
+I'll just give it a try and--
+
+
+\\@CHARA_IN@<0, 1, 1, 1, 0>
+\\@CHARA_IN@<2, 4, 100, 3, 0>
+\aw
+
+\\@GO_SUB@<"QUAKE_1">
+\\@CHARA_IN@< 2, 4, 105, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0040", 100>
+Kohaku
+Aaahhhhhh!!!
+What is going on here?!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0041", 100>
+Kohaku
+An innocent boy tied to a chair with a suspicious-looking
+woman in nun's clothing making advances on him?!
+
+\\@CHARA_IN@< 0, 1, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0020", 100>
+Hisui
+Look closely, Kohaku. Those are no
+normal advances she's making.
+\l
+
+\\@CHARA_IN@< 0, 1, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0021", 100>
+Hisui
+She's using hypnotism to brainwash him. We don't have
+a moment to lose. And don't hold back, either.
+
+\\@CHARA_IN@< 2, 4, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0042", 100>
+Kohaku
+Oh, I see! It's a psychological attack, then!
+That is unforgivable!
+\l
+
+\\@CHARA_IN@< 2, 4, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0043", 100>
+Kohaku
+You there! I know how you feel, but removing ALL of a
+patient's free will is inexcusable!
+
+\\@CHARA_IN@< 1, 8, 4, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0032", 100>
+Noel
+You dare interfere?!
+\l
+
+\\@CHARA_IN@< 1, 8, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0033", 100>
+Noel
+With a job like mine, there isn't time to find a decent
+boyfriend! This might be my last chance!
+\l
+
+\\@CHARA_IN@< 1, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0034", 100>
+Noel
+I will kill you for this, you brats!
+
+\\@CHARA_IN@< 0, 1, 0, 0, 1>
+\\@CHARA_FOCUS_COLOR@<0,0>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0022", 100>
+Hisui
+I'd wager our work schedule is more demanding than yours.
+
+\\@CHARA_IN@< 2, 4, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0044", 100>
+Kohaku
+You are nothing more than a villain!
+
+
+\\@BGM_STOP@<0>
+\e

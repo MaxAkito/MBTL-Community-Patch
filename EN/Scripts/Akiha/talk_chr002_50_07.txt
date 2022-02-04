@@ -1,0 +1,96 @@
+\\@BG_IN@<"screen_bg06", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 2, 0, 1, 0>
+\\@CHARA_IN@<1, 9, 1, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@CHARA_IN@<0, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0020", 100>
+Akiha
+I take it you are the one responsible for this cold?
+Although, by the looks of it you seem rather warm.
+\l
+
+\\@CHARA_IN@<0, 2, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0021", 100>
+Akiha
+I would ask that you leave my garden immediately.
+If you do not, well...
+
+\\@CHARA_IN@<1, 9, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0010", 100>
+Volv
+Oh? This is your garden, is it? I wonder, are you truly
+as important as you think you are?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0011", 100>
+Volv
+Or are you in fact a princess trapped in a gilded cage,
+not realizing that the very ground you walk on is poisoned?
+
+\\@GO_SUB@<"QUAKE_1">
+\\@CHARA_IN@<0, 2, 6, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0022", 100>
+Akiha
+Why, the former of course. But answer me this...
+What makes you think I'm a princess?
+
+\\@CHARA_IN@<1, 9, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0012", 100>
+Volv
+Oh, dear. Am I mistaken? Perhaps not a princess per-say,
+but with your refined elegance and beauty...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0013", 100>
+Volv
+I find it impossible to believe you live anywhere but
+in a palace. How would you like to become my woman?
+\l
+
+\\@CHARA_IN@<1, 9, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0014", 100>
+Volv
+You would be my 11th, and the most special one yet. I've
+no doubt you and the others would get along splendidly.
+
+
+\\@CHARA_IN@<0, 2, 3, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0023", 100>
+Akiha
+I must decline. I can sense you are serious, but I am not
+interested in men with so much love they can't control it.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0024", 100>
+Akiha
+In fact, I despise them. If you are so full of love, you
+should direct it toward a single woman instead of many.
+\l
+
+\\@CHARA_IN@<0, 2, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0025", 100>
+Akiha
+If I were to meet such a man, I would have no choice but
+to re-educate him until he was begging for forgiveness.
+\l
+
+\\@CHARA_IN@<0, 2, 6, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0026", 100>
+Akiha
+Of course, I do not mean to imply you are such a man.
+But nevertheless, I must insist you leave at once.
+
+
+\\@BGM_STOP@<0>
+\e

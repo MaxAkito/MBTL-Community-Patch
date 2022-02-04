@@ -1,0 +1,109 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg00", 0, 2>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 72, 100>
+
+//＃トレーニング空間
+
+\\@CHARA_IN@<0, 13, 3, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 13, 11, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10030", 100>
+Miyako
+I thought I was done for! Why's it gotta be so
+hard right from the start?!
+\l
+
+\\@CHARA_IN@< 0, 13, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10031", 100>
+Miyako
+It's only the first day! Is this really how my
+heroine route starts?!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10032", 100>
+Miyako
+That's not something a normal kid should be able
+to handle on their own!
+
+\\@CHARA_FOCUS_COLOR@< 0, 1>
+\\@CHARA_IN@< 2, 53, 100, 2, 0>
+\aw
+
+\\@CHARA_IN@< 2, 53, 103, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10050", 100>
+Neco_Arc
+I agree. Unfortunately, Tsukihime is just that kind
+of story.
+\l
+
+\\@CHARA_IN@< 2, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10051", 100>
+Neco_Arc
+That said, I'm impressed you managed to clear the
+first stage of this impossibly hard game.
+
+
+\\@CHARA_IN@< 2, 53, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10052", 100>
+Neco_Arc
+Stand tall, Little Miss Kung Fu! You have claimed the
+right to challenge your fate!
+
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10033", 100>
+Miyako
+...!
+S-Stop that, you dumb cat!
+
+\\@CHARA_IN@< 2, 53, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10053", 100>
+Neco_Arc
+You're gettin' a great deal, I'll have you know! A mere
+volunteer wouldn't have stuck around this long to help!
+\l
+
+\\@CHARA_IN@< 2, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10054", 100>
+Neco_Arc
+Now then, the real Miyako Route starts now. And I will
+be returning to my behind-the-scenes work.
+\l
+
+\\@CHARA_IN@< 2, 53, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10055", 100>
+Neco_Arc
+I can't wait to see how this unfolds! Time to face your
+destiny! It's now or never, boys and girls!
+\l
+
+\\@CHARA_IN@< 2, 53, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10056", 100>
+Neco_Arc
+Next time：Miyako Route - Day 3.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10057", 100>
+Neco_Arc
+“The Unknown Hired Assassin!
+　Brother! The teacher is looking for you!”
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10058", 100>
+Neco_Arc
+See you soon!
+
+\\@BGM_FADE@<0,100,0,-3,1>
+\\@FADE_OUT@<1, 0, 0, 0, 0>
+\aw
+
+\\@SYSTEM@<10>
+\e

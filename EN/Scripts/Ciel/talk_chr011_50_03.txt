@@ -1,0 +1,82 @@
+\\@BG_IN@<"screen_bg03", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 11, 6, 1, 0>
+\\@CHARA_IN@<1,  2, 0, 2, 0>
+\aw
+
+
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@CHARA_IN@< 1, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0060", 100>
+Akiha
+What have we here? I came in search of a mouse sneaking
+around town, and wind up catching a rat instead.
+\l
+
+\\@CHARA_IN@< 1, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0061", 100>
+Akiha
+Actually, that seems a bit rude to the rats.
+What are you, a stray dog?
+
+\\@CHARA_IN@< 0, 11, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0040", 100>
+Ciel
+Call me whatever you wish, Akiha Tohno.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0041", 100>
+Ciel
+You are a noted person of interest. Thanks for saving
+me the trouble of seeking you out to measure your power.
+
+\\@CHARA_IN@< 1, 2, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0062", 100>
+Akiha
+Investigate me? You, a mangy mutt
+whose bark is worse than her bite?
+\l
+
+\\@CHARA_IN@< 1, 2, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0063", 100>
+Akiha
+How unpleasant. I'm afraid it's time to put you down.
+Would you like a moment to prepare your will?
+
+\\@CHARA_IN@< 0, 11, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0042", 100>
+Ciel
+There is no need. We have no possessions, and therefore
+do not require such things.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0043", 100>
+Ciel
+I am prepared to die at any moment.
+\l
+
+\\@CHARA_IN@< 0, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0044", 100>
+Ciel
+Though there is one thing I should warn you about.
+\l
+
+\\@CHARA_IN@< 0, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0045", 100>
+Ciel
+I may be a dog, but I was bred for hunting.
+\l
+
+\\@CHARA_IN@< 0, 11, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0046", 100>
+Ciel
+Try not to let your guard down, or I might just rip out
+that slender throat of yours.
+
+\\@BGM_STOP@<0>
+\e

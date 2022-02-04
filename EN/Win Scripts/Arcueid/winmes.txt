@@ -1,0 +1,168 @@
+WinMesScript
+
+WinMes00:
+chara_type 100
+That's a wrap!
+Who's next? ô
+\e
+
+
+WinMes01:
+chara_type 0
+That was mew easy!
+\e
+
+
+WinMes02:
+chara_type 103
+Sorry, but your chances of winning were zero.
+Maybe try again in your next life.
+\e
+
+
+WinMes03:
+chara_type 102
+Still not giving up? Fine...
+I'll just have to crush you a little harder next time.
+You know, like a vampire.
+\e
+
+
+WinMes04:
+chara_type 102
+You're asking if I'll drink your blood? I would appreciate
+it if you didn't mistake me for some third-rate vampire.
+\e
+
+
+WinMes05:
+chara_type 104
+Not bad. I had to get a little serious there.
+I look forward to next time.
+\e
+
+
+WinMes06:
+chara_type 104
+Perhaps I stayed out in the sun too long. Actually breaking
+a sweat against someone like you must mean my abilities
+are getting weaker.
+\e
+
+
+WinMes07:
+chara_type 103
+Oh dear, is it over already? You're not
+as strong as you look.
+\e
+
+
+WinMes08:
+chara_type 100
+Ahh, that felt great! ô
+Like that feeling you get standing under a blue sky after
+deflecting a missile, you know? Not that I've ever done
+anything like that before, mind you.
+\e
+
+
+WinMes09:
+chara_type 100
+You want to go again? I suppose that was amusing
+enough that I can go another round.
+And this time I won't hold back!
+\e
+
+
+WinMes10:
+chara_type 103
+Sometimes I just don't understand you people.
+Why do you continue to throw your lives away
+when you know you can't win?
+\e
+
+
+WinMes11:
+chara_type 102
+Jump, turn around, throw a punch, and it's over.
+Hm, is this what dancing at a ball is like?
+\e
+
+
+// ‘Îu‹M
+WinMes12:
+chara_type 0
+Heheh. So you changed your mind about me?
+Even when you're serious, I won't lose! ô
+\e
+
+
+// ‘Îƒ”ƒ[ƒ”
+WinMes13:
+chara_type 103
+You may have become an Ancestor, but you
+should still remember your manners. It let's
+others know what kind of parents raised you.
+\e
+
+
+// ‘ÎH—t
+WinMes14:
+chara_type 100
+You're getting sharper day by day.
+Shiki might be bothered by it, but
+I quite enjoy gaining more playmates.
+\e
+
+
+// ‘ÎƒVƒGƒ‹
+WinMes15:
+chara_type 101
+Ugh, how annoying. It never ends!
+Just go away already, Ciel.
+Keep this up, and you're not
+the only one who'll suffer.
+\e
+
+
+// ‘ÎƒƒA
+WinMes16:
+chara_type 103
+Farewell, my first love! Are you satisfied?
+Not only did I spill your blood this time,
+but I also tore your soul to shreds!
+\e
+
+
+// ‘ÎçaŠÔ
+WinMes17:
+chara_type 103
+You're one of the mixed-bloods of this country, aren't you?
+You have some human in you, but you're still more
+beast than human. How have you survived this long?
+\e
+
+
+// 99‚Ü‚Å’Ç‰Á‰Â”\
+
+
+// ‚R˜AŸE‚P‚O˜AŸê—pƒZƒŠƒt
+
+WinMes3WinStreak00:
+chara_type 0
+All right! Three wins in a row!
+I just need to keep this up!
+\e
+
+
+WinMes10WinStreak00:
+chara_type 0
+I'm amazing! Ten wins in a row! It just...
+Ahhh... feels so good, you know?!
+\e
+
+
+//‰B‚µƒLƒƒƒ‰‰ğ•útest
+UnlockMes00:
+unlock message
+\e

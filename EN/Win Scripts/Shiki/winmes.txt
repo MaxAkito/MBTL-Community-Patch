@@ -1,0 +1,140 @@
+WinMesScript
+
+
+WinMes00:
+chara_type 101
+You want to go again? I'm game,
+but you should probably quit
+while you still can.
+\e
+
+
+WinMes01:
+chara_type 103
+Wow, thought I was a goner there for a second. I guess
+that's what I get for going easy on you.
+\e
+
+
+WinMes02:
+chara_type 1
+Still alive? Be careful. Everything has to die
+eventually, you know.
+\e
+
+
+WinMes03:
+chara_type 101
+Gotta go. I can only fight for so long before I get anemic.
+\e
+
+
+WinMes04:
+chara_type 3
+You had fun? I'm glad. Try not to take things so seriously
+next time though, will you? I'm exhausted.
+\e
+
+
+WinMes05:
+chara_type 1
+Sorry, but I've got places to be. I'll call an ambulance
+for you if you promise to think about what you did.
+\e
+
+
+WinMes06:
+chara_type 101
+Black cats, crows, hearses... I remember hearing something
+about weeping willows once, too. It would seem you and I
+are both cursed with bad luck.
+\e
+
+
+WinMes07:
+chara_type 1
+Try harder next time. Appearances can be
+deceiving. You never know who is going to
+grow up to be powerful.
+\e
+
+
+// 対アルクェイド
+WinMes08:
+chara_type 103
+Woah! That was dangerous! You just don't know
+how to hold back, do you Arcueid? There is
+such a thing as a friendly match
+between allies, you know?
+\e
+
+
+// 対シエル
+WinMes09:
+chara_type 100
+Thanks, Ciel. I think it's sweet
+when you decide to
+hold back like that.
+\e
+
+
+// 対秋葉
+WinMes10:
+chara_type 103
+What was that? Has Akiha been training
+in secret or something?
+\e
+
+
+// 対ヒスコハ
+WinMes11:
+chara_type 101
+Sorry, you two! I promise to head back to the house when
+I'm finished! I'll make this up to you then!
+\e
+
+
+// 対翡翠
+WinMes12:
+chara_type 101
+I didn't realize there was an imitation Hisui out there.
+Still, it doesn’t feel right raising a hand against
+her. Sorry about that.
+\e
+
+
+// 対琥珀
+WinMes13:
+chara_type 103
+You're just an imitation of Kohaku, aren't you? I'll have
+to remember to apologize to the real one when I see her.
+Do you mind if we call it a day?
+\e
+
+
+// 対軋間
+WinMes14:
+chara_type 1
+Who...was that...? I can't quite place him,
+but I feel like I've seen him in a dream
+long ago or something...
+\e
+
+
+
+// 99まで追加可能
+
+// ３連勝・１０連勝専用セリフ
+
+WinMes3WinStreak00:
+chara_type 103
+Three wins already?! I had planned on going home early,
+but would you mind sticking around for a bit longer?
+\e
+
+WinMes10WinStreak00:
+chara_type 0
+Ten wins?! That's amazing!
+This is getting interesting!
+Let's keep it up!
+\e

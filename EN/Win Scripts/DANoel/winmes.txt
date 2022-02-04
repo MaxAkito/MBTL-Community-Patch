@@ -1,0 +1,139 @@
+WinMesScript
+
+
+WinMes00:
+chara_type 106
+chara_type_sub 101
+chara_switchframe 520
+Aww, dead already?
+I wanted to play with you some more...
+Ha! Just kidding.
+You're so weak, you're not even worth toying with!
+\e
+
+WinMes01:
+chara_type 8
+chara_type_sub 7
+chara_switchframe 665
+Take a look, my wounds are completely healed!\sf000
+How does that make you feel? Like everything
+you've done up until now was meaningless?
+Hahaha! Congratulations, you've totally wasted your life!
+\e
+
+//対人間
+WinMes02:
+chara_type 1
+Did you really think a human would
+stand a chance against a vampire?
+Quit dreaming and face reality!
+\e
+
+//対死徒
+WinMes03:
+chara_type 6
+Wow, and I haven't even been an apostle all that long.
+This must be sooo humiliating for you!
+But don't worry, I'll put you out of your misery soon enough!
+\e
+
+WinMes04:
+chara_type 1
+Ugh, boooring...
+Whatever happened to the thrill of the fight I used to feel?
+Guess I'll have to find some stronger opponents
+if I want to get any real enjoyment out of it.
+\e
+
+WinMes05:
+chara_type 8
+Nostalgia can be a double-edged sword.
+Once you grow up, the memories of happier times
+can cut you deeper than any blade.
+\e
+
+WinMes06:
+chara_type 106
+Hey, you're not bad. I think I'll let you go.
+But I'll hunt you down seven days from now
+and pay you back for this a thousandfold!\sf000
+\e
+
+WinMes07:
+chara_type 102
+chara_type_sub 103
+chara_switchframe 360
+Hm...
+You know, this fight taught me an important lesson.
+I'd better write it down so I don't forget...
+\e
+
+//対シエル
+WinMes08:
+chara_type 2
+Huh? That's weird... I thought you were supposed to be
+practically invincible? It shouldn't take you any time at all
+to regenerate from something like this.
+Hurry up and get back on your feet so I can kill you again!
+\e
+
+//対志貴
+WinMes09:
+chara_type 8
+Well, Shiki? How do you like my Mystic Eyes?
+With these, I can make you experience
+anything I can think of.\sf000
+\e
+
+//対ロア
+WinMes10:
+chara_type 102
+Ugh... Well, he's dead, at least...
+But now he'll just come back again...
+Damn it...
+What am I even doing?!
+\e
+
+
+// 対志貴（ストーリー専用）
+WinMesArcadeWin03:
+chara_type 100
+That's right, this whole thing was just a dream...
+a nightmare I constructed especially for you, Shiki.
+You should be grateful.
+This is my way of taking pity on you.
+\e
+
+// 対琥珀（ストーリー専用）
+WinMesArcadeWin04:
+chara_type 101
+So this is the power vampire blood holds. It's called
+"ether," right? Being able to materialize whatever
+you want is great and all, but it kind of sucks being
+limited by the form your soul takes.
+\e
+
+// 対ロア（ストーリー専用）
+WinMesArcadeWin05:
+chara_type 3
+I don't believe it, how could you die so easily?
+C'mon, why don't you reincarnate or something?
+It makes no difference to me!
+\e
+
+// 99まで追加可能
+
+
+// ３連勝・１０連勝専用セリフ
+
+WinMes3WinStreak00:
+chara_type 8
+Heehee. Three wins for me!☆
+Victory is sweet!
+\e
+
+WinMes10WinStreak00:
+chara_type 7
+Yay! I did it! 10 straight wins!
+I'm totally the new heroine of this story!
+\e

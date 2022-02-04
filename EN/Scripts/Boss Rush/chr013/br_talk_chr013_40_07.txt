@@ -1,0 +1,384 @@
+\\@SYSTEM@<9999>
+\\@FADE_IN@<1, 0, 0, 0, 0>
+\aw
+\\@BG_IN@<"screen_bg00", 0, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 76, 100>
+
+
+\\@CHARA_IN@< 2, 3, 0, 1, 0>
+\\@CHARA_IN@< 1, 53, 100, 2, 0>
+\aw
+
+\\@CHARA_IN@< 1, 53, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10110", 100>
+Neco_Arc
+Wow! That family head is so immature!
+In more ways than one!
+\l
+
+\\@CHARA_IN@< 1, 53, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10111", 100>
+Neco_Arc
+How can she treat a child that way?
+What do you have to say about it, Four-Eyes?
+
+\\@CHARA_IN@< 2, 3, -1, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10040", 100>
+Shiki
+I don't think that has anything to do with it.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10041", 100>
+Shiki
+Miyako was fighting in earnest. I think Akiha
+was merely answering her in kind.
+
+\\@CHARA_IN@< 1, 53, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10112", 100>
+Neco_Arc
+Seriously? Are you guys star-crossed lovers or what? I'll
+never understand you people who can get along with everyone.
+\l
+
+\\@CHARA_IN@< 1, 53, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10113", 100>
+Neco_Arc
+What do you think you are, anyway? Some kind of prism
+dispersing, bending, and reflecting the light of others?
+
+\\@CHARA_IN@< 2, 3, 6, 0, 1>//äÏÇ—2
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10042", 100>
+Shiki
+Hahaha. In case you weren't aware, we humans are only
+able to understand about a fifth of what you say.
+
+\\@CHARA_IN@< 1, 53, 100, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10114", 100>
+Neco_Arc
+Oh? That's actually quite ameowzing. I assumed you
+only understood around 1% or so.
+\l
+
+\\@CHARA_IN@< 1, 53, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10115", 100>
+Neco_Arc
+But I digress. We should get back to the matter at hand.
+It seems our princess here is about to wake up...
+
+\\@CHARA_FOCUS_COLOR@< 1, 1>
+\\@CHARA_IN@< 0, 13, 11, 3, 0>
+\aw
+
+\\@CHARA_IN@< 0, 13, -1, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10100", 100>
+Miyako
+AAAHHHHHH!!!
+I'm gonna be killed by my evil stepsister!
+\l
+
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10101", 100>
+Miyako
+Wait... Wha--?
+Where's Akiha? This looks like back where we started...
+
+\\@CHARA_IN@< 1, 53, 102, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10116", 100>
+Neco_Arc
+Oui, mademoiselle. We're back at the entrance to
+your head space, Little Miss Kung Fu.
+\l
+
+\\@CHARA_IN@< 1, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10117", 100>
+Neco_Arc
+How did you enjoy your brief time as the heroine?
+Was your action epic everything you wanted it to be?
+\l
+
+\\@CHARA_IN@< 1, 53, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10118", 100>
+Neco_Arc
+Or were you disappointed at the lack of any sort
+of romantic arc, maybe?
+
+\\@CHARA_IN@< 0, 13, 9, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10102", 100>
+Miyako
+It wasn't completely lacking in a romantic arc!
+We had lunch in a restaurant, just the two of us!
+\l
+
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10103", 100>
+Miyako
+Isn't that right, Brother?!
+
+\\@CHARA_IN@< 2, 3, 1, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10043", 100>
+Shiki
+We did. It was a nice chance for a strategic meeting.
+I think I'll order the pancakes next time, though.
+
+\\@CHARA_IN@< 0, 13, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10104", 100>
+Miyako
+Heehee!
+
+\\@CHARA_IN@< 1, 53, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10119", 100>
+Neco_Arc
+You are aware he's treating you like a child, aren't you?
+
+\\@CHARA_IN@< 0, 13, 17, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10105", 100>
+Miyako
+Never mind that, you dumb cat!
+\l
+
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10106", 100>
+Miyako
+I won that fight against Akiha! What gives?!
+Why did the cutscene act like I lost?!
+\l
+
+\\@CHARA_IN@< 0, 13, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10107", 100>
+Miyako
+Is this a bug in my scenario?!
+
+\\@CHARA_IN@< 1, 53, 110, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 11>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10120", 100>
+Neco_Arc
+Myahahaha.
+There is nothing wrong with the program.
+\l
+
+\\@CHARA_IN@< 1, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10121", 100>
+Neco_Arc
+No matter what path you take or what decision you make,
+that is how your scenario will always end.
+\l
+
+\\@CHARA_IN@< 1, 53, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10122", 100>
+Neco_Arc
+Your destiny is to hit an impassable wall right here every
+time. Get over it. Oh, whoops! You can't!
+\l
+
+\\@CHARA_IN@< 1, 53, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10123", 100>
+Neco_Arc
+As long as you remain Miyako Arima, there is no
+defeating your demon of a stepsister.
+
+\\@CHARA_IN@< 0, 13, 11, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10108", 100>
+Miyako
+No way... Are you saying that my brother will
+never come home, then?
+
+\\@CHARA_IN@< 1, 53, 100, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 14>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10124", 100>
+Neco_Arc
+You cannot win, therefore there is no ending.
+Though I can't say that for certain.
+\l
+
+\\@CHARA_IN@< 1, 53, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10125", 100>
+Neco_Arc
+A master once said...
+
+\\@CHARA_IN@< 1, 53, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10126", 100>
+Neco_Arc
+ÅgThe most dangerous weapon is the ability to draw your
+Å@enemy close, then snatch their loved one away for yourself.Åh
+\l
+
+\\@CHARA_IN@< 1, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10127", 100>
+Neco_Arc
+Wait, that doesn't sound quite right...
+Oh well, close enough.
+\l
+
+\\@CHARA_IN@< 1, 53, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10128", 100>
+Neco_Arc
+Everything starts here, my worthy rival.
+Today, you have experienced utter defeat.
+\l
+
+\\@CHARA_IN@< 1, 53, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10129", 100>
+Neco_Arc
+When next you wake, this bitterness will fuel you,
+propelling you to move forward.
+\l
+
+\\@CHARA_IN@< 1, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10130", 100>
+Neco_Arc
+Don't forget these words of wisdomÅFthere is meaning in
+every failure. Got that? Now say it back to me!
+
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10109", 100>
+Miyako
+Wait, what?
+Are you trying to say that a bad ending isn't meaningless?
+
+\\@CHARA_IN@< 1, 53, 104, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10131", 100>
+Neco_Arc
+Well, well, look at you. That adaptability of yours
+just proves that you have great potential.
+\l
+
+\\@CHARA_IN@< 1, 53, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10132", 100>
+Neco_Arc
+I think that's about enough for this time.
+Until we meet again, Little Miss Kung Fu. Good--
+\l
+
+\\@CHARA_OUT@<2, 3, 12, 2, 1>
+\\@SQ_CALL@<1>
+\\@GO_SUB@<"QUAKE_2">
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Clank", 0, 100>
+\aw
+
+\\@BGM_FADE@<0, 100, 0, -2, 1>
+
+\\@SQ_CALL@<2>
+\\@CHARA_CLEAR@<1>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10133", 100>
+Neco_Arc
+Huh? That's odd.
+Everything is...falling...diagonally...?
+
+
+\\@BGM_PLAY@<1, 75, 100>
+\\@CHARA_IN@< 2, 3, 109, 2, 0>
+\aw
+
+\\@CHARA_IN@< 2, 3, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10044", 100>
+Shiki
+Sorry, but I simply cannot accept this.
+ÅgWhen next you wakeÅh? That's just sloppy writing.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10045", 100>
+Shiki
+If she's going to continue failing, she can do so
+as many times as she wishes right here.
+
+\\@CHARA_IN@< 0, 13, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10110", 100>
+Miyako
+Brother...?
+
+\\@CHARA_IN@< 2, 3, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10046", 100>
+Shiki
+There's no need to leave. You can fight and lose
+in this place just as well as any other, Miyako.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10047", 100>
+Shiki
+The game mechanics already allow for it,
+so why bother repeating the story?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10048", 100>
+Shiki
+Besides, reality isn't nearly as interesting as this
+place can be. Why not simply never wake up?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10049", 100>
+Shiki
+And don't bother trying to complain your way out
+of this. As your brother, it is my duty to educate you.
+
+\\@CHARA_IN@< 0, 13, 13, 50, 20>
+\aw
+\\@CHARA_IN@< 0, 13, -1, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10111", 100>
+Miyako
+You're right...
+I see it now.
+\l
+
+\\@CHARA_IN@< 0, 13, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10112", 100>
+Miyako
+Running from a bad situation just because I lost
+would be the definition of lame.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10113", 100>
+Miyako
+I've got to keep trying until I produce results.
+\l
+
+\\@CHARA_IN@< 0, 13, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10114", 100>
+Miyako
+It's true that Akiha is like a giant wall made of marble.
+But still...
+\l
+
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10115", 100>
+Miyako
+Even if it seems hopeless and I will most likely fail,
+as long as the one I love is in front of me, I have to try.
+
+\\@CHARA_IN@< 2, 3, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10050", 100>
+Shiki
+It would seem I have inadvertently given you courage.
+I'm not very good at playing the villain, am I?
+
+\\@CHARA_IN@< 0, 13, 2, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10116", 100>
+Miyako
+No, you did a great job! And with those menacing
+glasses of yours, you really look the part!
+
+
+\\@CHARA_IN@< 2, 3, 108, 0, 20>
+\aw
+
+
+\\@BGM_STOP@<0>
+\e

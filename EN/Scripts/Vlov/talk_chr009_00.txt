@@ -1,0 +1,107 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"ed_bg00", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 78, 100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0000", 100>
+Worker
+Hey! There's an extra container over here! What should we
+do with it?!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0001", 100>
+Worker
+What? It's not on the manifest. Just stick it in the
+warehouse for now. We'll figure it out later.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0002", 100>
+Worker
+What a pain. Where is this thing from, anyway?
+Moroz Maritime Shipping? Huh...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0003", 100>
+Worker
+Did it come all the way from Russia? Must have gotten
+mixed up somewhere. Oh well, finders keepers.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0004", 100>
+Worker
+Let's see what we've got in here... Oh, it's full of
+flowers...and that looks like a coffin.
+\l
+
+\\@SE_PLAY@<0,"talk/talk_se/Hit_BurningLong",0,100>
+\\@FADE_OUT@<2, 128,0 ,0 ,0>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0005", 100>
+Worker
+Who the he--Whoa! The flowers
+are starting to b--! AHHH!!!
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0006", 100>
+Worker
+Somebody help me! I feel like I'm burning
+up from the inside!
+
+\\@FADE_IN@<2, 128,0 ,0 ,0>
+\aw
+
+\\@CHARA_IN@<0, 9, 0, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+\\@CHARA_IN@< 0, 9, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0050", 100>
+Volv
+It would appear I have arrived at port.
+\l
+
+\\@CHARA_IN@< 0, 9, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0051", 100>
+Volv
+Life is full of little surprises. To think I
+would cross an entire ocean inside a coffin.
+\l
+
+\\@CHARA_IN@< 0, 9, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0052", 100>
+Volv
+Though I suppose this was not the first time. I was sealed
+in a coffin when I was exiled to the northern sea as well.
+\l
+
+\\@CHARA_IN@< 0, 9, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0053", 100>
+Volv
+That was so long ago it feels like another lifetime.
+\l
+
+\\@CHARA_IN@< 0, 9, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0054", 100>
+Volv
+But enough about the past. I will only remain sane for so long.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0055", 100>
+Volv
+This is my last chance. I must acquire the heart of the
+True Ancestor's princess before I lose myself entirely.
+\l
+
+\\@CHARA_IN@< 0, 9, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0056", 100>
+Volv
+And then, I will find that snake and make him pay.
+
+
+\\@BGM_STOP@<0>
+\e

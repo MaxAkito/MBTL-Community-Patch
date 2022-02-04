@@ -1,0 +1,69 @@
+\\@BG_IN@<"screen_bg06", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 6, 0, 1, 0>
+\\@CHARA_IN@<1, 9, 0, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@CHARA_IN@< 0, 6, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0020", 100>
+Kishima
+You, hunter over there. Need to warm up?
+How many years has it been since your body lost its heat?
+
+\\@CHARA_IN@< 1, 9, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0030", 100>
+Volv
+About 100 years...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0031", 100>
+Volv
+Compared to my master's suffering,
+it's too early for me to receive any mercy.
+\l
+
+\\@CHARA_IN@< 1, 9, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0032", 100>
+Volv
+Still...
+\l
+
+\\@CHARA_IN@< 1, 9, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0033", 100>
+Volv
+I don't have any objections to consuming your flame.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0034", 100>
+Volv
+You saw my true form
+and you felt nothing.
+\l
+
+\\@CHARA_IN@< 1, 9, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0035", 100>
+Volv
+Oh, right... That's how you warriors need to be.
+
+\\@CHARA_IN@< 0, 6, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0021", 100>
+Kishima
+These are just some martial arts I picked up,
+but if that's all right with you allow me to show you.
+\l
+
+\\@CHARA_IN@< 0, 6, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0022", 100>
+Kishima
+Remember my name.
+Kouma Kishima. The man who will burn you to the bone.
+
+
+\\@BGM_STOP@<0>
+\e

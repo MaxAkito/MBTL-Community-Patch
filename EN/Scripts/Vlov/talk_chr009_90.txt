@@ -1,0 +1,74 @@
+\\@SYSTEM@<9999>
+\\@FADE_OUT@<0,0,0,0,1>
+\\@BG_IN@<"ed_bg00", 0, 2>
+\aw
+
+\\@FADE_OUT@<1,255,255,255,0>
+\aw
+
+\\@FADE_IN@<0,0,0,0,0>
+\aw
+
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 77, 100>
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0080", 100>
+Volv
+So this is where it ends...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0081", 100>
+Volv
+I hoped facing her would help in some way,
+but it has changed nothing.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0082", 100>
+Volv
+The past cannot be re-written.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0083", 100>
+Volv
+And I have no idea what kind of future I should strive for.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0084", 100>
+Volv
+What is the purpose of someone like
+me living for so long?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0085", 100>
+Volv
+My time adrift has come to an end.
+In all my 200 years of life...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0086", 100>
+Volv
+Not once did I meet an adversary who moved my soul.
+That is my biggest regret.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0087", 100>
+Volv
+It is a fitting end for a man as
+worthless as myself.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0088", 100>
+Volv
+*sigh* This place
+is so cold...
+
+\\@SYSTEM@<21>
+\aw
+
+
+\\@BGM_STOP@<0>
+\e

@@ -1,0 +1,73 @@
+\\@SYSTEM@<9999>
+
+\\@FADE_OUT@<2, 255, 255, 255, 0>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+\\@BGM_PLAY@<0, 76, 100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10140", 100>
+Neco_Arc@Neco_Arc_Rumi
+よくやったミヤコ。
+貴様は心の壁を破壊した。木っ端微塵に。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10120", 100>
+Miyako@Miyako_Hatena
+木っ端微塵に。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10141", 100>
+Neco_Arc@Neco_Arc_Rumi
+あのさわやか眼鏡クンを倒した事で、
+おまえは真の意味で戦う力を手に入れた。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10142", 100>
+Neco_Arc@Neco_Arc_Rumi
+分かるかニャー。有間都古は意味もなく
+キャラセレにいたのではない。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10143", 100>
+Neco_Arc@Neco_Arc_Rumi
+ここで鍛え、戦う力を手に入れたからこそ、
+バトルキャラで参戦していたのだ。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10144_a", 100>
+Neco_Arc@Neco_Arc_Rumi
+たーーーいむ、パラドッーーークス。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10145", 100>
+Neco_Arc@Neco_Arc_Rumi
+よし。言いたい事を言ったので、
+今度こそお別れです。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10146", 100>
+Neco_Arc@Neco_Arc_Rumi
+目覚めた時、アナタはこの夢を忘れているでしょう。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10147", 100>
+Neco_Arc@Neco_Arc_Rumi
+ですが悲しまないでください。
+アタシは間違いなく忘れている。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10148", 100>
+Neco_Arc@Neco_Arc_Rumi
+でもせっかくだから
+最後にもう一つだけ言わせてほしい。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10149", 100>
+Neco_Arc@Neco_Arc_Rumi
+アタシは必ず実装されて戻ってくる！
+ネコ・ストライク・バァーーーーーーック！
+
+
+\\@SYSTEM@<10>
+\aw
+\\@BGM_FADE@<0, 100, 0, -2, 1>
+
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@BGM_STOP@<0>
+\e

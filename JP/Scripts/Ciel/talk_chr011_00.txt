@@ -1,0 +1,54 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg02", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 11, 6, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+\\@BGM_PLAY@<0, 71, 100>
+
+\\@CHARA_IN@< 0, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0030", 100>
+Ciel
+死徒に侵された街……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0031", 100>
+Ciel
+早急に病原を絶つのがわたしたち、
+代行者の役目ですが……
+\l
+
+\\@CHARA_IN@< 0, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0032", 100>
+Ciel
+一ヶ月遅れで合流した彼女は
+日本の街の様子に浮かれるばかりか、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0033", 100>
+Ciel
+自分も学校に潜入する！
+なんて言い出す始末……
+\l
+
+\\@CHARA_IN@< 0, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0034", 100>
+Ciel
+今回、彼女を戦力として当てに
+するのはやめましょう。
+\l
+
+\\@CHARA_IN@< 0, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0035", 100>
+Ciel
+わたしひとりで解決するとしましょうか。
+
+
+\\@BGM_STOP@<0>
+\e

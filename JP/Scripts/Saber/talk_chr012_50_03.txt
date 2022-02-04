@@ -1,0 +1,95 @@
+\\@BG_IN@<"screen_bg04", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 12, 1, 3, 0>
+\\@CHARA_IN@<1,  4, 103, 4, 0>
+\\@CHARA_IN@<3,  1, 1, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@CHARA_IN@< 0, 12, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0010", 100>
+Saber
+む？　ようやく話の通じそうな住人に出逢えました。
+\l
+
+\\@CHARA_IN@< 0, 12, 2, 31, 2>
+\aw
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0011", 100>
+Saber
+もし、そこの可憐な少女ふたり。
+ここは一体どの時代の、どこの国―――
+
+\\@CHARA_IN@< 3, 1, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0040", 100>
+Hisui
+姉さん、発見しました。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0041", 100>
+Hisui
+あの方が街で無差別破壊を繰り返している
+問題人物かと。
+\l
+
+\\@CHARA_IN@< 3, 1, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0042", 100>
+Hisui
+率直に言って、彼女が騎士王です。
+
+\\@CHARA_IN@< 1, 4, 106, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0060", 100>
+Kohaku
+おおう……こうして目の当たりにすると
+言い逃れが出来ないほどバンデッド……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0061", 100>
+Kohaku
+鎧ばかりかビームを放つ剣とか、
+ヒロインとしての自覚はないのでしょうか……
+\l
+
+\\@CHARA_IN@< 1, 4, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0062", 100>
+Kohaku
+ともあれ、あの方を放置しては総耶の法則が乱れます。
+やるわよ、翡翠ちゃん！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0063", 100>
+Kohaku
+翡翠ちゃんは美味しいお弁当で肉体面を！
+わたしはケミカル物質で精神面をいやします！
+
+\\@GO_SUB@<"QUAKE_2">
+\\@SE_PLAY@<0,"talk/talk_se/Cmn_SmokeScreen",0,100>
+\\@GO_SUB@<"DAMEGE_RED">
+
+\\@CHARA_IN@< 0, 12, 0, 21, 2>
+\aw
+\\@CHARA_IN@< 0, 12, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0012", 100>
+Saber
+っ、危ない……！
+\l
+
+\\@CHARA_IN@< 0, 12, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0013", 100>
+Saber
+電柱を溶かすほどの毒弁当だけではなく、
+無色無臭の毒ガス注射とは―――
+\l
+
+\\@CHARA_IN@< 0, 12, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0014", 100>
+Saber
+さてはアサシンのサーヴァントですね！？
+
+\\@BGM_STOP@<0>
+\e

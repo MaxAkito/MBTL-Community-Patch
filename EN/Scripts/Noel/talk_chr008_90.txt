@@ -1,0 +1,114 @@
+\\@SYSTEM@<9999>
+\\@FADE_OUT@<0,0,0,0,1>
+\\@BG_IN@<"ed_bg00", 0, 2>
+\aw
+
+\\@FADE_OUT@<1,255,255,255,0>
+\aw
+
+\\@FADE_IN@<0,0,0,0,0>
+\aw
+
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 76, 100>
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0080", 100>
+Noel
+Ugh!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0081", 100>
+Noel
+In the end, I was saved again. I suppose that's no
+different than any other job, though.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0082", 100>
+Noel
+Still, it's disheartening...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0083", 100>
+Noel
+Although, I guess working in a group has its benefits. He even
+took the lead in the most dangerous situations.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0084", 100>
+Noel
+And you can't argue with results. There's nothing
+wrong with taking the easy route in life!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0085", 100>
+Noel
+I think I've done enough work for the rest of the year!
+Now I can sit back and enjoy life as a teacher.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0086", 100>
+Noel
+I've got a clean room, delicious food, and lots of shops
+to enjoy! Plus the night life in the city is great!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0087", 100>
+Noel
+Huh? What was that?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0088", 100>
+Noel
+That almost looked like one of my students wandering
+through the back alleys.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0089", 100>
+Noel
+It is. That's Satsuki Yumizuka from my class!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0090", 100>
+Noel
+I only remember her because her last name
+bothers me so much.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0091", 100>
+Noel
+What's she doing out this late?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0092", 100>
+Noel
+And what do I do about it?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0093", 100>
+Noel
+Do I pretend I didn't see anything? Or should I be the
+responsible member of the church I am and check on her?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0094", 100>
+Noel
+Oh, why not? I'm in a good mood tonight. Giving away
+a bit of free help every once in a while can't hurt!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0095", 100>
+Noel
+Besides, I'm going to be here for a while. I've got to build
+up my reputation as a dependable young woman!
+
+
+\\@SYSTEM@<21>
+\aw
+
+
+\\@BGM_STOP@<0>
+\e

@@ -1,0 +1,79 @@
+\\@BG_IN@<"screen_bg06", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 11, 3, 1, 0>
+\\@CHARA_IN@<1,  9, 0, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@GO_SUB@<"QUAKE_1">
+\\@CHARA_IN@< 0, 11, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0050", 100>
+Ciel
+One of the Twenty-seven Dead Apostle Ancestors?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0051", 100>
+Ciel
+I did not expect to find one such as yourself
+residing in a place like this.
+
+\\@CHARA_IN@< 1, 9, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0090", 100>
+Volv
+An executor...
+I admit I am surprised as well.
+\l
+
+\\@CHARA_IN@< 1, 9, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0091", 100>
+Volv
+How unseemly. Does the church truly believe it has
+the right to spread its ugly tendrils this far east?
+\l
+
+\\@CHARA_IN@< 1, 9, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0092", 100>
+Volv
+No matter, no matter how far you extend your reach,
+you'll never make any difference worth speaking of.
+\l
+
+\\@CHARA_IN@< 1, 9, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0093", 100>
+Volv
+Much like how your coming to this town was pointless. A hound
+which can no longer smell is of no use to anyone.
+\l
+
+\\@CHARA_IN@< 1, 9, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0094", 100>
+Volv
+You will die a dog's death here tonight, girl.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0095", 100>
+Volv
+And your battered and broken body will serve as
+amusement for the dead.
+
+\\@CHARA_IN@< 0, 11, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0052", 100>
+Ciel
+I believe you have our roles reversed. This meeting was
+unexpected, but you shall pay for your sins all the same.
+\l
+
+\\@CHARA_IN@< 0, 11, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0053", 100>
+Ciel
+I carry out the will of the Lord above.
+You cannot escape His judgment.
+
+
+\\@BGM_STOP@<0>
+\e

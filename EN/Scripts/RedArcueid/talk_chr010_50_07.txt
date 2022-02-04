@@ -1,0 +1,181 @@
+\\@BG_IN@<"screen_bg05", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 10, 3, 1, 0>
+\\@CHARA_IN@<1,  5, 1, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+
+\\@CHARA_IN@< 0, 10, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0020", 100>
+Red_Arcueid
+How disappointing...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0021", 100>
+Red_Arcueid
+What are you doing here, Roa?
+I was expecting Shiki!
+\l
+
+\\@CHARA_IN@< 0, 10, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0022", 100>
+Red_Arcueid
+He's the one who's supposed to be trying to kill me!
+\l
+
+\\@CHARA_IN@< 0, 10, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0023", 100>
+Red_Arcueid
+I've been waiting for this moment!
+Looking forward to it, even!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0024", 100>
+Red_Arcueid
+He was supposed to be my reward for
+crushing all those weaklings!
+\l
+
+\\@CHARA_IN@< 0, 10, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0025", 100>
+Red_Arcueid
+I demand a swap! A do-over! Just get out of here!
+I don't want to see that gloomy face of yours!
+\l
+
+\\@CHARA_IN@< 0, 10, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0026", 100>
+Red_Arcueid
+Leave now or I'm going to show you what it's like
+to beg for the sweet relief of death.
+
+\\@CHARA_IN@< 1, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0070", 100>
+Roa
+I'm the one who's disappointed.
+\l
+
+\\@CHARA_IN@< 1, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0071", 100>
+Roa
+With a little more influence over your world,
+my position would have improved dramatically.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0072", 100>
+Roa
+It's inevitable. This body will be mine.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0073", 100>
+Roa
+Surely you have realized the more you behave like
+a selfish child, as you have been...
+\l
+
+\\@CHARA_IN@< 1, 5, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0074", 100>
+Roa
+The more Shiki Tohno will suffer.
+
+\\@CHARA_IN@< 0, 10, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0027", 100>
+Red_Arcueid
+.....
+
+\\@CHARA_IN@< 1, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0075", 100>
+Roa
+It appears you've become too human.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0076", 100>
+Roa
+To think that the perfect moon princess has fallen
+so far as to become a lowly beast herself.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0077", 100>
+Roa
+You haven't simply gone berserk, you've truly lost yourself.
+\l
+
+\\@CHARA_IN@< 1, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0078", 100>
+Roa
+Though I suppose I don't have
+much room to judge.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0079", 100>
+Roa
+These flesh bodies are such troublesome things. It's too
+easy for their true character to bleed through.
+
+\\@CHARA_IN@< 0, 10, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0028", 100>
+Red_Arcueid
+I see. Yes, now that I think about it,
+it is painfully obvious.
+\l
+
+\\@CHARA_IN@< 0, 10, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0029", 100>
+Red_Arcueid
+You say my actions have caused
+Shiki to suffer?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0030", 100>
+Red_Arcueid
+In that case, he has more than atoned
+for the sin of killing me.
+\l
+
+\\@CHARA_IN@< 0, 10, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0031", 100>
+Red_Arcueid
+Hehehe. Still...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0032", 100>
+Red_Arcueid
+Just because the perpetrator has served his sentence
+does not mean the victim has been satisfied.
+\l
+
+\\@CHARA_IN@< 0, 10, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0033", 100>
+Red_Arcueid
+I'll still make him experience just what
+I am forced to endure.
+\l
+
+\\@CHARA_IN@< 0, 10, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0034", 100>
+Red_Arcueid
+He will know this constant boiling urge to drink blood.
+But first, I must remove those who would stand in my way.
+\l
+
+\\@CHARA_IN@< 0, 10, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0035", 100>
+Red_Arcueid
+Very well, Roa. I will just have to
+make the best of the situation.
+\l
+
+\\@CHARA_IN@< 0, 10, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0036", 100>
+Red_Arcueid
+You will make a fine appetizer before the main course.
+Don't worry. I'll be sure to mind my table manners.
+
+\\@BGM_STOP@<0>
+\e

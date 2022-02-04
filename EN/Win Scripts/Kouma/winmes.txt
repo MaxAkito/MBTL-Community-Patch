@@ -1,0 +1,110 @@
+WinMesScript
+
+
+WinMes00:
+chara_type 0
+Am I looking for an assistant? No, but I'll be happy to
+give you a nice send-off. It may be a bit crude, though.
+\e
+
+
+WinMes01:
+chara_type 1
+How reckless. You're still far from understanding all
+three thousand realms in a single moment.
+\e
+
+
+WinMes02:
+chara_type 0
+There is nothing innately good or bad about killing. It's
+arrogant to assume you must define what is evil.
+\e
+
+
+WinMes03:
+chara_type 0
+What was that? An ape is more evolved than you are.
+\e
+
+
+WinMes04:
+chara_type 0
+Cast off your ties to this worldly plane and enter Nirvana
+without regret.
+\e
+
+
+WinMes05:
+chara_type 0
+Not bad. If you're ever itching for another fight,
+feel free to come find me.
+\e
+
+
+WinMes06:
+chara_type 0
+That was actually quite impressive.
+Are you sure you're human?
+\e
+
+
+WinMes07:
+chara_type 0
+A seed does not choose the soil in which it grows.
+And it does not matter if it produces no fruit
+or becomes a poisonous weed, for you have
+already judged both to be evil.
+\e
+
+
+// 対志貴
+WinMes08:
+chara_type 1
+I am not the one you seek. Try someone else.
+\e
+
+
+// 対アルク
+WinMes09:
+chara_type 0
+You are a most bizarre woman. You may
+be regarded as a holy figure somewhere,
+but not in this country.
+\e
+
+
+// 対ヒスコハ
+WinMes10:
+chara_type 0
+I once knew a pair of sisters who resembled you two.
+I'm going to need you to leave.
+\e
+
+
+// 対志貴(ストーリーでのエンカウント専用)
+WinMesArcadeWin03:
+chara_type 1
+Unfortunately, I do not see things the same way you do.
+I regret nothing. In fact, I have committed no sin at all.
+If you wish to settle this, come back when you can kill me.
+\e
+
+
+// 99まで追加可能
+
+
+// ３連勝・１０連勝専用セリフ
+
+WinMes3WinStreak00:
+chara_type 0
+Three wins in a row is proof of your skill.
+I see you've trained well.
+\e
+
+
+WinMes10WinStreak00:
+chara_type 0
+Ten wins in a row is quite impressive. If this were a
+tournament, it would already be over.
+\e

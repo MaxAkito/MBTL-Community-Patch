@@ -1,0 +1,133 @@
+WinMesScript
+
+
+WinMes00:
+chara_type 1
+That's enough cleaning for one day. I would appreciate
+it if you stopped with the childish pranks.
+\e
+
+
+WinMes01:
+chara_type 0
+An overwhelming victory for me! See?! I can win even
+without Hisui's help!
+\e
+
+
+WinMes02:
+chara_type 3
+chara_type_sub 1
+chara_switchframe 230
+We should be trying to get along instead of fighting. I'll
+prepare some tea for when you regain consciousness,
+so feel free to sleep as long as you need to! ô
+\e
+
+
+WinMes03:
+chara_type 0
+That was rather dangerous. Such behavior should be
+discarded like the previous night's refuse!
+\e
+
+
+WinMes04:
+chara_type 1
+Please use the main entrance next time. That way I might
+give you an even warmer welcome.
+\e
+
+
+WinMes05:
+chara_type 102
+Were you surprised? I am a maid under the employ of the
+Tohno family, you know. We take great pride in our
+impeccable manners.
+\e
+
+
+WinMes06:
+chara_type 102
+Was that to your satisfaction? I will be sure to bring an
+even stronger dose of medicine for you next time.
+\e
+
+
+WinMes07:
+chara_type 1
+The best medicines are those which taste most bitter. It may
+be difficult to hear, but now that you have learned your
+lesson, I expect to see an improvement in your behavior.
+\e
+
+
+WinMes08:
+chara_type 100
+That was quite the battle. If I train even harder, I could
+take control of the mansion and-- No! What am I saying?!
+My duty is to protect Lady Akiha and Shiki!
+\e
+
+
+WinMes09:
+chara_type 0
+I took the liberty of treating your wounds. Feel free to
+come back for another round once you have healed.
+\e
+
+
+// ‘Îu‹M
+WinMes10:
+chara_type 2
+I'm terribly sorry, Shiki. Allow me to apologize
+by preparing a meal for you. Please accompany me to
+the dining hall.
+\e
+
+
+// ‘ÎH—t
+WinMes11:
+chara_type 102
+Heehee. This round is mine, Lady Akiha. Don't forget our
+agreement. I get to install more surveillance cameras and
+will receive a larger budget for Shiki's medicine! ô
+\e
+
+
+// ‘ÎãÅ‰
+WinMes12:
+chara_type 1
+Looks like I win, Hisui.
+As agreed, you will take over my cleaning duties
+for the next week! ô
+\e
+
+
+// 99‚Ü‚Å’Ç‰Á‰Â”\
+
+
+
+
+// ‚R˜AŸE‚P‚O˜AŸê—pƒZƒŠƒt
+
+
+WinMes3WinStreak00:
+chara_type 0
+Well done! That's three wins! ô
+I'll prepare a feast in celebration!
+\e
+
+
+WinMes10WinStreak00:
+chara_type 1
+The up-and-coming battle champion, with 10 consecutive wins!
+Show us how far you can go!
+\e
+
+
+//‰B‚µƒLƒƒƒ‰‰ğ•útest
+UnlockMes00:
+chara_type 0
+Kohaku story has been unlocked.
+\e

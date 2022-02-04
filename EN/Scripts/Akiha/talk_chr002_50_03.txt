@@ -1,0 +1,62 @@
+\\@BG_IN@<"screen_bg03", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 2, 0, 1, 0>
+\\@CHARA_IN@<1, 4, 103, 4, 0>
+\\@CHARA_IN@<3, 1, 1, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+
+\\@CHARA_IN@< 0, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0010", 100>
+Akiha
+I have had enough. Just what do you two think
+you are doing here?
+
+\\@GO_SUB@<"QUAKE_1">
+\\@CHARA_IN@< 1, 4, 104, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0000", 100>
+Kohaku
+Eek! Lady Akiha?! What are you doing outside
+of the estate?!
+\l
+
+\\@CHARA_IN@< 1, 4, 105, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 14>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0001", 100>
+Kohaku
+Oh, um, excuse me. What I meant to say was we came to
+investigate the town in your stead. We know you're busy.
+
+\\@CHARA_IN@< 0, 2, 0, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0011", 100>
+Akiha
+I don't need to hear your excuses.
+\l
+
+\\@CHARA_IN@< 0, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0012", 100>
+Akiha
+You two are responsible for protecting the estate.
+All other activities are strictly forbidden.
+\l
+
+\\@CHARA_IN@< 0, 2, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0013", 100>
+Akiha
+I assume you are prepared to accept punishment for neglecting
+your duties and sneaking off without my knowledge?
+
+
+// \\@CHARA_OUT@<0, -1, -1, 1, 0>
+\aw
+
+\\@BGM_STOP@<0>
+\e

@@ -1,0 +1,47 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg01", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 1, 1, 1, 0>
+\\@CHARA_IN@<1, 4, 100, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 72, 100>
+
+\\@CHARA_IN@< 0, 1, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0000", 100>
+Hisui
+Kohaku, have you seen Lady Akiha or Master Shiki? I can't
+seem to find them anywhere.
+
+\\@CHARA_IN@< 1, 4, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0020", 100>
+Kohaku
+Are you certain? Hm...I have a
+bad feeling about this...
+
+\\@CHARA_IN@< 0, 1, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0001", 100>
+Hisui
+Um... Kohaku?
+
+\\@CHARA_IN@< 1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0021", 100>
+Kohaku
+Don't worry. I understand. Come, Hisui!
+We're heading into town tonight!
+\l
+
+\\@CHARA_IN@< 1, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0022", 100>
+Kohaku
+Hehehe! We can't let Lady Akiha
+have all the fun!
+
+
+\\@BGM_STOP@<0>
+\e

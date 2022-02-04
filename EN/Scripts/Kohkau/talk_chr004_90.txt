@@ -1,0 +1,88 @@
+\\@SYSTEM@<9999>
+\\@FADE_OUT@<0,0,0,0,1>
+\\@BG_IN@<"ed_bg00", 0, 2>
+\aw
+
+\\@FADE_OUT@<1,255,255,255,0>
+\aw
+
+\\@FADE_IN@<0,0,0,0,0>
+\aw
+
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 76, 100>
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0050", 100>
+Kohaku
+What a wonderful morning!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0051", 100>
+Kohaku
+The town looks to be back to normal. And there doesn't
+seem to be anything wrong with the garden! I'm so glad! Åô
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0052", 100>
+Kohaku
+Though I'm still not quite sure what that floating
+sensation or that man in the coat were all about.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0053", 100>
+Kohaku
+It has me a bit worried, but I suppose not
+everything in the world can be explained.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0054", 100>
+Kohaku
+Even if things seem normal at first glance, society is
+filled with mysteries and absurdities.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0055", 100>
+Kohaku
+If I think of it that way, my experience last night
+could be considered akin to a fun little festival.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0056", 100>
+Kohaku
+You'd have to be dreaming to think everything would
+make sense as soon as morning came around.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0057", 100>
+Kohaku
+Anyway, back to work.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0058", 100>
+Kohaku
+All seems in order with the estate. Which means
+all is right with the world.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0059", 100>
+Kohaku
+Even so, I must not allow myself to relax. I shall continue
+to perform my duties with dignity and poise.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0060", 100>
+Kohaku
+I am a servant under the employ of the Tohno family.
+I shall serve Lady Akiha to the absolute best of my abilities!
+
+\\@SYSTEM@<21>
+\aw
+
+
+\\@BGM_STOP@<0>
+\e

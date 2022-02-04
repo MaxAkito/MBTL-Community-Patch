@@ -1,0 +1,242 @@
+\\@SYSTEM@<9999>
+\\@FADE_IN@<1, 0, 0, 0, 0>
+\aw
+\\@BG_IN@<"screen_bg06", 0, 0>
+\\@SQ_CALL@<1>
+\\@FADE_IN@<1,255,255,255,0>
+\\@SE_PLAY@<0, "talk/talk_se/Atk_StrongWind", 0, 100>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@CHARA_IN@< 0, 13, 3, 1, 0>
+\\@CHARA_IN@< 2, 3,  0, 1, 0>
+\aw
+
+\\@CHARA_IN@< 2, 3, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10010", 100>
+Shiki
+Miyako, watch out! There's a huge block of ice right
+above you!
+
+\\@CHARA_IN@< 0, 13, 10, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10050", 100>
+Miyako
+What?! But it's the middle of summer! Whatever, no time
+to worry about that! Hyah!
+
+
+\\@CHARA_IN@< 0, 13, 4, 52, 20>
+\\@CHARA_MUKI@<0,0>
+\\@SQ_CALL@<2>
+\\@SE_PLAY@<1, "talk/talk_se/Atk_IcePillar", 0, 100>
+\w<20>
+\\@SE_PLAY@<0, "talk/talk_se/Hit_PunchC", 0, 100>
+\\@GO_SUB@<"QUAKE_1">
+\\@CHARA_IN@< 0, 13, -1, 50, 20>
+\\@CHARA_FOCUS_COLOR@< 0, 1>
+\aw
+
+\\@CHARA_IN@< 1, 9,  0, 2, 100>
+\aw
+
+\\@CHARA_IN@< 1, 9, 4, 0, 101>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10000", 100>
+Volv@Volv_Fuyu
+To think you would destroy my gift like that. Everyone
+here is so heartless. The cruelty is overwhelming.
+
+\\@CHARA_OUT@<0, 13, -1, 0, 0>
+\\@CHARA_OUT@<1, 9, -1, 0, 0>
+\\@CHARA_OUT@<2, 3, -1, 0, 0>
+\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\aw
+
+\\@DRAW_EFFECT@<1>
+\aw
+
+\\@BGM_PLAY@<1, 72, 100>
+
+\\@CHARA_IN@< 3, 53,  0, 44, 0>
+\\@CHARA_MUKI@<3,0>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10070", 100>
+Neco_Arc
+~Quick Recap~
+\l
+
+\\@CHARA_IN@< 3, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10071", 100>
+Neco_Arc
+Miyako defeated the master assassin, Noel. However, not
+ten minutes passed before the peace was broken.
+\l
+
+\\@CHARA_IN@< 3, 53, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10072", 100>
+Neco_Arc
+A new threat was out for Shiki Tohno's blood.
+It was Ded Moroz, Grandfather Frost himself!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10073", 100>
+Neco_Arc
+Misaki Town was hit with an extreme cold front.
+\l
+
+\\@CHARA_IN@< 3, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10074", 100>
+Neco_Arc
+At this rate, the sales of snow cones would hit a record
+low and the beach-front cafes would be in trouble!
+\l
+
+\\@CHARA_IN@< 3, 53, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10075", 100>
+Neco_Arc
+To save the essence of the season, not to mention
+summer vacation with her brother...
+\l
+
+\\@CHARA_IN@< 3, 53, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10076", 100>
+Neco_Arc
+Miyako was prepared to unleash her hidden strength!
+
+\\@CHARA_OUT@<3, -1, -1, 0, 0>
+\\aw
+\\@BGM_FADE@<1, 100, 0, -2, 1>
+
+
+\\@DRAW_EFFECT@<0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+\\@CHARA_IN@< 0, 13, 4, 11, 0>
+\\@CHARA_IN@< 2, 3,  0, 11, 0>
+\\@CHARA_IN@< 1, 9,  0, 12, 100>
+\aw
+
+
+\\@CHARA_IN@< 1, 9, -1, 0, 101>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10001", 100>
+Volv@Volv_Fuyu
+I thought this would get easier with time, but...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10002", 100>
+Volv@Volv_Fuyu
+Seeing such a lovely young girl so violently refuse
+one's gift always seems to sting.
+\l
+
+\\@CHARA_IN@< 1, 9, 4, 0, 101>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10003", 100>
+Volv@Volv_Fuyu
+Such a pity. I heard those were all the craze right now.
+
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10051", 100>
+Miyako
+Oh, look! There was something inside the ice!
+I wonder what it is. Let's see...
+
+\\@CHARA_IN@< 2, 3, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10011", 100>
+Shiki
+It's an expansion pack for that popular card game.
+This one's from two generations ago, though.
+\l
+
+\\@CHARA_IN@< 2, 3, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10012", 100>
+Shiki
+Not really useful anymore, though it did have some cards
+that collectors would love to get their hands on.
+
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10052", 100>
+Miyako
+Really? That's too bad.
+I do like the art, though.
+
+\\@CHARA_IN@< 1, 9, 2, 0, 101>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10004", 100>
+Volv@Volv_Fuyu
+What...are you saying...? Where I'm from...those are the
+newest cards we have...
+
+\\@CHARA_IN@< 2, 3, 1, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10013", 100>
+Shiki
+\\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
+\\@EMG_PRINT@<"Special translation: Where is this duelist from?", 102, 1060, 650>
+You must live in the middle of nowhere, then. You should
+really try harder to keep up with the times.
+
+\\@GO_SUB@<"QUAKE_2">
+\\@CHARA_IN@< 1, 9, 6, 0, 101>
+\\@CHARA_EMOVE@<1, -1 , 14>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10005", 100>
+Volv@Volv_Fuyu
+Why...
+YOOOUUUUUUUUU!!!!!!
+
+\\@CHARA_IN@< 0, 13, 5, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10053", 100>
+Miyako
+AHHH!!!
+D-D-Don't scare me like that, Mr. Moroz!
+
+\\@CHARA_IN@< 1, 9, 5, 0, 101>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10006", 100>
+Volv@Volv_Fuyu
+Your brother there just touched a nerve, you know.
+Keep up with the times, you say?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10007", 100>
+Volv@Volv_Fuyu
+Even the postal service in my town is six months behind!
+Same-day delivery is something we can only dream of!
+\l
+
+\\@CHARA_IN@< 1, 9, 1, 0, 101>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10008", 100>
+Volv@Volv_Fuyu
+This is precisely why you city people are beyond
+salvation! Just like I thought! You all deserve to die!
+\l
+
+\\@CHARA_IN@< 1, 9, 2, 0, 101>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10009", 100>
+Volv@Volv_Fuyu
+I am Ded Moroz, Grandfather Frost. To some, I am known
+as Santa Claus!
+\l
+
+\\@CHARA_IN@< 1, 9, 5, 0, 101>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10010", 100>
+Volv@Volv_Fuyu
+And once I bury your entire transportation network in
+snow, you'll know exactly how good you've had it!
+
+\\@CHARA_IN@< 0, 13, 6, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10054", 100>
+Miyako
+What?! Look, I get how you must feel, but that
+doesn't sound like something Santa Claus would say!
+
+
+\\@BGM_STOP@<0>
+\e

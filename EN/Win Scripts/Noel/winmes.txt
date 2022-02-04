@@ -1,0 +1,130 @@
+WinMesScript
+
+
+WinMes00:
+chara_type 3
+Eeek! ☆ That was a really close one!
+I was so scared!
+There, that should be good for those degenerates
+in the church I work with. And...send.
+\e
+
+
+WinMes01:
+chara_type 2
+You didn't think I'd let you off the hook, did you?
+Finding a heathen worthy of pity is harder than
+finding marriage material at a speed-dating event.
+\e
+
+
+WinMes02:
+chara_type 5
+What? You expected me to go easy on you? Why would I
+do that when I can barely hold my own out here?
+Are you an idiot?
+\e
+
+
+WinMes03:
+chara_type 100
+All losers get processed exactly the same. Though I suppose
+if you've got a nice face, I might be able to show a
+teensy bit of favoritism.
+\e
+
+
+WinMes04:
+chara_type 100
+You know an executor of the church stronger than me?
+Is that so? Very well, then. I'll just have to show you
+exactly what makes me better than them.
+\e
+
+
+WinMes05:
+chara_type 0
+Holy Father, Your will shall be done.
+Such a convenient little phrase, don't you think?
+\e
+
+
+WinMes06:
+chara_type 101
+What should I do on my day off tomorrow? I don't have the
+energy for speed dating or another self-improvement class.
+\e
+
+
+WinMes07:
+chara_type 104
+Somehow I managed to survive another night.
+I'm just an average person. How long
+can I keep this up?
+\e
+
+
+// 対シエル
+WinMes08:
+chara_type 6
+What? No way! I've been had?! Have you got the flu
+or something, Ciel?!
+\e
+
+
+// 対吸血鬼
+// アルク、ロア、ヴローヴ、暴走アルク、秋葉
+WinMes09:
+chara_type 103
+You think you're so special, don't you? Well if you're so
+much better than us humans, then maybe you should find
+someone who isn't human to fight.
+\e
+
+
+// 対ノエル
+WinMes10:
+chara_type 5
+What was that? A phantom of m--?
+Come on Noel, pull yourself together.
+You're still just a regular human.
+\e
+
+
+// 対秋葉シナリオ用
+WinMesArcadeWin02:
+chara_type 6
+Now's my chance! Time to retreat!
+Phew... I think I managed to lose her.
+What was with that girl's specs, anyway? Invisible attacks?
+It's almost like the rumors of the True Ancestors...
+\e
+
+
+// 対ヴローヴシナリオ用
+WinMesArcadeWin09:
+chara_type 3
+All right! I managed to drive him into a corner! I may
+actually be able to pull this off. No, I'm sure I can pull
+this off! I just need to trap him in the church, then--
+What?! He decides to get serious now?!
+\e
+
+
+// 99まで追加可能
+
+
+// ３連勝・１０連勝専用セリフ
+
+WinMes3WinStreak00:
+chara_type 3
+That makes three. Keep this up
+and I'll give you extra credit!
+\e
+
+
+WinMes10WinStreak00:
+chara_type 4
+Ten wins in a row?! Wow! ☆
+Let's go to Vegas and celebrate!
+\e

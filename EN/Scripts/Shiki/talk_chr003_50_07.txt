@@ -1,0 +1,80 @@
+\\@BG_IN@<"screen_bg06", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 3, 0, 1, 0>
+\\@CHARA_IN@<1, 9, 1, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@CHARA_IN@< 0, 3, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0020", 100>
+Shiki
+So you're behind the vampire disturbances, huh? You sure
+have been making a mess of things.
+
+\\@CHARA_IN@< 1, 9, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0020", 100>
+Volv
+You think I'm to blame for the sorry state of this town?
+For a murderer, you sure aren't very good at provocation.
+\l
+
+\\@CHARA_IN@< 1, 9, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0021", 100>
+Volv
+But that makes me more sad than angry. Kind of like how
+it's difficult to hold murderous intentions toward a fool.
+
+\\@CHARA_IN@< 0, 3, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0021", 100>
+Shiki
+Is that so? Sorry to disappoint you, but I don't really
+care what your opinion of me is.
+\l
+
+\\@CHARA_IN@< 0, 3, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0022", 100>
+Shiki
+The mere sight of a vampire is almost enough to make
+me lose myself in anger.
+
+\\@CHARA_IN@< 1, 9, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0022", 100>
+Volv
+I see. So the wounds may have faded from
+memory but the scars remain.
+\l
+
+\\@CHARA_IN@< 1, 9, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0023", 100>
+Volv
+Such a shame that your anger forces you to challenge even
+the Dead Apostles, despite being a mere human.
+\l
+
+\\@CHARA_IN@< 1, 9, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0024", 100>
+Volv
+I can't very well turn down such a challenge, can I?
+\l
+
+\\@CHARA_IN@< 1, 9, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0025", 100>
+Volv
+Come at me then, you walking blood bag. I shall be
+more than happy to help cool your head...permanently.
+\l
+
+\\@CHARA_IN@< 0, 3, 102, 0, 1>//“{‚è2
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0023", 100>
+Shiki
+You talk big, but the only thing that will help me now, be it
+to cool my head or warm my heart, is your death.
+
+
+\\@BGM_STOP@<0>
+\e

@@ -1,0 +1,113 @@
+\\@SYSTEM@<9999>
+\\@FADE_OUT@<0,0,0,0,1>
+\\@BG_IN@<"ed_bg00", 0, 2>
+\aw
+
+\\@FADE_OUT@<1,255,255,255,0>
+\aw
+
+\\@FADE_IN@<0,0,0,0,0>
+\aw
+
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 76, 100>
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0060", 100>
+Miyako
+And so it was that my brother returned home, all thanks to
+my heroic demonstration of the bajiquan style!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0040", 100>
+Shiki
+Thanks, Miyako.
+You did well.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0041", 100>
+Shiki
+I didn't know what to do after being captured by my evil
+sister, but thanks to you I've been freed.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0042", 100>
+Shiki
+There really is no place like the Arima family home. And,
+that's because you're here, Miyako.
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0061", 100>
+Miyako
+Heehee!
+Heeheehee!!!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0062", 100>
+Miyako
+Stand right over here for a minute! I want to show you
+the new move I learned!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0063", 100>
+Miyako
+I expect you to make up for all the time you were away
+with plenty of guidance and encouragement!
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0043", 100>
+Shiki
+Of course. For starters, don't forget to stay
+hydrated while you train.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0044", 100>
+Shiki
+It'll all be for nothing if you don't take care of your body.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0064", 100>
+Miyako
+Right! I know, silly! But thanks
+for reminding me!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0065", 100>
+Miyako
+Perhaps it was because of my adventure-filled day...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0066", 100>
+Miyako
+But it would seem that fighting all those people helped
+me get over my shyness around my brother.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0067", 100>
+Miyako
+We restored the dojo to its former beauty,
+and my brother's anemia was cured!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0068", 100>
+Miyako
+There was nothing more to be afraid of!
+And we lived happily ever after! Åô
+
+\\@SPEAKERCG_IN@<0,52,0,-245,120,-245,120,255,255,0,820,820,0>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0040", 100>
+Bake_Neko
+Mm... That was purrfect.
+Shall we roll the credits now?
+
+
+\\@SPEAKERCG_OUT@<0,52,0,-800,120,-800,120,255,0,0,820,820,0>
+\\@SYSTEM@<21>
+\aw
+
+
+\\@BGM_STOP@<0>
+\e

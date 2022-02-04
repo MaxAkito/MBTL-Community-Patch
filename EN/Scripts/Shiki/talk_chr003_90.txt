@@ -1,0 +1,87 @@
+\\@BG_IN@<"screen_bg03", 0, 2>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@< 0, 3, 0, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+\\@BGM_PLAY@<0, 76, 100>
+
+\\@CHARA_IN@< 0, 3, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0030", 100>
+Shiki
+Phew... That was more difficult than I'd imagined.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0031", 100>
+Shiki
+It turned out all right in the end, but I'd rather not have to
+fight someone like that again.
+\l
+
+\\@CHARA_IN@< 0, 3, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0032", 100>
+Shiki
+My whole body feels heavy. I had my glasses off for too
+long. I'm going to have trouble getting home at this rate.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0033", 100>
+Shiki
+I'll just rest for a while longer...
+
+\\@CHARA_OUT@<0, -1, -1, 0, 0>
+\aw
+\\@BGM_STOP@<0>
+
+\\@SQ_CALL@<1>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0034", 100>
+That's when...
+\l
+
+\\@SQ_CALL@<2>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0035", 100>
+I, the vessel known as Shiki Tohno, heard something
+shatter, despite any visible changes.
+\l
+
+\\@BGM_PLAY@<0, 77, 100>
+\\@SQ_CALL@<3>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0036", 100>
+My pulse suddenly quickened.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0037", 100>
+Without warning, it was racing a mile a minute.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0038", 100>
+I could feel my veins throbbing inside my body.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0039", 100>
+Every synapse fired as I was enveloped in heat.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0040", 100>
+Shiki
+Ah...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0041", 100>
+The night was not over yet.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0042", 100>
+That was the moment from which my real destiny with the
+vampires began.
+
+
+\\@BGM_STOP@<0>
+\e

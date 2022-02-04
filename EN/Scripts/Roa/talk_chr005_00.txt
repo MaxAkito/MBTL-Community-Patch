@@ -1,0 +1,88 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg09", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 5, 1, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+\\@BGM_PLAY@<0, 78, 100>
+
+\\@CHARA_IN@< 0, 5, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0000", 100>
+Roa
+I am...alive? Even though my Death Point was cut with
+the Mystic Eyes of Death Perception?
+\l
+
+\\@CHARA_IN@< 0, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0001", 100>
+Roa
+Did she fail to kill me? No...
+\l
+
+\\@CHARA_IN@<0, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0002", 100>
+Roa
+I remember her being very careful to take me
+apart piece by piece.
+\l
+
+\\@CHARA_IN@<0, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0003", 100>
+Roa
+The vampire known as Roa was killed. That is certain.
+\l
+
+\\@CHARA_IN@< 0, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0004", 100>
+Roa
+This is something else entirely.
+\l
+
+\\@CHARA_IN@< 0, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0005", 100>
+Roa
+So am I the oddity here?
+Or is it something about this place?
+\l
+
+\\@CHARA_IN@< 0, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0006", 100>
+Roa
+If it's me, then I'd assume it's some sort of parting gift
+from her. That would make the most sense.
+\l
+
+\\@CHARA_IN@< 0, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0007", 100>
+Roa
+If it's this place, well... I have no idea
+who I am this time.
+\l
+
+\\@CHARA_IN@< 0, 5, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0008", 100>
+Roa
+No use dwelling on it...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0009", 100>
+Roa
+It would seem I still have a job to do, but let's leave
+that to the others for the time being.
+\l
+
+\\@CHARA_IN@< 0, 5, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0010", 100>
+Roa
+Who knows how long I've got this time. I should make use of
+this body while I can. Time to take it out for a spin.
+
+
+\\@BGM_STOP@<0>
+\e

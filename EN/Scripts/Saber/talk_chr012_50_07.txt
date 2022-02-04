@@ -1,0 +1,104 @@
+\\@BG_IN@<"screen_bg06", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 12, 1, 1, 0>
+\\@CHARA_IN@<1,  5, 1, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@CHARA_IN@< 1, 5, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0080", 100>
+Roa
+Now this is interesting. The soul of a heroic
+spirit manifesting as a familiar?
+\l
+
+\\@CHARA_IN@< 1, 5, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0081", 100>
+Roa
+You must be what they refer to
+as a ghost liner.
+
+\\@CHARA_IN@< 0, 12, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0020", 100>
+Saber
+.....
+\l
+
+\\@CHARA_IN@< 0, 12, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0021", 100>
+Saber
+Your presence is similar to that of my own, yet while I
+sense a piousness, you also reek of black magic.
+\l
+
+\\@CHARA_IN@< 0, 12, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0022", 100>
+Saber
+Are you the one who summoned me?
+
+\\@CHARA_IN@< 1, 5, 1, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 14>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0082", 100>
+Roa
+Nope. Wasn't me.
+\l
+
+\\@CHARA_IN@< 1, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0083", 100>
+Roa
+I never was interested in the summoning arts. Besides, poking
+holes in the world is for those with too much free time.
+\l
+
+\\@CHARA_IN@< 1, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0084", 100>
+Roa
+I may not look it, but I'm a rather busy man.
+\l
+
+\\@CHARA_IN@< 1, 5, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0085", 100>
+Roa
+This is not your story. Return to wherever it is you came
+from. The stray princess is too easily distracted.
+\l
+
+\\@CHARA_IN@< 1, 5, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0086", 100>
+Roa
+If she were to fight now, my preparations would be ruined.
+
+\\@CHARA_IN@< 0, 12, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0023", 100>
+Saber
+In other words, you are planning to use
+this town in some sort of ritual.
+\l
+
+\\@CHARA_IN@< 0, 12, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0024", 100>
+Saber
+I still do not know why I was summoned to this place,
+but I know I cannot allow you to continue.
+\l
+
+\\@CHARA_IN@< 0, 12, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0025", 100>
+Saber
+The time or place does not matter. It is the sworn duty
+of a knight to protect the lives of the innocent.
+\l
+
+\\@CHARA_IN@< 0, 12, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0026", 100>
+Saber
+Unclean magus! You shall meet your
+end upon my holy blade!
+
+\\@BGM_STOP@<0>
+\e

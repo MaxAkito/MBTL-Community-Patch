@@ -1,0 +1,245 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg05", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@< 0, 10, 1, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+
+\\@BGM_PLAY@<0, 77, 100>
+
+\\@CHARA_IN@< 0, 10, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0040", 100>
+Red_Arcueid
+Is it over already? I was just
+beginning to enjoy myself.
+\l
+
+\\@CHARA_IN@< 0, 10, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0041", 100>
+Red_Arcueid
+I guess I shouldn't be too disappointed, though.
+I've racked up quite the body count!
+\l
+
+\\@CHARA_IN@< 0, 10, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0042", 100>
+Red_Arcueid
+All that's left is for you to wake up, Shiki. Hurry up and
+open your eyes so I can teach you true despair.
+\l
+
+\\@CHARA_OUT@<0, -1, -1, 0, 0>
+\aw
+
+\\@BGM_FADE@<0, 100, 0, 60, 1>
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>
+\bgmw0
+
+\\@BGM_PLAY@<0, 75, 100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0043", 100>
+Red_Arcueid
+Slowly... Gently... Like plucking grapes off
+a vine one by one!
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0010", 100>
+Shiki
+Hm...? I feel like someone has been whispering terrifying
+threats in my ear. Woah! What's going on?!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0011", 100>
+Shiki
+How did I get way up here?! I'm not a fan of heights!
+I think I'm going to be sick!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0004", 100>
+Red_Arcueid
+After I went through all that trouble to recover your body
+from Roa, that's the first thing you say? How infuriating.
+\l
+
+\\@GO_SUB@<"QUAKE_3">
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0005", 100>
+Red_Arcueid
+I don't think you understand the position you're in.
+Perhaps I should just squeeze the life out of you right now.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0012", 100>
+Shiki
+Hey! Stop swinging me around, idiot!
+I'm going to fall!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0013", 100>
+Shiki
+I'll say it again, and as many times as it takes...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0014", 100>
+Shiki
+Aren't you embarrassed at all about being a giant?! Snapping
+and going on a rampage like that?! It's disgraceful!
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0006", 100>
+Red_Arcueid
+And just why should I feel embarrassed?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0007", 100>
+Red_Arcueid
+Why should the words of someone clinging onto a person's
+thumb for dear life affect me in any way whatsoever?
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0015", 100>
+Shiki
+Sure it hasn't affected you? I'd say you've regained at
+least some of your senses. You just called yourself a person.
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0008", 100>
+Red_Arcueid
+That's it, I'm killing you now. I was going to make you
+suffer for everything you've done, but I've changed my mind.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0009", 100>
+Red_Arcueid
+Since you seem to want it so badly, I'll end it all now.
+And you only have yourself to blame.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0010", 100>
+Red_Arcueid
+Feel the fiery despair of hell as I crush you
+along with this entire town!
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0080", 100>
+Shiki
+Gaaahhhhhh!!!
+Are you saying this was all my fault?!
+
+\\@FADE_OUT@<0,0,0,0,0>
+\\@BGM_FADE@<0, 100, 0, 60, 1>
+\bgmw0
+\\@BG_IN@<"screen_bg04", 0, 2>
+\aw
+
+\\@BGM_PLAY@<0, 76, 100>
+\\@FADE_IN@<0,0,0,0,0>
+\\@SQ_CALL@<2>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 0, 0, 11, 0>
+\\@CHARA_IN@<1, 3, 7, 12, 0>
+\aw
+
+
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0070", 100>
+Arcueid
+...and that's the dream I had!
+Isn't that fascinating, Shiki?!
+
+\\@CHARA_IN@< 1, 3, -1, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 14>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0081", 100>
+Shiki
+Well... Um...
+Which part, exactly?
+
+\\@CHARA_IN@< 0, 0, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0071", 100>
+Arcueid
+What do you mean? You didn't like
+the part where I beat up Ciel...?
+\l
+
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0072", 100>
+Arcueid
+Or the combo I pulled off against Roa?!
+I guess that last part was a bit dark...
+
+\\@CHARA_IN@< 1, 3, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0082", 100>
+Shiki
+A bit? It was like watching a horror movie.
+\l
+
+\\@CHARA_IN@< 1, 3, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0083", 100>
+Shiki
+And those expressions you were making? They were terrifying.
+Couldn't you come up with something more...cute?
+\l
+
+\\@CHARA_IN@< 1, 3, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0084", 100>
+Shiki
+Why did you have such a terrible dream anyway?
+
+\\@CHARA_IN@< 0, 0, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0073", 100>
+Arcueid
+For a True Ancestor, I have dreams quite often.
+\l
+
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0074", 100>
+Arcueid
+I've had all sorts of dreams since as long as I can remember.
+I guess I was bound to have one like this eventually.
+\l
+
+\\@SQ_CALL@<3>
+
+\\@CHARA_IN@< 0, 0, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0075", 100>
+Arcueid
+Although...
+\l
+
+\\@FADE_OUT@<2,0,0,0,0>
+\\@CHARA_OUT@< 0, 0, -1, 0, 0>
+\\@CHARA_OUT@< 1, 3, -1, 0, 0>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0076", 100>
+Arcueid
+Knowing how much is a dream,
+and how much is reality...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0077", 100>
+Arcueid
+It's hard to tell when you're inside the dream.
+It may still be too early to relax.
+\l
+
+\\@BGM_FADE@<0, 100, 0, 60, 1>
+\bgmw0
+
+\\@CHARA_IN@< 0, 10, 8, 44, 0>
+\\@CHARA_MUKI@<0, 0>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0044", 100>
+Arcueid
+Wouldn't you agree, my
+lovely vampire killer?
+
+\\@BGM_STOP@<0>
+\e

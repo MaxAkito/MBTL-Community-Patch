@@ -1,0 +1,130 @@
+WinMesScript
+
+
+WinMes00:
+chara_type 2
+Is that all you've got? Then I will go ahead
+and put you out of your misery.
+\e
+
+
+WinMes01:
+chara_type 0
+What a waste of time. Though that last look
+of pain on your face was kind of exciting.
+\e
+
+
+WinMes02:
+chara_type 102
+You'll have to excuse me. Our powers are just too different.
+It’s difficult for me to fight a bug without accidentally
+crushing it. I'll try to be more careful next time.
+\e
+
+
+WinMes03:
+chara_type 3
+Well that was disappointing. You mortals really are
+pathetic, aren't you? Isn't there one of you that can
+take more of a beating without breaking?
+\e
+
+
+WinMes04:
+chara_type 100
+Hehehe. So much bouncing around. I just love
+fighting with my own hands and feet.
+It's like a nice game of hacky sack.
+\e
+
+
+WinMes05:
+chara_type 101
+chara_type_sub 102
+chara_switchframe 530
+This is no fun at all. I'm finally free to do as I please,
+and there's no one around to have fun with.
+I'm going to need another playmate to take out some of
+my frustration on before it gets the better of me.
+\e
+
+
+WinMes06:
+chara_type 0
+If one is to rule, be gentle as a young lady. If one is
+to govern, be firm like a queen. You are unfit to call
+yourself royalty without knowing at least this much.
+\e
+
+
+WinMes07:
+chara_type 102
+This body is just about at its limit.
+How disappointing. Isn't there
+anyone who can kill me again?
+\e
+
+
+WinMes08:
+chara_type 2
+Don't bother challenging me head on.
+If you really wish to kill me, you'll have
+to sneak up on me from behind.
+\e
+
+
+// 対アルクェイド
+WinMes09:
+chara_type 3
+What was that? A new version of myself?
+I see. Everything wrapped up in a nice
+little package. How quaint.
+\e
+
+
+// 対志貴
+WinMes10:
+chara_type 1
+I have you now. Now it's your turn, little wolf.
+I'll have you take responsibility for killing me.
+I'll make sure your very spirit is shattered.
+\e
+
+
+// 対シエル
+WinMes11:
+chara_type 102
+Done already, Ciel? I suppose your only redeeming
+quality is the fact that you don't die when killed.
+\e
+
+
+
+
+
+
+// 99まで追加可能
+
+
+// ３連勝・１０連勝専用セリフ
+
+WinMes3WinStreak00:
+chara_type 0
+This is all due to the fact you're using me.
+But you can do much better.
+\e
+
+
+WinMes10WinStreak00:
+chara_type 100
+Ten wins in a row! Congrats! This is a great way
+to relieve stress, so thanks!
+\e
+
+
+//隠しキャラ解放シーン　テスト
+UnlockMes00:
+chara_type 0
+Red Arcueid story has been unlocked.
+\e

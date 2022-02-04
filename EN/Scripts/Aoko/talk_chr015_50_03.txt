@@ -1,0 +1,115 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg18", 0, 2, 0>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 15, 1, 1, 0>
+\\@CHARA_IN@<1, 14, 0, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+
+\\@CHARA_IN@<0, 15, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0020", 100>
+Aoko
+I just followed that sweet scent to get here...
+Was there always a church like this here in Souya?
+\l
+
+\\@CHARA_IN@<0, 15, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0021", 100>
+Aoko
+Is this even real? Those roses
+have a hint of magic about them...
+\l
+
+\\@CHARA_IN@<0, 15, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0022", 100>
+Aoko
+Is it like Reality Marble...? No, it's a little different.
+Like it's being consumed by a dream world, maybe?
+
+\\@CHARA_IN@<1, 14, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0080", 100>
+Dead_Noel
+I don't know who you are, but you've got some guts
+just waltzing into my territory like this.
+\l
+
+\\@CHARA_IN@<1, 14, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0081", 100>
+Dead_Noel
+Are you an unattached mage or something?
+If you had any sense you'd be trembling in fear right now.
+\l
+
+\\@CHARA_IN@<1, 14, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0082", 100>
+Dead_Noel
+Or maybe I'm wrong. Maybe you're just so weak you can't
+even tell how hopelessly outmatched you are!
+\l
+
+
+\\@CHARA_IN@<1, 14, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0083", 100>
+Dead_Noel
+I've got some time to kill before my next assignment.
+Playing with you could be a nice little warmup.
+\l
+
+
+\\@CHARA_IN@<1, 14, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0084", 100>
+Dead_Noel
+You know I love being a vampire, but one of the only
+drawbacks to it is losing my sense of taste.
+\l
+
+\\@CHARA_IN@<1, 14, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0085", 100>
+Dead_Noel
+High-class cuisine, low-grade junk food...
+If it's not blood, it all tastes the same to me now.
+\l
+
+\\@CHARA_IN@<1, 14, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0086", 100>
+Dead_Noel
+So I wonder what a mage's blood tastes like?
+I bet it's full to bursting with pain and suffering!
+\l
+
+
+\\@CHARA_IN@<1, 14, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0087", 100>
+Dead_Noel
+It's worth killing you just to find out.
+Heck, maybe it'll taste like mint chocolate chip!
+
+\\@CHARA_IN@<0, 15, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0023", 100>
+Aoko
+You might be disappointed. My blood is probably
+ice cold, and not sweet at all, either.
+\l
+
+\\@CHARA_IN@<0, 15, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0024", 100>
+Aoko
+So forgive me if I decline your kind offer.
+\l
+
+\\@CHARA_IN@<0, 15, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0025", 100>
+Aoko
+Looks like we have a problem, roses.
+Remove the church for me real quick, would you?
+
+
+\\@BGM_STOP@<0>
+\e

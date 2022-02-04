@@ -1,0 +1,96 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg04", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 8, 9, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+\\@BGM_PLAY@<0, 73, 100>
+
+\\@CHARA_IN@< 0, 8, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0040", 100>
+Noel
+It's taken me over a month, but I finally managed
+to track down Roa's hiding place.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0041", 100>
+Noel
+I didn't expect much based on the name of the town...
+\l
+
+\\@CHARA_IN@< 0, 8, 1, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0042", 100>
+Noel
+But this place is bigger than I thought!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0043", 100>
+Noel
+There are more shops here than I can count!
+This is going to be fun!
+\l
+
+\\@CHARA_IN@< 0, 8, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0044", 100>
+Noel
+I've been bouncing around between tiny villages in the
+middle of nowhere, wearing only my nun's outfit.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0045", 100>
+Noel
+I could definitely get used to this!
+Let's see. This lists my target's occupation as...
+\l
+
+\\@GO_SUB@<"QUAKE_1">
+\\@CHARA_IN@< 0, 8, 4, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0046", 100>
+Noel
+What?! A student?! You can't be serious!
+I'm looking for a teenager?!
+\l
+
+\\@CHARA_IN@< 0, 8, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0047", 100>
+Noel
+Ugh. Even I can't pull off being a student.
+Or could I? No, no, get a hold of yourself.
+\l
+
+\\@CHARA_IN@< 0, 8, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0048", 100>
+Noel
+Oh, well, if I can't be a student, then I'll just have to
+be a teacher instead!
+\l
+
+\\@CHARA_IN@< 0, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0049", 100>
+Noel
+With that decided, it's time to get to work!
+This is going to be fun! Åô
+\l
+
+\\@CHARA_IN@< 0, 8, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0050", 100>
+Noel
+A wise instructor, molding young minds by day!
+And a mysterious nun, killing vampires by night!
+\l
+
+\\@CHARA_IN@< 0, 8, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0051", 100>
+Noel
+What a wonderful character setting this will be!
+
+\\@BGM_STOP@<0>
+\e

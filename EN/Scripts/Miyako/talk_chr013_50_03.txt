@@ -1,0 +1,215 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg13", 0, 2, 0>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+
+\\@DRAW_EFFECT@<1>
+\aw
+
+\\@FADE_OUT@<2, 0, 0, 0, 0>
+\aw
+
+\\@BGM_PLAY@<0, 71, 100>
+
+
+\\@CHARA_IN@<2, 52, 0, 44, 0>
+\\@CHARA_MUKI@<2,0>
+\aw
+
+\\@CHARA_IN@< 2, 52, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0020", 100>
+Bake_Neko
+Time for a quick recap.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0021", 100>
+Bake_Neko
+Miyako was unbeatable, soundly defeating one obstacle
+after another, steadily approaching the villain's lair.
+
+\\@CHARA_OUT@< 2, 52, -1, 0, 1>
+\aw
+\\@DRAW_EFFECT@<0>
+\aw
+
+\\@FADE_IN@<2, 255, 255, 255, 0>
+
+
+\\@CHARA_IN@<0, 13, 3, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 12>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0030", 100>
+Miyako
+*huff*
+*huff*
+\l
+
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0031", 100>
+Miyako
+Wait. Hold on a second. This is strange.
+Something doesn't feel right.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0032", 100>
+Miyako
+I keep getting interrupted by people I don't even know!
+They just start attacking without even saying a word!
+\l
+
+\\@CHARA_IN@< 0, 13, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0033", 100>
+Miyako
+If I wasn't a Kung Fu master, I'd have gone running
+to the police by now!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0034", 100>
+Miyako
+All I wanted to do was go to the Tohno estate and free my
+brother from the evil step-sister who's imprisoned him!
+
+\\@CHARA_FOCUS_COLOR@< 0, 1>
+\\@CHARA_IN@<1, 11, 0, 12, 0>
+\aw
+
+\\@CHARA_IN@<1, 11, 1, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0010", 100>
+Ciel
+Oh? That's quite the interesting story you have.
+I'd be interested to hear more.
+
+\\@CHARA_IN@< 0, 13, 12, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0035", 100>
+Miyako
+Now there are black forms falling from the sky?!
+Don't tell me you're here to stop me too!
+
+\\@CHARA_IN@<1, 11, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0011", 100>
+Ciel
+Oh dear. I apologize if I startled you.
+That was not my intention.
+\l
+
+\\@CHARA_IN@<1, 11, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0012", 100>
+Ciel
+It's all right. I am a sister of justice, entrusted with
+protecting this town. I'm on your side, Miyako Arima.
+\l
+
+\\@CHARA_IN@<1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0013", 100>
+Ciel
+Was that the bajiquan style I saw you using?
+Your skills are quite impressive.
+
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0036", 100>
+Miyako
+Wha--?!
+\l
+
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0037", 100>
+Miyako
+(She must be a good person! After all,
+ she recognized my bajiquan style!)
+
+\\@CHARA_IN@<1, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0014", 100>
+Ciel
+Just think of me as your kindly,
+bespectacled older friend.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0015", 100>
+Ciel
+Make sure you let your brother know
+how much help I've been.
+\l
+
+\\@CHARA_IN@<1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0016", 100>
+Ciel
+Also, is there anything troubling you?
+I'd be happy to lend a hand.
+
+\\@CHARA_IN@< 0, 13, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0038", 100>
+Miyako
+Well, actually there is! You see, this is my first time
+in this town. I think I'm lost!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0039", 100>
+Miyako
+Could you tell me where I can find the Tohno estate?
+
+\\@CHARA_IN@<1, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0017", 100>
+Ciel
+Of course. It's about a 30-minute walk from the station
+on top of that small hill over there.
+\l
+
+\\@CHARA_IN@<1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0018", 100>
+Ciel
+The younger sister's name is Akiha. Be sure to ask for her
+when you state your business at the door.
+
+\\@CHARA_IN@< 0, 13, 12, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0040", 100>
+Miyako
+Akiha?! I've never heard such an
+obviously evil name before!
+
+\\@CHARA_IN@<1, 11, 1, 0, 1>
+
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0041", 100>
+Miyako
+Thank you, Sister!
+I'll do my best!
+
+\\@CHARA_IN@<1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0019", 100>
+Ciel
+Oh, before you go, forgive me for being blunt, but
+you cannot beat Akiha as you are now.
+\l
+
+\\@CHARA_IN@<1, 11, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0020", 100>
+Ciel
+Even with your bajiquan style, you don't stand a chance.
+I would be happy to teach you some useful moves, however.
+
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0042", 100>
+Miyako
+Really?!
+\l
+
+\\@CHARA_IN@< 0, 13, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0043", 100>
+Miyako
+(All right! Time for my special vacation training montage!
+ I feel like I'm in a Kung Fu movie!)
+
+\\@BGM_STOP@<0>
+\e

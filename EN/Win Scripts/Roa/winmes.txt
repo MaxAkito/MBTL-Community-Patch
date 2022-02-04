@@ -1,0 +1,143 @@
+WinMesScript
+
+
+WinMes00:
+chara_type 0
+For a nobody, you're not half bad. With moves and a face
+like yours, any circus would be glad to have you. In fact,
+if you don't bleed out, that's probably what you should do.
+\e
+
+
+WinMes01:
+chara_type 0
+That left me a bit hungry. You wouldn't mind if I took a
+little donation of blood, would you? I suffer from a
+chronic case of anemia, you see.
+\e
+
+
+WinMes02:
+chara_type 2
+Order up! Who wanted the charred corpse?! There are plenty
+more strays in the back alley where this one came from!
+\e
+
+
+WinMes03:
+chara_type 1
+Is it over already? That was no fun at all. A battle is
+something you should take slowly, allowing you to savor
+in your opponent's pain, wouldn't you-- Oh, never mind.
+I didn't realize you'd already stopped breathing.
+\e
+
+
+WinMes04:
+chara_type 0
+As thanks for allowing me to enjoy myself, I shall give you
+a proper human burial. Be grateful you do not have to
+experience burial by fire or lightning.
+\e
+
+
+WinMes05:
+chara_type 2
+Sorry about that. It took longer than I expected. I would
+have liked to send your head rolling with a single attack,
+but that's actually a lot harder than you'd think. Sure
+makes you respect the samurai of old, doesn't it?
+\e
+
+
+WinMes06:
+chara_type 0
+Try not to move so much, would you? You'll only bleed out
+faster, and I don't feel like drinking off the ground today.
+I have to act like a proper vampire at least once in a while.
+\e
+
+
+// 対志貴
+WinMes07:
+chara_type 2
+Still trying to say we're different? You and I
+are the same! Just look! Everything we
+touch ends up in pieces!
+\e
+
+
+// 対アルクェイド
+WinMes08:
+chara_type 1
+So even a True Ancestor can break down, huh? I still can't
+believe how far your worth drops with a single wound.
+Must be the one fatal flaw of the perfect being.
+\e
+
+
+// 対シエル
+WinMes09:
+chara_type 0
+What a pity. And here you had such potential, Sister.
+If only you had worked for me, I could have put you to
+much better use than this. It really is a shame to put
+an end to one with such talent! Truly a waste!
+\e
+
+
+// 対秋葉
+WinMes10:
+chara_type 1
+Fighting one-on-one like this always
+makes me feel tingly all over.
+I still can't figure out if it's
+love or lust, though.
+\e
+
+
+// 対暴走アルク
+WinMes11:
+chara_type 0
+What an awful night this is, wouldn't you agree? I always
+get depressed when the moon is so bright.
+\e
+
+
+// 対志貴(ストーリー専用)
+WinMesArcadeWin03:
+chara_type 1
+What a shame. Looks like nothing has changed.
+I was hoping you of all people would be
+capable of dismantling this mutation...
+\e
+
+
+// 対シエル(ストーリー専用)
+WinMesArcadeWin11:
+chara_type 0
+Those weapons of yours are more of a hindrance than a help.
+Your body is a miraculous gift, yet its potential is limited
+by your feeble human understanding. Instead of viewing it
+as a heresy, you should embrace it.
+\e
+
+
+
+// 99まで追加可能
+
+
+// ３連勝・１０連勝専用セリフ
+
+WinMes3WinStreak00:
+chara_type 0
+Splendid. I see there will be no lack of
+blood to drink with you around.
+\e
+
+
+WinMes10WinStreak00:
+chara_type 2
+Not bad! If things were different,
+I would have made you work for me!
+\e

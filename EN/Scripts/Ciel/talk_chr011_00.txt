@@ -1,0 +1,54 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg02", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 11, 6, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+\\@BGM_PLAY@<0, 71, 100>
+
+\\@CHARA_IN@< 0, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0030", 100>
+Ciel
+This town is overrun with Dead Apostles.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0031", 100>
+Ciel
+As executors of the church, it is our job to rid the town
+of this sickness by destroying them at the source.
+\l
+
+\\@CHARA_IN@< 0, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0032", 100>
+Ciel
+She shows up an entire month behind schedule, then not
+only does she waste all her free time shopping...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0033", 100>
+Ciel
+But her first decision is to
+infiltrate a school?
+\l
+
+\\@CHARA_IN@< 0, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0034", 100>
+Ciel
+I won't make the mistake of
+relying on her again.
+\l
+
+\\@CHARA_IN@< 0, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0035", 100>
+Ciel
+Looks like I'll have to take care of this myself...
+
+
+\\@BGM_STOP@<0>
+\e

@@ -1,0 +1,145 @@
+\\@BG_IN@<"screen_bg05", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<1, 11, 200, 12, 0>
+\\@CHARA_IN@<3, 3, 10, 12, 0>
+\aw
+
+\\@BGM_PLAY@<0, 73, 100>
+
+\\@CHARA_IN@< 1, 11, 200, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 3>
+\aw
+\\@CHARA_EMOVE@<1, -1 , 3>
+\aw
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0000", 100>
+Ciel
+Shiki, you want to be more independeeeeent~
+You want to live on your ooooown~
+\l
+
+\\@CHARA_EMOVE@<1, -1 , 3>
+\aw
+\\@CHARA_EMOVE@<1, -1 , 3>
+\aw
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0001", 100>
+Ciel
+But since you don't have the money, you decide to move
+in with your generous, affable friend from schooooool~
+
+\\@CHARA_IN@< 3, 3, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0000", 100>
+Shiki
+*Mumble* That's not the same as living on my own.
+It would be the opposite of independence.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0001m", 100>
+Shiki
+If I move in with you, you'd be like my sugar momma.
+I'll just wind up being reliant on you for money.
+
+\\@CHARA_IN@<0, 1, 1, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 1, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0030", 100>
+Hisui
+.....
+\l
+
+\\@CHARA_IN@< 0, 1, 0, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0031", 100>
+Hisui
+No. Must snap out of it. This feeling of deja vu
+has my whole mind blank.
+\l
+
+\\@CHARA_IN@< 0, 1, 1, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 4>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0032", 100>
+Hisui
+\\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
+\\@EMG_PRINT@<"*Actually prohibited even if they aren't a minor.", 102, 1060, 650>
+That's far enough, Miss Ciel. The brainwashing
+of minors is prohibited by law.
+
+\\@CHARA_IN@< 1, 11, 5, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0002", 100>
+Ciel
+Hisui?! What are you doing here?
+Damn it! Arcueid is useless!
+\l
+
+\\@CHARA_IN@< 1, 11, 7, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 14>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0003", 100>
+Ciel
+N-No, wait! This isn't what it looks like!
+This is, uh, medical hypnosis! Yeah, that's it!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0004", 100>
+Ciel
+Ms. Noel has been implanting thoughts into his subconscious!
+I'm trying to undo the damage!
+
+\\@CHARA_IN@< 0, 1, 4, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0033", 100>
+Hisui
+I believe I understand the situation now. You did well
+hiding your true colors until now.
+\l
+
+\\@CHARA_IN@< 0, 1, 0, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 4>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0034", 100>
+Hisui
+In other words, you are the mastermind behind this.
+
+\\@CHARA_IN@< 1, 11, 3, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 14>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0005", 100>
+Ciel
+N-No, I just wanted to...uh, I mean, this is a misunderstanding!
+\l
+
+\\@CHARA_IN@< 1, 11, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0006", 100>
+Ciel
+Fine then, you leave me no choice. I didn't want to do this,
+but it looks like I need to hypnotize you as well!
+
+\\@CHARA_IN@< 0, 1, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0035", 100>
+Hisui
+I must insist you release Master Shiki first.
+\l
+
+\\@CHARA_IN@< 0, 1, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0036", 100>
+Hisui
+You would also be wise not to bother using charms or that
+hypnosis skill of yours to try and escape.
+\l
+
+\\@CHARA_IN@< 0, 1, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0037", 100>
+Hisui
+Are you related to Miss Arcueid?
+
+\\@CHARA_IN@< 1, 11, 5, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 4>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0007", 100>
+Ciel
+This intensity! You aren't just an ordinary maid,
+are you?!
+
+\\@BGM_STOP@<0>
+\e

@@ -1,0 +1,182 @@
+\\@BG_IN@<"ed_bg00", 0, 2>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@< 0, 15, 1, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+\\@BGM_PLAY@<0, 76, 100>
+
+\\@CHARA_FOCUS_COLOR@<0,1>
+\\@QUAKE@<2,30,30>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0020", 100>
+Mario@Mario_Hatena
+You crappy gunner!
+Can't you do anything without causing destruction?!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0021", 100>
+Mario@Mario_Hatena
+You're like one of those giant monsters the Japanese seem
+to love so much. What's next, an atomic breath attack?!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0022", 100>
+Mario@Mario_Hatena
+You reduced the entire factory to ashes along with Roa.
+This is a complete disaster!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0023", 100>
+Mario@Mario_Hatena
+I feel like an idiot for even hiring you in the first place.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0024", 100>
+Mario@Mario_Hatena
+Don't go thinking you're still going to get paid after
+all this. Get out of my sight before I throw you in the cells!
+
+\\@CHARA_IN@< 0, 15, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0040", 100>
+Aoko
+Hey, that's not fair!
+Say whatever you want, I still saved the town, didn't I?
+\l
+
+\\@CHARA_IN@< 0, 15, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0041", 100>
+Aoko
+I may have strayed from the brief a little bit,
+but I still got the job done!
+\l
+
+\\@CHARA_IN@< 0, 15, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0042", 100>
+Aoko
+You have to pay me!
+
+\\@CHARA_FOCUS_COLOR@<0,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0025", 100>
+Mario@Mario_Hatena
+You lost all rights to payment the moment
+you started demolishing everything in sight!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0026", 100>
+Mario@Mario_Hatena
+It's a miracle no one was hurt when
+you crushed those train cars!
+
+\\@CHARA_IN@< 0, 15, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0043", 100>
+Aoko
+Miracle nothing. I made sure no one would be in danger before
+I got started. I'd never kill innocent bystanders.
+\l
+
+\\@CHARA_IN@< 0, 15, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0044", 100>
+Aoko
+I guess you have a point, though.
+\l
+
+\\@CHARA_IN@< 0, 15, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0045", 100>
+Aoko
+At least reimburse me for my travel expenses.
+I flew all the way from Australia to be here!
+\l
+
+\\@CHARA_FACE@<0,4,2,220>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0046", 100>
+Aoko
+I don't see what you're so angry about, anyway.
+Oh wait, did you join the church to help with your temper maybe?
+
+\\@CHARA_FOCUS_COLOR@<0,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0027", 100>
+Mario@Mario_Hatena
+Yes, that's exactly it. Good guess.
+This was my last chance, and you squandered it!
+
+\\@CHARA_IN@< 0, 15, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0047", 100>
+Aoko
+Hm? You know you don't have to do that, right?
+I have some emergency measures that can help.
+
+\\@CHARA_FOCUS_COLOR@<0,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0028", 100>
+Mario@Mario_Hatena
+Whaaat?!
+
+\\@BGM_FADE@<0, -1, 0, -2, 1>
+\\@FADE_OUT@<0, 255, 255, 255, 0>
+\w<180>
+
+\\@CHARA_OUT@<0, -1, -1, 0, 0>
+\\@CHARA_OUT@<1, -1, -1, 0, 0>
+\aw
+
+\\@FADE_IN@<0, 255, 255, 255, 0>
+
+\\@SQ_CALL@<1>
+\\@BGM_PLAY@<0, 76, 100>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0048", 100>
+Aoko
+Oh boy, Hawaii at last!
+I love it here!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0049", 100>
+Aoko
+That cardinal sure knows how to treat a lady.
+He gave me enough to rent my own private beach!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0050", 100>
+Aoko
+I never dreamed things would work out this great.
+All my good deeds are finally paying off!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0051", 100>
+Aoko
+I have to text Alice about this! Oh, wait, she's no good
+with technology, so she probably won't get it...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0052", 100>
+Aoko
+El-Malloi's gonna be busy with other stuff, and Touko's
+somewhere in the south seas right now...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0053", 100>
+Aoko
+Guess I'll just go ahead and enjoy this
+high-class lifestyle by myself, then!
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0054", 100>
+Aoko
+There's not a sign of the apocalypse in sight, and no word
+from Old Man Zeltretch, either.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0055", 100>
+Aoko
+For now, the world is safe.
+I won't have to get involved for a looong time yet!
+
+\\@SYSTEM@<21>
+\aw
+
+\\@BGM_STOP@<0>
+\e

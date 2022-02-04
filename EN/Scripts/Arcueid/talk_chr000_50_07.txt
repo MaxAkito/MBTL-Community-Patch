@@ -1,0 +1,68 @@
+\\@BG_IN@<"screen_bg06", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 0, 0, 1, 0>
+\\@CHARA_IN@<1, 9, 0, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@CHARA_IN@< 1, 9, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0000", 100>
+Volv
+That spirit just like a white sacred mountain...
+There's no doubt about it.
+We finally meet, Princess of the True Ancestors.
+
+\\@CHARA_IN@< 0, 0, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0020", 100>
+Arcueid
+Who are you? I don't remember a Dead Apostle like you.
+Are you a newbie who's only arrived in the last 100 years?
+
+\\@CHARA_IN@< 1, 9, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0001", 100>
+Volv
+I am Vlov Arkhangel...
+\l
+
+\\@CHARA_IN@< 1, 9, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0002", 100>
+Volv
+We've met before, just once...
+I've been following your shadow from across the ocean...
+\l
+
+\\@CHARA_IN@< 1, 9, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0003", 100>
+Volv
+But neither of us can stay here for long...
+This town is warm like decay, yet cold like the void.
+\l
+
+\\@CHARA_IN@< 1, 9, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0004", 100>
+Volv
+I'll cut your head off and partake of your heart.
+That will surely cure my disease.
+
+\\@CHARA_IN@< 0, 0, 8, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0021", 100>
+Arcueid
+I see. I wasn't really planning on it,
+but if you want to die so much, I'll help you out.
+\l
+
+\\@CHARA_IN@< 0, 0, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0022", 100>
+Arcueid
+Don't worry, I won't leave any traces of you behind.
+It's the least I can do for such a brave brute
+coming for me without any strategy!
+
+\\@BGM_STOP@<0>
+\e

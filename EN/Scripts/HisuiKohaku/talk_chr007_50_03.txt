@@ -1,0 +1,87 @@
+\\@BG_IN@<"screen_bg03", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 1, 1, 1, 0>
+\\@CHARA_IN@<2, 4, 100, 3, 0>
+\\@CHARA_IN@<1, 2, 0, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@CHARA_IN@< 2, 4, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0030", 100>
+Kohaku
+Lady Akiha, I finally found you.
+
+\\@GO_SUB@<"QUAKE_1">
+\\@CHARA_IN@< 1, 2, 5, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0040", 100>
+Akiha
+Huh?!
+\l
+
+\\@CHARA_IN@< 1, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0041", 100>
+Akiha
+You startled me. What are you two doing here?
+\l
+
+\\@CHARA_IN@< 1, 2, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0042", 100>
+Akiha
+I don't remember telling you to go wandering around
+this late at night. Return to the estate at once.
+
+\\@CHARA_IN@< 0, 1, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0010", 100>
+Hisui
+B-But Lady Akiha...
+Master Shiki is--
+
+\\@GO_SUB@<"QUAKE_1">
+\\@CHARA_IN@< 2, 4, 104, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0031", 100>
+Kohaku
+Shut up, Hisui!
+\l
+
+\\@CHARA_IN@< 2, 4, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0032", 100>
+Kohaku
+Lady Akiha is not herself! The real Lady Akiha would not
+ignore the noble actions of her employees!
+\l
+
+\\@CHARA_IN@< 2, 4, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0033", 100>
+Kohaku
+In order to maintain the tranquility of the Tohno household,
+we must teach Lady Akiha a lesson!
+
+\\@CHARA_IN@< 1, 2, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0043", 100>
+Akiha
+Excuse me? I do believe that
+sounded like a challenge.
+\l
+
+\\@CHARA_IN@< 1, 2, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0044", 100>
+Akiha
+I'm not sure what you're up to, nor do I really care.
+That goes for your excuses after you lose as well.
+\l
+
+\\@CHARA_IN@< 1, 2, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0045", 100>
+Akiha
+Hehehe. It's time to demonstrate what punishment awaits
+those who would oppose their master...
+
+\\@BGM_STOP@<0>
+\e

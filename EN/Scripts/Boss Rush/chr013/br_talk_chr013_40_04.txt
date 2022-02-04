@@ -1,0 +1,234 @@
+\\@SYSTEM@<9999>
+\\@FADE_IN@<1, 0, 0, 0, 0>
+\aw
+\\@BG_IN@<"screen_bg03", 0, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+//ÅîåˆâÄ_ñÈ
+
+\\@CHARA_IN@< 0, 13, 3, 1, 0>
+\\@CHARA_IN@< 2, 3,  0, 1, 0>
+\aw
+
+\\@CHARA_IN@< 2, 3, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10020", 100>
+Shiki
+Miyako, be careful! Your sandwich and tea have
+been poisoned!
+
+\\@CHARA_IN@< 0, 13, 0, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10060", 100>
+Miyako
+I know! You can tell just by looking at them!
+Gross!
+
+\\@CHARA_FOCUS_COLOR@< 0, 1>
+\\@CHARA_IN@< 1, 1,  1, 2, 0>
+\aw
+
+\\@CHARA_IN@< 1, 1, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His_10000", 100>
+Hisui@Hisui_TooriMaid
+It would seem we have failed. I believe the tea you
+prepared was too obviously poisoned, Kohaku.
+
+\\@CHARA_FOCUS_COLOR@< 1, 1>
+\\@CHARA_IN@< 3, 4, 100, 4, 0>
+\aw
+
+\\@CHARA_IN@< 3, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10000", 100>
+Kohaku@Kohaku_TooriKaseifu
+I'm not so sure. The sandwich you made looked pretty
+awful as well, Hisui.
+
+//Ç±Ç±Ç≈âÊñ ÅAàÍíUäDêFÇ…
+\\@CHARA_OUT@<0, 13, -1, 0, 0>
+\\@CHARA_OUT@<1, 1, -1, 0, 0>
+\\@CHARA_OUT@<2, 3, -1, 0, 0>
+\\@CHARA_OUT@<3, 4, -1, 0, 0>
+\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\aw
+
+\\@DRAW_EFFECT@<1>
+\aw
+
+\\@BGM_PLAY@<1, 72, 100>
+
+\\@CHARA_IN@< 3, 53,  0, 44, 0>
+\\@CHARA_MUKI@<3,0>
+\aw
+
+\\@CHARA_IN@< 3, 53, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10080", 100>
+Neco_Arc
+~Quick Recap~
+\l
+
+\\@CHARA_IN@< 3, 53, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10081", 100>
+Neco_Arc
+Miyako defeated a completely non-story related character,
+though his strength could probably rival that of a final boss.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10082", 100>
+Neco_Arc
+She stopped in a nearby park to rest and replenish her
+expended calories, but evil does not rest.
+\l
+
+\\@CHARA_IN@< 3, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10083", 100>
+Neco_Arc
+Twin maids offered our heroine tea and a bite to eat,
+but their forced smiles hid a sorrowful past.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10084", 100>
+Neco_Arc
+Will the kind-hearted Miyako cross fists with the odd pair,
+who are clearly cheating by fighting together?
+
+\\@CHARA_OUT@<3, -1, -1, 0, 0>
+\\aw
+\\@BGM_FADE@<1, 100, 0, -2, 1>
+
+
+\\@DRAW_EFFECT@<0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+\\@CHARA_IN@< 0, 13, 0, 11, 0>
+\\@CHARA_IN@< 2, 3, 0, 11, 0>
+\\@CHARA_IN@< 3, 4, 101, 12, 100>
+\\@CHARA_IN@< 1, 1, 1, 12, 0>
+\aw
+
+
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10061", 100>
+Miyako
+Why would a couple of maids who were just passing by
+try to poison me?
+\l
+
+\\@CHARA_IN@< 0, 13, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10062", 100>
+Miyako
+I wonder if they're in league with that assassin nun
+from the alley. Do you know these two, Brother?
+
+\\@CHARA_IN@< 2, 3, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10021", 100>
+Shiki
+What are you saying? Of course I do. These two are--
+
+\\@CHARA_IN@< 1, 1, 4, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 14>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His_10001", 100>
+Hisui
+I'm afraid you are mistaken, Master Shiki. We are not
+who you think we are.
+
+\\@CHARA_IN@< 3, 4, 106, 0, 1>
+\\@CHARA_EMOVE@<3, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10001", 100>
+Kohaku
+That is correct. Our evil employer has brainwashed us.
+We have been sent to assassinate poor Miss Miyako...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10002", 100>
+Kohaku
+It is imperative you keep in mind that we have not
+come here of our own volition or to have fun.
+
+\\@CHARA_IN@< 2, 3, 6, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10022", 100>
+Shiki
+(I see. I sense an incredibly strong resolve to stick
+ to their character images. This feels like Akiha's work.)
+
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10063", 100>
+Miyako
+Brainwashed?
+What does that mean, Brother?
+
+\\@CHARA_IN@< 2, 3, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10023", 100>
+Shiki
+It's when you mess with a person's mind, forcing them to
+do something. But these two, Kohaku in particular...
+
+\\@CHARA_IN@< 3, 4, 102, 0, 1>
+\\@CHARA_EMOVE@<3, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10003", 100>
+Kohaku
+You catch on quickly. We are indeed being controlled by
+Miss Akiha. You must...destroy her...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10004", 100>
+Kohaku
+Quickly, you must destroy Miss Akiha. It will be a most
+fascinating battle.
+
+\\@CHARA_IN@< 0, 13, 12, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10064", 100>
+Miyako
+Now they sound like robots! Is that what brainwashing
+does? Turns you into a machine?!
+\l
+
+\\@CHARA_IN@< 0, 13, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10065", 100>
+Miyako
+I've got to save them, and fast!
+But how...?!
+
+\\@CHARA_IN@< 2, 3, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10024", 100>
+Shiki
+Maybe they'll snap out of it if you fight them?
+They sure look ready for a battle.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10025", 100>
+Shiki
+I thought we might get a break after that last big
+baddie. I guess there really is no rest for the weary.
+\l
+
+\\@CHARA_IN@< 2, 3, -1, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10026", 100>
+Shiki
+Don't worry about holding back. This'll be a good
+experience for Kohaku.
+
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10066", 100>
+Miyako
+Okay! It's for the good of these poor maids,
+too! I'll give it everything I've got!
+
+\\@CHARA_IN@< 3, 4, 105, 0, 1>
+\\@CHARA_EMOVE@<3, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10005", 100>
+Kohaku
+Shiki, I sometimes worry about your emotionless,
+matter-of-fact tone in situations like this.
+
+\\@BGM_STOP@<0>
+\e

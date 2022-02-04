@@ -1,0 +1,72 @@
+\\@BG_IN@<"screen_bg05", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 0, 0, 1, 0>
+\\@CHARA_IN@<1, 8, 0, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@GO_SUB@<"QUAKE_1">
+\\@CHARA_IN@< 1, 8, 6, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0000", 100>
+Noel
+Whoa! A True Ancestor?!
+Hold on, this isn't in my job description!
+
+\\@CHARA_IN@< 0, 0, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0010", 100>
+Arcueid
+An agent of the Church...? I'm impressed
+you made it this far with your abilities.
+\l
+
+\\@CHARA_IN@< 0, 0, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0011", 100>
+Arcueid
+I doubt you'll get in my way,
+so I could pretend I never saw you, but...
+\l
+
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0012", 100>
+Arcueid
+Yes. I'm getting a whiff of someone
+I hate, and it's coming from you.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0013", 100>
+Arcueid
+Guess I'll get rid of you after all!
+
+
+\\@GO_SUB@<"QUAKE_1">
+\\@CHARA_IN@< 1, 8, 5, 22, 2>
+\aw
+\\@CHARA_EMOVE@<1, -1 , 14>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0001", 100>
+Noel
+Eeep! Wait! You've got the wrong person!
+Our names are similar, but I'm totally different!
+\l
+
+\\@CHARA_IN@< 0, 0, 9, 0, 1>
+\\@CHARA_IN@< 1, 8, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0002", 100>
+Noel
+Uh-oh, this True Ancestor is really out to get me!
+\l
+
+\\@CHARA_IN@< 1, 8, 4, 32, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0003", 100>
+Noel
+Ugh, if that's the case, so be it!
+But don't underestimate this unsightly nobody!
+
+\\@BGM_STOP@<0>
+\e

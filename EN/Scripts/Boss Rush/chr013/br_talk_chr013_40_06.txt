@@ -1,0 +1,210 @@
+\\@SYSTEM@<9999>
+\\@FADE_IN@<1, 0, 0, 0, 0>
+\aw
+\\@BG_IN@<"screen_bg01", 0, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+// ÅîâìñÏì@ÉçÉrÅ[_ñÈ
+
+\\@CHARA_IN@< 0, 13, 3, 11, 0>
+\\@CHARA_IN@< 2, 3,  0, 11, 0>
+\aw
+
+//âÊñ Å@äDêFÇ…
+\\@CHARA_OUT@<0, 13, -1, 0, 0>
+\\@CHARA_OUT@<1, 9, -1, 0, 0>
+\\@CHARA_OUT@<2, 3, -1, 0, 0>
+\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\aw
+
+\\@DRAW_EFFECT@<1>
+\aw
+
+\\@BGM_PLAY@<1, 72, 100>
+
+\\@CHARA_IN@< 3, 53,  0, 44, 0>
+\\@CHARA_MUKI@<3,0>
+\aw
+
+\\@CHARA_IN@< 3, 53, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10100", 100>
+Neco_Arc
+~Quick Recap~
+\l
+
+\\@CHARA_IN@< 3, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10101", 100>
+Neco_Arc
+Miyako Arima finally arrived at the headquarters
+of those responsible for taking over Misaki Town.
+\l
+
+\\@CHARA_IN@< 3, 53, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10102", 100>
+Neco_Arc
+It was none other than the home of the Akiha,
+the Tohno family head and Shiki's younger sister.
+\l
+
+\\@CHARA_IN@< 3, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10103", 100>
+Neco_Arc
+Akiha is set on correcting Shiki's aimless nature
+and turning him into an upstanding, model student.
+\l
+
+\\@CHARA_IN@< 3, 53, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10104", 100>
+Neco_Arc
+She paid good money to hire a nun with too much time
+on her hands, made a deal with a vampire from the...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10105", 100>
+Neco_Arc
+...middle of nowhere, and gave a pair of inseparable
+maids a nudge with subtle threats of a pay cut...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10106", 100>
+Neco_Arc
+all as part of her plan to capture him.
+\l
+
+\\@CHARA_IN@< 3, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10107", 100>
+Neco_Arc
+In other words...
+
+\\@CHARA_OUT@<3, -1, -1, 0, 0>
+\\aw
+\\@BGM_FADE@<1, 100, 0, -2, 1>
+
+
+
+\\@DRAW_EFFECT@<0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+\\@CHARA_IN@< 0, 13, 3, 11, 0>
+\aw
+
+\\@CHARA_IN@< 0, 13, 5, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10080", 100>
+\\@GO_SUB@<"QUAKE_2">
+Miyako
+This has nothing to do with the vampire incidents!
+This is just some stupid family quarrel!
+\l
+
+\\@CHARA_IN@< 0, 13, 3, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10081", 100>
+Miyako
+You wrote this script didn't you? I knew I shouldn't
+have gotten my hopes up!
+\l
+
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10082", 100>
+Miyako
+It explains why the vampire lady interrupted me
+like that. She knew about this, didn't she?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10083", 100>
+Miyako
+I bet Akiha's just doing this out of spite,
+and can't even fire off a single decent attack.
+\l
+
+\\@CHARA_IN@< 0, 13, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10084", 100>
+Miyako
+How exactly is someone like that supposed
+to be up to the role of final boss?
+
+\\@CHARA_FOCUS_COLOR@< 0, 1>
+\\@CHARA_IN@< 1, 2,  0, 2, 0>
+\aw
+
+\\@CHARA_IN@< 1, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10000", 100>
+Akiha
+What a rude child. You barge in here without even
+ringing the doorbell, then start insulting me?
+\l
+
+\\@CHARA_IN@< 1, 2, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10001", 100>
+Akiha
+You think I'm just being spiteful?
+You don't think I'm last boss material?
+\l
+
+\\@CHARA_IN@< 1, 2, 202, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10002", 100>
+Akiha
+Thanks to that shining assessment, I'm so torn
+up I may have trouble fighting at full strength.
+
+\\@CHARA_IN@< 0, 13, 5, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10085", 100>
+Miyako
+Huh? Who's there?!
+Is that Akiha's voice, Bro--?
+\l
+
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 13>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10086", 100>
+Miyako
+(What? Where did he go? I don't see him anywhere...)
+
+\\@CHARA_IN@< 1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10003", 100>
+Akiha
+You look troubled, little one. If you were hoping to
+find someone to help you, you'd best give up now.
+\l
+
+\\@CHARA_IN@< 1, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10004", 100>
+Akiha
+This is the Tohno estate. No one approaches
+this forest, not even the police.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10005", 100>
+Akiha
+And we know exactly how to deal with rude trespassers.
+Curse your destiny for leading you here this day.
+
+\\@CHARA_IN@< 0, 13, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10087", 100>
+Miyako
+Wh-What a chilling aura! But I'm not afraid!
+I-I'll show you how strong I am!
+\l
+
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 4>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10088", 100>
+Miyako
+I challenge you, Akiha! My name is Miyako Arima!
+I am my brother's sister, even if it's not by blood!
+
+\\@CHARA_IN@< 1, 2, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10006", 100>
+Akiha
+Did you say Arima...?
+
+\\@BGM_STOP@<0>
+\e

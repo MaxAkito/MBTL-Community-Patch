@@ -1,0 +1,128 @@
+\\@BG_IN@<"screen_bg03", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@< 0, 1, 1, 1, 0>
+\\@CHARA_IN@< 1, 0, 0, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@CHARA_IN@< 1, 0, -1, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0000", 100>
+Arcueid
+Oh, it's the maid who cleans up after Shiki!
+I wondered who was in here!
+\l
+
+\\@CHARA_IN@< 1, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0001", 100>
+Arcueid
+How's it going? What brings you here so late? This place
+isn't safe for humans to be wandering alone.
+
+
+\\@CHARA_IN@< 0, 1, 5, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0020", 100>
+Hisui
+Good evening, Miss Arcueid. Thank you for
+your unexpected visit the other day.
+\l
+
+\\@CHARA_IN@< 0, 1, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0021", 100>
+Hisui
+I have a message for you from Lady Akiha. Do you wish
+to hear it?
+
+\\@CHARA_IN@< 1, 0, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0002", 100>
+Arcueid
+A message from Akiha? She could have just told me
+herself. She's so proper sometimes.
+\l
+
+\\@CHARA_IN@< 1, 0, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0003", 100>
+Arcueid
+She knows she doesn't have to keep up appearances
+around Shiki, right? Oh well, what's the message?Å@
+
+\\@CHARA_IN@< 0, 1, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0022", 100>
+Hisui
+ÅgThank you for turning the pleasant conversation between my
+  brother and myself into such a boisterous occasion.Åh
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0023", 100>
+Hisui
+ÅgI hope that the next time you visit, you will allow me to
+  repay you in kind. I shall arrange a special room for you.Åh
+
+\\@CHARA_IN@< 1, 0, 12, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0004", 100>
+Arcueid
+Pleasant?
+(The tension was so thick you could cut it with a knife.)
+\l
+
+\\@CHARA_EMOVE@<1, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0005", 100>
+Arcueid
+Conversation?
+(It was so silent, you could hear a pin drop.)
+
+\\@CHARA_IN@< 0, 1, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0024", 100>
+Hisui
+By the way...
+\l
+
+\\@CHARA_IN@< 0, 1, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0025", 100>
+Hisui
+The guest room is designed to drop 50cm-thick walls of iron
+in place before being sunk into the ocean for a trip...
+\l
+
+\\@CHARA_IN@< 0, 1, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0026", 100>
+Hisui
+To a submarine volcano. The room will be ready sometime
+next week, so the lady requests that you visit then.
+\l
+
+\\@CHARA_IN@< 0, 1, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0027", 100>
+Hisui
+Ah, and one last thing...
+\l
+
+\\@CHARA_IN@< 0, 1, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0028", 100>
+Hisui
+It would seem Master Shiki is disappearing at night again.
+My lady asks if you know anything regarding his activities.
+\l
+
+\\@CHARA_IN@< 1, 0, 0, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0006", 100>
+Arcueid
+I get the feeling she won't take no for an answer!
+\l
+
+\\@CHARA_IN@< 1, 0, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0007", 100>
+Arcueid
+I realize I'm not one to talk, but your household's whole
+menacing act is a bit behind the times, don't you think?
+
+\\@BGM_STOP@<0>
+\e

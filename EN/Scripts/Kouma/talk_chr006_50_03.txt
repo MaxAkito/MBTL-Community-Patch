@@ -1,0 +1,97 @@
+\\@BG_IN@<"screen_bg03", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0,  6, 0, 1, 0>
+\\@CHARA_IN@<1, 11, 3, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@CHARA_IN@< 1, 11, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0010", 100>
+Ciel
+Stop right there, mister.
+\l
+
+\\@CHARA_IN@< 1, 11, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0011", 100>
+Ciel
+You don't seem to be a vampire, but you're remarkably violent.
+Especially so if you're not a vampire, actually.
+\l
+
+\\@CHARA_IN@< 1, 11, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0012", 100>
+Ciel
+This country's bloodline...has no ties to the Holy Father's,
+but you must not deceive the blood of God.
+\l
+
+\\@CHARA_IN@< 1, 11, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0013", 100>
+Ciel
+As an agent of the Lord's will,
+I will cut you down.
+
+\\@CHARA_IN@< 0, 6, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0010", 100>
+Kishima
+Taking land that doesn't belong to you isn't easy...
+\l
+
+\\@CHARA_IN@< 0, 6, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0011", 100>
+Kishima
+Invasion was your creed, right?
+The strength of having one thing to believe in...
+\l
+
+\\@CHARA_IN@< 0, 6, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0012", 100>
+Kishima
+I must say I envy that.
+\l
+
+\\@CHARA_IN@< 0, 6, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0013", 100>
+Kishima
+Even so, such a fastidious lifestyle seems difficult...
+\l
+
+\\@CHARA_IN@< 0, 6, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0014", 100>
+Kishima
+One shouldn't trick the innocent.
+That charity should be accompanied by ability.
+
+\\@CHARA_IN@< 1, 11, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0014", 100>
+Ciel
+I thought you'd be a silent demon,
+but you have quite a lot to say...
+\l
+
+\\@CHARA_IN@< 1, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0015", 100>
+Ciel
+You're a Buddhist even though you aren't human?
+
+\\@CHARA_IN@< 0, 6, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0015", 100>
+Kishima
+Heh. It's the demons who are more pious these days.
+Enough talking. This conversation ends here.
+\l
+
+\\@CHARA_IN@< 0, 6, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0016", 100>
+Kishima
+Come at me, undying woman.
+I'll help alleviate your fatigue.
+
+
+\\@BGM_STOP@<0>
+\e

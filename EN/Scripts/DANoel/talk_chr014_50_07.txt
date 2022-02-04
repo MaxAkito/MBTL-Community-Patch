@@ -1,0 +1,274 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg18", 0, 2, 0>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 14, 0, 1, 0>
+\\@CHARA_IN@<1, 5, 1, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@CHARA_IN@< 1, 5, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0000", 100>
+Roa
+My, my, now this church looks very familiar.
+The scent of blood staining its floors hasn't changed, either.
+\l
+
+
+\\@CHARA_IN@< 1, 5, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0001", 100>
+Roa
+Is this a complete recreation of the original?
+A little slapdash, but they've got the use of blood down.
+\l
+
+\\@CHARA_IN@< 1, 5, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0002", 100>
+Roa
+Not bad, Doctor. I thought of you as a mere Rank IV upstart,
+but this is an accomplishment worthy of Rank VI.
+\l
+
+\\@CHARA_IN@< 1, 5, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0003", 100>
+Roa
+Actually, taking into account how quickly you got the job
+done, Rank VII wouldn't be out of the question, either.
+\l
+
+\\@CHARA_IN@< 1, 5, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0004", 100>
+Roa
+I have to hand it to you, that repulsive creation
+of yours has given rise to something truly wicked.
+
+
+\\@CHARA_IN@<0, 14, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0040", 100>
+Dead_Noel
+Big talk, coming from someone who's survived all
+these years through little more than cowardice.
+\l
+
+
+\\@CHARA_IN@<0, 14, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0041", 100>
+Dead_Noel
+Do you think empty flattery will convince me
+to spare your life, Serpent?
+\l
+
+
+\\@CHARA_IN@<0, 14, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0042", 100>
+Dead_Noel
+I'm in a good mood right now, so I don't mind
+listening to what you have to say, though.
+\l
+
+
+\\@CHARA_IN@<0, 14, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0043", 100>
+Dead_Noel
+Come on, you've learned some interesting stuff throughout
+your lives. Why don't you tell me something I can use?
+
+\\@CHARA_IN@< 1, 5, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0005", 100>
+Roa
+Something you can use? Hmm... I wonder, what
+information someone like you would find useful?
+\l
+
+
+\\@CHARA_IN@< 1, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0006", 100>
+Roa
+A way for you to make amends with the executors, perhaps?
+Or maybe a means for you to escape and hide overseas?
+\l
+
+\\@CHARA_IN@< 1, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0007", 100>
+Roa
+My apologies, but I've no
+experience with any of that.
+\l
+
+\\@CHARA_IN@< 1, 5, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0008_a", 100>
+Roa
+Beggars can't be choosers, as they say.
+I advise you to just sit back and wait for dawn.
+
+\\@CHARA_IN@<0, 14, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0044", 100>
+Dead_Noel
+Huh? Where do you get off acting so tough?
+You're just making me want to kill you even more.
+\l
+
+
+\\@CHARA_IN@<0, 14, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0045", 100>
+Dead_Noel
+You're the one who keeps running from death
+by inhabiting other people's bodies.
+\l
+
+\\@CHARA_IN@<0, 14, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0046", 100>
+Dead_Noel
+Now that I'm a vampire too, I understand better than ever
+just how ridiculous you and your cycle of reincarnations are.
+\l
+
+\\@CHARA_IN@<0, 14, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0047", 100>
+Dead_Noel
+You've got no territory, no followers...
+No real talent, either. You're just a Rank VI poser.
+\l
+
+\\@CHARA_IN@<0, 14, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0048", 100>
+Dead_Noel
+That's all you are, Roa, and all you'll ever be.
+As a Dead Apostle, you're completely outclassed.
+\l
+
+\\@CHARA_IN@<0, 14, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0049", 100>
+Dead_Noel
+Are you really going to try to act like you're still the one
+in charge, even after failing your latest reincarnation?
+
+\\@CHARA_IN@< 1, 5, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0009", 100>
+Roa
+But of course. It's a pity, you really do seem to have
+grasped the true nature of things more than before.
+\l
+
+
+\\@CHARA_IN@< 1, 5, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0010", 100>
+Roa
+But really, territory? Followers?
+Such petty concerns are beyond me.
+\l
+
+\\@CHARA_IN@< 1, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0011", 100>
+Roa
+You yourself were always weak, always petty.
+And a little taste of power doesn't seem to have changed that.
+\l
+
+\\@CHARA_IN@< 1, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0012", 100>
+Roa
+As an apostle...as a person, even...
+You'll never measure up to Elesia.
+
+\\@CHARA_IN@<0, 14, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0050", 100>
+Dead_Noel
+What did you say?!
+
+
+\\@CHARA_IN@< 1, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0013", 100>
+Roa
+I'm the one who should be offended here.
+\l
+
+
+\\@CHARA_IN@< 1, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0014", 100>
+Roa
+Is this about taking revenge on me? Or is it about going
+beyond your own limitations? I don't think even you know.
+\l
+
+\\@CHARA_IN@< 1, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0015", 100>
+Roa
+And yet you have to audacity to
+model this church on my own?
+
+\\@CHARA_IN@< 1, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0016", 100>
+Roa
+Your hatred toward me, your resentment toward Elesia, it's
+completely meaningless. You'll never amount to anything.
+\l
+
+\\@CHARA_IN@< 1, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0017", 100>
+Roa
+How can you hope to stand above me when you
+can't even overcome your own inadequacy?
+\l
+
+\\@CHARA_IN@< 1, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0018", 100>
+Roa
+A half-baked fool capable of neither revenge nor forgiveness.
+That is all you are, Dead Apostle Noel, and all you'll ever be.
+
+\\@CHARA_IN@<0, 14, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0051", 100>
+Dead_Noel
+Shut up...
+Shut up, shut up, shut up!
+\l
+
+\\@CHARA_IN@<0, 14, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0052", 100>
+Dead_Noel
+How dare you even speak to me! You're nothing but trash!
+The only reason you exist is so I can kill you!
+
+\\@CHARA_IN@< 1, 5, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0019", 100>
+Roa
+It's that attitude that will be your downfall.
+\l
+
+
+\\@CHARA_IN@< 1, 5, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0020", 100>
+Roa
+Fine, let's see which one of us dies first!
+Prepare yourself for the end, fallen one!
+\l
+
+\\@CHARA_FACE@<1,1,6,142>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0021", 100>
+Roa
+And another thing...! Why don't you act your age
+for once? That youthful appearance isn't fooling anyone!
+
+
+\\@CHARA_IN@<0, 14, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0053", 100>
+Dead_Noel
+Shut your mouth! This is the new me.
+This is who I am now!
+\l
+
+
+\\@CHARA_IN@<0, 14, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0054", 100>
+Dead_Noel
+Now I'm a vampire, I never have to change or age.
+I won't let anyone get in the way of that!
+
+\\@BGM_STOP@<0>
+\e

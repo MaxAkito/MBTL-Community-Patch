@@ -1,0 +1,158 @@
+WinMesScript
+
+
+WinMes00:
+chara_type 0
+Uuuu...
+Hyah!!!
+\e
+
+
+WinMes01:
+chara_type 1
+Hah! Hyah! Take that! Well?!
+Had enough?! With my bajiquan skills,
+no second strike is needed!
+\e
+
+
+WinMes02:
+chara_type 102
+Yay! I did it! Shiki's sure to
+compliment me after that!
+\e
+
+
+WinMes03:
+chara_type 100
+Perfection! I am perfection! This is the
+result of my daily Kung Fu training!
+\e
+
+
+WinMes04:
+chara_type 2
+Don't underestimate me just because I'm a kid! I may
+be small now, but just wait a couple years!
+\e
+
+
+WinMes05:
+chara_type 104
+Hold on, how is it I can change direction in mid-air?
+Oh well, probably better not to think about it.
+\e
+
+
+WinMes06:
+chara_type 1
+Of course I'm strong! There's a dojo connected to
+my house after all! It wasn't used
+for a long time, but that's a secret.
+\e
+
+
+WinMes07:
+chara_type 4
+Ouch, my knuckles are throbbing. Looks like
+my Kung Fu skills still need work.
+\e
+
+
+WinMes08:
+chara_type 101
+Take that! In battle, flexibility trumps simple brawn!
+Your cheap punches won't work on me!
+\e
+
+
+WinMes09:
+chara_type 103
+That's enough practice for today. I've got
+to go check on the Tohno estate!
+\e
+
+
+WinMes10:
+chara_type 1
+What a workout. I'm exhausted.
+Time to get some sleep.
+\e
+
+
+WinMes11:
+chara_type 103
+This won't do! It's never honorable to pick on the weak!
+As Shiki's sister, I must fight in the name of justice!
+\e
+
+
+WinMes12:
+chara_type 3
+How strange. Am I getting stronger? Things I couldn't
+do yesterday seem almost easy today. Oh, I know!
+I must be in the middle of a growth spurt!
+\e
+
+
+// 有間都古（同キャラ）
+WinMes13:
+chara_type 2
+Y-You think just because you have better-looking hair
+that I'd be jealous? You're just an impostor!
+\e
+
+
+// 対遠野志貴
+WinMes14:
+chara_type 104
+Shiki! Now that I have your attention, would you
+help me with my homework?!
+\e
+
+
+
+// 対軋間紅摩（ストーリー専用）
+WinMesArcadeWin06:
+chara_type 4
+For someone who fights with such ferociousness,
+you sure are super polite about it.
+What? My brother is this way?
+Thanks, Mr. Monk!
+\e
+
+
+// 対シエル（ストーリー専用）
+WinMesArcadeWin11:
+chara_type 2
+Xiexie. I learned a lot from that, Mother!
+Whoops! Wait! Sister!
+I meant Sister!
+\e
+
+
+// 99まで追加可能
+
+
+// ３連勝・１０連勝専用セリフ
+
+WinMes3WinStreak00:
+chara_type 102
+All right! Three wins in a row just proves
+without a doubt that I've grown strong!
+\e
+
+
+WinMes10WinStreak00:
+chara_type 0
+Wow! Ten whole wins! This must mean
+I'm already a martial arts master!
+I'm a little afraid of myself...
+\e
+
+
+//隠しキャラ解放シーン　テスト
+UnlockMes00:
+chara_type 2
+unlock message
+\e

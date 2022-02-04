@@ -1,0 +1,83 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg07", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@< 0, 10, 6, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+\\@BGM_PLAY@<0, 78, 100>
+
+\\@CHARA_IN@< 0, 10, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0000", 100>
+Red_Arcueid
+Where am I? And how
+did I get here?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0001", 100>
+Red_Arcueid
+I remember...pain...and...something
+so frustrating that I wanted to cry.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0002", 100>
+Red_Arcueid
+Hopelessness... I was not in control... A desire
+to destroy, yet unable to do so...
+\l
+
+\\@FADE_OUT@<1, 255, 255, 255, 1>
+\\@CHARA_IN@< 0, 10, 5, 0, 1>
+\w<8>
+\\@FADE_IN@<1, 255, 255, 255, 0>
+\aw
+
+\\@CHARA_IN@< 0, 10, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0003", 100>
+Red_Arcueid
+Ah, that's right.
+Now I remember.
+\l
+
+\\@CHARA_IN@< 0, 10, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0004", 100>
+Red_Arcueid
+Hehehe. I remember. Hahahahaha!
+I remember everything!
+\l
+
+
+\\@CHARA_IN@< 0, 10, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0005", 100>
+Red_Arcueid
+Those humans truly are something else!
+They've killed my original self!
+\l
+
+\\@CHARA_IN@< 0, 10, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0006", 100>
+Red_Arcueid
+And now just look at me! Thanks to them,
+I'm more free than ever before!
+\l
+
+\\@CHARA_IN@< 0, 10, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0007", 100>
+Red_Arcueid
+I suppose I should get to work, then. I'd hate to disappoint
+them. I need to live up to their expectations as best I can.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0008", 100>
+Red_Arcueid
+After all, the fact that they turned me into this means I've
+been given permission to do whatever I want, right?
+
+
+\\@BGM_STOP@<0>
+\e

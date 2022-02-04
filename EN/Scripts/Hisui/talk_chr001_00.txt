@@ -1,0 +1,100 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg11", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 1, 1, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+\\@BGM_PLAY@<0, 72, 100>
+
+\\@CHARA_IN@< 0, 1, 5, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+\aw
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0000", 100>
+Hisui
+Welcome. It is a pleasure to make your acquaintance. I am
+Hisui, a servant under the employ of the Tohno family.
+\l
+
+\\@CHARA_IN@< 0, 1, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0001", 100>
+Hisui
+May I inquire as to the reason for your visit today?
+I would be happy to pass along a message, Miss...?
+\l
+
+\\@CHARA_IN@< 0, 1, 3, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0002", 100>
+Hisui
+I see, Miss Miyako Arima. You are the eldest daughter
+of the Arima branch family, correct?
+\l
+
+\\@CHARA_IN@< 0, 1, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0003", 100>
+Hisui
+I am terribly sorry, but unfortunately Master Shiki and
+Lady Akiha are both away at the moment.
+\l
+
+\\@CHARA_IN@< 0, 1, 0, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0004", 100>
+Hisui
+Oh, I see. You wish to speak with me? So this is
+an educational visit, then.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0005", 100>
+Hisui
+You have come to observe what it is like to live at
+the Tohno estate, and to learn about my position?
+\l
+
+\\@CHARA_IN@< 0, 1, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0006", 100>
+Hisui
+(She is asking me to speak of confidential family business.
+ That is information I shouldn't reveal to an outsider.)
+\l
+
+\\@CHARA_IN@< 0, 1, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0007", 100>
+Hisui
+(And yet, Miss Miyako has a determined look in her eyes.
+ That is not something I can easily ignore.)
+\l
+
+\\@CHARA_IN@< 0, 1, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0008", 100>
+Hisui
+(What would Kohaku do in this situation...?)
+\l
+
+\\@CHARA_IN@< 0, 1, 0, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0009", 100>
+Hisui
+*Ahem* Very well. It is always good to see someone
+who is willing to work hard and learn new skills.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0010", 100>
+Hisui
+I don't know how helpful I will be, but I shall assist
+you in any way I can.
+\l
+
+\\@CHARA_IN@< 0, 1, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0011", 100>
+Hisui
+--This all took place one evening last week--
+
+\\@BGM_STOP@<0>
+\e

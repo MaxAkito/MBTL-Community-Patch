@@ -1,0 +1,50 @@
+\\@SYSTEM@<9999>
+\\@FADE_OUT@<0,0,0,0,1>
+\\@BG_IN@<"ed_bg00", 0, 2>
+\aw
+
+\\@FADE_OUT@<1,255,255,255,0>
+\aw
+
+\\@FADE_IN@<0,0,0,0,0>
+\aw
+
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 76, 100>
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10130", 100>
+Miyako
+When I awoke that day...
+my brother was already gone.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10131", 100>
+Miyako
+My father said he returned to the Tohno estate.
+My mother assured me that he would be just fine.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10132", 100>
+Miyako
+Me, I went on strike out of shock, snapping at everyone who
+came close and locking myself in my room most of the day.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10133", 100>
+Miyako
+The dojo...
+I need to go to the dojo...
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10134", 100>
+Miyako
+Not understanding the urge myself, something
+mysteriously inspired me to go train.
+
+\\@SYSTEM@<21>
+\aw
+
+\\@BGM_STOP@<0>
+
+\e

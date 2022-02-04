@@ -1,0 +1,188 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"ed_bg00", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 15, 1, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+\\@BGM_PLAY@<0, 71, 100>
+
+
+\\@CHARA_FOCUS_COLOR@<0,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0000", 100>
+Mario@Mario_Hatena
+That's how things stand in this town.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0001", 100>
+Mario@Mario_Hatena
+Stage II, infiltration...
+Stage III, proceeding above ground...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0002", 100>
+Mario@Mario_Hatena
+Looks like the dead haven't been
+too active, for now at least.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0003", 100>
+Mario@Mario_Hatena
+Are their sire apostles still asleep?
+Or were they always this organized?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0004", 100>
+Mario@Mario_Hatena
+It's probably a little of both.
+From here, it's all a matter of speed.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0005", 100>
+Mario@Mario_Hatena
+I can't use my executors for this.
+I need to settle things before anything else leaks.
+
+\\@CHARA_IN@<0, 15, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0000", 100>
+Aoko
+Wow. I knew defenses around here were weak, but I didn't
+expect you to sneak in yourself, Your Grace.
+\l
+
+\\@CHARA_IN@<0, 15, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0001", 100>
+Aoko
+Just so you know, I'll be expecting a little hush money on top
+of the bounty for the Rank VI apostle.
+\l
+
+\\@CHARA_FOCUS_COLOR@<0,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0006", 100>
+Mario@Mario_Hatena
+As if you have to ask. My name in the church would be mud
+if they found out I'd been associating with the likes of you.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0007", 100>
+Mario@Mario_Hatena
+After all, you're considered an outlaw by both the Holy Church
+and your own kind.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0008", 100>
+Mario@Mario_Hatena
+You just roll into town and start killing
+Dead Apostles left and right.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0009", 100>
+Mario@Mario_Hatena
+I guess that's your idea of justice.
+Although I can't imagine it pays well.
+
+\\@CHARA_IN@<0, 15, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0002", 100>
+Aoko
+You're right about that.
+Lately I can't even rely on my own sister to pick up the tab.
+\l
+
+\\@CHARA_IN@<0, 15, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0003", 100>
+Aoko
+I know it's all part of the job description, in a way,
+but I'd like to be able take a vacation now and then...
+\l
+
+\\@CHARA_IN@<0, 15, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0004", 100>
+Aoko
+Okay, I guess we have a deal.
+I'll bring you all the intel you need!
+\l
+
+\\@CHARA_IN@<0, 15, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0005", 100>
+Aoko
+Here's my bank details. You might want to pay
+me in advance; this won't take long.
+\l
+
+\\@CHARA_IN@<0, 15, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0006", 100>
+Aoko
+What's up with this town, anyway? Dead Apostles are one thing,
+but there are tons of other troublemakers running around, too.
+
+
+\\@CHARA_FOCUS_COLOR@<0,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0010", 100>
+Mario@Mario_Hatena
+Ignore them. They fall outside our jurisdiction.
+And I'd prefer to avoid conflict with the local landowners.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0011", 100>
+Mario@Mario_Hatena
+Just find and apprehend the main apostle... Hm?
+Wait, have you been to Souya before?
+
+\\@CHARA_IN@<0, 15, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0007", 100>
+Aoko
+I passed through a little while ago.
+It wasn't like this back then, though.
+\l
+
+\\@CHARA_IN@<0, 15, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0008", 100>
+Aoko
+Is that right? Well, your returning now
+must be fate, then.
+\l
+
+\\@CHARA_IN@<0, 15, 7, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0009", 100>
+Aoko
+Yeah, I'm feeling really fired up now!
+I'm gonna go all out!
+
+\\@CHARA_FOCUS_COLOR@<0,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0012", 100>
+Mario@Mario_Hatena
+Your dossier didn't mention this. I guess Japan's a small
+country, and a wanderer like really gets around.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0013", 100>
+Mario@Mario_Hatena
+Anyway, try to keep collateral damage to a minimum.
+I don't want to see you destroying the whole underground.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0014", 100>
+Mario@Mario_Hatena
+Our goal here is to disable the factory. Anything outside
+what's necessary for that is coming out of your pay.
+
+\\@CHARA_IN@<0, 15, 3, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 3>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0010", 100>
+Aoko
+What?! Come on, you can write
+off a couple of subway trains, right?
+
+\\@CHARA_FOCUS_COLOR@<0,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0015", 100>
+Mario@Mario_Hatena
+Absolutely not!
+
+\\@BGM_STOP@<0>
+\e

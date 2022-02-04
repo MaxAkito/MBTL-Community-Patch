@@ -1,0 +1,131 @@
+\\@BG_IN@<"screen_bg05", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_FADE@<0, 0, 100, 240, 0>
+
+\\@SE_PLAY@<0, "talk/talk_se/Hit_PunchC", 0, 30>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0000", 30>
+Noel
+.. ..
+
+\\@CHARA_IN@<0, 4, 101, 3, 0>
+\aw
+
+\\@CHARA_IN@< 0, 4, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0030", 100>
+Kohaku
+Finally, someone who looks like they might be
+able to assist me.
+\l
+
+\\@CHARA_IN@< 0, 4, 100, 50, 20>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0031", 100>
+Kohaku
+Excuse me, Sister. You haven't seen anything
+suspicious around town, have you?
+
+\\@CHARA_FOCUS_COLOR@< 0, 1>
+\\@CHARA_IN@<1, 8, 3, 12, 0>
+\aw
+\\@CHARA_IN@< 1, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0001", 100>
+Noel
+Huh?
+\l
+
+\\@CHARA_IN@< 1, 8, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0002", 100>
+Noel
+You come across a scene like this, and that's your
+question?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0003", 100>
+Noel
+Are you making fun of me? Or maybe you're
+another new Dead Apostle running low on blood.
+
+\\@CHARA_IN@< 0, 4, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0032", 100>
+Kohaku
+Dead Apostle? Low on blood? Um... I'm not quite
+sure what you mean?
+
+\\@CHARA_IN@< 1, 8, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0004", 100>
+Noel
+Oh, so you're just not right in the head. Okay.
+Hold on... You're one of the maids at that mansion!
+\l
+
+\\@CHARA_IN@< 1, 8, 100, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0005", 100>
+Noel
+This is my lucky day! Fate has decided to serve you to me
+on a silver platter!
+\l
+
+\\@CHARA_IN@< 1, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0006", 100>
+Noel
+You're here alone too, aren't you? I don't sense that
+family head of yours nearby.
+\l
+
+\\@CHARA_IN@< 1, 8, 300, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0007", 100>
+Noel
+I'll be the one asking the questions tonight, little maid.
+Fair warning, though; my methods aren't exactly pleasant.
+
+\\@CHARA_IN@< 0, 4, 105, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0033", 100>
+Kohaku
+Uh-oh, this is quite the plot twist.
+\l
+
+\\@CHARA_IN@< 0, 4, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0034", 100>
+Kohaku
+It would seem I've stumbled straight into
+a monster attack!
+\l
+
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0035", 100>
+Kohaku
+Time for a speedy withdrawal!
+\l
+
+\\@CHARA_IN@< 0, 4, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0036", 100>
+Kohaku
+My maid senses are telling me this one is all bark
+and no bite, but even so...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0037", 100>
+Kohaku
+A cornered animal can be particularly dangerous! In this
+situation, a tactical retreat would be more prudent!
+
+\\@CHARA_IN@< 1, 8, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0008", 100>
+Noel
+Hah! As if I'd let you escape with my silver platter!
+\l
+
+\\@CHARA_IN@< 1, 8, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0009", 100>
+Noel
+Looks like I'll have to break a leg or two to keep
+you from running!
+
+\\@BGM_STOP@<0>
+\e

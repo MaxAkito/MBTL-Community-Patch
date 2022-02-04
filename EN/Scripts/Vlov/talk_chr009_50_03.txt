@@ -1,0 +1,100 @@
+\\@BG_IN@<"screen_bg06", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 9, 0, 1, 0>
+\\@CHARA_IN@<1, 5, 1, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@CHARA_IN@< 1, 5, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0060", 100>
+Roa
+Well there's a face I didn't expect to see again. Haven't seen
+you since the incident in France. What was it, 13 years ago?
+\l
+
+\\@CHARA_IN@< 1, 5, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0061", 100>
+Roa
+Before we celebrate our reunion, tell me. What is a hunter
+from the northern sea doing in a place like this?
+
+\\@CHARA_IN@< 0, 9, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0060", 100>
+Volv
+I had not expected to find you so soon. It would seem luck
+has not completely abandoned me.
+\l
+
+\\@CHARA_IN@< 0, 9, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0061", 100>
+Volv
+You ask why I am here?
+\l
+
+\\@CHARA_IN@< 0, 9, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0062", 100>
+Volv
+You should already know the answer to that question. I have
+come to burn all you hope to achieve to ash.
+\l
+
+\\@CHARA_IN@< 0, 9, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0063", 100>
+Volv
+The True Ancestor princess belongs to me. I will obtain the
+knowledge of the poles and overcome this hunger.
+\l
+
+\\@CHARA_IN@< 0, 9, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0064", 100>
+Volv
+And so make another step towards getting my revenge.
+
+\\@CHARA_IN@< 1, 5, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0062", 100>
+Roa
+I see. So you have come to get in the way of love, then.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0063", 100>
+Roa
+And as a result, the Executors of the church focus on you,
+allowing me to reincarnate so easily.
+\l
+
+\\@CHARA_IN@< 1, 5, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0064", 100>
+Roa
+I suppose I should be thanking you.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0065", 100>
+Roa
+This is twice now you have aided me. One could not ask
+for a better friend!
+\l
+
+\\@CHARA_IN@< 1, 5, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0066", 100>
+Roa
+You make the second among the Dead Apostles!
+
+\\@CHARA_IN@< 0, 9, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0065", 100>
+Volv
+This is the third time, snake. You have stolen these past
+200 years from me...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0066", 100>
+Volv
+And as the head of our order, I vow
+to crush your heart.
+
+\\@BGM_STOP@<0>
+\e

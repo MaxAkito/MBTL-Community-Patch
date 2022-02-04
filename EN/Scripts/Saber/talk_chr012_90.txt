@@ -1,0 +1,132 @@
+\\@BG_IN@<"screen_bg03", 0, 2>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 12, 1, 1, 0>
+\aw
+
+\\@BGM_PLAY@<0, 76, 100>
+
+\\@CHARA_IN@< 0, 12, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0030", 100>
+Saber
+I have disposed of the threat to this town.
+\l
+
+\\@CHARA_IN@< 0, 12, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0031", 100>
+Saber
+Does this mean I have fulfilled my purpose
+in being summoned here?
+
+\\@CHARA_IN@<1, 0, 1, 2, 0>
+\aw
+
+\\@CHARA_IN@< 1, 0, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0080", 100>
+Arcueid
+Are you the one who defeated Roa?
+\l
+
+\\@CHARA_IN@< 1, 0, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0081", 100>
+Arcueid
+I'd like to lecture you about the importance of staying
+out of other people's business, but...
+\l
+
+\\@CHARA_IN@< 1, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0082", 100>
+Arcueid
+That weapon of yours was born in the inner seas of the Earth,
+right? It's amazing! I've never seen anything like it before!
+\l
+
+\\@CHARA_IN@< 1, 0, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0083", 100>
+Arcueid
+So I'll just say it was nice to meet you, my beautiful lady
+knight! That sword and I are like cousins in a way!
+
+
+\\@CHARA_IN@< 0, 12, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0032", 100>
+Saber
+You and my sword? Are you saying you are
+some kind of divine incarnation?
+\l
+
+\\@CHARA_IN@< 0, 12, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0033", 100>
+Saber
+But you do not look like--
+
+\\@CHARA_IN@< 1, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0084", 100>
+Arcueid
+Nah, I'm what the humans call a vampire.
+\l
+
+\\@CHARA_IN@< 1, 0, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0085", 100>
+Arcueid
+So that sword wasn't forged to protect the planet,
+but rather the people who live upon it?
+\l
+
+\\@CHARA_IN@< 1, 0, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0086", 100>
+Arcueid
+All right! Why don't we have a little fun?! Until the moon
+disappears behind the clouds, at least!
+\l
+
+\\@CHARA_IN@< 1, 0, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0087", 100>
+Arcueid
+I'd love to see which of us is stronger!
+\l
+
+
+\\@CHARA_IN@< 0, 12, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0034", 100>
+Saber
+*sigh*
+\l
+
+\\@CHARA_IN@< 0, 12, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0035", 100>
+Saber
+For some reason, I find it hard to refuse your request.
+If anything, I am excited at the prospect.
+\l
+
+\\@CHARA_IN@< 0, 12, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0036", 100>
+Saber
+Very well then, vampire. Let's see
+which of us is more skilled.
+\l
+
+\\@CHARA_OUT@<0, -1, -1, 0, 0>
+\\@CHARA_OUT@<1, -1, -1, 0, 0>
+\aw
+
+\\@FADE_IN@<0,255,255,255,0>
+\\@SQ_CALL@<1>
+
+\\@SYSTEM@<21>
+\aw
+
+\\@SYSTEM@<1>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0037", 100>
+Saber
+As a heroine, I have no choice
+but to accept your challenge!
+
+\\@BGM_STOP@<0>
+\e

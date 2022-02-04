@@ -1,0 +1,128 @@
+\\@BG_IN@<"screen_bg06", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 4, 102, 1, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@CHARA_IN@< 0, 4, 106, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0040", 100>
+Kohaku
+Phew...
+Has everyone left in this town gone crazy?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0041", 100>
+Kohaku
+Or is this all a strange dream after all? That would
+sure explain things...
+\l
+
+\\@CHARA_IN@< 0, 4, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0042", 100>
+Kohaku
+Like this cemetery in the middle of the station park.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0043", 100>
+Kohaku
+Is this snow? It looks like ice.
+But it's still fall, I thought...
+
+\\@CHARA_IN@<1, 9, 0, 2, 0>
+\aw
+
+\\@CHARA_IN@< 1, 9, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0000", 100>
+Volv
+ÅgWhat's this? A visitor?Åh
+\l
+
+\\@CHARA_IN@< 1, 9, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0001", 100>
+Volv
+ÅgI may not look the part, but I am the lord of this castle.
+  As such, I receive many visitors...Åh
+\l
+
+\\@CHARA_IN@< 1, 9, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0002", 100>
+Volv
+ÅgYou say it's so cold you are unable to move?Åh
+\l
+
+\\@CHARA_IN@< 1, 9, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0003", 100>
+Volv
+ÅgI grieve for you, dear woman. I have known more
+  than a few with souls just like yours.Åh
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0004", 100>
+Volv
+ÅgLike a forgotten ship, left to crumble to dust at the edge
+  of the world, or a broken clock left forgotten on the wall.Åh
+\l
+
+\\@CHARA_IN@< 1, 9, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0005", 100>
+Volv
+ÅgOur meeting here was not mere chance.Åh
+\l
+
+\\@CHARA_IN@< 1, 9, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0006", 100>
+Volv
+ÅgThis was most likely the work of one of my wives. For her
+  sake, I shall make your death a painless one.Åh
+
+\\@CHARA_IN@< 0, 4, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0044", 100>
+Kohaku
+What manner of speaking is that? I can't understand
+a word of it!
+\l
+
+\\@CHARA_IN@< 0, 4, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0045", 100>
+Kohaku
+All I know is that he sounds like a bad guy!
+\l
+
+\\@CHARA_IN@< 0, 4, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0046", 100>
+Kohaku
+For some reason, he also reminds me a bit of Shiki.
+That being said...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0047", 100>
+Kohaku
+It seems you are laboring under a nasty chronic illness.
+As a doctor, I must do something about this!
+\l
+
+\\@CHARA_IN@< 0, 4, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0048", 100>
+Kohaku
+Prepare yourself, outsider.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0049", 100>
+Kohaku
+I will ease your pain with the power of the broom and
+my medicinal herbs!
+
+\\@CHARA_IN@< 1, 9, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0007", 100>
+Volv
+ÅgThose just look like regular garden weeds. Are you sure
+  you know what you're doing?Åh
+
+\\@BGM_STOP@<0>
+\e

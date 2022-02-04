@@ -1,0 +1,72 @@
+\\@SYSTEM@<9999>
+
+\\@FADE_OUT@<2, 255, 255, 255, 0>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+\\@BGM_PLAY@<0, 76, 100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10140", 100>
+Neco_Arc@Neco_Arc_Rumi
+Well done, Miyako. You have smashed the walls
+of your mental block into tiny pieces.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10120", 100>
+Miyako@Miyako_Hatena
+Into tiny pieces...
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10141", 100>
+Neco_Arc@Neco_Arc_Rumi
+By defeating Four-Eyes, you have earned the right
+to fight alongside the others.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10142", 100>
+Neco_Arc@Neco_Arc_Rumi
+Do you understand? Miyako Arima wasn't an option
+on the character select screen for no reason.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10143", 100>
+Neco_Arc@Neco_Arc_Rumi
+You were included because you fought and trained
+here in this place, thereby proving your worth.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10144_a", 100>
+Neco_Arc@Neco_Arc_Rumi
+It's a tiiiiiime paaaradooox!!
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10145", 100>
+Neco_Arc@Neco_Arc_Rumi
+There. I've said all I wanted to say.
+Now I must bid you adieu for real.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10146", 100>
+Neco_Arc@Neco_Arc_Rumi
+When you wake up, you probably won't remember this dream.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10147", 100>
+Neco_Arc@Neco_Arc_Rumi
+Do not mourn, however. I will also have forgotten
+all about this experience.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10148", 100>
+Neco_Arc@Neco_Arc_Rumi
+But while I have you, allow me to set your little
+heart at ease...
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10149", 100>
+Neco_Arc@Neco_Arc_Rumi
+I will most certainly return! The writers will see to that!
+And they will call it, ÅgThe Cat Strikes BackÅh!
+
+\\@SYSTEM@<10>
+\aw
+\\@BGM_FADE@<0, 100, 0, -2, 1>//BGMèIóπ
+
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@BGM_STOP@<0>
+\e

@@ -1,0 +1,159 @@
+WinMesScript
+
+
+WinMes00:
+chara_type 1
+How boring. I've seen enough.
+There is no reason to continue.
+\e
+
+
+WinMes01:
+chara_type 1
+That was enjoyable. I would be more than happy
+to beat you again whenever you like.
+\e
+
+
+WinMes02:
+chara_type 102
+I'm even more impressive than I thought. If I'm this good,
+there's no reason to ever refuse to fight.
+\e
+
+
+WinMes03:
+chara_type 101
+This battle has been decided. You will find the exit over
+there. I suggest you use it while you're still alive.
+\e
+
+
+WinMes04:
+chara_type 101
+You look rather upset. I would be happy to
+go another round if you wish, though the
+outcome will remain unchanged.
+\e
+
+
+WinMes05:
+chara_type 0
+I think that's quite far enough. I'm not sure
+your pride can take much more.
+\e
+
+
+WinMes06:
+chara_type 104
+A battle isn't all about strength. Technique and a keen mind
+are equally as important. It's a shame you have neither.
+\e
+
+
+WinMes07:
+chara_type 1
+I must be a fool. Once again I prove myself superior,
+and once again I gain nothing from doing so.
+What an absolute waste of my time.
+\e
+
+
+WinMes08:
+chara_type 2
+Thank you for that change of pace. How would you like to
+be my punching bag once a week from now on?
+\e
+
+
+WinMes09:
+chara_type 102
+How was that? I only started practicing my dance moves
+recently, but I think I'm learning quickly.
+\e
+
+
+WinMes10:
+chara_type 1
+Oh dear, you don't look so good. Don't worry, I'll have
+someone see to your wounds right away. Oh, but
+be careful. She has a habit of over-medicating.
+\e
+
+
+WinMes11:
+chara_type 2
+Well, that was a productive use of my time.
+Do take care.
+\e
+
+
+// ‘Îu‹M
+WinMes12:
+chara_type 0
+See? If I put my mind to it, I can fight too. Promise to ask
+me for help the next time you need it, all right?
+\e
+
+
+// ‘Îu‹M
+WinMes13:
+chara_type 103
+Why do you keep leaving the mansion without permission?!
+If you do it again, I'm going to ship you off to an island
+by yourself until you learn some manners!
+\e
+
+
+// ‘ÎƒqƒXƒRƒn
+WinMes14:
+chara_type 1
+This goes without saying, but you will both be receiving
+a pay cut starting tomorrow.
+\e
+
+
+// ‘Îàæàß
+WinMes15:
+chara_type 104
+Kohaku, I will tolerate your indulgences no longer! You will
+take down the surveillance cameras you installed and
+destroy your questionable medicines immediately!
+\e
+
+
+// ‘Î—LŠÔ“sŒÃ
+WinMes16:
+chara_type 1
+You are a member of the Arima family, correct? In that case,
+be sure you learn some manners once you've enrolled at
+Asagami Academy in a couple years. What? You don't
+plan on attending the academy?!
+\e
+
+
+// 99‚Ü‚Å’Ç‰Á‰Â”\
+
+
+
+// ‚R˜AŸE‚P‚O˜AŸê—pƒZƒŠƒt
+
+WinMes3WinStreak00:
+chara_type 102
+Three wins isn't bad. This sure is proving to be quite
+the useful training session.
+\e
+
+
+WinMes10WinStreak00:
+chara_type 2
+Ten wins?! That's amazing! *ahem* Excuse me. What I
+meant to say was, you would be most welcome as a
+member of my house should you be interested.
+\e
+
+
+//‰B‚µƒLƒƒƒ‰‰ğ•útest
+UnlockMes00:
+unlock message
+\e

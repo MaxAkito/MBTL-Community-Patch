@@ -1,0 +1,63 @@
+\\@BG_IN@<"screen_bg06", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0,  5, 1, 1, 0>
+\\@CHARA_IN@<1, 11, 0, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@CHARA_IN@< 1, 11, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0000", 100>
+Ciel
+I thought that was you, Roa. If only I had sensed
+your presence sooner...
+
+\\@CHARA_IN@< 0, 5, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0030", 100>
+Roa
+Then perhaps Shiki would still be alive.
+\l
+
+\\@CHARA_IN@< 0, 5, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0031", 100>
+Roa
+He was not as powerful as I remember. I sense that you
+have lost your touch as well, Executor.
+
+\\@CHARA_IN@< 1, 11, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0001", 100>
+Ciel
+Yes, I am to blame. It was my own weaknesses that
+brought this on.
+\l
+
+\\@CHARA_IN@< 1, 11, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0002", 100>
+Ciel
+But no more. I am weak no longer.
+I have you to thank for that.
+
+\\@CHARA_IN@< 0, 5, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0032", 100>
+Roa
+Well, well. Seems you've finally grown some fangs of your own.
+\l
+
+\\@CHARA_IN@< 0, 5, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0033", 100>
+Roa
+I should have expected as much from my previous host.
+\l
+
+\\@CHARA_IN@< 0, 5, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0034", 100>
+Roa
+Very well. Let's dance, Elesia. I'm going to teach you
+a lesson with my own two hands.
+
+\\@BGM_STOP@<0>
+\e

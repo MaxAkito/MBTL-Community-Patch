@@ -1,0 +1,43 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg05", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 6, 0, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+\\@BGM_PLAY@<0, 71, 100>
+
+\\@CHARA_IN@< 0, 6, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0000", 100>
+Kishima
+この人口過密の都市に吸血鬼とはな。
+物好きな怪物もいたものだ。
+\l
+
+\\@CHARA_IN@< 0, 6, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0001", 100>
+Kishima
+俺には関わりのない手合いのようだが……
+この都市には幾ばくか縁がある。
+\l
+
+\\@CHARA_IN@< 0, 6, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0002", 100>
+Kishima
+袖すり合うのも多生の……というヤツだ。
+\l
+
+\\@CHARA_IN@< 0, 6, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0003", 100>
+Kishima
+三年間怪我なく過ごした以上、
+数日程度のタダ働きはするさ。
+
+
+\\@BGM_STOP@<0>
+\e

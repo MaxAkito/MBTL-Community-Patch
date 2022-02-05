@@ -16,8 +16,8 @@ do with it?!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0001", 100>
 Worker
-What? It's not on the manifest. Just stick it in the
-warehouse for now. We'll figure it out later.
+What? It's not on the manifest? Just stick it in the
+warehouse for now? We're not a goddamn charity, you know?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0002", 100>
@@ -28,8 +28,8 @@ Moroz Maritime Shipping? Huh...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0003", 100>
 Worker
-Did it come all the way from Russia? Must have gotten
-mixed up somewhere. Oh well, finders keepers.
+So it came here all the way from Russia?
+Oh well, finders keepers, am I right?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0004", 100>
@@ -43,7 +43,7 @@ flowers...and that looks like a coffin.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0005", 100>
 Worker
 Who the he--Whoa! The flowers
-are starting to b--! AHHH!!!
+are starting to bu--! AH...AHHH!!!
 \l
 
 
@@ -76,7 +76,7 @@ would cross an entire ocean inside a coffin.
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0052", 100>
 Volv
 Though I suppose this was not the first time. I was sealed
-in a coffin when I was exiled to the northern sea as well.
+in a coffin when I was exiled to the North Sea as well.
 \l
 
 \\@CHARA_IN@< 0, 9, 4, 0, 1>

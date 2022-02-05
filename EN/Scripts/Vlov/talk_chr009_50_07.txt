@@ -13,13 +13,13 @@
 \\@CHARA_IN@< 1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0060", 100>
 Arcueid
-Are you the one who defeated Roa?
+Are you the one who took care of Roa?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0061", 100>
 Arcueid
 I don't know where you came from, Dead Apostle, but
-you should not have come here.
+now you've done it.
 
 \\@CHARA_IN@< 0, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0070", 100>
@@ -36,19 +36,19 @@ Uuu...
 \\@CHARA_IN@< 1, 0, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0062", 100>
 Arcueid
-It appears you have lost all reason.
+Actually, seems you've already lost it.
 \l
 
 \\@CHARA_IN@< 1, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0063", 100>
 Arcueid
-You may have inherited an ancestor's will, but the curse
-was too much for you. Such irresponsible parents to have...
+It seems you've inherited the Principle of an Ancestor, yet unable 
+to bear the curse you fall apart. Not the greatest parent...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0064", 100>
 Arcueid
-Failed to properly judge their own successor's limits.
+They failed to judge the calibre of their own child, after all.
 \l
 
 \\@CHARA_IN@< 1, 0, 2, 0, 1>
@@ -60,7 +60,7 @@ putting you out of your misery.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0066", 100>
 Arcueid
-What is your name?
+So, what's your name?
 
 \\@CHARA_IN@< 0, 9, -1, 0, 1>
 \w<10>
@@ -76,8 +76,8 @@ Yes... I am Arkhangel...
 \\@CHARA_IN@< 0, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0073", 100>
 Volv
-That is the name my family head gave me. I come from the
-northern seas, where all I could do was await my death.
+I, who could do nothing but await my death in the North Sea,
+was named as such by my lord.
 \l
 
 \\@CHARA_IN@< 0, 9, 3, 0, 1>
@@ -95,8 +95,8 @@ Though for how long, I cannot say.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0076", 100>
 Volv
-Prepare yourself, White Princess. You will now answer for
-insulting my family.
+Prepare yourself, woman in white. 
+You shall now answer for insulting my lord.
 
 \\@BGM_STOP@<0>
 \e

@@ -23,13 +23,13 @@ So this is where it ends...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0081", 100>
 Volv
-I hoped facing her would help in some way,
-but it has changed nothing.
+Yet even by consuming that woman, 
+nothing about me has changed whatsoever.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0082", 100>
 Volv
-The past cannot be re-written.
+The past cannot be changed.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0083", 100>
@@ -39,32 +39,32 @@ And I have no idea what kind of future I should strive for.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0084", 100>
 Volv
-What is the purpose of someone like
-me living for so long?
+What is the purpose of a ghost 
+like me to keep on living then?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0085", 100>
 Volv
-My time adrift has come to an end.
-In all my 200 years of life...
+My time adrift has come to an end...
+It's been... 200 hundred years... since I became like this
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0086", 100>
 Volv
-Not once did I meet an adversary who moved my soul.
-That is my biggest regret.
+Yet I regret to not even once have met 
+an adversary who moved my soul.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0087", 100>
 Volv
-It is a fitting end for a man as
-worthless as myself.
+It is no doubt a fitting end for a man 
+as worthless as myself.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0088", 100>
 Volv
-*sigh* This place
-is so cold...
+Alas... 
+It is so, very, cold...
 
 \\@SYSTEM@<21>
 \aw

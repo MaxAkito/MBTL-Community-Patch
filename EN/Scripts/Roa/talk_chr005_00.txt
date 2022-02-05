@@ -15,54 +15,54 @@
 \\@CHARA_IN@< 0, 5, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0000", 100>
 Roa
-I am...alive? Even though my Death Point was cut with
+I'm... alive? Even though my Death Point was cut with
 the Mystic Eyes of Death Perception?
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0001", 100>
 Roa
-Did she fail to kill me? No...
+Did he fail to kill me? No...
 \l
 
 \\@CHARA_IN@<0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0002", 100>
 Roa
-I remember her being very careful to take me
-apart piece by piece.
+I mean... I did thoroughly 
+tear that woman to pieces.
 \l
 
 \\@CHARA_IN@<0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0003", 100>
 Roa
-The vampire known as Roa was killed. That is certain.
+The vampire known as Roa was completely killed. That is certain.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0004", 100>
 Roa
-This is something else entirely.
+This is no doubt a deviation that took place after that.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0005", 100>
 Roa
 So am I the oddity here?
-Or is it something about this place?
+Or is it the world itself that's odd?
 \l
 
 \\@CHARA_IN@< 0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0006", 100>
 Roa
-If it's me, then I'd assume it's some sort of parting gift
-from her. That would make the most sense.
+If I had to guess someone, then something like Paranodahlia
+having left me a little present seems about right.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0007", 100>
 Roa
-If it's this place, well... I have no idea
-who I am this time.
+If it's the world itself, then well...
+This current "me" won't have a clue as to why.
 \l
 
 \\@CHARA_IN@< 0, 5, 1, 0, 1>

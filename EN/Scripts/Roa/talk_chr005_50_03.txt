@@ -27,8 +27,8 @@ Perhaps you would care for a sip of my drink, then?
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0022", 100>
 Roa
-It's only the inferior blood of an executor of the church,
-but it's not bad once you get used to it.
+It's just some Executor's lowly blood, but hey...
+might not so bad once you get used to it.
 
 \\@CHARA_IN@< 1, 3, 5, 0, 1>
 \\@CHARA_IN@< 1, 3, -1, 22, 20>
@@ -40,14 +40,14 @@ Roa?!
 \\@CHARA_IN@< 1, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0051", 100>
 Shiki
-I'm impressed you survived after that. You're harder to
-kill than a cockroach, aren't you?
+I'm impressed you survived after that. You really are
+as immortal as snakes are said to be, aren't you?
 
 \\@CHARA_IN@< 0, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0023", 100>
 Roa
-You shouldn't scowl so intently, Brother. If you're not
-careful, your face will get stuck like that.
+No need for the death glare, friend. If you go all out from 
+the start, your brain could rupture, you know?
 \l
 
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
@@ -73,18 +73,18 @@ Is that all you have to say?
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0053", 100>
 Shiki
 That makes things simple. I can
-dispose of you without feeling guilty.
+dispose of you without any complicated feelings.
 
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0026", 100>
 Roa
-Sometimes I wonder which one of us enjoys this more.
+Good grief. Sometimes I wonder which one of us enjoys this more.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0027", 100>
 Roa
-The way you can alter your attitude so easily
-is truly inspiring. I could learn much from you.
+The way you change under duress is truly 
+something else. I could learn much from you.
 \l
 
 \\@CHARA_IN@< 0, 5, 6, 0, 1>

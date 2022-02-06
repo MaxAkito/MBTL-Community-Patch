@@ -139,7 +139,7 @@ This is me at my most amazing, you know?!
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0075", 100>
 Dead_Noel
 Come on, don't fall apart on me now...
-I even became a loathsome filthy vampire for this, yet--
+I even became a filthy vampire for this, yet--
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0076", 100>

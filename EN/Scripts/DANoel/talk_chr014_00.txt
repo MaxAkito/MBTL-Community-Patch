@@ -25,14 +25,14 @@ It hurts... It hurts so bad...
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0001", 100>
 Dead_Noel
 My head is spinning...
-I feel like I've been completely hollowed out.
+It hurts like... like my insides have all spilled out.
 \l
 
 \\@CHARA_IN@<1, 14, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0002", 100>
 Dead_Noel
 What happened to me...? The last thing I remember
-is a weird lady injecting me with something...
+was that weird lady injecting me with something...
 \l
 
 \\@CHARA_OUT@<1, 14, 109, 0, 0>
@@ -59,30 +59,30 @@ Ooh, I can't stop smiling!
 \\@CHARA_IN@<0, 14, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0005", 100>
 Dead_Noel
-My eyes, arms, legs... Everything is different!
+My eyes, arms, legs... even my insides!
 It's a huge improvement, in every single way!
 \l
 
 \\@CHARA_IN@<0, 14, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0006", 100>
 Dead_Noel
-Aha, I spy a tasty morsel about half a mile away...
+Aha, I spy a tasty human about half a mile away...
 Get this damned car out of my way!
 \l
 
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0007", 100>
 Dead_Noel
-Ahahahahaa!
-Oh man, who'd have thought being a vampire would be so much fun?
+Aha... Ahahahahaa!
+This is just unfair! I mean really, aren't vampires just a bit too unfair?
 \l
 
 
 \\@CHARA_FACE@<0,9,10,325>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0008", 100>
 Dead_Noel
-Goodbye and good riddance to my old life!
-This is the start of a shining new era for me!
+Goodbye to the most miserable part of my life!
+And hello to the most amazing part of my life!
 \l
 
 \\@CHARA_IN@<0, 14, 8, 0, 1>
@@ -97,7 +97,7 @@ I think it's time to test out what the new me is capable of.
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0010", 100>
 Dead_Noel
 To be honest, I'm not all that thirsty.
-But I do need to keep this great new body fed and happy.
+Still, I've gotta get fed and try out this lovely new body of mine.
 \l
 
 

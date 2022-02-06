@@ -23,38 +23,39 @@
 \\@CHARA_IN@< 0, 14, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0060", 100>
 Dead_Noel
-This feel great!
+That felt great!
 \l
 
 
 \\@CHARA_IN@< 0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0061", 100>
 Dead_Noel
-All of Roa's potential new hosts are in hell where they
-belong, and Roa himself is gone for good!
+Roa's potential host is having a fun time in hell
+and Roa himself is gone for good!
 \l
 
 \\@CHARA_IN@< 0, 14, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0062", 100>
 Dead_Noel
-Hmm, didn't Shiki say he might have survived somehow,
-though? Or was he just making that up?
+Hmm, wait... considering Roa himself appeared...
+doesn't that mean Shiki was innocent...?
 \l
 
 
 \\@CHARA_IN@< 0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0063", 100>
 Dead_Noel
-Well, whatever!Åô Even if he did, he'd just be a
-disembodied soul now. Nothing to worry about!
+Well, whatever!Åô
+He's just a consciousness now, and he can't be let outside anyways!
 \l
 
 
 \\@CHARA_IN@< 0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0064", 100>
 Dead_Noel
-I'll think of something to make it up to him.
-One little reward for each hundred deaths sounds fair!
+Well, I'm so sorry Shiki, maybe I'll show you something nice
+once in a while? Maybe once per 100 deaths?
+
 \l
 
 \\@CHARA_IN@< 0, 14, 0, 0, 1>
@@ -114,7 +115,7 @@ I even tore Roa apart.
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0071", 100>
 Dead_Noel
 So, why...?
-Why are my fingers...starting to disintegrate...?
+Why are my fingers...starting to fall apart...?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0072", 100>
@@ -132,13 +133,13 @@ Back then I always looked ragged and half broken anyway.
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0074", 100>
 Dead_Noel
 But now...? Please, not now...
-This was meant to be a fresh start for me!
+This is me at my most amazing, you know?!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0075", 100>
 Dead_Noel
 Come on, don't fall apart on me now...
-I threw away everything and became a vampire for this.
+I even became a loathsome filthy vampire for this, yet--
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0076", 100>
@@ -158,8 +159,8 @@ We will purify your soul before that happens.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcExe/NpcExe_07_0001", 100>
 Executor
-In honor of your past record as an executor,
-you will be guided to salvation, not destruction.
+In honor of your past record as an Executor,
+you will be granted salvation, not incineration.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0077", 100>
@@ -170,20 +171,19 @@ Aaah...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcExe/NpcExe_07_0002", 100>
 Executor
-We'll do our best to make this quick. Your sins will be purged
-and you'll be released from your suffering.
+I pray you are released from your earthly sins, 
+from your impurities, by this single blow.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0078", 100>
 Dead_Noel
 Oh...
-So that's how it's gonna be?
+Right, I remember now.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0079", 100>
 Dead_Noel
-If I'd known it would turn out this way,
-I'd have killed you before anyone else.
-
+The one I should've killed first...
+was you, wasn't it?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcExe/NpcExe_07_0003", 100>
 Executor

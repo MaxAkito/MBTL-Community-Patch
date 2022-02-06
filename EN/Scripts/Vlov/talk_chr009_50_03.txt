@@ -63,7 +63,7 @@ I see. So you have come to get in the way of my love, then.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0063", 100>
 Roa
-And as a result, the Executors of the church focus on you,
+And as a result, the Executors focus on you,
 allowing me to complete my reincarnation this easily.
 \l
 
@@ -87,13 +87,13 @@ That would make you my second ever since I became a Dead Apostle!
 \\@CHARA_IN@< 0, 9, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0065", 100>
 Volv
-This is the third time, snake.
+This is the third time, serpent.
 Deceived by you, and having spent these last 200 years adrift...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0066", 100>
 Volv
-Now while I still remain the knight of my lord,
+Now while I still remain my liege's knight,
 I shall crush that heart of yours. 
 
 \\@BGM_STOP@<0>

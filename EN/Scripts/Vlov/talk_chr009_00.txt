@@ -94,13 +94,13 @@ But enough about the past. I will only remain sane for so long.
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0055", 100>
 Volv
 This is my last chance. I must acquire the heart of the
-True Ancestor's princess before I lose myself entirely.
+True Ancestor princess before I lose myself entirely.
 \l
 
 \\@CHARA_IN@< 0, 9, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0056", 100>
 Volv
-And then, I will find that snake and make him pay.
+And then, I will find that serpent and make him pay.
 
 
 \\@BGM_STOP@<0>

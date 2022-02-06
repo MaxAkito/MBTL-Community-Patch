@@ -42,8 +42,8 @@ Actually, seems you've already lost it.
 \\@CHARA_IN@< 1, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0063", 100>
 Arcueid
-It seems you've inherited the Principle of an Ancestor, yet unable 
-to bear the curse you fall apart. Not the greatest parent...
+It appears you've inherited the Principle of an Ancestor, yet unable 
+to bear the curse you're falling apart. Not the greatest parent...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0064", 100>
@@ -77,13 +77,13 @@ Yes... I am Arkhangel...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0073", 100>
 Volv
 I, who could do nothing but await my death in the North Sea,
-was named as such by my lord.
+was named as such by my liege.
 \l
 
 \\@CHARA_IN@< 0, 9, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0074", 100>
 Volv
-I thank you...Princess of the True Ancestors.
+I thank you... Princess of the True Ancestors.
 \l
 
 \\@CHARA_IN@< 0, 9, 2, 0, 1>
@@ -96,7 +96,7 @@ Though for how long, I cannot say.
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0076", 100>
 Volv
 Prepare yourself, woman in white. 
-You shall now answer for insulting my lord.
+You shall now answer for insulting my liege.
 
 \\@BGM_STOP@<0>
 \e

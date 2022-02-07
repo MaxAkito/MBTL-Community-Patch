@@ -19,15 +19,15 @@ have been making a mess of things.
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0020", 100>
 Volv
-You think I'm to blame for the sorry state of this town?
+You think I'm to blame for the smoldering city?
 For a murderer, you sure aren't very good at provocation.
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0021", 100>
 Volv
-But that makes me more sad than angry. Kind of like how
-it's difficult to hold murderous intentions toward a fool.
+But that makes me more sad than angry. Just as there
+nobody who would feel the need to murder a mere fool.
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0021", 100>
@@ -45,15 +45,15 @@ me lose myself in anger.
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0022", 100>
 Volv
-I see. So the wounds may have faded from
-memory but the scars remain.
+I see... It appears you have a wound you cannott forget,
+yet despite that cannot ever truly remember, either.
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0023", 100>
 Volv
-Such a shame that your anger forces you to challenge even
-the Dead Apostles, despite being a mere human.
+How pitiful... Such fury that it compells you to challenge 
+even a Dead Apostle, despite that you are but merely human.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
@@ -65,15 +65,15 @@ I can't very well turn down such a challenge, can I?
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0025", 100>
 Volv
-Come at me then, you walking blood bag. I shall be
-more than happy to help cool your head...permanently.
+Come at me then, blood-bag.
+I shall gratefully accept that scorching blood.
 \l
 
 \\@CHARA_IN@< 0, 3, 102, 0, 1>//“{‚è2
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0023", 100>
 Shiki
-You talk big, but the only thing that will help me now, be it
-to cool my head or warm my heart, is your death.
+Keep talking. I'm not going to give you anything warm, or 
+even cold. All you'll get from me is mere death.
 
 
 \\@BGM_STOP@<0>

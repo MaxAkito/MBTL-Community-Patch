@@ -20,7 +20,7 @@ How disappointing...
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0021", 100>
 Red_Arcueid
 What are you doing here, Roa?
-I was expecting Shiki!
+It was supposed to be Shiki!
 \l
 
 \\@CHARA_IN@< 0, 10, 4, 0, 1>
@@ -32,57 +32,58 @@ He's the one who's supposed to be trying to kill me!
 \\@CHARA_IN@< 0, 10, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0023", 100>
 Red_Arcueid
-I've been waiting for this moment!
-Looking forward to it, even!
+That's the only thing I've been looking forward to!
+That's the only thing that can give me happiness!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0024", 100>
 Red_Arcueid
-He was supposed to be my reward for
-crushing all those weaklings!
+And so I crushed all everyone underfoot because  
+that's the only thing I've been wanting as a reward!
+
 \l
 
 \\@CHARA_IN@< 0, 10, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0025", 100>
 Red_Arcueid
-I demand a swap! A do-over! Just get out of here!
-I don't want to see that gloomy face of yours!
+C'mon! Change right now, begone!
+I really don't want to see that gloomy face of yours!
 \l
 
 \\@CHARA_IN@< 0, 10, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0026", 100>
 Red_Arcueid
-Leave now or I'm going to show you what it's like
-to beg for the sweet relief of death.
+If you don't piss off I'm going to make you experience 
+something much worse than just death.
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0070", 100>
 Roa
-I'm the one who's disappointed.
+I'm the one who's disappointed here.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0071", 100>
 Roa
-With a little more influence over your world,
-my position would have improved dramatically.
+As your influence over the world increases so does the
+thickness of my blood, as it something I stole from you.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0072", 100>
 Roa
-It's inevitable. This body will be mine.
+Naturally, Shiki's body would then become mine.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0073", 100>
 Roa
-Surely you have realized the more you behave like
-a selfish child, as you have been...
+Did you not realize that the more you behaved like a
+child, the more you did as you liked...
 \l
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0074", 100>
 Roa
-The more Shiki Tohno will suffer.
+The more Shiki Tohno would suffer?
 
 \\@CHARA_IN@< 0, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0027", 100>
@@ -92,12 +93,12 @@ Red_Arcueid
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0075", 100>
 Roa
-It appears you've become too human.
+You've become too tragically human.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0076", 100>
 Roa
-To think that the perfect moon princess has fallen
+To think that the perfect moon princess would fall
 so far as to become a lowly beast herself.
 \l
 
@@ -115,7 +116,7 @@ much room to judge.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0079", 100>
 Roa
-These flesh bodies are such troublesome things. It's too
+These bodies our ours are such troublesome things. It's too
 easy for their true character to bleed through.
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
@@ -128,8 +129,8 @@ it is painfully obvious.
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0029", 100>
 Red_Arcueid
-You say my actions have caused
-Shiki to suffer?
+Right, Shiki has been suffering because of my childish
+outbursts, right?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0030", 100>
@@ -147,21 +148,21 @@ Hehehe. Still...
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0032", 100>
 Red_Arcueid
 Just because the perpetrator has served his sentence
-does not mean the victim has been satisfied.
+does not mean the victim's feelings have changed.
 \l
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0033", 100>
 Red_Arcueid
-I'll still make him experience just what
-I am forced to endure.
+Shiki still has to 
+accept my feelings for him.
 \l
 
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0034", 100>
 Red_Arcueid
-He will know this constant boiling urge to drink blood.
-But first, I must remove those who would stand in my way.
+This gently boiling feeling of my Bloodsucking Impulse, that is.
+For that, I must first remove those who would stand in my way.
 \l
 
 \\@CHARA_IN@< 0, 10, 102, 0, 1>
@@ -174,8 +175,8 @@ make the best of the situation.
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0036", 100>
 Red_Arcueid
-You will make a fine appetizer before the main course.
-Don't worry. I'll be sure to mind my table manners.
+you'll serve well as a napkin as I prepare
+for the main course.
 
 \\@BGM_STOP@<0>
 \e

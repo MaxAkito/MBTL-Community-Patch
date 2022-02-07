@@ -20,13 +20,13 @@ you since the incident in France. What was it, 13 years ago?
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0061", 100>
 Roa
-Before we celebrate our reunion, tell me. What is a hunter
-from the northern sea doing in a place like this?
+Before we celebrate our reunion, tell me. What is the hunter
+from the North Sea doing in a city like this?
 
 \\@CHARA_IN@< 0, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0060", 100>
 Volv
-I had not expected to find you so soon. It would seem luck
+I had not expected to come across you first. It would seem luck
 has not completely abandoned me.
 \l
 
@@ -47,54 +47,54 @@ come to burn all you hope to achieve to ash.
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0063", 100>
 Volv
 The True Ancestor princess belongs to me. I will obtain the
-knowledge of the poles and overcome this hunger.
+Principle of the Extremum and overcome this hunger.
 \l
 
 \\@CHARA_IN@< 0, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0064", 100>
 Volv
-And so make another step towards getting my revenge.
+And so make another step towards getting my revenge towards you.
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0062", 100>
 Roa
-I see. So you have come to get in the way of love, then.
+I see. So you have come to get in the way of my love, then.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0063", 100>
 Roa
-And as a result, the Executors of the church focus on you,
-allowing me to reincarnate so easily.
+And as a result, the Executors focus on you,
+allowing me to complete my reincarnation this easily.
 \l
 
 \\@CHARA_IN@< 1, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0064", 100>
 Roa
-I suppose I should be thanking you.
+To think...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0065", 100>
 Roa
-This is twice now you have aided me. One could not ask
-for a better friend!
+That you would aid me not just once, but twice!
+I really ought to call you my friend!
 \l
 
 \\@CHARA_IN@< 1, 5, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0066", 100>
 Roa
-You make the second among the Dead Apostles!
+That would make you my second ever since I became a Dead Apostle!
 
 \\@CHARA_IN@< 0, 9, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0065", 100>
 Volv
-This is the third time, snake. You have stolen these past
-200 years from me...
+This is the third time, serpent.
+Deceived by you, and having spent these last 200 years adrift...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0066", 100>
 Volv
-And as the head of our order, I vow
-to crush your heart.
+Now while I still remain my liege's knight,
+I shall crush that heart of yours. 
 
 \\@BGM_STOP@<0>
 \e

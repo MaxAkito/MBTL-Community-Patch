@@ -23,15 +23,15 @@ Was there always a church like this here in Souya?
 \\@CHARA_IN@<0, 15, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0021", 100>
 Aoko
-Is this even real? Those roses
-have a hint of magic about them...
+Is this even real? I mean, those roses
+ seem to be almost made out of curses...
 \l
 
 \\@CHARA_IN@<0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0022", 100>
 Aoko
-Is it like Reality Marble...? No, it's a little different.
-Like it's being consumed by a dream world, maybe?
+Is it like Reality Marble? No... not quite.
+This place is halfway subsumed by some dream-world, isn't it?
 
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0080", 100>
@@ -43,7 +43,7 @@ just waltzing into my territory like this.
 \\@CHARA_IN@<1, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0081", 100>
 Dead_Noel
-Are you an unattached mage or something?
+Are you an freelance Mage or something?
 If you had any sense you'd be trembling in fear right now.
 \l
 
@@ -80,7 +80,7 @@ If it's not blood, it all tastes the same to me now.
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0086", 100>
 Dead_Noel
-So I wonder what a mage's blood tastes like?
+So I wonder what a Mage's blood tastes like?
 I bet it's full to bursting with pain and suffering!
 \l
 
@@ -88,27 +88,27 @@ I bet it's full to bursting with pain and suffering!
 \\@CHARA_IN@<1, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0087", 100>
 Dead_Noel
-It's worth killing you just to find out.
-Heck, maybe it'll taste like mint chocolate chip!
+So don't worry, I'll be gentle.
+I love mint-chocolate, after all. 
 
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0023", 100>
 Aoko
-You might be disappointed. My blood is probably
-ice cold, and not sweet at all, either.
+You might be disappointed. My blood might be a bit chilly
+but I doubt it's much sweet at all.
 \l
 
 \\@CHARA_IN@<0, 15, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0024", 100>
 Aoko
-So forgive me if I decline your kind offer.
+Also, unlike you I won't be so gentle.
 \l
 
 \\@CHARA_IN@<0, 15, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0025", 100>
 Aoko
-Looks like we have a problem, roses.
-Remove the church for me real quick, would you?
+You see, I hate these roses.
+So... sorry, but could you just go away, alongside that church?
 
 
 \\@BGM_STOP@<0>

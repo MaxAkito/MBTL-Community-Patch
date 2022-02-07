@@ -15,26 +15,26 @@
 \\@CHARA_IN@< 0, 11, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0030", 100>
 Ciel
-This town is overrun with Dead Apostles.
+This town is infested with Dead Apostles.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0031", 100>
 Ciel
-As executors of the church, it is our job to rid the town
-of this sickness by destroying them at the source.
+An Executor's duty is to quickly eliminate
+such diseases at the source.
 \l
 
 \\@CHARA_IN@< 0, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0032", 100>
 Ciel
-She shows up an entire month behind schedule, then not
-only does she waste all her free time shopping...
+Not only does she shows up an entire month behind schedule,  
+she wastes all her free time fooling around...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0033", 100>
 Ciel
-But her first decision is to
-infiltrate a school?
+And then finally she even goes 
+'well I wanna infiltrate your school too!'
 \l
 
 \\@CHARA_IN@< 0, 11, 8, 0, 1>

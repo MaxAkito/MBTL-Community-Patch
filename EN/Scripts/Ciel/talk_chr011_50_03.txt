@@ -15,19 +15,19 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0060", 100>
 Akiha
 What have we here? I came in search of a mouse sneaking
-around town, and wind up catching a rat instead.
+around my city, and wind up catching a rat instead.
 \l
 
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0061", 100>
 Akiha
 Actually, that seems a bit rude to the rats.
-What are you, a stray dog?
+You're more like, let's see... a stray dog?
 
 \\@CHARA_IN@< 0, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0040", 100>
 Ciel
-Call me whatever you wish, Akiha Tohno.
+Call me whatever you wish, Lady Tohno.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0041", 100>

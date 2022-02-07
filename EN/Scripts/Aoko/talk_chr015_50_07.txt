@@ -17,35 +17,35 @@
 \\@CHARA_FACE@<0,5,4,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0030", 100>
 Aoko
-Who'd have thought there'd be such a large-scale operation
-under these streets? They put it up really quick, too.
+Who'd have thought there'd be an altar of this large scale down here?
+You couldn't have built this in just a year or two.
 \l
 
 \\@CHARA_IN@<0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0031", 100>
 Aoko
-Now, according to what Mario told me, that Roa
-guy was awakened around seven years ago...
+Now, according to Mario's information, that Roa
+guy awakened around seven years ago...
 
 
 \\@CHARA_IN@<1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0030", 100>
 Roa
-Well, well. I didn't expect to see
-another magician enter the fray.
+Well, well. 
+To think the new Magician would appear...
 \l
 
 \\@CHARA_IN@<1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0031", 100>
 Roa
-I knew they'd come for me eventually, of course.
+I was convinced you'd come for me eventually, of course.
 But this is a little sooner than I'd counted on.
 \l
 
 \\@CHARA_FACE@<1,5,2,210>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0032", 100>
 Roa
-Pantheon has yet to activated. Could this be
+My Pantheon has yet to activated. Could this perhaps be
 a visitor from the future? If that's the case, then...
 \l
 
@@ -53,36 +53,36 @@ a visitor from the future? If that's the case, then...
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0033", 100>
 Roa
 Heh... Hahahahaha!
-Looks like his-- no, MY theory was correct after all!
+Looks like His-- no, my theory was correct after all!
 \l
 
 
 \\@CHARA_IN@<1, 5, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0034", 100>
 Roa
-This is proof positive that my
-plans are destined to see success!
+So I take it that my plan to see the cosmos 
+unveiled did in fact in someway succeed!
 \l
 
 \\@CHARA_IN@<1, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0035", 100>
 Roa
-Oh, embryo of creation! The base sequence of all reality...!
-All the leylines and waterways of heaven lead back to here!
+The Celestial Egg! The atomic structure of creation!
+The flow converges, and void is enshrined in heaven!
 \l
 
 \\@CHARA_IN@<1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0036", 100>
 Roa
-Struggling against the inevitable is meaningless.
-It's too late for you now! This is the end!
+Too bad though, it's already all too late!
+And not only that, but you're done for, too.
 \l
 
 \\@CHARA_FACE@<1,0,6,360>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0037", 100>
 Roa
-You will not have the honor of being present at the creation
-of all things...because your miserable life ends here!
+You will not have the honor of being present at the its start...
+because your miserable life ends here!
 
 \\@CHARA_IN@<0, 15, 11, 0, 1>
 // Œ‡”Ô /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0032", 100>
@@ -94,15 +94,15 @@ Aoko
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0038", 100>
 Roa
 ...
-Well? Don't you have anything to say for yourself?
+What's with the silence?
 \l
 
 
 \\@CHARA_IN@<1, 5, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0039", 100>
 Roa
-Is this the second time, or...
-Or have I made a mistake?
+I'm gonna say perhaps again, but...
+Could this perhaps be that I've screwed up?
 \l
 
 

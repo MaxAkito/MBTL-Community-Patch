@@ -13,15 +13,15 @@
 \\@CHARA_IN@< 1, 5, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0080", 100>
 Roa
-Now this is interesting. The soul of a heroic
-spirit manifesting as a familiar?
+Now this is quite the surprise. 
+A Heroic Spirit able to manifest as a familiar?
 \l
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0081", 100>
 Roa
-You must be what they refer to
-as a ghost liner.
+You must be a Ghost Liner, then?
+Something only considered an hypothesis.
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0020", 100>
@@ -32,8 +32,8 @@ Saber
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0021", 100>
 Saber
-Your presence is similar to that of my own, yet while I
-sense a piousness, you also reek of black magic.
+Your presence is somehow similar to that of my own, yet I sense 
+Magecraft about you, even though you appear to be a pious believer.
 \l
 
 \\@CHARA_IN@< 0, 12, 3, 0, 1>
@@ -58,14 +58,14 @@ holes in the world is for those with too much free time.
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0084", 100>
 Roa
-I may not look it, but I'm a rather busy man.
+I may not look it, but my schedule is packed to precision.
 \l
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0085", 100>
 Roa
-This is not your story. Return to wherever it is you came
-from. The stray princess is too easily distracted.
+I　wish foreign elements like you would make a hasty exit.
+The Princess is like an easily distracted stray cat, you see.
 \l
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
@@ -97,7 +97,7 @@ of a knight to protect the lives of the innocent.
 \\@CHARA_IN@< 0, 12, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0026", 100>
 Saber
-Unclean magus! You shall meet your
+Unclean mage! Your plans shall meet their
 end upon my holy blade!
 
 \\@BGM_STOP@<0>

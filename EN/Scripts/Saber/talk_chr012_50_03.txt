@@ -14,15 +14,16 @@
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0010", 100>
 Saber
-Hm? At last, someone who may be of some help.
+Hm? At last it appears I have encountered
+someone who ought to be of some help.
 \l
 
 \\@CHARA_IN@< 0, 12, 2, 31, 2>
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0011", 100>
 Saber
-Excuse me, young ladies. Would you be so kind as to
-tell me the year and which country this is?
+Pardon me, fair ladies. Would you be so kind as to
+tell me what era and which country this is?
 
 \\@CHARA_IN@< 3, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0040", 100>
@@ -33,33 +34,33 @@ Kohaku, I've found one.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0041", 100>
 Hisui
 I believe this may be the person in question
-who has been running amok in town.
+who has been running amok destroying things in town.
 \l
 
 \\@CHARA_IN@< 3, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0042", 100>
 Hisui
-She appears to be a master swordsman.
+I'll say it straight up. She's the King of Knights.
 
 \\@CHARA_IN@< 1, 4, 106, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0060", 100>
 Kohaku
-There is no doubt about it. That getup of hers
-is definitely suspicious. She's probably a bandit.
+Why indeed... Now that I take I closer look there's no
+doubt about it, a real evil-doer, that one.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0061", 100>
 Kohaku
-The question is whether she relies on her armor, or if she
-has other abilities. Perhaps her sword fires energy beams.
+Not just armor, but a sword that shoots beams as well.
+Does she have no idea what it means to be a heroine?
 \l
 
 \\@CHARA_IN@< 1, 4, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0062", 100>
 Kohaku
-Either way, ignoring her will only result in more problems
-for the town. C'mon, Hisui!
+Either way, if we leave her be it will only result in more 
+problems for Souya. C'mon, Hisui!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0063", 100>
@@ -82,14 +83,14 @@ Ack! That was close!
 \\@CHARA_IN@< 0, 12, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0013", 100>
 Saber
-That food is dissolving the telephone pole. And the
-other one's poison gas is completely odorless.
+Food so potent that it can dissolve a telephone pole, and
+odorless poison gas syringes... which means...
 \l
 
 \\@CHARA_IN@< 0, 12, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0014", 100>
 Saber
-You must be assassin-class servants!
+You two must be Assassin-class Servants, are you not?!
 
 \\@BGM_STOP@<0>
 \e

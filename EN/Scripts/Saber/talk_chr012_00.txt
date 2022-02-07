@@ -26,29 +26,29 @@ I have come in response to your sum--
 \\@CHARA_IN@< 0, 12, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0001", 100>
 Saber
-There's no one here.
-What's going on?
+Where's my summoner...?
+What's going on here?
 \l
 
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0002", 100>
 Saber
-I have no master, and this is not a Holy Grail War.
-Something feels off about the world...
+I have no Master, and this is not a Holy Grail War.
+Even the world itself feels somewhat off...
 \l
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0003", 100>
 Saber
-As if this were an alternate history, or... No, the very
-counter force of the world is different.
+It seems like the weight of human history here is different...
+Or rather, the output of the Counter Force is.
 \l
 
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0004", 100>
 Saber
-Still, there must be a reason as to
-why I have been summoned.
+Be that as it may, there must be a reason as to
+why I have been called forth.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0005", 100>

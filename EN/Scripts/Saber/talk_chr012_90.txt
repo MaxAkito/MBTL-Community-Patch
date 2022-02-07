@@ -40,7 +40,7 @@ out of other people's business, but...
 \\@CHARA_IN@< 1, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0082", 100>
 Arcueid
-That weapon of yours was born in the inner seas of the Earth,
+That weapon of yours was born in the Inner Sea of the Planet,
 right? It's amazing! I've never seen anything like it before!
 \l
 
@@ -55,7 +55,7 @@ knight! That sword and I are like cousins in a way!
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0032", 100>
 Saber
 You and my sword? Are you saying you are
-some kind of divine incarnation?
+some kind of incarnated Elemental?
 \l
 
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
@@ -106,8 +106,8 @@ If anything, I am excited at the prospect.
 \\@CHARA_IN@< 0, 12, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0036", 100>
 Saber
-Very well then, vampire. Let's see
-which of us is more skilled.
+Very well then, vampire in white. 
+Let's see who between happens to be superior.
 \l
 
 \\@CHARA_OUT@<0, -1, -1, 0, 0>

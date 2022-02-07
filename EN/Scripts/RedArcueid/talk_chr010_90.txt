@@ -16,22 +16,22 @@
 \\@CHARA_IN@< 0, 10, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0040", 100>
 Red_Arcueid
-Is it over already? I was just
-beginning to enjoy myself.
+Is it over already?
+That's wasn't enough to even wipe my fingers with.
 \l
 
 \\@CHARA_IN@< 0, 10, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0041", 100>
 Red_Arcueid
-I guess I shouldn't be too disappointed, though.
-I've racked up quite the body count!
+Well, no use complaining.
+I mean my hands are completely soaked in blood after all.
 \l
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0042", 100>
 Red_Arcueid
-All that's left is for you to wake up, Shiki. Hurry up and
-open your eyes so I can teach you true despair.
+All that's left is for you to wake up, Shiki. Hurry up,
+open your eyes and despair as you find yourself in my hands
 \l
 
 \\@CHARA_OUT@<0, -1, -1, 0, 0>
@@ -58,7 +58,7 @@ threats in my ear. Woah! What's going on?!
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0011", 100>
 Shiki
 How did I get way up here?! I'm not a fan of heights!
-I think I'm going to be sick!
+This a real dizzying sense of indescribable absurdity!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0004", 100>
@@ -77,7 +77,7 @@ Perhaps I should just squeeze the life out of you right now.
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0012", 100>
 Shiki
 Hey! Stop swinging me around, idiot!
-I'm going to fall!
+Oh god, I'm going to fall!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0013", 100>
@@ -108,14 +108,14 @@ least some of your senses. You just called yourself a person.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0008", 100>
 Red_Arcueid
-That's it, I'm killing you now. I was going to make you
-suffer for everything you've done, but I've changed my mind.
+That's it, I'm killing you now. I was thinking of forgiving you
+for killing me if you paid me back, but I've changed my mind.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0009", 100>
 Red_Arcueid
 Since you seem to want it so badly, I'll end it all now.
-And you only have yourself to blame.
+All that happens now is your fault.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0010", 100>
@@ -152,7 +152,7 @@ Are you saying this was all my fault?!
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0070", 100>
 Arcueid
 ...and that's the dream I had!
-Isn't that fascinating, Shiki?!
+Whaddya think? Isn't that fascinating, Shiki?!
 
 \\@CHARA_IN@< 1, 3, -1, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
@@ -171,20 +171,20 @@ the part where I beat up Ciel...?
 \\@CHARA_IN@< 0, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0072", 100>
 Arcueid
-Or the combo I pulled off against Roa?!
-I guess that last part was a bit dark...
+Or the infinite reincarnation combo I pulled off against Roa?!
+I guess that last part was a bit horrifying...
 
 \\@CHARA_IN@< 1, 3, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0082", 100>
 Shiki
-A bit? It was like watching a horror movie.
+A bit? It was like a horror movie.
 \l
 
 \\@CHARA_IN@< 1, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0083", 100>
 Shiki
 And those expressions you were making? They were terrifying.
-Couldn't you come up with something more...cute?
+Couldn't you come up with something more... cute?
 \l
 
 \\@CHARA_IN@< 1, 3, -1, 0, 1>
@@ -226,7 +226,7 @@ and how much is reality...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0077", 100>
 Arcueid
-It's hard to tell when you're inside the dream.
+When you're caught inside a dream it's hard to tell.
 It may still be too early to relax.
 \l
 
@@ -239,7 +239,7 @@ It may still be too early to relax.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0044", 100>
 Arcueid
 Wouldn't you agree, my
-lovely vampire killer?
+lovely little murderer?
 
 \\@BGM_STOP@<0>
 \e

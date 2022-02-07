@@ -24,7 +24,7 @@ You couldn't have built this in just a year or two.
 \\@CHARA_IN@<0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0031", 100>
 Aoko
-Now, according to what Mario told me, that Roa
+Now, according to Mario's information, that Roa
 guy awakened around seven years ago...
 
 

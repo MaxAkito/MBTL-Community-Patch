@@ -13,27 +13,27 @@
 \\@CHARA_IN@< 1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0040", 100>
 Arcueid
-Well, I'm finally here. I hope
-you're satisfied.
+Well, I'm finally here for you. 
+I hope you're satisfied.
 \l
 
 \\@CHARA_IN@< 1, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0041", 100>
 Arcueid
-If only you'd come straight to me, we could have
-avoided all this unpleasantness.
+If only you'd come straight for me,
+then it would've been just a minor unpleasantry, yet...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0042", 100>
 Arcueid
-And for you to avoid me and attack Shiki instead?
+To think you'd avoid me and go for Shiki instead.
 \l
 
 \\@CHARA_IN@< 1, 0, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0043", 100>
 Arcueid
-You will pay for that. You are lower than the lowest beast.
-Do not expect a pleasant death.
+Disgusting...
+Do not expect you will die a normal death.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0044", 100>
@@ -49,7 +49,7 @@ Roa
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0045", 100>
 Arcueid
 Now you hesitate? What's wrong? Are you afraid?
-It's no use resisting. There's nothing you can do.
+But it's too late. It's all too late.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0046", 100>
@@ -61,12 +61,12 @@ You will not leave this place alive.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0047", 100>
 Arcueid
 I will show no mercy, and every fiber of your being shall
-be erased from this world. There is no use begging for--
+be erased from this world. All you can do is beg for mer--
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0041", 100>
 Roa
-Maybe some other time. I'm done here.
+Not quite. I have no business with you.
 
 \\@CHARA_IN@< 1, 0, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0048", 100>
@@ -76,14 +76,14 @@ Excuse me...?
 \\@CHARA_IN@< 0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0042", 100>
 Roa
-I'm saying I don't have time to waste on the likes of you.
+I'm saying I don't have any business with a piece of junk like you.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0043", 100>
 Roa
-You and the rest of those who remain attached to this human
-world no longer concern me.
+What I yearn for is not someone so concerned with
+this world of man as you.
 \l
 
 \\@CHARA_IN@< 0, 5, 4, 0, 1>
@@ -94,28 +94,28 @@ Begone, Fallen Princess.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0045", 100>
 Roa
-Laying your defects bare for all to see would be an insult
-to both myself and the daughter of such a noble house.
+Laying your defects to bare without an ounce of shame...
+It is nothing less than an affront to both me and the Princess.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0046", 100>
 Roa
-Such a cheap imitation would wither at my touch.
+A cheap imitation such as you shall wither at my touch.
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 1, 0, 7, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 11>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0049", 100>
 Arcueid
-Ahahahahahaha!!!
+Hah... Ahahahahahaha!!!
 \l
 
 \\@CHARA_IN@< 1, 0, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0050", 100>
 Arcueid
-Stop! Please! I can't take any more! You're even more
-hilarious than the last court jester I watched!
+Stop! Please! I can't take any more! This is even funnier
+than the time you came to my castle as a jester!
 \l
 
 \\@CHARA_IN@< 1, 0, -1, 0, 1>

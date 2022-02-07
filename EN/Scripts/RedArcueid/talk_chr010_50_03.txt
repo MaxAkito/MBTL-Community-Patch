@@ -26,13 +26,14 @@ soft and squishy, I was starting to get bored.
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0020", 100>
 Ciel
-Arcueid...have you abandoned all attempts
+Arcueid... have you abandoned all attempts
 at controlling yourself?
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0012", 100>
 Red_Arcueid
-Hehe. I'm loving your feigned sense of control.
+Hehe. I'm loving the way you force that 
+conscending attitude of yours.
 \l
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
@@ -45,32 +46,32 @@ the fact you look about ready to wet yourself.
 \\@CHARA_IN@< 0, 10, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0014", 100>
 Red_Arcueid
-That determined attitude of yours, I just...
+I love it soo much, I just...
 \l
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0015", 100>
 Red_Arcueid
-I love it so much I can't help but laugh from joy!
+Can't help but laugh!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0016", 100>
 Red_Arcueid
-You're like an expensive toy just begging to be broken!
-Let's play a game! I promise to be nice and rough!
+You're what you'd call a toy worth breaking!
+I promise to be as nice and rough as possible!
 
 \\@CHARA_IN@< 1, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0021", 100>
 Ciel
-Do not refer to me as your 'toy',
-I don't find it amusing in the slightest.
+Stop acting as if you like me. These kind of jokes
+are not amusing in the slightest.
 \l
 
 \\@CHARA_IN@< 1, 11, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0022", 100>
 Ciel
-The thought of 'playing' with you is enough to make me sick.
+It's making me feel a kind of dread I've never experienced before.
 \l
 
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
@@ -82,13 +83,13 @@ But, if you insist...
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0024", 100>
 Ciel
 I don't know what has happened to you, but I shall
-destroy you in the name of the Father above!
+destroy you in the name of the Father above
 \l
 
 \\@CHARA_IN@< 1, 11, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0025", 100>
 Ciel
-Fight me, Arcueid!
+I'll take you on, Arcueid!
 
 
 \\@BGM_STOP@<0>

@@ -26,43 +26,43 @@ Perception was enough that even I could defeat her...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0000", 100>
 Archetype_Earth
-That was a brave show you put on, little jester. I'll grant
-you that much, at least.
+Thee put thy life on the line for this performance, little jester. 
+To heed, I shalt entertain thy wishes.
 
 \\@SPEAKERCG_IN@<0,5,5,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0051", 100>
 Roa
-So the real you finally appears. Looks like my time is up.
-How long can I last with all magic circuits set to defense?
+As suspected, with your true form unveiled, I no longer stand a chance.
+Even with all my Magic Circuits put to defense, just how many seconds will I last?
 
 \\@GO_SUB@<"RoaOUT_Face0_L">
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0001", 100>
 Archetype_Earth
-Another jest, I see. I shall permit you one strike.
+Another jest, I see. I shalt permit thee one strike.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0002", 100>
 Archetype_Earth
-After which you shall offer up your blood and soul
-along with your final scream of anguish.
+Just as if thee were dedicating thy blood—thy soul,
+shouldst thee clamour for thy final life.
 
 \\@SPEAKERCG_IN@<0,5,6,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0052", 100>
 Roa
 This... This is what I've been waiting for!
-Eight hundred years ago, I glimpsed eternity!
+Eight hundred years ago... I really did glimpse eternity.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0053", 100>
 Roa
-You are as beautiful as you were then, Moon Princess!
+You have not lost an ounce of your lustre since, Moon Princess!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0054", 100>
 Roa
-It has taken eighteen deaths, but I can finally
-demonstrate my burning desire!
+My eighteenth death—my final reincarnation... Behold now
+as they burn out for good!
 
 \\@GO_SUB@<"RoaOUT_Face0_L">
 

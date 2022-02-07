@@ -69,14 +69,14 @@ I'm more free than ever before!
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0007", 100>
 Red_Arcueid
-I suppose I should get to work, then. I'd hate to disappoint
-them. I need to live up to their expectations as best I can.
+Now all that remains is to
+do what is expected of me, right?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0008", 100>
 Red_Arcueid
-After all, the fact that they turned me into this means I've
-been given permission to do whatever I want, right?
+After all, the fact that they turned me into this 
+means I can do whatever I want, right?
 
 
 \\@BGM_STOP@<0>

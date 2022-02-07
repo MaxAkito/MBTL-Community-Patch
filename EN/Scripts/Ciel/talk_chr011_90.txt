@@ -18,8 +18,8 @@
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0060", 100>
 Ciel
-Wrong again, it would seem. And here I really
-thought I'd found the right town this time.
+Wrong again, it would seem. 
+How odd, it's this town without a doubt...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0061", 100>
 Ciel
@@ -36,7 +36,7 @@ I must be in the right place!
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0063", 100>
 Ciel
 And if that's the case, I'm going to need all the energy
-I can get! What should I order next?!
+I can get! This place's combo meals are the best after all!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0064", 100>

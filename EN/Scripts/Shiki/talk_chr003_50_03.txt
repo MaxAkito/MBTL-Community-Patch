@@ -16,40 +16,40 @@
 \\@CHARA_IN@< 1, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0010", 100>
 Noel
-Hmm... It's hard to see exactly what I'm doing.
-If I could just...
+Hmm... can't see in even though it feels like I should
+Can't enter even though it feels like I should...
 \l
 
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0011", 100>
 Noel
-What's with this mansion, anyway?
+What's with this mansion, anyway...?
 \l
 
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0012", 100>
 Noel
-An actual alarm system? For such a traditional-looking
-building, their home security is awfully modern!
+They even have a whole home-security system...
+Some hybrid of modernization and native authority, is it!?
 \l
 
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0013", 100>
 Noel
-Why can't they rely more on magic?! This is so not fair!
+Why can't they rely more on something Magecrafty?! So dumb!
 
 \\@CHARA_IN@< 0, 3, 0, 1, 0>
 \aw
 \\@CHARA_IN@< 0, 3, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0010", 100>
 Shiki
-What do we have here?
+And there it is...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0011", 100>
 Shiki
-Someone peeking into the mansion isn't suspicious
-at all...
+Someone super suspicious...
+They're even flagrantly trying to peek into our mansion...
 
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 4>
@@ -75,14 +75,14 @@ your attractive teacher's private life...
 \\@CHARA_IN@< 1, 8, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0017", 100>
 Noel
-But stalking me to see where I work at night? There's a
-limit to how far a juvenile delinquent should go, you know.
+But stalking me to see where I work at night? 
+That's some real delinquent behavior there, you know.
 \l
 
 \\@CHARA_IN@< 1, 8, 300, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0018", 100>
 Noel
-Or are you here for some...extra-curricular activities?
+Or are you here for some... extra-curricular activities?
 
 \\@CHARA_OUT@< 0, 3, 2, 0, 0>
 \aw
@@ -115,8 +115,8 @@ And there's no point in hiding now that you've found me.
 \\@CHARA_IN@< 1, 8, 1, 32, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0022", 100>
 Noel
-Guess I'll just have to dirty my hands a little, then take
-you in for interrogation later!
+Guess I'll juuust have to crush up your limbs a little, 
+and then have you come you in for interrogation later!
 
 \\@BGM_STOP@<0>
 \e

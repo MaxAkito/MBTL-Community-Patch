@@ -19,35 +19,35 @@ One of the Twenty-seven Dead Apostle Ancestors?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0051", 100>
 Ciel
-I did not expect to find one such as yourself
-residing in a place like this.
+I did not expect someone so significant 
+such as yourself to have made this city your nest.
 
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0090", 100>
 Volv
 An executor...
-I admit I am surprised as well.
+I must admit I am surprised as well.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0091", 100>
 Volv
-How unseemly. Does the church truly believe it has
-the right to spread its ugly tendrils this far east?
+Do you people have no modesty? Does the Church truly believe 
+it has the right to turns its gaze this far east?
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0092", 100>
 Volv
-No matter, no matter how far you extend your reach,
-you'll never make any difference worth speaking of.
+No matter, no matter how far you extend your gaze,
+it won't do much if your sight is as dim as it is.
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0093", 100>
 Volv
-Much like how your coming to this town was pointless. A hound
-which can no longer smell is of no use to anyone.
+You're deadwood, same as this city itself. There's no point 
+to a dog unable to sniff out the schemes of a serpent.
 \l
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
@@ -58,8 +58,8 @@ You will die a dog's death here tonight, girl.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0095", 100>
 Volv
-And your battered and broken body will serve as
-amusement for the dead.
+May your burned up body serve as
+amusement for the Dead.
 
 \\@CHARA_IN@< 0, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0052", 100>
@@ -71,8 +71,8 @@ unexpected, but you shall pay for your sins all the same.
 \\@CHARA_IN@< 0, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0053", 100>
 Ciel
-I carry out the will of the Lord above.
-You cannot escape His judgment.
+My hands are those that Execute the Lord's judgment.
+Know that there is no escape from Him.
 
 
 \\@BGM_STOP@<0>

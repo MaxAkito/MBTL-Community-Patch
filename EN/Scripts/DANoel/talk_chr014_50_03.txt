@@ -31,7 +31,7 @@ remains of what were once humans prowl the streets.
 \\@CHARA_IN@< 1, 3, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0002", 100>
 Shiki
-And now they've built some
+And now there stands some
 kind of weird church at my school.
 \l
 
@@ -45,14 +45,14 @@ Are you setting up for a show or something?
 \\@CHARA_IN@< 1, 3, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0004", 100>
 Shiki
-Was it too late for me at that point?
-Had I already stepped into my own personal hell?
+Or perhaps today was finally the day 
+that I fell into hell, without realizing it.
 
 \\@CHARA_IN@<0, 14, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0020", 100>
 Dead_Noel
 Ooh, you're more calm about this than I was expecting.
-How much of that bravado is real, I wonder?
+Is that just bravado? Or do you not dare look reality in the eye?
 \l
 
 
@@ -60,29 +60,29 @@ How much of that bravado is real, I wonder?
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0021", 100>
 Dead_Noel
 And I was sooo looking forward to seeing you panic, too.
-You'd be way cuter that way.
+You're really not very adorable at all, now are you?
 \l
 
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0022", 100>
 Dead_Noel
-Guess I can't have everything. I'll have to content myself
-with forcing your pathetic cries to reach beyond this reality.
+They do say that "It's how you say it..." Guess I have to get 
+those screams out of you by force then.
 \l
 
 
 \\@CHARA_IN@<0, 14, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0023", 100>
 Dead_Noel
-Welcome to the confessional. You can confess your sins all
+Welcome to my confessional. You can confess your sins all
 you want here, but you'll never be forgiven, even in death.
 \l
 
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0024", 100>
 Dead_Noel
-We've been expecting you, Shiki Tohno. And we all think
-you're a piece of trash that can't be allowed to go on living.
+Welcome, Shiki Tohno. I'll cut the chatter short, but basically...
+You're a piece of shit who shouldn't be allowed to live.
 \l
 
 \\@CHARA_IN@<0, 14, 0, 0, 1>
@@ -110,7 +110,7 @@ But you don't know anything about m--
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0005", 100>
 Shiki
 Don't bother. I don't care.
-In any case, I'm NOT a regular upstanding human.
+Besides, I'm NOT a regular upstanding human.
 \l
 
 
@@ -120,7 +120,7 @@ In any case, I'm NOT a regular upstanding human.
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0006", 100>
 Shiki
 I'm only here to get revenge for my family.
-Your name, your ideals... None of that means anything to me.
+Your name, your background... it doesn't matter to me.
 
 \\@CHARA_IN@<0, 14, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0028", 100>
@@ -161,8 +161,8 @@ of yours and shatter it into tiny pieces!
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0033", 100>
 Dead_Noel
-But don't worry, I'm sure you'll be
-a lot happier becoming a part of me!
+I'll even let you into my eyes!
+I'm sure you'll be a lot happier that way anyways!
 
 \\@BGM_STOP@<0>
 \e

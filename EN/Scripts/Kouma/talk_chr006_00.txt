@@ -16,7 +16,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0000", 100>
 Kishima
 Didn't expect to find a vampire in this crowded city.
-It takes all kinds, I guess.
+Even monsters have to have their hobbies, I suppose.
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>

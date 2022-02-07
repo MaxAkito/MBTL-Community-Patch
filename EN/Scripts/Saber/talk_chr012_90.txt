@@ -107,7 +107,7 @@ If anything, I am excited at the prospect.
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0036", 100>
 Saber
 Very well then, vampire in white. 
-Let's see who between happens to be superior.
+Let's see who between us happens to be superior.
 \l
 
 \\@CHARA_OUT@<0, -1, -1, 0, 0>

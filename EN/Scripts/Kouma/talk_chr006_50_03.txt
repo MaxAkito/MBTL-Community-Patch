@@ -19,59 +19,59 @@ Stop right there, mister.
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0011", 100>
 Ciel
-You don't seem to be a vampire, but you're remarkably violent.
-Especially so if you're not a vampire, actually.
+You don't seem to be a vampire, yet your violent cannot be 
+overlooked. Especially so if you're not a vampire, actually.
 \l
 
 \\@CHARA_IN@< 1, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0012", 100>
 Ciel
-This country's bloodline...has no ties to the Holy Father's,
-but you must not deceive the blood of God.
+To pass oneself off as having the blood of gods is not right, 
+even though your bloodline may be unique to this country and unrelated to the Holy Father's...
 \l
 
 \\@CHARA_IN@< 1, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0013", 100>
 Ciel
-As an agent of the Lord's will,
-I will cut you down.
+As an Executor of the Lord's will,
+I shall bring an end to such an existence.
 
 \\@CHARA_IN@< 0, 6, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0010", 100>
 Kishima
-Taking land that doesn't belong to you isn't easy...
+Must be quite tiring bringing yourself all this way...
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0011", 100>
 Kishima
-Invasion was your creed, right?
+Invasion was your people's creed, was it?
 The strength of having one thing to believe in...
 \l
 
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0012", 100>
 Kishima
-I must say I envy that.
+Actually, most enviable.
 \l
 
 \\@CHARA_IN@< 0, 6, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0013", 100>
 Kishima
-Even so, such a fastidious lifestyle seems difficult...
+Even so, such a fastidious lifestyle must be difficult...
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0014", 100>
 Kishima
-One shouldn't trick the innocent.
-That charity should be accompanied by ability.
+You commit no foul play against those who bear no sin.
+Hopefully such compassion is backed up by ability.
 
 \\@CHARA_IN@< 1, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0014", 100>
 Ciel
-I thought you'd be a silent demon,
-but you have quite a lot to say...
+I thought you an Oni without much to say,
+but you prove to be quite eloquent...
 \l
 
 \\@CHARA_IN@< 1, 11, 6, 0, 1>
@@ -82,15 +82,15 @@ You're a Buddhist even though you aren't human?
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0015", 100>
 Kishima
-Heh. It's the demons who are more pious these days.
-Enough talking. This conversation ends here.
+Heh. These days it us Oni who are the more pious.
+No more talk, give up on your conversion attempt.
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0016", 100>
 Kishima
-Come at me, undying woman.
-I'll help alleviate your fatigue.
+Face me, woman who knows not death.
+I'll help you out with that tediousness.
 
 
 \\@BGM_STOP@<0>

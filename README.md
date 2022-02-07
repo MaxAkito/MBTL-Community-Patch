@@ -7,7 +7,7 @@ Credits to Petrikow, Comun and fumei
 
 ### Scripts
 
-| Char            | Status | 
+| Character       | Status | 
 | :-------------- |:---------------------------- | 
 | Arcueid   (000) | Not started 				 |
 | Hisui     (001) | Not started 				 |
@@ -15,7 +15,7 @@ Credits to Petrikow, Comun and fumei
 | Shiki     (003) | Initial editing done (Petri) |
 | Kohaku    (004) | Not started 				 |
 | Roa       (005) | Initial editing done (Petri) |
-| Kouma     (006) | Not started 				 |
+| Kouma     (006) | Initial editing done (Petri) |
 | Maids     (007) | Not started 				 |
 | Noel      (008) | Not started 				 |
 | Vlov      (009) | Initial editing done (Petri) |

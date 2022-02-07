@@ -18,14 +18,14 @@
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0030", 100>
 Kishima
-That man was terrifying...
+That was terrifying man...
 He still had power left after all that.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0031", 100>
 Kishima
 Fighting while protecting the souls of 10 people...
-I'm a Kishima, I can't relate to that.
+It is not a state of mind that a loner such as I can relate to.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0032", 100>
@@ -36,8 +36,8 @@ just wander in here by accident.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0033", 100>
 Kishima
-It would seem there's something deeper
-going on in this city...
+It would seem there's something 
+deeper buried in this city...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0034", 100>
 Kishima
@@ -52,7 +52,7 @@ I'm not so shameless as to meddle in it now.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0036", 100>
 Kishima
-Now, I wonder if Tohno's master can manage it.
+Now, I wonder if the Tohno head can manage it.
 I'm sure I'll hear about it eventually.
 
 

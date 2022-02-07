@@ -17,20 +17,20 @@ Phew... That was more difficult than I'd imagined.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0031", 100>
 Shiki
-It turned out all right in the end, but I'd rather not have to
-fight someone like that again.
+It wasn't exactly intentional, but I'd should still not try to
+fight a monster like that ever again.
 \l
 
 \\@CHARA_IN@< 0, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0032", 100>
 Shiki
-My whole body feels heavy. I had my glasses off for too
-long. I'm going to have trouble getting home at this rate.
+My body feels heavy. I had my glasses off for too long. 
+I'm going to have trouble getting home at this rate.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0033", 100>
 Shiki
-I'll just rest for a while longer...
+I'll just rest for a bit longer on this bench...
 
 \\@CHARA_OUT@<0, -1, -1, 0, 0>
 \aw
@@ -46,8 +46,8 @@ That's when...
 \\@SQ_CALL@<2>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0035", 100>
-I, the vessel known as Shiki Tohno, heard something
-shatter, despite any visible changes.
+I-- the vessel that was Tohno Shiki, heard a
+noise as if something had broken for good.
 \l
 
 \\@BGM_PLAY@<0, 77, 100>
@@ -62,11 +62,12 @@ Without warning, it was racing a mile a minute.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0038", 100>
-I could feel my veins throbbing inside my body.
+My veins, my arteris, they were all set into great activity.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0039", 100>
-Every synapse fired as I was enveloped in heat.
+My mind began breaking apart little by little, as I saw
+a vision that set my spine alight.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0040", 100>

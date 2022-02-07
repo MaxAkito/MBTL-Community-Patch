@@ -14,8 +14,8 @@
 \\@QUAKE@<2,30,30>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0020", 100>
 Mario@Mario_Hatena
-You crappy gunner!
-Can't you do anything without causing destruction?!
+You shitty-ass gunner!
+I see they were right about you causing nothing but destruction!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0021", 100>
@@ -26,24 +26,24 @@ to love so much. What's next, an atomic breath attack?!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0022", 100>
 Mario@Mario_Hatena
-You reduced the entire factory to ashes along with Roa.
+You reduced the entire Workshop to ashes along with Roa.
 This is a complete disaster!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0023", 100>
 Mario@Mario_Hatena
-I feel like an idiot for even hiring you in the first place.
+I feel like an idiot for even hiring the likes of you in the first place.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0024", 100>
 Mario@Mario_Hatena
-Don't go thinking you're still going to get paid after
-all this. Get out of my sight before I throw you in the cells!
+You're not getting a fuckin' cent.
+Get out of my sight before I throw you in the slammer!
 
 \\@CHARA_IN@< 0, 15, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0040", 100>
 Aoko
-Hey, that's not fair!
+Hey-- C'mon now, be reasonable!
 Say whatever you want, I still saved the town, didn't I?
 \l
 
@@ -57,13 +57,13 @@ but I still got the job done!
 \\@CHARA_IN@< 0, 15, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0042", 100>
 Aoko
-You have to pay me!
+So yeah, hand over that money, 'kay?
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0025", 100>
 Mario@Mario_Hatena
-You lost all rights to payment the moment
-you started demolishing everything in sight!
+I'm tellin' ya, it all went towards paying off all
+the damages you caused, dumbass.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0026", 100>
@@ -81,7 +81,7 @@ I got started. I'd never kill innocent bystanders.
 \\@CHARA_IN@< 0, 15, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0044", 100>
 Aoko
-I guess you have a point, though.
+But okay, whatever then. I get it.
 \l
 
 \\@CHARA_IN@< 0, 15, 5, 0, 1>
@@ -94,25 +94,25 @@ I flew all the way from Australia to be here!
 \\@CHARA_FACE@<0,4,2,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0046", 100>
 Aoko
-I don't see what you're so angry about, anyway.
-Oh wait, did you join the church to help with your temper maybe?
+To think a head parishioner would get so mad...
+Wait. Is it because of how your body works?
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0027", 100>
 Mario@Mario_Hatena
-Yes, that's exactly it. Good guess.
-This was my last chance, and you squandered it!
+Of fuckin' course. See, you can think after all.
+'s what I was sayin'. This was my last chance.
 
 \\@CHARA_IN@< 0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0047", 100>
 Aoko
-Hm? You know you don't have to do that, right?
-I have some emergency measures that can help.
+I could do some emergency treatment, you know?
+I mean, I just have to put a stop to it, right?
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0028", 100>
 Mario@Mario_Hatena
-Whaaat?!
+Wait--what?!
 
 \\@BGM_FADE@<0, -1, 0, -2, 1>
 \\@FADE_OUT@<0, 255, 255, 255, 0>
@@ -136,7 +136,7 @@ I love it here!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0049", 100>
 Aoko
-That cardinal sure knows how to treat a lady.
+That head parishioner sure knows how to treat a lady.
 He gave me enough to rent my own private beach!
 \l
 
@@ -148,14 +148,14 @@ All my good deeds are finally paying off!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0051", 100>
 Aoko
-I have to text Alice about this! Oh, wait, she's no good
-with technology, so she probably won't get it...
+I have to text Alice about thi-- wait... 
+she's still a die-hard IT-hater. Won't work.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0052", 100>
 Aoko
-El-Malloi's gonna be busy with other stuff, and Touko's
-somewhere in the south seas right now...
+El-Melloi II is probably busy, and my sister...
+No way... she'd turn this tropical island into a living hell.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0053", 100>
@@ -167,7 +167,7 @@ high-class lifestyle by myself, then!
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0054", 100>
 Aoko
 There's not a sign of the apocalypse in sight, and no word
-from Old Man Zeltretch, either.
+from Old Man Zelretch, either.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0055", 100>

@@ -100,7 +100,7 @@ True Ancestor princess before I lose myself entirely.
 \\@CHARA_IN@< 0, 9, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0056", 100>
 Volv
-And then, I will find that serpent and make him pay.
+And then, I'm coming for you, Serpent.
 
 
 \\@BGM_STOP@<0>

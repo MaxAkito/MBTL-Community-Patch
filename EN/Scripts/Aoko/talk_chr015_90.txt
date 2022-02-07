@@ -27,7 +27,7 @@ to love so much. What's next, an atomic breath attack?!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0022", 100>
 Mario@Mario_Hatena
 You reduced the entire Workshop to ashes along with Roa.
-This is a complete disaster!
+Seems even I, the Human Manipulator can make a lapse in judgment.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0023", 100>
@@ -69,7 +69,7 @@ the damages you caused, dumbass.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0026", 100>
 Mario@Mario_Hatena
 It's a miracle no one was hurt when
-you crushed those train cars!
+you destroyed those train cars!
 
 \\@CHARA_IN@< 0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0043", 100>

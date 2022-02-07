@@ -115,7 +115,7 @@ for killing me if you paid me back, but I've changed my mind.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0009", 100>
 Red_Arcueid
 Since you seem to want it so badly, I'll end it all now.
-All that happens now is your fault.
+This is all on you.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0010", 100>

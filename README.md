@@ -26,3 +26,9 @@ Credits to Petrikow, Comun and fumei
 | Boss Rush (013) | Not started 				 |
 | DA Noel   (014) | Initial editing done (Petri) |
 | Aoko      (015) | Initial editing done (Petri) |
+
+### Strings
+
+| Subset                    | Status                 |
+| :-------------------------| :----------------------|
+| Command List (cmddef.ini) | Started editing (Petri)|

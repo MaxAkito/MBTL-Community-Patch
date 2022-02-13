@@ -24,7 +24,7 @@ hiding in the alley!
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10040", 100>
 Miyako
-Right! Leave it to me, Brother!
+Right! Leave it to me, Shiki!
 Hyah!
 
 \\@CHARA_IN@< 0, 13, 0, 0, 20>
@@ -95,21 +95,21 @@ Arcueid@Arcueid_Zisyo
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10062", 100>
 Neco_Arc
-Despite having been killed, a vampire appeared in broad
-daylight, making this request with a calm demeanor.
+This vampire intruded here during broad daylight, seeming
+not all that bothered at having been killed.
 \l
 
 \\@CHARA_IN@< 3, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10063", 100>
 Neco_Arc
-Equally calm, the adopted elder brother made his way
-out to face the visitor. This angered Miyako.
+Seemingly equally not as bothered, the adopted elder brother 
+made his way out to face the visitor to Miyako's annoyance.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10064", 100>
 Neco_Arc
 With her innate sense of justice, and armed with infinite
-continues, she succeeded in driving back the vampire.
+continues, she succeeded in driving back the strange vampire.
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
@@ -122,7 +122,7 @@ That's right.
 \\@CHARA_IN@< 3, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10066", 100>
 Neco_Arc
-Miyako was a master of bajiquan, 
+Indeed! Miyako was a master of bajiquan, 
 having trained in her grandfather's dojo!
 
 \\@CHARA_OUT@<3, -1, -1, 0, 0>
@@ -144,8 +144,8 @@ having trained in her grandfather's dojo!
 \\@CHARA_IN@< 1, 8, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10001", 100>
 Noel
-So the rumors of you defeating a True Ancestor were not
-exaggerated! It was Four-Eyes' idea though, I take it?
+So the rumors of you defeating a True Ancestor were true! 
+Or perhaps it was all thanks to Four-Eyes' advice?
 \l
 
 \\@CHARA_IN@< 1, 8, 2, 0, 1>
@@ -173,22 +173,22 @@ cards right, there may even be a new heroine!
 \\@CHARA_IN@< 1, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10005", 100>
 Noel
-Although, it looks like the role of 'little girl' has
-already been filled quite nicely.
+Also, c'mon now, you. The 'little girl' role was 
+already filled before you got here.
 \l
 
 \\@CHARA_IN@< 1, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10006", 100>
 Noel
-Ah, there you are. You do look splendid when you're
-angry. A vampire as lovely as a rose.
+You know, that one. That super pissed and super cute
+vampire who is as red a rose?
 \l
 
 \\@CHARA_IN@< 1, 8, 101, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10007", 100>
 Noel
-I believe she'd be quite popular in the role of 'young
+I believe she'd be quite popular in the role of 'little
 girl'! Perhaps I should become a vampire as well!
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
@@ -215,7 +215,7 @@ to take care of a troublesome rival early on!
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10043", 100>
 Miyako
-And that dull-looking weapon of yours doesn't scare me!
+And that western spear of yours doesn't scare me!
 My bajiquan fists will break it to pieces!
 
 

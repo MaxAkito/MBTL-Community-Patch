@@ -24,14 +24,14 @@ In more ways than one!
 \\@CHARA_IN@< 1, 53, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10111", 100>
 Neco_Arc
-How can she treat a child that way?
-What do you have to say about it, Four-Eyes?
+What do you think about her saying stuff like that to a kid, Four-Eyes?
+Maybe even you and your seven years of feeling bad for her dampened a bit?
 
 \\@CHARA_IN@< 2, 3, -1, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10040", 100>
 Shiki
-I don't think that has anything to do with it.
+She doesn't think of her as a kid, you know?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10041", 100>
@@ -62,14 +62,14 @@ able to understand about a fifth of what you say.
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10114", 100>
 Neco_Arc
-Oh? That's actually quite ameowzing. I assumed you
-only understood around 1% or so.
+Oh? Pulling in amazing percentages there.
+It's been around 1% for most sapients lately.
 \l
 
 \\@CHARA_IN@< 1, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10115", 100>
 Neco_Arc
-But I digress. We should get back to the matter at hand.
+Oho! Let's cease our pillow-talk my good chap,
 It seems our princess here is about to wake up...
 
 \\@CHARA_FOCUS_COLOR@< 1, 1>
@@ -103,27 +103,27 @@ your head space, Little Miss Kung Fu.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10117", 100>
 Neco_Arc
 How did you enjoy your brief time as the heroine?
-Was your action epic everything you wanted it to be?
+Was your hot-blooded and manly action epic everything you wanted it to be?
 \l
 
 \\@CHARA_IN@< 1, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10118", 100>
 Neco_Arc
-Or were you disappointed at the lack of any sort
-of romantic arc, maybe?
+Or were you disappointed at the G-rated plot of which there was
+not even a glimpse of love or romance?
 
 \\@CHARA_IN@< 0, 13, 9, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10102", 100>
 Miyako
-It wasn't completely lacking in a romantic arc!
-We had lunch in a restaurant, just the two of us!
+T-there was a glimpse at least!
+We had lunch in at a diner, just the two of us!
 \l
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10103", 100>
 Miyako
-Isn't that right, Brother?!
+Isn't that right, Shiki?!
 
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
@@ -159,35 +159,35 @@ Why did the cutscene act like I lost?!
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10107", 100>
 Miyako
-Is this a bug in my scenario?!
+Is this a bug in my story?!
 
 \\@CHARA_IN@< 1, 53, 110, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 11>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10120", 100>
 Neco_Arc
 Myahahaha.
-There is nothing wrong with the program.
+There was no bug, nor any lag.
 \l
 
 \\@CHARA_IN@< 1, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10121", 100>
 Neco_Arc
 No matter what path you take or what decision you make,
-that is how your scenario will always end.
+that is how your story will always end.
 \l
 
 \\@CHARA_IN@< 1, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10122", 100>
 Neco_Arc
-Your destiny is to hit an impassable wall right here every
-time. Get over it. Oh, whoops! You can't!
+A wall which you cannot go past. 
+An absolute wall. The wall of fate. Just a wall, actually.
 \l
 
 \\@CHARA_IN@< 1, 53, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10123", 100>
 Neco_Arc
 As long as you remain Miyako Arima, there is no
-defeating your demon of a stepsister.
+defeating that demonic sister.
 
 \\@CHARA_IN@< 0, 13, 11, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -200,8 +200,8 @@ never come home, then?
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10124", 100>
 Neco_Arc
-You cannot win, therefore there is no ending.
-Though I can't say that for certain.
+Well...
+Just because you can't win doesn't mere there's no ending.
 \l
 
 \\@CHARA_IN@< 1, 53, 101, 0, 1>
@@ -246,8 +246,8 @@ every failure. Got that? Now say it back to me!
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10109", 100>
 Miyako
-Wait, what?
-Are you trying to say that a bad ending isn't meaningless?
+Wait, what...?
+Are you trying to say that this bad end was't pointless?
 
 \\@CHARA_IN@< 1, 53, 104, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
@@ -301,19 +301,19 @@ as many times as she wishes right here.
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10110", 100>
 Miyako
-Brother...?
+Shiki...?
 
 \\@CHARA_IN@< 2, 3, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10046", 100>
 Shiki
-There's no need to leave. You can fight and lose
-in this place just as well as any other, Miyako.
+So basically... you might as well keep on fighting this
+unwinnable fight, forever.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10047", 100>
 Shiki
-The game mechanics already allow for it,
-so why bother repeating the story?
+Let's just disregard the conclusion.
+Up until then you did everything just fine, after all.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10048", 100>
@@ -359,8 +359,8 @@ But still...
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10115", 100>
 Miyako
-Even if it seems hopeless and I will most likely fail,
-as long as the one I love is in front of me, I have to try.
+there's someone I find much harder to deal with,
+yet who I love so dearly right in front of me!
 
 \\@CHARA_IN@< 2, 3, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10050", 100>

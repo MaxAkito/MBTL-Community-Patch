@@ -22,12 +22,12 @@ Hyah! Hyah!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10141", 100>
 Miyako
-I don't remember when it happened, but a new
-goal appeared before me.
+I don't remember when it happened, but a suuuper distant
+goal had appeared before me.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10142", 100>
 Miyako
-It loomed far ahead, like a massive, impassable wall.
+It loomed impossibly tall above, like a massive, impassable wall.
 I couldn't waste a moment of time sulking.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10143", 100>
@@ -36,12 +36,12 @@ I had to get stronger!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10144", 100>
 Miyako
-Wait for me, Brother! Next time, we'll both order
+Wait for me, Shiki! Next time, we'll both order
 pancakes!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10145", 100>
 Miyako
-I had no proof, but I got the distinct feeling that
+I wasn't sure why, but I got the distinct feeling that
 the time limit for something big was pushed back.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10146", 100>

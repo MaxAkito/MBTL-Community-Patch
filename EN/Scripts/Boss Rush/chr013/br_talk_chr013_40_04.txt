@@ -25,8 +25,8 @@ been poisoned!
 \\@CHARA_EMOVE@<0, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10060", 100>
 Miyako
-I know! You can tell just by looking at them!
-Gross!
+I know! 
+I mean, they look weird from just the color alone.
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \\@CHARA_IN@< 1, 1,  1, 2, 0>
@@ -142,20 +142,20 @@ who you think we are.
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10001", 100>
 Kohaku
 That is correct. Our evil employer has brainwashed us.
-We have been sent to assassinate poor Miss Miyako...
+We are a pair of poor assassins, sent to eliminate Miss Miyako...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10002", 100>
 Kohaku
-It is imperative you keep in mind that we have not
-come here of our own volition or to have fun.
+It's not like came here because we wanted to play or something.
+Please bear that in mind.
 
 \\@CHARA_IN@< 2, 3, 6, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10022", 100>
 Shiki
 (I see. I sense an incredibly strong resolve to stick
- to their character images. This feels like Akiha's work.)
+ to their character images, regardless of Akiha.)
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10063", 100>
@@ -173,14 +173,14 @@ do something. But these two, Kohaku in particular...
 \\@CHARA_EMOVE@<3, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10003", 100>
 Kohaku
-You catch on quickly. We are indeed being controlled by
-Miss Akiha. You must...destroy her...
+C0RRECT. WE ARE BE1NG CONTR0LLED BY LADY AK1HA.
+DESTR0Y HER... DESTR0Y HER...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10004", 100>
 Kohaku
-Quickly, you must destroy Miss Akiha. It will be a most
-fascinating battle.
+DESTR0Y HER QU1CKLY
+1T W0ULD BE FUNNY S0... DESTR0Y HER PLEASE.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -199,22 +199,22 @@ But how...?!
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10024", 100>
 Shiki
-Maybe they'll snap out of it if you fight them?
-They sure look ready for a battle.
+Uh... yeah... I'm sure they'll snap out of it if you fight 
+them? They sure look ready for a battle.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10025", 100>
 Shiki
-I thought we might get a break after that last big
-baddie. I guess there really is no rest for the weary.
+Just take it easy, ok? Think of it as a little break
+after that big baddie from before.
 \l
 
 \\@CHARA_IN@< 2, 3, -1, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10026", 100>
 Shiki
-Don't worry about holding back. This'll be a good
-experience for Kohaku.
+It'll be fine. Even if you go a bit overboard, I'm
+sure it'll prove a good lesson for Kohaku.
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 2>
@@ -227,8 +227,8 @@ too! I'll give it everything I've got!
 \\@CHARA_EMOVE@<3, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10005", 100>
 Kohaku
-Shiki, I sometimes worry about your emotionless,
-matter-of-fact tone in situations like this.
+DANGER DETECTED. S0MET1MES 1 TH1NK
+Y0UR N0-N0NSE ATT1TUDE 1S A BIT MUCH SH1K1.
 
 \\@BGM_STOP@<0>
 \e

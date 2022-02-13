@@ -97,8 +97,8 @@ itself, don't you think? That's all I am to youÅFthe end.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10017", 100>
 Akiha
-Farewell, Miyako Arima. If only you had not tried to
-escape your fate, you would not have met it this day.
+Farewell, Miyako Arima. Had you not held a dream so lofty
+you would've never become aware of how lacking you really are.
 
 \\@BGM_FADE@<1,-1,0,-3,1>
 \\@FADE_OUT@<0, 0, 0, 0, 0>

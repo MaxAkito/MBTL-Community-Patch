@@ -19,8 +19,8 @@ Into tiny pieces...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10141", 100>
 Neco_Arc@Neco_Arc_Rumi
-By defeating Four-Eyes, you have earned the right
-to fight alongside the others.
+By defeating the sauve Four-Eyes, you have in the truest sense
+acquired the power of fighting in this game.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10142", 100>
 Neco_Arc@Neco_Arc_Rumi
@@ -29,12 +29,12 @@ on the character select screen for no reason.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10143", 100>
 Neco_Arc@Neco_Arc_Rumi
-You were included because you fought and trained
-here in this place, thereby proving your worth.
+By traning here and acquiring the power of fighting,
+it was possible for you to join the playable character roster.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10144_a", 100>
 Neco_Arc@Neco_Arc_Rumi
-It's a tiiiiiime paaaradooox!!
+It's a tiIIiiMe PaAAraDOOox!!
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10145", 100>
@@ -58,8 +58,8 @@ heart at ease...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10149", 100>
 Neco_Arc@Neco_Arc_Rumi
-I will most certainly return! The writers will see to that!
-And they will call it, ÅgThe Cat Strikes BackÅh!
+I will most certainly return in game!
+ÅgThe Cat Strikes BaaaaaaackÅh!
 
 \\@SYSTEM@<10>
 \aw

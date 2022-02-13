@@ -142,34 +142,34 @@ Shiki
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10033", 100>
 Shiki
 (This is the Tohno estate. Miyako is the one fighting.
- Anybody'd assume the last boss to be the family head.)
+ Anybody'd assume the last boss to be you know, HER.)
 \l
 
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10034", 100>
 Shiki
-(Any normal person would take a hint and stay out of
- the way. But this crazy woman is anything but normal!)
+(Normally you'd take a hint and stay out of the way. 
+ But this crazy woman is anything but normal!)
 
 \\@CHARA_IN@< 1, 10, 1, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10007", 100>
 Red_Arcueid
-Under normal circumstances, I'd be satisfied
-with just a tutorial, but I see you finally understand.
+I see you're starting to get it. Under normal circumstances, 
+I'd be satisfied with just being a tutorial but...
 \l
 
 \\@CHARA_IN@< 1, 10, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10008", 100>
 Red_Arcueid
-I found it both amusing and vexing at the same time.
-It was a game that kept me guessing, that's for sure.
+It proved unexpectedly fun, and a bit disappointing, I guess?
+So this time I thought I'd play with you in this outfit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10009", 100>
 Red_Arcueid
 I get bored when the story is too easy to figure out anyway.
-It's best to shake things up every once in a while.
+Sometimes you need some forced drama, right?
 
 \\@CHARA_IN@< 0, 13, -1, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 13>
@@ -182,7 +182,7 @@ I can't do this! No way!
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10073", 100>
 Miyako
-Let's run for it, Brother! I honestly can't see
+Let's get out of here, Shiki! I honestly can't see
 myself defeating her again!
 
 \\@CHARA_IN@< 1, 10, 6, 0, 10>
@@ -200,13 +200,13 @@ I suppose I can't fault you for that...
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10036", 100>
 Shiki
 If it were anybody else, then maybe. But even I can't
-handle this one... I'd just feel guilty afterwards.
+handle this one... mostly because I still feel a bit bad, but...
 \l
 
 \\@CHARA_IN@< 2, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10037", 100>
 Shiki
-But are you sure you want to run? That would mean
+Are you sure you want to run? That would mean
 giving up on being the main heroine, you know?
 \l
 
@@ -236,22 +236,22 @@ my own cowardice!
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10076", 100>
 Miyako
-Thanks, Brother! You always know just what to say!
+Thanks, Shiki! You always know just what to say!
 Now I'm fired up!
 \l
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10077", 100>
 Miyako
-My greatest foe! Here I come! But...please try
+My greatest foe! Here I come! But... please try
 to go easy on me!
 
 \\@CHARA_IN@< 1, 10, 8, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10010", 100>
 Red_Arcueid
-Now that's more like it! I wouldn't expect anything
-less of a giant killer.
+Now that's more like it! David must have courage when
+going up against Goliath.
 \l
 
 \\@CHARA_IN@< 1, 10, 7, 0, 1>

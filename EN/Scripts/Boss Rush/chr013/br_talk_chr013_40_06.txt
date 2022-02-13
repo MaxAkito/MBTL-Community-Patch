@@ -54,7 +54,7 @@ the Tohno family head and Shiki's younger sister.
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10103", 100>
 Neco_Arc
-Akiha is set on correcting Shiki's aimless nature
+Akiha is set on correcting Shiki's listless nature
 and turning him into an upstanding, model student.
 \l
 
@@ -73,7 +73,7 @@ maids a nudge with subtle threats of a pay cut...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10106", 100>
 Neco_Arc
-all as part of her plan to capture him.
+all as part of the Tohno Shiki Acquistition Project.
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
@@ -107,8 +107,8 @@ This is just some stupid family quarrel!
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10081", 100>
 Miyako
-You wrote this script didn't you? I knew I shouldn't
-have gotten my hopes up!
+You wrote this script didn't you? To think I was stupid
+enough to get my hopes up!
 \l
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
@@ -121,7 +121,7 @@ like that. She knew about this, didn't she?
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10083", 100>
 Miyako
 I bet Akiha's just doing this out of spite,
-and can't even fire off a single decent attack.
+she probably can't even shoot any beams either.
 \l
 
 \\@CHARA_IN@< 0, 13, 8, 0, 1>
@@ -159,7 +159,7 @@ up I may have trouble fighting at full strength.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10085", 100>
 Miyako
 Huh? Who's there?!
-Is that Akiha's voice, Bro--?
+Is that Akiha's voice, Shi--?
 \l
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
@@ -171,20 +171,20 @@ Miyako
 \\@CHARA_IN@< 1, 2, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10003", 100>
 Akiha
-You look troubled, little one. If you were hoping to
+Quite the odd thing to say. If you were hoping to
 find someone to help you, you'd best give up now.
 \l
 
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10004", 100>
 Akiha
-This is the Tohno estate. No one approaches
-this forest, not even the police.
+This is the Tohno private estate. An unapproachable and 
+unescapable forest, for both the police and the Executioners.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10005", 100>
 Akiha
-And we know exactly how to deal with rude trespassers.
+The fate of any rude trespassers goes without saying, no?
 Curse your destiny for leading you here this day.
 
 \\@CHARA_IN@< 0, 13, 5, 0, 1>

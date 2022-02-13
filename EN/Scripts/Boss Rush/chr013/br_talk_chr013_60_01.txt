@@ -29,7 +29,7 @@ heroine route starts?!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10032", 100>
 Miyako
-That's not something a normal kid should be able
+That's not something a grade-schooler like me should be able
 to handle on their own!
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
@@ -47,8 +47,8 @@ of story.
 \\@CHARA_IN@< 2, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10051", 100>
 Neco_Arc
-That said, I'm impressed you managed to clear the
-first stage of this impossibly hard game.
+That said, good job beating the first part of this impossibly hard game.
+I'm really being subsumed by the feelz right now.
 
 
 \\@CHARA_IN@< 2, 53, 110, 0, 1>
@@ -94,7 +94,7 @@ Next timeÅFMiyako Route - Day 3.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10057", 100>
 Neco_Arc
 ÅgThe Unknown Hired Assassin!
-Å@Brother! The teacher is looking for you!Åh
+Å@Shiki! Your homeroom teacher isn't actually as young as she says!Åh
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10058", 100>

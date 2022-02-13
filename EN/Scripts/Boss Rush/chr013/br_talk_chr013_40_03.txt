@@ -82,7 +82,7 @@ ten minutes passed before the peace was broken.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10072", 100>
 Neco_Arc
 A new threat was out for Shiki Tohno's blood.
-It was Ded Moroz, Grandfather Frost himself!
+It was Ded Moroz, General Winter himself!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10073", 100>
@@ -93,21 +93,21 @@ Misaki Town was hit with an extreme cold front.
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10074", 100>
 Neco_Arc
-At this rate, the sales of snow cones would hit a record
+Before long, the sales of snow cones would hit a record
 low and the beach-front cafes would be in trouble!
 \l
 
 \\@CHARA_IN@< 3, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10075", 100>
 Neco_Arc
-To save the essence of the season, not to mention
-summer vacation with her brother...
+To save the spirit of the season, not to mention
+the possibility of a summer vacation with her brother...
 \l
 
 \\@CHARA_IN@< 3, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10076", 100>
 Neco_Arc
-Miyako was prepared to unleash her hidden strength!
+Miyako's awoke to her inner true power!
 
 \\@CHARA_OUT@<3, -1, -1, 0, 0>
 \\aw
@@ -139,7 +139,7 @@ one's gift always seems to sting.
 \\@CHARA_IN@< 1, 9, 4, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10003", 100>
 Volv@Volv_Fuyu
-Such a pity. I heard those were all the craze right now.
+I here I thought these were all the craze right now.
 
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -170,7 +170,7 @@ I do like the art, though.
 \\@CHARA_IN@< 1, 9, 2, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10004", 100>
 Volv@Volv_Fuyu
-What...are you saying...? Where I'm from...those are the
+You were expecting more...? Where I'm from... those are the
 newest cards we have...
 
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
@@ -206,7 +206,7 @@ Keep up with the times, you say?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10007", 100>
 Volv@Volv_Fuyu
-Even the postal service in my town is six months behind!
+Even the postal service in my lands are six months behind!
 Same-day delivery is something we can only dream of!
 \l
 
@@ -214,13 +214,13 @@ Same-day delivery is something we can only dream of!
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10008", 100>
 Volv@Volv_Fuyu
 This is precisely why you city people are beyond
-salvation! Just like I thought! You all deserve to die!
+salvation! Just like I thought... You all deserve to die!
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10009", 100>
 Volv@Volv_Fuyu
-I am Ded Moroz, Grandfather Frost. To some, I am known
+I am Ded Moroz, General Winter. To some, I am known
 as Santa Claus!
 \l
 

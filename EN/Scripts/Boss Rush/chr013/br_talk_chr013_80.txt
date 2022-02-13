@@ -24,7 +24,7 @@ my brother was already gone.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10131", 100>
 Miyako
-My father said he returned to the Tohno estate.
+My father said he had returned to the Tohno estate.
 My mother assured me that he would be just fine.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10132", 100>

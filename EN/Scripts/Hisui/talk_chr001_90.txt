@@ -25,7 +25,7 @@ are all quite skilled in martial arts.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0041", 100>
 Hisui
-There was no time for a demonstration today, but I am
+There was no time for a demonstration, but I am
 quite confident in my skills with a Japanese sword as well.
 \l
 
@@ -37,8 +37,8 @@ Hisui
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0043", 100>
 Hisui
-(Miss Miyako's reactions are so cute that I over-exaggerated
- my ability without thinking...)
+(Miss Miyako's reactions were so cute that I over-exaggerated
+ my abilities without thinking...)
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0044", 100>
@@ -49,7 +49,7 @@ Hisui
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0045", 100>
 Hisui
-(But I've never actually used one myself.)
+(But I've no recollection of actually using one myself.)
 
 \\@GO_SUB@<"HisuiOUT_Face0_L">
 \\aw
@@ -58,12 +58,12 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0000", 100>
 Kohaku
 Yes, that's right Miyako! She may not look like it, but
-Hisui is a master of the Lapis Steel technique and is...
+Hisui is a master of the Lapis Steel battle technique and is...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0001", 100>
 Kohaku
-the successor of the Mecha-kawa style! She can cut
+the successor of the Kyuuti-Pai style! She can cut
 down any opponent with a single strike!
 
 \\@SQ_CALL@<2>
@@ -111,7 +111,7 @@ Let's have tea! It's my treat.
 \\@CHARA_IN@< 2, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0004", 100>
 Kohaku
-You should take a break too, Hisui. It's nearly snack time.
+It's almost 3 o'clock, so why not take a break, Hisui?
 \l
 
 \\@CHARA_IN@< 2, 4, -1, 0, 1>

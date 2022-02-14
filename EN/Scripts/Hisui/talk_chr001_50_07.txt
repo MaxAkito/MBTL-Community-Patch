@@ -34,13 +34,13 @@ in with your generous, affable friend from schooooool~
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0000", 100>
 Shiki
 *Mumble* That's not the same as living on my own.
-It would be the opposite of independence.
+It would be the opposite of independence...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0001m", 100>
 Shiki
-If I move in with you, you'd be like my sugar momma.
-I'll just wind up being reliant on you for money.
+If I move in with you, all that would happen is that you'd 
+become like my sugar momma and wait, that's freaking awesome.
 
 \\@CHARA_IN@<0, 1, 1, 1, 0>
 \aw
@@ -65,15 +65,15 @@ has my whole mind blank.
 Hisui
 \\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
 \\@EMG_PRINT@<"*Actually prohibited even if they aren't a minor.", 102, 1060, 650>
-That's far enough, Miss Ciel. The brainwashing
-of minors is prohibited by law.
+Cease your shady solicitations, Miss Ciel. 
+The brainwashing of minors is prohibited by law.
 
 \\@CHARA_IN@< 1, 11, 5, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0002", 100>
 Ciel
-Hisui?! What are you doing here?
-Damn it! Arcueid is useless!
+Wha- Hisui?! What are you doing here?
+Damn it! So even Arcueid was useless!
 \l
 
 \\@CHARA_IN@< 1, 11, 7, 0, 1>
@@ -86,15 +86,15 @@ This is, uh, medical hypnosis! Yeah, that's it!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0004", 100>
 Ciel
-Ms. Noel has been implanting thoughts into his subconscious!
-I'm trying to undo the damage!
+In order to cancel out the hypnotism applied by Noel I had no 
+choice but to tinker with Shiki's subsciousness, that's all!
 
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0033", 100>
 Hisui
-I believe I understand the situation now. You did well
-hiding your true colors until now.
+I believe I understand the situation now.
+Like master, like apprentice, I suppose.
 \l
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
@@ -107,7 +107,7 @@ In other words, you are the mastermind behind this.
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0005", 100>
 Ciel
-N-No, I just wanted to...uh, I mean, this is a misunderstanding!
+N-No, it was just a whim- I mean- it's a misunderstanding!
 \l
 
 \\@CHARA_IN@< 1, 11, 4, 0, 1>
@@ -132,14 +132,14 @@ hypnosis skill of yours to try and escape.
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0037", 100>
 Hisui
-Are you related to Miss Arcueid?
+Are perhaps you related to Miss Arcueid?
 
 \\@CHARA_IN@< 1, 11, 5, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0007", 100>
 Ciel
-This intensity! You aren't just an ordinary maid,
-are you?!
+She sure knows how to get a rise out of me!
+You aren't just an ordinary maid, are you?!
 
 \\@BGM_STOP@<0>
 \e

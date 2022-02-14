@@ -32,8 +32,8 @@ I would be happy to pass along a message, Miss...?
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0002", 100>
 Hisui
-I see, Miss Miyako Arima. You are the eldest daughter
-of the Arima branch family, correct?
+I see, Miss.. Arima Miyako... If I understand correctly
+You are the eldest daughter of the Arima branch family.
 \l
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
@@ -47,28 +47,28 @@ Lady Akiha are both away at the moment.
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0004", 100>
 Hisui
-Oh, I see. You wish to speak with me? So this is
-an educational visit, then.
+I see... 
+You wish to speak with me, not them.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0005", 100>
 Hisui
 You have come to observe what it is like to live at
-the Tohno estate, and to learn about my position?
+the Tohno estate, and to learn about my position? For your social studies?
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0006", 100>
 Hisui
 (She is asking me to speak of confidential family business.
- That is information I shouldn't reveal to an outsider.)
+ That is information I cannot reveal to an outsider.)
 \l
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0007", 100>
 Hisui
 (And yet, Miss Miyako has a determined look in her eyes.
- That is not something I can easily ignore.)
+ I could not be so rude as to disregard her.)
 \l
 
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
@@ -87,14 +87,14 @@ who is willing to work hard and learn new skills.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0010", 100>
 Hisui
-I don't know how helpful I will be, but I shall assist
-you in any way I can.
+I don't know how helpful this will be, but I shall try to
+be most honest in speaking of this to you.
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0011", 100>
 Hisui
---This all took place one evening last week--
+--This all took place one night last week--
 
 \\@BGM_STOP@<0>
 \e

@@ -14,15 +14,15 @@
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0000", 100>
 Arcueid
-Oh, it's the maid who cleans up after Shiki!
-I wondered who was in here!
+Oh, is that who I think it is?
+It's the maid who cleans Shiki's room!
 \l
 
 \\@CHARA_IN@< 1, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0001", 100>
 Arcueid
-How's it going? What brings you here so late? This place
-isn't safe for humans to be wandering alone.
+Yahoo! How's it going? What brings you here so late? 
+Wandering around here by yourself isn't all that safe, you know?
 
 
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
@@ -61,8 +61,8 @@ Hisui
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0023", 100>
 Hisui
-ÅgI hope that the next time you visit, you will allow me to
-  repay you in kind. I shall arrange a special room for you.Åh
+ÅgFor your next visit, I shall prepare an exlusive guest room for 
+ you, so see to it that your affairs are well tended to beforehand.h
 
 \\@CHARA_IN@< 1, 0, 12, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
@@ -87,8 +87,8 @@ By the way...
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0025", 100>
 Hisui
-The guest room is designed to drop 50cm-thick walls of iron
-in place before being sunk into the ocean for a trip...
+The guest room is designed to drop a 50cm thick wall of iron
+as soon as you enter, before being sunk into the ocean for a trip...
 \l
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
@@ -101,14 +101,14 @@ next week, so the lady requests that you visit then.
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0027", 100>
 Hisui
-Ah, and one last thing...
+One last thing...
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0028", 100>
 Hisui
-It would seem Master Shiki is disappearing at night again.
-My lady asks if you know anything regarding his activities.
+Master Shiki has gone out at night again and so I am looking for him.
+Would Miss Arcueid perhaps happen to know anything about this?
 \l
 
 \\@CHARA_IN@< 1, 0, 0, 0, 1>

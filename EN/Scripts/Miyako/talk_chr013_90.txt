@@ -50,8 +50,8 @@ Heeheehee!!!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0062", 100>
 Miyako
-Stand right over here for a minute! I want to show you
-the new move I learned!
+Stand right over here for a minute! I want to show you 
+a new stance that I've learned!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0063", 100>

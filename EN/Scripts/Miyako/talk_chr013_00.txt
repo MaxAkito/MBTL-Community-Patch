@@ -24,13 +24,13 @@ I have an older brother.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0001", 100>
 Miyako
 To be more specific, I gained an older brother seven years
-ago. And although I'm a fully-fledged adult now...
+ago. And although I'm all grown up now...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0002", 100>
 Miyako
-Back then, I was still a child. I didn't really understand
-the whole story behind his sudden arrival.
+Back then, I was still a tiny little child. I didn't really 
+understand the whole story behind his sudden arrival.
 \l
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
@@ -43,27 +43,27 @@ But that doesn't matter. My brother is still my brother.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0004", 100>
 Miyako
 He may not talk much, but he's a kind person.
-Mother and Father are both proud of him.
+Mom and Dad are both proud of him.
 \l
 
 \\@CHARA_IN@< 0, 13, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0005", 100>
 Miyako
-When I mess up and break something by accident,
-use the wrong kind of wax on the floors in the dojo...
+When I messed up and broke a flowerpot by accident, or when I
+used the car-wax on the floors in the dojo...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0006", 100>
 Miyako
-Or forget to do my homework until the last minute
-and need help to finish it all on time...
+Or when my summer homework piled up beyond belief...
+He would always just forgivingly shrug his shoulders and help me out.
 \l
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0007", 100>
 Miyako
-He's always right there to help. He's the best
-big brother anyone could ask for.
+He is a brother whose kindness comes just as naturally as
+he breathes.
 \l
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
@@ -91,7 +91,7 @@ However...
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0030", 100>
 Shiki
 Well, I guess this is good-bye.
-Take care, Mother.
+Take care, Mom.
 
 \\@CHARA_IN@<0, 13, 10, 1, 0>
 \aw
@@ -134,8 +134,8 @@ early today, Miyako.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0032", 100>
 Shiki
-I have to head back to the Tohno estate today.
-I'm not sure why, but I was told to return.
+I'm heading back to the Tohno estate today.
+For some reason I've been told to return, though it's been so long.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0033", 100>
 Shiki
@@ -191,15 +191,15 @@ You can't go!”
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0015", 100>
 Miyako
-Every part of me was telling me I should
-stop him, but I couldn't move.
+Every part of me was telling me I should stop him,
+but like usual, I was too nervous to speak up.
 \l
 
 \\@CHARA_IN@< 0, 13, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0016", 100>
 Miyako
 Whenever my brother was around,
-it was always hard for me to talk.
+it was always hard for me to talk much.
 \l
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
@@ -219,14 +219,14 @@ That's what I get for being so naive.
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0019", 100>
 Miyako
-My brother...left...
+My brother... left...
 \l
 
 \\@CHARA_IN@< 0, 13, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0020", 100>
 Miyako
-I know there wasn't anything that could actually be done
-about it. One can't ignore an order from the Tohno branch.
+But that's just how things were.
+My dad says we can't go against the orders of the Tohno house.
 
 \\@CHARA_IN@<3, 52, 0, 2, 0>
 \aw
@@ -290,14 +290,14 @@ Blood type：O    Height：131 cm    Weight：35 kg
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0005", 100>
 Bake_Neko
-Physical Strength：C    Endurance：C    Agility：B
-Magic：E    Luck：A    Arc Drive：C
+STR：C    END：C    AGI：B
+MGI：E    LCK：A    ARC-DRIVE：C
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0006", 100>
 Bake_Neko
-Still in elementary school, but extremely proficient in
-Chinese martial arts. Did I miss anything?
+Dabbles in chinese martial arts despite being just an elemantary
+schooler. You know what's good, don't you?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0007", 100>
@@ -348,7 +348,7 @@ go back to the Tohno house!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0028", 100>
 Miyako
 That settles it! I've got to go take him back from that
-fraud of a sister...by force, if necessary!
+fraud of a sister... by force, if necessary!
 
 \\@CHARA_OUT@<0, -1, -1, 1, 0>
 \aw

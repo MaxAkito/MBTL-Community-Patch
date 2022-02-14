@@ -70,7 +70,7 @@ in here in broad daylight.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0001", 100>
 Akiha
 I don't know who sent you, assassin,
-but to be honest, I don't care.
+but to be honest, I don't need to, either.
 \l
 
 \\@CHARA_IN@<1,  2, 0, 0, 1>
@@ -82,7 +82,7 @@ quite unremarkable. One might even say ordinary...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0003", 100>
 Akiha
-What business does a mere human have here?
+What business does a mere human have with our clan?
 \l
 
 \\@CHARA_IN@<1,  2, 1, 0, 1>
@@ -138,7 +138,7 @@ I guess he just has one of those faces.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0008", 100>
 Akiha
 Very well. If you want him that badly,
-go ahead and take him.
+I'll return him to you.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -164,8 +164,8 @@ We are essentially unrelated. But if you'd go this far...
 \\@CHARA_IN@<1,  2, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0011", 100>
 Akiha
-That must mean you truly care for your brother.
-Your sense of familial love is touching.
+He must've been quite the great brother.
+That feeling of familial love has touched my heart.
 \l
 
 \\@CHARA_IN@<1,  2, 1, 0, 1>
@@ -187,8 +187,8 @@ C'mon! Are you ready to go ho--?
 \\@CHARA_IN@<3,  6, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis06_0000", 100>
 Kishima
-Huh. I never knew
-I had a sister.
+Huh. 
+To think I had a sister.
 
 \\@GO_SUB@<"QUAKE_2">
 \\@CHARA_IN@< 0, 13, 6, 0, 1>

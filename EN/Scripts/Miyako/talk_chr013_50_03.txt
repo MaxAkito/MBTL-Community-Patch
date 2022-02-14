@@ -66,14 +66,14 @@ They just start attacking without even saying a word!
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0033", 100>
 Miyako
-If I wasn't a Kung Fu master, I'd have gone running
-to the police by now!
+If I wasn't a Kung Fu master, this would've turned into
+police case long ago!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0034", 100>
 Miyako
 All I wanted to do was go to the Tohno estate and free my
-brother from the evil step-sister who's imprisoned him!
+brother from the evil sister who's imprisoned him!
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \\@CHARA_IN@<1, 11, 0, 12, 0>
@@ -90,7 +90,7 @@ I'd be interested to hear more.
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0035", 100>
 Miyako
-Now there are black forms falling from the sky?!
+Some person in black fell from the sky?!
 Don't tell me you're here to stop me too!
 
 \\@CHARA_IN@<1, 11, 5, 0, 1>
@@ -130,7 +130,7 @@ Miyako
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0014", 100>
 Ciel
 Just think of me as your kindly,
-bespectacled older friend.
+bespectacled upperclasswoman.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0015", 100>
@@ -143,7 +143,7 @@ how much help I've been.
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0016", 100>
 Ciel
 Also, is there anything troubling you?
-I'd be happy to lend a hand.
+I'd be happy to give you a lesson.
 
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0038", 100>
@@ -166,15 +166,15 @@ on top of that small hill over there.
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0018", 100>
 Ciel
-The younger sister's name is Akiha. Be sure to ask for her
+The younger sister's name is Tohno Akiha. Be sure to ask for her
 when you state your business at the door.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0040", 100>
 Miyako
-Akiha?! I've never heard such an
-obviously evil name before!
+Akiha?! First time I've heard of such an
+obviously evil name!
 
 \\@CHARA_IN@<1, 11, 1, 0, 1>
 
@@ -195,8 +195,8 @@ you cannot beat Akiha as you are now.
 \\@CHARA_IN@<1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0020", 100>
 Ciel
-Even with your bajiquan style, you don't stand a chance.
-I would be happy to teach you some useful moves, however.
+It appears your bajiquan still lacks in resolve.
+Allow me to give you a lesson.
 
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>

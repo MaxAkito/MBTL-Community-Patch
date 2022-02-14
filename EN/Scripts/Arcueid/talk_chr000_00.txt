@@ -15,23 +15,22 @@
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0000", 100>
 Arcueid
-Unbelievable. Changing sects is a bit much.
-Why choose this Far East island nation for reincarnation?
+Unbelievable. Talk about a change of heart.
+Why would you go for this Far East island nation to reincarnate?
 \l
 
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0001", 100>
 Arcueid
-Or could there be some interesting conditions here?
-Oh well, that's got nothing to do with me.
+Did you discover some really interesting conditions here perhaps?
+Oh well, it doesn't really concern me.
 \l
 
 \\@CHARA_IN@< 0, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0002", 100>
 Arcueid
-It's a small town, so it'll only take a couple days
-to smoke him out.
-Just you wait, Roa. I'll take care of this in no time.
+It's a small city, it won't even take 3 days to smoke him out.
+Just you wait, Roa. I'll take care of you in no time.
 
 \\@BGM_STOP@<0>
 \e

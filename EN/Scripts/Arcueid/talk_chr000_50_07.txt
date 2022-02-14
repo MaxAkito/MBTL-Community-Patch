@@ -13,15 +13,15 @@
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0000", 100>
 Volv
-That spirit just like a white sacred mountain...
+That soul... as white as a sacred mountain...
 There's no doubt about it.
 We finally meet, Princess of the True Ancestors.
 
 \\@CHARA_IN@< 0, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0020", 100>
 Arcueid
-Who are you? I don't remember a Dead Apostle like you.
-Are you a newbie who's only arrived in the last 100 years?
+Who are you? I don't know of a Dead Apostle like you.
+Some newbie who just popped up in these last 100 years?
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0001", 100>
@@ -33,21 +33,21 @@ I am Vlov Arkhangel...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0002", 100>
 Volv
 We've met before, just once...
-I've been following your shadow from across the ocean...
+I've been following your shadow from across the distant ocean...
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0003", 100>
 Volv
 But neither of us can stay here for long...
-This town is warm like decay, yet cold like the void.
+This city is warm like decay, yet cold like the void.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0004", 100>
 Volv
-I'll cut your head off and partake of your heart.
-That will surely cure my disease.
+I'll cut your head off and be awarded with your heart.
+And with that, my illness shall surely heal.
 
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>

@@ -18,14 +18,14 @@
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0030", 100>
 Arcueid
-*sigh* He made all that fuss and now he won't come out.
-Does he have more restraint now than before?
+*sigh* I've made all this fuss and he still won't show himself.
+Does his current self have more restraint than usual?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0031", 100>
 Arcueid
 Well, I've no other choice but to search the hard way.
-Even though that's a human thing--
+Kinda annoying and human-ish but--
 \l
 
 \\@GO_SUB@<"QUAKE_1">
@@ -38,7 +38,7 @@ I almost fell!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0033", 100>
 Arcueid
-Strange. I'm not equipped with wasteful
+Strange... I don't come with pointless
 functions like tripping over rocks.
 \l
 
@@ -50,13 +50,13 @@ Seems I haven't recovered from those wounds I got from Vlov.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0035", 100>
 Arcueid
 But what is this...?
-Strange, my heart is beating so fast.
+My heart is beating weirdly fast.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0036", 100>
 Arcueid
-Heheh, how nice would it be if I got news tomorrow
-that Roa's been found.
+Heheh, maybe it's a message that I'll find
+Roa tomorrow. That'd be great.
 
 
 \\@SYSTEM@<21>

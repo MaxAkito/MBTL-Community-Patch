@@ -16,22 +16,22 @@
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0000", 100>
 Akiha
-This cold is beginning to irritate me so much
-I might just break something.
+*sigh* This cold is enough to make one want to scratch at the walls
+It's starting to get on my nerves.
 \l
 
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0001", 100>
 Akiha
-Who does this impure creature think they are, doing
-whatever they please without my leave?
+Whoever this hybrid may be, they shouldn't be thinking that they could
+just be walking around doing whatever they want without my permission.
 \l
 
 \\@CHARA_IN@< 0, 2, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0002", 100>
 Akiha
-It's as if they are asking me to reach out and snap
-their neck like a twig.
+It's almost as if 
+they're asking to be killed, no?
 \l
 
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
@@ -45,7 +45,7 @@ on his own again.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0004", 100>
 Akiha
 Perhaps I will teach this outsider a lesson on my way
-to bring him home.
+to bringing Shiki home.
 
 
 \\@BGM_STOP@<0>

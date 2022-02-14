@@ -11,7 +11,7 @@ Credits to Petrikow, Comun and fumei
 | :-------------- |:---------------------------- | 
 | Arcueid   (000) | Initial editing done (Petri) |
 | Hisui     (001) | Initial editing done (Petri) |
-| Akiha     (002) | Not started 				 |
+| Akiha     (002) | Initial editing done (Petri) |
 | Shiki     (003) | Initial editing done (Petri) |
 | Kohaku    (004) | Not started 				 |
 | Roa       (005) | Initial editing done (Petri) |

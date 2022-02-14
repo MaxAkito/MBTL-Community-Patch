@@ -15,7 +15,7 @@
 \\@CHARA_IN@< 0, 2, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0010", 100>
 Akiha
-I have had enough. Just what do you two think
+Unbelievable. Just what do you two think
 you are doing here?
 
 \\@GO_SUB@<"QUAKE_1">
@@ -38,13 +38,13 @@ investigate the town in your stead. We know you're busy.
 \\@CHARA_EMOVE@<0, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0011", 100>
 Akiha
-I don't need to hear your excuses.
+Enough of your excuses.
 \l
 
 \\@CHARA_IN@< 0, 2, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0012", 100>
 Akiha
-You two are responsible for protecting the estate.
+You two are responsible for managing the estate.
 All other activities are strictly forbidden.
 \l
 

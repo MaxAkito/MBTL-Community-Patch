@@ -64,7 +64,7 @@ Hisui is a master of the Lapis Steel battle technique and is...
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0001", 100>
 Kohaku
 the successor of the Kyuuti-Pai style! She can cut
-down any opponent with a single strike!
+down any evil-doer with but a single strike!
 
 \\@SQ_CALL@<2>
 \\@BGM_FADE@<0,100,0,30,1>

@@ -10,7 +10,7 @@
 \\@SE_PLAY@<0, "talk/talk_se/Hit_PunchC", 0, 30>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0000", 30>
 Noel
-.. ..
+... ...
 
 \\@CHARA_IN@<0, 4, 101, 3, 0>
 \aw
@@ -25,7 +25,7 @@ able to assist me.
 \\@CHARA_IN@< 0, 4, 100, 50, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0031", 100>
 Kohaku
-Excuse me, Sister. You haven't seen anything
+Excuse me, Sister. You haven't seen someone
 suspicious around town, have you?
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
@@ -40,8 +40,8 @@ Huh?
 \\@CHARA_IN@< 1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0002", 100>
 Noel
-You come across a scene like this, and that's your
-question?
+What's that?
+Asking for 'someone suspicious' in a situation like this, like...?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0003", 100>
@@ -58,8 +58,8 @@ sure what you mean?
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0004", 100>
 Noel
-Oh, so you're just not right in the head. Okay.
-Hold on... You're one of the maids at that mansion!
+Oh, so I suppose why can't feel any danger is because you brain is-
+Hold on... You're one of the maids from that mansion!
 \l
 
 \\@CHARA_IN@< 1, 8, 100, 0, 1>
@@ -74,14 +74,14 @@ on a silver platter!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0006", 100>
 Noel
 You're here alone too, aren't you? I don't sense that
-family head of yours nearby.
+family head of yours nearby either.
 \l
 
 \\@CHARA_IN@< 1, 8, 300, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0007", 100>
 Noel
 I'll be the one asking the questions tonight, little maid.
-Fair warning, though; my methods aren't exactly pleasant.
+My interrogation might be a biiit rough but... you'll be fine, right?
 
 \\@CHARA_IN@< 0, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -100,7 +100,7 @@ a monster attack!
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0035", 100>
 Kohaku
-Time for a speedy withdrawal!
+Kohaku, OUT! I'm getting skedaddling at full force!
 \l
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
@@ -112,8 +112,8 @@ and no bite, but even so...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0037", 100>
 Kohaku
-A cornered animal can be particularly dangerous! In this
-situation, a tactical retreat would be more prudent!
+Office ladies who've hit a wall in life are pratically explosive!
+In this situation, a tactical retreat would be more prudent!
 
 \\@CHARA_IN@< 1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0008", 100>

@@ -130,7 +130,7 @@ the useful training session.
 WinMes10WinStreak00:
 chara_type 2
 Ten wins?! That's amazing! *ahem* Excuse me. What I
-meant to say was, you would be most welcome at our my estate
+meant to say was, you would be most welcome at our estate
 should you be so interested.
 \e
 

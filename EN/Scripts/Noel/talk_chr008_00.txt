@@ -15,39 +15,39 @@
 \\@CHARA_IN@< 0, 8, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0040", 100>
 Noel
-It's taken me over a month, but I finally managed
-to track down Roa's hiding place.
+Even after I arrived here 1 month after her...
+I've finally transferred to where Roa is hiding.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0041", 100>
 Noel
-I didn't expect much based on the name of the town...
+So this city is called Souya, huh.
 \l
 
 \\@CHARA_IN@< 0, 8, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0042", 100>
 Noel
-But this place is bigger than I thought!
+But oh my, it's more inner-city than you'd think!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0043", 100>
 Noel
-There are more shops here than I can count!
+Chloe, TOCCA, Miu Miu, even M A C!
 This is going to be fun!
 \l
 
 \\@CHARA_IN@< 0, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0044", 100>
 Noel
-I've been bouncing around between tiny villages in the
-middle of nowhere, wearing only my nun's outfit.
+Before this we were always stuck in some country village
+in the middle of nowhere. All I could were was my nun's habit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0045", 100>
 Noel
-I could definitely get used to this!
-Let's see. This lists my target's occupation as...
+But now I can really immerse myself in my hobby!
+Let's see... what's her outward persona like...
 \l
 
 \\@GO_SUB@<"QUAKE_1">
@@ -56,7 +56,7 @@ Let's see. This lists my target's occupation as...
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0046", 100>
 Noel
 What?! A student?! You can't be serious!
-I'm looking for a teenager?!
+You're gonna be a teengar not just in body but in mind too!?
 \l
 
 \\@CHARA_IN@< 0, 8, 7, 0, 1>
@@ -90,7 +90,7 @@ And a mysterious nun, killing vampires by night!
 \\@CHARA_IN@< 0, 8, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0051", 100>
 Noel
-What a wonderful character setting this will be!
+Oh, I've built a great character already!
 
 \\@BGM_STOP@<0>
 \e

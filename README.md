@@ -16,8 +16,8 @@ Credits to Petrikow, Comun and fumei
 | Kohaku    (004) | Initial editing done (Petri) |
 | Roa       (005) | Initial editing done (Petri) |
 | Kouma     (006) | Initial editing done (Petri) |
-| Maids     (007) | Not started 				 |
-| Noel      (008) | Not started 				 |
+| Maids     (007) | Initial editing done (Petri) |
+| Noel      (008) | Initial editing done (Petri) |
 | Vlov      (009) | Initial editing done (Petri) |
 | Warc      (010) | Initial editing done (Petri) |
 | Ciel      (011) | Initial editing done (Petri) |

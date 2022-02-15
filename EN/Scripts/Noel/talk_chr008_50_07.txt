@@ -13,28 +13,28 @@
 \\@CHARA_IN@< 0, 8, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0070", 100>
 Noel
-(Found you! Wait! Is that a new ancestor?! Really?
+(Found it! Wait! Is that a new Ancestor?! Really?
  How much bad luck can one person have?!)
 \l
 
 \\@CHARA_IN@< 0, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0071", 100>
 Noel
-(Something seems off about him, though. Is he...sad?
+(Something seems off about him, though. Is he... sad?
  He sure doesn't feel as threatening as a Dead Apostle.)
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0040", 100>
 Volv
-I have plenty of heat... For the moment,
-I am content.
+I have plenty of heat...
+More than anything, I am allowed a moment of rest...
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0041", 100>
 Volv
-I would prefer to remain here in peace, staring into
-the depths of the flames...
+I'm in the middle of gazing into my flame hearth...
+As far as I am concerned, the greatest of luxuries...
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
@@ -82,7 +82,7 @@ a sense of pride!
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0076", 100>
 Noel
-How dare a vampire demand to be left alone when your
+How dare a vampire speak of rest when your
 very existence threatens the peace of humanity!
 \l
 
@@ -96,7 +96,7 @@ I'm not letting this opportunity slip away!
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0078", 100>
 Noel
-By killing you, I'll be able to prove myself to him!
+By killing you, I'll get one up over her!
 Then maybe I'll get the happy ending I deserve!
 
 \\@BGM_STOP@<0>

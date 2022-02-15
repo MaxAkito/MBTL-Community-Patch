@@ -13,12 +13,12 @@
 \\@CHARA_IN@< 1, 2, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0050", 100>
 Akiha
-Hold it right there!
+Hold it right there, you!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0051", 100>
 Akiha
-I take it you're here to observe this household?
+It seems you've been monitoring our family estate but
 There is no need for that.
 \l
 
@@ -46,7 +46,7 @@ a pleasant conversation without being interrupted.
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0060", 100>
 Noel
 That is very kind of you. I would love some tea.
-But are you sure I wouldn't be imposing?
+You bourgeoisie sure have magnanimity and elegance to spare!
 \l
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
@@ -89,14 +89,14 @@ After that, however, I cannot guarantee your well-being.
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0064", 100>
 Noel
-You sound rather cruel for a teenager!
+Thinking like that as a mere teenager already means you're inhuman!
 \l
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0065", 100>
 Noel
-You don't seem like a Dead Apostle, but you enjoy the
-blood of others just the same, don't you?
+You don't appear to be a Dead Apostle, but you are a 
+blood-sucking demon all the same, aren't you?
 \l
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>

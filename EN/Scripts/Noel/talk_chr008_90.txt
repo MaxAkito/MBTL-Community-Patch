@@ -23,37 +23,38 @@ Ugh!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0081", 100>
 Noel
-In the end, I was saved again. I suppose that's no
-different than any other job, though.
+After all that's said and done, she's saved me again...
+Just like it usually plays out...
+
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0082", 100>
 Noel
-Still, it's disheartening...
+Big mood...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0083", 100>
 Noel
-Although, I guess working in a group has its benefits. He even
-took the lead in the most dangerous situations.
+Well, it being a joint operation is better than usual, so that's
+a point for me. I just let her do all the dangerous stuff and so...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0084", 100>
 Noel
-And you can't argue with results. There's nothing
-wrong with taking the easy route in life!
+Basically, there were nothing but positives here.
+There's nothing wrong with taking the easy route in life!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0085", 100>
 Noel
 I think I've done enough work for the rest of the year!
-Now I can sit back and enjoy life as a teacher.
+Now I can sit back and enjoy the teacher life!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0086", 100>
 Noel
-I've got a clean room, delicious food, and lots of shops
-to enjoy! Plus the night life in the city is great!
+I've got a clean room, delicious food, and lots of places
+to enjoy! Yaaay city night life owns!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0087", 100>
@@ -69,23 +70,23 @@ through the back alleys.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0089", 100>
 Noel
-It is. That's Satsuki Yumizuka from my class!
+That's... That's Satsuki Yumizuka from my class!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0090", 100>
 Noel
-I only remember her because her last name
-bothers me so much.
+I managed to somehow memorize her name because the 'yumi'
+in her last name really sticks in my throat.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0091", 100>
 Noel
-What's she doing out this late?
+Hmm... in THAT back-alley?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0092", 100>
 Noel
-And what do I do about it?
+Well then、 what is one to do?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0093", 100>

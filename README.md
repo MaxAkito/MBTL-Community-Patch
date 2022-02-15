@@ -7,7 +7,7 @@ Credits to Petrikow, Comun and fumei
 
 ### Scripts
 
-| Character       | Status | 
+| Character       | Status                       | 
 | :-------------- |:---------------------------- | 
 | Arcueid   (000) | Initial editing done (Petri) |
 | Hisui     (001) | Initial editing done (Petri) |
@@ -29,11 +29,11 @@ Credits to Petrikow, Comun and fumei
 
 ### Win-messages
 
-| Character       | Status | 
+| Character       | Status                       | 
 | :-------------- |:---------------------------- | 
 | Arcueid   (000) | Initial editing done (Petri) |
 | Hisui     (001) | Initial editing done (Petri) |
-| Akiha     (002) | Not started 				 |
+| Akiha     (002) | Initial editing done (Petri) |
 | Shiki     (003) | Not started 				 |
 | Kohaku    (004) | Not started 				 |
 | Roa       (005) | Not started 				 |

@@ -27,7 +27,7 @@ Huh?!
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0041", 100>
 Akiha
-You startled me. What are you two doing here?
+Oh, its just you two.
 \l
 
 \\@CHARA_IN@< 1, 2, -1, 0, 1>
@@ -53,35 +53,35 @@ Shut up, Hisui!
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0032", 100>
 Kohaku
-Lady Akiha is not herself! The real Lady Akiha would not
-ignore the noble actions of her employees!
+A Lady Akiha who does not sympathize with the thoughtfulness 
+of servants working so nobly is no Lady Akiha at all!
 \l
 
 \\@CHARA_IN@< 2, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0033", 100>
 Kohaku
 In order to maintain the tranquility of the Tohno household,
-we must teach Lady Akiha a lesson!
+we have no choice but to teach her a lesson!
 
 \\@CHARA_IN@< 1, 2, 200, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0043", 100>
 Akiha
-Excuse me? I do believe that
-sounded like a challenge.
+Very well...
+I suppose I shall interpret those words as a challenge then?
 \l
 
 \\@CHARA_IN@< 1, 2, 200, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0044", 100>
 Akiha
-I'm not sure what you're up to, nor do I really care.
-That goes for your excuses after you lose as well.
+You'll have to excuse me but I'm not sure what you're up to, nor 
+do I really care. That goes for your excuses after you lose as well.
 \l
 
 \\@CHARA_IN@< 1, 2, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0045", 100>
 Akiha
-Hehehe. It's time to demonstrate what punishment awaits
-those who would oppose their master...
+Hehehe. What a great opportunity. I shall teach you just how
+terrifying it is to oppose your master, punishment included.
 
 \\@BGM_STOP@<0>
 \e

@@ -27,6 +27,27 @@ Credits to Petrikow, Comun and fumei
 | DA Noel   (014) | Initial editing done (Petri) |
 | Aoko      (015) | Initial editing done (Petri) |
 
+### Win-messages
+
+| Character       | Status | 
+| :-------------- |:---------------------------- | 
+| Arcueid   (000) | Not started 				 |
+| Hisui     (001) | Not started 				 |
+| Akiha     (002) | Not started 				 |
+| Shiki     (003) | Not started 				 |
+| Kohaku    (004) | Not started 				 |
+| Roa       (005) | Not started 				 |
+| Kouma     (006) | Not started 				 |
+| Maids     (007) | Not started 				 |
+| Noel      (008) | Not started 				 |
+| Vlov      (009) | Not started 				 |
+| Warc      (010) | Not started 				 |
+| Ciel      (011) | Not started 				 |
+| Saber     (012) | Not started 				 |
+| Miyako    (013) | Not started 				 | 
+| DA Noel   (014) | Not started 				 |
+| Aoko      (015) | Not started 				 |
+
 ### Strings
 
 | Subset                    | Status                 |

@@ -18,7 +18,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0030", 100>
 Noel
 You are falling deeeeeeply in looove~
-She is older than you, doesn't have much money...
+She is older than you, narrow-minded, doesn't have much money...
 \l
 
 \\@CHARA_EMOVE@<1, -1 , 3>
@@ -28,19 +28,19 @@ She is older than you, doesn't have much money...
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0031", 100>
 Noel
 Possesses little talent, and enjoys slacking off,
-but she does not lack for beauuuuutyyy~
+but still, you are falling in love with a cutie like meee~
 
 \\@CHARA_IN@< 3, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0060", 100>
 Shiki
-Is she...proud of those qualities...?
-Still... Maybe...that could...work...
+I mean... is that... doable...?
+I feel as if that's a bit too much to ask...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0061", 100>
 Shiki
-I can't be sure it wouldn't... Does that mean it would...?
-I'll just give it a try and--
+Some part of me feels as if though at least one of those qualities
+ought to be improved but I'm falling in loveeee~
 
 
 \\@CHARA_IN@<0, 1, 1, 1, 0>
@@ -53,7 +53,7 @@ I'll just give it a try and--
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0040", 100>
 Kohaku
 Aaahhhhhh!!!
-What is going on here?!
+What a shocking sight!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0041", 100>
@@ -71,7 +71,7 @@ normal advances she's making.
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0021", 100>
 Hisui
-She's using hypnotism to brainwash him. We don't have
+Those are hypnotic suggestions. We don't have
 a moment to lose. And don't hold back, either.
 
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
@@ -97,14 +97,14 @@ You dare interfere?!
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0033", 100>
 Noel
-With a job like mine, there isn't time to find a decent
-boyfriend! This might be my last chance!
+So you intend to rob me of my final chance at making a boyfriend?!
+I've been unable to make even a single one at my shady job!
 \l
 
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0034", 100>
 Noel
-I will kill you for this, you brats!
+For that, you shall suffer death, you brats!
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 \\@CHARA_FOCUS_COLOR@<0,0>
@@ -115,7 +115,7 @@ I'd wager our work schedule is more demanding than yours.
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0044", 100>
 Kohaku
-You are nothing more than a villain!
+Truth be told... you will be the culprit!
 
 
 \\@BGM_STOP@<0>

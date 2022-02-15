@@ -21,7 +21,7 @@ seem to find them anywhere.
 \\@CHARA_IN@< 1, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0020", 100>
 Kohaku
-Are you certain? Hm...I have a
+Are you sure? Hm... I have a
 bad feeling about this...
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>

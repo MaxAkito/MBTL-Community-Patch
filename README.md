@@ -31,8 +31,8 @@ Credits to Petrikow, Comun and fumei
 
 | Character       | Status | 
 | :-------------- |:---------------------------- | 
-| Arcueid   (000) | Not started 				 |
-| Hisui     (001) | Not started 				 |
+| Arcueid   (000) | Initial editing done (Petri) |
+| Hisui     (001) | Initial editing done (Petri) |
 | Akiha     (002) | Not started 				 |
 | Shiki     (003) | Not started 				 |
 | Kohaku    (004) | Not started 				 |

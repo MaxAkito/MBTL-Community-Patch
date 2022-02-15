@@ -3,17 +3,15 @@ WinMesScript
 
 WinMes00:
 chara_type 2
-Um, are you all right?
+Um, I hope you are not injured?
 \e
-
 
 
 WinMes01:
 chara_type 2
-Oh, my. I am terribly sorry. I'm not very comfortable
+I am terribly sorry... I'm not very comfortable
 with others touching me...
 \e
-
 
 
 WinMes02:
@@ -23,7 +21,6 @@ gave it everything I could.
 \e
 
 
-
 WinMes03:
 chara_type 100
 D-Did I win...? Master Shiki! Look!
@@ -31,13 +28,11 @@ I did it!
 \e
 
 
-
 WinMes04:
 chara_type 102
 Phew! Now, if you'll excuse me, I should
 get back to cleaning.
 \e
-
 
 
 WinMes05:
@@ -48,10 +43,9 @@ necessary to defend myself.
 \e
 
 
-
 WinMes06:
 chara_type 101
-That was rather frightening.
+That was rather frightening...
 I must ask that you don't try that again.
 \e
 
@@ -61,10 +55,9 @@ I must ask that you don't try that again.
 
 WinMes08:
 chara_type 0
-Was that satisfactory? I'm afraid fighting
+Was that satisfactory...? I'm afraid fighting
 is not my strong point.
 \e
-
 
 WinMes09:
 chara_type 102
@@ -72,15 +65,13 @@ You should fix that temper of yours. Learning some
 proper manners would be good for you.
 \e
 
-
 // 対志貴
 WinMes10:
 chara_type 1
-Please forgive me, Master Shiki. I realize it may have
-been a bit excessive, but this was the only way I
+Please forgive me, Master Shiki... I realize it may have
+been a bit too intrusive, but it was the only way I
 could think of to make you return to your room...
 \e
-
 
 // 対秋葉
 WinMes11:
@@ -89,15 +80,13 @@ You seemed as if you wanted an earnest fight, so I
 did not hold back. Was it satisfactory, Lady Akiha?
 \e
 
-
 // 対琥珀
 WinMes12:
 chara_type 100
-I'm sorry, Kohaku. I sensed an unusual
+I'm sorry, Kohaku... I sensed an unusual
 amount of blood lust coming from you.
 I had to snap you out of it.
 \e
-
 
 // 対アルクェイド
 WinMes13:
@@ -110,7 +99,6 @@ dangerous aura emanating from Miss Arcueid?
 
 
 
-
 // 99まで追加可能
 
 
@@ -118,17 +106,15 @@ dangerous aura emanating from Miss Arcueid?
 
 WinMes3WinStreak00:
 chara_type 3
-Three wins. That was a most splendid display.
-You handled that furniture like a professional.
+Three wins.
+You handled that furniture splendidly.
 \e
-
 
 WinMes10WinStreak00:
 chara_type 100
 Ten wins. You aren't a world-famous
 butler in disguise, are you??
 \e
-
 
 //隠しキャラ解放test
 UnlockMes00:

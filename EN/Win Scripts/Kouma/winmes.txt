@@ -3,30 +3,26 @@ WinMesScript
 
 WinMes00:
 chara_type 0
-Am I looking for an assistant? No, but I'll be happy to
-give you a nice send-off. It may be a bit crude, though.
+Are you looking for someone to assist you?
+I could offer some salvation, if a bit clumsily, if you'd wish.
 \e
-
 
 WinMes01:
 chara_type 1
-How reckless. You're still far from understanding all
-three thousand realms in a single moment.
+How worldly you are.
+Not even close to perceiving all reality in the span of a single thought.
 \e
-
 
 WinMes02:
 chara_type 0
-There is nothing innately good or bad about killing. It's
-arrogant to assume you must define what is evil.
+There is neither good or bad in the taking of life. 
+Know that it is faulty in not being able to live without judging evil.
 \e
-
 
 WinMes03:
 chara_type 0
-What was that? An ape is more evolved than you are.
+What are you even doing? You are less than the ape.
 \e
-
 
 WinMes04:
 chara_type 0
@@ -34,62 +30,53 @@ Cast off your ties to this worldly plane and enter Nirvana
 without regret.
 \e
 
-
 WinMes05:
 chara_type 0
 Not bad. If you're ever itching for another fight,
 feel free to come find me.
 \e
 
-
 WinMes06:
 chara_type 0
-That was actually quite impressive.
+It just occured to me but...
 Are you sure you're human?
 \e
 
-
 WinMes07:
 chara_type 0
-A seed does not choose the soil in which it grows.
-And it does not matter if it produces no fruit
-or becomes a poisonous weed, for you have
-already judged both to be evil.
+Bad seeds bloom without regard to their soil.
+Whether it is unfruitful or poisonous is something
+only your bare skull may tell us.
 \e
-
 
 // 対志貴
 WinMes08:
 chara_type 1
-I am not the one you seek. Try someone else.
+You have the wrong man. Try someone else.
 \e
-
 
 // 対アルク
 WinMes09:
 chara_type 0
-You are a most bizarre woman. You may
-be regarded as a holy figure somewhere,
-but not in this country.
+A most bizarre woman.
+Elsewhere, a buddha reborn, it seems. 
+But the soil of this land does not suit you.
 \e
-
 
 // 対ヒスコハ
 WinMes10:
 chara_type 0
-I once knew a pair of sisters who resembled you two.
-I'm going to need you to leave.
+I once knew a pair of sisters who resembled you two, so...
+Could I perhaps ask of you two to back down?
 \e
-
 
 // 対志貴(ストーリーでのエンカウント専用)
 WinMesArcadeWin03:
 chara_type 1
-Unfortunately, I do not see things the same way you do.
-I regret nothing. In fact, I have committed no sin at all.
-If you wish to settle this, come back when you can kill me.
+Unfortunately, I know little of repentance.
+I have not regret, nor can I think of any punishment.
+If you wish to settle this, you must have the ability to kill me first.
 \e
-
 
 // 99まで追加可能
 

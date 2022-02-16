@@ -35,7 +35,7 @@ Credits to Petrikow, Comun and fumei
 | Hisui     (001) | Initial editing done (Petri) |
 | Akiha     (002) | Initial editing done (Petri) |
 | Shiki     (003) | Initial editing done (Petri) |
-| Kohaku    (004) | Not started 				 |
+| Kohaku    (004) | Initial editing done (Petri) |
 | Roa       (005) | Not started 				 |
 | Kouma     (006) | Not started 				 |
 | Maids     (007) | Not started 				 |

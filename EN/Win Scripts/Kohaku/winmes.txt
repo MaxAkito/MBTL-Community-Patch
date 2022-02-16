@@ -3,27 +3,24 @@ WinMesScript
 
 WinMes00:
 chara_type 1
-That's enough cleaning for one day. I would appreciate
-it if you stopped with the childish pranks.
+That's enough cleaning for one day. 
+I would appreciate it if you stopped with the childish pranks.
 \e
-
 
 WinMes01:
 chara_type 0
-An overwhelming victory for me! See?! I can win even
-without Hisui's help!
+An overwhelming victory for me! 
+Yaaay, even without Hisui I'm invincible!
 \e
-
 
 WinMes02:
 chara_type 3
 chara_type_sub 1
 chara_switchframe 230
 We should be trying to get along instead of fighting. I'll
-prepare some tea for when you regain consciousness,
+prepare some tea for when y	ou regain consciousness,
 so feel free to sleep as long as you need to! ÅÙ
 \e
-
 
 WinMes03:
 chara_type 0
@@ -31,21 +28,18 @@ That was rather dangerous. Such behavior should be
 discarded like the previous night's refuse!
 \e
 
-
 WinMes04:
 chara_type 1
-Please use the main entrance next time. That way I might
-give you an even warmer welcome.
+Please use the main entrance next time. 
+That way I might give you an even warmer welcome.
 \e
-
 
 WinMes05:
 chara_type 102
-Were you surprised? I am a maid under the employ of the
-Tohno family, you know. We take great pride in our
-impeccable manners.
+Surprised? 
+I am a maid under the employ of the Tohno family, you know. 
+We take great pride in our impeccable manners.
 \e
-
 
 WinMes06:
 chara_type 102
@@ -53,47 +47,41 @@ Was that to your satisfaction? I will be sure to bring an
 even stronger dose of medicine for you next time.
 \e
 
-
 WinMes07:
 chara_type 1
-The best medicines are those which taste most bitter. It may
-be difficult to hear, but now that you have learned your
-lesson, I expect to see an improvement in your behavior.
+Good medicine is bitter and the truth hurts, is what they say.
+But now that you have learned your lesson, 
+I expect to see an improvement in your behavior.
 \e
-
 
 WinMes08:
 chara_type 100
-That was quite the battle. If I train even harder, I could
-take control of the mansion and-- No! What am I saying?!
+That was quite the battle. I'll train even harder,
+seize control of the mansion and-- I-I mean,
 My duty is to protect Lady Akiha and Shiki!
 \e
 
-
 WinMes09:
 chara_type 0
-I took the liberty of treating your wounds. Feel free to
-come back for another round once you have healed.
+I took the liberty of treating your wounds. 
+Feel free to come back for another round once you feel better.
 \e
-
 
 // ëŒéuãM
 WinMes10:
 chara_type 2
-I'm terribly sorry, Shiki. Allow me to apologize
-by preparing a meal for you. Please accompany me to
-the dining hall.
+I'm terribly sorry for being so rough, Shiki. 
+Allow me to apologize by preparing a meal for you. 
+C'mon, let's get going to the dining hall.
 \e
-
 
 // ëŒèHót
 WinMes11:
 chara_type 102
-Heehee. This round is mine, Lady Akiha. Don't forget our
-agreement. I get to install more surveillance cameras and
-will receive a larger budget for Shiki's medicine! ÅÙ
+Heehee. Seems I've won this time, Lady Akiha. 
+Don't forget our agreement. I get to install more surveillance cameras 
+and will receive a larger budget for Shiki's medicine! ÅÙ
 \e
-
 
 // ëŒ„≈êâ
 WinMes12:
@@ -102,7 +90,6 @@ Looks like I win, Hisui.
 As agreed, you will take over my cleaning duties
 for the next week! ÅÙ
 \e
-
 
 // 99Ç‹Ç≈í«â¡â¬î\
 
@@ -118,13 +105,11 @@ Well done! That's three wins! ÅÙ
 I'll prepare a feast in celebration!
 \e
 
-
 WinMes10WinStreak00:
 chara_type 1
 The up-and-coming battle champion, with 10 consecutive wins!
 Show us how far you can go!
 \e
-
 
 //âBÇµÉLÉÉÉââï˙test
 UnlockMes00:

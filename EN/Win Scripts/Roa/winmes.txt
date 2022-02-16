@@ -8,7 +8,6 @@ like yours, any circus would be glad to have you. In fact,
 if you don't bleed out, that's probably what you should do.
 \e
 
-
 WinMes01:
 chara_type 0
 That left me a bit hungry. You wouldn't mind if I took a
@@ -16,13 +15,11 @@ little donation of blood, would you? I suffer from a
 chronic case of anemia, you see.
 \e
 
-
 WinMes02:
 chara_type 2
-Order up! Who wanted the charred corpse?! There are plenty
-more strays in the back alley where this one came from!
+One charred corpse coming up! Now all that's left
+is to let the strays in the back-alleys have some fun with it!
 \e
-
 
 WinMes03:
 chara_type 1
@@ -32,14 +29,12 @@ in your opponent's pain, wouldn't you-- Oh, never mind.
 I didn't realize you'd already stopped breathing.
 \e
 
-
 WinMes04:
 chara_type 0
 As thanks for allowing me to enjoy myself, I shall give you
-a proper human burial. Be grateful you do not have to
-experience burial by fire or lightning.
+a proper human burial. At any rate, be grateful you do 
+not have to experience the hell of being cremated by lightning.
 \e
-
 
 WinMes05:
 chara_type 2
@@ -49,7 +44,6 @@ but that's actually a lot harder than you'd think. Sure
 makes you respect the samurai of old, doesn't it?
 \e
 
-
 WinMes06:
 chara_type 0
 Try not to move so much, would you? You'll only bleed out
@@ -57,71 +51,63 @@ faster, and I don't feel like drinking off the ground today.
 I have to act like a proper vampire at least once in a while.
 \e
 
-
 // 対志貴
 WinMes07:
 chara_type 2
-Still trying to say we're different? You and I
-are the same! Just look! Everything we
-touch ends up in pieces!
+What you and I see aren't the same, you say? 
+Hah, but they are! At the end of the day,
+things end up being cut to bits all the same.
 \e
-
 
 // 対アルクェイド
 WinMes08:
 chara_type 1
-So even a True Ancestor can break down, huh? I still can't
-believe how far your worth drops with a single wound.
-Must be the one fatal flaw of the perfect being.
+So even a True Ancestor can malfunction, huh? 
+To think how much your worth would fall by just a single scratch.
+Right, that must be sole flaw of a perfect being.
 \e
-
 
 // 対シエル
 WinMes09:
 chara_type 0
-What a pity. And here you had such potential, Sister.
-If only you had worked for me, I could have put you to
-much better use than this. It really is a shame to put
-an end to one with such talent! Truly a waste!
+A complete waste of your precious potential, Sister.
+I could've put it to much better use than you...
+It really is a damn shame to put an end to one with
+such talent! Truly a waste!
 \e
-
 
 // 対秋葉
 WinMes10:
 chara_type 1
-Fighting one-on-one like this always
-makes me feel tingly all over.
-I still can't figure out if it's
-love or lust, though.
+Hmm... the sensations in my body does dampen somewhat
+when I'm up against this one.
+Perhaps it is because of love, perhaps because of lust...
+I can't really tell either way.
 \e
-
 
 // 対暴走アルク
 WinMes11:
 chara_type 0
-What an awful night this is, wouldn't you agree? I always
-get depressed when the moon is so bright.
+What an awful night this is, wouldn't you agree, my fellow vampire? 
+I get a bit depressed... even the moonlight is too bright for me.
 \e
-
 
 // 対志貴(ストーリー専用)
 WinMesArcadeWin03:
 chara_type 1
 What a shame. Looks like nothing has changed.
-I was hoping you of all people would be
-capable of dismantling this mutation...
+I was hoping you of all peoplea at least would 
+capable of dissecting me alongside this deviation...
 \e
-
 
 // 対シエル(ストーリー専用)
 WinMesArcadeWin11:
 chara_type 0
-Those weapons of yours are more of a hindrance than a help.
-Your body is a miraculous gift, yet its potential is limited
-by your feeble human understanding. Instead of viewing it
-as a heresy, you should embrace it.
+For you, those excessive weapons are but a shackle.
+It's like you've bound that miraculous body of yours
+with the knowledge of man. Before you go cursing other's heresies,
+you'd best come to terms with your own otherwordlyness first.
 \e
-
 
 
 // 99まで追加可能
@@ -139,5 +125,5 @@ blood to drink with you around.
 WinMes10WinStreak00:
 chara_type 2
 Not bad! If things were different,
-I would have made you work for me!
+I would have made you my underling!
 \e

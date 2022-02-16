@@ -111,7 +111,7 @@ WinMes16:
 chara_type 1
 You are a member of the Arima family, correct? In that case,
 be sure you learn some manners once you've enrolled at
-Asagami Academy as a in middle-school. What? 
+Asagami Academy in middle-school. What? 
 You don't plan on attending Asagami Academy?!
 \e
 

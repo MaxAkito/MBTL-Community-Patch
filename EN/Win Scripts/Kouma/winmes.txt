@@ -4,7 +4,7 @@ WinMesScript
 WinMes00:
 chara_type 0
 Are you looking for someone to assist you?
-I could offer some salvation, if a bit clumsily, if you'd wish.
+I could offer you salvation, though a bit clumsily, if you'd wish.
 \e
 
 WinMes01:
@@ -15,8 +15,8 @@ Not even close to perceiving all reality in the span of a single thought.
 
 WinMes02:
 chara_type 0
-There is neither good or bad in the taking of life. 
-Know that it is faulty in not being able to live without judging evil.
+There is neither good nor evil in the taking of life. 
+Know that the need to define other as evil is to err.
 \e
 
 WinMes03:
@@ -59,8 +59,8 @@ You have the wrong man. Try someone else.
 WinMes09:
 chara_type 0
 A most bizarre woman.
-Elsewhere, a buddha reborn, it seems. 
-But the soil of this land does not suit you.
+Perhaps a nirmanakaya of someplace else but,
+the soil of this land does not suit you.
 \e
 
 // ‘ÎƒqƒXƒRƒn
@@ -74,7 +74,7 @@ Could I perhaps ask of you two to back down?
 WinMesArcadeWin03:
 chara_type 1
 Unfortunately, I know little of repentance.
-I have not regret, nor can I think of any punishment.
+I have not regret, nor can I think of any suitable punishment.
 If you wish to settle this, you must have the ability to kill me first.
 \e
 

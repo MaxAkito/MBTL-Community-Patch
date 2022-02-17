@@ -3,10 +3,9 @@ WinMesScript
 
 WinMes00:
 chara_type 102
-The more you resist, the more it's going to hurt. How many
-times is it going to take before you learn your lesson?
+It's because you resist that you get hurt.
+How about you learn from this and become a bit more obedient?
 \e
-
 
 WinMes01:
 chara_type 0
@@ -14,74 +13,65 @@ I doubt you wish to die any more than I do. I'll let you
 go with a warning this time, but only if you repent.
 \e
 
-
 WinMes02:
 chara_type 100
-Has this little demonstration of my power convinced you I
-deserve the title of Number Seven of the Burial Agency?
+This is the difference between our abilities. Do you now understand 
+that my title of Seven in the Burial Agency is not just for show?
 \e
-
 
 WinMes03:
 chara_type 0
-Holy Father, Your will shall be done. There! All finished!
-Being an executor sure works up an appetite!
+Lord God Almighty, thy Will is that which I Execute.
+There, Execution Complete.
 Time to head over to Messiaen!
 \e
 
-
 WinMes04:
 chara_type 100
-This fight has gone on long enough. You should use the time
-you have left to repent.
+This fight has gone on long enough. 
+You should use the time you have left to repent.
 \e
-
 
 WinMes05:
 chara_type 101
-Oh? Is the fight over already? I'm surprised you're able to
-accept your failure with such grace after all that big talk.
+Oh? Done already?
+You sure give up quickly for someone who talks so big.
 \e
 
 
 WinMes06:
 chara_type 100
 Phew...
-That demonstration of yours deserves to be praised.
+Allow me to commend you.
 You are quite the formidable opponent.
 \e
 
-
 WinMes07:
 chara_type 103
-Great, I've torn my robe again. That's the seventh one
-this month. Ms. Noel, would you mind terribly if I asked
-you to mend it for me?
+Great, I've torn my habit again. 
+That makes the seventh one this month.
+Ms. Noel, could I entrust with some needlework?
 \e
-
 
 WinMes08:
 chara_type 1
-Finally decided to accept defeat? I hope we can avoid such
-useless fighting the next time we meet.
+Finally decided to accept defeat?
+Hopefully we can do things a bit more peaceful the next time we meet.
 \e
-
 
 WinMes09:
 chara_type 103
-My robe feels awfully light for some reason. I wonder if
-I used the black keys too much. How much did I have
-left in the budget this month again?
+My habit feels awfully light for some reason...
+I wonder if I used too many Black Keys. 
+How much did I have left in the budget this month again?
 \e
-
 
 WinMes10:
 chara_type 100
-Demons are merely a test sent by Heaven.
-Now begone, quitter. You have
-already fallen from the scales of justice.
+Evil possessing man is but a tribulation from Heaven.
+Now begone, defector. 
+You have already fallen from such scales of judgment.
 \e
-
 
 // 対志貴
 WinMes11:
@@ -93,7 +83,6 @@ wandering the streets this late. How about you come
 back to my place to reflect on your actions, Shiki?
 \e
 
-
 // 対アルクェイド
 WinMes12:
 chara_type 102
@@ -101,7 +90,6 @@ Finished already? It looks like you've put on a few pounds,
 too. You haven't been letting a certain someone spoil you
 too much lately, have you?
 \e
-
 
 // 対秋葉
 WinMes13:
@@ -111,13 +99,12 @@ someone without any battle training could survive that long
 against me. Your skill could prove deadly if left unchecked.
 \e
 
-
 // 対秋葉、翡翠、琥珀、ヒスコハ　※特に琥珀用
 WinMes14:
 chara_type 1
 You still have much to learn. Greatness is not
 something that can be rushed. For now,
-how about you take a couple days to
+how about you take a day or two to
 reflect on what happened here?
 \e
 
@@ -125,7 +112,7 @@ reflect on what happened here?
 WinMes15:
 chara_type 100
 I will not allow you to reincarnate again.
-Death has finally caught up to you, Serpent!
+The hand of death has finally snaked itself around your throat
 \e
 
 // 対死徒ノエル
@@ -141,10 +128,10 @@ WinMes17:
 chara_type 102
 chara_type_sub 101
 chara_switchframe 180
-Your youthful delusions of grandeur must be nipped in the bud!
-Nothing personal, of course.
-I'm a member of the Holy Church, after all.
-Defeating magicians is part of the job.
+Your youthful delusions of grandeur must be eradicated!
+You think that sounded awfully personal?
+Of course not~ I'm just a member of the Holy Church, so...
+Defeating members of the Mage's Association is part of the job.
 \e
 
 // 99まで追加可能
@@ -156,13 +143,12 @@ Defeating magicians is part of the job.
 WinMes3WinStreak00:
 chara_type 101
 Three consecutive wins?
-The Lord would be pleased.
+The Lord is surely pleased.
 \e
-
 
 WinMes10WinStreak00:
 chara_type 0
 Ten wins in a row! How splendid!
-We should celebrate!
+Let's have a party in celebration then!
 I'll order my usual...
 \e

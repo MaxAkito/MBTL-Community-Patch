@@ -45,8 +45,8 @@ Might be hard to believe, but I was a late bloomer.
 WinMes07:
 chara_type 0
 Though my weapons are mostly improvised, my spear is different. 
-The Permafrost of Zaria Offenbaum... There are many things which 
-cannot break, but this one especially will never shatter.
+The Permafrost of Zaria Offenbaum... I'm sure it will not shatter
+on me, even if there are many things it cannot break.
 \e
 
 // ‘ÎƒƒA

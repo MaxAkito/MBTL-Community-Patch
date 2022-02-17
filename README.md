@@ -41,7 +41,7 @@ Credits to Petrikow, Comun and fumei
 | Maids     (007) | Initial editing done (Petri) |
 | Noel      (008) | Initial editing done (Petri) |
 | Vlov      (009) | Initial editing done (Petri) |
-| Warc      (010) | Not started 				 |
+| Warc      (010) | Initial editing done (Petri) |
 | Ciel      (011) | Not started 				 |
 | Saber     (012) | Not started 				 |
 | Miyako    (013) | Not started 				 | 

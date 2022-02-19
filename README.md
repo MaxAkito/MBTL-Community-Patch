@@ -43,7 +43,7 @@ Credits to Petrikow, Comun and fumei
 | Vlov      (009) | Initial editing done (Petri) |
 | Warc      (010) | Initial editing done (Petri) |
 | Ciel      (011) | Initial editing done (Petri) |
-| Saber     (012) | Not started 				 |
+| Saber     (012) | Initial editing done (Petri) |
 | Miyako    (013) | Not started 				 | 
 | DA Noel   (014) | Not started 				 |
 | Aoko      (015) | Not started 				 |

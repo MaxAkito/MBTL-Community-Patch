@@ -3,79 +3,70 @@ WinMesScript
 
 WinMes00:
 chara_type 1
-I do not require a guide. I am sufficiently familiar with
-this country's towns. Though the one I know is much smaller.
+I do not require a guide. I am sufficiently familiar with this country's 
+cities. This city is far more urban than the one I know though.
 \e
-
 
 WinMes01:
 chara_type 0
-A Dead Apostle? That is not a term I am very familiar with.
+Dead Apostle... Not a word you'd often hear in the land I am from.
 If they are weak to sunlight, perhaps I should have
 borrowed Sir Gawain's blade.
 \e
 
-
 WinMes02:
 chara_type 1
-This must be some sort of divine providence.
-I shall lend you my strength if you wish.
+This must be fate of some kind.
+I could lend you my strength should it prove necessary.
 \e
-
 
 WinMes03:
 chara_type 0
-There do not seem to be any other servants here.
-I only hope I was not left behind...
+There do not seem to be any other Servants here.
+Hopefully I'm not too out of place..
 \e
-
 
 WinMes04:
 chara_type 1
-This town does not seem to slumber. I have heard tales of
+This city does not seem to slumber. I have heard tales of
 late-night restaurants that serve delicious meals. Would you
 be so kind as to point me in the right direction? Perhaps
 even recommend one such establishment?
 \e
 
-
 // 対一般人
 // 翡翠・琥珀・秋葉・志貴
 WinMes05:
 chara_type 1
-It would seem I was able to end this without injuring you.
-Do try to be more careful next time.
+Phew... It would seem I was able to end this without injuring you.
+I've got to be careful to not stand out as much next time.
 \e
-
 
 // 対能力者
 // 秋葉・ロア・ヴローヴ
 WinMes06:
 chara_type 2
-You have unusual abilities. That was an enlightening
-experience, to be sure.
+You might have been an enemy, but I must say you possess some astonishing
+powers. You might come out on top next time.
 \e
-
 
 // 対吸血鬼
 // ロア・ヴローヴ・暴走アルク
 WinMes07:
 chara_type 0
-There is no escape, demon. Those who would threaten
-humanity shall be sent back to the shadows from
-whence they came.
+Return to dust, monster.
+Whatever form it may take,
+evil which would threaten humanity will be struck down.
 \e
-
 
 // 対翡翠＆琥珀（ストーリー専用）
 WinMesArcadeWin07:
 chara_type 0
 You two have such excellent teamwork, I mistook you for
-a pair of highly skilled assassins. I did not expect to learn
+a pair of highly skilled Assassins. I did not expect to learn
 you are simply mischievous maids. There's certainly
 something strange about the noble class in this town.
 \e
-
 
 
 // 99まで追加可能
@@ -85,14 +76,14 @@ something strange about the noble class in this town.
 
 WinMes3WinStreak00:
 chara_type 1
-Wonderfully done. Stay focused and
+Your skills are splendid. Stay focused and
 let's keep up the good work.
 \e
 
 
 WinMes10WinStreak00:
 chara_type 2
-Your skills are impressive. I am honored to have
+Most impressive. I am honored to have
 met a player such as yourself.
 \e
 

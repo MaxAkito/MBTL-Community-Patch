@@ -4,14 +4,14 @@ WinMesScript
 WinMes00:
 chara_type 100
 That's that, then.
-Maybe we'll meet again, if fate decrees it.
+Let us meet again, should fate so decree.
 \e
 
 WinMes01:
 chara_type 100
-Hey, you've recovered from your injuries, right?
-Using up that kind of stamina won't keep you down long.
-Rest up for a day and you'll be good as new.
+Your injuries are fine now, right?
+I took the liberty of using your stamina to for it so
+if you just rest for a day or so you'll be as good as new. 
 \e
 
 WinMes02:
@@ -34,18 +34,18 @@ can dull your mind.
 WinMes04:
 chara_type 105
 By the way, if you see an artsy girl with glasses
-who's always smoking, punch her for me.
-That's what she gets for embezzling money under my name.
+who's always smoking, punch her for me. That's what she gets
+for using my name to take out money from the Association.
 \e
 
 WinMes05:
 chara_type 6
 chara_type_sub 3
 chara_switchframe 310
-That was more like an all-out battle than a friendly bout.
-Breaking out the firearms was a bit much, don't you think?
-As a cultured and dignified lady, I naturally prefer
-hand-to-hand combat. Ohohoho!
+That was more like being on a battlefield than having a fight?
+That even for a shoot-out that was going overboard?
+But of course! As a sophisticated and cultured lady, a fist-fight would
+just be all too undignified a sight. Ohohoho!
 \e
 
 WinMes06:
@@ -59,10 +59,10 @@ WinMes07:
 chara_type 104
 chara_type_sub 106
 chara_switchframe 300
-I won't take your life, or your wallet.
-How about you take me to dinner instead?
-I'm in the mood for barbeque...or maybe a mixed grill.
-Then again, you can't beat a good old-fashioned steak!
+I won't take your wallet- I mean, your life.
+So, how about you take me out for dinner in exchange?
+A yakiniku place would be nice... or maybe something mongolian?
+Oh, a steak-house would be great too!
 \e
 
 WinMes08:
@@ -96,8 +96,8 @@ chara_type 2
 chara_type_sub 5
 chara_switchframe 160
 That's all for today's lesson!
-I realize I'm not one to talk, but you really need to work on
-reining in your power a little more.
+I realize I'm not one to talk, but the way you're using
+your power is all wrong.
 \e
 
 //ëŒÉçÉA
@@ -105,8 +105,8 @@ WinMes12:
 chara_type 104
 chara_type_sub 103
 chara_switchframe 535
-Lightning and vampiric strength? What a combination.
-Despite how you look, you're really a very orthodox apostle.
+Lightning born from numerology together with vampiric strength.
+He was really a very orthodox apostle despite appearances.
 Feels like you still have more up your sleeve, though.
 Care to show me?
 \e
@@ -137,7 +137,7 @@ are still unpolished... I can relate to that.
 WinMes3WinStreak00:
 chara_type 7
 You're on fire now!
-And this is only the beginning!
+Let's keep it going!
 \e
 
 WinMes10WinStreak00:

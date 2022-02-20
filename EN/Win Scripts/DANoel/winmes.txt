@@ -109,8 +109,8 @@ WinMesArcadeWin04:
 chara_type 101
 Hmm... So this is what vampire blood is made out of, huh? 
 It's called "Ether," right? Being able to materalize it at
-will is great and all, but isn't it kind of inconvenient being
-bound to the shape of the soul?
+will is great and all, but isn't it kind of inconvenient 
+that it's restricted to the shape of the soul?
 \e
 
 // 対ロア（ストーリー専用）

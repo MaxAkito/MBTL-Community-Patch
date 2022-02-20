@@ -45,7 +45,7 @@ Credits to Petrikow, Comun and fumei
 | Ciel      (011) | Initial editing done (Petri) |
 | Saber     (012) | Initial editing done (Petri) |
 | Miyako    (013) | Not started 				 | 
-| DA Noel   (014) | Not started 				 |
+| DA Noel   (014) | Initial editing done (Petri) |
 | Aoko      (015) | Not started 				 |
 
 ### Strings

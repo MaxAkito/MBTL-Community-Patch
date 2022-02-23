@@ -21,7 +21,7 @@ this point was all for nothing, huh?
 Ahaha, you struggled so desperately too! You poor little thing. 
 \e
 
-//‘ÎlŠÔ
+//å¯¾äººé–“
 WinMes02:
 chara_type 1
 Did you really think a mere human would
@@ -29,7 +29,7 @@ stand a chance against me? After I'd turned into a vampire?
 In your dreams. 
 \e
 
-//‘Î€“k
+//å¯¾æ­»å¾’
 WinMes03:
 chara_type 6
 Wow, and I haven't even been an vampire all that long.
@@ -47,9 +47,9 @@ if I want to get any real enjoyment out of it.
 
 WinMes05:
 chara_type 8
-How's it feel? My Principle is the Bell of Nostalgia.
-A bell of christmas that conjures memories of happier times
-and is as merciless as the feeling of growing up.
+How's it feel? My Principle is the Homesick Bells.
+Christmas bells that conjure memories of happier times.
+As merciless as the feeling of growing up.
 \e
 
 WinMes06:
@@ -68,7 +68,7 @@ You know, this fight taught me an important lesson.
 I'd better write it down so I don't forget...
 \e
 
-//‘ÎƒVƒGƒ‹
+//å¯¾ã‚·ã‚¨ãƒ«
 WinMes08:
 chara_type 2
 Huh? That's odd... I mean, really. 
@@ -77,7 +77,7 @@ I hated, and its what would bring you atonement. So hurry up
 already. Hurry up! Aren't you supposed to let me kill you some more?
 \e
 
-//‘Îu‹M
+//å¯¾å¿—è²´
 WinMes09:
 chara_type 8
 Well, Shiki? How do you like these Mystic Eyes of Roses?
@@ -85,7 +85,7 @@ With these, I can make you experience
 anything I can think of.\sf000
 \e
 
-//‘ÎƒƒA
+//å¯¾ãƒ­ã‚¢
 WinMes10:
 chara_type 102
 Ugh... Well, he's dead, at least...
@@ -95,7 +95,7 @@ What am I even doing?!
 \e
 
 
-// ‘Îu‹MiƒXƒg[ƒŠ[ê—pj
+// å¯¾å¿—è²´ï¼ˆã‚¹ãƒˆãƒ¼ãƒªãƒ¼å°‚ç”¨ï¼‰
 WinMesArcadeWin03:
 chara_type 100
 That's right, this whole thing was just a dream...
@@ -104,7 +104,7 @@ You should be grateful, Shiki.
 This is my way of taking pity on you.
 \e
 
-// ‘ÎàæàßiƒXƒg[ƒŠ[ê—pj
+// å¯¾ç¥ç€ï¼ˆã‚¹ãƒˆãƒ¼ãƒªãƒ¼å°‚ç”¨ï¼‰
 WinMesArcadeWin04:
 chara_type 101
 Hmm... So this is what vampire blood is made out of, huh? 
@@ -113,7 +113,7 @@ will is great and all, but isn't it kind of inconvenient
 that it's restricted to the shape of the soul?
 \e
 
-// ‘ÎƒƒAiƒXƒg[ƒŠ[ê—pj
+// å¯¾ãƒ­ã‚¢ï¼ˆã‚¹ãƒˆãƒ¼ãƒªãƒ¼å°‚ç”¨ï¼‰
 WinMesArcadeWin05:
 chara_type 3
 What's wrong? You sure died easily.
@@ -121,14 +121,14 @@ C'mon, why don't you reincarnate or something?
 See if I care!
 \e
 
-// 99‚Ü‚Å’Ç‰Á‰Â”\
+// 99ã¾ã§è¿½åŠ å¯èƒ½
 
 
-// ‚R˜AŸE‚P‚O˜AŸê—pƒZƒŠƒt
+// ï¼“é€£å‹ãƒ»ï¼‘ï¼é€£å‹å°‚ç”¨ã‚»ãƒªãƒ•
 
 WinMes3WinStreak00:
 chara_type 8
-Heehee. Three wins for me!™
+Heehee. Three wins for me!â˜†
 Victory is sweet!
 \e
 

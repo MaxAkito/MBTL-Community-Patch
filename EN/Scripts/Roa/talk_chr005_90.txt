@@ -26,20 +26,20 @@ Perception was enough that even I could defeat her...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0000", 100>
 Archetype_Earth
-Thee put thy life on the line for this performance, little jester. 
+Thou putest thy life on the line for this performance, little jester. 
 To heed, I shalt entertain thy wishes.
 
 \\@SPEAKERCG_IN@<0,5,5,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0051", 100>
 Roa
 As suspected, with your true form unveiled, I no longer stand a chance.
-Even with all my Magic Circuits put to defense, just how many seconds will I last?
+Even with all my Magic Circuits put to defense, I won't last many seconds.
 
 \\@GO_SUB@<"RoaOUT_Face0_L">
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0001", 100>
 Archetype_Earth
-Another jest, I see. I shalt permit thee one strike.
+Once more, thou jest. I shalt permit thee one strike.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0002", 100>
@@ -50,7 +50,7 @@ shouldst thee clamour for thy final life.
 \\@SPEAKERCG_IN@<0,5,6,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0052", 100>
 Roa
-This... This is what I've been waiting for!
+This...this is what I've been waiting for!
 Eight hundred years ago... I really did glimpse eternity.
 \l
 

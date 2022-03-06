@@ -20,8 +20,8 @@ I see they were right about you causing nothing but destruction!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0021", 100>
 Mario@Mario_Hatena
-You're like one of those giant monsters the Japanese seem
-to love so much. What's next, an atomic breath attack?!
+Are you fucking Godzilla? Japan's tragic monster who
+can only find happiness in shooting laser beams?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0022", 100>
@@ -32,7 +32,7 @@ Seems even I, the Human Manipulator can make a lapse in judgment.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0023", 100>
 Mario@Mario_Hatena
-I feel like an idiot for even hiring the likes of you in the first place.
+I feel like an idiot for even hiring you in the first place.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0024", 100>
@@ -43,14 +43,14 @@ Get out of my sight before I throw you in the slammer!
 \\@CHARA_IN@< 0, 15, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0040", 100>
 Aoko
-Hey-- C'mon now, be reasonable!
-Say whatever you want, I still saved the town, didn't I?
+Hey-- C'mon now, don't be such a child!
+Say whatever you want, I still saved the town.
 \l
 
 \\@CHARA_IN@< 0, 15, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0041", 100>
 Aoko
-I may have strayed from the brief a little bit,
+I may have failed the side missions,
 but I still got the job done!
 \l
 
@@ -75,7 +75,7 @@ you destroyed those train cars!
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0043", 100>
 Aoko
 Miracle nothing. I made sure no one would be in danger before
-I got started. I'd never kill innocent bystanders.
+I got started. I'm on a promise to never kill innocent bystanders.
 \l
 
 \\@CHARA_IN@< 0, 15, 4, 0, 1>
@@ -155,7 +155,7 @@ she's still a die-hard IT-hater. Won't work.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0052", 100>
 Aoko
 El-Melloi II is probably busy, and my sister...
-No way... she'd turn this tropical island into a living hell.
+No way... we'd turn this tropical island into a living hell.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0053", 100>

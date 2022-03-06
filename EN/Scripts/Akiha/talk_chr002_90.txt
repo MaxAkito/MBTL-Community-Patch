@@ -50,20 +50,20 @@ I'm sure he has his reasons.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0034", 100>
 Akiha
-Still... perhaps I should keep him on a tighter
-leash from now on.
+Still... perhaps I should put him 
+on a leash from now on.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0035", 100>
 Akiha
-I'm worried he is going to wander right into danger
-without trying to. Not only that, but...
+His tendency to jump into danger is not doing
+my mental health any favors.  Not only that, but...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0036", 100>
 Akiha
-Lately I have this feeling that something terrible is going to
-happen. I just hope we don't have to deal with any more pests.
+Lately I have this vague feeling that something terrible is going
+to happen. I just hope we don't have to deal with any more pests.
 
 
 \\@BGM_STOP@<0>

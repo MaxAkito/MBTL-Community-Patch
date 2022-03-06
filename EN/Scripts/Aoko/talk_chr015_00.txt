@@ -21,19 +21,19 @@ That's how things stand in this town.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0001", 100>
 Mario@Mario_Hatena
-Stage II, permeating under ground...
-Stage III, relocating above ground...
+Stage II, spreading under ground...
+Stage III, moving above ground...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0002", 100>
 Mario@Mario_Hatena
-Somewhere in between these two.
-The Dead aren't all too active after all.
+Somewhere in between these two, but
+the Dead aren't all too active.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0003", 100>
 Mario@Mario_Hatena
-Are their sire vampire still asleep?
+Are their sire Dead Apostle still asleep?
 Or were they always this organized?
 \l
 
@@ -51,8 +51,8 @@ I need this done before it gets out to anyone else, capisce?
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0000", 100>
 Aoko
-Wow. At first I just thought you just had little protection,
-but to think a head parishioner like you would show up under-cover.
+Wow. To think a head parishioner would operate undercover.
+That explains why the city looked to unguarded.
 \l
 
 \\@CHARA_IN@<0, 15, 10, 0, 1>
@@ -83,7 +83,7 @@ and take care of some Dead Apostles for no real reason, yeah?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0009", 100>
 Mario@Mario_Hatena
-You know, like some kinda hero.
+You know, like some kinda superhero.
 Only problem being that it don't exactly pay well.
 
 \\@CHARA_IN@<0, 15, 4, 0, 1>
@@ -96,8 +96,8 @@ Lately I can't even rely on my own sister to pick up the tab.
 \\@CHARA_IN@<0, 15, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0003", 100>
 Aoko
-I know it's all part of the job description, in a way,
-but I'd like to be able take a vacation now and then...
+I know money doesn't buy you happiness, but
+I'd like to be able take a vacation now and then...
 \l
 
 \\@CHARA_IN@<0, 15, 0, 0, 1>
@@ -143,8 +143,8 @@ It wasn't like this back then, though.
 \\@CHARA_IN@<0, 15, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0008", 100>
 Aoko
-But well... 
 This is fate in some ways, I suppose.
+It's actually treating me nice this time.
 \l
 
 \\@CHARA_IN@<0, 15, 7, 0, 1>
@@ -152,7 +152,7 @@ This is fate in some ways, I suppose.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0009", 100>
 Aoko
 Yeah, I'm feeling really fired up now!
-I'm gonna go all out!
+I'm gonna go double all out!
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0012", 100>

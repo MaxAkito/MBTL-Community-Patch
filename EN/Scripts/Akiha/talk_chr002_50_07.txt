@@ -13,21 +13,21 @@
 \\@CHARA_IN@<0, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0020", 100>
 Akiha
-I take it you are the one responsible for this cold spell?
+I take it you are the one responsible for this cold wave?
 Although, by the looks of it you seem to have plenty warmth yourself.
 \l
 
 \\@CHARA_IN@<0, 2, 201, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0021", 100>
 Akiha
-I would ask that you leave my garden immediately.
+I would ask that you leave my courtyard immediately.
 If you do not, well...
 
 \\@CHARA_IN@<1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0010", 100>
 Volv
-Oh? You would describe sight as 'your garden'? I wouldn't have
-imagined. Either you're quite the big deal, or perhaps...
+Oh? You would describe sight as 'your garden' despite its state?
+How awe-inspiring. Either you're quite the big deal, or perhaps...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0011", 100>
@@ -80,7 +80,7 @@ should direct it toward a single woman instead of many.
 \\@CHARA_IN@<0, 2, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0025", 100>
 Akiha
-If I were to meet such a man, I would have no choice but
+If that's beyond his ability, I would have no choice but
 to re-educate him until he was begging for forgiveness.
 \l
 
@@ -88,7 +88,7 @@ to re-educate him until he was begging for forgiveness.
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0026", 100>
 Akiha
-Of course, I do not mean to imply you are such a man.
+Oh, excuse me, I was talking about someone else.
 But nevertheless, I must insist you leave at once.
 
 

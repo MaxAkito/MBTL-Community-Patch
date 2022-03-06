@@ -17,7 +17,7 @@
 \\@CHARA_FACE@<0,5,4,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0030", 100>
 Aoko
-Who'd have thought there'd be an altar of this large scale down here?
+Who'd have thought there'd be an altar of this big down here?
 You couldn't have built this in just a year or two.
 \l
 
@@ -32,7 +32,7 @@ guy awakened around seven years ago...
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0030", 100>
 Roa
 Well, well. 
-To think the new Magician would appear...
+To think the newest Magician would appear...
 \l
 
 \\@CHARA_IN@<1, 5, 1, 0, 1>
@@ -53,7 +53,7 @@ a visitor from the future? If that's the case, then...
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0033", 100>
 Roa
 Heh... Hahahahaha!
-Looks like His-- no, my theory was correct after all!
+Looks like his-- no, my theory was correct after all!
 \l
 
 
@@ -68,7 +68,7 @@ unveiled did in fact in someway succeed!
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0035", 100>
 Roa
 The Celestial Egg! The atomic structure of creation!
-The flow converges, and void is enshrined in heaven!
+The flow converges, and "  " is enshrined in heaven!
 \l
 
 \\@CHARA_IN@<1, 5, 1, 0, 1>
@@ -85,7 +85,7 @@ You will not have the honor of being present at the its start...
 because your miserable life ends here!
 
 \\@CHARA_IN@<0, 15, 11, 0, 1>
-// åáî‘ /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0032", 100>
+// ≈í‚Ä°‚Äù√î /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0032", 100>
 Aoko
 ...
 
@@ -101,8 +101,8 @@ What's with the silence?
 \\@CHARA_IN@<1, 5, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0039", 100>
 Roa
-I'm gonna say perhaps again, but...
-Could this perhaps be that I've screwed up?
+One other possibility...
+Did I screwed up?
 \l
 
 

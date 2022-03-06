@@ -20,13 +20,13 @@ Although, by the looks of it you seem to have plenty warmth yourself.
 \\@CHARA_IN@<0, 2, 201, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0021", 100>
 Akiha
-I would ask that you leave my courtyard immediately.
+I would ask that you leave my land immediately.
 If you do not, well...
 
 \\@CHARA_IN@<1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0010", 100>
 Volv
-Oh? You would describe sight as 'your garden' despite its state?
+Oh? You would describe sight as 'your land' despite its state?
 How awe-inspiring. Either you're quite the big deal, or perhaps...
 \l
 

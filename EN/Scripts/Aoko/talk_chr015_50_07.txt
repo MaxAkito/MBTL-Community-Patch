@@ -17,7 +17,7 @@
 \\@CHARA_FACE@<0,5,4,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0030", 100>
 Aoko
-Who'd have thought there'd be an altar of this big down here?
+Who'd have thought there'd be an altar this big down here?
 You couldn't have built this in just a year or two.
 \l
 
@@ -32,7 +32,7 @@ guy awakened around seven years ago...
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0030", 100>
 Roa
 Well, well. 
-To think the newest Magician would appear...
+To think the newest Magician would make her appearance...
 \l
 
 \\@CHARA_IN@<1, 5, 1, 0, 1>
@@ -45,7 +45,7 @@ But this is a little sooner than I'd counted on.
 \\@CHARA_FACE@<1,5,2,210>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0032", 100>
 Roa
-My Pantheon has yet to activated. Could this perhaps be
+My Pantheon has yet to be activated. Could this possibly be
 a visitor from the future? If that's the case, then...
 \l
 
@@ -102,7 +102,7 @@ What's with the silence?
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0039", 100>
 Roa
 One other possibility...
-Did I screwed up?
+Did I screw up?
 \l
 
 
@@ -124,7 +124,7 @@ Then I'll get a ton of cash and go on an awesome vacation.
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0040", 100>
 Roa
 You're just some random drifter off the street!
-Ugh, this is why I hate magicians!
+Ugh, this is why I hate Magicians!
 
 
 \\@BGM_STOP@<0>

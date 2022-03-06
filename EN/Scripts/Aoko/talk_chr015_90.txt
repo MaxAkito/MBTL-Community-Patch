@@ -15,12 +15,12 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0020", 100>
 Mario@Mario_Hatena
 You shitty-ass gunner!
-I see they were right about you causing nothing but destruction!
+I see they were right about you causing nothin' but destruction!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0021", 100>
 Mario@Mario_Hatena
-Are you fucking Godzilla? Japan's tragic monster who
+Are you fuckin' Godzilla? Japan's tragic monster who
 can only find happiness in shooting laser beams?
 \l
 
@@ -62,13 +62,13 @@ So yeah, hand over that money, 'kay?
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0025", 100>
 Mario@Mario_Hatena
-I'm tellin' ya, it all went towards paying off all
+I'm tellin' you, it all went towards paying off all
 the damages you caused, dumbass.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0026", 100>
 Mario@Mario_Hatena
-It's a miracle no one was hurt when
+It's a goddamn miracle no one was hurt when
 you destroyed those train cars!
 
 \\@CHARA_IN@< 0, 15, 10, 0, 1>
@@ -94,7 +94,7 @@ I flew all the way from Australia to be here!
 \\@CHARA_FACE@<0,4,2,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0046", 100>
 Aoko
-To think a head parishioner would get so mad...
+To think a presbyter would get so mad...
 Wait. Is it because of how your body works?
 
 \\@CHARA_FOCUS_COLOR@<0,1>
@@ -136,13 +136,13 @@ I love it here!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0049", 100>
 Aoko
-That head parishioner sure knows how to treat a lady.
+That presbyter sure knows how to treat a lady.
 He gave me enough to rent my own private beach!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0050", 100>
 Aoko
-I never dreamed things would work out this great.
+Things never turn out how you expect them!
 All my good deeds are finally paying off!
 \l
 
@@ -167,13 +167,13 @@ high-class lifestyle by myself, then!
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0054", 100>
 Aoko
 There's not a sign of the apocalypse in sight, and no word
-from Old Man Zelretch, either.
+from good old Zelretch, either.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0055", 100>
 Aoko
 For now, the world is safe.
-I won't have to get involved for a looong time yet!
+I won't have to get involved for many a year!
 
 \\@SYSTEM@<21>
 \aw

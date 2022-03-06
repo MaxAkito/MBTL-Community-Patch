@@ -74,7 +74,7 @@ drawbacks to it is losing my sense of taste.
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0085", 100>
 Dead_Noel
 Food all tastes the same to me now. Only blood
-has the privelege of being either good or bad.
+has the privilege of being either good or bad.
 \l
 
 \\@CHARA_IN@<1, 14, 10, 0, 1>

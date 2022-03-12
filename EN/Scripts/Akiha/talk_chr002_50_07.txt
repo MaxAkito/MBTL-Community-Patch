@@ -26,7 +26,7 @@ If you do not, well...
 \\@CHARA_IN@<1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0010", 100>
 Volv
-Oh? You would describe sight as 'your land' despite its state?
+Oh? You would describe this sight as 'your land' despite its state?
 How awe-inspiring. Either you're quite the big deal, or perhaps...
 \l
 

@@ -26,8 +26,8 @@ Perception was enough that even I could defeat her...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0000", 100>
 Archetype_Earth
-Thou putest thy life on the line for this performance, little jester. 
-To heed, I shalt entertain thy wishes.
+You staked your life on that performance, little jester. 
+Such resolve deserves a reward.
 
 \\@SPEAKERCG_IN@<0,5,5,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0051", 100>
@@ -39,30 +39,30 @@ Even with all my Magic Circuits put to defense, I won't last many seconds.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0001", 100>
 Archetype_Earth
-Once more, thou jest. I shalt permit thee one strike.
+I shall allow you one strike, as a mere jest.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0002", 100>
 Archetype_Earth
-Just as if thee were dedicating thy blood—thy soul,
-shouldst thee clamour for thy final life.
+You should clamour for your final life
+as if you were dedicating your blood—your very soul.
 
 \\@SPEAKERCG_IN@<0,5,6,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0052", 100>
 Roa
 This...this is what I've been waiting for!
-Eight hundred years ago... I really did glimpse eternity.
+Eight hundred years ago, I really did glimpse eternity.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0053", 100>
 Roa
-You have not lost an ounce of your lustre since, Moon Princess!
+You have not lost an ounce of your luster since, Princess of the Moon!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0054", 100>
 Roa
 My eighteenth death—my final reincarnation... Behold now
-as they burn out for good!
+as it burns out for good!
 
 \\@GO_SUB@<"RoaOUT_Face0_L">
 

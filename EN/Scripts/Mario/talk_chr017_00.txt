@@ -1,0 +1,233 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg05", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 17, 3, 1, 0>
+\\@CHARA_IN@<1, 8, 9, 2, 0>// ï\èÓ0Ç≈ì¸Ç¡ÇƒÇ≠ÇÈÇ∆à·òaä¥ê¶Ç¢ÇÃÇ≈ç≈èâÇ©ÇÁê^ñ ñ⁄Ç»ï\èÓÇ≈
+\aw
+
+\\@BGM_PLAY@<0, 71, 100>
+
+\\@CHARA_IN@<1, 8, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0010", 100>
+Noel
+The target, Shiki Tohno... He's guilty, no doubt about it.
+\l
+
+\\@CHARA_IN@<1, 8, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0011", 100>
+Noel
+But Executor Ciel hasn't set
+out to apprehend him yet.
+\l
+
+\\@CHARA_IN@<1, 8, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0012", 100>
+Noel
+Seems like she's just tailing him while
+she's out on patrol.
+\l
+
+\\@CHARA_IN@<1, 8, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0013", 100>
+Noel
+And not only is the True Ancestor active again,
+she's also teamed up with Shiki Tohno for some reason.
+\l
+
+\\@CHARA_IN@<1, 8, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0014", 100>
+Noel
+The zombies in town have mostly been cleared
+by Executor Ciel and the True Ancestor,
+\l
+
+\\@CHARA_IN@<1, 8, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0015", 100>
+Noel
+which would mean Roa's supply of blood is drying up fast...
+\l
+
+\\@CHARA_IN@<1, 8, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0016", 100>
+Noel
+That's how things currently stand in Souya.
+What would you like to do next, Acting Prelate?
+
+\\@CHARA_IN@<0, 17, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0050", 100>
+Mario
+Sheesh, you're giving me a headache with all this info.
+Why are there so many nuisances here all at once?
+\l
+
+
+\\@CHARA_IN@<0, 17, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0051", 100>
+Mario
+The True Ancestor followed by a Dead Apostle that came
+out of nowhere... Then an elite from the Burial Agency
+and this dead weight sow of a Sister...?
+
+\\@CHARA_IN@<1, 8, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0017", 100>
+Noel
+...
+
+
+
+\\@CHARA_IN@<0, 17, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0052", 100>
+Mario
+This goes beyond mere bad luck.
+I'm starting to understand how Roa must feel.
+\l
+
+\\@CHARA_IN@<0, 17, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0053", 100>
+Mario
+Looks like there's no way around it. We can't
+afford to worry about keeping up appearances.
+\l
+
+\\@CHARA_IN@<0, 17, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0054", 100>
+Mario
+I'll deal with Ciel myself.
+You keep watch over Shiki Tohno.
+\l
+
+\\@CHARA_IN@<0, 17, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0055", 100>
+Mario
+I want to make this clear. You are not to kill him.
+\l
+
+\\@CHARA_IN@<0, 17, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0056", 100>
+Mario
+If it looks like Roa's about to take control,
+just apprehend him. By force if necessary.
+
+\\@CHARA_IN@<1, 8, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0018", 100>
+Noel
+You're telling me to let him live?
+Even though he's the host for the reincarnation
+of the heretic Roa?
+
+
+\\@CHARA_IN@<0, 17, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0057", 100>
+Mario
+The situation is...delicate.
+Not only that, but he's undeniably a man of virtue.
+\l
+
+\\@CHARA_IN@<0, 17, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0058", 100>
+Mario
+I don't mean that as a compliment.
+I'm just saying he can still be of use to us.
+\l
+
+\\@CHARA_IN@<0, 17, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0059", 100>
+Mario
+Having him in our debt won't hurt.
+I should have a use for him in say...another three years.
+
+\\@CHARA_IN@<1, 8, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0019", 100>
+Noel
+Whatever you say...
+(What is with this little brat?)
+
+\\@CHARA_IN@<0, 17, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0060", 100>
+Mario
+The real problem is that princess
+who's mixed up with him. She's in unusually high spirits.
+\l
+
+\\@CHARA_IN@<0, 17, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0061", 100>
+Mario
+If she carelessly eliminates Roa, 
+we'll end up right back where we started.
+We have to stop her before that happens.
+
+\\@CHARA_IN@<1, 8, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0020", 100>
+Noel
+Huh? Oh, crap!
+\l
+
+
+\\@CHARA_IN@<1, 8, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0021", 100>
+Noel
+Executor Noel, reporting for duty!
+As per your orders, I'll protect Shiki with my life!
+
+\\@CHARA_IN@<0, 17, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0062", 100>
+Mario
+You idiot. You wouldn't stand a chance against a
+True Ancestor. Well, just keep at it for now.
+\l
+
+
+\\@CHARA_IN@<0, 17, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0063", 100>
+Mario
+You may be a coward, but you're a survivor. I don't doubt
+you'll be able to escape anything that's too much for you.
+
+\\@CHARA_IN@<1, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0022", 100>
+Noel
+Thank you for the advice!
+(Ugh, I wish he'd just drop dead!)
+\l
+
+
+\\@CHARA_IN@<1, 8, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0023", 100>
+Noel
+But what about the True Ancestor?
+What are we going to do about her?
+
+\\@CHARA_IN@<0, 17, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0064", 100>
+Mario
+I thought about hiring a Magician that's free,
+but I changed my mind. I'll deal with her myself.
+
+\\@CHARA_IN@<1, 8, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0024", 100>
+Noel
+What?! You're actually going to
+intervene directly, Acting Prelate?
+
+
+\\@CHARA_IN@<0, 17, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0065", 100>
+Mario
+That's right. A little exercise now and
+then is good for the body and mind.
+\l
+
+\\@CHARA_OUT@<0, 17, 0, 0, 1>
+\\@CHARA_IN@<3, 17, 209, 11, 0>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0066", 100>
+Mario
+First though, I need a quick warmup. Get ready, sow.
+You look like you could stand to lose weight anyway.
+
+\\@BGM_STOP@<0>
+\e

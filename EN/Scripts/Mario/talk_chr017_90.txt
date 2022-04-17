@@ -1,0 +1,190 @@
+\\@BG_IN@<"screen_bg09", 0, 2>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@< 0, 17, 3, 1, 0>
+\\@CHARA_IN@< 1, 15, 5, 2, 0>
+\\@CHARA_MUKI@<1,1>
+\aw
+
+\\@BGM_PLAY@<0, 76, 100>
+
+\\@CHARA_IN@< 0, 17, 3, 1, 10>
+\\@CHARA_IN@<1, 15, 5, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0080", 100>
+Aoko
+So...that's how it was.
+\l
+
+\\@CHARA_IN@<1, 15, 4, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0081", 100>
+Aoko
+I'm sorry, Mario. I thought for sure you'd been corrupted and
+gone over the to the Dead Apostles' side.
+
+\\@CHARA_IN@<0, 17, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0110", 100>
+Mario
+Give me some credit you walking disaster.
+How can a twelve year old brat be corrupt?
+\l
+
+\\@CHARA_IN@<0, 17, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0111", 100>
+Mario
+Someone's life is on the line here. I'm always straight and
+upright but I've got no time for roundabout methods.
+\l
+
+\\@CHARA_IN@<0, 17, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0112", 100>
+Mario
+Well, all my plans went up to ashes because of you!
+You're a damn walking disaster!
+
+\\@CHARA_IN@<1, 15, 10, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0082", 100>
+Aoko
+Yeah, about that.
+I think I might know a way to stop things
+from getting any worse.
+\l
+
+\\@CHARA_IN@<0, 17, 11, 0, 1>
+\\@CHARA_IN@<1, 15, 1, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0083", 100>
+Aoko
+I think it should be fine...?
+Why don't you try asking to my sister?
+\l
+
+\\@CHARA_IN@<1, 15, 6, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0084", 100>
+Aoko
+Trust me, there's nobody who's better
+at weaseling out of danger against all odds.
+
+\\@BGM_FADE@<0, -1, 0, -2, 0>
+\\@FADE_OUT@<0, 255, 255, 255, 0>
+\w<180>
+
+\\@CHARA_OUT@<0, -1, -1, 0, 0>
+\\@CHARA_OUT@<1, -1, -1, 0, 0>
+\aw
+
+
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\\@BGM_FADE@<0, -1, 50, -2, 0>
+
+\\@SQ_CALL@<1>
+\aw
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0113", 100>
+Mario
+After confirming that Roa was indeed gone,
+Executor Ciel remained in Souya.
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0114", 100>
+Mario
+After that, a major incident occurred in town,
+but none were made privy to the details.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0115", 100>
+Mario
+Seems like they're trying to cover things up.
+It's probably better if we don't get involved.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0116", 100>
+Mario
+That said...
+\l
+
+\\@SQ_CALL@<2>
+\\@BGM_FADE@<0, -1, 100, 15, 0>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0030", 100>
+Noel
+I think we can chalk this one up as a win.
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0031", 100>
+Noel
+I mean, we beat back the True Ancestor, exterminated Roa,
+and drove off that Magician,
+too. Ciel even got herself a new apprentice!
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0117", 100>
+Mario
+I have a feeling this is only the beginning...
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0118", 100>
+Mario
+You're getting a fresh start.
+You'll be retraining under me for another year
+in the mean time.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0119", 100>
+Mario
+I'm gonna fix up that attitude of yours too.
+When that's done, I'll send you off
+to your next Church assignment.
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0032", 100>
+Noel
+For real? Awesome! But why don't you
+just let me serve directly under you instead?
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0033", 100>
+Noel
+I want to start living the good life!
+
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0120", 100>
+Mario
+I can't imagine what use I'd find for
+you, but maybe I'll figure something out.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0121", 100>
+Mario
+Now... Touko Aozaki, the master puppet maker.
+If I can enlist her help, this may not be over after all.
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0122", 100>
+Mario
+The road Roa paved is still intact.
+We just have to follow this thread and see where it leads.
+\l
+
+\\@SQ_CALL@<3>
+//SQの待機ではなく固定ウェイト
+\w<200>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0123", 100>
+Mario
+Deep down, I already knew this would be a huge pain.
+I have a feeling I'll need to return to this town again someday.
+
+\\@SYSTEM@<21>
+\aw
+
+
+\\@BGM_STOP@<0>
+\e

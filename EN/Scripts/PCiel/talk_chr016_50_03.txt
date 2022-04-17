@@ -1,0 +1,161 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg07", 0, 2, 0>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 16, 0, 1, 0>
+\\@CHARA_IN@<1, 17, 0, 2, 0>
+\\@CHARA_MUKI@<1,1>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@CHARA_IN@<1, 17, 3, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0030", 100>
+Mario
+That's some dangerous gear you've got there, Executor.
+Are you off to a distant war zone or something?
+\l
+
+
+\\@CHARA_IN@<1, 17, 0, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0031", 100>
+Mario
+Go ahead, if you want. I won't stop you.
+That's just the kind of group the Burial Agency is.
+\l
+
+\\@CHARA_IN@<1, 17, 1, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0032", 100>
+Mario
+Your likes are out-of-place in a peaceful
+modern city of the Far East to begin with.
+
+\\@CHARA_IN@<0, 16, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0030", 100>
+Powered_Ciel
+I beg to differ, Acting Prelate.
+May I ask what it is you're doing here?
+\l
+
+\\@CHARA_IN@<0, 16, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0031", 100>
+Powered_Ciel
+And why have you positioned so many Executors
+on and around the local buildings?
+
+\\@CHARA_IN@<1, 17, 3, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0033", 100>
+Mario
+Insurance. A hound that doesn't listen
+has to be put down, after all.
+\l
+
+\\@CHARA_IN@<1, 17, 3, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0034", 100>
+Mario
+So I'm telling you one last time.
+Leave Roa alone. Answer me.
+
+\\@CHARA_IN@<0, 16, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0032", 100>
+Powered_Ciel
+I contacted the Holy See.
+\l
+
+
+\\@CHARA_IN@<0, 16, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0033", 100>
+Powered_Ciel
+According to them, Mario Gallo Bestino
+is currently inspecting the databank in Iceland.
+\l
+
+\\@CHARA_IN@<0, 16, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0034", 100>
+Powered_Ciel
+I have no obligation to follow the orders of someone
+who should not even be here. In fact, I shall execute
+punishment on you for falsely using His name.
+
+\\@CHARA_IN@<1, 17, 9, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0035", 100>
+Mario
+You don't have to look so happy about it.
+Well, if this is how it's to be, I guess I have no choice.
+\l
+
+
+\\@CHARA_IN@<1, 17, 6, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0036", 100>
+Mario
+Good grief.
+All this, just to save Shiki Tohno?
+\l
+
+
+\\@CHARA_IN@<1, 17, 10, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0037", 100>
+Mario
+I'll admit he's an impressive one,
+settling things with Roa himself like that.
+\l
+
+\\@CHARA_IN@<1, 17, 10, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0038", 100>
+Mario
+But because he was Roa's host, something even more
+troublesome has its eyes set on him.
+\l
+
+\\@CHARA_IN@<1, 17, 3, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0039", 100>
+Mario
+His Mystic Eyes won't work on the princess as she is now
+any more. It's too late. You should give it up already.
+
+\\@CHARA_IN@<0, 16, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0035", 100>
+Powered_Ciel
+We can't say that for sure yet. And it doesn't change our
+duty to exterminate the True Ancestor.
+\l
+
+
+\\@CHARA_IN@<0, 16, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0036", 100>
+Powered_Ciel
+I'll defeat her and make her take responsibility
+for creating Roa. Do you have a problem with that?
+
+\\@CHARA_IN@<1, 17, 7, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0040", 100>
+Mario
+No room for negotiation, huh?
+Don't say I didn't warn you.
+
+
+\\@CHARA_IN@<1, 17, 3, 0, 1>
+\\@CHARA_MUKI@<1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0041", 100>
+Mario
+I know your attack patterns inside and out.
+Maybe you'll calm down a little once I remove your head.
+
+
+\\@BGM_STOP@<0>
+\e

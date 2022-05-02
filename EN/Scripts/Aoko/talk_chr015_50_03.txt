@@ -30,27 +30,27 @@ Is this even real? I mean, those roses
 \\@CHARA_IN@<0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0022", 100>
 Aoko
-Is it like Reality Marble? No... not quite.
+A Reality Marble? No... not quite.
 This place is halfway subsumed by some dream-world, isn't it?
 
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0080", 100>
 Dead_Noel
-I don't know who you are, but you've got some guts
+Oho? I don't know who you are, but you've got some guts
 just waltzing into my territory like this.
 \l
 
 \\@CHARA_IN@<1, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0081", 100>
 Dead_Noel
-Are you an freelance Mage or something?
-If you had any sense you'd be trembling in fear right now.
+Are you a freelance mage or something? If you had a
+normal sense of fear, you'd be shaking in terror right about now.
 \l
 
 \\@CHARA_IN@<1, 14, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0082", 100>
 Dead_Noel
-Or maybe I'm wrong. Maybe you're just so weak you can't
+Wait, that's not it. You're just so weak you can't
 even tell how hopelessly outmatched you are!
 \l
 
@@ -66,35 +66,35 @@ Playing with you could be a nice little warmup.
 \\@CHARA_IN@<1, 14, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0084", 100>
 Dead_Noel
-You know I love being a vampire, but one of the only
+Having a vampire body is awesome, but one of the
 drawbacks to it is losing my sense of taste.
 \l
 
 \\@CHARA_IN@<1, 14, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0085", 100>
 Dead_Noel
-Food all tastes the same to me now. Only blood
-has the privilege of being either good or bad.
+This is delicious! This is awful! Luxuries like that are
+something which only blood lets me satisfy.
 \l
 
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0086", 100>
 Dead_Noel
-So I wonder what a Mage's blood tastes like?
-I bet it's bitter or spicy like pain and suffering!
+So...I wonder what a mage's blood tastes like?
+Oh, I bet its bitter, but spicy!
 \l
 
 
 \\@CHARA_IN@<1, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0087", 100>
 Dead_Noel
-So don't worry, I'll be gentle.
+So don't worry, I'll slaughter you ever so gently.
 I love mint-chocolate, after all. 
 
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0023", 100>
 Aoko
-You might be disappointed. My blood might be a bit chilly
+Really now? My blood might be a bit chilly
 but I doubt it's much sweet at all.
 \l
 
@@ -107,8 +107,8 @@ Also, unlike you I can't promise I'll be so gentle.
 \\@CHARA_IN@<0, 15, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0025", 100>
 Aoko
-You see, I hate these roses.
-So... sorry, but could you just go away, alongside that church?
+You see, roses... I just can't stand them.
+So, sorry, but could you just disappear, alongside that church?
 
 
 \\@BGM_STOP@<0>

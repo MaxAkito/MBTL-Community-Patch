@@ -26,25 +26,25 @@ can only find happiness in shooting laser beams?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0022", 100>
 Mario@Mario_Hatena
-You reduced the entire Workshop to ashes along with Roa.
-Seems even I, the Human Manipulator can make a lapse in judgment.
+You reduced the entire fuckin' Workshop to ashes, along with Roa.
+My name as the Peoplemaster ain't gonna survive this shit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0023", 100>
 Mario@Mario_Hatena
-I feel like an idiot for even hiring you in the first place.
+I feel like an dumbass for even hiring you in the first place.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0024", 100>
 Mario@Mario_Hatena
 You're not getting a fuckin' cent.
-Get out of my sight before I throw you in the slammer!
+Outta ma' sight before I throw you in the slammer!
 
 \\@CHARA_IN@< 0, 15, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0040", 100>
 Aoko
 Hey-- C'mon now, don't be such a child!
-Say whatever you want, I still saved the town.
+I mean DID save the city, you know!?
 \l
 
 \\@CHARA_IN@< 0, 15, 9, 0, 1>
@@ -62,20 +62,20 @@ So yeah, hand over that money, 'kay?
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0025", 100>
 Mario@Mario_Hatena
-I'm tellin' you, it all went towards paying off all
+I'm tellin' you, it all went towards paying off 
 the damages you caused, dumbass.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0026", 100>
 Mario@Mario_Hatena
-It's a goddamn miracle no one was hurt when
+I'ssa goddamn miracle no one was hurt when
 you destroyed those train cars!
 
 \\@CHARA_IN@< 0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0043", 100>
 Aoko
 Miracle nothing. I made sure no one would be in danger before
-I got started. I'm on a promise to never kill innocent bystanders.
+I got started. I've made a promise to never kill ordinary people.
 \l
 
 \\@CHARA_IN@< 0, 15, 4, 0, 1>
@@ -94,8 +94,8 @@ I flew all the way from Australia to be here!
 \\@CHARA_FACE@<0,4,2,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0046", 100>
 Aoko
-To think a presbyter would get so mad...
-Wait. Is it because of how your body works?
+Mr. high and mighty Presbyter sure has one hell of a temper...
+Wait. Are you mad because of how your body works?
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0027", 100>
@@ -166,8 +166,8 @@ high-class lifestyle by myself, then!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0054", 100>
 Aoko
-There's not a sign of the apocalypse in sight, and no word
-from good old Zelretch, either.
+No world that needs saving from impending doom, 
+and not a glimpse of good old Zelretch, either.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0055", 100>

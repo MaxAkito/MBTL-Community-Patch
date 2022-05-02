@@ -1,0 +1,169 @@
+WinMesScript
+
+
+WinMes00:
+chara_type 3
+Elimination complete.
+Shifting armaments to ground state. Proceeding to next target.
+\e
+
+WinMes01:
+chara_type 3
+Usually, I like to rely on technique and experience.
+But now, I can just power through.
+You were no match for me!
+\e
+
+WinMes02:
+chara_type 0
+If that's all you've got, you never stood a chance.
+My body's been magically augmented.
+I wouldn't be able to wield these weapons otherwise.
+\e
+
+WinMes03:
+chara_type 1
+You should be honored.
+My mallet is made from the horn of a unicorn, a symbol
+of thousands of years of purity.
+It's too good for the likes of you.
+\e
+
+WinMes04:
+chara_type 1
+chara_type_sub 3
+chara_switchframe 450
+Blaze, Blade, Break.
+These three make up my core arms.
+How did do you like them?
+\e
+
+WinMes05:
+chara_type 203
+My Magic Circuits are on a different level to yours.
+It's like comparing the engines of a motorcycle to
+a rocket's. You don't stand a chance.
+\e
+
+// 対アルクェイド
+WinMes06:
+chara_type 3
+You underestimated your opponent, Arcueid.
+If you'd powered up any more, I might have been in trouble.
+But I was quicker on the draw. This is the end.
+\e
+
+// 対志貴
+WinMes07:
+chara_type 104
+chara_type_sub 102
+chara_switchframe 490
+Whatever your original intentions,
+you're a part of this now.
+I'd recommend laying low for a few nights.
+What do you say?
+\e
+
+// 対秋葉
+WinMes08:
+chara_type 103
+chara_type_sub 105
+chara_switchframe 600
+I ought to eliminate you here and now, but...
+I believe in your humanity. Or rather, your self-respect.
+Because... In that aspect, above all else,
+you're the strongest person I know, Akiha.
+\e
+
+//対暴走アルクェイド
+WinMes09:
+chara_type 1
+Now that was a battle of pure power versus power.
+You need to learn to control your true nature,
+and I need to become more worthy of the agency.
+Looks like we both have a ways to go until we can settle things.
+\e
+
+//対マーリオゥ
+WinMes10:
+chara_type 203
+Creatura's Piano Machine...
+You're the last person I expected to see
+wielding an ancient weapon like that.
+\e
+
+//対ノエル
+WinMes11:
+chara_type 1
+chara_type_sub 0
+chara_switchframe 600
+Looks like you still have some awareness of your duty.
+And your skills have improved somewhat, too.
+What happened to get you so motivated all of a sudden,
+Sister Noel?
+\e
+
+//対死徒ノエル
+WinMes12:
+chara_type 1
+Conviction without the power to back it up is meaningless.
+Dead Apostle Noel...
+May you suffer for your sins, and your lack of strength.
+\e
+
+// 対ロア
+WinMes13:
+chara_type 1
+I'm putting an end to you, Serpent of Akasha.
+Your tainted soul is no match for the Seventh Holy Scripture.
+All your heretical ideals have earned you is eternal darkness.
+\e
+
+// 対吸血鬼
+WinMes14:
+chara_type 203
+Inhuman creatures like you deserve no sympathy.
+Your death will be nothing more than another notch on my belt.
+\e
+
+// 対青子
+WinMes15:
+chara_type 201
+chara_type_sub 203
+chara_switchframe 130
+chara_type_sub1 204
+chara_switchframe1 760
+So that was the Fifth Magician...
+She and I are kind of alike...but also complete opposites.
+Between her speed and my regenerative power,
+I wonder who is more exceptional?
+\e
+
+
+// 対マーリオゥ（ストーリー専用）
+WinMesArcadeWin17:
+chara_type 203
+Sorry, but I'm in a hurry.
+The Executors can treat your wounds.
+Thank you for the advice, though.
+\e
+
+
+// 99まで追加可能
+
+
+// ３連勝・１０連勝専用セリフ
+
+WinMes3WinStreak00:
+chara_type 204
+Three victories for me. Well, it's only natural.
+This is nothing worth celebrating just yet.
+\e
+
+WinMes10WinStreak00:
+chara_type 0
+chara_type_sub 4
+chara_switchframe 330
+Ten consecutive wins... Heehee. I like that.
+I think I'm worthy of being called a champion, don't you?
+\e

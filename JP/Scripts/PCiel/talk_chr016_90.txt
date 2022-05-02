@@ -1,0 +1,148 @@
+\\@SYSTEM@<9999>
+\\@FADE_OUT@<0,0,0,0,1>
+\\@BG_IN@<"ed_bg00", 0, 2>
+\aw
+
+\\@FADE_OUT@<1,255,255,255,0>
+\aw
+
+\\@FADE_IN@<0,0,0,0,0>
+\aw
+
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 77, 100>
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0060", 100>
+Powered_Ciel
+っ、ぁ―――！
+危うく喪心状態になるところでした……！
+\l
+
+\\@SQ_CALL@<2>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0061", 100>
+Powered_Ciel
+アレが真祖の、器を失った姿―――
+エーテルで構成された、《霊子筐体＜ライトフレーム＞！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0062", 100>
+Powered_Ciel
+（しかも、現象から生態に変化している……！
+　こんなものが確定したら、世界が軋んで崩壊する……！）
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0020", 100>
+Red_Arcueid
+ふうん。私の視線を正面から受けて、
+ちゃんと自我を保てるんだ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0021", 100>
+Red_Arcueid
+さすが、ロアの惚れ込んだ肉体ね。
+性能だけなら人類最高域なんじゃない？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0022", 100>
+Red_Arcueid
+ま、それも低次元の競い合い。
+私から見れば小石と小石の背比べ、だけど。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0023", 100>
+Red_Arcueid
+さあ、続けましょうお人形さん？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0024", 100>
+Red_Arcueid
+私も本気を出したんだから、
+貴女も奥の手を出してくれるのよね？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0025", 100>
+Red_Arcueid
+クロムクレイの大聖堂。
+ベ・ゼの断頭台。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0026", 100>
+Red_Arcueid
+そして、アインナッシュの鐘撞堂。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0027", 100>
+Red_Arcueid
+早く見せて。
+それで私を倒してみせて。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0028", 100>
+Red_Arcueid
+何をしても許してあげる。
+何をされても超えてあげる。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0029", 100>
+Red_Arcueid
+ああ―――楽しい、楽しい、楽しい！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0030", 100>
+Red_Arcueid
+こんなに胸が弾む相手は、
+アナタとアイツの二人だけ！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0031", 100>
+Red_Arcueid
+ほら、逃げないでがんばる、がんばる！
+隕石みたいに、すっごいのをちょうだい！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0032", 100>
+Red_Arcueid
+軽く受け止めて、貴女のプライドごと
+叩き折ってあげるから！
+
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0063", 100>
+Powered_Ciel
+―――いいでしょう。
+その慢心が命取りです。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0064", 100>
+Powered_Ciel
+そんなに《痛い＜・・＞のが好きなら、
+確かに、こちらの方が貴女向きでした。
+\l
+
+\\@SQ_CALL@<3>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Whirlwind", 0, 100>
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_MagicCharge", 0, 100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0065", 100>
+Powered_Ciel
+天の使い、《磔刑＜たっけい＞の《響＜おと＞。剣の枝葉、鉄の波濤。
+《原理血戒＜イデアブラッド＞７番―――《腑海林＜ふかいりん＞アインナッシュ。
+\l
+
+\\@FADE_OUT@<1,255,255,255,0>
+\\@SQ_CALL@<3>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0066", 100>
+Powered_Ciel
+収穫せよ、《苗床祭壇＜なえどこさいだん＞。
+致死の傷ではなく、無限の苦痛でその生態を押し返します！
+
+\\@SYSTEM@<21>
+\aw
+
+
+\\@BGM_STOP@<0>
+\e

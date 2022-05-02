@@ -15,8 +15,8 @@
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0000", 100>
 Arcueid
-Unbelievable. Talk about a conversion.
-Why would a priest pick this Far East island to reincarnate?
+Unbelievable. Talk about a change of heart.
+Why would you go for this Far East island nation to reincarnate?
 \l
 
 \\@CHARA_IN@< 0, 0, 4, 0, 1>

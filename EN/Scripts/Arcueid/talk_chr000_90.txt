@@ -25,7 +25,7 @@ Does his current self have more restraint than usual?
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0031", 100>
 Arcueid
 Well, I've no other choice but to search the hard way.
-Hate how I have to do it like humans would.
+Kinda annoying and human-ish but--
 \l
 
 \\@GO_SUB@<"QUAKE_1">

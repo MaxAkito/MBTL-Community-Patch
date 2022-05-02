@@ -20,7 +20,7 @@ We finally meet, Princess of the True Ancestors.
 \\@CHARA_IN@< 0, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0020", 100>
 Arcueid
-Who are you, Dead Apostle? I haven't seen you before.
+Who are you? I don't know of a Dead Apostle like you.
 Some newbie who just popped up in these last 100 years?
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
@@ -39,8 +39,8 @@ I've been following your shadow from across the distant ocean...
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0003", 100>
 Volv
-But neither of us need stay here for long...
-This city is rottingly warm, yet cold like the void.
+But neither of us can stay here for long...
+This city is warm like decay, yet cold like the void.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>

@@ -73,7 +73,7 @@ You think a Church elite would wanna associate with you?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0007", 100>
 Mario@Mario_Hatena
 After all, you're considered an outlaw by both the Holy Church
-and the Mages Association, Miss Fifth Magician.
+and the Mage's Association, Miss Fifth Magician.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0008", 100>
@@ -164,7 +164,7 @@ tiny country. Or maybe its just your wanderer spirit.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0013", 100>
 Mario@Mario_Hatena
-Anyway, try to keep collateral damage down, would ya?
+Anyway, try to keep collateral damage down, would you.
 I don't wanna see you destroying the whole underground.
 \l
 

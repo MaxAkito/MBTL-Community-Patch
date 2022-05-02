@@ -67,14 +67,14 @@ unveiled did in fact in someway succeed!
 \\@CHARA_IN@<1, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0035", 100>
 Roa
-The celestial egg! The atomic structure of creation!
+The Celestial Egg! The atomic structure of creation!
 The flow converges, and "  " is enshrined in heaven!
 \l
 
 \\@CHARA_IN@<1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0036", 100>
 Roa
-But its all in vain, even here, you've come too late!
+Too bad though, it's already all too late!
 And not only that, but you're done for, too.
 \l
 
@@ -109,16 +109,16 @@ Did I screw up?
 \\@CHARA_IN@<0, 15, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0033", 100>
 Aoko
-N-No, NoT aT AlL.
-YoU'rE cOmPlEtElY rIgHt. I HaVe CoMe fRoM ThE fUtUrE. 
+N-No, no, not at all.
+You're completely right. I am from the future. Honest.
 \l
 
 
 \\@CHARA_IN@<0, 15, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0034", 100>
 Aoko
-I wIlL dEfEaT yOu, EvIl-DoEr.
-AnD GeT tOnS oF CaSh fOr My VaCaTiOn... Ok?
+A-And I'm here to eliminate you, or whatever.
+Then I'll get a ton of cash and go on an awesome vacation.
 
 \\@CHARA_IN@<1, 5, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0040", 100>

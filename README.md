@@ -1,7 +1,7 @@
 # MBTL-Community-Patch
 A community translation patch for MBTL
 
-Credits to Petrikow, Comun and fumei
+Credits to Petrikow, Comun and Fumei
 
 ## Editing guidelines
 
@@ -47,6 +47,8 @@ The amount of characters supported by the battle voice format is remarkably long
 | Boss Rush (013) | Initial editing done (Petri) |
 | DA Noel   (014) | Initial editing done (Petri) |
 | Aoko      (015) | Initial editing done (Petri) |
+| P. Ciel   (016) |                              |
+| Mario     (017) |                              |
 
 ### Win-quotes
 
@@ -68,6 +70,8 @@ The amount of characters supported by the battle voice format is remarkably long
 | Miyako    (013) | Initial editing done (Petri) | 
 | DA Noel   (014) | Initial editing done (Petri) |
 | Aoko      (015) | Initial editing done (Petri) |
+| P. Ciel   (016) |                              |
+| Mario     (017) |                              |
 
 ### Strings
 

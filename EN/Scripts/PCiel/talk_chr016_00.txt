@@ -1,0 +1,174 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg05", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 16, 0, 1, 0>
+\\@CHARA_IN@<1, 8, 0, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 71, 100>
+
+
+\\@CHARA_IN@<1, 8, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0000", 100>
+Noel
+What are you wearing?
+What happened to your nun's habit?!
+\l
+
+\\@CHARA_IN@<1, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0001", 100>
+Noel
+Nobody told me we'd be launching an all-out assault!
+I only brought my vampire-hunting gear with me!
+
+\\@CHARA_IN@<0, 16, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0010", 100>
+Powered_Ciel
+The situation has changed, Sister Noel.
+I'll need you to provide backup for me.
+\l
+
+
+\\@CHARA_IN@<0, 16, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0011", 100>
+Powered_Ciel
+Arcueid Brunestud has been sighted in this town.
+One of the Twenty-Seven Dead Apostle Ancestors
+arrived not long after, too.
+\l
+
+
+\\@CHARA_IN@<0, 16, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0012", 100>
+Powered_Ciel
+The two of them engaged in battle the day after
+Arcueid encountered our target, Shiki Tohno.
+\l
+
+\\@CHARA_IN@<0, 16, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0013", 100>
+Powered_Ciel
+The Ancestor was defeated, but Arcueid
+is in a severely weakened state.
+\l
+
+\\@CHARA_IN@<0, 16, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0014", 100>
+Powered_Ciel
+This could mean big trouble for us.
+\l
+
+\\@CHARA_IN@<0, 16, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0015", 100>
+Powered_Ciel
+Strange as it may seem, she's prioritizing her personal feelings
+over her goal of hunting down Dead Apostles.
+\l
+
+\\@CHARA_IN@<0, 16, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0016", 100>
+Powered_Ciel
+She's like an armed nuclear warhead.
+We need to deal with her as soon as possible.
+
+\\@CHARA_IN@<1, 8, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0002", 100>
+Noel
+Sounds serious...
+Okay, I'm in!
+\l
+
+\\@CHARA_IN@<1, 8, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0003", 100>
+Noel
+It's not like I'm going up against
+that monster-among-monsters myself.
+\l
+
+\\@CHARA_IN@<1, 8, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0004", 100>
+Noel
+I'll leave that honor to you, Ciel.
+While you're dealing with her, I'll keep an eye on the target\sf000
+
+\\@CHARA_IN@<0, 16, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0017", 100>
+Powered_Ciel
+We still don't know how this battle will end.
+But at the very least, try not to let him escape.
+\l
+
+
+\\@CHARA_IN@<0, 16, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0018", 100>
+Powered_Ciel
+Roa will know by now that Arcueid is here.
+It's reasonable to assume he'll make the first move.
+\l
+
+
+\\@CHARA_IN@<0, 16, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0019", 100>
+Powered_Ciel
+As bad as that would be under normal circumstances, it does
+present us with an opportunity we wouldn't have otherwise.
+\l
+
+\\@CHARA_IN@<0, 16, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0020", 100>
+Powered_Ciel
+If we can find Roa's coffin before Arcueid fully recovers,
+we can destroy his soul once and for all.
+
+\\@CHARA_IN@<1, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0005", 100>
+Noel
+Sounds good to me.
+And if the coffin's empty, that's where I come in.
+\l
+
+\\@CHARA_FACE@<1, 0, 2, 260>
+\\@CHARA_FACE@<0, 3, 10, 400>//ÉVÉGÉãï\èÓïœâª
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0006", 100>
+Noel
+It'll mean the target really is Roa, and I'll
+capture him and bring him right back here.
+\l
+
+
+\\@CHARA_IN@<1, 8, 11, 0, 1>
+\\@CHARA_FACE@<1, 11, 0, 210>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0007", 100>
+Noel
+Hey, what are you looking so mad about?
+Oh, I get it... It's about Shiki, isn't it?
+\l
+
+
+\\@CHARA_IN@<1, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0008", 100>
+Noel
+Don't worry, I won't hog
+all the fun.
+\l
+
+
+\\@CHARA_IN@<1, 8, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0009", 100>
+Noel
+Why don't you join me? We can make it a joint interrogation.
+I mean, this is what we've been waiting for all this time, right?
+
+\\@CHARA_IN@<0, 16, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0021", 100>
+Powered_Ciel
+...
+
+
+\\@BGM_STOP@<0>
+\e

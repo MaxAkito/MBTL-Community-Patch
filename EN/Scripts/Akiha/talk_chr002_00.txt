@@ -16,14 +16,14 @@
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0000", 100>
 Akiha
-*sigh* This cold is enough to make one want to scratch at the walls
-It's starting to get on my nerves.
+*sigh* This cold is almost making me break out in hives.
+It's getting on my nerves.
 \l
 
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0001", 100>
 Akiha
-Whoever this hybrid may be, they shouldn't be thinking that they could
+Whoever this hybrid may be, they shouldn't be thinking that they can
 just be walking around doing whatever they want without my permission.
 \l
 

@@ -45,12 +45,12 @@ beginning to feel better.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0033", 100>
 Akiha
 I will overlook his little trip last night. 
-I'm sure he has his reasons.
+I'm sure he also had his reasons.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0034", 100>
 Akiha
-Still... perhaps I should put him 
+Still...perhaps I should put him 
 on a leash from now on.
 \l
 
@@ -62,8 +62,8 @@ my mental health any favors.  Not only that, but...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0036", 100>
 Akiha
-Lately I have this vague feeling that something terrible is going
-to happen. I just hope we don't have to deal with any more pests.
+Lately I've been feeling vaguely at unease. *sigh*
+Hopefully there'll be no strange pests appearing any time soon.
 
 
 \\@BGM_STOP@<0>

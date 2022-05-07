@@ -32,7 +32,7 @@ The amount of characters supported by the battle voice format is remarkably long
 | :-------------- |:---------------------------- | 
 | Arcueid   (000) | Initial editing done (Petri) |
 | Hisui     (001) | Initial editing done (Petri) |
-| Akiha     (002) | Initial editing done (Petri) |
+| Akiha     (002) | Secondary editing done (Petri) |
 | Shiki     (003) | Initial editing done (Petri) |
 | Kohaku    (004) | Initial editing done (Petri) |
 | Roa       (005) | Initial editing done (Petri) |
@@ -46,7 +46,7 @@ The amount of characters supported by the battle voice format is remarkably long
 | Miyako    (013) | Initial editing done (Petri) | 
 | Boss Rush (013) | Initial editing done (Petri) |
 | DA Noel   (014) | Initial editing done (Petri) |
-| Aoko      (015) | Initial editing done (Petri) |
+| Aoko      (015) | Secondary editing done (Petri) |
 | P. Ciel   (016) |                              |
 | Mario     (017) |                              |
 

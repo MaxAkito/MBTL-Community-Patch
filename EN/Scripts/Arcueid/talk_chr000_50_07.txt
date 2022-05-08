@@ -13,20 +13,20 @@
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0000", 100>
 Volv
-That soul... as white as a sacred mountain...
+That soul...as white as a sacred mountain...
 There's no doubt about it.
 We finally meet, Princess of the True Ancestors.
 
 \\@CHARA_IN@< 0, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0020", 100>
 Arcueid
-Who are you, Dead Apostle? I haven't seen you before.
-Some newbie who just popped up in these last 100 years?
+Who are you? Not a Dead Apostle I've seen before, at least.
+Some newbie who just popped up in these last hundred years?
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0001", 100>
 Volv
-I am Vlov Arkhangel...
+Vlov Arkhangel...
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
@@ -40,14 +40,14 @@ I've been following your shadow from across the distant ocean...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0003", 100>
 Volv
 But neither of us need stay here for long...
-This city is rottingly warm, yet cold like the void.
+This city is warm of rot, yet cold like the void.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0004", 100>
 Volv
-I'll cut your head off and be awarded with your heart.
-And with that, my illness shall surely heal.
+I shall sever your head and be rewarded with your heart.
+With that, my illness shall surely heal.
 
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
@@ -60,9 +60,8 @@ but if you want to die so much, I'll help you out.
 \\@CHARA_IN@< 0, 0, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0022", 100>
 Arcueid
-Don't worry, I won't leave any traces of you behind.
-It's the least I can do for such a brave brute
-coming for me without any strategy!
+Don't worry, I won't leave any traces of you behind. You know, 
+out of consideration for your reckless bravery in facing me head-on.
 
 \\@BGM_STOP@<0>
 \e

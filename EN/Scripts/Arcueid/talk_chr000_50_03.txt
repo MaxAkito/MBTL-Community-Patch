@@ -22,7 +22,7 @@ Hold on, this isn't in my job description!
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0010", 100>
 Arcueid
 An Executor of the Church...? I'm impressed you've
-survived up until now with your abilities.
+survived up until now with your competence.
 \l
 
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
@@ -36,8 +36,8 @@ so I could pretend I never saw you, but...
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0012", 100>
 Arcueid
-Yeah. I'm getting a whiff of someone
-I hate, and it's coming from you.
+Yeah. I'm getting a whiff of someone I hate, 
+and it's coming from you, so...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0013", 100>

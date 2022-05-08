@@ -25,7 +25,7 @@ Does his current self have more restraint than usual?
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0031", 100>
 Arcueid
 Well, I've no other choice but to search the hard way.
-Hate how I have to do it like humans would.
+Hate how I have to go about it like a human would.
 \l
 
 \\@GO_SUB@<"QUAKE_1">
@@ -44,7 +44,7 @@ functions like tripping over rocks.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0034", 100>
 Arcueid
-Seems I haven't recovered from those wounds I got from Vlov.
+Seems I still haven't recovered from those wounds I got from Vlov.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0035", 100>

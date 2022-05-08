@@ -30,7 +30,7 @@ The amount of characters supported by the battle voice format is remarkably long
 
 | Character       | Status                       | 
 | :-------------- |:---------------------------- | 
-| Arcueid   (000) | Initial editing done (Petri) |
+| Arcueid   (000) | Secondary editing done (Petri) |
 | Hisui     (001) | Initial editing done (Petri) |
 | Akiha     (002) | Secondary editing done (Petri) |
 | Shiki     (003) | Initial editing done (Petri) |

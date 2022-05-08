@@ -25,13 +25,13 @@ It hurts... It hurts so bad...
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0001", 100>
 Dead_Noel
 My head is spinning...
-It hurts like... like my insides have all spilled out.
+It hurts like...like my insides have all spilled out.
 \l
 
 \\@CHARA_IN@<1, 14, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0002", 100>
 Dead_Noel
-What happened to me...? The last thing I remember
+What...happened...to me...? The last thing I remember
 was that weird lady injecting me with something...
 \l
 
@@ -44,7 +44,7 @@ was that weird lady injecting me with something...
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0003", 100>
 Dead_Noel
 Oh, right...
-Yes, I remember now!
+Right, right!
 \l
 
 
@@ -66,23 +66,23 @@ It's a huge improvement, in every single way!
 \\@CHARA_IN@<0, 14, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0006", 100>
 Dead_Noel
-Aha, I spy a tasty human about half a mile away...
-Get this damned car out of my way!
+Aha, I spy a tasty human about one kilometer away...
+And get this damned car out of the way too!
 \l
 
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0007", 100>
 Dead_Noel
 Aha... Ahahahahaa!
-This is just unfair! I mean really, aren't vampires just a bit too unfair?
+This is just unfair! I mean really, isn't being a vampire just a bit too unfair?
 \l
 
 
 \\@CHARA_FACE@<0,9,10,325>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0008", 100>
 Dead_Noel
-Goodbye to the most miserable part of my life!
-And hello to the most amazing part of my life!
+Hello to the most amazing part of my life!
+And goodbye to the most miserable part of my life!
 \l
 
 \\@CHARA_IN@<0, 14, 8, 0, 1>

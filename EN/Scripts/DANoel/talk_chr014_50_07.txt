@@ -59,7 +59,7 @@ these years through little more than cowardice.
 \\@CHARA_IN@<0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0041", 100>
 Dead_Noel
-Or what, begging for you life? Do you really think 
+Or what, was that you begging for you life? Do you really think 
 empty flattery will convince me to spare your life, Serpent?
 \l
 
@@ -67,8 +67,8 @@ empty flattery will convince me to spare your life, Serpent?
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0042", 100>
 Dead_Noel
-I'm in a good mood right now, so I don't mind
-listening to what you have to say, though.
+Go on then, If that how it's gonna be I don't mind 
+listening to what you have to say.
 \l
 
 
@@ -89,7 +89,7 @@ information someone like you would find useful?
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0006", 100>
 Roa
-A way for you to make amends with the executors, perhaps?
+A way for you to make amends with the Executors, perhaps?
 Or maybe a means for you to escape and hide overseas?
 \l
 
@@ -109,15 +109,15 @@ I advise you to just sit back and wait for dawn.
 \\@CHARA_IN@<0, 14, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0044", 100>
 Dead_Noel
-Huh? Where do you get off acting so tough?
-You're just making me want to kill you even more.
+Huh? 
+What? I'm gonna kill you, on the goddamn spot.
 \l
 
 
 \\@CHARA_IN@<0, 14, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0045", 100>
 Dead_Noel
-You're the one who keeps running from death
+YOU'RE the one who keeps running from death
 by inhabiting other people's bodies.
 \l
 
@@ -132,21 +132,21 @@ just how ridiculous you and your cycle of reincarnations are.
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0047", 100>
 Dead_Noel
 You've got no territory, no followers...
-No good Skill, either. You're just a Rank VI poser.
+No good powers, either. You're just a Rank VI poser.
 \l
 
 \\@CHARA_IN@<0, 14, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0048", 100>
 Dead_Noel
 That's all you are, Roa, and all you'll ever be.
-As a Dead Apostle, my Lifescale surpasses yours.
+As far as Dead Apostles go, my Lifescale surpasses yours.
 \l
 
 \\@CHARA_IN@<0, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0049", 100>
 Dead_Noel
 Are you really going to try to act like you're my superior, 
-even after this botched reincarnation in your current body?
+even after this botched reincarnation of your current body?
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0009", 100>
@@ -159,21 +159,22 @@ Seems you're starting to get your head around this a bit more.
 \\@CHARA_IN@< 1, 5, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0010", 100>
 Roa
-But really, territory? Followers?
-To think you'd be so obessesed with such paltries.
+But really? Territory? Followers? To think you'd be so obessesed
+with paltries that you never spared a thought of before.
 \l
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0011", 100>
 Roa
-You yourself were always weak, always petty.
-And a little taste of power doesn't seem to have changed that.
+Since you started out small, once you get a taste of some real
+power all you care about are superficialities.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0012", 100>
 Roa
-So this is a Dead Apostle... or rather, a nobodies' sorrow.
+I guess it's in a Dead Apostle's nature... 
+actually, you're just a sad nobody.
 You'll never measure up to Elesia.
 
 \\@CHARA_IN@<0, 14, 3, 0, 1>
@@ -192,15 +193,15 @@ I'm the one who should be offended here.
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0014", 100>
 Roa
-Is this about taking revenge on me? Or is it about going
-beyond your own limitations? I don't think even you know.
+Is this about taking revenge on me? 
+Or is it about wanting to change yourself?
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0015", 100>
 Roa
-And yet you have to audacity to
-model this church on my own?
+A fool who can't even decide between those has
+the audacity to model this church after my own?
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0016", 100>
@@ -219,7 +220,7 @@ could never overcome anything.
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0018", 100>
 Roa
-A fool capable of neither revenge or talent.
+A failure capable of neither revenge or talent.
 That is all you are, Dead Apostle Noel, and all you'll ever be.
 
 \\@CHARA_IN@<0, 14, 3, 0, 1>
@@ -232,8 +233,8 @@ Shut up, shut up, shut up!
 \\@CHARA_IN@<0, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0052", 100>
 Dead_Noel
-How dare you even speak to me! You're weaker than me!
-The only reason you exist is so I can kill you!
+You're weaker than me! And yet! Despite the fact that you're 
+just gonna get killed by me, you dare speak about me like you know me!
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0019", 100>

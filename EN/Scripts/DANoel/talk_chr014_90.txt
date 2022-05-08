@@ -30,14 +30,14 @@ That felt great!
 \\@CHARA_IN@< 0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0061", 100>
 Dead_Noel
-Roa's potential host is having a fun time in hell
-and Roa himself is gone for good!
+Roa's potential host is having a fun time swirling around in hell
+while Roa himself is gone for good, reduced to dust!
 \l
 
 \\@CHARA_IN@< 0, 14, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0062", 100>
 Dead_Noel
-Hmm, wait... considering Roa himself appeared...
+Hmm, wait...considering Roa himself appeared...
 doesn't that mean Shiki was innocent...?
 \l
 
@@ -127,7 +127,7 @@ This isn't funny!
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0073", 100>
 Dead_Noel
 I wouldn't mind if it was the old, grownup me.
-Back then I always looked ragged and half broken anyway.
+Back then I always looked ragged and half-broken anyway.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0074", 100>
@@ -172,7 +172,7 @@ Aaah...
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcExe/NpcExe_07_0002", 100>
 Executor
 I pray you are released from your earthly sins, 
-from your impurities, by this single blow.
+from your impurities, by this lone strike.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0078", 100>
 Dead_Noel

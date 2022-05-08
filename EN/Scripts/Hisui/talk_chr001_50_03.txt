@@ -55,8 +55,9 @@ around Shiki, right? Oh well, what's the message?Å@
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0022", 100>
 Hisui
-ÅgThank you for turning the pleasant conversation between my
-  brother and myself into such a boisterous occasion.Åh
+ÅgI wish to express my utmost gratitude for your turning the peacefully 
+pleasant conversation between me and my brother into such a 
+boisterous occasion some days ago.Åh
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0023", 100>
@@ -68,15 +69,15 @@ Hisui
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0004", 100>
 Arcueid
-Pleasant?
-(The tension was so thick you could cut it with a knife.)
+Peacefully...
+(It was so silent you could hear a pin drop)
 \l
 
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0005", 100>
 Arcueid
-Conversation?
-(It was so silent, you could hear a pin drop.)
+pleasant?
+(and the tension was so thick you could cut it with a knife)
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0024", 100>
@@ -88,14 +89,15 @@ By the way...
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0025", 100>
 Hisui
 The guest room is designed to drop a 50cm thick wall of iron
-as soon as you enter, before being sunk into the ocean for a trip...
+as soon as you enter, before being sunk into the ocean for 
+a trip to a submarine volcano. 
 \l
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0026", 100>
 Hisui
-To a submarine volcano. The room will be ready sometime
-next week, so the lady requests that you visit then.
+The room will be ready sometime next week, 
+so the lady requests that you visit then.
 \l
 
 \\@CHARA_IN@< 0, 1, 5, 0, 1>

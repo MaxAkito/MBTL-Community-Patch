@@ -28,7 +28,7 @@ You want to live on your ooooown~
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0001", 100>
 Ciel
 But since you don't have the money, you decide to move
-in with your generous, affable friend from schooooool~
+in with your reliable, affable friend from schooooool~
 
 \\@CHARA_IN@< 3, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0000", 100>
@@ -55,8 +55,8 @@ Hisui
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0031", 100>
 Hisui
-No. Must snap out of it. This feeling of deja vu
-has my whole mind blank.
+No. Must snap out of it. 
+My head went blank at all the deja vu I just felt.
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
@@ -107,7 +107,7 @@ In other words, you are the mastermind behind this.
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0005", 100>
 Ciel
-N-No, it was just a whim- I mean- it's a misunderstanding!
+N-No, it was just a whim- I mean- a misunderstanding!
 \l
 
 \\@CHARA_IN@< 1, 11, 4, 0, 1>
@@ -125,7 +125,7 @@ I must insist you release Master Shiki first.
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0036", 100>
 Hisui
-You would also be wise not to bother using charms or that
+You would also be wise not to use charms or that
 hypnosis skill of yours to try and escape.
 \l
 

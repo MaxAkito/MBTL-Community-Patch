@@ -105,7 +105,7 @@ It's fine. Don't worry about it.
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0003", 100>
 Kohaku
 Why don't we continue this in the parlor, Miyako?
-Let's have tea! It's my treat.
+I can treat you to some fine tea.
 \l
 
 \\@CHARA_IN@< 2, 4, 100, 0, 1>

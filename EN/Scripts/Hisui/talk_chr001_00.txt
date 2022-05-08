@@ -32,7 +32,7 @@ I would be happy to pass along a message, Miss...?
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0002", 100>
 Hisui
-I see, Miss.. Arima Miyako... If I understand correctly
+I see, Miss...Arima Miyako... If I understand correctly
 You are the eldest daughter of the Arima branch family.
 \l
 

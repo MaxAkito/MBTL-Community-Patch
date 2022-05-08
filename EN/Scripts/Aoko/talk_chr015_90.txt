@@ -27,7 +27,7 @@ can only find happiness in shooting laser beams?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0022", 100>
 Mario@Mario_Hatena
 You reduced the entire fuckin' Workshop to ashes, along with Roa.
-My name as the Peoplemaster ain't gonna survive this shit.
+My reputation as the 'Peoplemaster' ain't gonna survive this shit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0023", 100>
@@ -68,7 +68,7 @@ the damages you caused, dumbass.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0026", 100>
 Mario@Mario_Hatena
-I'ssa goddamn miracle no one was hurt when
+It's goddamn miracle no one was hurt when
 you destroyed those train cars!
 
 \\@CHARA_IN@< 0, 15, 10, 0, 1>
@@ -136,13 +136,13 @@ I love it here!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0049", 100>
 Aoko
-That presbyter sure knows how to treat a lady.
+That Presbyter sure knows how to treat a lady.
 He gave me enough to rent my own private beach!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0050", 100>
 Aoko
-Things never turn out how you expect them!
+Sometimes fortune sure smiles upon you!
 All my good deeds are finally paying off!
 \l
 

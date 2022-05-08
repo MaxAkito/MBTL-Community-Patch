@@ -27,14 +27,14 @@ Stage III, moving above ground...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0002", 100>
 Mario@Mario_Hatena
-Somewhere in between these two, but
-the Dead aren't all too active.
+Somewhere in between these two, 
+though the Dead aren't all too active.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0003", 100>
 Mario@Mario_Hatena
 Are their sire Dead Apostle still asleep?
-Or were they always this organized?
+Or maybe they were just well-organized from the start?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0004", 100>
@@ -52,7 +52,7 @@ I need this done before it gets out to anyone else, capisce?
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0000", 100>
 Aoko
 O-ho. I was just thinking you were lightly guarded,
-seems even a high and mighty presbyter can go undercover.
+I guess even high and mighty Presbyters go undercover from time to time.
 
 \l
 
@@ -79,7 +79,7 @@ and the Mages Association, Miss Fifth Magician.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0008", 100>
 Mario@Mario_Hatena
 So it wouldn't be outta character for you to just roll up into a town 
-and take care of some Dead Apostles for no real reason, yeah?
+and take care a'some Dead Apostles for no real reason, ya know?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0009", 100>
@@ -111,22 +111,22 @@ And that's without me prying into your business included.
 \\@CHARA_IN@<0, 15, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0005", 100>
 Aoko
-Here's my bank details. You might want to pay
+Here're my bank details. You might want to pay
 me in advance; this won't take long.
 \l
 
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0006", 100>
 Aoko
-Was this town always this dangerous? Dead Apostles are one thing,
-but it seems some other evil lurks here, too.
+That said, was this town always this dangerous? Dead Apostles are one thing,
+but it seems some other nasty stuff lurks here, too.
 
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0010", 100>
 Mario@Mario_Hatena
 Ignore 'em. That's outside our jurisdiction.
-I'd prefer to avoid conflict with the local landowners.
+Prefer'd to avoid conflict with the local landowners.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0011", 100>
@@ -158,19 +158,19 @@ I'm gonna go double all out!
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0012", 100>
 Mario@Mario_Hatena
-For real? Your dossier didn't mention that. I guess Japan's a
+For real...? Your dossier didn't mention that. I guess Japan's a
 tiny country. Or maybe its just your wanderer spirit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0013", 100>
 Mario@Mario_Hatena
-Anyway, try to keep collateral damage down, would ya?
+Anyway, try 'n keep collateral damage down, would ya?
 I don't wanna see you destroying the whole underground.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0014", 100>
 Mario@Mario_Hatena
-Our goal here is to capture his Workshop. Anything outside
+Your goal here is to seize the Workshop. Anything outside
 what's necessary for that is coming outta your pay, capische?
 
 \\@CHARA_IN@<0, 15, 3, 0, 1>

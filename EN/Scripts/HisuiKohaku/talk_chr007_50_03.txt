@@ -80,7 +80,7 @@ do I really care. That goes for your excuses after you lose as well.
 \\@CHARA_IN@< 1, 2, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0045", 100>
 Akiha
-Hehehe. What a great opportunity. I shall teach you just how
+Hehehe... What a great opportunity. I shall teach you just how
 terrifying it is to oppose your master, punishment included.
 
 \\@BGM_STOP@<0>

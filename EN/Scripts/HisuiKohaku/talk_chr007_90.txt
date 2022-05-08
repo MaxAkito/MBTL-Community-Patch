@@ -63,7 +63,7 @@ to get a chance like this again any time soon.
 \\@CHARA_IN@< 0, 1, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0031", 100>
 Hisui
-But... I don't know if I'm
+But...I don't know if I'm
 ready for that...
 
 \\@CHARA_IN@< 2, 4, 101, 0, 1>

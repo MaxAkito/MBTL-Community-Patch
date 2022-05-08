@@ -33,14 +33,14 @@ but still, you are falling in love with a cutie like meee~
 \\@CHARA_IN@< 3, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0060", 100>
 Shiki
-I mean... is that... doable...?
+I mean...is that...doable...?
 I feel as if that's a bit too much to ask...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0061", 100>
 Shiki
 Some part of me feels as if though at least one of those qualities
-ought to be improved but I'm falling in loveeee~
+ought to be improved but still I'm falling in loveeee~
 
 
 \\@CHARA_IN@<0, 1, 1, 1, 0>
@@ -59,20 +59,20 @@ What a shocking sight!
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0041", 100>
 Kohaku
 An innocent boy tied to a chair with a suspicious-looking
-woman in nun's clothing making advances on him?!
+woman in nun's clothing making desperate advances on him?!
 
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0020", 100>
 Hisui
-Look closely, Kohaku. Those are no
-normal advances she's making.
+Look closely, Kohaku. 
+Those are no normal advances she's making.
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0021", 100>
 Hisui
-Those are hypnotic suggestions. We don't have
-a moment to lose. And don't hold back, either.
+They are hypnotic suggestions. We don't have
+a moment to lose. Nor a lick of sympathy to spare.
 
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0042", 100>

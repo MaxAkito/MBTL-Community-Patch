@@ -37,7 +37,7 @@ The amount of characters supported by the battle voice format is remarkably long
 | Kohaku    (004) | Initial editing done (Petri) |
 | Roa       (005) | Initial editing done (Petri) |
 | Kouma     (006) | Initial editing done (Petri) |
-| Maids     (007) | Initial editing done (Petri) |
+| Maids     (007) | Secondary editing done (Petri) |
 | Noel      (008) | Initial editing done (Petri) |
 | Vlov      (009) | Initial editing done (Petri) |
 | Warc      (010) | Initial editing done (Petri) |

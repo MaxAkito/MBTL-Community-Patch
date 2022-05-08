@@ -15,13 +15,13 @@
 \\@CHARA_IN@< 0, 11, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0030", 100>
 Ciel
-This town is infested with Dead Apostles.
+This city has been infested with Dead Apostles...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0031", 100>
 Ciel
 An Executor's duty is to quickly eliminate
-such diseases at the source.
+such diseases at the source, and yet...
 \l
 
 \\@CHARA_IN@< 0, 11, 7, 0, 1>
@@ -40,8 +40,8 @@ And then finally she even goes
 \\@CHARA_IN@< 0, 11, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0034", 100>
 Ciel
-I won't make the mistake of
-relying on her again.
+For now, it's best I don't count on her
+to be any help in battle.
 \l
 
 \\@CHARA_IN@< 0, 11, 6, 0, 1>

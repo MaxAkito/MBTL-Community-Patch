@@ -15,13 +15,13 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0060", 100>
 Akiha
 What have we here? I came in search of a mouse sneaking
-around my city, and wind up catching a rat instead.
+around my city, and wind up catching a rather oversized rat instead.
 \l
 
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0061", 100>
 Akiha
-Actually, that seems a bit rude to the rats.
+Actually, rat is perhaps a bit rude.
 You're more like, let's see... a stray dog?
 
 \\@CHARA_IN@< 0, 11, -1, 0, 1>
@@ -32,32 +32,32 @@ Call me whatever you wish, Lady Tohno.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0041", 100>
 Ciel
-You are a noted person of interest. Thanks for saving
-me the trouble of seeking you out to measure your power.
+You were meant to be investigated anyhow. 
+I might as well evaluate your abilities right here and now.
 
 \\@CHARA_IN@< 1, 2, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0062", 100>
 Akiha
-Investigate me? You, a mangy mutt
-whose bark is worse than her bite?
+Investigate me? 
+You? A mere dog barking away beneath my feet?
 \l
 
 \\@CHARA_IN@< 1, 2, 200, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0063", 100>
 Akiha
-How unpleasant. I'm afraid it's time to put you down.
-Would you like a moment to prepare your will?
+How unpleasant... I'm this close to crushing you underfoot.
+Have you prepared for your pathetic yet unseen death?
 
 \\@CHARA_IN@< 0, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0042", 100>
 Ciel
-There is no need. We have no possessions, and therefore
-do not require such things.
+I've never had the need to prepare anything like that.
+We do not leave wills, or keepsakes. They are unnecessary.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0043", 100>
 Ciel
-I am prepared to die at any moment.
+I am prepared to die at any moment, as you say.
 \l
 
 \\@CHARA_IN@< 0, 11, 0, 0, 1>

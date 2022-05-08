@@ -41,7 +41,7 @@ The amount of characters supported by the battle voice format is remarkably long
 | Noel      (008) | Initial editing done (Petri) |
 | Vlov      (009) | Initial editing done (Petri) |
 | Warc      (010) | Initial editing done (Petri) |
-| Ciel      (011) | Initial editing done (Petri) |
+| Ciel      (011) | Secondary editing done (Petri) |
 | Saber     (012) | Initial editing done (Petri) |
 | Miyako    (013) | Initial editing done (Petri) | 
 | Boss Rush (013) | Initial editing done (Petri) |

@@ -19,12 +19,12 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0060", 100>
 Ciel
 Wrong again, it would seem. 
-How odd, it's this town without a doubt...
+How odd. This is the right city, no doubt about it...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0061", 100>
 Ciel
-Wait. Was that...?
-Why, yes! It's Arcueid Brunestud!
+Wait. Was that just now...
+Arcueid Brunestud!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0062", 100>

@@ -14,7 +14,7 @@
 \\@CHARA_IN@< 0, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0050", 100>
 Ciel
-One of the Twenty-seven Dead Apostle Ancestors?
+One of the Twenty-seven Dead Apostle Ancestors!?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0051", 100>
@@ -25,35 +25,35 @@ such as yourself to have made this city your nest.
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0090", 100>
 Volv
-An executor...
-I must admit I am surprised as well.
+An Executor...
+I must admit...I am surprised as well.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0091", 100>
 Volv
-Do you people have no modesty? Does the Church truly believe 
-it has the right to turns its gaze this far east?
+Do you people have no shame? Does the Church truly believe 
+it has the right to turns its vile gaze this far east?
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0092", 100>
 Volv
-No matter, no matter how far you extend your gaze,
-it won't do much if your sight is as dim as it is.
+Yet...no matter how far you extend your gaze,
+it won't do you much if your sight is as dim as it is.
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0093", 100>
 Volv
-You're deadwood, same as this city itself. There's no point 
-to a dog unable to sniff out the schemes of a serpent.
+You're deadwood, same as the city itself. What point is there
+to a dog that can't even sniff out the schemes of a serpent?
 \l
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0094", 100>
 Volv
-You will die a dog's death here tonight, girl.
+You will die a dog's death here tonight, woman.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0095", 100>
@@ -71,7 +71,7 @@ unexpected, but you shall pay for your sins all the same.
 \\@CHARA_IN@< 0, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0053", 100>
 Ciel
-My hands are those that Execute the Lord's judgment.
+My hands Execute the Lord's judgment.
 Know that there is no escape from Him.
 
 

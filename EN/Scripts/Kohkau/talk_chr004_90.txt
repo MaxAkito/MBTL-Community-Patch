@@ -54,8 +54,8 @@ could be considered akin to a fun little festival.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0056", 100>
 Kohaku
-You'd have to be dreaming to think that everything
-would just resolve itself once morning dawned.
+This whole "and then dawn came, and all was well!" kinda
+story really is akin to a dream.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0057", 100>
@@ -65,14 +65,14 @@ Anyway, back to work.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0058", 100>
 Kohaku
-All seems in order with the estate. Which means
-all is right with the world.
+All seems in order with the estate. 
+Which means all is right with the world.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0059", 100>
 Kohaku
-Even so, I must not allow myself to relax. I shall continue
-to perform my duties with dignity and poise.
+Even so, I must not allow myself to relax.
+I shall continue to perform my duties with dignity and poise.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0060", 100>

@@ -41,7 +41,7 @@ Huh?
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0002", 100>
 Noel
 What's that?
-Asking for 'someone suspicious' in a situation like this, like...?
+Asking for 'someone suspicious' in a situation like this, liiike...?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0003", 100>
@@ -52,13 +52,13 @@ another new Dead Apostle running low on blood.
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0032", 100>
 Kohaku
-Dead Apostle? Low on blood? Um... I'm not quite
-sure what you mean?
+Dead Apostle? Low on blood? Um... 
+I'm not quite sure what you mean?
 
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0004", 100>
 Noel
-Oh, so I suppose why can't feel any danger is because you brain is-
+Oh, your sense of danger is gone because your brain is alre-
 Hold on... You're one of the maids from that mansion!
 \l
 
@@ -66,22 +66,22 @@ Hold on... You're one of the maids from that mansion!
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0005", 100>
 Noel
-This is my lucky day! Fate has decided to serve you to me
-on a silver platter!
+This is my lucky day! 
+Fate has decided to serve you to me on a silver platter!
 \l
 
 \\@CHARA_IN@< 1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0006", 100>
 Noel
-You're here alone too, aren't you? I don't sense that
-family head of yours nearby either.
+You're here alone too, aren't you? 
+I don't sense that family head of yours nearby.
 \l
 
 \\@CHARA_IN@< 1, 8, 300, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0007", 100>
 Noel
 I'll be the one asking the questions tonight, little maid.
-My interrogation might be a biiit rough but... you'll be fine, right?
+My interrogation might be a biiit rough but...you'll be fine, right?
 
 \\@CHARA_IN@< 0, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -93,14 +93,13 @@ Uh-oh, this is quite the plot twist.
 \\@CHARA_IN@< 0, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0034", 100>
 Kohaku
-It would seem I've stumbled straight into
-a monster attack!
+It would seem I've stumbled straight into a monster attack!
 \l
 
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0035", 100>
 Kohaku
-Kohaku, OUT! I'm getting skedaddling at full force!
+Kohaku Ruuuun! I'm skedaddling at full force!
 \l
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
@@ -124,8 +123,7 @@ Hah! As if I'd let you escape with my silver platter!
 \\@CHARA_IN@< 1, 8, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0009", 100>
 Noel
-Looks like I'll have to break a leg or two to keep
-you from running!
+I hope you're ready to have one of yours limb cut off.
 
 \\@BGM_STOP@<0>
 \e

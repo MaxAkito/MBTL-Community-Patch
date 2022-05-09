@@ -19,14 +19,14 @@ Has everyone left in this city gone crazy?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0041", 100>
 Kohaku
-Or is this all a strange dream after all? That would
-sure explain things...
+Or is this all a strange dream after all? 
+That would sure explain things...
 \l
 
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0042", 100>
 Kohaku
-Like this underground cemetery in the middle of the station park.
+Like this crypt under the station-park.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0043", 100>
@@ -46,46 +46,46 @@ Volv
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0001", 100>
 Volv
-ÅgEven though it may not suit me, I am still a Castle Lord.
+ÅgEven though it may not suit me...I am still a Suzerain.
   As such, it is proper that I would receive many visitors...Åh
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0002", 100>
 Volv
-ÅgYou say it's so cold you can't even move a muscle?Åh
+ÅgYou say it's so cold you can't even move a muscle...?Åh
 \l
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0003", 100>
 Volv
-ÅgI grieve for you, dear woman. I have known more
+ÅgI grieve for you, dear woman. I know more
   than a few with souls just like yours.Åh
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0004", 100>
 Volv
-ÅgLike a ship, left to rot at the edge of the world, 
- or a self-destructed yet still functioning clock.Åh
+ÅgLike a ship left to rot at the edge of the world, 
+ or a clock that keeps ticking towards its own destruction.Åh
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0005", 100>
 Volv
-ÅgWell, that was the case of one of my wives at least.h
+ÅgWell, that was the case for one of my wives at least.h
 \l
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0006", 100>
 Volv
-ÅgPerhaps this meeting was through Karisha's guidance as well. 
- Your death shall be as if a slumber, without a drop of blood spilt.Åh
+ÅgPerhaps us meeting here was under the guidance of her, my Karisha. 
+ Worry not, your death shall be bloodless, as if entering a slumber.Åh
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0044", 100>
 Kohaku
-What language may this be? I can't understand
-a word of it!
+What language may this be? 
+I can't understand a word of it!
 \l
 
 \\@CHARA_IN@< 0, 4, 104, 0, 1>
@@ -104,7 +104,7 @@ That being said...
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0047", 100>
 Kohaku
 It seems you are laboring under a nasty chronic illness.
-As someone who dabbled in medicine, I must do something about it!
+As someone who dabbles in medicine, I must do something about it!
 \l
 
 \\@CHARA_IN@< 0, 4, 104, 0, 1>
@@ -115,8 +115,8 @@ Prepare yourself, foreigner.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0049", 100>
 Kohaku
-I pray my broom, medicine and funny plants will prove
-at least a little effective against your suffering.
+I pray my broom, medicine and silly plants will prove
+at least a little effective in alleviating your suffering.
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0007", 100>

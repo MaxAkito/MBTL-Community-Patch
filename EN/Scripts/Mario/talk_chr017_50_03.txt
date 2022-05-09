@@ -16,16 +16,16 @@
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0070", 100>
 Mario
-Stop right there, Princess.
-I'm afraid your plans have been canceled.
+Stop it, Princess.
+Real sorry, but the date's been cancelled.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0071", 100>
 Mario
-You've played around long enough.
-Your free time will be tonight only,
-so can you go back to your castle?
+You've messed around long enough.
+This night onwards you're outta free time.
+I'll ask you to return to your castle.
 
 \\@CHARA_IN@<1, 0, 14, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0000", 100>
@@ -38,20 +38,19 @@ Are you one of Laurentis' kids?
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0072", 100>
 Mario
 That's right, one of his many biological sons.
-Forgive me for skipping the introductions,
-but they're really not necessary.
+First time we meet, but there's no need for introductions.
 \l
 
 \\@CHARA_FACE@<0,10,6,210>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0073", 100>
 Mario
-The old man told me aaall about you.
-You're pretty different from how I imagined you, though.
+My old man told me aaall about you.
+You seem pretty damn different though.
 
 \\@CHARA_IN@<1, 0, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0001", 100>
 Arcueid
-Wow, you're not adopted?
+Oho, so you're not adopted?
 Aren't Cardinals supposed to be celibate and all?
 Well, whatever.
 \l
@@ -60,102 +59,102 @@ Well, whatever.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0002", 100>
 Arcueid
 Anyway, what were you planning on doing with those wires?
-You've already extended them all around town...
+I knew you had already extended them all around the city but...
 \l
 
 \\@CHARA_IN@<1, 0, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0003", 100>
 Arcueid
-Are you planning to use them against me somehow?
-Or is it just a coincidence?
+Were you planning to use them against me somehow?
+Or was that just a coincidence?
 \l
 
 \\@CHARA_IN@<1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0004", 100>
 Arcueid
-I'm feeling merciful, so I don't mind turning a blind eye
-to it. Just get out of my sight.
+If it's the latter, I don't mind turning a blind eye to it. 
+Just get out of my sight.
 \l
 
 \\@CHARA_IN@<1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0005", 100>
 Arcueid
-Otherwise, I might have to rip off
+If not, I might have to rip off
 those arms of yours, wires and all.
 
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 \\@CHARA_FACE@<1,2,15,350>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0074", 100>
 Mario
-I'm sure your friend Tohno would be repulsed by such
-brutality. Why not go easy and make it my fingers instead?
+Couldn't you stop at just the fingers, huh?
+Too vicious and the Tohno boy might stop likin' you.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0075", 100>
 Mario
-If you're going to keep company with humans,
-you have to act with a softer, more delicate touch.
+If you're gonna keep company with humans,
+you gotta act with a softer, more delicate touch.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0076", 100>
 Mario
-I'm not talking about the intricacies of romance here,
-but how fragile humans are.
+This ain't dating advice. Just sayin', Humans are fragile.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0077", 100>
 Mario
-You wouldn't want to accidentally wipe out your lover boy
-along with the zombies, would you?
+Without a bit a' grace, you might accidentally take out
+your lover boy when your eliminating the Dead.
 
 \\@CHARA_IN@<1, 0, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0006", 100>
 Arcueid
-Hmph! I don't need you to lecture me on that. I'll have you
-know I always carry myself with ladylike grace!
+Hmph! I-I don't need your advice!
+Also, I'm always graceful!
 \l
 
 \\@CHARA_IN@<1, 0, 16, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0007", 100>
 Arcueid
-A-And besides, he's not my "lover boy."
+A-And besides, he's not my "lover boy"...
 \l
 
 \\@CHARA_IN@<1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0008", 100>
 Arcueid
-He's just insurance.
+He's just...an insurance.
 I'm keeping him close at hand so he doesn't get away.
 
 \\@CHARA_IN@<0, 17, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0078", 100>
 Mario
-Well, well. You're not quite as
-thoughtless as I thought.
+Well, well. You seemed a bit soft, but I guess
+you've still a lil' bit hard at heart. That's great.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0079", 100>
 Mario
-When Roa does possess Tohno, you'll
+So when Roa's aboutta possess Tohno, you'll
 eliminate him right away, then?
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0080", 100>
 Mario
-It's just like killing chickens. Grasp the neck firmly
-and twist. Quick, easy, and humane.
+You take the neck firmly, 'til it goes crack.
+Just like you'd kill a chicken. 
+
 
 \\@CHARA_IN@<1, 0, 13, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0009", 100>
 Arcueid
-No... Shiki is not Roa's host but closer
-to a last minute refuge for his soul.
+No... Shiki isn't really Roa's host.
+He's more like an last resort shelter.
 \l
 
 \\@CHARA_IN@<1, 0, 2, 0, 1>
@@ -182,30 +181,30 @@ If I take him to my castle, he can still be saved.
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0081", 100>
 Mario
-Ah, that explains why you've been sticking to
-his side and playing all lovey-dovey.
+Ah, So that's why you've been sticking 
+to 'im and playing all lovey-dovey.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0082", 100>
 Mario
-I wish I could support you in this, I really do.
-The old man said he owed you a debt, after all.
+Wish I could support you in this, really do.
+Old man said he owed you a debt, after all
 \l
 
 \\@CHARA_IN@<0, 17, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0083", 100>
 Mario
-But circumstances have forced my hand.
-I'll have to risk earning your displeasure.
+Unfortunately, I got my own shit to worry about.
+I can't afford dying just 'cuz 'a your love-affair.
 \l
 
 \\@CHARA_OUT@<0, 17, 10, 0, 1>
 \\@CHARA_IN@<3, 17, 203, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0084", 100>
 Mario
-Give up on Tohno and return to
-your castle alone, Arcueid.
+Give up on Tohno.
+You'll be going home to the castle on your fuckin' own, Arcueid.
 \l
 
 \\@CHARA_IN@<1, 0, 2, 0, 10>

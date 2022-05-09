@@ -23,28 +23,29 @@ So...that's how it was.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0081", 100>
 Aoko
-I'm sorry, Mario. I thought for sure you'd been corrupted and
-gone over the to the Dead Apostles' side.
+I'm sorry, Mario. I thought for sure you were a corrupt clergyman 
+who'd gone over the to the Dead Apostles' side.
 
 \\@CHARA_IN@<0, 17, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0110", 100>
 Mario
-Give me some credit you walking disaster.
-How can a twelve year old brat be corrupt?
+Don't give me that shit, you walking disaster.
+You really think a 12 year-old brat would involve himself in corruption?
 \l
 
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0111", 100>
 Mario
-Someone's life is on the line here. I'm always straight and
-upright but I've got no time for roundabout methods.
+My life's on the goddamn line here. I go at things straight on.
+Ain't got no time for indirect methods.
+
 \l
 
 \\@CHARA_IN@<0, 17, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0112", 100>
 Mario
-Well, all my plans went up to ashes because of you!
-You're a damn walking disaster!
+Well, all my plans went to shit 'cuz 'a you!
+Got myself involved with one hell o'va pest!
 
 \\@CHARA_IN@<1, 15, 10, 0, 1>
 \\@CHARA_MUKI@<1,1>
@@ -60,7 +61,7 @@ from getting any worse.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0083", 100>
 Aoko
-I think it should be fine...?
+Basically as long as......you'll be fine right?
 Why don't you try asking to my sister?
 \l
 
@@ -68,8 +69,8 @@ Why don't you try asking to my sister?
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0084", 100>
 Aoko
-Trust me, there's nobody who's better
-at weaseling out of danger against all odds.
+There's no other weirdo as good as her when it 
+comes to devising clever ways of keeping yourself safe.
 
 \\@BGM_FADE@<0, -1, 0, -2, 0>
 \\@FADE_OUT@<0, 255, 255, 255, 0>
@@ -96,14 +97,14 @@ Executor Ciel remained in Souya.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0114", 100>
 Mario
-After that, a major incident occurred in town,
-but none were made privy to the details.
+After that, it appears as if a major incident occurred there,
+but nobody could observe it.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0115", 100>
 Mario
-Seems like they're trying to cover things up.
-It's probably better if we don't get involved.
+Hm. There probably was some kind of terrifying battle, huh.
+Don't wanna get involved.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0116", 100>
@@ -123,27 +124,25 @@ I think we can chalk this one up as a win.
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0031", 100>
 Noel
 I mean, we beat back the True Ancestor, exterminated Roa,
-and drove off that Magician,
-too. Ciel even got herself a new apprentice!
+and drove off that Magician, too. 
+Ciel even got herself a new apprentice!
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0117", 100>
 Mario
-I have a feeling this is only the beginning...
+Got a feeling it's just the beginning of a long road ahead...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0118", 100>
 Mario
-You're getting a fresh start.
-You'll be retraining under me for another year
-in the mean time.
+For that matter, you're starting anew, fucker.
+Re-education under me, for 1 year at least.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0119", 100>
 Mario
-I'm gonna fix up that attitude of yours too.
-When that's done, I'll send you off
-to your next Church assignment.
+I'm gonna fix up you up, attitude an' all.
+Once we're done with that, I'll send you off to some random church.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0032", 100>
 Noel
@@ -157,20 +156,20 @@ I want to start living the good life!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0120", 100>
 Mario
-I can't imagine what use I'd find for
-you, but maybe I'll figure something out.
+Uh... Got myself a useless pawn then, at least for my purposes.
+Well, at least you're still alive somehow.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0121", 100>
 Mario
-Now... Touko Aozaki, the master puppet maker.
-If I can enlist her help, this may not be over after all.
+Now... Touko Aozaki, the peerless puppeteer.
+If she turns out to be of any help, this may not be over after all.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0122", 100>
 Mario
 The road Roa paved is still intact.
-We just have to follow this thread and see where it leads.
+If I just follow this thread to where it leads then...
 \l
 
 \\@SQ_CALL@<3>
@@ -179,8 +178,8 @@ We just have to follow this thread and see where it leads.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0123", 100>
 Mario
-Deep down, I already knew this would be a huge pain.
-I have a feeling I'll need to return to this town again someday.
+It's gonna be supremely annoying but...
+I have a feeling I'll need to return to this city again someday.
 
 \\@SYSTEM@<21>
 \aw

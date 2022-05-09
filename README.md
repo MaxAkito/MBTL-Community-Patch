@@ -48,7 +48,7 @@ The amount of characters supported by the battle voice format is remarkably long
 | DA Noel   (014) | Secondary editing done (Petri) |
 | Aoko      (015) | Tertiary editing done (Petri) |
 | P. Ciel   (016) |                              |
-| Mario     (017) |                              |
+| Mario     (017) | Initial editing done (Petri) |
 
 ### Win-quotes
 

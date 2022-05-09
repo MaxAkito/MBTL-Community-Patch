@@ -28,13 +28,13 @@ I was about to lose consciousness...!
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0061", 100>
 Powered_Ciel
 So that's what a True Ancestor looks like without its body...
-a Luminous Body made of pure ether...!
+a spiritron-frame made from ether...!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0062", 100>
 Powered_Ciel
 (But it's changing from a phenomenon into a lifeform...!
- If that happens, this world is done for...!)
+ If such a thing is established, the world will shear and collapse!)
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0020", 100>
 Red_Arcueid
@@ -50,13 +50,13 @@ That body's capabilities is the pinnacle of human potential.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0022", 100>
 Red_Arcueid
-Not that it makes all that much difference to me.
+Though such comparisons belongs in a lower dimension for me.
 I may as well be comparing one tiny pebble to another.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0023", 100>
 Red_Arcueid
-Are you ready to finish this?
+Let us continue, my wonderful little doll!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0024", 100>
@@ -73,7 +73,7 @@ Be'ze's Guillotine...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0026", 100>
 Red_Arcueid
-And now, Einnashe's Bell Tower.
+And now, Einnashe's Belfry.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0027", 100>
@@ -85,7 +85,7 @@ Maybe they'll give you a fighting chance.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0028", 100>
 Red_Arcueid
 I'll let you throw whatever you have at me.
-And I will show you how futile it is.
+And then I'll overcome it.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0029", 100>
@@ -102,24 +102,24 @@ ever made me feel this kind of thrill!
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0031", 100>
 Red_Arcueid
 Oh, don't run away now. You can do this!
-Hit me with that meteor thing you used before!
+Give me something big, like a meteor!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0032", 100>
 Red_Arcueid
-I'll take everything you can throw at me and rip
-your pride apart, piece by piece!
+I'll take everything you can throw at me, tearing
+it pieces together with that paltry pride of yours.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0063", 100>
 Powered_Ciel
-Fine. But let me tell you right now,
-that overconfidence will be your downfall.
+Very well then.
+But know that your overconfidence will be your undoing.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0064", 100>
 Powered_Ciel
 If you want to experience real pain that badly,
-then I suppose I'm the most qualified woman for the job.
+then I suppose this would be the tool for the job.
 \l
 
 \\@SQ_CALL@<3>
@@ -128,7 +128,7 @@ then I suppose I'm the most qualified woman for the job.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0065", 100>
 Powered_Ciel
-Emissary of Heaven, Crucifixion Reverb. Leaves of Steel,
+Emissary of Heaven, Sound of Crucifixion. Foliage of Blades,
 Waves of Iron. Idea Blood Number Seven, Forest of Einnashe.
 \l
 
@@ -137,8 +137,8 @@ Waves of Iron. Idea Blood Number Seven, Forest of Einnashe.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0066", 100>
 Powered_Ciel
-Blossom forth, Altar of the Grove! Strike not a fatal blow,
-but keep our foe alive in never-ending pain!
+Altar of the Plants, give harvest! Strike not a fatal blow,
+but repel this biosphere through neverending torment!
 
 \\@SYSTEM@<21>
 \aw

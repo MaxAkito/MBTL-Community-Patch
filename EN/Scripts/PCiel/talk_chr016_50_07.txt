@@ -24,14 +24,14 @@ caught up with you.
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0041", 100>
 Powered_Ciel
 Turn and face me, Arcueid.
-You know I've been following you, don't you?
+You noticed I was following you, didn't you?
 \l
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0042", 100>
 Powered_Ciel
 I have no intention of shooting you in the back.
-Let me exterminate you face-to-face.
+I will exterminate this True Ancestor fallen to evil face-to-face.
 
 \\@CHARA_IN@<4, 10, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0000", 100>
@@ -45,22 +45,21 @@ What perfect timing.
 \\@CHARA_FACE@<1,0,8,290>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0001", 100>
 Red_Arcueid
-I guess you saved me the trouble of tracking you down.
-That voice of yours really pisses me off, though.
+I want to say you saved me the trouble of tracking you down but...
+Now that I hear your voice it's really pissing me off.
 \l
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0002", 100>
 Red_Arcueid
-You and Shiki both seem to have a talent
-for making me see red.
+First Shiki, and now you. Good lord.
+You people really have a talent at pissing me off.
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0043", 100>
 Powered_Ciel
-I'll only ask this once, Arcueid...
-Where is Roa's host now?
-
+Are you by yourself, Arcueid?
+Where is Roa's host?
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 \\@CHARA_IN@<1, 10, 5, 0, 1>
@@ -74,44 +73,42 @@ away in my castle.
 \\@CHARA_IN@<1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0004", 100>
 Red_Arcueid
-I casually tossed him in there, and he hit the castle tower
-and tumbled down. He was like a rag doll by the time
-he hit the ground.
+I tossed him in there pretty sloppily, so he fell down from the 
+castle tower and was kinda beat up by the time he hit the ground.
 \l
 
 \\@CHARA_IN@<1, 10, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0005", 100>
 Red_Arcueid
 But he's half-vampire now,
-so I guess he might have survived.
+so he's probably still alive.
 \l
 
 \\@CHARA_IN@<0, 16, 7, 0, 1>
 \\@CHARA_IN@<1, 10, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0006", 100>
 Red_Arcueid
-It's not like he'd be able to escape from
-my giant castle, anyway.
+Not like he'd be able to escape my castle with his
+puny little body though.
 \l
 
 \\@CHARA_IN@<1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0007", 100>
 Red_Arcueid
 He can wander around like an ant and even
-if he reaches the exit it won't do him any good.
+if he reaches the exit, oh poor thing...
 \l
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0008", 100>
 Red_Arcueid
-He'll look up at a wall he can't get over.
-He can suffer for the rest of time for all I care.
-It's no less than he deserves.
+He'll look up at the unsurmountable wall in front of him,
+there he'll have to suffer then, for the rest of his life.
 
 \\@CHARA_IN@<0, 16, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0044", 100>
 Powered_Ciel
-You surprise me.
+I'm suprised.
 I didn't think you were capable of such emotion.
 \l
 
@@ -119,45 +116,42 @@ I didn't think you were capable of such emotion.
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0045", 100>
 Powered_Ciel
 He actually managed to inflict some serious damage on you.
-Are you sure you didn't throw him away out of fear?
+Are you sure you didn't get rid of him out of fear?
 
 \\@CHARA_IN@<1, 10, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0009", 100>
 Red_Arcueid
-Not a chance.
-There's no reason for me to be afraid of him or keep him
-at a distance.
+Of course I didn't. 
+I have no reason to fear him, or to get rid of him.
 \l
 
 \\@CHARA_IN@<1, 10, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0010", 100>
 Red_Arcueid
-It was like flicking a bug off a piece of fruit.
-I barely even thought about it.
+I took him by the neck and flung him away.
+It was as easy as plucking a banana.
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0046", 100>
 Powered_Ciel
-I see. Did you know that there's still a scar on your neck?
-
+I see. 
+Did you know that there's still a scar on your neck?
 
 \\@CHARA_IN@<1, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0011", 100>
 Red_Arcueid
 ...!
 
-
 \\@CHARA_IN@<0, 16, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0047", 100>
 Powered_Ciel
-I wanted to say that.
+Just wanted to point that out.
 Thanks for the explanation.
 
 \\@CHARA_IN@<1, 10, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0012", 100>
 Red_Arcueid
 Ciel...
-
 
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
@@ -177,22 +171,22 @@ And you betrayed that trust.
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0050", 100>
 Powered_Ciel
-There will be no salvation for you, no absolution.
-Vampires deserve no such mercy.
+I cannot allow you any purification. Nor reprentence, or confession. 
+That's too lenient for a mere vampire like you.
 \l
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0051", 100>
 Powered_Ciel
 The only thing I can offer you is judgement.
-That, and a thousand painful deaths.
+To be crushed, flattened, burned to death. Pick whichever you'd like.
 \l
 
 \\@CHARA_IN@<0, 16, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0052", 100>
 Powered_Ciel
-I doubt a normal death
-would satisfy you, right?
+After all, I doubt a normal death
+would satisfy you, am I wrong?
 
 \\@CHARA_IN@<1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0013", 100>
@@ -203,8 +197,8 @@ Hmph.
 \\@CHARA_IN@<1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0014", 100>
 Red_Arcueid
-Have it your way. I'm eager to begin this little dance.
-Prepare yourself, Ciel!
+Sure, I'm so happy I could go mad!
+Let's commence the dance, Ciel!
 \l
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>

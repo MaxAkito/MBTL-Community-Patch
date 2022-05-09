@@ -47,7 +47,7 @@ The amount of characters supported by the battle voice format is remarkably long
 | Boss Rush (013) | Initial editing done (Petri) |
 | DA Noel   (014) | Secondary editing done (Petri) |
 | Aoko      (015) | Tertiary editing done (Petri) |
-| P. Ciel   (016) |                              |
+| P. Ciel   (016) | Initial editing done (Petri) |
 | Mario     (017) | Initial editing done (Petri) |
 
 ### Win-quotes

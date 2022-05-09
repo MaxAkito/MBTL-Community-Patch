@@ -13,7 +13,7 @@
 \\@CHARA_IN@< 0, 6, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0020", 100>
 Kishima
-You, hunter over there. Do you require warmth?
+You, huntsman over there. Do you require warmth?
 How many years has it been since your body lost its heat?
 
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
@@ -25,7 +25,7 @@ It has been about 100 years...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0031", 100>
 Volv
 Compared to my liege's suffering,
-it's too early for me to receive any pity.
+it's far too early for me to receive any pity.
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
@@ -54,7 +54,7 @@ Indeed... Such is how a warrior ought to be.
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0021", 100>
 Kishima
-These are just some martial arts I picked up,
+These are just some martial arts I've picked up,
 but if that's all right with you allow me to show you.
 \l
 

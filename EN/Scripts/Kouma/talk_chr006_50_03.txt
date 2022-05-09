@@ -19,15 +19,16 @@ Stop right there, mister.
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0011", 100>
 Ciel
-You don't seem to be a vampire, yet your violent cannot be 
-overlooked. Especially so if you're not a vampire, actually.
+You don't seem to be a vampire, but your atrocities cannot be 
+overlooked. Actually, that goes double if you're not a vampire.
 \l
 
 \\@CHARA_IN@< 1, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0012", 100>
 Ciel
-To pass oneself off as having the blood of gods is not right, 
-even though your bloodline may be unique to this country and unrelated to the Holy Father's...
+It is unacceptable that you'd claim to be of divine blood...
+Even if your bloodline may be native to this country and 
+unrelated to the Holy Father's.
 \l
 
 \\@CHARA_IN@< 1, 11, -1, 0, 1>
@@ -45,8 +46,8 @@ Must be quite tiring bringing yourself all this way...
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0011", 100>
 Kishima
-Invasion was your people's creed, was it?
-The strength of having one thing to believe in...
+Incursion lies at the heart of your creed
+There is strength in monotheism...
 \l
 
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
@@ -64,7 +65,7 @@ Even so, such a fastidious lifestyle must be difficult...
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0014", 100>
 Kishima
-You commit no foul play against those who bear no sin.
+You deploy no underhanded tactics against those who bear no sin.
 Hopefully such compassion is backed up by ability.
 
 \\@CHARA_IN@< 1, 11, 5, 0, 1>
@@ -77,7 +78,7 @@ but you prove to be quite eloquent...
 \\@CHARA_IN@< 1, 11, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0015", 100>
 Ciel
-You're a Buddhist even though you aren't human?
+You're a Buddhist even though you're a non-human?
 
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0015", 100>
@@ -90,7 +91,7 @@ No more talk, give up on your conversion attempt.
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0016", 100>
 Kishima
 Face me, woman who knows not death.
-I'll help you out with that tediousness.
+I'll help you out with that ennui.
 
 
 \\@BGM_STOP@<0>

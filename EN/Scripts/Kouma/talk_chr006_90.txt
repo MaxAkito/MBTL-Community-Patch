@@ -25,7 +25,7 @@ He still had power left after all that.
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0031", 100>
 Kishima
 Fighting while protecting the souls of 10 people...
-It is not a state of mind that a Lone-Horn such as I can relate to.
+It's not a way of thinking that a Lone-Horn such as I could relate to.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0032", 100>
@@ -36,8 +36,8 @@ just wander in here by accident.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0033", 100>
 Kishima
-It would seem there's something 
-deeper buried in this city...
+It would seem there's an even greater
+scheme arranged for in this city...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0034", 100>
 Kishima

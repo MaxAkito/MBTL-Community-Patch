@@ -46,15 +46,15 @@ chara_type_sub1 300
 chara_switchframe1 540
 Being a kid's real nice, socially speaking. Can just pick as many
 fights as I want. Sorry, talkin' to myself here.
-Don't worry about it. Go take a nap, kid.
+Don't worry 'bout it. Go take a nap, kid.
 \e
 
 WinMes06:
 chara_type 100
 Always had a knack for violence. 
 Much more useful than Theology, at least.
-The times I get to use it have gone down
-the shitter ever since I became Acting Presbyter though.
+The times I get to use it have gone down the shitter 
+ever since I became Acting Presbyter though.
 \e
 
 WinMes07:
@@ -136,7 +136,7 @@ WinMes15:
 chara_type 306
 You fucking snake bastard.
 A tarantella's wasted on your ass.
-Make do with a scherzo instead.
+A scherzo's all you'll get.
 \e
 
 // ëŒÉmÉGÉã
@@ -147,7 +147,7 @@ chara_switchframe 680
 I'm not dumb enough to compare you to Ciel but...
 Man, your movements are way too simple.
 You seem kinda sloppy, but damn you're stubborn...
-(Maybe I should give her some confidence from time to time.)
+(I should give her some confidence from time to time.)
 \e
 
 // ëŒéÄìkÉmÉGÉã
@@ -155,7 +155,7 @@ WinMes17:
 chara_type 306
 Soprano, Alto. Elegy permitted.
 And make sure she's buried with care, will ya?
-End 'a the day, she worked hard for the sake of others.
+End 'a the day, she kept working hard for the greater good.
 \e
 
 // ëŒê¬éq
@@ -173,7 +173,7 @@ WinMesArcadeWin00:
 chara_type 107
 chara_type_sub 101
 chara_switchframe 465
-Phew. Somehow drove her back.
+Phew. Drove her back somehow.
 Thank god she was so mentally unstable...
 With that I've cleared all hurdles. Nothing more to worry 'bout.
 Now I just gotta wait for Roa to wake up.
@@ -210,5 +210,5 @@ Ain't bad, off to a good start.
 WinMes10WinStreak00:
 chara_type 302
 Ten straight wins! Good shit, I love competent people!
-Hey, how about you work under me? I'll treat ya well.
+Hey, how 'bout you work under me? I'll treat ya well.
 \e

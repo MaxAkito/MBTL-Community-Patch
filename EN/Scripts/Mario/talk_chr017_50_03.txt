@@ -38,7 +38,7 @@ Are you one of Laurentis' kids?
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0072", 100>
 Mario
 That's right, one of his many biological sons.
-First time we meet, but there's no need for introductions.
+It's the first time we meet, but no need for introductions.
 \l
 
 \\@CHARA_FACE@<0,10,6,210>
@@ -100,14 +100,14 @@ you gotta act with a softer, more delicate touch.
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0076", 100>
 Mario
-This ain't dating advice. Just sayin', Humans are fragile.
+And that ain't dating advice. Just sayin', Humans are fragile.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0077", 100>
 Mario
 Without a bit a' grace, you might accidentally take out
-your lover boy when your eliminating the Dead.
+your lover boy when you're eliminating the Dead.
 
 \\@CHARA_IN@<1, 0, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0006", 100>
@@ -132,7 +132,7 @@ I'm keeping him close at hand so he doesn't get away.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0078", 100>
 Mario
 Well, well. You seemed a bit soft, but I guess
-you've still a lil' bit hard at heart. That's great.
+you're still a lil' bit hard at heart. That's great.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
@@ -154,7 +154,7 @@ Just like you'd kill a chicken.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0009", 100>
 Arcueid
 No... Shiki isn't really Roa's host.
-He's more like an last resort shelter.
+He's more like an safe shelter.
 \l
 
 \\@CHARA_IN@<1, 0, 2, 0, 1>
@@ -182,7 +182,7 @@ If I take him to my castle, he can still be saved.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0081", 100>
 Mario
 Ah, So that's why you've been sticking 
-to 'im and playing all lovey-dovey.
+to close to 'im and playing all lovey-dovey.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
@@ -204,7 +204,7 @@ I can't afford dying just 'cuz 'a your love-affair.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0084", 100>
 Mario
 Give up on Tohno.
-You'll be going home to the castle on your fuckin' own, Arcueid.
+You'll be going home to the castle on your own, Arcueid.
 \l
 
 \\@CHARA_IN@<1, 0, 2, 0, 10>

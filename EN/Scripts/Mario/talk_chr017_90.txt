@@ -97,13 +97,13 @@ Executor Ciel remained in Souya.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0114", 100>
 Mario
-After that, it appears as if a major incident occurred there,
-but nobody could observe it.
+After that, it appears as if a major incident occurred,
+though nobody could observe it.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0115", 100>
 Mario
-Hm. There probably was some kind of terrifying battle, huh.
+Hm. Probably was some kind of terrifying battle.
 Don't wanna get involved.
 \l
 
@@ -136,7 +136,7 @@ Got a feeling it's just the beginning of a long road ahead...
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0118", 100>
 Mario
 For that matter, you're starting anew, fucker.
-Re-education under me, for 1 year at least.
+You're getting a re-education under me, for 1 year at least.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0119", 100>
@@ -156,8 +156,8 @@ I want to start living the good life!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0120", 100>
 Mario
-Uh... Got myself a useless pawn then, at least for my purposes.
-Well, at least you're still alive somehow.
+*Sigh* And my big prize turns out to be a useless pawn. 
+Just coming out of this alive was a huge plus
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0121", 100>
@@ -169,7 +169,7 @@ If she turns out to be of any help, this may not be over after all.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0122", 100>
 Mario
 The road Roa paved is still intact.
-If I just follow this thread to where it leads then...
+If I can just see where this thread leads then...
 \l
 
 \\@SQ_CALL@<3>

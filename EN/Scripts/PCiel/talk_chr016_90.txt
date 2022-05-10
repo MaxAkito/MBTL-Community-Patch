@@ -137,8 +137,8 @@ Waves of Iron. Idea Blood Number Seven, Forest of Einnashe.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0066", 100>
 Powered_Ciel
-Altar of the Plants, give harvest! Strike not a fatal blow,
-but repel this biosphere through neverending torment!
+Planting Altar, give harvest! Strike not a fatal blow,
+but repel this bioform through neverending torment!
 
 \\@SYSTEM@<21>
 \aw

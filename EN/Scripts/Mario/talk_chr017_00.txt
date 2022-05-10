@@ -69,7 +69,7 @@ Why are there so many unexpected annoyances all 'a sudden?
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0051", 100>
 Mario
-The True Ancestor Princess, one a' the 27 Ancestors outta nowhere,
+The True Ancestor Princess, one of a' the 27 Ancestors outta nowhere,
 and then an elite from the Burial Agency together with this useless 
 fatass of a Sister...?
 
@@ -77,7 +77,6 @@ fatass of a Sister...?
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0017", 100>
 Noel
 ...
-
 
 
 \\@CHARA_IN@<0, 17, 6, 0, 1>
@@ -117,7 +116,7 @@ then you just gotta keep procting 'em, by force if necessary.
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0018", 100>
 Noel
 I have keep him alive? Even though he's the 
-host for reincartion of the heretical Roa?
+potential reincarnation of the heretical Roa?
 
 
 \\@CHARA_IN@<0, 17, 10, 0, 1>
@@ -177,8 +176,8 @@ As per your orders, I'll protect Shiki with my life!
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0062", 100>
 Mario
-Dumbass. Ain't no way I'm sending out your incompetent ass against
-a True Ancestor. Still, you're fine as it is.
+Dumbass. Ain't no way I'd send out your incompetent ass against
+a True Ancestor. Though, there's something to be said about your defects.
 \l
 
 
@@ -225,7 +224,7 @@ Both physically, and mentally.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0066", 100>
 Mario
 First though, guy's gotta get some warmup. Get ready, fatso.
-You look like you could stand to lose weight anyway.
+You look like you could stand to lose some weight anyway.
 
 \\@BGM_STOP@<0>
 \e

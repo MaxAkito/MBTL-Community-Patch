@@ -142,7 +142,7 @@ Tell me, who the hell put you up to this?!
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0094", 100>
 Mario
 Who the hell is it that's dumb enough to think they can take
-my catch from under my goddamn nose!
+my prey right from under my goddamn nose!
 
 \\@CHARA_IN@<1, 15, 2, 0, 1>
 \\@CHARA_MUKI@<1,1>
@@ -173,13 +173,13 @@ then things would go pretty badly for all of us.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0073", 100>
 Aoko
 But he never told me exactly what it was that would go
-so "badly". But, you know given that...
+so "badly". But you know, given that...
 
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0095", 100>
 Mario
 ...You'd rather take out one 'a the concerned parties
-before it could happen. You act like a goddamn troll.
+before anything could happen. You act like a goddamn troll.
 \l
 
 \\@CHARA_IN@<0, 17, 1, 0, 1>
@@ -199,7 +199,7 @@ been fine with handing over the city to 'im.
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0098", 100>
 Mario
-What now? Now that you've prevented any further causalties,
+What then? Now that you've prevented any further causalties,
 what's on the agenda for Miss Superhero?
 
 \\@CHARA_IN@<1, 15, 4, 0, 1>
@@ -231,7 +231,7 @@ and eradicate it at the source.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0077", 100>
 Aoko
 You really are a good guy at heart, right?
-Someone who'd do anything if its for a good cause.
+Someone who'd do anything if it's for a good cause.
 
 \\@CHARA_IN@<0, 17, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0099", 100>

@@ -61,8 +61,8 @@ Y'know, a hound that don't listen
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0034", 100>
 Mario
-So this is the last time imma say this.
-Leave Roa alone...... fucker, what're you shuttin' up for?
+So this is the last time I'mma say this.
+Leave Roa alone...... What're you shuttin' up for?
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0032", 100>
@@ -112,7 +112,7 @@ He got his shit sorted with Roa on all his own.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0038", 100>
 Mario
-But since he was Roa's host, somethin' even more
+But since he was Roa's host, somethin' even
 worse set its eyes on 'im.
 \l
 
@@ -133,7 +133,7 @@ duty to exterminate the True Ancestor.
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0036", 100>
 Powered_Ciel
-I'll defeat her, making her take responsibility
+I'll defeat her to make her take responsibility
 for creating Roa. Do you have a problem with that?
 
 \\@CHARA_IN@<1, 17, 7, 0, 1>

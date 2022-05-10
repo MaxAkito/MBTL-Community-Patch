@@ -24,7 +24,7 @@ What happened to your nun's habit?!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0001", 100>
 Noel
 Nobody told me we'd be launching an all-out assault on the city!
-I only brought my Anti-Dead-Apostle gear with me!
+I only brought my Anti-Dead Apostle gear with me!
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0010", 100>
@@ -43,7 +43,7 @@ Additionally, one of the 27 Ancestor's Principles has been detected.
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0012", 100>
 Powered_Ciel
-Both parties engaged in battle the day following Arcuied Brunsted's 
+Both parties engaged in battle the day following Arcueid Brunsted's 
 initial contact with investigation target Shiki Tohno.
 \l
 
@@ -70,14 +70,14 @@ her personal feelings over her objective of hunting down Dead Apostles.
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0016", 100>
 Powered_Ciel
-She's like a nuclear fusion reaction gone out of control.
+It's as if we're letting a walking sun go loose.
 We need to take quick countermeasures.
 
 \\@CHARA_IN@<1, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0002", 100>
 Noel
 Sounds serious...
-Alright... Understood.
+Okaaay, understood.
 \l
 
 \\@CHARA_IN@<1, 8, 9, 0, 1>
@@ -97,9 +97,8 @@ While you're dealing with her, I'll keep an eye on the target\sf000
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0017", 100>
 Powered_Ciel
 We still don't have a confirmation about his status,
-But at the very least, try not to let him escape.
+but at the very least, try not to let him escape.
 \l
-
 
 \\@CHARA_IN@<0, 16, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0018", 100>
@@ -107,7 +106,6 @@ Powered_Ciel
 Roa can tell that Arcueid has appeared.
 He's sure to make some kind of move.
 \l
-
 
 \\@CHARA_IN@<0, 16, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0019", 100>
@@ -137,15 +135,13 @@ That'll confirm that our target is Roa, so I'll just cut
 his legs off and bring him over here...
 \l
 
-
 \\@CHARA_IN@<1, 8, 11, 0, 1>
 \\@CHARA_FACE@<1, 11, 0, 210>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0007", 100>
 Noel
 Hey, what are you looking so mad about?
-Oh, I get it... It's about Shiki, isn't it?
+Oh, I get it... It's about Shiki's execution, isn't it?
 \l
-
 
 \\@CHARA_IN@<1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0008", 100>
@@ -153,7 +149,6 @@ Noel
 Don't worry, 
 I won't claim all the glory for myself.
 \l
-
 
 \\@CHARA_IN@<1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0009", 100>
@@ -165,7 +160,6 @@ I mean, this is what we've been waiting for all this time, right?
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0021", 100>
 Powered_Ciel
 ...
-
 
 \\@BGM_STOP@<0>
 \e

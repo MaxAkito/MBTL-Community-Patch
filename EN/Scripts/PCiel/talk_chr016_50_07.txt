@@ -30,8 +30,8 @@ You noticed I was following you, didn't you?
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0042", 100>
 Powered_Ciel
-I have no intention of shooting you in the back.
-I will exterminate this True Ancestor fallen to evil face-to-face.
+I have no intention of shooting you in the back. I will exterminate
+you face-to-face, True Ancestor fallen to evil that you are.
 
 \\@CHARA_IN@<4, 10, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0000", 100>
@@ -52,7 +52,7 @@ Now that I hear your voice it's really pissing me off.
 \\@CHARA_IN@<1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0002", 100>
 Red_Arcueid
-First Shiki, and now you. Good lord.
+First Shiki, and now you. Good grief.
 You people really have a talent at pissing me off.
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
@@ -96,7 +96,7 @@ puny little body though.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0007", 100>
 Red_Arcueid
 He can wander around like an ant and even
-if he reaches the exit, oh poor thing...
+if he reaches the exit, oh the poor thing...
 \l
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>
@@ -165,28 +165,28 @@ Good. I'm about to as well.
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0049", 100>
 Powered_Ciel
 He believed in you. He even respected you.
-And you betrayed that trust.
+And yet you betrayed that trust.
 \l
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0050", 100>
 Powered_Ciel
-I cannot allow you any purification. Nor reprentence, or confession. 
-That's too lenient for a mere vampire like you.
+I have no baptism to offer you. There will be no repentance, 
+or confessions either. That's too good for a mere vampire like you.
 \l
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0051", 100>
 Powered_Ciel
 The only thing I can offer you is judgement.
-To be crushed, flattened, burned to death. Pick whichever you'd like.
+To be crushed, flattened or burned to death. Pick whichever you'd like.
 \l
 
 \\@CHARA_IN@<0, 16, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0052", 100>
 Powered_Ciel
 After all, I doubt a normal death
-would satisfy you, am I wrong?
+would satisfy you, or am I wrong?
 
 \\@CHARA_IN@<1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0013", 100>

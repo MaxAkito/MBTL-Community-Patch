@@ -4,21 +4,21 @@ WinMesScript
 WinMes00:
 chara_type 3
 Elimination complete.
-Shifting armaments to ground state. Proceeding to next target.
+Transitioning all armaments to ground state. Proceeding to next mission.
 \e
 
 WinMes01:
 chara_type 3
 Usually, I like to rely on technique and experience.
-But now, I can just power through.
-You were no match for me!
+But with these armaments, I can just power through.
+Someone like you cannot stop me.
 \e
 
 WinMes02:
 chara_type 0
-If that's all you've got, you never stood a chance.
-My body's been magically augmented.
-I wouldn't be able to wield these weapons otherwise.
+You're completely outclassed. Pathetic.
+My physical power has been strengthened using magecraft. 
+I'm handling these heavy weapons with my womanly body, so I have to.
 \e
 
 WinMes03:
@@ -34,23 +34,23 @@ chara_type 1
 chara_type_sub 3
 chara_switchframe 450
 Blaze, Blade, Break.
-These three make up my core arms.
-How did do you like them?
+These three are currently my primary armaments.
+Were they to your liking?
 \e
 
 WinMes05:
 chara_type 203
 My Magic Circuits are on a different level to yours.
 It's like comparing the engines of a motorcycle to
-a rocket's. You don't stand a chance.
+a rocket's. Did you really think you stood a chance?
 \e
 
 // 対アルクェイド
 WinMes06:
 chara_type 3
-You underestimated your opponent, Arcueid.
-If you'd powered up any more, I might have been in trouble.
-But I was quicker on the draw. This is the end.
+You underestimated MY state of excitation, Arcueid.
+I managed to gouge out your heart faster than you were
+able to reach your full potential power.
 \e
 
 // 対志貴
@@ -58,10 +58,10 @@ WinMes07:
 chara_type 104
 chara_type_sub 102
 chara_switchframe 490
-Whatever your original intentions,
-you're a part of this now.
+Your intentions may be good,
+but you're a part of this now.
 I'd recommend laying low for a few nights.
-What do you say?
+You got that?
 \e
 
 // 対秋葉
@@ -69,9 +69,9 @@ WinMes08:
 chara_type 103
 chara_type_sub 105
 chara_switchframe 600
-I ought to eliminate you here and now, but...
-I believe in your humanity. Or rather, your self-respect.
-Because... In that aspect, above all else,
+Obviously I ought to eliminate you here and now, but...
+I'll chose to believe in your humanity. Or rather, the dignity you 
+have in you. Because... In that aspect, above all else,
 you're the strongest person I know, Akiha.
 \e
 
@@ -79,17 +79,17 @@ you're the strongest person I know, Akiha.
 WinMes09:
 chara_type 1
 Now that was a battle of pure power versus power.
-You need to learn to control your true nature,
-and I need to become more worthy of the agency.
-Looks like we both have a ways to go until we can settle things.
+That said, you've yet to show your true nature,
+just as I've yet to deploy the entirety of the Seventh Holy Scripture.
+We'll see which one of us is strongest when that times comes.
 \e
 
 //対マーリオゥ
 WinMes10:
 chara_type 203
 Creatura's Piano Machine...
-You're the last person I expected to see
-wielding an ancient weapon like that.
+To think the esteemed Acting Presbyter
+would be wielding such an old-fashioned weapon.
 \e
 
 //対ノエル
@@ -97,33 +97,33 @@ WinMes11:
 chara_type 1
 chara_type_sub 0
 chara_switchframe 600
-Looks like you still have some awareness of your duty.
-And your skills have improved somewhat, too.
-What happened to get you so motivated all of a sudden,
-Sister Noel?
+It appears you're at least keeping yourself at the minimum standard
+befitting of an Exectuor. Actually, your skills have gotten a bit 
+sharper lately. Did you perhaps discover some source of motivation
+to improve, Sister Noel?
 \e
 
 //対死徒ノエル
 WinMes12:
 chara_type 1
-Conviction without the power to back it up is meaningless.
+Might makes right.
 Dead Apostle Noel...
-May you suffer for your sins, and your lack of strength.
+I shall put your weakness to judgment.
 \e
 
 // 対ロア
 WinMes13:
 chara_type 1
-I'm putting an end to you, Serpent of Akasha.
-Your tainted soul is no match for the Seventh Holy Scripture.
-All your heretical ideals have earned you is eternal darkness.
+This is the end, Serpent of Akasha.
+I've shattered your soul with the Seventh Holy Scripture.
+All your twisted beliefs have led to are the depths of darkness.
 \e
 
 // 対吸血鬼
 WinMes14:
 chara_type 203
-Inhuman creatures like you deserve no sympathy.
-Your death will be nothing more than another notch on my belt.
+I have no sympathy or understanding to spare for inhuman creatures as you.
+Your death will amount to no more than a single line of text in my report.
 \e
 
 // 対青子
@@ -135,17 +135,17 @@ chara_type_sub1 204
 chara_switchframe1 760
 So that was the Fifth Magician...
 She and I are kind of alike...but also complete opposites.
-Between her speed and my regenerative power,
-I wonder who is more exceptional?
+I boast an unprecedented Magical Energy production amount,
+while she boasts an anomalous acceleration amount. Something like that.
 \e
 
 
 // 対マーリオゥ（ストーリー専用）
 WinMesArcadeWin17:
 chara_type 203
-Sorry, but I'm in a hurry.
-The Executors can treat your wounds.
-Thank you for the advice, though.
+Excuse me, but I have to hurry.
+I'll leave your wounds to the Executors you have with you.
+That said, I am grateful for the advice.
 \e
 
 
@@ -156,14 +156,14 @@ Thank you for the advice, though.
 
 WinMes3WinStreak00:
 chara_type 204
-Three victories for me. Well, it's only natural.
-This is nothing worth celebrating just yet.
+Three straight wins. Not that its anything particular.
+It's true that I'm in good condition though. 
 \e
 
 WinMes10WinStreak00:
 chara_type 0
 chara_type_sub 4
 chara_switchframe 330
-Ten consecutive wins... Heehee. I like that.
+Ten consecutive wins... I see, ten whole wins... Hehe.
 I think I'm worthy of being called a champion, don't you?
 \e

@@ -70,8 +70,8 @@ The amount of characters supported by the battle voice format is remarkably long
 | Miyako    (013) | Initial editing done (Petri) | 
 | DA Noel   (014) | Initial editing done (Petri) |
 | Aoko      (015) | Initial editing done (Petri) |
-| P. Ciel   (016) |                              |
-| Mario     (017) |                              |
+| P. Ciel   (016) | Initial editing done (Petri) |
+| Mario     (017) | Initial editing done (Petri) |
 
 ### Strings
 

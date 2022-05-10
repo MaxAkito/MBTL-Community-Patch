@@ -128,34 +128,34 @@ In addition, some things are capitalized by virtue of being names of association
 
 | Japanese    | English                 | Explanation             |
 | :---------- |:----------------------- |:-----------------------
-| 原理　　　　　　　　| Principle               | Ability gained by vampires that live long.
-| 原理血戒　　　　　| Idea Blood              | Ability possessed by the 27 Ancestors.
-|　使徒　　　　　　　　| Dead Apostle            | The common type of vampire.
-| 二十七祖　　　　　|　27 Ancestor(s)          | The most powerful type of Dead Apostle.
-|　真祖　　　　　　　　| True Ancestor           | The rare type of vampire.
-|　吸血種　　　　　　| bloodsucker              | A species that sucks blood.
-|　吸血鬼　　　　　　| vampire                  | A type of bloodsucker (includes DA and TA)
-|　吸血衝動　　　　　| vampiric urges          | The urge to suck blood. Strong among TA.
-|　魔術　　　　　　　　| magecraft               | The ability to reproduce Mystery.
-|　魔術師　　　　　　| mage(s)                  | People who use magecraft.
-|　魔術教会　　　　　| (the) Mages Association | An association of Mages. Conceals Mystery.
-|　神秘　　　　　　　　| Mystery                 | Supernatural phenomena.
-|　魔法　　　　　　　　| magic                   | The peak of Magecraft. There are only 5.
-|　魔法使い　　　　　| magician                 | Someone who can use magic.
-|　魔力　　　　　　　　| magical energy          | Energy used for all kinds of Mystery.
-|　魔眼　　　　　　　　|　Mystic Eyes             | Supernatural eyes.
-| 直死の魔眼　　　　| Mystic Eyes of Death Perception| Shiki's Mystic Eyes.
-|　死者　　　　　　　　| the Dead (p)/Dead(s)    | Undead familiars created by Dead Apostles.
-|　聖堂教会　　　　　| (the) Holy Church       | Organization dedicated to killing vampires
-|　代行者　　　　　　| Executor                 | Church agent who kills vampires.
-|　埋葬機関　　　　　| Burial Agency           | Special unit within the Church.
-|　司祭　　　　　　　　| Presbyter               | Rank within the Church.
-|　司祭代行　　　　　| Acting Presbyter        | Someone who acts as a Presbyter.
-|　人形使い　　　　　| Puppetmaster            | Mario's first nickname.
-|　人間使い　　　　　| Peoplemaster            | Mario's second nickname.
-|　混血　　　　　　　　| Hybrid                  | Human who has intermixed with non-humans
-|　鬼　　　　　　 　　| oni                      | A type of Japanese non-human.
-|　独角         | Lone-horn               | Kouma Kishima's martial art style.
+|原理　　　　　　　　| Principle               | Ability gained by vampires that live long.
+|原理血戒　　　　　| Idea Blood              | Ability possessed by the 27 Ancestors.
+|使徒　　　　　　　　| Dead Apostle            | Cmmon type of vampire.
+|二十七祖　　　　　| 27 Ancestor(s)          | Most powerful type of Dead Apostle.
+|真祖　　　　　　　　| True Ancestor           | Rare type of vampire.
+|吸血種　　　　　　| bloodsucker              | Any species that sucks blood.
+|吸血鬼　　　　　　| vampire                  | Type of bloodsucker (includes DA and TA)
+|吸血衝動　　　　　| vampiric urges          | Urge to suck blood. Strong among TAs.
+|魔術　　　　　　　　| magecraft               | Ability to reproduce Mystery.
+|魔術師　　　　　　| mage(s)                  | People who use magecraft.
+|魔術教会　　　　　| (the) Mages Association | Organization that practices magecraft.
+|神秘　　　　　　　　| Mystery                 | Supernatural phenomena.
+|魔法　　　　　　　　| magic                   | The peak of magecraft. There are only 5.
+|魔法使い　　　　　| magician                 | Someone who can use magic.
+|魔力　　　　　　　　| magical energy          | Energy used for all kinds of Mystery.
+|魔眼　　　　　　　　| Mystic Eyes             | Supernatural eyes.
+|直死の魔眼　　　　| Mystic Eyes of Death Perception| Shiki's Mystic Eyes.
+|死者　　　　　　　　| the Dead (p)/Dead(s)    | Undead familiars created by Dead Apostles.
+|聖堂教会　　　　　| (the) Holy Church       | Organization dedicated to killing vampires
+|代行者　　　　　　| Executor                 | Church agent who kills vampires.
+|埋葬機関　　　　　| Burial Agency           | Special unit within the Church.
+|司祭　　　　　　　　| Presbyter               | Rank within the Church.
+|司祭代行　　　　　| Acting Presbyter        | Someone who acts as a Presbyter.
+|人形使い　　　　　| Puppetmaster            | Mario's first nickname.
+|人間使い　　　　　| Peoplemaster            | Mario's second nickname.
+|混血　　　　　　　　| Hybrid                  | Human who has intermixed with non-humans
+|鬼　　　　　　 　　| oni                      | Type of Japanese non-human.
+|独角         | Lone-horn               | Kouma Kishima's martial art style.
 
 
 ## Progress

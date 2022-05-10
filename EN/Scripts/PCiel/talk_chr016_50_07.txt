@@ -30,8 +30,8 @@ You noticed I was following you, didn't you?
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0042", 100>
 Powered_Ciel
-I have no intention of shooting you in the back. I will exterminate
-you face-to-face, True Ancestor fallen to evil that you are.
+I have no intention of shooting you in the back. I'd rather face you head-on.
+You are to be exterminated as the fallen True Ancestor that you are.
 
 \\@CHARA_IN@<4, 10, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0000", 100>
@@ -46,7 +46,7 @@ What perfect timing.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0001", 100>
 Red_Arcueid
 I want to say you saved me the trouble of tracking you down but...
-Now that I hear your voice it's really pissing me off.
+Hearing your voice I've just about had it.
 \l
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>
@@ -73,8 +73,8 @@ away in my castle.
 \\@CHARA_IN@<1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0004", 100>
 Red_Arcueid
-I tossed him in there pretty sloppily, so he fell down from the 
-castle tower and was kinda beat up by the time he hit the ground.
+I kinda just tossed him in there, so he fell down from the 
+castle tower and was pretty beat up by the time he hit the ground.
 \l
 
 \\@CHARA_IN@<1, 10, 2, 0, 1>
@@ -96,13 +96,13 @@ puny little body though.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0007", 100>
 Red_Arcueid
 He can wander around like an ant and even
-if he reaches the exit, oh the poor thing...
+if he reaches the exit, the poor thing...
 \l
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0008", 100>
 Red_Arcueid
-He'll look up at the unsurmountable wall in front of him,
+He'll look up at the insurmountable wall in front of him,
 there he'll have to suffer then, for the rest of his life.
 
 \\@CHARA_IN@<0, 16, 3, 0, 1>
@@ -128,14 +128,15 @@ I have no reason to fear him, or to get rid of him.
 \\@CHARA_IN@<1, 10, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0010", 100>
 Red_Arcueid
-I took him by the neck and flung him away.
-It was as easy as plucking a banana.
+It was like picking a ripe fruit,
+I just took him by the neck and flung him away.
+
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0046", 100>
 Powered_Ciel
-I see. 
-Did you know that there's still a scar on your neck?
+I see. By the way, 
+did you know that there's still a scar on your neck?
 
 \\@CHARA_IN@<1, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0011", 100>
@@ -171,15 +172,15 @@ And yet you betrayed that trust.
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0050", 100>
 Powered_Ciel
-I have no baptism to offer you. There will be no repentance, 
-or confessions either. That's too good for a mere vampire like you.
+I have no baptism to offer you. There will be no repentance 
+or confession either. That's too good for a mere vampire like you.
 \l
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0051", 100>
 Powered_Ciel
-The only thing I can offer you is judgement.
-To be crushed, flattened or burned to death. Pick whichever you'd like.
+The only thing I can offer you is judgment.
+Crushed, flattened or burned to death. Pick whichever you'd like.
 \l
 
 \\@CHARA_IN@<0, 16, 3, 0, 1>
@@ -191,7 +192,7 @@ would satisfy you, or am I wrong?
 \\@CHARA_IN@<1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0013", 100>
 Red_Arcueid
-Hmph.
+Hah.
 \l
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>

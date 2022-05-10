@@ -24,13 +24,13 @@ What happened to your nun's habit?!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0001", 100>
 Noel
 Nobody told me we'd be launching an all-out assault on the city!
-I only brought my Anti-Dead Apostle gear with me!
+I only brought my anti-Dead Apostle gear with me!
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0010", 100>
 Powered_Ciel
 The situation has changed, Sister Noel.
-Please provide me with backup.
+I'm requesting backup from you.
 \l
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
@@ -43,7 +43,7 @@ Additionally, one of the 27 Ancestor's Principles has been detected.
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0012", 100>
 Powered_Ciel
-Both parties engaged in battle the day following Arcueid Brunsted's 
+Both parties engaged in battle the day following Arcueid's 
 initial contact with investigation target Shiki Tohno.
 \l
 
@@ -111,7 +111,7 @@ He's sure to make some kind of move.
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0019", 100>
 Powered_Ciel
 So while things might be bad,
-this also presents us with a chance.
+this also presents us with an opportunity.
 \l
 
 \\@CHARA_IN@<0, 16, 3, 0, 1>
@@ -123,7 +123,7 @@ we can destroy his soul once and for all.
 \\@CHARA_IN@<1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0005", 100>
 Noel
-Sounds good to me.
+Sure, go ahead.
 And if the coffin's empty, that's where I come in.
 \l
 
@@ -131,8 +131,8 @@ And if the coffin's empty, that's where I come in.
 \\@CHARA_FACE@<0, 3, 10, 400>//ÉVÉGÉãï\èÓïœâª
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0006", 100>
 Noel
-That'll confirm that our target is Roa, so I'll just cut
-his legs off and bring him over here...
+That'll confirm that our target is Roa, 
+so I'll just cut his legs off and bring him over here...
 \l
 
 \\@CHARA_IN@<1, 8, 11, 0, 1>
@@ -153,7 +153,7 @@ I won't claim all the glory for myself.
 \\@CHARA_IN@<1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0009", 100>
 Noel
-You wanna conduct the inquistive work together?
+You wanna do the inquistive work togetherd?
 I mean, this is what we've been waiting for all this time, right?
 
 \\@CHARA_IN@<0, 16, 9, 0, 1>

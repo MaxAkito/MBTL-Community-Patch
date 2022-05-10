@@ -70,8 +70,8 @@ chara_type 103
 chara_type_sub 105
 chara_switchframe 600
 Obviously I ought to eliminate you here and now, but...
-I'll chose to believe in your humanity. Or rather, the dignity you 
-have in you. Because... In that aspect, above all else,
+I'll choose to believe in your humanity. Or rather, your self-dignity. 
+Because... In that aspect, above all else,
 you're the strongest person I know, Akiha.
 \e
 

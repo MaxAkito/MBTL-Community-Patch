@@ -59,7 +59,7 @@ Speaks fairly neutrally. Has a very technical and big vocabulary. Excudes a lot 
 Calls people by their last-name, or titles.
 
 #### Kouma (006)
-Has a curt and stiff way of speaking. Doesn't show much emotion. Calls himself "Lone-Horn" (the name of his martial art) sometimes. 
+Has a curt and stiff way of speaking. Doesn't show much emotion. Calls himself "Lone-Horn" (the name of his martial art) sometimes. Uses a lot of Buddhist terminology, rendered from Japanese to their Indian equivalent.
 
 Usually calls people by monikers.
 
@@ -117,20 +117,20 @@ Calls people by demeaning nicknames. Calls Noel "fatso" (ﾌﾞﾀ). Calls Arcue
 
 ## Terminology
 
-For words that appear repeatedly and needs to be kept consistent
+For words that appear repeatedly and need to be kept consistent
 
-In general, terminology is left uncapitalized unless it intersect with another meaning of the word. 
+In general, terminology is left uncapitalized unless it intersects with another meaning of the word. 
 
 For example: Executor (an agent of the Holy Church) as a term is kept capitalized as to differentiate it from executor (someone who executes people) as a word. Like wise a Dead Apostle (type of vampire) is not just a dead apostle (an apostle that is dead).
 In contrast, magecraft only ever refers to the term, and as such is not liable to be misconstrued as anything else.
 
-In addition, some things are capitalized by virtue of being names of associations, places or titles.
+In addition, some things are capitalized by virtue of being names of organizations, places or titles.
 
 | Japanese    | English                 | Explanation             |
 | :---------- |:----------------------- |:-----------------------
 |原理　　　　　　　　| Principle               | Ability gained by vampires that live long.
 |原理血戒　　　　　| Idea Blood              | Ability possessed by the 27 Ancestors.
-|使徒　　　　　　　　| Dead Apostle            | Cmmon type of vampire.
+|使徒　　　　　　　　| Dead Apostle            | Common type of vampire.
 |二十七祖　　　　　| 27 Ancestor(s)          | Most powerful type of Dead Apostle.
 |真祖　　　　　　　　| True Ancestor           | Rare type of vampire.
 |吸血種　　　　　　| bloodsucker              | Any species that sucks blood.
@@ -140,7 +140,7 @@ In addition, some things are capitalized by virtue of being names of association
 |魔術師　　　　　　| mage(s)                  | People who use magecraft.
 |魔術教会　　　　　| (the) Mages Association | Organization that practices magecraft.
 |神秘　　　　　　　　| Mystery                 | Supernatural phenomena.
-|魔法　　　　　　　　| magic                   | The peak of magecraft. There are only 5.
+|魔法　　　　　　　　| magic                   | Peak of magecraft. There are only 5.
 |魔法使い　　　　　| magician                 | Someone who can use magic.
 |魔力　　　　　　　　| magical energy          | Energy used for all kinds of Mystery.
 |魔眼　　　　　　　　| Mystic Eyes             | Supernatural eyes.
@@ -181,7 +181,7 @@ In addition, some things are capitalized by virtue of being names of association
 | Boss Rush (013) | Initial editing done (Petri)   |
 | DA Noel   (014) | Secondary editing done (Petri) |
 | Aoko      (015) | Tertiary editing done (Petri)  |
-| P. Ciel   (016) | Initial editing done (Petri)   |
+| P. Ciel   (016) | Secondary editing done (Petri)   |
 | Mario     (017) | Initial editing done (Petri)   |
 
 ### Win-quotes

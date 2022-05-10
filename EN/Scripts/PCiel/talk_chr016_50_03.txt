@@ -26,7 +26,7 @@ You off to a war-zone or somethin'?
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0031", 100>
 Mario
 Go ahead, I ain't stopping ya. Get goin'.
-That's the kinda organizatoin the Burial Agency is.
+That's the kinda organization the Burial Agency is.
 \l
 
 \\@CHARA_IN@<1, 17, 1, 0, 1>
@@ -88,7 +88,7 @@ Moving in for elimination.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0035", 100>
 Mario
-So this is how you wanted it to turn out from the start?
+So you were raring to go from the start?
 Guess I ain't gotta hold back then.
 \l
 
@@ -104,7 +104,7 @@ All this, just 'cuz you wanna save Shiki Tohno?
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0037", 100>
 Mario
-I'll admit he's an decent guy,
+I'll admit he was a decent guy,
 He got his shit sorted with Roa on all his own.
 \l
 
@@ -112,15 +112,15 @@ He got his shit sorted with Roa on all his own.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0038", 100>
 Mario
-But since he was Roa's host, somethin' even
-worse set its eyes on 'im.
+But since he was Roa's host, 
+somethin' even worse set its eyes on 'im.
 \l
 
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0039", 100>
 Mario
-His Mystic Eyes ain't gonna work on the Princess anymore.
+His Mystic Eyes ain't gonna work on the Princess no more.
 Shit's too late. Give it up.
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
@@ -147,8 +147,8 @@ how about you go die a couple 'a times, Quinze?
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0041", 100>
 Mario
-I know your attack patterns goddamn inside and out.
-Once your head's off maybe you'll feel a bit more clear-headed, huh?
+I know your attack patterns inside and goddamn out.
+Maybe your head will clear up a bit once I lop it off.
 
 \\@BGM_STOP@<0>
 \e

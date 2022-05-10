@@ -38,19 +38,19 @@ Powered_Ciel
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0020", 100>
 Red_Arcueid
-Huh. She's still able to maintain retain her mind
+Huh. She's still able to retain her mind
 under my direct gaze.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0021", 100>
 Red_Arcueid
 It's no wonder Roa was so enamored with her body.
-That body's capabilities is the pinnacle of human potential.
+That body's capabilities are the pinnacle of human potential.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0022", 100>
 Red_Arcueid
-Though such comparisons belongs in a lower dimension for me.
+Though such comparisons belong in a lower dimension for me.
 I may as well be comparing one tiny pebble to another.
 \l
 
@@ -108,7 +108,7 @@ Give me something big, like a meteor!
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0032", 100>
 Red_Arcueid
 I'll take everything you can throw at me, tearing
-it pieces together with that paltry pride of yours.
+it to pieces together with that paltry pride of yours.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0063", 100>
 Powered_Ciel
@@ -137,7 +137,7 @@ Waves of Iron. Idea Blood Number Seven, Forest of Einnashe.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0066", 100>
 Powered_Ciel
-Planting Altar, give harvest! Strike not a fatal blow,
+Seedbed Altar, bear fruit! Strike not a fatal blow,
 but repel this bioform through neverending torment!
 
 \\@SYSTEM@<21>

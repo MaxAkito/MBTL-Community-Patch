@@ -15,8 +15,8 @@
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0050", 100>
 Roa
-So the damage she suffered from the Mystic Eyes of Death
-Perception was enough that even I could defeat her...
+It seems the damage she'd suffered from the Mystic Eyes of Death
+Perception was enough that even I could defeat her, however...
 
 \\@CHARA_OUT@<0, -1, -1, 0, 0>
 \aw
@@ -26,26 +26,26 @@ Perception was enough that even I could defeat her...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0000", 100>
 Archetype_Earth
-You staked your life on that performance, little jester. 
-Such resolve deserves a reward.
+Thou stakest thy life for that performance, little jester. 
+I shalt heed such resolve with a reward.
 
 \\@SPEAKERCG_IN@<0,5,5,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0051", 100>
 Roa
 As suspected, with your true form unveiled, I no longer stand a chance.
-Even with all my Magic Circuits put to defense, I won't last many seconds.
+Even with all my magic circuits put to defense, I won't last many seconds.
 
 \\@GO_SUB@<"RoaOUT_Face0_L">
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0001", 100>
 Archetype_Earth
-I shall allow you one strike, as a mere jest.
+I shalt permit thee to strike a kiss, as a mere jest.
 \l
 
-/*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0002", 100>
+/*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0002", 100>	
 Archetype_Earth
-You should clamour for your final life
-as if you were dedicating your blood—your very soul.
+Just as if thee were dedicating thy blood, thy very soul,
+shouldst thee clamour for thy final life.
 
 \\@SPEAKERCG_IN@<0,5,6,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0052", 100>
@@ -61,8 +61,8 @@ You have not lost an ounce of your luster since, Princess of the Moon!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0054", 100>
 Roa
-My eighteenth death—my final reincarnation... Behold now
-as it burns out for good!
+My eighteenth death, my final reincarnation... 
+Behold now...as it burns out for good!
 
 \\@GO_SUB@<"RoaOUT_Face0_L">
 

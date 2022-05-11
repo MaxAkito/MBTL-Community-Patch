@@ -15,8 +15,8 @@
 \\@CHARA_IN@< 0, 5, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0000", 100>
 Roa
-I'm... alive? Even though my Death Point was cut with
-the Mystic Eyes of Death Perception?
+I'm... alive? Even though my death point was 
+pierced by the Mystic Eyes of Death Perception?
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
@@ -28,20 +28,20 @@ Did he fail to kill me? No...
 \\@CHARA_IN@<0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0002", 100>
 Roa
-I mean... I did thoroughly 
-tear that woman to pieces.
+He wouldn't. After all, I tore that
+woman to pieces, ever so gently.
 \l
 
 \\@CHARA_IN@<0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0003", 100>
 Roa
-The vampire known as Roa was completely killed. That is certain.
+The vampire known as Roa was completely killed. Such is certainly the case.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0004", 100>
 Roa
-This is no doubt a deviation taking place after I was killed.
+This then, is no doubt a deviation taking place after that event.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
@@ -54,8 +54,8 @@ Or is it the world itself that's odd?
 \\@CHARA_IN@< 0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0006", 100>
 Roa
-If I had to guess someone, then something like Paranodahlia
-having left me a little present seems about right.
+If I had to guess, this being a parting gift from Paranodahlia
+seems like it'd make sense.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
@@ -73,15 +73,15 @@ No use dwelling on it...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0009", 100>
 Roa
-It would seem I still have a job to do, but let's leave
-that to the others for the time being.
+It would seem I still have a role to play, 
+but let's leave that to the others for the time being.
 \l
 
 \\@CHARA_IN@< 0, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0010", 100>
 Roa
-Who knows how long I've got this time. I should make use of
-this body while I can. Time to take it out for a spin.
+Temporary as it may be, this is a body nonetheless.
+I ought to have as much fun with it as I can.
 
 
 \\@BGM_STOP@<0>

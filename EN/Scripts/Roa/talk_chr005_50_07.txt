@@ -60,7 +60,7 @@ You will not leave this place alive.
 \\@CHARA_IN@< 1, 0, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0047", 100>
 Arcueid
-I will show no mercy, and every fiber of your being shall
+I will show no mercy. Every fiber of your being shall
 be erased from this world. All you can do is beg for mer--
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
@@ -71,19 +71,19 @@ Not quite. I have no business with you.
 \\@CHARA_IN@< 1, 0, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0048", 100>
 Arcueid
-Excuse me...?
+Excuse...me?
 
 \\@CHARA_IN@< 0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0042", 100>
 Roa
-I'm saying I don't have any business with a piece of junk like you.
+I said... I have no business with a piece of junk like you.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0043", 100>
 Roa
-What I yearn for is not someone so concerned with
-this world of man as you.
+What I'd been so eagerly awaiting wasn't someone
+so concerned with the workings of man like you.
 \l
 
 \\@CHARA_IN@< 0, 5, 4, 0, 1>
@@ -94,14 +94,14 @@ Begone, Fallen Princess.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0045", 100>
 Roa
-Laying your defects to bare without an ounce of shame...
-It is nothing less than an affront to both me and the Princess.
+That you'd lay your defects to bare without an ounce of shame...
+It's an affront, both to me and the Princess, no doubt about it.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0046", 100>
 Roa
-A cheap imitation such as you shall wither at my touch.
+Such a cheap imitation can do nothing but wither at my touch.
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 1, 0, 7, 0, 1>
@@ -114,15 +114,15 @@ Hah... Ahahahahahaha!!!
 \\@CHARA_IN@< 1, 0, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0050", 100>
 Arcueid
-Stop! Please! I can't take any more! This is even funnier
-than the time you came to my castle as a jester!
+You're hilarious! Hilarious indeed, Roa!
+This is even funnier than that time you showed up as joker at my castle.
 \l
 
 \\@CHARA_IN@< 1, 0, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0051", 100>
 Arcueid
 You make me so angry I might be sick!
-I can stand you no longer!
+I can stand it no longer!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0052", 100>

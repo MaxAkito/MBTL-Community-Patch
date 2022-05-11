@@ -13,8 +13,8 @@
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0000", 100>
 Ciel
-I thought that was you, Roa. If only I had sensed
-your presence sooner...
+So it really was you, Roa. 
+If only I had sensed your presence sooner...
 
 \\@CHARA_IN@< 0, 5, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0030", 100>
@@ -25,39 +25,39 @@ Then perhaps Shiki would still be alive.
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0031", 100>
 Roa
-He was not as powerful as I remember. I sense that you
-have lost your touch as well, Executor.
+He was not as powerful as I remember.
+I sense that you have lost your touch as well, Executor.
 
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0001", 100>
 Ciel
-Yes, I am to blame. It was my own weaknesses that
-brought this on.
+Indeed.
+This negligent situation was brought on by my own weakness.
 \l
 
 \\@CHARA_IN@< 1, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0002", 100>
 Ciel
-But no more. I am weak no longer.
-I have you to thank for that.
+But that ends here. After all...The source of that weakness 
+is something you've just cut down with your own two hands.
 
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0032", 100>
 Roa
-Well, well. Seems you've finally grown some fangs of your own.
+Well, well. Seems you've finally embraced your inner hound.
 \l
 
 \\@CHARA_IN@< 0, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0033", 100>
 Roa
-I should have expected as much from my previous host.
+That's what I'd expect from my previous host.
 \l
 
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0034", 100>
 Roa
-Very well. Let's dance, Elesia. I'm going to teach you
-a lesson with my own two hands.
+Very well. Come on then, Elesia.
+I'll whip you into shape with my own two hands.
 
 \\@BGM_STOP@<0>
 \e

@@ -115,6 +115,9 @@ Has an incredibly rude way of speaking. Swears a lot. His speech is full of vulg
 
 Calls people by demeaning nicknames. Calls Noel "fatso" (ﾌﾞﾀ). Calls Arcueid "the True Ancestor Princess" (神祖の姫).
 
+#### Archetype:EARTH (0??)
+Speaks in archaic English. Uses antiquated grammatical expressions (second-person inflections on verbs) alongside old pronouns.
+
 ## Terminology
 
 For words that appear repeatedly and need to be kept consistent
@@ -137,6 +140,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 吸血鬼　　　　  　| vampire                 | Type of bloodsucker (includes DA and TA)
 | 吸血衝動　　　　　| vampiric urges          | Urge to suck blood. Strong among TAs.
 | 魔術　　　　　　　 | magecraft               | Ability to reproduce Mystery.
+| 魔術回路　　　　　| magic circuits          | Organ used for magecraft.
 | 魔術師　　　　  　| mage(s)                 | People who use magecraft.
 | 魔術教会　　　 　| (the) Mages Association | Organization that practices magecraft.
 | 神秘　　　　　 　　| Mystery                 | Supernatural phenomena.
@@ -169,12 +173,12 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Akiha     (002) | Secondary editing done (Petri) |
 | Shiki     (003) | Initial editing done (Petri)   |
 | Kohaku    (004) | Secondary editing done (Petri) |
-| Roa       (005) | Initial editing done (Petri)   |
+| Roa       (005) | Secondary editing done (Petri) |
 | Kouma     (006) | Secondary editing done (Petri) |
 | Maids     (007) | Secondary editing done (Petri) |
-| Noel      (008) | Secondary editing done (Petri)   |
+| Noel      (008) | Secondary editing done (Petri) |
 | Vlov      (009) | Initial editing done (Petri)   |
-| Warc      (010) | Secondary editing done (Petri)   |
+| Warc      (010) | Secondary editing done (Petri) |
 | Ciel      (011) | Secondary editing done (Petri) |
 | Saber     (012) | Initial editing done (Petri)   |
 | Miyako    (013) | Secondary editing done (Petri) | 

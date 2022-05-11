@@ -23,40 +23,40 @@ I have an older brother.
 \\@CHARA_IN@< 0, 13, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0001", 100>
 Miyako
-To be more specific, I gained an older brother seven years
-ago. And although I'm all grown up now...
+Actually, I got an older brother seven years ago. 
+And although I'm all grown up now...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0002", 100>
 Miyako
-Back then, I was still a tiny little child. I didn't really 
-understand the whole story behind his sudden arrival.
+Back then, I was still a tiny little baby so I
+didn't really understand this whole 'respect' thing.
 \l
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0003", 100>
 Miyako
-But that doesn't matter. My brother is still my brother.
+But whatever, my brother is still my brother.
 \l
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0004", 100>
 Miyako
-He may not talk much, but he's a kind person.
-Mom and Dad are both proud of him.
+He doesn't say a lot, but he's very nice.
+Mom and Dad trust him a lot.
 \l
 
 \\@CHARA_IN@< 0, 13, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0005", 100>
 Miyako
-When I messed up and broke a flowerpot by accident, or when I
-used the car-wax on the floors in the dojo...
+When I messed up and broke a flowerpot by accident, 
+or when I used the car-wax on the floors in the dojo...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0006", 100>
 Miyako
-Or when my summer homework piled up beyond belief...
-He would always just forgivingly shrug his shoulders and help me out.
+Or when I hadn't done my homework over summer...
+He'd say 'oh well', shrug his shoulders and help me out.
 \l
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
@@ -90,7 +90,7 @@ However...
 \\@CHARA_IN@<1, 3, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0030", 100>
 Shiki
-Well, I guess this is good-bye.
+Well, I guess I'm off then.
 Take care, Mom.
 
 \\@CHARA_IN@<0, 13, 10, 1, 0>
@@ -99,7 +99,7 @@ Take care, Mom.
 \\@CHARA_IN@< 0, 13, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0009", 100>
 Miyako
-What?!
+...?!
 \l
 
 \\@CHARA_OUT@< 1, 3, -1, 0, 0>
@@ -113,7 +113,7 @@ What?!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0010", 100>
 Miyako
 That day, I woke up to find that my brother had gotten up
-early to pack his things. He was saying good-bye to Mother.
+early to pack his things. He was saying good-bye to Mom.
 \l
 
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
@@ -128,8 +128,8 @@ early to pack his things. He was saying good-bye to Mother.
 \\@CHARA_IN@<1, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0031", 100>
 Shiki
-Wow. You're sure up
-early today, Miyako.
+Oh...
+You sure are up early today, Miyako.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0032", 100>
@@ -145,8 +145,8 @@ Oh, and make sure to go easy on the dojo.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0034", 100>
 Shiki
-That building is getting pretty old. I wouldn't want
-you to bring it down on your head someday.
+That building is getting pretty old. 
+Don't be too rough with it, alright?
 
 \\@CHARA_OUT@< 1, 3, -1, 0, 0>
 \aw
@@ -176,23 +176,23 @@ he was gone.
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0013", 100>
 Miyako
-I wanted to chase after him shouting, ÅgIf you hate the
-idea of returning so much, then don't go back!Åh
+I wanted to say:
+ÅgIf you hate the idea of returning so much, then don't go back!Åh
 \l
 
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0014", 100>
 Miyako
-My mind was screaming, ÅgYou're my brother!
-You can't go!Åh
+and:
+ÅgYou're MY brother! Why?!Åh
 \l
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0015", 100>
 Miyako
 Every part of me was telling me I should stop him,
-but like usual, I was too nervous to speak up.
+but like usual, I was too shy to say anything.
 \l
 
 \\@CHARA_IN@< 0, 13, 8, 0, 1>
@@ -234,21 +234,21 @@ My dad says we can't go against the orders of the Tohno house.
 \\@CHARA_IN@< 3, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0000", 100>
 Bake_Neko
-Hold on meow, let's think about this.
+Hold on meow, it's THINKING TIME.
 You sure you're okay with that decision?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0001", 100>
 Bake_Neko
-You could have put on the sisterly charm, but instead you
-just rolled over without even firing off a single beam.
+You wanna be a loser who couldn't even put on the little sister
+routine? A girl who didn't even fire a single beam?
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0021", 100>
 Miyako
 Who said that?!
-What?! A talking cat?!
+Wait, a cat?! A talking cat?!
 \l
 
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
@@ -260,14 +260,14 @@ Wait, I know! You must be that vampire thief I heard about!
 \\@CHARA_IN@< 3, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0002", 100>
 Bake_Neko
-Who looks at a cat and immediately assumes
-it's a vampire? Even I think that's ridiculous.
+Stop it with the instantaneous Cat = Vampire thoughts.
+Even I get a little bewildered at that kinda crazy imagination. 
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>//ì{ÇË2
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0023", 100>
 Miyako
-Quiet! I'll take care of you here and now!
-I'm not exactly in the best of moods, you know!
+Shaddap! I'll beat you up!
+I'm pretty dangerous right now, just so you know!
 
 \\@CHARA_IN@< 0, 13, -1, 52, 20>
 \\@CHARA_MUKI@<0,0>
@@ -279,7 +279,7 @@ I'm not exactly in the best of moods, you know!
 \\@CHARA_IN@< 3, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0003", 100>
 Bake_Neko
-Wait, I said hold on meow!
+I told you to hold it.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0004", 100>
@@ -296,19 +296,19 @@ MGIÅFE    LCKÅFA    ARC-DRIVEÅFC
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0006", 100>
 Bake_Neko
-Dabbles in chinese martial arts despite being just an elemantary
-schooler. You know what's good, don't you?
+A girl of culture who dabbles in chinese martial arts 
+despite only being in elementary school. I got all that right, no?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0007", 100>
 Bake_Neko
-Oh, and just to clarify, those parameters only apply from my
-feline perspective, not to be confused with other titles.
+Oh, and those parameters are just my own feline interpretation so...
+Please don't mix them up with other TYPE-MOON titles.
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0024", 100>
 Miyako
-Parameters? Not sure what you mean by that,
+Pa-parameters? Not sure what you mean by that,
 but everything else you said is right.
 \l
 
@@ -322,19 +322,18 @@ much about me, kitty?
 \\@CHARA_IN@< 3, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0008", 100>
 Bake_Neko
-That's because I am you.
+That's because I am you, meow.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0009", 100>
 Bake_Neko
-Or rather a manifestation of the cat-ness that exists
-inside of you. Think of me as your subcatscience.
+Or rather a manifestation of the cat-ness that exists inside of you. 
+Your subconscious voice. Basically, a mind-cat.
 
 
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0026", 100>
-Miyako
-My subcatscience?
+A mind-cat...
 
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0027", 100>
@@ -363,8 +362,8 @@ your true feelings and points you in the right direction.
 \\@CHARA_EMOVE@<3, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0011", 100>
 Bake_Neko
-Oh. She's already gone. She catches on too quickly
-for her own good. I hope she'll be okay.
+Wait that little sister's already off. Is she gonna be OK? 
+I feel like she catches on a bit too quick, meow.
 
 
 \\@BGM_STOP@<0>

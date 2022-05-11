@@ -32,13 +32,13 @@ You did well.
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0041", 100>
 Shiki
 I didn't know what to do after being captured by my evil
-sister, but thanks to you I've been freed.
+sister, but thanks to you I could return home.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0042", 100>
 Shiki
-There really is no place like the Arima family home. And,
-that's because you're here, Miyako.
+There really is no place like the Arima family home. 
+And of course, that's because you're here, Miyako.
 \l
 
 
@@ -61,8 +61,8 @@ with plenty of guidance and encouragement!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0043", 100>
 Shiki
-Of course. For starters, don't forget to stay
-hydrated while you train.
+As long as you're fine with it being me.
+Oh, but remember to drink plenty of water.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0044", 100>
@@ -71,8 +71,8 @@ It'll all be for nothing if you don't take care of your body.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0064", 100>
 Miyako
-Right! I know, silly! But thanks
-for reminding me!
+Right! I know, silly!
+It's fine, it's fine!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0065", 100>

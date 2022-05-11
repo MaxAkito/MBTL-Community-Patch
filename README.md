@@ -54,12 +54,12 @@ Casual speak with polite expressions. Especially liable to speak casually to His
 Calls Akiha "Lady Akiha", but refers to Shiki by his first name. Refers to most other people by their first name.
 
 #### Roa (005)
-Speaks fairly neutrally. Has a very technical and big vocabulary. Excudes a lot of smugness, and will take to creative means in order to rile people up.
+Speaks fairly neutrally. Has a very technical and expansive vocabulary. Excudes a lot of smugness, and will take to creative means in order to rile people up.
 
 Calls people by their last-name, or titles.
 
 #### Kouma (006)
-Has a curt and stiff way of speaking. Doesn't show much emotion. Calls himself "Lone-Horn" (the name of his martial art) sometimes. Uses a lot of Buddhist terminology, rendered from Japanese to their Indian equivalent.
+Has a curt and stiff way of speaking. Doesn't show much emotion. Uses a lot of Buddhist terminology, rendered from Japanese to their Indian equivalent.
 
 Usually calls people by monikers.
 
@@ -111,7 +111,7 @@ Has a very stiff and formal way of speaking. Will use mission-briefing style spe
 Calls people by their titles or last names.
 
 #### Mario (017)
-Has an incredibly rude way of speaking. Swears a lot. His speech is full of vulgar expression. Uses shortened speech (gotta, aboutta, 'lil, 'a (instead of "of") 'em (instead of "them"), etc) Sometimes speaks more normally when he's thinking or reminiscing.
+Has an incredibly rude way of speaking. Swears a lot. His speech is full of vulgar expressions. Uses shortened speech (gotta, aboutta, 'lil, 'a (instead of "of") 'em (instead of "them"), etc) Sometimes speaks more normally when he's thinking or reminiscing.
 
 Calls people by demeaning nicknames. Calls Noel "fatso" (ﾌﾞﾀ). Calls Arcueid "the True Ancestor Princess" (神祖の姫).
 
@@ -128,34 +128,34 @@ In addition, some things are capitalized by virtue of being names of organizatio
 
 | Japanese    | English                 | Explanation             |
 | :---------- |:----------------------- |:-----------------------
-|原理　　　　　　　　 | Principle               | Ability gained by vampires that live long.
-|原理血戒　　　　 　| Idea Blood              | Ability possessed by the 27 Ancestors.
-|使徒　　　　　　　 　| Dead Apostle            | Common type of vampire.
-|二十七祖　　　　 　| 27 Ancestor(s)          | Most powerful type of Dead Apostle.
-|真祖　　　　　　　 　| True Ancestor           | Rare type of vampire.
-|吸血種　　　 　 　　| bloodsucker             | Any species that sucks blood.
-|吸血鬼　　　　　  　| vampire                 | Type of bloodsucker (includes DA and TA)
-|吸血衝動　　　　 　| vampiric urges          | Urge to suck blood. Strong among TAs.
-|魔術　　　　　　　 　| magecraft               | Ability to reproduce Mystery.
-|魔術師　　　　　  　| mage(s)                 | People who use magecraft.
-|魔術教会　　　　 　| (the) Mages Association | Organization that practices magecraft.
-|神秘　　　　　　 　　| Mystery                 | Supernatural phenomena.
-|魔法　　　　　　 　　| magic                   | Peak of magecraft. There are only 5.
-|魔法使い　　　　 　| magician                 | Someone who can use magic.
-|魔力　　　　　　 　　| magical energy          | Energy used for all kinds of Mystery.
-|魔眼　　　　　　 　　| Mystic Eyes             | Supernatural eyes.
-|直死の魔眼　　 　　| Mystic Eyes of Death Perception| Shiki's Mystic Eyes.
-|死者　　　　　　 　　| the Dead (p)/Dead(s)    | Undead familiars created by Dead Apostles.
-|聖堂教会　　　 　　| (the) Holy Church       | Organization dedicated to killing vampires
-|代行者　　　　　 　| Executor                 | Church agent who kills vampires.
-|埋葬機関　　　　 　| Burial Agency           | Special unit within the Church.
-|司祭　　　　　　　 　| Presbyter               | Rank within the Church.
-|司祭代行　　　　 　| Acting Presbyter        | Someone who acts as a Presbyter.
-|人形使い　　　 　　| Puppetmaster            | Mario's first nickname.
-|人間使い　　　 　　| Peoplemaster            | Mario's second nickname.
-|混血　　　　　　 　　| Hybrid                  | Human who has intermixed with non-humans
-|鬼　　　　　　 　 　| oni                      | Type of Japanese non-human.
-|独角          | Lone-horn               | Kouma Kishima's martial art style.
+| 原理　　　　　　　 | Principle               | Ability gained by vampires that live long.
+| 原理血戒　　　 　| Idea Blood              | Ability possessed by the 27 Ancestors.
+| 使徒　　　　　　 　| Dead Apostle            | Common type of vampire.
+| 二十七祖　　　 　| 27 Ancestor(s)          | Most powerful type of Dead Apostle.
+| 真祖　　　　　　 　| True Ancestor           | Rare type of vampire.
+| 吸血種　　 　 　　| bloodsucker             | Any species that sucks blood.
+| 吸血鬼　　　　  　| vampire                 | Type of bloodsucker (includes DA and TA)
+| 吸血衝動　　　　　| vampiric urges          | Urge to suck blood. Strong among TAs.
+| 魔術　　　　　　　 | magecraft               | Ability to reproduce Mystery.
+| 魔術師　　　　  　| mage(s)                 | People who use magecraft.
+| 魔術教会　　　 　| (the) Mages Association | Organization that practices magecraft.
+| 神秘　　　　　 　　| Mystery                 | Supernatural phenomena.
+| 魔法　　　　　 　　| magic                   | Peak of magecraft. There are only 5.
+| 魔法使い　　　 　| magician                 | Someone who can use magic.
+| 魔力　　　　　 　　| magical energy          | Energy used for all kinds of Mystery.
+| 魔眼　　　　　 　　| Mystic Eyes             | Supernatural eyes.
+| 直死の魔眼　 　　| Mystic Eyes of Death Perception| Shiki's Mystic Eyes.
+| 死者　　　　　　　　| the Dead (p)/Dead(s)    | Undead familiars created by Dead Apostles.
+| 聖堂教会　　 　　| (the) Holy Church       | Organization dedicated to killing vampires
+| 代行者　　　　 　| Executor                 | Church agent who kills vampires.
+| 埋葬機関　　　 　| Burial Agency           | Special unit within the Church.
+| 司祭　　　　　　 　| Presbyter               | Rank within the Church.
+| 司祭代行　　　 　| Acting Presbyter        | Mario's title.
+| 人形使い　　 　　| Puppetmaster            | Mario's first nickname.
+| 人間使い　　 　　| Peoplemaster            | Mario's second nickname.
+| 混血　　　　　 　　| Hybrid                  | Human who has intermixed with non-humans
+| 鬼　　　　　 　 　| oni                      | Type of Japanese non-human.
+| 独角         | Lone-horn               | Kouma Kishima's martial art style.
 
 
 ## Progress
@@ -177,7 +177,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Warc      (010) | Initial editing done (Petri)   |
 | Ciel      (011) | Secondary editing done (Petri) |
 | Saber     (012) | Initial editing done (Petri)   |
-| Miyako    (013) | Initial editing done (Petri)   | 
+| Miyako    (013) | Secondary editing done (Petri) | 
 | Boss Rush (013) | Initial editing done (Petri)   |
 | DA Noel   (014) | Secondary editing done (Petri) |
 | Aoko      (015) | Tertiary editing done (Petri)  |

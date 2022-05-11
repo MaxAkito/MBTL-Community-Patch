@@ -40,8 +40,8 @@ I've got to hurry and save him!
 \\@CHARA_IN@< 2, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0030", 100>
 Bake_Neko
-Look out, Little Miss Kung Fu!
-Above you!
+Duck, Little Miss China!
+Watch out from above, meow!
 
 \\@QUAKE@<3, 20>
 \\@SE_PLAY@<0, "talk/talk_se/Bound_GroundA", 0, 100>
@@ -88,8 +88,8 @@ What business does a mere human have with our clan?
 \\@CHARA_IN@<1,  2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0004", 100>
 Akiha
-If it's money you're after, just ask. Though the amount I'll
-pay depends on how much entertainment you can provide.
+If it's money you're after, I could perhaps donate a little. 
+Though the amount will depend on how much entertainment you can provide me.
 \l
 
 \\@CHARA_IN@<1,  2, 0, 0, 1>
@@ -131,14 +131,14 @@ branch family?
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0007", 100>
 Akiha
 I see. I think I know what this is all about. *sigh*
-I guess he just has one of those faces.
+Good grief, I guess he's doesn't really seem to mind.
 \l
 
 \\@CHARA_IN@<1,  2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0008", 100>
 Akiha
-Very well. If you want him that badly,
-I'll return him to you.
+Very well. If that's all you're after
+then I shall return him to you.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -171,7 +171,7 @@ That feeling of familial love has touched my heart.
 \\@CHARA_IN@<1,  2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0012", 100>
 Akiha
-Here is that which you seek. Do hurry home with him.
+Here's the product you were asking for, madam. Do hurry home with him.
 But I'll have you know I don't accept refunds.
 
 \\@CHARA_IN@< 0, 13, 202, 0, 1>
@@ -187,8 +187,8 @@ C'mon! Are you ready to go ho--?
 \\@CHARA_IN@<3,  6, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis06_0000", 100>
 Kishima
-Huh. 
-To think I had a sister.
+Huh.
+To think I was your brother.
 
 \\@GO_SUB@<"QUAKE_2">
 \\@CHARA_IN@< 0, 13, 6, 0, 1>

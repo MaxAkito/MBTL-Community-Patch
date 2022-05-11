@@ -53,27 +53,27 @@ Miyako
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0031", 100>
 Miyako
-Wait. Hold on a second. This is strange.
-Something doesn't feel right.
+Wait, wait, wait.
+Something's not right. Right? I mean seriously!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0032", 100>
 Miyako
-I keep getting interrupted by people I don't even know!
-They just start attacking without even saying a word!
+I don't know any of these people but every time I meet
+someone they just start attacking me without so much as a hello! 
 \l
 
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0033", 100>
 Miyako
 If I wasn't a Kung Fu master, this would've turned into
-police case long ago!
+a police case long ago!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0034", 100>
 Miyako
-All I wanted to do was go to the Tohno estate and free my
-brother from the evil sister who's imprisoned him!
+All I want to do was go to the Tohno estate and beat up 
+the evil sister who's imprisoned my brother!
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \\@CHARA_IN@<1, 11, 0, 12, 0>
@@ -83,27 +83,27 @@ brother from the evil sister who's imprisoned him!
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0010", 100>
 Ciel
-Oh? That's quite the interesting story you have.
-I'd be interested to hear more.
+Oho?
+That's quite the interesting story you got there.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0035", 100>
 Miyako
 Some person in black fell from the sky?!
-Don't tell me you're here to stop me too!
+A-A-Another who has come to stand in my way, huh?!
 
 \\@CHARA_IN@<1, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0011", 100>
 Ciel
-Oh dear. I apologize if I startled you.
-That was not my intention.
+Oh dear. 
+I apologize if I startled you.
 \l
 
 \\@CHARA_IN@<1, 11, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0012", 100>
 Ciel
-It's all right. I am a sister of justice, entrusted with
+It's all right. I am a Sister of justice, entrusted with
 protecting this town. I'm on your side, Miyako Arima.
 \l
 
@@ -111,7 +111,7 @@ protecting this town. I'm on your side, Miyako Arima.
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0013", 100>
 Ciel
 Was that the bajiquan style I saw you using?
-Your skills are quite impressive.
+Your Kung Fu skills are quite impressive.
 
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
@@ -129,51 +129,51 @@ Miyako
 \\@CHARA_IN@<1, 11, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0014", 100>
 Ciel
-Just think of me as your kindly,
+Hehehe, just think of me as your kindly,
 bespectacled upperclasswoman.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0015", 100>
 Ciel
-Make sure you let your brother know
-how much help I've been.
+Make sure you introduce me like that
+to your brother as well.
 \l
 
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0016", 100>
 Ciel
-Also, is there anything troubling you?
+So, is there anything troubling you?
 I'd be happy to give you a lesson.
 
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0038", 100>
 Miyako
-Well, actually there is! You see, this is my first time
+Well, umm! You see, this is my first time
 in this town. I think I'm lost!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0039", 100>
 Miyako
-Could you tell me where I can find the Tohno estate?
+Where should I go to get to the Tohno estate?
 
 \\@CHARA_IN@<1, 11, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0017", 100>
 Ciel
-Of course. It's about a 30-minute walk from the station
+It's about a 30-minute walk from the station
 on top of that small hill over there.
 \l
 
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0018", 100>
 Ciel
-The younger sister's name is Tohno Akiha. Be sure to ask for her
-when you state your business at the door.
+Also, the younger sister's name is Tohno Akiha. 
+Be sure to ask for her when you state your business at the door.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0040", 100>
 Miyako
-Akiha?! First time I've heard of such an
+Akiha...! First time I've heard of such an
 obviously evil name!
 
 \\@CHARA_IN@<1, 11, 1, 0, 1>
@@ -188,7 +188,7 @@ I'll do my best!
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0019", 100>
 Ciel
-Oh, before you go, forgive me for being blunt, but
+Oh, before you go, and forgive me for being blunt, but
 you cannot beat Akiha as you are now.
 \l
 

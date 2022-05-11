@@ -172,7 +172,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Roa       (005) | Initial editing done (Petri)   |
 | Kouma     (006) | Secondary editing done (Petri) |
 | Maids     (007) | Secondary editing done (Petri) |
-| Noel      (008) | Initial editing done (Petri)   |
+| Noel      (008) | Secondary editing done (Petri)   |
 | Vlov      (009) | Initial editing done (Petri)   |
 | Warc      (010) | Initial editing done (Petri)   |
 | Ciel      (011) | Secondary editing done (Petri) |

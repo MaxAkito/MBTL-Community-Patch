@@ -13,7 +13,7 @@
 \\@CHARA_IN@< 1, 2, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0050", 100>
 Akiha
-Hold it right there, you!
+Stop right there, whoever-you-may-be.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0051", 100>
@@ -25,7 +25,7 @@ There is no need for that.
 \\@CHARA_IN@< 1, 2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0052", 100>
 Akiha
-Why don't you come inside and make yourself comfortable?
+Go on, why don't you come inside and make yourself comfortable?
 \l
 
 \\@CHARA_IN@< 1, 2, 2, 0, 1>
@@ -38,14 +38,14 @@ I assume you wish to speak with me?
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0054", 100>
 Akiha
 I know just the place where we might enjoy some tea and
-a pleasant conversation without being interrupted.
+have a pleasant conversation without being interrupted.
 \l
 
 
 \\@CHARA_IN@< 0, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0060", 100>
 Noel
-That is very kind of you. I would love some tea.
+Wait, for real? I'll gratefully accept then...
 You bourgeoisie sure have magnanimity and elegance to spare!
 \l
 
@@ -59,7 +59,7 @@ Hah! Has anyone honestly fallen for that before?
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0062", 100>
 Noel
 I don't sense any hostility behind that fine smile of yours,
-but you can't cover up the smell of blood.
+but you can't cover up the smell of your blood.
 \l
 
 \\@CHARA_IN@< 0, 8, 8, 0, 1>
@@ -77,32 +77,32 @@ Oh, heavens no. You have the wrong idea.
 \\@CHARA_IN@< 1, 2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0056", 100>
 Akiha
-I would at least wait until you told me what you're doing here
-and who sent you first.
+Oh no, I would handle you ever so gently until you'd tell who sent 
+you, how big of an organization they are and what their objective is.
 \l
 
 \\@CHARA_IN@< 1, 2, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0057", 100>
 Akiha
-After that, however, I cannot guarantee your well-being.
+Naturally, I cannot guarantee your safety after that though.
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0064", 100>
 Noel
-Thinking like that as a mere teenager already means you're inhuman!
+Teenagers with those kinda thoughts are what we called 'inhuman'!
 \l
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0065", 100>
 Noel
 You don't appear to be a Dead Apostle, but you are a 
-blood-sucking demon all the same, aren't you?
+bloodsucking fiend all the same, aren't you?
 \l
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0066", 100>
 Noel
-If that's the case, then I have no qualms in ending you!
+And if that's the case, I've got no qualms in taking you down.
 
 \\@BGM_STOP@<0>
 \e

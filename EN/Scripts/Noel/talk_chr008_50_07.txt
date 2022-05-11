@@ -13,21 +13,21 @@
 \\@CHARA_IN@< 0, 8, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0070", 100>
 Noel
-(Found it! Wait! Is that a new Ancestor?! Really?
+(Found it! Wait! Is that a new Ancestor?! Oh lord...
  How much bad luck can one person have?!)
 \l
 
 \\@CHARA_IN@< 0, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0071", 100>
 Noel
-(Something seems off about him, though. Is he... sad?
- He sure doesn't feel as threatening as a Dead Apostle.)
+(Wait...? He seems like, super depressed though? He gives off 
+ the same kinda heavy presence as an any ordinary Dead Apostle...)
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0040", 100>
 Volv
 I have plenty of heat...
-More than anything, I am allowed a moment of rest...
+Most importantly, I am allowed a moment of rest...
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
@@ -47,21 +47,21 @@ But I will take up my sword if you insist on disturbing me.
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0043", 100>
 Volv
 I suggest you leave before my generosity
-runs out, Executor.
+runs out...Executor.
 
 \\@CHARA_IN@< 0, 8, 10, 0, 1>
 \\@CHARA_IN@< 0, 8, -1, 31, 2>
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0072", 100>
 Noel
-Generosity? From you?
+Generosity? Did you really just say that?
 \l
 
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0073", 100>
 Noel
-As if you had such a thing! You and your kind have never
+Don't fuck with me! You and your kind have never
 once shown an inkling of generosity.
 \l
 
@@ -75,15 +75,15 @@ a monster like you by myself.
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0075", 100>
 Noel
-But even us nobodies have
-a sense of pride!
+But you know what!?
+Even us nobodies have a little pride!
 \l
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0076", 100>
 Noel
-How dare a vampire speak of rest when your
-very existence threatens the peace of humanity!
+A disgusting vampire really thinks he's got a right to "rest".
+You really think you can mock us humans that much, huh?
 \l
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>

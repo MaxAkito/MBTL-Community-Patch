@@ -15,7 +15,7 @@
 \\@CHARA_IN@< 0, 8, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0040", 100>
 Noel
-Even after I arrived here 1 month after her...
+Though I'm 1 month late compared to her...
 I've finally transferred to where Roa is hiding.
 \l
 
@@ -41,12 +41,12 @@ This is going to be fun!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0044", 100>
 Noel
 Before this we were always stuck in some country village
-in the middle of nowhere. All I could were was my nun's habit.
+in the middle of nowhere. All I could wear was my nun's habit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0045", 100>
 Noel
-But now I can really immerse myself in my hobby!
+But now I can really immerse myself in my hobbies!
 Let's see... what's her outward persona like...
 \l
 
@@ -55,29 +55,29 @@ Let's see... what's her outward persona like...
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0046", 100>
 Noel
-What?! A student?! You can't be serious!
-You're gonna be a teengar not just in body but in mind too!?
+You're kidding me?! A student?! Are you fucking with me?
+You're gonna be a teenager not just in body but in mind too!?
 \l
 
 \\@CHARA_IN@< 0, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0047", 100>
 Noel
-Ugh. Even I can't pull off being a student.
+Tsk... I shouldn't expect to pull off the student look.
 Or could I? No, no, get a hold of yourself.
 \l
 
 \\@CHARA_IN@< 0, 8, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0048", 100>
 Noel
-Oh, well, if I can't be a student, then I'll just have to
-be a teacher instead!
+Hmmmmm...  Oh! If I can't be a student, then I'll just have to
+become a teacher instead!
 \l
 
 \\@CHARA_IN@< 0, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0049", 100>
 Noel
-With that decided, it's time to get to work!
-This is going to be fun! Åô
+With that decided, time to submit my papers!
+Oh, this is going to be so fun! Åô
 \l
 
 \\@CHARA_IN@< 0, 8, 0, 0, 1>
@@ -90,7 +90,7 @@ And a mysterious nun, killing vampires by night!
 \\@CHARA_IN@< 0, 8, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0051", 100>
 Noel
-Oh, I've built a great character already!
+Oh, I've created a great character already!
 
 \\@BGM_STOP@<0>
 \e

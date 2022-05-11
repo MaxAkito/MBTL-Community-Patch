@@ -16,27 +16,28 @@
 \\@CHARA_IN@< 1, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0010", 100>
 Noel
-Hmm... can't see in even though it feels like I should
-Can't enter even though it feels like I should...
+Hmm... I can kinda see in, but not really...
+I can kinda enter, but not really...
 \l
 
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0011", 100>
 Noel
-What's with this mansion, anyway...?
+What's wrong with this mansion...?
 \l
 
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0012", 100>
 Noel
 They even have a whole home-security system...
-Some hybrid of modernization and native authority, is it!?
+Who do they think they are, combining this modern stuff with
+the　lay of the land?!
 \l
 
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0013", 100>
 Noel
-Why can't they rely more on something Magecrafty?! So dumb!
+Why can't they rely more on something magecrafty?! Ugh, this sucks!
 
 \\@CHARA_IN@< 0, 3, 0, 1, 0>
 \aw
@@ -49,7 +50,7 @@ And there it is...
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0011", 100>
 Shiki
 Someone super suspicious...
-They're even flagrantly trying to peek into our mansion...
+They're quite flagrantly trying to peek into our mansion...
 
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 4>
@@ -82,7 +83,7 @@ That's some real delinquent behavior there, you know.
 \\@CHARA_IN@< 1, 8, 300, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0018", 100>
 Noel
-Or are you here for some... extra-curricular activities?
+Or are you here for some...extra-curricular activities?
 
 \\@CHARA_OUT@< 0, 3, 2, 0, 0>
 \aw
@@ -109,14 +110,15 @@ Oh well, I suppose this'll save time in the long run.
 \\@CHARA_IN@< 1, 8, 0, 32, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0021", 100>
 Noel
-And there's no point in hiding now that you've found me.
+Ain't no point in hiding now that I've been found out.
 \l
 
 \\@CHARA_IN@< 1, 8, 1, 32, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0022", 100>
 Noel
-Guess I'll juuust have to crush up your limbs a little, 
-and then have you come you in for interrogation later!
+Guess I'll juuust have to crush your limbs up a little
+so I can bring you in for interrogation. 
+
 
 \\@BGM_STOP@<0>
 \e

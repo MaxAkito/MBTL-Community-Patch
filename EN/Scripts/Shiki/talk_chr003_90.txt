@@ -13,18 +13,18 @@
 \\@CHARA_IN@< 0, 3, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0030", 100>
 Shiki
-Phew... That was more difficult than I'd imagined.
+Phew... Guess I pulled it off.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0031", 100>
 Shiki
-It wasn't exactly intentional, but I'd should still not try to
-fight a monster like that ever again.
+It wasn't exactly intentional, but I hope I'll never
+have to fight a monster like that ever again.
 \l
 
 \\@CHARA_IN@< 0, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0032", 100>
 Shiki
-My body feels heavy. I had my glasses off for too long. 
+Damn, my body feels heavy. I had my glasses off for too long. 
 I'm going to have trouble getting home at this rate.
 \l
 
@@ -46,8 +46,8 @@ That's when...
 \\@SQ_CALL@<2>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0035", 100>
-I-- the vessel that was Tohno Shiki, heard a
-noise as if something had broken for good.
+I-- Shiki Tohno, now a mere vessel, heard a noise
+that sounded like something had broken for good.
 \l
 
 \\@BGM_PLAY@<0, 77, 100>
@@ -58,21 +58,21 @@ My pulse suddenly quickened.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0037", 100>
-Without warning, it was racing a mile a minute.
+I was going at full spin.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0038", 100>
-My veins, my arteris, they were all set into great activity.
+My veins, even my arteries, all flared into great activity.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0039", 100>
-My mind began breaking apart little by little, as I saw
-a vision that set my spine alight.
+My mind began breaking apart, more and more, 
+as I saw a dream-like vision that set my spine alight.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0040", 100>
 Shiki
-Ah...
+...Agh...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0041", 100>
@@ -80,9 +80,8 @@ The night was not over yet.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0042", 100>
-That was the moment from which my real destiny with the
-vampires began.
-
+It was from that moment onward
+that my destiny became truly intertwined with that of vampires.
 
 \\@BGM_STOP@<0>
 \e

@@ -171,7 +171,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Arcueid   (000) | Secondary editing done (Petri) |
 | Hisui     (001) | Secondary editing done (Petri) |
 | Akiha     (002) | Secondary editing done (Petri) |
-| Shiki     (003) | Initial editing done (Petri)   |
+| Shiki     (003) | Secondary editing done (Petri) |
 | Kohaku    (004) | Secondary editing done (Petri) |
 | Roa       (005) | Secondary editing done (Petri) |
 | Kouma     (006) | Secondary editing done (Petri) |
@@ -180,7 +180,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Vlov      (009) | Initial editing done (Petri)   |
 | Warc      (010) | Secondary editing done (Petri) |
 | Ciel      (011) | Secondary editing done (Petri) |
-| Saber     (012) | Secondary editing done (Petri)   |
+| Saber     (012) | Secondary editing done (Petri) |
 | Miyako    (013) | Secondary editing done (Petri) | 
 | Boss Rush (013) | Initial editing done (Petri)   |
 | DA Noel   (014) | Secondary editing done (Petri) |

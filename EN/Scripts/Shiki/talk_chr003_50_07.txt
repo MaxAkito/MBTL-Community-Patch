@@ -13,27 +13,27 @@
 \\@CHARA_IN@< 0, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0020", 100>
 Shiki
-So you're behind the vampire disturbances, huh? You sure
-have been making a mess of things.
+So you're the one behind this whole vampire mess?
+You've been acting pretty brazenly, haven't you?
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0020", 100>
 Volv
-You think I'm to blame for the smoldering city?
-For a murderer, you sure aren't very good at provocation.
+You think this smoldering city...is my work...?
+What a strange provocation...murderer.
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0021", 100>
 Volv
-But that makes me more sad than angry. Just as there
-nobody who would feel the need to murder a mere fool.
+It makes me more sad than it does upset...
+After all, one cannot stay mad at a fool.
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0021", 100>
 Shiki
-Is that so? Sorry to disappoint you, but I don't really
-care what your opinion of me is.
+Really now? Sorry to disappoint,
+but I don't really care what you think of me.
 \l
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
@@ -45,35 +45,35 @@ me lose myself in anger.
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0022", 100>
 Volv
-I see... It appears you have a wound you cannott forget,
-yet despite that cannot ever truly remember, either.
+I see... It appears you have a wound 
+that you cannot forget, yet cannot recall either.
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0023", 100>
 Volv
 How pitiful... Such fury that it compells you to challenge 
-even a Dead Apostle, despite that you are but merely human.
+even a Dead Apostle...despite that you are but merely human.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0024", 100>
 Volv
-I can't very well turn down such a challenge, can I?
+I cannot turn down such a challenge...now can I?
 \l
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0025", 100>
 Volv
-Come at me then, blood-bag.
-I shall gratefully accept that scorching blood.
+Come at me, blood-bag.
+I shall gratefully accept your scorching blood.
 \l
 
 \\@CHARA_IN@< 0, 3, 102, 0, 1>//“{‚è2
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0023", 100>
 Shiki
-Keep talking. I'm not going to give you anything warm, or 
-even cold. All you'll get from me is mere death.
+Say whatever you want. What I'm going to give you 
+is not warm, nor is it cold. It is simply death.
 
 
 \\@BGM_STOP@<0>

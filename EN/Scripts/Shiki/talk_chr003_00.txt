@@ -16,14 +16,14 @@
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0000", 100>
 Shiki
-What an ominous moon... If I let my guard down
-I'll see lines everywhere.
+What an ominous moon... 
+If I don't concentrate, I'll start seeing lines everywhere.
 \l
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0001", 100>
 Shiki
-On nights like this, it would be smarter for me to stay
+On nights like these, it would be prudent to stay
 inside and wait for morning.
 \l
 
@@ -43,8 +43,8 @@ I am the man of the house, after all.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0004", 100>
 Shiki
-I have to show the others that I can be a dependable
-older brother.
+I wanna show the others that I can be depended on
+as the elder brother that I am.
 \l
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>

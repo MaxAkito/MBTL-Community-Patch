@@ -15,20 +15,20 @@
 \\@CHARA_IN@< 0, 10, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0000", 100>
 Red_Arcueid
-Where am I? And how
-did I get here?
+Where...am I? 
+And what was I doing...?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0001", 100>
 Red_Arcueid
-I remember...pain...and...something
-so frustrating that I wanted to cry.
+Right...it was...
+so painful, so regretful, so sad, I wanted to cry.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0002", 100>
 Red_Arcueid
-Hopelessness... I was not in control... A desire
-to destroy, yet unable to do so...
+And there was nothing I could do about it...
+I just wanted to...destroy...him...
 \l
 
 \\@FADE_OUT@<1, 255, 255, 255, 1>
@@ -40,23 +40,23 @@ to destroy, yet unable to do so...
 \\@CHARA_IN@< 0, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0003", 100>
 Red_Arcueid
-Ah, that's right.
-Now I remember.
+Oh. 
+Right... Right!
 \l
 
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0004", 100>
 Red_Arcueid
-Hehehe. I remember. Hahahahaha!
-I remember everything!
+Hehehe. I remember. Heh...heheh...ahahaha!
+I remember, I remember everything!
 \l
 
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0005", 100>
 Red_Arcueid
-Those humans truly are something else!
-They've killed my original self!
+Thank you, humankind! You really are something else!
+To think you were able to kill my original body!
 \l
 
 \\@CHARA_IN@< 0, 10, 7, 0, 1>

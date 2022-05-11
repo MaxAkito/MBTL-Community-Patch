@@ -38,7 +38,7 @@ That's the only thing that can give me happiness!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0024", 100>
 Red_Arcueid
-And so I crushed all everyone underfoot because  
+And so I crushed everyone underfoot because  
 that's the only thing I've been wanting as a reward!
 
 \l
@@ -116,20 +116,20 @@ much room to judge.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0079", 100>
 Roa
-These bodies our ours are such troublesome things. It's too
+Bodies sure are vexing things. It's too
 easy for their true character to bleed through.
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0028", 100>
 Red_Arcueid
-I see. Yes, now that I think about it,
-it is painfully obvious.
+I see.
+Giving it some thought, I suppose that makes sense.
 \l
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0029", 100>
 Red_Arcueid
-Right, Shiki has been suffering because of my childish
+Shiki has been suffering because of my childish
 outbursts, right?
 \l
 
@@ -148,7 +148,7 @@ Hehehe. Still...
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0032", 100>
 Red_Arcueid
 Just because the perpetrator has served his sentence
-does not mean the victim's feelings have changed.
+does not mean that the victim feels any better about it.
 \l
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
@@ -161,22 +161,22 @@ accept my feelings for him.
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0034", 100>
 Red_Arcueid
-This gently boiling feeling of my Bloodsucking Impulse, that is.
-For that, I must first remove those who would stand in my way.
+These gently boiling feelings of my vampiric urges, that is.
+So first I gotta get rid of those who'd stand in my way.
 \l
 
 \\@CHARA_IN@< 0, 10, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0035", 100>
 Red_Arcueid
-Very well, Roa. I will just have to
-make the best of the situation.
+Let's see... Roa, was it?
+You'll do just fine...
 \l
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0036", 100>
 Red_Arcueid
-you'll serve well as a napkin as I prepare
-for the main course.
+In serving as a replacement for my napkin
+while I prepare for the main course, that is.
 
 \\@BGM_STOP@<0>
 \e

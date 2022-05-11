@@ -174,7 +174,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Maids     (007) | Secondary editing done (Petri) |
 | Noel      (008) | Secondary editing done (Petri)   |
 | Vlov      (009) | Initial editing done (Petri)   |
-| Warc      (010) | Initial editing done (Petri)   |
+| Warc      (010) | Secondary editing done (Petri)   |
 | Ciel      (011) | Secondary editing done (Petri) |
 | Saber     (012) | Initial editing done (Petri)   |
 | Miyako    (013) | Secondary editing done (Petri) | 

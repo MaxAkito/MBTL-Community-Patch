@@ -31,7 +31,7 @@ I mean my hands are completely soaked in blood after all.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0042", 100>
 Red_Arcueid
 All that's left is for you to wake up, Shiki. Hurry up,
-open your eyes and despair as you find yourself in my hands
+open your eyes and despair as you find yourself in my hands.
 \l
 
 \\@CHARA_OUT@<0, -1, -1, 0, 0>
@@ -46,7 +46,7 @@ open your eyes and despair as you find yourself in my hands
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0043", 100>
 Red_Arcueid
-Slowly... Gently... Like plucking grapes off
+Slowly...gently...like plucking grapes off
 a vine one by one!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0010", 100>
@@ -57,8 +57,8 @@ threats in my ear. Woah! What's going on?!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0011", 100>
 Shiki
-How did I get way up here?! I'm not a fan of heights!
-This a real dizzying sense of indescribable absurdity!
+Oh damn that's high up! Also, dangerous!
+I'm getting dizzy from this absurd and indescribable situation!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0004", 100>
@@ -87,8 +87,8 @@ I'll say it again, and as many times as it takes...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0014", 100>
 Shiki
-Aren't you embarrassed at all about being a giant?! Snapping
-and going on a rampage like that?! It's disgraceful!
+Aren't you embarrassed at all about turning into a giant?! 
+Snapping and going on a rampage like that?! It's disgraceful!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0006", 100>
 Red_Arcueid
@@ -97,31 +97,32 @@ And just why should I feel embarrassed?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0007", 100>
 Red_Arcueid
-Why should the words of someone clinging onto a person's
-thumb for dear life affect me in any way whatsoever?
+Besides, who are you to tell me that as pathetically cling on for 
+dear life to another person's thumb. Like if I'd care, dummy!
+
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0015", 100>
 Shiki
-Sure it hasn't affected you? I'd say you've regained at
-least some of your senses. You just called yourself a person.
+Uh. You say that, but it felt like you acted like your 
+old self just now. Also, you're not really person, now are you?
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0008", 100>
 Red_Arcueid
 That's it, I'm killing you now. I was thinking of forgiving you
-for killing me if you paid me back, but I've changed my mind.
+for killing me if you paid me back in full, but I've changed my mind.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0009", 100>
 Red_Arcueid
 Since you seem to want it so badly, I'll end it all now.
-This is all on you.
+And that's all your stupid fault!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0010", 100>
 Red_Arcueid
-Feel the fiery despair of hell as I crush you
-along with this entire town!
+Get ready to experience hell as I flatten you
+into a pancake, together with this city.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0080", 100>
 Shiki
@@ -172,19 +173,19 @@ the part where I beat up Ciel...?
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0072", 100>
 Arcueid
 Or the infinite reincarnation combo I pulled off against Roa?!
-I guess that last part was a bit horrifying...
+I guess that last part was a bit horrible...
 
 \\@CHARA_IN@< 1, 3, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0082", 100>
 Shiki
-A bit? It was like a horror movie.
+A bit? It's was completely horrifying!
 \l
 
 \\@CHARA_IN@< 1, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0083", 100>
 Shiki
 And those expressions you were making? They were terrifying.
-Couldn't you come up with something more... cute?
+Couldn't you come up with something more...cute?
 \l
 
 \\@CHARA_IN@< 1, 3, -1, 0, 1>

@@ -24,7 +24,7 @@ That's wasn't enough to even wipe my fingers with.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0041", 100>
 Red_Arcueid
 Well, no use complaining.
-I mean my hands are completely soaked in blood after all.
+I mean my hands are completely soaked in blood after all!
 \l
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>

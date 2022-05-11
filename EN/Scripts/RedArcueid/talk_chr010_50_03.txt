@@ -53,7 +53,7 @@ I love it soo much, I just...
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0015", 100>
 Red_Arcueid
-Can't help but laugh!
+Can't help but smile!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0016", 100>

@@ -22,7 +22,7 @@ And what was I doing...?
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0001", 100>
 Red_Arcueid
 Right...it was...
-so painful, so regretful, so sad, I wanted to cry.
+so agonizing, so miserable, so deplorable, I wanted to cry.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0002", 100>
@@ -62,7 +62,7 @@ To think you were able to kill my original body!
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0006", 100>
 Red_Arcueid
-And now just look at me! Thanks to them,
+And now just look at me! Thanks to that,
 I'm more free than ever before!
 \l
 

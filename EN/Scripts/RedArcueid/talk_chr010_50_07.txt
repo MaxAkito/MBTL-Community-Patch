@@ -175,8 +175,8 @@ You'll do just fine...
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0036", 100>
 Red_Arcueid
-In serving as a replacement for my napkin
-while I prepare for the main course, that is.
+In serving as my napkin while I do a 
+little prep before the main course, that is.
 
 \\@BGM_STOP@<0>
 \e

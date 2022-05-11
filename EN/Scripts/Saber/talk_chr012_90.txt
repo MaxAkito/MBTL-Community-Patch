@@ -18,8 +18,8 @@ I have disposed of the threat to this town.
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0031", 100>
 Saber
-Does this mean I have fulfilled my purpose
-in being summoned here?
+I was called forth for my duty as the knight who 
+wields the holy blade. With this, perhaps that duty is over.
 
 \\@CHARA_IN@<1, 0, 1, 2, 0>
 \aw
@@ -40,22 +40,22 @@ out of other people's business, but...
 \\@CHARA_IN@< 1, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0082", 100>
 Arcueid
-That weapon of yours was born in the Inner Sea of the Planet,
-right? It's amazing! I've never seen anything like it before!
+That weapon of yours was born in the plantery inner-sea,
+right? It's sooo coooool! I've never seen anything like it!
 \l
 
 \\@CHARA_IN@< 1, 0, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0083", 100>
 Arcueid
-So I'll just say it was nice to meet you, my beautiful lady
-knight! That sword and I are like cousins in a way!
+Nice to meet you, cute little swordswoman!
+That sword and I are like cousins in a way!
 
 
 \\@CHARA_IN@< 0, 12, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0032", 100>
 Saber
-You and my sword? Are you saying you are
-some kind of incarnated Elemental?
+You're like my holy blade...?
+Are you saying you are some kind of elemental given flesh?
 \l
 
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
@@ -66,14 +66,14 @@ But you do not look like--
 \\@CHARA_IN@< 1, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0084", 100>
 Arcueid
-Nah, I'm what the humans call a vampire.
+Yeah! What humans would call a vampire. That's me.
 \l
 
 \\@CHARA_IN@< 1, 0, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0085", 100>
 Arcueid
-So that sword wasn't forged to protect the planet,
-but rather the people who live upon it?
+Hehe... A weapon forged not to protect the planet,
+but rather the people who live upon it...
 \l
 
 \\@CHARA_IN@< 1, 0, 9, 0, 1>
@@ -99,8 +99,8 @@ Saber
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0035", 100>
 Saber
-For some reason, I find it hard to refuse your request.
-If anything, I am excited at the prospect.
+You ask with such eagerness. I find it hard to refuse your request.
+In fact, for whatever reason I too find myself quite excited at the prospect.
 \l
 
 \\@CHARA_IN@< 0, 12, 2, 0, 1>
@@ -125,7 +125,7 @@ Let's see who between us happens to be superior.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0037", 100>
 Saber
-As a heroine, I have no choice
+A heroine such as I has no choice 
 but to accept your challenge!
 
 \\@BGM_STOP@<0>

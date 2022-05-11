@@ -160,7 +160,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 混血　　　　　 　　| Hybrid                  | Human who has intermixed with non-humans
 | 鬼　　　　　 　 　| oni                      | Type of Japanese non-human.
 | 独角         | Lone-horn               | Kouma Kishima's martial art style.
-
+| 星の内海      | (the) planetary inner-sea| Reverse side of Earth.
 
 ## Progress
 
@@ -180,7 +180,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Vlov      (009) | Initial editing done (Petri)   |
 | Warc      (010) | Secondary editing done (Petri) |
 | Ciel      (011) | Secondary editing done (Petri) |
-| Saber     (012) | Initial editing done (Petri)   |
+| Saber     (012) | Secondary editing done (Petri)   |
 | Miyako    (013) | Secondary editing done (Petri) | 
 | Boss Rush (013) | Initial editing done (Petri)   |
 | DA Noel   (014) | Secondary editing done (Petri) |

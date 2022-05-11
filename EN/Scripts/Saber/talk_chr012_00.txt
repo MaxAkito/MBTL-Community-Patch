@@ -26,15 +26,15 @@ I have come in response to your sum--
 \\@CHARA_IN@< 0, 12, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0001", 100>
 Saber
-Where's my summoner...?
-What's going on here?
+I do not see my summoner...
+What...is going on here?
 \l
 
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0002", 100>
 Saber
 I have no Master, and this is not a Holy Grail War.
-Even the world itself feels somewhat off...
+Even the world itself feels somewhat different...
 \l
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
@@ -53,8 +53,8 @@ why I have been called forth.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0005", 100>
 Saber
-I should remain hidden for the time being
-and see what I can learn.
+In any case, I should try and remain hidden while collecting 
+any information I can, hopefully without standing out too much.
 
 
 \\@BGM_STOP@<0>

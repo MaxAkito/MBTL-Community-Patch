@@ -40,27 +40,27 @@ who has been running amok destroying things in town.
 \\@CHARA_IN@< 3, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0042", 100>
 Hisui
-I'll say it straight up. She's the King of Knights.
+I'll say it straight up. That's the King of Knights.
 
 \\@CHARA_IN@< 1, 4, 106, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0060", 100>
 Kohaku
-Why indeed... Now that I take I closer look there's no
+Ohhh... Now that I take I closer look there's no
 doubt about it, a real evil-doer, that one.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0061", 100>
 Kohaku
 Not just armor, but a sword that shoots beams as well.
-Does she have no idea what it means to be a heroine?
+Does she have no idea what it means to be a proper heroine?
 \l
 
 \\@CHARA_IN@< 1, 4, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0062", 100>
 Kohaku
-Either way, if we leave her be it will only result in more 
-problems for Souya. C'mon, Hisui!
+Either way, if we leave her be, the fundamentals of Souya's setting
+will be distorted! C'mon, Hisui!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0063", 100>
@@ -84,7 +84,7 @@ Ack! That was close!
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0013", 100>
 Saber
 Food so potent that it can dissolve a telephone pole, and
-odorless poison gas syringes... which means...
+syringes filled with odorless poison-gas! This could only mean...
 \l
 
 \\@CHARA_IN@< 0, 12, 3, 0, 1>

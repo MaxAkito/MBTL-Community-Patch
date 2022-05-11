@@ -10,8 +10,8 @@
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0000", 100>
 Worker
-Hey! There's an extra container over here! What should we
-do with it?!
+Hey! What should we do with this extra container?!
+C'mon, where does this thing go?!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0001", 100>
@@ -34,8 +34,8 @@ Oh well, finders keepers, am I right?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0004", 100>
 Worker
-Let's see what we've got in here... Oh, it's full of
-flowers...and that looks like a coffin.
+Let's see what we've got in here... 
+Oh, it's full of flowers...and that looks like a coffin.
 \l
 
 \\@SE_PLAY@<0,"talk/talk_se/Hit_BurningLong",0,100>
@@ -49,8 +49,8 @@ are starting to bu--! AH...AHHH!!!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0006", 100>
 Worker
-Somebody help me! I feel like I'm burning
-up from the inside!
+He--help me! What the--I'm burning...
+I feel like I'm burning up from the inside!
 
 \\@FADE_IN@<2, 128,0 ,0 ,0>
 \aw
@@ -62,45 +62,45 @@ up from the inside!
 \\@CHARA_IN@< 0, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0050", 100>
 Volv
-It would appear I have arrived at port.
+Seems I've arrived at port...
 \l
 
 \\@CHARA_IN@< 0, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0051", 100>
 Volv
-Life is full of little surprises. To think I
-would cross an entire ocean inside a coffin.
+You never know how life turns out... To think a man such 
+as I...would cross an entire ocean with just a coffin.
 \l
 
 \\@CHARA_IN@< 0, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0052", 100>
 Volv
-Though I suppose this was not the first time. I was sealed
-in a coffin when I was exiled to the North Sea as well.
+Though...this wasn't the first time.
+I was sealed in a coffin when they first exiled me to the northern seas.
 \l
 
 \\@CHARA_IN@< 0, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0053", 100>
 Volv
-That was so long ago it feels like another lifetime.
+But now...those memories are barely even my own anymore...
 \l
 
 \\@CHARA_IN@< 0, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0054", 100>
 Volv
-But enough about the past. I will only remain sane for so long.
+Nevertheless... I will only remain sane for so long.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0055", 100>
 Volv
 This is my last chance. I must acquire the heart of the
-True Ancestor princess before I lose myself entirely.
+True Ancestor Princess before I lose myself entirely.
 \l
 
 \\@CHARA_IN@< 0, 9, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0056", 100>
 Volv
-And then, I'm coming for you, Serpent.
+And then, I shall track you down, vile Serpent.
 
 
 \\@BGM_STOP@<0>

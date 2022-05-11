@@ -36,7 +36,7 @@ Calls everyone by their first name.
 #### Hisui (001)
 Very formal, uses polite expressions. However, her speech is otherwise brief and to the point. Sometimes has a dead-pan silly mode. 
 
-Calls men "Master x" and women "Lady x" (-様)
+Calls men "Mister x" and women "Miss x" (-様). Calls Shiki "Master Shiki", and Akiha "Lady Akiha".
 
 #### Akiha (002)
 Formal and uses polite expressions. Can be very eloquent. Can both show her hostility directly and indirectly. Sometimes liable to use sarcasm.
@@ -158,8 +158,9 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 人形使い　　 　　| Puppetmaster            | Mario's first nickname.
 | 人間使い　　 　　| Peoplemaster            | Mario's second nickname.
 | 混血　　　　　 　　| Hybrid                  | Human who has intermixed with non-humans
-| 鬼　　　　　 　 　| oni                      | Type of Japanese non-human.
+| 鬼　　　　　 　 　 | oni                     | Type of Japanese non-human.
 | 独角         | Lone-horn               | Kouma Kishima's martial art style.
+| 北海         | northern seas           | Where Vlov comes from. Not the North Sea.
 | 星の内海      | (the) planetary inner-sea| Reverse side of Earth.
 
 ## Progress

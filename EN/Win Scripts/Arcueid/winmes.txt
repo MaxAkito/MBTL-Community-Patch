@@ -42,7 +42,7 @@ WinMes06:
 chara_type 104
 Perhaps I stayed out in the sun too long. 
 You were so weak. The fact that this even qualified 
-as fight must mean my abilities have gotten weaker.
+as a fight must mean my performance is dropping.
 \e
 
 WinMes07:

@@ -9,43 +9,43 @@ Um, I hope you are not injured?
 
 WinMes01:
 chara_type 2
-I am terribly sorry... I'm not very comfortable
-with others touching me...
+I am terribly sorry... 
+I'm not very comfortable with others touching me...
 \e
 
 
 WinMes02:
 chara_type 101
-You seemed as if you wanted an earnest fight, so I
-gave it everything I could.
+You seemed as if you wanted an earnest fight,
+so I gave it everything I could.
 \e
 
 
 WinMes03:
 chara_type 100
-D-Did I win...? Master Shiki! Look!
-I did it!
+D-Did I win...? 
+Master Shiki! Look! I did it!
 \e
 
 
 WinMes04:
 chara_type 102
-Phew! Now, if you'll excuse me, I should
-get back to cleaning.
+Phew! Now, if you'll excuse me,
+I should get back to cleaning.
 \e
 
 
 WinMes05:
 chara_type 1
-I beg your pardon. You just
-seemed so intense that I felt it
-necessary to defend myself.
+I'm terribly sorry. 
+It's just...you seemed so intense 
+that I felt it necessary to defend myself.
 \e
 
 
 WinMes06:
 chara_type 101
-That was rather frightening...
+Quite frightening...
 I must ask that you don't try that again.
 \e
 
@@ -55,14 +55,14 @@ I must ask that you don't try that again.
 
 WinMes08:
 chara_type 0
-Was that satisfactory...? I'm afraid fighting
-is not my strong point.
+Was that satisfactory...?
+I'm afraid fighting is not my strong point.
 \e
 
 WinMes09:
 chara_type 102
-You should fix that temper of yours. Learning some
-proper manners would be good for you.
+You should fix that temper of yours.
+Learning some proper manners would do you good.
 \e
 
 // ‘ÎŽu‹M
@@ -77,14 +77,14 @@ could think of to make you return to your room...
 WinMes11:
 chara_type 1
 You seemed as if you wanted an earnest fight, so I
-did not hold back. Was it satisfactory, Lady Akiha?
+did not hold back. Was it to your liking, Lady Akiha?
 \e
 
 // ‘Îàæàß
 WinMes12:
 chara_type 100
 I'm sorry, Kohaku... I sensed an unusual
-amount of blood lust coming from you.
+amount of bloodlust coming from you.
 I had to snap you out of it.
 \e
 
@@ -92,8 +92,8 @@ I had to snap you out of it.
 WinMes13:
 chara_type 100
 Th-That was close...
-What happened, anyway? Why did I sense such a
-dangerous aura emanating from Miss Arcueid?
+I'm not sure why, but... I sensed a 
+dangerous aura emanating from Miss Arcueid just now.
 \e
 
 
@@ -106,14 +106,14 @@ dangerous aura emanating from Miss Arcueid?
 
 WinMes3WinStreak00:
 chara_type 3
-Three wins.
+Three wins...
 You handled that furniture splendidly.
 \e
 
 WinMes10WinStreak00:
 chara_type 100
-Ten wins. You aren't a world-famous
-butler in disguise, are you??
+Ten wins...
+You wouldn't happen to be a famous butler in disguise?
 \e
 
 //‰B‚µƒLƒƒƒ‰‰ð•útest

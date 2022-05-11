@@ -40,7 +40,7 @@ out of other people's business, but...
 \\@CHARA_IN@< 1, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0082", 100>
 Arcueid
-That weapon of yours was born in the plantery inner-sea,
+That weapon of yours was born in the planetary inner-sea,
 right? It's sooo coooool! I've never seen anything like it!
 \l
 

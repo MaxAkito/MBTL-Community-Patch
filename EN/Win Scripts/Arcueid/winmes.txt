@@ -8,7 +8,7 @@ Who's next? ô
 
 WinMes01:
 chara_type 0
-That was mew easy!
+That was meowwy easy!
 \e
 
 WinMes02:
@@ -20,14 +20,14 @@ Maybe try again in your next life.
 WinMes03:
 chara_type 102
 Still not giving up? Fine...
-I'll just have to break you a little more brutally next time.
+I'll just have to break you a little more savagely next time.
 You know, as a vampire should.
 \e
 
 WinMes04:
 chara_type 102
-You're asking if I'll drink your blood? Very funny. I would 
-appreciate it if you didn't mistake me for some third-rate vampire.
+Why don't I drink your blood? Very funny. I would appreciate 
+it if you didn't mistake me for those other third-rate vampires.
 \e
 
 
@@ -40,30 +40,30 @@ I look forward to next time, if there is one.
 
 WinMes06:
 chara_type 104
-Perhaps I stayed out in the sun too long. Actually breaking
-a sweat against someone like you must mean my abilities
-are getting weaker.
+Perhaps I stayed out in the sun too long. 
+You were so weak. The fact that this even qualified 
+as fight must mean my abilities have gotten weaker.
 \e
 
 WinMes07:
 chara_type 103
-Oh dear, is it over already? 
-You're not as strong as you look.
+Oh, done already? 
+Not as strong as you look, are you?
 \e
 
 WinMes08:
 chara_type 100
 Ahh, that felt great! ô
 Like that feeling you get standing under a blue sky after
-deflecting a missile, you know? Not that I've ever done
-anything like that before, mind you.
+deflecting a missile, you know? 
+Not that I've ever done that. 
 \e
 
 WinMes09:
 chara_type 100
-You want to go again? I suppose that was amusing
-enough that I can go another round.
-And this time I won't hold back!
+You wanna to go again? 
+It was pretty fun, but if we're doing 
+one more I'll hand your ass to you.
 \e
 
 WinMes10:
@@ -76,14 +76,14 @@ when you know you can't win?
 WinMes11:
 chara_type 102
 Jump, turn around, throw a punch, and it's over.
-Hm, is this what dancing at a ball is like?
+Hmmmm, is this what dancing at a ball is like?
 \e
 
 // ‘Îu‹M
 WinMes12:
 chara_type 0
-Heheh. So, did I impress you this time?
-From now on I won't lose even when you're serious, Shiki ô
+Heheh. So, impressed or what?
+Even if you get serious, Shiki, I'm not losing again ô
 \e
 
 // ‘Îƒ”ƒ[ƒ”
@@ -99,7 +99,7 @@ WinMes14:
 chara_type 100
 You're getting sharper day by day.
 Shiki might be bothered by it, but
-I quite enjoy gaining more playmates.
+I'm happy to have more playmates.
 \e
 
 // ‘ÎƒVƒGƒ‹
@@ -116,15 +116,15 @@ WinMes16:
 chara_type 103
 Farewell, my very first! Were you satisfied?
 Not only did I spill your blood this time,
-but I also tore you along with your your soul to shreds!
+but I tore you apart completely, soul included!
 \e
 
 // ‘ÎçaŠÔ
 WinMes17:
 chara_type 103
-You're one of this countries old hybrids aren't you?
+You're...an old Hybrid from this land?
 There's some human mixed in, but the quality of your blood is 
-Phantasmal Beast class. Just how was that preserved?
+on par with a Phantasmal Beast. How has that been preserved?
 \e
 
 // 99‚Ü‚Å’Ç‰Á‰Â”\
@@ -135,13 +135,13 @@ Phantasmal Beast class. Just how was that preserved?
 WinMes3WinStreak00:
 chara_type 0
 All right! Three wins in a row!
-I just need to keep this up!
+Gotta keep it up!
 \e
 
 WinMes10WinStreak00:
 chara_type 0
-I'm amazing! Ten wins in a row! It just...
-Ahhh... feels so good, you know?!
+Awesome! Ten wins in a row! It just...
+Ahhh... feels so great, you know?!
 \e
 
 

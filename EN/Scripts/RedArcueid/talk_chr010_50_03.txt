@@ -64,20 +64,20 @@ I promise to be as nice and rough as possible!
 \\@CHARA_IN@< 1, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0021", 100>
 Ciel
-Stop acting as if you like me. 
-These kind of jokes are not amusing in the slightest.
+I know you're not serious, but please stop
+acting as if you've taken a liking to me.
 \l
 
 \\@CHARA_IN@< 1, 11, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0022", 100>
 Ciel
-It's making me feel a kind of dread I've never experienced before.
+I don't think I've ever felt as unnerved as when you say that.
 \l
 
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0023", 100>
 Ciel
-But, if you insist...
+Still, if you insist...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0024", 100>

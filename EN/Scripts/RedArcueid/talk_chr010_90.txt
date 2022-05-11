@@ -47,7 +47,7 @@ open your eyes and despair as you find yourself in my hands.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0043", 100>
 Red_Arcueid
 Slowly...gently...like plucking grapes off
-a vine one by one!
+a vine, one by one!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0010", 100>
 Shiki
@@ -57,8 +57,8 @@ threats in my ear. Woah! What's going on?!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0011", 100>
 Shiki
-Oh damn that's high up! Also, dangerous!
-I'm getting dizzy from this absurd and indescribable situation!
+Oh damn, I'm high up! This is insane!
+This indescribably absurd situation is giving me vertigo!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0004", 100>

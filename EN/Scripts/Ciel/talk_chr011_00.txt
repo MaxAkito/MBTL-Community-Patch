@@ -27,7 +27,7 @@ such diseases at the source, and yet...
 \\@CHARA_IN@< 0, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0032", 100>
 Ciel
-Not only does she shows up an entire month behind schedule,  
+Not only does she show up an entire month behind schedule,  
 she wastes all her free time fooling around...
 \l
 

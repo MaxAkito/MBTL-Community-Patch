@@ -15,7 +15,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0060", 100>
 Akiha
 What have we here? I came in search of a mouse sneaking
-around my city, and wind up catching a rather oversized rat instead.
+around my city, and wound up catching a rather oversized rat instead.
 \l
 
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
@@ -51,7 +51,7 @@ Have you prepared for your pathetic yet unseen death?
 \\@CHARA_IN@< 0, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0042", 100>
 Ciel
-I've never had the need to prepare anything like that.
+I've never had the need to prepare for anything like that.
 We do not leave wills, or keepsakes. They are unnecessary.
 \l
 

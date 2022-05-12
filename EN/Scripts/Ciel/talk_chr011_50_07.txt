@@ -14,7 +14,7 @@
 \\@CHARA_IN@< 0, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0050", 100>
 Ciel
-One of the Twenty-seven Dead Apostle Ancestors!?
+One of the Twenty-Seven Dead Apostle Ancestors!?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0051", 100>
@@ -26,7 +26,7 @@ such as yourself to have made this city your nest.
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0090", 100>
 Volv
 An Executor...
-I must admit...I am surprised as well.
+I must admit... I am surprised as well.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
@@ -39,7 +39,7 @@ it has the right to turns its vile gaze this far east?
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0092", 100>
 Volv
-Yet...no matter how far you extend your gaze,
+Yet... no matter how far you extend your gaze,
 it won't do you much if your sight is as dim as it is.
 \l
 
@@ -58,7 +58,7 @@ You will die a dog's death here tonight, woman.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0095", 100>
 Volv
-May your burned up body serve as
+May your burnt body serve as
 amusement for the Dead.
 
 \\@CHARA_IN@< 0, 11, 3, 0, 1>

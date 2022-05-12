@@ -18,7 +18,7 @@
 \\@CHARA_IN@< 0, 12, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0000", 100>
 Saber
-I am the servant Saber.
+I am the Servant Saber.
 I have come in response to your sum--
 \l
 
@@ -27,7 +27,7 @@ I have come in response to your sum--
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0001", 100>
 Saber
 I do not see my summoner...
-What...is going on here?
+What... is going on here?
 \l
 
 \\@CHARA_IN@< 0, 12, 5, 0, 1>

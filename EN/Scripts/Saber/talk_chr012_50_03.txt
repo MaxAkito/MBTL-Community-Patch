@@ -47,7 +47,7 @@ I'll say it straight up. That's the King of Knights.
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0060", 100>
 Kohaku
 Ohhh... Now that I take I closer look there's no
-doubt about it, a real evil-doer, that one.
+doubt about it. A real evil-doer, that one.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0061", 100>

@@ -26,7 +26,7 @@ hypothesized Ghost Liners, then?
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0020", 100>
 Saber
-.....
+......
 \l
 
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
@@ -65,7 +65,7 @@ I may not look it, but my schedule is packed with precision.
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0085", 100>
 Roa
-Foreign elements such as you are something I'd wish make a hasty exit.
+I wish foreign elements such as you would make a hasty exit.
 The Princess is like an easily distracted stray cat, you see.
 \l
 

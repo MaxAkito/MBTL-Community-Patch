@@ -26,7 +26,7 @@ According to the map, it's this way. Let's hurry.
 
 WinMes03:
 chara_type 0
-Did...we win?
+Did... we win?
 More than just win! We scored an overwhelming victory!
 I see... Why do I feel so embarrassed?
 \\@LINE_CG@<0, 0, -128,0,112,32, 0, 0,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<2, 2, -128,0,112,32, 0, 0,112,32>
@@ -69,8 +69,8 @@ Maybe I'll wear something more more western next time, like you do.
 WinMes08:
 chara_type 0
 Hisui, why don't we take a short break?
-Sure, but I'll report abour your neglience to Lady Akiha.
-Drats, you just can't help tattling, can you?
+Sure, but I will report your negligence to Lady Akiha.
+Drat! You just can't help tattling, can you?
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0, 0,112,32>\\@LINE_CG@<2, 2, -128,0,112,32, 0,32,112,32>
 \e
 
@@ -109,7 +109,7 @@ I must request you bring out any medicine that could help...!
 WinMes3WinStreak00:
 chara_type 0
 Look, Hisui! Three wins in a row!
-You will be the...excellent.
+You will be the... excellent.
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0, 0,112,32>
 \e
 

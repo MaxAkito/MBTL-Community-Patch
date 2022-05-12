@@ -10,13 +10,13 @@ clearly demonstrated. There's no need to continue this any further.
 WinMes01:
 chara_type 1
 That was enjoyable. I would gladly serve
-as your opponent if there ever is a next time.
+as your opponent if there is ever a next time.
 \e
 
 WinMes02:
 chara_type 102
 I'm even more impressive than I thought. 
-If I'm this good, there's not even any need for me to inverse.
+If I'm this good, there's even no need for me to inverse.
 \e
 
 WinMes03:
@@ -96,7 +96,7 @@ on a secluded island until you've reflected on your actions.
 WinMes14:
 chara_type 1
 This goes without saying, but you two understand that you'll
-be receiving a pay-cut for this, right? At minimum.
+be receiving a pay cut for this, right? At minimum.
 \e
 
 // Сќажая
@@ -124,7 +124,7 @@ You don't plan on attending Asagami Academy?!
 
 WinMes3WinStreak00:
 chara_type 102
-Three wins isn't bad. This sure is proving to be quite
+Three wins isn't bad. This is proving to be quite
 the useful training session.
 \e
 

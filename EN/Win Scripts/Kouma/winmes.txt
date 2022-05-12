@@ -16,7 +16,7 @@ Far from perceiving all reality in the span of a single thought.
 WinMes02:
 chara_type 0
 There is neither good nor evil in the taking of life. 
-Know that to deem other as evil is to err.
+Know that to deem others as evil is to err.
 \e
 
 WinMes03:
@@ -26,7 +26,7 @@ What are you even doing? You are less than even the ape.
 
 WinMes04:
 chara_type 0
-Cast off your ties to this worldly plane and enter Nirvana
+Cast off your ties to this worldly plane and enter nirvana
 without regret.
 \e
 
@@ -38,14 +38,14 @@ feel free to come find me.
 
 WinMes06:
 chara_type 0
-It just occured to me but...
+It just occurred to me but...
 Are you sure you're human?
 \e
 
 WinMes07:
 chara_type 0
 Bad seeds bloom without regard to their soil.
-Was it mere weed? Was it rife with poison?
+Was it merely weeds? Was it rife with poison?
 Only your bare skull may tell us which.
 \e
 
@@ -67,7 +67,7 @@ the soil of this land does not suit you.
 WinMes10:
 chara_type 0
 I once knew a pair of sisters who resembled you two, so...
-Could I perhaps ask of you two to back down?
+Could I perhaps ask of you to back down?
 \e
 
 // 対志貴(ストーリーでのエンカウント専用)

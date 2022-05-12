@@ -13,7 +13,7 @@ That was meowwy easy!
 
 WinMes02:
 chara_type 103
-Sorry, but your chances of winning were zero.
+Sorry, but you never had a chance of winning.
 Maybe try again in your next life.
 \e
 
@@ -107,7 +107,7 @@ WinMes15:
 chara_type 101
 Ugh, how annoying. It never ends!
 Just go away already, Ciel.
-Keep this up, and the casualities 
+Keep this up, and the casualties 
 won't stop at just you.
 \e
 
@@ -122,7 +122,7 @@ but I tore you apart completely, soul included!
 // ‘ÎçaŠÔ
 WinMes17:
 chara_type 103
-You're...an old Hybrid from this land?
+You're... an old Hybrid from this land?
 There's some human mixed in, but the quality of your blood is 
 on par with a Phantasmal Beast. How has that been preserved?
 \e

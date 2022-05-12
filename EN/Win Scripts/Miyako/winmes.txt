@@ -23,7 +23,7 @@ compliment me after that!
 WinMes03:
 chara_type 100
 I'm in form! Perfect form! This is the
-result of my daily Kung Fu training!
+result of my daily kung fu training!
 \e
 
 WinMes04:
@@ -48,7 +48,7 @@ I'll just keep it a secret that nobody ever used it...
 WinMes07:
 chara_type 4
 Ouch, my knuckles are aching. 
-Looks like my Kung Fu skills still need work...
+Looks like my kung fu skills still need work...
 \e
 
 WinMes08:

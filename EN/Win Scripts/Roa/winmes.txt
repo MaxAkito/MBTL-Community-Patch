@@ -3,8 +3,8 @@ WinMesScript
 
 WinMes00:
 chara_type 0
-For a nobody, you're not half bad. With moves and a face
-like yours, any circus would be glad to have you. In fact,
+For a nobody, you're not half bad. Any circus would be glad
+to have someone with a face and moves like yours. In fact,
 if you don't bleed out, that's probably what you should do.
 \e
 
@@ -25,13 +25,13 @@ WinMes03:
 chara_type 1
 Is it over already? That was no fun at all. A battle is
 something you should take slowly, allowing you to savor
-in your opponent's pain, wouldn't you-- Oh, excuse me.
+your opponent's pain, wouldn't you-- Oh, excuse me.
 I didn't realize you'd already stopped breathing.
 \e
 
 WinMes04:
 chara_type 0
-As thanks for allowing me to enjoy myself, I'll do the only humane
+As thanks for allowing me to enjoy myself, I'll do the humane
 thing and bury you... Rejoice! Not many people have ever had the honor 
 of experiencing the hellish sensation of being cremated by lightning.
 \e
@@ -55,8 +55,8 @@ I have to act like a proper vampire at least once in a while.
 WinMes07:
 chara_type 2
 What you and I see aren't the same, you say? 
-Hah, but we do! At the end of the day,
-all it does is cut things to pieces!
+Hah, but they are! At the end of the day,
+all they do is cut things to pieces!
 \e
 
 // 対アルクェイド
@@ -64,7 +64,7 @@ WinMes08:
 chara_type 1
 So even a True Ancestor can malfunction, huh? 
 Just a single scratch, and your worth has fallen this much.
-Right, that must be sole flaw of a perfect being.
+Right, that must be the sole flaw of a perfect being.
 \e
 
 // 対シエル
@@ -106,7 +106,7 @@ chara_type 0
 Those excessive weapons are nothing but a shackle for you.
 You've practically put your miraculous body into bondage. 
 The bondage of human knowledge. Before you go cursing other 
-heresies, you'd best come to terms with your own otherwordlyness first.
+heresies, you'd best come to terms with your own otherwordliness first.
 \e
 
 

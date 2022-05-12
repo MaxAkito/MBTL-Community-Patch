@@ -10,7 +10,7 @@ Let us meet again, should fate so decree.
 WinMes01:
 chara_type 100
 Your injuries are fine now, right?
-I took the liberty of using your stamina to for it so
+I took the liberty of using your stamina for it so
 if you just rest for a day or so you'll be as good as new. 
 \e
 
@@ -43,8 +43,8 @@ chara_type 6
 chara_type_sub 3
 chara_switchframe 310
 That was more like being on a battlefield than having a fight?
-That even for a shoot-out that was going overboard?
-But of course! As a sophisticated and cultured lady, a fist-fight would
+Even for a shootout that was going overboard?
+But of course! As a sophisticated and cultured lady, a fistfight would
 just be all too undignified a sight. Ohohoho!
 \e
 
@@ -52,7 +52,7 @@ WinMes06:
 chara_type 103
 It's too bad there aren't so many music stores around anymore.
 I'm really in the mood for a new guitar, one of those nice
-electric blue ones they had in the eighties...
+electric blue ones they had in the 80's...
 \e
 
 WinMes07:
@@ -61,13 +61,13 @@ chara_type_sub 106
 chara_switchframe 300
 I won't take your wallet- I mean, your life.
 So, how about you take me out for dinner in exchange?
-A yakiniku place would be nice... or maybe something mongolian?
-Oh, a steak-house would be great too!
+A yakiniku place would be nice... or maybe something Mongolian?
+Oh, a steakhouse would be great too!
 \e
 
 WinMes08:
 chara_type 100
-You look so gloomy. Want to come away with me?
+You look so gloomy. Want to come with me?
 Exploring the seven seas beholden to no one has a way
 of making your troubles disappear, believe me.
 \e
@@ -106,7 +106,7 @@ chara_type 104
 chara_type_sub 103
 chara_switchframe 535
 Lightning born from numerology together with vampiric strength.
-He was really a very orthodox apostle despite appearances.
+He was really a very orthodox Apostle despite appearances.
 Feels like you still have more up your sleeve, though.
 Care to show me?
 \e

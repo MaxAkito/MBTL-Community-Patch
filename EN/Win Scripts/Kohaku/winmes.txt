@@ -108,7 +108,7 @@ I'll prepare a feast in celebration!
 
 WinMes10WinStreak00:
 chara_type 1
-The up-and-coming battle champion, with 10 consecutive wins!
+The up-and-coming battle champion, with ten consecutive wins!
 Show us how far you can go!
 \e
 

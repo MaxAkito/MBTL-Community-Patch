@@ -1,7 +1,7 @@
 # MBTL-Community-Patch
 A community translation patch for MBTL
 
-Credits to Petrikow, Comun and Fumei
+Credits to Petrikow, Comun, Fumei and Lianru
 
 ## Editing guidelines
 
@@ -19,7 +19,7 @@ The chatbox supports 3 lines. However, the 3rd line needs to be shorter than the
 
 #### Command list (cmddef.ini)
 
-The command list is fairly simpke. There is however still a character limit to adhere to. An approximate character limit is around 40-45, but keeping under 40 is recommended.
+The command list is fairly simple. There is however still a character limit to adhere to. An approximate character limit is around 40-45, but keeping under 40 is recommended.
 
 #### Battle voices (stringfile_battlevoice.xml)
 
@@ -204,7 +204,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Noel      (008) | Secondary editing done (Petri) |
 | Vlov      (009) | Secondary editing done (Petri) |
 | Warc      (010) | Secondary editing done (Petri) |
-| Ciel      (011) | Initial editing done   (Petri) |
+| Ciel      (011) | Secondary editing done (Petri) |
 | Saber     (012) | Initial editing done   (Petri) |
 | Miyako    (013) | Initial editing done   (Petri) | 
 | DA Noel   (014) | Initial editing done   (Petri) |

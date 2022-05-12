@@ -10,13 +10,13 @@ How about you learn from this and become a bit more obedient?
 WinMes01:
 chara_type 0
 I doubt you wish to die any more than I do. I'll let you
-go with a warning this time, but only if you repent.
+go with a warning this time, so please take the time to repent.
 \e
 
 WinMes02:
 chara_type 100
-This is the difference between our abilities. Do you now understand 
-that my title of Seven in the Burial Agency is not just for show?
+Our difference in skill is clear. Maybe now you understand that I 
+wasn't granted the title of seventh in the Burial Agency for nothing.
 \e
 
 WinMes03:
@@ -48,7 +48,7 @@ You are quite the formidable opponent.
 
 WinMes07:
 chara_type 103
-Great, I've torn my habit again. 
+Great, I've torn my nun's habit again. 
 That makes the seventh one this month.
 Ms. Noel, could I entrust with some needlework?
 \e
@@ -56,21 +56,21 @@ Ms. Noel, could I entrust with some needlework?
 WinMes08:
 chara_type 1
 Finally decided to accept defeat?
-Hopefully we can do things a bit more peaceful the next time we meet.
+Hopefully we can do things a bit more peacefully the next time we meet.
 \e
 
 WinMes09:
 chara_type 103
-My habit feels awfully light for some reason...
+My nun's habit feels awfully light for some reason...
 I wonder if I used too many Black Keys. 
-How much did I have left in the budget this month again?
+Wait, wasn't I badly over budget this month?
 \e
 
 WinMes10:
 chara_type 100
 Evil possessing man is but a tribulation from Heaven.
 Now begone, defector. 
-You have already fallen from such scales of judgment.
+The scales of judgment have passed their decree.
 \e
 
 // 対志貴
@@ -86,40 +86,40 @@ back to my place to reflect on your actions, Shiki?
 // 対アルクェイド
 WinMes12:
 chara_type 102
-Finished already? It looks like you've put on a few pounds,
-too. You haven't been letting a certain someone spoil you
-too much lately, have you?
+Finished already? Your movements have really started to drag.
+Did you gain a few pounds of extra fat from depending on a 
+certain someone too much?
 \e
 
 // 対秋葉
 WinMes13:
 chara_type 100
 That was certainly unexpected. I would not have thought
-someone without any battle training could survive that long
+someone without any combat training could survive that long
 against me. Your skill could prove deadly if left unchecked.
 \e
 
 // 対秋葉、翡翠、琥珀、ヒスコハ　※特に琥珀用
 WinMes14:
 chara_type 1
-You still have much to learn. Greatness is not
-something that can be rushed. For now,
-how about you take a day or two to
+You still have much to learn. 
+Greatness is not something that can be rushed. 
+For now, how about you take a day or two to
 reflect on what happened here?
 \e
 
 // 対ロア
 WinMes15:
 chara_type 100
+The hand of death has finally snaked itself around your throat.
 I will not allow you to reincarnate again.
-The hand of death has finally snaked itself around your throat
 \e
 
 // 対死徒ノエル
 WinMes16:
 chara_type 105
-Even after having your blood sucked
-by a Dead Apostle, this level of growth is unreal.
+I know you've had your blood sucked by a Dead Apostle, 
+but this sudden spurt of growth shouldn't be possible...
 What on earth happened to you, Sister Noel...?
 \e
 
@@ -130,8 +130,8 @@ chara_type_sub 101
 chara_switchframe 180
 Your youthful delusions of grandeur must be eradicated!
 You think that sounded awfully personal?
-Of course not~ I'm just a member of the Holy Church, so...
-Defeating members of the Mage's Association is part of the job.
+Of course not~ It's just that I'm a member of the Holy Church.
+Defeating members of the Mages Association is part of my job.
 \e
 
 // 99まで追加可能
@@ -149,6 +149,6 @@ The Lord is surely pleased.
 WinMes10WinStreak00:
 chara_type 0
 Ten wins in a row! How splendid!
-Let's have a party in celebration then!
+Let's throw a party in celebration!
 I'll order my usual...
 \e

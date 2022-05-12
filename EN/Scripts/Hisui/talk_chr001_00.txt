@@ -17,8 +17,8 @@
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0000", 100>
 Hisui
-Welcome. It is a pleasure to make your acquaintance. I am
-Hisui, a servant under the employ of the Tohno family.
+Welcome. It is a pleasure to make your acquaintance.
+I am Hisui, a servant under the employ of the Tohno family.
 \l
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
@@ -32,7 +32,7 @@ I would be happy to pass along a message, Miss...?
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0002", 100>
 Hisui
-I see, Miss...Arima Miyako... If I understand correctly
+I see, Miss... Arima Miyako... If I understand correctly...
 You are the eldest daughter of the Arima branch family.
 \l
 

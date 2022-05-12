@@ -48,7 +48,7 @@ become like my sugar momma and wait, that's freaking awesome.
 \\@CHARA_IN@< 0, 1, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0030", 100>
 Hisui
-.....
+......
 \l
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
@@ -56,7 +56,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0031", 100>
 Hisui
 No. Must snap out of it. 
-My head went blank at all the deja vu I just felt.
+My head went blank at all the déjà vu I just felt.
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
@@ -86,7 +86,7 @@ This is, uh, medical hypnosis! Yeah, that's it!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0004", 100>
 Ciel
-In order to cancel out the hypnotism applied by Noel I had no 
+In order to cancel out the hypnotism applied by Noel, I had no 
 choice but to tinker with Shiki's subsciousness, that's all!
 
 \\@CHARA_IN@< 0, 1, 4, 0, 1>

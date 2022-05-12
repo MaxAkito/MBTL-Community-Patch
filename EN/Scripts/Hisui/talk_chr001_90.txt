@@ -57,13 +57,13 @@ Hisui
 \\@SPEAKERCG_IN@<0,4,101,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0000", 100>
 Kohaku
-Yes, that's right Miyako! She may not look like it, but
+Yes, that's right, Miyako! She may not look like it, but
 Hisui is a master of the Lapis Steel battle technique and is...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0001", 100>
 Kohaku
-the successor of the Kyuuti-Pai style! She can cut
+...the successor of the Kyuuti-Pai style! She can cut
 down any evil-doer with but a single strike!
 
 \\@SQ_CALL@<2>

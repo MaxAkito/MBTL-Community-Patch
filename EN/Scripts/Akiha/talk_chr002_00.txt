@@ -23,8 +23,8 @@ It's getting on my nerves.
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0001", 100>
 Akiha
-Whoever this hybrid may be, they shouldn't be thinking that they can
-just be walking around doing whatever they want without my permission.
+Whoever this hybrid may be, they shouldn't think that they can
+just walk around doing whatever they want without my permission.
 \l
 
 \\@CHARA_IN@< 0, 2, 2, 0, 1>

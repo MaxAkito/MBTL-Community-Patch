@@ -50,7 +50,7 @@ I'm sure he also had his reasons.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0034", 100>
 Akiha
-Still...perhaps I should put him 
+Still... perhaps I should put him 
 on a leash from now on.
 \l
 

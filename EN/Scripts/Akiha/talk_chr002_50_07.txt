@@ -33,20 +33,20 @@ Either you're quite the big deal, or perhaps...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0011", 100>
 Volv
 You're a sheltered little girl who has yet to realize the ground she 
-walks on has already rotted? So tell me, my noble lady...which is it?
+walks on has already rotted? So tell me, my noble lady... which is it?
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@<0, 2, 6, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0022", 100>
 Akiha
-T-the former...of course. But answer me this...
+T-the former... of course. But answer me this...
 What makes you think I'm nobility?
 
 \\@CHARA_IN@<1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0012", 100>
 Volv
-Am I mistaken...? Your refined elegance and beauty...not to
+Am I mistaken...? Your refined elegance and beauty... not to
 mention the pedigree of your blood...
 \l
 
@@ -81,7 +81,7 @@ should direct it toward a single woman instead of many.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0025", 100>
 Akiha
 If that's beyond his ability, I would have no choice but
-to thoroughly re-educate him...until he is begging for forgiveness.
+to thoroughly re-educate him... until he begs for forgiveness.
 \l
 
 \\@CHARA_IN@<0, 2, 6, 0, 1>
@@ -89,7 +89,7 @@ to thoroughly re-educate him...until he is begging for forgiveness.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0026", 100>
 Akiha
 Oh, excuse me, I was talking about someone else.
-But nevertheless, I must insist you leave at once.
+Nevertheless, I must insist you leave at once.
 
 
 \\@BGM_STOP@<0>

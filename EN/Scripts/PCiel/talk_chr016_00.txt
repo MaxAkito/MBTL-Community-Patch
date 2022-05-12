@@ -96,7 +96,7 @@ While you're dealing with her, I'll keep an eye on the target\sf000
 \\@CHARA_IN@<0, 16, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0017", 100>
 Powered_Ciel
-We still don't have a confirmation about his status,
+We still don't have confirmation about his status,
 but at the very least, try not to let him escape.
 \l
 

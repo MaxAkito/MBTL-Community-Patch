@@ -103,7 +103,7 @@ if he reaches the exit, the poor thing...
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0008", 100>
 Red_Arcueid
 He'll look up at the insurmountable wall in front of him,
-there he'll have to suffer then, for the rest of his life.
+where he'll have to suffer then, for the rest of his life.
 
 \\@CHARA_IN@<0, 16, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0044", 100>
@@ -128,7 +128,7 @@ I have no reason to fear him, or to get rid of him.
 \\@CHARA_IN@<1, 10, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0010", 100>
 Red_Arcueid
-It was like picking a ripe fruit,
+It was like picking a ripe fruit.
 I just took him by the neck and flung him away.
 
 
@@ -199,7 +199,7 @@ Hah.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0014", 100>
 Red_Arcueid
 Sure, I'm so happy I could go mad!
-Let's commence the dance, Ciel!
+Let the ball begin, Ciel!
 \l
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>

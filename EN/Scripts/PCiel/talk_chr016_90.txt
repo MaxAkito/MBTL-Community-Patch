@@ -28,7 +28,7 @@ I was about to lose consciousness...!
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0061", 100>
 Powered_Ciel
 So that's what a True Ancestor looks like without its body...
-a spiritron-frame made from ether...!
+A spiritron-frame made from ether...!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0062", 100>

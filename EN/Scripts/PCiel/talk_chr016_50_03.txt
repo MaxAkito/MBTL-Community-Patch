@@ -18,7 +18,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0030", 100>
 Mario
 Got some dangerous-looking duds on, Executor.
-You off to a war-zone or somethin'?
+You off to a war zone or somethin'?
 \l
 
 \\@CHARA_IN@<1, 17, 0, 0, 1>
@@ -40,7 +40,7 @@ Far Eastern city to begin with.
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0030", 100>
 Powered_Ciel
 I'm not heading anywhere...
-What are you up to anyways, Acting Presbyter Mario?
+What are you up to anyway, Acting Presbyter Mario?
 \l
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>

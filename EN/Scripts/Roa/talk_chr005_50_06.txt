@@ -38,7 +38,7 @@ This negligent situation was brought on by my own weakness.
 \\@CHARA_IN@< 1, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0002", 100>
 Ciel
-But that ends here. After all...The source of that weakness 
+But that ends here. After all... The source of that weakness 
 is something you've just cut down with your own two hands.
 
 \\@CHARA_IN@< 0, 5, 1, 0, 1>

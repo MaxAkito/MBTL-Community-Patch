@@ -16,7 +16,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0050", 100>
 Roa
 It seems the damage she'd suffered from the Mystic Eyes of Death
-Perception was enough that even I could defeat her, however...
+Perception was enough that even I could defeat her. However...
 
 \\@CHARA_OUT@<0, -1, -1, 0, 0>
 \aw
@@ -27,7 +27,7 @@ Perception was enough that even I could defeat her, however...
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0000", 100>
 Archetype_Earth
 Thou stakest thy life for that performance, little jester. 
-I shalt heed such resolve with a reward.
+I shall heed such resolve with a reward.
 
 \\@SPEAKERCG_IN@<0,5,5,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0051", 100>
@@ -39,7 +39,7 @@ Even with all my magic circuits put to defense, I won't last many seconds.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0001", 100>
 Archetype_Earth
-I shalt permit thee to strike a kiss, as a mere jest.
+I permit thee a 'kiss', as a mere jest.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0002", 100>	
@@ -50,7 +50,7 @@ shouldst thee clamour for thy final life.
 \\@SPEAKERCG_IN@<0,5,6,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0052", 100>
 Roa
-This...this is what I've been waiting for!
+This... this is what I've been waiting for!
 Eight hundred years ago, I really did glimpse eternity.
 \l
 
@@ -62,7 +62,7 @@ You have not lost an ounce of your luster since, Princess of the Moon!
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0054", 100>
 Roa
 My eighteenth death, my final reincarnation... 
-Behold now...as it burns out for good!
+Behold now... as it burns out for good!
 
 \\@GO_SUB@<"RoaOUT_Face0_L">
 

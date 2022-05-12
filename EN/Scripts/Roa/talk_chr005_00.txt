@@ -41,7 +41,7 @@ The vampire known as Roa was completely killed. Such is certainly the case.
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0004", 100>
 Roa
-This then, is no doubt a deviation taking place after that event.
+This, then, is no doubt a deviation taking place after that event.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
@@ -61,7 +61,7 @@ seems like it'd make sense.
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0007", 100>
 Roa
-If it's the world itself, then well...
+If it's the world itself, then, well...
 This current "me" won't have a clue as to why.
 \l
 

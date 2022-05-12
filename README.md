@@ -183,11 +183,11 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Ciel      (011) | Secondary editing done (Petri) |
 | Saber     (012) | Secondary editing done (Petri) |
 | Miyako    (013) | Secondary editing done (Petri) | 
-| Boss Rush (013) | Initial editing done (Petri)   |
+| Boss Rush (013) | Initial editing done   (Petri) |
 | DA Noel   (014) | Secondary editing done (Petri) |
-| Aoko      (015) | Tertiary editing done (Petri)  |
+| Aoko      (015) | Tertiary editing done  (Petri) |
 | P. Ciel   (016) | Secondary editing done (Petri) |
-| Mario     (017) | Initial editing done (Petri)   |
+| Mario     (017) | Initial editing done   (Petri) |
 
 ### Win-quotes
 
@@ -198,19 +198,19 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Akiha     (002) | Secondary editing done (Petri) |
 | Shiki     (003) | Secondary editing done (Petri) |
 | Kohaku    (004) | Secondary editing done (Petri) |
-| Roa       (005) | Secondary editing done (Petri)   |
-| Kouma     (006) | Initial editing done (Petri)   |
-| Maids     (007) | Initial editing done (Petri)   |
-| Noel      (008) | Initial editing done (Petri)   |
-| Vlov      (009) | Initial editing done (Petri)   |
-| Warc      (010) | Initial editing done (Petri)   |
-| Ciel      (011) | Initial editing done (Petri)   |
-| Saber     (012) | Initial editing done (Petri)   |
-| Miyako    (013) | Initial editing done (Petri)   | 
-| DA Noel   (014) | Initial editing done (Petri)   |
-| Aoko      (015) | Initial editing done (Petri)   |
-| P. Ciel   (016) | Initial editing done (Petri)   |
-| Mario     (017) | Initial editing done (Petri)   |
+| Roa       (005) | Secondary editing done (Petri) |
+| Kouma     (006) | Secondary editing done (Petri) |
+| Maids     (007) | Initial editing done   (Petri) |
+| Noel      (008) | Initial editing done   (Petri) |
+| Vlov      (009) | Initial editing done   (Petri) |
+| Warc      (010) | Initial editing done   (Petri) |
+| Ciel      (011) | Initial editing done   (Petri) |
+| Saber     (012) | Initial editing done   (Petri) |
+| Miyako    (013) | Initial editing done   (Petri) | 
+| DA Noel   (014) | Initial editing done   (Petri) |
+| Aoko      (015) | Initial editing done   (Petri) |
+| P. Ciel   (016) | Initial editing done   (Petri) |
+| Mario     (017) | Initial editing done   (Petri) |
 
 ### Strings
 

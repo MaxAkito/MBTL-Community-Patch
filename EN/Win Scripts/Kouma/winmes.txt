@@ -3,14 +3,14 @@ WinMesScript
 
 WinMes00:
 chara_type 0
-Are you looking for someone to assist you?
-I could offer you salvation, though a bit clumsily, if you'd wish.
+Need assistance?
+I could offer you to guide you towards P?ramit?, if you'd wish.
 \e
 
 WinMes01:
 chara_type 1
 How worldly you are.
-Not even close to perceiving all reality in the span of a single thought.
+Far from perceiving all reality in the span of a single thought.
 \e
 
 WinMes02:
@@ -21,7 +21,7 @@ Know that the need to define other as evil is to err.
 
 WinMes03:
 chara_type 0
-What are you even doing? You are less than the ape.
+What are you even doing? You are less than even the ape.
 \e
 
 WinMes04:
@@ -45,8 +45,8 @@ Are you sure you're human?
 WinMes07:
 chara_type 0
 Bad seeds bloom without regard to their soil.
-Whether it is unfruitful or poisonous is something
-only your bare skull may tell us.
+Was it mere weed? Was it rife with poison?
+Only your bare skull may tell us which.
 \e
 
 // 対志貴
@@ -59,8 +59,8 @@ You have the wrong man. Try someone else.
 WinMes09:
 chara_type 0
 A most bizarre woman.
-Perhaps a nirmanakaya of someplace else but,
-the soil of this land does not suit you.
+Perhaps you would be a nirmanakaya someplace 
+else but, the soil of this land does not suit you.
 \e
 
 // 対ヒスコハ
@@ -73,9 +73,9 @@ Could I perhaps ask of you two to back down?
 // 対志貴(ストーリーでのエンカウント専用)
 WinMesArcadeWin03:
 chara_type 1
-Unfortunately, I know little of repentance.
-I have not regret, nor can I think of any suitable punishment.
-If you wish to settle this, you must have the ability to kill me first.
+Unfortunately, repentance ill befits me.
+I have neither regret, nor fitting punishment.
+If my reckoning is your wish, you must first have the ability to kill me.
 \e
 
 // 99まで追加可能
@@ -92,6 +92,6 @@ I see you've trained well.
 
 WinMes10WinStreak00:
 chara_type 0
-Ten wins in a row is quite impressive. If this were a
-tournament, it would already be over.
+Ten wins in a row is quite impressive. 
+If this were a tournament, it would already be over.
 \e

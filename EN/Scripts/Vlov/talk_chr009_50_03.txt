@@ -13,7 +13,7 @@
 \\@CHARA_IN@< 1, 5, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0060", 100>
 Roa
-Well there's a face I didn't expect to see again. 
+Well, there's a face I didn't expect to see again. 
 Haven't seen you since the France incident 13 years ago.
 \l
 
@@ -87,14 +87,14 @@ That would make you my second ever since I became a Dead Apostle!
 \\@CHARA_IN@< 0, 9, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0065", 100>
 Volv
-This is the third time...vile Serpent.
-I was deceived by you...and spent these last 200 years adrift...
+This is the third time... vile Serpent.
+I was deceived by you... and spent these last 200 years adrift...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0066", 100>
 Volv
 Even now, I still remain the knight of my liege.
-I shall crush that heart of yours...before I lose myself.
+I shall crush that heart of yours... before I lose myself.
 
 \\@BGM_STOP@<0>
 \e

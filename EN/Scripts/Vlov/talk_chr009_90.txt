@@ -46,25 +46,25 @@ like me to keep on living then?
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0085", 100>
 Volv
 My time adrift has come to an end...
-It's been...200 hundred years...since I became like this.
+It's been... 200 hundred years... since I became like this.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0086", 100>
 Volv
 That I did not once meet an adversary worthy of putting
-my soul on the line for...does give me some regrets...
+my soul on the line for... does give me some regrets...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0087", 100>
 Volv
-That too...is a fitting end for man such as I.
+That too... is a fitting end for man such as I.
 A man who could not even play the role of a dog.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0088", 100>
 Volv
 Alas... 
-It is so...very...cold...
+It is so... very... cold...
 
 \\@SYSTEM@<21>
 \aw

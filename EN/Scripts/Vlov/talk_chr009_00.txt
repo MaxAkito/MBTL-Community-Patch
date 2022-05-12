@@ -29,13 +29,13 @@ Moroz Maritime Shipping? Huh...
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0003", 100>
 Worker
 So it came here all the way from Russia?
-Oh well, finders keepers, am I right?
+Oh well, finders, keepers, am I right?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0004", 100>
 Worker
 Let's see what we've got in here... 
-Oh, it's full of flowers...and that looks like a coffin.
+Oh, it's full of flowers... and what looks like a coffin.
 \l
 
 \\@SE_PLAY@<0,"talk/talk_se/Hit_BurningLong",0,100>
@@ -69,20 +69,20 @@ Seems I've arrived at port...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0051", 100>
 Volv
 You never know how life turns out... To think a man such 
-as I...would cross an entire ocean with just a coffin.
+as I... would cross an entire ocean with just a coffin.
 \l
 
 \\@CHARA_IN@< 0, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0052", 100>
 Volv
-Though...this wasn't the first time.
+Though... this wasn't the first time.
 I was sealed in a coffin when they first exiled me to the northern seas.
 \l
 
 \\@CHARA_IN@< 0, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0053", 100>
 Volv
-But now...those memories are barely even my own anymore...
+But now... those memories are barely even my own anymore...
 \l
 
 \\@CHARA_IN@< 0, 9, 0, 0, 1>

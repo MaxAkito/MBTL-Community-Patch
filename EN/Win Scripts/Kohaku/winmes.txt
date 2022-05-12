@@ -3,8 +3,8 @@ WinMesScript
 
 WinMes00:
 chara_type 1
-That's enough cleaning for one day. 
-I would appreciate it if you stopped with the childish pranks.
+There we go, all cleaned up.
+I know you're just bursting with energy, but no more pranks, 'kay?
 \e
 
 WinMes01:
@@ -17,15 +17,16 @@ WinMes02:
 chara_type 3
 chara_type_sub 1
 chara_switchframe 230
-We should be trying to get along instead of fighting. I'll
-prepare some tea for when y	ou regain consciousness,
+We should be trying to get along instead of fighting. 
+I'll prepare some tea for when you regain consciousness,
 so feel free to sleep as long as you need to! ÅÙ
 \e
 
 WinMes03:
 chara_type 0
-That was rather dangerous. Such behavior should be
-discarded like the previous night's refuse!
+Uh-oh, that's not very safe!
+You know what we do with dangerous things like that?
+Into the trash it goes!
 \e
 
 WinMes04:
@@ -38,25 +39,25 @@ WinMes05:
 chara_type 102
 Surprised? 
 I am a maid under the employ of the Tohno family, you know. 
-We take great pride in our impeccable manners.
+We all have some degree of grounding in the etiquette of battle.
 \e
 
 WinMes06:
 chara_type 102
-Was that to your satisfaction? I will be sure to bring an
+Was it to your liking? Heheh... I will be sure to bring an
 even stronger dose of medicine for you next time.
 \e
 
 WinMes07:
 chara_type 1
-Good medicine is bitter and the truth hurts, is what they say.
-But now that you have learned your lesson, 
+The best medicine is bitter. The truth hurts... 
+So now that you have learned your lesson, 
 I expect to see an improvement in your behavior.
 \e
 
 WinMes08:
 chara_type 100
-That was quite the battle. I'll train even harder,
+That was quite the battle. Alright! I'll train even harder,
 seize control of the mansion and-- I-I mean,
 My duty is to protect Lady Akiha and Shiki!
 \e
@@ -87,8 +88,8 @@ and will receive a larger budget for Shiki's medicine! ÅÙ
 WinMes12:
 chara_type 1
 Looks like I win, Hisui.
-As agreed, you will take over my cleaning duties
-for the next week! ÅÙ
+As promised, I'll take over the cleaning
+duties of the mansion now! ÅÙ
 \e
 
 // 99Ç‹Ç≈í«â¡â¬î\
@@ -101,7 +102,7 @@ for the next week! ÅÙ
 
 WinMes3WinStreak00:
 chara_type 0
-Well done! That's three wins! ÅÙ
+Well done! That's three straight wins! ÅÙ
 I'll prepare a feast in celebration!
 \e
 

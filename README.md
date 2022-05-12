@@ -75,7 +75,7 @@ Calls people by their first name. Calls Mario "Acting Presbyter" (his rank). Cal
 #### Vlov (009)
 Has a formal yet direct way of speaking. His speech is drawling and slow, which is often represent by ... being interspersed in his sentences (just 、in Japanese). 
 
-Calls people by referring to their species. Refers to Zaria (his vampire sire) as "my liege" (ご当主様). Refers to Roa as "vile Serpent" (蛇め). 
+Refers to people by monikers. Refers to Zaria (his vampire sire) as "my liege" (ご当主様). Refers to Roa as "vile Serpent" (蛇め). 
 
 #### Warc (010)
 Very close to Arcueid, but more emotional and worked up.
@@ -201,7 +201,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Roa       (005) | Secondary editing done (Petri) |
 | Kouma     (006) | Secondary editing done (Petri) |
 | Maids     (007) | Secondary editing done (Petri) |
-| Noel      (008) | Initial editing done   (Petri) |
+| Noel      (008) | Secondary editing done (Petri) |
 | Vlov      (009) | Initial editing done   (Petri) |
 | Warc      (010) | Initial editing done   (Petri) |
 | Ciel      (011) | Initial editing done   (Petri) |

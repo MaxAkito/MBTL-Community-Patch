@@ -5,13 +5,13 @@ WinMes00:
 chara_type 3
 Eeek! ☆ That was a really close one!
 I was sooo scared!
-There, that should be good for those degenerates
-in the church I work with. And... send.
+There... Those were some good photos!
+Now to send these to the Presbyters sicko enough to like 'em.
 \e
 
 WinMes01:
 chara_type 2
-You didn't think I'd let you off the hook, did you?
+You didn't think I'd let you go so easily, did you?
 Finding a heathen worthy of pity is harder than
 finding marriage material at a speed-dating event.
 \e
@@ -20,7 +20,7 @@ WinMes02:
 chara_type 5
 What? You expected me to go easy on you? Why would I
 do that when I can barely hold my own out here?
-Are you an idiot?
+Are you stupid?
 \e
 
 WinMes03:
@@ -33,8 +33,8 @@ teensy bit of favoritism.
 WinMes04:
 chara_type 100
 You know an Executor stronger than me?
-Is that so? Very well, then. Suppose I'll have to slowly and 
-painwfully show you what I am better at then.
+Sure, whatever. Guess I'll just have to slowly and 
+painfully show you what I am better at then.
 \e
 
 WinMes05:
@@ -45,57 +45,57 @@ Hehe, such a convenient little phrase, don't you think?
 
 WinMes06:
 chara_type 101
-Mmm... got tomorrow off... what to do...
-God, I've neither energy to work on myself or go marriage hunting.
+Mmm...got tomorrow off...what to do...
+Damnit, I've neither energy to work on myself or go marriage hunting.
 \e
 
 WinMes07:
 chara_type 104
 I managed to make it through this night as well...
-I'm just an average person...  
+I'm just an ordinary person...  
 Just how long can I keep this up?
 \e
 
 // 対シエル
 WinMes08:
 chara_type 6
-What? No way! I managed to get one over HER?! 
-Have you got the flu or something, Ciel?!
+Wha--No way! I managed to get one over HER?! 
+Were you down with the flu or something, Ciel?!
 \e
 
 // 対吸血鬼
 // アルク、ロア、ヴローヴ、暴走アルク、秋葉
 WinMes09:
 chara_type 103
-Don't act like you're such a transcendental being.
-Well if you're so much better than us humans, 
+There you go, thinking you're some kind of otherwordly being.
+Well if you think you're sooo much better than us humans, 
 then maybe you should go fight someone who isn't.
 \e
 
 // 対ノエル
 WinMes10:
 chara_type 5
-What was that? A phantom of me--?
-Come on Noel, pull yourself together.
-You're still just a regular human.
+What was that? Some kind of phantom Noel...?
+Come on Noel, pull yourself together...
+You're still just a regular human...
 \e
 
 // 対秋葉シナリオ用
 WinMesArcadeWin02:
 chara_type 6
-Now's my chance! Time to retreat!
+Now's my chance! Retreeeaaat!
 Phew... I think I managed to lose her.
-What was with that girl's specs, anyway? Invisible attacks?
+That girl's abilities are no joke. Invisible attacks?
 It's like those True Ancestors I've heard of...
 \e
 
 // 対ヴローヴシナリオ用
 WinMesArcadeWin09:
 chara_type 3
-All right! I managed to drive him into a corner! I may
-actually be able to pull this off. No, I'm sure I can pull
+All right! I'm winning somehow! 
+I may actually be able to pull this off. No, I'm sure I can pull
 this off! Now I just trap him in my temple, and then--
-What?! NOW he decides to get serious?!
+What?! No way! NOW he decides to get serious?!
 \e
 
 // 99まで追加可能
@@ -105,12 +105,12 @@ What?! NOW he decides to get serious?!
 
 WinMes3WinStreak00:
 chara_type 3
-That makes three. Keep this up
-and I'll give you extra credit!
+That makes three. 
+Keep this up and your teacher's gonna so proud of you!
 \e
 
 WinMes10WinStreak00:
 chara_type 4
-Ten wins in a row?! Wow! ☆
-Let's go to Vegas and celebrate!
+Wow! Ten wins in a row?! ☆
+Woo-hoo! You should take me to Vegas sometime!
 \e

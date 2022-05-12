@@ -83,21 +83,21 @@ That's some real delinquent behavior there, you know.
 \\@CHARA_IN@< 1, 8, 300, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0018", 100>
 Noel
-Or are you here for some...extra-curricular activities?
+Or are you here for some... extra-curricular activities?
 
 \\@CHARA_OUT@< 0, 3, 2, 0, 0>
 \aw
 \\@CHARA_IN@< 0, 3, 103, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0012", 100>
 Shiki
-.....
+......
 
 
 \\@CHARA_IN@< 1, 8, 11, 0, 1>
 \\@CHARA_IN@< 1, 8, -1, 22, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0019", 100>
 Noel
-Woah! Hold on! I know this looks suspicious, but aren't you
+Whoa! Hold on! I know this looks suspicious, but aren't you
 jumping the gun a little?
 \l
 
@@ -116,7 +116,7 @@ Ain't no point in hiding now that I've been found out.
 \\@CHARA_IN@< 1, 8, 1, 32, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0022", 100>
 Noel
-Guess I'll juuust have to crush your limbs up a little
+Guess I'll juuust have to crush your limbs a little
 so I can bring you in for interrogation. 
 
 

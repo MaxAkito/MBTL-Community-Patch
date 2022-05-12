@@ -19,15 +19,15 @@ You've been acting pretty brazenly, haven't you?
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0020", 100>
 Volv
-You think this smoldering city...is my work...?
-What a strange provocation...murderer.
+You think this smoldering city... is my work...?
+What a strange provocation... murderer.
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0021", 100>
 Volv
-It makes me more sad than it does upset...
-After all, one cannot stay mad at a fool.
+It makes me more sad than upset...
+After all, one cannot stay angry at a fool.
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0021", 100>
@@ -52,14 +52,14 @@ that you cannot forget, yet cannot recall either.
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0023", 100>
 Volv
-How pitiful... Such fury that it compells you to challenge 
-even a Dead Apostle...despite that you are but merely human.
+How pitiful... Such fury that it compels you to challenge 
+even a Dead Apostle... despite that you are but merely human.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0024", 100>
 Volv
-I cannot turn down such a challenge...now can I?
+I cannot turn down such a challenge... now can I?
 \l
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
@@ -73,7 +73,7 @@ I shall gratefully accept your scorching blood.
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0023", 100>
 Shiki
 Say whatever you want. What I'm going to give you 
-is not warm, nor is it cold. It is simply death.
+is neither warm nor cold. It is simply death.
 
 
 \\@BGM_STOP@<0>

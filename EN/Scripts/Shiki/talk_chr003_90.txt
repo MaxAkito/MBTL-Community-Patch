@@ -17,7 +17,7 @@ Phew... Guess I pulled it off.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0031", 100>
 Shiki
-It wasn't exactly intentional, but I hope I'll never
+It wasn't exactly intentional, but I hope I never
 have to fight a monster like that ever again.
 \l
 

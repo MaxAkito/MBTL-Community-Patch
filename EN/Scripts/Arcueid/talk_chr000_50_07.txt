@@ -13,7 +13,7 @@
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0000", 100>
 Volv
-That soul...as white as a sacred mountain...
+That soul... as white as a sacred mountain...
 There's no doubt about it.
 We finally meet, Princess of the True Ancestors.
 

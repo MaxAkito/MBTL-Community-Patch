@@ -198,7 +198,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Akiha     (002) | Secondary editing done (Petri) |
 | Shiki     (003) | Secondary editing done (Petri) |
 | Kohaku    (004) | Secondary editing done (Petri) |
-| Roa       (005) | Initial editing done (Petri)   |
+| Roa       (005) | Secondary editing done (Petri)   |
 | Kouma     (006) | Initial editing done (Petri)   |
 | Maids     (007) | Initial editing done (Petri)   |
 | Noel      (008) | Initial editing done (Petri)   |

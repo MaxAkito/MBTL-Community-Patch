@@ -4,7 +4,7 @@ WinMesScript
 WinMes00:
 chara_type 0
 Need assistance?
-I could offer you to guide you towards P?ramit?, if you'd wish.
+I could offer to guide you towards paramiti, if you'd wish.
 \e
 
 WinMes01:
@@ -16,7 +16,7 @@ Far from perceiving all reality in the span of a single thought.
 WinMes02:
 chara_type 0
 There is neither good nor evil in the taking of life. 
-Know that the need to define other as evil is to err.
+Know that to deem other as evil is to err.
 \e
 
 WinMes03:
@@ -59,8 +59,8 @@ You have the wrong man. Try someone else.
 WinMes09:
 chara_type 0
 A most bizarre woman.
-Perhaps you would be a nirmanakaya someplace 
-else but, the soil of this land does not suit you.
+Perhaps you would be a nirmanakaya someplace else but, 
+the soil of this land does not suit you.
 \e
 
 // ‘ÎƒqƒXƒRƒn

@@ -16,7 +16,7 @@
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0000", 100>
 Miyako
-I'll get straight to the point,
+I'll get straight to the point.
 I have an older brother.
 \l
 
@@ -29,7 +29,7 @@ And although I'm all grown up now...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0002", 100>
 Miyako
-Back then, I was still a tiny little baby so I
+Back then I was still a tiny little baby, so I
 didn't really understand this whole 'respect' thing.
 \l
 
@@ -50,12 +50,12 @@ Mom and Dad trust him a lot.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0005", 100>
 Miyako
 When I messed up and broke a flowerpot by accident, 
-or when I used the car-wax on the floors in the dojo...
+or when I used car wax on the floors in the dojo...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0006", 100>
 Miyako
-Or when I hadn't done my homework over summer...
+Or when I hadn't done my homework over the summer...
 He'd say 'oh well', shrug his shoulders and help me out.
 \l
 
@@ -296,7 +296,7 @@ MGIÅFE    LCKÅFA    ARC-DRIVEÅFC
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0006", 100>
 Bake_Neko
-A girl of culture who dabbles in chinese martial arts 
+A girl of culture who dabbles in Chinese martial arts 
 despite only being in elementary school. I got all that right, no?
 \l
 
@@ -362,7 +362,7 @@ your true feelings and points you in the right direction.
 \\@CHARA_EMOVE@<3, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0011", 100>
 Bake_Neko
-Wait that little sister's already off. Is she gonna be OK? 
+Wait, that little sister's already off. Is she gonna be OK? 
 I feel like she catches on a bit too quick, meow.
 
 

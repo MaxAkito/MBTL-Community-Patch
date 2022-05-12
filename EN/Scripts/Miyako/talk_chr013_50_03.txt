@@ -66,13 +66,13 @@ someone they just start attacking me without so much as a hello!
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0033", 100>
 Miyako
-If I wasn't a Kung Fu master, this would've turned into
+If I wasn't a kung fu master, this would've turned into
 a police case long ago!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0034", 100>
 Miyako
-All I want to do was go to the Tohno estate and beat up 
+All I want to do is go to the Tohno estate and beat up 
 the evil sister who's imprisoned my brother!
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
@@ -84,7 +84,7 @@ the evil sister who's imprisoned my brother!
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0010", 100>
 Ciel
 Oho?
-That's quite the interesting story you got there.
+That's quite the interesting story you have there.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -111,7 +111,7 @@ protecting this town. I'm on your side, Miyako Arima.
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0013", 100>
 Ciel
 Was that the bajiquan style I saw you using?
-Your Kung Fu skills are quite impressive.
+Your kung fu skills are quite impressive.
 
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
@@ -209,7 +209,7 @@ Really?!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0043", 100>
 Miyako
 (All right! Time for my special vacation training montage!
- I feel like I'm in a Kung Fu movie!)
+ I feel like I'm in a kung fu movie!)
 
 \\@BGM_STOP@<0>
 \e

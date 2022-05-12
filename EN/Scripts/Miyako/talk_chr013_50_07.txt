@@ -54,7 +54,7 @@ Watch out from above, meow!
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0053", 100>
 Miyako
-Woah! That was close!
+Whoa! That was close!
 Thanks, little kitty.
 
 \\@CHARA_IN@<1,  2, 200, 2, 0>

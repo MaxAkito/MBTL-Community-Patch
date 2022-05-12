@@ -15,20 +15,20 @@
 \\@CHARA_IN@< 0, 10, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0000", 100>
 Red_Arcueid
-Where...am I? 
+Where... am I? 
 And what was I doing...?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0001", 100>
 Red_Arcueid
-Right...it was...
+Right... it was...
 so agonizing, so miserable, so deplorable, I wanted to cry.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0002", 100>
 Red_Arcueid
 And there was nothing I could do about it...
-I just wanted to...destroy...him...
+I just wanted to... destroy... him...
 \l
 
 \\@FADE_OUT@<1, 255, 255, 255, 1>
@@ -47,7 +47,7 @@ Right... Right!
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0004", 100>
 Red_Arcueid
-Hehehe. I remember. Heh...heheh...ahahaha!
+Hehehe. I remember. Heh... heheh... ahahaha!
 I remember, I remember everything!
 \l
 

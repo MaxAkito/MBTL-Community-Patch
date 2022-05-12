@@ -65,7 +65,7 @@ I'm the one who's disappointed here.
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0071", 100>
 Roa
-As your influence over the world increases so does the
+As your influence over the world increases, so does the
 thickness of my blood, as it something I stole from you.
 \l
 
@@ -88,7 +88,7 @@ The more Shiki Tohno would suffer?
 \\@CHARA_IN@< 0, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0027", 100>
 Red_Arcueid
-.....
+......
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0075", 100>

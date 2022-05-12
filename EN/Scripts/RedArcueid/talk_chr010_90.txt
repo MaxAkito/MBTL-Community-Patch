@@ -24,7 +24,7 @@ That's wasn't enough to even wipe my fingers with.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0041", 100>
 Red_Arcueid
 Well, no use complaining.
-I mean my hands are completely soaked in blood after all!
+I mean, my hands are completely soaked in blood after all!
 \l
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
@@ -46,13 +46,13 @@ open your eyes and despair as you find yourself in my hands.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0043", 100>
 Red_Arcueid
-Slowly...gently...like plucking grapes off
+Slowly... gently... like plucking grapes off
 a vine, one by one!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0010", 100>
 Shiki
 Hm...? I feel like someone has been whispering terrifying
-threats in my ear. Woah! What's going on?!
+threats in my ear. Whoa! What's going on?!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0011", 100>
@@ -185,7 +185,7 @@ A bit? It's was completely horrifying!
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0083", 100>
 Shiki
 And those expressions you were making? They were terrifying.
-Couldn't you come up with something more...cute?
+Couldn't you come up with something more... cute?
 \l
 
 \\@CHARA_IN@< 1, 3, -1, 0, 1>

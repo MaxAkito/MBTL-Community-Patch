@@ -13,15 +13,15 @@
 \\@CHARA_IN@< 0, 8, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0070", 100>
 Noel
-(Found it! Wait! Is that a new Ancestor?! Oh lord...
+(Found it! Wait! Is that a new Ancestor?! Oh Lord...
  How much bad luck can one person have?!)
 \l
 
 \\@CHARA_IN@< 0, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0071", 100>
 Noel
-(Wait...? He seems like, super depressed though? He gives off 
- the same kinda heavy presence as an any ordinary Dead Apostle...)
+(Wait...? He seems like, super depressed though? He feels
+ no more threatening than an ordinary Dead Apostle...)
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0040", 100>
@@ -47,7 +47,7 @@ But I will take up my sword if you insist on disturbing me.
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0043", 100>
 Volv
 I suggest you leave before my generosity
-runs out...Executor.
+runs out... Executor.
 
 \\@CHARA_IN@< 0, 8, 10, 0, 1>
 \\@CHARA_IN@< 0, 8, -1, 31, 2>
@@ -75,7 +75,7 @@ a monster like you by myself.
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0075", 100>
 Noel
-But you know what!?
+But you know what?!
 Even us nobodies have a little pride!
 \l
 

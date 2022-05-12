@@ -18,14 +18,14 @@ Stop right there, whoever-you-may-be.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0051", 100>
 Akiha
-It seems you've been monitoring our family estate but
-There is no need for that.
+It seems you've been monitoring our family estate, but
+there is no need for that.
 \l
 
 \\@CHARA_IN@< 1, 2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0052", 100>
 Akiha
-Go on, why don't you come inside and make yourself comfortable?
+Why don't you come inside and make yourself comfortable?
 \l
 
 \\@CHARA_IN@< 1, 2, 2, 0, 1>

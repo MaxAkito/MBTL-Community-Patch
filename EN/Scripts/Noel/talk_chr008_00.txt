@@ -15,7 +15,7 @@
 \\@CHARA_IN@< 0, 8, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0040", 100>
 Noel
-Though I'm 1 month late compared to her...
+Though I'm a month late compared to her...
 I've finally transferred to where Roa is hiding.
 \l
 
@@ -33,7 +33,7 @@ But oh my, it's more inner-city than you'd think!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0043", 100>
 Noel
-Chloe, TOCCA, Miu Miu, even M A C!
+Chloe, TOCCA, Miu Miu, even M·A·C!
 This is going to be fun!
 \l
 
@@ -69,7 +69,7 @@ Or could I? No, no, get a hold of yourself.
 \\@CHARA_IN@< 0, 8, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0048", 100>
 Noel
-Hmmmmm...  Oh! If I can't be a student, then I'll just have to
+Hmmmmm... Oh! If I can't be a student, then I'll just have to
 become a teacher instead!
 \l
 

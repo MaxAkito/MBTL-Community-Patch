@@ -54,7 +54,7 @@ Now I can sit back and enjoy the teacher life!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0086", 100>
 Noel
 I've got a clean room, delicious food, and lots of places
-to enjoy! Yaaay city night life owns!
+to enjoy! Yaaay, city night life owns!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0087", 100>
@@ -98,12 +98,12 @@ responsible member of the Church that I am and check on her?
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0094", 100>
 Noel
 Oh, why not? I'm in a good mood tonight.
-Might as well play at good samaritan now and then!
+Might as well play a Good Samaritan now and then!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0095", 100>
 Noel
-Besides, I'll be seeing her fairly often from a while. 
+Besides, I'll be seeing her fairly often for a while. 
 I've gotta give her the impression that I'm someone that 
 can be relied on!
 

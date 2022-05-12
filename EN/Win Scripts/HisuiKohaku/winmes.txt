@@ -12,7 +12,7 @@ V for victory! ÅÙ
 
 WinMes01:
 chara_type 0
-The bonds of sisterhood have won again!
+We did it! A victory for the bonds of sisterhood!
 I think we may have gone a little overboard, Kohaku.
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0, 0,112,32>
 \e
@@ -26,8 +26,8 @@ According to the map, it's this way. Let's hurry.
 
 WinMes03:
 chara_type 0
-Did... we win?
-Of course, Hisui! An overwhelming victory!
+Did...we win?
+More than just win! We scored an overwhelming victory!
 I see... Why do I feel so embarrassed?
 \\@LINE_CG@<0, 0, -128,0,112,32, 0, 0,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<2, 2, -128,0,112,32, 0, 0,112,32>
 \e
@@ -35,7 +35,7 @@ I see... Why do I feel so embarrassed?
 WinMes04:
 chara_type 0
 All fiends who infest this city are headed straight to prison.
-You should be careful too, Kohaku...
+That means you should probably be careful too, Kohaku...
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0, 0,112,32>
 \e
 
@@ -44,7 +44,7 @@ WinMes05:
 chara_type 0
 Phew... Are you all unhurt, Kohaku?
 Of course. That was a close one though, wasn't it?
-Indeed... You did well.
+Indeed... Good work, Kohaku.
 \\@LINE_CG@<0, 0, -128,0,112,32, 0, 0,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<2, 2, -128,0,112,32, 0, 0,112,32>
 \e
 
@@ -59,17 +59,17 @@ clock like that, Sis!
 
 WinMes07:
 chara_type 0
-Phew, glad that's over. Hisui, are you all right?
-I'm just fine. But your kimono obi...
+Phew, that was quite taxing. Hisui, are you all right?
+I'm fine. But your kimono obi...
 Oh, whoops. Let me just fix that...
-Maybe I'll wear something more like your western outfit next time.
+Maybe I'll wear something more more western next time, like you do.
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0, 0,112,32>\\@LINE_CG@<2, 2, -128,0,112,32, 0,32,112,32>
 \e
 
 WinMes08:
 chara_type 0
 Hisui, why don't we take a short break?
-I will have to let Lady Akiha know of your negligence.
+Sure, but I'll report abour your neglience to Lady Akiha.
 Drats, you just can't help tattling, can you?
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0, 0,112,32>\\@LINE_CG@<2, 2, -128,0,112,32, 0,32,112,32>
 \e
@@ -86,7 +86,7 @@ I am deeply sorry, Master Shiki.
 WinMes10:
 chara_type 0
 Please accept our apologies, Lady Akiha.
-A little use of force is necessary while on strike.
+The use of force is necessary while on strike.
 Hisui, you didn't hold back at all...
 \\@LINE_CG@<0, 0, -128,0,112,32, 0, 0,112,32>\\@LINE_CG@<2, 2, -128,0,112,32, 0,32,112,32>
 \e
@@ -97,7 +97,7 @@ chara_type 0
 That was close! She got away just as we
 were so close to catching her! Flash bangs are such a dirty trick!
 More importantly Kohaku, we need to attend to Master Shiki...!
-Please bring out some useful medicine...!
+I must request you bring out any medicine that could help...!
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<2, 2, -128,0,112,32, 0, 0,112,32>
 \e
 
@@ -109,13 +109,13 @@ Please bring out some useful medicine...!
 WinMes3WinStreak00:
 chara_type 0
 Look, Hisui! Three wins in a row!
-You will be the... excellent.
+You will be the...excellent.
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0, 0,112,32>
 \e
 
 WinMes10WinStreak00:
 chara_type 0
-That makes ten wins, Kohaku.
-Hehe! No doubt thanks to our strong bond!
+Ten consecutive wins, Kohaku.
+Heehee! No doubt thanks to our strong bond!
 \\@LINE_CG@<0, 0, -128,0,112,32, 0, 0,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0,32,112,32>
 \e

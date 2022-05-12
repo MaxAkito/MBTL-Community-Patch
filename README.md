@@ -200,7 +200,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Kohaku    (004) | Secondary editing done (Petri) |
 | Roa       (005) | Secondary editing done (Petri) |
 | Kouma     (006) | Secondary editing done (Petri) |
-| Maids     (007) | Initial editing done   (Petri) |
+| Maids     (007) | Secondary editing done (Petri) |
 | Noel      (008) | Initial editing done   (Petri) |
 | Vlov      (009) | Initial editing done   (Petri) |
 | Warc      (010) | Initial editing done   (Petri) |

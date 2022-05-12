@@ -44,7 +44,7 @@ Outta ma' sight before I throw you in the slammer!
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0040", 100>
 Aoko
 Hey-- C'mon now, don't be such a child!
-I mean DID save the city, you know!?
+I mean I DID save the city, you know!?
 \l
 
 \\@CHARA_IN@< 0, 15, 9, 0, 1>
@@ -94,14 +94,14 @@ I flew all the way from Australia to be here!
 \\@CHARA_FACE@<0,4,2,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0046", 100>
 Aoko
-Mr. high and mighty Presbyter sure has one hell of a temper...
+Mr. High-and-mighty Presbyter sure has one hell of a temper...
 Wait. Are you mad because of how your body works?
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0027", 100>
 Mario@Mario_Hatena
 Of fuckin' course. See, you can think after all.
-'s what I was sayin'. This was my last chance.
+'S what I was sayin'. This was my last chance.
 
 \\@CHARA_IN@< 0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0047", 100>
@@ -149,7 +149,7 @@ All my good deeds are finally paying off!
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0051", 100>
 Aoko
 I have to text Alice about thi-- wait... 
-she's still a die-hard IT-hater. Won't work.
+She's still a die-hard IT-hater. Won't work.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0052", 100>

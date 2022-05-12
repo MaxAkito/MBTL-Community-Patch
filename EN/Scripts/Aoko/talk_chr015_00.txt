@@ -51,7 +51,7 @@ I need this done before it gets out to anyone else, capisce?
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0000", 100>
 Aoko
-O-ho. I was just thinking you were lightly guarded,
+O-ho. I was just thinking you were lightly guarded, but
 I guess even high and mighty Presbyters go undercover from time to time.
 
 \l
@@ -159,7 +159,7 @@ I'm gonna go double all out!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0012", 100>
 Mario@Mario_Hatena
 For real...? Your dossier didn't mention that. I guess Japan's a
-tiny country. Or maybe its just your wanderer spirit.
+tiny country. Or maybe it's just your wanderer spirit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0013", 100>

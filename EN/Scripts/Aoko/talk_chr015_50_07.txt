@@ -61,7 +61,7 @@ Looks like his-- no, my theory was correct after all!
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0034", 100>
 Roa
 So I take it that my plan to see the cosmos 
-unveiled did in fact in someway succeed!
+unveiled did in fact in some way succeed!
 \l
 
 \\@CHARA_IN@<1, 5, 0, 0, 1>
@@ -74,14 +74,14 @@ The flow converges, and "  " is enshrined in heaven!
 \\@CHARA_IN@<1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0036", 100>
 Roa
-But its all in vain, even here, you've come too late!
+But it's all in vain. Even here, you've come too late!
 And not only that, but you're done for, too.
 \l
 
 \\@CHARA_FACE@<1,0,6,360>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0037", 100>
 Roa
-You will not have the honor of being present at the its start...
+You will not have the honor of being present at its start...
 because your miserable life ends here!
 
 \\@CHARA_IN@<0, 15, 11, 0, 1>

@@ -80,8 +80,8 @@ like that are something which only blood lets me satisfy.
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0086", 100>
 Dead_Noel
-So...I wonder what a mage's blood tastes like?
-Oh, I bet its bitter, but spicy!
+So... I wonder what a mage's blood tastes like?
+Oh, I bet it's bitter, but spicy!
 \l
 
 
@@ -89,7 +89,7 @@ Oh, I bet its bitter, but spicy!
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0087", 100>
 Dead_Noel
 So don't worry, I'll slaughter you ever so gently.
-I love mint-chocolate, after all. 
+I love mint chocolate, after all. 
 
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0023", 100>
@@ -101,7 +101,7 @@ but I doubt it's much sweet at all.
 \\@CHARA_IN@<0, 15, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0024", 100>
 Aoko
-Also, unlike you I can't promise I'll be so gentle.
+Also, unlike you, I can't promise I'll be so gentle.
 \l
 
 \\@CHARA_IN@<0, 15, 8, 0, 1>

@@ -3,15 +3,15 @@ WinMesScript
 
 WinMes00:
 chara_type 1
-I do not require a guide. I am sufficiently familiar with this country's 
-cities. This city is far more urban than the one I know though.
+I do not require a guide. I am familiar with this country's cities. 
+That said, this city is far more urban than the one I know.
 \e
 
 WinMes01:
 chara_type 0
 Dead Apostle... Not a word you'd often hear in the land I am from.
-If they are weak to sunlight, perhaps I should have
-borrowed Sir Gawain's blade.
+Perhaps I should have borrowed Sir Gawain's blade
+since they're so weak to sunlight.
 \e
 
 WinMes02:
@@ -23,7 +23,7 @@ I could lend you my strength should it prove necessary.
 WinMes03:
 chara_type 0
 There do not seem to be any other Servants here.
-Hopefully I'm not too out of place..
+Hopefully I'm not too out of place...
 \e
 
 WinMes04:
@@ -46,8 +46,8 @@ I've got to be careful to not stand out as much next time.
 // 秋葉・ロア・ヴローヴ
 WinMes06:
 chara_type 2
-You might have been an enemy, but I must say you possess some astonishing
-powers. You might come out on top next time.
+You might be my enemy, but I must say you possess 
+some astonishing powers. You might come out on top next time.
 \e
 
 // 対吸血鬼
@@ -56,7 +56,7 @@ WinMes07:
 chara_type 0
 Return to dust, monster.
 Whatever form it may take,
-evil which would threaten humanity will be struck down.
+I shall strike any evil which would threaten humanity.
 \e
 
 // 対翡翠＆琥珀（ストーリー専用）
@@ -64,8 +64,8 @@ WinMesArcadeWin07:
 chara_type 0
 You two have such excellent teamwork, I mistook you for
 a pair of highly skilled Assassins. I did not expect to learn
-you are simply mischievous maids. There's certainly
-something strange about the noble class in this town.
+you are simply a pair of mischievous maids. There's certainly
+something strange about the nobility in this city.
 \e
 
 
@@ -76,15 +76,15 @@ something strange about the noble class in this town.
 
 WinMes3WinStreak00:
 chara_type 1
-Your skills are splendid. Stay focused and
-let's keep up the good work.
+Excellent skills.
+Stay focused and let's keep up the good work.
 \e
 
 
 WinMes10WinStreak00:
 chara_type 2
-Most impressive. I am honored to have
-met a player such as yourself.
+Most impressive.
+I am honored to have met a player such as yourself.
 \e
 
 

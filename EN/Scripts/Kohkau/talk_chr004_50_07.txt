@@ -46,14 +46,14 @@ Volv
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0001", 100>
 Volv
-ÅgEven though it may not suit me...I am still a Suzerain.
+ÅgEven though it may not suit me... I am still a Suzerain.
   As such, it is proper that I would receive many visitors...Åh
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0002", 100>
 Volv
-ÅgYou say it's so cold you can't even move a muscle...?Åh
+ÅgSo it's too cold for you to even move a muscle...h
 \l
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
@@ -103,7 +103,7 @@ That being said...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0047", 100>
 Kohaku
-It seems you are laboring under a nasty chronic illness.
+It seems you are suffering from a nasty chronic illness.
 As someone who dabbles in medicine, I must do something about it!
 \l
 

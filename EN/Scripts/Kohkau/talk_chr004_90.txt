@@ -25,7 +25,7 @@ What a wonderful morning!
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0051", 100>
 Kohaku
 The city looks to be back to normal. And there doesn't
-seem to be anything wrong with the garden! I'm so glad! Åô
+seem to be anything wrong with the garden! I'm so glad!Å ô
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0052", 100>
@@ -49,7 +49,7 @@ filled with mysteries and absurdities.
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0055", 100>
 Kohaku
 If I think of it that way, my experience last night
-could be considered akin to a fun little festival.
+could be considered a fun little festival.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0056", 100>

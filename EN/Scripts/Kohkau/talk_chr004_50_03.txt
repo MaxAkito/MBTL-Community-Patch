@@ -81,7 +81,7 @@ I don't sense that family head of yours nearby.
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0007", 100>
 Noel
 I'll be the one asking the questions tonight, little maid.
-My interrogation might be a biiit rough but...you'll be fine, right?
+My interrogation might be a biiit rough but... you'll be fine, right?
 
 \\@CHARA_IN@< 0, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -111,7 +111,7 @@ and no bite, but even so...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0037", 100>
 Kohaku
-Office ladies who've hit a wall in life are pratically explosive!
+Office ladies who've hit a wall in life are like ticking time bombs!
 In this situation, a tactical retreat would be more prudent!
 
 \\@CHARA_IN@< 1, 8, 2, 0, 1>
@@ -123,7 +123,7 @@ Hah! As if I'd let you escape with my silver platter!
 \\@CHARA_IN@< 1, 8, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0009", 100>
 Noel
-I hope you're ready to have one of yours limb cut off.
+I hope you're ready to have one of your limbs cut off.
 
 \\@BGM_STOP@<0>
 \e

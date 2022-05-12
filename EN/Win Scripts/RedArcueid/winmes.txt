@@ -9,28 +9,28 @@ Then you can consider your life done as well.
 
 WinMes01:
 chara_type 0
-Well that was boring. Though I did find that last look
+That was so boring. Though I did find that last look
 of pain on your face a little bit exciting.
 \e
 
 WinMes02:
 chara_type 102
-Oh, I'm sorry. The difference in scale between us was just too large.
-It’s difficult for me to fight a bug without accidentally
-crushing it. I'll try to be more careful next time.
+Oh, I'm sorry. The difference in scale between us was just too much.
+Harmful as you may be, you're nothing but an insect regardless.
+I'm gonna have to be a bit more careful next time. Well, if there is one.
 \e
 
 WinMes03:
 chara_type 3
-Well that was disappointing. You mortals really are
-pathetic, aren't you? Isn't there one of you that can
-take more of a beating without breaking?
+That was anti-climactic. 
+You mortals really are just sooo fragile. 
+Aren't there any of you that can take more of a beating?
 \e
 
 WinMes04:
 chara_type 100
-Hehehe. So much bouncing around. I just love
-fighting with my own hands and feet.
+Hehe. So much jumping and bouncing around. 
+I just love fighting with my own hands and feet.
 It's like a nice game of hacky sack.
 \e
 
@@ -38,38 +38,38 @@ WinMes05:
 chara_type 101
 chara_type_sub 102
 chara_switchframe 530
-This is no fun at all. I'm finally free to do as I please,
-and there's no one around to have fun with.
-I'm going to need another playmate to take out some of
-my frustration on, before it gets the better of me.
+Boooring. I'm finally free to do as I please, but now
+there's not a single person who can keep up with me.
+Hehe... This poses quite the problem.
+Who knows what'll happen if I can't take out my frustrations.
 \e
 
 WinMes06:
 chara_type 0
 If one is to rule, be gentle as a young lady. 
-If one is to govern, be firm like a queen.
-I'm royalty, after all. I've got to have some knowledge about it.
+If one is to control, be firm like a queen.
+I AM royalty, that's the least that can be expected of me.
 \e
 
 WinMes07:
 chara_type 102
 This body is just about at its limit.
-How disappointing. Isn't there
-anyone who can kill me again?
+Hahhh...
+Isn't there anyone who could maybe kill me again?
 \e
 
 WinMes08:
 chara_type 2
-Don't bother challenging me head on.
-But well, If you really wish to kill me, try
-sneaking up on me like he once did.
+Don't bother trying to overpower me.
+But well, If you really wish to kill me, 
+try sneaking up on me like he once did.
 \e
 
 // 対アルクェイド
 WinMes09:
 chara_type 3
-Was that perhaps... a new version of myself?
-I see... bunched up all compactly...
+Was that perhaps...a new me?
+I see... Compact and bunched up...
 I see, I see...
 \e
 
@@ -78,14 +78,14 @@ WinMes10:
 chara_type 1
 Gotcha~ Now it's your turn, little wolf.
 I'll have you take responsibility for killing me...
-Until that souls of yours been worn down completely.
+Until that souls of yours has been completely spent.
 \e
 
 // 対シエル
 WinMes11:
 chara_type 102
-Oh, done already, Ciel? And here I thought your one 
-redeeming feature was not dying even when killed.
+Wait, you're done already, Ciel? But...coming back to life 
+after you're killed is the only thing you're good for!
 \e
 
 
@@ -105,8 +105,8 @@ I mean, it's me that you're using here.
 
 WinMes10WinStreak00:
 chara_type 100
-Ten wins in a row! Congrats! This is a great way
-to relieve stress, so thanks!
+Ten wins in a row! Congrats!
+This is a great way to relieve stress, so thanks!
 \e
 
 //隠しキャラ解放シーン　テスト

@@ -202,7 +202,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Kouma     (006) | Secondary editing done (Petri) |
 | Maids     (007) | Secondary editing done (Petri) |
 | Noel      (008) | Secondary editing done (Petri) |
-| Vlov      (009) | Initial editing done   (Petri) |
+| Vlov      (009) | Secondary editing done (Petri) |
 | Warc      (010) | Initial editing done   (Petri) |
 | Ciel      (011) | Initial editing done   (Petri) |
 | Saber     (012) | Initial editing done   (Petri) |

@@ -3,75 +3,75 @@ WinMesScript
 
 WinMes00:
 chara_type 0
-Do not block my path...
+Get out...of my way.
 \e
 
 WinMes01:
 chara_type 0
-Unfortunately, your valor wasn't much to speak of.
+Unfortunately, you had little valor to speak of.
 Freeze, and die.
 \e
 
 WinMes02:
 chara_type 0
-The path I take is only that of a river. 
-Once, I was in a boundless and frozen ocean, you see.
+I was once in a boundless and frozen sea, and so...
+The path I take is but that of a river. 
 \e
 
 WinMes03:
 chara_type 0
-So warm... What is blood if not kindling for burning the bone...
+It warms... What is blood, if not kindling for the bones...?
 \e
 
 WinMes04:
 chara_type 0
-What kind you are is of no particular regard to me...
-No matter the flesh, long as it burns it shall make for a bonfire.
+I do not particularly concern myself with the type...
+No matter the flesh, as long as it burns it can serve as pyre.
 \e
 
 WinMes05:
 chara_type 0
-The word ‘knight' has a nice ring to it, don't you think?
-Yet my opponents were nothing but wolves and bears.
-There was no way for me to learn the art of negotiation.
+Me being a knight might sound grander that it is.
+All that I fought were but wolves and bears.
+I never had the means of learning how to negotiate.
 \e
 
 WinMes06:
 chara_type 0
-A wife? I have only taken 10 of them.
-Might be hard to believe, but I was a late bloomer.
+A wife? I have taken but 10 of them.
+I may not look it, but I was a late bloomer.
 \e
 
 WinMes07:
 chara_type 0
 Though my weapons are mostly improvised, my spear is different. 
-The Permafrost of Zaria Offenbaum... I'm sure it will not shatter
-on me, even if there are many things it cannot break.
+The Permafrost of Zaria Offenbaum... It will surely never shatter
+on me, even if there are many things that it cannot break.
 \e
 
 // 対ロア
 WinMes08:
 chara_type 1
-I am satisfied with this. 
-I don't care who the next you will be,
-but having thwarted your ambitions just once is a victory in my books.
+This is satisfactory.
+I don't care who the next you will be.
+Having thwarted your ambitions just once is enough for me.
 \e
 
 // 対シエル
 WinMes09:
 chara_type 0
-Your swordsmanship was much unlike a humans. 
-What a pity... If only you didn't look so much like
-my 8th wife, perhaps I could have been braver.
+Your swordsmanship was much unlike a human's...
+What a pity... If only you hadn't looked so much like
+my 8th wife, I would have faced you with more valor.
 \e
 
 // 対アルク
 WinMes10:
 chara_type 0
-She's finally come to a stop.
-And this is when she is still in slumber so... quite impressive.
-Is the Principle this woman bears perhaps something too 
-noble for a backwater person like me?
+She's finally come to a stop...
+And this is when she is still in slumber, quite impressive.
+The Principle this woman bears is perhaps something too 
+noble for a backwater person like me...
 \e
 
 
@@ -82,12 +82,12 @@ noble for a backwater person like me?
 
 WinMes3WinStreak00:
 chara_type 0
-Not bad. I sense this hunt
-will be a long one.
+Not bad. 
+I sense this hunt will be a long one.
 \e
 
 WinMes10WinStreak00:
 chara_type 0
-You have talent, good fortune and more than anything else, perseverence. 
-I am forced to admit your greatness is on par with Ded Moroz himself.
+You have talent, good fortune and of most importance, perseverence. 
+I must admit...your greatness is on par with Ded Moroz himself.
 \e

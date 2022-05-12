@@ -51,7 +51,7 @@ A most exquisitely wicked accomplishment, worthy of praise.
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0040", 100>
 Dead_Noel
-Big talk, coming from someone who's survived all
+Big talk coming from someone who's survived all
 these years through little more than cowardice.
 \l
 
@@ -67,7 +67,7 @@ empty flattery will convince me to spare your life, Serpent?
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0042", 100>
 Dead_Noel
-Go on then, If that how it's gonna be I don't mind 
+Go on then. If that how it's gonna be I don't mind 
 listening to what you have to say.
 \l
 
@@ -82,7 +82,7 @@ Go on, tell me something useful.
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0005", 100>
 Roa
 Something useful? Hmm... I wonder, what
-information someone like you would find useful?
+information would someone like you find useful?
 \l
 
 
@@ -174,7 +174,7 @@ power all you care about are superficialities.
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0012", 100>
 Roa
 I guess it's in a Dead Apostle's nature... 
-actually, you're just a sad nobody.
+Actually, you're just a sad nobody.
 You'll never measure up to Elesia.
 
 \\@CHARA_IN@<0, 14, 3, 0, 1>
@@ -213,7 +213,7 @@ neither of these were really ever there.
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0017", 100>
 Roa
-You, who never even came to terms with yourself
+You, who never even came to terms with yourself,
 could never overcome anything.
 \l
 

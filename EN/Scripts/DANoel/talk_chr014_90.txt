@@ -37,7 +37,7 @@ while Roa himself is gone for good, reduced to dust!
 \\@CHARA_IN@< 0, 14, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0062", 100>
 Dead_Noel
-Hmm, wait...considering Roa himself appeared...
+Hmm, wait... considering Roa himself appeared...
 doesn't that mean Shiki was innocent...?
 \l
 
@@ -53,7 +53,7 @@ He's just a consciousness now, and he can't be let outside anyways!
 \\@CHARA_IN@< 0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0064", 100>
 Dead_Noel
-Well, I'm so sorry Shiki, maybe I'll show you something nice
+Well, I'm so sorry, Shiki! Maybe I'll show you something nice
 once in a while? Maybe once per 100 deaths?
 
 \l
@@ -98,12 +98,12 @@ can pose a threat to me anymore, is there...?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0068", 100>
 Dead_Noel
-Huh? That's...weird...
+Huh? That's... weird...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0069", 100>
 Dead_Noel
-Why do I feel so...tired...?
+Why do I feel so... tired...?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0070", 100>
@@ -115,7 +115,7 @@ I even tore Roa apart.
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0071", 100>
 Dead_Noel
 So, why...?
-Why are my fingers...starting to fall apart...?
+Why are my fingers... starting to fall apart...?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0072", 100>
@@ -126,7 +126,7 @@ This isn't funny!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0073", 100>
 Dead_Noel
-I wouldn't mind if it was the old, grownup me.
+I wouldn't mind if it was the old, grown-up me.
 Back then I always looked ragged and half-broken anyway.
 \l
 

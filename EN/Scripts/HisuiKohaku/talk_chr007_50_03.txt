@@ -73,7 +73,7 @@ I suppose I shall interpret those words as a challenge then?
 \\@CHARA_IN@< 1, 2, 200, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0044", 100>
 Akiha
-You'll have to excuse me but I'm not sure what you're up to, nor 
+You'll have to excuse me, but I'm not sure what you're up to, nor 
 do I really care. That goes for your excuses after you lose as well.
 \l
 

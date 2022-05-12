@@ -33,14 +33,14 @@ but still, you are falling in love with a cutie like meee~
 \\@CHARA_IN@< 3, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0060", 100>
 Shiki
-I mean...is that...doable...?
-I feel as if that's a bit too much to ask...
+I mean... is that... doable...?
+I feel like that's a bit too much to ask...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0061", 100>
 Shiki
-Some part of me feels as if though at least one of those qualities
-ought to be improved but still I'm falling in loveeee~
+Some part of me feels as though at least one of those qualities
+ought to be improved, but still I'm falling in loveeee~
 
 
 \\@CHARA_IN@<0, 1, 1, 1, 0>
@@ -97,8 +97,8 @@ You dare interfere?!
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0033", 100>
 Noel
-So you intend to rob me of my final chance at making a boyfriend?!
-I've been unable to make even a single one at my shady job!
+So you intend to rob me of my final chance at getting a boyfriend?!
+I couldn't even find a single one at my shady job!
 \l
 
 \\@CHARA_IN@< 1, 8, 4, 0, 1>

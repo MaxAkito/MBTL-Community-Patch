@@ -3,7 +3,7 @@ WinMesScript
 
 WinMes00:
 chara_type 304
-Fuckin' hell, losing to a little kid like me.
+Fuckin' hell, you lost to a kid?
 And I ain't talking 'bout strength, but your noggin'.
 Hit the books before you challenge me again.
 \e
@@ -11,21 +11,21 @@ Hit the books before you challenge me again.
 WinMes01:
 chara_type 104
 All I got goin' for me is my youth.
-Honor does not apply to me and I can shamelessly ask
-adults for help beating people up.
+Don't need to care 'bout shame or reputation,
+I can just get some adults to beat people up for me.
 \e
 
 WinMes02:
 chara_type 100
-You'll remain a shitter for the rest 'a your life if all you do is 
-depend on your own skills. We all got shit we can't do ourselves.
+You'll remain a nobody for the rest 'a your life if all you do 
+is depend on your own skills. We all got shit we can't do ourselves.
 So you gotta force others to do it for you. You get me?
 \e
 
 WinMes03:
 chara_type 305
 You can't just hope you'll fuckin' win.
-I'mma part 'a the gamer generation, I can read your every move.
+I'mma part 'a the gamer generation. I can read your every move.
 \e
 
 WinMes04:
@@ -34,8 +34,8 @@ chara_type_sub 107
 chara_switchframe 500
 This Piano Machine was originally a silk loom.
 Now it weaves people instead, controlling and strengthening them.
-My old man used to gaze longingly at
-it in the store window when he was just a boy...
+My old man used to gaze longingly at it 
+in the store window when he was just a boy...
 \e
 
 WinMes05:
@@ -44,7 +44,7 @@ chara_type_sub 303
 chara_switchframe 320
 chara_type_sub1 300
 chara_switchframe1 540
-Being a kid's real nice, socially speaking. Can just pick as many
+Being a kid's real nice, socially speaking. Can pick as many
 fights as I want. Sorry, talkin' to myself here.
 Don't worry 'bout it. Go take a nap, kid.
 \e
@@ -66,14 +66,14 @@ chara_switchframe1 370
 We're heading back, fuckers.
 You kiddin'? Need something for your place?
 Goddamnit, I guess we can stop by the store. 
-Keep it within our monthly budget, though.
+Keep the budget within your monthly wage, though.
 \e
 
 // 対一般人(ヒスコハは除外した方が良さそう)
 WinMes08:
 chara_type 306
 Soprano, contact Karius.
-Tell 'im we've gotta a dumbass down, they need safeguardin'.
+Tell 'im we've gotta a dumbass down. They need custody.
 Make sure to get 'em some medical care as a lil' extra.
 \e
 
@@ -82,7 +82,7 @@ WinMes09:
 chara_type 303
 Alto, contact Andou.
 Took care of some trash, but I need 'im to deal with the other shit.
-And I ain't just talking 'bout the cleaning up the scene.
+And I ain't just talking 'bout cleaning up the scene.
 I want 'im invesgating the victims, give 'em some care.
 \e
 
@@ -92,9 +92,9 @@ chara_type 106
 chara_type_sub 100
 chara_switchframe 680
 Real weird... I'd expected, well...
-That you'd show off some crazy manuevers...
+That you'd show off some crazy moves or somethin'...
 But I guess you don't get all riled up when fighting a human?
-Hah! You've sure gotten yourself hooked on somethin' fucked so young.
+Hah! So young, and you're already hooked on something so fucked up.
 \e
 
 //対アルクェイド
@@ -118,7 +118,7 @@ Fall back, fuckers! We're leaving.
 // 対シエル
 WinMes13:
 chara_type 100
-What's with the confused look?
+What you looking so confused for?
 I know your lil' tricks inside and out.
 Planned out my countermeasures goddamn ages ago.
 \e
@@ -146,8 +146,8 @@ chara_type_sub 306
 chara_switchframe 680
 I'm not dumb enough to compare you to Ciel but...
 Man, your movements are way too simple.
-You seem kinda sloppy, but damn you're stubborn...
-(I should give her some confidence from time to time.)
+You seem kinda whimsical, but damn you're stubborn...
+(Maybe I should get 'er a bit more confident sometime.)
 \e
 
 // 対死徒ノエル
@@ -161,9 +161,9 @@ End 'a the day, she kept working hard for the greater good.
 // 対青子
 WinMes18:
 chara_type 305
-Stop it, you piece of shit! Thinking you can get away after
-all you did! Mezzo-Soprano, get me Karius!
-I'm aboutta create one hell of a long
+Stop it, you piece of shit! Think you can get away after
+all you did!? Mezzo-Soprano, get me Karius!
+I'm 'boutta create one hell of a long
 formal complaint to the Mages Assocation.
 \e
 
@@ -175,16 +175,16 @@ chara_type_sub 101
 chara_switchframe 465
 Phew. Drove her back somehow.
 Thank god she was so mentally unstable...
-With that I've cleared all hurdles. Nothing more to worry 'bout.
+Got over all the hurdles I was worried about.
 Now I just gotta wait for Roa to wake up.
 \e
 
 // 対ノエル（ストーリー専用）
 WinMesArcadeWin08:
 chara_type 104
-Alright, not a bad workout. 
-My Piano Machine ain't in bad shape. Maybe 
-Mario the Puppetmaster's gonna be back on the scene for a few years?
+Ey, not a bad workout. For both of us. 
+My Piano Machine ain't in bad shape. Maybe Mario the 
+Puppetmaster's gonna be back on the scene for a few years?//what was meant
 \e
 
 // 対青子（ストーリー専用）
@@ -192,8 +192,8 @@ WinMesArcadeWin15:
 chara_type 105
 Goddamn, learn your place, Magician!
 Aaah, that felt good!
-I mean, Laurentis had it all coming but,
-don't mess with an ordinary person's stubborness, fucker!
+Not that Laurentis didn't have it coming but... We mere mortals 
+can be real stubborn. Ain't nothing to mess with, fucker!
 \e
 
 // 99まで追加可能
@@ -210,5 +210,5 @@ Ain't bad, off to a good start.
 WinMes10WinStreak00:
 chara_type 302
 Ten straight wins! Good shit, I love competent people!
-Hey, how 'bout you work under me? I'll treat ya well.
+Hey, how 'bout you come work for me? I'll treat ya well.
 \e

@@ -6,7 +6,7 @@ chara_type 3
 Eeek! Åô That was a really close one!
 I was sooo scared!
 There... Those were some good photos!
-Now to send these to the Presbyters sicko enough to like 'em.
+Now to send these to the Presbyters who are sicko enough to like 'em.
 \e
 
 WinMes01:
@@ -45,8 +45,8 @@ Hehe, such a convenient little phrase, don't you think?
 
 WinMes06:
 chara_type 101
-Mmm...got tomorrow off...what to do...
-Damnit, I've neither energy to work on myself or go marriage hunting.
+Mmm... got tomorrow off... what to do...
+Damnit, I've energy neither to work on myself nor to go marriage hunting.
 \e
 
 WinMes07:
@@ -106,7 +106,7 @@ What?! No way! NOW he decides to get serious?!
 WinMes3WinStreak00:
 chara_type 3
 That makes three. 
-Keep this up and your teacher's gonna so proud of you!
+Keep this up and your teacher's gonna be so proud of you!
 \e
 
 WinMes10WinStreak00:

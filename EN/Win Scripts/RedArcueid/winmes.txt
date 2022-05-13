@@ -9,8 +9,8 @@ Then you can consider your life done as well.
 
 WinMes01:
 chara_type 0
-That was so boring. Though I did find that last look
-of pain on your face a little bit exciting.
+That was so boring. Though I did find that last
+look of pain on your face a little bit exciting.
 \e
 
 WinMes02:
@@ -41,14 +41,14 @@ chara_switchframe 530
 Boooring. I'm finally free to do as I please, but now
 there's not a single person who can keep up with me.
 Hehe... This poses quite the problem.
-Who knows what'll happen if I can't take out my frustrations.
+Who knows what'll happen if I can't take out my frustrations?
 \e
 
 WinMes06:
 chara_type 0
-If one is to rule, be gentle as a young lady. 
+If one is to rule, be gentle as a maiden.
 If one is to control, be firm like a queen.
-I AM royalty, that's the least that can be expected of me.
+I AM royalty--that's the least that can be expected of me.
 \e
 
 WinMes07:
@@ -68,7 +68,7 @@ try sneaking up on me like he once did.
 // 対アルクェイド
 WinMes09:
 chara_type 3
-Was that perhaps...a new me?
+Was that perhaps... a new me?
 I see... Compact and bunched up...
 I see, I see...
 \e
@@ -78,13 +78,13 @@ WinMes10:
 chara_type 1
 Gotcha~ Now it's your turn, little wolf.
 I'll have you take responsibility for killing me...
-Until that souls of yours has been completely spent.
+Until that soul of yours has been completely spent.
 \e
 
 // 対シエル
 WinMes11:
 chara_type 102
-Wait, you're done already, Ciel? But...coming back to life 
+Wait, you're done already, Ciel? But... coming back to life 
 after you're killed is the only thing you're good for!
 \e
 

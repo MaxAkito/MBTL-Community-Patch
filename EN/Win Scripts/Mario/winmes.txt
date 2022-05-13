@@ -4,7 +4,7 @@ WinMesScript
 WinMes00:
 chara_type 304
 Fuckin' hell, you lost to a kid?
-And I ain't talking 'bout strength, but your noggin'.
+And I ain't talking 'bout strength, but your noggin.
 Hit the books before you challenge me again.
 \e
 
@@ -17,7 +17,7 @@ I can just get some adults to beat people up for me.
 
 WinMes02:
 chara_type 100
-You'll remain a nobody for the rest 'a your life if all you do 
+You'll stay a nobody for the rest 'a your life if all you do 
 is depend on your own skills. We all got shit we can't do ourselves.
 So you gotta force others to do it for you. You get me?
 \e
@@ -73,7 +73,7 @@ Keep the budget within your monthly wage, though.
 WinMes08:
 chara_type 306
 Soprano, contact Karius.
-Tell 'im we've gotta a dumbass down. They need custody.
+Tell 'im we've got a dumbass down. They need custody.
 Make sure to get 'em some medical care as a lil' extra.
 \e
 
@@ -161,8 +161,8 @@ End 'a the day, she kept working hard for the greater good.
 // �ΐq
 WinMes18:
 chara_type 305
-Stop it, you piece of shit! Think you can get away after
-all you did!? Mezzo-Soprano, get me Karius!
+Stop it, you piece of shit! Think you can get away
+after all you did!? Mezzo-Soprano, get me Karius!
 I'm 'boutta create one hell of a long
 formal complaint to the Mages Assocation.
 \e
@@ -192,7 +192,7 @@ WinMesArcadeWin15:
 chara_type 105
 Goddamn, learn your place, Magician!
 Aaah, that felt good!
-Not that Laurentis didn't have it coming but... We mere mortals 
+Not that Laurentis didn't have it coming but... We mortals 
 can be real stubborn. Ain't nothing to mess with, fucker!
 \e
 

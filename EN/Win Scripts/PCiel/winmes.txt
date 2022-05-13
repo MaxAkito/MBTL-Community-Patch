@@ -17,7 +17,7 @@ You're not enough to stop me.
 WinMes02:
 chara_type 0
 You've been completely outclassed. Pathetic.
-My physical power has been strengthened using magecraft. 
+I've strengthened my physical power using magecraft. 
 I have to, since I'm handling these heavy weapons with my feminine body.
 \e
 
@@ -41,14 +41,14 @@ WinMes05:
 chara_type 203
 My magic circuits are on a different level to yours.
 It's like comparing the engines of a motorcycle to
-a rocket's. Did you really think you stood a chance?
+those of a rocket. Did you really think you stood a chance?
 \e
 
 // 対アルクェイド
 WinMes06:
 chara_type 3
 You underestimated MY state of excitation, Arcueid.
-I managed to gouge out your heart faster than you were
+I managed to gouge your heart out faster than you were
 able to reach your full potential power.
 \e
 
@@ -107,7 +107,7 @@ WinMes12:
 chara_type 1
 Might makes right.
 Dead Apostle Noel...
-Your weakness, has come to judgment.
+Your weakness... has come to judgment.
 \e
 
 // 対ロア
@@ -115,7 +115,7 @@ WinMes13:
 chara_type 1
 This is the end, Serpent of Akasha.
 I've shattered your soul with the Seventh Holy Scripture.
-All that your twisted beliefs have led to are the depths of darkness.
+Your twisted beliefs have led you only to the depths of darkness.
 \e
 
 // 対吸血鬼
@@ -133,9 +133,9 @@ chara_switchframe 130
 chara_type_sub1 204
 chara_switchframe1 760
 So that was the Fifth Magician...
-She and I are kind of alike, yet also complete opposites.
-I boast an unprecedented magical energy production amount,
-while she boasts an anomalous acceleration amount. Something like that.
+She and I are somewhat alike, yet also complete opposites.
+I boast an unprecedented production of magical energy,
+while she boasts an anomalous acceleration of it. Something like that.
 \e
 
 

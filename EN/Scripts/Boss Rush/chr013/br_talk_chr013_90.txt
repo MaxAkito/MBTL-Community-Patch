@@ -41,13 +41,13 @@ pancakes!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10145", 100>
 Miyako
-I wasn't sure why, but I got the distinct feeling that
-the time limit for something big was pushed back.
+I wasn't sure why,
+but I feel like I still had a lot of time left.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10146", 100>
 Miyako
-On a summer day, when the townspeople had all left to escape
-the heat, I knew that's when my fate would be decided...
+On a summer day so hot that most people wouldn't dare go
+outside... I knew that's when my fate would be decided...
 
 
 \\@SYSTEM@<21>

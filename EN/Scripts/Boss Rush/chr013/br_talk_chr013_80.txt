@@ -39,8 +39,8 @@ I need to go to the dojo...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10134", 100>
 Miyako
-Not understanding the urge myself, something
-mysteriously inspired me to go train.
+Not even I myself quite understand the urge as to why,
+but I hurried the dojo anyways.
 
 \\@SYSTEM@<21>
 \aw

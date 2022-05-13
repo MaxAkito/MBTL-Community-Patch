@@ -26,8 +26,8 @@ I won!
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10091", 100>
 Miyako
-It was tougher than I expected, but she was
-nothing compared to that last lady!
+It was tougher than I expected, 
+but she was nothing compared to that last lady!
 
 \\@CHARA_IN@< 1, 2, 3, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
@@ -39,15 +39,15 @@ assessment of me was not so wrong after all.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10011", 100>
 Akiha
-You demonstrated a strangely superhuman ability
-to fight. Almost as if being driven by something.
+Even considering how it seemed like you were being spurned on 
+by some odd mystical power to achieve that level of physicality...
 \l
 
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10012", 100>
 Akiha
-You were able to defeat me even after I let my
-hair down in earnest. However...
+You still managed to defeat me after I let my hair down
+for real. However...
 
 \\@BGM_FADE@<0, 100, 0, -2, 1>
 \\@BGM_PLAY@<1, 77, 100>
@@ -63,24 +63,25 @@ What...?
 \\@CHARA_IN@< 1, 2, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10013", 100>
 Akiha
-Fighting for real and fighting to judge another's
-ability are two entirely different things.
+Fighting for real and fighting to adjust 
+my level are two entirely different things.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10014", 100>
 Akiha
-I would rate this battle one star.
-The vampire from before deserves five.
+This 
+My level from just now I'd count as 1 finger.
+And that vampire that was outside I'd count as 5, so...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10015", 100>
 Akiha
-What rating would you give me, I wonder?
+How many fingers do you think my levels goes up to, I wonder?
 
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10093", 100>
 Miyako
-Oh, dearest me...
+Uh... oh....
 
 \\@FADE_OUT@<1, 255, 0, 0, 0>
 \w<25>

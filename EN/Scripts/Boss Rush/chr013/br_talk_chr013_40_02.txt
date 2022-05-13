@@ -18,13 +18,13 @@
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10000", 100>
 Shiki
-Miyako, watch out! There's a nun with a halberd
-hiding in the alley!
+Miyako, watch out! 
+There's a nun with a halberd hiding in the alley!
 
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10040", 100>
 Miyako
-Right! Leave it to me, Shiki!
+Okay! Leave it to me, Shiki!
 Hyah!
 
 \\@CHARA_IN@< 0, 13, 0, 0, 20>
@@ -43,8 +43,8 @@ Hyah!
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10000", 100>
 Noel
-Tch! You managed to dodge my attack. Not bad.
-But how did you know I was here?
+Tch! You managed to dodge my attack. 
+Not bad. Seems my ambush attempt was foiled!
 
 \\@CHARA_OUT@<0, 13, -1, 0, 0>
 \\@CHARA_OUT@<1, 8, -1, 0, 0>
@@ -63,7 +63,7 @@ But how did you know I was here?
 \\@CHARA_IN@< 3, 53, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10060", 100>
 Neco_Arc
-~Quick Recap~
+~The story so far~
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
@@ -82,8 +82,8 @@ bajiquan enthusiast, found herself mixed up with vampires.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc_10000", 100>
 Arcueid@Arcueid_Zisyo
-ÅgExcuse me! Send out your eldest son! He must
-  take responsibility for killing me!Åh
+ÅgExcuse me! Could you send out the elder son of the house! 
+ He must take responsibility for killing me!Åh
 \l
 
 \\@CHARA_OUT@<4, -1, -1, 0, 0>
@@ -95,7 +95,7 @@ Arcueid@Arcueid_Zisyo
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10062", 100>
 Neco_Arc
-This vampire intruded here during broad daylight, seeming
+This vampire barged in during broad daylight, seeming
 not all that bothered at having been killed.
 \l
 
@@ -103,7 +103,7 @@ not all that bothered at having been killed.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10063", 100>
 Neco_Arc
 Seemingly equally not as bothered, the adopted elder brother 
-made his way out to face the visitor to Miyako's annoyance.
+made his way out to face the visitor, much to Miyako's annoyance.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10064", 100>
@@ -145,21 +145,21 @@ having trained in her grandfather's dojo!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10001", 100>
 Noel
 So the rumors of you defeating a True Ancestor were true! 
-Or perhaps it was all thanks to Four-Eyes' advice?
+Or perhaps it was all thanks to glasses-boy's advice?
 \l
 
 \\@CHARA_IN@< 1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10002", 100>
 Noel
-No matter, I have orders to dispose of any obstacles!
+No matter, I've been tasked with diposing of any obstacles!
 Time to beat the both of you senseless!
 \l
 
 \\@CHARA_IN@< 1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10003", 100>
 Noel
-I'll retire the child, send Four-Eyes here back to the
-farm, and use my reward to buy a high-rise penthouse!
+I'll get rid of the kid, then send glasses-boy straight in for 
+processing, and use my reward to move into a high-rise penthouse!
 \l
 
 \\@CHARA_IN@< 1, 8, 101, 0, 1>
@@ -167,20 +167,20 @@ farm, and use my reward to buy a high-rise penthouse!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10004", 100>
 Noel
 It looks like my time has finally come! If I play my
-cards right, there may even be a new heroine!
+cards right, I might even be able to demand a heroine change!
 \l
 
 \\@CHARA_IN@< 1, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10005", 100>
 Noel
-Also, c'mon now, you. The 'little girl' role was 
-already filled before you got here.
+Also, c'mon now, you. The 'little girl' role 
+was already filled before you got here.
 \l
 
 \\@CHARA_IN@< 1, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10006", 100>
 Noel
-You know, that one. That super pissed and super cute
+You know, that one. That super pissed, yet super cute
 vampire who is as red a rose?
 \l
 
@@ -189,7 +189,7 @@ vampire who is as red a rose?
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10007", 100>
 Noel
 I believe she'd be quite popular in the role of 'little
-girl'! Perhaps I should become a vampire as well!
+girl'! Maybe I should become a vampire too!
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10041", 100>
@@ -201,14 +201,14 @@ Can I beat her up now?
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10001", 100>
 Shiki
-Be my guest. From the sound of it, she's beyond saving.
-I'd rather avoid a bad ending if possible.
+Yeah, it's probably fine. From the sound of it, she's beyond saving.
+Let's make sure this ominous future doesn't materlalize.
 
 \\@CHARA_IN@< 0, 13, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10042", 100>
 Miyako
-All right! That's my brother for you! He knows it's best
+Gotcha! That's my brother for you! He knows it's best
 to take care of a troublesome rival early on!
 \l
 

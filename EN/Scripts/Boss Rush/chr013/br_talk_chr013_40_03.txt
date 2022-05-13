@@ -20,15 +20,15 @@
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10010", 100>
 Shiki
-Miyako, watch out! There's a huge block of ice right
-above you!
+Miyako, watch out! 
+There's a huge block of ice right above you!
 
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10050", 100>
 Miyako
-What?! But it's the middle of summer! Whatever, no time
-to worry about that! Hyah!
+A-A block of ice?! But it's the middle of summer! 
+A-A-Anyways! Hyah!!
 
 
 \\@CHARA_IN@< 0, 13, 4, 52, 20>
@@ -48,8 +48,8 @@ to worry about that! Hyah!
 \\@CHARA_IN@< 1, 9, 4, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10000", 100>
 Volv@Volv_Fuyu
-To think you would destroy my gift like that. Everyone
-here is so heartless. The cruelty is overwhelming.
+To think you would destroy my gift like that...
+What a terrible place... The cruelty is overwhelming.
 
 \\@CHARA_OUT@<0, 13, -1, 0, 0>
 \\@CHARA_OUT@<1, 9, -1, 0, 0>
@@ -68,14 +68,14 @@ here is so heartless. The cruelty is overwhelming.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10070", 100>
 Neco_Arc
-~Quick Recap~
+~The story so far~
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10071", 100>
 Neco_Arc
-Miyako defeated the master assassin, Noel. However, not
-ten minutes passed before the peace was broken.
+Miyako defeated the master assassin, Noel. 
+However, not ten minutes passed before the peace was broken.
 \l
 
 \\@CHARA_IN@< 3, 53, 108, 0, 1>
@@ -107,7 +107,7 @@ the possibility of a summer vacation with her brother...
 \\@CHARA_IN@< 3, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10076", 100>
 Neco_Arc
-Miyako's awoke to her inner true power!
+Miyako awoke to her inner true power!
 
 \\@CHARA_OUT@<3, -1, -1, 0, 0>
 \\aw
@@ -127,19 +127,19 @@ Miyako's awoke to her inner true power!
 \\@CHARA_IN@< 1, 9, -1, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10001", 100>
 Volv@Volv_Fuyu
-I thought this would get easier with time, but...
+It had thought that pain no longer bothered me...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10002", 100>
 Volv@Volv_Fuyu
-Seeing such a lovely young girl so violently refuse
-one's gift always seems to sting.
+But seeing such an innocent girl reject my gifts directly
+is not something I'll ever get used to...
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10003", 100>
 Volv@Volv_Fuyu
-I here I thought these were all the craze right now.
+And here I thought these were all the craze right now...
 
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -151,8 +151,8 @@ I wonder what it is. Let's see...
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10011", 100>
 Shiki
-It's an expansion pack for that popular card game.
-This one's from two generations ago, though.
+It's an booster pack for that popular card game.
+This one was only valid two regulations ago, though.
 \l
 
 \\@CHARA_IN@< 2, 3, 4, 0, 1>
@@ -164,14 +164,14 @@ that collectors would love to get their hands on.
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10052", 100>
 Miyako
-Really? That's too bad.
-I do like the art, though.
+Oh... 
+But it's got such good art and all, too...
 
 \\@CHARA_IN@< 1, 9, 2, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10004", 100>
 Volv@Volv_Fuyu
-You were expecting more...? Where I'm from... those are the
-newest cards we have...
+You were expecting more...? 
+Where I'm from... those are the newest cards we have...
 
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
@@ -179,16 +179,16 @@ newest cards we have...
 Shiki
 \\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
 \\@EMG_PRINT@<"Special translation: Where is this duelist from?", 102, 1060, 650>
-You must live in the middle of nowhere, then. You should
-really try harder to keep up with the times.
+You must live in the middle of nowhere, then. 
+Maybe you should study the latest trends instead of war stratagems.
 
 \\@GO_SUB@<"QUAKE_2">
 \\@CHARA_IN@< 1, 9, 6, 0, 101>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10005", 100>
 Volv@Volv_Fuyu
-Why...
-YOOOUUUUUUUUU!!!!!!
+OOooOo!!
+OOOOOOOoOOooOOOOOOOO!!!!!!
 
 \\@CHARA_IN@< 0, 13, 5, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
@@ -200,28 +200,28 @@ D-D-Don't scare me like that, Mr. Moroz!
 \\@CHARA_IN@< 1, 9, 5, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10006", 100>
 Volv@Volv_Fuyu
-Your brother there just touched a nerve, you know.
-Keep up with the times, you say?
+That man uncovered something within me he shouldn't have.
+Trends? Is that what you said?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10007", 100>
 Volv@Volv_Fuyu
 Even the postal service in my lands are six months behind!
-Same-day delivery is something we can only dream of!
+Same-day delivery is something I can only dream of...
 \l
 
 \\@CHARA_IN@< 1, 9, 1, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10008", 100>
 Volv@Volv_Fuyu
-This is precisely why you city people are beyond
-salvation! Just like I thought... You all deserve to die!
+This is precisely why you city people are beyond salvation! 
+Just like I thought... this city should be drowned in death!
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10009", 100>
 Volv@Volv_Fuyu
-I am Ded Moroz, General Winter. To some, I am known
-as Santa Claus!
+I am Ded Moroz, General Winter. 
+To some, I am known as Santa Claus.
 \l
 
 \\@CHARA_IN@< 1, 9, 5, 0, 101>

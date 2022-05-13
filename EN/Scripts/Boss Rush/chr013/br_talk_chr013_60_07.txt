@@ -19,8 +19,8 @@ Into tiny pieces...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10141", 100>
 Neco_Arc@Neco_Arc_Rumi
-By defeating the sauve Four-Eyes, you have in the truest sense
-acquired the power of fighting in this game.
+By defeating the sauve glasses-boy, you have in the
+acquired the power of truly fighting in-game.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10142", 100>
 Neco_Arc@Neco_Arc_Rumi
@@ -48,8 +48,8 @@ When you wake up, you probably won't remember this dream.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10147", 100>
 Neco_Arc@Neco_Arc_Rumi
-Do not mourn, however. I will also have forgotten
-all about this experience.
+Do not mourn, however. 
+I will also have forgotten all about this experience.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10148", 100>
 Neco_Arc@Neco_Arc_Rumi

@@ -17,8 +17,8 @@
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10000", 100>
 Red_Arcueid@Red_Arcueid_Hatena
-Stop right there, little girl. Unless you want to be torn
-to shreds, of course.
+Stop right there, little girl.
+Come any closer and I'll atomize you.
 
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10030", 100>
@@ -54,7 +54,7 @@ What's that?! It looks like a tsunami is headed this way!
 \\@CHARA_IN@< 3, 53, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10090", 100>
 Neco_Arc
-~Quick Recap~
+~The story so far~
 
 \\@CHARA_IN@< 1, 10, 101, 2, 0>
 \aw
@@ -62,7 +62,7 @@ Neco_Arc
 \\@CHARA_IN@< 1, 10, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10001", 100>
 Red_Arcueid
-Forget the recap!
+Who cares about the story so far!
 
 \\@SQ_CALL@<2>
 
@@ -89,53 +89,53 @@ Forget the recap!
 \\@CHARA_EMOVE@<2, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10031", 100>
 Shiki
-Yikes!
+Uh-oh!
 
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10071", 100>
 Miyako
-Yikes!
+Uh-oh!
 
 \\@CHARA_IN@< 1, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10002", 100>
 Red_Arcueid
-What seems to be the matter, young man? No warning
-for your dear sister this round?
+What's wrong? Not gonna do the whole
+"Watch out, Miyako" routine for your dear sister this round?
 \l
 
 \\@CHARA_IN@< 1, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10003", 100>
 Red_Arcueid
-And here I was beginning to look forward to your little intro.
+I kinda liked that little intro myself, you know.
 \l
 
 \\@CHARA_IN@< 1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10004", 100>
 Red_Arcueid
-I even went to the trouble of firing off that shock
-wave and everything. How disappointing.
+I was hoping you'd let me hear it for myself.
+That's why I went to the trouble of making that shockwave.
 \l
 
 \\@CHARA_IN@< 1, 10, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10005", 100>
 Red_Arcueid
-Well? Say something. I'm growing weary of the petrified
-looks of terror on your faces.
+You're both just standing there, faces frozen in fear.
+Boooring.
 \l
 
 \\@CHARA_IN@< 1, 10, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10006", 100>
 Red_Arcueid
-Are you so surprised to see me here? Could it be that
-you didn't expect to see me again and dropped your guard?
+Is it really that weird to see me? Oh wait, maybe
+you stupidly thought I wouldn't show up again, huh?
 
 \\@CHARA_IN@< 2, 3, 7, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10032", 100>
 Shiki
-(Surprised is one word for it! This should be impossible!
- She's right, though... I let my guard down...)
+(Weird? I want to tell her it should be impossible,
+ but she's right, that really was a bit stupid of me)
 \l
 
 \\@CHARA_IN@< 2, 3, 0, 0, 1>
@@ -182,8 +182,8 @@ I can't do this! No way!
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10073", 100>
 Miyako
-Let's get out of here, Shiki! I honestly can't see
-myself defeating her again!
+Let's get out of here, Shiki! 
+I honestly can't see myself defeating her again!
 
 \\@CHARA_IN@< 1, 10, 6, 0, 10>
 // Red_Arcueid
@@ -228,8 +228,8 @@ I nearly forgot!
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10075", 100>
 Miyako
-She's not the real enemy! I'm here to defeat
-my own cowardice!
+She's not the real enemy! 
+I'm here to defeat my own cowardice!
 \l
 
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
@@ -243,22 +243,22 @@ Now I'm fired up!
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10077", 100>
 Miyako
-My greatest foe! Here I come! But... please try
-to go easy on me!
+My greatest foe! Here I come! 
+But... please try to go easy on me!
 
 \\@CHARA_IN@< 1, 10, 8, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10010", 100>
 Red_Arcueid
-Now that's more like it! David must have courage when
-going up against Goliath.
+Now that's more like it! 
+Bravery is what you'll need going up against Goliath.
 \l
 
 \\@CHARA_IN@< 1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10011", 100>
 Red_Arcueid
-If you think I'm going to hold back, though, you're in
-for a surprise. Now, show me what you've learned!
+I'll just have to see myself how much you've learned.
+But I won't do that by going easy on you.
 
 \\@BGM_STOP@<0>
 \e

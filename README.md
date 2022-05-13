@@ -183,11 +183,11 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Ciel      (011) | Secondary editing done (Petri) |
 | Saber     (012) | Secondary editing done (Petri) |
 | Miyako    (013) | Secondary editing done (Petri) | 
-| Boss Rush (013) | Initial editing done   (Petri) |
+| Boss Rush (013) | Secondary editing done (Petri) |
 | DA Noel   (014) | Secondary editing done (Petri) |
 | Aoko      (015) | Tertiary editing done  (Petri) |
 | P. Ciel   (016) | Secondary editing done (Petri) |
-| Mario     (017) | Initial editing done   (Petri) |
+| Mario     (017) | Secondary editing done (Petri) |
 
 ### Win-quotes
 

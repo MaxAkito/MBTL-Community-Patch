@@ -18,15 +18,15 @@
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10020", 100>
 Shiki
-Miyako, be careful! Your sandwich and tea have
-been poisoned!
+Miyako, watch out! 
+Your sandwich and tea have been poisoned!
 
 \\@CHARA_IN@< 0, 13, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10060", 100>
 Miyako
 I know! 
-I mean, they look weird from just the color alone.
+I mean, just the color alone should tell you that much.
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \\@CHARA_IN@< 1, 1,  1, 2, 0>
@@ -35,8 +35,8 @@ I mean, they look weird from just the color alone.
 \\@CHARA_IN@< 1, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His_10000", 100>
 Hisui@Hisui_TooriMaid
-It would seem we have failed. I believe the tea you
-prepared was too obviously poisoned, Kohaku.
+It would seem we have failed. 
+I believe the tea you prepared was too obvious, Kohaku.
 
 \\@CHARA_FOCUS_COLOR@< 1, 1>
 \\@CHARA_IN@< 3, 4, 100, 4, 0>
@@ -45,8 +45,8 @@ prepared was too obviously poisoned, Kohaku.
 \\@CHARA_IN@< 3, 4, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10000", 100>
 Kohaku@Kohaku_TooriKaseifu
-I'm not so sure. The sandwich you made looked pretty
-awful as well, Hisui.
+I'm not so sure. The sandwich you made 
+seemed pretty shady too, Hisui.
 
 //Ç±Ç±Ç≈âÊñ ÅAàÍíUäDêFÇ…
 \\@CHARA_OUT@<0, 13, -1, 0, 0>
@@ -68,7 +68,7 @@ awful as well, Hisui.
 \\@CHARA_IN@< 3, 53, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10080", 100>
 Neco_Arc
-~Quick Recap~
+~The story so far~
 \l
 
 \\@CHARA_IN@< 3, 53, 110, 0, 1>
@@ -93,8 +93,8 @@ but their forced smiles hid a sorrowful past.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10084", 100>
 Neco_Arc
-Will the kind-hearted Miyako cross fists with the odd pair,
-who are clearly cheating by fighting together?
+Will the kind-hearted Miyako fight it in herself to fight 
+the odd pair, who are clearly cheating by fighting together?
 
 \\@CHARA_OUT@<3, -1, -1, 0, 0>
 \\aw
@@ -128,34 +128,34 @@ from the alley. Do you know these two, Brother?
 \\@CHARA_IN@< 2, 3, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10021", 100>
 Shiki
-What are you saying? Of course I do. These two are--
+Well... Of course I do. These two are--
 
 \\@CHARA_IN@< 1, 1, 4, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His_10001", 100>
 Hisui
-I'm afraid you are mistaken, Master Shiki. We are not
-who you think we are.
+You do not, Master Shiki. 
+Right now, we are not who you think we are.
 
 \\@CHARA_IN@< 3, 4, 106, 0, 1>
 \\@CHARA_EMOVE@<3, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10001", 100>
 Kohaku
 That is correct. Our evil employer has brainwashed us.
-We are a pair of poor assassins, sent to eliminate Miss Miyako...
+We are a poor pair of assassins, sent to eliminate Miss Miyako...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10002", 100>
 Kohaku
-It's not like came here because we wanted to play or something.
-Please bear that in mind.
+It's not like came here because we wanted to have fun or something.
+Make sure you keep that in mind.
 
 \\@CHARA_IN@< 2, 3, 6, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10022", 100>
 Shiki
-(I see. I sense an incredibly strong resolve to stick
- to their character images, regardless of Akiha.)
+(I see. Akiha or not, it feels like these two are quite 
+ determined to maintain their established characters...)
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10063", 100>
@@ -179,15 +179,15 @@ DESTR0Y HER... DESTR0Y HER...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10004", 100>
 Kohaku
-DESTR0Y HER QU1CKLY
-1T W0ULD BE FUNNY S0... DESTR0Y HER PLEASE.
+DESTR0Y AK1HA QU1CKLY
+DESTR0Y HER 1T W0ULD BE FUNNY.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10064", 100>
 Miyako
-Now they sound like robots! Is that what brainwashing
-does? Turns you into a machine?!
+Now they sound like robots! 
+Does brainwashing turn you into a robot?!
 \l
 
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
@@ -213,22 +213,22 @@ after that big baddie from before.
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10026", 100>
 Shiki
-It'll be fine. Even if you go a bit overboard, I'm
-sure it'll prove a good lesson for Kohaku.
+It'll be fine. Even if you go a bit overboard, 
+I'm sure it'll prove a good lesson for Kohaku.
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10066", 100>
 Miyako
-Okay! It's for the good of these poor maids,
+You got it! It's for the good of these poor maids,
 too! I'll give it everything I've got!
 
 \\@CHARA_IN@< 3, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<3, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10005", 100>
 Kohaku
-DANGER DETECTED. S0MET1MES 1 TH1NK
-Y0UR N0-N0NSE ATT1TUDE 1S A BIT MUCH SH1K1.
+UH-0H. S0MET1MES 1 TH1NK Y0UR N0-N0NSE 
+ATT1TUDE 0F Y0URS 1S A BIT MUCH SH1K1.
 
 \\@BGM_STOP@<0>
 \e

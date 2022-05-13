@@ -34,14 +34,14 @@
 \\@CHARA_IN@< 3, 53, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10100", 100>
 Neco_Arc
-~Quick Recap~
+~The story so far~
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10101", 100>
 Neco_Arc
 Miyako Arima finally arrived at the headquarters
-of those responsible for taking over Misaki Town.
+of those who command Misaki Town from the shadows.
 \l
 
 \\@CHARA_IN@< 3, 53, 110, 0, 1>
@@ -55,7 +55,7 @@ the Tohno family head and Shiki's younger sister.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10103", 100>
 Neco_Arc
 Akiha is set on correcting Shiki's listless nature
-and turning him into an upstanding, model student.
+so as to turn him into an upstanding, model student.
 \l
 
 \\@CHARA_IN@< 3, 53, 108, 0, 1>
@@ -73,7 +73,7 @@ maids a nudge with subtle threats of a pay cut...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10106", 100>
 Neco_Arc
-all as part of the Tohno Shiki Acquistition Project.
+all as part of the Capture Tohno Shiki Project.
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
@@ -107,15 +107,15 @@ This is just some stupid family quarrel!
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10081", 100>
 Miyako
-You wrote this script didn't you? To think I was stupid
-enough to get my hopes up!
+You wrote this script didn't you? 
+Why was I stupid enough to get my hopes up!
 \l
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10082", 100>
 Miyako
-It explains why the vampire lady interrupted me
-like that. She knew about this, didn't she?
+It explains why the vampire lady interrupted me like that. 
+She knew how this story would turn out, didn't she?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10083", 100>
@@ -151,7 +151,7 @@ You don't think I'm last boss material?
 \\@CHARA_IN@< 1, 2, 202, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10002", 100>
 Akiha
-Thanks to that shining assessment, I'm so torn
+Thank you for that shining assessment, I'm so torn
 up I may have trouble fighting at full strength.
 
 \\@CHARA_IN@< 0, 13, 5, 0, 1>
@@ -179,13 +179,13 @@ find someone to help you, you'd best give up now.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10004", 100>
 Akiha
 This is the Tohno private estate. An unapproachable and 
-unescapable forest, for both the police and the Executioners.
+inescapable forest, for both the police and the Executors.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10005", 100>
 Akiha
-The fate of any rude trespassers goes without saying, no?
-Curse your destiny for leading you here this day.
+I think you know what happens to lawless intruders.
+Curse your destiny, if you must. That's all you can do.
 
 \\@CHARA_IN@< 0, 13, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10087", 100>

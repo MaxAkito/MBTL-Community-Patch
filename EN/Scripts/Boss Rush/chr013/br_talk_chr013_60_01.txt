@@ -16,15 +16,15 @@
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10030", 100>
 Miyako
-I thought I was done for! Why's it gotta be so
-hard right from the start?!
+I thought I was done for! 
+Why's it gotta be so hard right from the start?!
 \l
 
 \\@CHARA_IN@< 0, 13, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10031", 100>
 Miyako
-It's only the first day! Is this really how my
-heroine route starts?!
+It's only the first day! 
+Is this really how my heroine route starts?!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10032", 100>
@@ -40,22 +40,22 @@ to handle on their own!
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10050", 100>
 Neco_Arc
-I agree. Unfortunately, Tsukihime is just that kind
-of story.
+I agree. 
+Unfortunately, Tsukihime is just that kind of story.
 \l
 
 \\@CHARA_IN@< 2, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10051", 100>
 Neco_Arc
-That said, good job beating the first part of this impossibly hard game.
+That said, good job beating the first part of this unfair game.
 I'm really being subsumed by the feelz right now.
 
 
 \\@CHARA_IN@< 2, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10052", 100>
 Neco_Arc
-Stand tall, Little Miss Kung Fu! You have claimed the
-right to challenge your fate!
+Stand tall, Little Miss Kung Fu! 
+You have claimed the right to overturn your fate!
 
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -67,7 +67,7 @@ S-Stop that, you dumb cat!
 \\@CHARA_IN@< 2, 53, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10053", 100>
 Neco_Arc
-You're gettin' a great deal, I'll have you know! A mere
+You're getting a great deal, I'll have you know! A mere
 volunteer wouldn't have stuck around this long to help!
 \l
 
@@ -88,12 +88,12 @@ destiny! It's now or never, boys and girls!
 \\@CHARA_IN@< 2, 53, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10056", 100>
 Neco_Arc
-Next timeÅFMiyako Route - Day 3.
+Next timeÅF Miyako Route - Day 3.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10057", 100>
 Neco_Arc
-ÅgThe Unknown Hired Assassin!
+ÅgThe Unknownable Assassin Who Has Been Hired By The Main Villain!
 Å@Shiki! Your homeroom teacher isn't actually as young as she says!Åh
 \l
 

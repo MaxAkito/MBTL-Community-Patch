@@ -3,7 +3,7 @@ WinMesScript
 
 WinMes00:
 chara_type 100
-That's that, then.
+See ya!
 Let us meet again, should fate so decree.
 \e
 
@@ -17,7 +17,7 @@ if you just rest for a day or so you'll be as good as new.
 WinMes02:
 chara_type 7
 Mm-mmm! That felt great!
-Thanks for the workout!
+Thanks a lot, this has made for quite the workout!
 My stiff shoulders feel nice and loose now.　
 \e
 
@@ -25,17 +25,17 @@ WinMes03:
 chara_type 103
 chara_type_sub 100
 chara_switchframe 455
-You haven't had enough, have you?
+Aren't you a bit too stuck up?
 You should try new things every now and then.
-Sticking too close to a routine
-can dull your mind.
+Being so by-the-book all the 
+time's gonna dull your mind.
 \e
 
 WinMes04:
 chara_type 105
 By the way, if you see an artsy girl with glasses
-who's always smoking, punch her for me. That's what she gets
-for using my name to take out money from the Association.
+who's always smoking, punch her for me. Then tell her to 
+stop using my name to take out money from the Association.
 \e
 
 WinMes05:
@@ -43,31 +43,31 @@ chara_type 6
 chara_type_sub 3
 chara_switchframe 310
 That was more like being on a battlefield than having a fight?
-Even for a shootout that was going overboard?
-But of course! As a sophisticated and cultured lady, a fistfight would
-just be all too undignified a sight. Ohohoho!
+I didn't have to turn into a shootout?
+But I had to! As a sophisticated and cultured lady, a fistfight 
+would just be all too undignified a sight. O-ho-ho-ho!
 \e
 
 WinMes06:
 chara_type 103
-It's too bad there aren't so many music stores around anymore.
-I'm really in the mood for a new guitar, one of those nice
-electric blue ones they had in the 80's...
+It's too bad there aren't so that music stores around anymore.
+I'm really in the mood for a new electric guitar...
+One of those nice blue ones they had in the 80's...
 \e
 
 WinMes07:
 chara_type 104
 chara_type_sub 106
 chara_switchframe 300
-I won't take your wallet- I mean, your life.
-So, how about you take me out for dinner in exchange?
+I won't take your wallet--I mean, your life.
+So, how about you take me out for dinner instead?
 A yakiniku place would be nice... or maybe something Mongolian?
-Oh, a steakhouse would be great too!
+Oh, or maybe a steakhouse!
 \e
 
 WinMes08:
 chara_type 100
-You look so gloomy. Want to come with me?
+Don't look so down. How about you come with me?
 Exploring the seven seas beholden to no one has a way
 of making your troubles disappear, believe me.
 \e
@@ -77,17 +77,17 @@ WinMes09:
 chara_type 1
 chara_type_sub 3
 chara_switchframe 120
-Don't try to make excuses. You picked the wrong person to
-mess with, that's all there is to it. And against opponents
-like you, I know I don't have to hold back.
+You're telling me you were in bad form? What a terrible excuse. 
+You just messed with the wrong person, that's all.
+I mean, against you people I know I don't have to hold back.
 \e
 
 //対志貴
 WinMes10:
 chara_type 100
-You still have a ways to go before you grow into the man
-you're destined to be. Adieu for now. I look forward to seeing
-you in some other backwater town sometime in the future.
+You still have a little ways to go before you become the lovely man
+I'd hoped for. Adieu for now. We'll meet again, probably somewhere 
+in the middle of nowhere. I'll look forward to it.
 \e
 
 //対秋葉
@@ -105,28 +105,28 @@ WinMes12:
 chara_type 104
 chara_type_sub 103
 chara_switchframe 535
-Lightning born from numerology together with vampiric strength.
-He was really a very orthodox Apostle despite appearances.
-Feels like you still have more up your sleeve, though.
+Gematria-based lightning together with vampiric strength.
+Despite appearances, you're quite the orthodox Dead Apostle.
+Feels like you still have something else up your sleeve, though.
 Care to show me?
 \e
 
 // 対ロア（ストーリー専用）
 WinMesArcadeWin05:
 chara_type 4
-Oh geez, he's dead already?
-I wanted to ask him how his
-endless reincarnation works!
-There goes my bonus!
+Oh, oops. I killed him!?
+I needed to interrogate him about his
+secret to immortality or whatever! Nooooo!
+Guess I can say goodbye to my bonus.
 \e
 
 // 対死徒ノエル（ストーリー専用）
 WinMesArcadeWin14:
 chara_type 5
-Looks like she got away...
-Where have they been hiding that one?
-She's got a ton of potential, but her skills
-are still unpolished... I can relate to that.
+Drats, looks like she got away...
+What was that? The hidden daugther of some Ancestor?
+She's got the potential of a Greater Dead Apostle
+but she fights like a total newbie. I can sympathize.
 \e
 
 // 99まで追加可能
@@ -144,8 +144,8 @@ WinMes10WinStreak00:
 chara_type 0
 chara_type_sub 7
 chara_switchframe 298
-Congrats on your tenth win!
-But you can still do better, right?
-I admire a little perseverance.
-Quitting while you're ahead is more my style, though.
+Congrats on your ten consecutive wins!
+But you still wanna keep going, right?
+There's nothing wrong to keep going until you win, but...
+I'd rather run away with the win so I never lose.
 \e

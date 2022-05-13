@@ -18,7 +18,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0060", 100>
 Aoko
 Vampire extermination, complete!Åô
-Not to mention the Workshop, now in smithereens!Åô
+Not to mention the Workshop, now blown to smithereens!Åô
 
 \\@BGM_FADE@<0, 100, 0, -2, 1>
 \\@FADE_OUT@<0, 255, 255, 255, 0>
@@ -41,7 +41,7 @@ Not to mention the Workshop, now in smithereens!Åô
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0061", 100>
 Aoko
 Ahh, the air feels so much fresher when you've been out
-doing good. Ventilation is pretty good too now, awesome!
+doing good. Ventilation is pretty good now too, awesome!
 
 \\@BGM_PLAY@<0, 74, 100>
 
@@ -59,21 +59,21 @@ What the hell do you think you're doing?!
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0091", 100>
 Mario
 Not ONLY did you fuckin' kill Roa, but you even
-blew up his goddamn workshop too...!
+blew up his goddamn Workshop too...!
 \l
 
 \\@CHARA_IN@<0, 17, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0092", 100>
 Mario
-You're a mage right? State your affiliation, right now!
-I'll bring a complaint in to the Church about this!
+Which fuckin' mage are you? State your affiliations, right now!
+I'll go sue 'em with the whole goddamn Church behind me!
 
 \\@CHARA_IN@<1, 15, 2, 0, 1>
 \\@CHARA_MUKI@<1,1>
 \\@CHARA_FACE@<1,2,5,200>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0062", 100>
 Aoko
-Affiliation? You mean like faction and stuff?
+Affiliations? You mean like factions and stuff?
 Sorry, but I'm not part of the Mages Association.
 \l
 
@@ -89,8 +89,8 @@ jack-of-all-trades. Nice to meet you!
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0064", 100>
 Aoko
-I suddenly felt like coming to this city
-to check up on an old friend.
+I have a friend I got to know here sometime ago, and for
+some reason I felt like checking up on them all of a sudden.
 \l
 
 \\@CHARA_IN@<1, 15, 5, 0, 1>
@@ -105,23 +105,22 @@ Might've been a bit nosy of me, but I still took care of it.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0066", 100>
 Aoko
-What will happen next? Tune in next week!
-
+And that's last episode's recap.
 
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0067", 100>
 Aoko
 Do we have a problem, Acting Presbyter Mario?
-Exterminating vampires are what you people do, isnt it?
+Exterminating vampires are what you people do, isn't it?
 \l
 
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0068", 100>
 Aoko
-There's no reason to act so aggressive. In fact...
-You ought be thanking me for doing your job for you.
+Shouldn't you be thanking me
+instead of acting all annoyed and stuff?
 \l
 
 \\@CHARA_IN@<1, 15, 6, 0, 1>
@@ -134,15 +133,15 @@ Dead Apostles' research and keeping it for yourself, were you?
 \\@CHARA_IN@<0, 17, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0093", 100>
 Mario
-Aoko...Aozaki...!
-Tell me, who the hell put you up to this?!
+Aoko... Aozaki...!
+Which fuckin' organization put you up to this?!
 \l
 
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0094", 100>
 Mario
 Who the hell is it that's dumb enough to think they can take
-my prey right from under my goddamn nose!
+my prey from right under my goddamn nose!
 
 \\@CHARA_IN@<1, 15, 2, 0, 1>
 \\@CHARA_MUKI@<1,1>
@@ -186,7 +185,7 @@ before anything could happen. You act like a goddamn troll.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0096", 100>
 Mario
 Still, the accused shall face punishment...
-I can see your perspective there.
+I can see what you're thinkin' there.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
@@ -199,7 +198,7 @@ been fine with handing over the city to 'im.
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0098", 100>
 Mario
-What then? Now that you've prevented any further causalties,
+So what's next? Now that you've prevented any further causalties,
 what's on the agenda for Miss Superhero?
 
 \\@CHARA_IN@<1, 15, 4, 0, 1>
@@ -214,29 +213,29 @@ But I don't think I can do that anymore.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0075", 100>
 Aoko
-Might be overdoing it with the uncompensated 
-assistance here, but I've already come this far.
+Might be overdoing it with the altruism here, 
+but well, I've already gotten this far.
 \l
 
 \\@CHARA_IN@<1, 15, 0, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0076", 100>
 Aoko
-While evil still lives in this town, I'll track it down
-and eradicate it at the source.
+There's one person more I need to give a lecture to if
+I want to get rid of the problem at its source.
 \l
 
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0077", 100>
 Aoko
-You really are a good guy at heart, right?
-Someone who'd do anything if it's for a good cause.
+After all, you're a good guy at heart.
+Someone who'd do anything if it's for the right cause.
 
 \\@CHARA_IN@<0, 17, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0099", 100>
 Mario
-You ain't wrong, Magician.
+You ain't wrong, magician.
 But also, I'm pretty damn stubborn.
 \l
 
@@ -245,7 +244,7 @@ But also, I'm pretty damn stubborn.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0100", 100>
 Mario
 Let me get a few blows in will ya? Enough that it'll hurt.
-If you don't, I dunno if I can let this whole shit go, I'm THAT stubborn.
+If you don't, I dunno if my stubbornness will let this shit go. 
 
 \\@BGM_STOP@<0>
 \e

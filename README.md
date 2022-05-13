@@ -113,7 +113,7 @@ Calls people by their titles or last names.
 #### Mario (017)
 Has an incredibly rude way of speaking. Swears a lot. His speech is full of vulgar expressions. Uses shortened speech (gotta, aboutta, 'lil, 'a (instead of "of") 'em (instead of "them"), etc) Sometimes speaks more normally when he's thinking or reminiscing.
 
-Calls people by demeaning nicknames. Calls Noel "fatso" (ﾌﾞﾀ). Calls Arcueid "the True Ancestor Princess" (神祖の姫).
+Calls people by demeaning nicknames. Calls Noel "fatass" (ﾌﾞﾀ). Calls Arcueid "the True Ancestor Princess" (神祖の姫).
 
 #### Archetype:EARTH (0??)
 Speaks in archaic English. Uses antiquated grammatical expressions (second-person inflections on verbs) alongside old pronouns.

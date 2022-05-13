@@ -16,29 +16,28 @@
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0080", 100>
 Aoko
-So...that's how it was.
+That's your story, huh...
 \l
 
 \\@CHARA_IN@<1, 15, 4, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0081", 100>
 Aoko
-I'm sorry, Mario. I thought for sure you were a corrupt clergyman 
+I'm sorry, Mario. I thought for sure you were a corrupt priest
 who'd gone over the to the Dead Apostles' side.
 
 \\@CHARA_IN@<0, 17, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0110", 100>
 Mario
 Don't give me that shit, you walking disaster.
-You really think a 12 year-old brat would involve himself in corruption?
+You really think a 12 year-old brat would be that depraved?
 \l
 
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0111", 100>
 Mario
 My life's on the goddamn line here. I go at things straight on.
-Ain't got no time for indirect methods.
-
+Ain't got no time for beatin' around the bush.
 \l
 
 \\@CHARA_IN@<0, 17, 2, 0, 1>
@@ -61,16 +60,16 @@ from getting any worse.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0083", 100>
 Aoko
-Basically as long as......you'll be fine right?
-Why don't you try asking to my sister?
+Basically as long as......it'll be fine right?
+So why don't you try asking my sister about it?
 \l
 
 \\@CHARA_IN@<1, 15, 6, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0084", 100>
 Aoko
-There's no other weirdo as good as her when it 
-comes to devising clever ways of keeping yourself safe.
+There's no other weirdo quite as good as her when it comes 
+to devising clever ways of getting oneself out of problems.
 
 \\@BGM_FADE@<0, -1, 0, -2, 0>
 \\@FADE_OUT@<0, 255, 255, 255, 0>
@@ -88,22 +87,22 @@ comes to devising clever ways of keeping yourself safe.
 \aw
 
 
+
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0113", 100>
 Mario
-After confirming that Roa was indeed gone,
-Executor Ciel remained in Souya.
+After confirming that Roa had indeed perished,
+Executor Ciel chose to remain in Souya.
 \l
-
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0114", 100>
 Mario
-After that, it appears as if a major incident occurred,
-though nobody could observe it.
+After that, it appears as if a major and strange incident
+took place there, though nobody could observe it.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0115", 100>
 Mario
-Hm. Probably was some kind of terrifying battle.
+Hm. Some kinda terrifying battle probably took place.
 Don't wanna get involved.
 \l
 
@@ -117,9 +116,8 @@ That said...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0030", 100>
 Noel
-I think we can chalk this one up as a win.
+Think we can chalk this one up as a win.
 \l
-
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0031", 100>
 Noel
@@ -135,29 +133,29 @@ Got a feeling it's just the beginning of a long road ahead...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0118", 100>
 Mario
-For that matter, you're starting anew, fucker.
+By the way, you're starting over from scratch, fatass.
 You're getting a re-education under me, for 1 year at least.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0119", 100>
 Mario
-I'm gonna fix up you up, attitude an' all.
-Once we're done with that, I'll send you off to some random church.
+I'm gonna fix up you up, attitude an' all. Once we're done 
+with that, I'll assign you to whatever church you'd like.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0032", 100>
 Noel
-For real? Awesome! But why don't you
-just let me serve directly under you instead?
+For real? Awesome!
+Then I want to work directly under you, Acting Presbyter!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0033", 100>
 Noel
-I want to start living the good life!
+Please let me live the good life!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0120", 100>
 Mario
 *Sigh* And my big prize turns out to be a useless pawn. 
-Just coming out of this alive was a huge plus
+Just coming out of this alive was a huge plus.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0121", 100>

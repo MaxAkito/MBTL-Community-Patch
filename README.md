@@ -159,7 +159,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 人間使い　　 　　| Peoplemaster            | Mario's second nickname.
 | 混血　　　　　 　　| Hybrid                  | Human who has intermixed with non-humans
 | 鬼　　　　　 　 　 | oni                     | Type of Japanese non-human.
-| 独角         | Lone-horn               | Kouma Kishima's martial art style.
+| 独角         | Lone-Horn               | Kouma Kishima's martial art style.
 | 北海         | northern seas           | Where Vlov comes from. Not the North Sea.
 | 星の内海      | (the) planetary inner-sea| Reverse side of Earth.
 
@@ -209,8 +209,8 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Miyako    (013) | Secondary editing done (Petri) | 
 | DA Noel   (014) | Secondary editing done (Petri) |
 | Aoko      (015) | Secondary editing done (Petri) |
-| P. Ciel   (016) | Initial editing done   (Petri) |
-| Mario     (017) | Initial editing done   (Petri) |
+| P. Ciel   (016) | Secondary editing done (Petri) |
+| Mario     (017) | Secondary editing done (Petri) |
 
 ### Strings
 

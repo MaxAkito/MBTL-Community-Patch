@@ -11,22 +11,21 @@ WinMes01:
 chara_type 3
 Usually, I like to rely on technique and experience.
 But with these armaments, I can just power through.
-Someone like you cannot stop me.
+You're not enough to stop me.
 \e
 
 WinMes02:
 chara_type 0
-You're completely outclassed. Pathetic.
+You've been completely outclassed. Pathetic.
 My physical power has been strengthened using magecraft. 
-I'm handling these heavy weapons with my womanly body, so I have to.
+I have to, since I'm handling these heavy weapons with my feminine body.
 \e
 
 WinMes03:
 chara_type 1
 You should be honored.
-My mallet is made from the horn of a unicorn, a symbol
-of thousands of years of purity.
-It's too good for the likes of you.
+This mallet is a horn of purity, which has endured for millenia.
+Under normal circumstances, I would never use it on the likes of you.
 \e
 
 WinMes04:
@@ -40,7 +39,7 @@ Were they to your liking?
 
 WinMes05:
 chara_type 203
-My Magic Circuits are on a different level to yours.
+My magic circuits are on a different level to yours.
 It's like comparing the engines of a motorcycle to
 a rocket's. Did you really think you stood a chance?
 \e
@@ -98,9 +97,9 @@ chara_type 1
 chara_type_sub 0
 chara_switchframe 600
 It appears you're at least keeping yourself at the minimum standard
-befitting of an Exectuor. Actually, your skills have gotten a bit 
-sharper lately. Did you perhaps discover some source of motivation
-to improve, Sister Noel?
+befitting of an Executor. Actually, you've gotten a bit sharper lately.
+Did you perhaps discover some source of motivation to improve, 
+Sister Noel?
 \e
 
 //ëŒéÄìkÉmÉGÉã
@@ -108,7 +107,7 @@ WinMes12:
 chara_type 1
 Might makes right.
 Dead Apostle Noel...
-I shall put your weakness to judgment.
+Your weakness, has come to judgment.
 \e
 
 // ëŒÉçÉA
@@ -116,13 +115,13 @@ WinMes13:
 chara_type 1
 This is the end, Serpent of Akasha.
 I've shattered your soul with the Seventh Holy Scripture.
-All your twisted beliefs have led to are the depths of darkness.
+All that your twisted beliefs have led to are the depths of darkness.
 \e
 
 // ëŒãzååãS
 WinMes14:
 chara_type 203
-I have no sympathy or understanding to spare for inhuman creatures as you.
+I have no sympathy or understanding to spare for inhuman creatures such as you.
 Your death will amount to no more than a single line of text in my report.
 \e
 
@@ -134,8 +133,8 @@ chara_switchframe 130
 chara_type_sub1 204
 chara_switchframe1 760
 So that was the Fifth Magician...
-She and I are kind of alike...but also complete opposites.
-I boast an unprecedented Magical Energy production amount,
+She and I are kind of alike, yet also complete opposites.
+I boast an unprecedented magical energy production amount,
 while she boasts an anomalous acceleration amount. Something like that.
 \e
 
@@ -156,7 +155,7 @@ That said, I am grateful for the advice.
 
 WinMes3WinStreak00:
 chara_type 204
-Three straight wins. Not that its anything particular.
+Three straight wins. Not that its anything special.
 It's true that I'm in good condition though. 
 \e
 

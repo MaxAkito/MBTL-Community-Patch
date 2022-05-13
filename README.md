@@ -26,7 +26,17 @@ The command list is fairly simple. There is however still a character limit to a
 The file marks the beginning and start of the battle voice strings with commas, so in order to use commas in the middle of text, that text must first be wrapped in quote ("") marks.
 The amount of characters supported by the battle voice format is remarkably long, easily over 100 characters. Realistically speaking, it should be able to contain most translations without any problems.
 
+### General Conventions
+
+Japanese names are currently all in western order.
+
+No honorifics or other Japanese familiarity terms.
+
+Spelling is generally American (Archetype Earth spells differently).
+
 ### Characterization
+
+For individual characters.
 
 #### Arcueid (000)
 Casual speak. Cheerful, innnocent. Sometimes changes her tone when serious to be a bit less casual.
@@ -118,7 +128,7 @@ Calls people by demeaning nicknames. Calls Noel "fatass" (ﾌﾞﾀ). Calls Arcu
 #### Archetype:EARTH (0??)
 Speaks in archaic English. Uses antiquated grammatical expressions (second-person inflections on verbs) alongside old pronouns.
 
-## Terminology
+### Terminology
 
 For words that appear repeatedly and need to be kept consistent
 
@@ -161,7 +171,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 鬼　　　　　 　 　 | oni                     | Type of Japanese non-human.
 | 独角         | Lone-Horn               | Kouma Kishima's martial art style.
 | 北海         | northern seas           | Where Vlov comes from. Not the North Sea.
-| 星の内海      | (the) planetary inner-sea| Reverse side of Earth.
+| 星の内海      | (the) planet's inner-sea| Reverse side of Earth.
 
 ## Progress
 
@@ -214,6 +224,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 
 ### Strings
 
-| Subset                    | Status                 |
-| :-------------------------| :----------------------|
-| Command List (cmddef.ini) | Started editing (Petri)|
+| Subset                                   | Status                  |
+| :--------------------------------------- | :---------------------- |
+| Command List (cmddef.ini)                | Started editing (Petri) |
+| Battlevoice (stringfile_battlevoice.csv) |

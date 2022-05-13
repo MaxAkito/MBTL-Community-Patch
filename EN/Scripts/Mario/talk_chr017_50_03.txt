@@ -123,7 +123,7 @@ A-And besides, he's not my "lover boy"...
 \\@CHARA_IN@<1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0008", 100>
 Arcueid
-He's just... an insurance.
+He's just... insurance.
 I'm keeping him close at hand so he doesn't get away.
 
 \\@CHARA_IN@<0, 17, 11, 0, 1>
@@ -208,7 +208,7 @@ You'll be going home to the castle on your own, Arcueid.
 \\@CHARA_IN@<3, 17, 203, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0085", 100>
 Mario
-Humans go into the human world. 
+Humans stay in the human world. 
 That's how simple it is. I shouldn't hafta tell ya.
 
 

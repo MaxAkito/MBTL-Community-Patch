@@ -206,7 +206,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Warc      (010) | Secondary editing done (Petri) |
 | Ciel      (011) | Secondary editing done (Petri) |
 | Saber     (012) | Secondary editing done (Petri) |
-| Miyako    (013) | Initial editing done   (Petri) | 
+| Miyako    (013) | Secondary editing done (Petri) | 
 | DA Noel   (014) | Initial editing done   (Petri) |
 | Aoko      (015) | Initial editing done   (Petri) |
 | P. Ciel   (016) | Initial editing done   (Petri) |

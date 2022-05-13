@@ -16,38 +16,38 @@ Bajiquan needs no second strike!
 
 WinMes02:
 chara_type 102
-Yay! I did it! Shiki's sure to
-compliment me after that!
+Yay! I did it!
+Shiki's sure to compliment me after that!
 \e
 
 WinMes03:
 chara_type 100
-I'm in form! Perfect form! This is the
-result of my daily kung fu training!
+I'm in form! Perfect form!
+This is all thanks to my daily kung fu training!
 \e
 
 WinMes04:
 chara_type 2
-Don't underestimate me just because I'm a kid! I may
-be small now, but I'll grow up in no time!
+Don't underestimate me just because I'm a kid! 
+I may be small now, but I'll grow up in no time!
 \e
 
 WinMes05:
 chara_type 104
 Hold on, how is it I can dash in mid-air?
-Oh well, probably better not to think about it.
+Hmm... well whatever, probably best not to think about it.
 \e
 
 WinMes06:
 chara_type 1
 Of course I'm strong! 
-There's a dojo connected to my house after all! 
+I've got a dojo at home after all! 
 I'll just keep it a secret that nobody ever used it...
 \e
 
 WinMes07:
 chara_type 4
-Ouch, my knuckles are aching. 
+Ouchie, clenching my fists hurts. 
 Looks like my kung fu skills still need work...
 \e
 
@@ -60,7 +60,7 @@ Ha-haa, I don't feel your teensy-weensy punches at all!
 WinMes09:
 chara_type 103
 That's enough practice for today. 
-I've got to go and monitor the Tohno estate!
+Now time to go monitor the Tohno estate!
 \e
 
 WinMes10:
@@ -71,8 +71,8 @@ Time to get some sleep.
 
 WinMes11:
 chara_type 103
-This won't do! It's never honorable to pick on the weak!
-As Shiki's sister, I must fight in the name of justice!
+Stop that! Don't you know bullying people weaker than you is bad?
+I'm Shiki's sister, a hero who fights for justice, watch out!
 \e
 
 WinMes12:
@@ -101,8 +101,8 @@ You're gonna look over my homework after we get back home~
 // 対軋間紅摩（ストーリー専用）
 WinMesArcadeWin06:
 chara_type 4
-For someone who fights with such ferociousness,
-you sure are super polite about it.
+Oh, oops... I just kinda went ahead and fought him.
+He was a reeaally polite too...
 What? My brother is this way? I can take him with me?
 Thanks, Mr. Lone-Horn!
 \e

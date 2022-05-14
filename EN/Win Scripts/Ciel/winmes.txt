@@ -50,7 +50,7 @@ WinMes07:
 chara_type 103
 Great, I've torn my nun's habit again. 
 That makes the seventh one this month.
-Ms. Noel, could I entrust with some needlework?
+Ms. Noel, could I entrust you with some needlework?
 \e
 
 WinMes08:

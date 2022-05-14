@@ -16,8 +16,8 @@ chara_type 8
 chara_type_sub 7
 chara_switchframe 665
 Would you look at that, my injures have already healed!\sf000
-Seems all your efforts, even your entire life up until
-this point was all for nothing, huh?
+Seems your efforts--even your entire life up until
+this point--were all for nothing, huh?
 Ahaha, you struggled so pathetically too, you poor little thing!
 \e
 
@@ -32,17 +32,17 @@ In your dreams.
 //対死徒
 WinMes03:
 chara_type 6
-Wow, and I haven't even been an vampire all that long.
-How embarassing. Doesn't it make you just wanna disappear?
-Hehe... that at least, I can arrange for you.
+Wow, and I haven't even been a vampire all that long.
+How embarrassing. Doesn't it make you just wanna disappear?
+Hehe... that, at least, I can arrange for you.
 \e
 
 WinMes04:
 chara_type 1
 Ugh, boooring...
-Before, it used to feel like my heart would jump out of my chest
-in battle. But now... I guess if you get too strong
-you have to up your entertainment as well.
+Before, any battle was enough to make my heart jump
+out of my chest. But now... I guess if you get too strong,
+you need a higher class of entertainment.//my own suggestion, feel free to revert especially the first sentence
 \e
 
 WinMes05:
@@ -56,7 +56,7 @@ WinMes06:
 chara_type 106
 Hmph, you're not half bad. 
 But I've lost my patience so I'll let you go for now. 
-Don't worry. In seven days I'll exact my sweet revenge upon you\sf000
+Don't worry. In seven days I'll exact sweet revenge upon you\sf000
 \e
 
 WinMes07:
@@ -72,8 +72,8 @@ Better note it down so I don't forget...
 WinMes08:
 chara_type 2
 Huh? That's odd... I mean, really. 
-Being unkillable was all you were good for! It was what so annoying 
-about you! It was supposed to be your atonement! So hurry up already. 
+Being unkillable was all you were good for! It's what made you 
+so annoying! It was supposed to be your atonement! So hurry up already. 
 Wake up! Aren't you supposed to let me kill you some more?
 \e
 
@@ -134,6 +134,6 @@ Victory feels so gooood!
 
 WinMes10WinStreak00:
 chara_type 7
-Yay! I did it! 10 straight wins!
+Yay! I did it! Ten straight wins!
 I'm totally the new heroine of this story!
 \e

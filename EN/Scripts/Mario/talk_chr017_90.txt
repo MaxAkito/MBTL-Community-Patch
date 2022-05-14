@@ -44,7 +44,7 @@ Ain't got no time for beatin' around the bush.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0112", 100>
 Mario
 Well, all my plans went to shit 'cuz 'a you!
-Got myself involved with one hell o'va pest!
+Got myself involved with one helluva pest!
 
 \\@CHARA_IN@<1, 15, 10, 0, 1>
 \\@CHARA_MUKI@<1,1>
@@ -60,7 +60,7 @@ from getting any worse.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0083", 100>
 Aoko
-Basically as long as......it'll be fine right?
+Basically as long as...... it'll be fine, right?
 So why don't you try asking my sister about it?
 \l
 
@@ -134,7 +134,7 @@ Got a feeling it's just the beginning of a long road ahead...
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0118", 100>
 Mario
 By the way, you're starting over from scratch, fatass.
-You're getting a re-education under me, for 1 year at least.
+You're getting a re-education under me, for at least a year.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0119", 100>
@@ -167,7 +167,7 @@ If she turns out to be of any help, this may not be over after all.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0122", 100>
 Mario
 The road Roa paved is still intact.
-If I can just see where this thread leads then...
+If I can just see where this thread leads...
 \l
 
 \\@SQ_CALL@<3>

@@ -16,7 +16,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0010", 100>
 Noel
 Investigation target Shiki Tohno... 
-He is our perp, no doubt about it
+He is our perp, no doubt about it.
 \l
 
 \\@CHARA_IN@<1, 8, 3, 0, 1>
@@ -64,13 +64,13 @@ What ought we do, Acting Presbyter?
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0050", 100>
 Mario
 Ain't much to do 'bout it. Shit sucks.
-Why are there so many unexpected annoyances all 'a sudden?
+Why are there so many unexpected annoyances alluva sudden?
 \l
 
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0051", 100>
 Mario
-The True Ancestor Princess, one of a' the 27 Ancestors outta nowhere,
+The True Ancestor Princess, one of the 27 Ancestors outta nowhere,
 and then an elite from the Burial Agency together with this useless 
 fatass of a Sister...?
 
@@ -188,7 +188,7 @@ You're real good at runnin' at the first sign 'a trouble. Keep that up.
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0022", 100>
 Noel
 I appreciate the kind advice!
-(Could this guy just please drop dead!)
+(Could this guy just please drop dead?!)
 \l
 
 \\@CHARA_IN@<1, 8, 7, 0, 1>
@@ -221,7 +221,7 @@ Both physically, and mentally.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0066", 100>
 Mario
 First though, guy's gotta get some warmup. 
-Ready up, fatass. I'll trim some of that weight off'a ya.
+Ready up, fatass. I'll trim some of that weight offa ya.
 
 \\@BGM_STOP@<0>
 \e

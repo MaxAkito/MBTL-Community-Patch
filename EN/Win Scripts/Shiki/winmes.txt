@@ -18,7 +18,7 @@ I guess that's what I get for going easy on you.
 WinMes02:
 chara_type 1
 You're alive, right?
-See, all things that are alive die.
+See, all things that are alive eventually die.
 \e
 
 WinMes03:
@@ -29,14 +29,14 @@ Gotta go. I can only fight for so long before I get anemic.
 
 WinMes04:
 chara_type 3
-You had fun? Good for you. Personally I'm totally beat. 
+You had fun? Good for you. Personally, I'm totally beat. 
 Try to be a bit more considerate next time.
 \e
 
 WinMes05:
 chara_type 1
-Sorry, but I've got places to be. I'll call an ambulance
-for you. You can think about what you did in your hospital bed.
+Sorry, but I've got places to be. I'll call an ambulance for you.
+You can think about what you did in your hospital bed.
 \e
 
 WinMes06:
@@ -56,8 +56,8 @@ Never know what'll turn out to be dangerous.
 // 対アルクェイド
 WinMes08:
 chara_type 103
-Woah! That was dangerous! You just don't know
-how to hold back, do you Arcueid?
+Whoa! That was dangerous! You just don't know
+how to hold back, do you, Arcueid?
 So don't go picking fights just because
 you feel like it.
 \e
@@ -103,7 +103,7 @@ Do you mind if we call it a day?
 // 対軋間
 WinMes14:
 chara_type 1
-Who...was that...?
+Who... was that...?
 I can't remember...
 It almost felt as if I was dreaming of the past...
 \e

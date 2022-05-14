@@ -105,14 +105,14 @@ Might've been a bit nosy of me, but I still took care of it.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0066", 100>
 Aoko
-And that's last episode's recap.
+And that's the recap of last episode.
 
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0067", 100>
 Aoko
 Do we have a problem, Acting Presbyter Mario?
-Exterminating vampires are what you people do, isn't it?
+Exterminating vampires is what you people do, isn't it?
 \l
 
 \\@CHARA_IN@<1, 15, 1, 0, 1>
@@ -141,7 +141,7 @@ Which fuckin' organization put you up to this?!
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0094", 100>
 Mario
 Who the hell is it that's dumb enough to think they can take
-my prey from right under my goddamn nose!
+my prey from right under my goddamn nose?!
 
 \\@CHARA_IN@<1, 15, 2, 0, 1>
 \\@CHARA_MUKI@<1,1>
@@ -156,7 +156,7 @@ Thought I'd help out by playing superhero for a bit.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0071", 100>
 Aoko
 Although, I did have one little tip-off.
-Old Zeltretch gave me a call.
+Old Zelretch gave me a call.
 \l
 
 \\@CHARA_IN@<1, 15, 5, 0, 1>
@@ -172,7 +172,7 @@ then things would go pretty badly for all of us.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0073", 100>
 Aoko
 But he never told me exactly what it was that would go
-so "badly". But you know, given that...
+so "badly". So you know, given that...
 
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0095", 100>
@@ -191,14 +191,14 @@ I can see what you're thinkin' there.
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0097", 100>
 Mario
-Had my deal with Roa actually come to pass, I'd probably
+Had my deal with Roa actually come to pass, I'd've probably
 been fine with handing over the city to 'im.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0098", 100>
 Mario
-So what's next? Now that you've prevented any further causalties,
+So what's next? Now that you've prevented any further casualties,
 what's on the agenda for Miss Superhero?
 
 \\@CHARA_IN@<1, 15, 4, 0, 1>
@@ -221,7 +221,7 @@ but well, I've already gotten this far.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0076", 100>
 Aoko
-There's one person more I need to give a lecture to if
+There's one more person I need to give a lecture to if
 I want to get rid of the problem at its source.
 \l
 
@@ -243,7 +243,7 @@ But also, I'm pretty damn stubborn.
 \\@CHARA_IN@<3, 17, 200, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0100", 100>
 Mario
-Let me get a few blows in will ya? Enough that it'll hurt.
+Let me get a few blows in, will ya? Enough that it'll hurt.
 If you don't, I dunno if my stubbornness will let this shit go. 
 
 \\@BGM_STOP@<0>

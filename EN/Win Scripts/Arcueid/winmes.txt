@@ -20,14 +20,15 @@ Maybe try again in your next life.
 WinMes03:
 chara_type 102
 Still not giving up? Fine...
-I'll just have to break you a little more savagely next time.
-You know, as a vampire should.
+I'll just have to break you a little more 
+savagely next time. You know, as a vampire should.
 \e
 
 WinMes04:
 chara_type 102
-Why don't I drink your blood? Very funny. I would appreciate 
-it if you didn't mistake me for those other third-rate vampires.
+Why don't I drink your blood? Very funny. 
+I would appreciate it if you didn't mistake
+me for those other third-rate vampires.
 \e
 
 
@@ -54,8 +55,8 @@ Not as strong as you look, are you?
 WinMes08:
 chara_type 100
 Ahh, that felt great! ÅÙ
-Like that feeling you get standing under a blue sky after
-deflecting a missile, you know? 
+Like that feeling you get standing under 
+a blue sky after deflecting a missile, you know? 
 Not that I've ever done that. 
 \e
 
@@ -91,7 +92,8 @@ WinMes13:
 chara_type 103
 You may have just became an Ancestor, 
 but you should still know some manners.
-It reflects poorly on the sire who bequeathed you their Principle.
+Else it reflects poorly on the sire who 
+bequeathed you their Principle.
 \e
 
 // ëŒèHót
@@ -122,9 +124,10 @@ but I tore you apart completely, soul included!
 // ëŒÁaä‘
 WinMes17:
 chara_type 103
-You're... an old Hybrid from this land?
-There's some human mixed in, but the quality of your blood is 
-on par with a Phantasmal Beast. How has that been preserved?
+You're... an old Mixblood from this land?
+There's some human mixed in, but the quality of 
+your blood is on par with a Phantasmal Beast. 
+How do you maintain that?!
 \e
 
 // 99Ç‹Ç≈í«â¡â¬î\

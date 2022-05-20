@@ -167,7 +167,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 司祭代行　　　 　| Acting Presbyter        | Mario's title.
 | 人形使い　　 　　| Puppetmaster            | Mario's first nickname.
 | 人間使い　　 　　| Peoplemaster            | Mario's second nickname.
-| 混血　　　　　 　　| Hybrid                  | Human who has intermixed with non-humans
+| 混血　　　　　 　　| Mixblood                | Human who has intermixed with non-humans
 | 鬼　　　　　 　 　 | oni                     | Type of Japanese non-human.
 | 独角         | Lone-Horn               | Kouma Kishima's martial art style.
 | 北海         | northern seas           | Where Vlov comes from. Not the North Sea.
@@ -179,7 +179,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 
 | Character       | Status                         | 
 | :-------------- |:------------------------------ | 
-| Arcueid   (000) | Secondary editing done (Petri) |
+| Arcueid   (000) | Play-testing adjustments (Petri) |
 | Hisui     (001) | Secondary editing done (Petri) |
 | Akiha     (002) | Secondary editing done (Petri) |
 | Shiki     (003) | Secondary editing done (Petri) |

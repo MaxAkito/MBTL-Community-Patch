@@ -20,8 +20,9 @@ We finally meet, Princess of the True Ancestors.
 \\@CHARA_IN@< 0, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0020", 100>
 Arcueid
-Who are you? Not a Dead Apostle I've seen before, at least.
-Some newbie who just popped up in these last hundred years?
+Who are you? Not a Dead Apostle I've seen before,
+at least. Some newbie who just popped up in these 
+last hundred years?
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0001", 100>
@@ -33,7 +34,8 @@ Vlov Arkhangel...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0002", 100>
 Volv
 We've met before, just once...
-I've been following your shadow from across the distant ocean...
+I've been following your shadow 
+from across the distant ocean...
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
@@ -46,8 +48,8 @@ This city is warm of rot, yet cold like the void.
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0004", 100>
 Volv
-I shall sever your head and be rewarded with your heart.
-With that, my illness shall surely heal.
+I shall sever your head and be rewarded with your 
+heart. With that, my illness shall surely heal.
 
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
@@ -60,8 +62,9 @@ but if you want to die so much, I'll help you out.
 \\@CHARA_IN@< 0, 0, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0022", 100>
 Arcueid
-Don't worry, I won't leave any traces of you behind. You know, 
-out of consideration for your reckless bravery in facing me head-on.
+Don't worry, I won't leave any traces of you behind.
+You know, out of consideration for your reckless 
+bravery in facing me head-on.
 
 \\@BGM_STOP@<0>
 \e

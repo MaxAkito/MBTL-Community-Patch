@@ -18,15 +18,15 @@ Noel
 \\@CHARA_IN@< 0, 4, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0030", 100>
 Kohaku
-Finally, someone who looks like they might be
-able to assist me.
+Finally, someone who looks like they might
+be possible to have a chat with.
 \l
 
 \\@CHARA_IN@< 0, 4, 100, 50, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0031", 100>
 Kohaku
-Excuse me, Sister. You haven't seen someone
-suspicious around town, have you?
+Excuse me, Sister-looking person over there. You 
+haven't seen someone suspicious around town, have you?
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \\@CHARA_IN@<1, 8, 3, 12, 0>
@@ -40,14 +40,14 @@ Huh?
 \\@CHARA_IN@< 1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0002", 100>
 Noel
-What's that?
-Asking for 'someone suspicious' in a situation like this, liiike...?
+What's that? You're asking for 'someone suspicious' 
+in a situation like this, like...?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0003", 100>
 Noel
 Are you making fun of me? Or maybe you're
-another new Dead Apostle running low on blood.
+some new Dead Apostle? Running low on blood?
 
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0032", 100>
@@ -58,7 +58,7 @@ I'm not quite sure what you mean?
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0004", 100>
 Noel
-Oh, your sense of danger is gone because your brain is alre-
+Oh, so you can't feel danger because your brain is alre-
 Hold on... You're one of the maids from that mansion!
 \l
 
@@ -66,22 +66,23 @@ Hold on... You're one of the maids from that mansion!
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0005", 100>
 Noel
-This is my lucky day! 
-Fate has decided to serve you to me on a silver platter!
+This is my lucky day! It's almost like a duck would
+show itself before me already prepared into foie gras!
 \l
 
 \\@CHARA_IN@< 1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0006", 100>
 Noel
-You're here alone too, aren't you? 
-I don't sense that family head of yours nearby.
+There's nobody around. And I don't sense that 
+family head of yours nearby, either.
 \l
 
 \\@CHARA_IN@< 1, 8, 300, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0007", 100>
 Noel
-I'll be the one asking the questions tonight, little maid.
-My interrogation might be a biiit rough but... you'll be fine, right?
+I'll be the one asking the questions tonight, 
+little maid. My interrogation might be a biiit 
+rough but... you'll be fine, right?
 
 \\@CHARA_IN@< 0, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -93,13 +94,13 @@ Uh-oh, this is quite the plot twist.
 \\@CHARA_IN@< 0, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0034", 100>
 Kohaku
-It would seem I've stumbled straight into a monster attack!
+This is bad! Quite the monster suprise!
 \l
 
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0035", 100>
 Kohaku
-Kohaku Ruuuun! I'm skedaddling at full force!
+KOHAKU DAAAASH! I'm skedaddling at full force!
 \l
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
@@ -111,19 +112,21 @@ and no bite, but even so...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0037", 100>
 Kohaku
-Office ladies who've hit a wall in life are like ticking time bombs!
-In this situation, a tactical retreat would be more prudent!
+Office ladies who've hit a wall in life are like 
+ticking time bombs! In this situation, a tactical 
+retreat would be more prudent!
 
 \\@CHARA_IN@< 1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0008", 100>
 Noel
-Hah! As if I'd let you escape with my silver platter!
+Hah! I'm not letting my delicious little duck go!
 \l
 
 \\@CHARA_IN@< 1, 8, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0009", 100>
 Noel
-I hope you're ready to have one of your limbs cut off.
+Sorry, but I hope you're ready to 
+have one of your limbs cut off.
 
 \\@BGM_STOP@<0>
 \e

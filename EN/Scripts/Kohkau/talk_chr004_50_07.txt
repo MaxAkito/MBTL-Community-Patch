@@ -19,20 +19,21 @@ Has everyone left in this city gone crazy?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0041", 100>
 Kohaku
-Or is this all a strange dream after all? 
-That would sure explain things...
+Or maybe this is this all just 
+strange dream after all? 
 \l
 
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0042", 100>
 Kohaku
-Like this crypt under the station-park.
+I mean who'd think there'd be crypt like 
+this just under the station park.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0043", 100>
 Kohaku
 Is this snow? Or perhaps... ice?
-But it's still fall, I thought...
+But it's still autumn, I thought...
 
 \\@CHARA_IN@<1, 9, 0, 2, 0>
 \aw
@@ -46,40 +47,43 @@ Volv
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0001", 100>
 Volv
-ÅgEven though it may not suit me... I am still a Suzerain.
-  As such, it is proper that I would receive many visitors...Åh
+ÅgEven though it may not suit me... I am still 
+ a Suzerain. As such, it is proper that I would 
+ receive many visitors...Åh
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0002", 100>
 Volv
-ÅgSo it's too cold for you to even move a muscle...h
+ÅgSo it's too cold for you to even move a muscle...Åh
 \l
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0003", 100>
 Volv
-ÅgI grieve for you, dear woman. I know more
-  than a few with souls just like yours.Åh
+ÅgI grieve for you, woman. 
+ I know a soul much like yours.Åh
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0004", 100>
 Volv
-ÅgLike a ship left to rot at the edge of the world, 
- or a clock that keeps ticking towards its own destruction.Åh
+ÅgLike a ship left to rot at the edge 
+ of the world, or a clock that keeps
+ ticking towards its own destruction.Åh
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0005", 100>
 Volv
-ÅgWell, that was the case for one of my wives at least.h
+ÅgWell, one of my wives was like that, at least.Åh
 \l
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0006", 100>
 Volv
-ÅgPerhaps us meeting here was under the guidance of her, my Karisha. 
- Worry not, your death shall be bloodless, as if entering a slumber.Åh
+ÅgPerhaps us meeting here was under the guidance of
+ my Karisha. Worry not, your death shall be 
+ bloodless, as if entering a slumber.Åh
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0044", 100>
@@ -103,26 +107,28 @@ That being said...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0047", 100>
 Kohaku
-It seems you are suffering from a nasty chronic illness.
-As someone who dabbles in medicine, I must do something about it!
+It seems you are suffering from a nasty chronic 
+illness. As one who is engaged in the practice of 
+medicine, I must do something about it!
 \l
 
 \\@CHARA_IN@< 0, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0048", 100>
 Kohaku
-Prepare yourself, foreigner.
+Prepare yourself, Mr. Foreigner.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0049", 100>
 Kohaku
-I pray my broom, medicine and silly plants will prove
-at least a little effective in alleviating your suffering.
+I pray my broom, medicine, and silly plants will 
+prove at least a little effective in alleviating 
+your suffering.
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0007", 100>
 Volv
-ÅgUmm...
- I don't think those plants are going to do much...h
+ÅgUh...
+ I suspect those plants won't be of much use...Åh
 
 \\@BGM_STOP@<0>
 \e

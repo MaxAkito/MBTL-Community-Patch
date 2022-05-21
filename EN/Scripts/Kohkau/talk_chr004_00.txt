@@ -15,22 +15,22 @@
 \\@CHARA_IN@< 0, 4, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0010", 100>
 Kohaku
-Let's see here... I've been going through medicine much 
-more quickly since Shiki returned.
+Let's see here... I've been going through 
+medicine much more quickly since Shiki returned.
 \l
 
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0011", 100>
 Kohaku
-I'm beginning to think his poor health can't just be
-blamed on his anemia.
+I'm beginning to think his poor health 
+can't just be blamed on his anemia.
 \l
 
 \\@CHARA_IN@< 0, 4, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0012", 100>
 Kohaku
-But I suppose I'll just have him gradually improve his
-his health through other means.
+But I suppose I'll just have him gradually 
+improve his his health through other means.
 \l
 
 \\@CHARA_IN@< 0, 4, 100, 0, 1>
@@ -55,43 +55,43 @@ Hm? What's going on?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0016", 100>
 Kohaku
-What is this strange floating sensation? It almost feels
-as if I walked into someone else's dream...
+What is this strange floating sensation? It almost 
+feels as if I walked into someone else's dream...
 \l
 
 \\@CHARA_IN@< 0, 4, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0017", 100>
 Kohaku
-I don't recall taking any medicine that could produce
-this kind of side-effect.
+I don't recall taking any medicine that 
+could produce this kind of side-effect.
 \l
 
 \\@CHARA_IN@< 0, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0018", 100>
 Kohaku
-Though if this really is a dream, I bet I could accomplish
-even more than I normally could. That said...
+Though if this really is a dream, I bet I could 
+accomplish even more than I normally could.
 \l
 
 \\@CHARA_IN@< 0, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0019", 100>
 Kohaku
-I'm worried about the city. I can't let anything upset
-the peace of the Tohno family.
+I mean, I'm worried about the city. I can't let 
+anything upset the peace of the Tohno family.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0020", 100>
 Kohaku
 As a servant of the Tohno household, 
-I ought to make like the devil and...
+I ought to harden my heart and...
 \l
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0021", 100>
 Kohaku
-I mean... Harden my resolve and remove those
-who would harm that tranquility!
+I mean... Harden my resolve and remove 
+those who would harm that tranquility!
 
 \\@BGM_STOP@<0>
 \e

@@ -25,7 +25,7 @@ What a wonderful morning!
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0051", 100>
 Kohaku
 The city looks to be back to normal. And there doesn't
-seem to be anything wrong with the garden! I'm so glad!Å ô
+seem to be anything wrong with the garden! I'm so glad!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0052", 100>
@@ -42,43 +42,44 @@ everything in the world can be explained.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0054", 100>
 Kohaku
-Even if things seem normal at first glance, society is
-filled with mysteries and absurdities.
+Even if things seem normal at first glance, 
+society is filled with mysteries and absurdities.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0055", 100>
 Kohaku
-If I think of it that way, my experience last night
-could be considered a fun little festival.
+If I think of it that way, my experience last 
+night could be considered a fun little festival.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0056", 100>
 Kohaku
-This whole "and then dawn came, and all was well!" kinda
-story really is akin to a dream.
+This whole "and then dawn came, and all was well!" 
+kinda story really is akin to a dream.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0057", 100>
 Kohaku
-Anyway, back to work.
+Right, must be.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0058", 100>
 Kohaku
 All seems in order with the estate. 
-Which means all is right with the world.
+All is right with the world...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0059", 100>
 Kohaku
-Even so, I must not allow myself to relax.
-I shall continue to perform my duties with dignity and poise.
+Even so, I must not allow myself to relax. I shall 
+continue to perform my duties with dignity and poise.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0060", 100>
 Kohaku
-I am a servant under the employ of the Tohno family.
-I shall serve Lady Akiha to the absolute best of my abilities!
+I am a servant under the employ of the 
+Tohno family. I shall serve Lady Akiha 
+to the absolute best of my abilities!
 
 \\@SYSTEM@<21>
 \aw

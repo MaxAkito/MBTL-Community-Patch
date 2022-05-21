@@ -20,7 +20,7 @@ One of the Twenty-Seven Dead Apostle Ancestors!?
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0051", 100>
 Ciel
 I did not expect someone so significant 
-such as yourself to have made this city your nest.
+such as yourself to be lurking in this city.
 
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0090", 100>
@@ -32,8 +32,9 @@ I must admit... I am surprised as well.
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0091", 100>
 Volv
-Do you people have no shame? Does the Church truly believe 
-it has the right to turns its vile gaze this far east?
+Do you people have no shame? Does the Church
+truly believe it has the right to turns its 
+vile gaze this far east?
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
@@ -46,8 +47,9 @@ it won't do you much if your sight is as dim as it is.
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0093", 100>
 Volv
-You're deadwood, same as the city itself. What point is there
-to a dog that can't even sniff out the schemes of a serpent?
+You people are so worthless, much as this 
+city itself. What point is there to a dog 
+that can't even sniff out the schemes of a serpent?
 \l
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
@@ -58,8 +60,8 @@ You will die a dog's death here tonight, woman.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0095", 100>
 Volv
-May your burnt body serve as
-amusement for the Dead.
+May your burnt flesh serve 
+as amusement for the Dead.
 
 \\@CHARA_IN@< 0, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0052", 100>

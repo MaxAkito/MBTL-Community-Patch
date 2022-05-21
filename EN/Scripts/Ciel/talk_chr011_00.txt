@@ -27,21 +27,22 @@ such diseases at the source, and yet...
 \\@CHARA_IN@< 0, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0032", 100>
 Ciel
-Not only does she show up an entire month behind schedule,  
-she wastes all her free time fooling around...
+Not only does she show up an entire month 
+behind schedule, she gets all excited about
+the city-life in Japan...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0033", 100>
 Ciel
-And then finally she even goes 
+And then finally she goes 
 'well I wanna infiltrate your school too!'
 \l
 
 \\@CHARA_IN@< 0, 11, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0034", 100>
 Ciel
-For now, it's best I don't count on her
-to be any help in battle.
+For now, it's best I don't count 
+on her to be any help in battle.
 \l
 
 \\@CHARA_IN@< 0, 11, 6, 0, 1>

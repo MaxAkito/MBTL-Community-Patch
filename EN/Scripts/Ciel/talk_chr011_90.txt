@@ -35,8 +35,9 @@ I must be in the right place!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0063", 100>
 Ciel
-And if that's the case, I'm going to need all the energy
-I can get! This place's combo meals are the best after all!
+And if that's the case, I'm going to need all 
+the energy I can get! This place's combo meals
+are the best after all!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0064", 100>

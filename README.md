@@ -190,7 +190,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Noel      (008) | Play-testing adjustments (Petri) |
 | Vlov      (009) | Play-testing adjustments (Petri) |
 | Warc      (010) | Play-testing adjustments (Petri) |
-| Ciel      (011) | Secondary editing done (Petri) |
+| Ciel      (011) | Play-testing adjustments (Petri) |
 | Saber     (012) | Secondary editing done (Petri) |
 | Miyako    (013) | Secondary editing done (Petri) | 
 | Boss Rush (013) | Secondary editing done (Petri) |

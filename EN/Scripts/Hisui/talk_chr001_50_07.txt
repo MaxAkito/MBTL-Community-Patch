@@ -17,8 +17,8 @@
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0000", 100>
 Ciel
-Shiki, you want to be more independeeeeent~
-You want to live on your ooooown~
+Shiki, you want to be more independeeeeent...
+You want to live on your ooooown...
 \l
 
 \\@CHARA_EMOVE@<1, -1 , 3>
@@ -27,20 +27,22 @@ You want to live on your ooooown~
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0001", 100>
 Ciel
-But since you don't have the money, you decide to move
-in with your reliable, affable friend from schooooool~
+But since you're lacking money, you start wanting to
+move in with your reliable, affable upperclasswoman 
+from schooooool...
 
 \\@CHARA_IN@< 3, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0000", 100>
 Shiki
 *Mumble* That's not the same as living on my own.
-It would be the opposite of independence...
+I want to become indendendent so...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0001m", 100>
 Shiki
-If I move in with you, all that would happen is that you'd 
-become like my sugar momma and wait, that's freaking awesome.
+If I move in with you, all that would happen is that
+you'd become like my sugar momma and wait, 
+that's freaking awesome.
 
 \\@CHARA_IN@<0, 1, 1, 1, 0>
 \aw
@@ -55,8 +57,8 @@ Hisui
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0031", 100>
 Hisui
-No. Must snap out of it. 
-My head went blank at all the déjà vu I just felt.
+No, I have to snap out of it. 
+My head went blank at all the deja vu I just felt.
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
@@ -73,7 +75,7 @@ The brainwashing of minors is prohibited by law.
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0002", 100>
 Ciel
 Wha- Hisui?! What are you doing here?
-Damn it! So even Arcueid was useless!
+Damn it! So not even Arcueid could stop you!
 \l
 
 \\@CHARA_IN@< 1, 11, 7, 0, 1>
@@ -81,13 +83,14 @@ Damn it! So even Arcueid was useless!
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0003", 100>
 Ciel
 N-No, wait! This isn't what it looks like!
-This is, uh, medical hypnosis! Yeah, that's it!
+This is, uh, for medical purposes! Yeah, that's it!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0004", 100>
 Ciel
-In order to cancel out the hypnotism applied by Noel, I had no 
-choice but to tinker with Shiki's subsciousness, that's all!
+In order to cancel out the hypnotism applied by
+Noel, I had no choice but to tinker with Shiki's 
+subsciousness, that's all!
 
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
@@ -113,8 +116,9 @@ N-No, it was just a whim- I mean- a misunderstanding!
 \\@CHARA_IN@< 1, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0006", 100>
 Ciel
-Fine then, you leave me no choice. I didn't want to do this,
-but it looks like I need to hypnotize you as well!
+Fine then, you leave me no choice. I didn't 
+want to do this, but it looks like I need to 
+hypnotize you as well!
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0035", 100>
@@ -125,14 +129,15 @@ I must insist you release Master Shiki first.
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0036", 100>
 Hisui
-You would also be wise not to use charms or that
-hypnosis skill of yours to try and escape.
+Also, I believe you should correct your habit of 
+trying to use charms or that hypnosis skill of 
+yours to try and escape.
 \l
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0037", 100>
 Hisui
-Are perhaps you related to Miss Arcueid?
+Are you perhaps one of Miss Arcueid's sisters?
 
 \\@CHARA_IN@< 1, 11, 5, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 4>

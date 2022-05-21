@@ -22,7 +22,8 @@ It's the maid who cleans Shiki's room!
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0001", 100>
 Arcueid
 Yahoo! How's it going? What brings you here so late? 
-Wandering around here by yourself isn't all that safe, you know?
+Humans wandering around here by themselves isn't all 
+that safe, you know?
 
 
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
@@ -36,8 +37,8 @@ your unexpected visit the other day.
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0021", 100>
 Hisui
-I have a message for you from Lady Akiha. Do you wish
-to hear it?
+I have a message for you from Lady Akiha. 
+Do you wish to hear it?
 
 \\@CHARA_IN@< 1, 0, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0002", 100>
@@ -50,34 +51,37 @@ herself. She's so proper sometimes.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0003", 100>
 Arcueid
 She knows she doesn't have to keep up appearances
-around Shiki, right? Oh well, what's the message?Å@
+around just because she's around Shiki, right? 
+Oh well, what's the message?Å@
 
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0022", 100>
 Hisui
-ÅgI wish to express my utmost gratitude for your turning the peacefully 
-pleasant conversation between me and my brother into such a 
-boisterous occasion some days ago.Åh
+ÅgI wish to express my utmost gratitude for your turning the 
+ peacefully pleasant conversation between me and my brother 
+ into such a boisterous occasion some days ago.Åh
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0023", 100>
 Hisui
-ÅgFor your next visit, I shall prepare an exlusive guest room for 
- you, so see to it that your affairs are well tended to beforehand.h
+ÅgFor your next visit, I shall prepare an exlusive 
+ guest room for you, so see to it that your affairs
+ are well tended to beforehand.Åh
 
 \\@CHARA_IN@< 1, 0, 12, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0004", 100>
 Arcueid
 Peacefully...
-(It was so silent you could hear a pin drop)
+(It was so silent you could hear a pin drop...)
 \l
 
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0005", 100>
 Arcueid
 pleasant?
-(and the tension was so thick you could cut it with a knife)
+(...and the tension was so thick 
+  you could cut it with a knife)
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0024", 100>
@@ -88,29 +92,30 @@ By the way...
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0025", 100>
 Hisui
-The guest room is designed to drop a 50cm thick wall of iron
-as soon as you enter, before being sunk into the ocean for 
-a trip to a submarine volcano. 
+The guest room is designed to drop a 50cm thick wall
+of iron as soon as you enter, before being sunk into
+the ocean for a trip to a submarine volcano. 
 \l
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0026", 100>
 Hisui
-The room will be ready sometime next week, 
-so the lady requests that you visit then.
+This specially constructed room will be ready sometime
+next week, so the lady requests that you visit then.
 \l
 
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0027", 100>
 Hisui
-One last thing...
+By the way...
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0028", 100>
 Hisui
-Master Shiki has gone out at night again and so I am looking for him.
-Would Miss Arcueid perhaps happen to know anything about this?
+Master Shiki has gone out at night again and so I am
+looking for him. Would Miss Arcueid perhaps happen to
+know anything about this?
 \l
 
 \\@CHARA_IN@< 1, 0, 0, 0, 1>

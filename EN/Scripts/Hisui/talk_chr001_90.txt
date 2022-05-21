@@ -19,37 +19,37 @@
 \\@GO_SUB@<"HisuiIN_Face0_L">
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0040", 100>
 Hisui
-As you can see, those in the employ of the Tohno family
-are all quite skilled in martial arts.
+As you can see, those in the employ of the Tohno 
+family are all quite skilled in martial arts.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0041", 100>
 Hisui
 There was no time for a demonstration, but I am
-quite confident in my skills with a Japanese sword as well.
+quite confident in my skills with a katana as well.
 \l
 
 \\@SPEAKERCG_IN@<0,1,2,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0042", 100>
 Hisui
-(What am I doing...?)
+(I shouldn't be doing this...)
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0043", 100>
 Hisui
-(Miss Miyako's reactions were so cute that I over-exaggerated
- my abilities without thinking...)
+(Miss Miyako's reactions were so cute that I 
+ over-exaggerated my story without thinking...)
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0044", 100>
 Hisui
-(It's true that I take care of the Tohno family's large
- collection of traditional Japanese swords...)
+(It's true that I take care of the Tohno family's 
+ large collection of traditional Japanese swords...)
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0045", 100>
 Hisui
-(But I've no recollection of actually using one myself.)
+(But I've no recollection of actually using one myself)
 
 \\@GO_SUB@<"HisuiOUT_Face0_L">
 \\aw
@@ -57,14 +57,15 @@ Hisui
 \\@SPEAKERCG_IN@<0,4,101,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0000", 100>
 Kohaku
-Yes, that's right, Miyako! She may not look like it, but
-Hisui is a master of the Lapis Steel battle technique and is...
+Yes, that's right, Miyako! She may not 
+look like it, but Hisui is a master of 
+the Lapis Steel battle technique and is...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0001", 100>
 Kohaku
-...the successor of the Kyuuti-Pai style! She can cut
-down any evil-doer with but a single strike!
+...the successor of the Kyuuti-Pai style! She can
+ cut down any evil-doer with but a single strike!
 
 \\@SQ_CALL@<2>
 \\@BGM_FADE@<0,100,0,30,1>
@@ -105,7 +106,7 @@ It's fine. Don't worry about it.
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0003", 100>
 Kohaku
 Why don't we continue this in the parlor, Miyako?
-I can treat you to some fine tea.
+I'll treat you to some fine tea.
 \l
 
 \\@CHARA_IN@< 2, 4, 100, 0, 1>
@@ -117,22 +118,22 @@ It's almost 3 o'clock, so why not take a break, Hisui?
 \\@CHARA_IN@< 2, 4, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0005", 100>
 Kohaku
-This is a wonderful opportunity to hear about Shiki's time
-living with the Arima family.
+This is a wonderful opportunity to hear about 
+Shiki's time living with the Arima family.
 
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0047", 100>
 Hisui
-That is a good idea. It will be most helpful when caring
-for Master Shiki in the future.
+That is a good idea. It will be most helpful
+when caring for Master Shiki in the future.
 \l
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0048", 100>
 Hisui
-Allow me to bring up some tea and snacks, then. In fact,
-I just made a fresh cake this mor--
+Allow me to bring up some tea and snacks, then.
+In fact, I just made a fresh cake this mor-
 
 \\@CHARA_IN@< 2, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 1>
@@ -145,8 +146,8 @@ No, that's quite all right!
 \\@CHARA_EMOVE@<2, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0007", 100>
 Kohaku
-I can take care of the refreshments! Hisui, you just wait
-here and relax!
+I can take care of the refreshments! 
+Hisui, you just wait here and relax!
 
 
 \\@SYSTEM@<21>

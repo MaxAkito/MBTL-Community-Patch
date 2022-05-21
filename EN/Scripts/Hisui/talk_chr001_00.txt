@@ -18,29 +18,30 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0000", 100>
 Hisui
 Welcome. It is a pleasure to make your acquaintance.
-I am Hisui, a servant under the employ of the Tohno family.
+I am known as Hisui, a servant under the employ of 
+the Tohno family.
 \l
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0001", 100>
 Hisui
 May I inquire as to the reason for your visit today?
-I would be happy to pass along a message, Miss...?
+Please state your name and business.
 \l
 
 \\@CHARA_IN@< 0, 1, 3, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0002", 100>
 Hisui
-I see, Miss... Arima Miyako... If I understand correctly...
+I see, Miss Arima Miyako... If I understand correctly...
 You are the eldest daughter of the Arima branch family.
 \l
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0003", 100>
 Hisui
-I am terribly sorry, but unfortunately Master Shiki and
-Lady Akiha are both away at the moment.
+I am terribly sorry, but unfortunately Master Shiki
+and Lady Akiha are both away at the moment.
 \l
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
@@ -54,21 +55,23 @@ You wish to speak with me, not them.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0005", 100>
 Hisui
 You have come to observe what it is like to live at
-the Tohno estate, and to learn about my position? For your social studies?
+the Tohno estate, and to learn about my position? 
+For your social studies?
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0006", 100>
 Hisui
-(She is asking me to speak of confidential family business.
- That is information I cannot reveal to an outsider.)
+(The matters of the Tohno house are of confidential 
+ nature, and thus are not to be spoken of to outsiders. 
+ Under no circumstance can I afford to leak them)
 \l
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0007", 100>
 Hisui
-(And yet, Miss Miyako has a determined look in her eyes.
- I could not be so rude as to disregard her.)
+(And yet, I could not be so rude as to betray 
+ the look of expectation in Miss Miyako's eyes.)
 \l
 
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
@@ -87,8 +90,8 @@ who is willing to work hard and learn new skills.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0010", 100>
 Hisui
-I don't know how helpful this will be, but I shall try to
-be most honest in speaking of this to you.
+I don't know how helpful this will be, but allow 
+me to speak of this to you in utmost honesty.
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>

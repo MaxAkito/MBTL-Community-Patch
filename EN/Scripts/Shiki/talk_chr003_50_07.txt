@@ -39,21 +39,22 @@ but I don't really care what you think of me.
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0022", 100>
 Shiki
-The mere sight of a vampire is almost enough to make
-me lose myself in anger.
+The mere sight of a vampire is almost 
+enough to make me lose myself in anger.
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0022", 100>
 Volv
-I see... It appears you have a wound 
-that you cannot forget, yet cannot recall either.
+I see... It appears you have a wound that 
+you cannot forget, yet cannot recall either.
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0023", 100>
 Volv
-How pitiful... Such fury that it compels you to challenge 
-even a Dead Apostle... despite that you are but merely human.
+How pitiful... Such fury that it compels you to
+challenge even a Dead Apostle... despite that 
+you are but merely human.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>

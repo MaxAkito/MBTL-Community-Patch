@@ -24,8 +24,9 @@ have to fight a monster like that ever again.
 \\@CHARA_IN@< 0, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0032", 100>
 Shiki
-Damn, my body feels heavy. I had my glasses off for too long. 
-I'm going to have trouble getting home at this rate.
+Damn, my body feels heavy. I had my glasses
+off for too long. I'm going to have trouble 
+getting home at this rate.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0033", 100>
@@ -46,7 +47,7 @@ That's when...
 \\@SQ_CALL@<2>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0035", 100>
-I-- Shiki Tohno, now a mere vessel, heard a noise
+I- Shiki Tohno, a mere vessel, heard a noise
 that sounded like something had broken for good.
 \l
 
@@ -62,7 +63,8 @@ I was going at full spin.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0038", 100>
-My veins, even my arteries, all flared into great activity.
+My veins, even my arteries, 
+all flared into great activity.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0039", 100>
@@ -80,8 +82,8 @@ The night was not over yet.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0042", 100>
-It was from that moment onward
-that my destiny became truly intertwined with that of vampires.
+It was from that moment onward that my destiny 
+became truly intertwined with that of vampires.
 
 \\@BGM_STOP@<0>
 \e

@@ -40,21 +40,23 @@ Even the world itself feels somewhat different...
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0003", 100>
 Saber
-It seems like the weight of human history here is different...
-Or rather, the output of the Counter Force is.
+It seems like the weight of human history
+here is different... Or rather, the output 
+of the Counter Force is.
 \l
 
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0004", 100>
 Saber
-Be that as it may, there must be a reason as to
-why I have been called forth.
+Be that as it may, there must be a reason 
+as to why I have been called forth.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0005", 100>
 Saber
-In any case, I should try and remain hidden while collecting 
-any information I can, hopefully without standing out too much.
+In any case, I should try and remain hidden 
+while collecting any information I can, 
+hopefully without standing out too much.
 
 
 \\@BGM_STOP@<0>

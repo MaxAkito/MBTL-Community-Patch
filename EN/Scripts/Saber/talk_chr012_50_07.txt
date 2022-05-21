@@ -32,8 +32,9 @@ Saber
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0021", 100>
 Saber
-Your presence is somehow similar to that of my own, yet I sense 
-magecraft about you, even though you appear to be a pious believer.
+Your presence is somehow similar to that of my own, 
+yet I sense magecraft about you, even though you appear
+to be a pious believer.
 \l
 
 \\@CHARA_IN@< 0, 12, 3, 0, 1>
@@ -51,28 +52,31 @@ Nope. Wasn't me.
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0083", 100>
 Roa
-I never was interested in the summoning arts. Besides...
-You've gotta have a little too much free time to go around 
-poking holes between worlds.
+I never was interested in the summoning arts. 
+Besides... You've gotta have a little too much 
+free time to go around poking holes between worlds.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0084", 100>
 Roa
-I may not look it, but my schedule is packed with precision.
+I may not look it, 
+but my schedule is packed to precision.
 \l
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0085", 100>
 Roa
-I wish foreign elements such as you would make a hasty exit.
-The Princess is like an easily distracted stray cat, you see.
+I wish foreign elements such as you would 
+make a hasty exit. The Princess is like an 
+easily distracted stray cat, you see.
 \l
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0086", 100>
 Roa
-If you two were to fight, my careful preparations would be ruined.
+If you two were to fight, 
+my careful preparations would be ruined.
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0023", 100>
@@ -91,15 +95,16 @@ but now I understand what my duty must be.
 \\@CHARA_IN@< 0, 12, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0025", 100>
 Saber
-No matter the era, no matter the metropol... It is the sworn duty
-of a knight to protect the lives of the innocent.
+No matter the era, no matter the metropol... 
+It is the sworn duty of a knight to
+protect the lives of the innocent.
 \l
 
 \\@CHARA_IN@< 0, 12, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0026", 100>
 Saber
-Strange mage! Your plans shall meet their
-end upon my holy blade!
+I know not which mage you may be, but your 
+plans shall meet their end upon my holy blade!
 
 \\@BGM_STOP@<0>
 \e

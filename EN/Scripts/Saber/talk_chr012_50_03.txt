@@ -22,8 +22,8 @@ someone who ought to be of some help.
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0011", 100>
 Saber
-Pardon me, fair ladies. Would you be so kind as to
-tell me what era and which country this is?
+Pardon me, fair ladies. Would you be so kind as 
+to tell me what era and which country this is?
 
 \\@CHARA_IN@< 3, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0040", 100>
@@ -33,8 +33,8 @@ Kohaku, I've found one.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0041", 100>
 Hisui
-I believe this may be the person in question
-who has been running amok destroying things in town.
+I believe this may be the person in question who 
+has been running amok destroying things in town.
 \l
 
 \\@CHARA_IN@< 3, 1, 1, 0, 1>
@@ -52,15 +52,16 @@ doubt about it. A real evil-doer, that one.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0061", 100>
 Kohaku
-Not just armor, but a sword that shoots beams as well.
-Does she have no idea what it means to be a proper heroine?
+Not just armor, but a sword that shoots 
+beams as well. Does she have no idea what 
+it means to be a proper heroine?
 \l
 
 \\@CHARA_IN@< 1, 4, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0062", 100>
 Kohaku
-Either way, if we leave her be, the fundamentals of Souya's setting
-will be distorted! C'mon, Hisui!
+Either way, if we leave her be, the fundamentals 
+of Souya's setting will be distorted! C'mon, Hisui!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0063", 100>
@@ -83,8 +84,9 @@ Ack! That was close!
 \\@CHARA_IN@< 0, 12, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0013", 100>
 Saber
-Food so potent that it can dissolve a telephone pole, and
-syringes filled with odorless poison-gas! This could only mean...
+Not just a venomous bento so potent that it can 
+dissolve a telephone pole, but also syringes filled 
+with odorless poison-gas! This could only mean...
 \l
 
 \\@CHARA_IN@< 0, 12, 3, 0, 1>

@@ -18,8 +18,8 @@ Stop right there, whoever-you-may-be.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0051", 100>
 Akiha
-It seems you've been monitoring our family estate, but
-there is no need for that.
+It seems you've been monitoring our family estate, 
+but there is no need for that.
 \l
 
 \\@CHARA_IN@< 1, 2, 1, 0, 1>
@@ -45,51 +45,54 @@ have a pleasant conversation without being interrupted.
 \\@CHARA_IN@< 0, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0060", 100>
 Noel
-Wait, for real? I'll gratefully accept then...
-You bourgeoisie sure have magnanimity and elegance to spare!
+Wait, for real? I'll gratefully accept then... You 
+bourgeoisie sure have magnanimity and elegance to spare!
 \l
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0061", 100>
 Noel
-Hah! Has anyone honestly fallen for that before?
+As if. Has anyone honestly fallen for that before?
 \l
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0062", 100>
 Noel
-I don't sense any hostility behind that fine smile of yours,
-but you can't cover up the smell of your blood.
+I don't sense any hostility behind that fine smile of 
+yours, but you can't cover up the smell of your blood.
 \l
 
 \\@CHARA_IN@< 0, 8, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0063", 100>
 Noel
-You were planning on killing me the moment I entered.
+You would've had me killed as soon as I entered.
 \l
 
 \\@CHARA_IN@< 1, 2, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0055", 100>
 Akiha
-Oh, heavens no. You have the wrong idea.
+Oh, heavens no. That's quite the misunderstading.
 \l
 
 \\@CHARA_IN@< 1, 2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0056", 100>
 Akiha
-Oh no, I would handle you ever so gently until you'd tell who sent 
-you, how big of an organization they are and what their objective is.
+Oh no, I would handle you ever so gently until you had 
+told who sent you, how big of an organization they are 
+and what their objective is.
 \l
 
 \\@CHARA_IN@< 1, 2, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0057", 100>
 Akiha
-Naturally, I cannot guarantee your safety after that though.
+Naturally, I could not guarantee 
+your safety after that though.
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0064", 100>
 Noel
-Teenagers with those kinda thoughts are what we called 'inhuman'!
+Teenagers with those kinda thoughts
+are what we called 'inhuman'!
 \l
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>
@@ -102,7 +105,8 @@ bloodsucking fiend all the same, aren't you?
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0066", 100>
 Noel
-And if that's the case, I've got no qualms in taking you down.
+And if that's the case, I've got
+no qualms in taking you down.
 
 \\@BGM_STOP@<0>
 \e

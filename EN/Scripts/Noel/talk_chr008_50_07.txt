@@ -40,7 +40,8 @@ As far as I am concerned, the greatest of luxuries...
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0042", 100>
 Volv
-But I will take up my sword if you insist on disturbing me.
+But would you insist on disturbing 
+me I shall take to my sword.
 \l
 
 \\@CHARA_IN@< 1, 9, 5, 0, 1>
@@ -82,14 +83,15 @@ Even us nobodies have a little pride!
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0076", 100>
 Noel
-A disgusting vampire really thinks he's got a right to "rest".
-You really think you can mock us humans that much, huh?
+A disgusting vampire really thinks he's got a right
+to "rest". Just how far do you intend to look down
+on us humans, huh?
 \l
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0077", 100>
 Noel
-I don't think so! Now are we going to do this or what?!
+Fine! I'll put you down, why not?!
 I'm not letting this opportunity slip away!
 \l
 

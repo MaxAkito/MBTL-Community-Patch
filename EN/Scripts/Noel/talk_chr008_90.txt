@@ -35,14 +35,15 @@ Big mood...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0083", 100>
 Noel
-Well, it being a joint operation is better than usual, so that's
-a point for me. I just let her do all the dangerous stuff, sooo...
+Well, it being a joint operation is better than usual,
+so that's a point for me. I just let her do all the 
+dangerous stuff, sooo...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0084", 100>
 Noel
 Basically, there were nothing but positives here.
-There's nothing wrong with taking the easy route in life!
+Nothing wrong with taking the easy route in life!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0085", 100>
@@ -53,8 +54,8 @@ Now I can sit back and enjoy the teacher life!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0086", 100>
 Noel
-I've got a clean room, delicious food, and lots of places
-to enjoy! Yaaay, city night life owns!
+I've got a clean room, delicious food, and lots
+of places to enjoy! Yaaay, city night life owns!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0087", 100>
@@ -64,8 +65,8 @@ Huh? What was that?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0088", 100>
 Noel
-That almost looked like one of my students wandering
-through the back alleys.
+That almost looked like one of my students 
+wandering through the back alleys.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0089", 100>
@@ -75,8 +76,8 @@ That's... That's Satsuki Yumizuka from my class!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0090", 100>
 Noel
-I managed to somehow memorize her name because the 'yumi'
-in her last name really sticks in my throat.
+I managed to somehow memorize her name because the 
+'yumi' in her last name really sticks in my throat.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0091", 100>
@@ -91,21 +92,21 @@ Well, well, what should I do?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0093", 100>
 Noel
-Do I pretend I didn't see anything? Or should I be the
-responsible member of the Church that I am and check on her?
+Do I pretend I didn't see anything? Or should I be 
+the responsible Sister that I am and check on her?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0094", 100>
 Noel
-Oh, why not? I'm in a good mood tonight.
+Oh, why not? I'm in a good mood tonight. 
 Might as well play a Good Samaritan now and then!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0095", 100>
 Noel
 Besides, I'll be seeing her fairly often for a while. 
-I've gotta give her the impression that I'm someone that 
-can be relied on!
+I've gotta give her the impression that I'm someone 
+that can be relied on!
 
 
 \\@SYSTEM@<21>

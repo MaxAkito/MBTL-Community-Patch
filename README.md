@@ -186,8 +186,8 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Kohaku    (004) | Play-testing adjustments (Petri) |
 | Roa       (005) | Play-testing adjustments (Petri) |
 | Kouma     (006) | Play-testing adjustments (Petri) |
-| Maids     (007) | Secondary editing done (Petri) |
-| Noel      (008) | Secondary editing done (Petri) |
+| Maids     (007) | Play-testing adjustments (Petri) |
+| Noel      (008) | Play-testing adjustments (Petri) |
 | Vlov      (009) | Secondary editing done (Petri) |
 | Warc      (010) | Secondary editing done (Petri) |
 | Ciel      (011) | Secondary editing done (Petri) |

@@ -33,15 +33,16 @@ But oh my, it's more inner-city than you'd think!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0043", 100>
 Noel
-Chloe, TOCCA, Miu Miu, even M∑A∑C!
+Chloe, TOCCA, Miu Miu, even MÅEAÅEC!
 This is going to be fun!
 \l
 
 \\@CHARA_IN@< 0, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0044", 100>
 Noel
-Before this we were always stuck in some country village
-in the middle of nowhere. All I could wear was my nun's habit.
+Before this we were always stuck in some 
+country village in the middle of nowhere. 
+All I could wear was my nun's habit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0045", 100>
@@ -55,8 +56,9 @@ Let's see... what's her outward persona like...
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0046", 100>
 Noel
-You're kidding me?! A student?! Are you fucking with me?
-You're gonna be a teenager not just in body but in mind too!?
+You're kidding me?! A student?! Are you fucking
+with me? You're gonna be a teenager not just in 
+body but in mind too!?
 \l
 
 \\@CHARA_IN@< 0, 8, 7, 0, 1>
@@ -69,8 +71,8 @@ Or could I? No, no, get a hold of yourself.
 \\@CHARA_IN@< 0, 8, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0048", 100>
 Noel
-Hmmmmm... Oh! If I can't be a student, then I'll just have to
-become a teacher instead!
+Hmmmmm... Oh! If I can't be a student, then 
+I'll just have to become a teacher instead!
 \l
 
 \\@CHARA_IN@< 0, 8, 1, 0, 1>

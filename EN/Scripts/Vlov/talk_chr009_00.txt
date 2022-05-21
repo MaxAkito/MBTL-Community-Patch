@@ -16,8 +16,9 @@ C'mon, where does this thing go?!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0001", 100>
 Worker
-What? It's not on the manifest? Just stick it in the
-warehouse for now? We're not a goddamn charity, you know?
+What? It's not on the manifest? 
+Just stick it in the warehouse for now? 
+We're not a goddamn charity, you know?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0002", 100>
@@ -35,7 +36,8 @@ Oh well, finders, keepers, am I right?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0004", 100>
 Worker
 Let's see what we've got in here... 
-Oh, it's full of flowers... and what looks like a coffin.
+Oh, it's full of flowers... 
+and what looks like a coffin?
 \l
 
 \\@SE_PLAY@<0,"talk/talk_se/Hit_BurningLong",0,100>
@@ -75,14 +77,15 @@ as I... would cross an entire ocean with just a coffin.
 \\@CHARA_IN@< 0, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0052", 100>
 Volv
-Though... this wasn't the first time.
-I was sealed in a coffin when they first exiled me to the northern seas.
+Though... this wasn't the first time. I was sealed in
+a coffin when they first exiled me to the northern seas.
 \l
 
 \\@CHARA_IN@< 0, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0053", 100>
 Volv
-But now... those memories are barely even my own anymore...
+But now... 
+Those memories are barely even my own anymore...
 \l
 
 \\@CHARA_IN@< 0, 9, 0, 0, 1>

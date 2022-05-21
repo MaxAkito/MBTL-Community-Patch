@@ -34,7 +34,8 @@ The past cannot be changed.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0083", 100>
 Volv
-And I have no idea what kind of future I should strive for.
+And I have no idea what kind 
+of future I should strive for.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0084", 100>
@@ -45,8 +46,8 @@ like me to keep on living then?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0085", 100>
 Volv
-My time adrift has come to an end...
-It's been... 200 hundred years... since I became like this.
+My time adrift has come to an end... It's been... 
+200 hundred years... since I became like this.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0086", 100>

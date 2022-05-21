@@ -42,20 +42,22 @@ Actually, seems you've already lost it.
 \\@CHARA_IN@< 1, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0063", 100>
 Arcueid
-It appears you've inherited the Principle of an Ancestor, yet unable 
-to bear its curse, you're falling apart. Not the greatest parent...
+It appears you've inherited the Principle of an Ancestor, 
+yet unable to bear its curse, you're falling apart. 
+Not the greatest sire...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0064", 100>
 Arcueid
-They failed to judge the calibre of their own child, after all.
+They failed to judge the calibre
+of their own scion, after all.
 \l
 
 \\@CHARA_IN@< 1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0065", 100>
 Arcueid
-Very well. The least I can do is ask who you are before
-putting you out of your misery.
+Very well. The least I can do is ask who you
+are before putting you out of your misery.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0066", 100>
@@ -69,7 +71,7 @@ So, what's your name?
 \\@CHARA_IN@< 0, 9, 0, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0072", 100>
 Volv
-My name...? Arkhangel...
+Arkhangel...
 Yes... I am Arkhangel...
 \l
 
@@ -95,8 +97,9 @@ Though for how long... I cannot say.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0076", 100>
 Volv
-Prepare yourself... woman in white. That you would besmirch 
-my liege is something which I could never overlook.
+Prepare yourself... woman in white. 
+That you would besmirch my liege is 
+something which I could never overlook.
 
 \\@BGM_STOP@<0>
 \e

@@ -188,7 +188,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Kouma     (006) | Play-testing adjustments (Petri) |
 | Maids     (007) | Play-testing adjustments (Petri) |
 | Noel      (008) | Play-testing adjustments (Petri) |
-| Vlov      (009) | Secondary editing done (Petri) |
+| Vlov      (009) | Play-testing adjustments (Petri) |
 | Warc      (010) | Secondary editing done (Petri) |
 | Ciel      (011) | Secondary editing done (Petri) |
 | Saber     (012) | Secondary editing done (Petri) |

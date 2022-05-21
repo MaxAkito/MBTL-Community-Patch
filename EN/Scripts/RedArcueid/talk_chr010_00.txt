@@ -21,13 +21,13 @@ And what was I doing...?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0001", 100>
 Red_Arcueid
-Right... it was...
-so agonizing, so miserable, so deplorable, I wanted to cry.
+Right... it was... so agonizing, so miserable, 
+so deplorable, I wanted to cry.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0002", 100>
 Red_Arcueid
-And there was nothing I could do about it...
+And I couldn't hold it back anymore...
 I just wanted to... destroy... him...
 \l
 

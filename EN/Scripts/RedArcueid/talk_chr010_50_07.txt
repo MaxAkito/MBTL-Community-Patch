@@ -93,25 +93,25 @@ Red_Arcueid
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0075", 100>
 Roa
-You've become too tragically human.
+Humanity makes one all too pathetic.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0076", 100>
 Roa
-To think that the perfect moon princess would fall
-so far as to become a lowly beast herself.
+To think that the perfect Princess of the Moon 
+would fall so far as to become a lowly beast herself.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0077", 100>
 Roa
-You haven't simply gone berserk, you've truly lost yourself.
+You're not berserk,
+You've just lost yourself in excitement.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0078", 100>
 Roa
-Though I suppose I don't have
-much room to judge.
+Though... I suppose I don't have much room to judge.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0079", 100>
@@ -161,8 +161,9 @@ accept my feelings for him.
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0034", 100>
 Red_Arcueid
-These gently boiling feelings of my vampiric urges, that is.
-So first I gotta get rid of those who'd stand in my way.
+These gently boiling feelings of my vampiric urges, 
+that is. So first I gotta get rid of those who'd 
+stand in my way.
 \l
 
 \\@CHARA_IN@< 0, 10, 102, 0, 1>

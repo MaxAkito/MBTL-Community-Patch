@@ -14,7 +14,7 @@
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0010", 100>
 Red_Arcueid
-Hi there Ciel~ I'm glad to see you're doing well.
+Hi there Ciel! I'm glad to see you're doing well.
 \l
 
 \\@CHARA_IN@< 0, 10, 102, 0, 1>
@@ -32,15 +32,15 @@ at controlling yourself?
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0012", 100>
 Red_Arcueid
-Hehe~ I'm loving the way you force that 
+Hehe... I'm loving the way you force that 
 conscending attitude of yours.
 \l
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0013", 100>
 Red_Arcueid
-You try so hard to act the part of an Executor, despite
-the fact you look about ready to wet yourself.
+You try so hard to act the part of an Executor, 
+despite the fact you look about ready to wet yourself.
 \l
 
 \\@CHARA_IN@< 0, 10, -1, 0, 1>
@@ -71,7 +71,8 @@ acting as if you've taken a liking to me.
 \\@CHARA_IN@< 1, 11, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0022", 100>
 Ciel
-I don't think I've ever felt as unnerved as when you say that.
+I don't think I've ever felt as 
+unnerved as when you said that.
 \l
 
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
@@ -82,8 +83,9 @@ Still, if you insist...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0024", 100>
 Ciel
-I don't know what has happened to you, but in accordance
-with the will of the Lord above, vampires are to be eliminated.
+I don't know what has happened to you, 
+but in accordance with the will of the Lord above, 
+vampires are to be eliminated.
 \l
 
 \\@CHARA_IN@< 1, 11, 104, 0, 1>

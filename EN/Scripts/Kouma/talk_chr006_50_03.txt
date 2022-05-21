@@ -19,16 +19,18 @@ Stop right there, mister.
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0011", 100>
 Ciel
-You don't seem to be a vampire, but your atrocities cannot be 
-overlooked. Actually, that goes double if you're not a vampire.
+You don't seem to be a vampire, but your atrocities 
+cannot be overlooked. Actually, that goes double if 
+you're not a vampire.
 \l
 
 \\@CHARA_IN@< 1, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0012", 100>
 Ciel
-It is unacceptable that you'd claim to be of divine blood...
-Even if your bloodline may be native to this country and 
-unrelated to the Holy Father's.
+Even if that bloodline may be native to this country 
+and unrelated to the Holy Father's, it is unacceptable 
+to claim to be of divine blood...
+
 \l
 
 \\@CHARA_IN@< 1, 11, -1, 0, 1>
@@ -59,14 +61,15 @@ Actually, most enviable.
 \\@CHARA_IN@< 0, 6, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0013", 100>
 Kishima
-Even so, such a fastidious lifestyle must be difficult...
+Even so, 
+such a fastidious lifestyle must be difficult...
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0014", 100>
 Kishima
-You deploy no underhanded tactics against those who bear no sin.
-Hopefully such compassion is backed by ability.
+You deploy no underhanded tactics against those who bear
+no sin. Hopefully such compassion is backed by ability.
 
 \\@CHARA_IN@< 1, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0014", 100>
@@ -84,7 +87,7 @@ You're a Buddhist even though you're a non-human?
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0015", 100>
 Kishima
 Heh. These days, we Oni are the more pious ones.
-No more talk, give up on your conversion attempt.
+But enough talk, give up on your conversion attempt.
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>

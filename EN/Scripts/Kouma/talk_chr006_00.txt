@@ -22,7 +22,7 @@ Even monsters have to have their hobbies, I suppose.
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0001", 100>
 Kishima
-Normally I would have nothing to do with your kind...
+Normally I would have nothing to do with them.
 But I do have ties to this city.
 \l
 
@@ -35,8 +35,8 @@ I suppose this was just meant to be...
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0003", 100>
 Kishima
-I've gone three years without injury,
-so I guess I could work a few days for free.
+Considering I have went three years without 
+injury, I guess I could work a few days for free.
 
 
 \\@BGM_STOP@<0>

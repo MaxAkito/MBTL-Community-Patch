@@ -13,8 +13,8 @@
 \\@CHARA_IN@< 0, 6, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0020", 100>
 Kishima
-You, huntsman over there. Do you require warmth?
-How many years has it been since your body lost its heat?
+You, huntsman over there. Do you require warmth? How 
+many years has it been since your body lost its heat?
 
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0030", 100>
@@ -31,13 +31,13 @@ it's far too early for me to receive any pity.
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0032", 100>
 Volv
-Still...
+Nevertheless...
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0033", 100>
 Volv
-I don't have any objections to consuming your flames.
+I have no objections to feasting upon your flames.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0034", 100>

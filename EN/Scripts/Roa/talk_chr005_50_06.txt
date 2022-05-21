@@ -31,32 +31,33 @@ I sense that you have lost your touch as well, Executor.
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0001", 100>
 Ciel
-Indeed.
-This negligent situation was brought on by my own weakness.
+Indeed. This negligent situation 
+was brought on by my own weakness.
 \l
 
 \\@CHARA_IN@< 1, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0002", 100>
 Ciel
-But that ends here. After all... The source of that weakness 
-is something you've just cut down with your own two hands.
+But that ends here. After all... the source of that
+weakness is something you've just cut down with your 
+own two hands.
 
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0032", 100>
 Roa
-Well, well. Seems you've finally embraced your inner hound.
+Heh. The hound finally bares her fangs.
 \l
 
 \\@CHARA_IN@< 0, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0033", 100>
 Roa
-That's what I'd expect from my previous host.
+That's how my previous host ought to be.
 \l
 
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0034", 100>
 Roa
-Very well. Come on then, Elesia.
+Very well. Bring it, Elesia.
 I'll whip you into shape with my own two hands.
 
 \\@BGM_STOP@<0>

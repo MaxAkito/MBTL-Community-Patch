@@ -20,8 +20,8 @@ I hope you're satisfied.
 \\@CHARA_IN@< 1, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0041", 100>
 Arcueid
-If only you'd come straight for me,
-then it would've been just a minor unpleasantry, yet...
+If only you'd come straight for me, then it 
+would've been just a minor unpleasantry, yet...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0042", 100>
@@ -60,8 +60,9 @@ You will not leave this place alive.
 \\@CHARA_IN@< 1, 0, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0047", 100>
 Arcueid
-I will show no mercy. Every fiber of your being shall
-be erased from this world. All you can do is beg for mer--
+I will show no mercy. Every fiber of your 
+being shall be erased from this world. 
+All you can do is beg for mer-
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0041", 100>
@@ -76,7 +77,8 @@ Excuse... me?
 \\@CHARA_IN@< 0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0042", 100>
 Roa
-I said... I have no business with a piece of junk like you.
+I said... 
+I have no business with a piece of junk like you.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
@@ -89,19 +91,21 @@ so concerned with the workings of man like you.
 \\@CHARA_IN@< 0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0044", 100>
 Roa
-Begone, Fallen Princess.
+Begone, fallen Princess.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0045", 100>
 Roa
-That you'd lay your defects bare without an ounce of shame...
-It's an affront, both to me and the Princess, no doubt about it.
-\l
+That you'd lay your defects bare without 
+an ounce of shame... It's an affront, both 
+to me and the Princess, no doubt about it.
+\lq
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0046", 100>
 Roa
-Such a cheap imitation can do nothing but wither at my touch.
+Such a cheap imitation can do 
+nothing but wither at my touch.
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 1, 0, 7, 0, 1>

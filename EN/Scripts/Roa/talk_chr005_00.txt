@@ -15,7 +15,7 @@
 \\@CHARA_IN@< 0, 5, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0000", 100>
 Roa
-I'm... alive? Even though my death point was 
+I'm... alive? Even though my point of death was 
 pierced by the Mystic Eyes of Death Perception?
 \l
 
@@ -35,13 +35,15 @@ woman to pieces, ever so gently.
 \\@CHARA_IN@<0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0003", 100>
 Roa
-The vampire known as Roa was completely killed. Such is certainly the case.
+The vampire known as Roa was completely killed. 
+Such is certainly the case.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0004", 100>
 Roa
-This, then, is no doubt a deviation taking place after that event.
+This, then, is no doubt a deviation 
+taking place after that event.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
@@ -54,8 +56,8 @@ Or is it the world itself that's odd?
 \\@CHARA_IN@< 0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0006", 100>
 Roa
-If I had to guess, this being a parting gift from Paranodahlia
-seems like it'd make sense.
+If I had to guess, this being a parting gift from 
+Paranodahlia seems like it'd make sense.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
@@ -68,7 +70,7 @@ This current "me" won't have a clue as to why.
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0008", 100>
 Roa
-No use dwelling on it...
+Regardless...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0009", 100>

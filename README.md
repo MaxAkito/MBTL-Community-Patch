@@ -184,7 +184,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Akiha     (002) | Play-testing adjustments (Petri) |
 | Shiki     (003) | Play-testing adjustments (Petri) |
 | Kohaku    (004) | Play-testing adjustments (Petri) |
-| Roa       (005) | Secondary editing done (Petri) |
+| Roa       (005) | Play-testing adjustments (Petri) |
 | Kouma     (006) | Secondary editing done (Petri) |
 | Maids     (007) | Secondary editing done (Petri) |
 | Noel      (008) | Secondary editing done (Petri) |

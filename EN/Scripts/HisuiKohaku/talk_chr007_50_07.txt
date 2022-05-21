@@ -17,8 +17,9 @@
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0030", 100>
 Noel
-You are falling deeeeeeply in looove~
-She is older than you, narrow-minded, doesn't have much money...
+You are falling deeeeeeply in looove...
+She is older than you, narrow-minded, 
+doesn't have much money...
 \l
 
 \\@CHARA_EMOVE@<1, -1 , 3>
@@ -27,8 +28,9 @@ She is older than you, narrow-minded, doesn't have much money...
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0031", 100>
 Noel
-Possesses little talent, and enjoys slacking off,
-but still, you are falling in love with a cutie like meee~
+Possesses little talent, and enjoys 
+slacking off, but still, you are falling 
+in love with a cutie like heeer...
 
 \\@CHARA_IN@< 3, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0060", 100>
@@ -39,8 +41,9 @@ I feel like that's a bit too much to ask...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0061", 100>
 Shiki
-Some part of me feels as though at least one of those qualities
-ought to be improved, but still I'm falling in loveeee~
+Some part of me feels as though at least one of those 
+qualities ought to be improved, but still... 
+I'm falling in loveeee...
 
 
 \\@CHARA_IN@<0, 1, 1, 1, 0>
@@ -84,33 +87,34 @@ That is unforgivable!
 \\@CHARA_IN@< 2, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0043", 100>
 Kohaku
-You there! I know how you feel, but removing ALL of a
-patient's free will is inexcusable!
+You there! I know how you feel, but removing 
+ALL of a patient's free will is inexcusable!
 
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0032", 100>
 Noel
-You dare interfere?!
+What, you wanna go?!
 \l
 
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0033", 100>
 Noel
-So you intend to rob me of my final chance at getting a boyfriend?!
-I couldn't even find a single one at my shady job!
+So you intend to rob me of my final chance at getting 
+a boyfriend?! I can't even make a single one at my shady job!
 \l
 
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0034", 100>
 Noel
-For that, you shall suffer death, you brats!
+For that, you shall suffer death, you little shits!
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 \\@CHARA_FOCUS_COLOR@<0,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0022", 100>
 Hisui
-I'd wager our work schedule is more demanding than yours.
+I'd wager our work schedule is 
+at least as demanding as yours.
 
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0044", 100>

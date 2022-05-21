@@ -14,7 +14,7 @@
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0030", 100>
 Kohaku
-Lady Akiha, I finally found you.
+Found you, Lady Akiha!
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 1, 2, 5, 0, 1>
@@ -27,7 +27,7 @@ Huh?!
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0041", 100>
 Akiha
-Oh, its just you two.
+Oh, it's just you two.
 \l
 
 \\@CHARA_IN@< 1, 2, -1, 0, 1>
@@ -53,35 +53,38 @@ Shut up, Hisui!
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0032", 100>
 Kohaku
-A Lady Akiha who does not sympathize with the thoughtfulness 
-of servants working so nobly is no Lady Akiha at all!
+A Lady Akiha who does not sympathize with the 
+thoughtfulness of her servants working so nobly
+is no Lady Akiha at all!
 \l
 
 \\@CHARA_IN@< 2, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0033", 100>
 Kohaku
-In order to maintain the tranquility of the Tohno household,
-we have no choice but to teach her a lesson!
+In order to maintain the tranquility of the Tohno 
+household, we have no choice but to teach her a lesson!
 
 \\@CHARA_IN@< 1, 2, 200, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0043", 100>
 Akiha
-Very well...
-I suppose I shall interpret those words as a challenge then?
+Very well... I suppose I shall 
+interpret those words as a challenge then?
 \l
 
 \\@CHARA_IN@< 1, 2, 200, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0044", 100>
 Akiha
-You'll have to excuse me, but I'm not sure what you're up to, nor 
-do I really care. That goes for your excuses after you lose as well.
+You'll have to excuse me, but I'm not sure what you're
+up to, nor do I really care. That goes for your excuses 
+after you lose as well.
 \l
 
 \\@CHARA_IN@< 1, 2, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0045", 100>
 Akiha
-Hehehe... What a great opportunity. I shall teach you just how
-terrifying it is to oppose your master, punishment included.
+Hehehe... What a great opportunity. I shall teach 
+you just how terrifying it is to oppose your master, 
+punishment included.
 
 \\@BGM_STOP@<0>
 \e

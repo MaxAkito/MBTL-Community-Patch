@@ -32,8 +32,9 @@ Master Shiki if you keep that up.
 \\@CHARA_IN@< 2, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0052", 100>
 Kohaku
-No need to worry, the situation has been dealt with.
-We're the stars of this story, after all. Shiki understands.
+Oh c'mon it's fine! We're the stars of this story, 
+having resolved the incident and all. I'm sure Shiki
+is fine with this for a little bit.
 \l
 
 \\@CHARA_IN@< 2, 4, 101, 0, 1>
@@ -44,8 +45,8 @@ Isn't that right, Shiki?
 \\@CHARA_IN@< 1, 3, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0070", 100>
 Shiki
-Sure... I can't deny that you two saved me. You've earned
-the right to a few indulgences, I suppose.
+Sure... I can't deny that you two saved me. You've 
+earned the right to a few indulgences, I suppose.
 
 \\@CHARA_IN@< 2, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0054", 100>
@@ -57,8 +58,8 @@ Anything goes tonight!
 \\@CHARA_IN@< 2, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0055", 100>
 Kohaku
-C'mon, Hisui! What are you waiting for? We're not likely
-to get a chance like this again any time soon.
+C'mon, Hisui! What are you waiting for? We're not 
+likely to get a chance like this again any time soon.
 
 \\@CHARA_IN@< 0, 1, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0031", 100>
@@ -90,7 +91,7 @@ What?!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0057", 100>
 Kohaku
-There! One down, many to go! ÅÙ
+There! And with that, the case is closed! ÅÙ
 
 \\@BGM_STOP@<0>
 \e

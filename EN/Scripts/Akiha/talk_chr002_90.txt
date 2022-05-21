@@ -18,13 +18,13 @@
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0010", 100>
 Kohaku
-Lady Akiha, I have prepared some tea for you. Where
-would you like to sit today?
+Lady Akiha, I have prepared some tea for you. 
+Where would you like to sit today?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0030", 100>
 Akiha
-Thank you, Kohaku. I think I'll take my tea outside on
-the terrace. It's such lovely weather today.
+Thank you, Kohaku. It's such lovely weather today 
+so please bring my tea outside to the terrace. 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0011", 100>
 Kohaku
@@ -38,8 +38,8 @@ of the hardships I must endure.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0032", 100>
 Akiha
-I suppose that's all right, though. I am glad he is
-beginning to feel better.
+I suppose that's all right, though... 
+I am glad he is beginning to feel better.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0033", 100>
@@ -50,20 +50,21 @@ I'm sure he also had his reasons.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0034", 100>
 Akiha
-Still... perhaps I should put him 
-on a leash from now on.
+Still... I really should put him on
+a leash from now on, shouldn't I?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0035", 100>
 Akiha
 His tendency to jump into danger is not doing
-my mental health any favors.  Not only that, but...
+my mental health any favors. Not only that, but...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0036", 100>
 Akiha
-Lately I've been feeling vaguely at unease. *sigh*
-Hopefully there'll be no strange pests appearing any time soon.
+Lately I've been feeling vaguely at unease. 
+*sigh* Hopefully no strange pests have taken
+a liking to him.
 
 
 \\@BGM_STOP@<0>

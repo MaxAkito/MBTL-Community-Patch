@@ -23,29 +23,29 @@ It's getting on my nerves.
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0001", 100>
 Akiha
-Whoever this hybrid may be, they shouldn't think that they can
-just walk around doing whatever they want without my permission.
+Whoever this mixblood may be, they shouldn't think 
+that they can just walk around doing whatever they 
+want without my permission.
 \l
 
 \\@CHARA_IN@< 0, 2, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0002", 100>
 Akiha
-It's almost as if 
-they're asking to be killed, no?
+It's almost as if they're asking to be killed, no?
 \l
 
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0003", 100>
 Akiha
-And it would appear Shiki has gone off
-on his own again.
+And it would appear Shiki has 
+gone off on his own again.
 \l
 
 \\@CHARA_IN@< 0, 2, 202, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0004", 100>
 Akiha
-Perhaps I will teach this outsider a lesson on my way
-to bringing Shiki home.
+Perhaps I will teach this outsider a lesson 
+on my way to bringing Shiki home.
 
 
 \\@BGM_STOP@<0>

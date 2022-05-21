@@ -13,62 +13,66 @@
 \\@CHARA_IN@<0, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0020", 100>
 Akiha
-I take it you are the one responsible for this cold wave?
-Although, by the looks of it, you seem to have plenty of warmth yourself.
+I take it you are the one responsible for this 
+cold wave? Although, by the looks of it, 
+you seem to have plenty of warmth yourself.
 \l
 
 \\@CHARA_IN@<0, 2, 201, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0021", 100>
 Akiha
-I would ask that you leave my land immediately.
+I would ask that you leave my domain immediately.
 If you do not, well...
 
 \\@CHARA_IN@<1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0010", 100>
 Volv
-Oh? You would describe this as 'your land' despite its state?
-Either you're quite the big deal, or perhaps...
+Oh? You would describe this as 'your domain' 
+despite its state? Either you're quite the big deal, 
+or perhaps...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0011", 100>
 Volv
-You're a sheltered little girl who has yet to realize the ground she 
-walks on has already rotted? So tell me, my noble lady... which is it?
+You're a sheltered little girl who has yet to realize
+the ground she walks on has already rotted? 
+So tell me, my noble lady... which is it?
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@<0, 2, 6, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0022", 100>
 Akiha
-T-the former... of course. But answer me this...
-What makes you think I'm nobility?
+T-The former... of course.
+But... what makes you think I'm nobility?
 
 \\@CHARA_IN@<1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0012", 100>
 Volv
-Am I mistaken...? Your refined elegance and beauty... not to
-mention the pedigree of your blood...
+Am I mistaken...? Your refined elegance and beauty...
+not to mention the pedigree of your blood...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0013", 100>
 Volv
-I find it impossible to believe you live anywhere but
-in a palace... How would you like to become my woman?
+I find it impossible to believe you are not in charge
+of a castle... How would you like to become my woman?
 \l
 
 \\@CHARA_IN@<1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0014", 100>
 Volv
-You would be my eleventh, and the most special one yet. I've
-no doubt you and the others would get along splendidly.
+You would be my eleventh, and the most 
+special one yet. I've no doubt you and 
+the others would get along splendidly.
 
 
 \\@CHARA_IN@<0, 2, 3, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0023", 100>
 Akiha
-I must decline. I can sense you are serious, but I am not
-interested in men with so much love to spare.
+I must decline. I can sense you are serious, but I 
+am not interested in men with so much love to spare.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0024", 100>
@@ -80,8 +84,9 @@ should direct it toward a single woman instead of many.
 \\@CHARA_IN@<0, 2, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0025", 100>
 Akiha
-If that's beyond his ability, I would have no choice but
-to thoroughly re-educate him... until he begs for forgiveness.
+If that's beyond his ability, I would have 
+no choice but to thoroughly reeducate him, 
+until he begs for forgiveness.
 \l
 
 \\@CHARA_IN@<0, 2, 6, 0, 1>

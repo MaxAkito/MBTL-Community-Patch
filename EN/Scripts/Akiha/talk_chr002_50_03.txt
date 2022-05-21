@@ -23,8 +23,8 @@ you are doing here?
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0000", 100>
 Kohaku
-Eek! Lady Akiha?! What are you doing outside
-of the estate?!
+Eek! Lady Akiha?! 
+What business brings you all the way here?!
 \l
 
 \\@CHARA_IN@< 1, 4, 105, 0, 1>
@@ -51,8 +51,9 @@ All other activities are strictly forbidden.
 \\@CHARA_IN@< 0, 2, 201, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0013", 100>
 Akiha
-I assume you are prepared to accept punishment for neglecting
-your duties and sneaking off without my knowledge?
+I assume you are prepared to accept punishment 
+for neglecting your duties and sneaking off 
+without my knowledge?
 
 
 // \\@CHARA_OUT@<0, -1, -1, 1, 0>

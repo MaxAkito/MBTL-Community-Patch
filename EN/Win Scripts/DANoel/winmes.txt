@@ -102,7 +102,7 @@ WinMes11:
 chara_type 6
 Oh no, I guess the Acting Presbyter went and died...?
 How awful, just reprehensible, really!
-I guess God doesn't say everyone, huh?
+I guess God doesn't save everyone, huh?
 \e
 
 
@@ -119,7 +119,7 @@ In a way... I'm showing you mercy.
 WinMesArcadeWin04:
 chara_type 101
 Hmm... So this is what vampire blood is made out of, huh? 
-It's called "Ether," right? Being able to materalize it at
+It's called "Ether", right? Being able to materalize it at
 will is great and all, but isn't it kind of inconvenient 
 that it's restricted to the shape of the soul?
 \e

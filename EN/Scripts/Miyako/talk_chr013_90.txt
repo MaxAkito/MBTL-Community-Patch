@@ -19,14 +19,14 @@
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0060", 100>
 Miyako
-And so it was that my brother returned home, all thanks to
-my heroic demonstration of the bajiquan style!
+And so it was that my brother returned home, all 
+thanks to my heroic demonstration of the bajiquan style!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0040", 100>
 Shiki
 Thanks, Miyako.
-You did well.
+You did well all by yourself.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0041", 100>
@@ -45,13 +45,13 @@ And of course, that's because you're here, Miyako.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0061", 100>
 Miyako
 Heehee!
-Heeheehee!!!
+Heeheehee!!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0062", 100>
 Miyako
-Stand right over here for a minute! I want to show you 
-a new stance that I've learned!
+Stand right over here for a minute! 
+I want to show you a new stance that I've learned!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0063", 100>
@@ -61,13 +61,14 @@ with plenty of guidance and encouragement!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0043", 100>
 Shiki
-As long as you're fine with it being me.
+It would be my honor.
 Oh, but remember to drink plenty of water.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0044", 100>
 Shiki
-It'll all be for nothing if you don't take care of your body.
+It'll all be for nothing if you 
+don't take care of your body.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0064", 100>
 Miyako
@@ -82,8 +83,8 @@ Perhaps it was because of my adventure-filled day...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0066", 100>
 Miyako
-But it would seem that fighting all those people helped
-me get over my shyness around my brother.
+But it would seem that fighting all those people 
+helped me get over my shyness around my brother.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0067", 100>

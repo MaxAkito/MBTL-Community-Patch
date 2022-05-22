@@ -24,15 +24,15 @@ So this is the Tohno estate...
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0051", 100>
 Miyako
-I'd heard about it before, but it really does look like a
-castle. I bet it even has a dungeon!
+I'd heard about it before, but it really does look 
+like a castle. I bet it even has a dungeon!
 \l
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0052", 100>
 Miyako
-And I'm sure that evil Akiha has my brother locked away in it.
-I've got to hurry and save him!
+And I'm sure that evil Akiha has my brother locked 
+away in it. I've got to hurry and save him!
 
 \\@CHARA_IN@<2, 52, 0, 2, 0>
 \aw
@@ -40,7 +40,7 @@ I've got to hurry and save him!
 \\@CHARA_IN@< 2, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0030", 100>
 Bake_Neko
-Duck, Little Miss China!
+Duck, China-girl!
 Watch out from above, meow!
 
 \\@QUAKE@<3, 20>
@@ -63,8 +63,8 @@ Thanks, little kitty.
 \\@CHARA_IN@<1,  2, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0000", 100>
 Akiha
-That is quite far enough. You have some nerve sneaking
-in here in broad daylight.
+That is quite far enough. You have some
+nerve sneaking in here in broad daylight.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0001", 100>
@@ -88,8 +88,9 @@ What business does a mere human have with our clan?
 \\@CHARA_IN@<1,  2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0004", 100>
 Akiha
-If it's money you're after, I could perhaps donate a little. 
-Though the amount will depend on how much entertainment you can provide me.
+If it's money you're after, I could perhaps donate 
+a little. Though the amount will depend on how much 
+entertainment you can provide me.
 \l
 
 \\@CHARA_IN@<1,  2, 0, 0, 1>
@@ -108,30 +109,30 @@ Miyako
 \\@CHARA_EMOVE@<0, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0055", 100>
 Miyako
-I will not allow myself to give in! Besides,
-I'm not the thief here, you are!
+I will not allow myself to give in! 
+Besides, I'm not the thief here, you are!
 \l
 
 \\@CHARA_IN@< 0, 13, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0056", 100>
 Miyako
-My name is Miyako Arima! I've come to
-take my brother back!
+My name is Miyako Arima! 
+I've come to take my brother back!
 
 \\@CHARA_IN@<1,  2, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0006", 100>
 Akiha
-Arima? As in the
-branch family?
+Arima? 
+As in the branch family?
 \l
 
 \\@CHARA_IN@<1,  2, 8, 0, 1>
 \\@CHARA_EMOVE@<1, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0007", 100>
 Akiha
-I see. I think I know what this is all about. *sigh*
-Good grief, I guess he's doesn't really seem to mind.
+I see. I think I understand. *sigh* Good grief, 
+he puts on the same act wherever he goes...
 \l
 
 \\@CHARA_IN@<1,  2, 0, 0, 1>
@@ -152,13 +153,14 @@ Maybe this Akiha isn't as bad as I thought she was.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0009", 100>
 Akiha
 *Ahem*
-I am not a monster, I'll have you know.
+I do have some humanity in me, I'll have you know.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0010", 100>
 Akiha
-A branch family of a branch family of a branch family...
-We are essentially unrelated. But if you'd go this far...
+A branch family of a branch family of a 
+branch family... You two are essentially 
+unrelated. But if you'd go this far...
 \l
 
 \\@CHARA_IN@<1,  2, 2, 0, 1>
@@ -171,8 +173,9 @@ That feeling of familial love has touched my heart.
 \\@CHARA_IN@<1,  2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0012", 100>
 Akiha
-Here's the product you were asking for, madam. Do hurry home with him.
-But I'll have you know I don't accept refunds.
+Here's the product you were asking for, madam. 
+I'll have you know I don't accept refunds, 
+so please hurry on home with him at once.
 
 \\@CHARA_IN@< 0, 13, 202, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>

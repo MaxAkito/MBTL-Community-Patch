@@ -28,8 +28,9 @@ Time for a quick recap.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0021", 100>
 Bake_Neko
-Miyako was unbeatable, soundly defeating one obstacle
-after another, steadily approaching the villain's lair.
+Miyako was unbeatable, truly unbeatable! She soundly 
+defeated one obstacle after another, steadily approached 
+the villain's lair.
 
 \\@CHARA_OUT@< 2, 52, -1, 0, 1>
 \aw
@@ -59,21 +60,22 @@ Something's not right. Right? I mean seriously!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0032", 100>
 Miyako
-I don't know any of these people but every time I meet
-someone they just start attacking me without so much as a hello! 
+I don't know any of these people but every time 
+I meet someone they just start attacking me without
+so much as a hello! 
 \l
 
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0033", 100>
 Miyako
-If I wasn't a kung fu master, this would've turned into
-a police case long ago!
+If I wasn't a kung fu master, this would've 
+turned into a police case long ago!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0034", 100>
 Miyako
-All I want to do is go to the Tohno estate and beat up 
-the evil sister who's imprisoned my brother!
+All I want to do is go to the Tohno estate and beat 
+up the evil sister who's imprisoned my brother!
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \\@CHARA_IN@<1, 11, 0, 12, 0>
@@ -166,8 +168,8 @@ on top of that small hill over there.
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0018", 100>
 Ciel
-Also, the younger sister's name is Tohno Akiha. 
-Be sure to ask for her when you state your business at the door.
+Also, the younger sister's name is Tohno Akiha. Be sure
+ to ask for her when you state your business at the door.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -188,8 +190,8 @@ I'll do my best!
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0019", 100>
 Ciel
-Oh, before you go, and forgive me for being blunt, but
-you cannot beat Akiha as you are now.
+Oh, before you go, and forgive me for being blunt, 
+but you cannot beat Akiha as you are now.
 \l
 
 \\@CHARA_IN@<1, 11, 3, 0, 1>
@@ -208,8 +210,8 @@ Really?!
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0043", 100>
 Miyako
-(All right! Time for my special vacation training montage!
- I feel like I'm in a kung fu movie!)
+(All right! Time for my special vacation training 
+ montage! Now I really feel like I'm in a kung fu movie!)
 
 \\@BGM_STOP@<0>
 \e

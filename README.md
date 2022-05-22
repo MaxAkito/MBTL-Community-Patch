@@ -172,6 +172,8 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 独角         | Lone-Horn               | Kouma Kishima's martial art style.
 | 北海         | northern seas           | Where Vlov comes from. Not the North Sea.
 | 星の内海      | (the) planet's inner-sea| Reverse side of Earth.
+| チャイナ       | China-girl              | Neko-Arc's nickname for Miyako
+| メガネ        | Glasses-boy             | Neko-Arc's nickname for Shiki
 
 ## Progress
 
@@ -192,7 +194,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Warc      (010) | Play-testing adjustments (Petri) |
 | Ciel      (011) | Play-testing adjustments (Petri) |
 | Saber     (012) | Play-testing adjustments (Petri) |
-| Miyako    (013) | Secondary editing done (Petri) | 
+| Miyako    (013) | Play-testing adjustments (Petri) | 
 | Boss Rush (013) | Secondary editing done (Petri) |
 | DA Noel   (014) | Secondary editing done (Petri) |
 | Aoko      (015) | Tertiary editing done  (Petri) |

@@ -4,28 +4,30 @@ WinMesScript
 WinMes00:
 chara_type 3
 Elimination complete.
-Transitioning all armaments to ground state. Proceeding to next mission.
+Transitioning all armaments to ground state. 
+Proceeding to next mission.
 \e
 
 WinMes01:
 chara_type 3
 Usually, I like to rely on technique and experience.
 But with these armaments, I can just power through.
-You're not enough to stop me.
+Someone like you could never stop me.
 \e
 
 WinMes02:
 chara_type 0
 You've been completely outclassed. Pathetic.
 I've strengthened my physical power using magecraft. 
-I have to, since I'm handling these heavy weapons with my feminine body.
+I have to, since I'm handling these heavy weapons 
+with my feminine body.
 \e
 
 WinMes03:
 chara_type 1
-You should be honored.
-This mallet is a horn of purity, which has endured for millenia.
-Under normal circumstances, I would never use it on the likes of you.
+This mallet is a horn of purity, which has endured 
+for millenia. You should be honored. Under normal 
+circumstances, I would never use it on the likes of you.
 \e
 
 WinMes04:
@@ -69,9 +71,9 @@ chara_type 103
 chara_type_sub 105
 chara_switchframe 600
 Obviously I ought to eliminate you here and now, but...
-I'll choose to believe in your humanity. Or rather, your self-dignity. 
-Because... In that aspect, above all else,
-you're the strongest person I know, Akiha.
+I'll choose to believe in your humanity. Or rather, 
+your self-dignity. Because... In that aspect, 
+above all else, you're the strongest person I know, Akiha.
 \e
 
 //‘Î–\‘–ƒAƒ‹ƒNƒFƒCƒh
@@ -79,8 +81,9 @@ WinMes09:
 chara_type 1
 Now that was a battle of pure power versus power.
 That said, you've yet to show your true nature,
-just as I've yet to deploy the entirety of the Seventh Holy Scripture.
-We'll see which one of us is strongest when that times comes.
+just as I've yet to deploy the entirety of the 
+Seventh Holy Scripture. We'll see which one of us 
+is strongest when that times comes.
 \e
 
 //‘Îƒ}[ƒŠƒIƒD
@@ -96,10 +99,10 @@ WinMes11:
 chara_type 1
 chara_type_sub 0
 chara_switchframe 600
-It appears you're at least keeping yourself at the minimum standard
-befitting of an Executor. Actually, you've gotten a bit sharper lately.
-Did you perhaps discover some source of motivation to improve, 
-Sister Noel?
+It appears you're at least keeping yourself at the minimum 
+standard befitting of an Executor. Actually, you've gotten 
+a bit sharper lately. Did you perhaps discover some source 
+of motivation to improve, Sister Noel?
 \e
 
 //‘Î€“kƒmƒGƒ‹
@@ -121,8 +124,9 @@ Your twisted beliefs have led you only to the depths of darkness.
 // ‘Î‹zŒŒ‹S
 WinMes14:
 chara_type 203
-I have no sympathy or understanding to spare for inhuman creatures such as you.
-Your death will amount to no more than a single line of text in my report.
+I have no sympathy or understanding to spare for inhuman 
+creatures such as you. Your death will amount to no more 
+than a single line of text in my report.
 \e
 
 // ‘ÎÂq
@@ -135,7 +139,8 @@ chara_switchframe1 760
 So that was the Fifth Magician...
 She and I are somewhat alike, yet also complete opposites.
 I boast an unprecedented production of magical energy,
-while she boasts an anomalous acceleration of it. Something like that.
+while she boasts an anomalous acceleration of it. 
+Something like that.
 \e
 
 

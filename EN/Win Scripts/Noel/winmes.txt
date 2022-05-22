@@ -6,7 +6,8 @@ chara_type 3
 Eeek! ☆ That was a really close one!
 I was sooo scared!
 There... Those were some good photos!
-Now to send these to the Presbyters who are sicko enough to like 'em.
+Now to send these to the Presbyters 
+who are sicko enough to like 'em.
 \e
 
 WinMes01:
@@ -25,9 +26,9 @@ Are you stupid?
 
 WinMes03:
 chara_type 100
-All losers get processed exactly the same. Though I suppose
-if you've got a nice face, I might be able to show a
-teensy bit of favoritism.
+All losers get sent to the execution room all the same. 
+Though I suppose if your looks are to my liking,
+I might be able to show a teensy bit of favoritism.
 \e
 
 WinMes04:
@@ -46,13 +47,14 @@ Hehe, such a convenient little phrase, don't you think?
 WinMes06:
 chara_type 101
 Mmm... got tomorrow off... what to do...
-Damnit, I've energy neither to work on myself nor to go marriage hunting.
+Damnit, I've energy neither to work on
+myself nor to go marriage hunting...
 \e
 
 WinMes07:
 chara_type 104
 I managed to make it through this night as well...
-I'm just an averge person...  
+I'm just an ordinary person...  
 Just how long can I keep this up?
 \e
 
@@ -89,12 +91,32 @@ That girl's abilities are no joke. Invisible attacks?
 It's like those True Ancestors I've heard of...
 \e
 
+// 対マーリオゥ
+WinMes11:
+chara_type 3
+Examination complete! It's my win!♪
+My pent-up stress is my strength.
+Now you better get me that audience
+with the Cardinal, 'kay?
+\e
+
+// 対武装シエル
+WinMes12:
+chara_type 3
+chara_type_sub 1
+chara_switchframe 405
+Ahaha, no way. This is a dream, right?
+I mean there's no way that I managed to
+take her out after she got serious, c'mon.
+I must've fallen asleep just as I got back home.
+\e
+
 // 対ヴローヴシナリオ用
 WinMesArcadeWin09:
 chara_type 3
 All right! I'm winning somehow! 
-I may actually be able to pull this off. No, I'm sure I can pull
-this off! Now I just trap him in my temple, and then--
+I may actually be able to pull this off. No, I'm sure I can
+pull this off! Now I just trap him in my temple, and then--
 What?! No way! NOW he decides to get serious?!
 \e
 

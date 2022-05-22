@@ -34,8 +34,8 @@ I may be small now, but I'll grow up in no time!
 
 WinMes05:
 chara_type 104
-Hold on, how is it I can dash in mid-air?
-Hmm... well whatever, probably best not to think about it.
+Hold on, how is it I can dash in mid-air? Hmm... 
+well whatever, probably best not to think about it.
 \e
 
 WinMes06:
@@ -71,8 +71,9 @@ Time to get some sleep.
 
 WinMes11:
 chara_type 103
-Stop that! Don't you know bullying people weaker than you is bad?
-I'm Shiki's sister, a hero who fights for justice, watch out!
+Stop that! 
+Don't you know bullying people weaker than you is bad?
+I'm Shiki's sister, a hero who fights for justice. Watch out!
 \e
 
 WinMes12:
@@ -94,7 +95,7 @@ that I'd be jealous? You're just an impostor!
 WinMes14:
 chara_type 104
 Caught you, Shiki! Ehehe... 
-You're gonna look over my homework after we get back home~
+You're gonna look over my homework after we get back home.
 \e
 
 
@@ -112,7 +113,7 @@ WinMesArcadeWin11:
 chara_type 2
 Xiexie. I learned a lot from that, Mommy!
 Whoops! Wait! Sister!
-R-right, you're not a Mommy... you're a Sister!
+R-Right, you're not a Mommy... you're a Sister!
 \e
 
 

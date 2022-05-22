@@ -20,32 +20,33 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0060", 100>
 Powered_Ciel
 Whoa!
-I was about to lose consciousness...!
+I was almost about to lose consciousness...!
 \l
 
 \\@SQ_CALL@<2>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0061", 100>
 Powered_Ciel
-So that's what a True Ancestor looks like without its body...
-A spiritron-frame made from ether...!
+So that's what a True Ancestor looks like without 
+its body... A spiritron-frame made from ether...!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0062", 100>
 Powered_Ciel
-(But it's changing from a phenomenon into a lifeform...!
- If such a thing is established, the world will shear and collapse!)
+(Not only that, but it's changing from a phenomenon 
+ into a lifeform...! If such a thing is established, 
+ the world will shear and collapse!)
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0020", 100>
 Red_Arcueid
-Huh. She's still able to retain her mind
-under my direct gaze.
+Huh. She's still able to retain 
+her mind under my direct gaze.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0021", 100>
 Red_Arcueid
-It's no wonder Roa was so enamored with her body.
-That body's capabilities are the pinnacle of human potential.
+It's no wonder Roa was so enamored with her body. That 
+body's capabilities are the pinnacle of human potential.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0022", 100>
@@ -61,8 +62,8 @@ Let us continue, my wonderful little doll!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0024", 100>
 Red_Arcueid
-I'm not holding anything back this time, so if you have any
-last tricks to play, now would be the time to do it.
+I'm not holding anything back this time, so if you have 
+any last tricks to play, now would be the time to do it.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0025", 100>
@@ -90,7 +91,7 @@ And then I'll overcome it.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0029", 100>
 Red_Arcueid
-Ahh... This is so much fun!
+Ahh... This is so, so, so much fun!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0030", 100>
@@ -128,8 +129,9 @@ then I suppose this would be the tool for the job.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0065", 100>
 Powered_Ciel
-Emissary of Heaven, Sound of Crucifixion. Foliage of Blades,
-Waves of Iron. Idea Blood Number Seven, Forest of Einnashe.
+Emissary of Heaven, Sound of Crucifixion. 
+Foliage of Blades, Waves of Iron. 
+Idea Blood Number Seven, Forest of Einnashe.
 \l
 
 \\@FADE_OUT@<1,255,255,255,0>

@@ -23,8 +23,9 @@ What happened to your nun's habit?!
 \\@CHARA_IN@<1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0001", 100>
 Noel
-Nobody told me we'd be launching an all-out assault on the city!
-I only brought my anti-Dead Apostle gear with me!
+Nobody told me we'd be launching an all-out assault
+on the city! I only brought my anti-Dead Apostle gear 
+with me!
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0010", 100>
@@ -36,22 +37,24 @@ I'm requesting backup from you.
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0011", 100>
 Powered_Ciel
-Arcueid Brunestud sighting has been confirmed.
-Additionally, one of the 27 Ancestor's Principles has been detected.
+Arcueid Brunestud sighting has been confirmed. 
+Additionally, one of the 27 Ancestor's Principles
+has been detected.
 \l
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0012", 100>
 Powered_Ciel
-Both parties engaged in battle the day following Arcueid's 
-initial contact with investigation target Shiki Tohno.
+Both parties engaged in battle the day following 
+Arcueid's initial contact with investigation target
+Shiki Tohno.
 \l
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0013", 100>
 Powered_Ciel
-The Ancestor was defeated, and while Arcueid was victorious,
-she has fallen into a weakened state.
+The Ancestor was defeated, and while Arcueid was 
+victorious, she has fallen into a weakened state.
 \l
 
 \\@CHARA_IN@<0, 16, 3, 0, 1>
@@ -63,8 +66,9 @@ Or more precisely, into a dangerous state.
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0015", 100>
 Powered_Ciel
-Strange as it may seem, it appears that she's prioritizing 
-her personal feelings over her objective of hunting down Dead Apostles.
+Strange as it may seem, it appears that she's 
+prioritizing her personal feelings over her 
+objective of hunting down Dead Apostles.
 \l
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
@@ -90,8 +94,8 @@ that monster-among-monsters myself.
 \\@CHARA_IN@<1, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0004", 100>
 Noel
-I'll leave that honor to you, Ciel.
-While you're dealing with her, I'll keep an eye on the target\sf000
+I'll leave that honor to you, Ciel. While you're 
+dealing with her, I'll keep an eye on the target\sf000
 
 \\@CHARA_IN@<0, 16, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0017", 100>
@@ -117,8 +121,8 @@ this also presents us with an opportunity.
 \\@CHARA_IN@<0, 16, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0020", 100>
 Powered_Ciel
-If we can find Roa's coffin before Arcueid fully recovers,
-we can destroy his soul once and for all.
+If we can find Roa's coffin before Arcueid fully 
+recovers, we can destroy his soul once and for all.
 
 \\@CHARA_IN@<1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0005", 100>
@@ -131,16 +135,16 @@ And if the coffin's empty, that's where I come in.
 \\@CHARA_FACE@<0, 3, 10, 400>//ÉVÉGÉãï\èÓïœâª
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0006", 100>
 Noel
-That'll confirm that our target is Roa, 
-so I'll just cut his legs off and bring him over here...
+That'll confirm that our target is Roa, so I'll 
+just cut his legs off and bring him over here...
 \l
 
 \\@CHARA_IN@<1, 8, 11, 0, 1>
 \\@CHARA_FACE@<1, 11, 0, 210>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0007", 100>
 Noel
-Hey, what are you looking so mad about?
-Oh, I get it... It's about Shiki's execution, isn't it?
+Hey, what are you looking so mad about? Oh, I get it... 
+It's about Shiki's execution, isn't it?
 \l
 
 \\@CHARA_IN@<1, 8, 1, 0, 1>
@@ -153,8 +157,8 @@ I won't claim all the glory for myself.
 \\@CHARA_IN@<1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0009", 100>
 Noel
-You wanna do the inquistive work togetherd?
-I mean, this is what we've been waiting for all this time, right?
+You wanna do the inquistive work together? I mean, this
+is what we've been waiting for all this time, right?
 
 \\@CHARA_IN@<0, 16, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0021", 100>

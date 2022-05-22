@@ -80,9 +80,9 @@ is currently inspecting the databank in Iceland.
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0034", 100>
 Powered_Ciel
-I won't listen to the orders of someone who shouldn't be here.
-Hereon, I shall consider you a Dead Apostle impersonating him.
-Moving in for elimination.
+I won't listen to the orders of someone who shouldn't 
+be here. Hereon, I shall consider you a Dead Apostle 
+impersonating him. Moving in for elimination.
 
 \\@CHARA_IN@<1, 17, 9, 0, 1>
 \\@CHARA_MUKI@<1,1>
@@ -120,14 +120,14 @@ somethin' even worse set its eyes on 'im.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0039", 100>
 Mario
-His Mystic Eyes ain't gonna work on the Princess no more.
-Shit's too late. Give it up.
+His Mystic Eyes ain't gonna work on the Princess
+no more. Shit's too late. Give it up.
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0035", 100>
 Powered_Ciel
-We can't say that for sure yet. And it doesn't change our
-duty to exterminate the True Ancestor.
+We can't say that for sure yet. And it doesn't 
+change our duty to exterminate the True Ancestor.
 \l
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>

@@ -65,8 +65,9 @@ blew up his goddamn Workshop too...!
 \\@CHARA_IN@<0, 17, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0092", 100>
 Mario
-Which fuckin' mage are you? State your affiliations, right now!
-I'll go sue 'em with the whole goddamn Church behind me!
+Which fuckin' mage are you? State your affiliations, 
+right now! I'll go sue 'em with the whole goddamn 
+Church behind me!
 
 \\@CHARA_IN@<1, 15, 2, 0, 1>
 \\@CHARA_MUKI@<1,1>
@@ -89,23 +90,25 @@ jack-of-all-trades. Nice to meet you!
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0064", 100>
 Aoko
-I have a friend I got to know here sometime ago, and for
-some reason I felt like checking up on them all of a sudden.
+I have a friend I got to know here sometime ago, 
+and for some reason I felt like checking up on them 
+all of a sudden.
 \l
 
 \\@CHARA_IN@<1, 15, 5, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0065", 100>
 Aoko
-I took a little look and found a vampire had taken root in the city.
-Might've been a bit nosy of me, but I still took care of it.
+I took a little look and found a vampire had taken 
+root in the city. Might've been a bit nosy of me, 
+but I still took care of it.
 \l
 
 \\@CHARA_IN@<1, 15, 6, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0066", 100>
 Aoko
-And that's the recap of last episode.
+And that's the story so far.
 
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
@@ -127,8 +130,9 @@ instead of acting all annoyed and stuff?
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0069", 100>
 Aoko
-You weren't, I don't know, planning on collecting the
-Dead Apostles' research and keeping it for yourself, were you?
+You weren't, I don't know, 
+planning on collecting the Dead Apostles' research
+and keeping it for yourself, were you?
 
 \\@CHARA_IN@<0, 17, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0093", 100>
@@ -140,8 +144,8 @@ Which fuckin' organization put you up to this?!
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0094", 100>
 Mario
-Who the hell is it that's dumb enough to think they can take
-my prey from right under my goddamn nose?!
+Who the hell is it that's dumb enough to think they 
+can take my prey from right under my goddamn nose?!
 
 \\@CHARA_IN@<1, 15, 2, 0, 1>
 \\@CHARA_MUKI@<1,1>
@@ -163,22 +167,23 @@ Old Zelretch gave me a call.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0072", 100>
 Aoko
-He said that if you and Roa struck a deal 
-then things would go pretty badly for all of us.
+He said that if you and Roa struck a deal then 
+things would go pretty badly for all of us.
 \l
 
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0073", 100>
 Aoko
-But he never told me exactly what it was that would go
-so "badly". So you know, given that...
+But he never told me exactly what it was that 
+would go so "badly". So you know, given that...
 
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0095", 100>
 Mario
-...You'd rather take out one 'a the concerned parties
-before anything could happen. You act like a goddamn troll.
+...You'd rather take out one 'a the concerned 
+parties before anything could happen. You act 
+like a goddamn troll.
 \l
 
 \\@CHARA_IN@<0, 17, 1, 0, 1>
@@ -191,15 +196,15 @@ I can see what you're thinkin' there.
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0097", 100>
 Mario
-Had my deal with Roa actually come to pass, I'd've probably
-been fine with handing over the city to 'im.
+Had my deal with Roa actually come to pass, I'd've 
+probably been fine with handing over the city to 'im.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0098", 100>
 Mario
-So what's next? Now that you've prevented any further casualties,
-what's on the agenda for Miss Superhero?
+So what's next? Now that you've prevented any further 
+casualties, what's on the agenda for Miss Superhero?
 
 \\@CHARA_IN@<1, 15, 4, 0, 1>
 \\@CHARA_MUKI@<1,1>
@@ -221,8 +226,8 @@ but well, I've already gotten this far.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0076", 100>
 Aoko
-There's one more person I need to give a lecture to if
-I want to get rid of the problem at its source.
+There's one more person I need to give a lecture to
+if I want to get rid of the problem at its source.
 \l
 
 \\@CHARA_IN@<1, 15, 1, 0, 1>
@@ -243,8 +248,9 @@ But also, I'm pretty damn stubborn.
 \\@CHARA_IN@<3, 17, 200, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0100", 100>
 Mario
-Let me get a few blows in, will ya? Enough that it'll hurt.
-If you don't, I dunno if my stubbornness will let this shit go. 
+Let me get a few blows in, will ya? Enough that 
+it'll hurt. If you don't, I dunno if my stubbornness 
+will let this shit go. 
 
 \\@BGM_STOP@<0>
 \e

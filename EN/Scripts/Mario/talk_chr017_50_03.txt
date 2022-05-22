@@ -16,15 +16,15 @@
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0070", 100>
 Mario
-Stop movin', Princess.
+Stop right there, Princess.
 Real sorry, but the date's been cancelled.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0071", 100>
 Mario
-You've messed around long enough.
-Your vacation ends tonight. I'll ask you to return to your castle.
+You've messed around long enough. Your vacation ends 
+tonight. I've gotta ask 'a you to return to your castle.
 
 \\@CHARA_IN@<1, 0, 14, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0000", 100>
@@ -56,8 +56,9 @@ Well, whatever.
 \\@CHARA_IN@<1, 0, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0002", 100>
 Arcueid
-Anyway, what are you planning on doing with these wires?
-I knew you'd already extended them all around the city but...
+Anyway, what are you planning on doing with 
+these wires? I knew you'd already extended 
+them all around the city but...
 \l
 
 \\@CHARA_IN@<1, 0, 13, 0, 1>
@@ -98,14 +99,15 @@ you gotta act softer. More delicate.
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0076", 100>
 Mario
-And that ain't dating advice. Just sayin', humans are fragile.
+And that ain't dating advice. 
+Just sayin', humans are fragile.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0077", 100>
 Mario
-Without a bit a' grace, you might accidentally take out
-your lover boy when you're eradicating the Dead.
+Without a bit a' grace, you might accidentally take 
+out your lover boy when you're taking care 'a the Dead.
 
 \\@CHARA_IN@<1, 0, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0006", 100>
@@ -136,8 +138,8 @@ you're still a lil' bit hard at heart. That's great.
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0079", 100>
 Mario
-So when Roa's 'boutta possess Tohno, you'll
-take 'im out right away, then?
+So when Roa's 'boutta possess Tohno, 
+you'll take 'im out right away, then?
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
@@ -164,8 +166,8 @@ he won't completely take over. Which is why...
 \\@CHARA_IN@<1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0011", 100>
 Arcueid
-If I take him somewhere where I can suppress Roa's
-soul, Shiki can live on as himself.
+If I take him somewhere where I can suppress 
+Roa's soul, Shiki can live on as himself.
 \l
 
 \\@CHARA_IN@<1, 0, 16, 0, 1>
@@ -200,8 +202,8 @@ Can't afford dying just 'cuz 'a your love-affair.
 \\@CHARA_IN@<3, 17, 203, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0084", 100>
 Mario
-Give up on Tohno.
-You'll be going home to the castle on your own, Arcueid.
+Give up on Tohno. You'll be going home
+to the castle on your own, Arcueid.
 \l
 
 \\@CHARA_IN@<1, 0, 2, 0, 10>

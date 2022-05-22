@@ -23,21 +23,21 @@ That's your story, huh...
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0081", 100>
 Aoko
-I'm sorry, Mario. I thought for sure you were a corrupt priest
-who'd gone over the to the Dead Apostles' side.
+I'm sorry, Mario. I thought for sure you were a corrupt 
+Presbyter who'd gone over the to the Dead Apostles' side.
 
 \\@CHARA_IN@<0, 17, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0110", 100>
 Mario
-Don't give me that shit, you walking disaster.
-You really think a 12 year-old brat would be that depraved?
+Don't give me that shit, you walking disaster. You 
+really think a 12 year-old brat would be that depraved?
 \l
 
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0111", 100>
 Mario
-My life's on the goddamn line here. I go at things straight on.
-Ain't got no time for beatin' around the bush.
+My life's on the goddamn line here. I go at things 
+straight on. Ain't got no time for beatin' around the bush.
 \l
 
 \\@CHARA_IN@<0, 17, 2, 0, 1>
@@ -68,8 +68,9 @@ So why don't you try asking my sister about it?
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0084", 100>
 Aoko
-There's no other weirdo quite as good as her when it comes 
-to devising clever ways of getting oneself out of problems.
+There's no other weirdo quite as good as her when 
+it comes to devising clever ways of getting oneself 
+out of problems.
 
 \\@BGM_FADE@<0, -1, 0, -2, 0>
 \\@FADE_OUT@<0, 255, 255, 255, 0>
@@ -121,9 +122,9 @@ Think we can chalk this one up as a win.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0031", 100>
 Noel
-I mean, we beat back the True Ancestor, exterminated Roa,
-and drove off that Magician, too. 
-Ciel even got herself a new apprentice!
+I mean, we beat back the True Ancestor, exterminated 
+Roa, and drove off that Magician, too. Ciel even got 
+herself a new apprentice!
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0117", 100>
@@ -133,19 +134,21 @@ Got a feeling it's just the beginning of a long road ahead...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0118", 100>
 Mario
-By the way, you're starting over from scratch, fatass.
-You're getting a re-education under me, for at least a year.
+By the way, you're starting over from scratch,
+fatass. You're getting a reeducation under me, 
+for at least a year.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0119", 100>
 Mario
-I'm gonna fix up you up, attitude an' all. Once we're done 
-with that, I'll assign you to whatever church you'd like.
+I'm gonna fix up you up, attitude an' all. 
+Once we're done with that, I'll assign you
+to whatever church you like.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0032", 100>
 Noel
-For real? Awesome!
-Then I want to work directly under you, Acting Presbyter!
+For real? Awesome! Then I want to work 
+directly under you, Acting Presbyter!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0033", 100>
@@ -160,8 +163,8 @@ Just coming out of this alive was a huge plus.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0121", 100>
 Mario
-Now... Touko Aozaki, the peerless puppeteer.
-If she turns out to be of any help, this may not be over after all.
+Now... Touko Aozaki, the peerless puppeteer. If she turns
+out to be of any help, this may not be over after all.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0122", 100>
@@ -176,8 +179,8 @@ If I can just see where this thread leads...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0123", 100>
 Mario
-It's gonna be supremely annoying but...
-I have a feeling I'll need to return to this city again someday.
+It's gonna be real fuckin' annoying but... I have a 
+feeling I'll need to return to this city again someday.
 
 \\@SYSTEM@<21>
 \aw

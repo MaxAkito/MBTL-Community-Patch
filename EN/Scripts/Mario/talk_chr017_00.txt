@@ -29,8 +29,8 @@ yet to move in for his arrest.
 \\@CHARA_IN@<1, 8, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0012", 100>
 Noel
-Quite the opposite... 
-She's even been patrolling the city TOGETHER with the target.
+Quite the opposite... She's even been 
+patrolling the city TOGETHER with the target.
 \l
 
 \\@CHARA_IN@<1, 8, 104, 0, 1>
@@ -57,22 +57,22 @@ Roa's supply of blood is drying up fast...
 \\@CHARA_IN@<1, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0016", 100>
 Noel
-That's how the current situation in Souya has unfolded, but uh...
-What ought we do, Acting Presbyter?
+That's how the current situation in Souya has unfolded,
+but uh... What ought we do, Acting Presbyter?
 
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0050", 100>
 Mario
-Ain't much to do 'bout it. Shit sucks.
-Why are there so many unexpected annoyances alluva sudden?
+Ain't much to do 'bout it. Shit sucks. Why are 
+there so many unexpected annoyances alluva sudden?
 \l
 
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0051", 100>
 Mario
-The True Ancestor Princess, one of the 27 Ancestors outta nowhere,
-and then an elite from the Burial Agency together with this useless 
-fatass of a Sister...?
+The True Ancestor Princess, one of the 27 Ancestors 
+outta nowhere, and then an elite from the Burial Agency 
+together with this useless fatass of a Sister...?
 
 \\@CHARA_IN@<1, 8, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0017", 100>
@@ -82,8 +82,8 @@ Noel
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0052", 100>
 Mario
-Talk about bad fuckin' luck.
-With all this shit, I'm almost starting to feel bad for Roa.
+Talk about bad fuckin' luck. With all this shit, 
+I'm almost starting to feel bad for Roa.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
@@ -96,8 +96,8 @@ Can't go worrying 'bout keepin' up appearances.
 \\@CHARA_IN@<0, 17, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0054", 100>
 Mario
-I'll figure something out with Ciel.
-You make sure Shiki Tohno is safe.
+I'll figure somethin' out with Ciel.
+You make sure Shiki Tohno's safe.
 \l
 
 \\@CHARA_IN@<0, 17, 1, 0, 1>
@@ -109,14 +109,15 @@ Got it? Keep 'im safe. No killing.
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0056", 100>
 Mario
-Even if looks like Roa's about to take control of the little shit
-you still just gotta keep protecting 'em, by force if necessary.
+Even if looks like Roa's 'bout to take control of 
+the little shit you still just gotta keep protectin' 
+'em, by force if necessary.
 
 \\@CHARA_IN@<1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0018", 100>
 Noel
-I have keep him alive? 
-Even though he's a non-believer, not to mention potential host of Roa?
+I have keep him alive?  Even though he's a non-believer, 
+not to mention potential host of Roa?
 
 \\@CHARA_IN@<0, 17, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0057", 100>
@@ -148,8 +149,8 @@ Uh-huh?
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0060", 100>
 Mario
-Real problem is that princess he's gotten mixed up with. 
-I mean, she's being oddly eager about all this.
+Real problem is that princess he's gotten mixed up 
+with. I mean, she's being oddly eager about all this.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
@@ -174,15 +175,17 @@ As per your orders, I'll go secure Shiki!
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0062", 100>
 Mario
-Dumbass. Ain't no way I'd send your incompetent ass out against
-a True Ancestor. But well, you'll be fine like this.
+Dumbass. Ain't no way I'd send your 
+incompetent ass out against a True Ancestor. 
+But well, you'll be fine like this.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0063", 100>
 Mario
-Bein' cowardly and shameless are your strong points, honestly.
-You're real good at runnin' at the first sign 'a trouble. Keep that up.
+Bein' cowardly and shameless are your strong points, 
+honestly. You're real good at runnin' at the first 
+sign 'a trouble. Keep that up.
 
 \\@CHARA_IN@<1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0022", 100>
@@ -212,8 +215,8 @@ But you're the Acting Presbyter!
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0065", 100>
 Mario
-A lil' bit. If I don't exercise I'd get as fat as you.
-Both physically, and mentally.
+A lil' bit. If I don't exercise I'd get as 
+fat as you. Both physically, and mentally.
 \l
 
 \\@CHARA_OUT@<0, 17, 0, 0, 1>

@@ -33,20 +33,21 @@ WinMes05:
 chara_type 0
 My being a knight might sound grander that it is.
 All that I fought were but wolves and bears.
-I never had the means of learning how to negotiate.
+I never had the means of learning how to negotiate...
 \e
 
 WinMes06:
 chara_type 0
-A wife? I have taken but ten of them.
+A wife? I have taken but ten of them...
 I may not look it, but I was a late bloomer.
 \e
 
 WinMes07:
 chara_type 0
-Though my weapons are mostly improvised, my spear is different. 
-The Permafrost of Zaria Offenbaum... It will surely never shatter
-on me, even if there are many things that it cannot break.
+Though my weapons are mostly improvised, my spear 
+is different. Zaria Offenbaum's Permafrost... 
+It will surely never shatter on me, even if there 
+are many things that it cannot break.
 \e
 
 // ‘ÎƒƒA

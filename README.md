@@ -174,6 +174,9 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 星の内海      | (the) planet's inner-sea| Reverse side of Earth.
 | チャイナ       | China-girl              | Neko-Arc's nickname for Miyako
 | メガネ        | glasses-boy             | Neko-Arc's nickname for Shiki
+| 親(元)       | Sire                    | Vampire 'parent'. Only for vampires.
+| 子　　　　　　　　　　| Scion                   | Vampire 'child'. Only for vampires.
+| 七つの死因     | Seven Causes of Death   | The concept of the Seventh Holy Scripture.
 
 ## Progress
 
@@ -210,7 +213,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Akiha     (002) | Play-testing adjustments (Petri) |
 | Shiki     (003) | Play-testing adjustments (Petri) |
 | Kohaku    (004) | Play-testing adjustments (Petri) |
-| Roa       (005) | Secondary editing done (Petri) |
+| Roa       (005) | Play-testing adjustments (Petri) |
 | Kouma     (006) | Secondary editing done (Petri) |
 | Maids     (007) | Secondary editing done (Petri) |
 | Noel      (008) | Secondary editing done (Petri) |

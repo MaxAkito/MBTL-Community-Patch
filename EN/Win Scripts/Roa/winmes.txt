@@ -17,8 +17,8 @@ chronic case of anemia, as you might be able to tell.
 
 WinMes02:
 chara_type 2
-One charred corpse coming up! Now all that's left
-is to let the strays in the back-alleys have some fun with it!
+One charred corpse coming up! Now all that's left is to 
+let the strays in the back-alleys have some fun with it!
 \e
 
 WinMes03:
@@ -31,9 +31,10 @@ I didn't realize you'd already stopped breathing.
 
 WinMes04:
 chara_type 0
-As thanks for allowing me to enjoy myself, I'll do the humane
-thing and bury you... Rejoice! Not many people have ever had the honor 
-of experiencing the hellish sensation of being cremated by lightning.
+As thanks for allowing me to enjoy myself, 
+I'll do the humane thing and bury you... Rejoice! 
+Not many people have ever had the honor of experiencing 
+the hellish sensation of being cremated by lightning.
 \e
 
 WinMes05:
@@ -46,9 +47,10 @@ Sure makes you respect the samurai of old, doesn't it?
 
 WinMes06:
 chara_type 0
-Stop moving around, will you? Your blood's gonna spill
-and I don't feel like drinking off the ground today.
-I have to act like a proper vampire at least once in a while.
+Stop moving around, will you? 
+Your blood's gonna spill and I don't feel like 
+drinking off the ground today. I have to act 
+like a proper vampire at least once in a while.
 \e
 
 // ëŒéuãM
@@ -88,8 +90,18 @@ I can't really tell either way.
 // ëŒãzååãS
 WinMes11:
 chara_type 0
-What an awful night this is, wouldn't you agree, my fellow vampire? 
-I get a bit depressed... Even the moonlight is too bright for me.
+What an awful night this is, wouldn't you agree, 
+my fellow vampire? I get a bit depressed... 
+Even the moonlight is too bright for me.
+\e
+
+// ëŒïêëïÉVÉGÉã
+WinMes12:
+chara_type 0
+Using the Seven Causes of Death in their split-up form?
+I'm not sure what you're so worried about that you'd
+hold back like that, but next time you should bring 
+out the real deal instead.
 \e
 
 // ëŒéuãM(ÉXÉgÅ[ÉäÅ[êÍóp)
@@ -105,8 +117,9 @@ WinMesArcadeWin11:
 chara_type 0
 Those excessive weapons are nothing but a shackle for you.
 You've practically put your miraculous body into bondage. 
-The bondage of human knowledge. Before you go cursing other 
-heresies, you'd best come to terms with your own otherwordliness first.
+The bondage of human knowledge. 
+Before you go cursing other heresies, 
+you'd best come to terms with your own otherwordliness first.
 \e
 
 
@@ -117,8 +130,8 @@ heresies, you'd best come to terms with your own otherwordliness first.
 
 WinMes3WinStreak00:
 chara_type 0
-Splendid. I see there will be no lack of
-blood to drink with you around.
+Splendid. I see there will be no lack
+of blood to drink with you around.
 \e
 
 

@@ -54,7 +54,7 @@ What's that?! It looks like a tsunami is headed this way!
 \\@CHARA_IN@< 3, 53, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10090", 100>
 Neco_Arc
-~The story so far~
+The story so far!
 
 \\@CHARA_IN@< 1, 10, 101, 2, 0>
 \aw
@@ -100,8 +100,8 @@ Uh-oh!
 \\@CHARA_IN@< 1, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10002", 100>
 Red_Arcueid
-What's wrong? Not gonna do the whole
-"Watch out, Miyako" routine for your dear sister this round?
+What's wrong? Not gonna do the whole "Watch out, Miyako" 
+routine for your dear sister this round?
 \l
 
 \\@CHARA_IN@< 1, 10, 1, 0, 1>
@@ -113,8 +113,8 @@ I kinda liked that little intro myself, you know.
 \\@CHARA_IN@< 1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10004", 100>
 Red_Arcueid
-I was hoping you'd let me hear it for myself.
-That's why I went to the trouble of making that shockwave.
+I was hoping you'd let me hear it for myself. That's 
+why I went to the trouble of making that shockwave.
 \l
 
 \\@CHARA_IN@< 1, 10, 6, 0, 1>
@@ -127,14 +127,14 @@ Boooring.
 \\@CHARA_IN@< 1, 10, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10006", 100>
 Red_Arcueid
-Is it really that weird to see me? Oh wait, maybe
+Is it really that odd to see me here? Oh wait, maybe
 you stupidly thought I wouldn't show up again, huh?
 
 \\@CHARA_IN@< 2, 3, 7, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10032", 100>
 Shiki
-(Weird? I want to tell her it should be impossible,
+(Odd? I want to tell her it should be impossible,
  but she's right, that really was a bit stupid of me)
 \l
 
@@ -155,27 +155,29 @@ Shiki
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10007", 100>
 Red_Arcueid
-I see you're starting to get it. Under normal circumstances, 
-I'd be satisfied with just being a tutorial but...
+I see you're starting to get it. Under normal 
+circumstances, I'd be satisfied with just being
+a tutorial but...
 \l
 
 \\@CHARA_IN@< 1, 10, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10008", 100>
 Red_Arcueid
-It proved unexpectedly fun, and a bit disappointing, I guess?
-So this time I thought I'd play with you in this outfit.
+It proved unexpectedly fun, but also a bit 
+disappointing, I guess? So this time I thought 
+I'd play with you in this outfit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10009", 100>
 Red_Arcueid
-I get bored when the story is too easy to figure out anyway.
-Sometimes you need some forced drama, right?
+I get bored when the story is too easy to figure out
+anyway. Sometimes you need some forced drama, right?
 
 \\@CHARA_IN@< 0, 13, -1, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10072", 100>
 Miyako
-No no no!
+No-no-no!
 I can't do this! No way!
 \l
 
@@ -199,8 +201,9 @@ I suppose I can't fault you for that...
 \\@CHARA_IN@< 2, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10036", 100>
 Shiki
-If it were anybody else, then maybe. But even I can't
-handle this one... mostly because I still feel a bit bad, but...
+If it were anybody else, then maybe. 
+But even I can't handle this one... 
+mostly because I still feel a bit bad, but...
 \l
 
 \\@CHARA_IN@< 2, 3, 0, 0, 1>
@@ -214,8 +217,8 @@ giving up on being the main heroine, you know?
 \\@CHARA_EMOVE@<2, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10038", 100>
 Shiki
-And you've already made it this far in your battles
-against destiny. Seems like kind of a waste.
+Seems like kind of a waste. I mean you've already 
+come this far in your battle against destiny.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
@@ -236,8 +239,8 @@ I'm here to defeat my own cowardice!
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10076", 100>
 Miyako
-Thanks, Shiki! You always know just what to say!
-Now I'm fired up!
+You always know just what to say, Shiki!
+Thanks for the motivation!
 \l
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
@@ -257,8 +260,8 @@ Bravery is what you'll need going up against Goliath.
 \\@CHARA_IN@< 1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10011", 100>
 Red_Arcueid
-I'll just have to see myself how much you've learned.
-But I won't do that by going easy on you.
+I suppose I'll just have to see for myself how much
+you've improved. As cruelly as I can, of course!
 
 \\@BGM_STOP@<0>
 \e

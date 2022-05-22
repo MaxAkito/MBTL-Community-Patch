@@ -19,18 +19,19 @@ Into tiny pieces...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10141", 100>
 Neco_Arc@Neco_Arc_Rumi
-By defeating the sauve glasses-boy, you have in the
+By defeating the sauve glasses-boy, you have 
 acquired the power of truly fighting in-game.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10142", 100>
 Neco_Arc@Neco_Arc_Rumi
 Do you understand? Miyako Arima wasn't an option
-on the character select screen for no reason.
+on the character select screen for just no reason.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10143", 100>
 Neco_Arc@Neco_Arc_Rumi
-By traning here and acquiring the power of fighting,
-it was possible for you to join the playable character roster.
+By training here and acquiring the power of 
+fighting, it was possible for you to join the 
+playable character roster.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10144_a", 100>
 Neco_Arc@Neco_Arc_Rumi

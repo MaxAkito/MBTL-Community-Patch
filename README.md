@@ -195,7 +195,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Ciel      (011) | Play-testing adjustments (Petri) |
 | Saber     (012) | Play-testing adjustments (Petri) |
 | Miyako    (013) | Play-testing adjustments (Petri) | 
-| Boss Rush (013) | Secondary editing done (Petri) |
+| Boss Rush (013) | Play-testing adjustments (Petri) |
 | DA Noel   (014) | Secondary editing done (Petri) |
 | Aoko      (015) | Tertiary editing done  (Petri) |
 | P. Ciel   (016) | Secondary editing done (Petri) |

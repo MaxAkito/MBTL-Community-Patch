@@ -23,14 +23,14 @@ Why's it gotta be so hard right from the start?!
 \\@CHARA_IN@< 0, 13, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10031", 100>
 Miyako
-It's only the first day! 
-Is this really how my heroine route starts?!
+It's only the first day and that thing is what comes 
+attacking me! This is supposed to be MY heroine route!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10032", 100>
 Miyako
-That's not something a grade-schooler like me should be able
-to handle on their own!
+That's not something a grade-schooler like 
+me should be able to handle on their own!
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \\@CHARA_IN@< 2, 53, 100, 2, 0>
@@ -40,22 +40,22 @@ to handle on their own!
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10050", 100>
 Neco_Arc
-I agree. 
+You know, I was just thinking the same.
 Unfortunately, Tsukihime is just that kind of story.
 \l
 
 \\@CHARA_IN@< 2, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10051", 100>
 Neco_Arc
-That said, good job beating the first part of this unfair game.
-I'm really being subsumed by the feelz right now.
+That said, good job beating the first part of this unfair 
+game. I'm really being subsumed by the feelz right now.
 
 
 \\@CHARA_IN@< 2, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10052", 100>
 Neco_Arc
-Stand tall, Little Miss Kung Fu! 
-You have claimed the right to overturn your fate!
+Stand tall, Kung Fu China-girl! YÅEOÅEU have just claimed 
+the right to overturn your fate through your own power!
 
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -74,15 +74,15 @@ volunteer wouldn't have stuck around this long to help!
 \\@CHARA_IN@< 2, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10054", 100>
 Neco_Arc
-Now then, the real Miyako Route starts now. And I will
-be returning to my behind-the-scenes work.
+Now then, the real Miyako Route starts now so I 
+will be returning to my behind-the-scenes work.
 \l
 
 \\@CHARA_IN@< 2, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10055", 100>
 Neco_Arc
-I can't wait to see how this unfolds! Time to face your
-destiny! It's now or never, boys and girls!
+I can't wait to see how this story unfolds! Destiny 
+waits for no-one! Keep on fighting, boys and girls!
 \l
 
 \\@CHARA_IN@< 2, 53, 0, 0, 1>
@@ -93,8 +93,9 @@ Next timeÅF Miyako Route - Day 3.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10057", 100>
 Neco_Arc
-ÅgThe Unknownable Assassin Who Has Been Hired By The Main Villain!
-Å@Shiki! Your homeroom teacher isn't actually as young as she says!Åh
+ÅgThe Unknownable Assassin Who Has Been Hired By 
+ The Main Villain! Shiki! Your homeroom teacher
+ isn't actually as young as she says!Åh
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10058", 100>

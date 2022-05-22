@@ -23,7 +23,7 @@
 \\@CHARA_IN@< 2, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0020", 100>
 Bake_Neko
-Time for a quick recap.
+The story so far.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0021", 100>

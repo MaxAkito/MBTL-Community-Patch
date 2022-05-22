@@ -29,8 +29,9 @@ My mother assured me that he would be just fine.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10132", 100>
 Miyako
-Me, I went on strike out of shock, snapping at everyone who
-came close and locking myself in my room most of the day.
+Me, I went on strike out of shock, snapping at 
+everyone who came close and locking myself in my 
+room most of the day.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10133", 100>
 Miyako
@@ -39,8 +40,8 @@ I need to go to the dojo...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10134", 100>
 Miyako
-Not even I myself quite understand the urge as to why,
-but I hurried the dojo anyways.
+Not even I myself quite understand the urge 
+as to why, but I hurried to the dojo anyways.
 
 \\@SYSTEM@<21>
 \aw

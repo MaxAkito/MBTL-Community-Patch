@@ -21,7 +21,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10010", 100>
 Shiki
 Miyako, watch out! 
-There's a huge block of ice right above you!
+There's a 1-meter tall block of ice right above you!
 
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -48,8 +48,9 @@ A-A-Anyways! Hyah!!
 \\@CHARA_IN@< 1, 9, 4, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10000", 100>
 Volv@Volv_Fuyu
-To think you would destroy my gift like that...
-What a terrible place... The cruelty is overwhelming.
+To think you would straight up destroy my gift 
+like that... What a terrible city... Your cruelty
+has truly come to its peak.
 
 \\@CHARA_OUT@<0, 13, -1, 0, 0>
 \\@CHARA_OUT@<1, 9, -1, 0, 0>
@@ -68,21 +69,21 @@ What a terrible place... The cruelty is overwhelming.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10070", 100>
 Neco_Arc
-~The story so far~
+The story so far!
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10071", 100>
 Neco_Arc
-Miyako defeated the master assassin, Noel. 
-However, not ten minutes passed before the peace was broken.
+Miyako defeated the master assassin, Noel. However, not 
+ten minutes passed before the peace was broken.
 \l
 
 \\@CHARA_IN@< 3, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10072", 100>
 Neco_Arc
-A new threat was out for Shiki Tohno's blood.
-It was Ded Moroz, General Winter himself!
+What appeared was a vampiric monster, out for Shiki's 
+blood! It was Ded Moroz, General Winter himself!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10073", 100>
@@ -93,15 +94,16 @@ Misaki Town was hit with an extreme cold front.
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10074", 100>
 Neco_Arc
-Before long, the sales of snow cones would hit a record
-low and the beach-front cafes would be in trouble!
+Before long, the sales of snow cones would hit a 
+record low and the beach-front cafes wouldn't be 
+able to sell their noodles anymore!
 \l
 
 \\@CHARA_IN@< 3, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10075", 100>
 Neco_Arc
-To save the spirit of the season, not to mention
-the possibility of a summer vacation with her brother...
+To save the summer spirit, not to mention
+the possibility of a vacation with her brother...
 \l
 
 \\@CHARA_IN@< 3, 53, 108, 0, 1>
@@ -127,13 +129,13 @@ Miyako awoke to her inner true power!
 \\@CHARA_IN@< 1, 9, -1, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10001", 100>
 Volv@Volv_Fuyu
-It had thought that pain no longer bothered me...
+It had thought that most pain no longer bothered me...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10002", 100>
 Volv@Volv_Fuyu
-But seeing such an innocent girl reject my gifts directly
-is not something I'll ever get used to...
+But seeing such an innocent girl reject my gifts 
+directly is not something I'll ever get used to...
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 101>
@@ -152,14 +154,15 @@ I wonder what it is. Let's see...
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10011", 100>
 Shiki
 It's an booster pack for that popular card game.
-This one was only valid two regulations ago, though.
+This one was only valid two banlists ago, though.
 \l
 
 \\@CHARA_IN@< 2, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10012", 100>
 Shiki
-Not really useful anymore, though it did have some cards
-that collectors would love to get their hands on.
+Can't really use them anymore, though it does 
+have some cards that collectors would love to 
+get their hands on.
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10052", 100>
@@ -180,7 +183,8 @@ Shiki
 \\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
 \\@EMG_PRINT@<"Special translation: Where is this duelist from?", 102, 1060, 650>
 You must live in the middle of nowhere, then. 
-Maybe you should study the latest trends instead of war stratagems.
+Maybe you should study the latest trends instead
+of stratagems of war.
 
 \\@GO_SUB@<"QUAKE_2">
 \\@CHARA_IN@< 1, 9, 6, 0, 101>
@@ -200,28 +204,30 @@ D-D-Don't scare me like that, Mr. Moroz!
 \\@CHARA_IN@< 1, 9, 5, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10006", 100>
 Volv@Volv_Fuyu
-That man uncovered something within me he shouldn't have.
+That man just touched a nerve he shouldn't have.
 Trends? Is that what you said?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10007", 100>
 Volv@Volv_Fuyu
-Even the postal service in my lands are six months behind!
-Same-day delivery is something I can only dream of...
+In my accursed land even the postal service is 
+six months behind! Not to mention same-day delivery 
+being something I could only ever dream of...
 \l
 
 \\@CHARA_IN@< 1, 9, 1, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10008", 100>
 Volv@Volv_Fuyu
-This is precisely why you city people are beyond salvation! 
-Just like I thought... this city should be drowned in death!
+This is precisely why you city people are beyond 
+salvation! Just like I thought... this city deserves 
+to be wiped out!
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10009", 100>
 Volv@Volv_Fuyu
 I am Ded Moroz, General Winter. 
-To some, I am known as Santa Claus.
+To some, I am known as the Monstrous Santa Claus.
 \l
 
 \\@CHARA_IN@< 1, 9, 5, 0, 101>

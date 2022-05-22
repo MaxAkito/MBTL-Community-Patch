@@ -68,20 +68,21 @@ seemed pretty shady too, Hisui.
 \\@CHARA_IN@< 3, 53, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10080", 100>
 Neco_Arc
-~The story so far~
+The story so far!
 \l
 
 \\@CHARA_IN@< 3, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10081", 100>
 Neco_Arc
-Miyako defeated a completely non-story related character,
-though his strength could probably rival that of a final boss.
+Miyako defeated a monster so powerful you could've mistaken
+him for the final boss, even though he had nothing to do
+with the actual plot.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10082", 100>
 Neco_Arc
 She stopped in a nearby park to rest and replenish her
-expended calories, but evil does not rest.
+expended calories. However... evil does not rest.
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
@@ -93,8 +94,9 @@ but their forced smiles hid a sorrowful past.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10084", 100>
 Neco_Arc
-Will the kind-hearted Miyako fight it in herself to fight 
-the odd pair, who are clearly cheating by fighting together?
+Will the kind-hearted Miyako find it in herself 
+to fight the odd pair, who are clearly cheating 
+by fighting together?
 
 \\@CHARA_OUT@<3, -1, -1, 0, 0>
 \\aw
@@ -115,8 +117,8 @@ the odd pair, who are clearly cheating by fighting together?
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10061", 100>
 Miyako
-Why would a couple of maids who were just passing by
-try to poison me?
+Why would a couple of maids who were 
+just passing by try to poison me?
 \l
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
@@ -134,7 +136,7 @@ Well... Of course I do. These two are--
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His_10001", 100>
 Hisui
-You do not, Master Shiki. 
+No, you don't, Master Shiki. 
 Right now, we are not who you think we are.
 
 \\@CHARA_IN@< 3, 4, 106, 0, 1>
@@ -142,13 +144,14 @@ Right now, we are not who you think we are.
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10001", 100>
 Kohaku
 That is correct. Our evil employer has brainwashed us.
-We are a poor pair of assassins, sent to eliminate Miss Miyako...
+We are a poor pair of assassins, sent to eliminate 
+Miss Miyako...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10002", 100>
 Kohaku
-It's not like came here because we wanted to have fun or something.
-Make sure you keep that in mind.
+It's not like came here because we wanted to have 
+fun or something. Make sure you keep that in mind.
 
 \\@CHARA_IN@< 2, 3, 6, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
@@ -199,8 +202,8 @@ But how...?!
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10024", 100>
 Shiki
-Uh... yeah... I'm sure they'll snap out of it if you fight 
-them? They sure look ready for a battle.
+Uh... yeah... I'm sure they'll snap out of it if
+you fight them? They sure look ready for a battle.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10025", 100>
@@ -220,8 +223,8 @@ I'm sure it'll prove a good lesson for Kohaku.
 \\@CHARA_EMOVE@<0, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10066", 100>
 Miyako
-You got it! It's for the good of these poor maids,
-too! I'll give it everything I've got!
+You got it! It's for the good of these poor 
+maids, too! I'll give it everything I've got!
 
 \\@CHARA_IN@< 3, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<3, -1, 1>

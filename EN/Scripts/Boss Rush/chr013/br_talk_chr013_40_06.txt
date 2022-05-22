@@ -34,7 +34,7 @@
 \\@CHARA_IN@< 3, 53, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10100", 100>
 Neco_Arc
-~The story so far~
+The story so far!
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
@@ -47,33 +47,34 @@ of those who command Misaki Town from the shadows.
 \\@CHARA_IN@< 3, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10102", 100>
 Neco_Arc
-It was none other than the home of the Akiha,
+It was the mansion under control of Akiha Tohno,
 the Tohno family head and Shiki's younger sister.
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10103", 100>
 Neco_Arc
-Akiha is set on correcting Shiki's listless nature
+Akiha was set on correcting Shiki's listless nature
 so as to turn him into an upstanding, model student.
 \l
 
 \\@CHARA_IN@< 3, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10104", 100>
 Neco_Arc
-She paid good money to hire a nun with too much time
-on her hands, made a deal with a vampire from the...
+She paid good money to hire a nun with too much 
+time on her hands, made a deal with a vampire 
+from the middle of nowhere...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10105", 100>
 Neco_Arc
-...middle of nowhere, and gave a pair of inseparable
-maids a nudge with subtle threats of a pay cut...
+...and gave a pair of inseparable maids 
+a nudge with subtle threats of a pay cut...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10106", 100>
 Neco_Arc
-all as part of the Capture Tohno Shiki Project.
+all as part of the Tohno Shiki Acquisition Project.
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
@@ -107,8 +108,8 @@ This is just some stupid family quarrel!
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10081", 100>
 Miyako
-You wrote this script didn't you? 
-Why was I stupid enough to get my hopes up!
+You wrote this script didn't you, Neco-Arc? 
+Why was I so stupid to get my hopes up!
 \l
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
@@ -145,7 +146,7 @@ ringing the doorbell, then start insulting me?
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10001", 100>
 Akiha
 You think I'm just being spiteful?
-You don't think I'm last boss material?
+You don't think I'm final boss material?
 \l
 
 \\@CHARA_IN@< 1, 2, 202, 0, 1>
@@ -178,8 +179,9 @@ find someone to help you, you'd best give up now.
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10004", 100>
 Akiha
-This is the Tohno private estate. An unapproachable and 
-inescapable forest, for both the police and the Executors.
+This is the Tohno private estate. 
+An unapproachable and inescapable forest, 
+for both the police and the Executors.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10005", 100>

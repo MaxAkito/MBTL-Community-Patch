@@ -74,22 +74,22 @@ What's going on?! Show yourself, you shady feline!
 //Ç±Ç±Ç©ÇÁóßÇøäGÇæÇ∑
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10002", 100>
 Neco_Arc
-Bonjour, Little Miss Kung Fu. I'll wager you're probably
+Bonjour, China-girl. I'll wager you're probably
 surprised to find your ending cut short like that.
 \l
 
 \\@CHARA_IN@< 2, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10003", 100>
 Neco_Arc
-You gonna break down and cry? Lose your cool? Feel lost?
-And then leg it after your throw-whiff motion?
+You gonna break down and cry? Lose your cool? 
+Feel lost? And then leg it after your throw-whiff motion?
 \l
 
 \\@CHARA_IN@< 2, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10004", 100>
 Neco_Arc
-Just kitty-ing! There's not a whole lot that can
-happen when time is stopped!
+Just kitty-ing! There's not a whole lot 
+that can happen when time is stopped!
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10004", 100>
@@ -100,7 +100,7 @@ Time is... stopped?
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10005", 100>
 Neco_Arc
-Of course. This is all in your head, after all.
+Of course. This is all in your head, after--
 
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 4>
@@ -125,16 +125,16 @@ It says so right down there on the screen.
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10007", 100>
 Neco_Arc
-Oh, right. Since this is happening in your head it makes sense
-you can see that. You sure adapt quickly, Miss China.
+Oh, right. Since this is happening in your head it makes 
+sense you can see that. You sure adapt quickly, China-girl.
 \l
 
 \\@CHARA_IN@< 2, 53, 102, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10008", 100>
 Neco_Arc
-Your info is a bit outdated, however. Either that, or you
-just have a soft spot for cute kittens like myself.
+Your info is a bit outdated, however. Either that, or 
+you just have a soft spot for cute kittens like myself.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10009", 100>
@@ -147,13 +147,13 @@ That model was so last decade!
 \\@CHARA_EMOVE@<2, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10010", 100>
 Neco_Arc
-I have been awoken to the new power known as ÅgRe$:makeÅh!
-You may call me Lumi-Arc, the Shining Cat!
+I am the Shining Cat who has been awoken to the new 
+power known as ÅgRe$:makeÅh! That's right, Lumi-Arc!
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10007", 100>
 Miyako
-Really? What's so different about this model?
+Really? So what's changed?
 
 \\@CHARA_IN@< 2, 53, 108, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
@@ -167,34 +167,36 @@ the Permian, which also improved my matchup spread.
 \\@CHARA_EMOVE@<2, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10012", 100>
 Neco_Arc
-Having a 0:10 matchup against every character is just
-a bit too damn sad, ya know?
+Having a 0$:10 matchup against every character 
+is just a bit too damn sad, ya know?
 \l
 
 \\@CHARA_IN@< 2, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10013", 100>
 Neco_Arc
 So I was just in the process of adjusting it
-to have at least a 5:5 matchup in the mirror.
+to have at least a 5$:5 matchup in the mirror.
 
 \\@CHARA_IN@< 0, 13, 13, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10008", 100>
 Miyako
-(In other words, nothing has changed.)
+(In other words, nothing has changed)
 
 \\@CHARA_IN@< 2, 53, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10014", 100>
 Neco_Arc
-Oh, and my catchphrase when firing my eye beams has been
-updated to more properly reflect modern sensibilites.
+Oh, and my catchphrase when firing my eye beams has 
+been updated. You know how things are these days.
+That attack's name was a bit too spicy.
 \l
 
 \\@CHARA_IN@< 2, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10015", 100>
 Neco_Arc
-But that's enough about my patch notes! I'm not hanging
-around in this space pocket out of the goodness of my heart.
+But that's enough about my patch notes! 
+I'm not hanging around in this space pocket 
+out of the goodness of my heart.
 \l
 
 \\@CHARA_IN@< 2, 53, 100, 0, 1>
@@ -231,13 +233,14 @@ already guessed at my meowning!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10020", 100>
 Neco_Arc
-The story you experienced until now is simply one
-possible future; one that hinged on your ability to fight.
+The story you experienced until now was simply one 
+possibility among many. A future which might have 
+occured had you possessed the ability to fight.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10021", 100>
 Neco_Arc
-Something borne from nothing. Nothing borne from something. 
+Something born from nothing. Nothing born from something. 
 A mere dream constructed from vague speculation.
 \l
 
@@ -246,7 +249,7 @@ A mere dream constructed from vague speculation.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10022", 100>
 Neco_Arc
 An illusion shown to you by the neurons in your noggin.
-Nothing more than a flight of fancy. Get it now?
+Nothing more than some make-believe. Get it now?
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10010", 100>
@@ -264,7 +267,8 @@ Explain it so I can understand.
 \\@CHARA_EMOVE@<2, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10023", 100>
 Neco_Arc
-Are you telling me you haven't understood a single word?
+I've been explaining so nicely 
+and you still don't get it?
 \l
 
 \\@CHARA_IN@< 2, 53, 110, 0, 1>
@@ -297,22 +301,24 @@ I suppose wondering is as pointless as pie in the sky.
 \\@CHARA_IN@< 2, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10028", 100>
 Neco_Arc
-That which just shattered like a psycho going through a
-wall with an axe was your ideal future.
+That which just shattered like a psycho going 
+through a wall with an axe was the possible arrival 
+of your ideal future. 
 \l
 
 \\@CHARA_IN@< 2, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10029", 100>
 Neco_Arc
 In reality, you're still counting yarn balls in your bed
-while that four-eyed freak is heading to the Tohno manor.
+while that dumb glasses-boy is heading to the Tohno manor.
 \l
 
 \\@CHARA_IN@< 2, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10030", 100>
 Neco_Arc
-At this pace, it will all follow the standard route,
-and you will never get your time together with your brother.
+At this pace, it will all follow the standard 
+route, and you will never get your time together 
+with your brother.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10012", 100>
@@ -348,22 +354,23 @@ I'll go make sure my brother doesn't leave!
 \\@CHARA_EMOVE@<2, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10031", 100>
 Neco_Arc
-I just explained this to you. The whole reason you're
-here is because you CAN'T change that.
+I just explained this to you. The whole reason 
+you're here is because you CAN'T change that.
 \l
 
 \\@CHARA_IN@< 2, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10032", 100>
 Neco_Arc
-Even if you were to wake up now, your paralyzing
-shyness would prevent you from even speaking to him.
+Even if you were to wake up now, your paralyzing shyness 
+would certainly prevent you from even speaking to him.
 \l
 
 \\@CHARA_IN@< 2, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10033", 100>
 Neco_Arc
-If you wish to change your fate, you must begin by changing 
-yourself! I know that's rough to hear, but that's how it is!
+If you wish to change your fate, you must begin by 
+changing yourself! I know that's rough to hear, 
+but there's a reason people keep saying it!
 
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10016", 100>
@@ -400,42 +407,42 @@ That is why I have appeared as your mentor.
 \\@CHARA_IN@< 2, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10036", 100>
 Neco_Arc
-Only the strong can survive in this world.
-Look at the other heroine's stories and its clear as day.
+Only the strong can survive in this world. Look at 
+the other heroine's stories and its clear as day.
 \l
 
 \\@CHARA_IN@< 2, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10037", 100>
 Neco_Arc
-That's why I am going to implement a ÅgMiyako RouteÅh
+That's why I am going to implement a ÅgMiyako RouteÅh 
 into this head-space of yours.
 \l
 
 \\@CHARA_IN@< 2, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10038", 100>
 Neco_Arc
-I've pieced it together from fragments of parallel
-worlds I have visited.
+I've pieced it together from fragments
+of parallel worlds I have visited.
 \l
 
 \\@CHARA_IN@< 2, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10039", 100>
 Neco_Arc
-Think of it as a summary of the hypothetical 
-scenario in which Miyako Arima was the heroine of Tsukihime.
+Think of it as a summary of the hypothetical scenario 
+in which Miyako Arima was the heroine of Tsukihime.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10040", 100>
 Neco_Arc
-Should you make it through the battles ahead, 
-you shall find yourself in possession of a new power...
+Should you make it through the battles ahead, you 
+shall find yourself in possession of a new power...
 \l
 
 \\@CHARA_IN@< 2, 53, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10041", 100>
 Neco_Arc
-And you shall be promoted from "Guest Heroine"
-all the way to "Sub-Heroine"!
+That of being gaining the right of going from 
+"Guest Heroine" all the way to "Sub-Heroine"!
 
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -460,8 +467,8 @@ This is the first time we've met, isn't it?
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10042", 100>
 Neco_Arc
-I try to get as many people into my favor as I can. This is
-no exception. Perhaps you'll understand when you're older.
+I try to get as many people into my favor as I can. This 
+is no exception. Maybe you'll understand when you're older.
 
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
@@ -517,13 +524,13 @@ You'll have more lives than an entire herd of cats!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10048", 100>
 Neco_Arc
 You have an infinite amount of continues, so feel free
-to keep going at this unfair game without holding back.
+to keep going at this unfair game without worries.
 \l
 
 \\@CHARA_IN@< 2, 53, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10049", 100>
 Neco_Arc
-Good Cat Kung Fu!
+Good Cat China-girl!
 Boss Rush Mode, beginnnn!
 
 

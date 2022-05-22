@@ -24,8 +24,9 @@ In more ways than one!
 \\@CHARA_IN@< 1, 53, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10111", 100>
 Neco_Arc
-What do you think about her saying stuff like that to a kid, glasses-boy?
-Maybe even you and your seven years of feeling bad for her dampened a bit?
+What do you think about her saying stuff like that 
+to a kid, glasses-boy? Maybe even you and your seven 
+years of feeling bad for her dampened a bit?
 
 \\@CHARA_IN@< 2, 3, -1, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 13>
@@ -42,15 +43,18 @@ I think Akiha was merely answering her in kind.
 \\@CHARA_IN@< 1, 53, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10112", 100>
 Neco_Arc
-Seriously? Are you guys star-crossed lovers or what? I'll
-never understand you people who can get along with everyone.
+What's with that misplaced star-crossed lovers 
+level of trust? I dunno about that kinda 
+get-along-with-everyone-attitude, personally
+
 \l
 
 \\@CHARA_IN@< 1, 53, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10113", 100>
 Neco_Arc
-Who does this glasses-boy think he is? Some kind of prism
-dispersing, bending, and reflecting the light of others?
+Or what? Do you think that just because you're the 
+glasses-boy that you're some kind of prism dispersing, 
+bending, and reflecting the light of others?
 
 \\@CHARA_IN@< 2, 3, 6, 0, 1>//äÏÇ—2
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10042", 100>
@@ -80,8 +84,8 @@ It seems our princess here is about to wake up...
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10100", 100>
 Miyako
-AAAHHHHHH!!!
-I'm gonna be killed by my evil stepsister!
+AAAHHHHHH!!
+I'm gonna be killed by my in-human stepsister!
 \l
 
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
@@ -96,27 +100,28 @@ Where's Akiha? This looks like back where we started...
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10116", 100>
 Neco_Arc
 Oui, mademoiselle. We're back at the entrance to
-your head space, Miss Fist of the Gradeschooler.
+your head space, Little Fist of the Grade-schooler.
 \l
 
 \\@CHARA_IN@< 1, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10117", 100>
 Neco_Arc
-How did you enjoy your brief time as the heroine? Was your 
-hot-blooded and manly action epic everything you wanted it to be?
+How did you enjoy your brief time as the heroine? 
+Was your hot-blooded and manly action epic everything 
+you wanted it to be?
 \l
 
 \\@CHARA_IN@< 1, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10118", 100>
 Neco_Arc
-Or were you disappointed at the G-rated plot of which there was
-not even a glimpse of love or romance?
+Or were you disappointed at the G-rated plot of which 
+there was not even a glimpse of love or romance?
 
 \\@CHARA_IN@< 0, 13, 9, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10102", 100>
 Miyako
-T-there was a glimpse at least!
+T-There was a glimpse at least!
 We had lunch in at a diner, just the two of us!
 \l
 
@@ -129,8 +134,8 @@ Isn't that right, Shiki?!
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10043", 100>
 Shiki
-We did. Just a part of the our strategy meeting, though.
-I think I'll order the pancakes next time.
+We did. Just a part of the our strategy meeting, 
+though. I think I'll order the pancakes next time.
 
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10104", 100>
@@ -140,13 +145,14 @@ Heehee!
 \\@CHARA_IN@< 1, 53, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10119", 100>
 Neco_Arc
-You are aware he's treating you like a child, aren't you?
+You are aware he's just treating you 
+like a child, aren't you?
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10105", 100>
 Miyako
-Never mind that, you dumb cat!
+Never mind that, you dumb cat! What happened here?
 \l
 
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
@@ -172,22 +178,22 @@ There was no bug, nor any lag.
 \\@CHARA_IN@< 1, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10121", 100>
 Neco_Arc
-No matter what path you take or what decision you make,
-that is how your story will always end.
+No matter what path you take or what decision 
+you make, she is always going to block your path.
 \l
 
 \\@CHARA_IN@< 1, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10122", 100>
 Neco_Arc
-A wall which you cannot overcome. 
-An absolute wall. The wall of fate. Just a wall, actually.
+A wall which you cannot overcome. An absolute wall. 
+The wall of fate. Just a wall, actually.
 \l
 
 \\@CHARA_IN@< 1, 53, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10123", 100>
 Neco_Arc
 As long as you remain Miyako Arima, 
-there is no defeating that evil sister.
+there is no defeating that inhuman sister.
 
 \\@CHARA_IN@< 0, 13, 11, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -200,8 +206,8 @@ won't come back no matter what I do?
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10124", 100>
 Neco_Arc
-Well...
-Just because you can't win doesn't mean there's no ending.
+Well... Just because you can't win 
+doesn't mean there's no ending.
 \l
 
 \\@CHARA_IN@< 1, 53, 101, 0, 1>
@@ -212,8 +218,9 @@ A master once said...
 \\@CHARA_IN@< 1, 53, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10126", 100>
 Neco_Arc
-ÅgThe most dangerous weapon is the ability to draw your
-Å@enemy close, then snatch their loved one away for yourself.Åh
+ÅgThe most busted fighting tech is the ability 
+Å@to draw your enemy close, then snatch their 
+Å@loved one away for yourself.Åh
 \l
 
 \\@CHARA_IN@< 1, 53, 100, 0, 1>
@@ -233,35 +240,35 @@ Today, you have experienced utter defeat.
 \\@CHARA_IN@< 1, 53, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10129", 100>
 Neco_Arc
-When next you wake, this bitterness will fuel you,
-propelling you to move forward.
+When next you wake, this bitterness will 
+fuel you, propelling you to move forward.
 \l
 
 \\@CHARA_IN@< 1, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10130", 100>
 Neco_Arc
 Don't forget these words of wisdom. There is meaning in
-every failure. Got that? Now say it back to me!
+continued failure. Got that? Now say it back to me!
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10109", 100>
 Miyako
-Wait, what...?
-Are you trying to say that this bad end was't pointless?
+Wait, what...? Are you trying to say 
+that this bad-end was't pointless?
 
 \\@CHARA_IN@< 1, 53, 104, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10131", 100>
 Neco_Arc
-Well, well, look at you. That adaptability of yours
-just proves that you have great potential.
+Well, well, look at you. That adaptability of 
+yours just proves that you have great potential.
 \l
 
 \\@CHARA_IN@< 1, 53, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10132", 100>
 Neco_Arc
 I think that's about enough for this time.
-Until we meet again, Little Miss Kung Fu. Good--
+Until we meet again, China-girl. Good--
 \l
 
 \\@CHARA_OUT@<2, 3, 12, 2, 1>
@@ -324,7 +331,7 @@ place can be. Why not simply never wake up?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10049", 100>
 Shiki
-I don't think you can complain yourself out of this.
+And don't think you can complain yourself out of this.
 It's my brotherly duty to give a strict lesson.
 
 \\@CHARA_IN@< 0, 13, 13, 50, 20>
@@ -352,14 +359,14 @@ I've got to keep trying until I produce results.
 \\@CHARA_IN@< 0, 13, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10114", 100>
 Miyako
-It's true that Akiha is like a giant wall made of marble.
-But still...
+It's true that Akiha is like a giant 
+wall made of marble for me. But still...
 \l
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10115", 100>
 Miyako
-there's someone I find much harder to deal with,
+...there's someone I find much harder to deal with,
 yet who I love so dearly right in front of me!
 
 \\@CHARA_IN@< 2, 3, 104, 0, 1>
@@ -372,8 +379,8 @@ I'm not very good at playing the villain, am I?
 \\@CHARA_EMOVE@<0, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10116", 100>
 Miyako
-No, you did a great job! You were born to play
-the role of soulless character with glasses!
+No, you did great! You were born to play
+the role of a soulless character with glasses!
 
 \\@CHARA_IN@< 2, 3, 108, 0, 20>
 \aw

@@ -206,7 +206,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Character       | Status                         | 
 | :-------------- |:------------------------------ | 
 | Arcueid   (000) | Play-testing adjustments (Petri) |
-| Hisui     (001) | Secondary editing done (Petri) |
+| Hisui     (001) | Play-testing adjustments (Petri) |
 | Akiha     (002) | Secondary editing done (Petri) |
 | Shiki     (003) | Secondary editing done (Petri) |
 | Kohaku    (004) | Secondary editing done (Petri) |

@@ -9,8 +9,8 @@ Um, I hope you are not injured?
 
 WinMes01:
 chara_type 2
-I am terribly sorry... 
-I'm not very comfortable with others touching me...
+I am terribly sorry... I'm not very comfortable 
+with others touching me so I just...
 \e
 
 
@@ -38,15 +38,15 @@ I should get back to cleaning.
 WinMes05:
 chara_type 1
 I'm terribly sorry. 
-It's just... you seemed so intense 
+It's just... it was all just so intense
 that I felt it necessary to defend myself.
 \e
 
 
 WinMes06:
 chara_type 101
-Quite frightening...
-I must ask that you don't try that again.
+That was frightening...
+I must ask that you don't do that again.
 \e
 
 
@@ -56,44 +56,47 @@ I must ask that you don't try that again.
 WinMes08:
 chara_type 0
 Was that satisfactory...?
-I'm afraid fighting is not my strong point.
+I'm afraid this kind of rough-housing is not my strong point.
 \e
 
 WinMes09:
 chara_type 102
-You should fix that temper of yours.
-Learning some proper manners would do you good.
+You're too lively.
+I belive you would do well to get 
+those manners of yours under control.
 \e
 
 // 対志貴
 WinMes10:
 chara_type 1
-Please forgive me, Master Shiki... I realize it may have
-been a bit too intrusive, but it was the only way I
-could think of to make you return to your room...
+Please forgive me, Master Shiki... 
+I realize it may have been a bit too intrusive
+of me, but it was the only way I could think 
+of to make you return to your room...
 \e
 
 // 対秋葉
 WinMes11:
 chara_type 1
-You seemed as if you wanted an earnest fight, so I
-did not hold back. Was it to your liking, Lady Akiha?
+You seemed as if you wanted an earnest fight, so I 
+gave it my all. Was it to your liking, Lady Akiha?
 \e
 
 // 対琥珀
 WinMes12:
 chara_type 100
-I'm sorry, Kohaku... I sensed an unusual
-amount of bloodlust coming from you.
-I had to snap you out of it.
+I'm sorry, Kohaku... 
+I sensed a quite unpleaseant bloodlust coming from you.
+I had no choice but to repel you with all my might.
 \e
 
 // 対アルクェイド
 WinMes13:
 chara_type 100
 Th-That was close...
-I'm not sure why, but... I sensed a 
-dangerous aura emanating from Miss Arcueid just now.
+I'm not sure why, but... 
+I sensed a dangerous aura
+emanating from Miss Arcueid just now.
 \e
 
 

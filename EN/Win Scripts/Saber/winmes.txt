@@ -3,13 +3,15 @@ WinMesScript
 
 WinMes00:
 chara_type 1
-I do not require a guide. I am familiar with this country's cities. 
+I do not require a guide. 
+I am familiar with this country's cities, after all. 
 That said, this city is far more urban than the one I know.
 \e
 
 WinMes01:
 chara_type 0
-Dead Apostle... Not a word you'd often hear in the land I am from.
+Dead Apostle... 
+Not a word you'd often hear in the land I am from.
 Perhaps I should have borrowed Sir Gawain's blade
 since they're so weak to sunlight.
 \e
@@ -28,17 +30,19 @@ Hopefully I'm not too out of place...
 
 WinMes04:
 chara_type 1
-This city does not seem to slumber. I have heard tales of
-late-night restaurants that serve delicious meals. Would you
-be so kind as to point me in the right direction? Perhaps
-even recommend one such establishment?
+This city does not seem to slumber. 
+I have heard tales of late-night restaurants 
+that serve delicious meals. Would you be so kind 
+as to point me in the right direction? 
+Perhaps even recommend one such establishment?
 \e
 
 // ‘Îˆê”Êl
 // ãÅ‰EàæàßEH—tEu‹M
 WinMes05:
 chara_type 1
-Phew... It would seem I was able to end this without injuring you.
+Phew... 
+It would seem I was able to end this without injuring you. 
 I've got to be careful to not stand out as much next time.
 \e
 
@@ -46,8 +50,8 @@ I've got to be careful to not stand out as much next time.
 // H—tEƒƒAEƒ”ƒ[ƒ”
 WinMes06:
 chara_type 2
-You might be my enemy, but I must say you possess 
-some astonishing powers. You might come out on top next time.
+You might be my enemy, but I must say you possess some 
+astonishing powers. You might come out on top next time.
 \e
 
 // ‘Î‹zŒŒ‹S

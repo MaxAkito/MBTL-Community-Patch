@@ -220,7 +220,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Vlov      (009) | Play-testing adjustments (Petri) |
 | Warc      (010) | Play-testing adjustments (Petri) |
 | Ciel      (011) | Play-testing adjustments (Petri) |
-| Saber     (012) | Secondary editing done (Petri) |
+| Saber     (012) | Play-testing adjustments (Petri) |
 | Miyako    (013) | Secondary editing done (Petri) | 
 | DA Noel   (014) | Secondary editing done (Petri) |
 | Aoko      (015) | Secondary editing done (Petri) |

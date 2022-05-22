@@ -2,132 +2,137 @@ WinMesScript
 
 WinMes00:
 chara_type 100
-That's a wrap!
-Who's next? ♪
+はいおしま～い！
+さ、次いってみよっか♪
 \e
 
 WinMes01:
 chara_type 0
-That was meowwy easy!
+楽勝、ぶいにゃのだー！
 \e
 
 WinMes02:
 chara_type 103
-Sorry, but you never had a chance of winning.
-Maybe try again in your next life.
+悪いけど貴方じゃ勝ち目はゼロよ。
+生まれ変わって出直すことね。
 \e
 
 WinMes03:
 chara_type 102
-Still not giving up? Fine...
-I'll just have to break you a little more 
-savagely next time. You know, as a vampire should.
+まだ諦めないの？　ふーん……
+じゃあ、次はもう少し残酷に壊してあげる。
+吸血鬼らしく、ね。
 \e
 
 WinMes04:
 chara_type 102
-Why don't I drink your blood? Very funny. 
-I would appreciate it if you didn't mistake
-me for those other third-rate vampires.
+血を吸わないのかですって？
+冗談、そこいらにいる三流と一緒にしないでくださらない？
 \e
 
-
+// パーフェクト時は抽選されない
 WinMes05:
 chara_type 104
-Not bad. I had to get a little serious there.
-I look forward to next time, if there is one.
+やるものね、ちょっとだけ本気になっちゃった。
+次があるなら期待してるわ。
 \e
 
-
+// パーフェクト時は抽選されない
 WinMes06:
 chara_type 104
-Perhaps I stayed out in the sun too long. 
-You were so weak. The fact that this even qualified 
-as a fight must mean my performance is dropping.
+……少し陽射しを浴びすぎたかしら。
+この程度の相手と“戦い”になるなんて、
+性能が落ちてるみたい。
 \e
 
 WinMes07:
 chara_type 103
-Oh, done already? 
-Not as strong as you look, are you?
+あら、もう終わり？
+見かけほどじゃないのね、貴方。
 \e
 
 WinMes08:
 chara_type 100
-Ahh, that felt great! ♪
-Like that feeling you get standing under 
-a blue sky after deflecting a missile, you know? 
-Not that I've ever done that. 
+あー、気持ち良かったー♪
+青空の下でこう、かっきーんって
+ミサイルを打ち返すような感じ？
+やったコトないけど。
 \e
 
 WinMes09:
 chara_type 100
-You wanna to go again? 
-It was pretty fun, but if we're doing 
-one more I'll hand your ass to you.
+まだやる？
+楽しかったから、もう一回ぐらいなら
+こてんぱんにしてあげましょう！
 \e
 
 WinMes10:
 chara_type 103
-Sometimes I just don't understand you people.
-Why do you continue to throw your lives away
-when you know you can't win?
+……時々、貴方たちが解らなくなるわ。
+勝てないって解ってるのに、
+どうして自分から命を差し出すのかって。
 \e
 
 WinMes11:
 chara_type 102
-Jump, turn around, throw a punch, and it's over.
-Hmmmm, is this what dancing at a ball is like?
+跳んで、回って、殴ってたら終わっちゃった。
+ん～～、舞踏会ってこういうモノ？
 \e
 
 // 対志貴
 WinMes12:
 chara_type 0
-Heheh. So, impressed or what?
-Even if you get serious, Shiki, I'm not losing again ♪
+へへーん。どう、見直した？
+志貴が本気になっても、もう負けないんだから！
 \e
 
 // 対ヴローヴ
 WinMes13:
 chara_type 103
-You may have just became an Ancestor, 
-but you should still know some manners.
-Else it reflects poorly on the sire who 
-bequeathed you their Principle.
+祖になったばかりとはいえ、
+礼儀作法を覚えなさい。
+アナタに原理を譲った親の程度が知れるわ。
 \e
 
 // 対秋葉
 WinMes14:
 chara_type 100
-You're getting sharper day by day.
-Shiki might be bothered by it, but
-I'm happy to have more playmates.
+妹、日増しに鋭くなってるわね。
+志貴は困ってたけど、わたしは遊び相手が
+増えて嬉しいんだけどなぁ。
 \e
 
 // 対シエル
 WinMes15:
 chara_type 101
-Ugh, how annoying. It never ends!
-Just go away already, Ciel.
-Keep this up, and the casualties 
-won't stop at just you.
+ああ面倒くさい、キリがないにも程がある……！
+さっさと消えてシエル。
+これ以上やるなら、被害にあうのは
+貴女だけじゃなくなるわよ。
 \e
 
 // 対ロア
 WinMes16:
 chara_type 103
-Farewell, my very first! Were you satisfied?
-Not only did I spill your blood this time,
-but I tore you apart completely, soul included!
+さようなら、わたしのはじめての人！
+ねえ満足？　今度は血と言わず、
+魂もろとも八つ裂きにしてあげたわ！
 \e
 
 // 対軋間
 WinMes17:
 chara_type 103
-You're... an old Mixblood from this land?
-There's some human mixed in, but the quality of 
-your blood is on par with a Phantasmal Beast. 
-How do you maintain that?!
+アナタ、この国の旧い混血？
+人と混ざってはいるけど、血の質は幻獣クラスよ？
+どうやって維持してたの？
+\e
+
+// 対武装シエル
+WinMes18:
+chara_type 102
+もー、先に本気にならないでよねー！
+わたし、まだお淑やかな吸血鬼！
+そう簡単に暴走したりしませーん！
 \e
 
 // 99まで追加可能
@@ -137,16 +142,15 @@ How do you maintain that?!
 
 WinMes3WinStreak00:
 chara_type 0
-All right! Three wins in a row!
-Gotta keep it up!
+ひゅーひゅー、３連勝～！
+この調子でいってみよ～！
 \e
 
 WinMes10WinStreak00:
 chara_type 0
-Awesome! Ten wins in a row! It just...
-Ahhh... feels so great, you know?!
+すっごい、１０連勝おめでとう！
+なんかもう、ん～～～っ！！！！　って感じ！
 \e
-
 
 //隠しキャラ解放test
 UnlockMes00:

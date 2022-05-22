@@ -209,7 +209,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Hisui     (001) | Play-testing adjustments (Petri) |
 | Akiha     (002) | Play-testing adjustments (Petri) |
 | Shiki     (003) | Play-testing adjustments (Petri) |
-| Kohaku    (004) | Secondary editing done (Petri) |
+| Kohaku    (004) | Play-testing adjustments (Petri) |
 | Roa       (005) | Secondary editing done (Petri) |
 | Kouma     (006) | Secondary editing done (Petri) |
 | Maids     (007) | Secondary editing done (Petri) |

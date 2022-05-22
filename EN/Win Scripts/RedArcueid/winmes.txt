@@ -15,9 +15,10 @@ look of pain on your face a little bit exciting.
 
 WinMes02:
 chara_type 102
-Oh, I'm sorry. The difference in scale between us was just too much.
-Harmful as you may be, you're nothing but an insect regardless.
-I'm gonna have to be a bit more careful next time. Well, if there is one.
+Oh, I'm sorry. The difference in scale between us was 
+just too much. Harmful as you may be, you're nothing but 
+an insect regardless. I'm gonna have to be a bit more 
+careful next time. Well, if there is one.
 \e
 
 WinMes03:
@@ -38,7 +39,7 @@ WinMes05:
 chara_type 101
 chara_type_sub 102
 chara_switchframe 530
-Boooring. I'm finally free to do as I please, but now
+What a bore. I'm finally free to do as I please, but now
 there's not a single person who can keep up with me.
 Hehe... This poses quite the problem.
 Who knows what'll happen if I can't take out my frustrations?
@@ -76,7 +77,7 @@ I see, I see...
 // ëŒéuãM
 WinMes10:
 chara_type 1
-Gotcha~ Now it's your turn, little wolf.
+Gotcha... Now it's your turn, little wolf.
 I'll have you take responsibility for killing me...
 Until that soul of yours has been completely spent.
 \e
@@ -85,10 +86,17 @@ Until that soul of yours has been completely spent.
 WinMes11:
 chara_type 102
 Wait, you're done already, Ciel? But... coming back to life 
-after you're killed is the only thing you're good for!
+after you're killed is the only thing you're good for...
 \e
 
-
+// ëŒïêëïÉVÉGÉã
+WinMes12:
+chara_type 2
+Is that all you got?
+You haven't even used all your magical energy yet.
+As it is, you're quite literally only half-dead.
+How about you come at with with even bigger weapons next time?
+\e
 
 
 

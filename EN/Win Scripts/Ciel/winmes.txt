@@ -3,26 +3,29 @@ WinMesScript
 
 WinMes00:
 chara_type 102
-It's because you resist that you get hurt.
-How about you learn from this and become a bit more obedient?
+It's because you resist that you get hurt. How about 
+you learn from this and become a bit more obedient?
 \e
 
 WinMes01:
 chara_type 0
-I doubt you wish to die any more than I do. I'll let you
-go with a warning this time, so please take the time to repent.
+I doubt you wish to die any more than I do. 
+I'll let you go with a warning this time, 
+so please take the time to repent.
 \e
 
 WinMes02:
 chara_type 100
-Our difference in skill is clear. Maybe now you understand that I 
-wasn't granted the title of seventh in the Burial Agency for nothing.
+Our difference in skill is clear. 
+Maybe now you understand that I wasn't granted the 
+title of seventh in the Burial Agency for nothing.
 \e
 
 WinMes03:
 chara_type 0
 Lord God Almighty, thy Will is that which I Execute.
 There, Execution Complete.
+Just as I'm getting hungry too!
 Time to head over to Messiaen!
 \e
 
@@ -56,7 +59,8 @@ Ms. Noel, could I entrust you with some needlework?
 WinMes08:
 chara_type 1
 Finally decided to accept defeat?
-Hopefully we can do things a bit more peacefully the next time we meet.
+Hopefully we can do things a bit 
+more peacefully the next time we meet.
 \e
 
 WinMes09:
@@ -86,17 +90,18 @@ back to my place to reflect on your actions, Shiki?
 // 対アルクェイド
 WinMes12:
 chara_type 102
-Finished already? Your movements have really started to drag.
-Did you gain a few pounds of extra fat from depending on a 
-certain someone too much?
+Finished already? Your movements have really started 
+to drag. Did you gain a few pounds of extra fat from 
+depending on a certain someone too much?
 \e
 
 // 対秋葉
 WinMes13:
 chara_type 100
-That was certainly unexpected. I would not have thought
-someone without any combat training could survive that long
-against me. Your skill could prove deadly if left unchecked.
+That was certainly unexpected.
+I would not have thought someone without any 
+combat training could survive that long against me. 
+Your skill could prove deadly if left unchecked.
 \e
 
 // 対秋葉、翡翠、琥珀、ヒスコハ　※特に琥珀用
@@ -111,8 +116,9 @@ reflect on what happened here?
 // 対ロア
 WinMes15:
 chara_type 100
-The hand of death has finally snaked itself around your throat.
 I will not allow you to reincarnate again.
+The hand of death has finally snaked itself 
+around your throat.
 \e
 
 // 対死徒ノエル
@@ -129,10 +135,20 @@ chara_type 102
 chara_type_sub 101
 chara_switchframe 180
 Your youthful delusions of grandeur must be eradicated!
-You think that sounded awfully personal?
-Of course not~ It's just that I'm a member of the Holy Church.
+You think that sounded awfully personal? Of course not... 
+It's just that I'm a member of the Holy Church.
 Defeating members of the Mages Association is part of my job.
 \e
+
+// 対マーリオゥ
+WinMes18:
+chara_type 0
+Strengthening people through thread weaving...
+The way you fight suits you well.
+I'm sure your brother is quite proud of your outstanding 
+leadership abilities, considering how young you are.
+\e
+
 
 // 99まで追加可能
 

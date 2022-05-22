@@ -3,8 +3,9 @@ WinMesScript
 
 WinMes00:
 chara_type 1
-What a tiring person you are. My superiority has been 
-clearly demonstrated. There's no need to continue this any further.
+What a tiring person you are. 
+My superiority has been clearly demonstrated. 
+There's no need to continue this any further.
 \e
 
 WinMes01:
@@ -15,21 +16,22 @@ as your opponent if there is ever a next time.
 
 WinMes02:
 chara_type 102
-I'm even more impressive than I thought. 
+Would you look at that, I fight quite well, after all. 
 If I'm this good, there's even no need for me to inverse.
 \e
 
 WinMes03:
 chara_type 101
-The battle has been decided. You will find the exit over
-there. I suggest you use it while you're still alive.
+The battle has been decided. 
+You will find the exit over there. 
+I suggest you use it while you're still alive.
 \e
 
 WinMes04:
 chara_type 101
 Ooh, you look dissatisfied. 
 Do you perhaps wish to try again? 
-Though the outcome will remain unchanged for all eternity.
+The outcome will remain unchanged for all eternity, though.
 \e
 
 WinMes05:
@@ -40,8 +42,9 @@ Heh, perhaps I acted a bit immodestly?
 
 WinMes06:
 chara_type 104
-Battle isn't about power, it's about having technique and 
-a keen mind. I'm sure you've grasped that well enough by now.
+Battle isn't about power, 
+it's about having technique and a keen mind. 
+I'm sure you've grasped that well enough by now.
 \e
 
 WinMes07:
@@ -54,8 +57,8 @@ from proving my superiority like this?
 WinMes08:
 chara_type 2
 Thank you. This has proved a great diversion.
-How about it? Would you perhaps consider serving as my
-opponent once a week or so?
+How about it? Would you perhaps consider 
+serving as my opponent once a week or so?
 \e
 
 WinMes09:
@@ -66,9 +69,9 @@ recently, but I think I'm learning quickly.
 
 WinMes10:
 chara_type 1
-Oh dear, those injuries look nasty. Don't worry, I'll have
-someone see to your wounds right away. Oh, but
-be careful. She has a habit of over-medicating.
+Oh dear, those injuries look nasty. Don't worry, 
+I'll have someone see to your wounds right away. 
+Oh, but be careful. She has a habit of over-medicating.
 \e
 
 WinMes11:
@@ -80,8 +83,9 @@ Do take care.
 // ‘ÎŽu‹M
 WinMes12:
 chara_type 0
-See, Shiki? If I put my mind to it, I can fight too. 
-Promise to ask me for help the next time you need it, all right?
+See, Shiki? If I put my mind to it, 
+I can fight too. Promise to ask me 
+for help the next time you need it, all right?
 \e
 
 // ‘ÎŽu‹M
@@ -95,25 +99,25 @@ on a secluded island until you've reflected on your actions.
 // ‘ÎƒqƒXƒRƒn
 WinMes14:
 chara_type 1
-This goes without saying, but you two understand that you'll
-be receiving a pay cut for this, right? At minimum.
+This goes without saying, but you two understand that 
+you'll be receiving a pay cut for this, right? At minimum.
 \e
 
 // ‘Îàæàß
 WinMes15:
 chara_type 104
 Kohaku, I will tolerate your outrageous behavior no longer! 
-You will take down the surveillance cameras you've installed and
-destroy your questionable medicine immediately!
+You will take down the surveillance cameras you've installed 
+and destroy your questionable medicine immediately!
 \e
 
 // ‘Î—LŠÔ“sŒÃ
 WinMes16:
 chara_type 1
-For what it's worth, you're a daughter of the Arima family, no?
-Once you're in middle school, you'll be attending Asagami
-Academy, so make sure you act more refine--What? 
-You don't plan on attending Asagami Academy?!
+For what it's worth, you're a daughter of the Arima family, 
+no? Once you're in middle school, you'll be attending 
+Asagami Academy, so make sure you act more refine--
+What? You don't plan on attending Asagami Academy?!
 \e
 
 // 99‚Ü‚Å’Ç‰Á‰Â”\
@@ -124,15 +128,15 @@ You don't plan on attending Asagami Academy?!
 
 WinMes3WinStreak00:
 chara_type 102
-Three wins isn't bad. This is proving to be quite
-the useful training session.
+Three wins isn't bad. 
+This is proving to be quite the useful training session.
 \e
 
 WinMes10WinStreak00:
 chara_type 2
-Ten wins?! That's amazing! *ahem* Excuse me. What I
-meant to say was, you would be most welcome at our estate
-should you be so interested.
+Ten wins?! That's amazing! *ahem* Excuse me. 
+What I meant to say was, you would be most 
+welcome at our estate should you be so interested.
 \e
 
 //‰B‚µƒLƒƒƒ‰‰ð•útest

@@ -3,7 +3,7 @@ WinMesScript
 WinMes00:
 chara_type 100
 That's a wrap!
-Who's next? ÅÙ
+Let's keep going! ÅÙ
 \e
 
 WinMes01:
@@ -27,8 +27,8 @@ savagely next time. You know, as a vampire should.
 WinMes04:
 chara_type 102
 Why don't I drink your blood? Very funny. 
-I would appreciate it if you didn't mistake
-me for those other third-rate vampires.
+I would appreciate it if you didn't 
+mistake me for those other third-rate vampires.
 \e
 
 
@@ -124,7 +124,7 @@ but I tore you apart completely, soul included!
 // ëŒÁaä‘
 WinMes17:
 chara_type 103
-You're... an old Mixblood from this land?
+You're... an old mixblood from this land?
 There's some human mixed in, but the quality of 
 your blood is on par with a Phantasmal Beast. 
 How do you maintain that?!

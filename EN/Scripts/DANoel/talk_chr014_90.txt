@@ -30,8 +30,9 @@ That felt great!
 \\@CHARA_IN@< 0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0061", 100>
 Dead_Noel
-Roa's potential host is having a fun time swirling around in hell
-while Roa himself is gone for good, reduced to dust!
+Roa's potential host is having a fun time swirling 
+around in hell while Roa himself is gone for good, 
+reduced to dust!
 \l
 
 \\@CHARA_IN@< 0, 14, 6, 0, 1>
@@ -45,16 +46,16 @@ doesn't that mean Shiki was innocent...?
 \\@CHARA_IN@< 0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0063", 100>
 Dead_Noel
-Well, whatever!Åô
-He's just a consciousness now, and he can't be let outside anyways!
+Well, whatever!Åô He's just a consciousness now, 
+and I can't let him outside anyways!
 \l
 
 
 \\@CHARA_IN@< 0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0064", 100>
 Dead_Noel
-Well, I'm so sorry, Shiki! Maybe I'll show you something nice
-once in a while? Maybe once per 100 deaths?
+Well, I'm so sorry, Shiki! Maybe I'll show you something 
+nice once in a while? Maybe once per 100 deaths?
 
 \l
 
@@ -159,8 +160,8 @@ We will purify your soul before that happens.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcExe/NpcExe_07_0001", 100>
 Executor
-In honor of your past record as an Executor,
-you will be granted salvation, not incineration.
+In honor of your past record as an Executor, you shall not 
+be incinerated, but instead granted salvation.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0077", 100>

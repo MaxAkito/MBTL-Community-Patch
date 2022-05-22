@@ -15,67 +15,69 @@
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0000", 100>
 Roa
-My, my, now this church looks very familiar.
-The scent of blood staining its floors hasn't changed, either.
+My, my, now this church looks very familiar. 
+It's the exact same, right down scent of blood 
+staining its floors.
 \l
 
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0001", 100>
 Roa
-To think you went out of your way to recreate it.
-A little slapdash, but they've got the use of blood down.
+To think you'd go out of your way to recreate this.
+A little slapdash, but you've got the use of blood down.
 \l
 
 \\@CHARA_IN@< 1, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0002", 100>
 Roa
-Not bad, youngling. I thought of you as a mere Rank IV at best,
-but with this I ought to acknowledge you as Rank VI.
+Not bad, youngling. I thought of you a mere Rank IV at 
+best, but with this I ought to acknowledge you as Rank VI.
 \l
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0003", 100>
 Roa
-Actually, for a bit there, you might have have even
+Actually, for a bit there, you might have even
 reached all the way to Rank VII, perhaps?
 \l
 
 \\@CHARA_IN@< 1, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0004", 100>
 Roa
-Either way, quite the repulsive invention.
-A most exquisitely wicked accomplishment, worthy of praise.
+Either way, quite the repulsive invention. A most 
+exquisitely wicked accomplishment, worthy of praise.
 
 
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0040", 100>
 Dead_Noel
-Big talk coming from someone who's survived all
-these years through little more than cowardice.
+Just like you'd figure from the master of cowards
+himself, who is only good at living for so damn long.
+At least you've got quite the mouth on you.
 \l
 
 
 \\@CHARA_IN@<0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0041", 100>
 Dead_Noel
-Or what, was that you begging for you life? Do you really think 
-empty flattery will convince me to spare your life, Serpent?
+Or what, was that you begging for you life? Do you really
+think empty flattery will convince me to spare your life?
 \l
 
 
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0042", 100>
 Dead_Noel
-Go on then. If that how it's gonna be I don't mind 
-listening to what you have to say.
+Go on then. If that how it's gonna be I don't 
+mind listening to what you have to say.
 \l
 
 
 \\@CHARA_IN@<0, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0043", 100>
 Dead_Noel
-Cmon, aren't you the wise serpent?
+C'mon, aren't you the wise serpent?
 Go on, tell me something useful.
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
@@ -89,8 +91,9 @@ information would someone like you find useful?
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0006", 100>
 Roa
-A way for you to make amends with the Executors, perhaps?
-Or maybe a means for you to escape and hide overseas?
+A way for you to survive the Executors by cozying up
+with them, perhaps? Or maybe a means for you to escape 
+alive and hide overseas?
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
@@ -124,8 +127,8 @@ by inhabiting other people's bodies.
 \\@CHARA_IN@<0, 14, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0046", 100>
 Dead_Noel
-Now that I'm a vampire too, I understand better than ever
-just how ridiculous you and your cycle of reincarnations are.
+Now that I'm a vampire too, I understand better than 
+ever just how stupid Mr. Endless Reincarnator really is.
 \l
 
 \\@CHARA_IN@<0, 14, 5, 0, 1>
@@ -145,29 +148,31 @@ As far as Dead Apostles go, my Lifescale surpasses yours.
 \\@CHARA_IN@<0, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0049", 100>
 Dead_Noel
-Are you really going to try to act like you're my superior, 
-even after this botched reincarnation of your current body?
+Are you really going to try to act like you're 
+my superior, even after this botched reincarnation
+of your current body?
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0009", 100>
 Roa
-But of course.
-Seems you're starting to get your head around this a bit more.
+But of course. Seems you're starting to 
+get your head around this a bit more.
 \l
 
 
 \\@CHARA_IN@< 1, 5, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0010", 100>
 Roa
-But really? Territory? Followers? To think you'd be so obessesed
-with paltries that you never spared a thought of before.
+But really? Territory? Followers? To think you'd be 
+so obessesed with paltries that you never spared a 
+thought to before.
 \l
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0011", 100>
 Roa
-Since you started out small, once you get a taste of some real
-power all you care about are superficialities.
+Since you started out small, once you get a taste of 
+some real power all you care about are superficialities.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
@@ -201,7 +206,8 @@ Or is it about wanting to change yourself?
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0015", 100>
 Roa
 A fool who can't even decide between those has
-the audacity to model this church after my own?
+the audacity to, even for just a moment, model 
+their church after mine?
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0016", 100>
@@ -214,14 +220,14 @@ neither of these were really ever there.
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0017", 100>
 Roa
 You, who never even came to terms with yourself,
-could never overcome anything.
+never had anything you could overcome to begin with.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0018", 100>
 Roa
-A failure capable of neither revenge or talent.
-That is all you are, Dead Apostle Noel, and all you'll ever be.
+A failure capable of neither revenge or talent. That is 
+all you are, Dead Apostle Noel, and all you'll ever be.
 
 \\@CHARA_IN@<0, 14, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0051", 100>
@@ -233,13 +239,15 @@ Shut up, shut up, shut up!
 \\@CHARA_IN@<0, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0052", 100>
 Dead_Noel
-You're weaker than me! And yet! Despite the fact that you're 
-just gonna get killed by me, you dare speak about me like you know me!
+You're weaker than me! And yet! Despite the fact that 
+you're just gonna get killed by me, you dare speak 
+about me like you know something!
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0019", 100>
 Roa
-Even now, you can barely think. You never change.
+And you're completely thoughtless too, 
+you can't make this up.
 \l
 
 

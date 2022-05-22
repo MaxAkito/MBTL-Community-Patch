@@ -24,8 +24,8 @@ It hurts... It hurts so bad...
 \\@CHARA_IN@<1, 14, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0001", 100>
 Dead_Noel
-My head is spinning...
-It hurts like... like my insides have all spilled out.
+My head is spinning... It hurts so much... 
+It's almost feels like my insides have spilled out.
 \l
 
 \\@CHARA_IN@<1, 14, 109, 0, 1>
@@ -67,14 +67,14 @@ It's a huge improvement, in every single way!
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0006", 100>
 Dead_Noel
 Aha, I spy a tasty human about one kilometer away...
-And get this damned car out of the way too!
+And get this annoying piece of junk out of the way too!
 \l
 
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0007", 100>
 Dead_Noel
-Aha... Ahahahahaa!
-This is just unfair! I mean really, isn't being a vampire just a bit too unfair?
+Aha... Ahahahahaa! This is just unfair! I mean 
+really, isn't being a vampire just a bit too unfair?
 \l
 
 
@@ -88,16 +88,16 @@ And goodbye to the most miserable part of my life!
 \\@CHARA_IN@<0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0009", 100>
 Dead_Noel
-Heheh. Now...
-I think it's time to test out what the new me is capable of.
+Heheh. With that out of the way, 
+it's time for some experiments!
 \l
 
 
 \\@CHARA_IN@<0, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0010", 100>
 Dead_Noel
-To be honest, I'm not all that thirsty.
-Still, I've gotta get fed and try out this lovely new body of mine.
+To be honest, I'm not all that thirsty. Still, I've 
+gotta get fed and try out this lovely new body of mine.
 \l
 
 

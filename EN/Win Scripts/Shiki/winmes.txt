@@ -35,7 +35,8 @@ Try to be a bit more considerate next time.
 
 WinMes05:
 chara_type 1
-Sorry, but I've got places to be. I'll call an ambulance for you.
+Sorry, but I've got places to be. 
+I'll call an ambulance for you.
 You can think about what you did in your hospital bed.
 \e
 
@@ -49,17 +50,17 @@ It seems bad luck has cursed the both of us.
 WinMes07:
 chara_type 1
 Try harder next time. 
-You know how it is these days. Appearances can be deceiving.
+You know how it is these days.
+Appearances can be deceiving.
 Never know what'll turn out to be dangerous.
 \e
 
 // 対アルクェイド
 WinMes08:
 chara_type 103
-Whoa! That was dangerous! You just don't know
-how to hold back, do you, Arcueid?
-So don't go picking fights just because
-you feel like it.
+Whoa! That was dangerous! 
+You just don't know how to hold back, do you, Arcueid?
+So don't go picking fights just because you feel like it.
 \e
 
 // 対シエル
@@ -73,15 +74,15 @@ always hold back against me.
 // 対秋葉
 WinMes10:
 chara_type 103
-That was terrifying... 
+That was real close... 
 Has Akiha been training in secret or something?
 \e
 
 // 対ヒスコハ
 WinMes11:
 chara_type 101
-Sorry, you two! I promise to head back to the mansion when
-I'm finished! I'll make this up to you then!
+Sorry, you two! I promise to head back to the mansion 
+when I'm finished! I'll make this up to you then!
 \e
 
 // 対翡翠
@@ -108,6 +109,22 @@ I can't remember...
 It almost felt as if I was dreaming of the past...
 \e
 
+// 対青子
+WinMes15:
+chara_type 100
+And that's all I've learned.
+Don't worry, Aoko. I don't always succeed,
+but I'm always trying my best.
+\e
+
+// 対武装シエル
+WinMes16:
+chara_type 100
+I've learned a lot from this mock-battle.
+We weren't fighting together, but still
+matching my movements with yours was kinda
+like a waltz. I enjoyed it.
+\e
 
 // 99まで追加可能
 

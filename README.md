@@ -225,7 +225,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | DA Noel   (014) | Play-testing adjustments (Petri) |
 | Aoko      (015) | Play-testing adjustments (Petri) |
 | P. Ciel   (016) | Play-testing adjustments (Petri) |
-| Mario     (017) | Secondary editing done (Petri) |
+| Mario     (017) | Play-testing adjustments (Petri) |
 
 ### Strings
 

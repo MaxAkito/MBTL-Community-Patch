@@ -3,7 +3,7 @@ WinMesScript
 
 WinMes00:
 chara_type 304
-Fuckin' hell, you lost to a kid?
+Fuckin' hell, don't go losing to a goddamn kid.
 And I ain't talking 'bout strength, but your noggin.
 Hit the books before you challenge me again.
 \e
@@ -17,15 +17,17 @@ I can just get some adults to beat people up for me.
 
 WinMes02:
 chara_type 100
-You'll stay a nobody for the rest 'a your life if all you do 
-is depend on your own skills. We all got shit we can't do ourselves.
+You'll stay a nobody for the rest 'a your life 
+if all you do is depend on your own skills. 
+We all got shit we can't do ourselves.
 So you gotta force others to do it for you. You get me?
 \e
 
 WinMes03:
 chara_type 305
 You can't just hope you'll fuckin' win.
-I'mma part 'a the gamer generation. I can read your every move.
+I'mma part 'a the gamer generation. 
+I can read your every move.
 \e
 
 WinMes04:
@@ -33,9 +35,9 @@ chara_type 101
 chara_type_sub 107
 chara_switchframe 500
 This Piano Machine was originally a silk loom.
-Now it weaves people instead, controlling and strengthening them.
-My old man used to gaze longingly at it 
-in the store window when he was just a boy...
+Now it weaves people instead, controlling and 
+strengthening them. My old man used to gaze longingly 
+at it in the store window when he was just a boy...
 \e
 
 WinMes05:
@@ -44,8 +46,9 @@ chara_type_sub 303
 chara_switchframe 320
 chara_type_sub1 300
 chara_switchframe1 540
-Being a kid's real nice, socially speaking. Can pick as many
-fights as I want. Sorry, talkin' to myself here.
+Being a kid's real nice, socially speaking. 
+Can pick as many fights as I want. 
+Sorry, talkin' to myself here.
 Don't worry 'bout it. Go take a nap, kid.
 \e
 
@@ -53,8 +56,8 @@ WinMes06:
 chara_type 100
 Always had a knack for violence. 
 Much more useful than Theology, at least.
-The times I get to use it have gone down the shitter 
-ever since I became Acting Presbyter though.
+The times I get to use it have gone down the 
+shitter ever since I became Acting Presbyter though.
 \e
 
 WinMes07:
@@ -81,9 +84,10 @@ Make sure to get 'em some medical care as a lil' extra.
 WinMes09:
 chara_type 303
 Alto, contact Andou.
-Took care of some trash, but I need 'im to deal with the other shit.
-And I ain't just talking 'bout cleaning up the scene.
-I want 'im invesgating the victims, give 'em some care.
+Took care of some trash, but I need 'im to deal with 
+the other shit. And I ain't just talking 'bout cleaning
+up the scene. I want 'im invesgating the victims, 
+give 'em some care.
 \e
 
 //対志貴
@@ -93,8 +97,9 @@ chara_type_sub 100
 chara_switchframe 680
 Real weird... I'd expected, well...
 That you'd show off some crazy moves or somethin'...
-But I guess you don't get all riled up when fighting a human?
-Hah! So young, and you're already hooked on something so fucked up.
+But I guess you don't get all riled up when fighting
+a human? Hah! So young, and you're already hooked on 
+something so fucked up.
 \e
 
 //対アルクェイド
@@ -110,9 +115,9 @@ What the hell happened to make you so different?!
 //対暴走アルクェイド
 WinMes12:
 chara_type 305
-This monster's just gonna come back stronger if we kill it.
-I ain't dumb enough to fight this head-on.
 Fall back, fuckers! We're leaving.
+This monster's just gonna come back stronger if we 
+kill it. I ain't dumb enough to fight this head-on.
 \e
 
 // 対シエル
@@ -184,7 +189,7 @@ WinMesArcadeWin08:
 chara_type 104
 Ey, not a bad workout. For both of us. 
 My Piano Machine ain't in bad shape. Maybe Mario the 
-Puppetmaster's gonna be back on the scene for a few years?//what was meant
+Puppetmaster's gonna be back on the scene for a few years?
 \e
 
 // 対青子（ストーリー専用）

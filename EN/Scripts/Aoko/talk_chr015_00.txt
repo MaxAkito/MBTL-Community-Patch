@@ -45,22 +45,23 @@ Either way, now it's just a matter a'speed.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0005", 100>
 Mario@Mario_Hatena
-See, cuz a'stuff I can't use the Executors I got on me.
-I need this done before it gets out to anyone else, capisce?
+See, cuz a'stuff I can't use the Executors I got
+on me. I need this done before it gets out to 
+anyone else, capisce?
 
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0000", 100>
 Aoko
-O-ho. I was just thinking you were lightly guarded, but
-I guess even high and mighty Presbyters go undercover from time to time.
-
+O-ho. I was just thinking you were lightly guarded, 
+So Mr. high-and-mighty Presbyter is undercover, huh?
 \l
 
 \\@CHARA_IN@<0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0001", 100>
 Aoko
-I thought the reward was a bit out-of-scale for just a single
-Rank VI Dead Apostle, but that's with hush money included, huh?
+I thought the reward was a bit out-of-scale for just
+a single Rank VI Dead Apostle, but that's with hush 
+money included, huh?
 \l
 
 \\@CHARA_FOCUS_COLOR@<0,1>
@@ -72,14 +73,15 @@ You think a Church elite would wanna associate with you?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0007", 100>
 Mario@Mario_Hatena
-After all, you're considered an outlaw by both the Holy Church
-and the Mages Association, Miss Fifth Magician.
+After all, you're considered an outlaw by both the Holy 
+Church and the Mages Association, Miss Fifth Magician.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0008", 100>
 Mario@Mario_Hatena
-So it wouldn't be outta character for you to just roll up into a town 
-and take care a'some Dead Apostles for no real reason, ya know?
+So it wouldn't be outta character for you to just roll
+up into a town and take care a'some Dead Apostles for 
+no real reason, ya know?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0009", 100>
@@ -104,22 +106,23 @@ I'd like to be able take a vacation now and then...
 \\@CHARA_IN@<0, 15, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0004", 100>
 Aoko
-Okay, I guess we have a deal.
-And that's without me prying into your business included.
+Okay, I guess we have a deal. And that's 
+with me not prying into your business included.
 \l
 
 \\@CHARA_IN@<0, 15, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0005", 100>
 Aoko
-Here're my bank details. You might want to pay
-me in advance; this won't take long.
+Could you send the money over to this account?
+I'll take care of this real quick.
 \l
 
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0006", 100>
 Aoko
-That said, was this town always this dangerous? Dead Apostles are one thing,
-but it seems some other nasty stuff lurks here, too.
+That said, was this town always this dangerous? 
+Seems there are some other nasty stuff lurking here
+aside from the Dead Apostles.
 
 
 \\@CHARA_FOCUS_COLOR@<0,1>
@@ -131,8 +134,8 @@ Prefer'd to avoid conflict with the local landowners.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0011", 100>
 Mario@Mario_Hatena
-Just find and capture the sire vampire... Hm?
-Wait, what the hell? You familiar with Souya or somethin'?
+Just find and capture the sire vampire... Hm? Wait, 
+what the hell? You familiar with Souya or somethin'?
 
 \\@CHARA_IN@<0, 15, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0007", 100>
@@ -158,8 +161,9 @@ I'm gonna go double all out!
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0012", 100>
 Mario@Mario_Hatena
-For real...? Your dossier didn't mention that. I guess Japan's a
-tiny country. Or maybe it's just your wanderer spirit.
+For real...? Your dossier didn't mention that. I guess 
+Japan's a tiny country. Or actually, it's probably just 
+your wanderer spirit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0013", 100>
@@ -170,8 +174,9 @@ I don't wanna see you destroying the whole underground.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0014", 100>
 Mario@Mario_Hatena
-Your goal here is to seize the Workshop. Anything outside
-what's necessary for that is coming outta your pay, capische?
+Your goal here is to seize the Workshop. 
+Anything outside what's necessary for that
+is coming outta your pay, capische?
 
 \\@CHARA_IN@<0, 15, 3, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 3>

@@ -14,8 +14,8 @@
 \\@QUAKE@<2,30,30>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0020", 100>
 Mario@Mario_Hatena
-You shitty-ass gunner!
-I see they were right about you causing nothin' but destruction!
+You shitty-ass gunner! I see they were right 
+about you causing nothin' but destruction!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0021", 100>
@@ -26,13 +26,15 @@ can only find happiness in shooting laser beams?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0022", 100>
 Mario@Mario_Hatena
-You reduced the entire fuckin' Workshop to ashes, along with Roa.
-My reputation as the 'Peoplemaster' ain't gonna survive this shit.
+You reduced the entire fuckin' Workshop to ashes, 
+along with Roa. My reputation as the 'Peoplemaster' 
+ain't gonna survive this shit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0023", 100>
 Mario@Mario_Hatena
-I feel like an dumbass for even hiring you in the first place.
+I feel like an dumbass for even 
+hiring you in the first place.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0024", 100>
@@ -62,8 +64,8 @@ So yeah, hand over that money, 'kay?
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0025", 100>
 Mario@Mario_Hatena
-I'm tellin' you, it all went towards paying off 
-the damages you caused, dumbass.
+I'm tellin' you, it all went towards paying
+off the damages you caused, dumbass.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0026", 100>
@@ -74,8 +76,9 @@ you destroyed those train cars!
 \\@CHARA_IN@< 0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0043", 100>
 Aoko
-Miracle nothing. I made sure no one would be in danger before
-I got started. I've made a promise to never kill ordinary people.
+Miracle nothing. I made sure no one would be in 
+danger before I got started. I've made a promise 
+to never kill ordinary people.
 \l
 
 \\@CHARA_IN@< 0, 15, 4, 0, 1>
@@ -94,8 +97,9 @@ I flew all the way from Australia to be here!
 \\@CHARA_FACE@<0,4,2,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0046", 100>
 Aoko
-Mr. High-and-mighty Presbyter sure has one hell of a temper...
-Wait. Are you mad because of how your body works?
+Mr. high-and-mighty Presbyter sure has one hell
+of a temper... Wait. Are you mad because of how 
+your body works?
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0027", 100>
@@ -154,8 +158,8 @@ She's still a die-hard IT-hater. Won't work.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0052", 100>
 Aoko
-El-Melloi II is probably busy, and my sister...
-No way... we'd turn this tropical island into a living hell.
+El-Melloi II is probably busy, and my sister... No way, 
+we'd turn this tropical island into a living hell.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0053", 100>

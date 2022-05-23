@@ -92,8 +92,8 @@ for help the next time you need it, all right?
 WinMes13:
 chara_type 103
 Why do you keep leaving the mansion without permission?!
-This is the last time! If you do it again I'll put you 
-on a secluded island until you've reflected on your actions.
+This is the last time! For now I'll put you on a secluded 
+island until you've reflected on your actions.
 \e
 
 // ‘ÎƒqƒXƒRƒn

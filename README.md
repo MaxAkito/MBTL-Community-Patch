@@ -229,7 +229,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 
 ### Strings
 
-| Subset                                   | Status                  |
-| :--------------------------------------- | :---------------------- |
-| Command List (cmddef.ini)                | Finalized (Petri)       |
-| Battlevoice (stringfile_battlevoice.csv) | 
+| Subset                                   | Status                       |
+| :--------------------------------------- | :--------------------------- |
+| Command List (cmddef.ini)                | Finalized (Petri)            |
+| Battlevoice (stringfile_battlevoice.csv) | Arcueid lines edited (Petri) |

@@ -177,6 +177,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 親(元)       | Sire                    | Vampire 'parent'. Only for vampires.
 | 子　　　　　　　　　　| Scion                   | Vampire 'child'. Only for vampires.
 | 七つの死因     | Seven Causes of Death   | The concept of the Seventh Holy Scripture.
+| 無限転生者    | (the) Infinite Reincarnator| Roa's nickname
 
 ## Progress
 
@@ -232,4 +233,4 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Subset                                   | Status                       |
 | :--------------------------------------- | :--------------------------- |
 | Command List (cmddef.ini)                | Finalized (Petri)            |
-| Battlevoice (stringfile_battlevoice.csv) | Shiki lines edited (Petri)   |
+| Battlevoice (stringfile_battlevoice.csv) | Kohaku lines edited (Petri)  |

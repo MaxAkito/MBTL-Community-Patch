@@ -233,4 +233,4 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Subset                                   | Status                       |
 | :--------------------------------------- | :--------------------------- |
 | Command List (cmddef.ini)                | Finalized (Petri)            |
-| Battlevoice (stringfile_battlevoice.csv) | Ciel lines edited (Petri)    |
+| Battlevoice (stringfile_battlevoice.csv) | Saber lines edited (Petri)   |

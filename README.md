@@ -207,8 +207,8 @@ In addition, some things are capitalized by virtue of being names of organizatio
 
 ### Win-quotes
 
-| Character       | Status                         | 
-| :-------------- |:------------------------------ | 
+| Character       | Status                           | 
+| :-------------- |:-------------------------------- | 
 | Arcueid   (000) | Play-testing adjustments (Petri) |
 | Hisui     (001) | Play-testing adjustments (Petri) |
 | Akiha     (002) | Play-testing adjustments (Petri) |
@@ -233,4 +233,4 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Subset                                   | Status                       |
 | :--------------------------------------- | :--------------------------- |
 | Command List (cmddef.ini)                | Finalized (Petri)            |
-| Battlevoice (stringfile_battlevoice.csv) | Aoko lines edited (Petri)    |	
+| Battlevoice (stringfile_battlevoice.csv) | Mario+PCiel lines edited (Petri)    |	

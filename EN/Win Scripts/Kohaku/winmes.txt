@@ -84,8 +84,9 @@ C'mon, let's get going to the dining hall.
 WinMes11:
 chara_type 102
 Heehee. Seems I've won this time, Lady Akiha. 
-Don't forget our agreement. I get to install more surveillance 
-cameras and will receive a larger budget for Shiki's medicine! ô
+Don't forget our agreement. I get to install more 
+surveillance cameras and will receive a larger budget 
+for Shiki's medicine! ô
 \e
 
 // ‘ÎãÅ‰

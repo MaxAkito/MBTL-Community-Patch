@@ -3,7 +3,7 @@ WinMesScript
 
 WinMes00:
 chara_type 2
-You done? 
+Done already? 
 Then you can consider your life done as well.
 \e
 
@@ -23,7 +23,7 @@ careful next time. Well, if there is one.
 
 WinMes03:
 chara_type 3
-That was anti-climactic. 
+That sure was anti-climactic. 
 You mortals really are just sooo fragile. 
 Aren't there any of you that can take more of a beating?
 \e
@@ -49,20 +49,20 @@ WinMes06:
 chara_type 0
 If one is to rule, be gentle as a maiden.
 If one is to control, be firm like a queen.
-I AM royalty--that's the least that can be expected of me.
+I AM royalty. That's the least that can be expected of me.
 \e
 
 WinMes07:
 chara_type 102
 This body is just about at its limit.
-Hahhh...
+Gee...
 Isn't there anyone who could maybe kill me again?
 \e
 
 WinMes08:
 chara_type 2
 Don't bother trying to overpower me.
-But well, If you really wish to kill me, 
+But well, if you really wish to kill me, 
 try sneaking up on me like he once did.
 \e
 

@@ -23,13 +23,14 @@ See, all things that are alive eventually die.
 
 WinMes03:
 chara_type 101
-Gotta go. I can only fight for so long before I get anemic.
+I'll be taking my leave now.
+I can only fight for so long before I get anemic.
 \e
-
 
 WinMes04:
 chara_type 3
-You had fun? Good for you. Personally, I'm totally beat. 
+You had fun? Good for you. 
+Personally, I'm totally beat. 
 Try to be a bit more considerate next time.
 \e
 
@@ -68,7 +69,7 @@ WinMes09:
 chara_type 100
 Thanks, Ciel. 
 I really love the way you 
-always hold back against me.
+always kinda hold back against me.
 \e
 
 // ëŒèHót
@@ -89,16 +90,16 @@ when I'm finished! I'll make this up to you then!
 WinMes12:
 chara_type 101
 I didn't realize there was an imitation Hisui out there.
-Still, it doesnÅft feel right raising a hand against her. 
+Still, it doesn't feel right raising a hand against her. 
 Sorry about that.
 \e
 
 // ëŒ‡Ê‡ﬂ
 WinMes13:
 chara_type 103
-You're just an imitation of Kohaku, aren't you? I'll have
-to remember to apologize to the real one when I see her.
-Do you mind if we call it a day?
+You're just an imitation of Kohaku, aren't you? 
+I'll have to remember to apologize to the real 
+one when I see her. Do you mind if we call it a day?
 \e
 
 // ëŒÁaä‘

@@ -15,7 +15,7 @@ WinMes01:
 chara_type 8
 chara_type_sub 7
 chara_switchframe 665
-Would you look at that, my injures have already healed!\sf000
+Would you look at that, my injures have already healed! \sf000
 Seems your efforts--even your entire life up until
 this point--were all for nothing, huh? Ahaha! 
 You struggled so pathetically too, you poor little thing!
@@ -27,7 +27,7 @@ chara_type 1
 A mere human?
 Standing a chance against me? 
 After I'd turned into a vampire?
-In your dreams. 
+In your dreams.
 \e
 
 //対死徒
@@ -35,14 +35,14 @@ WinMes03:
 chara_type 6
 Wow, and I haven't even been a vampire all that long.
 How embarrassing. Doesn't it make you just wanna disappear?
-Hehe... that, at least, I can arrange for you.
+Hehe... that, at least, I can arrange for you \sf000
 \e
 
 WinMes04:
 chara_type 1
 Ugh, boooring...
 Before, any battle was enough to make my heart jump
-out of my chest. But now... I guess once get too 
+out of my chest. But now... I guess once you get too 
 strong, you need a higher class of entertainment.
 \e
 
@@ -57,14 +57,14 @@ WinMes06:
 chara_type 106
 Hmph, you're not half bad. 
 But I've lost my patience so I'll let you go for now. 
-Don't worry. In seven days I'll exact sweet revenge upon you\sf000
+Don't worry. In seven days I'll exact sweet revenge upon you \sf000
 \e
 
 WinMes07:
 chara_type 102
 chara_type_sub 103
 chara_switchframe 360
-Hm...
+Hmph...
 I'll admit, this fight taught me an important lesson.
 Better note it down so I don't forget...
 \e
@@ -85,13 +85,13 @@ chara_type 8
 Well, Shiki? 
 How do you like these Mystic Eyes of Roses?
 With these, I can make you experience anything 
-I can think of. Anything I want.\sf000
+I can think of. Anything I want \sf000
 \e
 
 //対ロア
 WinMes10:
 chara_type 102
-I killed... him...
+I killed him...
 But... now he'll just come back again...
 Damn it...
 What am I even doing?!
@@ -100,9 +100,9 @@ What am I even doing?!
 // 対マーリオゥ
 WinMes11:
 chara_type 6
-Oh no, I guess the Acting Presbyter went and died...?
+Oh no, I guess the Acting Presbyter went and died?
 How awful, just reprehensible, really!
-I guess God doesn't save everyone, huh?
+I guess God really doesn't save everyone, huh?
 \e
 
 
@@ -139,7 +139,7 @@ See if I care!
 
 WinMes3WinStreak00:
 chara_type 8
-Heehee. Three wins for me!☆
+Heehee. Three wins for me! 
 Victory feels so gooood!
 \e
 

@@ -3,7 +3,7 @@ WinMesScript
 
 WinMes00:
 chara_type 1
-What a tiring person you are. 
+How tedious of you...
 My superiority has been clearly demonstrated. 
 There's no need to continue this any further.
 \e
@@ -17,7 +17,7 @@ as your opponent if there is ever a next time.
 WinMes02:
 chara_type 102
 Would you look at that, I fight quite well, after all. 
-If I'm this good, there's even no need for me to inverse.
+At this pace it won't even prove necessary to Invert.
 \e
 
 WinMes03:
@@ -56,7 +56,7 @@ from proving my superiority like this?
 
 WinMes08:
 chara_type 2
-Thank you. This has proved a great diversion.
+Thank you. This has proven a great diversion.
 How about it? Would you perhaps consider 
 serving as my opponent once a week or so?
 \e
@@ -92,8 +92,8 @@ for help the next time you need it, all right?
 WinMes13:
 chara_type 103
 Why do you keep leaving the mansion without permission?!
-This is the last time! For now I'll put you on a secluded 
-island until you've reflected on your actions.
+This is the last time! For now, you'll have to spend some 
+time on a secluded island until you've reflected on your actions!
 \e
 
 // ‘ÎƒqƒXƒRƒn

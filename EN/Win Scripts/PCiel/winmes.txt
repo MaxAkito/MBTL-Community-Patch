@@ -12,7 +12,7 @@ WinMes01:
 chara_type 3
 Usually, I like to rely on technique and experience.
 But with these armaments, I can just power through.
-Someone like you could never stop me.
+At your level, you could never stop me.
 \e
 
 WinMes02:
@@ -27,7 +27,7 @@ WinMes03:
 chara_type 1
 This mallet is a horn of purity, which has endured 
 for millenia. You should be honored. Under normal 
-circumstances, I would never use it on the likes of you.
+circumstances, it would never be used on the likes of you.
 \e
 
 WinMes04:
@@ -59,8 +59,8 @@ WinMes07:
 chara_type 104
 chara_type_sub 102
 chara_switchframe 490
-Your intentions may be good,
-but you're a part of this now.
+I know you're not a bad person, but unfortunately
+you've been mixed up in this incident all the same.
 I'd recommend laying low for a few nights.
 You got that?
 \e
@@ -168,6 +168,6 @@ WinMes10WinStreak00:
 chara_type 0
 chara_type_sub 4
 chara_switchframe 330
-Ten consecutive wins... I see, ten whole wins... Hehe.
+Ten whole wins... I see, ten whole wins... Hehe.
 I think I'm worthy of being called a champion, don't you?
 \e

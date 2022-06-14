@@ -4,7 +4,7 @@ WinMesScript
 WinMes00:
 chara_type 0
 Uuuu...
-Hyah!!!
+Hyah!!
 \e
 
 WinMes01:
@@ -35,7 +35,7 @@ I may be small now, but I'll grow up in no time!
 WinMes05:
 chara_type 104
 Hold on, how is it I can dash in mid-air? Hmm... 
-well whatever, probably best not to think about it.
+Well whatever, probably best not to think about it.
 \e
 
 WinMes06:
@@ -73,12 +73,13 @@ WinMes11:
 chara_type 103
 Stop that! 
 Don't you know bullying people weaker than you is bad?
-I'm Shiki's sister, a hero who fights for justice. Watch out!
+I'm Shiki's sister, a hero who fights for justice. 
+Watch out!
 \e
 
 WinMes12:
 chara_type 3
-How strange. Are my stances getting stronger?
+How strange. Are my stances getting better?
 Things I couldn't do yesterday seem almost easy today. 
 Oh, I get it! This is that growth spurt thing I've heard about!
 \e
@@ -111,8 +112,8 @@ Thanks, Mr. Lone-Horn!
 // 対シエル（ストーリー専用）
 WinMesArcadeWin11:
 chara_type 2
-Xiexie. I learned a lot from that, Mommy!
-Whoops! Wait! Sister!
+Xie-xie. I learned a lot from that, Mommy!
+Whoops! Wait!
 R-Right, you're not a Mommy... you're a Sister!
 \e
 

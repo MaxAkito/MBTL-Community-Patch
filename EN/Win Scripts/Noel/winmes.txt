@@ -19,14 +19,14 @@ finding marriage material at a speed-dating event.
 
 WinMes02:
 chara_type 5
-What? You expected me to go easy on you? Why would I
-do that when I can barely hold my own out here?
-Are you stupid?
+What? You expected me to go easy on you? 
+Why would I do that when I can barely hold 
+my own out here? Are you stupid?
 \e
 
 WinMes03:
 chara_type 100
-All losers get sent to the execution room all the same. 
+The losers get sent to the execution room all the same. 
 Though I suppose if your looks are to my liking,
 I might be able to show a teensy bit of favoritism.
 \e
@@ -94,7 +94,7 @@ It's like those True Ancestors I've heard of...
 // ëŒÉ}Å[ÉäÉIÉD
 WinMes11:
 chara_type 3
-Examination complete! It's my win!ÅÙ
+Examination complete! It's my win! ÅÙ
 My pent-up stress is my strength.
 Now you better get me that audience
 with the Cardinal, 'kay?

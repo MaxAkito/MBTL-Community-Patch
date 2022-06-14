@@ -78,7 +78,7 @@ Usually calls people by monikers.
 See Hisui and Kohaku
 
 #### Noel (008)
-Has a very casual register, unless she's trying to suck up to people. Uses youthful slang, despite being in her late 20s.
+Has a very casual register, unless she's trying to suck up to people. Uses youthful slang, despite being in her late 20s. Sometimes can get quite crude when shes worked up.
 
 Calls people by their first name. Calls Mario "Acting Presbyter" (his rank). Calls non-humans without using their name, calling Arcueid "that True Ancestor" and the like.
 
@@ -123,10 +123,10 @@ Calls people by their titles or last names.
 #### Mario (017)
 Has an incredibly rude way of speaking. Swears a lot. His speech is full of vulgar expressions. Uses shortened speech (gotta, aboutta, 'lil, 'a (instead of "of") 'em (instead of "them"), etc) Sometimes speaks more normally when he's thinking or reminiscing.
 
-Calls people by demeaning nicknames. Calls Noel "fatass" (ﾌﾞﾀ). Calls Arcueid "the True Ancestor Princess" (神祖の姫).
+Calls people by demeaning nicknames. Calls Noel "fatass" (ﾌﾞﾀ). Calls Arcueid "the True Ancestor Princess" (真祖の姫).
 
 #### Archetype:EARTH (0??)
-Speaks in archaic English. Uses antiquated grammatical expressions (second-person inflections on verbs) alongside old pronouns.
+Speaks in archaic English (approx, Victorian English). Uses antiquated grammatical expressions alongside old pronouns.
 
 ### Terminology
 

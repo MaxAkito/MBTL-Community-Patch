@@ -42,7 +42,7 @@ I look forward to next time, if there is one.
 WinMes06:
 chara_type 104
 Perhaps I stayed out in the sun too long. 
-You were so weak. The fact that this even qualified 
+You were so weak, so the fact that this even qualified 
 as a fight must mean my performance is dropping.
 \e
 
@@ -64,7 +64,7 @@ WinMes09:
 chara_type 100
 You wanna to go again? 
 It was pretty fun, but if we're doing 
-one more I'll hand your ass to you.
+one more I'll hand your ass to you!
 \e
 
 WinMes10:
@@ -128,6 +128,14 @@ You're... an old mixblood from this land?
 There's some human mixed in, but the quality of 
 your blood is on par with a Phantasmal Beast. 
 How do you maintain that?!
+\e
+
+// ‘Î•‘•ƒVƒGƒ‹
+WinMes18:
+chara_type 102
+Oh c'mon! Don't get all serious ahead of me!
+I'm still just a gracious little vampire!
+I'm not gonna go berserk thaaat easily!
 \e
 
 // 99‚Ü‚Å’Ç‰Á‰Â”\

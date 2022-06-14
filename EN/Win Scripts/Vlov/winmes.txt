@@ -15,12 +15,13 @@ Freeze, and die.
 WinMes02:
 chara_type 0
 I was once in a boundless and frozen sea, and so...
-The path I take is but that of a river. 
+The path I take is only that of the river. 
 \e
 
 WinMes03:
 chara_type 0
-It warms... What is blood, if not kindling for the bones...?
+It warms... 
+What is blood, if not kindling for the bones...?
 \e
 
 WinMes04:
@@ -32,13 +33,13 @@ No matter the flesh, as long as it burns, can serve as pyre.
 WinMes05:
 chara_type 0
 My being a knight might sound grander that it is.
-All that I fought were but wolves and bears.
-I never had the means of learning how to negotiate...
+All I fought were but wolves and bears. I never had 
+the means of learning how to connect with people...
 \e
 
 WinMes06:
 chara_type 0
-A wife? I have taken but ten of them...
+A wife? I have taken only but ten of them...
 I may not look it, but I was a late bloomer.
 \e
 
@@ -89,6 +90,7 @@ I sense this hunt will be a long one.
 
 WinMes10WinStreak00:
 chara_type 0
-You have talent, good fortune and of most importance, perseverence. 
-I must admit...your greatness is on par with Ded Moroz himself.
+You have talent, good fortune and 
+of most importance, perseverence. 
+I must admit... your greatness is on par with Ded Moroz himself.
 \e

@@ -74,7 +74,7 @@ WinMes10:
 chara_type 100
 Evil possessing man is but a tribulation from Heaven.
 Now begone, defector. 
-The scales of judgment have passed their decree.
+You have failed to even be judged.
 \e
 
 // ‘Îu‹M
@@ -100,7 +100,7 @@ WinMes13:
 chara_type 100
 That was certainly unexpected.
 I would not have thought someone without any 
-combat training could survive that long against me. 
+combat training could stand a chance against me.
 Your skill could prove deadly if left unchecked.
 \e
 
@@ -124,8 +124,8 @@ around your throat.
 // ‘Î€“kƒmƒGƒ‹
 WinMes16:
 chara_type 105
-I know you've had your blood sucked by a Dead Apostle, 
-but this sudden spurt of growth shouldn't be possible...
+Even if you had your blood sucked by a Dead Apostle, 
+this sudden spurt of growth shouldn't be possible...
 What on earth happened to you, Sister Noel...?
 \e
 
@@ -134,10 +134,10 @@ WinMes17:
 chara_type 102
 chara_type_sub 101
 chara_switchframe 180
-Your youthful delusions of grandeur must be eradicated!
+Youthful delusions of grandeur must be eradicated!
 You think that sounded awfully personal? Of course not... 
-It's just that I'm a member of the Holy Church.
-Defeating members of the Mages Association is part of my job.
+It's just that I'm a Sister from the Holy Church so it's 
+natural that I'd defeat those of the Mages Association.
 \e
 
 // ‘Îƒ}[ƒŠƒIƒD
@@ -158,7 +158,7 @@ leadership abilities, considering how young you are.
 
 WinMes3WinStreak00:
 chara_type 101
-Three consecutive wins?
+Three wins in a row?
 The Lord is surely pleased.
 \e
 

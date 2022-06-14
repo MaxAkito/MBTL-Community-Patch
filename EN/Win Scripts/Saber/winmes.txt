@@ -4,7 +4,7 @@ WinMesScript
 WinMes00:
 chara_type 1
 I do not require a guide. 
-I am familiar with this country's cities, after all. 
+I know Japanese cities well, after all. 
 That said, this city is far more urban than the one I know.
 \e
 
@@ -12,8 +12,8 @@ WinMes01:
 chara_type 0
 Dead Apostle... 
 Not a word you'd often hear in the land I am from.
-Perhaps I should have borrowed Sir Gawain's blade
-since they're so weak to sunlight.
+Perhaps I should have borrowed Sir Gawain's sword
+if they're so weak to sunlight.
 \e
 
 WinMes02:
@@ -30,11 +30,11 @@ Hopefully I'm not too out of place...
 
 WinMes04:
 chara_type 1
-This city does not seem to slumber. 
-I have heard tales of late-night restaurants 
-that serve delicious meals. Would you be so kind 
-as to point me in the right direction? 
-Perhaps even recommend one such establishment?
+A nightless city without slumber...
+Speaking of... I have heard these sorts of urban late-night
+dining establishments serve especially delicious food.
+May I ask of you to provide me with an exact address and 
+recommendation as to what to order?
 \e
 
 // 対一般人
@@ -59,8 +59,8 @@ astonishing powers. You might come out on top next time.
 WinMes07:
 chara_type 0
 Return to dust, monster.
-Whatever form it may take,
-I shall strike any evil which would threaten humanity.
+Whatever form it may take, I shall strike 
+down any evil which would threaten the populace.
 \e
 
 // 対翡翠＆琥珀（ストーリー専用）

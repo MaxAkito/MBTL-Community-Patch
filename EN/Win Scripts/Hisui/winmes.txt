@@ -9,15 +9,16 @@ Um, I hope you are not injured?
 
 WinMes01:
 chara_type 2
-I am terribly sorry... I'm not very comfortable 
-with others touching me so I just...
+I am terribly sorry... It's just... 
+I'm not very comfortable with others
+touching me so I just...
 \e
 
 
 WinMes02:
 chara_type 101
 You seemed as if you wanted an earnest fight,
-so I gave it everything I could.
+so I saw it fit that I put in my all.
 \e
 
 
@@ -30,8 +31,8 @@ Master Shiki! Look! I did it!
 
 WinMes04:
 chara_type 102
-Phew! Now, if you'll excuse me,
-I should get back to cleaning.
+Phew... Now, if you'll excuse me,
+I should get back to cleaning the mansion.
 \e
 
 
@@ -70,9 +71,9 @@ those manners of yours under control.
 WinMes10:
 chara_type 1
 Please forgive me, Master Shiki... 
-I realize it may have been a bit too intrusive
-of me, but it was the only way I could think 
-of to make you return to your room...
+I realize I might have gone a bit over the line, 
+but it was the only way I could think of to make 
+you return to your room...
 \e
 
 // ëŒèHót

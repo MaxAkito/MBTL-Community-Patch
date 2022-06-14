@@ -10,7 +10,7 @@ Let us meet again, should fate so decree.
 WinMes01:
 chara_type 100
 Your injuries are fine now, right?
-I took the liberty of using your stamina for it so
+I took the liberty of using your stamina for them so
 if you just rest for a day or so you'll be as good as new. 
 \e
 
@@ -42,15 +42,16 @@ WinMes05:
 chara_type 6
 chara_type_sub 3
 chara_switchframe 310
-That was more like being on a battlefield than having a fight?
-I didn't have to turn into a shootout?
-But I had to! As a sophisticated and cultured lady, a fistfight 
-would just be all too undignified a sight. O-ho-ho-ho!
+That was more like being on a battlefield than 
+having a fight? I didn't have to turn into a shootout?
+But I had to! As a sophisticated and cultured lady, 
+a fistfight would just be all too undignified a sight. 
+O-ho-ho-ho!
 \e
 
 WinMes06:
 chara_type 103
-It's too bad there aren't so that music stores around anymore.
+It's too bad there aren't that many music stores in this era.
 I'm really in the mood for a new electric guitar...
 One of those nice blue ones they had in the 80's...
 \e
@@ -77,7 +78,7 @@ WinMes09:
 chara_type 1
 chara_type_sub 3
 chara_switchframe 120
-You're telling me you were in bad form? What a terrible excuse. 
+You're telling me you were in bad form? That's not it.
 You just messed with the wrong person, that's all.
 I mean, against you people I know I don't have to hold back.
 \e
@@ -85,9 +86,10 @@ I mean, against you people I know I don't have to hold back.
 //ëŒéuãM
 WinMes10:
 chara_type 100
-You still have a little ways to go before you become the lovely man
-I'd hoped for. Adieu for now. We'll meet again, probably somewhere 
-in the middle of nowhere. I'll look forward to it.
+You still have a little ways to go before you become the 
+lovely man I'd hoped for. Adieu for now. We'll meet again, 
+probably somewherein the middle of nowhere. 
+I'll look forward to it.
 \e
 
 //ëŒèHót
@@ -126,7 +128,8 @@ chara_type 5
 Drats, looks like she got away...
 What was that? The hidden daugther of some Ancestor?
 She's got the potential of a Greater Dead Apostle
-but she fights like a total newbie. I can sympathize.
+but she fights like a total newbie. 
+It almost reminds me of myself...
 \e
 
 // 99Ç‹Ç≈í«â¡â¬î\
@@ -146,6 +149,6 @@ chara_type_sub 7
 chara_switchframe 298
 Congrats on your ten consecutive wins!
 But you still wanna keep going, right?
-There's nothing wrong to keep going until you win, but...
-I'd rather run away with the win so I never lose.
+There's nothing wrong to keep going until you win...
+Though I'd rather run away with the win so I never lose.
 \e

@@ -42,7 +42,7 @@ I look forward to next time, if there is one.
 WinMes06:
 chara_type 104
 Perhaps I stayed out in the sun too long. 
-You were so weak, so the fact that this even qualified 
+You were so weak... The fact that this even qualified 
 as a fight must mean my performance is dropping.
 \e
 
@@ -91,8 +91,8 @@ Even if you get serious, Shiki, I'm not losing again ÅÙ
 WinMes13:
 chara_type 103
 You may have just became an Ancestor, 
-but you should still know some manners.
-Else it reflects poorly on the sire who 
+but you should still know some manners,
+else it reflect poorly on the sire who 
 bequeathed you their Principle.
 \e
 

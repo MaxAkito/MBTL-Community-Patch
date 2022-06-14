@@ -34,7 +34,7 @@ time's gonna dull your mind.
 WinMes04:
 chara_type 105
 By the way, if you see an artsy girl with glasses
-who's always smoking, punch her for me. Then tell her to 
+who's always smoking, punch her for me, then tell her to 
 stop using my name to take out money from the Association.
 \e
 
@@ -42,10 +42,10 @@ WinMes05:
 chara_type 6
 chara_type_sub 3
 chara_switchframe 310
-That was more like being on a battlefield than 
-having a fight? I didn't have to turn into a shootout?
+That was more like being on a battlefield than having 
+a fight? I didn't have to turn this into a shootout?
 But I had to! As a sophisticated and cultured lady, 
-a fistfight would just be all too undignified a sight. 
+a fistfight would just be an all too undignified a sight.
 O-ho-ho-ho!
 \e
 
@@ -78,9 +78,10 @@ WinMes09:
 chara_type 1
 chara_type_sub 3
 chara_switchframe 120
-You're telling me you were in bad form? That's not it.
+You weren't just in bad form. Stop with the excuses.
 You just messed with the wrong person, that's all.
-I mean, against you people I know I don't have to hold back.
+After all, when I'm up against monsters like you
+people, I don't have to hold back.
 \e
 
 //‘ÎŽu‹M

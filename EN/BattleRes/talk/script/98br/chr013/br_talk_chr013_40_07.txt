@@ -85,7 +85,7 @@ It seems our princess here is about to wake up...
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10100", 100>
 Miyako
 AAAHHHHHH!!
-I'm gonna be killed by my in-human stepsister!
+I'm gonna be killed by my inhuman stepsister!
 \l
 
 \\@CHARA_IN@< 0, 13, 14, 0, 1>

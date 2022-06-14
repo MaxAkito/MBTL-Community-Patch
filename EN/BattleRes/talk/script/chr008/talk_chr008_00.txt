@@ -15,20 +15,20 @@
 \\@CHARA_IN@< 0, 8, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0040", 100>
 Noel
-Though I'm a month late compared to her...
-I've finally transferred to where Roa is hiding.
+I may have arrived a month later than her, but...
+Finally I've transferred to where Roa is hiding.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0041", 100>
 Noel
-So this city is called Souya, huh.
+So this city is called Souya, huh?
 \l
 
 \\@CHARA_IN@< 0, 8, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0042", 100>
 Noel
-But oh my, it's more inner-city than you'd think!
+But oh my! it's more inner-city than you'd think!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0043", 100>
@@ -41,7 +41,7 @@ This is going to be fun!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0044", 100>
 Noel
 Before this we were always stuck in some 
-country village in the middle of nowhere. 
+countryside village in the middle of nowhere. 
 All I could wear was my nun's habit.
 \l
 
@@ -56,15 +56,16 @@ Let's see... what's her outward persona like...
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0046", 100>
 Noel
-You're kidding me?! A student?! Are you fucking
-with me? You're gonna be a teenager not just in 
-body but in mind too!?
+No way?! A student?! Are you actually serious? 
+You're gonna be a teenager not just in body 
+but in mind too!?
 \l
 
 \\@CHARA_IN@< 0, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0047", 100>
 Noel
-Tsk... I shouldn't expect to pull off the student look.
+Tsk. I shouldn't expect to be able to 
+pull off the student look... 
 Or could I? No, no, get a hold of yourself.
 \l
 
@@ -92,7 +93,7 @@ And a mysterious nun, killing vampires by night!
 \\@CHARA_IN@< 0, 8, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0051", 100>
 Noel
-Oh, I've created a great character already!
+Oh, I've created a great character for myself already!
 
 \\@BGM_STOP@<0>
 \e

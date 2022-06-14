@@ -15,8 +15,8 @@
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0000", 100>
 Noel
-Whoa! A True Ancestor?!
-Hold on, this isn't in my job description!
+Whoa! A True Ancestor?! Wait-wait-wait!
+This isn't in my job description!
 
 \\@CHARA_IN@< 0, 0, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0010", 100>
@@ -28,7 +28,7 @@ survived up until now with your capabilities.
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0011", 100>
 Arcueid
-I doubt you'll get in my way,
+I doubt you'll prove much trouble,
 so I could pretend I never saw you, but...
 \l
 
@@ -66,9 +66,9 @@ totally serious about this!
 \\@CHARA_IN@< 1, 8, 4, 32, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0003", 100>
 Noel
-Ugh, if that's the case, so be it!
-But don't underestimate how strong 
-even an unsightly nobody can be!
+Ugh, if that's the case, so be it! But don't 
+underestimate how strong even an unsightly 
+nobody can be!
 
 \\@BGM_STOP@<0>
 \e

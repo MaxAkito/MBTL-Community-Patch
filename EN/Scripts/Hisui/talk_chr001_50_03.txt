@@ -43,8 +43,8 @@ Do you wish to hear it?
 \\@CHARA_IN@< 1, 0, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0002", 100>
 Arcueid
-A message from Akiha? She could have just told me
-herself. She's so proper sometimes.
+A message from Akiha? She could have just 
+told me herself. She's so proper sometimes.
 \l
 
 \\@CHARA_IN@< 1, 0, 6, 0, 1>
@@ -57,9 +57,9 @@ Oh well, what's the message?Å@
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0022", 100>
 Hisui
-ÅgI wish to express my utmost gratitude for your turning the 
- peacefully pleasant conversation between me and my brother 
- into such a boisterous occasion some days ago.Åh
+ÅgI wish to express my utmost gratitude for your turning
+ the peacefully pleasant conversation between me and my 
+ brother into such a boisterous occasion some days ago.Åh
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0023", 100>
@@ -128,8 +128,9 @@ I get the feeling she won't take no for an answer!
 \\@CHARA_IN@< 1, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0007", 100>
 Arcueid
-I realize I'm not one to talk, but your household's whole
-menacing act is a bit behind the times, don't you think?
+I realize I'm not one to talk, but your household's 
+whole menacing act is a bit behind the times, don't
+you think?
 
 \\@BGM_STOP@<0>
 \e

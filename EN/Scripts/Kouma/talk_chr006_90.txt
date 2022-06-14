@@ -24,9 +24,9 @@ He was still holding himself back after all that.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0031", 100>
 Kishima
-Fighting while protecting the souls of 
-10 people... It's not a way of thinking 
-that a Lone-Horn such as I could relate to.
+Fighting while protecting the souls of 10 people... 
+It's not a way of thinking that a Lone-Horn such 
+as I could relate to.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0032", 100>

@@ -27,8 +27,8 @@ northern seas doing in a city like this?
 \\@CHARA_IN@< 0, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0060", 100>
 Volv
-I had not expected to come across you first. It 
-would seem fortune has not completely abandoned me.
+I had not expected to come across you first. 
+It would seem fortune has not completely abandoned me.
 \l
 
 \\@CHARA_IN@< 0, 9, 2, 0, 1>
@@ -40,14 +40,14 @@ You ask why I am here?
 \\@CHARA_IN@< 0, 9, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0062", 100>
 Volv
-You should already know the answer to that question.
+You should know all too well.
 I have come to burn all you hope to achieve to ash.
 \l
 
 \\@CHARA_IN@< 0, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0063", 100>
 Volv
-The True Ancestor Princess is MY prey. I will obtain 
+The True Ancestor Princess is MY prey... I will obtain 
 the Principle of the Extremum and overcome this hunger.
 \l
 

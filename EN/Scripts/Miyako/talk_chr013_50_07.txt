@@ -102,8 +102,8 @@ Well? What is your name, girl?
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0054", 100>
 Miyako
-(Sh-She even looks evil! There's no doubt
- about it! This must be Akiha!)
+(Sh-She even looks evil! There's no 
+ doubt about it! This must be Akiha!)
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>

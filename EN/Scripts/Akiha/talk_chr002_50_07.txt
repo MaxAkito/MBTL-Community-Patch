@@ -21,15 +21,15 @@ you seem to have plenty of warmth yourself.
 \\@CHARA_IN@<0, 2, 201, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0021", 100>
 Akiha
-I would ask that you leave my domain immediately.
+I would ask that you leave my garden immediately.
 If you do not, well...
 
 \\@CHARA_IN@<1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0010", 100>
 Volv
-Oh? You would describe this as 'your domain' 
-despite its state? Either you're quite the big deal, 
-or perhaps...
+Oh? You would describe this as 'your garden' 
+despite its state? Either you're quite the 
+big deal, or perhaps...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0011", 100>

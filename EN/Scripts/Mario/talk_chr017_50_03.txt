@@ -153,14 +153,15 @@ Just like you'd kill a chicken.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0009", 100>
 Arcueid
 No... Shiki isn't really Roa's host.
-He's more like a safe shelter.
+He's more like his safe shelter.
 \l
 
 \\@CHARA_IN@<1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0010", 100>
 Arcueid
 Even if Roa's soul has surfaced,
-he won't completely take over. Which is why...
+he won't completely take over. 
+Which is why...
 \l
 
 \\@CHARA_IN@<1, 0, 2, 0, 1>

@@ -16,8 +16,8 @@
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0000", 100>
 Shiki
-What an ominous moon... If I don't concentrate, 
-I'll start seeing lines everywhere.
+What an ominous moon... If I don't keep it
+together, I'll start seeing lines everywhere.
 \l
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
@@ -44,14 +44,14 @@ I am the only man in the house, after all.
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0004", 100>
 Shiki
 I really wanna show the others that I can be 
-depended on as the elder brother that I am too.
+depended on as the elder brother that I am, too.
 \l
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0005", 100>
 Shiki
-Right now, that means patrolling the area around the
-estate for any signs of trouble.
+Right now, that means patrolling the area 
+around the estate for any signs of trouble.
 
 \\@BGM_STOP@<0>
 \e

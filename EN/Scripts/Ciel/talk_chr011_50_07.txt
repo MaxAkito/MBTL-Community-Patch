@@ -19,8 +19,8 @@ One of the Twenty-Seven Dead Apostle Ancestors!?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0051", 100>
 Ciel
-I did not expect someone so significant 
-such as yourself to be lurking in this city.
+I did not expect someone so important
+to be lurking in this city.
 
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0090", 100>
@@ -47,9 +47,9 @@ it won't do you much if your sight is as dim as it is.
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0093", 100>
 Volv
-You people are so worthless, much as this 
-city itself. What point is there to a dog 
-that can't even sniff out the schemes of a serpent?
+You people are so pointless, much as this city itself. 
+What value is there to a dog that can't even sniff out
+the schemes of a serpent?
 \l
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
@@ -60,8 +60,7 @@ You will die a dog's death here tonight, woman.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0095", 100>
 Volv
-May your burnt flesh serve 
-as amusement for the Dead.
+May your burnt flesh serve as amusement for the Dead.
 
 \\@CHARA_IN@< 0, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0052", 100>

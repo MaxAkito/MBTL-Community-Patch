@@ -42,7 +42,7 @@ of staying out of other people's business, but...
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0082", 100>
 Arcueid
 That weapon of yours was born in the 
-inner-sea of the planet, right? It's sooo coooool! 
+the Planet's Inner-sea, right? It's sooo coooool! 
 I've never seen anything like it!
 \l
 

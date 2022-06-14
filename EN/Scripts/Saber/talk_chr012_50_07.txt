@@ -33,8 +33,8 @@ Saber
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0021", 100>
 Saber
 Your presence is somehow similar to that of my own, 
-yet I sense magecraft about you, even though you appear
-to be a pious believer.
+yet I sense magecraft about you, despite the fact that 
+you appear to be a pious believer.
 \l
 
 \\@CHARA_IN@< 0, 12, 3, 0, 1>
@@ -76,26 +76,26 @@ easily distracted stray cat, you see.
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0086", 100>
 Roa
 If you two were to fight, 
-my careful preparations would be ruined.
+my careful preparations would all come to naught.
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0023", 100>
 Saber
-In other words, you are planning to use
-this city for some sort of ritual.
+In other words, you are planning to 
+use this city for some sort of ritual.
 \l
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0024", 100>
 Saber
-I still do not know why I was summoned to this place,
-but now I understand what my duty must be.
+I still do not know why I was summoned to this 
+place, but now I understand what my duty must be.
 \l
 
 \\@CHARA_IN@< 0, 12, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0025", 100>
 Saber
-No matter the era, no matter the metropol... 
+No matter the era, no matter the city... 
 It is the sworn duty of a knight to
 protect the lives of the innocent.
 \l

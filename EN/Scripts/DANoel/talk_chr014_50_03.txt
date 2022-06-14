@@ -91,8 +91,9 @@ a piece of shit who shouldn't be allowed to live.
 \\@CHARA_IN@<0, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0025", 100>
 Dead_Noel
-I know you're just a regular upstanding human right now.
-But still, just give up and die right now for me, 'kay?\sf000
+I know you're just a regular upstanding human 
+right now. But still, just give up and die right
+now for me, 'kay? \sf000
 \l
 
 \\@CHARA_IN@<0, 14, 8, 0, 1>
@@ -123,9 +124,9 @@ Besides, I'm NOT a regular upstanding human.
 \\@CHARA_IN@< 2, 3, 103, 12, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0006", 100>
 Shiki
-My family was killed, so I've just come here to kill 
-you back is all. Your name, your background... 
-they don't matter to me.
+A relative of mine was killed, so I've just come here 
+to kill you back is all. Your name, your background... 
+Nothing of that matters to me.
 
 \\@CHARA_IN@<0, 14, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0028", 100>
@@ -145,8 +146,8 @@ you're someone special, don't you?
 \\@CHARA_IN@<0, 14, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0030", 100>
 Dead_Noel
-You think you can overcome any problem
-by going at it with all you've got, don't you?
+You think you can overcome any problem by 
+going at it with all you've got, don't you?
 \l
 
 \\@CHARA_IN@<0, 14, 13, 0, 1>

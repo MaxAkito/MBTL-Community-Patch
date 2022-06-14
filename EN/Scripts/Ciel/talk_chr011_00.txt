@@ -20,7 +20,7 @@ This city has been infested with Dead Apostles...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0031", 100>
 Ciel
-An Executor's duty is to quickly eliminate
+The duty of us Executors is to quickly eliminate
 such diseases at the source, and yet...
 \l
 
@@ -34,8 +34,8 @@ the city-life in Japan...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0033", 100>
 Ciel
-And then finally she goes 
-'well I wanna infiltrate your school too!'
+She finally even goes all likeÅF
+'Well, I wanna infiltrate your school too!'
 \l
 
 \\@CHARA_IN@< 0, 11, 8, 0, 1>

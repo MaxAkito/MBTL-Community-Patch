@@ -25,8 +25,8 @@ Then perhaps Shiki would still be alive.
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0031", 100>
 Roa
-He was not as powerful as I remember.
-I sense that you have lost your touch as well, Executor.
+Same as you, I feel he wasn't as 
+powerful as I remembered, Executor.
 
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0001", 100>

@@ -33,7 +33,7 @@ Oh, it's just you two.
 \\@CHARA_IN@< 1, 2, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0042", 100>
 Akiha
-I don't remember telling you to go wandering around
+I don't remember ordering you to go wandering around
 this late at night. Return to the estate at once.
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>

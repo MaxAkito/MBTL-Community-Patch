@@ -160,8 +160,8 @@ We will purify your soul before that happens.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcExe/NpcExe_07_0001", 100>
 Executor
-In honor of your past record as an Executor, you shall not 
-be incinerated, but instead granted salvation.
+In honor of your past record as an Executor, you shall
+not be incinerated, but instead granted salvation.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0077", 100>

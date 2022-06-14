@@ -20,7 +20,7 @@ You've been acting pretty brazenly, haven't you?
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0020", 100>
 Volv
 You think this smoldering city... is my work...?
-What a strange provocation... murderer.
+What an unfounded and odd provocation... murderer.
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>

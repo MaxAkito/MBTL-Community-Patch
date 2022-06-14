@@ -16,14 +16,15 @@
 \\@CHARA_IN@< 1, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0010", 100>
 Noel
-Hmm... I can kinda see in, but not really...
+Hmm... 
+I can kinda see in, but not really...
 I can kinda enter, but not really...
 \l
 
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0011", 100>
 Noel
-What's wrong with this mansion...?
+What is up with this mansion...?
 \l
 
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
@@ -51,15 +52,14 @@ And there they are...
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0011", 100>
 Shiki
 Someone super suspicious...
-They're quite flagrantly peeking into our mansion...
+Flagrantly peeking into our mansion...
 
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0014", 100>
 Noel
-Wha-?! Oh, wait, that unassuming appearance,
-yet deep and chilling killer sight. 
-It could only be one person...
+Wha-?! Oh, wait, that unassuming appearance, yet deep
+and chilling killer sight. It could only be one person...
 \l
 
 \\@CHARA_IN@< 1, 8, 0, 0, 1>
@@ -86,7 +86,7 @@ That's some real delinquent behavior there, you know.
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0018", 100>
 Noel
 Or are you here for some... 
-extra-curricular activities?
+illicit... extra-curricular activities?
 
 \\@CHARA_OUT@< 0, 3, 2, 0, 0>
 \aw

@@ -113,8 +113,8 @@ Miyako
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0010", 100>
 Miyako
 That day, I woke up to find that my brother 
-had gotten up early to pack his things. 
-He was saying good-bye to Mom.
+had gotten up early to pack his things and 
+was saying good-bye to Mom.
 \l
 
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
@@ -180,7 +180,7 @@ he was gone.
 Miyako
 I wanted to sayÅF
 ÅgIf you hate the idea of returning 
- so much, then don't go back!Åh
+  so much, then don't go back!Åh
 \l
 
 \\@CHARA_IN@< 0, 13, 4, 0, 1>

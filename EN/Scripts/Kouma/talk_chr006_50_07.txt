@@ -42,8 +42,7 @@ I have no objections to feasting upon your flames.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0034", 100>
 Volv
-You saw my true form
-and you felt nothing.
+You saw my true form and yet, you felt nothing.
 \l
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>

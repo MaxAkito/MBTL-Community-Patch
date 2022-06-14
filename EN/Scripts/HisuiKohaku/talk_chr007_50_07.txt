@@ -28,7 +28,7 @@ doesn't have much money...
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0031", 100>
 Noel
-Possesses little talent, and enjoys 
+...possesses little talent, and enjoys 
 slacking off, but still, you are falling 
 in love with a cutie like heeer...
 
@@ -41,8 +41,8 @@ I feel like that's a bit too much to ask...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0061", 100>
 Shiki
-Some part of me feels as though at least one of those 
-qualities ought to be improved, but still... 
+Some part of me feels as though at least one of 
+those qualities ought to be improved, but still... 
 I'm falling in loveeee...
 
 
@@ -62,13 +62,14 @@ What a shocking sight!
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0041", 100>
 Kohaku
 An innocent boy tied to a chair with a suspicious-looking
-woman in nun's clothing making desperate advances on him?!
+woman in nun's clothing desperately trying to show off her
+own appeal to him?!
 
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0020", 100>
 Hisui
 Look closely, Kohaku. 
-Those are no normal advances she's making.
+This is no ordinary showing off she's doing.
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
@@ -101,13 +102,14 @@ What, you wanna go?!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0033", 100>
 Noel
 So you intend to rob me of my final chance at getting 
-a boyfriend?! I can't even make a single one at my shady job!
+a boyfriend?! I haven't been able to make even a single
+one at my shady job!
 \l
 
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0034", 100>
 Noel
-For that, you shall suffer death, you little shits!
+That's worthy of a thousand deaths, you little shits!
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 \\@CHARA_FOCUS_COLOR@<0,0>

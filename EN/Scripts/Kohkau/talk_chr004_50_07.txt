@@ -19,8 +19,7 @@ Has everyone left in this city gone crazy?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0041", 100>
 Kohaku
-Or maybe this is this all just 
-strange dream after all? 
+Or maybe this is this all just strange dream after all? 
 \l
 
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
@@ -47,29 +46,28 @@ Volv
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0001", 100>
 Volv
-ÅgEven though it may not suit me... I am still 
- a Suzerain. As such, it is proper that I would 
- receive many visitors...Åh
+ÅgThough it may not suit me... I am still a Suzerain. 
+  Entertaining many guests is a part of my positionÅh
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0002", 100>
 Volv
-ÅgSo it's too cold for you to even move a muscle...Åh
+ÅgOh? Too cold for you to even move a muscle...Åh
 \l
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0003", 100>
 Volv
 ÅgI grieve for you, woman. 
- I know a soul much like yours.Åh
+  I know a soul much like yours.Åh
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0004", 100>
 Volv
 ÅgLike a ship left to rot at the edge 
- of the world, or a clock that keeps
- ticking towards its own destruction.Åh
+  of the world, or a clock that keeps
+  ticking towards its own destruction.Åh
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
@@ -82,8 +80,8 @@ Volv
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0006", 100>
 Volv
 ÅgPerhaps us meeting here was under the guidance of
- my Karisha. Worry not, your death shall be 
- bloodless, as if entering a slumber.Åh
+  my Karisha. Worry not, your death shall be 
+  bloodless, as if entering a slumber.Åh
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0044", 100>
@@ -128,7 +126,7 @@ your suffering.
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0007", 100>
 Volv
 ÅgUh...
- I suspect those plants won't be of much use...Åh
+  I suspect those plants won't be of much use...Åh
 
 \\@BGM_STOP@<0>
 \e

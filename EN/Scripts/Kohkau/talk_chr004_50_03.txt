@@ -10,7 +10,7 @@
 \\@SE_PLAY@<0, "talk/talk_se/Hit_PunchC", 0, 30>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0000", 30>
 Noel
-... ...
+You... little!
 
 \\@CHARA_IN@<0, 4, 101, 3, 0>
 \aw
@@ -18,15 +18,15 @@ Noel
 \\@CHARA_IN@< 0, 4, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0030", 100>
 Kohaku
-Finally, someone who looks like they might
-be possible to have a chat with.
+Finally, someone who looks like they 
+might be possible to have a chat with.
 \l
 
 \\@CHARA_IN@< 0, 4, 100, 50, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0031", 100>
 Kohaku
-Excuse me, Sister-looking person over there. You 
-haven't seen someone suspicious around town, have you?
+Excuse me, Sister-looking person over there. You haven't 
+seen someone suspicious around town, have you?
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \\@CHARA_IN@<1, 8, 3, 12, 0>
@@ -66,8 +66,8 @@ Hold on... You're one of the maids from that mansion!
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0005", 100>
 Noel
-This is my lucky day! It's almost like a duck would
-show itself before me already prepared into foie gras!
+This is my lucky day! This dumb duck has appeared 
+right in front of me, already fully prepared!
 \l
 
 \\@CHARA_IN@< 1, 8, 1, 0, 1>
@@ -106,8 +106,8 @@ KOHAKU DAAAASH! I'm skedaddling at full force!
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0036", 100>
 Kohaku
-My maid senses are telling me this one is all bark
-and no bite, but even so...
+My maid senses are telling me this one 
+is all bark and no bite, but even so...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0037", 100>

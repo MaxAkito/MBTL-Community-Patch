@@ -56,7 +56,7 @@ heart. With that, my illness shall surely heal.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0021", 100>
 Arcueid
 I see. I wasn't really planning on it,
-but if you want to die so much, I'll help you out.
+but if you want to die so badly, I'll help you out.
 \l
 
 \\@CHARA_IN@< 0, 0, 10, 0, 1>

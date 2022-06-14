@@ -105,14 +105,14 @@ to me and the Princess, no doubt about it.
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0046", 100>
 Roa
 Such a cheap imitation can do 
-nothing but wither at my touch.
+naught but wither at my touch.
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 1, 0, 7, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 11>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0049", 100>
 Arcueid
-Hah... Ahahahahahaha!!!
+Hah--ahahahahahaha!!
 \l
 
 \\@CHARA_IN@< 1, 0, 10, 0, 1>

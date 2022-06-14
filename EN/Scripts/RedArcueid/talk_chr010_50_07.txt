@@ -53,8 +53,8 @@ I really don't want to see that gloomy face of yours!
 \\@CHARA_IN@< 0, 10, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0026", 100>
 Red_Arcueid
-If you don't piss off I'm going to make you experience 
-something much worse than just death.
+If you don't piss off I'm going to make you 
+experience something much worse than just death.
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0070", 100>
@@ -76,8 +76,8 @@ Naturally, Shiki's body would then become mine.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0073", 100>
 Roa
-Did you not realize that the more you behaved like a
-child, the more you did as you liked...
+Did you not realize that the more you behaved 
+like a child, the more you did as you liked...
 \l
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
@@ -116,7 +116,7 @@ Though... I suppose I don't have much room to judge.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0079", 100>
 Roa
-Bodies sure are vexing things. It's too
+Bodies sure are vexing things. It's all too 
 easy for their true character to bleed through.
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
@@ -129,14 +129,14 @@ Giving it some thought, I suppose that makes sense.
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0029", 100>
 Red_Arcueid
-Shiki has been suffering because of my childish
-outbursts, right?
+Shiki has been suffering because of 
+my childish outbursts, right?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0030", 100>
 Red_Arcueid
-In that case, he has more than atoned
-for the sin of killing me.
+In that case, he has more than 
+atoned for the sin of killing me.
 \l
 
 \\@CHARA_IN@< 0, 10, 2, 0, 1>
@@ -148,28 +148,27 @@ Hehehe. Still...
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0032", 100>
 Red_Arcueid
 Just because the perpetrator has served his sentence
-does not mean that the victim feels any better about it.
+doesn't mean that the victim feels any better about it.
 \l
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0033", 100>
 Red_Arcueid
-Shiki still has to 
-accept my feelings for him.
+Shiki still has to accept my feelings for him.
 \l
 
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0034", 100>
 Red_Arcueid
 These gently boiling feelings of my vampiric urges, 
-that is. So first I gotta get rid of those who'd 
+that is... So first I gotta get rid of those who'd 
 stand in my way.
 \l
 
 \\@CHARA_IN@< 0, 10, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0035", 100>
 Red_Arcueid
-Let's see... Roa, was it?
+Let's see... Roa, was it? 
 You'll do just fine...
 \l
 

@@ -77,9 +77,9 @@ Oh, heavens no. That's quite the misunderstading.
 \\@CHARA_IN@< 1, 2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0056", 100>
 Akiha
-Oh no, I would handle you ever so gently until you had 
-told who sent you, how big of an organization they are 
-and what their objective is.
+I would handle you ever so gently... until you had 
+told me who sent you, how big of an organization 
+they are and what their objective is.
 \l
 
 \\@CHARA_IN@< 1, 2, 100, 0, 1>
@@ -105,8 +105,8 @@ bloodsucking fiend all the same, aren't you?
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0066", 100>
 Noel
-And if that's the case, I've got
-no qualms in taking you down.
+And if that's the case, I've 
+got no qualms in taking you down.
 
 \\@BGM_STOP@<0>
 \e

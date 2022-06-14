@@ -17,8 +17,8 @@
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0060", 100>
 Aoko
-Vampire extermination, complete!Åô
-Not to mention the Workshop, now blown to smithereens!Åô
+Vampire extermination, complete! Åô 
+Not to mention the Workshop, now blown to smithereens! Åô
 
 \\@BGM_FADE@<0, 100, 0, -2, 1>
 \\@FADE_OUT@<0, 255, 255, 255, 0>

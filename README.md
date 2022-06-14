@@ -171,7 +171,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 鬼　　　　　 　 　 | oni                     | Type of Japanese non-human.
 | 独角         | Lone-Horn               | Kouma Kishima's martial art style.
 | 北海         | northern seas           | Where Vlov comes from. Not the North Sea.
-| 星の内海      | (the) planet's inner-sea| Reverse side of Earth.
+| 星の内海      | (the) Planet's Inner-sea| Reverse side of Earth.
 | チャイナ       | China-girl              | Neko-Arc's nickname for Miyako
 | メガネ        | glasses-boy             | Neko-Arc's nickname for Shiki
 | 親(元)       | Sire                    | Vampire 'parent'. Only for vampires.

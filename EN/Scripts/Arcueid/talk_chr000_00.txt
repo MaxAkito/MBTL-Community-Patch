@@ -30,8 +30,8 @@ here perhaps? Oh well, it doesn't really concern me.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0002", 100>
 Arcueid
 It's a small city; it won't even take 3 days to 
-smoke him out. Just you wait, Roa. 
-I'll take care of you in no time.
+smoke him out. Just you wait, Roa. I'll take care
+of you in no time.
 
 \\@BGM_STOP@<0>
 \e

@@ -53,8 +53,7 @@ on and around the local buildings?
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0033", 100>
 Mario
-Y'know, a hound that don't listen
-'s gotta be put down.
+Y'know, hound that don't listen 's gotta be put down.
 \l
 
 \\@CHARA_IN@<1, 17, 3, 0, 1>
@@ -120,8 +119,8 @@ somethin' even worse set its eyes on 'im.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0039", 100>
 Mario
-His Mystic Eyes ain't gonna work on the Princess
-no more. Shit's too late. Give it up.
+His Mystic Eyes ain't gonna work on the 
+Princess no more. Shit's too late. Give it up.
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0035", 100>

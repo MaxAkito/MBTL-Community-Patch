@@ -23,14 +23,14 @@
 \\@CHARA_IN@< 2, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0020", 100>
 Bake_Neko
-The story so far.
+Time for a quick recap.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0021", 100>
 Bake_Neko
-Miyako was unbeatable, truly unbeatable! She soundly 
-defeated one obstacle after another, steadily approached 
-the villain's lair.
+Miyako was unbeatable, truly unbeatable! She 
+soundly defeated one obstacle after another, 
+steadily approaching the villain's lair.
 
 \\@CHARA_OUT@< 2, 52, -1, 0, 1>
 \aw
@@ -169,7 +169,7 @@ on top of that small hill over there.
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0018", 100>
 Ciel
 Also, the younger sister's name is Tohno Akiha. Be sure
- to ask for her when you state your business at the door.
+to ask for her when you state your business at the door.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>

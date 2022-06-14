@@ -80,13 +80,13 @@ And now, Einnashe's Belfry.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0027", 100>
 Red_Arcueid
 Hurry up and show them to me.
-Maybe they'll give you a fighting chance.
+Maybe that'll give you a fighting chance.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0028", 100>
 Red_Arcueid
 I'll let you throw whatever you have at me.
-And then I'll overcome it.
+And then I'll overcome all of it!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0029", 100>

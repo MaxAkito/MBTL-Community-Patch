@@ -35,19 +35,19 @@ little jester. I shall heed such resolve with a reward.
 Roa
 As suspected, with your true form unveiled, I no longer 
 stand a chance. I wonder, even with all my magic circuits 
-put to defense, just how many seconds will I last?.
+put to defense... Just how many seconds will I last?
 
 \\@GO_SUB@<"RoaOUT_Face0_L">
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0001", 100>
 Archetype_Earth
-I permit thee a 'kiss', as a mere jest.
+A jest, then. I shall permit thee a 'kiss'.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0002", 100>	
 Archetype_Earth
-Just as if thee were dedicating thy blood, thy very 
-soul, shouldst thee clamour for thy final life.
+Just as if thee were dedicating thy blood, thy 
+very soul, shouldst thou clamour for thy final life.
 
 \\@SPEAKERCG_IN@<0,5,6,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0052", 100>

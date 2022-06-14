@@ -44,14 +44,14 @@ she has ALSO teamed up with Shiki Tohno for some reason.
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0014", 100>
 Noel
 The Dead in town have mostly been taken care of
-by Executor Ciel and the True Ancestor,
+by Executor Ciel and the True Ancestor.
 \l
 
 \\@CHARA_IN@<1, 8, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0015", 100>
 Noel
-which means we can assume that 
-Roa's supply of blood is drying up fast...
+Meaning, we can assume that Roa's 
+supply of blood is drying up fast...
 \l
 
 \\@CHARA_IN@<1, 8, 7, 0, 1>
@@ -175,9 +175,9 @@ As per your orders, I'll go secure Shiki!
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0062", 100>
 Mario
-Dumbass. Ain't no way I'd send your 
-incompetent ass out against a True Ancestor. 
-But well, you'll be fine like this.
+Dumbass. Ain't no way I'd send your incompetent ass
+out against a True Ancestor. But well, just being
+yourself 's good enough for you.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>

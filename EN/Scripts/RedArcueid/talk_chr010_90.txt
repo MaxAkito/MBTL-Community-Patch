@@ -23,16 +23,16 @@ That's wasn't enough to even wipe my fingers with.
 \\@CHARA_IN@< 0, 10, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0041", 100>
 Red_Arcueid
-Well, no use complaining. I mean, 
-my hands are completely soaked in blood after all!
+Well, no use complaining. I mean, my hands
+are completely soaked in blood after all!
 \l
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0042", 100>
 Red_Arcueid
 All that's left is for you to wake up, Shiki. 
-Hurry up, open your eyes and despair as you find 
-yourself in my hands.
+Hurry up, open your eyes and despair as you 
+find yourself in my hands.
 \l
 
 \\@CHARA_OUT@<0, -1, -1, 0, 0>
@@ -115,8 +115,8 @@ really person, now are you?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0008", 100>
 Red_Arcueid
-That's it, you're dead. I was thinking of forgiving you
-for killing me if you paid me back in full, 
+That's it, you're dead. I was thinking of forgiving 
+you for killing me if you paid me back in full, 
 but I changed my mind.
 \l
 
@@ -134,7 +134,7 @@ into a pancake, together with this city.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0080", 100>
 Shiki
-Gaaahhhhhh!!!
+Gaaahhhhhh!
 Are you saying this was all my fault?!
 
 \\@FADE_OUT@<0,0,0,0,0>

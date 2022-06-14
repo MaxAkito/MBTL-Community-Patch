@@ -31,8 +31,8 @@ You did well all by yourself.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0041", 100>
 Shiki
-I didn't know what to do after being captured by my evil
-sister, but thanks to you I could return home.
+I didn't know what to do after being captured by my 
+evil sister, but thanks to you I could return home.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0042", 100>

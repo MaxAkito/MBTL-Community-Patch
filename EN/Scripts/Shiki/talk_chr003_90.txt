@@ -47,7 +47,7 @@ That's when...
 \\@SQ_CALL@<2>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0035", 100>
-I- Shiki Tohno, a mere vessel, heard a noise
+The vessel that is me, Shiki Tohno, heard a noise
 that sounded like something had broken for good.
 \l
 
@@ -82,8 +82,8 @@ The night was not over yet.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0042", 100>
-It was from that moment onward that my destiny 
-became truly intertwined with that of vampires.
+It was only from that moment onward that my destiny 
+became TRULY intertwined with that of vampires.
 
 \\@BGM_STOP@<0>
 \e

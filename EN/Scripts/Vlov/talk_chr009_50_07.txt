@@ -18,8 +18,8 @@ Are you the one who took care of Roa?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0061", 100>
 Arcueid
-I don't know where you came from, Dead Apostle, but
-now you've done it.
+I don't know where you came from, Dead Apostle, 
+but now you've done it.
 
 \\@CHARA_IN@< 0, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0070", 100>
@@ -97,7 +97,7 @@ Though for how long... I cannot say.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0076", 100>
 Volv
-Prepare yourself... woman in white. 
+Prepare yourself... Woman in white. 
 That you would besmirch my liege is 
 something which I could never overlook.
 

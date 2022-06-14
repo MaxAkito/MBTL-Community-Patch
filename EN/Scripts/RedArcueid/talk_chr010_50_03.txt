@@ -26,14 +26,14 @@ soft and squishy, I was starting to get bored.
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0020", 100>
 Ciel
-Arcueid... Have you abandoned all attempts
-at controlling yourself?
+Arcueid... Have you abandoned all 
+attempts at controlling yourself?
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0012", 100>
 Red_Arcueid
-Hehe... I'm loving the way you force that 
-conscending attitude of yours.
+Hehe... I'm loving the way you force 
+that conscending attitude of yours.
 \l
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
@@ -46,7 +46,7 @@ despite the fact you look about ready to wet yourself.
 \\@CHARA_IN@< 0, 10, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0014", 100>
 Red_Arcueid
-I love it soo much, I just...
+I love it sooo much, I just...
 \l
 
 \\@GO_SUB@<"QUAKE_1">
@@ -83,8 +83,8 @@ Still, if you insist...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0024", 100>
 Ciel
-I don't know what has happened to you, 
-but in accordance with the will of the Lord above, 
+I don't know what has happened to you, but in 
+accordance with the will of the Lord above, 
 vampires are to be eliminated.
 \l
 

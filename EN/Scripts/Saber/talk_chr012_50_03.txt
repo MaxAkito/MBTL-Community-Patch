@@ -14,7 +14,8 @@
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0010", 100>
 Saber
-Hm? At last it appears I have encountered
+Hm? 
+At last it appears I have encountered
 someone who ought to be of some help.
 \l
 
@@ -46,8 +47,8 @@ I'll say it straight up. That's the King of Knights.
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0060", 100>
 Kohaku
-Ohhh... Now that I take I closer look there's no
-doubt about it. A real evil-doer, that one.
+Ohhh... Now that I take I closer look there's 
+no doubt about it. A real evil-doer, that one.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0061", 100>
@@ -84,7 +85,7 @@ Ack! That was close!
 \\@CHARA_IN@< 0, 12, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0013", 100>
 Saber
-Not just a venomous bento so potent that it can 
+Not just a venomous lunchbox so potent that it can 
 dissolve a telephone pole, but also syringes filled 
 with odorless poison-gas! This could only mean...
 \l

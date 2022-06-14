@@ -175,14 +175,14 @@ And yet you betrayed that trust.
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0050", 100>
 Powered_Ciel
 I have no baptism to offer you. There will be no 
-repentance  or confession either. That's too good
+repentance or confession either. That's too good
 for a mere vampire like you.
 \l
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0051", 100>
 Powered_Ciel
-The only thing I can offer you is judgment. Crushed, 
+The only thing I can offer you is judgment. Being crushed, 
 flattened or burned to death. Pick whichever you'd like.
 \l
 

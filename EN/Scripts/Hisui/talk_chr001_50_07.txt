@@ -40,8 +40,8 @@ I want to become indendendent so...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0001m", 100>
 Shiki
-If I move in with you, all that would happen is that
-you'd become like my sugar momma and wait, 
+If I move in with you, all that would happen is 
+that you'd become like my sugar momma and wait, 
 that's freaking awesome.
 
 \\@CHARA_IN@<0, 1, 1, 1, 0>
@@ -110,7 +110,7 @@ In other words, you are the mastermind behind this.
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0005", 100>
 Ciel
-N-No, it was just a whim- I mean- a misunderstanding!
+N-No, it was just a whim-- I mean-- a misunderstanding!
 \l
 
 \\@CHARA_IN@< 1, 11, 4, 0, 1>

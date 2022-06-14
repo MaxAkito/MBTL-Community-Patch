@@ -36,8 +36,9 @@ really think a 12 year-old brat would be that depraved?
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0111", 100>
 Mario
-My life's on the goddamn line here. I go at things 
-straight on. Ain't got no time for beatin' around the bush.
+My life's on the goddamn line here. 
+I go at things straight on. 
+Ain't got no time for beatin' around the bush.
 \l
 
 \\@CHARA_IN@<0, 17, 2, 0, 1>
@@ -129,7 +130,8 @@ herself a new apprentice!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0117", 100>
 Mario
-Got a feeling it's just the beginning of a long road ahead...
+Got a feeling it's just the 
+beginning of a long road ahead...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0118", 100>

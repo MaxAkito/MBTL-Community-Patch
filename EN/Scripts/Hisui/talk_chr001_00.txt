@@ -33,8 +33,8 @@ Please state your name and business.
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0002", 100>
 Hisui
-I see, Miss Arima Miyako... If I understand correctly...
-You are the eldest daughter of the Arima branch family.
+I see, Miss Arima Miyako... If I understand correctly,
+you are the eldest daughter of the Arima branch family.
 \l
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>

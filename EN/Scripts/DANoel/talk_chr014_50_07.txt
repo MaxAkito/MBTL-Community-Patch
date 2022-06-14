@@ -128,7 +128,7 @@ by inhabiting other people's bodies.
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0046", 100>
 Dead_Noel
 Now that I'm a vampire too, I understand better than 
-ever just how pathetic the Infinite Reincarnator really is.
+ever just how stupid Mr. Endless Reincarnator really is.
 \l
 
 \\@CHARA_IN@<0, 14, 5, 0, 1>

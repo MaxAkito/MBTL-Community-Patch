@@ -62,9 +62,8 @@ my mental health any favors. Not only that, but...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0036", 100>
 Akiha
-Lately I've been feeling vaguely at unease. 
-*sigh* Hopefully no strange pests have taken
-a liking to him.
+Lately I've been feeling vaguely at unease. *sigh* 
+Hopefully no strange pests have taken a liking to him.
 
 
 \\@BGM_STOP@<0>

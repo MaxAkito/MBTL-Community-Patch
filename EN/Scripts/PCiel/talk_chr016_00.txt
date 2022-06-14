@@ -31,7 +31,7 @@ with me!
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0010", 100>
 Powered_Ciel
 The situation has changed, Sister Noel.
-I'm requesting backup from you.
+I require your backup.
 \l
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
@@ -95,7 +95,7 @@ that monster-among-monsters myself.
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0004", 100>
 Noel
 I'll leave that honor to you, Ciel. While you're 
-dealing with her, I'll keep an eye on the target\sf000
+dealing with her, I'll keep an eye on the target \sf000
 
 \\@CHARA_IN@<0, 16, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0017", 100>
@@ -114,7 +114,7 @@ He's sure to make some kind of move.
 \\@CHARA_IN@<0, 16, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0019", 100>
 Powered_Ciel
-So while things might be bad,
+So while things might be bad, 
 this also presents us with an opportunity.
 \l
 
@@ -143,8 +143,8 @@ just cut his legs off and bring him over here...
 \\@CHARA_FACE@<1, 11, 0, 210>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0007", 100>
 Noel
-Hey, what are you looking so mad about? Oh, I get it... 
-It's about Shiki's execution, isn't it?
+Hey, what are you looking so mad about? 
+Oh... It's about Shiki's execution, isn't it?
 \l
 
 \\@CHARA_IN@<1, 8, 1, 0, 1>

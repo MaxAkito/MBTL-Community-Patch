@@ -46,9 +46,9 @@ You? A lowly dog barking away beneath my feet?
 \\@CHARA_IN@< 1, 2, 200, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0063", 100>
 Akiha
-How unpleasant... I'm this close to crushing 
-you underfoot. Are you prepared to die a 
-pathetic yet anonymous death?
+How unpleasant... I'm this close to crushing you 
+underfoot. I hope you have prepared for your pathetic
+yet anonymous death.
 
 \\@CHARA_IN@< 0, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0042", 100>

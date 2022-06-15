@@ -4,20 +4,20 @@ WinMesScript
 WinMes00:
 chara_type 0
 Need assistance?
-I could offer to guide you towards paramiti, if you'd wish.
+I could guide you towards paramiti, if you would so wish.
 \e
 
 WinMes01:
 chara_type 1
 How worldly you are.
-Far from perceiving all reality 
+Far from perceiving all of reality 
 in the span of a single thought.
 \e
 
 WinMes02:
 chara_type 0
 There is neither good nor evil in the taking of life. 
-Know that to deem others as evil is to err.
+Know that to deem the other as evil is to err.
 \e
 
 WinMes03:
@@ -33,8 +33,8 @@ and enter nirvana without regret.
 
 WinMes05:
 chara_type 0
-Not bad. If you're ever itching 
-for another fight, feel free to come find me.
+Not bad. If you're ever itching for 
+another fight, feel free to come find me.
 \e
 
 WinMes06:
@@ -46,22 +46,22 @@ Are you sure you're human?
 WinMes07:
 chara_type 0
 Bad seeds bloom without regard to their soil.
-Was it merely weeds? Was it rife with poison?
+Was it merely a weed? Or was it rife with poison?
 Only your bare skull may tell us which.
 \e
 
 // ‘ÎŽu‹M
 WinMes08:
 chara_type 1
-You have the wrong man. Try someone else.
+You have the wrong man. Find someone else.
 \e
 
 // ‘ÎƒAƒ‹ƒN
 WinMes09:
 chara_type 0
 A most bizarre woman.
-Perhaps you would be a nirmanakaya someplace 
-else but, the soil of this land does not suit you.
+The soil of this land does not suit you.
+Even if perhaps you would be a nirmanakaya someplace else.
 \e
 
 // ‘ÎƒqƒXƒRƒn

@@ -10,8 +10,8 @@ Um, I hope you are not injured?
 WinMes01:
 chara_type 2
 I am terribly sorry... It's just... 
-I'm not very comfortable with others
-touching me so I just...
+I'm not very comfortable with 
+others touching me so I just...
 \e
 
 
@@ -47,7 +47,7 @@ that I felt it necessary to defend myself.
 WinMes06:
 chara_type 101
 That was frightening...
-I must ask that you don't do that again.
+I must ask that you do not do that again.
 \e
 
 
@@ -63,7 +63,7 @@ I'm afraid this kind of rough-housing is not my strong point.
 WinMes09:
 chara_type 102
 You're too lively.
-I belive you would do well to get 
+I believe you would do well to get 
 those manners of yours under control.
 \e
 

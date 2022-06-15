@@ -35,7 +35,7 @@ I may be small now, but I'll grow up in no time!
 WinMes05:
 chara_type 104
 Hold on, how is it I can dash in mid-air? Hmm... 
-Well whatever, probably best not to think about it.
+Well whatever, probably best not to think too much about it.
 \e
 
 WinMes06:
@@ -72,7 +72,7 @@ Time to get some sleep.
 WinMes11:
 chara_type 103
 Stop that! 
-Don't you know bullying people weaker than you is bad?
+Don't you know bullying people weaker than you is lame?
 I'm Shiki's sister, a hero who fights for justice. 
 Watch out!
 \e
@@ -89,7 +89,7 @@ Oh, I get it! This is that growth spurt thing I've heard about!
 WinMes13:
 chara_type 2
 Y-You think just because you have better-looking hair
-that I'd be jealous? You're just an impostor!
+that I'd be jealous? Hmph, you're just an impostor!
 \e
 
 // ‘Î‰“–ìŽu‹M
@@ -125,8 +125,8 @@ R-Right, you're not a Mommy... you're a Sister!
 
 WinMes3WinStreak00:
 chara_type 102
-All right! Winning three straight times that's like...
-Whoa... you're the real deal!
+Alright! Winning three times in a row that's like...
+Whoa... You're the real deal!
 \e
 
 

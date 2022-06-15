@@ -15,9 +15,9 @@ WinMes01:
 chara_type 8
 chara_type_sub 7
 chara_switchframe 665
-Would you look at that, my injures have already healed! \sf000
+Would you look at that, my injures have healed already! \sf000
 Seems your efforts--even your entire life up until
-this point--were all for nothing, huh? Ahaha! 
+this point--were all for nothing, doesn't it? Ahaha! 
 You struggled so pathetically too, you poor little thing!
 \e
 
@@ -34,21 +34,21 @@ In your dreams.
 WinMes03:
 chara_type 6
 Wow, and I haven't even been a vampire all that long.
-How embarrassing. Doesn't it make you just wanna disappear?
+Doesn't the shame just wanna make you disappear?
 Hehe... that, at least, I can arrange for you \sf000
 \e
 
 WinMes04:
 chara_type 1
 Ugh, boooring...
-Before, any battle was enough to make my heart jump
-out of my chest. But now... I guess once you get too 
-strong, you need a higher class of entertainment.
+Before, any kind of battle would almost made my heart jump
+out of my chest. But now, well... I guess once you get 
+too strong, you need a higher class of entertainment.
 \e
 
 WinMes05:
 chara_type 8
-How's it feel? My Principle is the Bells of Nostalgia.
+How's it feel? The Bells of Nostalgia is my Principle.
 Christmas bells that conjure up memories of happier times.
 They are as merciless as the feeling of growing up.
 \e
@@ -56,8 +56,9 @@ They are as merciless as the feeling of growing up.
 WinMes06:
 chara_type 106
 Hmph, you're not half bad. 
-But I've lost my patience so I'll let you go for now. 
-Don't worry. In seven days I'll exact sweet revenge upon you \sf000
+But I've lost my patience. I'll let you go for now. 
+Don't worry, though. 
+In seven days I'll exact sweet revenge upon you \sf000
 \e
 
 WinMes07:
@@ -74,16 +75,16 @@ WinMes08:
 chara_type 2
 Huh? That's odd... I mean, really. 
 Being unkillable was all you were good for! 
-It's what made you so annoying! It was supposed to be
-your atonement! So hurry up already. Wake up! 
-Aren't you supposed to let me kill you some more?
+Why you were so annoying! It was your atonement! 
+So hurry up already. Wake up! 
+Aren't you supposed to let me kill you some more?!
 \e
 
 //対志貴
 WinMes09:
 chara_type 8
 Well, Shiki? 
-How do you like these Mystic Eyes of Roses?
+How do you like my Mystic Eyes of Roses?
 With these, I can make you experience anything 
 I can think of. Anything I want \sf000
 \e
@@ -102,7 +103,7 @@ WinMes11:
 chara_type 6
 Oh no, I guess the Acting Presbyter went and died?
 How awful, just reprehensible, really!
-I guess God really doesn't save everyone, huh?
+I guess God really doesn't save everyone!
 \e
 
 

@@ -3,7 +3,7 @@ WinMesScript
 
 WinMes00:
 chara_type 1
-How tedious of you...
+How tedious you are...
 My superiority has been clearly demonstrated. 
 There's no need to continue this any further.
 \e
@@ -11,13 +11,13 @@ There's no need to continue this any further.
 WinMes01:
 chara_type 1
 That was enjoyable. I would gladly serve
-as your opponent if there is ever a next time.
+as your opponent if ever there is a next time.
 \e
 
 WinMes02:
 chara_type 102
-Would you look at that, I fight quite well, after all. 
-At this pace it won't even prove necessary to Invert.
+Would you look at that. I fight quite well, after all. 
+It appears it won't even prove necessary for me to Invert.
 \e
 
 WinMes03:
@@ -31,19 +31,19 @@ WinMes04:
 chara_type 101
 Ooh, you look dissatisfied. 
 Do you perhaps wish to try again? 
-The outcome will remain unchanged for all eternity, though.
+The outcome will remain the same for all eternity, however.
 \e
 
 WinMes05:
 chara_type 0
 That will have to do.
-Heh, perhaps I acted a bit immodestly?
+Hah, perhaps I acted a bit immodestly?
 \e
 
 WinMes06:
 chara_type 104
-Battle isn't about power, 
-it's about having technique and a keen mind. 
+Battle isn't about power. 
+It's about having technique and a keen mind. 
 I'm sure you've grasped that well enough by now.
 \e
 
@@ -57,8 +57,8 @@ from proving my superiority like this?
 WinMes08:
 chara_type 2
 Thank you. This has proven a great diversion.
-How about it? Would you perhaps consider 
-serving as my opponent once a week or so?
+Would you perhaps consider serving as my 
+opponent once a week or so? How about it?
 \e
 
 WinMes09:
@@ -83,9 +83,9 @@ Do take care.
 // ‘ÎŽu‹M
 WinMes12:
 chara_type 0
-See, Shiki? If I put my mind to it, 
-I can fight too. Promise to ask me 
-for help the next time you need it, all right?
+See, Shiki? I am quite able in battle too,
+am I to put my mind to it. Promise to ask me 
+for help the next time you need it, understood?
 \e
 
 // ‘ÎŽu‹M

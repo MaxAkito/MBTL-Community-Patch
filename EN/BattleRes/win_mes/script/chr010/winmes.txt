@@ -4,7 +4,7 @@ WinMesScript
 WinMes00:
 chara_type 2
 Done already? 
-Then you can consider your life done as well.
+Then you can consider the same of your life.
 \e
 
 WinMes01:
@@ -15,9 +15,9 @@ look of pain on your face a little bit exciting.
 
 WinMes02:
 chara_type 102
-Oh, I'm sorry. The difference in scale between us was 
-just too much. Harmful as you may be, you're nothing but 
-an insect regardless. I'm gonna have to be a bit more 
+Oh, I'm sorry. The difference in Lifescale between us was 
+just too much. Some insects may be harmful, but they're 
+still just insects. I'm gonna have to be a bit more 
 careful next time. Well, if there is one.
 \e
 
@@ -39,7 +39,7 @@ WinMes05:
 chara_type 101
 chara_type_sub 102
 chara_switchframe 530
-What a bore. I'm finally free to do as I please, but now
+What a bore. I'm finally free to do as I please, yet now
 there's not a single person who can keep up with me.
 Hehe... This poses quite the problem.
 Who knows what'll happen if I can't take out my frustrations?
@@ -48,7 +48,7 @@ Who knows what'll happen if I can't take out my frustrations?
 WinMes06:
 chara_type 0
 If one is to rule, be gentle as a maiden.
-If one is to control, be firm like a queen.
+If one is to control, be firm as a queen.
 I AM royalty. That's the least that can be expected of me.
 \e
 
@@ -56,12 +56,12 @@ WinMes07:
 chara_type 102
 This body is just about at its limit.
 Gee...
-Isn't there anyone who could maybe kill me again?
+Isn't there ANYONE who could maybe kill me again?
 \e
 
 WinMes08:
 chara_type 2
-Don't bother trying to overpower me.
+Don't bother trying to challenge me head-on.
 But well, if you really wish to kill me, 
 try sneaking up on me like he once did.
 \e
@@ -69,15 +69,15 @@ try sneaking up on me like he once did.
 // 対アルクェイド
 WinMes09:
 chara_type 3
-Was that perhaps... a new me?
-I see... Compact and bunched up...
+Was that perhaps... a new kind of me?
+I see... All compact and bunched up...
 I see, I see...
 \e
 
 // 対志貴
 WinMes10:
 chara_type 1
-Gotcha... Now it's your turn, little wolf.
+Gotcha. Now it's your turn, little wolf.
 I'll have you take responsibility for killing me...
 Until that soul of yours has been completely spent.
 \e
@@ -85,8 +85,8 @@ Until that soul of yours has been completely spent.
 // 対シエル
 WinMes11:
 chara_type 102
-Wait, you're done already, Ciel? But... coming back to life 
-after you're killed is the only thing you're good for...
+Wait, you're done already, Ciel? But-- Coming back to life 
+after you're killed is the only thing you're good for...!
 \e
 
 // 対武装シエル
@@ -95,7 +95,7 @@ chara_type 2
 Is that all you got?
 You haven't even used all your magical energy yet.
 As it is, you're quite literally only half-dead.
-How about you come at with with even bigger weapons next time?
+How about you come at me with with an even bigger weapon next time?
 \e
 
 

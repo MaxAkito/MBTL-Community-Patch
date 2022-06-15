@@ -4,14 +4,14 @@ WinMesScript
 WinMes00:
 chara_type 304
 Fuckin' hell, don't go losing to a goddamn kid.
-And I ain't talking 'bout strength, but your noggin.
+And that aint cuz a' your strength, but your noggin.
 Hit the books before you challenge me again.
 \e
 
 WinMes01:
 chara_type 104
 All I got goin' for me is my youth.
-Don't need to care 'bout shame or reputation,
+Don't need to care 'bout keepin' up appearances,
 I can just get some adults to beat people up for me.
 \e
 
@@ -48,14 +48,14 @@ chara_type_sub1 300
 chara_switchframe1 540
 Being a kid's real nice, socially speaking. 
 Can pick as many fights as I want. 
-Sorry, talkin' to myself here.
+Sorry, was talkin' to myself there.
 Don't worry 'bout it. Go take a nap, kid.
 \e
 
 WinMes06:
 chara_type 100
 Always had a knack for violence. 
-Much more useful than Theology, at least.
+Much more useful than theology, at least.
 The times I get to use it have gone down the 
 shitter ever since I became Acting Presbyter though.
 \e
@@ -84,7 +84,7 @@ Make sure to get 'em some medical care as a lil' extra.
 WinMes09:
 chara_type 303
 Alto, contact Andou.
-Took care of some trash, but I need 'im to deal with 
+Took care of some trash, so I need 'im to deal with 
 the other shit. And I ain't just talking 'bout cleaning
 up the scene. I want 'im investigating the victims, 
 give 'em some care.
@@ -97,9 +97,9 @@ chara_type_sub 100
 chara_switchframe 680
 Real weird... I'd expected, well...
 That you'd show off some crazy moves or somethin'...
-But I guess you don't get all riled up when fighting
-a human? Hah! So young, and you're already hooked on 
-something so fucked up.
+I guess you only get all riled up when you're 
+fightin' monsters? Hah! So young, and you're 
+already hooked on something so fucked up.
 \e
 
 //対アルクェイド
@@ -109,7 +109,7 @@ chara_type_sub 303
 chara_switchframe 260
 Win's a win, but...
 Feels like I'm losing my senses instead!
-What the hell happened to make you so different?!
+The hell happened to make you so different?!
 \e
 
 //対暴走アルクェイド
@@ -123,7 +123,7 @@ kill it. I ain't dumb enough to fight this head-on.
 // 対シエル
 WinMes13:
 chara_type 100
-What you looking so confused for?
+What're ya looking so confused for?
 I know your lil' tricks inside and out.
 Planned out my countermeasures goddamn ages ago.
 \e
@@ -133,7 +133,7 @@ WinMes14:
 chara_type 106
 Fuckin' hell... You're real worked up.
 Mezzo-Soprano, to the water chamber with 'er.
-She'll probably cool down in 3 days or so.
+She'll probably cool down in three days or so.
 \e
 
 // 対ロア
@@ -149,10 +149,10 @@ WinMes16:
 chara_type 303
 chara_type_sub 306
 chara_switchframe 680
-I'm not dumb enough to compare you to Ciel but...
+I ain't unfair enough to compare you to Ciel but...
 Man, your movements are way too simple.
-You seem kinda whimsical, but damn you're stubborn...
-(Maybe I should get 'er a bit more confident sometime.)
+You seem kinda whimsical, yet also damn stubborn...
+(Maybe I should whip her into shape at some point)
 \e
 
 // 対死徒ノエル
@@ -168,8 +168,8 @@ WinMes18:
 chara_type 305
 Stop it, you piece of shit! Think you can get away
 after all you did!? Mezzo-Soprano, get me Karius!
-I'm 'boutta create one hell of a long
-formal complaint to the Mages Assocation.
+I'm 'boutta write one HELLUVA long formal 
+complaint to the Mages Assocation.
 \e
 
 
@@ -180,14 +180,14 @@ chara_type_sub 101
 chara_switchframe 465
 Phew. Drove her back somehow.
 Thank god she was so mentally unstable...
-Got over all the hurdles I was worried about.
-Now I just gotta wait for Roa to wake up.
+All hurdles that got me worried have now been taken 
+care of. Now I just gotta wait for Roa to wake up.
 \e
 
 // 対ノエル（ストーリー専用）
 WinMesArcadeWin08:
 chara_type 104
-Ey, not a bad workout. For both of us. 
+Ey, good workout for both 'a us.
 My Piano Machine ain't in bad shape. Maybe Mario the 
 Puppetmaster's gonna be back on the scene for a few years?
 \e

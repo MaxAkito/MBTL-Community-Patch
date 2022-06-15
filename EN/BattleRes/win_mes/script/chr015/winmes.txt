@@ -25,16 +25,15 @@ WinMes03:
 chara_type 103
 chara_type_sub 100
 chara_switchframe 455
-Aren't you a bit too stuck up?
-You should try new things every now and then.
-Being so by-the-book all the 
-time's gonna dull your mind.
+Don't you think you're a bit too straight-laced? 
+You should try  new things every now and then. 
+Being so by-the-book all the time's gonna dull your mind.
 \e
 
 WinMes04:
 chara_type 105
 By the way, if you see an artsy girl with glasses
-who's always smoking, punch her for me, then tell her to 
+who's always smoking, punch her for me, and then tell her to 
 stop using my name to take out money from the Association.
 \e
 
@@ -81,16 +80,16 @@ chara_switchframe 120
 You weren't just in bad form. Stop with the excuses.
 You just messed with the wrong person, that's all.
 After all, when I'm up against monsters like you
-people, I don't have to hold back.
+people, I know not to hold back.
 \e
 
 //対志貴
+//This needs further editing t. Petri
 WinMes10:
 chara_type 100
-You still have a little ways to go before you become the 
-lovely man I'd hoped for. Adieu for now. We'll meet again, 
-probably somewherein the middle of nowhere. 
-I'll look forward to it.
+You've not quite became the lovely man I'd hoped for yet. 
+Adieu for now. I'll look forward to the day we meet in the 
+countryside somewhere in the middle of nowhere.
 \e
 
 //対秋葉
@@ -99,8 +98,8 @@ chara_type 2
 chara_type_sub 5
 chara_switchframe 160
 That's all for today's lesson!
-I realize I'm not one to talk, but the way you're using
-your power is all wrong.
+I realize I'm not one to talk, but the 
+way you're using your power is all wrong.
 \e
 
 //対ロア
@@ -109,25 +108,25 @@ chara_type 104
 chara_type_sub 103
 chara_switchframe 535
 Gematria-based lightning together with vampiric strength.
-Despite appearances, you're quite the orthodox Dead Apostle.
-Feels like you still have something else up your sleeve, though.
-Care to show me?
+Despite appearances, He was quite the orthodox Dead Apostle.
+Still, feels like there was something more to him.
+He wouldn't show it to me, though.
 \e
 
 // 対ロア（ストーリー専用）
 WinMesArcadeWin05:
 chara_type 4
 Oh, oops. I killed him!?
-I needed to interrogate him about his
+I still needed to interrogate him about his
 secret to immortality or whatever! Nooooo!
-Guess I can say goodbye to my bonus.
+Farewell, my dear bonus!
 \e
 
 // 対死徒ノエル（ストーリー専用）
 WinMesArcadeWin14:
 chara_type 5
 Drats, looks like she got away...
-What was that? The hidden daugther of some Ancestor?
+What was that? Some Ancestor's hidden daughter?
 She's got the potential of a Greater Dead Apostle
 but she fights like a total newbie. 
 It almost reminds me of myself...
@@ -148,8 +147,9 @@ WinMes10WinStreak00:
 chara_type 0
 chara_type_sub 7
 chara_switchframe 298
-Congrats on your ten consecutive wins!
+Congrats on your ten straight wins!
 But you still wanna keep going, right?
-There's nothing wrong to keep going until you win...
-Though I'd rather run away with the win so I never lose.
+Nothing wrong with wanting to keep going for the wins.
+That said, personally I'd rather run away with the win.
+That way, I never lose.
 \e

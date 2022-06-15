@@ -66,7 +66,7 @@ more peacefully the next time we meet.
 WinMes09:
 chara_type 103
 My nun's habit feels awfully light for some reason...
-I wonder if I used too many Black Keys. 
+Perhaps I used too many Black Keys.
 Wait, wasn't I badly over budget this month?
 \e
 
@@ -91,8 +91,8 @@ back to my place to reflect on your actions, Shiki?
 WinMes12:
 chara_type 102
 Finished already? Your movements have really started 
-to drag. Did you gain a few pounds of extra fat from 
-depending on a certain someone too much?
+to drag. Did you perhaps gain a few pounds of extra fat 
+from depending on a certain someone too much?
 \e
 
 // ‘ÎH—t
@@ -124,7 +124,7 @@ around your throat.
 // ‘Î€“kƒmƒGƒ‹
 WinMes16:
 chara_type 105
-Even if you had your blood sucked by a Dead Apostle, 
+Even if you've had your blood sucked by a Dead Apostle, 
 this sudden spurt of growth shouldn't be possible...
 What on earth happened to you, Sister Noel...?
 \e
@@ -135,9 +135,9 @@ chara_type 102
 chara_type_sub 101
 chara_switchframe 180
 Youthful delusions of grandeur must be eradicated!
-You think that sounded awfully personal? Of course not... 
-It's just that I'm a Sister from the Holy Church so it's 
-natural that I'd defeat those of the Mages Association.
+And no, that wasn't something personal. I would NEVER...
+It's simply a matter of me being a Sister of the Holy Church.
+Defeating people from the Mages Association is basically my job.
 \e
 
 // ‘Îƒ}[ƒŠƒIƒD

@@ -11,7 +11,7 @@ Proceeding to next mission.
 WinMes01:
 chara_type 3
 Usually, I like to rely on technique and experience.
-But with these armaments, I can just power through.
+But with these armaments, force alone is enough.
 At your level, you could never stop me.
 \e
 
@@ -25,7 +25,7 @@ with my feminine body.
 
 WinMes03:
 chara_type 1
-This mallet is a horn of purity, which has endured 
+This mallet is a horn of purity which has endured 
 for millenia. You should be honored. Under normal 
 circumstances, it would never be used on the likes of you.
 \e
@@ -35,13 +35,13 @@ chara_type 1
 chara_type_sub 3
 chara_switchframe 450
 Blaze, Blade, Break.
-These three are currently my primary armaments.
+These three are my current primary armaments.
 Were they to your liking?
 \e
 
 WinMes05:
 chara_type 203
-My magic circuits are on a different level to yours.
+My magical circuits are on a different level to yours.
 It's like comparing the engines of a motorcycle to
 those of a rocket. Did you really think you stood a chance?
 \e
@@ -50,8 +50,8 @@ those of a rocket. Did you really think you stood a chance?
 WinMes06:
 chara_type 3
 You underestimated MY state of excitation, Arcueid.
-I managed to gouge your heart out faster than you were
-able to reach your full potential power.
+As such, I managed to gouge your heart out faster 
+than you were able to reach your full potential power.
 \e
 
 // ëŒéuãM
@@ -60,7 +60,7 @@ chara_type 104
 chara_type_sub 102
 chara_switchframe 490
 I know you're not a bad person, but unfortunately
-you've been mixed up in this incident all the same.
+you've been mixed up in this incident regardless.
 I'd recommend laying low for a few nights.
 You got that?
 \e
@@ -72,8 +72,8 @@ chara_type_sub 105
 chara_switchframe 600
 Obviously I ought to eliminate you here and now, but...
 I'll choose to believe in your humanity. Or rather, 
-your self-dignity. Because... In that aspect, 
-above all else, you're the strongest person I know, Akiha.
+your self-dignity. Because in that respect, above all 
+else, you're the strongest person I know, Akiha.
 \e
 
 //ëŒñ\ëñÉAÉãÉNÉFÉCÉh
@@ -83,7 +83,7 @@ Now that was a battle of pure power versus power.
 That said, you've yet to show your true nature,
 just as I've yet to deploy the entirety of the 
 Seventh Holy Scripture. We'll see which one of us 
-is strongest when that times comes.
+is stronger when that time comes.
 \e
 
 //ëŒÉ}Å[ÉäÉIÉD
@@ -91,7 +91,7 @@ WinMes10:
 chara_type 203
 Creatura's Piano Machine...
 To think the esteemed Acting Presbyter
-would be wielding such an old-fashioned weapon.
+would be wielding such an old-fashioned weapon...
 \e
 
 //ëŒÉmÉGÉã
@@ -100,9 +100,9 @@ chara_type 1
 chara_type_sub 0
 chara_switchframe 600
 It appears you're at least keeping yourself at the minimum 
-standard befitting of an Executor. Actually, you've gotten 
-a bit sharper lately. Did you perhaps discover some source 
-of motivation to improve, Sister Noel?
+standard befitting of an Executor. Actually, you've even 
+gotten a bit sharper lately. Did you perhaps discover some 
+source of motivation to improve, Sister Noel?
 \e
 
 //ëŒéÄìkÉmÉGÉã
@@ -149,7 +149,7 @@ WinMesArcadeWin17:
 chara_type 203
 Excuse me, but I have to hurry.
 I'll leave your wounds to the Executors you have with you.
-That said, I am grateful for the advice.
+That said, I'm grateful you'd go out of your way to warn me.
 \e
 
 

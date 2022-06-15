@@ -3,17 +3,17 @@ WinMesScript
 
 WinMes00:
 chara_type 1
-I do not require a guide. 
-I know Japanese cities well, after all. 
+I do not require someone to guide me.
+After all, I am quite familiar with Japanese cities.
 That said, this city is far more urban than the one I know.
 \e
 
 WinMes01:
 chara_type 0
 Dead Apostle... 
-Not a word you'd often hear in the land I am from.
-Perhaps I should have borrowed Sir Gawain's sword
-if they're so weak to sunlight.
+Not a word you would hear often in the land I am from.
+Perhaps I should have borrowed Sir Gawain's sword if 
+they're so weak to sunlight.
 \e
 
 WinMes02:
@@ -25,14 +25,14 @@ I could lend you my strength should it prove necessary.
 WinMes03:
 chara_type 0
 There do not seem to be any other Servants here.
-Hopefully I'm not too out of place...
+Hopefully I don't appear too out of place...
 \e
 
 WinMes04:
 chara_type 1
-A nightless city without slumber...
-Speaking of... I have heard these sorts of urban late-night
-dining establishments serve especially delicious food.
+A nightless city that never sleeps...
+Speaking of... I have heard these sorts of inner city late 
+night dining establishments serve especially delicious food.
 May I ask of you to provide me with an exact address and 
 recommendation as to what to order?
 \e
@@ -50,8 +50,9 @@ I've got to be careful to not stand out as much next time.
 // 秋葉・ロア・ヴローヴ
 WinMes06:
 chara_type 2
-You might be my enemy, but I must say you possess some 
-astonishing powers. You might come out on top next time.
+Though you are my enemy, I must admit... 
+Those are some astonishing powers you possess. 
+You might come out on top next time.
 \e
 
 // 対吸血鬼
@@ -59,16 +60,16 @@ astonishing powers. You might come out on top next time.
 WinMes07:
 chara_type 0
 Return to dust, monster.
-Whatever form it may take, I shall strike 
-down any evil which would threaten the populace.
+I shall strike down any evil which would 
+threaten the populace, whatever form it may take.
 \e
 
 // 対翡翠＆琥珀（ストーリー専用）
 WinMesArcadeWin07:
 chara_type 0
-You two have such excellent teamwork, I mistook you for
-a pair of highly skilled Assassins. I did not expect to learn
-you are simply a pair of mischievous maids. There's certainly
+You two have such excellent teamwork that I mistook you for
+a pair of highly skilled Assassins. To think that you were 
+merely a pair of mischievous maids... There's certainly
 something strange about the nobility in this city.
 \e
 

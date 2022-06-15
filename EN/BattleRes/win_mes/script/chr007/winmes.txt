@@ -59,7 +59,7 @@ clock like that, Sis!
 
 WinMes07:
 chara_type 0
-Phew, that was quite taxing. Hisui, are you all right?
+Phew, that was quite taxing. Hisui, are you alright?
 I'm fine. But your kimono obi...
 Oh, whoops. Let me just fix that...
 Maybe I'll wear something more more 
@@ -87,7 +87,7 @@ I am deeply sorry, Master Shiki.
 WinMes10:
 chara_type 0
 Please accept our apologies, Lady Akiha.
-The use of force is necessary while on strike.
+As we are on strike, I saw it fit to employ force.
 Hisui, you didn't hold back at all...
 \\@LINE_CG@<0, 0, -128,0,112,32, 0, 0,112,32>\\@LINE_CG@<2, 2, -128,0,112,32, 0,32,112,32>
 \e

@@ -27,21 +27,21 @@ savagely next time. You know, as a vampire should.
 WinMes04:
 chara_type 102
 Why don't I drink your blood? Very funny. 
-I would appreciate it if you didn't 
-mistake me for those other third-rate vampires.
+I would appreciate it if you didn't mistake 
+me for those other third-rate vampires.
 \e
 
 
 WinMes05:
 chara_type 104
 Not bad. I had to get a little serious there.
-I look forward to next time, if there is one.
+I'll look forward to next time, if there is one.
 \e
 
 
 WinMes06:
 chara_type 104
-Perhaps I stayed out in the sun too long. 
+Perhaps I've stayed out in the sun too long. 
 You were so weak... The fact that this even qualified 
 as a fight must mean my performance is dropping.
 \e
@@ -62,7 +62,7 @@ Not that I've ever done that.
 
 WinMes09:
 chara_type 100
-You wanna to go again? 
+You wanna go again? 
 It was pretty fun, but if we're doing 
 one more I'll hand your ass to you!
 \e
@@ -91,15 +91,15 @@ Even if you get serious, Shiki, I'm not losing again ÅÙ
 WinMes13:
 chara_type 103
 You may have just became an Ancestor, 
-but you should still know some manners,
-else it reflect poorly on the sire who 
-bequeathed you their Principle.
+but you should still know some manners.
+Otherwise it reflects poorly on the 
+sire who bequeathed you their Principle.
 \e
 
 // ëŒèHót
 WinMes14:
 chara_type 100
-You're getting sharper day by day.
+You're getting sharper by the day.
 Shiki might be bothered by it, but
 I'm happy to have more playmates.
 \e
@@ -134,7 +134,7 @@ How do you maintain that?!
 WinMes18:
 chara_type 102
 Oh c'mon! Don't get all serious ahead of me!
-I'm still just a gracious little vampire!
+I'm still just a graceful little vampire!
 I'm not gonna go berserk thaaat easily!
 \e
 
@@ -145,7 +145,7 @@ I'm not gonna go berserk thaaat easily!
 
 WinMes3WinStreak00:
 chara_type 0
-All right! Three wins in a row!
+Alright! Three wins in a row!
 Gotta keep it up!
 \e
 

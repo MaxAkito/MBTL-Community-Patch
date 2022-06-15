@@ -19,7 +19,7 @@ chara_type 3
 chara_type_sub 1
 chara_switchframe 230
 We should be trying to get along instead of fighting. 
-I'll prepare some tea for when you regain consciousness,
+I'll prepare some tea for when you regain consciousness
 so feel free to sleep as long as you need to! ÅÙ
 \e
 
@@ -40,7 +40,7 @@ WinMes05:
 chara_type 102
 Surprised? 
 I am a maid under the employ of the Tohno family, 
-you know. We all have some degree of grounding in
+you know. We all have some degree of learning in
 the etiquette of battle.
 \e
 
@@ -53,7 +53,7 @@ dose of medicine for you next time.
 
 WinMes07:
 chara_type 1
-The best medicine is bitter. The truth hurts... 
+The best medicine is bitter... The truth hurts... 
 So now that you have learned your lesson, 
 I expect to see an improvement in your behavior.
 \e
@@ -86,7 +86,7 @@ chara_type 102
 Heehee. Seems I've won this time, Lady Akiha. 
 Don't forget our agreement. I get to install more 
 surveillance cameras and will receive a larger budget 
-for Shiki's medicine! ÅÙ
+for Shiki's medicines! ÅÙ
 \e
 
 // ëŒ„≈êâ

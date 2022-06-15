@@ -3,7 +3,7 @@ WinMesScript
 
 WinMes00:
 chara_type 0
-Not bad, you weakling. 
+Not bad, weakling. 
 Your little performance was far more enjoyable 
 than expected. If you make it out of here alive, 
 perhaps you should consider joining a circus!
@@ -12,7 +12,7 @@ perhaps you should consider joining a circus!
 WinMes01:
 chara_type 0
 That left me a bit hungry. You wouldn't mind if I took a
-little donation of blood, would you? I suffer from a
+teensy donation of blood, would you? See, I suffer from a
 chronic case of anemia, as you might be able to tell.
 \e
 
@@ -25,13 +25,13 @@ let the strays in the back-alleys have some fun with it!
 WinMes03:
 chara_type 1
 And so the battle comes to an end, together with my fun.
-You've gotta enjoy the hurting as well as you can, wouldn't
-you sa-- Oh excuse me, you stopped breathing ages ago.
+You've gotta enjoy the hurting as long as you can, wouldn't
+you sa-- Oh excuse me, seems you stopped breathing ages ago.
 \e
 
 WinMes04:
 chara_type 0
-As thanks for allowing me to enjoy myself, 
+In my gratitude for you in allowing me to enjoy myself, 
 I'll do the only humane thing and bury you... Rejoice! 
 Not many people have ever had the honor of experiencing 
 the hellish sensation of being cremated by lightning.
@@ -56,16 +56,16 @@ like a proper vampire at least once in a while.
 // 対志貴
 WinMes07:
 chara_type 2
-What you and I see aren't the same, you say? 
+You said that what you and I see aren't the same.
 Hah, but they are! At the end of the day,
-all they do is cut things to pieces!
+all they do is just cut things to pieces!
 \e
 
 // 対アルクェイド
 WinMes08:
 chara_type 1
 So even a True Ancestor can malfunction, huh? 
-Just a single scratch, and your worth has fallen this much.
+Just a single scratch, and its worth has plummeted this much.
 Right, that must be the sole flaw of a perfect being.
 \e
 
@@ -81,17 +81,17 @@ so much talent! Truly a waste!
 // 対秋葉
 WinMes10:
 chara_type 1
-Hmm...? The sensations in my body do dampen somewhat
-when I'm up against this one.
-Perhaps it's because of love, perhaps because of lust...
-I can't really tell either way.
+Hmm...? The sensations in my current body do dampen 
+somewhat when I'm fighting this particular girl...
+Perhaps it's because of love... perhaps because of lust...
+I can't really tell, either way.
 \e
 
 // 対吸血鬼
 WinMes11:
 chara_type 0
-What an awful night this is, wouldn't you agree, 
-my fellow vampire? I get a bit depressed... 
+What an awful night... Wouldn't you agree, 
+my fellow vampire? It's a bit depressing, really.
 Even the moonlight is too bright for me.
 \e
 
@@ -100,7 +100,7 @@ WinMes12:
 chara_type 0
 Using the Seven Causes of Death in their split-up form?
 I'm not sure what you're so worried about that you'd
-hold back like that, but next time you should bring 
+hold back like that. Next time you should bring 
 out the real deal instead.
 \e
 
@@ -108,18 +108,18 @@ out the real deal instead.
 WinMesArcadeWin03:
 chara_type 1
 What a shame. Looks like nothing has changed.
-I was hoping that at least you would've been able to
+I was hoping that at least YOU would've been able to
 cut me apart, alongside this deviation of events...
 \e
 
 // 対シエル(ストーリー専用)
 WinMesArcadeWin11:
 chara_type 0
-Those excessive weapons are nothing but a shackle for you.
+For you, those excessive weapons are nothing but a shackle.
 You've practically put your miraculous body into bondage. 
-The bondage of human knowledge. 
-Before you go cursing other heresies, 
-you'd best come to terms with your own otherwordliness first.
+Indeed, the bondage of human knowledge. 
+Before you go condemning other heresies, I think you'd best
+come to terms with your own otherwordliness first.
 \e
 
 
@@ -137,6 +137,6 @@ of blood to drink with you around.
 
 WinMes10WinStreak00:
 chara_type 2
-Hey, you're pretty good! If things were different,
-I would've made you my underling!
+Hey, you're pretty good! 
+Under other circumstances, I would've made you my underling!
 \e

@@ -43,8 +43,9 @@ Hyah!
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10000", 100>
 Noel
-Tch! You managed to dodge my attack. 
-Not bad. Seems my ambush attempt was foiled!
+Tch! You managed to dodge my attack without so much
+as a scratch. Not bad. You must've seen right through
+my ambush!
 
 \\@CHARA_OUT@<0, 13, -1, 0, 0>
 \\@CHARA_OUT@<1, 8, -1, 0, 0>
@@ -71,7 +72,7 @@ The story so far!
 Neco_Arc
 In a strange twist, Miyako Arima, ordinary 
 grade-schooler and bajiquan enthusiast, had 
-found herself mixed up in the vampire incidents.
+found herself mixed up in the vampire incident.
 \l
 
 \\@CHARA_OUT@<3, -1, -1, 0, 0>
@@ -193,7 +194,7 @@ yet super cute vampire who is as red a rose?
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10007", 100>
 Noel
 I believe she'd be quite popular in the role of 
-little girl! Maybe I should become a vampire too!
+little girl! Maybe-I-should-become-a-vampire-too!
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10041", 100>
@@ -221,7 +222,7 @@ out my rivals before they become a threat, right?!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10043", 100>
 Miyako
 And that western spear of yours doesn't scare me!
-My I will break it to pieces with my bajiquan!
+I will break it to pieces with my bajiquan!
 
 
 \\@BGM_STOP@<0>

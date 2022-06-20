@@ -31,8 +31,9 @@ What business brings you all the way here?!
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0001", 100>
 Kohaku
-Oh, um, excuse me. What I meant to say was we came to
-investigate the town in your stead. We know you're busy.
+Oh, um... rather, what I meant to say was we thought
+it appropriate to investigate the city by ourselves,
+as to lighten our busy master's burden.
 
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>
@@ -44,14 +45,14 @@ Enough of your excuses.
 \\@CHARA_IN@< 0, 2, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0012", 100>
 Akiha
-Your two are responsible for managing the estate.
+Your two are responsible for taking care of the mansion.
 All other activities are strictly prohibited.
 \l
 
 \\@CHARA_IN@< 0, 2, 201, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0013", 100>
 Akiha
-I assume you are prepared to accept punishment 
+I assume you are prepared to accept any punishment 
 for neglecting your duties and sneaking off 
 without my knowledge?
 

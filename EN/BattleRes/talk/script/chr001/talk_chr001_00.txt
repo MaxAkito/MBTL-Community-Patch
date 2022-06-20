@@ -55,7 +55,7 @@ You wish to speak with me, not them.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0005", 100>
 Hisui
 You have come to observe what it is like to live at
-the Tohno estate, and to learn about my position? 
+the Tohno mansion, and to learn about my position? 
 For your social studies?
 \l
 
@@ -71,7 +71,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0007", 100>
 Hisui
 (And yet, I could not be so rude as to betray 
- the look of expectation in Miss Miyako's eyes.)
+ the look of expectation in Miss Miyako's gaze.)
 \l
 
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
@@ -84,8 +84,8 @@ Hisui
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0009", 100>
 Hisui
-*Ahem* Very well. It is always good to see someone
-who is willing to work hard and learn new skills.
+*Ahem* Very well. It pleases me to see someone
+who is willing to work hard and learn new things.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0010", 100>

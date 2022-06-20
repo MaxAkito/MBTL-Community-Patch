@@ -18,7 +18,7 @@ I have disposed of the threat to this town.
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0031", 100>
 Saber
-I was called forth for my duty as the knight 
+I was called forth in my duty as the knight 
 who wields the holy blade. With this, perhaps 
 that duty is over.
 
@@ -81,8 +81,8 @@ but rather the people who live upon it...
 \\@CHARA_IN@< 1, 0, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0086", 100>
 Arcueid
-All right! Why don't we have a little fun?! Until 
-the moon disappears behind the clouds, at least!
+Alright! Why don't we have a little fun?! 
+At least until the moon disappears behind the clouds!
 \l
 
 \\@CHARA_IN@< 1, 0, 0, 0, 1>
@@ -101,7 +101,7 @@ Saber
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0035", 100>
 Saber
 You ask with such eagerness. I find it hard to refuse 
-your request. In fact, for whatever reason I too find 
+your request. In fact, for whatever reason, I too, find 
 myself quite excited at the prospect.
 \l
 

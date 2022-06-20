@@ -16,8 +16,8 @@
 \\@CHARA_IN@< 1, 3, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0000", 100>
 Shiki
-The sewers run red with blood.
-Corpses litter the city's back alleys.
+The sewers run red like rivers of blood.
+Corpses are piled up in the city's back alleys.
 \l
 
 
@@ -67,8 +67,9 @@ too. You're really not all that cute, now are you?
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0022", 100>
 Dead_Noel
-It's not what you say, but how you say it, I suppose.
-Guess I have to get those screams out of you by force.
+Still, thereÅfs a right way to go about everything. 
+If I want to hear your pathetic screams, I guess
+I'll have to force them out of you.
 \l
 
 
@@ -85,7 +86,7 @@ but never be forgiven, even in death.
 Dead_Noel
 We've been expecting you, Shiki Tohno. I'm not gonna 
 get too into the explanation, but basically... you're 
-a piece of shit who shouldn't be allowed to live.
+a piece of shit who doesn't deserve to live.
 \l
 
 \\@CHARA_IN@<0, 14, 0, 0, 1>
@@ -108,8 +109,8 @@ myself. You know, like you'd do at a blind date!
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0027", 100>
 Dead_Noel
 I've been investigating you for the last two weeks. 
-But you don't know anything about either 
-my face or my na--
+But you, on the other hand, don't even know my face,
+let alone my na--
 
 \\@CHARA_IN@< 1, 3, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0005", 100>
@@ -124,8 +125,8 @@ Besides, I'm NOT a regular upstanding human.
 \\@CHARA_IN@< 2, 3, 103, 12, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0006", 100>
 Shiki
-A relative of mine was killed, so I've just come here 
-to kill you back is all. Your name, your background... 
+You killed one of my relatives, so I'm here to kill 
+you back. That's all. Your name, your background... 
 Nothing of that matters to me.
 
 \\@CHARA_IN@<0, 14, 13, 0, 1>
@@ -161,16 +162,16 @@ be nearly as much fun!
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0032", 100>
 Dead_Noel
-I'm going stab you together with that misplaced 
-confidence of yours, scrape you around, cut you 
-into little pieces...
+I'm going skewer you together with that misplaced 
+confidence of yours, and then I'll scrape you around, 
+cut you into little pieces...
 \l
 
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0033", 100>
 Dead_Noel
-And then I'll even put you into the insides of my eyes!
-I'm sure you'll be a lot happier that way anyway!
+And finally, I'll even put you inside of me!
+I'm sure you'll be a lot happier that way anyways!
 
 \\@BGM_STOP@<0>
 \e

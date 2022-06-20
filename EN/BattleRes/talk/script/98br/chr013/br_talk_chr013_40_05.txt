@@ -54,7 +54,7 @@ What's that?! It looks like a tsunami is headed this way!
 \\@CHARA_IN@< 3, 53, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10090", 100>
 Neco_Arc
-The story so far!
+The story so far!!
 
 \\@CHARA_IN@< 1, 10, 101, 2, 0>
 \aw
@@ -135,13 +135,13 @@ you stupidly thought I wouldn't show up again, huh?
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10032", 100>
 Shiki
 (Odd? I want to tell her it should be impossible,
- but she's right, that really was a bit stupid of me)
+ but she's right, that really was a bit stupid of me.)
 \l
 
 \\@CHARA_IN@< 2, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10033", 100>
 Shiki
-(This is the Tohno estate. Miyako is the one fighting.
+(This is the Tohno mansion. Miyako is the one fighting.
  Anybody'd assume the last boss to be you know, HER.)
 \l
 
@@ -203,7 +203,7 @@ I suppose I can't fault you for that...
 Shiki
 If it were anybody else, then maybe. 
 But even I can't handle this one... 
-mostly because I still feel a bit bad, but...
+Mostly because I still feel a bit bad, but...
 \l
 
 \\@CHARA_IN@< 2, 3, 0, 0, 1>

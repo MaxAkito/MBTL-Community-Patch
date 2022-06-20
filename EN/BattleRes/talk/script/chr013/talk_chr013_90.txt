@@ -19,8 +19,8 @@
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0060", 100>
 Miyako
-And so it was that my brother returned home, all 
-thanks to my heroic demonstration of the bajiquan style!
+And so it was that my brother returned home, 
+all thanks to my heroic demonstration of bajiquan!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0040", 100>
@@ -45,7 +45,7 @@ And of course, that's because you're here, Miyako.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0061", 100>
 Miyako
 Heehee!
-Heeheehee!!
+Heeheeheehee!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0062", 100>
@@ -56,8 +56,8 @@ I want to show you a new stance that I've learned!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0063", 100>
 Miyako
-I expect you to make up for all the time you were away
-with plenty of guidance and encouragement!
+I expect you'll make up for all the time you were 
+away with plenty of guidance and encouragement!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0043", 100>
 Shiki
@@ -73,7 +73,7 @@ don't take care of your body.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0064", 100>
 Miyako
 Right! I know, silly!
-It's fine, it's fine!
+I'll be fine, just fine!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0065", 100>
@@ -90,7 +90,7 @@ helped me get over my shyness around my brother.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0067", 100>
 Miyako
 We restored the dojo to its former beauty,
-and my brother's anemia was cured!
+and it seems my brother's anemia was cured too!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0068", 100>

@@ -42,7 +42,7 @@ She finally even goes all likeÅF
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0034", 100>
 Ciel
 For now, it's best I don't count 
-on her to be any help in battle.
+on her to be of any help in battle.
 \l
 
 \\@CHARA_IN@< 0, 11, 6, 0, 1>

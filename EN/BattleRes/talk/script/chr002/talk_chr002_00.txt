@@ -23,9 +23,9 @@ It's getting on my nerves.
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0001", 100>
 Akiha
-Whoever this mixblood may be, they shouldn't think 
-that they can just walk around doing whatever they 
-want without my permission.
+I don't know who this mixblood could be, but they
+shouldn't be thinking they can just go around doing 
+as they like without my permission.
 \l
 
 \\@CHARA_IN@< 0, 2, 2, 0, 1>
@@ -37,15 +37,14 @@ It's almost as if they're asking to be killed, no?
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0003", 100>
 Akiha
-And it would appear Shiki has 
-gone off on his own again.
+And it would appear Shiki has gone off on his own again.
 \l
 
 \\@CHARA_IN@< 0, 2, 202, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0004", 100>
 Akiha
-Perhaps I will teach this outsider a lesson 
-on my way to bringing Shiki home.
+Perhaps I could teach this outsider a lesson if I 
+have to venture out and bring Shiki home anyways.
 
 
 \\@BGM_STOP@<0>

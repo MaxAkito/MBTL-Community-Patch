@@ -43,8 +43,8 @@ she has ALSO teamed up with Shiki Tohno for some reason.
 \\@CHARA_IN@<1, 8, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0014", 100>
 Noel
-The Dead in town have mostly been taken care of
-by Executor Ciel and the True Ancestor.
+The Dead in town have mostly been taken care 
+of by Executor Ciel and the True Ancestor.
 \l
 
 \\@CHARA_IN@<1, 8, 109, 0, 1>
@@ -70,7 +70,7 @@ there so many unexpected annoyances alluva sudden?
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0051", 100>
 Mario
-The True Ancestor Princess, one of the 27 Ancestors 
+The Princess of the True Ancestors, one of the 27 Ancestors 
 outta nowhere, and then an elite from the Burial Agency 
 together with this useless fatass of a Sister...?
 
@@ -109,15 +109,15 @@ Got it? Keep 'im safe. No killing.
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0056", 100>
 Mario
-Even if looks like Roa's 'bout to take control of 
+Even if looks like Roa's 'boutta take control of 
 the little shit you still just gotta keep protectin' 
 'em, by force if necessary.
 
 \\@CHARA_IN@<1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0018", 100>
 Noel
-I have keep him alive?  Even though he's a non-believer, 
-not to mention potential host of Roa?
+I have keep him alive? But... not only is 
+he a non-believer, he's even the host of Roa!
 
 \\@CHARA_IN@<0, 17, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0057", 100>
@@ -130,8 +130,8 @@ Still, he's got a lotta good in 'im.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0058", 100>
 Mario
 And by that, I don't mean that he's just a good kid.
-End 'a the day, he'll be useful, no matter how
-fucked up he gets.
+End'a the day, he'll be useful no matter how fucked 
+up he gets.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
@@ -150,15 +150,15 @@ Uh-huh?
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0060", 100>
 Mario
 Real problem is that princess he's gotten mixed up 
-with. I mean, she's being oddly eager about all this.
+with. I mean, she's bein' oddly eager about all this.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0061", 100>
 Mario
-If she just runs in there 'n takes care 'a Roa, 
+If she just runs in there'n takes care'a Roa, 
 I'd end up right back where I started.
-We gotta stop her before that happens.
+We gotta stop 'er before that happens.
 
 \\@CHARA_IN@<1, 8, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0020", 100>
@@ -177,7 +177,7 @@ As per your orders, I'll go secure Shiki!
 Mario
 Dumbass. Ain't no way I'd send your incompetent ass
 out against a True Ancestor. But well, just being
-yourself 's good enough for you.
+yourself's good enough for you.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
@@ -185,7 +185,7 @@ yourself 's good enough for you.
 Mario
 Bein' cowardly and shameless are your strong points, 
 honestly. You're real good at runnin' at the first 
-sign 'a trouble. Keep that up.
+sign'a trouble. Keep that up.
 
 \\@CHARA_IN@<1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0022", 100>
@@ -203,7 +203,7 @@ You can't just leave her be, right?
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0064", 100>
 Mario
-True. Thought 'bout maybe hirin' a freelance mage,
+True. Thought about maybe hirin' a freelance mage,
 but I changed my mind. I'll deal with 'er myself.
 
 \\@CHARA_IN@<1, 8, 6, 0, 1>
@@ -224,7 +224,7 @@ fat as you. Both physically, and mentally.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0066", 100>
 Mario
 First though, guy's gotta get some warmup. 
-Ready up, fatass. I'll trim some of that weight offa ya.
+Ready up, fatass. I'll trim some of that weight off'a ya.
 
 \\@BGM_STOP@<0>
 \e

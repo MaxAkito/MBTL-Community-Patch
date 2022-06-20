@@ -26,7 +26,7 @@ You off to a war zone or somethin'?
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0031", 100>
 Mario
 Go ahead, I ain't stopping ya. Get goin'.
-That's the kinda organization the Burial Agency is.
+That's what the Burial Agency organization's for.
 \l
 
 \\@CHARA_IN@<1, 17, 1, 0, 1>
@@ -40,20 +40,20 @@ Far Eastern city to begin with.
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0030", 100>
 Powered_Ciel
 I'm not heading anywhere...
-What are you up to anyway, Acting Presbyter Mario?
+What are you up to anyways, Acting Presbyter?
 \l
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0031", 100>
 Powered_Ciel
-And why have you positioned so many Executors
+And why do you have so many Executors positioned 
 on and around the local buildings?
 
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0033", 100>
 Mario
-Y'know, hound that don't listen 's gotta be put down.
+Y'know, hounds that don't listen s'gotta be put down.
 \l
 
 \\@CHARA_IN@<1, 17, 3, 0, 1>
@@ -61,12 +61,12 @@ Y'know, hound that don't listen 's gotta be put down.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0034", 100>
 Mario
 So this is the last time I'mma say this.
-Leave Roa alone...... What're you shuttin' up for?
+Leave Roa alone...... Hey, what're you shuttin' up for?
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0032", 100>
 Powered_Ciel
-I contacted the Holy See.
+I contacted the Vatican...
 \l
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
@@ -79,7 +79,7 @@ is currently inspecting the databank in Iceland.
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0034", 100>
 Powered_Ciel
-I won't listen to the orders of someone who shouldn't 
+I won't obey the orders of someone who shouldn't 
 be here. Hereon, I shall consider you a Dead Apostle 
 impersonating him. Moving in for elimination.
 
@@ -95,15 +95,15 @@ Guess I ain't gotta hold back then.
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0036", 100>
 Mario
-Gimme a goddamn break.
-All this, just 'cuz you wanna save Shiki Tohno?
+Man, gimme a goddamn break.
+All this, just cuz you wanna save Shiki Tohno?
 \l
 
 \\@CHARA_IN@<1, 17, 10, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0037", 100>
 Mario
-I'll admit he was a decent guy,
+I'll admit he's a decent guy.
 He got his shit sorted with Roa on all his own.
 \l
 
@@ -125,22 +125,23 @@ Princess no more. Shit's too late. Give it up.
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0035", 100>
 Powered_Ciel
-We can't say that for sure yet. And it doesn't 
+We can't say that for sure yet. Besides, that doesn't 
 change our duty to exterminate the True Ancestor.
 \l
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0036", 100>
 Powered_Ciel
-I'll defeat her to make her take responsibility
-for creating Roa. Do you have a problem with that?
+Once I've defeated her, she'll finally have taken 
+responsibilty for creating Roa. I hope you don't 
+have any problems with that?
 
 \\@CHARA_IN@<1, 17, 7, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0040", 100>
 Mario
-Ain't no use talking 'bout it, huh? Got no choice then, 
-how about you go die a couple 'a times, Quinze?
+Ain't no room for talking 'bout it, huh? Got no choice 
+then, how about you go die a couple'a times, Quinze?
 
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>

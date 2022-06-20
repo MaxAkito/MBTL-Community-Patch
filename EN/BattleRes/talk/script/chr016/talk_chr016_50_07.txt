@@ -46,8 +46,9 @@ What perfect timing.
 \\@CHARA_FACE@<1,0,8,290>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0001", 100>
 Red_Arcueid
-I want to say you saved me the trouble of tracking you
-down but... Hearing your voice I've just about had it.
+I'd wanted to say you saved me the trouble of 
+tracking you down but... Hearing your voice 
+right now I've just about had it.
 \l
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>
@@ -82,8 +83,8 @@ time he hit the ground.
 \\@CHARA_IN@<1, 10, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0005", 100>
 Red_Arcueid
-But he's half-vampire now,
-so he's probably still alive.
+But he's half-vampire now.
+He's probably still alive.
 \l
 
 \\@CHARA_IN@<0, 16, 7, 0, 1>
@@ -91,14 +92,14 @@ so he's probably still alive.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0006", 100>
 Red_Arcueid
 Not like he'd be able to escape my 
-castle with his puny little body though.
+castle with his puny little body anyways.
 \l
 
 \\@CHARA_IN@<1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0007", 100>
 Red_Arcueid
-He can wander around and around like an ant 
-and even if he reaches the exit, the poor thing...
+He can wander around and around, like an ant.
+And even if he reaches the exit, the poor thing...
 \l
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>
@@ -117,20 +118,21 @@ I didn't think you were capable of such emotion.
 \\@CHARA_IN@<0, 16, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0045", 100>
 Powered_Ciel
-He actually managed to inflict some serious damage on 
-you. Are you sure you didn't get rid of him out of fear?
+He actually managed to inflict some serious 
+damage on you. Are you sure you didn't get 
+rid of him out of fear?
 
 \\@CHARA_IN@<1, 10, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0009", 100>
 Red_Arcueid
-Of course I didn't. 
-I have no reason to fear him, or to get rid of him.
+Of course I didn't. I have neither reason 
+to fear him, nor to get rid of him.
 \l
 
 \\@CHARA_IN@<1, 10, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0010", 100>
 Red_Arcueid
-It was like picking a ripe fruit.
+It was just like picking a ripe fruit.
 I just took him by the neck and flung him away.
 
 
@@ -168,7 +170,7 @@ to your rage? Good. I'm about to as well.
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0049", 100>
 Powered_Ciel
 He believed in you. He even straight up adored you.
-And yet you betrayed that trust.
+And yet... you betrayed that trust.
 \l
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
@@ -176,14 +178,15 @@ And yet you betrayed that trust.
 Powered_Ciel
 I have no baptism to offer you. There will be no 
 repentance or confession either. That's too good
-for a mere vampire like you.
+for a paltry vampire like you.
 \l
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0051", 100>
 Powered_Ciel
-The only thing I can offer you is judgment. Being crushed, 
-flattened or burned to death. Pick whichever you'd like.
+The only thing I can offer you is judgment. Here, you 
+may pick whichever you'd like. Will you be crushed, 
+flattened or burned to death?
 \l
 
 \\@CHARA_IN@<0, 16, 3, 0, 1>
@@ -201,8 +204,8 @@ Hah.
 \\@CHARA_IN@<1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0014", 100>
 Red_Arcueid
-Sure, I'm so happy I could go mad!
-Let us commence the ball, Ciel!
+Oh yes, that makes me so happy I might just go mad!
+Let us commence the ball then, Ciel!
 \l
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>

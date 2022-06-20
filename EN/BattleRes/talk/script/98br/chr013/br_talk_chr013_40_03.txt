@@ -49,8 +49,8 @@ A-A-Anyways! Hyah!!
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10000", 100>
 Volv@Volv_Fuyu
 To think you would straight up destroy my gift 
-like that... What a terrible city... Your cruelty
-has truly come to its peak.
+like that... What a terrible city...
+What in the world could be crueler than this?
 
 \\@CHARA_OUT@<0, 13, -1, 0, 0>
 \\@CHARA_OUT@<1, 9, -1, 0, 0>
@@ -69,7 +69,7 @@ has truly come to its peak.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10070", 100>
 Neco_Arc
-The story so far!
+The story so far...
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
@@ -94,9 +94,9 @@ Misaki Town was hit with an extreme cold front.
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10074", 100>
 Neco_Arc
-Before long, the sales of snow cones would hit a 
-record low and the beach-front cafes wouldn't be 
-able to sell their noodles anymore!
+If nobody stopped it, then surely the sales of snow cones 
+would hit a record low, and the beach-front cafes wouldn't 
+be able to sell their noodles anymore!
 \l
 
 \\@CHARA_IN@< 3, 53, 110, 0, 1>
@@ -153,7 +153,7 @@ I wonder what it is. Let's see...
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10011", 100>
 Shiki
-It's an booster pack for that popular card game.
+It's a booster pack for that popular card game.
 This one was only valid two banlists ago, though.
 \l
 
@@ -192,13 +192,13 @@ of stratagems of war.
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10005", 100>
 Volv@Volv_Fuyu
 OOooOo!!
-OOOOOOOoOOooOOOOOOOO!!!!!!
+OOOOOOOoOOooOOOOOOOO!!
 
 \\@CHARA_IN@< 0, 13, 5, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10053", 100>
 Miyako
-AHHH!!!
+AHHH!!
 D-D-Don't scare me like that, Mr. Moroz!
 
 \\@CHARA_IN@< 1, 9, 5, 0, 101>
@@ -240,8 +240,8 @@ snow, you'll know exactly how good you've had it!
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10054", 100>
 Miyako
-What?! Look, I get how you must feel, but that
-doesn't sound like something Santa Claus would say!
+What?! Look, I get how you must feel, but I don't
+think Santa Claus is supposed to say stuff like that!
 
 
 \\@BGM_STOP@<0>

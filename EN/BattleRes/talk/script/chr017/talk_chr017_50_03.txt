@@ -23,8 +23,8 @@ Real sorry, but the date's been cancelled.
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0071", 100>
 Mario
-You've messed around long enough. Your vacation ends 
-tonight. I've gotta ask 'a you to return to your castle.
+You've messed around long enough. The vacation ends 
+tonight. I've gotta ask'a you to return to your castle.
 
 \\@CHARA_IN@<1, 0, 14, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0000", 100>
@@ -48,7 +48,7 @@ You seem pretty damn different though.
 \\@CHARA_IN@<1, 0, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0001", 100>
 Arcueid
-O-ho, so you're not adopted?
+Hmmm, so you're not adopted?
 Isn't he supposed to be a Cardinal...?
 Well, whatever.
 \l
@@ -56,7 +56,7 @@ Well, whatever.
 \\@CHARA_IN@<1, 0, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0002", 100>
 Arcueid
-Anyway, what are you planning on doing with 
+Anyways, what are you planning on doing with 
 these wires? I knew you'd already extended 
 them all around the city but...
 \l
@@ -86,7 +86,7 @@ those arms of yours, wires and all.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0074", 100>
 Mario
 Couldn't you stop at just the fingers, huh?
-Too vicious and the Tohno boy might stop likin' you.
+Too vicious and the Tohno boy might stop likin' ya.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
@@ -106,8 +106,8 @@ Just sayin', humans are fragile.
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0077", 100>
 Mario
-Without a bit a' grace, you might accidentally take 
-out your lover boy when you're taking care 'a the Dead.
+Without a bit'a grace, you might accidentally take 
+out your lover boy when you're disposing'a the Dead.
 
 \\@CHARA_IN@<1, 0, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0006", 100>
@@ -138,8 +138,8 @@ you're still a lil' bit hard at heart. That's great.
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0079", 100>
 Mario
-So when Roa's 'boutta possess Tohno, 
-you'll take 'im out right away, then?
+So then when Roa's 'boutta possess Tohno, 
+you'll take 'im out right away, yeah?
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
@@ -181,7 +181,7 @@ If I take him to my castle, he can still be saved.
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0081", 100>
 Mario
-Ah, So that's why you've been sticking 
+Ah, so that's why you've been sticking 
 so close to 'im and playing all lovey-dovey.
 \l
 
@@ -196,7 +196,7 @@ Old man said he owed you a debt, after all
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0083", 100>
 Mario
 Unfortunately, I got my own shit to worry 'bout.
-Can't afford dying just 'cuz 'a your love-affair.
+Can't afford dying just cuz'a your love-affair.
 \l
 
 \\@CHARA_OUT@<0, 17, 10, 0, 1>
@@ -212,7 +212,7 @@ to the castle on your own, Arcueid.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0085", 100>
 Mario
 Humans stay in the human world. 
-That's how simple it is. I shouldn't hafta tell ya.
+That's how simple it is; I shouldn't hafta tell ya.
 
 
 \\@BGM_STOP@<0>

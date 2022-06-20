@@ -19,7 +19,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0030", 100>
 Kishima
 What a terrifying man...
-He was still holding himself back after all that.
+Even after all that, he still held himself back.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0031", 100>

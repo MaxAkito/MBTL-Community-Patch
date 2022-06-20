@@ -17,7 +17,7 @@
 \\@CHARA_IN@< 1, 53, 105, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10110", 100>
 Neco_Arc
-Wow! That family head is so immature!
+Wow! The Tohno head sure is immature!
 In more ways than one!
 \l
 
@@ -25,8 +25,8 @@ In more ways than one!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10111", 100>
 Neco_Arc
 What do you think about her saying stuff like that 
-to a kid, glasses-boy? Maybe even you and your seven 
-years of feeling bad for her dampened a bit?
+to a kid, glasses-boy? Maybe your seven years of 
+feeling bad for her have even dampened a bit?
 
 \\@CHARA_IN@< 2, 3, -1, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 13>
@@ -134,8 +134,8 @@ Isn't that right, Shiki?!
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10043", 100>
 Shiki
-We did. Just a part of the our strategy meeting, 
-though. I think I'll order the pancakes next time.
+We did. Just a part of our strategy meeting, though. 
+I think I'll order the pancakes next time.
 
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10104", 100>
@@ -145,8 +145,7 @@ Heehee!
 \\@CHARA_IN@< 1, 53, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10119", 100>
 Neco_Arc
-You are aware he's just treating you 
-like a child, aren't you?
+You are aware he's just treating you like a kid, right?
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>
@@ -185,8 +184,8 @@ you make, she is always going to block your path.
 \\@CHARA_IN@< 1, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10122", 100>
 Neco_Arc
-A wall which you cannot overcome. An absolute wall. 
-The wall of fate. Just a wall, actually.
+The wall you can never overcome. The absolute wall. 
+The wall of fate. In all ways, a wall!!
 \l
 
 \\@CHARA_IN@< 1, 53, 106, 0, 1>
@@ -254,7 +253,7 @@ continued failure. Got that? Now say it back to me!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10109", 100>
 Miyako
 Wait, what...? Are you trying to say 
-that this bad-end was't pointless?
+that this bad end was't pointless?
 
 \\@CHARA_IN@< 1, 53, 104, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
@@ -268,7 +267,7 @@ yours just proves that you have great potential.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10132", 100>
 Neco_Arc
 I think that's about enough for this time.
-Until we meet again, China-girl. Good--
+Until we meet again, China-girl. GOOD CA--
 \l
 
 \\@CHARA_OUT@<2, 3, 12, 2, 1>
@@ -296,14 +295,14 @@ Everything is... falling... diagonally...?
 \\@CHARA_IN@< 2, 3, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10044", 100>
 Shiki
-Sorry, but I simply cannot accept this.
-ÅgWhen next you wakeÅh? That's just sloppy writing.
+I don't quite agree with that... ÅgWhen next you wakeÅh? 
+Isn't that a bit irresponsible?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10045", 100>
 Shiki
-If she's going to continue failing, she can do so
-as many times as she wishes right here.
+Here, you can fail as much as you like.
+I think you ought to use that to the fullest.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10110", 100>
@@ -313,26 +312,27 @@ Shiki...?
 \\@CHARA_IN@< 2, 3, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10046", 100>
 Shiki
-So basically... you might as well keep on fighting this
-unwinnable fight, forever.
+So basically... you might as well keep 
+on fighting this unwinnable fight, forever.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10047", 100>
 Shiki
-Who cares about how the story ends.
-Up until then you did everything just fine, after all.
+Even if the ending doesn't go your way.
+everything up until then you'll do just fine.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10048", 100>
 Shiki
 Besides, reality isn't nearly as interesting as this
-place can be. Why not simply never wake up?
+place can be, so why would you need to wake up?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10049", 100>
 Shiki
-And don't think you can complain yourself out of this.
-It's my brotherly duty to give a strict lesson.
+And if you still intend on going against me, 
+then I suppose your brother's just gonna have
+to teach you a lesson.
 
 \\@CHARA_IN@< 0, 13, 13, 50, 20>
 \aw

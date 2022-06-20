@@ -19,7 +19,7 @@ chronic case of anemia, as you might be able to tell.
 WinMes02:
 chara_type 2
 One charred corpse coming up! Now all that's left is to 
-let the strays in the back-alleys have some fun with it!
+let the strays in the back alleys have some fun with it!
 \e
 
 WinMes03:

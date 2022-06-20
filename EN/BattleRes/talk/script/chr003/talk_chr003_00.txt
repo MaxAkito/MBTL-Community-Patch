@@ -32,7 +32,7 @@ to stay inside and wait for morning.
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0002", 100>
 Shiki
-But I can't afford to do that tonight.
+But I can't afford to do that.
 \l
 
 \\@CHARA_IN@< 0, 3, 0, 0, 1>
@@ -43,15 +43,15 @@ I am the only man in the house, after all.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0004", 100>
 Shiki
-I really wanna show the others that I can be 
-depended on as the elder brother that I am, too.
+Also, I really wanna show the others that I can 
+be depended on as the elder brother that I am.
 \l
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0005", 100>
 Shiki
 Right now, that means patrolling the area 
-around the estate for any signs of trouble.
+around the mansion for any signs of trouble.
 
 \\@BGM_STOP@<0>
 \e

@@ -20,19 +20,19 @@ I hope you're satisfied.
 \\@CHARA_IN@< 1, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0041", 100>
 Arcueid
-If only you'd come straight for me, then it 
-would've been just a minor unpleasantry, yet...
+If only you had come straight for me, then this 
+would've just ended up a minor unpleasantry, yet...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0042", 100>
 Arcueid
-To think you'd avoid me and go for Shiki instead.
+You avoided me and went for Shiki instead.
 \l
 
 \\@CHARA_IN@< 1, 0, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0043", 100>
 Arcueid
-Disgusting...
+Ugh...
 Do not expect you will die a normal death.
 \l
 
@@ -48,8 +48,8 @@ Roa
 \\@CHARA_IN@< 1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0045", 100>
 Arcueid
-Now you hesitate? What's wrong? Are you afraid?
-But it's too late. It's all too late.
+Now you hesitate? What's wrong? Finally starting to
+feel some fear? But it's too late. It's all too late.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0046", 100>
@@ -60,9 +60,9 @@ You will not leave this place alive.
 \\@CHARA_IN@< 1, 0, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0047", 100>
 Arcueid
-I will show no mercy. Every fiber of your 
+I will show you no mercy. Every fiber of your 
 being shall be erased from this world. 
-All you can do is beg for mer-
+All you'll be able to do is beg for mer-
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0041", 100>
@@ -99,7 +99,7 @@ Roa
 That you'd lay your defects to bare without 
 an ounce of shame... It's an affront, both 
 to me and the Princess, no doubt about it.
-\lq
+\l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0046", 100>
@@ -112,15 +112,16 @@ naught but wither at my touch.
 \\@CHARA_EMOVE@<1, -1 , 11>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0049", 100>
 Arcueid
-Hah--ahahahahahaha!!
+Ha, hah... ahahaha... 
+Ahahahahahaha!!
 \l
 
 \\@CHARA_IN@< 1, 0, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0050", 100>
 Arcueid
-You're hilarious! Hilarious indeed, Roa!
-This is even funnier than the time you
-showed up to my castle as a jester.
+You're hilarious! A complete riot, Roa!
+This joke hit way better than the time 
+you showed up to my castle as a jester.
 \l
 
 \\@CHARA_IN@< 1, 0, -1, 0, 1>

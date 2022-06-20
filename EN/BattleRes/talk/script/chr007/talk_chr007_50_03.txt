@@ -34,7 +34,7 @@ Oh, it's just you two.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0042", 100>
 Akiha
 I don't remember ordering you to go wandering around
-this late at night. Return to the estate at once.
+this late at night. Return to the mansion at once.
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0010", 100>
@@ -54,8 +54,8 @@ Shut up, Hisui!
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0032", 100>
 Kohaku
 A Lady Akiha who does not sympathize with the 
-thoughtfulness of her servants working so nobly
-is no Lady Akiha at all!
+thoughtfulness of her dutiful servants is no 
+Lady Akiha at all!
 \l
 
 \\@CHARA_IN@< 2, 4, 104, 0, 1>
@@ -67,7 +67,7 @@ household, we have no choice but to teach her a lesson!
 \\@CHARA_IN@< 1, 2, 200, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0043", 100>
 Akiha
-Very well... I suppose I shall 
+Very well... I suppose I should
 interpret those words as a challenge then?
 \l
 
@@ -75,16 +75,16 @@ interpret those words as a challenge then?
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0044", 100>
 Akiha
 You'll have to excuse me, but I'm not sure what you're
-up to, nor do I really care. That goes for your excuses 
-after you lose as well.
+up to, nor do I really care. The same goes for your 
+excuses after you lose as well.
 \l
 
 \\@CHARA_IN@< 1, 2, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0045", 100>
 Akiha
-Hehehe... What a great opportunity. I shall teach 
-you just how terrifying it is to oppose your master, 
-punishment included.
+Hehehe... What a great opportunity. I'm sure a bit of 
+corporal punishment will serve excellently in showing 
+just how terrifying it is to oppose your master.
 
 \\@BGM_STOP@<0>
 \e

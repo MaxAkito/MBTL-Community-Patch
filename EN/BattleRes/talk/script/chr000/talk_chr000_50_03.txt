@@ -59,8 +59,8 @@ are complete opposites!
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0002", 100>
 Noel
-Wait, this True Ancestor is already 
-totally serious about this!
+Oh no, the True Ancestor has 
+already made up her mind about this!
 \l
 
 \\@CHARA_IN@< 1, 8, 4, 32, 2>

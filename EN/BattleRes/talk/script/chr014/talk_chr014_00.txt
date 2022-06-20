@@ -25,13 +25,13 @@ It hurts... It hurts so bad...
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0001", 100>
 Dead_Noel
 My head is spinning... It hurts so much... 
-It's almost feels like my insides have spilled out.
+It's almost feels like my insides have spilled out...
 \l
 
 \\@CHARA_IN@<1, 14, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0002", 100>
 Dead_Noel
-What... happened... to me...? The last thing I remember
+What happened... to me...? The last thing I remember
 was that weird lady injecting me with something...
 \l
 
@@ -44,7 +44,7 @@ was that weird lady injecting me with something...
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0003", 100>
 Dead_Noel
 Oh, right...
-Right, right!
+Right, that's it!
 \l
 
 

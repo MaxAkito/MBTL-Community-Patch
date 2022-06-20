@@ -19,14 +19,14 @@ Has everyone left in this city gone crazy?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0041", 100>
 Kohaku
-Or maybe this is this all just strange dream after all? 
+Or maybe this is all just strange dream after all? 
 \l
 
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0042", 100>
 Kohaku
-I mean who'd think there'd be crypt like 
-this just under the station park.
+I mean who'd think there'd be crypt 
+like this just under the station park?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0043", 100>
@@ -47,7 +47,7 @@ Volv
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0001", 100>
 Volv
 ÅgThough it may not suit me... I am still a Suzerain. 
-  Entertaining many guests is a part of my positionÅh
+  Entertaining many guests is part of my position.Åh
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
@@ -80,8 +80,8 @@ Volv
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0006", 100>
 Volv
 ÅgPerhaps us meeting here was under the guidance of
-  my Karisha. Worry not, your death shall be 
-  bloodless, as if entering a slumber.Åh
+  my Karisha. Worry not, your death will be 
+  bloodless, almost as if entering into slumber.Åh
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0044", 100>
@@ -100,14 +100,14 @@ All I know is that he sounds like a bad guy!
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0046", 100>
 Kohaku
 For some reason, he also reminds me a bit of Shiki.
-That being said...
+Not that it really matters...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0047", 100>
 Kohaku
-It seems you are suffering from a nasty chronic 
-illness. As one who is engaged in the practice of 
-medicine, I must do something about it!
+It appears you are suffering from a nasty chronic 
+disease. As one engaged in the practice of medicine, 
+I must do something about it!
 \l
 
 \\@CHARA_IN@< 0, 4, 104, 0, 1>

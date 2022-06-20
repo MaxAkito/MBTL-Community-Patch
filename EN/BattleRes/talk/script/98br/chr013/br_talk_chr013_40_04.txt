@@ -68,15 +68,15 @@ seemed pretty shady too, Hisui.
 \\@CHARA_IN@< 3, 53, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10080", 100>
 Neco_Arc
-The story so far!
+The story so far...
 \l
 
 \\@CHARA_IN@< 3, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10081", 100>
 Neco_Arc
-Miyako defeated a monster so powerful you could've mistaken
-him for the final boss, even though he had nothing to do
-with the actual plot.
+Miyako defeated a monster so powerful you could've 
+mistaken him for the final boss, even though he had 
+nothing to do with the actual plot.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10082", 100>
@@ -94,7 +94,7 @@ but their forced smiles hid a sorrowful past.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10084", 100>
 Neco_Arc
-Will the kind-hearted Miyako find it in herself 
+Will the kindhearted Miyako find it in herself 
 to fight the odd pair, who are clearly cheating 
 by fighting together?
 
@@ -144,7 +144,7 @@ Right now, we are not who you think we are.
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10001", 100>
 Kohaku
 That is correct. Our evil employer has brainwashed us.
-We are a poor pair of assassins, sent to eliminate 
+We are a pair of tragic assassins, sent to eliminate 
 Miss Miyako...
 \l
 
@@ -183,7 +183,7 @@ DESTR0Y HER... DESTR0Y HER...
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10004", 100>
 Kohaku
 DESTR0Y AK1HA QU1CKLY
-DESTR0Y HER 1T W0ULD BE FUNNY.
+DESTR0Y HER. 1T W0ULD BE FUNNY.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -230,7 +230,7 @@ maids, too! I'll give it everything I've got!
 \\@CHARA_EMOVE@<3, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10005", 100>
 Kohaku
-UH-0H. S0MET1MES 1 TH1NK Y0UR N0-N0NSE 
+UH-0H. S0MET1MES 1 TH1NK THAT N0-N0NSE 
 ATT1TUDE 0F Y0URS 1S A BIT MUCH SH1K1.
 
 \\@BGM_STOP@<0>

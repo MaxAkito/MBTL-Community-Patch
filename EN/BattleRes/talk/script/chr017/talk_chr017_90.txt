@@ -16,21 +16,23 @@
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0080", 100>
 Aoko
-That's your story, huh...
+Oh, so that's your story...
 \l
 
 \\@CHARA_IN@<1, 15, 4, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0081", 100>
 Aoko
-I'm sorry, Mario. I thought for sure you were a corrupt 
-Presbyter who'd gone over the to the Dead Apostles' side.
+I'm sorry, Mario. I thought for sure you were 
+some corrupt Presbyter who'd gone over the to 
+the Dead Apostles' side.
 
 \\@CHARA_IN@<0, 17, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0110", 100>
 Mario
 Don't give me that shit, you walking disaster. You 
-really think a 12 year-old brat would be that depraved?
+really think a 12 year-old brat would be getting up
+in the corruption business already?
 \l
 
 \\@CHARA_IN@<0, 17, 7, 0, 1>
@@ -44,7 +46,7 @@ Ain't got no time for beatin' around the bush.
 \\@CHARA_IN@<0, 17, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0112", 100>
 Mario
-Well, all my plans went to shit 'cuz 'a you!
+Well, all my plans went to shit cuz'a you!
 Got myself involved with one helluva pest!
 
 \\@CHARA_IN@<1, 15, 10, 0, 1>
@@ -52,8 +54,8 @@ Got myself involved with one helluva pest!
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0082", 100>
 Aoko
 Yeah, about that.
-I think I might know a way to stop things
-from getting any worse.
+I think I might know a way to 
+stop things from getting any worse.
 \l
 
 \\@CHARA_IN@<0, 17, 11, 0, 1>
@@ -98,8 +100,8 @@ Executor Ciel chose to remain in Souya.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0114", 100>
 Mario
-After that, it appears as if a major and strange incident
-took place there, though nobody could observe it.
+After that, it appears as if great abnormality 
+occurred there, though it could not be observed.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0115", 100>
@@ -118,7 +120,7 @@ That said...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0030", 100>
 Noel
-Think we can chalk this one up as a win.
+I think we can chalk this one up as a win.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0031", 100>
@@ -143,9 +145,9 @@ for at least a year.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0119", 100>
 Mario
-I'm gonna fix up you up, attitude an' all. 
+I'm gonna fix up you up, attitude 'n all. 
 Once we're done with that, I'll assign you
-to whatever church you like.
+to whatever church you'd like.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0032", 100>
 Noel
@@ -160,7 +162,7 @@ Please let me live the good life!
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0120", 100>
 Mario
 *Sigh* And my big prize turns out to be a useless pawn. 
-Just coming out of this alive was a huge plus.
+Just coming outta this alive was a huge plus.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0121", 100>

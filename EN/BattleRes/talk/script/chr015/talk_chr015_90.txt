@@ -26,8 +26,8 @@ can only find happiness in shooting laser beams?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0022", 100>
 Mario@Mario_Hatena
-You reduced the entire fuckin' Workshop to ashes, 
-along with Roa. My reputation as the 'Peoplemaster' 
+The entire fuckin' Workshop, reduced to ash, 
+alongside Roa! My reputation as the 'Peoplemaster' 
 ain't gonna survive this shit.
 \l
 
@@ -70,15 +70,15 @@ off the damages you caused, dumbass.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0026", 100>
 Mario@Mario_Hatena
-It's goddamn miracle no one was hurt when
-you destroyed those train cars!
+It's goddamn miracle no one was hurt 
+when you destroyed those train cars!
 
 \\@CHARA_IN@< 0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0043", 100>
 Aoko
 Miracle nothing. I made sure no one would be in 
-danger before I got started. I've made a promise 
-to never kill ordinary people.
+danger before I got started. I've promised to 
+never harm ordinary people.
 \l
 
 \\@CHARA_IN@< 0, 15, 4, 0, 1>
@@ -98,8 +98,8 @@ I flew all the way from Australia to be here!
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0046", 100>
 Aoko
 Mr. high-and-mighty Presbyter sure has one hell
-of a temper... Wait. Are you mad because of how 
-your body works?
+of a temper... Wait, could it be because of how 
+your body works that you're so worked up?
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0027", 100>
@@ -165,7 +165,7 @@ we'd turn this tropical island into a living hell.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0053", 100>
 Aoko
 Guess I'll just go ahead and enjoy this
-high-class lifestyle by myself, then!
+high-class lifestyle all by myself, then!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0054", 100>
@@ -176,7 +176,7 @@ and not a glimpse of good old Zelretch, either.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0055", 100>
 Aoko
-For now, the world is safe.
+For now, all is well.
 I won't have to get involved for many a year!
 
 \\@SYSTEM@<21>

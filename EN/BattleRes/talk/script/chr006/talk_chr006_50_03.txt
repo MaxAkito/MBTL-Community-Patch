@@ -27,17 +27,17 @@ you're not a vampire.
 \\@CHARA_IN@< 1, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0012", 100>
 Ciel
-Even if that bloodline may be native to this country 
-and unrelated to the Holy Father's, it is unacceptable 
-to claim to be of divine blood...
+Even if perhaps your bloodline is unrelated to the 
+Holy Father's, and actually native to this country, 
+it is still unacceptable to claim divine blood...
 
 \l
 
 \\@CHARA_IN@< 1, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0013", 100>
 Ciel
-As an Executor of the Lord's will,
-I shall bring an end to such an existence.
+As an Executor of the Lord's wishes,
+I must bring an end to such beings.
 
 \\@CHARA_IN@< 0, 6, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0010", 100>
@@ -49,13 +49,13 @@ Must be quite tiring bringing yourself all this way...
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0011", 100>
 Kishima
 Incursion lies at the heart of your creed.
-There is strength in monotheism...
+There is indeed strength in monotheism...
 \l
 
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0012", 100>
 Kishima
-Actually, most enviable.
+Most enviable, in fact.
 \l
 
 \\@CHARA_IN@< 0, 6, 2, 0, 1>
@@ -81,7 +81,7 @@ but you prove to be quite eloquent...
 \\@CHARA_IN@< 1, 11, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0015", 100>
 Ciel
-You're a Buddhist even though you're a non-human?
+You're not even human, but still a Buddhist?
 
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0015", 100>

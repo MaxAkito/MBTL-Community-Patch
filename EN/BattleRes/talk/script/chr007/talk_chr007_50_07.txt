@@ -30,7 +30,7 @@ doesn't have much money...
 Noel
 ...possesses little talent, and enjoys 
 slacking off, but still, you are falling 
-in love with a cutie like heeer...
+in love with a cutie like meeee...
 
 \\@CHARA_IN@< 3, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0060", 100>
@@ -55,21 +55,21 @@ I'm falling in loveeee...
 \\@CHARA_EMOVE@<2, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0040", 100>
 Kohaku
-Aaahhhhhh!!!
+Ahhhh!
 What a shocking sight!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0041", 100>
 Kohaku
 An innocent boy tied to a chair with a suspicious-looking
-woman in nun's clothing desperately trying to show off her
-own appeal to him?!
+woman in nun's clothing desperately trying convince 
+him of her own virtues?!
 
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0020", 100>
 Hisui
 Look closely, Kohaku. 
-This is no ordinary showing off she's doing.
+That is no ordinary convincing she's doing.
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
@@ -81,8 +81,8 @@ a moment to lose. Nor a lick of sympathy to spare.
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0042", 100>
 Kohaku
-Oh, I see! It's a psychological attack, then!
-That is unforgivable!
+Oh, I see! So she is employing violence, 
+but psychologically! That is unforgivable!
 \l
 
 \\@CHARA_IN@< 2, 4, 104, 0, 1>
@@ -101,7 +101,7 @@ What, you wanna go?!
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0033", 100>
 Noel
-So you intend to rob me of my final chance at getting 
+Do you intend to rob me of my final chance at getting 
 a boyfriend?! I haven't been able to make even a single
 one at my shady job!
 \l
@@ -109,7 +109,7 @@ one at my shady job!
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0034", 100>
 Noel
-That's worthy of a thousand deaths, you little shits!
+There's no graver sin than that, you little shits!
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 \\@CHARA_FOCUS_COLOR@<0,0>
@@ -121,7 +121,7 @@ at least as demanding as yours.
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0044", 100>
 Kohaku
-Truth be told... you will be the culprit!
+Truth be told... you WILL be the culprit!
 
 
 \\@BGM_STOP@<0>

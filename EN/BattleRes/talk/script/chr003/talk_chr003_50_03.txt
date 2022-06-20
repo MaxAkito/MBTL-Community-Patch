@@ -101,7 +101,7 @@ Shiki
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0019", 100>
 Noel
 Whoa! Hold on! I know this looks suspicious,
-but don't you get serious a bit too quickly?
+but aren't you jumping the gun a bit here?!
 \l
 
 \\@CHARA_IN@< 1, 8, 9, 32, 20>
@@ -113,7 +113,7 @@ Oh well, I suppose this'll save time in the long run.
 \\@CHARA_IN@< 1, 8, 0, 32, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0021", 100>
 Noel
-Ain't no point in hiding now that I've been found out.
+There's no point in hiding now that I've been found out.
 \l
 
 \\@CHARA_IN@< 1, 8, 1, 32, 1>

@@ -29,7 +29,7 @@ My days were filled with joy and happiness! Åô
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10001", 100>
 Miyako
-Huh-Huh?
+Wha-wha--
 \l
 
 \\@FADE_CLEAR@<2>
@@ -82,7 +82,8 @@ surprised to find your ending cut short like that.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10003", 100>
 Neco_Arc
 You gonna break down and cry? Lose your cool? 
-Feel lost? And then leg it after your throw-whiff motion?
+Feel lost? And then leg it after you get stuck 
+in your throw-whiff motion?
 \l
 
 \\@CHARA_IN@< 2, 53, 110, 0, 1>
@@ -159,8 +160,8 @@ Really? So what's changed?
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10011", 100>
 Neco_Arc
-My morals have been updated from the Jurassic period to
-the Permian, which also improved my matchup spread.
+My morals have been updated from the Jurassic period to the 
+Permian, which has then also improved my matchup-spread
 \l
 
 \\@CHARA_IN@< 2, 53, 104, 0, 1>
@@ -208,8 +209,8 @@ to be a world inbetween the prologue and the main story.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10017", 100>
 Neco_Arc
-The moment of bliss you enjoyed before now was
-neither historical, fact or official!
+In addition, the moment of bliss you enjoyed before now 
+was neither historical, factual or official!
 
 \\@CHARA_IN@< 0, 13, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
@@ -234,22 +235,23 @@ already guessed at my meowning!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10020", 100>
 Neco_Arc
 The story you experienced until now was simply one 
-possibility among many. A future which might have 
+possibility among many; a future which might have 
 occured had you possessed the ability to fight.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10021", 100>
 Neco_Arc
-Something born from nothing. Nothing born from something. 
-A mere dream constructed from vague speculation.
+Something born from nothing; Nothing born from something; 
+Vague possibilities giving birth to an impossible story.
 \l
 
 \\@CHARA_IN@< 2, 53, 104, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10022", 100>
 Neco_Arc
-An illusion shown to you by the neurons in your noggin.
-Nothing more than some make-believe. Get it now?
+Basically, an illusion shown to you by the 
+neurons in your noggin. Nothing more than 
+some make-believe. Get it now?
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10010", 100>
@@ -316,9 +318,9 @@ while that dumb glasses-boy is heading to the Tohno manor.
 \\@CHARA_IN@< 2, 53, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10030", 100>
 Neco_Arc
-At this pace, it will all follow the standard 
-route, and you will never get your time together 
-with your brother.
+Know that as things stand, events will all follow the 
+standard route, and you will never get your time 
+together with your brother.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10012", 100>
@@ -333,7 +335,7 @@ Miyako
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10013", 100>
 Miyako
 ........
-No way...! I hate that!!
+No way...! I don't want that, EVER!!
 \l
 
 \\@CHARA_IN@< 0, 13, 6, 0, 1>
@@ -453,8 +455,8 @@ R-Really?! Wow!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10019", 100>
 Miyako
-I still have no idea what you're talking about, 
-but I can tell you've put a lot of effort into it!
+I still have absolutely not a single clue what you're
+talking about, but I get it must've been a lot of effort!
 \l
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
@@ -530,7 +532,7 @@ to keep going at this unfair game without worries.
 \\@CHARA_IN@< 2, 53, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10049", 100>
 Neco_Arc
-Good Cat China-girl!
+GOOD CAT China-girl!
 Boss Rush Mode, beginnnn!
 
 

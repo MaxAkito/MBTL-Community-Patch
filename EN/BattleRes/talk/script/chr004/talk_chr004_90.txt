@@ -24,20 +24,21 @@ What a wonderful morning!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0051", 100>
 Kohaku
-The city looks to be back to normal. And there doesn't
-seem to be anything wrong with the garden! I'm so glad!
+I don't really understand why, but the city appears
+to be back to normal. Nothing wrong with the garden
+either! I feel great today as well!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0052", 100>
 Kohaku
-Though I'm still not quite sure what that floating
-sensation or that man in the coat were all about.
+Well, I'm still not quite sure what that floating
+sensation or that man in the coat were all about...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0053", 100>
 Kohaku
-It has me a bit worried, but I suppose not
-everything in the world can be explained.
+So I suppose I can't say im entirely without worries.
+But not everything in this world has an explanation.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0054", 100>
@@ -48,14 +49,15 @@ society is filled with mysteries and absurdities.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0055", 100>
 Kohaku
-If I think of it that way, my experience last 
-night could be considered a fun little festival.
+If I think of it that way, I suppose I should see 
+my experience last night as a fun little outing.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0056", 100>
 Kohaku
-This whole "and then dawn came, and all was well!" 
-kinda story really is akin to a dream.
+This whole...
+"Then dawn came, and all was well!" 
+Sort of story really is akin to a dream.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0057", 100>
@@ -65,8 +67,8 @@ Right, must be.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0058", 100>
 Kohaku
-All seems in order with the estate. 
-All is right with the world...
+There's nothing out of order at the mansion,
+and all seems right with the world...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0059", 100>

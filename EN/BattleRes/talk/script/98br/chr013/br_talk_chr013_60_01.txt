@@ -24,7 +24,7 @@ Why's it gotta be so hard right from the start?!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10031", 100>
 Miyako
 It's only the first day and that thing is what comes 
-attacking me! This is supposed to be MY heroine route!
+attacking me! Is this really MY route?!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10032", 100>
@@ -54,7 +54,7 @@ game. I'm really being subsumed by the feelz right now.
 \\@CHARA_IN@< 2, 53, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10052", 100>
 Neco_Arc
-Stand tall, Kung Fu China-girl! Y・O・U have just claimed 
+Stand tall, kung fu China-girl! Y・O・U have just claimed 
 the right to overturn your fate through your own power!
 
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
@@ -62,13 +62,13 @@ the right to overturn your fate through your own power!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10033", 100>
 Miyako
 ...!
-S-Stop that, you dumb cat!
+This dumb cat actually cares...
 
 \\@CHARA_IN@< 2, 53, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10053", 100>
 Neco_Arc
-You're getting a great deal, I'll have you know! A mere
-volunteer wouldn't have stuck around this long to help!
+Oh, does it not move your heart? Of course it does...
+A volunteer wouldn't have stuck around this long to help!
 \l
 
 \\@CHARA_IN@< 2, 53, 100, 0, 1>

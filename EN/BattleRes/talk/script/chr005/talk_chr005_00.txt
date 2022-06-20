@@ -22,7 +22,8 @@ pierced by the Mystic Eyes of Death Perception?
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0001", 100>
 Roa
-Did he fail to kill me? No...
+Did he fail to kill me? 
+No, impossible...
 \l
 
 \\@CHARA_IN@<0, 5, 4, 0, 1>
@@ -36,28 +37,28 @@ woman to pieces, ever so gently.
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0003", 100>
 Roa
 The vampire known as Roa was completely killed. 
-Such is certainly the case.
+Such is certain.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0004", 100>
 Roa
-This, then, is no doubt a deviation 
-taking place after that event.
+What we have here then, is no doubt a 
+deviation taking place after that event.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0005", 100>
 Roa
-So am I the oddity here?
+So... am I the oddity here?
 Or is it the world itself that's odd?
 \l
 
 \\@CHARA_IN@< 0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0006", 100>
 Roa
-If I had to guess, this being a parting gift from 
-Paranodahlia seems like it'd make sense.
+If I had to guess, what would make most sense is that
+this is a parting gift of some sorts from Paranodahlia.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>

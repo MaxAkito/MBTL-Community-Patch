@@ -29,8 +29,8 @@ And although I'm all grown up now...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0002", 100>
 Miyako
-Back then I was still a tiny little baby, so I
-didn't really understand this whole 'respect' thing.
+Back then I was still a tiny little baby, so I didn't 
+really understand this whole 'respect' thing.
 \l
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
@@ -42,8 +42,8 @@ But whatever, my brother is still my brother.
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0004", 100>
 Miyako
-He doesn't say a lot, but he's very nice.
-Mom and Dad trust him a lot.
+He didn't say a lot, but he was very nice,
+and Mom and Dad trusted him a lot, also...
 \l
 
 \\@CHARA_IN@< 0, 13, 8, 0, 1>
@@ -55,15 +55,15 @@ or when I used car wax on the floors in the dojo...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0006", 100>
 Miyako
-Or when I hadn't done my homework over the summer...
-He'd go 'oh well', shrug his shoulders and help me out.
+Or when my homework had piled up over the summer...
+He'd go "oh well", shrug his shoulders and help me out.
 \l
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0007", 100>
 Miyako
-He is a brother whose kindness comes just as 
-naturally as he breathes.
+He was a brother whose kindness came 
+just as naturally as he breathed.
 \l
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
@@ -135,13 +135,13 @@ You sure are up early today, Miyako.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0032", 100>
 Shiki
-I'm heading back to the Tohno estate today. 
-For some reason I've been told to return, 
-though it's been so long.
+I'm heading back to the Tohno mansion today. 
+Not sure why, but they've decided to call me
+back, even after all this time.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0033", 100>
 Shiki
-Thanks for everything. Take care of yourself.
+Thanks for everything, and take care of yourself.
 Oh, and make sure to go easy on the dojo.
 \l
 
@@ -243,9 +243,9 @@ You sure you're okay with that decision?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0001", 100>
 Bake_Neko
-You wanna be a loser who couldn't even put on 
-the little sister routine? A girl who didn't 
-even shoot off a single beam?
+Do you really wanna be the kinda loser who couldn't even 
+put on the little sister routine? A girl who didn't even 
+shoot off a single beam?
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
@@ -258,8 +258,8 @@ Wait, a cat?! A talking cat?!
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0022", 100>
 Miyako
-What are you?! And what are you doing here?! Wait, 
-I know! You must be that vampire thief I heard about!
+That's really fishy! Who are you?! Wait, I know! 
+You must be that vampire thief I heard about!
 
 \\@CHARA_IN@< 3, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0002", 100>

@@ -46,13 +46,13 @@ Are you the one who summoned me?
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0082", 100>
 Roa
-Nope. Wasn't me.
+Not at all.
 \l
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0083", 100>
 Roa
-I never was interested in the summoning arts. 
+I was never interested in the summoning arts. 
 Besides... You've gotta have a little too much 
 free time to go around poking holes between worlds.
 \l
@@ -67,8 +67,8 @@ but my schedule is packed to precision.
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0085", 100>
 Roa
-I wish foreign elements such as you would 
-make a hasty exit. The Princess is like an 
+In my mind, foreign elements such as you ought to
+make a hasty exit. The princess is like an 
 easily distracted stray cat, you see.
 \l
 
@@ -88,7 +88,7 @@ use this city for some sort of ritual.
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0024", 100>
 Saber
-I still do not know why I was summoned to this 
+I still do not know how I was summoned to this 
 place, but now I understand what my duty must be.
 \l
 

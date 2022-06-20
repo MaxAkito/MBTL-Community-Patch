@@ -15,15 +15,15 @@
 \\@CHARA_IN@< 0, 6, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0000", 100>
 Kishima
-Didn't expect to find a vampire in this crowded city.
-Even monsters have to have their hobbies, I suppose.
+I did not expect to find a vampire in this crowded city.
+Even monsters have to have their hobbies, it appears.
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0001", 100>
 Kishima
 Normally I would have nothing to do with them.
-But I do have ties to this city.
+But I do have my ties to this city.
 \l
 
 \\@CHARA_IN@< 0, 6, 2, 0, 1>
@@ -35,8 +35,8 @@ I suppose this was just meant to be...
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0003", 100>
 Kishima
-Considering I have went three years without 
-injury, I guess I could work a few days for free.
+Considering I have went three years without injury,
+I could do with a few days of uncompensated work.
 
 
 \\@BGM_STOP@<0>

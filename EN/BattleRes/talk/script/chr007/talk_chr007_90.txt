@@ -14,27 +14,27 @@
 \\@CHARA_IN@< 2, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0050", 100>
 Kohaku
-There he is! There's Shiki!
+Found you, Shiki!
 \l
 
 \\@CHARA_IN@< 2, 4, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0051", 100>
 Kohaku
-Are you injured? How do you feel? Did that woman
-do anything unseemly to your body?
+Are you injured? How do you feel? 
+Did that woman do anything unseemly to your body?
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0030", 100>
 Hisui
-Kohaku! Let him breathe! You're going to frighten
-Master Shiki if you keep that up.
+Kohaku! Let him breathe! You're going to 
+frighten Master Shiki if you keep that up.
 
 \\@CHARA_IN@< 2, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0052", 100>
 Kohaku
-Oh c'mon it's fine! We're the stars of this story, 
+Oh c'mon, it's fine! We're the stars of this story, 
 having resolved the incident and all. I'm sure Shiki
-is fine with this for a little bit.
+is willing to tolerate it.
 \l
 
 \\@CHARA_IN@< 2, 4, 101, 0, 1>

@@ -15,31 +15,32 @@
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0000", 100>
 Roa
-My, my, now this church looks very familiar. 
-It's the exact same, right down scent of blood 
-staining its floors.
+Well, now this church looks quite familiar. 
+It's practically the exact same, right down to 
+the scent of blood staining its floors.
 \l
 
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0001", 100>
 Roa
-To think you'd go out of your way to recreate this.
-A little slapdash, but you've got the use of blood down.
+Seems you've went out of your way to fully recreate it.
+It's a bit slapdash, but you've got the use of blood down.
 \l
 
 \\@CHARA_IN@< 1, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0002", 100>
 Roa
-Not bad, youngling. I thought of you a mere Rank IV at 
-best, but with this I ought to acknowledge you as Rank VI.
+My opinion of you has improved, youngling. I thought 
+you a mere Rank IV at best, but considering this, 
+I ought to acknowledge you as Rank VI.
 \l
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0003", 100>
 Roa
-Actually, for a bit there, you might have even
-reached all the way to Rank VII, perhaps?
+Actually, for a bit there, you might have 
+perhaps even reached all the way to Rank VII.
 \l
 
 \\@CHARA_IN@< 1, 5, 0, 0, 1>
@@ -51,18 +52,18 @@ exquisitely wicked accomplishment, worthy of praise.
 
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0040", 100>
-Dead_Noel
-Just like you'd figure from the master of cowards
-himself, who is only good at living for so damn long.
-At least you've got quite the mouth on you.
+You've got quite the mouth. Just as you'd figure 
+from someone whose only good quality is living for 
+so damn long; the master of cowards himself.
 \l
 
 
 \\@CHARA_IN@<0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0041", 100>
 Dead_Noel
-Or what, was that you begging for you life? Do you really
-think empty flattery will convince me to spare your life?
+Or what, was that supposed to be you begging for 
+your life? Do you really think empty flattery will 
+convince me to spare you?
 \l
 
 
@@ -83,24 +84,24 @@ Go on, tell me something useful.
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0005", 100>
 Roa
-Something useful? Hmm... I wonder, what
-information would someone like you find useful?
+Something useful? Hmm... I wonder, 
+what would someone like you find useful?
 \l
 
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0006", 100>
 Roa
-A way for you to survive the Executors by cozying up
-with them, perhaps? Or maybe a means for you to escape 
-alive and hide overseas?
+A way for you to cozy up with the Executors so you
+can survive their assault? Or maybe a means for you 
+to escape and hide overseas?
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0007", 100>
 Roa
-My apologies, but I've no
-experience with any of that.
+I'll have to apologize, but I've 
+no experience with any of that.
 \l
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
@@ -113,14 +114,14 @@ I advise you to just sit back and wait for dawn.
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0044", 100>
 Dead_Noel
 Huh? 
-What? I'm gonna kill you, on the goddamn spot.
+I'm this close to just killing you. Right now.
 \l
 
 
 \\@CHARA_IN@<0, 14, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0045", 100>
 Dead_Noel
-YOU'RE the one who keeps running from death
+You're the one who keeps running from death
 by inhabiting other people's bodies.
 \l
 
@@ -134,8 +135,8 @@ ever just how stupid Mr. Endless Reincarnator really is.
 \\@CHARA_IN@<0, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0047", 100>
 Dead_Noel
-You've got no territory, no followers...
-No good powers, either. You're just a Rank VI poser.
+You've got no territory, no followers, and no good powers, 
+either. You're just a poser, no better than Rank VI.
 \l
 
 \\@CHARA_IN@<0, 14, 4, 0, 1>
@@ -148,39 +149,39 @@ As far as Dead Apostles go, my Lifescale surpasses yours.
 \\@CHARA_IN@<0, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0049", 100>
 Dead_Noel
-Are you really going to try to act like you're 
-my superior, even after this botched reincarnation
-of your current body?
+Could you please not try to act like you're my 
+superior with that botched reincarnated body?
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0009", 100>
 Roa
-But of course. Seems you're starting to 
-get your head around this a bit more.
+That is indeed who I am. Seems you're starting
+to get your head around all this a bit better.
 \l
 
 
 \\@CHARA_IN@< 1, 5, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0010", 100>
 Roa
-But really? Territory? Followers? To think you'd be 
-so obessesed with paltries that you never spared a 
-thought to before.
+But really? Territory? Followers? I didn't imagine 
+you'd be so obessesed with paltries that you'd never 
+spared a thought to before.
 \l
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0011", 100>
 Roa
-Since you started out small, once you get a taste of 
-some real power all you care about are superficialities.
+I suppose since you started out so insignificant, 
+once you got a taste of some real power all you 
+care about are superficialities.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0012", 100>
 Roa
-I guess it's in a Dead Apostle's nature... 
-Actually, you're just a sad nobody.
-You'll never measure up to Elesia.
+I guess that's in a Dead Apostle's nature... 
+No, it's probably just because you're a sad nobody.
+Suppose I shouldn't compare you to Elesia.
 
 \\@CHARA_IN@<0, 14, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0050", 100>
@@ -198,56 +199,59 @@ I'm the one who should be offended here.
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0014", 100>
 Roa
-Is this about taking revenge on me? 
+Is this about wanting to take revenge on me? 
 Or is it about wanting to change yourself?
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0015", 100>
 Roa
-A fool who can't even decide between those has
-the audacity to, even for just a moment, model 
-their church after mine?
+You're an imbecile who could never decide between 
+those two. And now you have the audacity, even if 
+just for a moment, to model this church after mine?
+
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0016", 100>
 Roa
-Your hatred toward me, your resentment toward Elesia, 
-neither of these were really ever there.
+Your hatred towards me... 
+Your resentment towards Elesia...
+Neither of them were really ever there.
 \l
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0017", 100>
 Roa
-You, who never even came to terms with yourself,
-never had anything you could overcome to begin with.
+You never managed to come to terms with yourself, 
+and so, there never was anything for you to overcome.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0018", 100>
 Roa
-A failure capable of neither revenge or talent. That is 
-all you are, Dead Apostle Noel, and all you'll ever be.
+A failure capable of neither enacting revenge nor 
+transcending beyond their own humanity. That is all 
+you are, Dead Apostle Noel, and all you'll ever be.
 
 \\@CHARA_IN@<0, 14, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0051", 100>
 Dead_Noel
 Shut up...
-Shut up, shut up, shut up!
+Shut up, shut up, shut up!!
 \l
 
 \\@CHARA_IN@<0, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0052", 100>
 Dead_Noel
-You're weaker than me! And yet! Despite the fact that 
-you're just gonna get killed by me, you dare speak 
-about me like you know something!
+You're weaker than me! In fact, you're just a little 
+SHIT who is gonna get killed by me anyways! Don't you 
+DARE talk about what I am!
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0019", 100>
 Roa
-And you're completely thoughtless too, 
-you can't make this up.
+And you're completely brainless too.
+You can't make this up.
 \l
 
 

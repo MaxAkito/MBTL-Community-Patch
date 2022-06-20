@@ -18,7 +18,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0050", 100>
 Miyako
 Phew! I'm finally here!
-So this is the Tohno estate...
+So this is the Tohno mansion...
 \l
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
@@ -32,7 +32,7 @@ like a castle. I bet it even has a dungeon!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0052", 100>
 Miyako
 And I'm sure that evil Akiha has my brother locked 
-away in it. I've got to hurry and save him!
+away in it. I've gotta hurry up and save him!
 
 \\@CHARA_IN@<2, 52, 0, 2, 0>
 \aw
@@ -88,9 +88,9 @@ What business does a mere human have with our clan?
 \\@CHARA_IN@<1,  2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0004", 100>
 Akiha
-If it's money you're after, I could perhaps donate 
-a little. Though the amount will depend on how much 
-entertainment you can provide me.
+If it's money you're after, I could perhaps provide
+you with a little. Though the amount will depend on 
+how much entertainment you can provide me.
 \l
 
 \\@CHARA_IN@<1,  2, 0, 0, 1>
@@ -139,7 +139,7 @@ he puts on the same act wherever he goes...
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak06_0008", 100>
 Akiha
 Very well. If that's all you're after
-then I shall return him to you.
+then I will return him to you.
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>

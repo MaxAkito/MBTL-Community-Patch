@@ -13,7 +13,7 @@
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0000", 100>
 Volv
-That soul... as white as a sacred mountain...
+That soul... pale as the sacred mountains...
 There's no doubt about it.
 We finally meet, Princess of the True Ancestors.
 
@@ -34,7 +34,7 @@ Vlov Arkhangel...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0002", 100>
 Volv
 We've met before, just once...
-I've been following your shadow 
+I've been in pursuit of your shadow 
 from across the distant ocean...
 \l
 
@@ -42,14 +42,14 @@ from across the distant ocean...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0003", 100>
 Volv
 But neither of us need stay here for long...
-This city is warm of rot, yet cold like the void.
+This city is warm of rot... yet cold like the void.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0004", 100>
 Volv
 I shall sever your head and be rewarded with your 
-heart. With that, my illness shall surely heal.
+heart... With that... my illness shall surely heal.
 
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>

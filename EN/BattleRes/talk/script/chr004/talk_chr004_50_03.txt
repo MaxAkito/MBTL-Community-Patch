@@ -41,13 +41,13 @@ Huh?
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0002", 100>
 Noel
 What's that? You're asking for 'someone suspicious' 
-in a situation like this, like...?
+in a situation like this? Really...?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0003", 100>
 Noel
-Are you making fun of me? Or maybe you're
-some new Dead Apostle? Running low on blood?
+Are you making fun of me? Or what? 
+You some new Dead Apostle? Low on blood?
 
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0032", 100>
@@ -58,8 +58,9 @@ I'm not quite sure what you mean?
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0004", 100>
 Noel
-Oh, so you can't feel danger because your brain is alre-
-Hold on... You're one of the maids from that mansion!
+Oh, you don't understand the danger you're in because
+your brain's alrea-- Hold on... I know that face! 
+You're one of the maids from that mansion!
 \l
 
 \\@CHARA_IN@< 1, 8, 100, 0, 1>
@@ -73,8 +74,8 @@ right in front of me, already fully prepared!
 \\@CHARA_IN@< 1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0006", 100>
 Noel
-There's nobody around. And I don't sense that 
-family head of yours nearby, either.
+There's nobody around. And it seems that 
+family head of yours isn't nearby either.
 \l
 
 \\@CHARA_IN@< 1, 8, 300, 0, 1>
@@ -94,13 +95,13 @@ Uh-oh, this is quite the plot twist.
 \\@CHARA_IN@< 0, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0034", 100>
 Kohaku
-This is bad! Quite the monster suprise!
+This is bad! Quite the monster suprise, even!
 \l
 
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0035", 100>
 Kohaku
-KOHAKU DAAAASH! I'm skedaddling at full force!
+Kohaku daaaaaash! I'm skedaddling at full force!
 \l
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
@@ -112,9 +113,9 @@ is all bark and no bite, but even so...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0037", 100>
 Kohaku
-Office ladies who've hit a wall in life are like 
-ticking time bombs! In this situation, a tactical 
-retreat would be more prudent!
+Office ladies who've hit a wall in life are ticking
+time bombs! In this situation, a tactical retreat 
+would be more prudent!
 
 \\@CHARA_IN@< 1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0008", 100>
@@ -125,8 +126,8 @@ Hah! I'm not letting my delicious little duck go!
 \\@CHARA_IN@< 1, 8, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0009", 100>
 Noel
-Sorry, but I hope you're ready to 
-have one of your limbs cut off.
+Sorry, but prepare yourself to 
+lose at least one of your limbs!
 
 \\@BGM_STOP@<0>
 \e

@@ -23,23 +23,23 @@ Where would you like to sit today?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0030", 100>
 Akiha
-Thank you, Kohaku. It's such lovely weather today 
-so please bring my tea outside to the terrace. 
+Thank you, Kohaku. It's such lovely weather today.
+So please, bring my tea outside, to the terrace. 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0011", 100>
 Kohaku
-Understood. Oh? Is that Shiki taking a nap
-out in the gazebo?
+Understood. Oh? Is that Shiki 
+taking a nap out in the gazebo?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0031", 100>
 Akiha
-It would seem so. I envy his ability to relax, unaware
-of the hardships I must endure.
+It would seem so. I envy his ability to relax, 
+unaware of the hardships I must endure.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0032", 100>
 Akiha
-I suppose that's all right, though... 
-I am glad he is beginning to feel better.
+I suppose that's alright, though... 
+I'm glad he is beginning to feel better.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0033", 100>
@@ -51,7 +51,7 @@ I'm sure he also had his reasons.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0034", 100>
 Akiha
 Still... I really should put him on
-a leash from now on, shouldn't I?
+a tight leash from now on, shouldn't I?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0035", 100>

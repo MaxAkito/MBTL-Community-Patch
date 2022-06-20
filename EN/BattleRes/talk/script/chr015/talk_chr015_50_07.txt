@@ -82,7 +82,7 @@ And not only that, but you're done for, too.
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0037", 100>
 Roa
 You will not have the honor of being present at 
-its start... because your miserable life ends here!
+the start... because your miserable life ends here!
 
 \\@CHARA_IN@<0, 15, 11, 0, 1>
 // Œ‡”Ô /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0032", 100>
@@ -102,7 +102,7 @@ What's with the silence?
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0039", 100>
 Roa
 One other possibility...
-Did I screw up?
+Did I perhaps... screw up?
 \l
 
 

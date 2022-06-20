@@ -154,8 +154,8 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 魔術師　　　　  　| mage(s)                 | People who use magecraft.
 | 魔術教会　　　 　| (the) Mages Association | Organization that practices magecraft.
 | 神秘　　　　　 　　| Mystery                 | Supernatural phenomena.
-| 魔法　　　　　 　　| magic                   | Peak of magecraft. There are only 5.
-| 魔法使い　　　 　| magician                 | Someone who can use magic.
+| 魔法　　　　　 　　| Magic                   | Peak of magecraft. There are only 5.
+| 魔法使い　　　 　| Magician                 | Someone who can use magic.
 | 魔力　　　　　 　　| magical energy          | Energy used for all kinds of Mystery.
 | 魔眼　　　　　 　　| Mystic Eyes             | Supernatural eyes.
 | 直死の魔眼　 　　| Mystic Eyes of Death Perception| Shiki's Mystic Eyes.
@@ -167,15 +167,15 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 司祭代行　　　 　| Acting Presbyter        | Mario's title.
 | 人形使い　　 　　| Puppetmaster            | Mario's first nickname.
 | 人間使い　　 　　| Peoplemaster            | Mario's second nickname.
-| 混血　　　　　 　　| Mixblood                | Human who has intermixed with non-humans
-| 鬼　　　　　 　 　 | oni                     | Type of Japanese non-human.
+| 混血　　　　　 　　| mixblood                | Human who has intermixed with non-humans
+| 鬼　　　　　 　 　 | Oni                     | Type of Japanese non-human.
 | 独角         | Lone-Horn               | Kouma Kishima's martial art style.
 | 北海         | northern seas           | Where Vlov comes from. Not the North Sea.
 | 星の内海      | (the) Planet's Inner-sea| Reverse side of Earth.
 | チャイナ       | China-girl              | Neko-Arc's nickname for Miyako
 | メガネ        | glasses-boy             | Neko-Arc's nickname for Shiki
-| 親(元)       | Sire                    | Vampire 'parent'. Only for vampires.
-| 子　　　　　　　　　　| Scion                   | Vampire 'child'. Only for vampires.
+| 親(元)       | sire                    | Vampire 'parent'. Only for vampires.
+| 子　　　　　　　　　　| scion                   | Vampire 'child'. Only for vampires.
 | 七つの死因     | Seven Causes of Death   | The concept of the Seventh Holy Scripture.
 | 無限転生者    | (the) Infinite Reincarnator| Roa's nickname
 
@@ -233,4 +233,4 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Subset                                   | Status                       |
 | :--------------------------------------- | :--------------------------- |
 | Command List (cmddef.ini)                | Finalized (Petri)            |
-| Battlevoice (stringfile_battlevoice.csv) | Mario+PCiel lines edited (Petri)    |	
+| Battlevoice (stringfile_battlevoice.csv) | Proofread (Lian)             |	

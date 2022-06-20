@@ -23,8 +23,8 @@ Ugh!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0081", 100>
 Noel
-After all that's said and done, she's saved me again...
-Just like it usually plays out...
+After all that's said and done, she's saved 
+me again... Just like it usually plays out...
 
 \l
 
@@ -36,20 +36,20 @@ Big mood...
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0083", 100>
 Noel
 Well, it being a joint operation is better than usual,
-so that's a point for me. I just let her do all the 
-dangerous stuff, sooo...
+so that's a point for me. Also I just let her do all 
+the dangerous stuff, sooo...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0084", 100>
 Noel
-Basically, there were nothing but positives here.
+Basically, there were nothing but positives all around!
 Nothing wrong with taking the easy route in life!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0085", 100>
 Noel
 I think I've done enough work for the rest of the year!
-Now I can sit back and enjoy the teacher life!
+Now I can sit back, relax and enjoy the teacher life!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0086", 100>
@@ -71,7 +71,8 @@ students wandering through the back alleys.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0089", 100>
 Noel
-That's... Right! That's Satsuki Yumizuka from my class!
+Isn't that... Oh, right! 
+That's Satsuki Yumizuka from my class!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0090", 100>
@@ -82,7 +83,7 @@ I managed to somehow memorize her name because the
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0091", 100>
 Noel
-Hmm... in THAT back-alley?
+Hmm... in THAT back alley?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0092", 100>
@@ -92,21 +93,21 @@ Well, well, what should I do?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0093", 100>
 Noel
-Do I pretend I didn't see anything? Or should I be 
-the responsible Sister that I am and check on her?
+Do I pretend I didn't see anything? Or, given 
+that I'm a nun and all, do I go check on her?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0094", 100>
 Noel
 Oh, why not? I'm in a good mood tonight. 
-Might as well play a Good Samaritan now and then!
+Might as well play the Good Samaritan now and then!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0095", 100>
 Noel
-Besides, I'll be seeing her fairly often for a while. 
-I've gotta give her the impression that I'm someone 
-that can be relied on!
+Besides, I'll be seeing her fairly often now. 
+I've gotta give her the impression that I'm 
+someone that can be relied on!
 
 
 \\@SYSTEM@<21>

@@ -19,7 +19,7 @@ Stop right there, whoever-you-may-be.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0051", 100>
 Akiha
 It seems you've been monitoring our family estate, 
-but there is no need for that.
+but you really need not, I assure you.
 \l
 
 \\@CHARA_IN@< 1, 2, 1, 0, 1>
@@ -45,8 +45,9 @@ have a pleasant conversation without being interrupted.
 \\@CHARA_IN@< 0, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0060", 100>
 Noel
-Wait, for real? I'll gratefully accept then... You 
-bourgeoisie sure have magnanimity and elegance to spare!
+Wait, for real? I'll gratefully accept then... 
+You bourgeoisie sure have magnanimity and 
+elegance to spare!
 \l
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
@@ -71,15 +72,15 @@ You would've had me killed as soon as I entered.
 \\@CHARA_IN@< 1, 2, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0055", 100>
 Akiha
-Oh, heavens no. That's quite the misunderstading.
+Oh, heavens no. That's quite the misunderstanding.
 \l
 
 \\@CHARA_IN@< 1, 2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0056", 100>
 Akiha
-I would handle you ever so gently... until you had 
-told me who sent you, how big of an organization 
-they are and what their objective is.
+Until you'd have told me who sent you, how big of an
+organization they are and what their objective is, 
+I would've handled you ever so gently...
 \l
 
 \\@CHARA_IN@< 1, 2, 100, 0, 1>
@@ -92,13 +93,13 @@ your safety after that though.
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0064", 100>
 Noel
 Teenagers with those kinda thoughts
-are what we called 'inhuman'!
+are what we call 'inhuman'!
 \l
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0065", 100>
 Noel
-You don't appear to be a Dead Apostle, but you are a 
+You don't appear to be a Dead Apostle, but you're a 
 bloodsucking fiend all the same, aren't you?
 \l
 

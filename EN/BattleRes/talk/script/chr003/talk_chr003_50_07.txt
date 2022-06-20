@@ -26,14 +26,14 @@ What an unfounded and odd provocation... murderer.
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0021", 100>
 Volv
-It makes me more sad than upset...
+It makes me more sad than it does upset...
 After all, one cannot stay angry at a fool.
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0021", 100>
 Shiki
-Really now? Sorry to disappoint,
-but I don't really care what you think of me.
+Really now? Sorry to disappoint, but I 
+don't really care what you think of me.
 \l
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
@@ -60,13 +60,13 @@ you are but merely human.
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0024", 100>
 Volv
-I cannot turn down such a challenge... now can I?
+I could not turn down such a challenge... now could I?
 \l
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0025", 100>
 Volv
-Come at me, blood-bag.
+Come at me, blood-bag...
 I shall gratefully accept your scorching blood.
 \l
 

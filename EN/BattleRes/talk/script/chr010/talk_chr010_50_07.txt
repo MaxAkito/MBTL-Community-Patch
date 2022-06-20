@@ -46,7 +46,7 @@ that's the only thing I've been wanting as a reward!
 \\@CHARA_IN@< 0, 10, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0025", 100>
 Red_Arcueid
-C'mon! Change right now, begone!
+C'mon! Change right now! Begone!
 I really don't want to see that gloomy face of yours!
 \l
 
@@ -71,12 +71,12 @@ thickness of my blood, as it something I stole from you.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0072", 100>
 Roa
-Naturally, Shiki's body would then become mine.
+As a matter of course, Shiki's body would then become mine.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0073", 100>
 Roa
-Did you not realize that the more you behaved 
+Did you really not realize that the more you behaved 
 like a child, the more you did as you liked...
 \l
 
@@ -93,18 +93,18 @@ Red_Arcueid
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0075", 100>
 Roa
-Humanity makes one all too pathetic.
+Human nature makes one all too pathetic.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0076", 100>
 Roa
 To think that the perfect Princess of the Moon 
-would fall so far as to become a lowly beast herself.
+would fall so far as to become a lowly beast.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0077", 100>
 Roa
-You're not berserk,
+You're not actually berserk,
 You've just lost yourself in excitement.
 \l
 
@@ -130,7 +130,7 @@ Giving it some thought, I suppose that makes sense.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0029", 100>
 Red_Arcueid
 Shiki has been suffering because of 
-my childish outbursts, right?
+my childish outbursts, correct?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0030", 100>
@@ -161,7 +161,7 @@ Shiki still has to accept my feelings for him.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0034", 100>
 Red_Arcueid
 These gently boiling feelings of my vampiric urges, 
-that is... So first I gotta get rid of those who'd 
+that is. But first I have to get rid of those who'd 
 stand in my way.
 \l
 

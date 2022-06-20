@@ -20,7 +20,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0060", 100>
 Powered_Ciel
 Whoa!
-I was almost about to lose consciousness...!
+I was almost about to lose consciousness there...!
 \l
 
 \\@SQ_CALL@<2>
@@ -28,13 +28,13 @@ I was almost about to lose consciousness...!
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0061", 100>
 Powered_Ciel
 So that's what a True Ancestor looks like without 
-its body... A spiritron-frame made from ether...!
+its body... A spiritron-frame composed from ether...!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0062", 100>
 Powered_Ciel
 (Not only that, but it's changing from a phenomenon 
- into a lifeform...! If such a thing is established, 
+ into a lifeform...! If that thing is established, 
  the world will shear and collapse!)
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0020", 100>
@@ -51,7 +51,7 @@ body's capabilities are the pinnacle of human potential.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0022", 100>
 Red_Arcueid
-Though such comparisons belong in a lower dimension for me.
+Though for me, such comparisons belong in a lower dimension.
 I may as well be comparing one tiny pebble to another.
 \l
 
@@ -79,7 +79,7 @@ And now, Einnashe's Belfry.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0027", 100>
 Red_Arcueid
-Hurry up and show them to me.
+Hurry up and show it to me.
 Maybe that'll give you a fighting chance.
 \l
 
@@ -91,7 +91,7 @@ And then I'll overcome all of it!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0029", 100>
 Red_Arcueid
-Ahh... This is so, so, so much fun!
+Ahh... This is so-so much fun!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0030", 100>
@@ -108,8 +108,8 @@ Give me something big, like a meteor!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0032", 100>
 Red_Arcueid
-I'll take everything you can throw at me, tearing
-it to pieces together with that paltry pride of yours.
+I'll take everything you can throw at me, and tear it 
+to pieces, together with that paltry pride of yours.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0063", 100>
 Powered_Ciel

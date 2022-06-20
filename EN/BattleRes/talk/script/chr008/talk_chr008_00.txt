@@ -15,8 +15,8 @@
 \\@CHARA_IN@< 0, 8, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0040", 100>
 Noel
-I may have arrived a month later than her, but...
 Finally I've transferred to where Roa is hiding.
+Even if I got here a month after she did...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0041", 100>
@@ -28,7 +28,7 @@ So this city is called Souya, huh?
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0042", 100>
 Noel
-But oh my! it's more inner-city than you'd think!
+But oh my! it's got more inner city charm than you'd think!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0043", 100>
@@ -64,8 +64,7 @@ but in mind too!?
 \\@CHARA_IN@< 0, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0047", 100>
 Noel
-Tsk. I shouldn't expect to be able to 
-pull off the student look... 
+Tsk. I probably could not pull off the student look...
 Or could I? No, no, get a hold of yourself.
 \l
 
@@ -80,7 +79,7 @@ I'll just have to become a teacher instead!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0049", 100>
 Noel
 With that decided, time to submit my papers!
-Oh, this is going to be so fun! Åô
+Oh, this is going to be so much fun! Åô
 \l
 
 \\@CHARA_IN@< 0, 8, 0, 0, 1>

@@ -60,7 +60,7 @@ Ha-haa, I don't feel your teensy-weensy punches at all!
 WinMes09:
 chara_type 103
 That's enough practice for today. 
-Now time to go monitor the Tohno estate!
+Now time to go monitor the Tohno mansion!
 \e
 
 WinMes10:

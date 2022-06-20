@@ -45,14 +45,14 @@ and what looks like a coffin?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0005", 100>
 Worker
 Who the he--Whoa! The flowers
-are starting to bu--! AH...AHHH!!!
+are starting to bu--! AH...AHHH!!
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0006", 100>
 Worker
 He--help me! What the--I'm burning... Wha--
-I feel like I'm burning up from the inside!
+It feels like, I'm burning up from the inside!
 
 \\@FADE_IN@<2, 128,0 ,0 ,0>
 \aw
@@ -64,7 +64,7 @@ I feel like I'm burning up from the inside!
 \\@CHARA_IN@< 0, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0050", 100>
 Volv
-Seems I've arrived at port...
+Seems I have arrived at port...
 \l
 
 \\@CHARA_IN@< 0, 9, 4, 0, 1>
@@ -96,8 +96,9 @@ Nevertheless... I will only remain sane for so long.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0055", 100>
 Volv
-This is my last chance. I must acquire the heart of the
-True Ancestor Princess before I lose myself entirely.
+This is my last chance. I must acquire the 
+Princess of the True Ancestors's heart before
+I lose myself entirely.
 \l
 
 \\@CHARA_IN@< 0, 9, 5, 0, 1>

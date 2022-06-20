@@ -16,7 +16,7 @@
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0000", 100>
 Mario@Mario_Hatena
-That's how things stand in this town.
+So... that's how things stand in this town.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0001", 100>
@@ -27,33 +27,33 @@ Stage III, moving above ground...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0002", 100>
 Mario@Mario_Hatena
-Somewhere in between these two, 
-though the Dead aren't all too active.
+Guess somewhere in between these two.
+Though, the Dead aren't all too active.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0003", 100>
 Mario@Mario_Hatena
-Are their sire Dead Apostle still asleep?
-Or maybe they were just well-organized from the start?
+Maybe their sire Dead Apostle is still asleep.
+Or maybe they were just well-organized from the start.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0004", 100>
 Mario@Mario_Hatena
-Well, probably a lil' bit a'both.
-Either way, now it's just a matter a'speed.
+Well, probably a lil' bit'a both.
+Either way, now it's just a matter'a speed.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0005", 100>
 Mario@Mario_Hatena
-See, cuz a'stuff I can't use the Executors I got
+See, cuz'a stuff I can't use the Executors I got
 on me. I need this done before it gets out to 
 anyone else, capisce?
 
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0000", 100>
 Aoko
-O-ho. I was just thinking you were lightly guarded, 
-So Mr. high-and-mighty Presbyter is undercover, huh?
+O-ho. No wonder you were so lightly guarded. 
+So, Mr. high-and-mighty Presbyter is undercover, huh?
 \l
 
 \\@CHARA_IN@<0, 15, 10, 0, 1>
@@ -74,19 +74,19 @@ You think a Church elite would wanna associate with you?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0007", 100>
 Mario@Mario_Hatena
 After all, you're considered an outlaw by both the Holy 
-Church and the Mages Association, Miss Fifth Magician.
+Church, and the Mages Association, Miss Fifth Magician.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0008", 100>
 Mario@Mario_Hatena
 So it wouldn't be outta character for you to just roll
-up into a town and take care a'some Dead Apostles for 
+up into a town and take care'a some Dead Apostles for 
 no real reason, ya know?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0009", 100>
 Mario@Mario_Hatena
-You know, like some kinda superhero.
+Kinda like, I'unno, some kinda superhero?
 Only problem being that it don't exactly pay well.
 
 \\@CHARA_IN@<0, 15, 4, 0, 1>
@@ -99,43 +99,43 @@ Lately I can't even pay my sister's tabs.
 \\@CHARA_IN@<0, 15, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0003", 100>
 Aoko
-I know poverty builds character and all, but
-I'd like to be able take a vacation now and then...
+I know poverty builds character and all, but...
+I'd like to be able take a vacation now and then.
 \l
 
 \\@CHARA_IN@<0, 15, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0004", 100>
 Aoko
-Okay, I guess we have a deal. And that's 
-with me not prying into your business included.
+Okay, I guess we have a deal. And that's with 
+me not prying into your business included.
 \l
 
 \\@CHARA_IN@<0, 15, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0005", 100>
 Aoko
 Could you send the money over to this account?
-I'll take care of this real quick.
+I'll take care of this before you know it.
 \l
 
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0006", 100>
 Aoko
 That said, was this town always this dangerous? 
-Seems there are some other nasty stuff lurking here
-aside from the Dead Apostles.
+Seems there's some other nasty stuff lurking here.
+Well, aside from the Dead Apostles.
 
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0010", 100>
 Mario@Mario_Hatena
-Ignore 'em. That's outside our jurisdiction.
+Ignore 'em. That's outside'a our jurisdiction.
 Prefer'd to avoid conflict with the local landowners.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0011", 100>
 Mario@Mario_Hatena
-Just find and capture the sire vampire... Hm? Wait, 
-what the hell? You familiar with Souya or somethin'?
+Just find and capture the sire vampire-- Hm? 
+Wait, the fuck? You familiar with Souya or somethin'?
 
 \\@CHARA_IN@<0, 15, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0007", 100>
@@ -147,8 +147,7 @@ It wasn't like this back then, though.
 \\@CHARA_IN@<0, 15, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0008", 100>
 Aoko
-This is fate in some ways, I suppose.
-It's actually treating me nice this time.
+Fate's treating me well for once, I suppose.
 \l
 
 \\@CHARA_IN@<0, 15, 7, 0, 1>
@@ -156,14 +155,14 @@ It's actually treating me nice this time.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0009", 100>
 Aoko
 Yeah, I'm feeling really fired up now!
-I'm gonna go double all out!
+I'm gonna go all out! Double over!
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0012", 100>
 Mario@Mario_Hatena
-For real...? Your dossier didn't mention that. I guess 
-Japan's a tiny country. Or actually, it's probably just 
-your wanderer spirit.
+For real...? Your dossier didn't mention that. 
+Guess Japan's just a tiny country. Or actually, 
+it's probably more your wanderer spirit at play.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0013", 100>
@@ -174,9 +173,9 @@ I don't wanna see you destroying the whole underground.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0014", 100>
 Mario@Mario_Hatena
-Your goal here is to seize the Workshop. 
-Anything outside what's necessary for that
-is coming outta your pay, capische?
+Your goal here is ultimately to seize the Workshop. 
+Anything outside what's necessary for that is coming
+outta your pay, capische?
 
 \\@CHARA_IN@<0, 15, 3, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 3>

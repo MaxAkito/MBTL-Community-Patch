@@ -15,28 +15,29 @@
 \\@CHARA_IN@< 0, 4, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0010", 100>
 Kohaku
-Let's see here... I've been going through 
-medicine much more quickly since Shiki returned.
+Let's see here... I've been going through medicine 
+much more quickly ever since Shiki returned.
 \l
 
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0011", 100>
 Kohaku
-I'm beginning to think his poor health 
-can't just be blamed on his anemia.
+I'm beginning to think his poor health can't just be
+blamed on his anemia, but has other causes as well...
 \l
 
 \\@CHARA_IN@< 0, 4, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0012", 100>
 Kohaku
-But I suppose I'll just have him gradually 
-improve his his health through other means.
+But well, I suppose I'll just have to slowly make
+sure his health gets better sometime later on.
 \l
 
 \\@CHARA_IN@< 0, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0013", 100>
 Kohaku
-This is my chance to demonstrate my skills as a physician!
+That's when my skills as a physician will
+really come into play!
 \l
 
 \\@CHARA_IN@< 0, 4, 106, 0, 1>
@@ -63,14 +64,14 @@ feels as if I walked into someone else's dream...
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0017", 100>
 Kohaku
 I don't recall taking any medicine that 
-could produce this kind of side-effect.
+could produce this kind of effect...
 \l
 
 \\@CHARA_IN@< 0, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0018", 100>
 Kohaku
 Though if this really is a dream, I bet I could 
-accomplish even more than I normally could.
+accomplish something that I normally never could.
 \l
 
 \\@CHARA_IN@< 0, 4, 104, 0, 1>
@@ -83,7 +84,7 @@ anything upset the peace of the Tohno family.
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0020", 100>
 Kohaku
 As a servant of the Tohno household, 
-I ought to harden my heart and...
+I ought to let the demons into my heart an--
 \l
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
@@ -91,7 +92,7 @@ I ought to harden my heart and...
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0021", 100>
 Kohaku
 I mean... Harden my resolve and remove 
-those who would harm that tranquility!
+those who would disturb that peace!
 
 \\@BGM_STOP@<0>
 \e

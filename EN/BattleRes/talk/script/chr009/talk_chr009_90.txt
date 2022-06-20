@@ -23,8 +23,8 @@ So this is where it ends...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0081", 100>
 Volv
-Yet even in consuming that woman, 
-nothing about me has changed whatsoever.
+Nothing about me has changed, 
+even after I consumed that woman.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0082", 100>
@@ -34,20 +34,20 @@ The past cannot be changed.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0083", 100>
 Volv
-And I have no idea what kind 
-of future I should strive for.
+And I cannot conceive of what kind 
+of future I ought to strive for...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0084", 100>
 Volv
-What is the purpose of a wraith 
-like me to keep on living then?
+So then... what is the point of a
+wraith like me to keep on living?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0085", 100>
 Volv
-My time adrift has come to an end... It's been... 
-200 hundred years... since I became like this.
+My time adrift has come to an end... 
+It's been... 200 years... since I became like this.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0086", 100>

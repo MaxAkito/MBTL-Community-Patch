@@ -28,14 +28,14 @@ If you do not, well...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0010", 100>
 Volv
 Oh? You would describe this as 'your garden' 
-despite its state? Either you're quite the 
-big deal, or perhaps...
+despite its state? Either you're someone of great
+stature, or perhaps...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0011", 100>
 Volv
-You're a sheltered little girl who has yet to realize
-the ground she walks on has already rotted? 
+You're just a sheltered little girl who has yet to 
+realize the ground she walks on has already rotted? 
 So tell me, my noble lady... which is it?
 
 \\@GO_SUB@<"QUAKE_1">
@@ -55,8 +55,9 @@ not to mention the pedigree of your blood...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0013", 100>
 Volv
-I find it impossible to believe you are not in charge
-of a castle... How would you like to become my woman?
+I find it hard to believe you are not in possession 
+of a castle... So, how about it? Would you consider
+becoming my woman?
 \l
 
 \\@CHARA_IN@<1, 9, 4, 0, 1>
@@ -77,16 +78,17 @@ am not interested in men with so much love to spare.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0024", 100>
 Akiha
-In fact, I despise them. If he is so full of love, he
-should direct it toward a single woman instead of many.
+In fact, I despise them. If they are so full of love, 
+they should direct it towards a single lady, instead
+of so many other women.
 \l
 
 \\@CHARA_IN@<0, 2, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0025", 100>
 Akiha
-If that's beyond his ability, I would have 
-no choice but to thoroughly reeducate him, 
-until he begs for forgiveness.
+If that's beyond their ability, I would have 
+no choice but to thoroughly reeducate them, 
+until they beg for forgiveness...
 \l
 
 \\@CHARA_IN@<0, 2, 6, 0, 1>

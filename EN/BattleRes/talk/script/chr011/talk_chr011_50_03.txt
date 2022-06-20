@@ -54,13 +54,14 @@ yet anonymous death.
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0042", 100>
 Ciel
 I've never had the need to prepare for anything 
-like that. We do not leave wills, or keepsakes. 
-They are unnecessary to us
+like that. Us of the Church do not leave wills, 
+or keepsakes. We do not need them.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0043", 100>
 Ciel
-You might say that I am fine with dying whenever.
+In that sense I am always prepared to die, 
+much as you asked of me.
 \l
 
 \\@CHARA_IN@< 0, 11, 0, 0, 1>

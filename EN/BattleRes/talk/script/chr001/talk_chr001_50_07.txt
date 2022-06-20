@@ -57,7 +57,7 @@ Hisui
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0031", 100>
 Hisui
-No, I have to snap out of it. 
+No, get a grip, Hisui.
 My head went blank at all the deja vu I just felt.
 \l
 
@@ -67,7 +67,7 @@ My head went blank at all the deja vu I just felt.
 Hisui
 \\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
 \\@EMG_PRINT@<"*Actually prohibited even if they aren't a minor.", 102, 1060, 650>
-Cease your shady solicitations, Miss Ciel. 
+Cease your shady solicitations, Miss Ciel.
 The brainwashing of minors is prohibited by law.
 
 \\@CHARA_IN@< 1, 11, 5, 0, 1>
@@ -131,13 +131,14 @@ I must insist you release Master Shiki first.
 Hisui
 Also, I believe you should correct your habit of 
 trying to use charms or that hypnosis skill of 
-yours to try and escape.
+yours to get out of trouble.
 \l
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0037", 100>
 Hisui
-Are you perhaps one of Miss Arcueid's sisters?
+Actually, in that sense you almost 
+appear related to Miss Arcueid.
 
 \\@CHARA_IN@< 1, 11, 5, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 4>

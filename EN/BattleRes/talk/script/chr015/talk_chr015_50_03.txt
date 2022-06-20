@@ -23,29 +23,29 @@ Was there always a church like this here in Souya?
 \\@CHARA_IN@<0, 15, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0021", 100>
 Aoko
-Is this even real? I mean, those roses
+Is this even real? I mean, these roses
 seem to be halfway made out of curses...
 \l
 
 \\@CHARA_IN@<0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0022", 100>
 Aoko
-A Reality Marble? No... not quite. This place is 
-halfway subsumed by some dream-world, isn't it?
+A Reality Marble, then? No... not quite. This place 
+is halfway subsumed by some dream-world, isn't it?
 
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0080", 100>
 Dead_Noel
-Oho? I don't know who you are, but you sure are 
-acting nonchalant in a situation like this.
+Oh? I don't know who you are, but you sure are 
+acting nonchalant given the situation here.
 \l
 
 \\@CHARA_IN@<1, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0081", 100>
 Dead_Noel
-A freelance mage, perhaps? I mean, if you felt fear 
-like a normal person did you'd be shaking in terror 
-right about now.
+Some freelance mage, perhaps? I mean, if you felt 
+fear like a normal person did, you'd be shaking in 
+terror right about now.
 \l
 
 \\@CHARA_IN@<1, 14, 9, 0, 1>
@@ -109,7 +109,7 @@ Also, unlike you, I can't promise I'll be so gentle.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0025", 100>
 Aoko
 You see, roses... I just can't stand them. So, sorry, 
-but could you just disappear, alongside that church?
+but could you just disappear, together with that church?
 
 
 \\@BGM_STOP@<0>

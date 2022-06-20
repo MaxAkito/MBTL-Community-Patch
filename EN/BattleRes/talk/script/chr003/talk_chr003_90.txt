@@ -26,7 +26,7 @@ have to fight a monster like that ever again.
 Shiki
 Damn, my body feels heavy. I had my glasses
 off for too long. I'm going to have trouble 
-getting home at this rate.
+getting home like this.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0033", 100>
@@ -41,14 +41,15 @@ I'll just rest for a bit longer on this bench...
 \aw
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0034", 100>
-That's when...
+That was when...
 \l
 
 \\@SQ_CALL@<2>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0035", 100>
-The vessel that is me, Shiki Tohno, heard a noise
-that sounded like something had broken for good.
+I heard a noise that sounded as if a vessal, perhaps 
+one named Shiki Tohno, broke against the ground,
+never to be whole again.
 \l
 
 \\@BGM_PLAY@<0, 77, 100>
@@ -59,7 +60,7 @@ My pulse suddenly quickened.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0037", 100>
-I was going at full spin.
+My body was going at full spin.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0038", 100>
@@ -68,8 +69,8 @@ all flared into great activity.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0039", 100>
-My mind began breaking apart, more and more, 
-as I saw a dream-like vision that set my spine alight.
+My mind began breaking apart, more and more, as I
+saw a dream-like vision that set my spine alight.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0040", 100>

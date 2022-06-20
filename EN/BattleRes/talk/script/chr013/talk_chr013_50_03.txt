@@ -23,7 +23,7 @@
 \\@CHARA_IN@< 2, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0020", 100>
 Bake_Neko
-Time for a quick recap.
+The story so far...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0021", 100>
@@ -54,7 +54,7 @@ Miyako
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0031", 100>
 Miyako
-Wait, wait, wait.
+Wait-wait-wait.
 Something's not right. Right? I mean seriously!
 \l
 
@@ -74,7 +74,7 @@ turned into a police case long ago!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0034", 100>
 Miyako
-All I want to do is go to the Tohno estate and beat 
+All I want to do is go to the Tohno mansion and beat 
 up the evil sister who's imprisoned my brother!
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
@@ -105,7 +105,7 @@ I apologize if I startled you.
 \\@CHARA_IN@<1, 11, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0012", 100>
 Ciel
-It's all right. I am a Sister of justice, entrusted with
+It's alright. I am a Sister of Justice, entrusted with
 protecting this town. I'm on your side, Miyako Arima.
 \l
 
@@ -137,8 +137,8 @@ bespectacled upperclasswoman.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0015", 100>
 Ciel
-Make sure you introduce me like that
-to your brother as well.
+I would appreciate if you introduced 
+me like that to your brother as well.
 \l
 
 \\@CHARA_IN@<1, 11, 0, 0, 1>
@@ -156,7 +156,7 @@ in this town. I think I'm lost!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0039", 100>
 Miyako
-Where should I go to get to the Tohno estate?
+Where should I go to get to the Tohno mansion?
 
 \\@CHARA_IN@<1, 11, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0017", 100>
@@ -190,7 +190,7 @@ I'll do my best!
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0019", 100>
 Ciel
-Oh, before you go, and forgive me for being blunt, 
+Oh, before you go, and forgive me for being so blunt, 
 but you cannot beat Akiha as you are now.
 \l
 
@@ -210,8 +210,8 @@ Really?!
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0043", 100>
 Miyako
-(All right! Time for my special vacation training 
- montage! Now I really feel like I'm in a kung fu movie!)
+(Yay! Time for my special vacation training montage! 
+ Now I really feel like I'm in a kung fu movie!)
 
 \\@BGM_STOP@<0>
 \e

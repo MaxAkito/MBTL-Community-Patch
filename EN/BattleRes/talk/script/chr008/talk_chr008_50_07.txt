@@ -41,8 +41,8 @@ As far as I am concerned, the greatest of luxuries...
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0042", 100>
 Volv
-But would you insist on disturbing 
-me I shall take to my sword.
+But would you insist on disturbing me...
+Then I shall take to my sword.
 \l
 
 \\@CHARA_IN@< 1, 9, 5, 0, 1>
@@ -64,7 +64,7 @@ Generosity? Did you really just say that?
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0073", 100>
 Noel
 Don't fuck with me! You and your kind have
-never once shown an inkling of generosity.
+never even once shown an inkling of generosity.
 \l
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>
@@ -85,7 +85,7 @@ Even us nobodies have a little pride!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0076", 100>
 Noel
 A disgusting vampire really thinks he's got a right
-to "rest". Just how little do you think of us humans?!
+to "rest"? Just how little do you think of us humans?!
 \l
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>
@@ -98,8 +98,8 @@ I'm not letting this opportunity slip away!
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0078", 100>
 Noel
-By killing you, I'll get one up over her! 
-And change the course of my life onto a happy ending!
+I'll kill you... get one over her... and in doing so
+change the course of my life towards a happy ending!
 
 \\@BGM_STOP@<0>
 \e

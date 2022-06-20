@@ -14,15 +14,15 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0060", 100>
 Roa
 Well, there's a face I didn't expect to see again. 
-Haven't seen you since the France incident 13 years ago.
+Haven't seen you since the France Incident 13 years ago.
 \l
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0061", 100>
 Roa
 And while I'm all for celebrating our reunion, 
-first I need to know... What is the hunter from the 
-northern seas doing in a city like this?
+first I need to know... What is the hunter from 
+the northern seas doing in a city like this?
 
 \\@CHARA_IN@< 0, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0060", 100>
@@ -47,8 +47,9 @@ I have come to burn all you hope to achieve to ash.
 \\@CHARA_IN@< 0, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0063", 100>
 Volv
-The True Ancestor Princess is MY prey... I will obtain 
-the Principle of the Extremum and overcome this hunger.
+The Princess of the True Ancestors is MY prey... 
+I will obtain the Principle of Focality and 
+overcome this hunger.
 \l
 
 \\@CHARA_IN@< 0, 9, 0, 0, 1>
@@ -67,8 +68,8 @@ get in the way of my love, then.
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0063", 100>
 Roa
 And as a result, the Executors have put their
-focus on you, allowing me to easily finalize 
-my reincarnation, as you can see.
+focus on you, allowing me to, as you can see, 
+easily finalize my reincarnation.
 \l
 
 \\@CHARA_IN@< 1, 5, 0, 0, 1>
@@ -80,7 +81,7 @@ To think...
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0065", 100>
 Roa
 That you would aid me not just once, but twice!
-I really ought to consider you my friend!
+Truly you've earned being called my friend!
 \l
 
 \\@CHARA_IN@< 1, 5, 6, 0, 1>
@@ -98,7 +99,7 @@ by you... and spent these last 200 years adrift...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0066", 100>
 Volv
-Even now, I still remain the knight of my liege. I 
+Right now, I still remain my liege's proud knight. I 
 shall crush that heart of yours... before I lose myself.
 
 \\@BGM_STOP@<0>

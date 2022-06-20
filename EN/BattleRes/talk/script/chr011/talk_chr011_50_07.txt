@@ -14,12 +14,12 @@
 \\@CHARA_IN@< 0, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0050", 100>
 Ciel
-One of the Twenty-Seven Dead Apostle Ancestors!?
+One of the 27 Ancestors!?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0051", 100>
 Ciel
-I did not expect someone so important
+I did not expect someone so significant
 to be lurking in this city.
 
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
@@ -40,16 +40,16 @@ vile gaze this far east?
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0092", 100>
 Volv
-Yet... no matter how far you extend your gaze,
-it won't do you much if your sight is as dim as it is.
+Yet... no matter how far you extend your gaze, it won't
+do you much good if your sight is as dim as it is.
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0093", 100>
 Volv
-You people are so pointless, much as this city itself. 
-What value is there to a dog that can't even sniff out
-the schemes of a serpent?
+You people are so pointless... as pointless as this city 
+itself. What value is there to a dog that cannot even 
+sniff out the schemes of a serpent?
 \l
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
@@ -72,7 +72,7 @@ unexpected, but you shall pay for your sins all the same.
 \\@CHARA_IN@< 0, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0053", 100>
 Ciel
-My hands Execute the Lord's judgment.
+My hands Execute the Lord's will.
 Know that there is no escape from Him.
 
 

@@ -33,8 +33,8 @@ but compared to that last lady she wasn't so bad!
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10010", 100>
 Akiha
-I concede defeat, Miyako Arima. It seems your
-assessment of me was not so wrong after all.
+I concede defeat, Miyako Arima. It seems I was
+the one who made the wrong assessment here...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10011", 100>

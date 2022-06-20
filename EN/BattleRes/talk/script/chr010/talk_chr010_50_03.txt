@@ -39,8 +39,8 @@ that conscending attitude of yours.
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0013", 100>
 Red_Arcueid
-You try so hard to act the part of an Executor, 
-despite the fact you look about ready to wet yourself.
+You try so hard to act the part of an Executor, despite 
+the fact you look just about ready to wet yourself.
 \l
 
 \\@CHARA_IN@< 0, 10, -1, 0, 1>
@@ -53,7 +53,7 @@ I love it sooo much, I just...
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0015", 100>
 Red_Arcueid
-Can't help but smile!
+Can't help but laugh!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0016", 100>

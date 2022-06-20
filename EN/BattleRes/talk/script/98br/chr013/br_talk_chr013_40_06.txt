@@ -34,7 +34,7 @@
 \\@CHARA_IN@< 3, 53, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10100", 100>
 Neco_Arc
-The story so far!
+The story so far...
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
@@ -62,7 +62,7 @@ so as to turn him into an upstanding, model student.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10104", 100>
 Neco_Arc
 She paid good money to hire a nun with too much 
-time on her hands, made a deal with a vampire 
+time on her hands, formed a pact with a vampire 
 from the middle of nowhere...
 \l
 
@@ -74,7 +74,7 @@ a nudge with subtle threats of a pay cut...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10106", 100>
 Neco_Arc
-all as part of the Tohno Shiki Acquisition Project.
+...all as part of the Tohno Shiki Acquisition Project.
 \l
 
 \\@CHARA_IN@< 3, 53, 100, 0, 1>
@@ -100,7 +100,7 @@ In other words...
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10080", 100>
 \\@GO_SUB@<"QUAKE_2">
 Miyako
-This has nothing to do with the vampire incidents!
+This has nothing to do with the vampire incident!
 This is just some stupid family quarrel!
 \l
 
@@ -108,8 +108,8 @@ This is just some stupid family quarrel!
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10081", 100>
 Miyako
-You wrote this script didn't you, Neco-Arc? 
-Why was I so stupid to get my hopes up!
+Why was I so stupid to get my hopes up...
+Neco-Arc wrote this stupid script, after all!
 \l
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
@@ -193,7 +193,7 @@ Curse your destiny, if you must. That's all you can do.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10087", 100>
 Miyako
 Wh-What a chilling aura! But I'm not afraid!
-I-I'll show you how strong I am!
+F-Fine, I'll show you how strong I am!
 \l
 
 \\@CHARA_IN@< 0, 13, 4, 0, 1>

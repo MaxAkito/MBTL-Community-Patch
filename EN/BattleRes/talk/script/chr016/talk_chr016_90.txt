@@ -20,7 +20,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0060", 100>
 Powered_Ciel
 Whoa!
-I was about to lose consciousness there...!
+I almost lost consciousness there...!
 \l
 
 \\@SQ_CALL@<2>

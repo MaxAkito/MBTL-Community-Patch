@@ -72,7 +72,7 @@ acting as if you've taken a liking to me.
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0022", 100>
 Ciel
 I don't think I've ever felt more 
-unnerved than when you said that.
+unnerved than when you say that.
 \l
 
 \\@CHARA_IN@< 1, 11, 3, 0, 1>

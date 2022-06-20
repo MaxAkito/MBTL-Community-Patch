@@ -169,7 +169,7 @@ to your rage? Good. I'm about to as well.
 \\@CHARA_IN@<0, 16, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0049", 100>
 Powered_Ciel
-He believed in you. He adored you.
+He believed in you. He practically adored you.
 And yet... you betrayed that trust.
 \l
 

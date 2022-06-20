@@ -27,7 +27,7 @@ that even I could defeat her. However...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0000", 100>
 Archetype_Earth
-Thou sets thy life on that scene acted, little jester.
+Thou setst thy life on that scene acted, little jester.
 Sith such spirit thou dost display, a reward most worthy.
 
 \\@SPEAKERCG_IN@<0,5,5,-245,120,-245,120,255,255,0,820,820,0>
@@ -41,7 +41,7 @@ put to defense... Just how many seconds will I last?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0001", 100>
 Archetype_Earth
-A jest, thenÅ lone be the 'kiss' thou art permitted.
+A jest, thenÅFÅ@lone be the 'kiss' thou art permitted.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0002", 100>	

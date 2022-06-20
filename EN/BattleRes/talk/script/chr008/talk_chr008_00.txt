@@ -33,7 +33,7 @@ But oh my! It's got more inner city charm than you'd think!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0043", 100>
 Noel
-Chloe, TOCCA, Miu Miu, even MÅ A C!
+Chloe, TOCCA, Miu Miu, even MÅEAÅEC!
 This is going to be fun!
 \l
 

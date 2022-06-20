@@ -17,7 +17,7 @@ C'mon, where does this thing go?!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0001", 100>
 Worker
 What? It's not on the manifest? 
-Just stick it in the warehouse for now. 
+Just stick it in the warehouse for now?
 We're not a goddamn storage unit, you know?
 \l
 

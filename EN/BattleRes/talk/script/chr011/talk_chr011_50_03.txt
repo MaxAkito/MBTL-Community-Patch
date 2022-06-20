@@ -54,7 +54,7 @@ yet anonymous death.
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0042", 100>
 Ciel
 I've never had the need to prepare for anything 
-like that. Us of the Church do not leave wills, 
+like that. We of the Church do not leave wills, 
 or keepsakes. We do not need them.
 \l
 

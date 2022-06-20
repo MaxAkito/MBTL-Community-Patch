@@ -22,7 +22,7 @@ And what was I doing...?
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0001", 100>
 Red_Arcueid
 Right... it was... so agonizing, so miserable, 
-so deplorable, I'd wanted to cry.
+so deplorable, I wanted to cry.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0002", 100>

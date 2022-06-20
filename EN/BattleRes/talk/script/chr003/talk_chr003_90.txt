@@ -47,7 +47,7 @@ That was when...
 \\@SQ_CALL@<2>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0035", 100>
-I heard a noise that sounded as if a vessal, perhaps 
+I heard a noise that sounded as if a vessel, perhaps 
 one named Shiki Tohno, broke against the ground,
 never to be whole again.
 \l

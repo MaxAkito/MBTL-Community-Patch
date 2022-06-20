@@ -157,7 +157,7 @@ with. I mean, she's bein' oddly eager about all this.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0061", 100>
 Mario
 If she just runs in there'n takes care'a Roa, 
-I'd end up right back where I started.
+I'll end up right back where I started.
 We gotta stop 'er before that happens.
 
 \\@CHARA_IN@<1, 8, 8, 0, 1>
@@ -224,7 +224,7 @@ fat as you. Both physically, and mentally.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0066", 100>
 Mario
 First though, guy's gotta get some warmup. 
-Ready up, fatass. I'll trim some of that weight off'a ya.
+Ready up, fatass. I'll trim some of that weight offa ya.
 
 \\@BGM_STOP@<0>
 \e

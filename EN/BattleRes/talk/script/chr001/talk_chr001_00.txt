@@ -64,7 +64,7 @@ For your social studies?
 Hisui
 (The matters of the Tohno house are of confidential 
  nature, and thus are not to be spoken of to outsiders. 
- Under no circumstance can I afford to leak them)
+ Under no circumstance can I afford to leak them.)
 \l
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>

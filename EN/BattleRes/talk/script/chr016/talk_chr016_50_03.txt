@@ -73,7 +73,7 @@ I contacted the Vatican...
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0033", 100>
 Powered_Ciel
 According to them, Mario Gallo Bestino
-is currently inspecting the databank in Iceland.
+is currently inspecting a databank in Iceland.
 \l
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>

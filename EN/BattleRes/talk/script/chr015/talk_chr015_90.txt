@@ -40,7 +40,7 @@ hiring you in the first place.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0024", 100>
 Mario@Mario_Hatena
 You're not getting a fuckin' cent.
-Outta ma' sight before I throw you in the slammer!
+Outta my sight before I throw you in the slammer!
 
 \\@CHARA_IN@< 0, 15, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0040", 100>
@@ -97,7 +97,7 @@ I flew all the way from Australia to be here!
 \\@CHARA_FACE@<0,4,2,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0046", 100>
 Aoko
-Mr. high-and-mighty Presbyter sure has one hell
+Mr. High-and-Mighty Presbyter sure has one hell
 of a temper... Wait, could it be because of how 
 your body works that you're so worked up?
 

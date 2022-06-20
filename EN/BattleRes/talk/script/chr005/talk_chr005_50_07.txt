@@ -33,7 +33,7 @@ You avoided me and went for Shiki instead.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0043", 100>
 Arcueid
 Ugh...
-Do not expect you will die a normal death.
+Do not expect to die a normal death.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0044", 100>

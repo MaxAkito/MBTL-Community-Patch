@@ -33,7 +33,7 @@ What business brings you all the way here?!
 Kohaku
 Oh, um... rather, what I meant to say was we thought
 it appropriate to investigate the city by ourselves,
-as to lighten our busy master's burden.
+so as to lighten our busy master's burden.
 
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>

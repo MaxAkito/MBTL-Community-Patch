@@ -81,7 +81,7 @@ To think...
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0065", 100>
 Roa
 That you would aid me not just once, but twice!
-Truly you've earned being called my friend!
+Truly you've earned the title of friend!
 \l
 
 \\@CHARA_IN@< 1, 5, 6, 0, 1>

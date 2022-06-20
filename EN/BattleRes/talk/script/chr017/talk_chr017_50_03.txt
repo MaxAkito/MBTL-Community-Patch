@@ -56,7 +56,7 @@ Well, whatever.
 \\@CHARA_IN@<1, 0, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0002", 100>
 Arcueid
-Anyways, what are you planning on doing with 
+Anyway, what are you planning on doing with 
 these wires? I knew you'd already extended 
 them all around the city but...
 \l
@@ -146,7 +146,7 @@ you'll take 'im out right away, yeah?
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0080", 100>
 Mario
 You'll grab his neck firmly, 'til it goes crack.
-Just like you'd kill a chicken. 
+Just like killin' a chicken. 
 
 \\@CHARA_IN@<1, 0, 13, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>

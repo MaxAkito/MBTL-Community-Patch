@@ -25,7 +25,7 @@ Or maybe this is all just strange dream after all?
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0042", 100>
 Kohaku
-I mean who'd think there'd be crypt 
+I mean who'd think there'd be a crypt 
 like this just under the station park?
 \l
 

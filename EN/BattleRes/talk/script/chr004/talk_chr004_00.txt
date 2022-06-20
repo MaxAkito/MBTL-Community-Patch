@@ -84,7 +84,7 @@ anything upset the peace of the Tohno family.
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0020", 100>
 Kohaku
 As a servant of the Tohno household, 
-I ought to let the demons into my heart an--
+I ought to let the demons into my heart and--
 \l
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>

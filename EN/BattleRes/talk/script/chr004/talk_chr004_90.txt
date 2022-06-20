@@ -37,7 +37,7 @@ sensation or that man in the coat were all about...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0053", 100>
 Kohaku
-So I suppose I can't say im entirely without worries.
+So I suppose I can't say I'm entirely without worries.
 But not everything in this world has an explanation.
 \l
 

@@ -78,9 +78,9 @@ Oh, heavens no. That's quite the misunderstanding.
 \\@CHARA_IN@< 1, 2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0056", 100>
 Akiha
-Until you'd have told me who sent you, how big of an
+Until you told me who sent you, how big of an
 organization they are and what their objective is, 
-I would've handled you ever so gently...
+I would have handled you ever so gently...
 \l
 
 \\@CHARA_IN@< 1, 2, 100, 0, 1>

@@ -24,7 +24,7 @@ the scent of blood staining its floors.
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0001", 100>
 Roa
-Seems you've went out of your way to fully recreate it.
+Seems you've gone out of your way to fully recreate it.
 It's a bit slapdash, but you've got the use of blood down.
 \l
 
@@ -54,7 +54,7 @@ exquisitely wicked accomplishment, worthy of praise.
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0040", 100>
 You've got quite the mouth. Just as you'd figure 
 from someone whose only good quality is living for 
-so damn long; the master of cowards himself.
+so damn long, the master of cowards himself.
 \l
 
 
@@ -223,7 +223,7 @@ Neither of them were really ever there.
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0017", 100>
 Roa
 You never managed to come to terms with yourself, 
-and so, there never was anything for you to overcome.
+and so, there was never anything for you to overcome.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>

@@ -28,12 +28,12 @@ So this city is called Souya, huh?
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0042", 100>
 Noel
-But oh my! it's got more inner city charm than you'd think!
+But oh my! It's got more inner city charm than you'd think!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0043", 100>
 Noel
-Chloe, TOCCA, Miu Miu, even MÅEAÅEC!
+Chloe, TOCCA, Miu Miu, even MÅ A C!
 This is going to be fun!
 \l
 

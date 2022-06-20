@@ -54,7 +54,7 @@ Indeed... Such is how a warrior ought to be.
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0021", 100>
 Kishima
 These are just some martial arts I've picked up.
-But if you deem that acceptable, allow me a demonstration.
+But if you deem that acceptable, allow me to demonstrate.
 \l
 
 \\@CHARA_IN@< 0, 6, 100, 0, 1>

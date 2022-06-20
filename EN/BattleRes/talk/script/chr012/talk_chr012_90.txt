@@ -100,7 +100,7 @@ Saber
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0035", 100>
 Saber
-You ask with such eagerness. I find it hard to refuse 
+You ask with such eagerness I find it hard to refuse 
 your request. In fact, for whatever reason, I too, find 
 myself quite excited at the prospect.
 \l

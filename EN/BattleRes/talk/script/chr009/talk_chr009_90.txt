@@ -34,7 +34,7 @@ The past cannot be changed.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0083", 100>
 Volv
-And I cannot conceive of what kind 
+And I cannot conceive what kind 
 of future I ought to strive for...
 \l
 

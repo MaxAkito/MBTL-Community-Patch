@@ -35,7 +35,7 @@ from schooooool...
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0000", 100>
 Shiki
 *Mumble* That's not the same as living on my own.
-I want to become indendendent so...
+I want to become independent so...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0001m", 100>
@@ -90,7 +90,7 @@ This is, uh, for medical purposes! Yeah, that's it!
 Ciel
 In order to cancel out the hypnotism applied by
 Noel, I had no choice but to tinker with Shiki's 
-subsciousness, that's all!
+subconscious, that's all!
 
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>

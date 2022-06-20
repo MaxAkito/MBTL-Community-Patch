@@ -16,7 +16,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0000", 100>
 Noel
 Whoa! A True Ancestor?! Wait-wait-wait!
-This isn't in my job description!
+This isn't part of my job description!
 
 \\@CHARA_IN@< 0, 0, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0010", 100>

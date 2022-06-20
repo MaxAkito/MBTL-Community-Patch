@@ -32,7 +32,7 @@ My hands are completely soaked in blood!
 Red_Arcueid
 All that's left is for you to wake up, Shiki. 
 Hurry up, open your eyes and despair as you 
-find yourself in my hand.
+find yourself in my hands.
 \l
 
 \\@CHARA_OUT@<0, -1, -1, 0, 0>
@@ -102,15 +102,15 @@ And just why should I feel embarrassed?
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0007", 100>
 Red_Arcueid
 Besides, who are you to tell me that as you 
-pathetically cling on for dear life to another 
-person's thumb. Like if I'd care, dummy!
+pathetically cling for dear life onto another 
+person's thumb? As if I'd care, dummy!
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0015", 100>
 Shiki
-Uh. You say that, but your mannerisms just now were
-pretty much your old usual self. Also, you're not 
-really person, now are you?
+Uh. You say that, but you're acting pretty much
+like your usual self now. Also, you're not 
+really a person, now are you?
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0008", 100>

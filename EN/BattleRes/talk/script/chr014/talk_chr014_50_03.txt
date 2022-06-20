@@ -102,7 +102,7 @@ now for me, 'kay? \sf000
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0026", 100>
 Dead_Noel
 Oh, where are my manners? I should introduce
-myself. You know, like you'd do at a blind date!
+myself. You know, like you would at a blind date!
 \l
 
 \\@CHARA_IN@<0, 14, 10, 0, 1>
@@ -127,7 +127,7 @@ Besides, I'm NOT a regular upstanding human.
 Shiki
 You killed one of my relatives, so I'm here to kill 
 you back. That's all. Your name, your background... 
-Nothing of that matters to me.
+None of that matters to me.
 
 \\@CHARA_IN@<0, 14, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0028", 100>
@@ -162,7 +162,7 @@ be nearly as much fun!
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0032", 100>
 Dead_Noel
-I'm going skewer you together with that misplaced 
+I'm going to skewer you together with that misplaced 
 confidence of yours, and then I'll scrape you around, 
 cut you into little pieces...
 \l

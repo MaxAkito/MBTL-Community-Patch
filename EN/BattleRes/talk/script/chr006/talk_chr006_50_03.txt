@@ -87,7 +87,7 @@ You're not even human, but still a Buddhist?
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0015", 100>
 Kishima
 Heh. These days, we Oni are the more pious ones.
-But enough talk, give up on your conversion attempt.
+But enough talk. Give up on your conversion attempt.
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>

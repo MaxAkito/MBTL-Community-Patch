@@ -38,7 +38,7 @@ just wander in here by accident.
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0033", 100>
 Kishima
 It would seem there's an even greater
-scheme arranged for in this city...
+scheme being arranged in this city...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0034", 100>
 Kishima

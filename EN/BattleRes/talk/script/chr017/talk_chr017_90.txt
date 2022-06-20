@@ -100,7 +100,7 @@ Executor Ciel chose to remain in Souya.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0114", 100>
 Mario
-After that, it appears as if great abnormality 
+After that, it appears as if a great abnormality 
 occurred there, though it could not be observed.
 \l
 

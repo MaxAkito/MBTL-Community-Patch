@@ -30,7 +30,7 @@ What is up with this mansion...?
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0012", 100>
 Noel
-They even have a whole home-security system...
+They even have a whole home security system...
 Who do they think they are, combining this modern 
 stuff with the lay of the land?!
 \l

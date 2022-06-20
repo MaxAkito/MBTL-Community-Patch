@@ -53,7 +53,7 @@ anyone else, capisce?
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0000", 100>
 Aoko
 O-ho. No wonder you were so lightly guarded. 
-So, Mr. high-and-mighty Presbyter is undercover, huh?
+So, Mr. High-and-Mighty Presbyter is undercover, huh?
 \l
 
 \\@CHARA_IN@<0, 15, 10, 0, 1>
@@ -120,7 +120,7 @@ I'll take care of this before you know it.
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0006", 100>
 Aoko
-That said, was this town always this dangerous? 
+That said, was this town always so dangerous? 
 Seems there's some other nasty stuff lurking here.
 Well, aside from the Dead Apostles.
 
@@ -175,7 +175,7 @@ I don't wanna see you destroying the whole underground.
 Mario@Mario_Hatena
 Your goal here is ultimately to seize the Workshop. 
 Anything outside what's necessary for that is coming
-outta your pay, capische?
+outta your pay, capisce?
 
 \\@CHARA_IN@<0, 15, 3, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 3>

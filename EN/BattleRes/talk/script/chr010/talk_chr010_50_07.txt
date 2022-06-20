@@ -105,7 +105,7 @@ would fall so far as to become a lowly beast.
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0077", 100>
 Roa
 You're not actually berserk,
-You've just lost yourself in excitement.
+you've just lost yourself in excitement.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
@@ -161,7 +161,7 @@ Shiki still has to accept my feelings for him.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0034", 100>
 Red_Arcueid
 These gently boiling feelings of my vampiric urges, 
-that is. But first I have to get rid of those who'd 
+that is. But first I have to get rid of those who 
 stand in my way.
 \l
 

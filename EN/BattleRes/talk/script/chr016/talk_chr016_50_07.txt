@@ -132,7 +132,7 @@ to fear him, nor to get rid of him.
 \\@CHARA_IN@<1, 10, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0010", 100>
 Red_Arcueid
-It was just like picking a ripe fruit.
+It was like picking a ripe fruit.
 I just took him by the neck and flung him away.
 
 
@@ -169,7 +169,7 @@ to your rage? Good. I'm about to as well.
 \\@CHARA_IN@<0, 16, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0049", 100>
 Powered_Ciel
-He believed in you. He even straight up adored you.
+He believed in you. He adored you.
 And yet... you betrayed that trust.
 \l
 

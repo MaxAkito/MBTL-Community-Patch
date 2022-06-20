@@ -39,7 +39,7 @@ Magician would make her appearance...
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0031", 100>
 Roa
 I was convinced you'd come for me eventually, of course.
-But this is a little sooner than I'd counted on.
+But this is a little sooner than I counted on.
 \l
 
 \\@CHARA_FACE@<1,5,2,210>
@@ -117,7 +117,7 @@ YoU'rE cOmPlEtElY rIgHt. I HaVe CoMe fRoM ThE fUtUrE.
 \\@CHARA_IN@<0, 15, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0034", 100>
 Aoko
-I wIlL dEfEaT yOu, EvIl-DoEr.
+I wIlL dEfEaT yOu, EvIlDoEr.
 AnD GeT tOnS oF CaSh fOr My VaCaTiOn... Ok?
 
 \\@CHARA_IN@<1, 5, 3, 0, 1>

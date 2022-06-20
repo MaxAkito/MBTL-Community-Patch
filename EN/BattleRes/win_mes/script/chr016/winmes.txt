@@ -82,7 +82,7 @@ chara_type 1
 Now that was a battle of pure power versus power.
 That said, you've yet to show your true nature,
 just as I've yet to deploy the entirety of the 
-Seventh Holy Scripture. We'll see which one of us 
+Seventh Scripture. We'll see which one of us 
 is stronger when that time comes.
 \e
 
@@ -117,7 +117,7 @@ Your weakness... has come to judgment.
 WinMes13:
 chara_type 1
 This is the end, Serpent of Akasha.
-I've shattered your soul with the Seventh Holy Scripture.
+I've shattered your soul with the Seventh Scripture.
 Your twisted beliefs have led you only to the depths of darkness.
 \e
 

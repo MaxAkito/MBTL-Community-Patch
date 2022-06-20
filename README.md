@@ -176,7 +176,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | メガネ        | glasses-boy             | Neko-Arc's nickname for Shiki
 | 親(元)       | sire                    | Vampire 'parent'. Only for vampires.
 | 子　　　　　　　　　　| scion                   | Vampire 'child'. Only for vampires.
-| 七つの死因     | Seven Causes of Death   | The concept of the Seventh Holy Scripture.
+| 七つの死因     | Seven Causes of Death   | The concept of the Seventh Scripture.
 | 無限転生者    | (the) Infinite Reincarnator| Roa's nickname
 
 ## Progress

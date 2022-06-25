@@ -50,7 +50,7 @@ Not the greatest sire...
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0064", 100>
 Arcueid
 They failed to judge the calibre
-of their own scion, after all.
+of their own offspring, after all.
 \l
 
 \\@CHARA_IN@< 1, 0, 2, 0, 1>

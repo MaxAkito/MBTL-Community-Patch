@@ -161,7 +161,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 直死の魔眼　 　　| Mystic Eyes of Death Perception| Shiki's Mystic Eyes.
 | 死者　　　　　　　　| the Dead (p)/Dead(s)    | Undead familiars created by Dead Apostles.
 | 聖堂教会　　 　　| (the) Holy Church       | Organization dedicated to killing vampires
-| 代行者　　　　 　| Executor                 | Church agent who kills vampires.
+| 代行者　　　　  　| Executor                | Church agent who kills vampires.
 | 埋葬機関　　　 　| Burial Agency           | Special unit within the Church.
 | 司祭　　　　　　 　| Presbyter               | Rank within the Church.
 | 司祭代行　　　 　| Acting Presbyter        | Mario's title.
@@ -172,12 +172,13 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 独角         | Lone-Horn               | Kouma Kishima's martial art style.
 | 北海         | northern seas           | Where Vlov comes from. Not the North Sea.
 | 星の内海      | (the) Planet's Inner-sea| Reverse side of Earth.
-| チャイナ       | China-girl              | Neko-Arc's nickname for Miyako
-| メガネ        | glasses-boy             | Neko-Arc's nickname for Shiki
+| チャイナ       | China-girl              | Neco-Arc's nickname for Miyako
+| メガネ        | glasses-boy             | Neco-Arc's nickname for Shiki
 | 親(元)       | sire                    | Vampire 'parent'. Only for vampires.
-| 子　　　　　　　　　　| scion                   | Vampire 'child'. Only for vampires.
+| 子　　　　　　　　　　| offspring               | Vampire 'child'. Only for vampires.
 | 七つの死因     | Seven Causes of Death   | The concept of the Seventh Scripture.
-| 無限転生者    | (the) Infinite Reincarnator| Roa's nickname
+| 無限転生者    | (the) Infinite Reincarnator| Roa's first nickname
+| アカシャの蛇     | The Serpent of Akasha   | Roa's second nickname
 
 ## Progress
 

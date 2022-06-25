@@ -25,7 +25,7 @@ might be possible to have a chat with.
 \\@CHARA_IN@< 0, 4, 100, 50, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0031", 100>
 Kohaku
-Excuse me, Sister-looking person over there. You haven't 
+Excuse me, nun-looking person over there. You haven't 
 seen someone suspicious around town, have you?
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>

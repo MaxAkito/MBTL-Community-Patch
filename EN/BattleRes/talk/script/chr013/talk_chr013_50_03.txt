@@ -105,7 +105,7 @@ I apologize if I startled you.
 \\@CHARA_IN@<1, 11, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0012", 100>
 Ciel
-It's alright. I am a Sister of Justice, entrusted with
+It's alright. I am a Nun of Justice, entrusted with
 protecting this town. I'm on your side, Miyako Arima.
 \l
 

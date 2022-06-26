@@ -32,9 +32,9 @@ In this game's story, she is tasked by a certain big-wig with an investigation c
 and so starts a search to try and infiltrate these research centers...
 
 主武装・スキル
-Primary Armaments and Skills
+Main Weapons and Skills
 高速詠唱攻性魔術、魔法・青、格闘技
-Offensive High-speed Incantation Magecraft, the Magic Blue, Martial Arts.
+Offensive High-speed Incantation Magecraft, the Magic Blue, Martial Arts
 
 基本データ
 Basic information
@@ -45,8 +45,8 @@ Weight: 50 kg
 血液型：A
 Blood type: A
 誕生日：7月7日
-Date of birth: 7th July
+Birthday: 7th July
 CV：戸松　遥
-Voice actress: Tomatsu Haruka
+Voice Actress: Tomatsu Haruka
 
 

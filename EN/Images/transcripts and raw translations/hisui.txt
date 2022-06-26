@@ -1,7 +1,7 @@
 翡翠
 Hisui
 その身に深い愛情を秘める、寡黙な使用人
-A maid of few words, who hides deep affection within her.
+The reticent maid who hides deep affection within her.
 
 遠野家の使用人で、邸内の家事全般（炊事以外）と志貴の世話を担当している。
 Hisui works as a maid for the Tohno and is in charge of all housework (aside from cooking) as well as taking care of Shiki.
@@ -32,5 +32,5 @@ Basic Information
 Height: 156 cm
 Weight 43 kg
 Blood Type: B
-Birthday: 12th March
+Birthday: March 12
 Voice Actress: Ichinose Kana

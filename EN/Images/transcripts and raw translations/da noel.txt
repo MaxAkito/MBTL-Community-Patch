@@ -1,7 +1,7 @@
 死徒ノエル
 Dead Apostle Noel
 昼の顔は闇に眠る可憐な少女／夜の貌は[ruby=ニンゲン]獲物[ruby]を嗤う「薔薇園の蝶」
-Her face at day that of a fair maiden slumbering in darkness / Her face at night that of a rosen garden's butterfly mocking its human prey.
+Her face at day that of a fair maiden who slumbers in darkness / Her face at night that of a butterfly in a rosen garden which mocks its human prey.
 
 ある代行者が死徒になった姿
 The form of a certain Executor having become a Dead Apostle.
@@ -22,7 +22,7 @@ What exactly did she want to accomplish by choosing to go the path of a Dead Apo
 弱さを嘆き、手に入れた強さに狂喜し溺れていくその姿は、
 退廃と自滅の翳りに満ちている―――—。
 Having always lamented how weak she is, she is now drowning in mad joy at the power she has acquired,
-decadence and shades of her own ruinious behavior overflowing from every pore.
+shadoes of decadence and her own ruinious behavior overflowing from every pore.
 
 主武装・スキル
 薔薇の魔眼、短槍、長槍
@@ -39,5 +39,5 @@ Basic Information
 Height: 143 cm
 Weight: 35 kg
 Blood Type: N/A
-Birthday: 12th December
+Birthday: December 25
 Voice Actress: Kayano Ai

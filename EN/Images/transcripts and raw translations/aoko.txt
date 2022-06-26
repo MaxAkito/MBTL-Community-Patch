@@ -1,7 +1,7 @@
 青崎青子
 Aozaki Aoko
 第五魔法の継承者、[ruby=マジックガンナー]”最新の魔法使い”[/ruby]
-The Successor of the Fifth Magic: The Newest Magician, Magic Gunner.
+The Newest Magician, Magic Gunner: successor of the Fifth Magic: 
 
 魔術世界において５人しかないとされる、「魔法使い」の1人。
 Aoko is one of only 5 people who in the world of magecraft are called "Magicians".
@@ -37,16 +37,16 @@ Main Weapons and Skills
 Offensive High-speed Incantation Magecraft, the Magic Blue, Martial Arts
 
 基本データ
-Basic information
 身長：160㎝
-Height: 160 cm
 体重：50㎏
-Weight: 50 kg
 血液型：A
-Blood type: A
 誕生日：7月7日
-Birthday: 7th July
 CV：戸松　遥
+Basic information
+Height: 160 cm
+Weight: 50 kg
+Blood type: A
+Birthday: 7th July
 Voice Actress: Tomatsu Haruka
 
 

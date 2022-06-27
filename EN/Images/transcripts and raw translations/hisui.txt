@@ -1,12 +1,12 @@
 翡翠
 Hisui
 その身に深い愛情を秘める、寡黙な使用人
-The Reticent Maid who hides deep affection within her
+The Reticent Maid who hides deep affection within her.
 
 遠野家の使用人で、邸内の家事全般（炊事以外）と志貴の世話を担当している。
 Hisui works as a maid for the Tohno and is in charge of all housework (aside from cooking) as well as taking care of Shiki.
 琥珀の双子の妹である。
-She is Kohaku's younger twin sister.
+She is Kohaku's younger twin.
 姉の琥珀とは対照的に、洋装がトレードマーク。
 In contrast to her sister, Hisui's trademark clothing is in western style.
 
@@ -20,7 +20,7 @@ Though she's not supposed to have any particular fighting skills, for now she st
 主武装・スキル
 はたき、フライパン、おたま、フライ返し、調度品
 Main Weapons and Skills
-Duster, Frying Pan, Ladle, Spatula, Furniture
+Duster, frying pan, ladle, spatula, furniture
 
 基本データ
 身長：156㎝

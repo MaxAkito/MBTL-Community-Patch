@@ -1,7 +1,7 @@
 シエル
 Ciel
 主に代わりて異端を狩る、教会の「弓」
-The 'Bow' of the Church, who hunts heresy in the name of the Lord.
+The 'Bow' of the Church who hunts heretics in the name of the Lord.
 
 欧州を中心とした一大宗教に存在する、異端狩りの組織「聖堂教会」。
 Within one of the world religions based in Europe exists an organization dedicated to heresy-hunting: the Holy Church.
@@ -12,15 +12,15 @@ Her occupation entails smiting (Executing) heretics in the name of God.
 
 彼女もアルクェイドと同じく、仇敵であるロアを追って総耶を訪れ、
 捜査のため、志貴と同じ高校に生徒として潜入する。
-She came to Souya in pursuit of her nemesis Roa, same as Arcueid, 
-and in this investigation, has, as a student, infiltrated the same highschool that Shiki attends.
+Just like Arcueid, she has come to Souya in pursuit of her nemesis Roa, 
+and in this investigation, infiltrated the same highschool that Shiki attends as a student.
 同じく、教師として潜入したノエルとバディを組んでいるのだが、
 単独行動を許されているシエル本人は、ツーマンセルに不服な様子である。
-Noel, who has infiltrated the school as a teacher in a similar manner, is her partner.
+Noel, who has in a similar manner infiltrated Shiki's school as a teacher, is her partner.
 As Ciel is allowed independent action, it seems she isn't too all happy about having to work as a pair.
 
 学校での彼女は、志貴の先輩にあたる高校3年生。
-At school, she is a third year student, and one of Shiki's upperclasswomen.
+At school, she is a third year student and one of Shiki's upperclasswomen.
 明るく朗らかで人当たりもよく、誰からも頼られる少女で、
 校内屈指の「いい人」として人気が高い。
 She is known as the most good-natured person at school, and is very popular: cheerful, sociable and friendly, trusted upon by everyone.
@@ -32,7 +32,7 @@ Ciel is a curry lover without match: she often eats curry bread she's bought fro
 主武装・スキル
 黒鍵、大七聖典
 Main Weapons and Skills
-Black Keys, the Seventh Scripture
+Black Keys, The Seventh Scripture
 
 基本データ
 身長：165㎝

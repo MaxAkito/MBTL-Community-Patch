@@ -15,8 +15,8 @@ She is called by the very intuitive yet　crude nickname of "Magic Gunner"
 because of the sheer abundance of high-output mystic bullets she can fire off in rapid succession.
 誰に教わったのか不明だが格闘技にも精通しており、
 武術と魔術のハイブリッドなバトルスタイルを特徴に持つ。
-Though it is unclear who taught her, she's also quite versed in martial arts,
-her way of fighting being a hybrid of both it and magecraft.
+She's also quite versed in martial arts, though it is unclear who taught her. 
+Her way of fighting being a hybrid of both it and magecraft.
 
 放浪の旅の中で幼き日の志貴と出会い、彼に魔眼殺しの眼鏡と、
 生き方・モノの捉え方の指針を受けている。
@@ -24,7 +24,7 @@ During her aimless journeys, she once met the young Shiki, granting him both the
 そのため、志貴は尊敬の念を込めて「先生」と呼んでいる。
 Hence, Shiki reverently calls Aoko his "teacher".
 であり、無頼漢であり、賢人であり、風来坊である、と一言で評するのが難しい人物。
-Whether it be just, villanious, wise, or capricious, she is a hard person to appraise by just a single word.
+She's a hero and ruffian, an intellectual and a vagabond. Overall a difficult person to sum up in one word.
 
 本作の物語では、とあるお偉方から、『ロアが行っていた研究・実験』に関する調査を依頼され、
 研究施設の捜索、潜入を試みるのだが……。

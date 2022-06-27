@@ -33,7 +33,7 @@ Saber
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0021", 100>
 Saber
 Your presence is somehow similar to that of my own, 
-yet I sense magecraft about you, despite the fact that 
+yet I sense Magecraft about you, despite the fact that 
 you appear to be a pious believer.
 \l
 
@@ -103,7 +103,7 @@ protect the lives of the innocent.
 \\@CHARA_IN@< 0, 12, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0026", 100>
 Saber
-I know not which mage you may be, but your 
+I know not which Mage you may be, but your 
 plans shall meet their end upon my holy blade!
 
 \\@BGM_STOP@<0>

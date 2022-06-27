@@ -124,7 +124,7 @@ but I tore you apart completely, soul included!
 // ‘ÎçaŠÔ
 WinMes17:
 chara_type 103
-You're... an old mixblood from this land?
+You're... a Japanese Mixblood?
 There's some human mixed in, but the quality of 
 your blood is on par with a Phantasmal Beast. 
 How do you maintain that?!

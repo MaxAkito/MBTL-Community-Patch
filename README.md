@@ -149,13 +149,13 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 吸血種　　　　　　　| bloodsucker             | Any species that sucks blood.
 | 吸血鬼　　　　  　| vampire                 | Type of bloodsucker (includes DA and TA)
 | 吸血衝動　　　　　| vampiric urges          | Urge to suck blood. Strong among TAs.
-| 魔術　　　　　　　　| magecraft               | Ability to reproduce Mystery.
-| 魔術回路　　　　　| magic circuits          | Organ used for magecraft.
-| 魔術師　　　　　　| mage(s)                 | People who use magecraft.
+| 魔術　　　　　　　　| Magecraft               | Ability to reproduce Mystery.
+| 魔術回路　　　　　| Magic Circuit(s)        | Organ used for magecraft.
+| 魔術師　　　　　　| Mage(s)                  | People who use magecraft.
 | 魔術教会　　　　　| (the) Mages Association | Organization that practices magecraft.
 | 神秘　　　　　　　　| Arcana                  | Supernatural phenomena.
 | 魔法　　　　　　　　| Magic                   | Peak of magecraft. There are only 5.
-| 魔法使い　　　　　　| Magician                 | Someone who can use magic.
+| 魔法使い　　　　　　| Magician               | Someone who can use magic.
 | 魔力　　　　　 　　| magical energy          | Energy used for all kinds of Mystery.
 | 魔眼　　　　　 　　| Mystic Eyes             | Supernatural eyes.
 | 直死の魔眼　 　　| Mystic Eyes of Death Perception| Shiki's Mystic Eyes.
@@ -167,7 +167,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 司祭代行　　　 　| Acting Presbyter        | Mario's title.
 | 人形使い　　 　　| Puppetmaster            | Mario's first nickname.
 | 人間使い　　 　　| Peoplemaster            | Mario's second nickname.
-| 混血　　　　　 　　| mixblood                | Human who has intermixed with non-humans
+| 混血　　　　　 　　| Mixblood                | Human who has intermixed with non-humans
 | 鬼　　　　　 　 　 | Oni                     | Type of Japanese non-human.
 | 独角         | Lone-Horn               | Kouma Kishima's martial art style.
 | 北海         | northern seas           | Where Vlov comes from. Not the North Sea.
@@ -175,10 +175,11 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | チャイナ       | China-girl              | Neco-Arc's nickname for Miyako
 | メガネ        | glasses-boy             | Neco-Arc's nickname for Shiki
 | 親(元)       | sire                    | Vampire 'parent'. Only for vampires.
-| 子　　　　　　　　　　| offspring               | Vampire 'child'. Only for vampires.
+| 子　　　　　　　　　 | offspring               | Vampire 'child'. Only for vampires.
 | 七つの死因     | Seven Causes of Death   | The concept of the Seventh Scripture.
 | 転生無限者    | (the) Infinite Reincarnator| Roa's first nickname
 | アカシャの蛇     | The Serpent of Akasha   | Roa's second nickname
+| 幻想獣　　　　　　　| Phantasmal Beast        | Mythological creatures
 
 ## Progress
 

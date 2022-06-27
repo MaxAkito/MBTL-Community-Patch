@@ -38,7 +38,7 @@ stuff with the lay of the land?!
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0013", 100>
 Noel
-Why can't they rely more on something magecrafty?! 
+Why can't they rely more on something Magecrafty?! 
 Ugh, this sucks!
 
 \\@CHARA_IN@< 0, 3, 0, 1, 0>

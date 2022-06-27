@@ -203,7 +203,7 @@ You can't just leave her be, right?
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0064", 100>
 Mario
-True. Thought about maybe hirin' a freelance mage,
+True. Thought about maybe hirin' a freelance Mage,
 but I changed my mind. I'll deal with 'er myself.
 
 \\@CHARA_IN@<1, 8, 6, 0, 1>

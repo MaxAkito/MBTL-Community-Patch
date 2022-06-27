@@ -17,7 +17,7 @@ but with each passing generation he has mastered the secrets of multitudes of Ar
 永遠を定義する手段として『自身を死徒化し転生する事』を選び、
 アルクェイドを奸計に嵌めて己の血を吸わせ、その力の一部を奪って逃走する。
 In order to define eternity, he chose to turn himself into a Dead Apostle,
-tricked Arcueid into drinking his blood, stealing a part of her power, and then making his escape.
+tricked Arcueid into drinking his blood, stealing a part of her power, and then made his escape.
 以後800年間、アルクェイドや教会と「死と転生の繰り返し」を続けていた。
 Afterwards, he spent the next 800 years stuck in a repetition of death and reicarnation at the hands of Arcueid and the Church.
 
@@ -36,4 +36,5 @@ Basic Information
 Height: 178 cm
 Weight 65 kg
 Blood Type: N/A
+Birthday: September 29
 Voice Actor: Azakami Youhei

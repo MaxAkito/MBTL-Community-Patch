@@ -65,7 +65,7 @@ but you even blew up his goddamn Workshop too!!
 \\@CHARA_IN@<0, 17, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0092", 100>
 Mario
-Which fuckin' mage are you? State your affiliations, 
+Which fuckin' Mage are you? State your affiliations, 
 right now! I'll go sue 'em with the whole goddamn 
 Church behind me!
 

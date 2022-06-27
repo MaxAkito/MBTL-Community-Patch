@@ -153,7 +153,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 魔術回路　　　　　| magic circuits          | Organ used for magecraft.
 | 魔術師　　　　　　| mage(s)                 | People who use magecraft.
 | 魔術教会　　　　　| (the) Mages Association | Organization that practices magecraft.
-| 神秘　　　　　　　　| Mystery                 | Supernatural phenomena.
+| 神秘　　　　　　　　| Arcana                  | Supernatural phenomena.
 | 魔法　　　　　　　　| Magic                   | Peak of magecraft. There are only 5.
 | 魔法使い　　　　　　| Magician                 | Someone who can use magic.
 | 魔力　　　　　 　　| magical energy          | Energy used for all kinds of Mystery.

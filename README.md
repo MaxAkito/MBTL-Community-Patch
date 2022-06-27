@@ -177,7 +177,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 親(元)       | sire                    | Vampire 'parent'. Only for vampires.
 | 子　　　　　　　　　　| offspring               | Vampire 'child'. Only for vampires.
 | 七つの死因     | Seven Causes of Death   | The concept of the Seventh Scripture.
-| 無限転生者    | (the) Infinite Reincarnator| Roa's first nickname
+| 転生無限者    | (the) Infinite Reincarnator| Roa's first nickname
 | アカシャの蛇     | The Serpent of Akasha   | Roa's second nickname
 
 ## Progress

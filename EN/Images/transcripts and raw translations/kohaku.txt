@@ -1,10 +1,10 @@
 琥珀
 Kohaku 
 遠野家を笑顔で照らす朗らかな少女
-The Cheerful Girl who brings brightens up the Tohno house with her smile
+The Cheerful Girl who brings brightens up the Tohno house with her smile.
 
 翡翠の双子の姉。翡翠とともに、幼い頃から遠野家に仕えている。
-Kohaku is Hisui's elder twin sister. Together with Hisui, she has served the Tohno since youth.
+Kohaku is Hisui's elder twin. Together with Hisui, she has served the Tohno since youth.
 着物に割烹着（風エプロン）がトレードマークの使用人。
 Her trademark maid clothing is her kimono and apron.
 
@@ -20,14 +20,14 @@ She is endlessly cheerful, with a caring personality and constant smile.
 マジカルでケミカルなアクションを多く見せる。
 In battle, Kohaku shows off many magical and chemical deeds...
 She wields a katana hidden within her broom, attacks with strange animate plants
-and flies through the air dropping molotov cocktails while dressed as witch...
+and flies through the air dropping Molotov cocktails while dressed as witch...
 なぜそのような能力を発揮するに至ったかは、謎に包まれている。
 Exactly how she came to manifest such abilities is still wrapped in mystery.
 
 主武装・スキル
 怪しい竹箒（仕込み刀）、怪しい植物、怪しい薬物、怪しい火炎瓶
 Main Weapons and Skills
-Strange Broom (with Katana inside), Strange Plants, Strange Chemicals, Strange Molotov Cocktails
+Strange broom (with katana inside), strange plants, strange chemicals, strange Molotov cocktails
 
 基本データ
 身長：156㎝

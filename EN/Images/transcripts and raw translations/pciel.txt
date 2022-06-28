@@ -1,19 +1,19 @@
 完全武装シエル
 Powered Ciel
 埋葬機関の真実を体現する、異端殲滅のエクスキューショナー
-The Heresy-Annihilating Executor, embodying the truth of the Burial Agency
+The Heresy-Annihilating Executor, embodying the truth of the Burial Agency.
 
 二十七祖クラスの死徒を相手取るため、異端殲滅用の概念武装である
 『第七聖典』を分解、それぞれ個別の死因として武装したシエル。
-In order to face up against Ancestor-class Dead Apostles,. Ciel splits up the heresy-annihilating Conceptual Weapon 
+In order to face up against Ancestor-class Dead Apostles, Ciel splits up the heresy-annihilating Conceptual Weapon 
 known as the 'Seventh Scripture' into its constituent Causes of Death and turns them into individual armaments.
 
 千年クラスの聖遺物である『第七聖典』を常時励起させている。
-She wields the millenium-class 'Seventh Scripture' relic in a permanent state of exitation.
+She wields the millenial relic 'Seventh Scripture' in a permanent state of excitation.
 膨大な魔力消費となるが、通常の魔術師数百人分の魔力量を誇るシエルだからこそ
 可能なバトルスタイル。
-Though this consumes an enormous amount of magical energy, it is only because it is Ciel, 
-who has the magical energy capacity of several hundreds of normal mages put together, that this fighting style is possible.
+This consumes an enormous amount of magical energy, making this fighting style only only possible for Ciel, 
+who has the magical energy capacity of several hundreds of normal mages put together.
 
 メイン火力として[ruby=ブレイズ]『焼死』[/ruby][ruby=ブレイド]『出血死』[/ruby][ruby=ブレイク]『衝突死』[/ruby]を象徴する
 武装が多く用いられ、重装備を扱うことから、腕力も魔術のよって強化されている。
@@ -32,7 +32,7 @@ and the Idea Bloods she harbors within herself, her offense will never yield.
 主武装・スキル
 第七聖典、原理血戒
 Main Weapons and Skills
-the Seventh Scripture, Idea Blood
+The Seventh Scripture, Idea Blood
 
 基本データ
 身長：165㎝

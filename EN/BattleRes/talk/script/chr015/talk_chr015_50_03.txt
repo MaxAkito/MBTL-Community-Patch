@@ -43,7 +43,7 @@ acting nonchalant given the situation here.
 \\@CHARA_IN@<1, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0081", 100>
 Dead_Noel
-Some freelance Mage, perhaps? I mean, if you felt 
+Some freelance mage, perhaps? I mean, if you felt 
 fear like a normal person did, you'd be shaking in 
 terror right about now.
 \l
@@ -81,7 +81,7 @@ like that are something which only blood lets me satisfy.
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0086", 100>
 Dead_Noel
-So... I wonder what a Mage's blood tastes like?
+So... I wonder what a mage's blood tastes like?
 Oh, I bet it's bitter, but spicy!
 \l
 

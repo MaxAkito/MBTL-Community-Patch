@@ -41,7 +41,7 @@ has been running amok destroying things in town.
 \\@CHARA_IN@< 3, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0042", 100>
 Hisui
-Let's just say it. That's the King of Knights.
+Let's just say it. That's the Knight King.
 
 \\@CHARA_IN@< 1, 4, 106, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>

@@ -1,27 +1,27 @@
 セイバー
 Saber
 交わらぬはずの並行世界に召喚された謎を覆う「騎士王」
-The Knight of Knights pursues the mystery of why she has been summoned to a parallel world she is never meant to intersect with
+The Knight King pursues the mystery of why she has been summoned to a parallel world that she is never meant to intersect with.
 
 真名：アルトリア・ペンドラゴン
 True Name: Artoria Pendragon
 後ろに紡い上げた金髪、青と白銀の甲冑が眼早い、凛とした佇まいの女性剣士。
 Saber is a swordswoman possessed of a regal bearing; 
-the blonde hair she has braided behind her head, as well as the silvery armor she wears doing much to make her stand out.
+the blonde hair she has braided behind her head and the blue-silver armor she wears doing much to make her stand out.
 彼女こそ、アーサー王伝説として、巷間に名高い、円卓の騎士を束ねる聖剣の騎士である。
-She is none other than the famous Knight of the Holy Sword, popularily famed as the one who commands the Round Table from Arthurian Mythology.
+She is none other than the famous Knight of the Holy Sword, popularily famed as the one who commands the Round Table from the Arthurian Cycle.
 （生前は性別を偽って活動していたため、アーサー王＝男性として知られている。）
-(Since she concealed her true gender in life, King Arthur is now known as a man.)
+(Since she concealed her true gender in life, King Arthur is known as a man.)
 
 死後は、伝説的な英雄として「英霊の座」に刻まれ”サーヴァント”となった。
-After death, she was carved into the the 'Throne of Heroes' for her deeds as a hero of legend.
+After death, she became a Servant, engraved into the the 'Throne of Heroes' for her legendary deeds.
 本来、「英霊の座」という仕組みのないこの世界に何故か現界してしまい、
 その謎を解くため、総耶の街を探索することに……。
 Now she has manifested in a world where the mechanisms of the Throne of Heroes do not exist,
 and so heads out to explore the city of Souya in order to solve that mystery...
 
 生来持つ莫大な魔力により、そのブースト効果で己の身体能力を本来の何倍にも引き上げている。
-Thanks to her innately possessed enormous amount of magical energy, she can boost her own physical abilities several times over her usual.
+Thanks to her innate abundance of magical energy, she can boost her own physical abilities several times over her usual.
 その魔力を集束・加速させた”光”の断層による究極の斬撃[ruby=約束された勝利の剣]「エくスカリバー」[/ruby]や、
 手に持つ聖剣の姿を不可視にする[ruby=風王結界]「インビシブル・エア」[/ruby]などの宝具を有する。
 She holds several Noble Phantasms, such as:
@@ -31,7 +31,7 @@ Invisible Air, which renders the Holy Blade in her hands impercieveable.
 主武装・スキル
 聖剣（エクスカリバー）
 Main Weapons and Skills
-Holy Blade (Excalibur)
+Holy Sword (Excalibur)
 
 基本データ
 身長：154ｃｍ

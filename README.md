@@ -149,11 +149,11 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 吸血種　　　　　　　| bloodsucker             | Any species that sucks blood.
 | 吸血鬼　　　　  　| vampire                 | Type of bloodsucker (includes DA and TA)
 | 吸血衝動　　　　　| vampiric urges          | Urge to suck blood. Strong among TAs.
-| 魔術　　　　　　　　| Magecraft               | Ability to reproduce Mystery.
+| 魔術　　　　　　　　| magecraft               | Ability to reproduce Mystery.
 | 魔術回路　　　　　| Magic Circuit(s)        | Organ used for magecraft.
-| 魔術師　　　　　　| Mage(s)                  | People who use magecraft.
+| 魔術師　　　　　　| mage(s)                  | People who use magecraft.
 | 魔術教会　　　　　| (the) Mages Association | Organization that practices magecraft.
-| 神秘　　　　　　　　| Arcana                  | Supernatural phenomena.
+| 神秘　　　　　　　　| (the) Arcane, Arcana, Arcanum| Supernatural phenomena.
 | 魔法　　　　　　　　| Magic                   | Peak of magecraft. There are only 5.
 | 魔法使い　　　　　　| Magician               | Someone who can use magic.
 | 魔力　　　　　 　　| magical energy          | Energy used for all kinds of Mystery.

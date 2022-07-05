@@ -3,19 +3,11 @@ Hisui
 その身に深い愛情を秘める、寡黙な使用人
 The Reticent Maid who hides deep affection within her.
 
-遠野家の使用人で、邸内の家事全般（炊事以外）と志貴の世話を担当している。
-Hisui works as a maid for the Tohno and is in charge of all housework (aside from cooking) as well as taking care of Shiki.
-琥珀の双子の妹である。
-She is Kohaku's younger twin.
-姉の琥珀とは対照的に、洋装がトレードマーク。
-In contrast to her sister, Hisui's trademark clothing is in western style.
+遠野家の使用人で、邸内の家事全般（炊事以外）と志貴の世話を担当している。琥珀の双子の妹である。姉の琥珀とは対照的に、洋装がトレードマーク。
+Hisui works as a maid for the Tohno and is in charge of all housework (aside from cooking) in addition to taking care of Shiki. She is Kohaku's younger twin. In contrast to her sister, Hisui's trademark clothing is in western style.
 
-寡黙な性格なため感情が表に出ず読みづらい。
-As she does not speak very much, her emotions are rarely brought to the surface.
-言葉遣いも使用人としての立場に徹している為、志貴には機会的な印象を与える。
-She gives Shiki a machine-like impression because of the way she speaks, as well as how closely she sticks to her duties as a maid.
-特に戦闘能力はない筈だが、今回の姉の琥珀のフォローにまわるかたちで活躍する。
-Though she's not supposed to have any particular fighting skills, for now she still participates in battle, providing backup to her sister Kohaku.
+寡黙な性格なため感情が表に出ず読みづらい。言葉遣いも使用人としての立場に徹している為、志貴には機会的な印象を与える。特に戦闘能力はない筈だが、今回の姉の琥珀のフォローにまわるかたちで活躍する。
+Her emotions are rarely brought to the surface because of her reticent personality. She gives Shiki a machine-like impression due to the way she speaks, as well as how closely she sticks to her duties as a maid. Even though she's not supposed to have any particular fighting skills, for now she still participates in battle, providing backup to her sister Kohaku.
 
 主武装・スキル
 はたき、フライパン、おたま、フライ返し、調度品

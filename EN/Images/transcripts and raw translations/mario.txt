@@ -1,36 +1,29 @@
 マーリオゥ・ｼﾞｬｯﾛ・ベスティーノ
 Mario Gallo Bestino
 「人形使い」の異名を持つ、聖堂教会の若き司祭代行
-The Young Acting Presbyter from the Church, also known as the "the Puppetmaster"
+The Young Acting Presbyter from the Church who is also known as the "the Puppetmaster"
 
 聖堂教会の司祭代行。
 Acting Presbyter of the Holy Church.
-ブロンドの髪に白い肌、カジュアルな出で立ちの美少年。見た目からは想像がつかないが、
-十代前半という若さで重責を担う職位に就いている。
-Mario is a handsome young boy with blonde hair, fair skin and a casual appearance. You could not guess it from his looks,
-because despite being a youth in his early teens, he's actually in a position of great responsiblity.
+ブロンドの髪に白い肌、カジュアルな出で立ちの美少年。見た目からは想像がつかないが、十代前半という若さで重責を担う職位に就いている。
+Mario is a handsome young boy with blonde hair, fair skin and a casual appearance. You could not guess it from his looks, because despite being a youth in his early teens, he's actually in a position of great responsiblity.
 
-無能の者、やる気のない者が大嫌いで、しばしば辛辣な口撃を見せることもあるが、
-情に厚く、義理堅い面も本質である。
+無能の者、やる気のない者が大嫌いで、しばしば辛辣な口撃を見せることもあるが、情に厚く、義理堅い面も本質である。人の力量や素質を看破する眼力、硬軟織り交ぜた懐柔力、適材を配置し盤面を支配する統率力、そして[ruby=ピアノマシン]『鍵盤織機』[/ruby]を用いマリオネットのようにシスターを操り戦う姿から、『人形使い』のふたつ名を冠する。
 He hates incompetent and unmotivated people, frequently lashing out harshly at them. 
 Yet his kind-hearted and honorable side is just as true to his nature.
-人の力量や素質を看破する眼力、硬軟織り交ぜた懐柔力、適材を配置し盤面を支配する統率力、
-そして[ruby=ピアノマシン]『鍵盤織機』[/ruby]を用いマリオネットのようにシスターを操り戦う姿から、
-『人形使い』のふたつ名を冠する。
 He has been granted the epiphet of "the Puppetmaster" due to his ability to infer people's capabilities and qualities; 
 his ability to placate people by weaving in both harshness and gentleness into his words; 
 his ability to lead by making sure the right people are in the right place; 
 but mostly, because of how he appears in battle as he manipulates his nuns like marionettes with his Piano Machine.
 
-総耶に現れた死徒を殲滅する……のは表向きの事情。
-His objective is to annihilate the Dead Apostles that have appeared in Souya... as far as his colleagues are concerned, at least.
-教会には明かさない別の目的があり、ある『研究』の情報を探っている。
+総耶に現れた死徒を殲滅する……のは表向きの事情。教会には明かさない別の目的があり、ある『研究』の情報を探っている。
+His objective is to annihilate the Dead Apostles that have appeared in Souya... as far as his colleagues are concerned, at least... 
 He actually has another goal which he cannot reveal to the Church: to search for information concerning a certain man's 'research'.
 
 主武装・スキル
 [ruby=ピアノマシン]鍵盤織機[/ruby]
 Main Weapons and Skills
-Piano Machine
+The Piano Machine
 
 基本データ
 身長：１５０ｃｍ

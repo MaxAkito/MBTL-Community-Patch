@@ -103,7 +103,7 @@ You make sure Shiki Tohno's safe.
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0055", 100>
 Mario
-Got it? Keep 'im safe. No killing.
+Got it? Keep him safe. No killing.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
@@ -123,14 +123,14 @@ he a non-believer, he's even the host of Roa!
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0057", 100>
 Mario
 Yeah. Shit's complicated.
-Still, he's got a lotta good in 'im.
+Still, he's got a lotta good in him.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0058", 100>
 Mario
 And by that, I don't mean that he's just a good kid.
-End'a the day, he'll be useful no matter how fucked 
+End of the day, he'll be useful no matter how fucked 
 up he gets.
 \l
 
@@ -156,9 +156,9 @@ with. I mean, she's bein' oddly eager about all this.
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0061", 100>
 Mario
-If she just runs in there'n takes care'a Roa, 
+If she just runs in there and takes care of Roa, 
 I'll end up right back where I started.
-We gotta stop 'er before that happens.
+We gotta stop her before that happens.
 
 \\@CHARA_IN@<1, 8, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0020", 100>
@@ -185,7 +185,7 @@ yourself's good enough for you.
 Mario
 Bein' cowardly and shameless are your strong points, 
 honestly. You're real good at runnin' at the first 
-sign'a trouble. Keep that up.
+sign of trouble. Keep that up.
 
 \\@CHARA_IN@<1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0022", 100>
@@ -204,7 +204,7 @@ You can't just leave her be, right?
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0064", 100>
 Mario
 True. Thought about maybe hirin' a freelance mage,
-but I changed my mind. I'll deal with 'er myself.
+but I changed my mind. I'll deal with her myself.
 
 \\@CHARA_IN@<1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0024", 100>

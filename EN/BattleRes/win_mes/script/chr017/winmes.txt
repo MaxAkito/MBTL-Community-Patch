@@ -4,7 +4,7 @@ WinMesScript
 WinMes00:
 chara_type 304
 Fuckin' hell, don't go losing to a goddamn kid.
-And it wasn't cuz'a your strength, but your noggin.
+And it wasn't 'cause of your strength, but your noggin.
 Hit the books before you challenge me again.
 \e
 
@@ -17,7 +17,7 @@ I can just get some adults to beat people up for me.
 
 WinMes02:
 chara_type 100
-You'll stay a nobody for the rest'a your life 
+You'll stay a nobody for the rest of your life 
 if all you do is depend on your own skills. 
 We all got shit we can't do ourselves.
 So you gotta force others to do it for you. You get me?
@@ -26,7 +26,7 @@ So you gotta force others to do it for you. You get me?
 WinMes03:
 chara_type 305
 You can't just hope you'll fuckin' win.
-I'mma part 'a the gamer generation. 
+Imma part of the gamer generation. 
 I can read your every move.
 \e
 
@@ -76,7 +76,7 @@ Keep the budget within your monthly wage, though.
 WinMes08:
 chara_type 306
 Soprano, contact Karius.
-Tell 'im we've got a dumbass down. They need custody.
+Tell him we've got a dumbass down. They need custody.
 Make sure to get 'em some medical care as a lil' extra.
 \e
 
@@ -84,9 +84,9 @@ Make sure to get 'em some medical care as a lil' extra.
 WinMes09:
 chara_type 303
 Alto, contact Andou.
-Took care of some trash, so I need 'im to deal with 
+Took care of some trash, so I need him to deal with 
 the other shit. And I ain't just talking 'bout cleaning
-up the scene. I want 'im investigating the victims, 
+up the scene. I want him investigating the victims, 
 give 'em some care.
 \e
 
@@ -132,7 +132,7 @@ Planned out my countermeasures goddamn ages ago.
 WinMes14:
 chara_type 106
 Fuckin' hell... You're real worked up.
-Mezzo-Soprano, to the water chamber with 'er.
+Mezzo-Soprano, to the water chamber with her.
 She'll probably cool down in three days or so.
 \e
 
@@ -160,7 +160,7 @@ WinMes17:
 chara_type 306
 Soprano, Alto. Elegy permitted.
 And make sure she's buried with care, will ya?
-End'a the day, she kept working hard for the greater good.
+End of the day, she kept working hard for the greater good.
 \e
 
 // 対青子
@@ -187,7 +187,7 @@ care of. Now I just gotta wait for Roa to wake up.
 // 対ノエル（ストーリー専用）
 WinMesArcadeWin08:
 chara_type 104
-Ey, good workout for both'a us.
+Ey, good workout for the both of us.
 My Piano Machine ain't in bad shape. Maybe Mario the 
 Puppetmaster's gonna be back on the scene for a few years?
 \e

@@ -112,7 +112,7 @@ He got his shit sorted with Roa on all his own.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0038", 100>
 Mario
 But since he was Roa's host, 
-somethin' even worse set its eyes on 'im.
+somethin' even worse set its eyes on him.
 \l
 
 \\@CHARA_IN@<1, 17, 3, 0, 1>
@@ -120,7 +120,7 @@ somethin' even worse set its eyes on 'im.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0039", 100>
 Mario
 His Mystic Eyes ain't gonna work on the 
-Princess no more. Shit's too late. Give it up.
+princess no more. Shit's too late. Give it up.
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0035", 100>

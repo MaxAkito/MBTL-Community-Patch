@@ -24,7 +24,7 @@ It has been about 100 years...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0031", 100>
 Volv
-Compared to my liege's suffering,
+But compared to my liege's suffering,
 it's far too early for me to receive any pity.
 \l
 

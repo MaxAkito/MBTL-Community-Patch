@@ -46,7 +46,7 @@ Ain't got no time for beatin' around the bush.
 \\@CHARA_IN@<0, 17, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0112", 100>
 Mario
-Well, all my plans went to shit cuz'a you!
+Well, all my plans went to shit 'cause of you!
 Got myself involved with one helluva pest!
 
 \\@CHARA_IN@<1, 15, 10, 0, 1>
@@ -145,7 +145,7 @@ for at least a year.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0119", 100>
 Mario
-I'm gonna fix up you up, attitude 'n all. 
+I'm gonna fix up you up, attitude and all. 
 Once we're done with that, I'll assign you
 to whatever church you'd like.
 

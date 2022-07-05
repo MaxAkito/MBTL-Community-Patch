@@ -16,7 +16,7 @@
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0070", 100>
 Mario
-Stop right there, Princess.
+Stop right there, princess.
 Real sorry, but the date's been cancelled.
 \l
 
@@ -24,7 +24,7 @@ Real sorry, but the date's been cancelled.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0071", 100>
 Mario
 You've messed around long enough. The vacation ends 
-tonight. I've gotta ask'a you to return to your castle.
+tonight. I've gotta ask of you to return to your castle.
 
 \\@CHARA_IN@<1, 0, 14, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0000", 100>
@@ -106,8 +106,8 @@ Just sayin', humans are fragile.
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0077", 100>
 Mario
-Without a bit'a grace, you might accidentally take 
-out your lover boy when you're disposing'a the Dead.
+Without a bit of grace, you might accidentally take 
+out your lover boy when you're disposing of the Dead.
 
 \\@CHARA_IN@<1, 0, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0006", 100>
@@ -139,7 +139,7 @@ you're still a lil' bit hard at heart. That's great.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0079", 100>
 Mario
 So then when Roa's 'boutta possess Tohno, 
-you'll take 'im out right away, yeah?
+you'll take him out right away, yeah?
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
@@ -182,7 +182,7 @@ If I take him to my castle, he can still be saved.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0081", 100>
 Mario
 Ah, so that's why you've been sticking 
-so close to 'im and playing all lovey-dovey.
+so close to him and playing all lovey-dovey.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
@@ -196,7 +196,7 @@ Old man said he owed you a debt, after all
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0083", 100>
 Mario
 Unfortunately, I got my own shit to worry 'bout.
-Can't afford dying just cuz'a your love-affair.
+Can't afford dying just 'cause of your love-affair.
 \l
 
 \\@CHARA_OUT@<0, 17, 10, 0, 1>

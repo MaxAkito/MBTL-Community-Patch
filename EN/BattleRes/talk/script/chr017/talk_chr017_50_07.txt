@@ -181,7 +181,7 @@ would go so "badly". So you know, given that...
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0095", 100>
 Mario
-...You'd rather take out one'a the concerned 
+...You'd rather take out one of the concerned 
 parties before anything could happen... 
 You act like a goddamn troll.
 \l
@@ -197,7 +197,7 @@ I can see what you're thinkin' there.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0097", 100>
 Mario
 Had my deal with Roa actually come to pass, I'd've 
-probably been fine with handing over the city to 'im.
+probably been fine with handing over the city to him.
 \l
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>

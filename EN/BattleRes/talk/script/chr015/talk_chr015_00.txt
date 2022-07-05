@@ -39,13 +39,13 @@ Or maybe they were just well-organized from the start.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0004", 100>
 Mario@Mario_Hatena
-Well, probably a lil' bit'a both.
-Either way, now it's just a matter'a speed.
+Well, probably a lil bit of both.
+Either way, now it's just a matter of speed.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0005", 100>
 Mario@Mario_Hatena
-See, cuz'a stuff I can't use the Executors I got
+See, 'cause of stuff I can't use the Executors I got
 on me. I need this done before it gets out to 
 anyone else, capisce?
 
@@ -80,7 +80,7 @@ Church, and the Mages Association, Miss Fifth Magician.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0008", 100>
 Mario@Mario_Hatena
 So it wouldn't be outta character for you to just roll
-up into a town and take care'a some Dead Apostles for 
+up into a town and take care of some Dead Apostles for 
 no real reason, ya know?
 \l
 
@@ -128,7 +128,7 @@ Well, aside from the Dead Apostles.
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0010", 100>
 Mario@Mario_Hatena
-Ignore 'em. That's outside'a our jurisdiction.
+Ignore 'em. That's outside of our jurisdiction.
 Prefer'd to avoid conflict with the local landowners.
 \l
 
@@ -167,7 +167,7 @@ it's probably more your wanderer spirit at play.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0013", 100>
 Mario@Mario_Hatena
-Anyway, try 'n keep collateral damage down, would ya?
+Anyway, try and keep collateral damage down, would ya?
 I don't wanna see you destroying the whole underground.
 \l
 

@@ -1,7 +1,7 @@
 軋間紅摩
 Kishima Kouma
 鬼神と慈仏の二面を宿す、軋間家の「最高傑作」
-The Kishima clan's "Ultimate Creation" who harbors both the visage of a Rakshasa and a Buddha.
+The Kishima clan's "Ultimate Creation" who harbors both the visage of a Rakshasa and a Buddha
 
 遠野の分家である軋間家の当主。鬼との「混血」。混血の中でも鬼の血が濃く、人外に近い存在となっている。
 Kouma is an Oni 'Mixblood', and the head of the Kishima, a branch family of the Tohno. Even compared to other Mixbloods, his Oni blood runs so thick that he is close to inhuman.
@@ -9,21 +9,17 @@ Kouma is an Oni 'Mixblood', and the head of the Kishima, a branch family of the 
 かつて、遠野の先代である槙久の命で、志貴の生家・七夜家討伐戦に参加。志貴の実父である七夜黄理を殺害している。これがきっかけで、志貴にとって紅摩は「絶対的な死」のイメージとなった。
 In the past, Kouma participated in the assault on Shiki's birth family, the Nanaya, under the orders of the previous Tohno head Makihisa. He is the one who killed Shiki's father Nanaya Kiri. As a result, Shiki sees him as the representation of inescapable death.
 
-普段の彼は寡黙で、物腰の静かな、仙人のような佇まいであり、
-人里離れた山奥の森に暮らし、悟りを開くべく修行している。
-
-「娑婆は騒がしい」「六根六堺」など、仏像のような言を発するのはそのためである。
+普段の彼は寡黙で、物腰の静かな、仙人のような佇まいであり、人里離れた山奥の森に暮らし、悟りを開くべく修行している。「娑婆は騒がしい」「六根六堺」など、仏像のような言を発するのはそのためである。
 He usually has the demeanor of a hermit: quiet and gentle-mannered, living in the forests among the remote mountains where he engages in Sadhana as to reach Nirvana. This is why he utters Buddhist phrases like: "The Saha world is in turbulence" and "Ayatana, Salayatana".
 
-一転、戦闘になれば、持って生まれた巨躯と豪腕、鬼の血の能力「灼熱」をもって
-たちふさがる敵を跡形もなく”焼滅”させる二極性の持ち主でもある。
+一転、戦闘になれば、持って生まれた巨躯と豪腕、鬼の血の能力「灼熱」をもってたちふさがる敵を跡形もなく”焼滅”させる二極性の持ち主でもある。
 Yet he is also someone who holds another extreme within him. 
-In battle, he uses the massive frame and powerful arms he has been endowned with since birth 
+In battle, he uses the massive frame and powerful arms he has been endowed with since birth 
 together with his Oni blood ability 'Scorch' to incinerate all enemies who would oppose him.
 
 主武装・スキル
 独角、圧壊の腕、炎獄
-Main Weapons and Skills
+Primary Weapons and Skills
 'Lone-Horn', Arms of Pulverization, Infernal Flames
 
 基本データ

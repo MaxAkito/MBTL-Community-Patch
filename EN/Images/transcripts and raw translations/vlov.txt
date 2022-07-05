@@ -14,7 +14,7 @@ During battle, Vlov will change from Flame Mode to Frost Mode when he is cornere
 
 主武装・スキル
 大鉈、炎の腕、炎の河、氷槍、氷河、吹雪、鋼鉄の長槍
-Main Weapons and Skills
+Primary Weapons and Skills
 Large machete, Arms of Flame, River of Flame, Spears of Frost, River of Frost, Blizzard, Lance of Steel
 
 基本データ

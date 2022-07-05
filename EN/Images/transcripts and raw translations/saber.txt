@@ -1,12 +1,12 @@
 セイバー
 Saber
 交わらぬはずの並行世界に召喚された謎を追う「騎士王」
-The Knight King who pursues the mystery of why she has been summoned to a parallel world that she is never meant to intersect with.
+The Knight King who pursues the mystery of why she has been summoned to a parallel world that she is never meant to intersect with
 
 真名：アルトリア・ペンドラゴン
 後ろに紡い上げた金髪、青と白銀の甲冑が眼早い、凛とした佇まいの女性剣士。彼女こそ、アーサー王伝説として、巷間に名高い、円卓の騎士を束ねる聖剣の騎士である。（生前は性別を偽って活動していたため、アーサー王＝男性として知られている。）
 True Name: Artoria Pendragon
-Saber is a swordswoman possessed of a regal bearing; the blonde hair she has braided behind her head and the blue-silver armor she wears doing much to make her stand out. She is none other than the famous Knight of the Holy Sword, popularily famed as the one who commanded the Round Table in the Arthurian Cycle. (Since she concealed her true gender in life, King Arthur is known as a man.)
+Saber is a swordswoman possessed of a regal bearing; the blonde hair she has braided behind her head and the blue-silver armor she wears doing much to make her stand out. She is none other than the famous Knight of the Holy Sword, popularly famed as the one who commanded the Round Table in the Arthurian Cycle. (Since she concealed her true gender in life, King Arthur is known as a man)
 
 死後は、伝説的な英雄として「英霊の座」に刻まれ”サーヴァント”となった。本来、「英霊の座」という仕組みのないこの世界に何故か現界してしまい、その謎を解くため、総耶の街を探索することに……。
 After death, she became a Servant, engraved into the the 'Throne of Heroes' for her legendary deeds. Now she has manifested in a world where the mechanisms of the Throne of Heroes do not exist, and so heads out to explore the city of Souya in order to solve the mystery of her own summoning...
@@ -19,7 +19,7 @@ Invisible Air, which renders the Holy Sword in her hands imperceivable.
 
 主武装・スキル
 聖剣（エクスカリバー）
-Main Weapons and Skills
+Primary Weapons and Skills
 Holy Sword (Excalibur)
 
 基本データ

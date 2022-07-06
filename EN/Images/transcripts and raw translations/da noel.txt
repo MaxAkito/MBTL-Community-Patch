@@ -1,6 +1,6 @@
 死徒ノエル
 Dead Apostle Noel
-昼の顔は闇に眠る可憐な少女／夜の貌は[ruby=ニンゲン]獲物[ruby]を嗤う「薔薇園の蝶」
+昼の顔は闇に眠る可憐な少女／夜の貌は[ruby=ニンゲン]獲物[/ruby]を嗤う「薔薇園の蝶」
 The Fair Maiden who slumbers in darkness by day / The Rose Garden Butterfly who mocks her human prey by night
 
 ある代行者が死徒になった姿。その容姿は『最も輝いていた頃』の姿に変貌している。人間を超越した死徒としての能力に加え、瞳には「薔薇の魔眼」の異能を宿すこととなった。

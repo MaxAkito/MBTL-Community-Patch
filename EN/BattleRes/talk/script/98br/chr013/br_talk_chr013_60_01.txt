@@ -93,7 +93,7 @@ Next timeÅF Miyako Route - Day 3.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10057", 100>
 Neco_Arc
-ÅgThe Unknownable Assassin Who Has Been Hired By 
+ÅgThe Unknowable Assassin Who Has Been Hired By 
  The Main Villain! Shiki! Your homeroom teacher
  isn't actually as young as she says!Åh
 \l

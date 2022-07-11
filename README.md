@@ -3,23 +3,40 @@ A community translation patch for MBTL
 
 Credits to Petrikow, Comun, Fumei and Lianru
 
+## Installation
+
+1. Download the latest release from Github
+2. Unpack the contents of the 'mbtools' folder into the main Melty Blood directory.
+3. Play the game.
+
 ## Editing guidelines
 
 There are certain things that are standardized across the project.
 
 ### Technical limitations
 
-The behavior of how the game interprets the files differs on the category of file.
+There are a lot of things you can, and cannot do in the game as it is currently coded.
+The MBTL box uses a special custom font that can be found in the file-system. It doesn't have a very long character set, so the amount of characters permitted is highly limited.
+
+That said, there are some techniques to get around these limitations. Characters that can be rendered in the Japanese character set is long and extensive. For example, because a normal colon is a type of scripting indicator for the dialogue, it cannot be used normally, but if the encoding of the file is swapped to Shift-JIS, you can insert the Japanese character set colon instead.
+Other than that, the game has a bad case of mono-spacing, meaning that apostrophes and commas look a bit unusually large.
+
+Semicolons appears to work perfectly fine.
+Quotation marks, both simple and double work fine. However, these are not facing quotation marks, but rather the generic kind. There is a way to use them, but it requires a special Unicode combination (see BossRush file 2 for an example).
+Em-dashes appear to either become mojibake or crash the game outright.
+There are no italics. In general I've chosen to use CAPS when I want to use the same kind of emphasis as one would with ordinary italics.
+
+There are also some considerations for exactly how each file works:
 
 #### Scripts & Win-quotes
 
-The chatbox for the story-mode scripts and the win-quotes function the same.
+The chat-box for the story-mode scripts and the win-quotes function the same.
 The amount of characters possible to be parsed in a single line before overflowing is around 60-70 (the actual amount depends on difference in character width, hence the variability). Going over this amount will cause the text to clip outside the frame.
-The chatbox supports 3 lines. However, the 3rd line needs to be shorter than the first 2. This is because otherwise it clips into the "click to read next" button. Try to keep it within 40-50 characters.
+The chat-box supports 3 lines. However, the 3rd line needs to be shorter than the first 2. This is because otherwise it clips into the "click to read next" button. Try to keep it within 40-50 characters. In general, it is recommended to keep each line within 40-50 so they line up neatly with the 3rd line. 
 
 #### Command list (cmddef.ini)
 
-The command list is fairly simple. There is however still a character limit to adhere to. An approximate character limit is around 40-45, but keeping under 40 is recommended.
+The command list is fairly simple. There is however still a character limit to adhere to. An approximate character limit is around 40-45, but keeping it under 40 is recommended.
 
 #### Battle voices (stringfile_battlevoice.xml)
 
@@ -39,7 +56,7 @@ Spelling is generally American (Archetype Earth spells differently).
 For individual characters.
 
 #### Arcueid (000)
-Casual speak. Cheerful, innnocent. Sometimes changes her tone when serious to be a bit less casual.
+Casual speak. Cheerful, innocent. Sometimes changes her tone when serious to be a bit less casual.
 
 Calls everyone by their first name.
 
@@ -64,12 +81,12 @@ Casual speak with polite expressions. Especially liable to speak casually to His
 Calls Akiha "Lady Akiha", but refers to Shiki by his first name. Refers to most other people by their first name.
 
 #### Roa (005)
-Speaks fairly neutrally. Has a very technical and expansive vocabulary. Excudes a lot of smugness, and will take to creative means in order to rile people up.
+Speaks fairly neutrally. Has a very technical and expansive vocabulary. Exudes a lot of smugness, and will take to creative means in order to rile people up.
 
 Calls people by their last-name, or titles.
 
 #### Kouma (006)
-Has a curt and stiff way of speaking. Doesn't show much emotion. Uses a lot of Buddhist terminology, rendered from Japanese to their Indian equivalent.
+Has a curt and stiff way of speaking. Doesn't show much emotion. Uses a lot of Buddhist terminology, rendered from Japanese to their Sanskrit equivalent.
 
 Usually calls people by monikers.
 
@@ -93,7 +110,7 @@ Very close to Arcueid, but more emotional and worked up.
 #### Ciel (011)
 Speaks fairly neutrally. Changes her tone a lot depending on who she's talking to. Is friendly and approachable to humans, but cold and curt towards non-humans. Doesn't know which one of these to use against Arcueid (unless its Warc, in which case she's more cold)
 
-Calls people by their first names. Calls Shiki "Tohno" (遠野君) instead. Calls Mario by his rank, "Acting Presbyter" (司祭代行).
+Calls people by their first names. Calls Mario by his rank, "Acting Presbyter" (司祭代行).
 
 #### Saber (012)
 Speaks very formally and to the point. Has a regal bearing.
@@ -101,7 +118,7 @@ Speaks very formally and to the point. Has a regal bearing.
 Calls people by monikers.
 
 #### Miyako (013)
-Speaks childishly and with a poor vocabularly. Uses cliche Kung-Fu phrases. 
+Speaks childishly and with a poor vocabulary. Uses cliche kung fu phrases. 
 
 Calls people by their first name. Refers to her panda-trainer as "Master".
 
@@ -111,7 +128,7 @@ Speaks casually and slightly crudely. Will refer to herself in aggrandizing term
 Calls people by their first name.
 
 #### Aoko (015)
-Speaks casually and light-heartedly. Has a jovial yet straight-forward tone. 
+Speaks casually and lightheartedly. Has a jovial yet straight-forward tone. 
 
 Calls people by their titles or first names.
 
@@ -121,9 +138,9 @@ Has a very stiff and formal way of speaking. Will use mission-briefing style spe
 Calls people by their titles or last names.
 
 #### Mario (017)
-Has an incredibly rude way of speaking. Swears a lot. His speech is full of vulgar expressions. Uses shortened speech (gotta, aboutta, 'lil, 'a (instead of "of") 'em (instead of "them"), etc) Sometimes speaks more normally when he's thinking or reminiscing.
+Has an incredibly rude way of speaking. Swears a lot. His speech is full of vulgar expressions. Uses shortened speech (gotta, aboutta, lil, 'em (instead of "them"), etc). Uses a lot of implied pronouns. Sometimes speaks more normally when he's thinking or reminiscing.
 
-Calls people by demeaning nicknames. Calls Noel "fatass" (ﾌﾞﾀ). Calls Arcueid "the True Ancestor Princess" (真祖の姫).
+Calls people by demeaning nicknames. Calls Noel "fatass" (ﾌﾞﾀ).
 
 #### Archetype:EARTH (0??)
 Speaks in archaic English (approx, Victorian English). Uses antiquated grammatical expressions alongside old pronouns.
@@ -134,7 +151,7 @@ For words that appear repeatedly and need to be kept consistent
 
 In general, terminology is left uncapitalized unless it intersects with another meaning of the word. 
 
-For example: Executor (an agent of the Holy Church) as a term is kept capitalized as to differentiate it from executor (someone who executes people) as a word. Like wise a Dead Apostle (type of vampire) is not just a dead apostle (an apostle that is dead).
+For example: Executor (an agent of the Holy Church) as a term is kept capitalized as to differentiate it from executor (someone who executes) as a word. Likewise a Dead Apostle (type of vampire) is not just a dead apostle (an apostle that is dead).
 In contrast, magecraft only ever refers to the term, and as such is not liable to be misconstrued as anything else.
 
 In addition, some things are capitalized by virtue of being names of organizations, places or titles.

@@ -77,7 +77,7 @@ WinMes08:
 chara_type 306
 Soprano, contact Karius.
 Tell him we've got a dumbass down. They need custody.
-Make sure to get 'em some medical care as a lil' extra.
+Make sure to get 'em some medical care as a lil extra.
 \e
 
 //‘Î€“ki”ñlŠÔj
@@ -97,8 +97,8 @@ chara_type_sub 100
 chara_switchframe 680
 Real weird... I'd expected, well...
 That you'd show off some crazy moves or somethin'...
-I guess you only get all riled up when you're 
-fightin' monsters? Hah! So young, and you're 
+Guess you don't get all riled up if you're only
+up against normal humans. Hah! So young, and you're 
 already hooked on something so fucked up.
 \e
 
@@ -124,7 +124,7 @@ kill it. I ain't dumb enough to fight this head-on.
 WinMes13:
 chara_type 100
 What're ya looking so confused for?
-I know your lil' tricks inside and out.
+I know your lil tricks inside and out.
 Planned out my countermeasures goddamn ages ago.
 \e
 

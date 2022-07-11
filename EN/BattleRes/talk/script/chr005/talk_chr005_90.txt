@@ -27,8 +27,9 @@ that even I could defeat her. However...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0000", 100>
 Archetype_Earth
-Thou setst thy life on that scene acted, little jester.
-Sith such spirit thou dost display, a reward most worthy.
+Thou setst thy life on that scene acted, 
+little jester. Sith such spirit thou dost 
+display, a reward be thee most worthy.
 
 \\@SPEAKERCG_IN@<0,5,5,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0051", 100>

@@ -39,14 +39,14 @@ Powered_Ciel
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0020", 100>
 Red_Arcueid
-Huh. She's still able to retain 
-her mind under my direct gaze.
+Huh. You're still able to retain 
+your mind under my direct gaze.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0021", 100>
 Red_Arcueid
-It's no wonder Roa was so enamored with her body. That 
-body's capabilities are the pinnacle of human potential.
+It's no wonder Roa was so enamored with your body. 
+Its capabilities are the pinnacle of human potential.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0022", 100>
@@ -140,7 +140,7 @@ Idea Blood Number Seven, Forest of Einnashe.
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0066", 100>
 Powered_Ciel
 Seedbed Altar, bear fruit! Strike not a fatal blow,
-but repel this bioform through neverending torment!
+but repel this bioform through never-ending torment!
 
 \\@SYSTEM@<21>
 \aw

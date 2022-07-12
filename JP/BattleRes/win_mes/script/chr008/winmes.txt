@@ -80,6 +80,27 @@ chara_type 5
 私はまだ、ちゃんと人間なんだから……
 \e
 
+// 対マーリオゥ
+WinMes11:
+chara_type 3
+査定終了、私大勝利～♪
+日頃のストレスの爆発力よ。
+枢機卿へのお目通り、
+よろしくお願いしま～す！
+\e
+
+// 対武装シエル
+WinMes12:
+chara_type 3
+chara_type_sub 1
+chara_switchframe 405
+あー、うそうそ。これ夢でしょ。
+本気になったアイツに私が
+敵うわけないじゃない。
+また部屋に帰るなり寝ちゃったかぁ……
+\e
+
+
 // 対秋葉シナリオ用
 WinMesArcadeWin02:
 chara_type 6

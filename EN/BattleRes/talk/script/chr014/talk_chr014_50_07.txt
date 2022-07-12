@@ -135,7 +135,7 @@ ever just how stupid Mr. Endless Reincarnator really is.
 \\@CHARA_IN@<0, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0047", 100>
 Dead_Noel
-You've got no territory, no followers, and no good powers, 
+You've got no territory, no followers, and no good abilities, 
 either. You're just a poser, no better than Rank VI.
 \l
 

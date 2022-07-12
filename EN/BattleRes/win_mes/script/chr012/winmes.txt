@@ -51,7 +51,7 @@ I've got to be careful to not stand out as much next time.
 WinMes06:
 chara_type 2
 Though you are my enemy, I must admit... 
-Those are some astonishing powers you possess. 
+Those are some astonishing abilities you possess. 
 You might come out on top next time.
 \e
 

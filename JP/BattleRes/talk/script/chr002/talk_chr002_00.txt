@@ -1,0 +1,52 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg01", 0, 2>
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 2, 0, 44, 0>
+\\@CHARA_MUKI@<0,0>
+\aw
+
+\\@BGM_PLAY@<0, 71, 100>
+
+\\@CHARA_IN@< 0, 2, 3, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0000", 100>
+Akiha
+……はあ。壁をかきむしりたくなるような、
+勘に障る寒さね。
+\l
+
+\\@CHARA_IN@< 0, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0001", 100>
+Akiha
+どこの混血かは知りませんが、
+私に断りもなく歩きまわるなんて―――
+\l
+
+\\@CHARA_IN@< 0, 2, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0002", 100>
+Akiha
+もう殺してください、と
+言っているようなものよね？
+\l
+
+\\@CHARA_IN@< 0, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0003", 100>
+Akiha
+……見れば兄さんも出かけて
+しまったようですし。
+\l
+
+\\@CHARA_IN@< 0, 2, 202, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0004", 100>
+Akiha
+迎えに行くついでに、
+よそ者に灸を据えるとしましょうか。
+
+
+\\@BGM_STOP@<0>
+\e

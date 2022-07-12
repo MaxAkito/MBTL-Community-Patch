@@ -1,0 +1,110 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"screen_bg00", 0, 2>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 72, 100>
+
+//＃トレーニング空間
+
+\\@CHARA_IN@<0, 13, 3, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 13, 11, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10030", 100>
+Miyako
+しし、死ぬかと思ったーーー！
+はじめからトンデモないのが出てきたんだけど！
+\l
+
+\\@CHARA_IN@< 0, 13, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10031", 100>
+Miyako
+初日からあんなのに襲われるのが
+わたしのヒロインルートなの！？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10032", 100>
+Miyako
+いっかいの小学生に
+かいけつできる事件じゃないんですけどぉ！
+
+\\@CHARA_FOCUS_COLOR@< 0, 1>
+\\@CHARA_IN@< 2, 53, 100, 2, 0>
+\aw
+
+\\@CHARA_IN@< 2, 53, 103, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10050", 100>
+Neco_Arc
+うん、アタシもそう思う。
+でも月姫ってそういうお話なんだよニャー。
+\l
+
+\\@CHARA_IN@< 2, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10051", 100>
+Neco_Arc
+とはいえ、よく初戦の無理ゲーを突破しました。
+アタシはいま、エモ知れぬ感動に包まれています。
+
+//エモは誤字ではない。エモくねえ、の意味で
+
+\\@CHARA_IN@< 2, 53, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10052", 100>
+Neco_Arc
+胸を張るのです、カンフーチャイナ。
+ｙｏｕは自らの手で、運命と戦う権利を手に入れた……！
+
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10033", 100>
+Miyako
+！
+バ、バカネコ……！
+
+\\@CHARA_IN@< 2, 53, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10053", 100>
+Neco_Arc
+いい話ですか？　いい話ですよね。
+実際、ボランティアでここまではしねーっつーの。
+\l
+
+\\@CHARA_IN@< 2, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10054", 100>
+Neco_Arc
+さて。ここからが本当の『都古ルート』に
+なりますので、アタシは裏方に戻ります。
+\l
+
+\\@CHARA_IN@< 2, 53, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10055", 100>
+Neco_Arc
+いったいどんな物語が展開されるのか―――
+運命はいつも待ったなし、戦え少年少女！
+\l
+
+\\@CHARA_IN@< 2, 53, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10056", 100>
+Neco_Arc
+次回、都古ルート３日目。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10057", 100>
+Neco_Arc
+『正体不明、黒幕に雇われた暗殺者！
+　お兄ちゃん、その担任教師サバよんでる！』
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10058", 100>
+Neco_Arc
+にご期待ください！
+
+\\@BGM_FADE@<0,100,0,-3,1>
+\\@FADE_OUT@<1, 0, 0, 0, 0>
+\aw
+
+\\@SYSTEM@<10>
+\e

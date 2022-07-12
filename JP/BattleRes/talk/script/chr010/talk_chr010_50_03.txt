@@ -1,0 +1,95 @@
+\\@BG_IN@<"screen_bg03", 0, 2, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@CHARA_IN@<0, 10, 0, 1, 0>
+\\@CHARA_IN@<1, 11, 6, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+
+\\@CHARA_IN@< 0, 10, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0010", 100>
+Red_Arcueid
+はぁいシエル。相変わらず元気そうで嬉しいわ。
+\l
+
+\\@CHARA_IN@< 0, 10, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0011", 100>
+Red_Arcueid
+他の生き物はみんな柔らかくて、
+さっきから退屈していたの。
+
+\\@CHARA_IN@< 1, 11, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0020", 100>
+Ciel
+アルクェイド――――貴女。
+自身を制御する事さえ、放棄したのですか。
+
+\\@CHARA_IN@< 0, 10, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0012", 100>
+Red_Arcueid
+ふふん。いいなあ、その無理矢理な上から目線。
+\l
+
+\\@CHARA_IN@< 0, 10, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0013", 100>
+Red_Arcueid
+失禁寸前なのに、頑張って
+『代行者』に徹している。
+\l
+
+\\@CHARA_IN@< 0, 10, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0014", 100>
+Red_Arcueid
+私、貴女のそういうところ、ほんっと―――
+\l
+
+\\@GO_SUB@<"QUAKE_1">
+\\@CHARA_IN@< 0, 10, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0015", 100>
+Red_Arcueid
+笑っちゃうくらい好き！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0016", 100>
+Red_Arcueid
+壊し甲斐のあるオモチャだもの、
+これ以上ないくらい、乱暴に扱ってあげる！
+
+\\@CHARA_IN@< 1, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0021", 100>
+Ciel
+……貴女に気に入られているとか、
+冗談でもやめてください。
+\l
+
+\\@CHARA_IN@< 1, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0022", 100>
+Ciel
+過去体験した事のない怖気が走りました。
+\l
+
+\\@CHARA_IN@< 1, 11, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0023", 100>
+Ciel
+いいでしょう。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0024", 100>
+Ciel
+貴女に何があったかは知りませんが、
+主の御心に従い、吸血鬼は排除するもの。
+\l
+
+\\@CHARA_IN@< 1, 11, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0025", 100>
+Ciel
+―――勝負です、アルクェイド！
+
+
+\\@BGM_STOP@<0>
+\e

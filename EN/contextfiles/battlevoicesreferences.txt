@@ -1,0 +1,29 @@
+
+Saber
+
+012_100 Entrance 1
+012_101 Entrance 2
+012_102 Entrance 3
+012_103 Entrance 4
+012_104 Entrance vs Hisui (response to 001_104)
+012_105 Entrance vs Arcueid (no response)
+012_106 Entrance 5
+012_107 Entrance 6
+012_110 Deciding Round Start
+012_111 Deciding Round Start
+012_112 Deciding Round Start
+012_120 Round Win 1
+012_121 Round Win 2
+012_122 Round Win 3
+012_123 Round Win 4
+012_130 Deciding Win 1
+012_131 Deciding Win 2
+012_132 Deciding Win (Narrow Win)
+012_133 Deciding Win (Easy Win)
+012_135 Deciding Win 1 (duplicate)
+012_136 Deciding Win 3
+012_137 Deciding Win 4
+012_150 Time-out 1
+012_151 Time-out 2
+
+Miyako

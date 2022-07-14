@@ -72,7 +72,7 @@ I took the liberty of treating your wounds.
 Feel free to come back once you feel better.
 \e
 
-// ‘Îu‹M
+// ‘Îu‹M Versus Shiki
 WinMes10:
 chara_type 2
 I'm terribly sorry for being so rough, Shiki. 
@@ -80,7 +80,7 @@ Allow me to apologize by preparing a meal for you.
 C'mon, let's get going to the dining hall.
 \e
 
-// ‘ÎH—t
+// ‘ÎH—t Versus Akiha
 WinMes11:
 chara_type 102
 Heehee. Seems I've won this time, Lady Akiha. 
@@ -89,7 +89,7 @@ surveillance cameras and will receive a larger budget
 for Shiki's medicines! ô
 \e
 
-// ‘ÎãÅ‰
+// ‘ÎãÅ‰ Versus Kohaku
 WinMes12:
 chara_type 1
 Looks like I win, Hisui.

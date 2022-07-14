@@ -21,7 +21,7 @@ this point--were all for nothing, doesn't it? Ahaha!
 You struggled so pathetically too, you poor little thing!
 \e
 
-//対人間
+//対人間 Versus Humans
 WinMes02:
 chara_type 1
 A mere human?
@@ -30,7 +30,7 @@ After I'd turned into a vampire?
 In your dreams.
 \e
 
-//対死徒
+//対死徒 Versus Dead Apostles
 WinMes03:
 chara_type 6
 Wow, and I haven't even been a vampire all that long.
@@ -70,7 +70,7 @@ I'll admit, this fight taught me an important lesson.
 Better note it down so I don't forget...
 \e
 
-//対シエル
+//対シエル Versus Ciel
 WinMes08:
 chara_type 2
 Huh? That's odd... I mean, really. 
@@ -80,7 +80,7 @@ So hurry up already. Wake up!
 Aren't you supposed to let me kill you some more?!
 \e
 
-//対志貴
+//対志貴 Versus Shiki
 WinMes09:
 chara_type 8
 Well, Shiki? 
@@ -89,7 +89,7 @@ With these, I can make you experience anything
 I can think of. Anything I want \sf000
 \e
 
-//対ロア
+//対ロア Versus Roa
 WinMes10:
 chara_type 102
 I killed him...
@@ -98,7 +98,7 @@ Damn it...
 What am I even doing?!
 \e
 
-// 対マーリオゥ
+// 対マーリオゥ Versus Mario
 WinMes11:
 chara_type 6
 Oh no, I guess the Acting Presbyter went and died?
@@ -107,7 +107,7 @@ I guess God really doesn't save everyone!
 \e
 
 
-// 対志貴（ストーリー専用）
+// 対志貴（ストーリー専用）  Versus Shiki (story only)
 WinMesArcadeWin03:
 chara_type 100
 That's right, this whole thing is just a dream...
@@ -116,16 +116,16 @@ You should be grateful, Shiki.
 In a way... I'm showing you mercy.
 \e
 
-// 対琥珀（ストーリー専用）
+// 対琥珀（ストーリー専用） Versus Kohaku (story only)
 WinMesArcadeWin04:
 chara_type 101
 Hmm... So this is what vampire blood is made out of, huh? 
-It's called "Ether", right? Being able to materalize it at
+It's called "Ether", right? Being able to materialize it at
 will is great and all, but isn't it kind of inconvenient 
 that it's restricted to the shape of the soul?
 \e
 
-// 対ロア（ストーリー専用）
+// 対ロア（ストーリー専用） Versus Roa (story only)
 WinMesArcadeWin05:
 chara_type 3
 What's wrong? You sure died easily.

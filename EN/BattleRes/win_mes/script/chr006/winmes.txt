@@ -50,13 +50,13 @@ Was it merely a weed? Or was it rife with poison?
 Only your bare skull may tell us which.
 \e
 
-// 対志貴
+// 対志貴 Versus Shiki
 WinMes08:
 chara_type 1
 You have the wrong man. Find someone else.
 \e
 
-// 対アルク
+// 対アルク Versus Arcueid
 WinMes09:
 chara_type 0
 A most bizarre woman.
@@ -64,14 +64,14 @@ The soil of this land does not suit you.
 Even if perhaps you would be a nirmanakaya someplace else.
 \e
 
-// 対ヒスコハ
+// 対ヒスコハ Versus Maids
 WinMes10:
 chara_type 0
 I once knew a pair of sisters who resembled you two, 
 so... could I perhaps ask of you to back down?
 \e
 
-// 対志貴(ストーリーでのエンカウント専用)
+// 対志貴(ストーリーでのエンカウント専用) Versus Shiki (story only when encountered)
 WinMesArcadeWin03:
 chara_type 1
 Unfortunately, repentance ill befits me.

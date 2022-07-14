@@ -53,7 +53,7 @@ drinking off the ground today. I have to act
 like a proper vampire at least once in a while.
 \e
 
-// 対志貴
+// 対志貴 Versus Shiki
 WinMes07:
 chara_type 2
 You said that what you and I see aren't the same.
@@ -61,7 +61,7 @@ Hah, but they are! At the end of the day,
 all they do is just cut things to pieces!
 \e
 
-// 対アルクェイド
+// 対アルクェイド Versus Arcueid
 WinMes08:
 chara_type 1
 So even a True Ancestor can malfunction, huh? 
@@ -69,7 +69,7 @@ Just a single scratch, and its worth has plummeted this much.
 Right, that must be the sole flaw of a perfect being.
 \e
 
-// 対シエル
+// 対シエル Versus Ciel
 WinMes09:
 chara_type 0
 You know you're completely wasting your potential, Sister?
@@ -78,7 +78,7 @@ It really is a damn shame to put an end to someone with
 so much talent! Truly a waste!
 \e
 
-// 対秋葉
+// 対秋葉 Versus Akiha
 WinMes10:
 chara_type 1
 Hmm...? The sensations in my current body do dampen 
@@ -87,7 +87,7 @@ Perhaps it's because of love... perhaps because of lust...
 I can't really tell, either way.
 \e
 
-// 対吸血鬼
+// 対吸血鬼 Versus Vampire
 WinMes11:
 chara_type 0
 What an awful night... Wouldn't you agree, 
@@ -95,7 +95,7 @@ my fellow vampire? It's a bit depressing, really.
 Even the moonlight is too bright for me.
 \e
 
-// 対武装シエル
+// 対武装シエル Versus Powered Ciel
 WinMes12:
 chara_type 0
 Using the Seven Causes of Death in their split-up form?
@@ -104,7 +104,7 @@ hold back like that. Next time you should bring
 out the real deal instead.
 \e
 
-// 対志貴(ストーリー専用)
+// 対志貴(ストーリー専用) Versus Shiki (story only)
 WinMesArcadeWin03:
 chara_type 1
 What a shame. Looks like nothing has changed.
@@ -112,7 +112,7 @@ I was hoping that at least YOU would've been able to
 cut me apart, alongside this deviation of events...
 \e
 
-// 対シエル(ストーリー専用)
+// 対シエル(ストーリー専用) Versus Ciel (story only)
 WinMesArcadeWin11:
 chara_type 0
 For you, those excessive weapons are nothing but a shackle.

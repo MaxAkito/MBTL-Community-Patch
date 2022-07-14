@@ -58,18 +58,18 @@ I'm just an ordinary person...
 Just how long can I keep this up?
 \e
 
-// 対シエル
+// 対シエル Versus Ciel
 WinMes08:
 chara_type 6
 Wha-- No way! I managed to get one over HER?! 
 Were you down with the flu or something, Ciel?!
 \e
 
-// 対吸血鬼
-// アルク、ロア、ヴローヴ、暴走アルク、秋葉
+// 対吸血鬼 Versus Vampires
+// アルク、ロア、ヴローヴ、暴走アルク、秋葉 Arc, Roa, Vlov, Red Arc, Akiha
 WinMes09:
 chara_type 103
-There you go, thinking you're some kind of otherwordly being.
+There you go, thinking you're some kind of otherworldly being.
 Well if you think you're sooo much better than us humans, 
 then maybe you should go fight someone who isn't.
 \e

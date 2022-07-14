@@ -66,7 +66,7 @@ But well, if you really wish to kill me,
 try sneaking up on me like he once did.
 \e
 
-// 対アルクェイド
+// 対アルクェイド Versus Arcueid
 WinMes09:
 chara_type 3
 Was that perhaps... a new kind of me?
@@ -74,7 +74,7 @@ I see... All compact and bunched up...
 I see, I see...
 \e
 
-// 対志貴
+// 対志貴 Versus Shiki
 WinMes10:
 chara_type 1
 Gotcha. Now it's your turn, little wolf.
@@ -82,14 +82,14 @@ I'll have you take responsibility for killing me...
 Until that soul of yours has been completely spent.
 \e
 
-// 対シエル
+// 対シエル Versus Ciel
 WinMes11:
 chara_type 102
 Wait, you're done already, Ciel? But-- Coming back to life 
 after you're killed is the only thing you're good for...!
 \e
 
-// 対武装シエル
+// 対武装シエル Versus Powered Ciel
 WinMes12:
 chara_type 2
 Is that all you got?

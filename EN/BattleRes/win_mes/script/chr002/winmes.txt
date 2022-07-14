@@ -80,7 +80,7 @@ Well, that was a productive use of my time.
 Do take care.
 \e
 
-// ‘Îu‹M
+// ‘Îu‹M Versus Shiki
 WinMes12:
 chara_type 0
 See, Shiki? I am quite able in battle too,
@@ -88,7 +88,7 @@ am I to put my mind to it. Promise to ask me
 for help the next time you need it, understood?
 \e
 
-// ‘Îu‹M
+// ‘Îu‹M Versus Shiki
 WinMes13:
 chara_type 103
 Why do you keep leaving the mansion without permission?!
@@ -96,14 +96,14 @@ This is the last time! For now, you'll have to spend some
 time on a secluded island until you've reflected on your actions!
 \e
 
-// ‘ÎƒqƒXƒRƒn
+// ‘ÎƒqƒXƒRƒn Versus Maids
 WinMes14:
 chara_type 1
 This goes without saying, but you two understand that 
 you'll be receiving a pay cut for this, right? At minimum.
 \e
 
-// ‘Îàæàß
+// ‘Îàæàß Versus Kohaku
 WinMes15:
 chara_type 104
 Kohaku, I will tolerate your outrageous behavior no longer! 
@@ -111,7 +111,7 @@ You will take down the surveillance cameras you've installed
 and destroy your questionable medicine immediately!
 \e
 
-// ‘Î—LŠÔ“sŒÃ
+// ‘Î—LŠÔ“sŒÃ Versus Miyako
 WinMes16:
 chara_type 1
 For what it's worth, you're a daughter of the Arima family, 
@@ -124,7 +124,7 @@ What? You don't plan on attending Asagami Academy?!
 
 
 
-// ‚R˜AŸE‚P‚O˜AŸê—pƒZƒŠƒt
+// ‚R˜AŸE‚P‚O˜AŸê—pƒZƒŠƒt (win streak lines)
 
 WinMes3WinStreak00:
 chara_type 102

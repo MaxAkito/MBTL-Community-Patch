@@ -51,7 +51,7 @@ I must ask that you do not do that again.
 \e
 
 
-//07は欠番
+//07は欠番 (07 is blank)
 
 
 WinMes08:
@@ -67,7 +67,7 @@ I believe you would do well to get
 those manners of yours under control.
 \e
 
-// 対志貴
+// 対志貴 Versus Shiki
 WinMes10:
 chara_type 1
 Please forgive me, Master Shiki... 
@@ -76,14 +76,14 @@ but it was the only way I could think of to make
 you return to your room...
 \e
 
-// 対秋葉
+// 対秋葉 Versus Akiha
 WinMes11:
 chara_type 1
 You seemed as if you wanted an earnest fight, so I 
 gave it my all. Was it to your liking, Lady Akiha?
 \e
 
-// 対琥珀
+// 対琥珀 Versus Kohaku
 WinMes12:
 chara_type 100
 I'm sorry, Kohaku... 
@@ -91,7 +91,7 @@ I sensed a quite unpleaseant bloodlust coming from you.
 I had no choice but to repel you with all my might.
 \e
 
-// 対アルクェイド
+// 対アルクェイド Versus Arcueid
 WinMes13:
 chara_type 100
 Th-That was close...

@@ -77,7 +77,7 @@ Now begone, defector.
 You have failed to even be judged.
 \e
 
-// 対志貴
+// 対志貴 Versus Shiki
 WinMes11:
 chara_type 1
 chara_type_sub 0
@@ -87,7 +87,7 @@ wandering the streets this late. How about you come
 back to my place to reflect on your actions, Shiki?
 \e
 
-// 対アルクェイド
+// 対アルクェイド Versus Arcueid
 WinMes12:
 chara_type 102
 Finished already? Your movements have really started 
@@ -95,7 +95,7 @@ to drag. Did you perhaps gain a few pounds of extra fat
 from depending on a certain someone too much?
 \e
 
-// 対秋葉
+// 対秋葉 Versus Akiha
 WinMes13:
 chara_type 100
 That was certainly unexpected.
@@ -104,7 +104,7 @@ combat training could stand a chance against me.
 Your skill could prove deadly if left unchecked.
 \e
 
-// 対秋葉、翡翠、琥珀、ヒスコハ　※特に琥珀用
+// 対秋葉、翡翠、琥珀、ヒスコハ　※特に琥珀用 Versus Akiha, Hisui, Kohaku, Maids *especially Kohaku
 WinMes14:
 chara_type 1
 You still have much to learn. 
@@ -113,7 +113,7 @@ For now, how about you take a day or two to
 reflect on what happened here?
 \e
 
-// 対ロア
+// 対ロア Versus Roa
 WinMes15:
 chara_type 100
 I will not allow you to reincarnate again.
@@ -121,7 +121,7 @@ The hand of death has finally snaked itself
 around your throat.
 \e
 
-// 対死徒ノエル
+// 対死徒ノエル Versus Dead Apostle Noel
 WinMes16:
 chara_type 105
 Even if you've had your blood sucked by a Dead Apostle, 
@@ -129,7 +129,7 @@ this sudden spurt of growth shouldn't be possible...
 What on earth happened to you, Sister Noel...?
 \e
 
-// 対青子
+// 対青子 Versus Aoko
 WinMes17:
 chara_type 102
 chara_type_sub 101
@@ -140,7 +140,7 @@ It's simply a matter of me being a Sister of the Holy Church.
 Defeating people from the Mages Association is basically my job.
 \e
 
-// 対マーリオゥ
+// 対マーリオゥ Versus Mario
 WinMes18:
 chara_type 0
 Strengthening people through thread weaving...

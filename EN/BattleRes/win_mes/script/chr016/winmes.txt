@@ -54,7 +54,7 @@ As such, I managed to gouge your heart out faster
 than you were able to reach your full potential power.
 \e
 
-// 対志貴
+// 対志貴 Versus Shiki
 WinMes07:
 chara_type 104
 chara_type_sub 102
@@ -65,7 +65,7 @@ I'd recommend laying low for a few nights.
 You got that?
 \e
 
-// 対秋葉
+// 対秋葉 Versus Akiha
 WinMes08:
 chara_type 103
 chara_type_sub 105
@@ -76,7 +76,7 @@ your self-dignity. Because in that respect, above all
 else, you're the strongest person I know, Akiha.
 \e
 
-//対暴走アルクェイド
+//対暴走アルクェイド Versus Red Arcueid
 WinMes09:
 chara_type 1
 Now that was a battle of pure power versus power.
@@ -86,7 +86,7 @@ Seventh Scripture. We'll see which one of us
 is stronger when that time comes.
 \e
 
-//対マーリオゥ
+//対マーリオゥ Versus Mario
 WinMes10:
 chara_type 203
 Creatura's Piano Machine...
@@ -94,7 +94,7 @@ To think the esteemed Acting Presbyter
 would be wielding such an old-fashioned weapon...
 \e
 
-//対ノエル
+//対ノエル Versus Noel
 WinMes11:
 chara_type 1
 chara_type_sub 0
@@ -105,7 +105,7 @@ gotten a bit sharper lately. Did you perhaps discover some
 source of motivation to improve, Sister Noel?
 \e
 
-//対死徒ノエル
+//対死徒ノエル Versus Dead Apostle Noel
 WinMes12:
 chara_type 1
 Might makes right.
@@ -113,7 +113,7 @@ Dead Apostle Noel...
 Your weakness... has come to judgment.
 \e
 
-// 対ロア
+// 対ロア Versus Roa
 WinMes13:
 chara_type 1
 This is the end, Serpent of Akasha.
@@ -121,7 +121,7 @@ I've shattered your soul with the Seventh Scripture.
 Your twisted beliefs have led you only to the depths of darkness.
 \e
 
-// 対吸血鬼
+// 対吸血鬼 Versus Vampire
 WinMes14:
 chara_type 203
 I have no sympathy or understanding to spare for inhuman 
@@ -129,7 +129,7 @@ creatures such as you. Your death will amount to no more
 than a single line of text in my report.
 \e
 
-// 対青子
+// 対青子 Versus Aoko
 WinMes15:
 chara_type 201
 chara_type_sub 203
@@ -144,7 +144,7 @@ Something like that.
 \e
 
 
-// 対マーリオゥ（ストーリー専用）
+// 対マーリオゥ（ストーリー専用） Versus Mario (story only)
 WinMesArcadeWin17:
 chara_type 203
 Excuse me, but I have to hurry.

@@ -72,7 +72,7 @@ Goddamnit, I guess we can stop by the store.
 Keep the budget within your monthly wage, though.
 \e
 
-// 対一般人(ヒスコハは除外した方が良さそう)
+// 対一般人(ヒスコハは除外した方が良さそう) Versus Commoner (except Maids)
 WinMes08:
 chara_type 306
 Soprano, contact Karius.
@@ -80,7 +80,7 @@ Tell him we've got a dumbass down. They need custody.
 Make sure to get 'em some medical care as a lil extra.
 \e
 
-//対死徒（非人間）
+//対死徒（非人間） Versus non-humans
 WinMes09:
 chara_type 303
 Alto, contact Andou.
@@ -90,7 +90,7 @@ up the scene. I want him investigating the victims,
 give 'em some care.
 \e
 
-//対志貴
+//対志貴 Versus Shiki
 WinMes10:
 chara_type 106
 chara_type_sub 100
@@ -102,7 +102,7 @@ up against normal humans. Hah! So young, and you're
 already hooked on something so fucked up.
 \e
 
-//対アルクェイド
+//対アルクェイド Versus Arcueid
 WinMes11:
 chara_type 304
 chara_type_sub 303
@@ -112,7 +112,7 @@ Feels like I'm losing my senses instead!
 The hell happened to make you so different?!
 \e
 
-//対暴走アルクェイド
+//対暴走アルクェイド Versus Red Arcueid
 WinMes12:
 chara_type 305
 Fall back, fuckers! We're leaving.
@@ -120,7 +120,7 @@ This monster's just gonna come back stronger if we
 kill it. I ain't dumb enough to fight this head-on.
 \e
 
-// 対シエル
+// 対シエル Versus Ciel
 WinMes13:
 chara_type 100
 What're ya looking so confused for?
@@ -128,7 +128,7 @@ I know your lil tricks inside and out.
 Planned out my countermeasures goddamn ages ago.
 \e
 
-// 対武装シエル
+// 対武装シエル Versus Powered Ciel
 WinMes14:
 chara_type 106
 Fuckin' hell... You're real worked up.
@@ -136,7 +136,7 @@ Mezzo-Soprano, to the water chamber with her.
 She'll probably cool down in three days or so.
 \e
 
-// 対ロア
+// 対ロア Versus Roa
 WinMes15:
 chara_type 306
 You fucking snake bastard.
@@ -144,7 +144,7 @@ A tarantella's wasted on your ass.
 A scherzo's all you'll get.
 \e
 
-// 対ノエル
+// 対ノエル Versus Ciel
 WinMes16:
 chara_type 303
 chara_type_sub 306
@@ -155,7 +155,7 @@ You seem kinda whimsical, yet also damn stubborn...
 (Maybe I should whip her into shape at some point)
 \e
 
-// 対死徒ノエル
+// 対死徒ノエル Versus Dead Apostle Noel
 WinMes17:
 chara_type 306
 Soprano, Alto. Elegy permitted.
@@ -163,7 +163,7 @@ And make sure she's buried with care, will ya?
 End of the day, she kept working hard for the greater good.
 \e
 
-// 対青子
+// 対青子 Versus Aoko
 WinMes18:
 chara_type 305
 Stop it, you piece of shit! Think you can get away
@@ -173,7 +173,7 @@ complaint to the Mages Assocation.
 \e
 
 
-// 対アルクェイド（ストーリー専用）
+// 対アルクェイド（ストーリー専用） Versus Arcueid (story only)
 WinMesArcadeWin00:
 chara_type 107
 chara_type_sub 101
@@ -184,7 +184,7 @@ All hurdles that got me worried have now been taken
 care of. Now I just gotta wait for Roa to wake up.
 \e
 
-// 対ノエル（ストーリー専用）
+// 対ノエル（ストーリー専用） Versus Noel (story only)
 WinMesArcadeWin08:
 chara_type 104
 Ey, good workout for the both of us.
@@ -192,7 +192,7 @@ My Piano Machine ain't in bad shape. Maybe Mario the
 Puppetmaster's gonna be back on the scene for a few years?
 \e
 
-// 対青子（ストーリー専用）
+// 対青子（ストーリー専用） Versus Aoko (story only)
 WinMesArcadeWin15:
 chara_type 105
 Goddamn, learn your place, Magician!

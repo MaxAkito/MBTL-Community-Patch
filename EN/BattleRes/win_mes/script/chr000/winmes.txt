@@ -80,14 +80,14 @@ Jump, turn around, throw a punch, and it's over.
 Hmmmm, is this what dancing at a ball is like?
 \e
 
-// 対志貴
+// 対志貴 Versus Shiki
 WinMes12:
 chara_type 0
 Heheh. So, impressed or what?
 Even if you get serious, Shiki, I'm not losing again ♪
 \e
 
-// 対ヴローヴ
+// 対ヴローヴ Versus Vlov
 WinMes13:
 chara_type 103
 You may have just became an Ancestor, 
@@ -96,7 +96,7 @@ Otherwise it reflects poorly on the
 sire who bequeathed you their Principle.
 \e
 
-// 対秋葉
+// 対秋葉 Versus Akiha
 WinMes14:
 chara_type 100
 You're getting sharper by the day.
@@ -104,7 +104,7 @@ Shiki might be bothered by it, but
 I'm happy to have more playmates.
 \e
 
-// 対シエル
+// 対シエル Versus Ciel
 WinMes15:
 chara_type 101
 Ugh, how annoying. It never ends!
@@ -113,7 +113,7 @@ Keep this up, and the casualties
 won't stop at just you.
 \e
 
-// 対ロア
+// 対ロア Versus Roa
 WinMes16:
 chara_type 103
 Farewell, my very first! Were you satisfied?
@@ -121,7 +121,7 @@ Not only did I spill your blood this time,
 but I tore you apart completely, soul included!
 \e
 
-// 対軋間
+// 対軋間 Versus Kouma
 WinMes17:
 chara_type 103
 You're... a Japanese Mixblood?
@@ -130,7 +130,7 @@ your blood is on par with a Phantasmal Beast.
 How do you maintain that?!
 \e
 
-// 対武装シエル
+// 対武装シエル Versus Powered Ciel
 WinMes18:
 chara_type 102
 Oh c'mon! Don't get all serious ahead of me!
@@ -141,7 +141,7 @@ I'm not gonna go berserk thaaat easily!
 // 99まで追加可能
 
 
-// ３連勝・１０連勝専用セリフ
+// ３連勝・１０連勝専用セリフ (win streak messages)
 
 WinMes3WinStreak00:
 chara_type 0
@@ -156,7 +156,7 @@ Ahhh... feels so great, you know?!
 \e
 
 
-//隠しキャラ解放test
+//隠しキャラ解放test (dummy)
 UnlockMes00:
 unlock message
 \e

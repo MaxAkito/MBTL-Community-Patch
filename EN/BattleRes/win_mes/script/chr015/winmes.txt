@@ -26,7 +26,7 @@ chara_type 103
 chara_type_sub 100
 chara_switchframe 455
 Don't you think you're a bit too straight-laced? 
-You should try  new things every now and then. 
+You should try new things every now and then. 
 Being so by-the-book all the time's gonna dull your mind.
 \e
 
@@ -72,7 +72,7 @@ Exploring the seven seas beholden to no one has a way
 of making your troubles disappear, believe me.
 \e
 
-//対死徒、鬼
+//対死徒、鬼 Versus Dead Apostle, Oni
 WinMes09:
 chara_type 1
 chara_type_sub 3
@@ -83,7 +83,7 @@ After all, when I'm up against monsters like you
 people, I know not to hold back.
 \e
 
-//対志貴
+//対志貴 Versus Shiki
 //This needs further editing t. Petri
 WinMes10:
 chara_type 100
@@ -92,7 +92,7 @@ Adieu for now. I'll look forward to the day we meet in the
 countryside somewhere in the middle of nowhere.
 \e
 
-//対秋葉
+//対秋葉 Versus Akiha
 WinMes11:
 chara_type 2
 chara_type_sub 5
@@ -102,7 +102,7 @@ I realize I'm not one to talk, but the
 way you're using your power is all wrong.
 \e
 
-//対ロア
+//対ロア Versus Roa
 WinMes12:
 chara_type 104
 chara_type_sub 103
@@ -113,7 +113,7 @@ Still, feels like there was something more to him.
 He wouldn't show it to me, though.
 \e
 
-// 対ロア（ストーリー専用）
+// 対ロア（ストーリー専用） Versus Roa (story only)
 WinMesArcadeWin05:
 chara_type 4
 Oh, oops. I killed him!?
@@ -122,7 +122,7 @@ secret to immortality or whatever! Nooooo!
 Farewell, my dear bonus!
 \e
 
-// 対死徒ノエル（ストーリー専用）
+// 対死徒ノエル（ストーリー専用） Versus Dead Apostle Noel (story only)
 WinMesArcadeWin14:
 chara_type 5
 Drats, looks like she got away...

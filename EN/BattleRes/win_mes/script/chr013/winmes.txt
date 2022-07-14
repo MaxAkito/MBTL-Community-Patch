@@ -85,14 +85,14 @@ Oh, I get it! This is that growth spurt thing I've heard about!
 \e
 
 
-// 有間都古（同キャラ）
+// 有間都古（同キャラ） Versus Miyako (mirror match)
 WinMes13:
 chara_type 2
 Y-You think just because you have better-looking hair
 that I'd be jealous? Hmph, you're just an impostor!
 \e
 
-// 対遠野志貴
+// 対遠野志貴 Versus Tohno Shiki
 WinMes14:
 chara_type 104
 Caught you, Shiki! Ehehe... 
@@ -100,7 +100,7 @@ You're gonna look over my homework after we get back home.
 \e
 
 
-// 対軋間紅摩（ストーリー専用）
+// 対軋間紅摩（ストーリー専用） Versus Kishima Kouma (story only)
 WinMesArcadeWin06:
 chara_type 4
 Oh, oops... I just kinda went ahead and fought him.
@@ -109,7 +109,7 @@ What? My brother is this way? I can take him with me?
 Thanks, Mr. Lone-Horn!
 \e
 
-// 対シエル（ストーリー専用）
+// 対シエル（ストーリー専用） Versus Ciel (Story only)
 WinMesArcadeWin11:
 chara_type 2
 Xie-xie. I learned a lot from that, Mommy!
@@ -138,7 +138,7 @@ My future potential scares even myself...
 \e
 
 
-//隠しキャラ解放シーン　テスト
+//隠しキャラ解放シーン　テスト (test message?)
 UnlockMes00:
 chara_type 2
 unlock message

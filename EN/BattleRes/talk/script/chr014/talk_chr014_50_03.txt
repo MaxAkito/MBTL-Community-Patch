@@ -16,7 +16,7 @@
 \\@CHARA_IN@< 1, 3, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0000", 100>
 Shiki
-The sewers run red like rivers of blood.
+The sewers have become rivers of blood.
 Corpses are piled up in the city's back alleys.
 \l
 
@@ -162,15 +162,15 @@ be nearly as much fun!
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0032", 100>
 Dead_Noel
-I'm going to skewer you together with that misplaced 
-confidence of yours, and then I'll scrape you around, 
-cut you into little pieces...
+I'm going to skewer you together with that 
+misplaced confidence of yours. I'll scrape 
+you around, cut you into little pieces...
 \l
 
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0033", 100>
 Dead_Noel
-And finally, I'll even put you inside of me!
+And finally, I'll even put you inside of my eyes!
 I'm sure you'll be a lot happier that way anyways!
 
 \\@BGM_STOP@<0>

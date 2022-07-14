@@ -48,7 +48,7 @@ too strong, you need a higher class of entertainment.
 
 WinMes05:
 chara_type 8
-How's it feel? The Bells of Nostalgia is my Principle.
+How's it feel? My Principle is the 'Bells of Nostalgia'.
 Christmas bells that conjure up memories of happier times.
 They are as merciless as the feeling of growing up.
 \e

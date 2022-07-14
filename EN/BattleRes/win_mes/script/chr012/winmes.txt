@@ -10,79 +10,80 @@ That said, this city is far more urban than the one I know.
 
 WinMes01:
 chara_type 0
-Dead Apostle... 
-Not a word you would hear often in the land I am from.
-Perhaps I should have borrowed Sir Gawain's sword if 
-they're so weak to sunlight.
+Dead Apostle...
+Not a phrase one would hear often back in my home country.
+Perhaps I should have borrowed Sir Gawain's sword
+if they're so weak to sunlight.
 \e
 
 WinMes02:
 chara_type 1
-This must be fate of some kind.
+Fate must have had a hand in this.
 I could lend you my strength should it prove necessary.
 \e
 
 WinMes03:
 chara_type 0
-There do not seem to be any other Servants here.
-Hopefully I don't appear too out of place...
+There don't seem to be any other Servants here.
+Hopefully I don't appear too out of place.
 \e
 
 WinMes04:
 chara_type 1
 A nightless city that never sleeps...
-Speaking of... I have heard these sorts of inner city late 
-night dining establishments serve especially delicious food.
-May I ask of you to provide me with an exact address and 
-recommendation as to what to order?
+Incidentally, I've heard these kinds of cities house many
+late-night dining establishments that serve especially
+delicious food. May I trouble you to provide me with
+an address and menu recommendations?
 \e
 
-// ‘Îˆê”Êl Versus commoner (Kohaku, Hisui, Shiki, Akiha)
-// ãÅ‰EàæàßEH—tEu‹M
+// ï¿½Îˆï¿½Êl Versus commoner (Kohaku, Hisui, Shiki, Akiha)
+// ï¿½Åï¿½ï¿½Eï¿½ï¿½ï¿½ßEï¿½Hï¿½tï¿½Eï¿½uï¿½M
 WinMes05:
 chara_type 1
-Phew... 
-It would seem I was able to end this without injuring you. 
-I've got to be careful to not stand out as much next time.
+Phew...
+I'm glad I managed to finish this without causing injury.
+I must be more careful not to stand out as much next time.
 \e
 
-// ‘Î”\—ÍÒ Versus superpowered person (Akiha, Vlov)
-// H—tEƒƒAEƒ”ƒ[ƒ”
+// ï¿½Î”\ï¿½Íï¿½ Versus superpowered person (Akiha, Vlov)
+// ï¿½Hï¿½tï¿½Eï¿½ï¿½ï¿½Aï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½
+// TODO: double-check "inspire great awe within me" line
 WinMes06:
 chara_type 2
-Though you are my enemy, I must admit... 
-Those are some astonishing abilities you possess. 
-You might come out on top next time.
+Though you are my enemy, I must admit.
+Your abilities inspire great awe within me.
+I may find myself defeated next time we do battle.
 \e
 
-// ‘Î‹zŒŒ‹S Versus Vampire (Vlov, Roa, DA Noel, Red Arc)
-// ƒƒAEƒ”ƒ[ƒ”E–\‘–ƒAƒ‹ƒN
+// ï¿½Î‹zï¿½ï¿½ï¿½S Versus Vampire (Vlov, Roa, DA Noel, Red Arc)
+// ï¿½ï¿½ï¿½Aï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Eï¿½\ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½N
 WinMes07:
 chara_type 0
 Return to dust, monster.
-I shall strike down any evil which would 
-threaten the populace, whatever form it may take.
+I shall strike down any evil which would threaten
+the populace, whatever form it may take.
 \e
 
-// ‘ÎãÅ‰•àæàßiƒXƒg[ƒŠ[ê—pj Versus Kohaku and Hisui (when they fight together)
+// ï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßiï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½[ï¿½ï¿½pï¿½j Versus Kohaku and Hisui (when they fight together)
 WinMesArcadeWin07:
 chara_type 0
 You two have such excellent teamwork that I mistook you for
-a pair of highly skilled Assassins. To think that you were 
-merely a pair of mischievous maids... There's certainly
-something strange about the nobility in this city.
+a pair of highly skilled Assassins. Little did I suspect
+you were merely a pair of mischievous maids.
+There's certainly something strange about the nobility in this city.
 \e
 
 
-// 99‚Ü‚Å’Ç‰Á‰Â”\
+// 99ï¿½Ü‚Å’Ç‰ï¿½ï¿½Â”\
 
 
-// ‚R˜AŸE‚P‚O˜AŸê—pƒZƒŠƒt (win streak messages)
+// ï¿½Rï¿½Aï¿½ï¿½ï¿½Eï¿½Pï¿½Oï¿½Aï¿½ï¿½ï¿½ï¿½pï¿½Zï¿½ï¿½ï¿½t (win streak messages)
 
 WinMes3WinStreak00:
 chara_type 1
 Excellent skills.
-Stay focused and let's keep up the good work.
+Stay focused and let's continue sparring.
 \e
 
 
@@ -93,7 +94,7 @@ I am honored to have met a player such as yourself.
 \e
 
 
-//‰B‚µƒLƒƒƒ‰‰ğ•úƒV[ƒ“@ƒeƒXƒg (story unlock message)
+//ï¿½Bï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Vï¿½[ï¿½ï¿½ï¿½@ï¿½eï¿½Xï¿½g (story unlock message)
 UnlockMes00:
 chara_type 0
 Saber story has been unlocked.

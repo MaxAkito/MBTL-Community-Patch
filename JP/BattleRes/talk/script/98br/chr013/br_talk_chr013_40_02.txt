@@ -1,0 +1,223 @@
+\\@SYSTEM@<9999>
+\\@FADE_IN@<1, 0, 0, 0, 0>
+\aw
+
+\\@BG_IN@<"screen_bg05", 0, 0>
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+//＃路地裏_昼
+
+\\@CHARA_IN@< 0, 13, 3, 1, 0>
+\\@CHARA_IN@< 2, 3, 0, 1, 0>
+\aw
+
+\\@CHARA_IN@< 2, 3, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10000", 100>
+Shiki
+あぶない都古ちゃん！
+路地裏の陰から、ハルバードを持ったシスターが！
+
+\\@CHARA_IN@< 0, 13, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10040", 100>
+Miyako
+オッケー！　まかせて、お兄ちゃん！
+ほやっーーー！
+
+\\@CHARA_IN@< 0, 13, 0, 0, 20>
+\\@CHARA_IN@< 1, 8,  3, 4, 0>
+\aw
+\\@SE_PLAY@<0, "talk/talk_se/Atk_LongSwingB", 0, 100>
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_BombB", 0, 100>
+\\@CHARA_IN@< 1, 8, 3, 52, 20>
+\\@CHARA_EMOVE@<0, -1 , 3>
+\\@SQ_CALL@<1>
+\w<10>
+\\@CHARA_IN@< 1, 8, -1, 51, 20>
+\aw
+\\@CHARA_FOCUS_COLOR@< 0, 1>
+
+\\@CHARA_IN@< 1, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10000", 100>
+Noel
+チィ、完全に避けられた……！
+やるじゃない、私の奇襲バレてたってワケね！？
+
+\\@CHARA_OUT@<0, 13, -1, 0, 0>
+\\@CHARA_OUT@<1, 8, -1, 0, 0>
+\\@CHARA_OUT@<2, 3, -1, 0, 0>
+\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\aw
+
+\\@DRAW_EFFECT@<1>
+\aw
+
+\\@BGM_PLAY@<1, 72, 100>
+\\@CHARA_IN@< 3, 53,  0, 44, 0>
+\\@CHARA_MUKI@<3,0>
+\aw
+
+\\@CHARA_IN@< 3, 53, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10060", 100>
+Neco_Arc
+～これまでのあらすじ～
+\l
+
+\\@CHARA_IN@< 3, 53, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10061", 100>
+Neco_Arc
+八極拳をたしなむ平凡な小学生・有間都古は、
+ひょんなコトから吸血鬼事件に巻き込まれた。
+\l
+
+\\@CHARA_OUT@<3, -1, -1, 0, 0>
+\aw
+\\@BG_IN@<"screen_bg08", 0, 0>
+\\@CHARA_IN@< 4, 0, 11, 44, 0>
+\\@CHARA_MUKI@<4,0>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc_10000", 100>
+Arcueid@Arcueid_Zisyo
+『ちょっとー。お宅の長男、だしてもらえるー？
+　わたしを殺した責任、とってもらいたいんですけどー！』
+\l
+
+\\@CHARA_OUT@<4, -1, -1, 0, 0>
+\aw
+\\@BG_IN@<"screen_bg05", 0, 0>
+\\@CHARA_IN@< 3, 53, 100, 44, 0>
+\\@CHARA_MUKI@<3,0>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10062", 100>
+Neco_Arc
+殺されたクセにまんざらでもない態度で
+真っ昼間から押しかけてきた吸血鬼。
+\l
+
+\\@CHARA_IN@< 3, 53, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10063", 100>
+Neco_Arc
+それをまんざらでもない顔で出迎える義理の兄に
+イラッとした都古は、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10064", 100>
+Neco_Arc
+持ち前の正義感と無限コンティニューの力で、
+謎の吸血鬼の撃退に成功した。
+\l
+
+\\@CHARA_IN@< 3, 53, 100, 0, 1>
+\\@CHARA_EMOVE@<3, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10065", 100>
+Neco_Arc
+―――そう。
+\l
+
+\\@CHARA_IN@< 3, 53, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10066", 100>
+Neco_Arc
+祖父の道場で鍛錬を積んでいた都古は、
+八極拳の達人だったのである……！
+
+\\@CHARA_OUT@<3, -1, -1, 0, 0>
+\\aw
+\\@BGM_FADE@<1, 100, 0, -2, 1>
+
+\\@DRAW_EFFECT@<0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+
+\\@CHARA_IN@< 0, 13, 17, 11, 0>
+\\@CHARA_IN@< 2, 3,  0, 11, 0>
+\\@CHARA_IN@< 1, 8,  9, 12, 0>
+\aw
+
+
+\\@CHARA_IN@< 1, 8, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10001", 100>
+Noel
+真祖を追い返したって話は本当のようね！
+それとも、そこの眼鏡クンの入れ知恵かしら！
+\l
+
+\\@CHARA_IN@< 1, 8, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10002", 100>
+Noel
+なんにせよ、邪魔者は排除せよ、が依頼だから！
+ふたりまとめてボコってあげる！
+\l
+
+\\@CHARA_IN@< 1, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10003", 100>
+Noel
+お子様はここで退場、眼鏡クンは産地直送、
+私は報酬でタワマンに即日入居！
+\l
+
+\\@CHARA_IN@< 1, 8, 101, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10004", 100>
+Noel
+んー、運気乗ってきた～～！
+場合によっちゃあここでヒロインチェンジもアリよね！
+\l
+
+\\@CHARA_IN@< 1, 8, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10005", 100>
+Noel
+っていうかぁ。
+幼女枠はもう間に合ってるんじゃない？
+\l
+
+\\@CHARA_IN@< 1, 8, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10006", 100>
+Noel
+いるじゃない、ほら、最高にキレててカワイイ、
+薔薇のように紅い吸血鬼が。
+\l
+
+\\@CHARA_IN@< 1, 8, 101, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10007", 100>
+Noel
+幼女枠ならあの子の方が人気でると思うなー、私！
+あーあ、私も吸血鬼になっちゃおっかなー！
+
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10041", 100>
+Miyako
+なんて言ってるけど、このひと、人間だよね！？
+倒しちゃっていいのかな！？
+
+\\@CHARA_IN@< 2, 3, 1, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10001", 100>
+Shiki
+うん、いいと思うよ。言動からしてもう《山月記＜ておくれ＞だし。
+ここでよくない未来は断っておこう。
+
+\\@CHARA_IN@< 0, 13, 0, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10042", 100>
+Miyako
+オッス！　さっすがお兄ちゃん、
+ライバルは早めに潰しておくべきだもんね！
+\l
+
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10043", 100>
+Miyako
+西洋槍なんか怖くないぞ！
+そんなナマクラ、わたしの八極拳でぺしゃんこだい！
+
+
+\\@BGM_STOP@<0>
+\e

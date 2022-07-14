@@ -37,7 +37,7 @@ May I ask of you to provide me with an exact address and
 recommendation as to what to order?
 \e
 
-// 対一般人
+// 対一般人 Versus commoner (Kohaku, Hisui, Shiki, Akiha)
 // 翡翠・琥珀・秋葉・志貴
 WinMes05:
 chara_type 1
@@ -46,7 +46,7 @@ It would seem I was able to end this without injuring you.
 I've got to be careful to not stand out as much next time.
 \e
 
-// 対能力者
+// 対能力者 Versus superpowered person (Akiha, Vlov)
 // 秋葉・ロア・ヴローヴ
 WinMes06:
 chara_type 2
@@ -55,7 +55,7 @@ Those are some astonishing abilities you possess.
 You might come out on top next time.
 \e
 
-// 対吸血鬼
+// 対吸血鬼 Versus Vampire (Vlov, Roa, DA Noel, Red Arc)
 // ロア・ヴローヴ・暴走アルク
 WinMes07:
 chara_type 0
@@ -64,7 +64,7 @@ I shall strike down any evil which would
 threaten the populace, whatever form it may take.
 \e
 
-// 対翡翠＆琥珀（ストーリー専用）
+// 対翡翠＆琥珀（ストーリー専用） Versus Kohaku and Hisui (when they fight together)
 WinMesArcadeWin07:
 chara_type 0
 You two have such excellent teamwork that I mistook you for
@@ -77,7 +77,7 @@ something strange about the nobility in this city.
 // 99まで追加可能
 
 
-// ３連勝・１０連勝専用セリフ
+// ３連勝・１０連勝専用セリフ (win streak messages)
 
 WinMes3WinStreak00:
 chara_type 1
@@ -93,7 +93,7 @@ I am honored to have met a player such as yourself.
 \e
 
 
-//隠しキャラ解放シーン　テスト
+//隠しキャラ解放シーン　テスト (story unlock message)
 UnlockMes00:
 chara_type 0
 Saber story has been unlocked.

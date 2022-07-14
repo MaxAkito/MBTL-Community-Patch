@@ -68,10 +68,10 @@ the populace, whatever form it may take.
 // ���Ő������߁i�X�g�[���[��p�j Versus Kohaku and Hisui (when they fight together)
 WinMesArcadeWin07:
 chara_type 0
-You two have such excellent teamwork that I mistook you for
-a pair of highly skilled Assassins. Little did I suspect
-you were merely a pair of mischievous maids.
-There's certainly something strange about the nobility in this city.
+You two have such excellent teamwork that I mistook you
+for a pair of highly skilled Assassins. Little did I suspect
+you were merely a pair of mischievous maids. There's certainly
+something strange about the nobility in this city.
 \e
 
 

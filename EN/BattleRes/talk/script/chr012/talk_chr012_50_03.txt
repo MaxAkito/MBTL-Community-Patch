@@ -14,7 +14,7 @@
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0010", 100>
 Saber
-Hm? 
+Hm?
 At last it appears I have encountered
 someone who ought to be of some help.
 \l
@@ -23,8 +23,9 @@ someone who ought to be of some help.
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0011", 100>
 Saber
-Pardon me, fair ladies. Would you be so kind as 
-to tell me what era and which country this is?
+Pardon me, fair ladies. Would you be so kind as
+to tell me what era this is, as well as which
+country we're currently in?
 
 \\@CHARA_IN@< 3, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0040", 100>
@@ -34,41 +35,41 @@ Kohaku, I've found one.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0041", 100>
 Hisui
-I believe this may be the person in question who 
-has been running amok destroying things in town.
+I believe this may be the person in question who
+has been running amok in town.
 \l
 
 \\@CHARA_IN@< 3, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0042", 100>
 Hisui
-Let's just say it. That's the Knight King.
+Let's just say it. That's the King of Knights.
 
 \\@CHARA_IN@< 1, 4, 106, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0060", 100>
 Kohaku
-Ohhh... Now that I take a closer look there's 
+Oooh... Now that I take a closer look, there's
 no doubt about it. A real evildoer, that one.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0061", 100>
 Kohaku
-Not just armor, but a sword that shoots 
-beams as well. Does she have no idea what 
+Not just armor, but a sword that shoots
+beams as well. Does she have no idea what
 it means to be a proper heroine?
 \l
 
 \\@CHARA_IN@< 1, 4, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0062", 100>
 Kohaku
-Either way, if we leave her be, the fundamentals 
+Either way, if we leave her be, the fundamentals
 of Souya's setting will be distorted! C'mon, Hisui!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0063", 100>
 Kohaku
-You focus on the physical attacks with your food while
-I take care of the mental attacks with my chemicals!
+You focus on the physical attacks with your food
+while I take care of the mental attacks with my chemicals!
 
 \\@GO_SUB@<"QUAKE_2">
 \\@SE_PLAY@<0,"talk/talk_se/Cmn_SmokeScreen",0,100>
@@ -85,9 +86,9 @@ Ack! That was close!
 \\@CHARA_IN@< 0, 12, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0013", 100>
 Saber
-Not just a venomous lunchbox so potent that it can 
-dissolve a telephone pole, but also syringes filled 
-with odorless poison gas! This could only mean...
+Not just a poisonous lunchbox so potent it can dissolve
+a telephone pole, but even syringes filled ith odorless
+poison gas! This could only mean...
 \l
 
 \\@CHARA_IN@< 0, 12, 3, 0, 1>

@@ -15,11 +15,12 @@ Saber
 I have disposed of the threat to this town.
 \l
 
+// TODO: Re-edit this line
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0031", 100>
 Saber
-I was called forth in my duty as the knight 
-who wields the Holy Sword. With this, perhaps 
+I was called forth in lieu of my duty as the knight
+who wields the Holy Sword. With this, perhaps
 that duty is over.
 
 \\@CHARA_IN@<1, 0, 1, 2, 0>
@@ -28,21 +29,22 @@ that duty is over.
 \\@CHARA_IN@< 1, 0, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0080", 100>
 Arcueid
-Are you the one who defeated Roa?
+Are you the one who beat Roa?
 \l
 
 \\@CHARA_IN@< 1, 0, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0081", 100>
 Arcueid
-I'd like to lecture you about the importance 
-of staying out of other people's business, but...
+I'd like nothing more than to lecture you about
+staying outta other people's business, but...
 \l
 
+// "Divine Construct"?
 \\@CHARA_IN@< 1, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0082", 100>
 Arcueid
-That weapon of yours was born in the 
-the Planet's Inner-sea, right? It's sooo coooool! 
+That weapon of yours was forged within the
+the Planet's Inner-sea, right? It's sooo coooool!
 I've never seen anything like it!
 \l
 
@@ -56,7 +58,7 @@ That sword and I are like cousins in a way!
 \\@CHARA_IN@< 0, 12, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0032", 100>
 Saber
-You're like my Holy Sword...? Are you saying 
+You're like my Holy Sword? Are you saying
 you are some kind of elemental given flesh?
 \l
 
@@ -75,13 +77,13 @@ Yeah! What humans would call a vampire. That's me.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0085", 100>
 Arcueid
 Hehe... A weapon forged not to protect the planet,
-but rather the people who live upon it...
+but rather the people living upon it.
 \l
 
 \\@CHARA_IN@< 1, 0, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0086", 100>
 Arcueid
-Alright! Why don't we have a little fun?! 
+Alright! Why don't we have a little fun?!
 At least until the moon disappears behind the clouds!
 \l
 
@@ -100,15 +102,15 @@ Saber
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0035", 100>
 Saber
-You ask with such eagerness I find it hard to refuse 
-your request. In fact, for whatever reason, I too, find 
-myself quite excited at the prospect.
+You ask with such eagerness I find it hard to refuse
+your request. In fact, I curiously find myself
+quite excited at the prospect.
 \l
 
 \\@CHARA_IN@< 0, 12, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0036", 100>
 Saber
-Very well then, vampire in white. 
+Very well then, vampire in white.
 Let's see who between us happens to be superior.
 \l
 
@@ -127,8 +129,7 @@ Let's see who between us happens to be superior.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0037", 100>
 Saber
-A heroine such as I has no choice 
-but to accept your challenge!
+A heroine such as myself can't reject your challenge!
 
 \\@BGM_STOP@<0>
 \e

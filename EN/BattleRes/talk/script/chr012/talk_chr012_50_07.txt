@@ -13,27 +13,28 @@
 \\@CHARA_IN@< 1, 5, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0080", 100>
 Roa
-Now this is quite the surprise. 
+Now this is quite the surprise.
 A Heroic Spirit able to manifest as a familiar?
 \l
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0081", 100>
 Roa
-Are you perhaps one of those 
+Are you perhaps one of those
 hypothesized Ghost Liners, then?
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0020", 100>
 Saber
-......
+...
 \l
 
+// TODO: Re-edit this line
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0021", 100>
 Saber
-Your presence is somehow similar to that of my own, 
-yet I sense magecraft about you, despite the fact that 
+Your presence appears similar to that of my own,
+yet I sense magecraft about you, despite the fact that
 you appear to be a pious believer.
 \l
 
@@ -46,56 +47,56 @@ Are you the one who summoned me?
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0082", 100>
 Roa
-Not at all.
+Nah, wasn't me.
 \l
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0083", 100>
 Roa
-I was never interested in the summoning arts. 
-Besides... You've gotta have a little too much 
+I was never interested in the summoning arts.
+Besides... You've gotta have a little too much
 free time to go around poking holes between worlds.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0084", 100>
 Roa
-I may not look it, 
-but my schedule is packed to precision.
+And while I may look like I have exactly that,
+I'm afraid my schedule is meticulously packed.
 \l
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0085", 100>
 Roa
-In my mind, foreign elements such as you ought to
-make a hasty exit. The princess is like an 
-easily distracted stray cat, you see.
+If you ask me, foreign elements such as you ought to
+make a hasty exit. The princess is like a cat, you see?
+She gets distracted a bit too easily.
 \l
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0086", 100>
 Roa
-If you two were to fight, 
-my careful preparations would all come to naught.
+I can't have you two fight, or else my careful
+preparations will all be for naught.
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0023", 100>
 Saber
-In other words, you are planning to 
+In other words, you are planning to
 use this city for some sort of ritual.
 \l
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0024", 100>
 Saber
-I still do not know how I was summoned to this 
-place, but now I understand what my duty must be.
+I still have yet to find out why I was summoned here,
+but my duty is unwavering.
 \l
 
 \\@CHARA_IN@< 0, 12, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0025", 100>
 Saber
-No matter the era, no matter the city... 
+No matter the era, no matter the location.
 It is the sworn duty of a knight to
 protect the lives of the innocent.
 \l
@@ -103,7 +104,7 @@ protect the lives of the innocent.
 \\@CHARA_IN@< 0, 12, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0026", 100>
 Saber
-I know not which mage you may be, but your 
+I know not what mage you may be, but your
 plans shall meet their end upon my Holy Sword!
 
 \\@BGM_STOP@<0>

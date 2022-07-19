@@ -68,8 +68,8 @@ I'm afraid my schedule is meticulously packed.
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0085", 100>
 Roa
-If you ask me, foreign elements such as you ought to
-make a hasty exit. The princess is like a cat, you see?
+If you ask me, foreign elements such as you ought to make
+a hasty exit. The princess is like a cat, you see?
 She gets distracted a bit too easily.
 \l
 
@@ -89,23 +89,23 @@ use this city for some sort of ritual.
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0024", 100>
 Saber
-I still have yet to find out why I was summoned here,
-but my duty is unwavering.
+I may have yet to uncover how I was summoned,
+but the purpose behind it is clear as day.
 \l
 
 \\@CHARA_IN@< 0, 12, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0025", 100>
 Saber
-No matter the era, no matter the location.
-It is the sworn duty of a knight to
-protect the lives of the innocent.
+No matter the era, no matter the city.
+It is the sworn duty of a knight
+to protect the lives of the innocent.
 \l
 
 \\@CHARA_IN@< 0, 12, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0026", 100>
 Saber
-I know not what mage you may be, but your
-plans shall meet their end upon my Holy Sword!
+I know not what mage you may be, but your plans
+shall meet their end upon my Holy Sword!
 
 \\@BGM_STOP@<0>
 \e

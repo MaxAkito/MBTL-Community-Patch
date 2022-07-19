@@ -1,7 +1,7 @@
 セイバー
 Saber
 交わらぬはずの並行世界に召喚された謎を追う「騎士王」
-The King of Knights who pursues the mystery of why she had been summoned to a parallel world she was never meant to intersect with
+The Knight Kings who pursues the mystery of why she had been summoned to a parallel world she was never meant to intersect with
 
 真名：アルトリア・ペンドラゴン
 後ろに紡い上げた金髪、青と白銀の甲冑が眼早い、凛とした佇まいの女性剣士。彼女こそ、アーサー王伝説として、巷間に名高い、円卓の騎士を束ねる聖剣の騎士である。（生前は性別を偽って活動していたため、アーサー王＝男性として知られている。）
@@ -13,9 +13,9 @@ After death, she became a Servant, engraved into the the 'Throne of Heroes' for 
 
 生来持つ莫大な魔力により、そのブースト効果で己の身体能力を本来の何倍にも引き上げている。その魔力を集束・加速させた”光”の断層による究極の斬撃[ruby=約束された勝利の剣]「エくスカリバー」[/ruby]や、手に持つ聖剣の姿を不可視にする[ruby=風王結界]「インビシブル・エア」[/ruby]などの宝具を有する。
 Thanks to her innate abundance of magical energy, she can boost her own physical abilities several times beyond her usual output.
-She is equipped with multiples Noble Phantasms:
+She is equipped with multiple Noble Phantasms:
 Excalibur, the Sword of Promised Victory, capable of unleashing the ultimate slash by focusing and accelerating her magical energy into a rift of light
-Invisible Air, rendering her Holy Sword and thus her identity imperceivable
+Invisible Air, rendering her Holy Sword imperceivable
 
 主武装・スキル
 聖剣（エクスカリバー）

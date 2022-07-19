@@ -39,7 +39,6 @@ I'd like nothing more than to lecture you about
 staying outta other people's business, but...
 \l
 
-// "Divine Construct"?
 \\@CHARA_IN@< 1, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0082", 100>
 Arcueid

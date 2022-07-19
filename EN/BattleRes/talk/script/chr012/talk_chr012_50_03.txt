@@ -42,7 +42,7 @@ has been running amok in town.
 \\@CHARA_IN@< 3, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0042", 100>
 Hisui
-Let's just say it. That's the King of Knights.
+Let's just say it. That's the Knight Kings.
 
 \\@CHARA_IN@< 1, 4, 106, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
@@ -87,7 +87,7 @@ Ack! That was close!
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0013", 100>
 Saber
 Not just a poisonous lunchbox so potent it can dissolve
-a telephone pole, but even syringes filled ith odorless
+a telephone pole, but even syringes filled with odorless
 poison gas! This could only mean...
 \l
 

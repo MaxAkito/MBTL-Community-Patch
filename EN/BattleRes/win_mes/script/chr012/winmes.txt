@@ -48,11 +48,10 @@ I must be more careful not to stand out as much next time.
 
 // �Δ\�͎� Versus superpowered person (Akiha, Vlov)
 // �H�t�E���A�E�����[��
-// TODO: double-check "inspire great awe within me" line
 WinMes06:
 chara_type 2
 Though you are my enemy, I must admit.
-Your abilities left an impact on me.
+Your abilities are astonishing.
 I may find myself defeated next time we do battle.
 \e
 

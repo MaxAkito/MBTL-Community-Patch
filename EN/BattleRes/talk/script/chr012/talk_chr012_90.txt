@@ -15,11 +15,10 @@ Saber
 I have disposed of the threat to this town.
 \l
 
-// TODO: Re-edit this line
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0031", 100>
 Saber
-I was called forth in lieu of my duty as the knight
+I was called forth by virtue of my duty as the knight
 who wields the Holy Sword. With this, perhaps
 that duty is over.
 

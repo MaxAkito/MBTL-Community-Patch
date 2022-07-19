@@ -29,7 +29,6 @@ Saber
 ...
 \l
 
-// TODO: Re-edit this line
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0021", 100>
 Saber

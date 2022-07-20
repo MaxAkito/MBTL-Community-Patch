@@ -82,7 +82,7 @@ something strange about the nobility in this city.
 WinMes3WinStreak00:
 chara_type 1
 Excellent skills.
-Stay focused and let's continue sparring.
+Stay focused and let's keep up the good work.
 \e
 
 

@@ -142,7 +142,7 @@ but it was fun all the same.
 WinMes3WinStreak00:
 chara_type 103
 Three wins already?! I was planning on going home early,
-but you wouldn't mind if I stuck around a bit longer, right?
+but you don't mind if I stick around a bit longer, right?
 \e
 
 WinMes10WinStreak00:

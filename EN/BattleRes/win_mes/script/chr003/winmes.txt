@@ -11,8 +11,8 @@ while you still can.
 
 WinMes01:
 chara_type 103
-Wow, thought I was a goner there for a second. 
-I guess that's what I get for going easy on you.
+Wow, thought I was a goner there.
+Guess that's what I get for going easy on you.
 \e
 
 WinMes02:
@@ -23,118 +23,126 @@ See, all things that are alive eventually die.
 
 WinMes03:
 chara_type 101
-I'll be taking my leave now.
+I'm getting out of here.
 I can only fight for so long before I get anemic.
 \e
 
 WinMes04:
 chara_type 3
-You had fun? Good for you. 
-Personally, I'm totally beat. 
+You had fun? Good for you.
+Personally, I'm totally beat.
 Try to be a bit more considerate next time.
 \e
 
 WinMes05:
 chara_type 1
-Sorry, but I've got places to be. 
+Sorry, but I've got places to be.
 I'll call an ambulance for you.
 You can reflect on what you did in your hospital bed.
 \e
 
+// TODO: Ask about "It seems bad luck has cursed the both of us."
+// Suggestions: "Looks like we're both cursed with bad luck."
+//              "Looks like we're both in for a rough time."
+// Something that sounds natural and conveys that he's fucked, basically.
 WinMes06:
 chara_type 101
-Black cats, crows, hearses... 
-Something about walking under weeping willows too.
+Black cats, crows, hearses...
+Something about walking under weeping willows, too.
 It seems bad luck has cursed the both of us.
 \e
 
 WinMes07:
 chara_type 1
-Try harder next time. 
+Try harder next time.
 You know how it is these days...
-Appearances can be deceiving.
+Looks can be deceiving.
 Never know what'll turn out to be dangerous.
 \e
 
-// ‘ÎƒAƒ‹ƒNƒFƒCƒh Versus Arcueid
+// ï¿½ÎƒAï¿½ï¿½ï¿½Nï¿½Fï¿½Cï¿½h Versus Arcueid
 WinMes08:
 chara_type 103
-Whoa! That was dangerous! 
-You just don't know how to hold back, do you, Arcueid?
-So don't go picking fights just because you feel like it.
+Whoa! That was dangerous!
+Would it hurt you to hold back for once, Arcueid?
+You shouldn't go picking fights just because you feel like it.
 \e
 
-// ‘ÎƒVƒGƒ‹ Versus Ciel
+// ï¿½ÎƒVï¿½Gï¿½ï¿½ Versus Ciel
 WinMes09:
 chara_type 100
-Thanks, Ciel. 
-I really love the way you 
-always kind of hold back against me.
+Thanks, Ciel.
+I really love the way you always go kinda easy on me.
 \e
 
-// ‘ÎH—t Versus Akiha
+// ï¿½ÎHï¿½t Versus Akiha
 WinMes10:
 chara_type 103
-That was real close... 
+That was real close...
 Has Akiha been training in secret or something?
 \e
 
-// ‘ÎƒqƒXƒRƒn Versus Maids
+// ï¿½Îƒqï¿½Xï¿½Rï¿½n Versus Maids
 WinMes11:
 chara_type 101
-Sorry, you two! I promise to head back to the mansion 
-when I'm finished! I'll make this up to you then!
+Sorry, you two! I promise to head back to the mansion
+when I'm done here! I'll make it up to you then!
 \e
 
-// ‘ÎãÅ‰ Versus Kohaku
+// ï¿½ï¿½ï¿½Åï¿½ Versus Hisui
 WinMes12:
 chara_type 101
 I didn't realize there was a fake Hisui out there.
-Still, it doesn't feel right raising a hand against her. 
+Still, it doesn't feel right raising a hand against her.
 Sorry about that.
 \e
 
-// ‘Îàæàß Versus Kohaku
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Versus Kohaku
 WinMes13:
 chara_type 103
-You're just a fake Kohaku, aren't you? 
-I'll have to remember to apologize to the real 
+You're just a fake Kohaku, aren't you?
+I'll have to remember to apologize to the real
 one when I see her. Do you mind if we call it a day?
 \e
 
-// ‘ÎçaŠÔ Versus Kishima
+// ï¿½ï¿½ï¿½aï¿½ï¿½ Versus Kishima
 WinMes14:
 chara_type 1
 Who... was that...?
 I can't remember...
-It almost felt as if I was dreaming of the past...
+Almost as if a dream of the past came back to haunt me.
 \e
 
-// ‘ÎÂq Versus Aoko
+// ï¿½ÎÂq Versus Aoko
+// TODO: the "Sensei" is an annoying problem here.
+// I think it'd be good if we sat down and came up with some translations for it before merging.
+// I don't think a direct TL will do the trick, so "Teach" or something along those lines is off the table.
+// Although maybe "Mentor" would work, or something in that direction at least? idk will have to discuss it.
 WinMes15:
 chara_type 100
 And that's all I've learned.
-Don't worry, Aoko. I don't always 
-succeed, but I'll always try my best.
+Don't worry, Aoko. I don't always succeed,
+but I'll never back out without at least trying.
 \e
 
-// ‘Î•‘•ƒVƒGƒ‹ Versus Powered Ciel
+// ï¿½Î•ï¿½ï¿½ï¿½ï¿½Vï¿½Gï¿½ï¿½ Versus Powered Ciel
 WinMes16:
 chara_type 100
 I've learned a lot from this mock-battle.
-Matching my movements with yours was enjoyable, 
-almost like a waltz, even though we were fight against 
-each other, rather than together.
+I did my best to match my movements with yours,
+almost like a waltz. We may have been fighting
+against each other rather than together,
+but it was fun all the same.
 \e
 
-// 99‚Ü‚Å’Ç‰Á‰Â”\
+// 99ï¿½Ü‚Å’Ç‰ï¿½ï¿½Â”\
 
-// ‚R˜AŸE‚P‚O˜AŸê—pƒZƒŠƒt
+// ï¿½Rï¿½Aï¿½ï¿½ï¿½Eï¿½Pï¿½Oï¿½Aï¿½ï¿½ï¿½ï¿½pï¿½Zï¿½ï¿½ï¿½t
 
 WinMes3WinStreak00:
 chara_type 103
-Three wins already?! I had planned on going home early,
-but would you mind me sticking around for a bit longer?
+Three wins already?! I was planning on going home early,
+but you wouldn't mind if I stuck around a bit longer, right?
 \e
 
 WinMes10WinStreak00:

@@ -63,23 +63,23 @@ Never know what'll turn out to be dangerous.
 // �΃A���N�F�C�h Versus Arcueid
 WinMes08:
 chara_type 103
-Whoa! That was dangerous!
-Would it hurt you to hold back for once, Arcueid?
-You shouldn't go picking fights just because you feel like it.
+Whoa! I could've died there!
+Would it hurt to hold back for once, Arcueid?!
+Stop picking fights just because you feel like it.
 \e
 
 // �΃V�G�� Versus Ciel
 WinMes09:
 chara_type 100
 Thanks, Ciel.
-I really love the way you always go kinda easy on me.
+I really love how you always go kinda easy on me.
 \e
 
 // �ΏH�t Versus Akiha
 WinMes10:
 chara_type 103
 That was real close...
-Has Akiha been training in secret or something?
+Has she been training in secret or something?
 \e
 
 // �΃q�X�R�n Versus Maids
@@ -101,8 +101,8 @@ Sorry about that.
 WinMes13:
 chara_type 103
 You're just a fake Kohaku, aren't you?
-I'll have to remember to apologize to the real
-one when I see her. Do you mind if we call it a day?
+I'll have to remember to apologize to the real one
+when I see her. Do you mind if we call it a day?
 \e
 
 // ���a�� Versus Kishima

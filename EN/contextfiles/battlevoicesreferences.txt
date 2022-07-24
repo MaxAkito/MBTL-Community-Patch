@@ -5,8 +5,11 @@ Deciding Round Start: voice line played at the start of a deciding round (when b
 Round Win: voice line played after winning a round, but before the next starts.
 Deciding Win: voice line played after winning the battle.
 Time-out: voice line played after a time-out tie. DOES NOT HAVE SUBTITLES ENABLED.
-Narrow Win: voice line played after a close battle
-Easy Win: voice line played after a one-sided battle.
+Narrow: voice line played after a close battle
+Easy: voice line played after a one-sided battle.
+
+Heroine: category of (Arcueid (+Red), Ciel (+Powered), Akiha, Kohaku, Hisui, and Miyako. Tons of caveats.
+Vampire: category of Vlov, Roa and Dead Apostle Noel. Tons of caveats.
 
 
 Arcueid (000)
@@ -15,18 +18,18 @@ Arcueid (000)
 000_102 Entrance 3
 000_103 Entrance 4
 000_104 Entrance vs Vlov (response to　009_104)
-000_105 Entrance vs Shiki 1 (no set response)
-000_106 Entrance vs Shiki 2 (no set response)
-000_107 Entrance vs Red Arcueid (no set response)
+000_105 Entrance vs Shiki 1 (responded to by 003_107)
+000_106 Entrance vs Shiki 2 (responded to by 003_107)
+000_107 Entrance vs Red Arcueid (responded to by 010_102)
 000_108 Entrance 5
 000_109 Entrance 6
 000_630 Entrance vs Roa 1 (response to 005_105)
 000_631 Entrance vs Roa 2 (response to 005_105)
 000_632 Entrance vs Roa 3 (response to 005_105)
-000_650 Entrance vs Ciel 1 (no set response)
-000_651 Entrance vs Ciel 2 (no set response)
-000_652 Entrance vs Ciel 3 (no set response)
-000_653 Entrance vs Ciel 4 (no set response)
+000_650 Entrance vs Ciel 1 (random response from Ciel's vs Arcueid lines)
+000_651 Entrance vs Ciel 2 (random response from Ciel's vs Arcueid lines)
+000_652 Entrance vs Ciel 3 (random response from Ciel's vs Arcueid lines)
+000_653 Entrance vs Ciel 4 (random response from Ciel's vs Arcueid lines)
 000_680　Entrance vs Dead Apostle Noel (response to 014_112)
 000_681 Entrance vs Aoko 1 (response to　015_110)
 000_682 Entrance vs Aoko 2 (response to　015_111)
@@ -54,35 +57,82 @@ Arcueid (000)
 000_131 Deciding Win 2
 000_135 Deciding Win 3
 000_136 Deciding Win 4
-000_132 Deciding Win (Narrow Win)
-000_133 Deciding Win (Easy Win)
+000_132 Deciding Win (Narrow)
+000_133 Deciding Win (Easy)
 000_134 Deciding Win vs Roa 1
 000_640 Deciding Win vs Roa 2
 000_641 Deciding Win vs Roa 3 (duplicate of 000_131)
 000_621 Deciding Win vs Shiki 1 (duplicate of 000_130)
 000_622 Deciding Win vs Shiki 2
-000_623 Deciding Win vs Shiki (Narrow Win)
-000_624 Deciding Win vs Shiki (Easy Win)
+000_623 Deciding Win vs Shiki (Narrow)
+000_624 Deciding Win vs Shiki (Easy)
 000_665 Deciding Win vs Ciel & Powered Ciel 1
 000_666 Deciding Win vs Ciel & Powered Ciel 2
-000_668 Deciding Win vs Ciel & Powered Ciel (Narrow Win)
-000_669 Deciding Win vs Ciel & Powered Ciel (Easy Win)
+000_668 Deciding Win vs Ciel & Powered Ciel (Narrow)
+000_669 Deciding Win vs Ciel & Powered Ciel (Easy)
 000_150 Time-out 1
 000_151 Time-out 2
 
-
-
+Shiki (003)
+003_100 Entrance 1
+003_101 Entrance 2
+003_102 Entrance 3 
+003_103 Entrance 4 (ONLY USED AGAINST ROA, VLOV, AND EXLUSIVELY AGAINST RED ARCUEID)
+003_113 Entrance 5
+003_114 Entrance 6 (ONLY USED AGAINST ROA, VLOV)
+003_104 Entrance vs Akiha 1 (plays before or after 002_105 randomly)
+003_105 Entrance vs Akiha 2 (plays before or after 002_105 randomly)
+003_106 Entrance vs Hisui　(response to 001_105)
+003_107 Entrance vs Arcueid (response to 000_105 and 000_106)
+003_108 Entrance vs Ciel (response to　011_106) (ONLY PLAYS ON NIGHT STAGES)
+003_109　Entrance vs Noel (responded to by 008_104)
+003_650 Entrance vs Heroine (plays against heroines if he has no unique line to say)
+003_670 Entrance vs Dead Apostle Noel 1 (response to 014_111)
+003_671 Entrance vs Dead Apostle Noel 2 (responded to by 014_115) (very context heavy line)
+003_672 Entrance vs Aoko 1 (response to　015_112)
+003_673 Entrance vs Aoko 2 (response to　015_113)
+003_674 Entrance vs Aoko 3 (responded to　by 015_114)
+003_675 Entrance vs Powered Ciel 1 (responded to by 016_750)
+003_676 Entrance vs Powered Ciel 2 (response to 016_751)
+003_677 Entrance vs Mario (response to 017_119)
+003_110 Deciding Round Start 1
+003_111 Deciding Round Start 2
+003_111 Deciding Round Start 3
+003_120 Round Win 1
+003_121 Round Win 2
+003_122 Round Win 3
+003_123 Round Win 4
+003_652 Round Win vs Heroine 1 (duplicate of 003_120)
+003_653 Round Win vs Heroine 2
+003_654 Round Win vs Heroine 3
+003_655 Round Win vs Heroine 4
+003_680 Round Loss vs Aoko 1 (response to 015_140)
+003_681 Round Loss vs Aoko 2 (response to 015_141)
+003_682 Deciding Loss vs Aoko (response to 015_151)
+003_130 Deciding Win 1
+003_131 Deciding Win 2
+003_135 Deciding Win 3
+003_136 Deciding Win 4
+003_132 Deciding Win (Narrow)
+003_133 Deciding Win (Easy)
+003_656 Deciding Win vs Heroine 1
+003_657 Deciding Win vs Heroine 2
+003_658 Deciding Win vs Heroine (Narrow) (THIS IS CURRENTLY AN AMERICAN PSYCHO REFERENCE)
+003_659 Deciding Win vs Heroine (Easy)
+003_124 Deciding Win vs Vampire 1
+003_134 Deciding Win vs Vampire 2
+003_150 Time-out 1
+003_151 Time-out 2
 
 Saber (012)
-
 012_100 Entrance 1
 012_101 Entrance 2
 012_102 Entrance 3
 012_103 Entrance 4
-012_104 Entrance vs Hisui (response to 001_104)
-012_105 Entrance vs Arcueid (no set response)
 012_106 Entrance 5
 012_107 Entrance 6
+012_104 Entrance vs Hisui (response to 001_104)
+012_105 Entrance vs Arcueid (no set response)
 012_110 Deciding Round Start
 012_111 Deciding Round Start
 012_112 Deciding Round Start
@@ -92,8 +142,8 @@ Saber (012)
 012_123 Round Win 4
 012_130 Deciding Win 1
 012_131 Deciding Win 2
-012_132 Deciding Win (Narrow Win)
-012_133 Deciding Win (Easy Win)
+012_132 Deciding Win (Narrow)
+012_133 Deciding Win (Easy)
 012_135 Deciding Win 1 (duplicate)
 012_136 Deciding Win 3
 012_137 Deciding Win 4

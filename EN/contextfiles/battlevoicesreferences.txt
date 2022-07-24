@@ -1,12 +1,86 @@
+- Legend -
+Entrance: voice line played at the start of battle if no character specific lines are available.
+Entrance vs: voice line played at the start of battle in specific character match-ups.
+Deciding Round Start: voice line played at the start of a deciding round (when both players would lose the battle if they lose the round). DOES NOT HAVE SUBTITLES ENABLED.
+Round Win: voice line played after winning a round, but before the next starts.
+Deciding Win: voice line played after winning the battle.
+Time-out: voice line played after a time-out tie. DOES NOT HAVE SUBTITLES ENABLED.
+Narrow Win: voice line played after a close battle
+Easy Win: voice line played after a one-sided battle.
 
-Saber
+
+Arcueid (000)
+000_100 Entrance 1
+000_101 Entrance 2
+000_102 Entrance 3
+000_103 Entrance 4
+000_104 Entrance vs Vlov (response to　009_104)
+000_105 Entrance vs Shiki 1 (no set response)
+000_106 Entrance vs Shiki 2 (no set response)
+000_107 Entrance vs Red Arcueid (no set response)
+000_108 Entrance 5
+000_109 Entrance 6
+000_630 Entrance vs Roa 1 (response to 005_105)
+000_631 Entrance vs Roa 2 (response to 005_105)
+000_632 Entrance vs Roa 3 (response to 005_105)
+000_650 Entrance vs Ciel 1 (no set response)
+000_651 Entrance vs Ciel 2 (no set response)
+000_652 Entrance vs Ciel 3 (no set response)
+000_653 Entrance vs Ciel 4 (no set response)
+000_680　Entrance vs Dead Apostle Noel (response to 014_112)
+000_681 Entrance vs Aoko 1 (response to　015_110)
+000_682 Entrance vs Aoko 2 (response to　015_111)
+000_683 Entrance vs Powered Ciel (response to 016_700)
+000_684 Entrance vs Mario (response to 017_120)
+000_110 Deciding Round Start
+000_111 Deciding Round Start
+000_112 Deciding Round Start
+000_120 Round Win 1
+000_121 Round Win 2
+000_122 Round Win 3
+000_123 Round Win 4
+000_124 Round Win vs Shiki 1
+000_620 Round Win vs Shiki 2
+000_125 Round Win vs Roa 1
+000_635 Round Win vs Roa 2
+000_636 Round Win vs Roa 3
+000_637 Round Win vs Roa 4 (duplicate of 000_122)
+000_638 Round Win vs Roa 5 
+000_660 Round Win vs Ciel & Powered Ciel 1
+000_661 Round Win vs Ciel & Powered Ciel 2
+000_662 Round Win vs Ciel & Powered Ciel 3
+000_663 Round Win vs Ciel & Powered Ciel 4 (duplicate of 000_123)
+000_130 Deciding Win 1
+000_131 Deciding Win 2
+000_135 Deciding Win 3
+000_136 Deciding Win 4
+000_132 Deciding Win (Narrow Win)
+000_133 Deciding Win (Easy Win)
+000_134 Deciding Win vs Roa 1
+000_640 Deciding Win vs Roa 2
+000_641 Deciding Win vs Roa 3 (duplicate of 000_131)
+000_621 Deciding Win vs Shiki 1 (duplicate of 000_130)
+000_622 Deciding Win vs Shiki 2
+000_623 Deciding Win vs Shiki (Narrow Win)
+000_624 Deciding Win vs Shiki (Easy Win)
+000_665 Deciding Win vs Ciel & Powered Ciel 1
+000_666 Deciding Win vs Ciel & Powered Ciel 2
+000_668 Deciding Win vs Ciel & Powered Ciel (Narrow Win)
+000_669 Deciding Win vs Ciel & Powered Ciel (Easy Win)
+000_150 Time-out 1
+000_151 Time-out 2
+
+
+
+
+Saber (012)
 
 012_100 Entrance 1
 012_101 Entrance 2
 012_102 Entrance 3
 012_103 Entrance 4
 012_104 Entrance vs Hisui (response to 001_104)
-012_105 Entrance vs Arcueid (no response)
+012_105 Entrance vs Arcueid (no set response)
 012_106 Entrance 5
 012_107 Entrance 6
 012_110 Deciding Round Start
@@ -26,4 +100,4 @@ Saber
 012_150 Time-out 1
 012_151 Time-out 2
 
-Miyako
+Miyako (013)

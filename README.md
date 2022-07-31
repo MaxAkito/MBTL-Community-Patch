@@ -142,10 +142,10 @@ Has an incredibly rude way of speaking. Swears a lot. His speech is full of vulg
 
 Calls people by demeaning nicknames. Calls Noel "fatass" (ﾌﾞﾀ).
 
-### Neco-Arc (018)
+#### Neco-Arc (018)
 Annoying cat (placeholder)
 
-### Matthew Kyrielight (019)
+#### Matthew Kyrielight (019)
 Reserved but assertive kouhai (placeholder) 
 
 #### Archetype:EARTH (0??)

@@ -142,6 +142,12 @@ Has an incredibly rude way of speaking. Swears a lot. His speech is full of vulg
 
 Calls people by demeaning nicknames. Calls Noel "fatass" (ﾌﾞﾀ).
 
+### Neco-Arc (018)
+Annoying cat (placeholder)
+
+### Matthew Kyrielight (019)
+Reserved but assertive kouhai (placeholder) 
+
 #### Archetype:EARTH (0??)
 Speaks in archaic English (approx, Victorian English). Uses antiquated grammatical expressions alongside old pronouns.
 
@@ -223,6 +229,8 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Aoko      (015) | Play-testing adjustments (Petri) |
 | P. Ciel   (016) | Play-testing adjustments (Petri) |
 | Mario     (017) | Play-testing adjustments (Petri) |
+| Neco-Arc  (018) | Play-testing adjustments (Petri) |
+| Matthew   (019) | Play-testing adjustments (Petri) |
 
 ### Win-quotes
 
@@ -246,6 +254,8 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Aoko      (015) | Play-testing adjustments (Petri) |
 | P. Ciel   (016) | Play-testing adjustments (Petri) |
 | Mario     (017) | Play-testing adjustments (Petri) |
+| Neco-Arc  (018) | N/A                              |
+| Matthew   (019) | N/A                              |
 
 ### Strings
 

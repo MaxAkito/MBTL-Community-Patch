@@ -128,7 +128,7 @@ but I never go down without a fight.
 // �Ε����V�G�� Versus Powered Ciel
 WinMes16:
 chara_type 100
-I learned a lot from this mock battle.
+Thanks, this mock battle taught me a lot.
 I did my best to match my movements with yours, like a waltz.
 We may have been fighting against each other rather than
 with each other this time, but it was fun all the same.

@@ -46,12 +46,13 @@ Ugh, this sucks!
 \\@CHARA_IN@< 0, 3, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0010", 100>
 Shiki
-This is exactly what I was talking about.
+This is EXACTLY what I was talking about.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0011", 100>
 Shiki
-A super suspicious person blatantly peeking into our mansion.
+We've got a super suspicious person blatantly peeking
+into our mansion.
 
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 4>
@@ -79,7 +80,7 @@ in their attractive teacher's private life, I really do...
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0017", 100>
 Noel
 But stalking me on my night job?
-That's really naughty behaviour, young man.
+That's really naughty behaviour, mister.
 \l
 
 \\@CHARA_IN@< 1, 8, 300, 0, 1>
@@ -101,20 +102,20 @@ Shiki
 \\@CHARA_IN@< 1, 8, -1, 22, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0019", 100>
 Noel
-Time out, time out! I know I look really suspicious right now,
-but hear me out! Don't jump to conclusions!
+U-Uhm... I know I look really suspicious right now,
+but don't jump to conclusions, okay?
 \l
 
 \\@CHARA_IN@< 1, 8, 9, 32, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0020", 100>
 Noel
-Oh well. I guess this saves us some time.
+Oh well. On second thought, I guess this saves us some time.
 \l
 
 \\@CHARA_IN@< 1, 8, 0, 32, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0021", 100>
 Noel
-There's no point in hiding now that I've been found out.
+No point hiding now that I've been found out!
 \l
 
 \\@CHARA_IN@< 1, 8, 1, 32, 1>

@@ -48,9 +48,8 @@ That was when it happened.
 \\@SQ_CALL@<2>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0035", 100>
-I heard a loud "crack".
-Almost as if a vessel, one that may have once
-been called Shiki Tohno, mashed against the ground
+I heard a loud "crack". Almost as if a vessel, one that may
+have once been called Shiki Tohno, smashed against the ground
 and broke apart, never to be whole again.
 \l
 

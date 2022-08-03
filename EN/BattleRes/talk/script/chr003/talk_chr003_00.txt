@@ -38,7 +38,7 @@ But there's no way I can do that.
 \\@CHARA_IN@< 0, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0003", 100>
 Shiki
-Not as the only man in the house, anyway.
+Not as the only man in the house.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0004", 100>
@@ -52,6 +52,7 @@ they can depend on me as the eldest son.
 Shiki
 And the best way to do that right now would be to patrol
 around the mansion and deal with any trouble I find.
+\l
 
 \\@BGM_STOP@<0>
 \e

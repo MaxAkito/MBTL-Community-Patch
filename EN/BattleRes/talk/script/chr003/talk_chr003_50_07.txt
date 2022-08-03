@@ -14,68 +14,67 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0020", 100>
 Shiki
 So you're the one behind this whole vampire mess?
-You've been acting pretty brazenly, haven't you?
+Not really trying to hide it, are you?
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0020", 100>
 Volv
-You think this smoldering city... is my work...?
-What an unfounded and odd provocation... murderer.
+You think this smoldering city is my work?
+What an unfounded and odd provocation, murderer.
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0021", 100>
 Volv
-It makes me more sad than it does upset...
+It makes me more mournful than upset.
 After all, one cannot stay angry at a fool.
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0021", 100>
 Shiki
-Really now? Sorry to disappoint, but I 
-don't really care what you think of me.
+Really now? Hate to break it to you,
+but I really don't care what you think of me.
 \l
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0022", 100>
 Shiki
-The mere sight of a vampire is almost 
-enough to make me lose myself in anger.
+The mere sight of a vampire's almost enough
+to make me lose it.
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0022", 100>
 Volv
-I see... It appears you have a wound that 
-you cannot forget, yet cannot recall either.
+I see. It appears you have a wound you cannot forget,
+yet cannot recall either.
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0023", 100>
 Volv
-How pitiful... Such fury that it compels you to
-challenge even a Dead Apostle... despite that 
-you are but merely human.
+How pitiful. It brings you such fury it compels you
+to challenge even a Dead Apostle, despite the fact
+you are merely human.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0024", 100>
 Volv
-I could not turn down such a challenge... now could I?
+I could not turn down such a challenge, now could I?
 \l
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0025", 100>
 Volv
-Come at me, blood-bag...
+Come, blood bag.
 I shall gratefully accept your scorching blood.
 \l
 
-\\@CHARA_IN@< 0, 3, 102, 0, 1>//“{‚è2
+\\@CHARA_IN@< 0, 3, 102, 0, 1>//ï¿½{ï¿½ï¿½2
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0023", 100>
 Shiki
-Say whatever you want. What I'm going to give you 
-is neither warm nor cold. It is simply death.
-
+Sorry to disappoint, but what I've got in store for you
+is neither warm nor cold. It's simply death.
 
 \\@BGM_STOP@<0>
 \e

@@ -18,16 +18,15 @@
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0030", 100>
 Arcueid
-*sigh* I've made all this fuss and he still
-won't show himself. Does his current self have
-more restraint than usual?
+Sigh. I've made all this ruckus and he's still
+not showing himself. Does his current self have
+more restraint than usual or something?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0031", 100>
 Arcueid
-Well, I've got no other choice but to search
-the hard way. Hate how I have to go about it
-like a human would.
+Guess I'm doing this the hard way.
+Hate how I have to go about it like a human would.
 \l
 
 \\@GO_SUB@<"QUAKE_1">
@@ -40,26 +39,26 @@ I almost fell!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0033", 100>
 Arcueid
-Strange... I don't come with pointless
-functions like tripping over rocks.
+That's strange. I don't come with pointless features
+like rock-tripping.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0034", 100>
 Arcueid
-Seems I still haven't recovered
+Seems I still haven't fully recovered
 from those wounds I got from Vlov.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0035", 100>
 Arcueid
-But what is this...?
-My heart is beating weirdly fast.
+But what is this?
+Why is my heart beating so rapidly?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0036", 100>
 Arcueid
-Heheh, maybe it's a sign that I'll find
-Roa tomorrow. That'd be great.
+Hehe. I wonder if this is a sign I'll find
+Roa tomorrow. It'd be great if it was.
 
 
 \\@SYSTEM@<21>

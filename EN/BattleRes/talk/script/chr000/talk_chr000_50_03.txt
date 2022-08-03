@@ -15,28 +15,29 @@
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0000", 100>
 Noel
-Whoa! A True Ancestor?! Wait-wait-wait!
-This isn't part of my job description!
+Whoa! A True Ancestor?! Wait, wait, wait!
+This wasn't in my job description!
 
 \\@CHARA_IN@< 0, 0, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0010", 100>
 Arcueid
-An Executor of the Church...? I'm impressed you've
-survived up until now with your capabilities.
+An Executor of the Church? I'm impressed you've
+survived up till now with your capabilities.
 \l
 
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0011", 100>
 Arcueid
-I doubt you'll prove much trouble,
-so I could pretend I never saw you, but...
+I doubt you'll get in the way, so I cooouuuld
+pretend I never saw you, but...
 \l
 
 \\@CHARA_IN@< 0, 0, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0012", 100>
 Arcueid
-Yeah. You reek of someone I happen to hate!
+Mhm. Yeah. You reek of someone
+I just so happen to DESPISE!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0013", 100>
@@ -51,24 +52,24 @@ Guess I'll get rid of you after all!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0001", 100>
 Noel
 Eeep! Wait! You've got the wrong person!
-Our names are similar, but our personalities
-are complete opposites!
+Our names are the only thing that's similar!
+We couldn't be any more different!
 \l
 
 \\@CHARA_IN@< 0, 0, 9, 0, 1>
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0002", 100>
 Noel
-Oh no, the True Ancestor has
-already made up her mind about this!
+Oh no, she's already made up her mind!
+There's no way she'll budge!
 \l
 
 \\@CHARA_IN@< 1, 8, 4, 32, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0003", 100>
 Noel
-Ugh, if that's the case, so be it! But don't
-underestimate how strong even an unsightly
-nobody can be!
+Ugh, if that's how you wanna do it, fine!
+But don't underestimate how strong even
+an unsightly nobody can be!
 
 \\@BGM_STOP@<0>
 \e

@@ -13,58 +13,60 @@
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0000", 100>
 Volv
-That soul... pale as the sacred mountains...
+That soul, pale as the sacred mountains...
 There's no doubt about it.
 We finally meet, Princess of the True Ancestors.
 
 \\@CHARA_IN@< 0, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0020", 100>
 Arcueid
-Who are you? Not a Dead Apostle I've seen before,
-at least. Some newbie who just popped up in these
-last hundred years?
+And you are? I've never met you before.
+Are you some rookie Dead Apostle who popped up
+in the last hundred years?
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0001", 100>
 Volv
-Vlov Arkhangel...
+Vlov Arkhangel.
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0002", 100>
 Volv
-We've met before, just once...
-I've been in pursuit of your shadow
-from across the distant ocean...
+We've met before, just once.
+I've been in pursuit of your shadow from across
+the distant ocean ever since.
 \l
 
+// TODO: Tackle this line again once I've got a better feel for
+//       Vlov's register.
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0003", 100>
 Volv
-But neither of us need stay here for long...
-This city is warm of rot... yet cold like the void.
+But neither of us need to remain here for long.
+This city is warm of rot, yet cold like the void.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0004", 100>
 Volv
-I shall sever your head and be rewarded with your
-heart... With that... my illness shall surely heal.
+I shall sever your head and be rewarded with your heart.
+With that, my illness shall surely heal.
 
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0021", 100>
 Arcueid
-I see. I wasn't really planning on it,
-but if you want to die so badly, I'll help you out.
+Oh, really? You weren't on my to-do list, but if you
+wanna die that badly, I'll gladly give you a hand!
 \l
 
 \\@CHARA_IN@< 0, 0, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0022", 100>
 Arcueid
-Don't worry, I won't leave any traces of you behind.
-You know, out of consideration for your reckless
-bravery in facing me head-on.
+Don't worry, I'll make sure not even ashes remain.
+You know, out of consideration for your reckless bravery.
+Not many are stupid enough to challenge ME head-on.
 
 \\@BGM_STOP@<0>
 \e

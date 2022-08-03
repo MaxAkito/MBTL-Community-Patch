@@ -15,7 +15,7 @@
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0000", 100>
 Arcueid
-Unbelievable. Talk about a conversion. Why would a 
+Unbelievable. Talk about a conversion. Why would a
 priest pick this Far East island to reincarnate?
 \l
 
@@ -29,7 +29,7 @@ here perhaps? Oh well, it doesn't really concern me.
 \\@CHARA_IN@< 0, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0002", 100>
 Arcueid
-It's a small city; it won't even take 3 days to 
+It's a small city; it won't even take 3 days to
 smoke him out. Just you wait, Roa. I'll take care
 of you in no time.
 

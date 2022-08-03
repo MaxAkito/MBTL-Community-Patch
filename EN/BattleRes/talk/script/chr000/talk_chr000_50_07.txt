@@ -21,7 +21,7 @@ We finally meet, Princess of the True Ancestors.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0020", 100>
 Arcueid
 Who are you? Not a Dead Apostle I've seen before,
-at least. Some newbie who just popped up in these 
+at least. Some newbie who just popped up in these
 last hundred years?
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
@@ -34,7 +34,7 @@ Vlov Arkhangel...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0002", 100>
 Volv
 We've met before, just once...
-I've been in pursuit of your shadow 
+I've been in pursuit of your shadow
 from across the distant ocean...
 \l
 
@@ -48,7 +48,7 @@ This city is warm of rot... yet cold like the void.
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0004", 100>
 Volv
-I shall sever your head and be rewarded with your 
+I shall sever your head and be rewarded with your
 heart... With that... my illness shall surely heal.
 
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
@@ -63,7 +63,7 @@ but if you want to die so badly, I'll help you out.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0022", 100>
 Arcueid
 Don't worry, I won't leave any traces of you behind.
-You know, out of consideration for your reckless 
+You know, out of consideration for your reckless
 bravery in facing me head-on.
 
 \\@BGM_STOP@<0>

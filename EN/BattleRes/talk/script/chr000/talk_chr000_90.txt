@@ -18,15 +18,15 @@
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0030", 100>
 Arcueid
-*sigh* I've made all this fuss and he still 
+*sigh* I've made all this fuss and he still
 won't show himself. Does his current self have
 more restraint than usual?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0031", 100>
 Arcueid
-Well, I've got no other choice but to search 
-the hard way. Hate how I have to go about it 
+Well, I've got no other choice but to search
+the hard way. Hate how I have to go about it
 like a human would.
 \l
 
@@ -46,7 +46,7 @@ functions like tripping over rocks.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0034", 100>
 Arcueid
-Seems I still haven't recovered 
+Seems I still haven't recovered
 from those wounds I got from Vlov.
 \l
 

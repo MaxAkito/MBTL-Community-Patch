@@ -3,7 +3,7 @@ WinMesScript
 WinMes00:
 chara_type 100
 That's a wrap!
-Let's keep going! ô
+Let's keep going! ï¿½ï¿½
 \e
 
 WinMes01:
@@ -20,14 +20,14 @@ Maybe try again in your next life.
 WinMes03:
 chara_type 102
 Still not giving up? Fine...
-I'll just have to break you a little more 
+I'll just have to break you a little more
 savagely next time. You know, as a vampire should.
 \e
 
 WinMes04:
 chara_type 102
-Why don't I drink your blood? Very funny. 
-I would appreciate it if you didn't mistake 
+Why don't I drink your blood? Very funny.
+I would appreciate it if you didn't mistake
 me for those other third-rate vampires.
 \e
 
@@ -41,29 +41,29 @@ I'll look forward to next time, if there is one.
 
 WinMes06:
 chara_type 104
-Perhaps I've stayed out in the sun too long. 
-You were so weak... The fact that this even qualified 
+Perhaps I've stayed out in the sun too long.
+You were so weak... The fact that this even qualified
 as a fight must mean my performance is dropping.
 \e
 
 WinMes07:
 chara_type 103
-Oh, done already? 
+Oh, done already?
 Not as strong as you look, are you?
 \e
 
 WinMes08:
 chara_type 100
-Ahh, that felt great! ô
-Like that feeling you get standing under 
-a blue sky after deflecting a missile, you know? 
-Not that I've ever done that. 
+Ahh, that felt great! ï¿½ï¿½
+Like that feeling you get standing under
+a blue sky after deflecting a missile, you know?
+Not that I've ever done that.
 \e
 
 WinMes09:
 chara_type 100
-You wanna go again? 
-It was pretty fun, but if we're doing 
+You wanna go again?
+It was pretty fun, but if we're doing
 one more I'll hand your ass to you!
 \e
 
@@ -80,23 +80,23 @@ Jump, turn around, throw a punch, and it's over.
 Hmmmm, is this what dancing at a ball is like?
 \e
 
-// ‘Îu‹M Versus Shiki
+// ï¿½Îuï¿½M Versus Shiki
 WinMes12:
 chara_type 0
 Heheh. So, impressed or what?
-Even if you get serious, Shiki, I'm not losing again ô
+Even if you get serious, Shiki, I'm not losing again ï¿½ï¿½
 \e
 
-// ‘Îƒ”ƒ[ƒ” Versus Vlov
+// ï¿½Îƒï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ Versus Vlov
 WinMes13:
 chara_type 103
-You may have just became an Ancestor, 
+You may have just became an Ancestor,
 but you should still know some manners.
-Otherwise it reflects poorly on the 
+Otherwise it reflects poorly on the
 sire who bequeathed you their Principle.
 \e
 
-// ‘ÎH—t Versus Akiha
+// ï¿½ÎHï¿½t Versus Akiha
 WinMes14:
 chara_type 100
 You're getting sharper by the day.
@@ -104,16 +104,16 @@ Shiki might be bothered by it, but
 I'm happy to have more playmates.
 \e
 
-// ‘ÎƒVƒGƒ‹ Versus Ciel
+// ï¿½ÎƒVï¿½Gï¿½ï¿½ Versus Ciel
 WinMes15:
 chara_type 101
 Ugh, how annoying. It never ends!
 Just go away already, Ciel.
-Keep this up, and the casualties 
+Keep this up, and the casualties
 won't stop at just you.
 \e
 
-// ‘ÎƒƒA Versus Roa
+// ï¿½Îƒï¿½ï¿½A Versus Roa
 WinMes16:
 chara_type 103
 Farewell, my very first! Were you satisfied?
@@ -121,16 +121,16 @@ Not only did I spill your blood this time,
 but I tore you apart completely, soul included!
 \e
 
-// ‘ÎçaŠÔ Versus Kouma
+// ï¿½ï¿½ï¿½aï¿½ï¿½ Versus Kouma
 WinMes17:
 chara_type 103
 You're... a Japanese Mixblood?
-There's some human mixed in, but the quality of 
-your blood is on par with a Phantasmal Beast. 
+There's some human mixed in, but the quality of
+your blood is on par with a Phantasmal Beast.
 How do you maintain that?!
 \e
 
-// ‘Î•‘•ƒVƒGƒ‹ Versus Powered Ciel
+// ï¿½Î•ï¿½ï¿½ï¿½ï¿½Vï¿½Gï¿½ï¿½ Versus Powered Ciel
 WinMes18:
 chara_type 102
 Oh c'mon! Don't get all serious ahead of me!
@@ -138,10 +138,10 @@ I'm still just a graceful little vampire!
 I'm not gonna go berserk thaaat easily!
 \e
 
-// 99‚Ü‚Å’Ç‰Á‰Â”\
+// 99ï¿½Ü‚Å’Ç‰ï¿½ï¿½Â”\
 
 
-// ‚R˜AŸE‚P‚O˜AŸê—pƒZƒŠƒt (win streak messages)
+// ï¿½Rï¿½Aï¿½ï¿½ï¿½Eï¿½Pï¿½Oï¿½Aï¿½ï¿½ï¿½ï¿½pï¿½Zï¿½ï¿½ï¿½t (win streak messages)
 
 WinMes3WinStreak00:
 chara_type 0
@@ -156,7 +156,7 @@ Ahhh... feels so great, you know?!
 \e
 
 
-//‰B‚µƒLƒƒƒ‰‰ğ•útest (dummy)
+//ï¿½Bï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½test (dummy)
 UnlockMes00:
 unlock message
 \e

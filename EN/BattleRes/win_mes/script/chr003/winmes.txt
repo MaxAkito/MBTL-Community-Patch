@@ -89,7 +89,7 @@ Has she been training in secret or something?
 WinMes11:
 chara_type 101
 Sorry, you two! I promise to head back to the mansion
-when I'm done here! I'll make it up to you then!
+when I'm done! I'll make it up to you then!
 \e
 
 // ���Ő� Versus Hisui

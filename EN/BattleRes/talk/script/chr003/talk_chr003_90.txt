@@ -13,25 +13,26 @@
 \\@CHARA_IN@< 0, 3, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0030", 100>
 Shiki
-Phew... Guess I pulled it off.
+Phew... I somehow pulled it off.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0031", 100>
 Shiki
-It wasn't exactly intentional, but I hope I never
-have to fight a monster like that ever again.
+I wasn't exactly planning on it, but I could do without
+having to face off against another monster like that
+in my life.
 \l
 
 \\@CHARA_IN@< 0, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0032", 100>
 Shiki
-Damn, my body feels heavy. I had my glasses
-off for too long. I'm going to have trouble 
-getting home like this.
+Damn, I'm feeling really sluggish.
+I had my glasses off for too long.
+I don't think I can make it home like this.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0033", 100>
 Shiki
-I'll just rest for a bit longer on this bench...
+I'll just rest up on this bench for a little bit.
 
 \\@CHARA_OUT@<0, -1, -1, 0, 0>
 \aw
@@ -41,22 +42,22 @@ I'll just rest for a bit longer on this bench...
 \aw
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0034", 100>
-That was when...
+That was when it happened.
 \l
 
 \\@SQ_CALL@<2>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0035", 100>
-I heard a noise that sounded as if a vessel, perhaps 
-one named Shiki Tohno, broke against the ground,
-never to be whole again.
+I heard a loud "crack". Almost as if a vessel, one that may
+have once been called Shiki Tohno, smashed against the ground
+and broke apart, never to be whole again.
 \l
 
 \\@BGM_PLAY@<0, 77, 100>
 \\@SQ_CALL@<3>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0036", 100>
-My pulse suddenly quickened.
+My pulse started racing.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0037", 100>
@@ -64,27 +65,28 @@ My body was going at full spin.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0038", 100>
-My veins, even my arteries, 
-all flared into great activity.
+My veins, even my arteries, all flared up,
+bustling with unlimited energy.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0039", 100>
-My mind began breaking apart, more and more, as I
-saw a dream-like vision that set my spine alight.
+Cracks were forming in my mind, and as it kept violently
+splitting apart, I saw a vision that set my spine alight.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0040", 100>
 Shiki
-...Agh...
+Agh...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0041", 100>
 The night was not over yet.
 \l
 
+// TODO: vampires -> bloodsuckers?
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0042", 100>
-It was only from that moment onward that my destiny 
-became TRULY intertwined with that of vampires.
+That was the moment where my destiny TRULY became
+intertwined with that of the vampires.
 
 \\@BGM_STOP@<0>
 \e

@@ -16,15 +16,15 @@
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0000", 100>
 Shiki
-What an ominous moon... If I don't keep it
-together, I'll start seeing lines everywhere.
+What an ominous moon. If I don't keep it together,
+I'll start seeing lines everywhere.
 \l
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0001", 100>
 Shiki
-On nights like these, it would be prudent
-to stay inside and wait for morning.
+On nights like these, it'd be wise to stay
+holed up at home until morning.
 \l
 
 \\@CHARA_IN@< 0, 3, 4, 0, 1>
@@ -32,26 +32,27 @@ to stay inside and wait for morning.
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0002", 100>
 Shiki
-But I can't afford to do that.
+But there's no way I can do that.
 \l
 
 \\@CHARA_IN@< 0, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0003", 100>
 Shiki
-I am the only man in the house, after all.
+Not as the only man in the house.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0004", 100>
 Shiki
-Also, I really wanna show the others that I can 
-be depended on as the elder brother that I am.
+It'd be really nice if I could show the others
+they can depend on me as the eldest son.
 \l
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0005", 100>
 Shiki
-Right now, that means patrolling the area 
-around the mansion for any signs of trouble.
+And the best way to do that right now would be to patrol
+around the mansion and deal with any trouble I find.
+\l
 
 \\@BGM_STOP@<0>
 \e

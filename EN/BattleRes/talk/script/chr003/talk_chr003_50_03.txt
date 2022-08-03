@@ -16,7 +16,7 @@
 \\@CHARA_IN@< 1, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0010", 100>
 Noel
-Hmm... 
+Hmm...
 I can kinda see in, but not really...
 I can kinda enter, but not really...
 \l
@@ -24,21 +24,21 @@ I can kinda enter, but not really...
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0011", 100>
 Noel
-What is up with this mansion...?
+What's wrong with this mansion?
 \l
 
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0012", 100>
 Noel
-They even have a whole home security system...
-Who do they think they are, combining this modern 
-stuff with the lay of the land?!
+They even installed a whole home security system...
+Who do they think they are, combining this modern junk
+with the lay of the land?!
 \l
 
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0013", 100>
 Noel
-Why can't they rely more on something magecrafty?! 
+Why can't they rely more on old fashioned magecraft?!
 Ugh, this sucks!
 
 \\@CHARA_IN@< 0, 3, 0, 1, 0>
@@ -46,82 +46,83 @@ Ugh, this sucks!
 \\@CHARA_IN@< 0, 3, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0010", 100>
 Shiki
-And there they are...
+This is EXACTLY what I was talking about.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0011", 100>
 Shiki
-Someone super suspicious...
-Flagrantly peeking into our mansion...
+We've got a super suspicious person blatantly peeking
+into our mansion.
 
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0014", 100>
 Noel
-Wha-?! Oh, wait, that unassuming appearance, yet deep
-and chilling killer sight. It could only be one person...
+Wha?! Hang on... That bland, everyday teen appearance
+with killer eyes that sends chills up your spine!
+Yeah, only one person fits that bill...
 \l
 
 \\@CHARA_IN@< 1, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0015", 100>
 Noel
-Hello there, Shiki!
+Hey there, Shiki!
 \l
 
 \\@CHARA_IN@< 1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0016", 100>
 Noel
-I understand that it's only natural to wonder about
-your attractive teacher's private life...
+I understand that every boy your age is really interested
+in their attractive teacher's private life, I really do...
 \l
 
 \\@CHARA_IN@< 1, 8, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0017", 100>
 Noel
-But stalking me to see where I work at night? 
-That's some real delinquent behavior there, you know.
+But stalking me on my night job?
+That's really naughty behaviour, mister.
 \l
 
 \\@CHARA_IN@< 1, 8, 300, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0018", 100>
 Noel
-Or are you here for some... 
-illicit... extra-curricular activities?
+Or were you perhaps looking for more...
+"illicit" extra-curricular activities?
+\l
 
 \\@CHARA_OUT@< 0, 3, 2, 0, 0>
 \aw
 \\@CHARA_IN@< 0, 3, 103, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0012", 100>
 Shiki
-......
-
+...
+\l
 
 \\@CHARA_IN@< 1, 8, 11, 0, 1>
 \\@CHARA_IN@< 1, 8, -1, 22, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0019", 100>
 Noel
-Whoa! Hold on! I know this looks suspicious,
-but aren't you jumping the gun a bit here?!
+U-Uhm... I know I look really suspicious right now,
+but don't jump to conclusions, okay?
 \l
 
 \\@CHARA_IN@< 1, 8, 9, 32, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0020", 100>
 Noel
-Oh well, I suppose this'll save time in the long run.
+Oh well. On second thought, I guess this saves us some time.
 \l
 
 \\@CHARA_IN@< 1, 8, 0, 32, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0021", 100>
 Noel
-There's no point in hiding now that I've been found out.
+No point hiding now that I've been found out!
 \l
 
 \\@CHARA_IN@< 1, 8, 1, 32, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0022", 100>
 Noel
-Guess I'll juuust have to crush your limbs a little
-so I can bring you in for interrogation. 
-
+Guess I'll juuust have to crush a couple bones
+so I can take you in for questioning!
 
 \\@BGM_STOP@<0>
 \e

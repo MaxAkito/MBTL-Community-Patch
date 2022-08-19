@@ -1,28 +1,44 @@
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg06", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
-\aw
-
-\\@CHARA_IN@<0, 6, 0, 1, 0>
-\\@CHARA_IN@<1, 9, 0, 2, 0>
+// \\@SYSTEM@<1>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
 
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 6, 0, 1, 0>
+\\@CHARA_IN@<1, 9, 0, 2, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<5, 9, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//vlov
+\\@CHARA_SET_PATTERN@<5, 0>//vlov
+
+\\@NPC_LOAD_SYNC@<4, 6, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//kishima
+\\@CHARA_SET_PATTERN@<4, 1>//kishima
+
 \\@CHARA_IN@< 0, 6, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0020", 100>
+\\@TEXT_ID@<10>
 Kishima
 おい、そこのマタギ。暖はいるか。
 その体、熱を失ってもう何年になる？
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0030", 100>
+\\@TEXT_ID@<20>
 Volv
 ……百年程度だ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0031", 100>
+\\@TEXT_ID@<30>
 Volv
 ご当主の苦しみに比べれば、
 まだ情けを受けるには早すぎる。
@@ -30,17 +46,20 @@ Volv
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0032", 100>
+\\@TEXT_ID@<40>
 Volv
 だが―――
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0033", 100>
+\\@TEXT_ID@<50>
 Volv
 貴様の炎を喰らう事に、異論はない。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0034", 100>
+\\@TEXT_ID@<60>
 Volv
 おれの《貌＜すがた＞を見て、
 貴様は何も感じなかった。
@@ -48,11 +67,14 @@ Volv
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0035", 100>
+\\@TEXT_ID@<70>
 Volv
 ……そうだ。武人とは、そうでなくてはな。
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0021", 100>
+\\@TEXT_ID@<80>
 Kishima
 あとからついてきた武だが、
 その程度でいいのなら振る舞おう。
@@ -60,6 +82,7 @@ Kishima
 
 \\@CHARA_IN@< 0, 6, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0022", 100>
+\\@TEXT_ID@<90>
 Kishima
 オレの名を覚えておけ。
 軋間紅摩。おまえを、骨まで灼く男だ。
@@ -67,3 +90,4 @@ Kishima
 
 \\@BGM_STOP@<0>
 \e
+

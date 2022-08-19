@@ -1,0 +1,33 @@
+CmdList <- 0
+
+local tbl = [];
+
+tbl.append( { type = 1, text = "/sys_n", info = "/sys_i"  } );
+
+tbl.append( { type = 1, text = "/atka_n", cmd = "/atka_c", info = "/atka_i" } );//弱攻撃
+tbl.append( { type = 1, text = "/atkb_n", cmd = "/atkb_c", info = "/atkb_i" } );//中攻撃
+tbl.append( { type = 1, text = "/atkc_n", cmd = "/atkc_c", info = "/atkc_i" } );//強攻撃
+tbl.append( { type = 1, text = "/shie_n", cmd = "/shie_c", info = "/shie_i" } );//シールド
+
+tbl.append( { type = 1, text = "/walk_n", cmd = "/walk_c", info = "/walk_i" } );//歩き
+tbl.append( { type = 1, text = "/croc_n", cmd = "/croc_c", info = "/croc_i" } );//しゃがみ
+tbl.append( { type = 1, text = "/jump_n", cmd = "/jump_c", info = "/jump_i" } );//ジャンプ
+tbl.append( { type = 1, text = "/jum2_n", cmd = "/jum2_c", info = "/jum2_i" } );//二段ジャンプ
+tbl.append( { type = 1, text = "/hjum_n", cmd = "/hjum_c", info = "/hjum_i" } );//ハイジャンプ
+tbl.append( { type = 1, text = "/dash_n", cmd = "/dash_c", info = "/dash_i" } );//ダッシュ
+tbl.append( { type = 1, text = "/back_n", cmd = "/back_c", info = "/back_i" } );//バックステップ
+tbl.append( { type = 1, text = "/guar_n", cmd = "/guar_c", info = "/guar_i" } );//ガード
+tbl.append( { type = 1, text = "/thro_n", cmd = "/thro_c", info = "/thro_i" } );//投げ
+tbl.append( { type = 1, text = "/tech_n", cmd = "/tech_c", info = "/tech_i" } );//投げ抜け
+tbl.append( { type = 1, text = "/reco_n", cmd = "/reco_c", info = "/reco_i" } );//受身
+// tbl.append( { type = 1, text = "/natk_n", cmd = "/natk_c", info = "/natk_i" } );//通常技
+tbl.append( { type = 1, text = "/pass_n", cmd = "/pass_c", info = "/pass_i" } );//チェーンコンボ
+tbl.append( { type = 1, text = "/smar_n", cmd = "/smar_c", info = "/smar_i" } );//連打コンボ
+tbl.append( { type = 1, text = "/incr_n", cmd = "/incr_c", info = "/incr_i" } );//タメ攻撃
+tbl.append( { type = 1, text = "/veil_n", cmd = "/veil_c", info = "/veil_i" } );//開放
+tbl.append( { type = 1, text = "/moon_n", cmd = "/moon_c", info = "/moon_i" } );//ムーンドライブ
+tbl.append( { type = 1, text = "/mooc_n", cmd = "/mooc_c", info = "/mooc_i" } );//ムーンドライブカウンター
+tbl.append( { type = 1, text = "/moch_n", cmd = "/moch_c", info = "/moch_i" } );//ムーンチャージ
+tbl.append( { type = 1, text = "/shch_n", cmd = "/shch_c", info = "/shch_i" } );//シールドカウンター
+
+CmdList = tbl;

@@ -1,0 +1,148 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<23>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 66, 100>
+
+\\@NPC_LOAD_SYNC@<4, 19, -100, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 0>
+
+
+\\@NPC_LOAD_SYNC@<5, 20, 100, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 221>//むんっ！
+
+\\@CHARA_IN@< 0, 20, 203, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 20, 215, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0133", 100>
+\\@TEXT_ID@<10>
+Mash
+はい、ネコアルクさんの戦いのおかげで、
+宝具充填１００％です！
+\l
+
+\\@CHARA_IN@< 0, 20, 215, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0134", 100>
+\\@TEXT_ID@<20>
+Mash
+ゲート、開きます！
+
+
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_RayShift", 0, 100>
+
+
+\\@CHARA_CLEAR@<0>
+
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0330", 100>
+\\@TEXT_ID@<30>
+Neco_Arc
+はい。と言うワケで、このＭＢ界はＭＢ界に
+よく似た悪夢のネコワールドだったンだ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0331", 100>
+\\@TEXT_ID@<40>
+Neco_Arc
+だがアタシは挫けない。諦めない。回線切らない。
+ネコはいつだって夏への扉を探すものだから。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0090", 100>
+\\@TEXT_ID@<50>
+Mash
+ふふ。
+ネコアルクさんはロマンチストなのですね。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0332", 100>
+\\@TEXT_ID@<60>
+Neco_Arc
+ふふ、よせやい。
+アタシは猫に優しい主人公を評価しているだけさ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0333", 100>
+\\@TEXT_ID@<70>
+Neco_Arc
+それよりマシュ君。
+出口のほうはどう？　見えてきた？
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0091", 100>
+\\@TEXT_ID@<80>
+Mash
+はい。シバによるとあと４０秒でもっとも近い
+並行世界に転移するようです。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0092", 100>
+\\@TEXT_ID@<90>
+Mash
+ゲート間の移動も安定しています。
+これもネコアルクさんのおかげですね。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0093", 100>
+\\@TEXT_ID@<100>
+Mash
+カルデアの技術ではこんな事はできません。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0334", 100>
+\\@TEXT_ID@<110>
+Neco_Arc
+合わせ技。合わせ技だよ、マシュ君。
+いちばん強いのは信じるふたり。繋ぎ合う手なンだ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0335", 100>
+\\@TEXT_ID@<120>
+Neco_Arc
+アタシたちはもう仲間なンだ。
+一緒にＭＢ界を正そうじゃーないか。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0094", 100>
+\\@TEXT_ID@<130>
+Mash
+はい！
+人理を破壊しようする方に容赦はしません！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0095", 100>
+\\@TEXT_ID@<140>
+Mash
+マシュ・キリエライト、
+どんな結末が待っていても心を鋼にする覚悟です！
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0336", 100>
+\\@TEXT_ID@<150>
+Neco_Arc
+ふふ、なんて頼もしい。
+まさに正義の女神と言わざるをえない。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0337", 100>
+\\@TEXT_ID@<160>
+Neco_Arc
+皆さんも、最後の落ちまで見えてきましたね？
+あーあ、イヤな予感しかしねえニャーーーァ！
+
+
+
+\\@SYSTEM@<21>
+\aw
+
+\\@BGM_STOP@<0>
+\e
+

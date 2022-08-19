@@ -1,0 +1,444 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<11>//背景　遠野邸ロビー_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 63, 100>//落ち着いた日常系BGM
+
+
+\\@CHARA_IN@<1, 3, 401, 2, 0>
+\\@CHARA_IN@<0, 8, 100, 1, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<5, 3, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 91>//shiki 待機
+
+\\@NPC_LOAD_SYNC@<4, 8, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<4, 90>//デフォルト
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0190", 100>
+\\@TEXT_ID@<10>
+Shiki_GakuseiKare
+無事、使用人として採用されましたね。
+新米使用人と新米執事、ここに誕生です。
+
+
+\\@CHARA_SET_PATTERN@<4, 106>//えっへん
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0090", 100>
+\\@TEXT_ID@<20>
+Noel
+まあね～☆
+私、戦闘より潜入の方が得意分野なのサ！
+\l
+
+
+\\@CHARA_IN@<0, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0091", 100>
+\\@TEXT_ID@<30>
+Noel
+面談が甘かったのもあるけど。
+素直で良い子だったわね、あのメイドさん。
+
+\\@CHARA_IN@<1, 3, 408, 0, 1>
+\aw
+\w<60>
+
+
+
+\\@CHARA_SET_PATTERN@<4, 102>//考える
+
+\\@CHARA_IN@<0, 8, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0092", 100>
+\\@TEXT_ID@<50>
+Noel
+とはいえ、本番はここからよ。
+仕事をしながら怪しい場所を見つけないと。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0093", 100>
+\\@TEXT_ID@<60>
+Noel
+ここは敵の本拠地、気を抜かないで。
+私たちが吸血鬼を探しているってバレたら終わりよ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0094", 100>
+\\@TEXT_ID@<70>
+Noel
+常にお互いの状況をチェックして、
+危険を感じたら連絡を入れるコト。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 105>//泣き抗議
+
+\\@CHARA_IN@<0, 8, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0095", 100>
+\\@TEXT_ID@<80>
+Noel
+特に私からのＳＯＳは最優先事項だから、
+すぐに助けにきてね！
+\l
+
+
+\\@CHARA_IN@<0, 8, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0096", 100>
+\\@TEXT_ID@<90>
+Noel
+豪邸って苦手なの、だってホラーじゃない！？
+吸血鬼の住みかっていっつもそう！
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 105>//shiki 腕組うんうん
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 423, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0191", 100>
+\\@TEXT_ID@<100>
+Shiki_GakuseiKare
+うん、確かに。
+この家、けっこうホラーかもだ。
+
+
+\\@CHARA_SET_PATTERN@<5, 103>//shiki 提案
+\\@CHARA_IN@<1, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0192", 100>
+\\@TEXT_ID@<110>
+Shiki_GakuseiKare
+じゃあ俺は西館の２階の様子を見に。
+ノエル先生は一階を調べてください。
+
+
+\\@CHARA_IN@<1, 3, 417, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0193", 100>
+\\@TEXT_ID@<120>
+Shiki_GakuseiKare
+あ、東館には近づかない方がいいですよ。
+今日は西館オンリーで。
+
+\\@CHARA_SET_PATTERN@<5, 116>//提案戻り
+\\@CHARA_SET_PATTERN@<4, 100>//喜び
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0097", 100>
+\\@TEXT_ID@<130>
+Noel
+りょうか～い☆
+東の方は明日にしましょ！
+\l
+
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\\@SYSTEM@<200>
+\aw
+
+\\@CHARA_CLEAR@<1>
+\aw
+
+\\@CHARA_IN@<0, 8, 11, 0, 1>
+\\@BGM_PLAY@<0, 63, 100>//落ち着いた日常系BGM
+
+\\@NPC_LOAD_SYNC@<4, -2, -34, 0, 0>//座標更新
+\\@NPC_LOAD_SYNC@<5, 4, 0, 0, 1>//琥珀に切り替えておく
+\\@CHARA_SET_PATTERN@<5, 58>//透明
+
+\\@NPC_LOAD_SYNC@<6, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "CameraKeep">//背景
+\\@CHARA_SET_PATTERN@<6, 1>//背景
+
+\\@NPC_CHARA_SHADOW@<2>//シンプルな影に変更
+\\@NPC_CHARA_EFFECT@<2>//シンプルなキャラ効果
+
+\\@CHARA_SET_PATTERN@<4, 150>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0098", 100>
+\\@TEXT_ID@<140>
+Noel
+疲れた。
+プリン食べる。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 151>
+
+\\@CHARA_IN@<0, 8, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0099", 100>
+\\@TEXT_ID@<150>
+Noel
+この屋敷、マジで広すぎ。
+メイドさんの話じゃ４人？　しか住んでないクセにさー。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0100", 100>
+\\@TEXT_ID@<160>
+Noel
+半年間放置されていた部屋の掃除が初仕事とか、
+人の心がないにも程がない？
+\l
+
+\\@CHARA_SET_PATTERN@<4, 153>
+
+\\@CHARA_IN@<0, 8, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0101", 100>
+\\@TEXT_ID@<170>
+Noel
+まあ、厨房を好きに使っていい、ってのは
+魅力的だけどー。どれどれ、冷蔵庫の中には～～……
+\l
+
+\\@CHARA_SET_PATTERN@<6, 2>//背景：冷蔵庫開け
+
+\\@CHARA_SET_PATTERN@<4, 155>
+
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_FreezerDoor", 0, 100>
+
+
+\\@CHARA_IN@<0, 8, 19, 1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0102", 100>
+\\@TEXT_ID@<180>
+Noel
+お、あるある、《高級＜たか＞そうな洋菓子の包みがたっくさん！
+和洋選び放題じゃーん！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 156>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0103", 100>
+\\@TEXT_ID@<190>
+Noel
+デザートはこれでいいとしてー。
+ちょっとエネルギー、摂っておきたいかな。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0104", 100>
+\\@TEXT_ID@<200>
+Noel
+パスタ（高級）、ベーコン（特上）、玉葱（無農薬）、
+にんにく（珍品）、ミルクにチーズ（直産）、と……
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0105", 100>
+\\@TEXT_ID@<210>
+Noel
+うひひ、これだけあれば上等上等！
+\l
+
+\\@CHARA_SET_PATTERN@<6, 7>//背景：戸棚オープン
+\\@NPC_LOAD_SYNC@<4, -2, 0, 0, 0>//座標更新
+
+\\@CHARA_SET_PATTERN@<4, 160>
+
+\\@CHARA_IN@<0, 8, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0106", 100>
+\\@TEXT_ID@<220>
+Noel
+パスタを容器に入れてぇー、塩適当にいれてー、
+レンジでチンして、ダブルＫＯ！
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 5>//背景：オーブン閉じ
+\\@CHARA_SET_PATTERN@<4, 165>
+
+\\@CHARA_IN@<0, 8, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0107", 100>
+\\@TEXT_ID@<230>
+Noel
+まともに《茹でる＜ボイル＞してるほど暇じゃねーっての。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 166>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0108", 100>
+\\@TEXT_ID@<240>
+Noel
+代行者と教師職のダブルタレントよ？
+私のライフポイントは一桁だっつーの。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 167>
+\\@CHARA_SET_PATTERN@<6, 4>//背景：オーブン開け
+
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_MicroWave", 0, 100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0109", 100>
+\\@TEXT_ID@<250>
+Noel
+後はフライパンに高級食材ぶちこんで、
+かんたんカルボのかんせ―――
+
+//居合の前にBGM停止
+\\@BGM_STOP@<0>
+
+// （琥珀の居合いエフェクト）
+\\@CHARA_SET_PATTERN@<5, 59>
+\w<60>
+
+\\@CHARA_SET_PATTERN@<6, 5>//背景：オーブン閉じ
+
+\\@NPC_LOAD_SYNC@<5, -2, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//kohaku
+\\@CHARA_SET_PATTERN@<5, 70>//kohaku 叱る
+
+\\@NPC_LOAD_SYNC@<4, -2, -160, 0, 0>//座標更新
+\\@CHARA_SET_PATTERN@<4, 107>//noel 驚き
+
+//居合の後にBGM再生
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@CHARA_IN@<1, 4, 104, 2, 0>
+\aw
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 4, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0010", 100>
+\\@TEXT_ID@<260>
+Kohaku
+《太まりやがって＜ファッテム＞！
+その蛮行、神をも恐れぬ所業です！
+
+\\@SYSTEM@<121>
+\\@CHARA_IN@<0, 8, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0110", 100>
+\\@TEXT_ID@<270>
+Noel
+あぶなっ！？
+ちょ、今のなに、日本刀！？　またヘンな使用人！？
+
+
+\\@CHARA_SET_PATTERN@<5, 7>//kohaku
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0011", 100>
+\\@TEXT_ID@<280>
+Kohaku
+ノー。私は遠野家で上から数えて３番目くらいに
+常識人な、ほがらか家政婦・琥珀と申します。
+\l
+
+\\@CHARA_IN@<1, 4, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0012", 100>
+\\@TEXT_ID@<290>
+Kohaku
+貴女が新入りの使用人ですね？
+面談を合格したとの事ですが……
+\l
+
+\\@CHARA_SET_PATTERN@<5, 70>//kohaku 叱る
+
+\\@CHARA_IN@<1, 4, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0013", 100>
+\\@TEXT_ID@<300>
+Kohaku
+一流の使用人がレンチン調理など、
+恥をお知りくださいまし！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0014", 100>
+\\@TEXT_ID@<310>
+Kohaku
+人の善い翡翠ちゃんは欺けても、
+私の眼は欺けません。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0015", 100>
+\\@TEXT_ID@<320>
+Kohaku
+遠野家の台所を、
+そして遠野家ご長男の健康を預かる者として、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0016", 100>
+\\@TEXT_ID@<330>
+Kohaku
+怪しい部外者を放置する訳にはいきません。
+ここで退場していただきます。そもそも―――
+\l
+
+\\@CHARA_SET_PATTERN@<5, 9>//kohaku
+
+\\@CHARA_IN@<1, 4, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0017", 100>
+\\@TEXT_ID@<340>
+Kohaku
+間食にカルボナーラはいかがなものでしょう。
+ＯＬの皆さんにはサラダパスタが人気、と聞きましたが。
+
+\\@CHARA_SET_PATTERN@<4, 102>//noel
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0111", 100>
+\\@TEXT_ID@<350>
+Noel
+あー、それ《欺瞞＜ぎまん＞。
+サラダでもパスタはパスタだしさー。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 101>//noel
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0112", 100>
+\\@TEXT_ID@<360>
+Noel
+むしろ油断させて太らせる悪魔のメニューよ、アレ。
+食べても痩せるとかねぇーつーの。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0113", 100>
+\\@TEXT_ID@<370>
+Noel
+大切なのは運動とストレスフリー。
+結局、メンタル強いヤツが得するのよね、世の中って。
+
+\\@CHARA_SET_PATTERN@<5, 11>//kohaku
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 4, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0018", 100>
+\\@TEXT_ID@<380>
+Kohaku
+むむ。少しだけ気が合いそうなお方と見ましたが、
+これも表と裏のわかり合えない定め。
+\l
+
+\\@CHARA_IN@<1, 4, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0019", 100>
+\\@TEXT_ID@<390>
+Kohaku
+せめてもの情け、当家のスペシャルメニューで
+お片付けさせていただきます。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 3>//kohaku
+
+\\@CHARA_IN@<1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0020", 100>
+\\@TEXT_ID@<400>
+Kohaku
+無農薬、非合法で育てた天然のお野菜です。
+遠慮なくお上がりくださいな\sf000
+
+
+\\@BGM_STOP@<0>
+\e
+

@@ -1,0 +1,467 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<1>//背景　遠野邸ロビー_夜
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 8, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<4, 105>
+
+\\@BGM_PLAY@<0, 64, 100>//ギャグっぽいコミカルで陽気なBGM
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@<0, 8, 13, 1, 0>
+\aw
+
+\\@CHARA_IN@<0, 8, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0120", 100>
+\\@TEXT_ID@<10>
+Noel
+やっばかったぁ……！
+さっきのメイドといい、どうなってるのよこの家は！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0121", 100>
+\\@TEXT_ID@<20>
+Noel
+ＳＯＳ送ったのに学生服クンはやって来ないしさー！
+私ひとりでなんとか撃退したからいいけどさー！
+\l
+
+\\@CHARA_SET_PATTERN@<4, 101>
+\\@CHARA_IN@<0, 8, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0122", 100>
+\\@TEXT_ID@<30>
+Noel
+……でも、これでほぼ確定ね。
+スティーリーなメイド。スマイリーな家政婦。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0123", 100>
+\\@TEXT_ID@<40>
+Noel
+ここが吸血鬼の隠れ家なのは間違いなし。
+そうじゃなかったら逆に怖い。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 120>
+\\@CHARA_IN@<0, 8, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0124", 100>
+\\@TEXT_ID@<50>
+Noel
+……ったく。画面端まで走ってくる植物とか、
+しばらくサラダは食べられそうにないわぁ……
+
+
+
+// 専用カットイン背景
+\\@NPC_LOAD_SYNC@<6, 92, 0, 0, 0>
+\\@CHARA_SET_PATTERN@<6, 1>//影で消す
+\\@CHARA_WAIT_PATTERN@<6, 2>//消えきるまで待つ
+\aw
+
+\\@CHARA_SET_MVNAME@<6, "CutSeen">//カメラ位置下に110ドットズラし
+
+// ノエル座標変更
+\\@NPC_LOAD_SYNC@<4, -2, -280, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 107>//noel 驚き
+\\@CHARA_IN@<0, 8, 10, 0, 1>
+\\@CHARA_FOCUS_COLOR@<0,1>
+
+\\@BGM_FADE@<0, 100, 0, 60, 1>
+\\@BGM_PLAY@<1, 78, 100>//超シリアス
+
+\\@NPC_LOAD_SYNC@<5, 2, 440, -130, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//akiha
+\\@CHARA_SET_PATTERN@<5, 90>//akiha
+
+
+\\@CHARA_IN@<1, 2, 0, 2, 0>
+\aw
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0060", 100>
+\\@TEXT_ID@<60>
+Akiha
+人の家に忍び込んだネズミにしては繊細なのね。
+まあ、多少の同情はしてあげますが。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 105>//akiha
+\\@CHARA_IN@<1, 2, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0061", 100>
+\\@TEXT_ID@<70>
+Akiha
+貴女では琥珀の相手は骨だったでしょう。
+だって、一目で使い捨ての駒だと分かる風貌だもの。
+
+/*-comment-
+優雅微笑み。超・上から目線
+*/
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0125", 100>
+\\@TEXT_ID@<80>
+Noel
+！　コイツ、いつのまに……！？
+ってか、ガキのクセに上から目線ね！
+
+/*-comment-
+ノエル＠10
+*/
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 2, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0062", 100>
+\\@TEXT_ID@<90>
+Akiha
+階段の上から失礼。
+下々の者と同じ地平に立つ事に慣れていないので。
+\l
+
+\\@CHARA_IN@<1, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0063", 100>
+\\@TEXT_ID@<100>
+Akiha
+それで、どこから来た間者でしょう。
+\l
+
+\\@CHARA_IN@<1, 2, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0064", 100>
+\\@TEXT_ID@<110>
+Akiha
+所属と目的を仰っていただけるなら、
+客人として歓迎しないでもありませんが。
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 101>//noel ikari
+\\@CHARA_IN@<0, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0126", 100>
+\\@TEXT_ID@<120>
+Noel
+ハッ。たとえ１０倍の給料をもらったとしても、
+吸血鬼に歓迎なんてされるか、バーカ！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0127", 100>
+\\@TEXT_ID@<130>
+Noel
+遠野秋葉、貴女が死徒の転生先であるのは明白よ！
+異端審問スッ飛ばして、ここでミンチにしてやるわ！
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 106>//akiha
+\\@CHARA_IN@<1, 2, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0065", 100>
+\\@TEXT_ID@<140>
+Akiha
+死徒……異端審問……
+……今までにないタイプの方ですね。
+\l
+
+/*-comment-
+思案
+*/
+
+\\@CHARA_IN@<1, 2, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0066", 100>
+\\@TEXT_ID@<150>
+Akiha
+勘違いはお互い様だったかしら。
+少し、お話をしてよろしくて？
+
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\\@BGM_FADE@<1, 100, 0, 60, 1>
+\aw
+
+\\@CHARA_SET_PATTERN@<6, 0>//透明に
+\\@CHARA_SET_MVNAME@<6, "CutSeenEnd">//カメラ位置デフォに戻してカメラ固定
+
+
+\\@NPC_LOAD_SYNC@<4, -2, -160, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -2,  160, 0, 1>
+
+\\@CHARA_SET_PATTERN@<4, 90>//noel
+\\@CHARA_SET_PATTERN@<5, 101>//akiha
+
+
+\\@CHARA_IN@<0, 8, 3, 0, 1>
+\\@CHARA_IN@<1, 2, 3, 0, 1>
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@BGM_PLAY@<0, 63, 100>//落ち着いた日常系BGM
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0067", 100>
+\\@TEXT_ID@<160>
+Akiha
+……つまり、そのロアという吸血鬼の
+引っ越し先が当家ではないか、と考えたのですね。
+\l
+
+\\@CHARA_IN@<1, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0068", 100>
+\\@TEXT_ID@<170>
+Akiha
+ノエルさん、と仰いましたね。
+仮に、貴女の話をすべて信じる、として。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 109>//akiha
+
+\\@CHARA_IN@<1, 2, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0069", 100>
+\\@TEXT_ID@<180>
+Akiha
+こう言ってはなんですが、
+調査が不十分なのではありませんか？
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 105>//noel naki
+\\@CHARA_IN@<0, 8, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0128", 100>
+\\@TEXT_ID@<190>
+Noel
+っ、そんなワケないじゃない！
+ちゃんと一ヶ月、まるまる調査してたんだから！
+
+
+\\@CHARA_SET_PATTERN@<5, 108>//akiha
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0070", 100>
+\\@TEXT_ID@<200>
+Akiha
+では一つずつ。
+\l
+
+\\@CHARA_IN@<1, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0071", 100>
+\\@TEXT_ID@<210>
+Akiha
+その死徒という生き物は太陽の下では生きられない。
+ですが遠野家にそのような人間は見当たりません。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0129", 100>
+\\@TEXT_ID@<220>
+Noel
+それは……なんか、トリックとか、
+日本脅威の日焼け止めとかがあってぇ……
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0072", 100>
+\\@TEXT_ID@<230>
+Akiha
+第二に、当家の長男は確かに問題人物ですが、
+驚くほど虚弱体質、
+\l
+
+\\@CHARA_SET_PATTERN@<5, 107>//akiha
+\\@CHARA_IN@<1, 2, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0073", 100>
+\\@TEXT_ID@<240>
+Akiha
+目を離した隙に死んでいるレミングスのような兄です。
+そんな人物が街を脅かせると思いますか？
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0130", 100>
+\\@TEXT_ID@<250>
+Noel
+それは……貧弱な転生先かもだし……
+吸血鬼《即＜すぐ＞逝く？　みたいな……？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 2, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0074", 100>
+\\@TEXT_ID@<260>
+Akiha
+第三に。仮に私がその転生先だとしたら、
+この街はそもそも存在していません。
+\l
+
+\\@CHARA_IN@<1, 2, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0075", 100>
+\\@TEXT_ID@<270>
+Akiha
+制圧するのに何年もかけませんから。
+―――この意味が、分かりますね？
+
+\\@CHARA_SET_PATTERN@<4, 122>//noel がっくし
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0131", 100>
+\\@TEXT_ID@<280>
+Noel
+そ、そうなの？
+あは……あはははは……マジか。
+
+
+\\@CHARA_SET_PATTERN@<5, 103>//akiha 戻り
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0076", 100>
+\\@TEXT_ID@<290>
+Akiha
+そもそもです。その死徒、ですか？
+人間の血を吸う、と言うけれど、なんのために？
+
+\\@CHARA_SET_PATTERN@<4, 102>//noel 考える
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0132", 100>
+\\@TEXT_ID@<300>
+Noel
+そりゃあ、栄養補給とか、
+魔りょ……力の向上とか？
+\l
+
+\\@CHARA_SET_PATTERN@<4, 101>//noel ikari
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0133", 100>
+\\@TEXT_ID@<310>
+Noel
+とにかく人間を食い物にして力をつけるの！
+命のストックとか、ズルいのよ、アイツら！
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 105>//akiha
+\\@CHARA_IN@<1, 2, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0077", 100>
+\\@TEXT_ID@<320>
+Akiha
+まあ。
+その程度の事のために、わざわざ血を？
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 104>//noel 気遣い
+\\@CHARA_IN@<0, 8, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0134", 100>
+\\@TEXT_ID@<330>
+Noel
+は？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 2, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0078", 100>
+\\@TEXT_ID@<340>
+Akiha
+西洋の鬼は不便なのね。
+直接、手を使わないといけないなんて。
+
+\\@CHARA_SET_PATTERN@<4, 107>//noel 驚き
+\\@SYSTEM@<131>
+\\@CHARA_IN@<0, 8, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0135", 100>
+\\@TEXT_ID@<350>
+Noel
+（あ、この娘違う。吸血鬼じゃない。
+　他のヤバイなんかだ……！）
+\l
+
+\\@CHARA_SET_PATTERN@<4, 103>//noel raku
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0136", 100>
+\\@TEXT_ID@<360>
+Noel
+ごめんなさい、私の勘違いでしたー☆
+もう爆速で撤収しまーす！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0137", 100>
+\\@TEXT_ID@<370>
+Noel
+謝罪は後ほど、私の上司が参りますので。
+抗議、攻撃はその時に！
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 2, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0079", 100>
+\\@TEXT_ID@<380>
+Akiha
+そうですか、それは残念です。
+誤解も解けた事ですし、夕食でも、と思ったのですが。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0080", 100>
+\\@TEXT_ID@<390>
+Akiha
+他人の事情に踏み込むのもよくありませんね。
+どうかお気を付けて。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0138", 100>
+\\@TEXT_ID@<400>
+Noel
+ですよねー！
+じゃあ、地雷踏む前に帰りまーす！
+
+\\@CHARA_IN@<0, 3, 406, 1, 0>
+\aw
+
+\\@BGM_FADE@<0, 100, 0, 60, 1>
+
+\\@NPC_LOAD_SYNC@<7, 3, -660, 0, 0>
+\\@CHARA_SET_PATTERN@<7, 101>//shiki 歩いてくる
+
+\\@CHARA_IN@<0, 3, 406, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0200", 100>
+\\@TEXT_ID@<410>
+Shiki_GakuseiKare
+あれ。ノエル先生、もう帰るんですか？
+
+
+\\@CHARA_SET_PATTERN@<7, 103>//shiki
+\\@CHARA_IN@<0, 3, 409, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0201", 100>
+\\@TEXT_ID@<420>
+Shiki_GakuseiKare
+なら俺も一緒に行きますよ。
+だって先生、部屋の鍵持ってないでしょ。
+
+
+\\@BGM_PLAY@<0, 74, 100>//エンカウント
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 20>//akiha　超怒り
+\\@CHARA_SET_PATTERN@<4, 107>//noel 驚き
+\\@CHARA_IN@<1, 2, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0081", 100>
+\\@TEXT_ID@<430>
+Akiha
+ふふふ。
+遺言書の作成はお済みになられているのかしら？
+
+
+\\@SYSTEM@<121>
+\\@CHARA_SET_PATTERN@<4, 105>//noel naki
+\\@CHARA_IN@<0, 8, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0139", 100>
+\\@TEXT_ID@<440>
+Noel
+って、なんか特大の地雷踏んだっぽいなーーー！
+
+
+
+
+\\@BGM_STOP@<1>
+\e
+

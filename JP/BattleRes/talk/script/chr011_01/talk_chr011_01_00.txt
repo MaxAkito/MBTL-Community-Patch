@@ -1,0 +1,365 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<11>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+\\@SYSTEM@<100>
+\aw
+
+\\@BGM_PLAY@<0, 63, 100>//落ち着いた日常系BGM
+
+
+\\@NPC_LOAD_SYNC@<4, 3, -60, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 19>//眼鏡立ち呼吸
+
+\\@NPC_LOAD_SYNC@<5, 11, -200, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<5, 0>//ciel
+
+\\@NPC_LOAD_SYNC@<6, 4, 200, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//琥珀
+\\@CHARA_SET_PATTERN@<6, 0>//
+
+\\@CHARA_IN@< 2, 11, 0, 1, 0>
+\\@CHARA_IN@< 0, 3, 0, 1, 0>
+\\@CHARA_IN@< 1, 4, 101, 2, 0>
+\aw
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0030", 100>
+\\@TEXT_ID@<10>
+Kohaku
+本日は『志貴さんの健康改善スタンプラリー』に
+お集まりいただきありがとうございます。
+
+/*-comment-
+琥珀＠勝利01_01
+*/
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 24>//眼鏡やれやれ
+\\@CHARA_IN@< 0, 3, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0280", 100>
+\\@TEXT_ID@<20>
+Shiki
+うえ。
+俺の健康スタンプラリーですか！？
+
+
+\\@CHARA_SET_PATTERN@<4, 25>//眼鏡やれやれ戻り
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 9>//困惑
+\\@CHARA_IN@< 1, 4, 106, 0, 1>
+\\@CHARA_EMOVE@<1, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0031", 100>
+\\@TEXT_ID@<30>
+Kohaku
+はい、なぜか生活習慣が改まらない志貴さんに、
+秋葉さまも大変お心を痛めておいでです。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 11>//ちらっ
+\\@CHARA_IN@< 1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0032", 100>
+\\@TEXT_ID@<40>
+Kohaku
+そこで今回、わたしが秋葉さまの代理として、
+生活改善を仕切らせていただくコトになりました！
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<5, 11>//退屈
+\\@CHARA_IN@< 2, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0100", 100>
+\\@TEXT_ID@<50>
+Ciel
+なるほど、趣旨は理解しました。
+わたしも遠野くんの体調は気がかりでしたから。
+
+
+\\@CHARA_SET_PATTERN@<5, 19>//退屈戻り
+
+\\@CHARA_SET_PATTERN@<4, 22>//眼鏡お手
+\\@CHARA_IN@< 0, 3, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0281", 100>
+\\@TEXT_ID@<60>
+Shiki
+あのですね。
+そんなに心配しなくても大丈夫ですよ。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 23>//眼鏡お手戻り
+\\@CHARA_IN@< 0, 3, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0282", 100>
+\\@TEXT_ID@<70>
+Shiki
+『良い』と『悪い』の線引きはできてます。
+付き合い長いんだから、自分の体は自分が一番、
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 15>//お叱り
+\\@CHARA_IN@< 1, 4, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0033", 100>
+\\@TEXT_ID@<80>
+Kohaku
+いいえ！　志貴さんの『良い』は『なんとか生きてる』、
+『悪い』は『このまま死んでる』かと！
+\l
+
+
+\\@CHARA_IN@< 1, 4, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0034", 100>
+\\@TEXT_ID@<90>
+Kohaku
+世間一般では『大丈夫』とは言いませんっ。
+遠慮も過ぎると毒と存じます！
+
+
+\\@CHARA_SET_PATTERN@<6, 16>//お叱り戻り
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 2, 11, 6, 0, 1>
+\\@CHARA_EMOVE@<2, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0101", 100>
+\\@TEXT_ID@<100>
+Ciel
+同感です。よく言ってくれました、琥珀嬢。
+遠野くんはもっと自分を大切にしてください。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0102", 100>
+\\@TEXT_ID@<110>
+Ciel
+いざという時、周りに迷惑をかけないよう独りに
+なりたがるのは薄情というものです。
+\l
+
+\\@CHARA_IN@< 2, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0103", 100>
+\\@TEXT_ID@<120>
+Ciel
+今度そういうコトをしたら本気で怒りますからね。
+完全武装も已む無しなので、そのつもりで。
+
+
+\\@CHARA_SET_PATTERN@<4, 24>//眼鏡やれやれ
+\\@CHARA_IN@< 0,  3, 18, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0283", 100>
+\\@TEXT_ID@<130>
+Shiki
+は、はい。
+……すみません。反省します。
+
+
+\\@CHARA_SET_PATTERN@<4, 25>//眼鏡やれやれ戻り
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0035", 100>
+\\@TEXT_ID@<140>
+Kohaku
+ふふ。
+シエル様なら安心してお任せできますね。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0036", 100>
+\\@TEXT_ID@<150>
+Kohaku
+くれぐれも志貴さんの健康第一でお願いします。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0037", 100>
+\\@TEXT_ID@<160>
+Kohaku
+問題が発生したら直ちに企画は中断、
+お迎えにあがりますのでご注意くださいまし。
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 3, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0284", 100>
+\\@TEXT_ID@<170>
+Shiki
+琥珀さんは屋敷に残るんだ。
+ん？　俺の体調、どうして分かるんですか？
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 5>//内緒
+\\@CHARA_IN@< 1, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0038", 100>
+\\@TEXT_ID@<180>
+Kohaku
+ふふふ。志貴さんのお体の事でしたら、
+それこそ手に取るように感じられる……
+\l
+
+
+\\@CHARA_IN@< 1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0039", 100>
+\\@TEXT_ID@<190>
+Kohaku
+と言ったら、信じてくださいます？
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 27>//眼鏡うなずき（2回）
+\\@CHARA_IN@< 0, 3, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0285", 100>
+\\@TEXT_ID@<200>
+Shiki
+ああ、主治医としての勘、というヤツですね。
+分かりました。
+
+
+\\@CHARA_SET_PATTERN@<6,11>//ちらっ
+\\@CHARA_IN@< 1, 4, 101, 0, 1>
+\aw
+\w<60>
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6,0>//
+\\@CHARA_IN@< 1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0040", 100>
+\\@TEXT_ID@<220>
+Kohaku
+チェックポイントとゴールには
+ささやかなサプライズをご用意いたしましたので、
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0041", 100>
+\\@TEXT_ID@<230>
+Kohaku
+ぜひお立ち寄りくださいね★
+きっと楽しんでいただけると思いますので！
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 2, 11, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0104", 100>
+\\@TEXT_ID@<240>
+Ciel
+……この企画自体には賛成なのですが。
+琥珀嬢、何かたくらんでいませんか？
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 4, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0042", 100>
+\\@TEXT_ID@<250>
+Kohaku
+まあ！　とんでもございません。
+\l
+
+\\@CHARA_IN@< 1, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0043", 100>
+\\@TEXT_ID@<260>
+Kohaku
+お客さまにそのような邪な行いなどしたら、
+秋葉さまにしかられます\sf000
+\l
+
+
+\\@CHARA_IN@< 1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0044", 100>
+\\@TEXT_ID@<270>
+Kohaku
+それではお気をつけて！
+志貴さん、シエル様と楽しい一日を！
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+
+\\@CHARA_OUT@< 0, -1, -1, 0, 0>
+\\@CHARA_OUT@< 1, -1, -1, 0, 0>
+\\@CHARA_OUT@< 2, -1, -1, 0, 0>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<4, 3, 120, 0, 1>
+\\@CHARA_SET_PATTERN@<4, 19>//眼鏡立ち呼吸
+\\@NPC_LOAD_SYNC@<5, 11, -120, 0, 0>
+
+
+\\@BGM_PLAY@<0, 62, 100>//ほのぼのとした日常系BGM
+\\@SYSTEM@<200>
+\\@LOAD_BATTLE_BG@<8>
+\aw
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_IN@< 1, 3, 1, 2, 0>
+\aw
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<4, 22>//眼鏡お手
+\\@CHARA_IN@< 1, 3, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0286", 100>
+\\@TEXT_ID@<280>
+Shiki
+たくらむ、なんてそんな。
+琥珀さんはすごくいい人ですよ。
+
+\\@CHARA_IN@< 0, 11, 9, 1, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<4, 23>//眼鏡お手戻り
+\\@CHARA_SET_PATTERN@<5, 12>//退屈目閉じ
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0105", 100>
+\\@TEXT_ID@<290>
+Ciel
+それは分かります。
+ただ、本質的に分かりあえないような気がして……。
+
+\\@SYSTEM@<132>
+\\@CHARA_IN@< 1, 3, 25, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0287", 100>
+\\@TEXT_ID@<300>
+Shiki
+（料理の好みの話かな？）
+
+\\@CHARA_SET_PATTERN@<5, 23>//退屈目閉じ戻り
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0106", 100>
+\\@TEXT_ID@<310>
+Ciel
+遠野くん？
+何か心当たりでも？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0288", 100>
+\\@TEXT_ID@<320>
+Shiki
+いえ、何でもないですよ。
+行きましょう、先輩！
+
+
+
+\\@BGM_STOP@<0>
+\e
+

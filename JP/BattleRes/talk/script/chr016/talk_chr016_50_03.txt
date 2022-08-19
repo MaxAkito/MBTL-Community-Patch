@@ -1,10 +1,20 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg07", 0, 2, 0>
-\aw
+\\@LOAD_BATTLE_BG@<7>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg07", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 16, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//pciel
+\\@CHARA_SET_PATTERN@<4, 2>//pciel
+
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<5, 17, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//mario
+\\@CHARA_SET_PATTERN@<5, 4>//mario
 
 \\@CHARA_IN@<0, 16, 0, 1, 0>
 \\@CHARA_IN@<1, 17, 0, 2, 0>
@@ -16,6 +26,7 @@
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0030", 100>
+\\@TEXT_ID@<10>
 Mario
 物騒なカッコウしてるじゃねえか代行者。
 なんだ、紛争地帯にでも行くつもりか？
@@ -24,6 +35,7 @@ Mario
 \\@CHARA_IN@<1, 17, 0, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0031", 100>
+\\@TEXT_ID@<20>
 Mario
 いいぜ、止めはしねえからさっさと行けよ。
 埋葬機関はそういう組織だ。
@@ -32,12 +44,15 @@ Mario
 \\@CHARA_IN@<1, 17, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0032", 100>
+\\@TEXT_ID@<30>
 Mario
 こんな極東の近代都市、
 はじめから場違いだったのさ。
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 16, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0030", 100>
+\\@TEXT_ID@<40>
 Powered_Ciel
 ……そうでもありませんが。
 なんのつもりです、マーリオゥ司祭代行。
@@ -45,55 +60,76 @@ Powered_Ciel
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0031", 100>
+\\@TEXT_ID@<50>
 Powered_Ciel
 周囲のビルに、
 複数の代行者が待機しているようですが。
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0033", 100>
+\\@TEXT_ID@<60>
 Mario
 ああ。言っても聞かない猟犬は
 始末するしかねえからな。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 6>//mario
+
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0034", 100>
+\\@TEXT_ID@<70>
 Mario
 なんで、最後にもう一度言ってやる。
 『ロアには手を出すな』。オラ、返答しな。
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 3>//pciel
+
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0032", 100>
+\\@TEXT_ID@<80>
 Powered_Ciel
 法王庁に確認しました。
 \l
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0033", 100>
+\\@TEXT_ID@<90>
 Powered_Ciel
 マーリオゥ・ジャッロ・ベスティーノは、現在、
 アイスランドのデータバンクを視察中だと。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 2>//pciel
+
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0034", 100>
+\\@TEXT_ID@<100>
 Powered_Ciel
 ここにいる筈のない者の命令は聞けません。
 彼の名を騙る死徒とみなし、排除します。
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 13>//mario
+
 \\@CHARA_IN@<1, 17, 9, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0035", 100>
+\\@TEXT_ID@<110>
 Mario
 はじめからやる気満々かよ。
 なら手段は選んでいられねえな。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 12>//mario
+
 \\@CHARA_IN@<1, 17, 6, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0036", 100>
+\\@TEXT_ID@<120>
 Mario
 ……ったく。
 せめて遠野志貴だけは助けたいってか？
@@ -102,6 +138,7 @@ Mario
 \\@CHARA_IN@<1, 17, 10, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0037", 100>
+\\@TEXT_ID@<130>
 Mario
 アイツは確かにマトモだったよ。
 自分からロアとケリをつけやがった。
@@ -110,6 +147,7 @@ Mario
 \\@CHARA_IN@<1, 17, 10, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0038", 100>
+\\@TEXT_ID@<140>
 Mario
 だが、それでもロアの転生先だったからな。
 もっと厄介なのに目を付けられちまった。
@@ -118,12 +156,15 @@ Mario
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0039", 100>
+\\@TEXT_ID@<150>
 Mario
 アイツの魔眼も今の姫君には通じない。
 もう手遅れなんだよ。諦めな。
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0035", 100>
+\\@TEXT_ID@<160>
 Powered_Ciel
 やってみなければ分かりません。
 どのみち真祖は討伐対象です。
@@ -131,23 +172,30 @@ Powered_Ciel
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0036", 100>
+\\@TEXT_ID@<170>
 Powered_Ciel
 ここで彼女を倒し、ロア誕生の責任を取らせる。
 そこに何の問題が？
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 17, 7, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0040", 100>
+\\@TEXT_ID@<180>
 Mario
 聞く耳持たずかよ。
 仕方ねえ、ここで何回か死んでいけキャーンズ。
 
+\\@CHARA_SET_PATTERN@<5, 3>//mario
+
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0041", 100>
+\\@TEXT_ID@<190>
 Mario
 テメェの《戦法＜パターン＞は重々承知だ。
 頭を吹っ飛ばせば、少しは冷静になるだろう？
 
 \\@BGM_STOP@<0>
 \e
+

@@ -23,6 +23,7 @@ function Talk::Initialize()
 	local sFilePath = "./BattleRes/talk/st_pat";
 	
 	local sPcFile = format( "%s/bossrush/br_chr013_st02.pat", sFilePath );
+	TalkSqCallback.UseFileInSquirrel( {type=0, file_name=sPcFile} );
 	if( p.PA_Ed.Load( sPcFile ) == 0 )
 	{
 		//ÉçÅ[Éhé∏îs

@@ -1,8 +1,20 @@
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg06", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<5, 9, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//vlov
+\\@CHARA_SET_PATTERN@<5, 9>//vlov
+
+\\@SYSTEM@<131>
+\\@NPC_LOAD_SYNC@<4, 8, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<4, 1>//noel ひいぃ
 
 \\@CHARA_IN@<0, 8, 9, 3, 0>
 \\@CHARA_IN@<1, 9, 1, 2, 0>
@@ -12,26 +24,34 @@
 
 \\@CHARA_IN@< 0, 8, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0070", 100>
+\\@TEXT_ID@<10>
 Noel
 （見つけた……！　ってなにあれ、新参の祖！？
 　あわわ、ついてないにも程がある……！）
 \l
 
+\\@CHARA_SET_PATTERN@<4, 72>//noel 考える
 \\@CHARA_IN@< 0, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0071", 100>
+\\@TEXT_ID@<20>
 Noel
 （……あれ？　でも、めっちゃ落ち込んでない？
 　普通の死徒クラスの圧力のような……）
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0040", 100>
+\\@TEXT_ID@<30>
 Volv
 ……暖は足りている。
 ……なんであれ、やすらぎの時はある。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 10>//vlov
+
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0041", 100>
+\\@TEXT_ID@<40>
 Volv
 ……いまは暖炉の火を眺めている最中、だ。
 ……おれにとっては、最高の贅沢だが……
@@ -39,20 +59,26 @@ Volv
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0042", 100>
+\\@TEXT_ID@<50>
 Volv
 その邪魔をするのなら、剣を取る。
 \l
 
 \\@CHARA_IN@< 1, 9, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0043", 100>
+\\@TEXT_ID@<60>
 Volv
 ……おれの寛容が生きているうちに
 立ち去れ、代行者。
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 3>//noel
 
 \\@CHARA_IN@< 0, 8, 10, 0, 1>
 \\@CHARA_IN@< 0, 8, -1, 31, 2>
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0072", 100>
+\\@TEXT_ID@<70>
 Noel
 寛容？　寛容ですって……？
 \l
@@ -60,6 +86,7 @@ Noel
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0073", 100>
+\\@TEXT_ID@<80>
 Noel
 ふざけんな。オマエたちにそんなもの、
 あった試しがないじゃない。
@@ -67,6 +94,7 @@ Noel
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0074", 100>
+\\@TEXT_ID@<90>
 Noel
 私だって、ひとりでアンタみたいな
 怪物と戦いたくないわよ。
@@ -74,6 +102,7 @@ Noel
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0075", 100>
+\\@TEXT_ID@<100>
 Noel
 けどね、雑魚は雑魚なりに
 プライドってもんがあんの！
@@ -81,6 +110,7 @@ Noel
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0076", 100>
+\\@TEXT_ID@<110>
 Noel
 吸血鬼の分際で“やすらぎ”なんて、
 人間を馬鹿にするのも程がある！
@@ -88,6 +118,7 @@ Noel
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0077", 100>
+\\@TEXT_ID@<120>
 Noel
 いいわ。やってやる。やってやろうじゃない。
 せっかくのチャンスだものね！
@@ -95,9 +126,11 @@ Noel
 
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0078", 100>
+\\@TEXT_ID@<130>
 Noel
 オマエを殺して、アイツを見返して、
 私の人生、ハッピーエンドに変えてやるんだ……！
 
 \\@BGM_STOP@<0>
 \e
+

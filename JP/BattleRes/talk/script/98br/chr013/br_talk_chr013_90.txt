@@ -17,34 +17,41 @@
 \\@SQ_CALL@<1>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10140", 100>
+\\@TEXT_ID@<10>
 Miyako
 ふっ！　はっ！　せいやーーーーーっ！
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10141", 100>
+\\@TEXT_ID@<20>
 Miyako
 よく覚えてないけど、
 わたしにはすっごく遠いゴールがあって、
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10142", 100>
+\\@TEXT_ID@<30>
 Miyako
 イヤんなるくらい高い、恐るべき壁が待っています。
 ふさぎこんでいるヒマはみじんもないのです。
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10143", 100>
+\\@TEXT_ID@<40>
 Miyako
 うん、もっともっと強くならないと！
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10144", 100>
+\\@TEXT_ID@<50>
 Miyako
 待っててね、お兄ちゃん！
 次は必ず、パンケーキを食べるんだから！
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10145", 100>
+\\@TEXT_ID@<60>
 Miyako
 かくしょうはないけど、
 《期限＜リミット＞にはまだ猶予があるはず。
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10146", 100>
+\\@TEXT_ID@<70>
 Miyako
 街から人が消えるくらい暑い夏が、きっと、
 わたしの『運命の日』になる予感がしまーす！
@@ -56,3 +63,4 @@ Miyako
 \\@BGM_STOP@<0>
 
 \e
+

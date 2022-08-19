@@ -1,8 +1,19 @@
-\\@BG_IN@<"screen_bg05", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<5>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg05", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<5, 5, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//roa
+\\@CHARA_SET_PATTERN@<5, 1>//roa
+
+\\@NPC_LOAD_SYNC@<4, 10, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//warc
+\\@CHARA_SET_PATTERN@<4, 6>//warc
 
 \\@CHARA_IN@<0, 10, 3, 1, 0>
 \\@CHARA_IN@<1,  5, 1, 2, 0>
@@ -10,40 +21,49 @@
 
 \\@BGM_PLAY@<0, 75, 100>
 
-
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 10, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0020", 100>
+\\@TEXT_ID@<10>
 Red_Arcueid
 ……がっかり。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0021", 100>
+\\@TEXT_ID@<20>
 Red_Arcueid
 どうしてここにおまえがいるの、ロア？
 志貴でしょう？
 \l
 
+\\@CHARA_SET_PATTERN@<4, 24>//warc
+
 \\@CHARA_IN@< 0, 10, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0022", 100>
+\\@TEXT_ID@<30>
 Red_Arcueid
 ここで私を殺しにくるのは志貴でしょう！？
 \l
 
 \\@CHARA_IN@< 0, 10, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0023", 100>
+\\@TEXT_ID@<40>
 Red_Arcueid
 それだけを楽しみに、
 それだけを歓びに、
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0024", 100>
+\\@TEXT_ID@<50>
 Red_Arcueid
 それだけをご褒美にして、
 ここまでみんな踏みにじってきたのに！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 23>//warc
 \\@CHARA_IN@< 0, 10, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0025", 100>
+\\@TEXT_ID@<60>
 Red_Arcueid
 ああもう、チェンジ、チェンジ！
 消えて。その陰気くさい顔とか、本気で見たくない。
@@ -51,29 +71,39 @@ Red_Arcueid
 
 \\@CHARA_IN@< 0, 10, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0026", 100>
+\\@TEXT_ID@<70>
 Red_Arcueid
 ここで引っ込まないと、
 死ぬより辛い目に合わせるわよ。
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 2>//roa
+
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0070", 100>
+\\@TEXT_ID@<80>
 Roa
 失望しているのはこちらの方だ。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 17>//roa
+
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0071", 100>
+\\@TEXT_ID@<90>
 Roa
 おまえの世界への影響力が増せば、
 その血を奪った私の濃度も向上する。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0072", 100>
+\\@TEXT_ID@<100>
 Roa
 必然、この体を乗っ取るのは私になる。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0073", 100>
+\\@TEXT_ID@<110>
 Roa
 おまえが、思うまま、我が儘に振る舞えば
 振る舞うほど遠野志貴は苦しむと、
@@ -81,45 +111,59 @@ Roa
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0074", 100>
+\\@TEXT_ID@<120>
 Roa
 理解していなかったのかね？
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 15>//warc
+
 \\@CHARA_IN@< 0, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0027", 100>
+\\@TEXT_ID@<130>
 Red_Arcueid
 ―――。
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0075", 100>
+\\@TEXT_ID@<140>
 Roa
 …………人間らしさ、とは度し難いな。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0076", 100>
+\\@TEXT_ID@<150>
 Roa
 あの完全だった月の姫が、
 ここまで動物的に堕ちようとは。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0077", 100>
+\\@TEXT_ID@<160>
 Roa
 これでは暴走というより狂躁だ。
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0078", 100>
+\\@TEXT_ID@<170>
 Roa
 まあ―――そういうオレも
 偉そうに言えた身ではないがね。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0079", 100>
+\\@TEXT_ID@<180>
 Roa
 肉体とは厄介なものだよ。
 こうして体にあった《地金＜じがね＞を晒しているのだから。
 
+\\@CHARA_SET_PATTERN@<4, 16>//warc
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0028", 100>
+\\@TEXT_ID@<190>
 Red_Arcueid
 そっか。
 考えてみれば、それもアリだった。
@@ -127,24 +171,30 @@ Red_Arcueid
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0029", 100>
+\\@TEXT_ID@<200>
 Red_Arcueid
 ええ―――私が暴れた分、
 志貴は苦しんだってコトでしょう？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0030", 100>
+\\@TEXT_ID@<210>
 Red_Arcueid
 ならそれで充分、志貴は罪を償ったわ。
 私を殺した責任をね。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 20>//warc
+
 \\@CHARA_IN@< 0, 10, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0031", 100>
+\\@TEXT_ID@<220>
 Red_Arcueid
 でも―――ふふふ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0032", 100>
+\\@TEXT_ID@<230>
 Red_Arcueid
 加害者が刑を終えても、
 被害者である私の気持ちは別のもの。
@@ -152,20 +202,26 @@ Red_Arcueid
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0033", 100>
+\\@TEXT_ID@<240>
 Red_Arcueid
 志貴にはまだ、
 私の気持ちを受け止めてもらわなくっちゃ。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 21>//warc
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0034", 100>
+\\@TEXT_ID@<250>
 Red_Arcueid
 ぐつぐつに煮えたぎった、この吸血衝動をね？
 その為にはまず邪魔者を消し去らないと。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 11>//warc
+
 \\@CHARA_IN@< 0, 10, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0035", 100>
+\\@TEXT_ID@<260>
 Red_Arcueid
 ええと、ロア、だったっけ？
 ちょうど良かった。
@@ -173,9 +229,11 @@ Red_Arcueid
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0036", 100>
+\\@TEXT_ID@<270>
 Red_Arcueid
 ディナー前の軽い準備として
 ナプキンがわりに使ってあげる。
 
 \\@BGM_STOP@<0>
 \e
+

@@ -1,10 +1,24 @@
+\\@LOAD_BATTLE_BG@<13>
 \\@BG_IN@<"ed_bg00", 0, 2>
+\\@NPC_CHARA_SHADOW@<2>
 
 \\@SYSTEM@<0>
 \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@< 0, 15, 1, 44, 0>
+//カメラを固定してマーリオゥの足先だけ映す
+\\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//camera
+
+\\@NPC_LOAD_SYNC@<4, 15, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//aoko
+\\@CHARA_SET_PATTERN@<4, 0>//aoko
+
+// \\@NPC_LOAD_SYNC@<5, 17, 680, 0, 1>
+// \\@CHARA_SET_MVNAME@<5, "FadeIn">//mario
+// \\@CHARA_SET_PATTERN@<5, 100>//mario 影
+
+\\@CHARA_IN@< 0, 15, 1, 1, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
@@ -13,35 +27,42 @@
 \\@CHARA_FOCUS_COLOR@<0,1>
 \\@QUAKE@<2,30,30>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0020", 100>
+\\@TEXT_ID@<10>
 Mario@Mario_Hatena
 っこのクソガンナー！
 壊す事しかできねえって噂は本当だったな！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0021", 100>
+\\@TEXT_ID@<20>
 Mario@Mario_Hatena
 なんだ、ニホン名物カイジュウってヤツかテメェ？
 ビームを撃てれば幸せな悲しいモンスターか？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0022", 100>
+\\@TEXT_ID@<30>
 Mario@Mario_Hatena
 ロアだけじゃなく工房まで消し炭にしやがって、
 『人間使い』の目も曇ったもんだ！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0023", 100>
+\\@TEXT_ID@<40>
 Mario@Mario_Hatena
 あーあ、テメェなんかに依頼したオレが阿呆だった！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0024", 100>
+\\@TEXT_ID@<50>
 Mario@Mario_Hatena
 くれてやる金なんざねえぞ、
 ブタバコにブチこまれる前にさっさと消えな！
 
+\\@CHARA_SET_PATTERN@<4, 17>//aoko 驚き
 \\@CHARA_IN@< 0, 15, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0040", 100>
+\\@TEXT_ID@<60>
 Aoko
 ちょっ、オトナげないにも程がない！？
 ちゃんと街は救ったでしょ！？
@@ -49,43 +70,53 @@ Aoko
 
 \\@CHARA_IN@< 0, 15, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0041", 100>
+\\@TEXT_ID@<70>
 Aoko
 そりゃあオプションは未達成だけど、
 基本業務はこなしたし！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//aoko
 \\@CHARA_IN@< 0, 15, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0042", 100>
+\\@TEXT_ID@<80>
 Aoko
 はい、報酬振り込んで！
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0025", 100>
+\\@TEXT_ID@<90>
 Mario@Mario_Hatena
 そいつはテメェの破壊活動で
 いってこいだっつーの！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0026", 100>
+\\@TEXT_ID@<100>
 Mario@Mario_Hatena
 マジで地下鉄ぶっ壊しやがって、
 人命被害が出なかったのは奇跡だぜ！
 
+\\@CHARA_SET_PATTERN@<4, 19>//aoko 真剣
 \\@CHARA_IN@< 0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0043", 100>
+\\@TEXT_ID@<110>
 Aoko
 奇跡じゃない。そこはちゃんと確認してます。
 私、一般人は殺さない約束してるから。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 9>//aoko あちゃー
 \\@CHARA_IN@< 0, 15, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0044", 100>
+\\@TEXT_ID@<120>
 Aoko
 ……もう。はいはい、分かったわよ。
 \l
 
 \\@CHARA_IN@< 0, 15, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0045", 100>
+\\@TEXT_ID@<130>
 Aoko
 せめて交通費は出してよね。
 オーストラリアから飛んできたんだから。
@@ -93,24 +124,29 @@ Aoko
 
 \\@CHARA_FACE@<0,4,2,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0046", 100>
+\\@TEXT_ID@<140>
 Aoko
 司祭ともあろう方がイライラしちゃってさー。
 あ。その体質のせいで怒りっぽいの？
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0027", 100>
+\\@TEXT_ID@<150>
 Mario@Mario_Hatena
 そうだよ。分かってんじゃねえか。
 これが最後のチャンスだったってのにな！
 
+\\@CHARA_SET_PATTERN@<4, 2>//aoko む？
 \\@CHARA_IN@< 0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0047", 100>
+\\@TEXT_ID@<160>
 Aoko
 ？　応急処置でいいならできるよ？
 ようはそれ、止めればいいんでしょ？
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0028", 100>
+\\@TEXT_ID@<170>
 Mario@Mario_Hatena
 なん―――だと―――？
 
@@ -118,6 +154,9 @@ Mario@Mario_Hatena
 \\@FADE_OUT@<0, 255, 255, 255, 0>
 \w<180>
 
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>
 \\@CHARA_OUT@<0, -1, -1, 0, 0>
 \\@CHARA_OUT@<1, -1, -1, 0, 0>
 \aw
@@ -128,52 +167,60 @@ Mario@Mario_Hatena
 \\@FADE_IN@<0, 255, 255, 255, 0>
 
 \\@SQ_CALL@<1>
-\\@BGM_PLAY@<0, 76, 100>
+\\@BGM_PLAY@<0, 66, 100>
 \aw
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0048", 100>
+\\@TEXT_ID@<180>
 Aoko
 ん～～～～～！
 やっぱハワイはいーーわーーー！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0049", 100>
+\\@TEXT_ID@<190>
 Aoko
 司祭さまからめっちゃ報酬もらって、
 プライベートビーチまで貸してもらっちゃった！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0050", 100>
+\\@TEXT_ID@<200>
 Aoko
 まさに《瓢箪＜ひょうたん＞から駒なり！
 日頃の善行がここで活きた！　って感じ！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0051", 100>
+\\@TEXT_ID@<210>
 Aoko
 有珠にもメールして……あ、ダメか、
 あの子、まだかたくなにＩＴ関連嫌ってた。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0052", 100>
+\\@TEXT_ID@<220>
 Aoko
 二世クンは忙しいだろうし、
 姉貴は……ダメダメ、南の島がホラー案件になる。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0053", 100>
+\\@TEXT_ID@<230>
 Aoko
 ここはひとりでのんびり、
 リッチなバカンスにひたりましょう！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0054", 100>
+\\@TEXT_ID@<240>
 Aoko
 目立った終末案件もないし、
 ゼルレッチの爺さんも見当たらないし！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0055", 100>
+\\@TEXT_ID@<250>
 Aoko
 世は未だコトもなし。
 私の出番は何年先になるかな～～！
@@ -183,3 +230,4 @@ Aoko
 
 \\@BGM_STOP@<0>
 \e
+

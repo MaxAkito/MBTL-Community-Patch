@@ -1,23 +1,38 @@
-\\@BG_IN@<"screen_bg03", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg03", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@SYSTEM@<102>
+
+\\@NPC_LOAD_SYNC@<4, 6, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//kishima
+\\@CHARA_SET_PATTERN@<4, 1>//kishima
+
+\\@NPC_LOAD_SYNC@<5, 11, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<5, 4>//ciel
 
 \\@CHARA_IN@<0,  6, 0, 1, 0>
 \\@CHARA_IN@<1, 11, 3, 2, 0>
 \aw
 
-\\@BGM_PLAY@<0, 74, 100>
-
 \\@CHARA_IN@< 1, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0010", 100>
+\\@TEXT_ID@<10>
 Ciel
 止まりなさい、そこの男。
 \l
 
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0011", 100>
+\\@TEXT_ID@<20>
 Ciel
 吸血鬼ではないようですが、その凶行は目に余る。
 いえ、吸血鬼でないのなら尚更です。
@@ -25,6 +40,7 @@ Ciel
 
 \\@CHARA_IN@< 1, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0012", 100>
+\\@TEXT_ID@<30>
 Ciel
 この国特有の血族……聖霊の父とは無縁のものが、
 神の血を騙るなどあってはならない。
@@ -32,18 +48,22 @@ Ciel
 
 \\@CHARA_IN@< 1, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0013", 100>
+\\@TEXT_ID@<40>
 Ciel
 主の意向の代行者として、
 その生存を断ちきりましょう。
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 6, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0010", 100>
+\\@TEXT_ID@<50>
 Kishima
 ……余所の土地にまでご苦労な事だ。
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0011", 100>
+\\@TEXT_ID@<60>
 Kishima
 侵略こそがおまえたちの教義だったな。
 信じるものがただ一つである事の強み……
@@ -51,24 +71,29 @@ Kishima
 
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0012", 100>
+\\@TEXT_ID@<70>
 Kishima
 いや、羨ましいかぎりだ。
 \l
 
 \\@CHARA_IN@< 0, 6, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0013", 100>
+\\@TEXT_ID@<80>
 Kishima
 ……だとしても、その潔癖さでは生き辛かろうよ。
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0014", 100>
+\\@TEXT_ID@<90>
 Kishima
 咎なき者には騙し打ちはしない。
 その慈愛に実力が伴っていればいいが。
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0014", 100>
+\\@TEXT_ID@<100>
 Ciel
 …………物言わぬ鬼かと思えば、
 ずいぶん舌が回るのですね。
@@ -76,11 +101,14 @@ Ciel
 
 \\@CHARA_IN@< 1, 11, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0015", 100>
+\\@TEXT_ID@<110>
 Ciel
 人間ではないクセに仏教徒なのですか？
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0015", 100>
+\\@TEXT_ID@<120>
 Kishima
 フッ。昨今、鬼の方が信心深いものだ。
 口上は不要、改宗は諦めろ。
@@ -88,6 +116,7 @@ Kishima
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0016", 100>
+\\@TEXT_ID@<130>
 Kishima
 来るがいい、死なずの女。
 おまえの倦怠に付き合ってやる。
@@ -95,3 +124,4 @@ Kishima
 
 \\@BGM_STOP@<0>
 \e
+

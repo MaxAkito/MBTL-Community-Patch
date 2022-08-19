@@ -1,0 +1,388 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<1>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 19, -100, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 0>
+
+\\@NPC_LOAD_SYNC@<5, 20, 100, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 203>//はにかみ
+
+
+
+\\@CHARA_IN@< 0, 19, 110, 1, 0>
+\\@CHARA_IN@< 2, 20, 200, 2, 0>
+\\@CHARA_MUKI@<2, 1>
+\aw
+
+\\@BGM_PLAY@<0, 73, 100>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0400", 100>
+\\@TEXT_ID@<10>
+Neco_Arc
+今更だが自己紹介をしよう。
+アタシの名はネコアルク。学名はまだない。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0401", 100>
+\\@TEXT_ID@<20>
+Neco_Arc
+ハッピーエンドを求めた人々の見る幻影とも、
+真祖の姫のもう一つの側面とも、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0402", 100>
+\\@TEXT_ID@<30>
+Neco_Arc
+たまたま描かれたらくがきが波動関数を
+体現してたんで産まれた生命とも、
+\l
+
+\\@CHARA_IN@< 0, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0403", 100>
+\\@TEXT_ID@<40>
+Neco_Arc
+様々な説が囁かれる神出鬼没のゴッドキャット。
+正直自分でもわかんねー。
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 219>//困惑
+\\@CHARA_IN@< 2, 20, 208, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0120", 100>
+\\@TEXT_ID@<50>
+Mash
+ご自分でもおわかりになられないのですか？
+不安ではありませんか？
+
+
+\\@SQ_CALL@<1>
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 44>//neco
+\\@CHARA_IN@< 0, 19, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0404", 100>
+\\@TEXT_ID@<60>
+Neco_Arc
+んー、クレカ作れないのは不便のような
+良かったような。古い運転免許ならある。
+\l
+
+
+\\@CHARA_IN@< 0, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0405", 100>
+\\@TEXT_ID@<70>
+Neco_Arc
+まあ、自分が何者であるか、という謎は
+知性体すべてに共通する課題ですからね。
+\l
+
+\\@SQ_CALL@<2>
+
+/*-comment-
+\\@CHARA_IN@< 0, 19, 109, 0, 1>
+ネコアルク＠勝利_01
+*/
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0406", 100>
+\\@TEXT_ID@<80>
+Neco_Arc
+深く考えても仕方がニャい。アタクシ、
+誕生から消滅するまでそう堅く決心しております。
+
+\\@CHARA_SET_PATTERN@<4, 0>//戻る
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 203>//はにかみ
+\\@CHARA_IN@< 2, 20, 207, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0121", 100>
+\\@TEXT_ID@<90>
+Mash
+ふふ。お強いのですね、ネコアルクさんは。
+ダイヤグラムは最低なのに。
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0407", 100>
+\\@TEXT_ID@<100>
+Neco_Arc
+ふふ……純粋な尊敬、ありがとう。
+マシュ君のセリフには天然のうま味があるニャア。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 44>//neco
+\\@CHARA_IN@< 0, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0408", 100>
+\\@TEXT_ID@<110>
+Neco_Arc
+でも、きつい現実をあたたかく言うのはよくないよ？
+たき火というより焼きごてだからね？
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 202>//お辞儀
+\\@CHARA_IN@< 2, 20, 202, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0122", 100>
+\\@TEXT_ID@<120>
+Mash
+す、すみません。そうですよね、
+最低ではなくゼロ値と言うべきでした！
+\l
+
+\\@CHARA_SET_PATTERN@<5, 204>//笑顔で会釈
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0123", 100>
+\\@TEXT_ID@<130>
+Mash
+ネコアルクさんは２０年近く大会出場経験が
+ないのに頑張っているのですから！
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 18>//頭のけぞり
+\\@CHARA_IN@< 0, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0409", 100>
+\\@TEXT_ID@<140>
+Neco_Arc
+もうよせ、ボスの前に死にそうだ！
+この残酷な世界に飲み込まれる！
+
+\\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
+\aw
+
+\\@BGM_FADE@<0, 100, 0, 120, 1>
+
+\\@CHARA_SET_PATTERN@<4, 19>//頭のけぞり戻り
+
+\\@SYSTEM@<100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNak/NpcNak08_0000", 100>
+\\@TEXT_ID@<150>
+Neco_Akiha_Hatena
+まったく、迷惑極まりない。
+これだから西洋の吸血鬼モドキは。
+
+\\@CHARA_SET_PATTERN@<4, 35>//neco
+\\@CHARA_SET_PATTERN@<5, 48>//振り向き
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 2, 20, 214, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+\\@CHARA_IN@< 0, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0410", 100>
+\\@TEXT_ID@<160>
+Neco_Arc
+！　この、ネコをネコとも思わぬ、
+兄を兄とも扱わぬ冷酷無比なクールボイスは―――！
+
+\\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
+\aw
+
+\\@SYSTEM@<100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNak/NpcNak08_0001", 100>
+\\@TEXT_ID@<170>
+Neco_Akiha_Hatena
+味方に刺されて行き倒れるのは自業自得ですが、
+できれば路地裏の隅でやってほしいものです。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNak/NpcNak08_0002", 100>
+\\@TEXT_ID@<180>
+Neco_Akiha_Hatena
+館の持ち主の身にもなってください。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNak/NpcNak08_0003", 100>
+\\@TEXT_ID@<190>
+Neco_Akiha_Hatena
+誰だって、朝起きた時にネズミの死骸が
+転がっていたらイヤでしょう？
+\l
+
+\\@CHARA_SET_PATTERN@<4, 4>//キシャ―
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0411", 100>
+\\@TEXT_ID@<200>
+Neco_Arc
+出たなお嬢！
+Ｒになっても基本何も変わらなかった、
+\l
+
+
+\\@DRAW_EFFECT@<1>
+\\@BGM_FADE@<0, -1, 30, 10, 0>
+\aw
+
+\\@CHARA_IN@< 0, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0412", 100>
+\\@TEXT_ID@<210>
+Neco_Arc
+どこがとは言わない。
+ネコにも敵に向ける憐れはあるのである
+\l
+
+/*-comment-
+ここだけ時間ストップ、スローに。モノローグ
+*/
+
+\\@DRAW_EFFECT@<0>
+\\@BGM_FADE@<0, -1, 100, 120, 0>
+\aw
+
+
+\\@CHARA_IN@< 0, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0413", 100>
+\\@TEXT_ID@<220>
+Neco_Arc
+完成された肉体を持つシスターよ！
+ボス度全開の登場セリフ、ありがっした！
+\l
+
+/*-comment-
+時間戻る
+*/
+\\@CHARA_SET_PATTERN@<4, 17>//キシャ―戻り
+
+\\@CHARA_IN@< 0, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0414", 100>
+\\@TEXT_ID@<230>
+Neco_Arc
+それはそれとして、ロビーが散らかっていても
+掃除するのは使用人ですよね。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0415", 100>
+\\@TEXT_ID@<240>
+Neco_Arc
+お嬢は別に何もしませんよね。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 3>//neco
+\\@CHARA_IN@< 0, 19, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0416", 100>
+\\@TEXT_ID@<250>
+Neco_Arc
+そんなだから眼鏡が使用人の仕事を手伝ったりして、
+気がつくと好感度に差が付いてたりするんだぞ？
+
+\\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
+\aw
+
+\\@SYSTEM@<100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNak/NpcNak08_0004", 100>
+\\@TEXT_ID@<260>
+Neco_Akiha_Hatena
+―――ふふ。
+不愉快すぎて踏み潰してしまいそう。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNak/NpcNak08_0005", 100>
+\\@TEXT_ID@<270>
+Neco_Akiha_Hatena
+気軽に越境をする侵略者、
+空気を読まない自称・お姫さまにはうんざりです。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNak/NpcNak08_0006", 100>
+\\@TEXT_ID@<280>
+Neco_Akiha_Hatena
+この街の秩序を操る者として、
+よそ者には罰を下します！
+
+\\@CHARA_SET_PATTERN@<4, 45>//neco
+
+\\@CHARA_SET_COLOR@<6,32>//スロット６に読むキャラのカラーは32（ネコアキハ）
+\\@NPC_LOAD_SYNC@<6, 19, 600, 0, 1>//ネコアキハ
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 35>
+
+\\@CHARA_CLEAR@<2>
+\\@CHARA_IN@< 1, 57, 102, 2, 0>//ネコアキハ
+\aw
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 57, -1, 0, 1>//ネコアキハ
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNak/NpcNak08_0007", 100>
+\\@TEXT_ID@<290>
+Neco_Akiha
+身の程を弁える時よ。
+２頭身の分際で、この私に勝てると思って？
+
+
+\\@CHARA_SET_PATTERN@<5, 18>//困惑
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 210, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0124", 100>
+\\@TEXT_ID@<300>
+Mash
+――――――。
+
+
+\\@CHARA_SET_PATTERN@<4, 44>//neco
+\\@CHARA_IN@< 0, 19, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0417", 100>
+\\@TEXT_ID@<310>
+Neco_Arc
+やーっぱりそうきたかー。
+安易なネコ化はどうかと思うよ？
+
+
+\\@CHARA_SET_PATTERN@<6, 38>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 57, 100, 0, 1>//ネコアキハ
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNak/NpcNak08_0008", 100>
+\\@TEXT_ID@<320>
+Neco_Akiha
+なんのことです？
+アナタの言った通り、パーフェクトな私ですが。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0418", 100>
+\\@TEXT_ID@<330>
+Neco_Arc
+なるほど。究極の魅力を求めた時、この《体＜ボディ＞に
+いきつくのは食後にあんみつを頼むくらい明らか……
+\l
+
+
+\\@CHARA_IN@< 0, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0419", 100>
+\\@TEXT_ID@<340>
+Neco_Arc
+我がことながら、
+すべてがネコになるってホラーだよニャー……
+\l
+
+\\@CHARA_SET_PATTERN@<4, 6>//両手ピョコピョコ万歳
+\\@CHARA_IN@< 0, 19, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0420", 100>
+\\@TEXT_ID@<350>
+Neco_Arc
+まあいいや、ネコ決定戦としゃれこむぜ！
+勝負だ、同性能のお嬢！
+
+
+\\@BGM_STOP@<0>
+\e
+

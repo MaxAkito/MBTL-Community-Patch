@@ -1,0 +1,361 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+
+\\@CHARA_IN@< 0, 19, 105, 1, 0>
+\aw
+
+\\@BGM_PLAY@<0, 62, 100>//ほのぼのとした日常系BGM
+
+\\@SYSTEM@<101>
+\\@NPC_LOAD_SYNC@<4, 19, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 4>//キシャ―
+\\@CHARA_IN@< 0, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0370", 100>
+\\@TEXT_ID@<10>
+Neco_Arc
+くっそう、ドイツもコイツも見てから余裕で
+シールドカウンターときた。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 3>//やれやれ
+\\@CHARA_IN@< 0, 19, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0371", 100>
+\\@TEXT_ID@<20>
+Neco_Arc
+これが最新のゲームシステム……
+安易なビームは通さない、というコトか……
+\l
+
+\\@CHARA_IN@< 0, 19, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0372", 100>
+\\@TEXT_ID@<30>
+Neco_Arc
+んにゃ、それにしてもヤバイでしょこの街。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 4>//キシャ―
+\\@CHARA_IN@< 0, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0373", 100>
+\\@TEXT_ID@<40>
+Neco_Arc
+ネコと見るや勝ち星拾いに来やがって、
+おちおちコンビニで買い物もできねー！
+
+\\@CHARA_IN@< 2, 20, 205, 2, 0>
+\\@CHARA_MUKI@<2, 1>
+\aw
+
+\\@NPC_LOAD_SYNC@<5, 20, 265, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 11>//前進
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+
+\\@CHARA_SET_PATTERN@<4, 16>//キシャ―戻り
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 2, 20, 207, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0110", 100>
+\\@TEXT_ID@<50>
+Mash
+ただいま帰りましたネコアルクさん。
+はい、ネコ缶とおでんと野菜ジュースです。
+
+\\@CHARA_WAIT_PATTERN@<5, 12>
+\aw
+
+//ここでカメラ固定
+\\@NPC_LOAD_SYNC@<7, 90, 132, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//camera
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 13>//ワイン
+\\@CHARA_IN@< 0, 19, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0374", 100>
+\\@TEXT_ID@<60>
+Neco_Arc
+おっと。ダンケシュウ、マドモアゼル。
+夢に見たコンビニエンスストアはどうでしたかな？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0375", 100>
+\\@TEXT_ID@<70>
+Neco_Arc
+地方だとないんでしょ、ああいうの？
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 13>//やったね
+\\@CHARA_IN@< 2, 20, 205, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+\\@CHARA_EMOVE@<2, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0111", 100>
+\\@TEXT_ID@<80>
+Mash
+はい、とても刺激的でした！
+洗練された沢山の商品と、温かな店内！
+\l
+
+\\@CHARA_IN@< 2, 20, 206, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0112", 100>
+\\@TEXT_ID@<90>
+Mash
+カルデアに帰れたら、すぐに
+購買部の設置を進言したいと思います！
+
+
+\\@CHARA_SET_PATTERN@<5, 3>//はにかみ
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 14>//ワイン戻り
+\\@CHARA_IN@< 0, 19, 106, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0376", 100>
+\\@TEXT_ID@<100>
+Neco_Arc
+うんうん。うちの王国にもニャイから、
+その気持ちすごく分かる。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 3>//やれやれ
+\\@CHARA_IN@< 0, 19, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0377", 100>
+\\@TEXT_ID@<110>
+Neco_Arc
+とはいえネコは気まぐれだからニャー。
+値段の概念とか高度すぎんだよニャー。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 0>//ニュートラル
+\\@CHARA_IN@< 0, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0378", 100>
+\\@TEXT_ID@<120>
+Neco_Arc
+まあいいや、ネコ缶開けよっと。
+マシュくん、缶切りある？　ナイ？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0379", 100>
+\\@TEXT_ID@<130>
+Neco_Arc
+仕方ない、まるごといってみっか。
+平和な公園ニャもの、刃物とか求められません。
+
+\\@BGM_FADE@<0, 100, 0, 120, 1>// フェードアウト
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 14>//はにかみ＞盾構え
+\\@CHARA_IN@< 2, 20, 200, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+\\@CHARA_FACE@<2, 200, 223, 130>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0113", 100>
+\\@TEXT_ID@<140>
+Mash
+そうですね―――いえ、
+危ないネコアルクさん！
+\l
+
+\\@BGM_PLAY@<0, 74, 100>
+\\@CHARA_SET_PATTERN@<4, 10>//バクステ
+\\@CHARA_SET_PATTERN@<5, 15>//バクステ
+
+\\@CHARA_WAIT_PATTERN@<4, 0>
+\\@CHARA_WAIT_PATTERN@<5, 0>
+\aw
+
+\\@SYSTEM@<101>
+
+\\@CHARA_CLEAR@<2>
+\aw
+
+\\@CHARA_IN@< 0, 20, 203, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0114", 100>
+\\@TEXT_ID@<150>
+Mash
+これは投剣！？
+いったいどこから！？
+
+\\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
+\\@CHARA_IN@< 0, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0380", 100>
+\\@TEXT_ID@<160>
+Neco_Arc
+ほほう。頭上から無言で飛び道具コマンド×３とは。
+物騒なスパチャありがとう！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 4>//キシャ―
+\\@CHARA_IN@< 0, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0381", 100>
+\\@TEXT_ID@<170>
+Neco_Arc
+だが今日はアタシの誕生日でもなければ
+ピックアップの日でもねー！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0382", 100>
+\\@TEXT_ID@<180>
+Neco_Arc
+姿を現せシエル！
+街灯の上にいるのは分かってるンだ！
+
+
+\\@CHARA_OUT@< 2, -1, -1, 0, 0>
+\aw
+
+\\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
+\aw
+
+\\@SYSTEM@<100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNci/NpcNci08_0000", 100>
+\\@TEXT_ID@<190>
+Neco_Ciel_Hatena
+私の名前を知っている……？
+ただのNECOではないようですね。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNci/NpcNci08_0001", 100>
+\\@TEXT_ID@<200>
+Neco_Ciel_Hatena
+それに傍らにいる少女。
+明らかに異なる世界の存在です。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNci/NpcNci08_0002", 100>
+\\@TEXT_ID@<210>
+Neco_Ciel_Hatena
+答えなさい。どうやってこの世界に現れたのです。
+明確な目的があるのですか？
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 44>//neco
+\\@CHARA_IN@< 0, 19, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0383", 100>
+\\@TEXT_ID@<220>
+Neco_Arc
+どうやってって、
+それが分かればアタシも苦労しねーよ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0384", 100>
+\\@TEXT_ID@<230>
+Neco_Arc
+アタシがちょっかいかけられるのは
+都古クンだけなんだけどさぁ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0385", 100>
+\\@TEXT_ID@<240>
+Neco_Arc
+コタツで寝落ちしてふっと目を覚ましたら、
+そこの甲冑ガールが不安そうに俯いてたワケ。
+
+
+\\@CHARA_IN@< 0, 20, 207, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0115", 100>
+\\@TEXT_ID@<250>
+Mash
+はい。途方に暮れていたわたしを、
+ネコアルクさんが励ましてくれたのです。
+
+
+\\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
+\\@CHARA_IN@< 0, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0386", 100>
+\\@TEXT_ID@<260>
+Neco_Arc
+ね？　いい子っしょ？
+何よりルックスがいい。マイティ＆ブレイブ。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 3>//やれやれ
+\\@CHARA_IN@< 0, 19, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0387", 100>
+\\@TEXT_ID@<270>
+Neco_Arc
+どこかの誰かさんの完全武装？　とかいうの？
+とは基本コンセプトからして違うんだよなぁ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0388", 100>
+\\@TEXT_ID@<280>
+Neco_Arc
+重火器にギロチン刃とか、ヒロインとして
+あるまじき殺意ニャんだよねー。
+
+\\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
+\aw
+
+\\@SYSTEM@<100>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNci/NpcNci08_0003", 100>
+\\@TEXT_ID@<290>
+Neco_Ciel_Hatena
+―――ただの愉快犯のようですね。
+では、望み通り冷徹に処断します。とう！（↑）
+
+\\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 19, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0389", 100>
+\\@TEXT_ID@<300>
+Neco_Arc
+（バカめ、挑発に乗ったな！
+　地面に降りてきたシエルなぞ恐るるに足らず！）
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 1>//万歳
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0390", 100>
+\\@TEXT_ID@<310>
+Neco_Arc
+（アタシの爪で、あのセクスィーな法衣を
+　《水玉模様＜ズタズタ＞にしてやらァ！）
+
+\\@CHARA_SET_COLOR@<6,30>//スロット６に読むキャラのカラーは30（ネコシエル）
+\\@NPC_LOAD_SYNC@<6, 19, 380, 0, 1>
+\\@CHARA_SET_PATTERN@<6, 50>//ネコシエル登場
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 56, 112, 2, 0>//ネコシエル
+\aw
+
+\\@CHARA_IN@< 1, 56, -1, 0, 1>//ネコシエル
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNci/NpcNci08_0004", 100>
+\\@TEXT_ID@<320>
+Neco_Ciel
+しゅた（↓）。覚悟なさい、不良品饅頭！
+この街に、アナタの居場所はありません！
+
+
+\\@CHARA_SET_PATTERN@<4, 11>//あれぇ？
+\\@SYSTEM@<101>
+// \\@CHARA_IN@< 0, 19, 105, 0, 1>
+\\@CHARA_IN@< 0, 19, 116, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0391", 100>
+\\@TEXT_ID@<330>
+Neco_Arc
+……………………。
+あっれぇー？
+
+
+\\@BGM_STOP@<0>
+\e
+

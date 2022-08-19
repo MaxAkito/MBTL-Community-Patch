@@ -1,8 +1,23 @@
-\\@BG_IN@<"screen_bg04", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<4>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg04", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 12, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//saber
+\\@CHARA_SET_PATTERN@<4, 0>//saber
+
+\\@NPC_LOAD_SYNC@<5, 1, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//hisui
+\\@CHARA_SET_PATTERN@<5, 0>//hisui
+
+\\@NPC_LOAD_SYNC@<6, 4, 480, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//kohaku
+\\@CHARA_SET_PATTERN@<6, 0>//kohaku
 
 \\@CHARA_IN@<0, 12, 1, 3, 0>
 \\@CHARA_IN@<1,  4, 103, 4, 0>
@@ -11,8 +26,11 @@
 
 \\@BGM_PLAY@<0, 74, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0010", 100>
+\\@TEXT_ID@<10>
 Saber
 む？　ようやく話の通じそうな住人に出逢えました。
 \l
@@ -20,67 +38,92 @@ Saber
 \\@CHARA_IN@< 0, 12, 2, 31, 2>
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0011", 100>
+\\@TEXT_ID@<20>
 Saber
 もし、そこの可憐な少女ふたり。
 ここは一体どの時代の、どこの国―――
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 3, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0040", 100>
+\\@TEXT_ID@<30>
 Hisui
 姉さん、発見しました。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 8>//hisui
+
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0041", 100>
+\\@TEXT_ID@<40>
 Hisui
 あの方が街で無差別破壊を繰り返している
 問題人物かと。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 10>//hisui
 \\@CHARA_IN@< 3, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0042", 100>
+\\@TEXT_ID@<50>
 Hisui
 率直に言って、彼女が騎士王です。
 
+\\@CHARA_SET_PATTERN@<6, 9>//kohaku
+
+\\@CHARA_SET_PATTERN@<6, 9>//kohaku
 \\@CHARA_IN@< 1, 4, 106, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0060", 100>
+\\@TEXT_ID@<60>
 Kohaku
 おおう……こうして目の当たりにすると
 言い逃れが出来ないほどバンデッド……
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0061", 100>
+\\@TEXT_ID@<70>
 Kohaku
 鎧ばかりかビームを放つ剣とか、
 ヒロインとしての自覚はないのでしょうか……
 \l
 
+\\@CHARA_SET_PATTERN@<6, 7>//kohaku
+
 \\@CHARA_IN@< 1, 4, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0062", 100>
+\\@TEXT_ID@<80>
 Kohaku
 ともあれ、あの方を放置しては総耶の法則が乱れます。
 やるわよ、翡翠ちゃん！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0063", 100>
+\\@TEXT_ID@<90>
 Kohaku
 翡翠ちゃんは美味しいお弁当で肉体面を！
 わたしはケミカル物質で精神面をいやします！
 
+\\@CHARA_SET_PATTERN@<5, 4>//hisui
+\\@CHARA_SET_PATTERN@<6, 3>//kohaku
+
+\\@CHARA_SET_PATTERN@<4, 10>//saber
 \\@GO_SUB@<"QUAKE_2">
 \\@SE_PLAY@<0,"talk/talk_se/Cmn_SmokeScreen",0,100>
 \\@GO_SUB@<"DAMEGE_RED">
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 12, 0, 21, 2>
 \aw
 \\@CHARA_IN@< 0, 12, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0012", 100>
+\\@TEXT_ID@<100>
 Saber
 っ、危ない……！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 11>//saber
 \\@CHARA_IN@< 0, 12, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0013", 100>
+\\@TEXT_ID@<110>
 Saber
 電柱を溶かすほどの毒弁当だけではなく、
 無色無臭の毒ガス注射とは―――
@@ -88,8 +131,10 @@ Saber
 
 \\@CHARA_IN@< 0, 12, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0014", 100>
+\\@TEXT_ID@<120>
 Saber
 さてはアサシンのサーヴァントですね！？
 
 \\@BGM_STOP@<0>
 \e
+

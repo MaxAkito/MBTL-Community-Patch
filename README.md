@@ -142,10 +142,10 @@ Has an incredibly rude way of speaking. Swears a lot. His speech is full of vulg
 
 Calls people by demeaning nicknames. Calls Noel "fatass" (ﾌﾞﾀ).
 
-#### Neco-Arc (018)
+#### Neco-Arc (019)
 Annoying cat (placeholder)
 
-#### Matthew Kyrielight (019)
+#### Matthew Kyrielight (020)
 Reserved but assertive kouhai (placeholder) 
 
 #### Archetype:EARTH (0??)
@@ -229,8 +229,8 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Aoko      (015) | Play-testing adjustments (Petri) |
 | P. Ciel   (016) | Play-testing adjustments (Petri) |
 | Mario     (017) | Play-testing adjustments (Petri) |
-| Neco-Arc  (018) | Play-testing adjustments (Petri) |
-| Matthew   (019) | Play-testing adjustments (Petri) |
+| Neco-Arc  (019) | N/A |
+| Matthew   (020) | N/A |
 
 ### Win-quotes
 
@@ -254,8 +254,8 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Aoko      (015) | Play-testing adjustments (Petri) |
 | P. Ciel   (016) | Play-testing adjustments (Petri) |
 | Mario     (017) | Play-testing adjustments (Petri) |
-| Neco-Arc  (018) | N/A                              |
-| Matthew   (019) | N/A                              |
+| Neco-Arc  (019) | N/A                              |
+| Matthew   (020) | N/A                              |
 
 ### Strings
 

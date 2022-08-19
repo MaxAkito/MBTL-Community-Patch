@@ -1,0 +1,229 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<13>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+\\@SYSTEM@<100>
+\aw
+
+\\@BGM_PLAY@<0, 65, 100>//楽しくにぎやかなBGM
+
+\\@NPC_LOAD_SYNC@<4, 3, 180, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 19>//眼鏡立ち呼吸
+
+\\@NPC_LOAD_SYNC@<5, 0, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+
+\\@NPC_LOAD_SYNC@<6, 11, 640, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+
+\\@CHARA_IN@< 0, 0, 3, 1, 0>
+\\@CHARA_IN@< 1, 11, 0, 2, 0>
+\\@CHARA_IN@< 2, 3, 0, 1, 0>
+\aw
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<5, 11>//ぷんすか
+\\@CHARA_IN@< 0, 0, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0030", 100>
+\\@TEXT_ID@<10>
+Arcueid
+出たなー、メカシエル！
+妹に捕まって改造されたんだって？
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 11>//退屈
+\\@CHARA_IN@< 1, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0000", 100>
+\\@TEXT_ID@<20>
+Ciel
+どこでそんな与太話を仕入れてきたのか知りませんが、
+期待に反して生シエルです。
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 22>//眼鏡お手
+\\@CHARA_IN@< 2, 3, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0030", 100>
+\\@TEXT_ID@<30>
+Shiki
+あれ？　先輩も秋葉か翡翠に言われて
+来たんじゃないんですか？
+
+\\@CHARA_SET_PATTERN@<4, 23>//眼鏡お手戻り
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0001", 100>
+\\@TEXT_ID@<40>
+Ciel
+違いますよ。
+秋葉さんがわたしに何か頼むとは思えませんし。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 19>//退屈戻り
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0002", 100>
+\\@TEXT_ID@<50>
+Ciel
+あなたたちがあまりにも白昼堂々不審な行動を
+とっていたので、ここで迎撃しただけです。
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<5, 21>//怒り→提案
+\\@CHARA_IN@< 0, 0, 09, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0031", 100>
+\\@TEXT_ID@<60>
+Arcueid
+ふーん。それで、どうするつもり？
+また火力強すぎビームとか、やりすぎ衛星砲撃ってみる？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0032", 100>
+\\@TEXT_ID@<70>
+Arcueid
+わたしはいいけど、今ここでムチャな兵器
+持ち出したら、そっちがワルモノになるわよ？
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 14>//くすり
+\\@CHARA_IN@< 1, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0003", 100>
+\\@TEXT_ID@<80>
+Ciel
+ご心配なく、昼行灯相手に
+そこまでするつもりはありません。
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<5, 11>//ぷんすか
+\\@CHARA_IN@< 0, 0, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0033", 100>
+\\@TEXT_ID@<90>
+Arcueid
+ひるあんどん……それ現代語？
+聞いた事ないけど、なに？
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0004", 100>
+\\@TEXT_ID@<100>
+Ciel
+言った通りの意味ですけど？
+そうですよね、遠野くん？
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 28>//眼鏡ため息
+\\@CHARA_IN@< 2, 3, 07, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0031", 100>
+\\@TEXT_ID@<110>
+Shiki
+……先輩、火力を強くしてから
+俺に振らないでくれます？
+
+\\@CHARA_SET_PATTERN@<4, 29>//眼鏡ため息戻り
+
+\\@CHARA_SET_PATTERN@<5, 12>//提案
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0034", 100>
+\\@TEXT_ID@<120>
+Arcueid
+ねーねー志貴、どういう意味？
+知ってるんでしょ？
+
+\\@CHARA_SET_PATTERN@<4, 20>//眼鏡振り向き
+\\@CHARA_IN@< 2, 3, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0032", 100>
+\\@TEXT_ID@<130>
+Shiki
+昼間は照明をつけてもぼんやりして見えるだろ？
+
+\\@CHARA_SET_PATTERN@<5, 0>//
+\\@CHARA_IN@< 0, 0, 2, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0035", 100>
+\\@TEXT_ID@<140>
+Arcueid
+うん。
+
+
+\\@CHARA_SET_PATTERN@<4, 22>//眼鏡お手
+\\@CHARA_IN@< 2, 3, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0033", 100>
+\\@TEXT_ID@<150>
+Shiki
+で、おまえキレた時に発光したよな？
+
+\\@CHARA_IN@< 0, 0, 2, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0036", 100>
+\\@TEXT_ID@<160>
+Arcueid
+うんうん。
+
+\\@CHARA_SET_PATTERN@<4, 23>//眼鏡お手戻り
+\\@CHARA_IN@< 2, 3, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0034", 100>
+\\@TEXT_ID@<170>
+Shiki
+だからさ。先輩曰く、昼間のアルクェイドは
+ぼんやりしてる、ってコトじゃないか？
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0005", 100>
+\\@TEXT_ID@<180>
+Ciel
+さすが遠野くん、以心伝心ですね。
+\l
+
+\\@CHARA_IN@< 1, 11, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0006", 100>
+\\@TEXT_ID@<190>
+Ciel
+白昼堂々暴れ回るなど、
+吸血鬼の自覚はないのでしょうか。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0007", 100>
+\\@TEXT_ID@<200>
+Ciel
+『真昼の月』などとんでもない。
+今の貴女には『白昼の豆電球』エンドがお似合いです。
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<5, 20>//怒り
+\\@CHARA_IN@< 0, 0, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0037", 100>
+\\@TEXT_ID@<210>
+Arcueid
+よし殺す！
+由緒正しい１０セット勝負よ、シエル！
+\l
+
+\\@CHARA_IN@< 0, 0, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0038", 100>
+\\@TEXT_ID@<220>
+Arcueid
+豆電球がお気に召さないなら、
+発電所級の火力で分からせてあげる！
+
+
+\\@BGM_STOP@<0>
+\e
+
+
+

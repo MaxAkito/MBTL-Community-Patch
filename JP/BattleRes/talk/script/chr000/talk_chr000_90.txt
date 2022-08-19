@@ -17,12 +17,14 @@
 \\@SQ_CALL@<1>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0030", 100>
+\\@TEXT_ID@<10>
 Arcueid
 はーあ。あれだけ暴れたのに出てこないなんて。
 今回のアイツ、今までより我慢強い？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0031", 100>
+\\@TEXT_ID@<20>
 Arcueid
 仕方ないけど、地道に捜すしかないか。
 人間みたいで面倒だけど―――
@@ -31,29 +33,34 @@ Arcueid
 \\@GO_SUB@<"QUAKE_1">
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0032", 100>
+\\@TEXT_ID@<30>
 Arcueid
 っと、あぶないあぶない、
 あやうく転ぶところだった！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0033", 100>
+\\@TEXT_ID@<40>
 Arcueid
 おかしいなあ、石につまづくなんて、
 そんな無駄な機能ついてないのに。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0034", 100>
+\\@TEXT_ID@<50>
 Arcueid
 ヴローヴにやられた傷がまだ治ってないようね。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0035", 100>
+\\@TEXT_ID@<60>
 Arcueid
 ―――けど、なにかしら。
 ヘンに胸がドキドキしてる。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0036", 100>
+\\@TEXT_ID@<70>
 Arcueid
 ふふ、明日にもロアが見つかるっていう
 報せならいいんだけど。
@@ -65,3 +72,4 @@ Arcueid
 
 \\@BGM_STOP@<0>
 \e
+

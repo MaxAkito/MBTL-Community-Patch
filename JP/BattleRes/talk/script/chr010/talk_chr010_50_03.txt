@@ -1,8 +1,20 @@
-\\@BG_IN@<"screen_bg03", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg03", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 10, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//warc
+\\@CHARA_SET_PATTERN@<4, 10>//warc
+
+\\@NPC_LOAD_SYNC@<5, 11, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<5, 4>//ciel
+
 
 \\@CHARA_IN@<0, 10, 0, 1, 0>
 \\@CHARA_IN@<1, 11, 6, 2, 0>
@@ -10,33 +22,41 @@
 
 \\@BGM_PLAY@<0, 74, 100>
 
+\\@SYSTEM@<101>
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0010", 100>
+\\@TEXT_ID@<10>
 Red_Arcueid
 はぁいシエル。相変わらず元気そうで嬉しいわ。
 \l
 
 \\@CHARA_IN@< 0, 10, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0011", 100>
+\\@TEXT_ID@<20>
 Red_Arcueid
 他の生き物はみんな柔らかくて、
 さっきから退屈していたの。
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0020", 100>
+\\@TEXT_ID@<30>
 Ciel
 アルクェイド――――貴女。
 自身を制御する事さえ、放棄したのですか。
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0012", 100>
+\\@TEXT_ID@<40>
 Red_Arcueid
 ふふん。いいなあ、その無理矢理な上から目線。
 \l
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0013", 100>
+\\@TEXT_ID@<50>
 Red_Arcueid
 失禁寸前なのに、頑張って
 『代行者』に徹している。
@@ -44,24 +64,31 @@ Red_Arcueid
 
 \\@CHARA_IN@< 0, 10, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0014", 100>
+\\@TEXT_ID@<60>
 Red_Arcueid
 私、貴女のそういうところ、ほんっと―――
 \l
 
+\\@CHARA_SET_PATTERN@<4, 7>//warc
+
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0015", 100>
+\\@TEXT_ID@<70>
 Red_Arcueid
 笑っちゃうくらい好き！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0016", 100>
+\\@TEXT_ID@<80>
 Red_Arcueid
 壊し甲斐のあるオモチャだもの、
 これ以上ないくらい、乱暴に扱ってあげる！
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0021", 100>
+\\@TEXT_ID@<90>
 Ciel
 ……貴女に気に入られているとか、
 冗談でもやめてください。
@@ -69,17 +96,22 @@ Ciel
 
 \\@CHARA_IN@< 1, 11, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0022", 100>
+\\@TEXT_ID@<100>
 Ciel
 過去体験した事のない怖気が走りました。
 \l
 
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0023", 100>
+\\@TEXT_ID@<110>
 Ciel
 いいでしょう。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 5>//ciel
+
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0024", 100>
+\\@TEXT_ID@<120>
 Ciel
 貴女に何があったかは知りませんが、
 主の御心に従い、吸血鬼は排除するもの。
@@ -87,9 +119,11 @@ Ciel
 
 \\@CHARA_IN@< 1, 11, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0025", 100>
+\\@TEXT_ID@<130>
 Ciel
 ―――勝負です、アルクェイド！
 
 
 \\@BGM_STOP@<0>
 \e
+

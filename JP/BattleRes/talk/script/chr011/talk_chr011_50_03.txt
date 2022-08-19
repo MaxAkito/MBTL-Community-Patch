@@ -1,18 +1,30 @@
-\\@BG_IN@<"screen_bg03", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg03", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 11, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<4, 0>//ciel
+
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<5, 2, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//akiha
+\\@CHARA_SET_PATTERN@<5, 14>//akiha
 
 \\@CHARA_IN@<0, 11, 6, 1, 0>
 \\@CHARA_IN@<1,  2, 0, 2, 0>
 \aw
 
-
 \\@BGM_PLAY@<0, 74, 100>
 
 \\@CHARA_IN@< 1, 2, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0060", 100>
+\\@TEXT_ID@<10>
 Akiha
 あら。私の街で悪さをする鼠を探しに来てみれば、
 ひときわ大きなドブ鼠を見つけるなんて。
@@ -20,63 +32,83 @@ Akiha
 
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0061", 100>
+\\@TEXT_ID@<20>
 Akiha
 いえ、鼠というのは失礼ね。
 野良犬の類いかしら、貴女？
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0040", 100>
+\\@TEXT_ID@<30>
 Ciel
 その認識で構いませんよ、遠野家のお嬢さん。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0041", 100>
+\\@TEXT_ID@<40>
 Ciel
 貴女も監査の対象です。
 ここでその力を測っておくのもいいでしょう。
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 2>//akiha
+
 \\@CHARA_IN@< 1, 2, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0062", 100>
+\\@TEXT_ID@<50>
 Akiha
 私を調べる、ですか？
 足下でキャンキャン鳴くだけの犬が？
 \l
 
+\\@CHARA_SET_PATTERN@<5, 4>//akiha
+
 \\@CHARA_IN@< 1, 2, 200, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0063", 100>
+\\@TEXT_ID@<60>
 Akiha
 ……不愉快ね。思わず踏み潰してしまいそう。
 人知れず、憐れに消える準備はできていて？
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0042", 100>
+\\@TEXT_ID@<70>
 Ciel
 そんなものははじめからありませんよ。
 遺言も、形見分けもわたしたちには不要なもの。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0043", 100>
+\\@TEXT_ID@<80>
 Ciel
 貴女の言う通り、いつ死んでもいい身ですので。
 \l
 
 \\@CHARA_IN@< 0, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0044", 100>
+\\@TEXT_ID@<90>
 Ciel
 ああ、でもひとつだけ忠告しておきましょう。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 20>//ciel
+
 \\@CHARA_IN@< 0, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0045", 100>
+\\@TEXT_ID@<100>
 Ciel
 わたし、犬は犬でも猟犬ですので。
 \l
 
 \\@CHARA_IN@< 0, 11, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0046", 100>
+\\@TEXT_ID@<110>
 Ciel
 油断していると、その細い首を
 一噛みで食い千切るかもですよ？
 
 \\@BGM_STOP@<0>
 \e
+

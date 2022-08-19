@@ -1,28 +1,36 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
-\aw
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg06", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@CHARA_IN@<0, 15, 8, 1, 0>
-\\@CHARA_IN@<1, 5, 1, 2, 0>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
 
+\\@SYSTEM@<101>
+\\@NPC_LOAD_SYNC@<4, 15, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//aoko
+\\@CHARA_SET_PATTERN@<4, 1>//aoko
 
 \\@CHARA_IN@<0, 15, 5, 0, 1>
 \\@CHARA_FACE@<0,5,4,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0030", 100>
+\\@TEXT_ID@<10>
 Aoko
 地下にこんな大規模な祭壇があるなんて……
 これ、１年や２年で出来るものじゃないわよ？
 \l
 
+\\@CHARA_SET_PATTERN@<4, 11>//aoko
+
 \\@CHARA_IN@<0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0031", 100>
+\\@TEXT_ID@<20>
 Aoko
 えーと、マーリオゥの調べだと７年前に
 ロアってヤツが目覚めたって話だけど……
@@ -31,8 +39,17 @@ Aoko
 これ、もっと前からじゃない？　という所感
 */
 
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<5, 5, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//roa
+\\@CHARA_SET_PATTERN@<5, 14>//roa
+
+\\@CHARA_IN@<1, 5, 1, 2, 0>
+\aw
+
 \\@CHARA_IN@<1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0030", 100>
+\\@TEXT_ID@<30>
 Roa
 これはこれは。
 まさか最新の魔法使いの登場とは。
@@ -40,6 +57,7 @@ Roa
 
 \\@CHARA_IN@<1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0031", 100>
+\\@TEXT_ID@<40>
 Roa
 いずれやって来ると確信はしていたが、
 この段階でやって来るのは予想外だ。
@@ -47,13 +65,17 @@ Roa
 
 \\@CHARA_FACE@<1,5,2,210>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0032", 100>
+\\@TEXT_ID@<50>
 Roa
 まだパンティオンは起動していない。
 もしや未来からの客人かな？　となると―――
 \l
 
+\\@CHARA_SET_PATTERN@<5, 16>//roa
+
 \\@CHARA_IN@<1, 5, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0033", 100>
+\\@TEXT_ID@<60>
 Roa
 は―――はハ、ハハハハハハハハ！
 やはり彼の、私の理論は正しかった！
@@ -65,13 +87,17 @@ Roa
 
 \\@CHARA_IN@<1, 5, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0034", 100>
+\\@TEXT_ID@<70>
 Roa
 ソラを暴くロアの企みは、
 いちおうの成功を見たというコトか！
 \l
 
+\\@CHARA_SET_PATTERN@<5, 18>//roa
+
 \\@CHARA_IN@<1, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0035", 100>
+\\@TEXT_ID@<80>
 Roa
 天体の卵！　開闢の原子配列！
 運河は収束し天堂に「　」は鎮座する！
@@ -79,19 +105,27 @@ Roa
 
 \\@CHARA_IN@<1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0036", 100>
+\\@TEXT_ID@<90>
 Roa
 だが無駄骨だ、《ここ＜・・＞でもまだ遅い。
 そして何もかもおしまいだ。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 19>//roa
+
 \\@CHARA_FACE@<1,0,6,360>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0037", 100>
+\\@TEXT_ID@<100>
 Roa
 事の始まりに立ち会う事なぞ不可能なのだよ。
 なぜなら―――貴様は、ここで命を終えるのだから！
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 2>//aoko
+
 \\@CHARA_IN@<0, 15, 11, 0, 1>
 // 欠番 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0032", 100>
+\\@TEXT_ID@<110>
 Aoko
 ――――。
 
@@ -99,8 +133,12 @@ Aoko
 空気を読んだ真顔。
 */
 
+\\@CHARA_SET_PATTERN@<5, 14>//roa
+
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 5, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0038", 100>
+\\@TEXT_ID@<120>
 Roa
 …………。
 なぜ黙っているのかな、キミ。
@@ -112,6 +150,7 @@ Roa
 
 \\@CHARA_IN@<1, 5, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0039", 100>
+\\@TEXT_ID@<130>
 Roa
 二度目のもしや……だが。
 もしや……私は、やらかしたかな？
@@ -121,8 +160,12 @@ Roa
 勘違いでなんかヘンなこといったかな？
 */
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 9>//aoko
+
 \\@CHARA_IN@<0, 15, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0033", 100>
+\\@TEXT_ID@<140>
 Aoko
 ソ、ソンナコト、ナイヨ？
 ソウ。ワタシ、ミライカラ、ヤッテキタ。
@@ -134,12 +177,17 @@ Aoko
 
 \\@CHARA_IN@<0, 15, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0034", 100>
+\\@TEXT_ID@<150>
 Aoko
 ワタシ、アナタ、ヤッツケル。
 オカネモラッテバカンス最高。ＯＫ？
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 13>//roa
+
 \\@CHARA_IN@<1, 5, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0040", 100>
+\\@TEXT_ID@<160>
 Roa
 ただの迷子かよチクショウ！
 これだから魔法使いってヤツは！
@@ -150,3 +198,4 @@ Roa
 
 \\@BGM_STOP@<0>
 \e
+

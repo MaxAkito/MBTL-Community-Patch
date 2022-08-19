@@ -1,34 +1,49 @@
 \\@SYSTEM@<9999>
 \\@FADE_IN@<1, 0, 0, 0, 0>
 \aw
-\\@BG_IN@<"screen_bg10", 0, 0>
+// \\@BG_IN@<"screen_bg10", 0, 0>
+\\@LOAD_BATTLE_BG@<10>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
 
 // ＃遠野邸_外観_夜
 
+\\@NPC_LOAD_SYNC@<5, 3, 100, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 90>//shiki
+
+\\@NPC_LOAD_SYNC@<4, 13,-100, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 0>//miyako
+
 \\@CHARA_IN@< 0, 13, 3, 1, 0>
 \\@CHARA_IN@< 2, 3, 0, 1, 0>
 \\@CHARA_FOCUS_COLOR@<-1,1>
 \aw
 
+\\@SYSTEM@<100>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10000", 100>
+\\@TEXT_ID@<10>
 Red_Arcueid@Red_Arcueid_Hatena
 はいストップ。
 それ以上進むと芥子粒になるわよ、学生さん。
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10030", 100>
+\\@TEXT_ID@<20>
 Shiki
 っ！　今の声は―――
 
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
 \\@CHARA_IN@< 0, 13, 6, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10070", 100>
+\\@TEXT_ID@<30>
 Miyako
 って、向こうから津波みたいのが迫ってきてるー！？
 
@@ -36,6 +51,9 @@ Miyako
 
 \\@GO_SUB@<"QUAKE_2">
 \\@SE_PLAY@<0, "talk/talk_se/Cmn_BombE", 0, 100>
+
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
 
 //画面、一旦灰色に
 \\@CHARA_OUT@<0, 13, -1, 0, 0>
@@ -46,22 +64,26 @@ Miyako
 \\@DRAW_EFFECT@<1>
 \aw
 
-\\@BGM_PLAY@<1, 72, 100>
+\\@BGM_PLAY@<1, 61, 100>//コミカルでちょっと怪しげなBGM
 
-\\@CHARA_IN@< 3, 53,  0, 44, 0>
+\\@CHARA_IN@< 3, 19,  0, 44, 0>
 \\@CHARA_MUKI@<3,0>
 \aw
 
-\\@CHARA_IN@< 3, 53, -1, 0, 1>
+\\@SYSTEM@<100>
+\\@CHARA_IN@< 3, 19, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10090", 100>
+\\@TEXT_ID@<40>
 Neco_Arc
 ～これまでのあらすじ～
 
 \\@CHARA_IN@< 1, 10, 101, 2, 0>
 \aw
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 10, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10001", 100>
+\\@TEXT_ID@<50>
 Red_Arcueid
 そういうのいいから。
 
@@ -79,6 +101,17 @@ Red_Arcueid
 \\@DRAW_EFFECT@<0>
 \aw
 
+\\@NPC_LOAD_SYNC@<5, 3, 100, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 33>//shiki 眼鏡困惑
+
+\\@NPC_LOAD_SYNC@<4, 13,-100, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
+
+\\@NPC_LOAD_SYNC@<6, 10, 720, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//warc
+\\@CHARA_SET_PATTERN@<6, 0>//warc
 
 \\@BGM_PLAY@<0, 74, 100>
 
@@ -86,20 +119,26 @@ Red_Arcueid
 \\@CHARA_IN@< 2, 3,  0, 11, 0>
 \aw
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 2, 3, 7, 0, 1>
 \\@CHARA_EMOVE@<2, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10031", 100>
+\\@TEXT_ID@<60>
 Shiki
 あわわわわ……。
 
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10071", 100>
+\\@TEXT_ID@<70>
 Miyako
 あわわわわ……。
 
+\\@CHARA_SET_PATTERN@<6, 10>//warc 挑発
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10002", 100>
+\\@TEXT_ID@<80>
 Red_Arcueid
 あら。どうしたの、お兄ちゃん？
 いつもの『あぶない都古ちゃん！』はナシ？
@@ -107,12 +146,14 @@ Red_Arcueid
 
 \\@CHARA_IN@< 1, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10003", 100>
+\\@TEXT_ID@<90>
 Red_Arcueid
 私、あの導入気に入ってたんだけどなー。
 \l
 
 \\@CHARA_IN@< 1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10004", 100>
+\\@TEXT_ID@<100>
 Red_Arcueid
 目の前で聞けると思って、
 張り切って衝撃波とか出してみたのに。
@@ -120,6 +161,7 @@ Red_Arcueid
 
 \\@CHARA_IN@< 1, 10, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10005", 100>
+\\@TEXT_ID@<110>
 Red_Arcueid
 二人とも顔を真っ青にして立ちすくんじゃって、
 つまんない。
@@ -127,13 +169,16 @@ Red_Arcueid
 
 \\@CHARA_IN@< 1, 10, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10006", 100>
+\\@TEXT_ID@<120>
 Red_Arcueid
 私がここにいるの、そんなに意外だった？
 それとも―――もう出てこない、なんて油断してた？
 
+\\@SYSTEM@<131>
 \\@CHARA_IN@< 2, 3, 7, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10032", 100>
+\\@TEXT_ID@<130>
 Shiki
 （意外というか論外と言いたい。言い返したい。
 　……でも、確かに油断していたな……）
@@ -141,20 +186,26 @@ Shiki
 
 \\@CHARA_IN@< 2, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10033", 100>
+\\@TEXT_ID@<140>
 Shiki
 （ここは遠野邸。頑張ってるのは都古ちゃん。
 　なら、ラスボスはどう考えてもうちの《当主＜アレ＞）
 \l
 
+\\@CHARA_SET_PATTERN@<5, 31>//shiki 眼鏡待て戻り
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10034", 100>
+\\@TEXT_ID@<150>
 Shiki
 （普通なら空気読んで引っ込んでるもんだけど……
 　そもそもフツーじゃないもんな、アイツ！）
 
+\\@CHARA_SET_PATTERN@<6, 8>//warc 余裕
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 10, 1, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10007", 100>
+\\@TEXT_ID@<160>
 Red_Arcueid
 ええ、そういうコト。
 本当ならチュートリアルで満足するんだろうけど―――
@@ -162,19 +213,23 @@ Red_Arcueid
 
 \\@CHARA_IN@< 1, 10, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10008", 100>
+\\@TEXT_ID@<170>
 Red_Arcueid
 思いのほか、楽しかったし悔しかったから？
 今度はこっちの芸風で？　遊んでみようかなって。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10009", 100>
+\\@TEXT_ID@<180>
 Red_Arcueid
 筋書きの決まった物語じゃつまらない。
 意味のないアクシデントも必要でしょう？
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, -1, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10072", 100>
+\\@TEXT_ID@<190>
 Miyako
 あわわわ……
 ムリムリ、ぜったいムリ！
@@ -182,17 +237,21 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10073", 100>
+\\@TEXT_ID@<200>
 Miyako
 逃げよう、お兄ちゃん！
 もう一回あの人に勝つビジョンが浮かばないもん！
 
+\\@CHARA_SET_PATTERN@<6, 6>//warc 超退屈
 \\@CHARA_IN@< 1, 10, 6, 0, 10>
 //＠あら、と拗ね顔
 // Red_Arcueid
 \w<20>
 
+\\@CHARA_SET_PATTERN@<5, 20>//shiki 眼鏡振り向き
 \\@CHARA_IN@< 2, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10035", 100>
+\\@TEXT_ID@<210>
 Shiki
 …………まあ。
 その意見には、俺も頷きたい。
@@ -200,6 +259,7 @@ Shiki
 
 \\@CHARA_IN@< 2, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10036", 100>
+\\@TEXT_ID@<220>
 Shiki
 他の相手ならともかく、アイツだと俺も勝ち目がないし。
 おもに罪悪感的な理由で。
@@ -207,6 +267,7 @@ Shiki
 
 \\@CHARA_IN@< 2, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10037", 100>
+\\@TEXT_ID@<230>
 Shiki
 でもいいのかな。ここで逃げるという事は、
 主役である事から逃げるという事だ。
@@ -215,42 +276,54 @@ Shiki
 \\@CHARA_IN@< 2, 3, 4, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10038", 100>
+\\@TEXT_ID@<240>
 Shiki
 それはちょっと勿体ないよ。
 キミはここまで、《運命＜それ＞と戦う為にやってきたのに。
 
+\\@CHARA_SET_PATTERN@<4, 2>//miyako 気合入れ
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10074", 100>
+\\@TEXT_ID@<250>
 Miyako
 ―――そうだった。
 うん、そうでした……！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//miyako 行くぞ！
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10075", 100>
+\\@TEXT_ID@<260>
 Miyako
 わたしがやっつけるのはあの人じゃなくて、
 自分の臆病さ、だもんね！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 6>//miyako YES
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10076", 100>
+\\@TEXT_ID@<270>
 Miyako
 さっすがお兄ちゃん！
 気合い、いただきましたっ！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 5>//miyako オス
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10077", 100>
+\\@TEXT_ID@<280>
 Miyako
 いくぞっ、わたしの最大の敵！
 できるだけ、おてやわらかにお願いします！
 
+\\@CHARA_SET_PATTERN@<6, 12>//warc あはははは
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 10, 8, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10010", 100>
+\\@TEXT_ID@<290>
 Red_Arcueid
 そうそう、それでこそよ。
 ジャイアントキリングをする側はそうでなくっちゃ。
@@ -258,9 +331,11 @@ Red_Arcueid
 
 \\@CHARA_IN@< 1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10011", 100>
+\\@TEXT_ID@<300>
 Red_Arcueid
 どのくらい動けるようになったか、
 残酷に確かめてあげる！
 
 \\@BGM_STOP@<0>
 \e
+

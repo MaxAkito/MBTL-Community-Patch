@@ -1,30 +1,42 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg03", 0, 2>
+\\@LOAD_BATTLE_BG@<3>
+// \\@BG_IN@<"screen_bg03", 0, 2>
 \\@FADE_IN@<0, 255, 255, 255, 0>
-\aw
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
+\\@NPC_LOAD_SYNC@<4, 19, 0, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 80>//召喚エフェクト
+\\@CHARA_WAIT_PATTERN@<4, 81>//
+\aw
 
+\\@NPC_LOAD_SYNC@<5, 12, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//saber
+\\@CHARA_SET_PATTERN@<5, 5>//saber
 
-\\@CHARA_IN@<0, 12, 6, 44, 0>
+\\@CHARA_IN@<0, 12, 6, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 12, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0000", 100>
+\\@TEXT_ID@<10>
 Saber
 サーヴァント・セイバー。
 召喚に応じ参上…………。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 9>//saber
 \\@CHARA_EMOVE@<0, -1 , 13>
 \\@CHARA_IN@< 0, 12, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0001", 100>
+\\@TEXT_ID@<20>
 Saber
 ……召喚者の姿がない。
 これは……どういう事でしょう。
@@ -32,6 +44,7 @@ Saber
 
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0002", 100>
+\\@TEXT_ID@<30>
 Saber
 マスターはいない、聖杯戦争でもない……
 そもそも世界の在り方が違う。
@@ -39,19 +52,23 @@ Saber
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0003", 100>
+\\@TEXT_ID@<40>
 Saber
 こちらでは人類史の重み……いえ、
 抑止力の出力が違うようだ。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 5>//saber
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0004", 100>
+\\@TEXT_ID@<50>
 Saber
 ……ともあれ、喚ばれたからには
 何か理由がある筈です。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0005", 100>
+\\@TEXT_ID@<60>
 Saber
 まずは姿を隠し、できるだけ目立たないよう
 情報を集めるべきでしょう。
@@ -59,3 +76,4 @@ Saber
 
 \\@BGM_STOP@<0>
 \e
+

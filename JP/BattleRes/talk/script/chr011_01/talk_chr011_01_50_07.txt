@@ -1,0 +1,215 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<25>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+\\@SYSTEM@<100>
+\aw
+
+\\@BGM_PLAY@<0, 65, 100>//楽しくにぎやかなBGM
+
+
+\\@NPC_LOAD_SYNC@<4, 3, -260, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 19>//眼鏡立ち呼吸
+
+\\@NPC_LOAD_SYNC@<5, 11, -400, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<5, 0>//ciel
+
+\\@NPC_LOAD_SYNC@<6, 0, 400, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//アルク
+\\@CHARA_SET_PATTERN@<6, 11>//ぷんすか
+
+
+\\@CHARA_IN@< 0, 11, 0, 1, 0>
+\\@CHARA_IN@< 2, 3, 0, 1, 0>
+\\@CHARA_IN@< 1, 0, 3, 2, 0>
+\aw
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 0, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0120", 100>
+\\@TEXT_ID@<10>
+Arcueid
+もー！　志貴おっそーい！
+どこで道草食べてたのよ！　カレー味の！
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 11, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0120", 100>
+\\@TEXT_ID@<20>
+Ciel
+遠野くん？
+
+
+\\@CHARA_SET_PATTERN@<4, 33>//眼鏡困惑
+\\@CHARA_IN@< 2, 3, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0300", 100>
+\\@TEXT_ID@<30>
+Shiki
+身に覚えがなさすぎる！
+遅いも何も、アルクェイドと約束してなかっただろ？
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 0, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0121", 100>
+\\@TEXT_ID@<40>
+Arcueid
+したもん！
+志貴の家のメイドさんから伝言もらったし！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0122", 100>
+\\@TEXT_ID@<50>
+Arcueid
+１０時からずっと待ってたんだからね！
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 19>//眼鏡立ち呼吸
+\\@CHARA_IN@< 2, 3, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0301", 100>
+\\@TEXT_ID@<60>
+Shiki
+あ。琥珀さんの言ってたサプライズって、
+もしかして……
+
+\\@CHARA_IN@< 0, 11, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0121", 100>
+\\@TEXT_ID@<70>
+Ciel
+アルクェイドの素性を知らずにやったのでしょうけど、
+命知らずにも程がありませんか、彼女！？
+
+
+\\@CHARA_SET_PATTERN@<4, 24>//眼鏡やれやれ
+\\@CHARA_IN@< 2, 3, 303, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0302", 100>
+\\@TEXT_ID@<80>
+Shiki
+……ってコトは、昨日の夜からずっと……
+……琥珀さんの仕業とはいえ、ごめん。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 25>//眼鏡やれやれ戻り
+\\@CHARA_IN@< 2, 3, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0303", 100>
+\\@TEXT_ID@<90>
+Shiki
+でも途中で気づくだろ？
+気が長いんだか短いんだか分からないというか……
+
+\\@CHARA_IN@< 0, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0122", 100>
+\\@TEXT_ID@<100>
+Ciel
+一度殺されてから時間の感覚も
+壊れたのでしょうね。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0123", 100>
+\\@TEXT_ID@<110>
+Ciel
+まあ、もともとあったのかどうかも
+わかりませんけど。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 11>//退屈
+\\@CHARA_IN@< 0, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0124", 100>
+\\@TEXT_ID@<120>
+Ciel
+それより。わたしにノエルをけしかけるなんて、
+貴女の趣味もずいぶん悪くなったようですね。
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 23>//きょとん
+\\@CHARA_IN@< 1, 0, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0123", 100>
+\\@TEXT_ID@<130>
+Arcueid
+ノエル？
+誰それ。
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 22>//眼鏡お手
+\\@CHARA_IN@< 2, 3, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0304", 100>
+\\@TEXT_ID@<140>
+Shiki
+おまえが脅して待ち伏せさせてたノエ……
+死徒だよ。弱いモノいじめは感心しないぞ。
+\l
+
+\\@SYSTEM@<131>
+\\@CHARA_SET_PATTERN@<4, 28>//眼鏡ため息
+\\@CHARA_IN@< 2, 3, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0305", 100>
+\\@TEXT_ID@<150>
+Shiki
+（まあ、あのノエル先生を“弱いモノ”扱い
+　できるのはコイツくらいだろうけど……）
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 0, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0124", 100>
+\\@TEXT_ID@<160>
+Arcueid
+？　なにそれ。わたしが脅す相手なんて、
+それこそ志貴くらいしかいないけど？
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<5, 19>//退屈戻り
+\\@CHARA_IN@< 0, 11, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0125", 100>
+\\@TEXT_ID@<170>
+Ciel
+しらを切っている様子はありませんが……
+念のため、形通りの尋問もしておきましょう。
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 33>//腕組み目開け
+\\@CHARA_IN@< 1, 0, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0125", 100>
+\\@TEXT_ID@<180>
+Arcueid
+ふーん、やる気なんだ？
+まあいいわ。ちょうど運動したかったし。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 34>//怒り払い
+\\@CHARA_IN@< 1, 0, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0126", 100>
+\\@TEXT_ID@<190>
+Arcueid
+でも待ちくたびれた分、力加減ミスっちゃうかも。
+その時は運が無かったと諦めるコトね、シエル。
+
+
+
+
+
+\\@BGM_STOP@<0>
+\e
+
+
+

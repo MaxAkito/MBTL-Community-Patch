@@ -1,43 +1,54 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg13", 0, 2, 0>
+\\@LOAD_BATTLE_BG@<13>
+\\@FADE_OUT@<2, 0, 0, 0, 0>
 \aw
 
+// \\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg13", 0, 2, 0>
+
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 
 \\@DRAW_EFFECT@<1>
 \aw
 
-\\@FADE_OUT@<2, 0, 0, 0, 0>
-\aw
+
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<101>
 
-\\@CHARA_IN@<2, 52, 0, 44, 0>
+\\@CHARA_IN@<2, 52, 0, 11, 0>
 \\@CHARA_MUKI@<2,0>
 \aw
 
 \\@CHARA_IN@< 2, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0020", 100>
+\\@TEXT_ID@<10>
 Bake_Neko
 これまでのあらすじ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0021", 100>
+\\@TEXT_ID@<20>
 Bake_Neko
 無敵。あまりにも無敵。立ち塞がる敵を倒し、
 着実に悪の総本山に近づいているのであった。
 
+\\@SYSTEM@<200>
 \\@CHARA_OUT@< 2, 52, -1, 0, 1>
 \aw
 \\@DRAW_EFFECT@<0>
 \aw
 
+\\@SYSTEM@<101>
 \\@FADE_IN@<2, 255, 255, 255, 0>
 
+\\@NPC_LOAD_SYNC@<4, 13, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 7>//miyako
 
 \\@CHARA_IN@<0, 13, 3, 1, 0>
 \aw
@@ -45,6 +56,7 @@ Bake_Neko
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 12>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0030", 100>
+\\@TEXT_ID@<30>
 Miyako
 はあー……
 はあー……
@@ -52,12 +64,14 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0031", 100>
+\\@TEXT_ID@<40>
 Miyako
 ちょっと待って。ちょっと待って。
 なんかおかしい。おかしいよね、なんか！？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0032", 100>
+\\@TEXT_ID@<50>
 Miyako
 会うひと会うひと知らないひとばっかりで、
 挨拶もなしでおそいかかってくるし！
@@ -65,15 +79,22 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0033", 100>
+\\@TEXT_ID@<60>
 Miyako
 わたしがカンフーのたつじんでなかったら、
 とっくにけいじじけんだよ！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0034", 100>
+\\@TEXT_ID@<70>
 Miyako
 わたしは遠野のお屋敷にいって、お兄ちゃんを
 閉じこめる悪い妹をやっつけたいだけなのに！
+
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<5, 11, 640, -300, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<5, 13>//ciel
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \\@CHARA_IN@<1, 11, 0, 12, 0>
@@ -82,26 +103,35 @@ Miyako
 \\@CHARA_IN@<1, 11, 1, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0010", 100>
+\\@TEXT_ID@<80>
 Ciel
 ほほう。
 それはなかなか興味深いお話ですね。
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 3>//miyako
+
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0035", 100>
+\\@TEXT_ID@<90>
 Miyako
 ！　空から黒いのが降ってきた！？
 まま、またわたしの邪魔をしにきたの！？
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0011", 100>
+\\@TEXT_ID@<100>
 Ciel
 おっと。
 驚かせたのならごめんなさい。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 14>//ciel くすり
 \\@CHARA_IN@<1, 11, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0012", 100>
+\\@TEXT_ID@<110>
 Ciel
 だいじょうぶ。私は街の治安を護る正義のシスター。
 アナタの味方ですよ、有間都古さん。
@@ -109,31 +139,42 @@ Ciel
 
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0013", 100>
+\\@TEXT_ID@<120>
 Ciel
 その武術、八極拳ですね？
 よく練られた《功夫＜コンフー＞でした。
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0036", 100>
+\\@TEXT_ID@<130>
 Miyako
 ……！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 6>//miyako YES
+\\@SYSTEM@<131>
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0037", 100>
+\\@TEXT_ID@<140>
 Miyako
 （このひと、いい人だ……！
 　はっきょくけんだって見抜いてるし！）
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 7>//ciel
+
 \\@CHARA_IN@<1, 11, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0014", 100>
+\\@TEXT_ID@<150>
 Ciel
 ふふふ。私のことは親切な眼鏡の先輩、と
 覚えていただければ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0015", 100>
+\\@TEXT_ID@<160>
 Ciel
 お兄さんにも、そのように
 伝えていただけると助かります。
@@ -141,23 +182,30 @@ Ciel
 
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0016", 100>
+\\@TEXT_ID@<170>
 Ciel
 それで、何か困ったコトはありませんか？
 私でよければご教授しますが。
 
+\\@CHARA_SET_PATTERN@<4,11>//miyako 構え→立ち
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0038", 100>
+\\@TEXT_ID@<180>
 Miyako
 あ、あのっ！
 はじめてきた街だから、迷子になっちゃって！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0039", 100>
+\\@TEXT_ID@<190>
 Miyako
 遠野のお屋敷へはどうすれば行けるでしょうかっ！
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 11, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0017", 100>
+\\@TEXT_ID@<200>
 Ciel
 駅前から３０分ほど徒歩で移動した先にある、
 あの小高い丘の上ですよ。
@@ -165,51 +213,70 @@ Ciel
 
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0018", 100>
+\\@TEXT_ID@<210>
 Ciel
 それと、妹さんの名前は遠野秋葉さんです。
 玄関で用向きを言うときにお使いください。
 
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0040", 100>
+\\@TEXT_ID@<220>
 Miyako
 アキハ……！
 うわあ、こんな悪そうな名前、聞いたことない……！
 
+\\@CHARA_SET_PATTERN@<4, 5>//miyako
+
 \\@CHARA_IN@<1, 11, 1, 0, 1>
 
+\\@CHARA_SET_PATTERN@<4, 5>//miyako オス
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0041", 100>
+\\@TEXT_ID@<230>
 Miyako
 ありがとうございます、シスター先輩！
 よーし、がんばるぞーーー！
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0019", 100>
+\\@TEXT_ID@<240>
 Ciel
 あ。その前に少しだけお節介を。
 今のままでは秋葉さんには勝てません。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 16>//ciel 眼鏡→立ち
 \\@CHARA_IN@<1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0020", 100>
+\\@TEXT_ID@<250>
 Ciel
 アナタの八極拳には思い切りが足りないようですから。
 ここで一つ、私が教授してあげましょう。
 
+\\@CHARA_SET_PATTERN@<4,11>//miyako 構え→立ち
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0042", 100>
+\\@TEXT_ID@<260>
 Miyako
 ！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 6>//miyako YES
+\\@SYSTEM@<131>
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0043", 100>
+\\@TEXT_ID@<270>
 Miyako
 （特訓だーーー！　旅先の特訓イベントきたーーー！
 　なんかすっごく拳士っぽい！）
 
 \\@BGM_STOP@<0>
 \e
+

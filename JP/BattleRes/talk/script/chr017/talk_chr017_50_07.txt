@@ -1,11 +1,15 @@
 \\@SYSTEM@<9999>
-\\@TALK_IN@<>
-\\@BG_IN@<"screen_bg06", 0, 2>//最初は地下墓地を表示
-\aw
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg06", 0, 2>//最初は地下墓地を表示
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<5, 15, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//aoko
+\\@CHARA_SET_PATTERN@<5, 3>//aoko
 
 \\@CHARA_IN@<1, 15, 1, 2, 0>
 \\@CHARA_MUKI@<1,1>
@@ -13,9 +17,12 @@
 
 \\@BGM_PLAY@<0, 76, 100>
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0060", 100>
+\\@TEXT_ID@<10>
 Aoko
 はい、吸血鬼退治終了～☆
 ついでに工房も大爆発～～☆
@@ -27,11 +34,15 @@ Aoko
 
 // ステージ　地下爆心地にできる？
 \\@BG_CLEAR@<>// 背景を消去
-\\@BG_IN@<"screen_bg09", 0, 2, 0>//MEMORY用に背景を表示
+
+\\@LOAD_BATTLE_BG@<9>
+// \\@BG_IN@<"screen_bg09", 0, 2, 0>//MEMORY用に背景を表示
 
 //ホワイトアウト中に表情変更
 \\@CHARA_IN@<1, 15, 7, 0, 1>
 \\@CHARA_MUKI@<1,1>
+
+\\@CHARA_SET_PATTERN@<5, 4>//aoko
 
 \\@FADE_IN@<0, 255, 255, 255, 0>
 \aw
@@ -39,17 +50,25 @@ Aoko
 \\@CHARA_IN@<1, 15, 7, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0061", 100>
+\\@TEXT_ID@<20>
 Aoko
 いやあ、いいコトした後は空気がおいしいな～！
 風通しも良くなって結構結構！
 
 \\@BGM_PLAY@<0, 74, 100>
 
+\\@SYSTEM@<121>
+
+\\@NPC_LOAD_SYNC@<4, 17, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//mario
+\\@CHARA_SET_PATTERN@<4, 6>//mario
+
 \\@CHARA_IN@<0, 17, 3, 1, 0>
 \aw
 
 \\@CHARA_IN@<0, 17, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0090", 100>
+\\@TEXT_ID@<30>
 Mario
 結構じゃねぇえええええ！
 テメェ、なにしてやがる！？
@@ -57,29 +76,39 @@ Mario
 
 \\@CHARA_IN@<0, 17, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0091", 100>
+\\@TEXT_ID@<40>
 Mario
 ロアを殺したばかりか、
 工房までオシャカにしやがって……！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 16>//mario
+
 \\@CHARA_IN@<0, 17, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0092", 100>
+\\@TEXT_ID@<50>
 Mario
 どこの魔術師だ、所属を言え、所属を！
 教会あげて抗議しに行ってやる！
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 2>//aoko
 
 \\@CHARA_IN@<1, 15, 2, 0, 1>
 \\@CHARA_MUKI@<1,1>
 \\@CHARA_FACE@<1,2,5,200>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0062", 100>
+\\@TEXT_ID@<60>
 Aoko
 所属って、どこの派閥かってコト？
 ごめん、魔術協会には入ってないんだ。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 16>//aoko
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0063", 100>
+\\@TEXT_ID@<70>
 Aoko
 こんにちは、はじめまして。
 フリーの何でも屋、蒼崎青子でーす！
@@ -88,6 +117,7 @@ Aoko
 \\@CHARA_IN@<1, 15, 5, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0064", 100>
+\\@TEXT_ID@<80>
 Aoko
 昔この街で知り合った友達の様子が、
 とつぜん、なんとなーく気になって、
@@ -96,21 +126,26 @@ Aoko
 \\@CHARA_IN@<1, 15, 5, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0065", 100>
+\\@TEXT_ID@<90>
 Aoko
 こっそり様子を見に来たら死徒が根付いてたんで、
 お節介と思いつつも退治してしまいました。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 9>//aoko
 \\@CHARA_IN@<1, 15, 6, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0066", 100>
+\\@TEXT_ID@<100>
 Aoko
 以上、これまでのあらすじ。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 8>//aoko
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0067", 100>
+\\@TEXT_ID@<110>
 Aoko
 ―――何か問題ある、マーリオゥ司祭代行？
 吸血鬼を退治するのがアナタたちのお仕事だもの。
@@ -119,20 +154,28 @@ Aoko
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0068", 100>
+\\@TEXT_ID@<120>
 Aoko
 感謝こそされ、
 煙たがられるなんて事はないでしょ？
 \l
 
+// \\@CHARA_SET_PATTERN@<5, 8>//aoko
+
 \\@CHARA_IN@<1, 15, 6, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0069", 100>
+\\@TEXT_ID@<130>
 Aoko
 たとえば―――死徒が遺した文献を残らず秘匿しよう、
 なんて考えでもないかぎりは。
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 6>//mario
+
 \\@CHARA_IN@<0, 17, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0093", 100>
+\\@TEXT_ID@<140>
 Mario
 アオザキ……アオコ……！
 テメェ、さては余所の組織に雇われたな！？
@@ -140,13 +183,17 @@ Mario
 
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0094", 100>
+\\@TEXT_ID@<150>
 Mario
 何処のどいつだ、うちの獲物をかっさらおうなんて
 命知らずな不届き者は！
 
+\\@CHARA_SET_PATTERN@<5, 2>//aoko
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 15, 2, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0070", 100>
+\\@TEXT_ID@<160>
 Aoko
 え？　いやだなあ、ほんとに偶然だって。
 サービスで正義の味方をしただけだし。
@@ -155,6 +202,7 @@ Aoko
 \\@CHARA_IN@<1, 15, 4, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0071", 100>
+\\@TEXT_ID@<170>
 Aoko
 でも、ちょっとだけ虫の知らせはあったかな。
 ゼルレッチの爺さんから電話があってさー。
@@ -163,6 +211,7 @@ Aoko
 \\@CHARA_IN@<1, 15, 5, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0072", 100>
+\\@TEXT_ID@<180>
 Aoko
 なんでも、このまま貴方がロアと取引をすると、
 何もかも悪い方に転がっていくんだとか。
@@ -171,12 +220,15 @@ Aoko
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0073", 100>
+\\@TEXT_ID@<190>
 Aoko
 でも“何”が“悪い”のかは
 教えてくれなかったから、ほら、
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0095", 100>
+\\@TEXT_ID@<200>
 Mario
 面倒だから当事者を始末した、か。
 《頭＜あたま＞トロールなんじゃねえかテメェ？
@@ -184,6 +236,7 @@ Mario
 
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0096", 100>
+\\@TEXT_ID@<210>
 Mario
 ……ま、疑わしきは罰せよ、だ。
 そのあたりは同意してやる。
@@ -191,20 +244,26 @@ Mario
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0097", 100>
+\\@TEXT_ID@<220>
 Mario
 実際の話、ロアと取引をしていたら、
 オレはこの街を差し出していただろうしな。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 13>//mario
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0098", 100>
+\\@TEXT_ID@<230>
 Mario
 で、次は？
 被害を未然に防いだ正義の味方はどうするんだ？
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 9>//aoko
 \\@CHARA_IN@<1, 15, 4, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0074", 100>
+\\@TEXT_ID@<240>
 Aoko
 あー……このまま帰りたいところだけど、
 そうはいかないかぁ……。
@@ -213,14 +272,18 @@ Aoko
 \\@CHARA_IN@<1, 15, 6, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0075", 100>
+\\@TEXT_ID@<250>
 Aoko
 サービス過剰もどうかと思うけど、
 乗りかかった船だしね。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 16>//aoko
+
 \\@CHARA_IN@<1, 15, 0, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0076", 100>
+\\@TEXT_ID@<260>
 Aoko
 ここはもうひとりに灸を据えて、
 禍根は断っておきましょう。
@@ -229,23 +292,30 @@ Aoko
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0077", 100>
+\\@TEXT_ID@<270>
 Aoko
 アナタ、根っからの『善人』だけど。
 善い事のためなら、なんだってしちゃう人でしょう？
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 17, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0099", 100>
+\\@TEXT_ID@<280>
 Mario
 その通りだ魔法使い。
 おまけに諦めが悪くてね。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 14>//mario
+
 \\@CHARA_OUT@<0, 17, 0, 0, 1>
 \\@CHARA_IN@<3, 17, 200, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0100", 100>
+\\@TEXT_ID@<290>
 Mario
 ここで一発、痛い目に遭わせてくれよ。
 そうでもなけりゃ、諦めがつかないってモンだ。
 
 \\@BGM_STOP@<0>
 \e
+

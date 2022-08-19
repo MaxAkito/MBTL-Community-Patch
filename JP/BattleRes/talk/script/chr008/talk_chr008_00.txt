@@ -1,80 +1,109 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg04", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<4>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg04", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 8, 9, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 8, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<4, 102>//noel
+
+\\@CHARA_IN@<0, 8, 9, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 73, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 8, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0040", 100>
+\\@TEXT_ID@<10>
 Noel
 アイツに遅れること、一ヶ月……
 ようやくロアの潜伏先に赴任できたわ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0041", 100>
+\\@TEXT_ID@<20>
 Noel
 ソウヤって読むのかしらね、この街の名前。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 100>//noel
+
 \\@CHARA_IN@< 0, 8, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0042", 100>
+\\@TEXT_ID@<30>
 Noel
 やだー、わりと都会じゃなーい！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0043", 100>
+\\@TEXT_ID@<40>
 Noel
 シロエにトーカ、チュウチュウにマークもある！
 テンションあがっちゃう！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 103>//noel
+
 \\@CHARA_IN@< 0, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0044", 100>
+\\@TEXT_ID@<50>
 Noel
 いままで田舎町ばっかりだったから
 シスター服しか着なかったけど、
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0045", 100>
+\\@TEXT_ID@<60>
 Noel
 今回は趣味に走れそう！
 えーと……なになに。アイツの表向きの職業は……
 \l
 
+\\@CHARA_SET_PATTERN@<4, 101>//noel
+
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0046", 100>
+\\@TEXT_ID@<70>
 Noel
 はあ、学生！？　なっめてんのかオイ、
 心身共にティーンエイジかっつーの！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 102>//noel
+
 \\@CHARA_IN@< 0, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0047", 100>
+\\@TEXT_ID@<80>
 Noel
 ……チッ。私じゃさすがに学生はきつい……
 いやいける？　……いやいや冷静になれ私……
 \l
 
+\\@CHARA_SET_PATTERN@<4, 60>//noel
+
 \\@CHARA_IN@< 0, 8, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0048", 100>
+\\@TEXT_ID@<90>
 Noel
 うーん…………よし、教師で手を打ちましょう！
 学生は無理でもそれならイケる！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 100>//noel
+
 \\@CHARA_IN@< 0, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0049", 100>
+\\@TEXT_ID@<100>
 Noel
 そうと決まれば手続き、手続き！
 キャー☆　なんか楽しそーう！
@@ -82,15 +111,20 @@ Noel
 
 \\@CHARA_IN@< 0, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0050", 100>
+\\@TEXT_ID@<110>
 Noel
 昼は悩める生徒たちの相談役、
 夜は吸血鬼を退治する謎のシスターとか、
 \l
 
+\\@CHARA_SET_PATTERN@<4, 106>//noel
+
 \\@CHARA_IN@< 0, 8, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0051", 100>
+\\@TEXT_ID@<120>
 Noel
 キャラ立ってきたわね！
 
 \\@BGM_STOP@<0>
 \e
+

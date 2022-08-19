@@ -1,19 +1,27 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg05", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<5>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg05", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 6, 0, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 6, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//kishima
+\\@CHARA_SET_PATTERN@<4, 1>//kishima
+
+\\@CHARA_IN@<0, 6, 0, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 6, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0000", 100>
+\\@TEXT_ID@<10>
 Kishima
 この人口過密の都市に吸血鬼とはな。
 物好きな怪物もいたものだ。
@@ -21,6 +29,7 @@ Kishima
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0001", 100>
+\\@TEXT_ID@<20>
 Kishima
 俺には関わりのない手合いのようだが……
 この都市には幾ばくか縁がある。
@@ -28,12 +37,14 @@ Kishima
 
 \\@CHARA_IN@< 0, 6, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0002", 100>
+\\@TEXT_ID@<30>
 Kishima
 袖すり合うのも多生の……というヤツだ。
 \l
 
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0003", 100>
+\\@TEXT_ID@<40>
 Kishima
 三年間怪我なく過ごした以上、
 数日程度のタダ働きはするさ。
@@ -41,3 +52,4 @@ Kishima
 
 \\@BGM_STOP@<0>
 \e
+

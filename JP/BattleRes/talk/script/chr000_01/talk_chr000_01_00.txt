@@ -1,0 +1,342 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<11>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+\\@SYSTEM@<100>
+\aw
+
+\\@BGM_PLAY@<0, 63, 100>//落ち着いた日常系BGM
+
+
+\\@NPC_LOAD_SYNC@<4, 0, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+
+\\@NPC_LOAD_SYNC@<5, 3, 180, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 19>//眼鏡立ち呼吸
+
+\\@CHARA_IN@< 0, 0, 1, 1, 0>
+\\@CHARA_IN@< 2, 3, 0, 2, 0>
+\aw
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0000", 100>
+\\@TEXT_ID@<10>
+Arcueid
+やっほー志貴ー、お邪魔しまーす！
+今日は家に呼んでくれてありがとーう！
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 24>//眼鏡やれやれ
+\\@CHARA_IN@< 2, 3, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0000", 100>
+\\@TEXT_ID@<20>
+Shiki
+俺が？
+いや、ちょい記憶にないんだけど……。
+\l
+
+\\@SYSTEM@<132>
+\\@CHARA_IN@< 2, 3, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0001", 100>
+\\@TEXT_ID@<30>
+Shiki
+（というか、昼間からアルクェイドを呼ぶとか、
+　命がいらないにも程が……翡翠？）
+
+
+\\@NPC_LOAD_SYNC@<6, 1, 540, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 2>//おじぎ
+\\@CHARA_SET_PATTERN@<5, 20>//眼鏡振り向き
+
+\\@SYSTEM@<102>
+\\@CHARA_CLEAR@<2>
+\\@CHARA_IN@< 2, 3, 0, 11, 0>
+\aw
+\\@CHARA_IN@< 1, 1, 105, 2, 0>
+\aw
+
+\\@CHARA_IN@< 1, 1, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0000", 100>
+\\@TEXT_ID@<40>
+Hisui
+アルクェイドさま。
+本日はお呼び立てし申し訳ございません。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0001", 100>
+\\@TEXT_ID@<50>
+Hisui
+秋葉さまは別のお客さまの対応中で手が離せませんが、
+わたしが代理を任されております。
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 11>
+\\@CHARA_IN@< 0, 0, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0001", 100>
+\\@TEXT_ID@<60>
+Arcueid
+妹の用事だったの？
+わたしを待たせるほど重要なお客さまって、誰？
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0002", 100>
+\\@TEXT_ID@<70>
+Hisui
+秋葉さまのスケジュールについては、
+わたしからはお答えいたしかねます。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0003", 100>
+\\@TEXT_ID@<80>
+Hisui
+志貴さまに予定表をお渡ししてありますので、
+本日はそれに従ってくださいませ。
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<5, 22>//眼鏡お手
+\\@CHARA_IN@< 2, 3, 1, 0, 1>
+\\@CHARA_EMOVE@<2, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0002", 100>
+\\@TEXT_ID@<90>
+Shiki
+ああ、朝食の後にもらった……でもこれ、
+予定表っていうか、スタンプラリーみたいだけど？
+
+
+\\@CHARA_SET_PATTERN@<5, 23>//眼鏡お手戻り
+\\@CHARA_SET_PATTERN@<6, 4>//優雅
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 1, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0004", 100>
+\\@TEXT_ID@<100>
+Hisui
+チェックポイント到達と日没までのゴール以外、
+行動に制限はございません。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0005", 100>
+\\@TEXT_ID@<110>
+Hisui
+ご散策ご歓談ご戦闘。
+ご自由にお楽しみください。
+
+\\@CHARA_SET_PATTERN@<6, 12>//優雅戻り
+\\@CHARA_SET_PATTERN@<4, 7>//足組み
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 0, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0002", 100>
+\\@TEXT_ID@<120>
+Arcueid
+それ、実質デートってコトじゃない？
+なーんだ、そうならそうと言ってくれればいいのに！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 17>//足組み考え→にっこり
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0003", 100>
+\\@TEXT_ID@<130>
+Arcueid
+このこのー、気遣いありがとー！
+妹もメイドさんも素直じゃないんだからー☆
+
+
+\\@SYSTEM@<131>
+\\@CHARA_SET_PATTERN@<5, 24>//眼鏡やれやれ
+\\@CHARA_IN@< 2, 3, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0003", 100>
+\\@TEXT_ID@<140>
+Shiki
+（……散策と歓談はともかく、戦闘……？）
+
+
+\\@CHARA_SET_PATTERN@<5, 25>//眼鏡やれやれ戻り
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 1, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0006", 100>
+\\@TEXT_ID@<150>
+Hisui
+申し遅れましたが、
+志貴さまは安全第一でお願いします。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0007", 100>
+\\@TEXT_ID@<160>
+Hisui
+荒事への参加はその場で失格、
+お屋敷に強制送還です。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0008", 100>
+\\@TEXT_ID@<170>
+Hisui
+また、そうなりますと姉さん曰く、
+秋葉さまが泣かれる、とのことです。
+\l
+
+\\@CHARA_IN@< 1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0009", 100>
+\\@TEXT_ID@<180>
+Hisui
+―――志貴さまにおかれましては、
+遠野家長男として節度ある行動をお願いします。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 100>//hisui どうぞ
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0010", 100>
+\\@TEXT_ID@<190>
+Hisui
+では、どうかお気をつけて。
+
+\\@CHARA_SET_PATTERN@<6, 101>//hisui どうぞ→てくてく撤退
+
+\\@CHARA_OUT@< 1, 1, -1, 0, 0>
+\aw
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 18>//足組み考え待機
+\\@CHARA_IN@< 0, 0, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0004", 100>
+\\@TEXT_ID@<200>
+Arcueid
+？　妹が泣くって、なんで？
+
+\\@CHARA_CLEAR@<2>
+\aw
+\\@CHARA_IN@< 1, 3, 2, 12, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<6, 103>//hisui 透明
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>//開放
+
+\\@CHARA_SET_PATTERN@<5, 20>//眼鏡振り向き
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 3, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0004", 100>
+\\@TEXT_ID@<210>
+Shiki
+分からない。分からないけど、アルクェイド。
+この予定通り行動しよう。
+\l
+
+\\@CHARA_IN@< 1, 3, 18, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 26>//眼鏡うなずき（1回）
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0005", 100>
+\\@TEXT_ID@<220>
+Shiki
+アイツは怒ると、怖い。俺はすごく、困る。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 0, 2, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0005", 100>
+\\@TEXT_ID@<230>
+Arcueid
+ふむふむ。
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 28>//眼鏡ため息
+\\@CHARA_IN@< 1, 3, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0006", 100>
+\\@TEXT_ID@<240>
+Shiki
+けど『泣く』という表現は初めて……でもないけど、
+帰ってきてからそのイメージは一切ない。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0007", 100>
+\\@TEXT_ID@<250>
+Shiki
+今の秋葉がそのアクションをした場合、前代未聞の
+コクと深みのある恐怖が俺を襲う―――
+\l
+
+\\@CHARA_SET_PATTERN@<5, 29>//眼鏡ため息戻り
+\\@CHARA_IN@< 1, 3, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0008", 100>
+\\@TEXT_ID@<260>
+Shiki
+そんな気がするんだ。
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 36>//腕組み目閉じ・静止
+\\@CHARA_IN@< 0, 0, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0006", 100>
+\\@TEXT_ID@<270>
+Arcueid
+妹の怒りソムリエみたいね……。
+志貴が困るっていうならしょうがないけど……。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 37>//腕組み→目開け・静止
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0007", 100>
+\\@TEXT_ID@<280>
+Arcueid
+いいわ、今日はわたしが志貴の分もがんばりましょう！
+楽しいデートだものね！
+
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 28>//眼鏡ため息
+\\@CHARA_IN@< 1, 3, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0009", 100>
+\\@TEXT_ID@<290>
+Shiki
+いや、がんばらなくていいから。
+今日は穏便に済ませようって話で、
+
+
+\\@CHARA_SET_PATTERN@<5, 29>//眼鏡ため息戻り
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 0, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0008", 100>
+\\@TEXT_ID@<300>
+Arcueid
+心配しないで。もし妹がむずがったら
+わたしがあやしてあげるから。
+\l
+
+
+\\@CHARA_IN@< 0, 0, 09, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0009", 100>
+\\@TEXT_ID@<310>
+Arcueid
+それに―――それはそれで面白そうだし。
+妹の本気、見てみたかったのよね。
+
+\\@SYSTEM@<122>
+\\@CHARA_SET_PATTERN@<5, 30>//眼鏡待て
+\\@CHARA_IN@< 1, 3, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0010", 100>
+\\@TEXT_ID@<320>
+Shiki
+おまえ、秋葉の怒りに油注ぐ気満々だな！？
+
+
+\\@BGM_STOP@<0>
+\e
+

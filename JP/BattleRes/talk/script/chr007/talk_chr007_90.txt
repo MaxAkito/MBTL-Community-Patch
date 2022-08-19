@@ -1,8 +1,20 @@
-\\@BG_IN@<"screen_bg11", 0, 2>
-
+// \\@BG_IN@<"screen_bg11", 0, 2>
+\\@LOAD_BATTLE_BG@<1>
 \\@SYSTEM@<0>
 \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 1, -30, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//hisui
+\\@CHARA_SET_PATTERN@<4, 0>//hisui
+
+\\@NPC_LOAD_SYNC@<5, 4, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//kohaku
+\\@CHARA_SET_PATTERN@<5, 7>//kohaku 指サイン
+
+\\@NPC_LOAD_SYNC@<6, 3, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//kohaku
+\\@CHARA_SET_PATTERN@<6, 90>//shiki 眼鏡あり立ち
 
 \\@CHARA_IN@<0, 1, 0, 1, 0>
 \\@CHARA_IN@<2, 4, 100, 3, 0>
@@ -13,24 +25,30 @@
 
 \\@CHARA_IN@< 2, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0050", 100>
+\\@TEXT_ID@<10>
 Kohaku
 志貴さん発見です！
 \l
 
 \\@CHARA_IN@< 2, 4, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0051", 100>
+\\@TEXT_ID@<20>
 Kohaku
 お怪我はありませんか？
 体は大丈夫ですか？　危ないコトされちゃいましたか？
 
+\\@CHARA_SET_PATTERN@<4, 8>//hisui およよ
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0030", 100>
+\\@TEXT_ID@<30>
 Hisui
 姉さん……！　やめてください、
 志貴様が驚かれています。
 
+\\@CHARA_SET_PATTERN@<5, 11>//kohaku ちらっ
 \\@CHARA_IN@< 2, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0052", 100>
+\\@TEXT_ID@<40>
 Kohaku
 大丈夫大丈夫、わたしたちは事件解決の
 立役者ですもの、志貴さんだってこれぐらい許してくださいます。
@@ -38,36 +56,47 @@ Kohaku
 
 \\@CHARA_IN@< 2, 4, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0053", 100>
+\\@TEXT_ID@<50>
 Kohaku
 ね、そうですよね志貴さん？
 
+\\@CHARA_SET_PATTERN@<6, 26>//shiki 眼鏡頷き
 \\@CHARA_IN@< 1, 3, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0070", 100>
+\\@TEXT_ID@<60>
 Shiki
 ……はい。二人に助けられたのは事実ですから。
 多少の無茶は、おとなしく甘んじます。
 
+\\@CHARA_SET_PATTERN@<5, 5>//kohaku 内緒
 \\@CHARA_IN@< 2, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0054", 100>
+\\@TEXT_ID@<70>
 Kohaku
 そういう訳で、
 今日は志貴さんに甘え放題です！
 \l
 
+\\@CHARA_SET_PATTERN@<5, 6>//kohaku 指サイン
 \\@CHARA_IN@< 2, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0055", 100>
+\\@TEXT_ID@<80>
 Kohaku
 ほら、翡翠ちゃんも早く早く。
 こんなチャンス、めったにないんだから。
 
+\\@CHARA_SET_PATTERN@<4, 5>//hisui 怯え
 \\@CHARA_IN@< 0, 1, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0031", 100>
+\\@TEXT_ID@<90>
 Hisui
 あ……
 わ、わたしは、そのようなコトは、とても。
 
+\\@CHARA_SET_PATTERN@<5, 9>//kohaku 困惑
 \\@CHARA_IN@< 2, 4, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0056", 100>
+\\@TEXT_ID@<100>
 Kohaku
 もう。それじゃあ、
 志貴さんの方から、はいっ♪
@@ -80,17 +109,26 @@ Kohaku
 \\@FADE_IN@<0,255,255,255,0>
 \\@SQ_CALL@<>
 
+//キャラ開放
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0071", 100>
+\\@TEXT_ID@<110>
 Shiki
 え？　琥珀さん何をーーーー！？
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0032", 100>
+\\@TEXT_ID@<120>
 Hisui
 ！？
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0057", 100>
+\\@TEXT_ID@<130>
 Kohaku
 はい。これにて、一件落着です♪
 
 \\@BGM_STOP@<0>
 \e
+

@@ -1,0 +1,59 @@
+CmdList <- 0
+
+local tbl = [];
+
+tbl.append( { type = -100, color = 1 } );
+tbl.append( { type = 1, text = "/def_bc_n", info = "/def_bc_i"  } );
+tbl.append( { type = 1, text = "/sp00_n", cmd = "/c_236BC", info = "/def_sph2_i"  } );
+tbl.append( { type = 1, text = "/sp03_n", cmd = "/c_623BC", info = "/def_jumc_i"  } );
+tbl.append( { type = 1, text = "/sp04_n", cmd = "/c_214BC", info = "/def_cmth_i"  } );
+tbl.append( { type = 1, text = "/sp07_n", cmd = "/c_22BC", info = "/def_sph2_i"  } );
+tbl.append( { type = 1, text = "/sp03_n", cmd = "/c_InAir/c_236BC", info = "/bc236_i"  } );
+
+tbl.append( { type = -100, color = 1 } );
+tbl.append( { type = 1, text = "/def_sp_n", info = "/def_sp_i"  } );
+tbl.append( { type = 1, text = "/sp00_n", cmd = "/c_236AorBorC_Ex", info = "/sp00_i"  } );
+tbl.append( { type = 1, text = "/c_Add/n_Add1", cmd = "/c_Add/c_AorBorC", info = "/sp01_i"  } );
+tbl.append( { type = 1, text = "/c_Add/n_Add2", cmd = "/c_Add/c_4AorBorC", info = "/sp02_i"  } );
+tbl.append( { type = 1, text = "/c_Add2/n_Add3", cmd = "/c_Add2/c_AorBorC", info = "/def_sphe_i"  } );
+tbl.append( { type = 1, text = "/c_Add2/n_Add4", cmd = "/c_Add2/c_4AorBorC", info = "/def_sphe_i"  } );
+
+tbl.append( { type = 1, text = "/sp03_n", cmd = "/c_623AorBorC_Ex", info = "/sp03_i"  } );
+tbl.append( { type = 1, text = "/c_Add/n_Add", cmd = "/c_Add/c_AorBorC", info = "/sp04_i"  } );
+
+tbl.append( { type = 1, text = "/sp04_n", cmd = "/c_214AorBorC_Ex", info = "/def_cmth_i"  } );
+tbl.append( { type = 1, text = "/c_Add/sp05_n", cmd = "/c_Add/c_4AorBorC", info = "/sp05_i"  } );
+tbl.append( { type = 1, text = "/c_Add/sp06_n", cmd = "/c_Add/c_236C_214C_ExOnly", info = "/sp06_i"  } );
+tbl.append( { type = 1, text = "/sp07_n", cmd = "/c_22AorBorC_Ex", info = "/sp07_i"  } );
+tbl.append( { type = 1, text = "/sp03_n", cmd = "/c_InAir/c_236AorBorC_Ex", info = "/sp08_i"  } );
+tbl.append( { type = 1, text = "/c_Add/n_Add", cmd = "/c_Add/c_AorBorC", info = "/sp09_i"  } );
+
+// tbl.append( { type = -100, color= 1 } );
+// tbl.append( { type = 1, text = "/sp03_n", cmd = "/sp03_c", info = "/sp03_i"  } );
+// tbl.append( { type = 1, text = "/sp04_n", cmd = "/sp04_c", info = "/sp04_i"  } );
+// tbl.append( { type = 1, text = "/sp05_n", cmd = "/sp05_c", info = "/sp05_i"  } );
+
+// tbl.append( { type = -100, color = 0 } );
+// tbl.append( { type = 1, text = "/def_ex_n", info = "/def_ex_i"  } );
+// tbl.append( { type = 1, text = "/ex00_n", cmd = "/ex00_c", info = "/ex00_i" } );
+
+tbl.append( { type = -100, color= 3 } );
+tbl.append( { type = 1, text = "/def_iw_n", info = "/def_iw_i" } );
+tbl.append( { type = 1, text = "/iw_n", cmd = "/def_cmd_IW", info="/def_cmth_i" } );
+
+tbl.append( { type = -100, color= 4 } );
+tbl.append( { type = 1, text = "/def_iwex_n", info = "/def_iwex_i" } );
+tbl.append( { type = 1, text = "/iwex_n", cmd = "/def_cmd_IWE", info="/iwex_i" } );
+
+tbl.append( { type = -100, color = 0 } );
+tbl.append( { type = 1, text = "/def_ex_n", info = "/def_ex_i"  } );
+tbl.append( { type = 1, text = "/ex00_n", cmd = "/c_3C", info = "/ex00_i" } );
+
+tbl.append( { type = -100, color = 0 } );
+tbl.append( { type = 1, text = "/def_in_n", info = "/def_in_i"  } );
+tbl.append( { type = 1, text = "/c_C", cmd = "", info = "/def_shlb_i" } );
+tbl.append( { type = 1, text = "/c_2C", cmd = "", info = "/def_splo_i" } );
+tbl.append( { type = 1, text = "/c_InAir/c_C", cmd = "", info = "/def_sphe_i" } );
+tbl.append( { type = 1, text = "/c_236B", cmd = "", info = "" } );
+
+CmdList = tbl;

@@ -1,20 +1,27 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg09", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<9>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg09", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<1, 14, 109, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 14, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//dnoel
+\\@CHARA_SET_PATTERN@<4, 23>//dnoel
+
+\\@CHARA_IN@<1, 14, 109, 11, 0>
 \\@CHARA_MUKI@<1,0>
 \aw
 
 \\@BGM_PLAY@<0, 78, 100>
 
+\\@SYSTEM@<101>
 
 \\@CHARA_IN@<1, 14, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0000", 100>
+\\@TEXT_ID@<10>
 Dead_Noel
 ……ぁぁ……ぁ……ァ……
 ……いたい……いたい……
@@ -26,6 +33,7 @@ Dead_Noel
 
 \\@CHARA_IN@<1, 14, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0001", 100>
+\\@TEXT_ID@<20>
 Dead_Noel
 ……頭がクラクラして……
 なかみ、ぜんぶこぼれちゃったくらい、いたい……
@@ -33,19 +41,25 @@ Dead_Noel
 
 \\@CHARA_IN@<1, 14, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0002", 100>
+\\@TEXT_ID@<30>
 Dead_Noel
 私……わたしは……たしか……
 ヘンな女に、ヘンな注射を打たれ―――ぁ。
 \l
 
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\\@CHARA_SET_PATTERN@<4, 22>//dnoel
+\aw
+
 // クロスフェードで立ち絵変化
 \\@CHARA_OUT@<1, 14, 109, 0, 0>
-\\@CHARA_IN@<0, 14, 12, 44, 0>
+\\@CHARA_IN@<0, 14, 12, 11, 0>
 \aw
 
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0003", 100>
+\\@TEXT_ID@<40>
 Dead_Noel
 ―――そうだ。
 そうだった、そうだった！
@@ -55,8 +69,11 @@ Dead_Noel
 愕然喜び（ひきつり笑いでも）
 */
 
+\\@CHARA_SET_PATTERN@<4, 3>//dnoel
+
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0004", 100>
+\\@TEXT_ID@<50>
 Dead_Noel
 わたし生まれ変わったんだ！
 すごい、なにこれ笑い止まんない！
@@ -68,13 +85,17 @@ Dead_Noel
 
 \\@CHARA_IN@<0, 14, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0005", 100>
+\\@TEXT_ID@<60>
 Dead_Noel
 目も、腕も、脚も、中身も！
 以前のわたしとはグレードからして段違い！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 6>//dnoel
+
 \\@CHARA_IN@<0, 14, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0006", 100>
+\\@TEXT_ID@<70>
 Dead_Noel
 １キロ先の美味しそうな《獲物＜ニンゲン＞、《発見＜よーし＞！
 目の前の邪魔な《自動車＜テツクズ＞、《排除＜ぽーい＞！
@@ -82,6 +103,7 @@ Dead_Noel
 
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0007", 100>
+\\@TEXT_ID@<80>
 Dead_Noel
 あは―――あはは、あはははははは！
 ズルいズルい、吸血鬼ってズルすぎない！？
@@ -93,13 +115,17 @@ Dead_Noel
 
 \\@CHARA_FACE@<0,9,10,325>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0008", 100>
+\\@TEXT_ID@<90>
 Dead_Noel
 こんにちは、いちばん輝いていた頃のわたし！
 さようなら、いちばん惨めだった頃の私！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 4>//dnoel
+
 \\@CHARA_IN@<0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0009", 100>
+\\@TEXT_ID@<100>
 Dead_Noel
 ……さあて。
 そうと分かれば実験、実験。
@@ -111,6 +137,7 @@ Dead_Noel
 
 \\@CHARA_IN@<0, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0010", 100>
+\\@TEXT_ID@<110>
 Dead_Noel
 あんまり喉は渇いてないけど、
 とりま栄養補給と、愛らしい身体のチェック？
@@ -120,8 +147,11 @@ Dead_Noel
 自分がどこまでできるかチェックするのが先よね？　くらいの自己確認。
 */
 
+\\@CHARA_SET_PATTERN@<4, 7>//dnoel
+
 \\@CHARA_IN@<0, 14, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0011", 100>
+\\@TEXT_ID@<120>
 Dead_Noel
 ああ―――本当、夢みたい。
 わたし、いったい何ができるんだろう！
@@ -133,3 +163,4 @@ Dead_Noel
 
 \\@BGM_STOP@<0>
 \e
+

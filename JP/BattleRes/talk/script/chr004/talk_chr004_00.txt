@@ -1,19 +1,27 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg01", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<1>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg01", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 4, 102, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 4, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//kohaku
+\\@CHARA_SET_PATTERN@<4, 0>//kohaku
+
+\\@CHARA_IN@<0, 4, 102, 1, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 4, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0010", 100>
+\\@TEXT_ID@<10>
 Kohaku
 さてさて。志貴さんがお帰りになられてから、
 お薬の消費が早くなってしまいました。
@@ -21,13 +29,17 @@ Kohaku
 
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0011", 100>
+\\@TEXT_ID@<20>
 Kohaku
 志貴さんのお体の不調、
 貧血体質だけでなく他にも原因がありそうですが……
 \l
 
+\\@CHARA_SET_PATTERN@<4, 5>//kohaku
+
 \\@CHARA_IN@< 0, 4, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0012", 100>
+\\@TEXT_ID@<30>
 Kohaku
 まあ、それはおいおい、
 ゆっくり体質改善していただきましょう！
@@ -35,25 +47,32 @@ Kohaku
 
 \\@CHARA_IN@< 0, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0013", 100>
+\\@TEXT_ID@<40>
 Kohaku
 薬師としての腕の見せどころですもの。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 9>//kohaku
 \\@CHARA_IN@< 0, 4, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0014", 100>
+\\@TEXT_ID@<50>
 Kohaku
 あとは……秋葉さまの入浴のお手伝いをして、
 庭園の様子を見て、明日の朝食の仕込み、と……
 \l
 
+
+\\@CHARA_SET_PATTERN@<4, 11>//kohaku
 \\@CHARA_IN@< 0, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0015", 100>
+\\@TEXT_ID@<60>
 Kohaku
 ……おや？　おやおや？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0016", 100>
+\\@TEXT_ID@<70>
 Kohaku
 なんでしょう、このふわっとする感覚……
 まるで誰かの夢の中にいるような……
@@ -61,36 +80,47 @@ Kohaku
 
 \\@CHARA_IN@< 0, 4, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0017", 100>
+\\@TEXT_ID@<80>
 Kohaku
 これといって心当たりになるお薬は
 飲んでいないんですけど。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 7>//kohaku
 \\@CHARA_IN@< 0, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0018", 100>
+\\@TEXT_ID@<90>
 Kohaku
 まあでも、夢の中だというならそれはそれで\sf000
 普段の自分よりすっごい事ができそうですし、
 \l
 
+\\@CHARA_SET_PATTERN@<4, 15>//kohaku
+
 \\@CHARA_IN@< 0, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0019", 100>
+\\@TEXT_ID@<100>
 Kohaku
 街の様子は気になりますし、なにより、
 遠野家の平穏を狂わされては困ります。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0020", 100>
+\\@TEXT_ID@<110>
 Kohaku
 遠野家に仕えるものとして、心を鬼に……
 \l
 
+\\@CHARA_SET_PATTERN@<4, 18>//kohaku
+
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0021", 100>
+\\@TEXT_ID@<120>
 Kohaku
 いえ、気持ちをガッチリ固くして、
 障害の排除にいくとしましょう！
 
 \\@BGM_STOP@<0>
 \e
+

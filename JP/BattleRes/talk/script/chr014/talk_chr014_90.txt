@@ -12,16 +12,22 @@
 \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@< 0, 14, 0, 44, 0>
-\\@CHARA_MUKI@<0,0>
-\aw
+// 中央上に表示
+// \\@SPEAKERCG_IN@<0, 14,0, 128,-116, 128,-116, 255,255, 0, 1024,1024, 0>//参考用標準
+
+// \\@CHARA_IN@< 0, 14, 0, 44, 0>
+// \\@CHARA_MUKI@<0,0>
+// \aw
 
 \\@BGM_PLAY@<0, 76, 100>
+
 \\@FADE_IN@<1,255,255,255,0>
 
 
-\\@CHARA_IN@< 0, 14, 9, 0, 1>
+\\@SPEAKERCG_IN@<0, 14,9, 128,-240, 128,-240, 0,255, 30, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 14, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0060", 100>
+\\@TEXT_ID@<10>
 Dead_Noel
 気っ持ち良かったーー！
 \l
@@ -30,15 +36,19 @@ Dead_Noel
 笑顔
 */
 
-\\@CHARA_IN@< 0, 14, 8, 0, 1>
+\\@SPEAKERCG_IN@<0, 14,8, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0061", 100>
+\\@TEXT_ID@<20>
 Dead_Noel
 ロア候補は地獄で絶賛かき回し中で、
 ロア本人は塵一つ残さず消しちゃった！
 \l
 
-\\@CHARA_IN@< 0, 14, 6, 0, 1>
+\\@SPEAKERCG_IN@<0, 14,6, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 14, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0062", 100>
+\\@TEXT_ID@<30>
 Dead_Noel
 あ。でも、ロア本人がいたってコトは、
 もしかして、志貴クンったら冤罪…………
@@ -48,8 +58,10 @@ Dead_Noel
 やっべ
 */
 
-\\@CHARA_IN@< 0, 14, 8, 0, 1>
+\\@SPEAKERCG_IN@<0, 14,8, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0063", 100>
+\\@TEXT_ID@<40>
 Dead_Noel
 ま、いっか☆
 もう意識しかないんだし、外には出せないしね！
@@ -59,15 +71,19 @@ Dead_Noel
 にまり
 */
 
-\\@CHARA_IN@< 0, 14, 10, 0, 1>
+\\@SPEAKERCG_IN@<0, 14,10, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0064", 100>
+\\@TEXT_ID@<50>
 Dead_Noel
 お詫びに、たまにはあまーい展開にしてあげる。
 １００回死んだら、ご褒美に１回だけね？
 \l
 
-\\@CHARA_IN@< 0, 14, 0, 0, 1>
+\\@SPEAKERCG_IN@<0, 14,0, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0065", 100>
+\\@TEXT_ID@<60>
 Dead_Noel
 それより今は『棺』を作らないと。
 いつアイツらに襲われてもいいように―――
@@ -77,15 +93,19 @@ Dead_Noel
 楽
 */
 
-\\@CHARA_IN@< 0, 14, 6, 0, 1>
+\\@SPEAKERCG_IN@<0, 14,6, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 14, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0066", 100>
+\\@TEXT_ID@<70>
 Dead_Noel
 …………待った。
 アイツらって、なんだっけ。
 \l
 
-\\@CHARA_IN@< 0, 14, 11, 0, 1>
+\\@SPEAKERCG_IN@<0, 14,11, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 14, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0067", 100>
+\\@TEXT_ID@<80>
 Dead_Noel
 ロア以外に、わたしが怖がる相手なんて
 いな―――
@@ -96,8 +116,9 @@ Dead_Noel
 \\@GO_SUB@<"QUAKE_1">
 \\@SE_PLAY@<0, "talk/talk_se/Bound_GroundA", 0, 100>
 \\@FADE_OUT@<1,0,0,0,0>
-\aw
-\\@CHARA_OUT@<0, -1, -1, 0, 0>
+\\@SPEAKERCG_IN@<0, 14,6, 128,-200, 128,-60, 255,0, 30, 1024,1024, 0>//落下消滅
+// \aw
+// \\@CHARA_OUT@<0, -1, -1, 0, 0>
 \aw
 \w<60>
 
@@ -111,52 +132,61 @@ Dead_Noel
 \aw
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0068", 100>
+\\@TEXT_ID@<90>
 Dead_Noel
 あ―――れ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0069", 100>
+\\@TEXT_ID@<100>
 Dead_Noel
 おかしいな……体、力が入らない……？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0070", 100>
+\\@TEXT_ID@<110>
 Dead_Noel
 あんなにたくさん血を飲んで、
 ロアだって八つ裂きにできたのに、
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0071", 100>
+\\@TEXT_ID@<120>
 Dead_Noel
 なんで―――
 なんでわたしの指、崩れてるの？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0072", 100>
+\\@TEXT_ID@<130>
 Dead_Noel
 ……やめてよ。ほんと、やめて。
 カンベンしてよ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0073", 100>
+\\@TEXT_ID@<140>
 Dead_Noel
 オトナのわたしだったら、別にいい。
 いつだってボロボロだったから。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0074", 100>
+\\@TEXT_ID@<150>
 Dead_Noel
 でも……今は、やめて。
 これ、いちばん輝いていた頃の姿、なのよ？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0075", 100>
+\\@TEXT_ID@<160>
 Dead_Noel
 壊れないで。崩れないで。
 大嫌いな吸血鬼にまでなったのに―――
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0076", 100>
+\\@TEXT_ID@<170>
 Dead_Noel
 ……結局。
 わたしは、惨めな姿で、死ぬだけなの？
@@ -166,18 +196,21 @@ Dead_Noel
 \w<120>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcExe/NpcExe_07_0000", 100>
+\\@TEXT_ID@<180>
 Executor
 ―――いえ。
 その前に、その魂を浄化します。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcExe/NpcExe_07_0001", 100>
+\\@TEXT_ID@<190>
 Executor
 代行者ノエルのこれまでの功績を認め、
 焼却ではなく救済を。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0077", 100>
+\\@TEXT_ID@<200>
 Dead_Noel
 ―――ぁ―――。
 ぁ、あ―――
@@ -187,17 +220,20 @@ Dead_Noel
 */
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcExe/NpcExe_07_0002", 100>
+\\@TEXT_ID@<210>
 Executor
 ……どうか一撃で、苦しまず、
 不浄の罰、地上の罪から、解放されますよう。
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0078", 100>
+\\@TEXT_ID@<220>
 Dead_Noel
 ―――そっか。
 そういえば、そうだった。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0079", 100>
+\\@TEXT_ID@<230>
 Dead_Noel
 あーあ。最初に、殺しておくべきは、
 アナタだったのにね。
@@ -207,6 +243,7 @@ Dead_Noel
 */
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcExe/NpcExe_07_0003", 100>
+\\@TEXT_ID@<240>
 Executor
 ……。
 主よ。―――この魂に、憐れみを。
@@ -226,3 +263,4 @@ Executor
 
 \\@BGM_STOP@<0>
 \e
+

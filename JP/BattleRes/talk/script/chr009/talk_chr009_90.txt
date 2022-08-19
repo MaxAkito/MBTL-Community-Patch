@@ -17,51 +17,60 @@
 \\@SQ_CALL@<1>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0080", 100>
+\\@TEXT_ID@<10>
 Volv
 ―――ここまで、か。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0081", 100>
+\\@TEXT_ID@<20>
 Volv
 この女を喰らったところで、
 おれの何が、変わるでもない。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0082", 100>
+\\@TEXT_ID@<30>
 Volv
 ……過去は変わらない。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0083", 100>
+\\@TEXT_ID@<40>
 Volv
 ……手にするべき明日も、思いつかない。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0084", 100>
+\\@TEXT_ID@<50>
 Volv
 ……そのような亡霊が、
 なぜ生きながらえる必要がある。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0085", 100>
+\\@TEXT_ID@<60>
 Volv
 ……漂流は終わりだ。
 二百年……この命になってから、
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0086", 100>
+\\@TEXT_ID@<70>
 Volv
 一度も、魂を懸けるほどの敵に
 遭わなかったのは、心残りだが……
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0087", 100>
+\\@TEXT_ID@<80>
 Volv
 ……それも、狗にすらなれなかった男には、
 相応の末路だろうよ…………。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0088", 100>
+\\@TEXT_ID@<90>
 Volv
 ―――ああ。
 　　　ここは、とても、寒い―――
@@ -72,3 +81,4 @@ Volv
 
 \\@BGM_STOP@<0>
 \e
+

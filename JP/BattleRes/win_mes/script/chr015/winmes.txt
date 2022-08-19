@@ -111,6 +111,14 @@ chara_switchframe 535
 私には見せないか。
 \e
 
+// 対ネコアルク
+WinMes13:
+chara_type 101
+………すごい生き物だったわね。
+宝石の爺さんの仕業かなあ。
+どこの世界の邪神よ、今の。
+\e
+
 // 対ロア（ストーリー専用）
 WinMesArcadeWin05:
 chara_type 4

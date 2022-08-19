@@ -1,8 +1,24 @@
-\\@BG_IN@<"screen_bg03", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg03", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<5, 1, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//hisui
+\\@CHARA_SET_PATTERN@<5, 0>//hisui
+
+\\@NPC_LOAD_SYNC@<6, 4, 480, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//kohaku
+\\@CHARA_SET_PATTERN@<6, 0>//kohaku
+
+\\@SYSTEM@<101>
+\\@NPC_LOAD_SYNC@<4, 2, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//akiha
+\\@CHARA_SET_PATTERN@<4, 4>//akiha
 
 \\@CHARA_IN@<0, 2, 0, 1, 0>
 \\@CHARA_IN@<1, 4, 103, 4, 0>
@@ -11,38 +27,51 @@
 
 \\@BGM_PLAY@<0, 74, 100>
 
-
 \\@CHARA_IN@< 0, 2, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0010", 100>
+\\@TEXT_ID@<10>
 Akiha
 ……呆れた。あなたたち、
 こんなところで何をやっているの？
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<6, 12>//kohaku
+\\@CHARA_SET_PATTERN@<5, 8>//hisui
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 1, 4, 104, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0000", 100>
+\\@TEXT_ID@<20>
 Kohaku
 きゃっ！？　秋葉さま、
 どうして外出なさってるんですか！？
 \l
 
+\\@CHARA_SET_PATTERN@<6, 7>//kohaku
+
 \\@CHARA_IN@< 1, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0001", 100>
+\\@TEXT_ID@<30>
 Kohaku
 あ、いえ、違いますよ？　お忙しい秋葉さまのお手を
 煩わせないよう、わたしたちで街の調査をしてみよう、と。
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 5>//akiha
+
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0011", 100>
+\\@TEXT_ID@<40>
 Akiha
 言い訳は結構です。
 \l
 
 \\@CHARA_IN@< 0, 2, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0012", 100>
+\\@TEXT_ID@<50>
 Akiha
 貴方たちの役割は屋敷の管理よ。
 それ以外の仕事は許しません。
@@ -50,6 +79,7 @@ Akiha
 
 \\@CHARA_IN@< 0, 2, 201, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0013", 100>
+\\@TEXT_ID@<60>
 Akiha
 私の目を盗んで油を売っていた以上、
 覚悟はできているんでしょうねぇ？
@@ -60,3 +90,4 @@ Akiha
 
 \\@BGM_STOP@<0>
 \e
+

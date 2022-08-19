@@ -1,0 +1,603 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"ed_bg00", 0, 2>//背景　黒
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 71, 100>
+
+
+
+\\@SYSTEM@<100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0000", 100>
+\\@TEXT_ID@<10>
+Navigate
+アンサモンプログラム　スタート。
+霊子変換を開始　します。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0001", 100>
+\\@TEXT_ID@<20>
+Navigate
+レイシフト開始まで　あと３、２、１……
+\l
+
+\\@FADE_IN@<2, 128, 0, 0, 0>
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_Warning", 1, 100>//SE アラート
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0002", 100>
+\\@TEXT_ID@<30>
+Navigate
+工程に問題発生。
+時空連続体に理解困難の不具合　発生。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0003", 100>
+\\@TEXT_ID@<40>
+Navigate
+グランドオーダー　実証　停止。
+レイシフト　ルート構築　は　継続します。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0004", 100>
+\\@TEXT_ID@<50>
+Navigate
+コフィン内のパイロットの安全を最優先。
+強制排出をロック。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0005", 100>
+\\@TEXT_ID@<60>
+Navigate
+パイロットの　自主的な帰還を
+期待　します。
+
+\\@SE_STOP@<1>//SE停止 アラート
+
+\\@BGM_FADE@<0, 100, 0, -2, 1>
+
+\\@FADE_OUT@<0, 255, 255, 255, 0>
+\aw
+
+//画面・ビカーーと光って、暗転。
+\\@BG_CLEAR@<>
+\\@LOAD_BATTLE_BG@<8>
+\aw
+
+\\@SYSTEM@<200>
+\aw
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_IN@< 1, 1, 1, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 72, 100>
+
+//ウエイト３秒から
+
+\\@NPC_LOAD_SYNC@<5, 1, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 110>//60F　300ドット歩く登場
+
+\\@CHARA_IN@< 1, 1, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0100", 100>
+\\@TEXT_ID@<70>
+Hisui
+このあたり、でしょうか。
+先ほど大きな落下音がしたのは。
+\l
+
+\\@CHARA_IN@< 1, 1, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0101", 100>
+\\@TEXT_ID@<80>
+Hisui
+また姉さんが掃除と称して、
+
+
+\\@CHARA_IN@< 1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0130", 100>
+\\@TEXT_ID@<90>
+Kohaku
+『たまには外で埃をとってあげませんと。
+　はーい、キレイになりましょうね～～～\sf000』
+\l
+
+
+\\@CHARA_IN@< 1, 4, 202, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0131", 100>
+\\@TEXT_ID@<100>
+Kohaku
+『ほうほう。これはとってもお高い伊万里焼きの壺。
+　あ。いっけない、手が滑りました☆』
+
+
+\\@CHARA_IN@< 1, 1, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0102", 100>
+\\@TEXT_ID@<110>
+Hisui
+と、槙久様の《骨董品＜コレクション＞を窓から
+落としてしまったのでしょうが……
+
+\\@NPC_LOAD_SYNC@<4, 20, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 80>//ダウン
+
+\\@CHARA_IN@< 0, 20, 212, 11, 0>
+\aw
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0140", 100>
+\\@TEXT_ID@<120>
+Mash
+…………
+
+\\@CHARA_SET_PATTERN@<5, 5>//怯え
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, 3, 0, 1>
+\\@CHARA_FACE@<1,3,1,329>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0103", 100>
+\\@TEXT_ID@<130>
+Hisui
+……！　泥棒……ううん、迷子……？
+いえ、それより傷を診ないと……！
+\l
+
+\\@CHARA_IN@< 1, 1, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0104", 100>
+\\@TEXT_ID@<140>
+Hisui
+姉さん、緊急事態です！
+至急、西館横の庭までお願いします！
+
+\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\@CHARA_FOCUS_COLOR@< -1, 1>
+\\@GO_SUB@<"SceneChange_OUT">
+
+
+\\@GO_SUB@<"AllOut">
+
+\\@LOAD_BATTLE_BG@<11>
+\aw
+
+// キャラを消す
+\\@CHARA_SET_PATTERN@<4, 0>
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+
+\\@NPC_LOAD_SYNC@<6, 4, 360, 0, 1>
+\\@CHARA_SET_PATTERN@<6, 0>//立ち
+
+//翡翠イン
+\\@NPC_LOAD_SYNC@<5, 1, 200, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 0>//立ち
+
+//マシュイン
+\\@NPC_LOAD_SYNC@<4, 20, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 80>//倒れている
+
+
+\\@GO_SUB@<"SceneChange_IN">
+
+\\@CHARA_IN@< 3, 4, 101, 2, 0>
+\\@CHARA_IN@< 1, 1, 105, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 62, 100>
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 3, 4, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0132", 100>
+\\@TEXT_ID@<150>
+Kohaku
+安心して、翡翠ちゃん。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0133", 100>
+\\@TEXT_ID@<160>
+Kohaku
+確かに高級そうな西洋甲冑ですが、
+これは当家にはなかったものかと。
+
+\\@CHARA_IN@< 1, 1, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0105", 100>
+\\@TEXT_ID@<170>
+Hisui
+姉さん、そうではなく。
+甲冑はどうでもいいので、この方の怪我を診てください。
+
+\\@CHARA_IN@< 3, 4, 105, 0, 1>
+\\@CHARA_FACE@<3,105,100,147>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0134", 100>
+\\@TEXT_ID@<180>
+Kohaku
+あ、そっちです？
+擦り傷も打ち身もないし、健康そのものよ。
+\l
+
+\\@CHARA_IN@< 3, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0135", 100>
+\\@TEXT_ID@<190>
+Kohaku
+ちょっとお腹が減っていて元気が出ないかな？
+くらいの状態かと。
+
+\\@CHARA_IN@< 0, 20, 213, 1, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<4, 81>//起き上がる
+\\@CHARA_SET_PATTERN@<5, 48>//振り向き
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 213, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0141", 100>
+\\@TEXT_ID@<200>
+Mash
+ぁ―――
+
+\\@CHARA_SET_PATTERN@<4, 18>//困惑
+\\@CHARA_IN@< 0, 20, 208, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0142", 100>
+\\@TEXT_ID@<210>
+Mash
+ここは……いったい……
+あの……あなたたちは？
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 3, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0136", 100>
+\\@TEXT_ID@<220>
+Kohaku
+おや。目を覚まされましたね。
+おはようございます、見知らぬ方。
+\l
+
+\\@CHARA_IN@< 3, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0137", 100>
+\\@TEXT_ID@<230>
+Kohaku
+わたしどもはここ遠野邸の使用人です。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0138", 100>
+\\@TEXT_ID@<240>
+Kohaku
+こちらの翡翠ちゃんが庭で倒れている貴女を
+見つけて、今まで看病していました。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 202>//お辞儀
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 207, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0143", 100>
+\\@TEXT_ID@<250>
+Mash
+それは……ありがとうございます。
+翡翠さん、と仰るのですね。
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 1, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0106", 100>
+\\@TEXT_ID@<260>
+Hisui
+無理はなさらず。
+まだ横になっていてください。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0107", 100>
+\\@TEXT_ID@<270>
+Hisui
+私は翡翠、こちらの使用人は琥珀と申します。
+以後、名前でお呼びいただければ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0108", 100>
+\\@TEXT_ID@<280>
+Hisui
+何か事情がおありのようですが……
+ご自分の名前は言えますか？
+
+\\@CHARA_SET_PATTERN@<4, 201>//にっこり待機
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 205, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0144", 100>
+\\@TEXT_ID@<290>
+Mash
+はい。わたしはマシュ・キリエライト。
+人理保障機関カルデアの……
+\l
+
+\\@CHARA_SET_PATTERN@<4, 219>//困惑
+\\@CHARA_IN@< 0, 20, 216, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0145", 100>
+\\@TEXT_ID@<300>
+Mash
+……すみません。一般の方にカルデアの職務を
+お伝えする事はできないのでした……。
+\l
+
+
+\\@CHARA_IN@< 0, 20, 212, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0146", 100>
+\\@TEXT_ID@<310>
+Mash
+……ごめんなさい。危ないところを助けて
+いただいたのに、何もお返しできなくて……
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0109", 100>
+\\@TEXT_ID@<320>
+Hisui
+その必要はありません。
+幸い、当家は経済的に恵まれています。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0110", 100>
+\\@TEXT_ID@<330>
+Hisui
+傷ついた方を助けるのは当然のこと。
+当然のことに、お礼をいただく事はできません。
+
+\\@CHARA_SET_PATTERN@<4, 217>//はにかみ待機
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 205, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0147", 100>
+\\@TEXT_ID@<340>
+Mash
+翡翠さん―――
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, -1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0111", 100>
+\\@TEXT_ID@<350>
+Hisui
+どうぞ翡翠、と。
+他に何かありましたら遠慮なくお尋ねください。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0112", 100>
+\\@TEXT_ID@<360>
+Hisui
+わたくしどもはしがない使用人ですが、
+情報だけはよく集めております。
+\l
+
+\\@CHARA_IN@< 1, 1, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0113", 100>
+\\@TEXT_ID@<370>
+Hisui
+おもに、そこの姉さんが。
+あまり自慢できない方法で。
+
+\\@CHARA_SET_PATTERN@<6, 5>//内緒
+\\@CHARA_IN@< 3, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0139", 100>
+\\@TEXT_ID@<380>
+Kohaku
+てへ☆
+
+\\@CHARA_SET_PATTERN@<6, 17>//内緒戻り
+
+\\@CHARA_SET_PATTERN@<4, 220>//真面目待機
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 204, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0148", 100>
+\\@TEXT_ID@<390>
+Mash
+そ、そうなのですか？
+では、街の名前と年代を教えていただけますか？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0149", 100>
+\\@TEXT_ID@<400>
+Mash
+わたしは特異点……じゃなくて、えっと……
+\l
+
+\\@CHARA_SET_PATTERN@<4, 221>//むんっ！
+\\@CHARA_IN@< 0, 20, 202, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0150", 100>
+\\@TEXT_ID@<410>
+Mash
+そう！　普通ではありえない、街の異常を
+解決するために派遣されたエージェント！　なので！
+\l
+
+
+\\@SYSTEM@<131>
+\\@CHARA_SET_PATTERN@<4, 203>//はにかみ
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0151", 100>
+\\@TEXT_ID@<420>
+Mash
+（カルデアの職務は明かせませんが、
+　これなら問題はないハズです！）
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 3, 4, 104, 0, 1>
+\\@CHARA_EMOVE@<3, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0140", 100>
+\\@TEXT_ID@<430>
+Kohaku
+なんと！　では、貴女が
+郵便受けに入っているいつもの《チラシ＜アレ＞、
+\l
+
+\\@CHARA_IN@< 3, 4, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0141", 100>
+\\@TEXT_ID@<440>
+Kohaku
+『異端まわりの問題、お任せください！
+　オプションでトイレ・お風呂問題も即解決！』
+\l
+
+\\@CHARA_IN@< 3, 4, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0142", 100>
+\\@TEXT_ID@<450>
+Kohaku
+の方なのですね！
+\l
+
+\\@CHARA_IN@< 3, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0143", 100>
+\\@TEXT_ID@<460>
+Kohaku
+どんな方がいらっしゃるのかなー、と
+面白がって申し込んだ甲斐がありました！
+
+\\@CHARA_SET_PATTERN@<5, 48>//振り向き
+\\@CHARA_IN@< 1, 1, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0114", 100>
+\\@TEXT_ID@<470>
+Hisui
+―――姉さん。またそんな無駄遣いをして。
+秋葉さまをあまり怒らせるのは……
+
+\\@CHARA_SET_PATTERN@<6, 5>//内緒
+\\@CHARA_IN@< 3, 4, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0144", 100>
+\\@TEXT_ID@<480>
+Kohaku
+結果よければすべて良しよ、翡翠ちゃん！
+\l
+
+
+\\@CHARA_IN@< 3, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0145", 100>
+\\@TEXT_ID@<490>
+Kohaku
+少なくとも、これで志貴さんがやんちゃをする
+必要はなくなったのですもの！
+
+\\@CHARA_SET_PATTERN@<6, 17>//内緒戻り
+
+\\@CHARA_IN@< 1, 1, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0115", 100>
+\\@TEXT_ID@<500>
+Hisui
+……それは確かに。
+危険な仕事であれば、専門職の方にお任せするべきです。
+
+\\@CHARA_SET_PATTERN@<5, 48>//振り向き
+
+\\@CHARA_SET_PATTERN@<4, 220>//真面目待機
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 203, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0152", 100>
+\\@TEXT_ID@<510>
+Mash
+……危険な仕事、なのですね？
+それでしたら力になれるかと。
+\l
+
+\\@CHARA_IN@< 0, 20, 214, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0153", 100>
+\\@TEXT_ID@<520>
+Mash
+詳しい話を聞かせていただけますか？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 3, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0146", 100>
+\\@TEXT_ID@<530>
+Kohaku
+はい。この街はふたりの吸血鬼に
+平和を脅かされているのです。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 15>//kohaku
+\\@CHARA_IN@< 3, 4, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0147", 100>
+\\@TEXT_ID@<540>
+Kohaku
+制限速度を守らない。公序良俗も眼中なし。
+深夜に鐘を鳴らしては人々を洗脳する……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0148", 100>
+\\@TEXT_ID@<550>
+Kohaku
+今の総耶の夜は、
+さながら魔女狩りの夜のようです。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 9>//kohaku
+\\@CHARA_IN@< 3, 4, 104, 0, 1>
+\\@CHARA_IN@< 3, 4, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0149", 100>
+\\@TEXT_ID@<560>
+Kohaku
+これでは当家の名声も地に落ちるというもの。
+お力、お貸しくださいますか？
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 203, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0154", 100>
+\\@TEXT_ID@<570>
+Mash
+もちろんです、ミス・琥珀。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0155", 100>
+\\@TEXT_ID@<580>
+Mash
+人理を守る《英霊＜もの＞として、なにより、
+おふたりの優しさに助けられた《人間＜もの＞として、
+\l
+
+\\@CHARA_SET_PATTERN@<4, 22>//決めポーズ
+\\@CHARA_IN@< 0, 20, 223, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0156", 100>
+\\@TEXT_ID@<590>
+Mash
+マシュ・キリエライト！
+なんちゃって吸血鬼ハンターとして出撃です！
+
+\\@CHARA_SET_PATTERN@<6, 11>//kohaku
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0116", 100>
+\\@TEXT_ID@<600>
+Hisui
+マシュ様……姉さんの口車に乗っているのを
+承知の上で依頼を受けてくださるのですね。
+\l
+
+\\@CHARA_IN@< 1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0117", 100>
+\\@TEXT_ID@<610>
+Hisui
+では、わたしどもも
+できうるかぎりの誠意をお見せしなくては。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0118", 100>
+\\@TEXT_ID@<620>
+Hisui
+マシュ様に戦い抜く力があるかどうか。
+僭越ながら、確認させていただきます……！
+
+
+\\@BGM_STOP@<0>
+\e
+

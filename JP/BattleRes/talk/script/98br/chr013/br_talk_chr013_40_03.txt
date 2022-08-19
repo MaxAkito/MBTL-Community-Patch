@@ -1,14 +1,23 @@
 \\@SYSTEM@<9999>
 \\@FADE_IN@<1, 0, 0, 0, 0>
 \aw
-\\@BG_IN@<"screen_bg06", 0, 0>
-\\@SQ_CALL@<1>
+// \\@BG_IN@<"screen_bg06", 0, 0>
+\\@LOAD_BATTLE_BG@<14>
+// \\@SQ_CALL@<1>
 \\@FADE_IN@<1,255,255,255,0>
 \\@SE_PLAY@<0, "talk/talk_se/Atk_StrongWind", 0, 100>
 \aw
 
+\\@NPC_LOAD_SYNC@<5, 3, 100, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 30>//shiki 眼鏡待て
+
+\\@NPC_LOAD_SYNC@<4, 13,-100, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
+
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
@@ -18,8 +27,10 @@
 \\@CHARA_IN@< 2, 3,  0, 1, 0>
 \aw
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10010", 100>
+\\@TEXT_ID@<10>
 Shiki
 あぶない都古ちゃん！
 頭上から１メートル大の氷塊が！
@@ -27,10 +38,13 @@ Shiki
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10050", 100>
+\\@TEXT_ID@<20>
 Miyako
 ひょ、ひょうかい！？　夏なのに！？
 とと、とにかく、てやーーーーっ！
 
+\\@CHARA_SET_PATTERN@<4, 19>//miyako 氷塊パンチ
+\\@CHARA_SET_PATTERN@<5, 31>//shiki 眼鏡待て戻り
 
 \\@CHARA_IN@< 0, 13, 4, 52, 20>
 \\@CHARA_MUKI@<0,0>
@@ -43,11 +57,19 @@ Miyako
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \aw
 
+\\@CHARA_SET_PATTERN@<4,11>//miyako 構え→立ち
+
+\\@NPC_LOAD_SYNC@<6, 9, 640, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//vlov
+\\@CHARA_SET_PATTERN@<6, 0>//vlov
+
 \\@CHARA_IN@< 1, 9,  0, 2, 100>
 \aw
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, 4, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10000", 100>
+\\@TEXT_ID@<30>
 Volv@Volv_Fuyu
 ……おれのプレゼントを、正面から粉砕するとは。
 ……酷い街だ。無惨、ここに極まったな。
@@ -58,55 +80,68 @@ Volv@Volv_Fuyu
 \\@BGM_FADE@<0, 100, 0, -2, 1>
 \\aw
 
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+
+
 \\@DRAW_EFFECT@<1>
 \aw
 
-\\@BGM_PLAY@<1, 72, 100>
+\\@BGM_PLAY@<1, 61, 100>//コミカルでちょっと怪しげなBGM
 
-\\@CHARA_IN@< 3, 53,  0, 44, 0>
+\\@CHARA_IN@< 3, 19,  0, 44, 0>
 \\@CHARA_MUKI@<3,0>
 \aw
 
+\\@SYSTEM@<100>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10070", 100>
+\\@TEXT_ID@<40>
 Neco_Arc
 ～これまでのあらすじ～
 \l
 
-\\@CHARA_IN@< 3, 53, 100, 0, 1>
+\\@CHARA_IN@< 3, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10071", 100>
+\\@TEXT_ID@<50>
 Neco_Arc
 凄腕の暗殺者、ノエルを倒した都古。
 しかし平穏は１０分しか続かなかった。
 \l
 
-\\@CHARA_IN@< 3, 53, 108, 0, 1>
+\\@CHARA_IN@< 3, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10072", 100>
+\\@TEXT_ID@<60>
 Neco_Arc
 新たに現れた、遠野志貴を狙う吸血怪人。
 その名はマロース。冬将軍マロース。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10073", 100>
+\\@TEXT_ID@<70>
 Neco_Arc
 三咲町にドチャクソな寒波が訪れる。
 \l
 
-\\@CHARA_IN@< 3, 53, 100, 0, 1>
+\\@CHARA_IN@< 3, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10074", 100>
+\\@TEXT_ID@<80>
 Neco_Arc
 このままではかき氷の売り上げは低下し、
 海の家は大量の《在庫＜やきそば＞を抱えるだろう。
 \l
 
-\\@CHARA_IN@< 3, 53, 110, 0, 1>
+\\@CHARA_IN@< 3, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10075", 100>
+\\@TEXT_ID@<90>
 Neco_Arc
 夏の風物詩を、そしてオニイチャンとの
 サマー・バカンスの可能性を守るため、
 \l
 
-\\@CHARA_IN@< 3, 53, 108, 0, 1>
+\\@CHARA_IN@< 3, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10076", 100>
+\\@TEXT_ID@<100>
 Neco_Arc
 いま、都古の秘められた真の力が覚醒する……！
 
@@ -118,6 +153,19 @@ Neco_Arc
 \\@DRAW_EFFECT@<0>
 \aw
 
+\\@NPC_LOAD_SYNC@<5, 3, 100, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 90>//shiki 
+
+\\@NPC_LOAD_SYNC@<4, 13,-100, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 0>//miyako
+
+\\@NPC_LOAD_SYNC@<6, 9, 640, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//vlov
+\\@CHARA_SET_PATTERN@<6, 0>//vlov
+
+
 \\@BGM_PLAY@<0, 75, 100>
 \\@CHARA_IN@< 0, 13, 4, 11, 0>
 \\@CHARA_IN@< 2, 3,  0, 11, 0>
@@ -125,13 +173,17 @@ Neco_Arc
 \aw
 
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, -1, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10001", 100>
+\\@TEXT_ID@<110>
 Volv@Volv_Fuyu
 ……大抵の痛みには慣れたつもりだが。
 \l
 
+\\@CHARA_SET_PATTERN@<6, 11>//vlov ため息
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10002", 100>
+\\@TEXT_ID@<120>
 Volv@Volv_Fuyu
 ……純真な少女の受け取り拒否を直に見るのは、
 いくつになっても堪えるものだ……。
@@ -139,73 +191,103 @@ Volv@Volv_Fuyu
 
 \\@CHARA_IN@< 1, 9, 4, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10003", 100>
+\\@TEXT_ID@<130>
 Volv@Volv_Fuyu
 おれなりに、流行り物を押さえたつもりだが……。
 
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10051", 100>
+\\@TEXT_ID@<140>
 Miyako
 あー！　よく見たら氷の中に何か入ってるーー！
 えーと、これは……
 
+\\@CHARA_SET_PATTERN@<5, 27>//shiki 眼鏡うなずき（2回）
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10011", 100>
+\\@TEXT_ID@<150>
 Shiki
 カードゲームのエクステンドパックだね。
 でもこれ、レギュレーション的に二世代ほど前のヤツだよ。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 28>//shiki 眼鏡ため息
 \\@CHARA_IN@< 2, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10012", 100>
+\\@TEXT_ID@<160>
 Shiki
 使い道はほぼないかなあ。
 まあ、コレクターなら取っておきたいかもだけど。
 
+\\@CHARA_SET_PATTERN@<5, 29>//shiki 眼鏡ため息戻り
+
+\\@CHARA_SET_PATTERN@<4,11>//miyako 構え→立ち
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10052", 100>
+\\@TEXT_ID@<170>
 Miyako
 そうなんだー。
 すてきなイラストがいっぱい描かれてるのにねー。
 
+\\@CHARA_SET_PATTERN@<6, 9>//vlov はぁはぁ
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, 2, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10004", 100>
+\\@TEXT_ID@<180>
 Volv@Volv_Fuyu
 …………ソレジャナイ……のか？
 おれの《土地＜くに＞では……それが……最新だと……
 
+\\@CHARA_SET_PATTERN@<5, 22>//shiki 眼鏡お手
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10013", 100>
+\\@TEXT_ID@<190>
 Shiki
 \\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
-\\@EMG_PRINT@<"特別意訳：どこの地方のデュエリストですか？", 102, 1060, 650>
+\\@EMG_PRINT@<"特別意訳：どこの地方のデュエリストですか？", 102, 1130, 670>
 ああ。それはずいぶんと田舎の方なんですね。
 戦術の前に、流通から見直した方がいいですよ。
 
+\\@CHARA_SET_PATTERN@<5, 23>//shiki 眼鏡お手戻り
+
+\\@CHARA_SET_PATTERN@<6, 10>//vlov はぁはぁ→顔上げ
+\\@SYSTEM@<122>
 \\@GO_SUB@<"QUAKE_2">
 \\@CHARA_IN@< 1, 9, 6, 0, 101>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10005", 100>
+\\@TEXT_ID@<200>
 Volv@Volv_Fuyu
 お―――
 おおぉおおおォオオオオオオオ……！！！！
 
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 5, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10053", 100>
+\\@TEXT_ID@<210>
 Miyako
 ひゃあああ！？
 とと、とつぜんなんでしょーか、マロースさん！？
 
+\\@CHARA_SET_PATTERN@<6, 14>//vlov
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, 5, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10006", 100>
+\\@TEXT_ID@<220>
 Volv@Volv_Fuyu
 その男はいま、触れてはならない闇に触れた。
 流通？　流通だと？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10007", 100>
+\\@TEXT_ID@<230>
 Volv@Volv_Fuyu
 おれの《土地＜くに＞は郵便すら半年遅れで届く魔境。
 いわんや、当日届きの通販など夢のまた夢。
@@ -213,13 +295,16 @@ Volv@Volv_Fuyu
 
 \\@CHARA_IN@< 1, 9, 1, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10008", 100>
+\\@TEXT_ID@<240>
 Volv@Volv_Fuyu
 都会の人間どもはこれだから度しがたい。
 ……やはり、この街は死に絶えねばならん。
 \l
 
+\\@CHARA_SET_PATTERN@<6, 4>//vlov いくぞ！
 \\@CHARA_IN@< 1, 9, 2, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10009", 100>
+\\@TEXT_ID@<250>
 Volv@Volv_Fuyu
 おれは冬将軍マロース。
 またの名を怪人サンタクロース。
@@ -227,13 +312,16 @@ Volv@Volv_Fuyu
 
 \\@CHARA_IN@< 1, 9, 5, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10010", 100>
+\\@TEXT_ID@<260>
 Volv@Volv_Fuyu
 吹雪に埋もれた交通網を見て、今まで
 どれほど恵まれた環境にいたのかを思い知るがいい！
 
+\\@SYSTEM@<121>
 \\@CHARA_IN@< 0, 13, 6, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10054", 100>
+\\@TEXT_ID@<270>
 Miyako
 ひゃーー！？　気持ちはわかるけど、
 サンタクロースが言っていいセリフじゃないよね！？
@@ -241,3 +329,4 @@ Miyako
 
 \\@BGM_STOP@<0>
 \e
+

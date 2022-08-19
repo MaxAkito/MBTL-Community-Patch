@@ -17,90 +17,106 @@
 \\@SQ_CALL@<1>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0080", 100>
+\\@TEXT_ID@<10>
 Noel
 はぁーあー！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0081", 100>
+\\@TEXT_ID@<20>
 Noel
 結局、アイツに助けられて助かった、なんて、
 いつものパターンかぁ……
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0082", 100>
+\\@TEXT_ID@<30>
 Noel
 鬱るなぁ……
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0083", 100>
+\\@TEXT_ID@<40>
 Noel
 ま、共同作業ってコトで大幅にスコアは上がったし、
 危ないところはぜんぶ押しつけられたしで、
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0084", 100>
+\\@TEXT_ID@<50>
 Noel
 結果的にはプラスもプラス、
 楽して生きるってこういうコトよね！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0085", 100>
+\\@TEXT_ID@<60>
 Noel
 晴れて一年分のノルマクリア、
 これで堂々と教師生活を満喫できる！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0086", 100>
+\\@TEXT_ID@<70>
 Noel
 部屋は清潔、ごはんは美味しい、遊び場たくさん！
 いえーい、都会の夜、さいっこー！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0087", 100>
+\\@TEXT_ID@<80>
 Noel
 ……って、あれ？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0088", 100>
+\\@TEXT_ID@<90>
 Noel
 いま、路地裏にふらふら歩いていったの、
 うちの生徒じゃない？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0089", 100>
+\\@TEXT_ID@<100>
 Noel
 私のクラスの、たしか……そうそう、弓塚さん！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0090", 100>
+\\@TEXT_ID@<110>
 Noel
 弓って名字が気にくわなくて、
 なんとなく覚えちゃったんだけど……
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0091", 100>
+\\@TEXT_ID@<120>
 Noel
 へえ。あの路地裏に、ねぇ？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0092", 100>
+\\@TEXT_ID@<130>
 Noel
 さて、どうしよっかなあ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0093", 100>
+\\@TEXT_ID@<140>
 Noel
 気を利かせて見なかった事にするか、
 聖職者として様子を見に行くべきか。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0094", 100>
+\\@TEXT_ID@<150>
 Noel
 ま、今夜はいいコトあったし、
 たまには無償の人助けとまいりますか！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0095", 100>
+\\@TEXT_ID@<160>
 Noel
 しばらく顔を合わせるんだもの、
 頼れるお姉さんとして振る舞いましょう！
@@ -112,3 +128,4 @@ Noel
 
 \\@BGM_STOP@<0>
 \e
+

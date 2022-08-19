@@ -1,16 +1,26 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg01", 0, 2>
+// \\@BG_IN@<"screen_bg01", 0, 2>
+\\@LOAD_BATTLE_BG@<1>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@BGM_PLAY@<0, 76, 100>
+
+\\@NPC_LOAD_SYNC@<4, 13,-320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 6>//miyako YES
+
+\\@NPC_LOAD_SYNC@<5, 2, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//akiha
+\\@CHARA_SET_PATTERN@<5, 90>//akiha 待機
 
 \\@CHARA_IN@< 0, 13, 3, 1, 0>
 \\@CHARA_IN@< 1, 2, 0, 2, 0>
 \aw
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 15, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 \aw
@@ -18,6 +28,7 @@
 \aw
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10090", 100>
+\\@TEXT_ID@<10>
 Miyako
 やったぁ！
 わたしの勝ちーーー！
@@ -25,19 +36,24 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10091", 100>
+\\@TEXT_ID@<20>
 Miyako
 思った以上に強かったけど、さっきのお姉さんに
 比べれば何とかなるレベルでしたーー！
 
+\\@CHARA_SET_PATTERN@<5, 101>//akiha
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 2, 3, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10010", 100>
+\\@TEXT_ID@<30>
 Akiha
 ……ええ。大したものです、有間都古。
 甘い評価をしていたのは私の方でした。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10011", 100>
+\\@TEXT_ID@<40>
 Akiha
 妙な《呪力＜モノ＞に魅入られて超人的な
 身体機能を発揮しているにしても、
@@ -45,6 +61,7 @@ Akiha
 
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10012", 100>
+\\@TEXT_ID@<50>
 Akiha
 本気で髪を降ろしていた私を倒すのですから。
 でも―――
@@ -55,47 +72,60 @@ Akiha
 \\@FADE_OUT@<2, 0, 0, 0, 0>
 \\@CHARA_IN@< 1, 2, 7, 0, 1>
 
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10092", 100>
+\\@TEXT_ID@<60>
 Miyako
 ―――え？
 
+\\@CHARA_SET_PATTERN@<5, 102>//akiha
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 2, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10013", 100>
+\\@TEXT_ID@<70>
 Akiha
 ―――本気で戦うのと、
 《程度＜・・＞を定めて戦うのは、別の話。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10014", 100>
+\\@TEXT_ID@<80>
 Akiha
 いまのは指一本程度。
 外にいた吸血鬼が指五本程度、とするのなら―――
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10015", 100>
+\\@TEXT_ID@<90>
 Akiha
 私の《程度＜・・＞は、何本分まであると思って？
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10093", 100>
+\\@TEXT_ID@<100>
 Miyako
 あ―――あ―――
 
-\\@FADE_OUT@<1, 255, 0, 0, 0>
+\\@FADE_OUT@<1, 170, 0, 30, 0>
 \w<25>
 \\@SQ_CALL@<1>
 \\@SE_PLAY@<0, "talk/talk_se/Hit_BurningLong", 0, 100>
 \aw
 
+\\@SYSTEM@<100>
 \\@CHARA_IN@< 1, 2, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10016", 100>
+\\@TEXT_ID@<110>
 Akiha
 まるで世界を閉ざす幕のようでしょう？
 貴女にとって私はそういう存在です。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10017", 100>
+\\@TEXT_ID@<120>
 Akiha
 さようなら、有間都古さん。過分な夢なんて
 持たなければ、身の程を知らずに済んだのにね？
@@ -103,6 +133,9 @@ Akiha
 \\@BGM_FADE@<1,-1,0,-3,1>
 \\@FADE_OUT@<0, 0, 0, 0, 0>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
 
 \\@CHARA_OUT@< 0, -1, -1, 0, 0>
 \\@CHARA_OUT@< 1, -1, -1, 0, 0>
@@ -120,3 +153,4 @@ Akiha
 
 \w<420>
 \e
+

@@ -1,20 +1,29 @@
 \\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@BG_IN@<"ed_bg00", 0, 2>
 \\@FADE_IN@<0, 255, 255, 255, 0>
 \aw
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 13, 3, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 13, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 0>//miyako
+
+\\@CHARA_IN@<0, 13, 3, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 72, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 13, -1, 0, 1>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0000", 100>
+\\@TEXT_ID@<10>
 Miyako
 とつぜんですが、
 わたしにはお兄ちゃんがいます。
@@ -22,12 +31,14 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0001", 100>
+\\@TEXT_ID@<20>
 Miyako
 いえ、７年前にお兄ちゃんがやってきたのです。
 いまでこそ、いちにんまえのわたしですが、
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0002", 100>
+\\@TEXT_ID@<30>
 Miyako
 その頃のわたしはまだピヨピヨの子供だったので
 けいい　とやらはよく知りません。
@@ -35,12 +46,14 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0003", 100>
+\\@TEXT_ID@<40>
 Miyako
 でも、お兄ちゃんはお兄ちゃんなのです。
 \l
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0004", 100>
+\\@TEXT_ID@<50>
 Miyako
 無口だけどほんわかしていて、
 お父さんにもお母さんにも頼りにされていて、
@@ -48,12 +61,14 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0005", 100>
+\\@TEXT_ID@<60>
 Miyako
 わたしがうえきばちを割ったり、
 道場の床みがきに車のワックスを使ったり、
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0006", 100>
+\\@TEXT_ID@<70>
 Miyako
 なつやすみの宿題をためこんでも
 やれやれと肩をすくめて手伝ってくれる、
@@ -61,6 +76,7 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0007", 100>
+\\@TEXT_ID@<80>
 Miyako
 そんな、流れる水のように自然で
 やさしいお兄ちゃんでした。
@@ -68,9 +84,13 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0008", 100>
+\\@TEXT_ID@<90>
 Miyako
 なのに。
 \l
+
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@SYSTEM@<100>
 
 \\@BGM_FADE@<0, 100, 0, 60, 1>
 
@@ -80,15 +100,18 @@ Miyako
 \\@DRAW_EFFECT@<1>
 \aw
 
-\\@BG_IN@<"ed_bg00", 0, 0>
+// \\@BG_IN@<"ed_bg00", 0, 0>
 
 \\@BGM_PLAY@<0, 71, 100>
 
 \\@CHARA_IN@<1, 3, 12, 2, 0>
 \aw
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@<1, 3, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0030", 100>
+\\@TEXT_ID@<100>
 Shiki
 それじゃあ行ってきます。
 お母さんも元気で。
@@ -96,54 +119,67 @@ Shiki
 \\@CHARA_IN@<0, 13, 10, 1, 0>
 \aw
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 13, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0009", 100>
+\\@TEXT_ID@<110>
 Miyako
 ………………！！！
 \l
 
 \\@CHARA_OUT@< 1, 3, -1, 0, 0>
 \aw
-\\@FADE_OUT@<2,0,0,0,0>
-\aw
+// \\@FADE_OUT@<2,0,0,0,0>
+// \\@BG_OUT@<0,0>
+// \aw
 \\@DRAW_EFFECT@<0>
 \aw
 
 \\@CHARA_IN@< 0, 13, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0010", 100>
+\\@TEXT_ID@<120>
 Miyako
 その日、お兄ちゃんはとても早起きをして、
 荷物をまとめて、お母さんに挨拶をしていました。
 \l
+
+\\@SYSTEM@<100>
 
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 
 
 \\@DRAW_EFFECT@<1>
-\\@FADE_IN@<2,0,0,0,0>
+// \\@FADE_IN@<2,0,0,0,0>
 \\@CHARA_IN@<1, 3, 12, 12, 0>
 \aw
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@<1, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0031", 100>
+\\@TEXT_ID@<130>
 Shiki
 ……まいったな。
 都古ちゃん、今日は早起きだね。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0032", 100>
+\\@TEXT_ID@<140>
 Shiki
 これから遠野の家に戻るんだ。
 なんでか、いまさら呼び戻されてね。
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0033", 100>
+\\@TEXT_ID@<150>
 Shiki
 今までありがとう。これからも元気で。
 あ、でも道場では程ほどに。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0034", 100>
+\\@TEXT_ID@<160>
 Shiki
 建物も傷んできている。
 あんまり無茶な使い方はしないように。
@@ -151,30 +187,41 @@ Shiki
 \\@CHARA_OUT@< 1, 3, -1, 0, 0>
 \aw
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 13, 11, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0011", 100>
+\\@TEXT_ID@<170>
 Miyako
 っ…………！
 \l
 
 \\@BGM_FADE@<0, 100, 0, 60, 1>
-\\@FADE_OUT@<2,0,0,0,0>
-\aw
+// \\@FADE_OUT@<2,0,0,0,0>
+// \\@BG_OUT@<0,0>
+// \aw
 \\@DRAW_EFFECT@<0>
 \\@CHARA_IN@< 0, 13, 13, 0, 1>
 \aw
 
+\\@NPC_LOAD_SYNC@<4, 13, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 0>//miyako
+
 \\@BGM_PLAY@<0, 72, 100>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0012", 100>
+\\@TEXT_ID@<180>
 Miyako
 お兄ちゃんはそういって、
 あっさり行ってしまいました。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 1>//miyako 真剣
 \\@CHARA_IN@< 0, 13, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0013", 100>
+\\@TEXT_ID@<190>
 Miyako
 「そんなにイヤなら行かなきゃいいじゃん！」
 とか、
@@ -183,13 +230,16 @@ Miyako
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0014", 100>
+\\@TEXT_ID@<200>
 Miyako
 「お兄ちゃんは都古のお兄ちゃんなのに！」
 とか、
 \l
 
+\\@CHARA_SET_PATTERN@<4, 7>//miyako 疲れた
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0015", 100>
+\\@TEXT_ID@<210>
 Miyako
 全力でとめたかったのに、いつも通り、
 きんちょうして声がでませんでした。
@@ -197,6 +247,7 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0016", 100>
+\\@TEXT_ID@<220>
 Miyako
 わたしはお兄ちゃんを前にすると、
 のどがつまってうまく話せません。
@@ -204,6 +255,7 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0017", 100>
+\\@TEXT_ID@<230>
 Miyako
 “だいじょうぶ、オトナになれば
 　ちゃんと話せるようになるんだからっ！”
@@ -211,6 +263,7 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0018", 100>
+\\@TEXT_ID@<240>
 Miyako
 なんて、ずっとお兄ちゃんがうちにいてくれると
 甘えていたツケがまわってきたのです。
@@ -218,12 +271,14 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0019", 100>
+\\@TEXT_ID@<250>
 Miyako
 …………お兄ちゃん……いっちゃった……。
 \l
 
 \\@CHARA_IN@< 0, 13, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0020", 100>
+\\@TEXT_ID@<260>
 Miyako
 でも、仕方のないことなのです。
 遠野のめーれーにはさからえないと、お父さんも、
@@ -231,44 +286,63 @@ Miyako
 \\@CHARA_IN@<3, 52, 0, 2, 0>
 \aw
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@< 3, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0000", 100>
+\\@TEXT_ID@<270>
 Bake_Neko
 《待つんだ＜シンキング・タイム＞。
 本当にそれでいいのかニャ？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0001", 100>
+\\@TEXT_ID@<280>
 Bake_Neko
 まともな妹アピールもできずに敗北者になった、
 ビームひとつ撃てないガール。
 
+\\@SYSTEM@<121>
+
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0021", 100>
+\\@TEXT_ID@<290>
 Miyako
 ！？　誰だ！？
 って猫！？　猫がしゃべってるーー！？
 \l
 
+\\@CHARA_SET_PATTERN@<4, 4>//miyako 気合ため
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0022", 100>
+\\@TEXT_ID@<300>
 Miyako
 あやしすぎる、何者だおまえ！
 あ。さては噂の吸血鬼どろぼうだな！？
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@< 3, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0002", 100>
+\\@TEXT_ID@<310>
 Bake_Neko
 ノータイムで猫と吸血鬼を繋げて考えるのはよせ。
 アタシでさえその発想力に眩暈がする。
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 1>//miyako 真剣
 \\@CHARA_IN@< 0, 13, 17, 0, 1>//怒り2
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0023", 100>
+\\@TEXT_ID@<320>
 Miyako
 うるさい、やっつけてやる！
 いまのわたしはめっちゃ凶暴だかんね！
 
+\\@CHARA_SET_PATTERN@<4, 8>//miyako 行くぞ！
 \\@CHARA_IN@< 0, 13, -1, 52, 20>
 \\@CHARA_MUKI@<0,0>
 \\@SE_PLAY@<0, "talk/talk_se/Hit_PunchC", 0, 100>
@@ -276,68 +350,91 @@ Miyako
 \w<10>
 \\@CHARA_IN@< 0, 13, -1, 50, 20>
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@< 3, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0003", 100>
+\\@TEXT_ID@<330>
 Bake_Neko
 だから待てって。
 \l
 
+\\@CHARA_SET_PATTERN@<4,11>//miyako 構え→立ち
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0004", 100>
+\\@TEXT_ID@<340>
 Bake_Neko
 有間都古。有間家のひとり娘。
 血液型Ｏ型。身長１３１cm、体重３５kg。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0005", 100>
+\\@TEXT_ID@<350>
 Bake_Neko
 筋力：Ｃ　耐久：Ｃ　敏捷：Ｂ
 魔力：Ｅ　幸運：Ａ　アークドライブ：Ｃ
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0006", 100>
+\\@TEXT_ID@<360>
 Bake_Neko
 小学生でありながら中国武術をたしなむ
 違いの分かるガール……で間違いはないかニャ？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0007", 100>
+\\@TEXT_ID@<370>
 Bake_Neko
 あ、パラメーターは猫独自の解釈ですので、
 他作品と混同しないようお願いします。
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0024", 100>
+\\@TEXT_ID@<380>
 Miyako
 ぱ、ぱらめーたー？
 よくわかんないけど……それ以外はあってる。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 1>//miyako 真剣
 \\@CHARA_IN@< 0, 13, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0025", 100>
+\\@TEXT_ID@<390>
 Miyako
 おい。
 なんでそんなコト知ってるの、猫。
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@< 3, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0008", 100>
+\\@TEXT_ID@<400>
 Bake_Neko
 それはアタシがおまえ自身だからニャ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0009", 100>
+\\@TEXT_ID@<410>
 Bake_Neko
 アタシはおまえの中にある猫的なものの集合体。
 心の声。すなわちマインドキャット。
 
+\\@SYSTEM@<101>
 
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0026", 100>
+\\@TEXT_ID@<420>
 Miyako
 マインドキャット。
 
+\\@CHARA_SET_PATTERN@<4, 6>//miyako YES
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0027", 100>
+\\@TEXT_ID@<430>
 Miyako
 そっか、やっぱりお兄ちゃんを
 遠野家に行かせちゃダメなんだ！
@@ -346,22 +443,28 @@ Miyako
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0028", 100>
+\\@TEXT_ID@<440>
 Miyako
 よーし！　悪いニセモノの妹から、
 お兄ちゃんを力づくで取り戻すぞーーーっ！
 
+\\@CHARA_SET_PATTERN@<4, 21>//miyako ダッシュ退場
 \\@CHARA_OUT@<0, -1, -1, 1, 0>
 \aw
+
+\\@SYSTEM@<102>
 
 \\@CHARA_IN@< 3, 52, -1, 0, 1>
 \\@CHARA_EMOVE@<3, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0010", 100>
+\\@TEXT_ID@<450>
 Bake_Neko
 そう。おまえが本当にしたいこと、
 するべきことを教えるＷｉ－Ｆｉスポットのような存在……
 
 \\@CHARA_EMOVE@<3, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0011", 100>
+\\@TEXT_ID@<460>
 Bake_Neko
 ってもういねえよあのシスター。
 大丈夫？　ものわかり早すぎるにもほどがニャい？
@@ -369,3 +472,4 @@ Bake_Neko
 
 \\@BGM_STOP@<0>
 \e
+

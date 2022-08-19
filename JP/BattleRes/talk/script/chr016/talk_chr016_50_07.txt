@@ -1,9 +1,10 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg09", 0, 2, 0>
-\aw
+\\@LOAD_BATTLE_BG@<9>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg09", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@CHARA_IN@<0, 16, 0, 1, 0>
@@ -12,9 +13,18 @@
 
 \\@BGM_PLAY@<0, 74, 100>
 
+\\@SYSTEM@<101>
+\\@NPC_LOAD_SYNC@<4, 16, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//pciel
+\\@CHARA_SET_PATTERN@<4, 0>//pciel
+
+\\@NPC_LOAD_SYNC@<5, 10, 320, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//warc
+\\@CHARA_SET_PATTERN@<5, 1>//warc
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0040", 100>
+\\@TEXT_ID@<10>
 Powered_Ciel
 ……爆心地……ここで何があったかは
 知りませんが、ようやく追いつきました。
@@ -22,6 +32,7 @@ Powered_Ciel
 
 \\@CHARA_IN@<0, 16, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0041", 100>
+\\@TEXT_ID@<20>
 Powered_Ciel
 こちらを向きなさい、アルクェイド。
 私が追っている事に気づいていたでしょう？
@@ -29,21 +40,27 @@ Powered_Ciel
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0042", 100>
+\\@TEXT_ID@<30>
 Powered_Ciel
 貴女を背後から撃つ気はありません。
 正面から、魔に堕ちた真祖として処理します。
 
+\\@CHARA_SET_PATTERN@<5, 48>//warc
+\\@SYSTEM@<102>
 \\@CHARA_IN@<4, 10, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0000", 100>
+\\@TEXT_ID@<40>
 Red_Arcueid
 ―――ああ。来たんだ、シエル。
 このタイミングで、やって来たんだ。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 20>//warc
 \\@CHARA_OUT@<4, 10, 102, 0, 1>
 \\@CHARA_IN@<1, 10, 0, 12, 0>
 \\@CHARA_FACE@<1,0,8,290>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0001", 100>
+\\@TEXT_ID@<50>
 Red_Arcueid
 手間が省けて助かった……と言いたいところだけど。
 声を聞いたら沸点、越えたじゃない。
@@ -51,20 +68,25 @@ Red_Arcueid
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0002", 100>
+\\@TEXT_ID@<60>
 Red_Arcueid
 志貴といい貴女といい、ほんと、
 私をイラつかせる天才ね？
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0043", 100>
+\\@TEXT_ID@<70>
 Powered_Ciel
 ―――ひとりですか、アルクェイド。
 ロアの転生体はどこに？
+
+\\@CHARA_SET_PATTERN@<5, 8>//warc
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 \\@CHARA_IN@<1, 10, 5, 0, 1>
 \\@CHARA_FACE@<1,5,8,115>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0003", 100>
+\\@TEXT_ID@<80>
 Red_Arcueid
 ああ、アレ？　シエルシエルってうるさいから、
 私の城に仕舞っちゃった。
@@ -72,6 +94,7 @@ Red_Arcueid
 
 \\@CHARA_IN@<1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0004", 100>
+\\@TEXT_ID@<90>
 Red_Arcueid
 適当に放り投げたから、城の天守から
 転がり落ちて、地面に落ちる頃にはボロ雑巾。
@@ -79,6 +102,7 @@ Red_Arcueid
 
 \\@CHARA_IN@<1, 10, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0005", 100>
+\\@TEXT_ID@<100>
 Red_Arcueid
 でも半分吸血鬼になってるんだし、
 生きてはいるんじゃない？
@@ -87,6 +111,7 @@ Red_Arcueid
 \\@CHARA_IN@<0, 16, 7, 0, 1>
 \\@CHARA_IN@<1, 10, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0006", 100>
+\\@TEXT_ID@<110>
 Red_Arcueid
 もっとも、あんな小っぽけな体じゃ
 私の城からは逃げ出せない。
@@ -94,6 +119,7 @@ Red_Arcueid
 
 \\@CHARA_IN@<1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0007", 100>
+\\@TEXT_ID@<120>
 Red_Arcueid
 蟻みたいにさまよってさまよって、
 出口に着いてもご愁傷さま。
@@ -101,12 +127,15 @@ Red_Arcueid
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0008", 100>
+\\@TEXT_ID@<130>
 Red_Arcueid
 超えられない壁を見上げて、
 一生、苦しめばいいんだわ。
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 16, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0044", 100>
+\\@TEXT_ID@<140>
 Powered_Ciel
 ―――驚きました。
 貴女にそんな感情があるなんて。
@@ -114,12 +143,16 @@ Powered_Ciel
 
 \\@CHARA_IN@<0, 16, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0045", 100>
+\\@TEXT_ID@<150>
 Powered_Ciel
 よっぽど手ひどい一撃を受けたのでしょう。
 案外、怖くなって投げ捨てたのでは？
 
+\\@CHARA_SET_PATTERN@<5, 11>//warc
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 10, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0009", 100>
+\\@TEXT_ID@<160>
 Red_Arcueid
 ―――ワケないじゃない。
 怖がる理由も、捨てる理由もないし。
@@ -127,35 +160,50 @@ Red_Arcueid
 
 \\@CHARA_IN@<1, 10, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0010", 100>
+\\@TEXT_ID@<170>
 Red_Arcueid
 果実をもぐように、
 首を締め上げてからぽーい、よ。ぽーい。
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0046", 100>
+\\@TEXT_ID@<180>
 Powered_Ciel
 なるほど。
 ところで。首に、跡がまだ残っていますよ。
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 13>//warc
+
 \\@CHARA_IN@<1, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0011", 100>
+\\@TEXT_ID@<190>
 Red_Arcueid
 っ……！
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 16, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0047", 100>
+\\@TEXT_ID@<200>
 Powered_Ciel
 言ってみただけです。
 説明、ありがとうございました。
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 25>//warc
+
 \\@CHARA_IN@<1, 10, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0012", 100>
+\\@TEXT_ID@<210>
 Red_Arcueid
 ―――シエル。
 
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0048", 100>
+\\@TEXT_ID@<220>
 Powered_Ciel
 怒りで我を忘れそうですか？
 結構。私も同じです。
@@ -163,6 +211,7 @@ Powered_Ciel
 
 \\@CHARA_IN@<0, 16, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0049", 100>
+\\@TEXT_ID@<230>
 Powered_Ciel
 彼は貴女を信じていた。敬愛さえしていた。
 その信頼に、貴女は目を背けた。
@@ -170,6 +219,7 @@ Powered_Ciel
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0050", 100>
+\\@TEXT_ID@<240>
 Powered_Ciel
 貴女に聞かせる洗礼はありません。
 懺悔も告悔も、《ただの＜・・・＞吸血鬼には過ぎたものです。
@@ -177,6 +227,7 @@ Powered_Ciel
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0051", 100>
+\\@TEXT_ID@<250>
 Powered_Ciel
 貴女に与えるのは裁きだけ。
 圧死、轢死、焼死、好きなだけ味わいなさい。
@@ -184,18 +235,24 @@ Powered_Ciel
 
 \\@CHARA_IN@<0, 16, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0052", 100>
+\\@TEXT_ID@<260>
 Powered_Ciel
 どうせ、普通の死に方では
 満足できないのでしょう？
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 7>//warc
+
 \\@CHARA_IN@<1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0013", 100>
+\\@TEXT_ID@<270>
 Red_Arcueid
 ハッ―――
 \l
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0014", 100>
+\\@TEXT_ID@<280>
 Red_Arcueid
 いいわ、嬉しくてどうにかなりそう！
 舞踏会を始めましょう、シエル！
@@ -203,9 +260,11 @@ Red_Arcueid
 
 \\@CHARA_IN@<1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0015", 100>
+\\@TEXT_ID@<290>
 Red_Arcueid
 １２時の鐘が鳴るまで、
 何回殺し合えるかしら、私たち！
 
 \\@BGM_STOP@<0>
 \e
+

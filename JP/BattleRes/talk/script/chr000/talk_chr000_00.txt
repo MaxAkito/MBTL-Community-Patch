@@ -1,19 +1,29 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg04", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<4>//背景　公園_噴水前
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg04", 0, 2>//背景　公園_噴水前
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 0, 0, 44, 0>
+// \\@SYSTEM@<1>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 0, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//arc
+\\@CHARA_SET_PATTERN@<4, 16>//arc
+
+\\@CHARA_IN@<0, 0, 0, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0000", 100>
+\\@TEXT_ID@<10>
 Arcueid
 あきれた。宗旨替えにもほどがある。
 こんな極東の島国まで転生先に選ぶなんて。
@@ -21,6 +31,7 @@ Arcueid
 
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0001", 100>
+\\@TEXT_ID@<20>
 Arcueid
 よっぽど面白い条件でも見つけたのかしら。
 ま、わたしには関係のない話だけど。
@@ -28,9 +39,11 @@ Arcueid
 
 \\@CHARA_IN@< 0, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0002", 100>
+\\@TEXT_ID@<30>
 Arcueid
 小さな街だし、あぶり出すのに３日もいらないわ。
 待っていなさいロア、すぐに片付けてあげるから。
 
 \\@BGM_STOP@<0>
 \e
+

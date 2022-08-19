@@ -17,40 +17,47 @@
 \\@SQ_CALL@<1>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0030", 100>
+\\@TEXT_ID@<10>
 Kishima
 ……恐ろしい男だったな。
 アレでまだ余力を残していた。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0031", 100>
+\\@TEXT_ID@<20>
 Kishima
 １０人分の魂を護りながらの戦い……
 《独角＜どっかく＞であるオレには理解できない境地だ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0032", 100>
+\\@TEXT_ID@<30>
 Kishima
 あんなものがふらりと迷い込むとは
 考えづらい。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0033", 100>
+\\@TEXT_ID@<40>
 Kishima
 どうやらこの街にはより深い《陥穽＜かんせい＞が
 仕組まれているようだ。
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0034", 100>
+\\@TEXT_ID@<50>
 Kishima
 ……とはいえ、既に森を去った
 オレには関わりの無い話でもある。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0035", 100>
+\\@TEXT_ID@<60>
 Kishima
 いまさら出張るほど厚顔でもない。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0036", 100>
+\\@TEXT_ID@<70>
 Kishima
 ……さて。遠野の当主殿はうまく立ち回れるか。
 いずれ来る風の報せに期待しよう。
@@ -58,3 +65,4 @@ Kishima
 
 \\@BGM_STOP@<0>
 \e
+

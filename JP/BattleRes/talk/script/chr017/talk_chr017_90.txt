@@ -1,8 +1,18 @@
-\\@BG_IN@<"screen_bg09", 0, 2>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<9>
+\\@FADE_IN@<0, 0, 0, 0, 0>
 
 \\@SYSTEM@<0>
 \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 17, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//mario
+\\@CHARA_SET_PATTERN@<4, 0>//mario
+
+\\@NPC_LOAD_SYNC@<5, 15, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//aoko
+\\@CHARA_SET_PATTERN@<5, 2>//aoko
 
 //デフォ表情での入場だとこの後の表情との繋ぎに違和感あったので最初から表情変更
 \\@CHARA_IN@< 0, 17, 3, 1, 0>
@@ -16,19 +26,24 @@
 \\@CHARA_IN@<1, 15, 5, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0080", 100>
+\\@TEXT_ID@<10>
 Aoko
 ……そんな事情があったのね。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 9>//aoko
 \\@CHARA_IN@<1, 15, 4, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0081", 100>
+\\@TEXT_ID@<20>
 Aoko
 ……ごめんなさい、マーリオゥ君。
 私、てっきりアナタも死徒側の汚職司祭だと……
 
+\\@CHARA_SET_PATTERN@<4, 6>//mario
 \\@CHARA_IN@<0, 17, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0110", 100>
+\\@TEXT_ID@<30>
 Mario
 ざけんな破壊魔。
 １２のガキが汚職に手を染めるかよ。
@@ -36,29 +51,36 @@ Mario
 
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0111", 100>
+\\@TEXT_ID@<40>
 Mario
 こっちは人命がかかってんだ。いつだってまっすぐだ。
 回りくどい手段をする時間はねえ。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//mario
 \\@CHARA_IN@<0, 17, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0112", 100>
+\\@TEXT_ID@<50>
 Mario
 ま、その苦労もこれでご破算だがな！
 ひっでぇ疫病神に出遭っちまったモンだ！
 
+\\@CHARA_SET_PATTERN@<5, 16>//aoko
 \\@CHARA_IN@<1, 15, 10, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0082", 100>
+\\@TEXT_ID@<60>
 Aoko
 それなんだけど。
 現状維持でいいなら手が無くもないわ。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 6>//mario
 \\@CHARA_IN@<0, 17, 11, 0, 1>
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0083", 100>
+\\@TEXT_ID@<70>
 Aoko
 ようは………しなければいいんでしょう？
 ならうちの姉貴に相談してみて。
@@ -67,6 +89,7 @@ Aoko
 \\@CHARA_IN@<1, 15, 6, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0084", 100>
+\\@TEXT_ID@<80>
 Aoko
 そういう小ずるい逃げ道を考案する事に関しちゃあ、
 右に出るヤツはいない変人よ。
@@ -75,6 +98,8 @@ Aoko
 \\@FADE_OUT@<0, 255, 255, 255, 0>
 \w<180>
 
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
 \\@CHARA_OUT@<0, -1, -1, 0, 0>
 \\@CHARA_OUT@<1, -1, -1, 0, 0>
 \aw
@@ -89,24 +114,28 @@ Aoko
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0113", 100>
+\\@TEXT_ID@<90>
 Mario
 ロアの消滅が確認されて、
 代行者シエルは総耶に残った。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0114", 100>
+\\@TEXT_ID@<100>
 Mario
 あの後、総耶で大きな異変があったようだが、
 誰も観測はできていない。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0115", 100>
+\\@TEXT_ID@<110>
 Mario
 はん。目を覆うような決戦があったんだろうよ。
 関わりたくもねえ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0116", 100>
+\\@TEXT_ID@<120>
 Mario
 とはいえ―――
 \l
@@ -115,54 +144,64 @@ Mario
 \\@BGM_FADE@<0, -1, 100, 15, 0>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0030", 100>
+\\@TEXT_ID@<130>
 Noel
 勝負はわたしたちの勝ちってコトですよね？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0031", 100>
+\\@TEXT_ID@<140>
 Noel
 真祖を迎撃、ロアは消滅。魔法使いも退散して、
 シエルのヤツは新しい弟子とかゲットしたし！
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0117", 100>
+\\@TEXT_ID@<150>
 Mario
 長いレースの始まりって気もするがな。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0118", 100>
+\\@TEXT_ID@<160>
 Mario
 ついでにテメェもやり直しだ。
 とりま１年、オレの下で再訓練させてやる。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0119", 100>
+\\@TEXT_ID@<170>
 Mario
 性根ともども鍛え直してもらえ。
 それが済んだら、適当な教会に赴任させてやる。
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0032", 100>
+\\@TEXT_ID@<180>
 Noel
 うそ、やったー！
 なら司祭代行の直属がいいでーす！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0033", 100>
+\\@TEXT_ID@<190>
 Noel
 いい暮らしさせてくださーい！
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0120", 100>
+\\@TEXT_ID@<200>
 Mario
 ……はあ。オレの成果は使えねえ駒ひとつときた。
 ま、命があるだけ上出来か。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0121", 100>
+\\@TEXT_ID@<210>
 Mario
 さて―――アオザキトウコ、希代の人形師。
 コイツが役に立つのなら、話はまだ終わらない。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0122", 100>
+\\@TEXT_ID@<220>
 Mario
 ロアが遺した道筋は生きている。
 この糸が続いているのなら―――
@@ -173,6 +212,7 @@ Mario
 \w<200>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0123", 100>
+\\@TEXT_ID@<230>
 Mario
 心底、面倒で頭が痛いがな。
 もう一度、この街にやってくる事になるだろうさ。
@@ -183,3 +223,4 @@ Mario
 
 \\@BGM_STOP@<0>
 \e
+

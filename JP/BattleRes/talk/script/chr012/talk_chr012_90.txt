@@ -1,8 +1,14 @@
-\\@BG_IN@<"screen_bg03", 0, 2>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
 
 \\@SYSTEM@<0>
 \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 12, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//saber
+\\@CHARA_SET_PATTERN@<4, 0>//saber
 
 \\@CHARA_IN@<0, 12, 1, 1, 0>
 \aw
@@ -11,34 +17,44 @@
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0030", 100>
+\\@TEXT_ID@<10>
 Saber
 この街を危険にさらしている元凶は断ちました。
 \l
 
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0031", 100>
+\\@TEXT_ID@<20>
 Saber
 ……私が“聖剣を持つ騎士”として喚ばれた以上、
 役目はこれで終わりでしょうが……
+
+\\@NPC_LOAD_SYNC@<5, 0, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//arc
+\\@CHARA_SET_PATTERN@<5, 12>//arc
 
 \\@CHARA_IN@<1, 0, 1, 2, 0>
 \aw
 
 \\@CHARA_IN@< 1, 0, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0080", 100>
+\\@TEXT_ID@<30>
 Arcueid
 ロアを倒したのはアナタ？
 \l
 
 \\@CHARA_IN@< 1, 0, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0081", 100>
+\\@TEXT_ID@<40>
 Arcueid
 余計な事をしてくれたわね、なんて
 文句の一つも言いたいところだけど……
 \l
 
+\\@CHARA_SET_PATTERN@<5, 7>//arc
 \\@CHARA_IN@< 1, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0082", 100>
+\\@TEXT_ID@<50>
 Arcueid
 その武器、星の《内海＜うちうみ＞で作られた《武器＜もの＞でしょ？
 すっごーーい、初めて見た！
@@ -46,6 +62,7 @@ Arcueid
 
 \\@CHARA_IN@< 1, 0, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0083", 100>
+\\@TEXT_ID@<60>
 Arcueid
 よろしく、可愛い剣士さん！
 わたし、その剣とは親戚のような間柄なのです！
@@ -53,6 +70,7 @@ Arcueid
 
 \\@CHARA_IN@< 0, 12, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0032", 100>
+\\@TEXT_ID@<70>
 Saber
 聖剣と同じ……？
 受肉した精霊、という事ですか？
@@ -60,17 +78,20 @@ Saber
 
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0033", 100>
+\\@TEXT_ID@<80>
 Saber
 ですが、あなたはどう見ても―――
 
 \\@CHARA_IN@< 1, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0084", 100>
+\\@TEXT_ID@<90>
 Arcueid
 ええ。人間の言うところの吸血鬼ですもの、わたし。
 \l
 
 \\@CHARA_IN@< 1, 0, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0085", 100>
+\\@TEXT_ID@<100>
 Arcueid
 ふふ……星の為じゃなくて、
 星に住む人々の為に作られた武器ね……
@@ -78,6 +99,7 @@ Arcueid
 
 \\@CHARA_IN@< 1, 0, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0086", 100>
+\\@TEXT_ID@<110>
 Arcueid
 よーし！　ほんの少し、あの月が雲に
 隠れるまでの間、遊びましょうお嬢さん。
@@ -85,6 +107,7 @@ Arcueid
 
 \\@CHARA_IN@< 1, 0, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0087", 100>
+\\@TEXT_ID@<120>
 Arcueid
 どっちの格が上か、確かめたくなってきた！
 \l
@@ -92,12 +115,14 @@ Arcueid
 
 \\@CHARA_IN@< 0, 12, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0034", 100>
+\\@TEXT_ID@<130>
 Saber
 ―――ふう。
 \l
 
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0035", 100>
+\\@TEXT_ID@<140>
 Saber
 そう無邪気に言われては断るのも難しい。
 どうしてか私も胸が弾んでいます。
@@ -105,6 +130,7 @@ Saber
 
 \\@CHARA_IN@< 0, 12, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0036", 100>
+\\@TEXT_ID@<150>
 Saber
 いいでしょう、白い吸血鬼。
 どちらが偶然として優れているのか―――
@@ -122,11 +148,15 @@ Saber
 
 \\@SYSTEM@<1>
 \aw
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0037", 100>
+\\@TEXT_ID@<160>
 Saber
 ひとりの《剣士＜ヒロイン＞として
 その挑戦に応じましょう！
 
 \\@BGM_STOP@<0>
 \e
+

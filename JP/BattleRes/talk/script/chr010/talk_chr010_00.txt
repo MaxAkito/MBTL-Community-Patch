@@ -1,31 +1,41 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg07", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<7>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg07", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@< 0, 10, 6, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 10, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//warc
+\\@CHARA_SET_PATTERN@<4, 6>//warc
+
+\\@CHARA_IN@< 0, 10, 6, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 78, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 10, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0000", 100>
+\\@TEXT_ID@<10>
 Red_Arcueid
 ……ここ、どこ？
 私、何をしていたんだっけ……
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0001", 100>
+\\@TEXT_ID@<20>
 Red_Arcueid
 たしか……すごく……
 痛くて、悔しくて、悲しくて、泣きたくて、
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0002", 100>
+\\@TEXT_ID@<30>
 Red_Arcueid
 自分でもどうしようもなくて、
 ひたすら、めちゃくちゃにしてあげたくて―――
@@ -33,34 +43,42 @@ Red_Arcueid
 
 \\@FADE_OUT@<1, 255, 255, 255, 1>
 \\@CHARA_IN@< 0, 10, 5, 0, 1>
+\\@CHARA_SET_PATTERN@<4, 20>//warc
 \w<8>
 \\@FADE_IN@<1, 255, 255, 255, 0>
 \aw
 
 \\@CHARA_IN@< 0, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0003", 100>
+\\@TEXT_ID@<40>
 Red_Arcueid
 ―――あ。
 そうだ……そうだった。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 21>//warc
+
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0004", 100>
+\\@TEXT_ID@<50>
 Red_Arcueid
 私、思い出した。ふふ。ふふ。あはははは！
 思い出した、思い出しちゃった！
 \l
 
-
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0005", 100>
+\\@TEXT_ID@<60>
 Red_Arcueid
 ありがとう人類、たいしたものね人類！
 よくも『元のわたし』を殺してくれました！
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//warc
+
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0006", 100>
+\\@TEXT_ID@<70>
 Red_Arcueid
 おかげでほらこの通り、
 こんなに自由な私になったわ！
@@ -68,12 +86,16 @@ Red_Arcueid
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0007", 100>
+\\@TEXT_ID@<80>
 Red_Arcueid
 あとはもう、
 望まれた通りのムーヴをするだけ。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 7>//warc
+
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0008", 100>
+\\@TEXT_ID@<90>
 Red_Arcueid
 こんな『私』にしちゃったんだもの。
 何もかも、好きにしていいってコトよね？
@@ -81,3 +103,4 @@ Red_Arcueid
 
 \\@BGM_STOP@<0>
 \e
+

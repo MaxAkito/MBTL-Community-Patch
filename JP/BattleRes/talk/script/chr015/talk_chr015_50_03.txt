@@ -1,20 +1,25 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg18", 0, 2, 0>
-\aw
+\\@LOAD_BATTLE_BG@<18>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg18", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
+\\@NPC_LOAD_SYNC@<4, 15, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//aoko
+\\@CHARA_SET_PATTERN@<4, 1>//aoko
+
 \\@CHARA_IN@<0, 15, 1, 1, 0>
-\\@CHARA_IN@<1, 14, 0, 2, 0>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
 
-
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0020", 100>
+\\@TEXT_ID@<10>
 Aoko
 甘い匂いに釣られてやって来たけど……
 総耶にこんな教会あったっけ？
@@ -22,6 +27,7 @@ Aoko
 
 \\@CHARA_IN@<0, 15, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0021", 100>
+\\@TEXT_ID@<20>
 Aoko
 っていうか、ここ、ちゃんと現実？
 あの薔薇も半分呪いで出来ているようなものだし。
@@ -29,12 +35,24 @@ Aoko
 
 \\@CHARA_IN@<0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0022", 100>
+\\@TEXT_ID@<30>
 Aoko
 固有結界……とは違うか。
 半分『夢の世界』が侵食してない、ここ？
 
+
+\\@NPC_LOAD_SYNC@<5, 14, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//dnoel
+\\@CHARA_SET_PATTERN@<5, 14>//dnoel
+
+\\@CHARA_IN@<1, 14, 0, 4, 0>
+\aw
+
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0080", 100>
+\\@TEXT_ID@<40>
 Dead_Noel
 へえ。どこの誰かは知らないけど、
 ずいぶんと余裕があるのね、アナタ。
@@ -42,6 +60,7 @@ Dead_Noel
 
 \\@CHARA_IN@<1, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0081", 100>
+\\@TEXT_ID@<50>
 Dead_Noel
 フリーの魔術師？
 マトモな感性してれば恐怖で震え上がるのに。
@@ -49,6 +68,7 @@ Dead_Noel
 
 \\@CHARA_IN@<1, 14, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0082", 100>
+\\@TEXT_ID@<60>
 Dead_Noel
 あ、違うか。
 ザコすぎて力の差が分からないってヤツ！
@@ -58,8 +78,11 @@ Dead_Noel
 笑い
 */
 
+\\@CHARA_SET_PATTERN@<5, 15>//dnoel
+
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0083", 100>
+\\@TEXT_ID@<70>
 Dead_Noel
 いいわ。大事の前の準備運動、
 ストレッチがわりに遊んであげる。
@@ -71,6 +94,7 @@ Dead_Noel
 
 \\@CHARA_IN@<1, 14, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0084", 100>
+\\@TEXT_ID@<80>
 Dead_Noel
 吸血鬼の体は最高だけど、
 味覚が消えたのは困りものでさぁ。
@@ -78,6 +102,7 @@ Dead_Noel
 
 \\@CHARA_IN@<1, 14, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0085", 100>
+\\@TEXT_ID@<90>
 Dead_Noel
 美味しい、不味い、なんて贅沢は、
 血でしか味わえなくなっちゃった。
@@ -85,6 +110,7 @@ Dead_Noel
 
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0086", 100>
+\\@TEXT_ID@<100>
 Dead_Noel
 ねえ。魔術師の血ってどんな味？
 やっぱり苦かったり、辛かったりする？
@@ -94,14 +120,21 @@ Dead_Noel
 ニタリ
 */
 
+\\@CHARA_SET_PATTERN@<5, 8>//dnoel
+
 \\@CHARA_IN@<1, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0087", 100>
+\\@TEXT_ID@<110>
 Dead_Noel
 ふふ。だったら優しく殺してあげる。
 わたし、チョコミント大好きだから！
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 11>//aoko
+
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0023", 100>
+\\@TEXT_ID@<120>
 Aoko
 そ？　私の血、冷たくはあるかもだけど、
 甘くはないと思うわよ？
@@ -109,12 +142,14 @@ Aoko
 
 \\@CHARA_IN@<0, 15, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0024", 100>
+\\@TEXT_ID@<130>
 Aoko
 あと、そっちと違って『優しく』はできないなぁ。
 \l
 
 \\@CHARA_IN@<0, 15, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0025", 100>
+\\@TEXT_ID@<140>
 Aoko
 ―――私、嫌いなのよね、薔薇。
 悪いけど、建物ごと消えてくれる？
@@ -125,3 +160,4 @@ Aoko
 
 \\@BGM_STOP@<0>
 \e
+

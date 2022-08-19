@@ -1,9 +1,22 @@
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>//背景　地下空洞
+\\@FADE_IN@<0, 0, 0, 0, 0>
+
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
 \aw
 
+// \\@SYSTEM@<1>
+
+\\@NPC_LOAD_SYNC@<5, 9, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//vlov
+\\@CHARA_SET_PATTERN@<5, 0>//vlov
+
+\\@NPC_LOAD_SYNC@<4, 0, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//arc
+\\@CHARA_SET_PATTERN@<4, 13>//arc
+
+\\@SYSTEM@<102>
 \\@CHARA_IN@<0, 0, 0, 1, 0>
 \\@CHARA_IN@<1, 9, 0, 2, 0>
 \aw
@@ -12,24 +25,30 @@
 
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0000", 100>
+\\@TEXT_ID@<10>
 Volv
 ……その白い霊峰の如き魂……間違いはない。
 ようやく遭えたな、真祖の姫。
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0020", 100>
+\\@TEXT_ID@<20>
 Arcueid
 誰、アナタ。覚えのない死徒だけど。
 ここ百年で出てきたニュービー？
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0001", 100>
+\\@TEXT_ID@<30>
 Volv
 ……ヴローヴ・アルハンゲリ。
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0002", 100>
+\\@TEXT_ID@<40>
 Volv
 ……一度だけだが、面識はある。
 ……絶海より、貴様の影を追ってきた。
@@ -37,6 +56,7 @@ Volv
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0003", 100>
+\\@TEXT_ID@<50>
 Volv
 ……互いに、長居は無用だ。
 この街は腐るように暖かく、虚ろなほど寒い。
@@ -44,23 +64,30 @@ Volv
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0004", 100>
+\\@TEXT_ID@<60>
 Volv
 おまえの首を断ち、その心臓を拝領する。
 ―――おれの病は、それで癒やされる筈だ。
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0021", 100>
+\\@TEXT_ID@<70>
 Arcueid
 そう。予定に入っていなかったけど、
 死にたいのなら相手になってあげる。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 9>//arc
+
 \\@CHARA_IN@< 0, 0, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0022", 100>
+\\@TEXT_ID@<80>
 Arcueid
 安心なさい、跡形も残さないから。
 策を弄さず、正面から来た蛮勇に免じてね！
 
 \\@BGM_STOP@<0>
 \e
+

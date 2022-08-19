@@ -1,21 +1,38 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg11", 0, 2>
-\aw
-
+\\@LOAD_BATTLE_BG@<11>//背景　遠野邸_ロビー_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg11", 0, 2>//背景　遠野邸_ロビー_昼
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 1, 1, 44, 0>
+// \\@SYSTEM@<1>
+//カメラを固定して都古の足先だけ映す
+\\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//camera
+
+\\@NPC_LOAD_SYNC@<4, 1, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//hisui
+\\@CHARA_SET_PATTERN@<4, 0>//hisui
+
+// \\@NPC_LOAD_SYNC@<5, 13, 700, 0, 1>
+// \\@CHARA_SET_MVNAME@<5, "FadeIn">//miyako
+// \\@CHARA_SET_PATTERN@<5, 100>//miyako 影
+
+\\@CHARA_IN@<0, 1, 1, 1, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 72, 100>
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 2>//hisui
+
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0000", 100>
+\\@TEXT_ID@<10>
 Hisui
 お初にお目に掛かります、お客様。
 遠野家に仕える使用人の翡翠と申します。
@@ -23,6 +40,7 @@ Hisui
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0001", 100>
+\\@TEXT_ID@<20>
 Hisui
 本日はどのようなご用件でしょう。
 お名前とご用件をおきかせください。
@@ -31,34 +49,46 @@ Hisui
 \\@CHARA_IN@< 0, 1, 3, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0002", 100>
+\\@TEXT_ID@<30>
 Hisui
 ……有間都古さま……
 有間家の長女様であらせられますね。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//hisui
+
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0003", 100>
+\\@TEXT_ID@<40>
 Hisui
 ……申し訳ありません。
 あいにく、本日は志貴さまも秋葉様も不在……
 \l
 
+\\@CHARA_SET_PATTERN@<4, 4>//hisui
+
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0004", 100>
+\\@TEXT_ID@<50>
 Hisui
 ……なるほど。
 お二人ではなく、わたしに話がおありなのですね。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0005", 100>
+\\@TEXT_ID@<60>
 Hisui
 社会科見学……遠野家の普段の生活や、
 わたしどもの働きぶりが知りたい、と。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 12>//hisui
+
+\\@SYSTEM@<131>
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0006", 100>
+\\@TEXT_ID@<70>
 Hisui
 （遠野邸の事情は他言無用、流出禁止の機密事項。
 　決して漏らす事はできません。）
@@ -66,6 +96,7 @@ Hisui
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0007", 100>
+\\@TEXT_ID@<80>
 Hisui
 （ですが、都古さまの期待に満ちた眼差しを
 　無碍にするのは―――）
@@ -73,19 +104,25 @@ Hisui
 
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0008", 100>
+\\@TEXT_ID@<90>
 Hisui
 （……やはり。ここは、姉さんを見習って……）
 \l
 
+\\@CHARA_SET_PATTERN@<4, 4>//hisui
+
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0009", 100>
+\\@TEXT_ID@<100>
 Hisui
 コホン。分かりました。
 勉強熱心なのは良い事と存じます。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0010", 100>
+\\@TEXT_ID@<110>
 Hisui
 どこまで期待にそえられるかは分かりませんが、
 誠心誠意、お話させていただきます。
@@ -93,8 +130,10 @@ Hisui
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0011", 100>
+\\@TEXT_ID@<120>
 Hisui
 ―――これは、先週のとある夜の出来事ですが―――
 
 \\@BGM_STOP@<0>
 \e
+

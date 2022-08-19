@@ -1,38 +1,47 @@
 \\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
 \\@BG_IN@<"ed_bg00", 0, 2>
+\\@NPC_CHARA_SHADOW@<2>
 \aw
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@BGM_PLAY@<0, 78, 100>
 
+\\@SYSTEM@<100>
+
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0000", 100>
+\\@TEXT_ID@<10>
 Worker
 おーい、こっちの余ったコンテナはどうすんだー！？
 どこに運べばいいんだっつーの！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0001", 100>
+\\@TEXT_ID@<20>
 Worker
 あぁ？　書類がない？　倉庫に置いておけ？
 なんだよそりゃ、うちは物置じゃねーぞ？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0002", 100>
+\\@TEXT_ID@<30>
 Worker
 ……まったく、どこの荷物だよ。
 マロース海運……？　はあん、
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0003", 100>
+\\@TEXT_ID@<40>
 Worker
 ロシアからの長旅ってワケか……
 とりあえず、持ち主がわからねえならオレのモンだよな？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0004", 100>
+\\@TEXT_ID@<50>
 Worker
 さて、中は……中は……
 コンテナいっぱいの花と棺桶が一つだあ？
@@ -41,6 +50,7 @@ Worker
 \\@SE_PLAY@<0,"talk/talk_se/Hit_BurningLong",0,100>
 \\@FADE_OUT@<2, 128,0 ,0 ,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0005", 100>
+\\@TEXT_ID@<60>
 Worker
 なに考えて―――なんだ、おい。
 花が燃えて―――うお、うああああああ！？
@@ -48,25 +58,36 @@ Worker
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0006", 100>
+\\@TEXT_ID@<70>
 Worker
 たすけ、たすけて……！
 燃える、なんだこれ、オレ内側から燃えてるよぅ……！
 
+\\@SYSTEM@<200>
+
 \\@FADE_IN@<2, 128,0 ,0 ,0>
 \aw
 
-\\@CHARA_IN@<0, 9, 0, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 9, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//vlov
+\\@CHARA_SET_PATTERN@<4, 0>//vlov
+
+\\@CHARA_IN@<0, 9, 0, 1, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0050", 100>
+\\@TEXT_ID@<80>
 Volv
 ……港に着いたようだ。
 \l
 
 \\@CHARA_IN@< 0, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0051", 100>
+\\@TEXT_ID@<90>
 Volv
 ……人生は分からぬものだ。
 おれのような男が、柩一つで海を渡る事になるとは。
@@ -74,24 +95,32 @@ Volv
 
 \\@CHARA_IN@< 0, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0052", 100>
+\\@TEXT_ID@<100>
 Volv
 ……いや。これが初めてでもなかったな。
 棺に入れられ、北海に追放された。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 11>//vlov
+
 \\@CHARA_IN@< 0, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0053", 100>
+\\@TEXT_ID@<110>
 Volv
 ……今ではもう、おれではない他人の記憶だ。
 \l
 
 \\@CHARA_IN@< 0, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0054", 100>
+\\@TEXT_ID@<120>
 Volv
 ……さて。正気でいられるのも残りわずか。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 13>//vlov
+
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0055", 100>
+\\@TEXT_ID@<130>
 Volv
 最後の機会だ。おれがおれでなくなる前に、
 真祖の姫の心臓を手に入れる。
@@ -99,9 +128,11 @@ Volv
 
 \\@CHARA_IN@< 0, 9, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0056", 100>
+\\@TEXT_ID@<140>
 Volv
 その後で―――貴様の足跡に追いつくぞ、蛇め。
 
 
 \\@BGM_STOP@<0>
 \e
+

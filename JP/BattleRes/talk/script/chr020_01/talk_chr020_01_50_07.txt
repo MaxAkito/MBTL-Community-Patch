@@ -1,0 +1,495 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+\\@NPC_LOAD_SYNC@<4, 20, -480, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 219>//困惑
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 224, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 20, 224, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0070", 100>
+\\@TEXT_ID@<10>
+Mash
+なんという事でしょう……。
+ネコアルクさんとはぐれてしまいました……。
+\l
+
+
+\\@CHARA_IN@< 0, 20, 224, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0071", 100>
+\\@TEXT_ID@<20>
+Mash
+その上、気がつくと怪しい地下空洞にいる
+マシュ・キリエライトです。
+\l
+
+
+\\@CHARA_IN@< 0, 20, 213, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0072", 100>
+\\@TEXT_ID@<30>
+Mash
+お屋敷の奥にある森に踏み入ったところ、
+着物姿の女性の後ろ姿が見えましたので、
+\l
+
+\\@CHARA_FACE@<0, -1, 208, 280>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0073", 100>
+\\@TEXT_ID@<40>
+Mash
+道を訪ねるために
+追いかけただけなのですが……おや？
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 23>//おやっ？
+\\@CHARA_IN@< 0, 20, 208, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0074", 100>
+\\@TEXT_ID@<50>
+Mash
+どこからか話し声が……
+ネコアルクさんと……どなたでしょう？
+
+
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+
+\\@NPC_LOAD_SYNC@<5, 19, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@NPC_LOAD_SYNC@<6, 4, 360, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 71>//アンバー待機
+
+\\@SYSTEM@<200>
+\\@CHARA_OUT@< 0, 20, -1, 0, 0>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@BGM_PLAY@<0, 61, 100>//コミカルでちょっと怪しげなBGM
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 109, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 19, 109, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0310", 100>
+\\@TEXT_ID@<60>
+Neco_Arc
+ふむ……無数に存在する可能性。
+絶対にない、と言い切れない別のアタシ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0311", 100>
+\\@TEXT_ID@<70>
+Neco_Arc
+こっちの世界では《拳＜グー＞パンでゲロりましたが、
+どっかの世界では膝パンで毒物排出、と。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0312", 100>
+\\@TEXT_ID@<80>
+Neco_Arc
+それどっちも同じじゃニャい？
+大丈夫？　もっと平和な解決策ってないの？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0313", 100>
+\\@TEXT_ID@<90>
+Neco_Arc
+まあいいや。ようはパラレルワールドの事っしょ。
+ん、今はマルチバース理論って言うの？
+\l
+
+\\@CHARA_SET_PATTERN@<5, 2>//ゆらゆら
+\\@CHARA_IN@< 0, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0314", 100>
+\\@TEXT_ID@<100>
+Neco_Arc
+にゃにゃにゃ、知ってる知ってる。
+でもなんでかっこよく言い変えたの？　改名商法？
+\l
+
+\\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
+\aw
+
+\\@SYSTEM@<102>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0110", 100>
+\\@TEXT_ID@<110>
+Kohaku_Hatena
+そういうお話ではありません。
+そもそもマルチバース理論は商標フリーです。
+
+
+\\@CHARA_SET_PATTERN@<5, 0>//
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 110, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0315", 100>
+\\@TEXT_ID@<120>
+Neco_Arc
+怪しいマルチ商法の話ではないと。残念です。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 3>//やれやれ
+\\@CHARA_IN@< 0, 19, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0316", 100>
+\\@TEXT_ID@<130>
+Neco_Arc
+だがｙｏｕはアタシがその『マルチの証明』だと言う。
+『マルチの化身』とも。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 5>//悪だくみ
+\\@CHARA_IN@< 0, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0317", 100>
+\\@TEXT_ID@<140>
+Neco_Arc
+参りましたなあ。そこに気がつくとは、
+なかなかどうしてミスに置けないお方だ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0318", 100>
+\\@TEXT_ID@<150>
+Neco_Arc
+『いるだけで世界が揺らぐミスキャスト』……ふ。
+ネコの使い途をネコ以上によく理解しているようです。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 0>//
+\\@CHARA_IN@< 0, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0319", 100>
+\\@TEXT_ID@<160>
+Neco_Arc
+―――で。
+つまり、なんなの？
+\l
+
+
+\\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
+\aw
+
+\\@SYSTEM@<102>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0111", 100>
+\\@TEXT_ID@<170>
+Kohaku_Hatena
+アナタは世界にとって剥離剤になりえるのです。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0112", 100>
+\\@TEXT_ID@<180>
+Kohaku_Hatena
+異物であるアナタはこの世界の法則に守られない。
+最弱です。きっと誰にも勝てません。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0113", 100>
+\\@TEXT_ID@<190>
+Kohaku_Hatena
+ですが運命にも縛られない。
+アナタの視界はいい意味でブレブレなので、
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0114", 100>
+\\@TEXT_ID@<200>
+Kohaku_Hatena
+この世界にいながら隣の世界の設定を、
+現在を観測できる。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0115", 100>
+\\@TEXT_ID@<210>
+Kohaku_Hatena
+想像してみてください。一つの缶詰の中に、
+二つ分の中身が重なったら？
+
+\\@CHARA_SET_PATTERN@<5, 36>//
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 117, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0320", 100>
+\\@TEXT_ID@<220>
+Neco_Arc
+え。なにそれ怖い。
+……破裂する……のか？
+\l
+
+\\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
+\aw
+
+\\@SYSTEM@<102>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0116", 100>
+\\@TEXT_ID@<230>
+Kohaku_Hatena
+●＜いえ＞。●＜融合です＞。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0117", 100>
+\\@TEXT_ID@<240>
+Kohaku_Hatena
+ヒロインＡと結ばれた運命と、
+ヒロインＢと結ばれた運命。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0118", 100>
+\\@TEXT_ID@<250>
+Kohaku_Hatena
+それらが混ざり合い、両立する事も可能なのです。
+誰も傷つかない《世界＜ルート＞ができるんです！
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0119", 100>
+\\@TEXT_ID@<260>
+Kohaku_Hatena
+アナタが燃え尽きるほど頑張って志貴さんを
+直視し続ければ、あるいは！
+
+\\@CHARA_SET_PATTERN@<5, 35>//
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0321", 100>
+\\@TEXT_ID@<270>
+Neco_Arc
+《燃え尽きるほど！＜ニャん……だと……＞！
+んっ、でもその世界、控えめに言ってゴミ！
+
+\\@SYSTEM@<200>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+//ネコ・アンバー消去
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+
+\\@NPC_LOAD_SYNC@<8, 19, -500, 0, 0>
+\\@CHARA_SET_PATTERN@<8, 59>//ネコ缶
+
+\\@NPC_LOAD_SYNC@<4, 20, -380, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 29>//しゃがみ待機
+
+\\@CHARA_OUT@< 0, 19, -1, 0, 0>
+
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 203, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 20, 203, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0075", 100>
+\\@TEXT_ID@<280>
+Mash
+……よく聞こえませんが、
+終末装置に匹敵する危機感がすごいです。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 30>//しゃがみ
+\\@CHARA_SET_PATTERN@<8, 60>//ネコ缶
+\\@CHARA_IN@< 0, 20, 211, 0, 1>
+\\@CHARA_FACE@< 0, -1, 210, 538>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0076", 100>
+\\@TEXT_ID@<290>
+Mash
+でも内密な話のようなのでこれ以上近づく事は……
+終わるまで待っているべきでしょうか……あ。
+
+\\@CHARA_SET_MVNAME@<4, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+\\@CHARA_SET_MVNAME@<8, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+
+\\@SYSTEM@<200>
+
+
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+\\@CHARA_SET_MVNAME@<4, "FadeOutAndCameraOut">
+\\@CHARA_SET_MVNAME@<8, "FadeOutAndCameraOut">
+\\@CHARA_OUT@< 0, 20, -1, 0, 0>
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<8, -1, 0, 0, 0>
+
+\\@NPC_LOAD_SYNC@<6, 19, 0, 0, 1>
+\\@NPC_LOAD_SYNC@<5, 4, 180, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 71>//アンバー待機
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
+\aw
+
+\\@SYSTEM@<102>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0120", 100>
+\\@TEXT_ID@<300>
+Kohaku_Hatena
+どなたです！？
+
+\\@CHARA_IN@< 1, 19, 100, 2, 0>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0322", 100>
+\\@TEXT_ID@<310>
+Neco_Arc
+ど誰かな？
+
+\\@CHARA_IN@< 0, 20, 203, 1, 0>
+\aw
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 204, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0077", 100>
+\\@TEXT_ID@<320>
+Mash
+ニャ……ニャアアアー！
+
+\\@CHARA_OUT@< 0, 20, -1, 0, 0>
+\aw
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 24>//振り向き掴まれ（アンバー用）
+\\@CHARA_SET_PATTERN@<5, 74>//アンバー掴み
+
+\\@CHARA_IN@< 1, 19, 107, 0, 1>
+\\@CHARA_FACE@< 1, -1, 105, 335>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0323", 100>
+\\@TEXT_ID@<330>
+Neco_Arc
+なんだアタシのファンか。
+気にすんにゃ、今の魅力的な話を続けこッハァ！？
+\l
+
+\\@CHARA_SET_MVNAME@<5, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+\\@CHARA_SET_MVNAME@<6, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+
+\\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
+\aw
+
+\\@SYSTEM@<102>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0121", 100>
+\\@TEXT_ID@<340>
+Kohaku_Hatena
+突然のカンフル剤ですが体に害はありません。
+事後処理、よろしくお願いしますね？
+
+
+\\@NPC_LOAD_SYNC@<6, -2, -272, 0, 0>
+\\@CHARA_SET_PATTERN@<6, 8>//よろよろ立ち上がり
+
+\\@CHARA_SET_PATTERN@<5, 76>//アンバー撤退
+\\@CHARA_SET_MVNAME@<5, "FadeOutAndCameraOut">
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 28>//痙攣
+\\@CHARA_IN@< 1, 19, 101, 0, 1>
+\\@CHARA_EMOVE@<1, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0324", 100>
+\\@TEXT_ID@<350>
+Neco_Arc
+おお……おおぉおおおお……！
+ニャんだこれ、めっちゃ健康ーーーー！
+\l
+
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>//琥珀消す
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0325", 100>
+\\@TEXT_ID@<360>
+Neco_Arc
+未知の栄養素が体内を駆け巡る！
+まるで生まれ変わるようだ！
+
+\\@NPC_LOAD_SYNC@<8, 4, -272, 0, 1>
+\\@CHARA_SET_PATTERN@<8, 100>//登場煙幕
+
+\\@CHARA_SET_COLOR@<5,36>//スロット６に読むキャラのカラーは36（ネココハク）
+\\@NPC_LOAD_SYNC@<5, 19, -272, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 0>//
+
+//ネコアルク消す
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+
+
+\\@CHARA_IN@< 1, 62, 100, 0, 1>//ネココハク
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNko/NpcNko08_0000", 100>
+\\@TEXT_ID@<370>
+Neco_Kohaku
+っていうか生まれ変わった。
+こんにちは。ネココハクです。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNko/NpcNko08_0001", 100>
+\\@TEXT_ID@<380>
+Neco_Kohaku
+今のはどんなウイルスも裸足で逃げ出す
+スーパーワクチンだよ？
+\l
+
+\\@CHARA_IN@< 1, 62, 110, 0, 1>//ネココハク
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNko/NpcNko08_0002", 100>
+\\@TEXT_ID@<390>
+Neco_Kohaku
+でも心配しニャいで。
+アタシは平気です。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNko/NpcNko08_0003", 100>
+\\@TEXT_ID@<400>
+Neco_Kohaku
+だからお腹を殴って嘔吐させないで。
+マシュ君は平和的手段でアタシを助けてくださいねっと。
+
+\\@NPC_LOAD_SYNC@<4, 20, -680, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 219>//困惑
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 224, 1, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<5, 48>//振り向き
+
+\\@CHARA_IN@< 0, 20, 224, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0078", 100>
+\\@TEXT_ID@<410>
+Mash
+……ネコアルクさん……
+……残念ですが……
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 22>//決めポーズ
+\\@CHARA_IN@< 0, 20, 203, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0079", 100>
+\\@TEXT_ID@<420>
+Mash
+肉体に異常をきたす薬物を検知、
+カルデア式解毒メソッドⅡを実行します！
+\l
+
+
+\\@CHARA_IN@< 0, 20, 223, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0080", 100>
+\\@TEXT_ID@<430>
+Mash
+手遅れです、ネコアルクさん！
+助ける方法はこれが一番です！
+
+
+\\@CHARA_SET_PATTERN@<5, 18>//頭のけぞり
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 62, 103, 0, 1>//ネココハク
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNko/NpcNko08_0004", 100>
+\\@TEXT_ID@<440>
+Neco_Kohaku
+痛みを伴う治療法はいらねーーー！
+ドクター！　教育どうなってんだドクター！
+
+
+
+\\@BGM_STOP@<0>
+\e
+

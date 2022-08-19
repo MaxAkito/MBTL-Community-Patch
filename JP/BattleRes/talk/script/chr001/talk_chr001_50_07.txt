@@ -1,8 +1,19 @@
-\\@BG_IN@<"screen_bg05", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<5>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg05", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<6, 11, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<6, 14>//ciel
+
+\\@NPC_LOAD_SYNC@<7, 3, 240, 0, 1>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<7, 1>//shiki
 
 \\@CHARA_IN@<1, 11, 200, 12, 0>
 \\@CHARA_IN@<3, 3, 10, 12, 0>
@@ -10,12 +21,15 @@
 
 \\@BGM_PLAY@<0, 73, 100>
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@< 1, 11, 200, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 3>
 \aw
 \\@CHARA_EMOVE@<1, -1 , 3>
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0000", 100>
+\\@TEXT_ID@<10>
 Ciel
 遠野くんは自立したくなーる……
 一人暮らしがしたくなーる……
@@ -26,51 +40,69 @@ Ciel
 \\@CHARA_EMOVE@<1, -1 , 3>
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0001", 100>
+\\@TEXT_ID@<20>
 Ciel
 でも資金が心許ないので、お茶目で
 頼れる先輩のアパートに住みたくなーる……
 
 \\@CHARA_IN@< 3, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0000", 100>
+\\@TEXT_ID@<30>
 Shiki
 むにゃむにゃ……いえ、それもう一人暮らし
 じゃないし、俺がしたいのは自立であって、
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0001m", 100>
+\\@TEXT_ID@<40>
 Shiki
 先輩と同居なんてしたらヒモになる未来しか
 見えないしチクショウ最高かよ。
+
+\\@SYSTEM@<101>
+
+\\@NPC_LOAD_SYNC@<4, 1, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//hisui
+\\@CHARA_SET_PATTERN@<4, 0>//hisui
 
 \\@CHARA_IN@<0, 1, 1, 1, 0>
 \aw
 
 \\@CHARA_IN@< 0, 1, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0030", 100>
+\\@TEXT_ID@<50>
 Hisui
 ………………。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 5>//hisui
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0031", 100>
+\\@TEXT_ID@<60>
 Hisui
 ……ハッ。
 いけない、あまりの既視感に頭が真っ白に。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 6>//hisui
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0032", 100>
+\\@TEXT_ID@<70>
 Hisui
 \\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
-\\@EMG_PRINT@<"※未成年でなくても禁じられています", 102, 1060, 650>
+\\@EMG_PRINT@<"※未成年でなくても禁じられています", 102, 1130, 670>
 怪しげな勧誘はそこまでです、シエル様。
 法律により未成年への洗脳は禁じられています。
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<6, 8>//ciel
 
 \\@CHARA_IN@< 1, 11, 5, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0002", 100>
+\\@TEXT_ID@<80>
 Ciel
 な、翡翠さん！？　どうしてこんなところに！？
 チィ、アルクェイドも役に立ちませんね！
@@ -79,51 +111,66 @@ Ciel
 \\@CHARA_IN@< 1, 11, 7, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0003", 100>
+\\@TEXT_ID@<90>
 Ciel
 い、いえ、違います、違うんですよ？
 これは荒療治、そう荒療治なんです！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0004", 100>
+\\@TEXT_ID@<100>
 Ciel
 ノエル先生にかけられた暗示を打ち消すため、
 やむなく、遠野くんの深層意識に細工をですね？
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0033", 100>
+\\@TEXT_ID@<110>
 Hisui
 納得いたしました。
 あの弟子にしてこの師あり、という事ですね。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 7>//hisui
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0034", 100>
+\\@TEXT_ID@<120>
 Hisui
 ―――率直に言って、アナタが元締めです。
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0005", 100>
+\\@TEXT_ID@<130>
 Ciel
 く、本当に出来心、いえ、誤解なのに……！
 \l
 
+\\@CHARA_SET_PATTERN@<6, 16>//ciel
+
 \\@CHARA_IN@< 1, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0006", 100>
+\\@TEXT_ID@<140>
 Ciel
 仕方ありません、不本意ですが
 翡翠さんにも暗示をかけるしかないようですね！
 
+\\@CHARA_SET_PATTERN@<4, 0>//hisui
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0035", 100>
+\\@TEXT_ID@<150>
 Hisui
 その前に志貴さまを解放いたします。
 \l
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0036", 100>
+\\@TEXT_ID@<160>
 Hisui
 ……それと。困ったら魅了やら暗示やらで
 切り抜けようとするのは改めた方がよろしいかと。
@@ -131,15 +178,21 @@ Hisui
 
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0037", 100>
+\\@TEXT_ID@<170>
 Hisui
 アルクェイド様と姉妹なのですか？
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<6, 17>//ciel
 
 \\@CHARA_IN@< 1, 11, 5, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0007", 100>
+\\@TEXT_ID@<180>
 Ciel
 この煽り力……！
 ただのメイドではありませんね、アナタ！？
 
 \\@BGM_STOP@<0>
 \e
+

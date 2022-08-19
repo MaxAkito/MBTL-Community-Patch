@@ -1,32 +1,47 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg05", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<5>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg05", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 17, 3, 1, 0>
-\\@CHARA_IN@<1, 8, 9, 2, 0>// 表情0で入ってくると違和感凄いので最初から真面目な表情で
+\\@NPC_LOAD_SYNC@<4, 17, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//mario
+\\@CHARA_SET_PATTERN@<4, 6>//mario
+
+\\@NPC_LOAD_SYNC@<5, 8, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<5, 80>//noel
+
+\\@CHARA_IN@<0, 17, 3, 11, 0>
+\\@CHARA_IN@<1, 8, 9, 12, 0>// 表情0で入ってくると違和感凄いので最初から真面目な表情で
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@<1, 8, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0010", 100>
+\\@TEXT_ID@<10>
 Noel
 捜査対象の遠野志貴はかぎりなくクロ。
 \l
 
 \\@CHARA_IN@<1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0011", 100>
+\\@TEXT_ID@<20>
 Noel
 ですが、代行者シエルは
 まだ確保行動に入っていません。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 71>//noel
 \\@CHARA_IN@<1, 8, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0012", 100>
+\\@TEXT_ID@<30>
 Noel
 っていうか、捜査対象と共同で
 街のパトロールなんかしてます。
@@ -34,6 +49,7 @@ Noel
 
 \\@CHARA_IN@<1, 8, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0013", 100>
+\\@TEXT_ID@<40>
 Noel
 一方、活動を再開した真祖ですけど、
 こっちもなぜか遠野志貴と行動を共にしています。
@@ -41,13 +57,17 @@ Noel
 
 \\@CHARA_IN@<1, 8, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0014", 100>
+\\@TEXT_ID@<50>
 Noel
 街で活動していた死者は代行者シエルと
 真祖がほぼ片付けていて、
 \l
 
+\\@CHARA_SET_PATTERN@<5, 72>//noel
+
 \\@CHARA_IN@<1, 8, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0015", 100>
+\\@TEXT_ID@<60>
 Noel
 ロアへの血液供給は滞っている、と
 見るべきでしょう。
@@ -55,12 +75,19 @@ Noel
 
 \\@CHARA_IN@<1, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0016", 100>
+\\@TEXT_ID@<70>
 Noel
 以上が総耶の状況なんですけどぉ……
 いかがいたしましょう、マーリオゥ司祭代行？
 
+
+\\@CHARA_SET_PATTERN@<4, 12>//mario
+
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0050", 100>
+\\@TEXT_ID@<80>
 Mario
 いかがも何もねえ、頭いてぇ。
 なんだってこう想定外の邪魔者が多いんだ？
@@ -68,32 +95,44 @@ Mario
 
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0051", 100>
+\\@TEXT_ID@<90>
 Mario
 真祖の姫君に飛び入りの二十七祖。
 埋葬機関のトップランカーに、お荷物のブタシスター。
 
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 71>//noel
 \\@CHARA_IN@<1, 8, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0017", 100>
+\\@TEXT_ID@<100>
 Noel
 ――――――。
 
+\\@SYSTEM@<101>
 
+\\@CHARA_SET_PATTERN@<4, 15>//mario
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0052", 100>
+\\@TEXT_ID@<110>
 Mario
 厄日にも程があンだろ。
 ここまでくるとロアに同情しちまいそうだ。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 16>//mario
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0053", 100>
+\\@TEXT_ID@<120>
 Mario
 とはいえ、こっちも後がない。
 ナリフリ構ってはいられねえか。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//mario
 \\@CHARA_IN@<0, 17, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0054", 100>
+\\@TEXT_ID@<130>
 Mario
 シエルはオレの方で手を打つ。
 テメエは遠野志貴の護衛に入れ。
@@ -101,25 +140,34 @@ Mario
 
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0055", 100>
+\\@TEXT_ID@<140>
 Mario
 いいな、護衛だぞ？　殺すなよ？
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0056", 100>
+\\@TEXT_ID@<150>
 Mario
 あのガキがロアにつっかかりそうになったら、
 力尽くで保護するだけでいい。
 
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 77>//noel
+
 \\@CHARA_IN@<1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0018", 100>
+\\@TEXT_ID@<160>
 Noel
 人命保護ですか？
 異教徒の、しかもロアの転生先の人間を？
 
+\\@SYSTEM@<101>
 
 \\@CHARA_IN@<0, 17, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0057", 100>
+\\@TEXT_ID@<170>
 Mario
 ああ。色々込み入ってはいるが、
 ありゃあ底抜けの《善人＜・・＞だ。
@@ -127,6 +175,7 @@ Mario
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0058", 100>
+\\@TEXT_ID@<180>
 Mario
 いいヤツ、って意味じゃなくな。
 どんだけブッ壊れていても最後には人サマの役に立つ。
@@ -134,18 +183,27 @@ Mario
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0059", 100>
+\\@TEXT_ID@<190>
 Mario
 なんで恩を売っておく。そうだな。
 ３年も経てば、いい使い途ができるだろうよ。
 
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 72>//noel
 \\@CHARA_IN@<1, 8, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0019", 100>
+\\@TEXT_ID@<200>
 Noel
 はあ。
 （なに言ってんだ、このジャリガキ？）
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 15>//mario
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0060", 100>
+\\@TEXT_ID@<210>
 Mario
 問題はそんなのに引っかかっちまった姫サマだ。
 妙に張り切っているようだからなァ。
@@ -153,62 +211,95 @@ Mario
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0061", 100>
+\\@TEXT_ID@<220>
 Mario
 考えなしにロアを始末されちゃあ元の木阿弥だ。
 その前に止める必要がある。
 
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 77>//noel
 \\@CHARA_IN@<1, 8, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0020", 100>
+\\@TEXT_ID@<230>
 Noel
 ―――あ。やば。
 \l
 
+\\@CHARA_SET_PATTERN@<5, 79>//noel
+
 \\@CHARA_IN@<1, 8, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0021", 100>
+\\@TEXT_ID@<240>
 Noel
 はいはい、代行者ノエル！
 ご命令通り、志貴クンの護衛に向かいま～す！
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 16>//mario
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0062", 100>
+\\@TEXT_ID@<250>
 Mario
 阿呆。能なしを真祖に当てるワケねえだろ。
 ま、テメェはそれでいい。
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//mario
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0063", 100>
+\\@TEXT_ID@<260>
 Mario
 臆病なところと面の厚さは見所あるからな。
 その逃げ足の速さ、大事にしろよ。
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0022", 100>
+\\@TEXT_ID@<270>
 Noel
 ご忠告、ありがとうございます！
 （コイツ、明日死なないかなー！）
 \l
 
+\\@CHARA_SET_PATTERN@<5, 73>//noel
+
 \\@CHARA_IN@<1, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0023", 100>
+\\@TEXT_ID@<280>
 Noel
 でも真祖はどうするんですか？
 ほっとけないんですよね？
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 20>//mario
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0064", 100>
+\\@TEXT_ID@<290>
 Mario
 ああ。フリーの魔術師でも雇おうと思ったが、
 気が変わった。オレが出る。
 
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 77>//noel
+
 \\@CHARA_IN@<1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0024", 100>
+\\@TEXT_ID@<300>
 Noel
 え゛゛゛。
 うそ、司祭代行なのに現場出ちゃうの！？
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 3>//mario
+
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0065", 100>
+\\@TEXT_ID@<310>
 Mario
 そりゃ少しはな。運動しねえと太るだろ。
 肉体的にも、精神的にも。
@@ -217,9 +308,11 @@ Mario
 \\@CHARA_OUT@<0, 17, 0, 0, 1>
 \\@CHARA_IN@<3, 17, 209, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0066", 100>
+\\@TEXT_ID@<320>
 Mario
 とはいえ、準備運動はしっかりしねえとな。
 構えろブタ。その脂肪、ちっとは落としてやる。
 
 \\@BGM_STOP@<0>
 \e
+

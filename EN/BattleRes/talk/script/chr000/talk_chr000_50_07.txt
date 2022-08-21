@@ -1,9 +1,22 @@
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>//背景　地下空洞
+\\@FADE_IN@<0, 0, 0, 0, 0>
+
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
 \aw
 
+// \\@SYSTEM@<1>
+
+\\@NPC_LOAD_SYNC@<5, 9, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//vlov
+\\@CHARA_SET_PATTERN@<5, 0>//vlov
+
+\\@NPC_LOAD_SYNC@<4, 0, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//arc
+\\@CHARA_SET_PATTERN@<4, 13>//arc
+
+\\@SYSTEM@<102>
 \\@CHARA_IN@<0, 0, 0, 1, 0>
 \\@CHARA_IN@<1, 9, 0, 2, 0>
 \aw
@@ -12,26 +25,32 @@
 
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0000", 100>
+\\@TEXT_ID@<10>
 Volv
 That soul... pale as the sacred mountains...
 There's no doubt about it.
 We finally meet, Princess of the True Ancestors.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0020", 100>
+\\@TEXT_ID@<20>
 Arcueid
 Who are you? Not a Dead Apostle I've seen before,
 at least. Some newbie who just popped up in these 
 last hundred years?
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0001", 100>
+\\@TEXT_ID@<30>
 Volv
 Vlov Arkhangel...
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0002", 100>
+\\@TEXT_ID@<40>
 Volv
 We've met before, just once...
 I've been in pursuit of your shadow 
@@ -40,6 +59,7 @@ from across the distant ocean...
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0003", 100>
+\\@TEXT_ID@<50>
 Volv
 But neither of us need stay here for long...
 This city is warm of rot... yet cold like the void.
@@ -47,20 +67,26 @@ This city is warm of rot... yet cold like the void.
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0004", 100>
+\\@TEXT_ID@<60>
 Volv
 I shall sever your head and be rewarded with your 
 heart... With that... my illness shall surely heal.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0021", 100>
+\\@TEXT_ID@<70>
 Arcueid
 I see. I wasn't really planning on it,
 but if you want to die so badly, I'll help you out.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 9>//arc
+
 \\@CHARA_IN@< 0, 0, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0022", 100>
+\\@TEXT_ID@<80>
 Arcueid
 Don't worry, I won't leave any traces of you behind.
 You know, out of consideration for your reckless 
@@ -68,3 +94,4 @@ bravery in facing me head-on.
 
 \\@BGM_STOP@<0>
 \e
+

@@ -1,8 +1,19 @@
-\\@BG_IN@<"screen_bg09", 0, 2>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<9>
+\\@FADE_IN@<0, 0, 0, 0, 0>
 
 \\@SYSTEM@<0>
 \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 17, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//mario
+\\@CHARA_SET_PATTERN@<4, 0>//mario
+
+\\@NPC_LOAD_SYNC@<5, 15, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//aoko
+\\@CHARA_SET_PATTERN@<5, 2>//aoko
+
 
 \\@CHARA_IN@< 0, 17, 3, 1, 0>
 \\@CHARA_IN@< 1, 15, 5, 2, 0>
@@ -15,20 +26,25 @@
 \\@CHARA_IN@<1, 15, 5, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0080", 100>
+\\@TEXT_ID@<10>
 Aoko
 Oh, so that's your story...
 \l
 
+\\@CHARA_SET_PATTERN@<5, 9>//aoko
 \\@CHARA_IN@<1, 15, 4, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0081", 100>
+\\@TEXT_ID@<20>
 Aoko
 I'm sorry, Mario. I thought for sure you were 
 some corrupt Presbyter who'd gone over the to 
 the Dead Apostles' side.
 
+\\@CHARA_SET_PATTERN@<4, 6>//mario
 \\@CHARA_IN@<0, 17, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0110", 100>
+\\@TEXT_ID@<30>
 Mario
 Don't give me that shit, you walking disaster. You 
 really think a 12 year-old brat would be getting up
@@ -37,31 +53,38 @@ in the corruption business already?
 
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0111", 100>
+\\@TEXT_ID@<40>
 Mario
 My life's on the goddamn line here. 
 I go at things straight on. 
 Ain't got no time for beatin' around the bush.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//mario
 \\@CHARA_IN@<0, 17, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0112", 100>
+\\@TEXT_ID@<50>
 Mario
 Well, all my plans went to shit 'cause of you!
 Got myself involved with one helluva pest!
 
+\\@CHARA_SET_PATTERN@<5, 16>//aoko
 \\@CHARA_IN@<1, 15, 10, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0082", 100>
+\\@TEXT_ID@<60>
 Aoko
 Yeah, about that.
 I think I might know a way to 
 stop things from getting any worse.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 6>//mario
 \\@CHARA_IN@<0, 17, 11, 0, 1>
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0083", 100>
+\\@TEXT_ID@<70>
 Aoko
 Basically as long as...... it'll be fine, right?
 So why don't you try asking my sister about it?
@@ -70,6 +93,7 @@ So why don't you try asking my sister about it?
 \\@CHARA_IN@<1, 15, 6, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0084", 100>
+\\@TEXT_ID@<80>
 Aoko
 There's no other weirdo quite as good as her when 
 it comes to devising clever ways of getting oneself 
@@ -79,6 +103,8 @@ out of problems.
 \\@FADE_OUT@<0, 255, 255, 255, 0>
 \w<180>
 
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
 \\@CHARA_OUT@<0, -1, -1, 0, 0>
 \\@CHARA_OUT@<1, -1, -1, 0, 0>
 \aw
@@ -91,26 +117,30 @@ out of problems.
 \aw
 
 
-
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0113", 100>
+\\@TEXT_ID@<90>
 Mario
 After confirming that Roa had indeed perished,
 Executor Ciel chose to remain in Souya.
 \l
 
+
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0114", 100>
+\\@TEXT_ID@<100>
 Mario
 After that, it appears as if a great abnormality 
 occurred there, though it could not be observed.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0115", 100>
+\\@TEXT_ID@<110>
 Mario
 Hm. Some kinda terrifying battle probably took place.
 Don't wanna get involved.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0116", 100>
+\\@TEXT_ID@<120>
 Mario
 That said...
 \l
@@ -119,11 +149,14 @@ That said...
 \\@BGM_FADE@<0, -1, 100, 15, 0>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0030", 100>
+\\@TEXT_ID@<130>
 Noel
 I think we can chalk this one up as a win.
 \l
 
+
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0031", 100>
+\\@TEXT_ID@<140>
 Noel
 I mean, we beat back the True Ancestor, exterminated 
 Roa, and drove off that Magician, too. Ciel even got 
@@ -131,12 +164,14 @@ herself a new apprentice!
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0117", 100>
+\\@TEXT_ID@<150>
 Mario
 Got a feeling it's just the 
 beginning of a long road ahead...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0118", 100>
+\\@TEXT_ID@<160>
 Mario
 By the way, you're starting over from scratch,
 fatass. You're getting a reeducation under me, 
@@ -144,34 +179,40 @@ for at least a year.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0119", 100>
+\\@TEXT_ID@<170>
 Mario
 I'm gonna fix up you up, attitude and all. 
 Once we're done with that, I'll assign you
 to whatever church you'd like.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0032", 100>
+\\@TEXT_ID@<180>
 Noel
 For real? Awesome! Then I want to work 
 directly under you, Acting Presbyter!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0033", 100>
+\\@TEXT_ID@<190>
 Noel
 Please let me live the good life!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0120", 100>
+\\@TEXT_ID@<200>
 Mario
 *Sigh* And my big prize turns out to be a useless pawn. 
 Just coming outta this alive was a huge plus.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0121", 100>
+\\@TEXT_ID@<210>
 Mario
 Now... Touko Aozaki, the peerless puppeteer. If she turns
 out to be of any help, this may not be over after all.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0122", 100>
+\\@TEXT_ID@<220>
 Mario
 The road Roa paved is still intact.
 If I can just see where this thread leads...
@@ -182,6 +223,7 @@ If I can just see where this thread leads...
 \w<200>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0123", 100>
+\\@TEXT_ID@<230>
 Mario
 It's gonna be real fuckin' annoying but... I have a 
 feeling I'll need to return to this city again someday.
@@ -192,3 +234,4 @@ feeling I'll need to return to this city again someday.
 
 \\@BGM_STOP@<0>
 \e
+

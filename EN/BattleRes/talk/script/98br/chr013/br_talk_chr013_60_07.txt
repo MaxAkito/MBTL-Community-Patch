@@ -4,70 +4,82 @@
 \aw
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
 \aw
 \\@BGM_PLAY@<0, 76, 100>
 
+\\@SYSTEM@<100>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10140", 100>
+\\@TEXT_ID@<10>
 Neco_Arc@Neco_Arc_Rumi
 Well done, Miyako. You have smashed the walls
 of your mental block into tiny pieces.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10120", 100>
+\\@TEXT_ID@<20>
 Miyako@Miyako_Hatena
 Into tiny pieces...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10141", 100>
+\\@TEXT_ID@<30>
 Neco_Arc@Neco_Arc_Rumi
 By defeating the sauve glasses-boy, you have 
 acquired the power of truly fighting in-game.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10142", 100>
+\\@TEXT_ID@<40>
 Neco_Arc@Neco_Arc_Rumi
 Do you understand? Miyako Arima wasn't an option
 on the character select screen for just no reason.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10143", 100>
+\\@TEXT_ID@<50>
 Neco_Arc@Neco_Arc_Rumi
 By training here and acquiring the power of 
 fighting, it was possible for you to join the 
 playable character roster.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10144_a", 100>
+\\@TEXT_ID@<60>
 Neco_Arc@Neco_Arc_Rumi
 It's a tiIIiiMe PaAAraDOOox!!
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10145", 100>
+\\@TEXT_ID@<70>
 Neco_Arc@Neco_Arc_Rumi
 There. I've said all I wanted to say.
 Now I must bid you adieu for real.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10146", 100>
+\\@TEXT_ID@<80>
 Neco_Arc@Neco_Arc_Rumi
 When you wake up, you probably won't remember this dream.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10147", 100>
+\\@TEXT_ID@<90>
 Neco_Arc@Neco_Arc_Rumi
 Do not mourn, however. 
 I will also have forgotten all about this experience.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10148", 100>
+\\@TEXT_ID@<100>
 Neco_Arc@Neco_Arc_Rumi
 But while I have you, allow me to set your little
 heart at ease...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10149", 100>
+\\@TEXT_ID@<110>
 Neco_Arc@Neco_Arc_Rumi
 I will most certainly return in game!
 ÅgThe Cat Strikes BaaaaaaackÅh!
 
-\\@SYSTEM@<10>
+\\@SYSTEM@<200>
 \aw
-\\@BGM_FADE@<0, 100, 0, -2, 1>//BGMèIóπ
+\\@BGM_FADE@<0, 100, 0, -2, 1>
 
 \\@FADE_OUT@<0, 0, 0, 0, 0>
 \aw
 
 \\@BGM_STOP@<0>
 \e
+

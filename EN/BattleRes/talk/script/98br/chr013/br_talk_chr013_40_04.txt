@@ -1,22 +1,38 @@
 \\@SYSTEM@<9999>
 \\@FADE_IN@<1, 0, 0, 0, 0>
 \aw
-\\@BG_IN@<"screen_bg03", 0, 0>
+// \\@BG_IN@<"screen_bg03", 0, 0>
+\\@LOAD_BATTLE_BG@<3>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@BGM_PLAY@<0, 74, 100>
 
 //＃公園_夜
 
+\\@NPC_LOAD_SYNC@<5, 3, 100, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 30>//shiki 眼鏡待て
+
+\\@NPC_LOAD_SYNC@<4, 13,-100, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 0>//miyako
+
+\\@NPC_LOAD_SYNC@<8, 1, 280, 0, 0>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">//弁当
+\\@CHARA_SET_PATTERN@<8, 60>//弁当
+
+
 \\@CHARA_IN@< 0, 13, 3, 1, 0>
 \\@CHARA_IN@< 2, 3,  0, 1, 0>
 \aw
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10020", 100>
+\\@TEXT_ID@<10>
 Shiki
 Miyako, watch out! 
 Your sandwich and tea have been poisoned!
@@ -24,31 +40,49 @@ Your sandwich and tea have been poisoned!
 \\@CHARA_IN@< 0, 13, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10060", 100>
+\\@TEXT_ID@<20>
 Miyako
 I know! 
 I mean, just the color alone should tell you that much.
 
+
+\\@NPC_LOAD_SYNC@<7, 4, 720, 0, 1>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<7, 0>//立ち
+
+//翡翠イン
+\\@NPC_LOAD_SYNC@<6, 1, 600, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<6, 0>//立ち
+
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \\@CHARA_IN@< 1, 1,  1, 2, 0>
+\\@CHARA_IN@< 3, 4, 100, 4, 0>
 \aw
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His_10000", 100>
+\\@TEXT_ID@<30>
 Hisui@Hisui_TooriMaid
 It would seem we have failed. 
 I believe the tea you prepared was too obvious, Kohaku.
 
-\\@CHARA_FOCUS_COLOR@< 1, 1>
-\\@CHARA_IN@< 3, 4, 100, 4, 0>
-\aw
-
+\\@CHARA_SET_PATTERN@<7, 9>//kohaku 困惑
 \\@CHARA_IN@< 3, 4, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10000", 100>
+\\@TEXT_ID@<40>
 Kohaku@Kohaku_TooriKaseifu
 I'm not so sure. The sandwich you made 
 seemed pretty shady too, Hisui.
 
-//ここで画面、一旦灰色に
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<8, -1, 0, 0, 0>
+
+
 \\@CHARA_OUT@<0, 13, -1, 0, 0>
 \\@CHARA_OUT@<1, 1, -1, 0, 0>
 \\@CHARA_OUT@<2, 3, -1, 0, 0>
@@ -59,20 +93,23 @@ seemed pretty shady too, Hisui.
 \\@DRAW_EFFECT@<1>
 \aw
 
-\\@BGM_PLAY@<1, 72, 100>
+\\@BGM_PLAY@<1, 61, 100>//コミカルでちょっと怪しげなBGM
 
-\\@CHARA_IN@< 3, 53,  0, 44, 0>
+\\@CHARA_IN@< 3, 19,  0, 44, 0>
 \\@CHARA_MUKI@<3,0>
 \aw
 
-\\@CHARA_IN@< 3, 53, -1, 0, 1>
+\\@SYSTEM@<100>
+\\@CHARA_IN@< 3, 19, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10080", 100>
+\\@TEXT_ID@<50>
 Neco_Arc
 The story so far...
 \l
 
-\\@CHARA_IN@< 3, 53, 110, 0, 1>
+\\@CHARA_IN@< 3, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10081", 100>
+\\@TEXT_ID@<60>
 Neco_Arc
 Miyako defeated a monster so powerful you could've 
 mistaken him for the final boss, even though he had 
@@ -80,19 +117,22 @@ nothing to do with the actual plot.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10082", 100>
+\\@TEXT_ID@<70>
 Neco_Arc
 She stopped in a nearby park to rest and replenish her
 expended calories. However... evil does not rest.
 \l
 
-\\@CHARA_IN@< 3, 53, 100, 0, 1>
+\\@CHARA_IN@< 3, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10083", 100>
+\\@TEXT_ID@<80>
 Neco_Arc
 Twin maids offered our heroine tea and a bite to eat,
 but their forced smiles hid a sorrowful past.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10084", 100>
+\\@TEXT_ID@<90>
 Neco_Arc
 Will the kindhearted Miyako find it in herself 
 to fight the odd pair, who are clearly cheating 
@@ -106,6 +146,29 @@ by fighting together?
 \\@DRAW_EFFECT@<0>
 \aw
 
+\\@NPC_LOAD_SYNC@<5, 3, 100, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 30>//shiki 眼鏡待て
+
+\\@NPC_LOAD_SYNC@<4, 13,-100, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 0>//miyako
+
+\\@NPC_LOAD_SYNC@<8, 1, 280, 0, 0>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">
+\\@CHARA_SET_PATTERN@<8, 60>
+
+//琥珀イン
+\\@NPC_LOAD_SYNC@<7, 4, 720, 0, 1>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<7, 0>//立ち
+
+//翡翠イン
+\\@NPC_LOAD_SYNC@<6, 1, 600, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<6, 0>//立ち
+
+
 \\@BGM_PLAY@<0, 74, 100>
 \\@CHARA_IN@< 0, 13, 0, 11, 0>
 \\@CHARA_IN@< 2, 3, 0, 11, 0>
@@ -114,8 +177,10 @@ by fighting together?
 \aw
 
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10061", 100>
+\\@TEXT_ID@<100>
 Miyako
 Why would a couple of maids who were 
 just passing by try to poison me?
@@ -123,25 +188,32 @@ just passing by try to poison me?
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10062", 100>
+\\@TEXT_ID@<110>
 Miyako
 I wonder if they're in league with that assassin nun
 from the alley. Do you know these two, Brother?
 
+\\@CHARA_SET_PATTERN@<5, 24>//shiki 眼鏡やれやれ
 \\@CHARA_IN@< 2, 3, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10021", 100>
+\\@TEXT_ID@<120>
 Shiki
 Well... Of course I do. These two are--
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 1, 4, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His_10001", 100>
+\\@TEXT_ID@<130>
 Hisui
 No, you don't, Master Shiki. 
 Right now, we are not who you think we are.
 
+\\@CHARA_SET_PATTERN@<7,11>//kohaku ちらっ
 \\@CHARA_IN@< 3, 4, 106, 0, 1>
 \\@CHARA_EMOVE@<3, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10001", 100>
+\\@TEXT_ID@<140>
 Kohaku
 That is correct. Our evil employer has brainwashed us.
 We are a pair of tragic assassins, sent to eliminate 
@@ -149,45 +221,59 @@ Miss Miyako...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10002", 100>
+\\@TEXT_ID@<150>
 Kohaku
 It's not like came here because we wanted to have 
 fun or something. Make sure you keep that in mind.
 
+\\@CHARA_SET_PATTERN@<5, 27>//shiki 眼鏡うなずき（2回）
+\\@SYSTEM@<131>
 \\@CHARA_IN@< 2, 3, 6, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10022", 100>
+\\@TEXT_ID@<160>
 Shiki
 (I see. Akiha or not, it feels like these two are quite 
  determined to maintain their established characters...)
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10063", 100>
+\\@TEXT_ID@<170>
 Miyako
 Brainwashed?
 What does that mean, Brother?
 
 \\@CHARA_IN@< 2, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10023", 100>
+\\@TEXT_ID@<180>
 Shiki
 It's when you mess with a person's mind, forcing them to
 do something. But these two, Kohaku in particular...
 
+\\@CHARA_SET_PATTERN@<7, 10>
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 3, 4, 102, 0, 1>
 \\@CHARA_EMOVE@<3, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10003", 100>
+\\@TEXT_ID@<190>
 Kohaku
 C0RRECT. WE ARE BE1NG CONTR0LLED BY LADY AK1HA.
 DESTR0Y HER... DESTR0Y HER...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10004", 100>
+\\@TEXT_ID@<200>
 Kohaku
 DESTR0Y AK1HA QU1CKLY
 DESTR0Y HER. 1T W0ULD BE FUNNY.
 
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10064", 100>
+\\@TEXT_ID@<210>
 Miyako
 Now they sound like robots! 
 Does brainwashing turn you into a robot?!
@@ -195,18 +281,23 @@ Does brainwashing turn you into a robot?!
 
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10065", 100>
+\\@TEXT_ID@<220>
 Miyako
 I've got to save them, and fast!
 But how...?!
 
+\\@CHARA_SET_PATTERN@<5, 28>//shiki 眼鏡ため息
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10024", 100>
+\\@TEXT_ID@<230>
 Shiki
 Uh... yeah... I'm sure they'll snap out of it if
 you fight them? They sure look ready for a battle.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 29>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10025", 100>
+\\@TEXT_ID@<240>
 Shiki
 Just take it easy, ok? Think of it as a little break
 after that big baddie from before.
@@ -215,23 +306,30 @@ after that big baddie from before.
 \\@CHARA_IN@< 2, 3, -1, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10026", 100>
+\\@TEXT_ID@<250>
 Shiki
 It'll be fine. Even if you go a bit overboard, 
 I'm sure it'll prove a good lesson for Kohaku.
 
+\\@CHARA_SET_PATTERN@<4, 6>//miyako YES
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10066", 100>
+\\@TEXT_ID@<260>
 Miyako
 You got it! It's for the good of these poor 
 maids, too! I'll give it everything I've got!
 
+\\@CHARA_SET_PATTERN@<7, 12>
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 3, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<3, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10005", 100>
+\\@TEXT_ID@<270>
 Kohaku
 UH-0H. S0MET1MES 1 TH1NK THAT N0-N0NSE 
 ATT1TUDE 0F Y0URS 1S A BIT MUCH SH1K1.
 
 \\@BGM_STOP@<0>
 \e
+

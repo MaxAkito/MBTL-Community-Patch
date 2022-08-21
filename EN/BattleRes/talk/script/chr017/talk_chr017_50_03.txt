@@ -1,9 +1,10 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg13", 0, 2, 0>
-\aw
+\\@LOAD_BATTLE_BG@<13>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+// \\@BG_IN@<"screen_bg13", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@CHARA_IN@<0, 17, 3, 1, 0>
@@ -12,9 +13,19 @@
 
 \\@BGM_PLAY@<0, 74, 100>
 
+\\@SYSTEM@<101>
+\\@NPC_LOAD_SYNC@<4, 17, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//mario
+\\@CHARA_SET_PATTERN@<4, 0>//mario
+
+\\@NPC_LOAD_SYNC@<5, 0, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//arc
+\\@CHARA_SET_PATTERN@<5, 0>//arc
+
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0070", 100>
+\\@TEXT_ID@<10>
 Mario
 Stop right there, princess.
 Real sorry, but the date's been cancelled.
@@ -22,18 +33,26 @@ Real sorry, but the date's been cancelled.
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0071", 100>
+\\@TEXT_ID@<20>
 Mario
 You've messed around long enough. The vacation ends 
 tonight. I've gotta ask of you to return to your castle.
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 16>//arc
 \\@CHARA_IN@<1, 0, 14, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0000", 100>
+\\@TEXT_ID@<30>
 Arcueid
 Hm?
 Wait, are you one of Laurentis' kids?
 
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 20>//mario
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0072", 100>
+\\@TEXT_ID@<40>
 Mario
 Right, one of his many biological sons.
 First time we meet, but no need for introductions.
@@ -41,20 +60,25 @@ First time we meet, but no need for introductions.
 
 \\@CHARA_FACE@<0,10,6,210>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0073", 100>
+\\@TEXT_ID@<50>
 Mario
 My old man's told me aaall about you.
 You seem pretty damn different though.
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 0, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0001", 100>
+\\@TEXT_ID@<60>
 Arcueid
 Hmmm, so you're not adopted?
 Isn't he supposed to be a Cardinal...?
 Well, whatever.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 12>//arc
 \\@CHARA_IN@<1, 0, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0002", 100>
+\\@TEXT_ID@<70>
 Arcueid
 Anyway, what are you planning on doing with 
 these wires? I knew you'd already extended 
@@ -63,6 +87,7 @@ them all around the city but...
 
 \\@CHARA_IN@<1, 0, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0003", 100>
+\\@TEXT_ID@<80>
 Arcueid
 Are you planning to use them against me somehow?
 Or is that just a coincidence?
@@ -70,6 +95,7 @@ Or is that just a coincidence?
 
 \\@CHARA_IN@<1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0004", 100>
+\\@TEXT_ID@<90>
 Arcueid
 If it's the latter, I don't mind turning a blind eye to it. 
 Just get out of my sight.
@@ -77,13 +103,18 @@ Just get out of my sight.
 
 \\@CHARA_IN@<1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0005", 100>
+\\@TEXT_ID@<100>
 Arcueid
 If not, I might have to rip off
 those arms of yours, wires and all.
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 12>//mario
+
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 \\@CHARA_FACE@<1,2,15,350>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0074", 100>
+\\@TEXT_ID@<110>
 Mario
 Couldn't you stop at just the fingers, huh?
 Too vicious and the Tohno boy might stop likin' ya.
@@ -91,13 +122,16 @@ Too vicious and the Tohno boy might stop likin' ya.
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0075", 100>
+\\@TEXT_ID@<120>
 Mario
 If you're gonna keep company with humans,
 you gotta act softer. More delicate.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//mario
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0076", 100>
+\\@TEXT_ID@<130>
 Mario
 And that ain't dating advice. 
 Just sayin', humans are fragile.
@@ -105,12 +139,17 @@ Just sayin', humans are fragile.
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0077", 100>
+\\@TEXT_ID@<140>
 Mario
 Without a bit of grace, you might accidentally take 
 out your lover boy when you're disposing of the Dead.
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 5>//arc
+
 \\@CHARA_IN@<1, 0, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0006", 100>
+\\@TEXT_ID@<150>
 Arcueid
 Hmph! I-I don't need your advice!
 Also, I'm always graceful!
@@ -118,25 +157,35 @@ Also, I'm always graceful!
 
 \\@CHARA_IN@<1, 0, 16, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0007", 100>
+\\@TEXT_ID@<160>
 Arcueid
 A-And besides, he's not my "lover boy"...
 \l
 
+\\@CHARA_SET_PATTERN@<5, 12>//arc
+
 \\@CHARA_IN@<1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0008", 100>
+\\@TEXT_ID@<170>
 Arcueid
 He's just... insurance.
 I'm keeping him close at hand so he doesn't get away.
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 20>//mario
 \\@CHARA_IN@<0, 17, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0078", 100>
+\\@TEXT_ID@<180>
 Mario
 Well, well. You seemed kinda soft, but I guess
 you're still a lil' bit hard at heart. That's great.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//mario
+
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0079", 100>
+\\@TEXT_ID@<190>
 Mario
 So then when Roa's 'boutta possess Tohno, 
 you'll take him out right away, yeah?
@@ -144,13 +193,18 @@ you'll take him out right away, yeah?
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0080", 100>
+\\@TEXT_ID@<200>
 Mario
 You'll grab his neck firmly, 'til it goes crack.
 Just like killin' a chicken. 
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 35>//arc
+
 \\@CHARA_IN@<1, 0, 13, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0009", 100>
+\\@TEXT_ID@<210>
 Arcueid
 No... Shiki isn't really Roa's host.
 He's more like his safe shelter.
@@ -158,6 +212,7 @@ He's more like his safe shelter.
 
 \\@CHARA_IN@<1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0010", 100>
+\\@TEXT_ID@<220>
 Arcueid
 Even if Roa's soul has surfaced,
 he won't completely take over. 
@@ -166,6 +221,7 @@ Which is why...
 
 \\@CHARA_IN@<1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0011", 100>
+\\@TEXT_ID@<230>
 Arcueid
 If I take him somewhere where I can suppress 
 Roa's soul, Shiki can live on as himself.
@@ -173,13 +229,17 @@ Roa's soul, Shiki can live on as himself.
 
 \\@CHARA_IN@<1, 0, 16, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc07_0012", 100>
+\\@TEXT_ID@<240>
 Arcueid
 He may not like it, but...
 If I take him to my castle, he can still be saved.
 
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 15>//mario
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0081", 100>
+\\@TEXT_ID@<250>
 Mario
 Ah, so that's why you've been sticking 
 so close to him and playing all lovey-dovey.
@@ -187,21 +247,27 @@ so close to him and playing all lovey-dovey.
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0082", 100>
+\\@TEXT_ID@<260>
 Mario
 Wish I could support you in this, really do.
 Old man said he owed you a debt, after all
 \l
 
+\\@CHARA_SET_PATTERN@<4, 20>//mario
 \\@CHARA_IN@<0, 17, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0083", 100>
+\\@TEXT_ID@<270>
 Mario
 Unfortunately, I got my own shit to worry 'bout.
 Can't afford dying just 'cause of your love-affair.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 11>//mario
+
 \\@CHARA_OUT@<0, 17, 10, 0, 1>
 \\@CHARA_IN@<3, 17, 203, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0084", 100>
+\\@TEXT_ID@<280>
 Mario
 Give up on Tohno. You'll be going home
 to the castle on your own, Arcueid.
@@ -210,6 +276,7 @@ to the castle on your own, Arcueid.
 \\@CHARA_IN@<1, 0, 2, 0, 10>
 \\@CHARA_IN@<3, 17, 203, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0085", 100>
+\\@TEXT_ID@<290>
 Mario
 Humans stay in the human world. 
 That's how simple it is; I shouldn't hafta tell ya.
@@ -217,3 +284,4 @@ That's how simple it is; I shouldn't hafta tell ya.
 
 \\@BGM_STOP@<0>
 \e
+

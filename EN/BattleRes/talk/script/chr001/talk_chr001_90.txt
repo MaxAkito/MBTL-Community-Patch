@@ -1,6 +1,7 @@
 \\@SYSTEM@<9999>
 \\@FADE_OUT@<0,0,0,0,1>
-\\@BG_IN@<"screen_bg11", 0, 2>
+// \\@BG_IN@<"screen_bg11", 0, 2>
+\\@LOAD_BATTLE_BG@<11>
 \aw
 
 \\@FADE_OUT@<1,255,255,255,0>
@@ -18,12 +19,14 @@
 
 \\@GO_SUB@<"HisuiIN_Face0_L">
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0040", 100>
+\\@TEXT_ID@<10>
 Hisui
 As you can see, those in the employ of the Tohno 
 family are all quite skilled in the martial arts.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0041", 100>
+\\@TEXT_ID@<20>
 Hisui
 I had no room to demonstrate it in this particular
 incident, but I am quite confident in my skills with
@@ -32,23 +35,27 @@ a katana as well.
 
 \\@SPEAKERCG_IN@<0,1,2,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0042", 100>
+\\@TEXT_ID@<30>
 Hisui
 (I shouldn't be doing this...)
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0043", 100>
+\\@TEXT_ID@<40>
 Hisui
 (Miss Miyako's reactions were so cute that I 
  over-exaggerated my story without thinking...)
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0044", 100>
+\\@TEXT_ID@<50>
 Hisui
 (It's true that I take care of the Tohno family's 
  large collection of traditional Japanese swords...)
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0045", 100>
+\\@TEXT_ID@<60>
 Hisui
 (But I have no recollection 
  of actually using one myself)
@@ -58,6 +65,7 @@ Hisui
 
 \\@SPEAKERCG_IN@<0,4,101,-245,120,-245,120,255,255,0,820,820,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0000", 100>
+\\@TEXT_ID@<70>
 Kohaku
 Yes, that's right, Miyako! She may not 
 look like it, but Hisui is a master of 
@@ -65,6 +73,7 @@ the Lapis Steel battle technique and...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0001", 100>
+\\@TEXT_ID@<80>
 Kohaku
 ...the successor of the Kyuuti-Pai style! She can
 cut down any evil-doer with but a single strike!
@@ -83,6 +92,21 @@ cut down any evil-doer with but a single strike!
 \\@FADE_IN@<2,0,0,0,0>
 \\@FADE_IN@<0,255,255,255,0>
 \aw
+//ÉJÉÅÉâÇå≈íËÇµÇƒìså√ÇÃë´êÊÇæÇØâfÇ∑
+\\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//camera
+
+\\@NPC_LOAD_SYNC@<4, 1, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//hisui
+\\@CHARA_SET_PATTERN@<4, 5>//hisui
+
+// \\@NPC_LOAD_SYNC@<5, 13, 700, 0, 1>
+// \\@CHARA_SET_MVNAME@<5, "FadeIn">//miyako
+// \\@CHARA_SET_PATTERN@<5, 100>//miyako âe
+
+\\@NPC_LOAD_SYNC@<6, 4, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//kohaku
+\\@CHARA_SET_PATTERN@<6, 0>//kohaku
 
 \\@CHARA_IN@<0, 1, 1, 1, 0>
 \\@CHARA_IN@<2, 4, 100, 2, 0>
@@ -93,19 +117,24 @@ cut down any evil-doer with but a single strike!
 \\@CHARA_IN@< 0, 1, 3, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0046", 100>
+\\@TEXT_ID@<90>
 Hisui
 Kohaku?! When did you get here?! And why are you
 exaggerating even more than I did?!
 
+\\@CHARA_SET_PATTERN@<6, 5>//kohaku
 \\@CHARA_IN@< 2, 4, 101, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0002", 100>
+\\@TEXT_ID@<100>
 Kohaku
 It's fine. Don't worry about it.
 \l
 
+\\@CHARA_SET_PATTERN@<6, 6>//kohaku
 \\@CHARA_IN@< 2, 4, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0003", 100>
+\\@TEXT_ID@<110>
 Kohaku
 Why don't we continue this in the parlor, Miyako?
 I'll treat you to some quality tea.
@@ -113,19 +142,23 @@ I'll treat you to some quality tea.
 
 \\@CHARA_IN@< 2, 4, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0004", 100>
+\\@TEXT_ID@<120>
 Kohaku
 It's almost 3 o'clock, so why not take a break, Hisui?
 \l
 
 \\@CHARA_IN@< 2, 4, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0005", 100>
+\\@TEXT_ID@<130>
 Kohaku
 This is could prove a wonderful opportunity to hear 
 about Shiki's time living with the Arima family.
 
+\\@CHARA_SET_PATTERN@<4, 2>//hisui
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0047", 100>
+\\@TEXT_ID@<140>
 Hisui
 That is a good idea. It will be most helpful
 when caring for Master Shiki in the future.
@@ -133,13 +166,16 @@ when caring for Master Shiki in the future.
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0048", 100>
+\\@TEXT_ID@<150>
 Hisui
 Allow me to prepare some tea and snacks, then.
 In fact, I just made a fresh cake this mor-
 
+\\@CHARA_SET_PATTERN@<6, 12>//kohaku
 \\@CHARA_IN@< 2, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0006", 100>
+\\@TEXT_ID@<160>
 Kohaku
 No, that's quite alright!
 \l
@@ -147,6 +183,7 @@ No, that's quite alright!
 \\@CHARA_IN@< 2, 4, 104, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0007", 100>
+\\@TEXT_ID@<170>
 Kohaku
 I can take care of the refreshments! 
 Hisui, you just wait here and relax!
@@ -155,6 +192,10 @@ Hisui, you just wait here and relax!
 \\@SYSTEM@<21>
 \aw
 
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
 
 \\@BGM_STOP@<0>
 \e
+

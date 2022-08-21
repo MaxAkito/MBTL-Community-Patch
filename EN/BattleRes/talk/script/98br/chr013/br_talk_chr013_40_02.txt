@@ -1,8 +1,7 @@
 \\@SYSTEM@<9999>
-\\@FADE_IN@<1, 0, 0, 0, 0>
-\aw
-
-\\@BG_IN@<"screen_bg05", 0, 0>
+\\@LOAD_BATTLE_BG@<5>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+// \\@BG_IN@<"screen_bg05", 0, 0>
 
 \\@SYSTEM@<0>
 \\@SYSTEM@<1>
@@ -11,37 +10,70 @@
 \\@BGM_PLAY@<0, 74, 100>
 
 
+
+//カメラを固定しておく
+\\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//camera
+
+\\@NPC_LOAD_SYNC@<5, 3, 200, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 30>//shiki 眼鏡待て
+
+\\@NPC_LOAD_SYNC@<4, 13, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 0>//miyako
+
 \\@CHARA_IN@< 0, 13, 3, 1, 0>
 \\@CHARA_IN@< 2, 3, 0, 1, 0>
 \aw
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10000", 100>
+\\@TEXT_ID@<10>
 Shiki
 Miyako, watch out! 
 There's a nun with a halberd hiding in the alley!
 
+\\@CHARA_SET_PATTERN@<4, 4>
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10040", 100>
+\\@TEXT_ID@<20>
 Miyako
 Okay! Leave it to me, Shiki!
 Hyah!
 
-\\@CHARA_IN@< 0, 13, 0, 0, 20>
-\\@CHARA_IN@< 1, 8,  3, 4, 0>
-\aw
+\\@CHARA_SET_PATTERN@<4, 16>
+\\@CHARA_SET_PATTERN@<5, 31>
+
+// \\@CHARA_IN@< 0, 13, 0, 0, 20>
+// \aw
 \\@SE_PLAY@<0, "talk/talk_se/Atk_LongSwingB", 0, 100>
 \\@SE_PLAY@<1, "talk/talk_se/Cmn_BombB", 0, 100>
-\\@CHARA_IN@< 1, 8, 3, 52, 20>
-\\@CHARA_EMOVE@<0, -1 , 3>
+// \\@CHARA_IN@< 1, 8, 3, 52, 20>
+// \\@CHARA_EMOVE@<0, -1 , 3>
 \\@SQ_CALL@<1>
+\\@CHARA_SET_MVNAME@<7, "InitCameraKeep">//camera初期化
 \w<10>
-\\@CHARA_IN@< 1, 8, -1, 51, 20>
+\\@CHARA_WAIT_PATTERN@< 4, 0>//
 \aw
+\\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>//カメラ開放
+
+\\@NPC_LOAD_SYNC@<6, 8, 640, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<6, 0>//noel
+
+\\@CHARA_IN@< 1, 8,  3, 4, 0>
+\aw
+// \\@CHARA_IN@< 1, 8, -1, 51, 20>
+// \aw
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10000", 100>
+\\@TEXT_ID@<30>
 Noel
 Tch! You managed to dodge my attack without so much
 as a scratch. Not bad. You must've seen right through
@@ -53,22 +85,30 @@ my ambush!
 \\@BGM_FADE@<0, 100, 0, -2, 1>
 \\aw
 
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+
+
 \\@DRAW_EFFECT@<1>
 \aw
 
-\\@BGM_PLAY@<1, 72, 100>
-\\@CHARA_IN@< 3, 53,  0, 44, 0>
+\\@BGM_PLAY@<1, 61, 100>//コミカルでちょっと怪しげなBGM
+\\@CHARA_IN@< 3, 19,  0, 44, 0>
 \\@CHARA_MUKI@<3,0>
 \aw
 
-\\@CHARA_IN@< 3, 53, -1, 0, 1>
+\\@SYSTEM@<100>
+\\@CHARA_IN@< 3, 19, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10060", 100>
+\\@TEXT_ID@<40>
 Neco_Arc
 The story so far!
 \l
 
-\\@CHARA_IN@< 3, 53, 100, 0, 1>
+\\@CHARA_IN@< 3, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10061", 100>
+\\@TEXT_ID@<50>
 Neco_Arc
 In a strange twist, Miyako Arima, ordinary 
 grade-schooler and bajiquan enthusiast, had 
@@ -83,6 +123,7 @@ found herself mixed up in the vampire incident.
 \aw
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc_10000", 100>
+\\@TEXT_ID@<60>
 Arcueid@Arcueid_Zisyo
 “Excuse me! Could you send out the elder son of the 
  house! He must take responsibility for killing me!”
@@ -90,19 +131,21 @@ Arcueid@Arcueid_Zisyo
 
 \\@CHARA_OUT@<4, -1, -1, 0, 0>
 \aw
-\\@BG_IN@<"screen_bg05", 0, 0>
-\\@CHARA_IN@< 3, 53, 100, 44, 0>
+\\@BG_OUT@<0, 0>
+\\@CHARA_IN@< 3, 19, 110, 44, 0>
 \\@CHARA_MUKI@<3,0>
 \aw
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10062", 100>
+\\@TEXT_ID@<70>
 Neco_Arc
 This vampire barged in during broad daylight, seeming
 not all too bothered at just having been killed.
 \l
 
-\\@CHARA_IN@< 3, 53, 110, 0, 1>
+\\@CHARA_IN@< 3, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10063", 100>
+\\@TEXT_ID@<80>
 Neco_Arc
 Seemingly equally unbothered, 
 the adopted elder brother made his way out to 
@@ -110,21 +153,24 @@ face the visitor, much to Miyako's annoyance.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10064", 100>
+\\@TEXT_ID@<90>
 Neco_Arc
 With her innate sense of justice, and armed with
 infinite continues, she succeeded in driving back
 the strange vampire.
 \l
 
-\\@CHARA_IN@< 3, 53, 100, 0, 1>
+\\@CHARA_IN@< 3, 19, 110, 0, 1>
 \\@CHARA_EMOVE@<3, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10065", 100>
+\\@TEXT_ID@<100>
 Neco_Arc
 That's right.
 \l
 
-\\@CHARA_IN@< 3, 53, 108, 0, 1>
+\\@CHARA_IN@< 3, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10066", 100>
+\\@TEXT_ID@<110>
 Neco_Arc
 Indeed! Miyako was a master of bajiquan, 
 having trained in her grandfather's dojo!
@@ -138,6 +184,17 @@ having trained in her grandfather's dojo!
 
 \\@BGM_PLAY@<0, 74, 100>
 
+\\@NPC_LOAD_SYNC@<5, 3, 200, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 90>//shiki 眼鏡あり立ち
+
+\\@NPC_LOAD_SYNC@<4, 13, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 0>//miyako
+
+\\@NPC_LOAD_SYNC@<6, 8, 640, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<6, 0>//noel
 
 \\@CHARA_IN@< 0, 13, 17, 11, 0>
 \\@CHARA_IN@< 2, 3,  0, 11, 0>
@@ -145,8 +202,10 @@ having trained in her grandfather's dojo!
 \aw
 
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 8, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10001", 100>
+\\@TEXT_ID@<120>
 Noel
 So the rumors of you defeating the True Ancestor were true! 
 Or perhaps it was all thanks to glasses-boy's advice?
@@ -154,72 +213,92 @@ Or perhaps it was all thanks to glasses-boy's advice?
 
 \\@CHARA_IN@< 1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10002", 100>
+\\@TEXT_ID@<130>
 Noel
 No matter, I've been tasked with disposing of any 
 obstacles! Time to beat the both of you senseless!
 \l
 
+\\@CHARA_SET_PATTERN@<6, 6>//noel クスクス
 \\@CHARA_IN@< 1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10003", 100>
+\\@TEXT_ID@<140>
 Noel
 I'll get rid of the kid, send glasses-boy straight 
 in for processing, and then use my reward to move 
 into a high-rise penthouse!
 \l
 
+\\@CHARA_SET_PATTERN@<6, 70>//noel 喜ぶ
 \\@CHARA_IN@< 1, 8, 101, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10004", 100>
+\\@TEXT_ID@<150>
 Noel
 It looks like my time has finally come! If I play my
 cards right, this might even herald a heroine change!
 \l
 
+\\@CHARA_SET_PATTERN@<6, 13>
 \\@CHARA_IN@< 1, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10005", 100>
+\\@TEXT_ID@<160>
 Noel
 Also, c'mon now, you. The little girl role 
 was already filled before you got here.
 \l
 
+\\@CHARA_SET_PATTERN@<6, 79>
 \\@CHARA_IN@< 1, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10006", 100>
+\\@TEXT_ID@<170>
 Noel
 You know, that one. That super pissed, 
 yet super cute vampire who is as red a rose?
 \l
 
+\\@CHARA_SET_PATTERN@<6, 76>//noel えっへん
 \\@CHARA_IN@< 1, 8, 101, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe_10007", 100>
+\\@TEXT_ID@<180>
 Noel
 I believe she'd be quite popular in the role of 
 little girl! Maybe-I-should-become-a-vampire-too!
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10041", 100>
+\\@TEXT_ID@<190>
 Miyako
 Is this lady right in the head? She's human, right?
 Can I beat her up now?
 
+\\@CHARA_SET_PATTERN@<5, 26>//shiki 眼鏡うなずき（1回）
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10001", 100>
+\\@TEXT_ID@<200>
 Shiki
 Yeah, it's probably fine. From the sound of it, 
 she's beyond saving. Let's make sure this ominous
 future doesn't materalize.
 
+\\@CHARA_SET_PATTERN@<4,11>//miyako 構え→立ち
 \\@CHARA_IN@< 0, 13, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10042", 100>
+\\@TEXT_ID@<210>
 Miyako
 Gotcha! That's my brother for you! I've gotta take 
 out my rivals before they become a threat, right?!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//miyako 行くぞ！
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10043", 100>
+\\@TEXT_ID@<220>
 Miyako
 And that western spear of yours doesn't scare me!
 I will break it to pieces with my bajiquan!
@@ -227,3 +306,4 @@ I will break it to pieces with my bajiquan!
 
 \\@BGM_STOP@<0>
 \e
+

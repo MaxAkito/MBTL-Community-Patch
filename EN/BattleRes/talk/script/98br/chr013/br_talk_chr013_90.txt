@@ -17,34 +17,41 @@
 \\@SQ_CALL@<1>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10140", 100>
+\\@TEXT_ID@<10>
 Miyako
 Hyah! Hyah!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10141", 100>
+\\@TEXT_ID@<20>
 Miyako
 I don't remember when it happened, but a 
 suuuper distant goal had appeared before me.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10142", 100>
+\\@TEXT_ID@<30>
 Miyako
 It loomed impossibly tall above, like a massive, 
 impassable wall. I couldn't waste a moment of time sulking.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10143", 100>
+\\@TEXT_ID@<40>
 Miyako
 I had to get stronger!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10144", 100>
+\\@TEXT_ID@<50>
 Miyako
 Wait for me, Shiki! 
 Next time, we'll both order pancakes!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10145", 100>
+\\@TEXT_ID@<60>
 Miyako
 I wasn't sure why,
 but I feel like I still had a lot of time left.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10146", 100>
+\\@TEXT_ID@<70>
 Miyako
 On a summer day so hot that most people wouldn't dare go
 outside... I knew that's when my fate would be decided...
@@ -56,3 +63,4 @@ outside... I knew that's when my fate would be decided...
 \\@BGM_STOP@<0>
 
 \e
+

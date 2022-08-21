@@ -17,6 +17,7 @@
 \\@SQ_CALL@<1>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0030", 100>
+\\@TEXT_ID@<10>
 Arcueid
 *sigh* I've made all this fuss and he still 
 won't show himself. Does his current self have
@@ -24,6 +25,7 @@ more restraint than usual?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0031", 100>
+\\@TEXT_ID@<20>
 Arcueid
 Well, I've got no other choice but to search 
 the hard way. Hate how I have to go about it 
@@ -33,30 +35,35 @@ like a human would.
 \\@GO_SUB@<"QUAKE_1">
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0032", 100>
+\\@TEXT_ID@<30>
 Arcueid
 Oops, that was close.
 I almost fell!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0033", 100>
+\\@TEXT_ID@<40>
 Arcueid
 Strange... I don't come with pointless
 functions like tripping over rocks.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0034", 100>
+\\@TEXT_ID@<50>
 Arcueid
 Seems I still haven't recovered 
 from those wounds I got from Vlov.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0035", 100>
+\\@TEXT_ID@<60>
 Arcueid
 But what is this...?
 My heart is beating weirdly fast.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0036", 100>
+\\@TEXT_ID@<70>
 Arcueid
 Heheh, maybe it's a sign that I'll find
 Roa tomorrow. That'd be great.
@@ -68,3 +75,4 @@ Roa tomorrow. That'd be great.
 
 \\@BGM_STOP@<0>
 \e
+

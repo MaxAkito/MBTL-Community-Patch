@@ -1,20 +1,31 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg00", 0, 2>
+// \\@BG_IN@<"screen_bg00", 0, 2>
+\\@LOAD_BATTLE_BG@<90>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@BGM_PLAY@<0, 72, 100>
+\\@BGM_PLAY@<0, 61, 100>//コミカルでちょっと怪しげなBGM
 
-//＃トレーニング空間
+
+
+\\@NPC_LOAD_SYNC@<4, 13, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 7>//miyako 疲れた
+
+\\@NPC_LOAD_SYNC@<5, 19, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//neco
+\\@CHARA_SET_PATTERN@<5, 0>//neco
 
 \\@CHARA_IN@<0, 13, 3, 1, 0>
 \aw
 
+\\@SYSTEM@<121>
 \\@CHARA_IN@< 0, 13, 11, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10030", 100>
+\\@TEXT_ID@<10>
 Miyako
 I thought I was done for! 
 Why's it gotta be so hard right from the start?!
@@ -22,76 +33,96 @@ Why's it gotta be so hard right from the start?!
 
 \\@CHARA_IN@< 0, 13, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10031", 100>
+\\@TEXT_ID@<20>
 Miyako
 It's only the first day and that thing is what comes 
 attacking me! Is this really MY route?!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10032", 100>
+\\@TEXT_ID@<30>
 Miyako
 That's not something a grade-schooler like 
 me should be able to handle on their own!
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
-\\@CHARA_IN@< 2, 53, 100, 2, 0>
+\\@CHARA_IN@< 2, 19, 110, 2, 0>
 \aw
 
-\\@CHARA_IN@< 2, 53, 103, 0, 1>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 2, 19, 107, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10050", 100>
+\\@TEXT_ID@<40>
 Neco_Arc
 You know, I was just thinking the same.
 Unfortunately, Tsukihime is just that kind of story.
 \l
 
-\\@CHARA_IN@< 2, 53, 100, 0, 1>
+\\@CHARA_IN@< 2, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10051", 100>
+\\@TEXT_ID@<50>
 Neco_Arc
 That said, good job beating the first part of this unfair 
 game. I'm really being subsumed by the feelz right now.
 
 
-\\@CHARA_IN@< 2, 53, 110, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 38>//neco
+\\@CHARA_IN@< 2, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10052", 100>
+\\@TEXT_ID@<60>
 Neco_Arc
 Stand tall, kung fu China-girl! Y・O・U have just claimed 
 the right to overturn your fate through your own power!
 
+\\@CHARA_SET_PATTERN@<4,14>//miyako 立ち上がり
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10033", 100>
+\\@TEXT_ID@<70>
 Miyako
 ...!
 This dumb cat actually cares...
 
-\\@CHARA_IN@< 2, 53, 104, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 5>//neco
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 2, 19, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10053", 100>
+\\@TEXT_ID@<80>
 Neco_Arc
 Oh, does it not move your heart? Of course it does...
 A volunteer wouldn't have stuck around this long to help!
 \l
 
-\\@CHARA_IN@< 2, 53, 100, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 0>//neco
+\\@CHARA_IN@< 2, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10054", 100>
+\\@TEXT_ID@<90>
 Neco_Arc
 Now then, the real Miyako Route starts now so I 
 will be returning to my behind-the-scenes work.
 \l
 
-\\@CHARA_IN@< 2, 53, 108, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 35>//neco
+\\@CHARA_IN@< 2, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10055", 100>
+\\@TEXT_ID@<100>
 Neco_Arc
 I can't wait to see how this story unfolds! Destiny 
 waits for no-one! Keep on fighting, boys and girls!
 \l
 
-\\@CHARA_IN@< 2, 53, 0, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 1>
+\\@CHARA_IN@< 2, 19, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10056", 100>
+\\@TEXT_ID@<110>
 Neco_Arc
 Next time： Miyako Route - Day 3.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10057", 100>
+\\@TEXT_ID@<120>
 Neco_Arc
 “The Unknowable Assassin Who Has Been Hired By 
  The Main Villain! Shiki! Your homeroom teacher
@@ -99,6 +130,7 @@ Neco_Arc
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10058", 100>
+\\@TEXT_ID@<130>
 Neco_Arc
 See you soon!
 
@@ -108,3 +140,4 @@ See you soon!
 
 \\@SYSTEM@<10>
 \e
+

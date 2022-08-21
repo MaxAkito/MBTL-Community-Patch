@@ -1,19 +1,31 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg05", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<5>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+// \\@BG_IN@<"screen_bg05", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 17, 3, 1, 0>
-\\@CHARA_IN@<1, 8, 9, 2, 0>// 表情0で入ってくると違和感凄いので最初から真面目な表情で
+\\@NPC_LOAD_SYNC@<4, 17, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//mario
+\\@CHARA_SET_PATTERN@<4, 6>//mario
+
+\\@NPC_LOAD_SYNC@<5, 8, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<5, 80>//noel
+
+\\@CHARA_IN@<0, 17, 3, 11, 0>
+\\@CHARA_IN@<1, 8, 9, 12, 0>// 表情0で入ってくると違和感凄いので最初から真面目な表情で
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@<1, 8, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0010", 100>
+\\@TEXT_ID@<10>
 Noel
 Investigation target Shiki Tohno... 
 He is our perp, no doubt about it.
@@ -21,13 +33,16 @@ He is our perp, no doubt about it.
 
 \\@CHARA_IN@<1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0011", 100>
+\\@TEXT_ID@<20>
 Noel
 However, Executor Ciel has 
 yet to move in for his arrest.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 71>//noel
 \\@CHARA_IN@<1, 8, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0012", 100>
+\\@TEXT_ID@<30>
 Noel
 Quite the opposite... She's even been 
 patrolling the city TOGETHER with the target.
@@ -35,6 +50,7 @@ patrolling the city TOGETHER with the target.
 
 \\@CHARA_IN@<1, 8, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0013", 100>
+\\@TEXT_ID@<40>
 Noel
 In addition, not only is the True Ancestor active again,
 she has ALSO teamed up with Shiki Tohno for some reason.
@@ -42,13 +58,17 @@ she has ALSO teamed up with Shiki Tohno for some reason.
 
 \\@CHARA_IN@<1, 8, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0014", 100>
+\\@TEXT_ID@<50>
 Noel
 The Dead in town have mostly been taken care 
 of by Executor Ciel and the True Ancestor.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 72>//noel
+
 \\@CHARA_IN@<1, 8, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0015", 100>
+\\@TEXT_ID@<60>
 Noel
 Meaning, we can assume that Roa's 
 supply of blood is drying up fast...
@@ -56,45 +76,68 @@ supply of blood is drying up fast...
 
 \\@CHARA_IN@<1, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0016", 100>
+\\@TEXT_ID@<70>
 Noel
 That's how the current situation in Souya has unfolded,
 but uh... What ought we do, Acting Presbyter?
 
+
+\\@CHARA_SET_PATTERN@<4, 12>//mario
+
+\\@SYSTEM@<101>
+
+
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0050", 100>
+\\@TEXT_ID@<80>
 Mario
 Ain't much to do 'bout it. Shit sucks. Why are 
 there so many unexpected annoyances alluva sudden?
 \l
 
+
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0051", 100>
+\\@TEXT_ID@<90>
 Mario
 The Princess of the True Ancestors, one of the 27 Ancestors 
 outta nowhere, and then an elite from the Burial Agency 
 together with this useless fatass of a Sister...?
 
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 71>//noel
 \\@CHARA_IN@<1, 8, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0017", 100>
+\\@TEXT_ID@<100>
 Noel
 ...
 
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 15>//mario
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0052", 100>
+\\@TEXT_ID@<110>
 Mario
 Talk about bad fuckin' luck. With all this shit, 
 I'm almost starting to feel bad for Roa.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 16>//mario
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0053", 100>
+\\@TEXT_ID@<120>
 Mario
 Still, I don't got another chance. 
 Can't go worrying 'bout keepin' up appearances.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//mario
 \\@CHARA_IN@<0, 17, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0054", 100>
+\\@TEXT_ID@<130>
 Mario
 I'll figure somethin' out with Ciel.
 You make sure Shiki Tohno's safe.
@@ -102,25 +145,35 @@ You make sure Shiki Tohno's safe.
 
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0055", 100>
+\\@TEXT_ID@<140>
 Mario
 Got it? Keep him safe. No killing.
 \l
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0056", 100>
+\\@TEXT_ID@<150>
 Mario
 Even if looks like Roa's 'boutta take control of 
 the little shit you still just gotta keep protectin' 
 'em, by force if necessary.
 
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 77>//noel
+
 \\@CHARA_IN@<1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0018", 100>
+\\@TEXT_ID@<160>
 Noel
 I have keep him alive? But... not only is 
 he a non-believer, he's even the host of Roa!
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@<0, 17, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0057", 100>
+\\@TEXT_ID@<170>
 Mario
 Yeah. Shit's complicated.
 Still, he's got a lotta good in him.
@@ -128,6 +181,7 @@ Still, he's got a lotta good in him.
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0058", 100>
+\\@TEXT_ID@<180>
 Mario
 And by that, I don't mean that he's just a good kid.
 End of the day, he'll be useful no matter how fucked 
@@ -136,18 +190,27 @@ up he gets.
 
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0059", 100>
+\\@TEXT_ID@<190>
 Mario
 So I want him in my pocket. 
 He'll come to great use in... maybe 3 years?
 
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 72>//noel
 \\@CHARA_IN@<1, 8, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0019", 100>
+\\@TEXT_ID@<200>
 Noel
 Uh-huh?
 (What is this little shit talking about?)
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 15>//mario
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0060", 100>
+\\@TEXT_ID@<210>
 Mario
 Real problem is that princess he's gotten mixed up 
 with. I mean, she's bein' oddly eager about all this.
@@ -155,65 +218,98 @@ with. I mean, she's bein' oddly eager about all this.
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0061", 100>
+\\@TEXT_ID@<220>
 Mario
 If she just runs in there and takes care of Roa, 
 I'll end up right back where I started.
 We gotta stop her before that happens.
 
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 77>//noel
 \\@CHARA_IN@<1, 8, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0020", 100>
+\\@TEXT_ID@<230>
 Noel
 Oh, right. Crap.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 79>//noel
+
 \\@CHARA_IN@<1, 8, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0021", 100>
+\\@TEXT_ID@<240>
 Noel
 Executor Noel, reporting for duty!
 As per your orders, I'll go secure Shiki!
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 16>//mario
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0062", 100>
+\\@TEXT_ID@<250>
 Mario
 Dumbass. Ain't no way I'd send your incompetent ass
 out against a True Ancestor. But well, just being
 yourself's good enough for you.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//mario
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0063", 100>
+\\@TEXT_ID@<260>
 Mario
 Bein' cowardly and shameless are your strong points, 
 honestly. You're real good at runnin' at the first 
 sign of trouble. Keep that up.
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0022", 100>
+\\@TEXT_ID@<270>
 Noel
 I appreciate the kind advice!
 (Could this guy just please drop dead?!)
 \l
 
+\\@CHARA_SET_PATTERN@<5, 73>//noel
+
 \\@CHARA_IN@<1, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0023", 100>
+\\@TEXT_ID@<280>
 Noel
 But what about the True Ancestor?
 You can't just leave her be, right?
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 20>//mario
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0064", 100>
+\\@TEXT_ID@<290>
 Mario
 True. Thought about maybe hirin' a freelance mage,
 but I changed my mind. I'll deal with her myself.
 
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 77>//noel
+
 \\@CHARA_IN@<1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0024", 100>
+\\@TEXT_ID@<300>
 Noel
 Huh?! No way, you're gonna intervene directly?
 But you're the Acting Presbyter!
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 3>//mario
+
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0065", 100>
+\\@TEXT_ID@<310>
 Mario
 A lil' bit. If I don't exercise I'd get as 
 fat as you. Both physically, and mentally.
@@ -222,9 +318,11 @@ fat as you. Both physically, and mentally.
 \\@CHARA_OUT@<0, 17, 0, 0, 1>
 \\@CHARA_IN@<3, 17, 209, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0066", 100>
+\\@TEXT_ID@<320>
 Mario
 First though, guy's gotta get some warmup. 
 Ready up, fatass. I'll trim some of that weight offa ya.
 
 \\@BGM_STOP@<0>
 \e
+

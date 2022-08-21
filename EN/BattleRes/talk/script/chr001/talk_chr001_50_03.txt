@@ -1,8 +1,19 @@
-\\@BG_IN@<"screen_bg03", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>//îwåiÅ@åˆâÄ_ï¨êÖëO_ñÈ
+\\@FADE_IN@<0, 0, 0, 0, 0>
+
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 1, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//hisui
+\\@CHARA_SET_PATTERN@<4, 0>//hisui
+
+\\@NPC_LOAD_SYNC@<5, 0, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//arc
+\\@CHARA_SET_PATTERN@<5, 7>//arc
 
 \\@CHARA_IN@< 0, 1, 1, 1, 0>
 \\@CHARA_IN@< 1, 0, 0, 2, 0>
@@ -10,9 +21,12 @@
 
 \\@BGM_PLAY@<0, 74, 100>
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@< 1, 0, -1, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0000", 100>
+\\@TEXT_ID@<10>
 Arcueid
 Well, look who we have here!
 It's the maid who cleans Shiki's room!
@@ -20,14 +34,19 @@ It's the maid who cleans Shiki's room!
 
 \\@CHARA_IN@< 1, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0001", 100>
+\\@TEXT_ID@<20>
 Arcueid
 Yahoo! What brings you here so late? Humans wandering
 around here by themselves isn't all that safe, you know?
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 2>//hisui
 
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0020", 100>
+\\@TEXT_ID@<30>
 Hisui
 Good evening, Miss Arcueid. Thank you for
 your unexpected visit the other day.
@@ -35,12 +54,15 @@ your unexpected visit the other day.
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0021", 100>
+\\@TEXT_ID@<40>
 Hisui
 I have a message for you from Lady Akiha. 
 Do you wish to hear it?
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 0, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0002", 100>
+\\@TEXT_ID@<50>
 Arcueid
 A message from Shiki's sister? She could have just 
 told me herself. She's so proper sometimes.
@@ -48,13 +70,16 @@ told me herself. She's so proper sometimes.
 
 \\@CHARA_IN@< 1, 0, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0003", 100>
+\\@TEXT_ID@<60>
 Arcueid
 She knows she doesn't have to keep up appearances
 around just because she's around Shiki, right? 
 Oh well, what's the message?Å@
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0022", 100>
+\\@TEXT_ID@<70>
 Hisui
 ÅgI wish to express my utmost gratitude for how you turned
  the peaceful and pleasant conversation between me and my 
@@ -62,14 +87,19 @@ Hisui
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0023", 100>
+\\@TEXT_ID@<80>
 Hisui
 ÅgFor your next visit, I shall prepare an exlusive 
  guest room for you, so see to it that your affairs
  are well tended to beforehand.Åh
 
+\\@SYSTEM@<132>
+\\@CHARA_SET_PATTERN@<5, 32>//arc
+
 \\@CHARA_IN@< 1, 0, 12, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0004", 100>
+\\@TEXT_ID@<90>
 Arcueid
 Peaceful...
 (It was so silent you could hear a pin drop...)
@@ -77,19 +107,23 @@ Peaceful...
 
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0005", 100>
+\\@TEXT_ID@<100>
 Arcueid
 And pleasant?
 (...and the tension was so thick 
    you could cut it with a knife)
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0024", 100>
+\\@TEXT_ID@<110>
 Hisui
 By the way...
 \l
 
 \\@CHARA_IN@< 0, 1, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0025", 100>
+\\@TEXT_ID@<120>
 Hisui
 The guest room is designed to drop a 50cm thick wall
 of iron as soon as you enter, before being sunk into
@@ -98,6 +132,7 @@ the ocean for a trip to a submarine volcano.
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0026", 100>
+\\@TEXT_ID@<130>
 Hisui
 This custom-made guest room will be ready sometime
 next week, so the lady requests that you visit then.
@@ -105,27 +140,34 @@ next week, so the lady requests that you visit then.
 
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0027", 100>
+\\@TEXT_ID@<140>
 Hisui
 By the way...
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0028", 100>
+\\@TEXT_ID@<150>
 Hisui
 Master Shiki has gone out at night again, hence why I
 am looking for him. Would Miss Arcueid perhaps happen 
 to know anything about this?
 \l
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 37>//arc
+
 \\@CHARA_IN@< 1, 0, 0, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0006", 100>
+\\@TEXT_ID@<160>
 Arcueid
 I get the feeling she won't take no for an answer!
 \l
 
 \\@CHARA_IN@< 1, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc06_0007", 100>
+\\@TEXT_ID@<170>
 Arcueid
 I realize I'm not one to talk... 
 But given the times we live in, wouldn't you say 
@@ -133,3 +175,4 @@ that your household is a bit too... unsettling?
 
 \\@BGM_STOP@<0>
 \e
+

@@ -1,33 +1,49 @@
 \\@SYSTEM@<9999>
 \\@FADE_IN@<1, 0, 0, 0, 0>
 \aw
-\\@BG_IN@<"screen_bg10", 0, 0>
+// \\@BG_IN@<"screen_bg10", 0, 0>
+\\@LOAD_BATTLE_BG@<10>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
 
+
+
+\\@NPC_LOAD_SYNC@<5, 3, 100, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 90>//shiki
+
+\\@NPC_LOAD_SYNC@<4, 13,-100, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 0>//miyako
 
 \\@CHARA_IN@< 0, 13, 3, 1, 0>
 \\@CHARA_IN@< 2, 3, 0, 1, 0>
 \\@CHARA_FOCUS_COLOR@<-1,1>
 \aw
 
+\\@SYSTEM@<100>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10000", 100>
+\\@TEXT_ID@<10>
 Red_Arcueid@Red_Arcueid_Hatena
 Stop right there, little girl.
 Come any closer and I'll atomize you.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10030", 100>
+\\@TEXT_ID@<20>
 Shiki
 Wha--?! That voice!
 
+\\@CHARA_SET_PATTERN@<4, 3>//miyako ã¡Ç´
 \\@CHARA_IN@< 0, 13, 6, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10070", 100>
+\\@TEXT_ID@<30>
 Miyako
 What's that?! It looks like a tsunami is headed this way!
 
@@ -36,7 +52,10 @@ What's that?! It looks like a tsunami is headed this way!
 \\@GO_SUB@<"QUAKE_2">
 \\@SE_PLAY@<0, "talk/talk_se/Cmn_BombE", 0, 100>
 
-//âÊñ ÅAàÍíUäDêFÇ…
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+
+
 \\@CHARA_OUT@<0, 13, -1, 0, 0>
 \\@CHARA_OUT@<2, 3, -1, 0, 0>
 \\@BGM_FADE@<0, 100, 0, -2, 1>
@@ -45,22 +64,27 @@ What's that?! It looks like a tsunami is headed this way!
 \\@DRAW_EFFECT@<1>
 \aw
 
-\\@BGM_PLAY@<1, 72, 100>
+\\@BGM_PLAY@<1, 61, 100>//ÉRÉ~ÉJÉãÇ≈ÇøÇÂÇ¡Ç∆âˆÇµÇ∞Ç»BGM
 
-\\@CHARA_IN@< 3, 53,  0, 44, 0>
+\\@CHARA_IN@< 3, 19,  0, 44, 0>
 \\@CHARA_MUKI@<3,0>
 \aw
 
-\\@CHARA_IN@< 3, 53, -1, 0, 1>
+\\@SYSTEM@<100>
+\\@CHARA_IN@< 3, 19, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10090", 100>
+\\@TEXT_ID@<40>
 Neco_Arc
 The story so far!!
+
 
 \\@CHARA_IN@< 1, 10, 101, 2, 0>
 \aw
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 10, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10001", 100>
+\\@TEXT_ID@<50>
 Red_Arcueid
 Who cares about the story so far!
 
@@ -78,6 +102,17 @@ Who cares about the story so far!
 \\@DRAW_EFFECT@<0>
 \aw
 
+\\@NPC_LOAD_SYNC@<5, 3, 100, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 33>//shiki ä·ãæç¢òf
+
+\\@NPC_LOAD_SYNC@<4, 13,-100, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 3>//miyako ã¡Ç´
+
+\\@NPC_LOAD_SYNC@<6, 10, 720, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//warc
+\\@CHARA_SET_PATTERN@<6, 0>//warc
 
 \\@BGM_PLAY@<0, 74, 100>
 
@@ -85,20 +120,26 @@ Who cares about the story so far!
 \\@CHARA_IN@< 2, 3,  0, 11, 0>
 \aw
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 2, 3, 7, 0, 1>
 \\@CHARA_EMOVE@<2, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10031", 100>
+\\@TEXT_ID@<60>
 Shiki
 Uh-oh!
 
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10071", 100>
+\\@TEXT_ID@<70>
 Miyako
 Uh-oh!
 
+\\@CHARA_SET_PATTERN@<6, 10>
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10002", 100>
+\\@TEXT_ID@<80>
 Red_Arcueid
 What's wrong? Not gonna do the whole "Watch out, Miyako" 
 routine for your dear sister this round?
@@ -106,12 +147,14 @@ routine for your dear sister this round?
 
 \\@CHARA_IN@< 1, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10003", 100>
+\\@TEXT_ID@<90>
 Red_Arcueid
 I kinda liked that little intro myself, you know.
 \l
 
 \\@CHARA_IN@< 1, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10004", 100>
+\\@TEXT_ID@<100>
 Red_Arcueid
 I was hoping you'd let me hear it for myself. That's 
 why I went to the trouble of making that shockwave.
@@ -119,6 +162,7 @@ why I went to the trouble of making that shockwave.
 
 \\@CHARA_IN@< 1, 10, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10005", 100>
+\\@TEXT_ID@<110>
 Red_Arcueid
 You're both just standing there, faces frozen in fear.
 Boooring.
@@ -126,13 +170,16 @@ Boooring.
 
 \\@CHARA_IN@< 1, 10, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10006", 100>
+\\@TEXT_ID@<120>
 Red_Arcueid
 Is it really that odd to see me here? Oh wait, maybe
 you stupidly thought I wouldn't show up again, huh?
 
+\\@SYSTEM@<131>
 \\@CHARA_IN@< 2, 3, 7, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10032", 100>
+\\@TEXT_ID@<130>
 Shiki
 (Odd? I want to tell her it should be impossible,
  but she's right, that really was a bit stupid of me.)
@@ -140,20 +187,26 @@ Shiki
 
 \\@CHARA_IN@< 2, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10033", 100>
+\\@TEXT_ID@<140>
 Shiki
 (This is the Tohno mansion. Miyako is the one fighting.
  Anybody'd assume the last boss to be you know, HER.)
 \l
 
+\\@CHARA_SET_PATTERN@<5, 31>
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10034", 100>
+\\@TEXT_ID@<150>
 Shiki
 (Normally you'd take a hint and stay out of the way. 
  But this crazy woman is anything but normal!)
 
+\\@CHARA_SET_PATTERN@<6, 8>//warc ó]óT
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 10, 1, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10007", 100>
+\\@TEXT_ID@<160>
 Red_Arcueid
 I see you're starting to get it. Under normal 
 circumstances, I'd be satisfied with just being
@@ -162,6 +215,7 @@ a tutorial but...
 
 \\@CHARA_IN@< 1, 10, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10008", 100>
+\\@TEXT_ID@<170>
 Red_Arcueid
 It proved unexpectedly fun, but also a bit 
 disappointing, I guess? So this time I thought 
@@ -169,13 +223,16 @@ I'd play with you in this outfit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10009", 100>
+\\@TEXT_ID@<180>
 Red_Arcueid
 I get bored when the story is too easy to figure out
 anyway. Sometimes you need some forced drama, right?
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, -1, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10072", 100>
+\\@TEXT_ID@<190>
 Miyako
 No-no-no!
 I can't do this! No way!
@@ -183,16 +240,21 @@ I can't do this! No way!
 
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10073", 100>
+\\@TEXT_ID@<200>
 Miyako
 Let's get out of here, Shiki! 
 I honestly can't see myself defeating her again!
 
+\\@CHARA_SET_PATTERN@<6, 6>//warc í¥ëﬁã¸
 \\@CHARA_IN@< 1, 10, 6, 0, 10>
+//ÅóÇ†ÇÁÅAÇ∆ùXÇÀäÁ
 // Red_Arcueid
 \w<20>
 
+\\@CHARA_SET_PATTERN@<5, 20>//shiki ä·ãæêUÇËå¸Ç´
 \\@CHARA_IN@< 2, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10035", 100>
+\\@TEXT_ID@<210>
 Shiki
 Well...
 I suppose I can't fault you for that...
@@ -200,6 +262,7 @@ I suppose I can't fault you for that...
 
 \\@CHARA_IN@< 2, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10036", 100>
+\\@TEXT_ID@<220>
 Shiki
 If it were anybody else, then maybe. 
 But even I can't handle this one... 
@@ -208,6 +271,7 @@ Mostly because I still feel a bit bad, but...
 
 \\@CHARA_IN@< 2, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10037", 100>
+\\@TEXT_ID@<230>
 Shiki
 Are you sure you want to run? That would mean
 giving up on being the main heroine, you know?
@@ -216,42 +280,54 @@ giving up on being the main heroine, you know?
 \\@CHARA_IN@< 2, 3, 4, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10038", 100>
+\\@TEXT_ID@<240>
 Shiki
 Seems like kind of a waste. I mean you've already 
 come this far in your battle against destiny.
 
+\\@CHARA_SET_PATTERN@<4, 2>
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10074", 100>
+\\@TEXT_ID@<250>
 Miyako
 Ugh! You're right!
 I nearly forgot!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//miyako çsÇ≠ÇºÅI
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10075", 100>
+\\@TEXT_ID@<260>
 Miyako
 She's not the real enemy! 
 I'm here to defeat my own cowardice!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 6>//miyako YES
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10076", 100>
+\\@TEXT_ID@<270>
 Miyako
 You always know just what to say, Shiki!
 Thanks for the motivation!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 5>//miyako ÉIÉX
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10077", 100>
+\\@TEXT_ID@<280>
 Miyako
 My greatest foe! Here I come! 
 But... please try to go easy on me!
 
+\\@CHARA_SET_PATTERN@<6, 12>//warc Ç†ÇÕÇÕÇÕÇÕ
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 10, 8, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10010", 100>
+\\@TEXT_ID@<290>
 Red_Arcueid
 Now that's more like it! 
 Bravery is what you'll need going up against Goliath.
@@ -259,9 +335,11 @@ Bravery is what you'll need going up against Goliath.
 
 \\@CHARA_IN@< 1, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10011", 100>
+\\@TEXT_ID@<300>
 Red_Arcueid
 I suppose I'll just have to see for myself how much
 you've improved. As cruelly as I can, of course!
 
 \\@BGM_STOP@<0>
 \e
+

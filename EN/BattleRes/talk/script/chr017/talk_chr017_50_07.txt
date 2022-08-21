@@ -1,11 +1,15 @@
 \\@SYSTEM@<9999>
-\\@TALK_IN@<>
-\\@BG_IN@<"screen_bg06", 0, 2>//最初は地下墓地を表示
-\aw
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+// \\@BG_IN@<"screen_bg06", 0, 2>//最初は地下墓地を表示
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<5, 15, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//aoko
+\\@CHARA_SET_PATTERN@<5, 3>//aoko
 
 \\@CHARA_IN@<1, 15, 1, 2, 0>
 \\@CHARA_MUKI@<1,1>
@@ -13,9 +17,12 @@
 
 \\@BGM_PLAY@<0, 76, 100>
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0060", 100>
+\\@TEXT_ID@<10>
 Aoko
 Vampire extermination, complete! ☆ 
 Not to mention the Workshop, blown to smithereens! ☆
@@ -25,13 +32,17 @@ Not to mention the Workshop, blown to smithereens! ☆
 \\@SE_PLAY@<1, "talk/talk_se/Cmn_BombB", 0, 100>
 \w<180>
 
-// ステージ　地下爆心地にできる？
-\\@BG_CLEAR@<>// 背景を消去
-\\@BG_IN@<"screen_bg09", 0, 2, 0>//MEMORY用に背景を表示
 
-//ホワイトアウト中に表情変更
+\\@BG_CLEAR@<>// 背景を消去
+
+\\@LOAD_BATTLE_BG@<9>
+// \\@BG_IN@<"screen_bg09", 0, 2, 0>//MEMORY用に背景を表示
+
+
 \\@CHARA_IN@<1, 15, 7, 0, 1>
 \\@CHARA_MUKI@<1,1>
+
+\\@CHARA_SET_PATTERN@<5, 4>//aoko
 
 \\@FADE_IN@<0, 255, 255, 255, 0>
 \aw
@@ -39,17 +50,25 @@ Not to mention the Workshop, blown to smithereens! ☆
 \\@CHARA_IN@<1, 15, 7, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0061", 100>
+\\@TEXT_ID@<20>
 Aoko
 Ahh, the air feels so much fresher when you've been out
 doing good. Ventilation is pretty good now too, awesome!
 
 \\@BGM_PLAY@<0, 74, 100>
 
+\\@SYSTEM@<121>
+
+\\@NPC_LOAD_SYNC@<4, 17, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//mario
+\\@CHARA_SET_PATTERN@<4, 6>//mario
+
 \\@CHARA_IN@<0, 17, 3, 1, 0>
 \aw
 
 \\@CHARA_IN@<0, 17, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0090", 100>
+\\@TEXT_ID@<30>
 Mario
 "Awesome" my fuckin' ass!
 What the hell do you think you're doing?!
@@ -57,30 +76,40 @@ What the hell do you think you're doing?!
 
 \\@CHARA_IN@<0, 17, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0091", 100>
+\\@TEXT_ID@<40>
 Mario
 Not ONLY did you fuckin' straight up kill Roa, 
 but you even blew up his goddamn Workshop too!!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 16>//mario
+
 \\@CHARA_IN@<0, 17, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0092", 100>
+\\@TEXT_ID@<50>
 Mario
 Which fuckin' mage are you? State your affiliations, 
 right now! I'll go sue 'em with the whole goddamn 
 Church behind me!
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 2>//aoko
+
 \\@CHARA_IN@<1, 15, 2, 0, 1>
 \\@CHARA_MUKI@<1,1>
 \\@CHARA_FACE@<1,2,5,200>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0062", 100>
+\\@TEXT_ID@<60>
 Aoko
 Affiliations? You mean like factions and stuff?
 Sorry, but I'm not part of the Mages Association.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 16>//aoko
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0063", 100>
+\\@TEXT_ID@<70>
 Aoko
 My name's Aoko Aozaki. I'm a freelancing
 jack-of-all-trades. Nice to meet you!
@@ -89,6 +118,7 @@ jack-of-all-trades. Nice to meet you!
 \\@CHARA_IN@<1, 15, 5, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0064", 100>
+\\@TEXT_ID@<80>
 Aoko
 I have a friend I got to know here sometime ago, 
 so I just kinda felt like checking up on them 
@@ -98,21 +128,27 @@ all of a sudden.
 \\@CHARA_IN@<1, 15, 5, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0065", 100>
+\\@TEXT_ID@<90>
 Aoko
 I took a little look and found a vampire had taken 
 root in the city. Might've been a bit nosy of me, 
 but I still took care of it.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 9>//aoko
 \\@CHARA_IN@<1, 15, 6, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0066", 100>
+\\@TEXT_ID@<100>
 Aoko
 And that's the story so far.
+\l
 
+\\@CHARA_SET_PATTERN@<5, 8>//aoko
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0067", 100>
+\\@TEXT_ID@<110>
 Aoko
 Do we have a problem, Acting Presbyter Mario?
 Exterminating vampires is what you people do, isn't it?
@@ -121,21 +157,29 @@ Exterminating vampires is what you people do, isn't it?
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0068", 100>
+\\@TEXT_ID@<120>
 Aoko
 Shouldn't you be thanking me
 instead of acting all annoyed and stuff?
 \l
 
+// \\@CHARA_SET_PATTERN@<5, 8>//aoko
+
 \\@CHARA_IN@<1, 15, 6, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0069", 100>
+\\@TEXT_ID@<130>
 Aoko
 Unless... you were, I don't know, planning on 
 collecting the Dead Apostle's research and keeping 
 it for yourself?
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 6>//mario
+
 \\@CHARA_IN@<0, 17, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0093", 100>
+\\@TEXT_ID@<140>
 Mario
 Aoko... Aozaki...!
 Which fuckin' organization put you up to this?!
@@ -143,13 +187,17 @@ Which fuckin' organization put you up to this?!
 
 \\@CHARA_IN@<0, 17, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0094", 100>
+\\@TEXT_ID@<150>
 Mario
 Who the hell is it that's dumb enough to think they 
 can take my prey from right under my goddamn nose?!
 
+\\@CHARA_SET_PATTERN@<5, 2>//aoko
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 15, 2, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0070", 100>
+\\@TEXT_ID@<160>
 Aoko
 Huh? Oh no, it really was just a coincidence, honest.
 Thought I'd help out by playing superhero for a bit.
@@ -158,6 +206,7 @@ Thought I'd help out by playing superhero for a bit.
 \\@CHARA_IN@<1, 15, 4, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0071", 100>
+\\@TEXT_ID@<170>
 Aoko
 Although, I did have one little tip-off.
 Old Zelretch gave me a call.
@@ -166,6 +215,7 @@ Old Zelretch gave me a call.
 \\@CHARA_IN@<1, 15, 5, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0072", 100>
+\\@TEXT_ID@<180>
 Aoko
 He said that if you and Roa struck a deal then 
 things would go pretty badly for all of us.
@@ -174,12 +224,15 @@ things would go pretty badly for all of us.
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0073", 100>
+\\@TEXT_ID@<190>
 Aoko
 But he never told me exactly what it was that 
 would go so "badly". So you know, given that...
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 17, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0095", 100>
+\\@TEXT_ID@<200>
 Mario
 ...You'd rather take out one of the concerned 
 parties before anything could happen... 
@@ -188,6 +241,7 @@ You act like a goddamn troll.
 
 \\@CHARA_IN@<0, 17, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0096", 100>
+\\@TEXT_ID@<210>
 Mario
 Still, the accused shall face punishment...
 I can see what you're thinkin' there.
@@ -195,20 +249,26 @@ I can see what you're thinkin' there.
 
 \\@CHARA_IN@<0, 17, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0097", 100>
+\\@TEXT_ID@<220>
 Mario
 Had my deal with Roa actually come to pass, I'd've 
 probably been fine with handing over the city to him.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 13>//mario
 \\@CHARA_IN@<0, 17, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0098", 100>
+\\@TEXT_ID@<230>
 Mario
 So what's next? Now that you've prevented any further 
 casualties, what's on the agenda for Miss Superhero?
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 9>//aoko
 \\@CHARA_IN@<1, 15, 4, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0074", 100>
+\\@TEXT_ID@<240>
 Aoko
 Well, I was planning on heading home.
 But I don't think I can do that right now.
@@ -217,14 +277,18 @@ But I don't think I can do that right now.
 \\@CHARA_IN@<1, 15, 6, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0075", 100>
+\\@TEXT_ID@<250>
 Aoko
 Might be overdoing it with the altruism here, 
 but well, I've already gotten this far.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 16>//aoko
+
 \\@CHARA_IN@<1, 15, 0, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0076", 100>
+\\@TEXT_ID@<260>
 Aoko
 There's one more person I need to give a lecture to
 if I want to get rid of the problem once and for all.
@@ -233,20 +297,27 @@ if I want to get rid of the problem once and for all.
 \\@CHARA_IN@<1, 15, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0077", 100>
+\\@TEXT_ID@<270>
 Aoko
 Besides, you're a good guy at heart.
 Someone who'd do anything if it's for the right cause.
 
+
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 17, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0099", 100>
+\\@TEXT_ID@<280>
 Mario
 You ain't wrong, magician.
 But also, I'm pretty damn stubborn.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 14>//mario
+
 \\@CHARA_OUT@<0, 17, 0, 0, 1>
 \\@CHARA_IN@<3, 17, 200, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0100", 100>
+\\@TEXT_ID@<290>
 Mario
 Let me get a few blows in, will ya? Enough that 
 it'll hurt. If you don't, I dunno if my 
@@ -254,3 +325,4 @@ stubbornness will let this shit go.
 
 \\@BGM_STOP@<0>
 \e
+

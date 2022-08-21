@@ -1,8 +1,21 @@
-\\@BG_IN@<"screen_bg05", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<5>//背景　路地裏
+\\@FADE_IN@<0, 0, 0, 0, 0>
+
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
 \aw
+
+//\\@SYSTEM@<1>
+
+\\@NPC_LOAD_SYNC@<4, 0, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//arc
+\\@CHARA_SET_PATTERN@<4, 32>//arc
+
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<5, 8,  320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<5, 1>//noel
 
 \\@CHARA_IN@<0, 0, 0, 1, 0>
 \\@CHARA_IN@<1, 8, 0, 2, 0>
@@ -11,60 +24,80 @@
 \\@BGM_PLAY@<0, 74, 100>
 
 \\@GO_SUB@<"QUAKE_1">
+
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0000", 100>
+\\@TEXT_ID@<10>
 Noel
 Whoa! A True Ancestor?! Wait-wait-wait!
 This isn't part of my job description!
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 2>//arc
 \\@CHARA_IN@< 0, 0, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0010", 100>
+\\@TEXT_ID@<20>
 Arcueid
 An Executor of the Church...? I'm impressed you've
 survived up until now with your capabilities.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 13>//arc
+
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0011", 100>
+\\@TEXT_ID@<30>
 Arcueid
 I doubt you'll prove much trouble,
 so I could pretend I never saw you, but...
 \l
 
+\\@CHARA_SET_PATTERN@<4, 7>//arc
+
 \\@CHARA_IN@< 0, 0, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0012", 100>
+\\@TEXT_ID@<40>
 Arcueid
 Yeah. You reek of someone I happen to hate!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0013", 100>
+\\@TEXT_ID@<50>
 Arcueid
 Guess I'll get rid of you after all!
 
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 2>//noel
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 1, 8, 5, 22, 2>
 \aw
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0001", 100>
+\\@TEXT_ID@<60>
 Noel
 Eeep! Wait! You've got the wrong person!
 Our names are similar, but our personalities
 are complete opposites!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 9>//arc
+
 \\@CHARA_IN@< 0, 0, 9, 0, 1>
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0002", 100>
+\\@TEXT_ID@<70>
 Noel
 Oh no, the True Ancestor has 
 already made up her mind about this!
 \l
 
+\\@CHARA_SET_PATTERN@<5, 3>//noel
 \\@CHARA_IN@< 1, 8, 4, 32, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0003", 100>
+\\@TEXT_ID@<80>
 Noel
 Ugh, if that's the case, so be it! But don't 
 underestimate how strong even an unsightly 
@@ -72,3 +105,4 @@ nobody can be!
 
 \\@BGM_STOP@<0>
 \e
+

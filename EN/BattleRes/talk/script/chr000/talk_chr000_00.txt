@@ -1,19 +1,29 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg04", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<4>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 0, 0, 44, 0>
+// \\@SYSTEM@<1>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 0, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//arc
+\\@CHARA_SET_PATTERN@<4, 16>//arc
+
+\\@CHARA_IN@<0, 0, 0, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0000", 100>
+\\@TEXT_ID@<10>
 Arcueid
 Unbelievable. Talk about a conversion. Why would a 
 priest pick this Far East island to reincarnate?
@@ -21,6 +31,7 @@ priest pick this Far East island to reincarnate?
 
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0001", 100>
+\\@TEXT_ID@<20>
 Arcueid
 Did you discover some really interesting conditions
 here perhaps? Oh well, it doesn't really concern me.
@@ -28,6 +39,7 @@ here perhaps? Oh well, it doesn't really concern me.
 
 \\@CHARA_IN@< 0, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0002", 100>
+\\@TEXT_ID@<30>
 Arcueid
 It's a small city; it won't even take 3 days to 
 smoke him out. Just you wait, Roa. I'll take care
@@ -35,3 +47,4 @@ of you in no time.
 
 \\@BGM_STOP@<0>
 \e
+

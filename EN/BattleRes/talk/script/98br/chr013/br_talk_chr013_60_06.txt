@@ -1,16 +1,26 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg01", 0, 2>
+// \\@BG_IN@<"screen_bg01", 0, 2>
+\\@LOAD_BATTLE_BG@<1>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@BGM_PLAY@<0, 76, 100>
+
+\\@NPC_LOAD_SYNC@<4, 13,-320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 6>//miyako YES
+
+\\@NPC_LOAD_SYNC@<5, 2, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//akiha
+\\@CHARA_SET_PATTERN@<5, 90>//akiha ‘Ò‹@
 
 \\@CHARA_IN@< 0, 13, 3, 1, 0>
 \\@CHARA_IN@< 1, 2, 0, 2, 0>
 \aw
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 15, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 \aw
@@ -18,6 +28,7 @@
 \aw
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10090", 100>
+\\@TEXT_ID@<10>
 Miyako
 Yay! I did it!
 I won!
@@ -25,19 +36,24 @@ I won!
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10091", 100>
+\\@TEXT_ID@<20>
 Miyako
 It was tougher than I expected, 
 but compared to that last lady she wasn't so bad!
 
+\\@CHARA_SET_PATTERN@<5, 101>//akiha
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 2, 3, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10010", 100>
+\\@TEXT_ID@<30>
 Akiha
 I concede defeat, Miyako Arima. It seems I was
 the one who made the wrong assessment here...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10011", 100>
+\\@TEXT_ID@<40>
 Akiha
 Even considering how it seemed like you were being 
 spurned on by some odd mystical power to achieve 
@@ -46,6 +62,7 @@ that level of physicality...
 
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10012", 100>
+\\@TEXT_ID@<50>
 Akiha
 You still managed to defeat me after 
 I let my hair down for real. However...
@@ -56,48 +73,61 @@ I let my hair down for real. However...
 \\@FADE_OUT@<2, 0, 0, 0, 0>
 \\@CHARA_IN@< 1, 2, 7, 0, 1>
 
+\\@CHARA_SET_PATTERN@<4, 3>//miyako ‹Á‚«
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10092", 100>
+\\@TEXT_ID@<60>
 Miyako
 What...?
 
+\\@CHARA_SET_PATTERN@<5, 102>//akiha
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 2, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10013", 100>
+\\@TEXT_ID@<70>
 Akiha
 Fighting for real and fighting to adjust 
 my level are two entirely different things.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10014", 100>
+\\@TEXT_ID@<80>
 Akiha
 My level from just now I'd count as one finger. And 
 that vampire that was outside I'd count as five, so...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10015", 100>
+\\@TEXT_ID@<90>
 Akiha
 How many fingers do you think 
 my level goes up to, I wonder?
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10093", 100>
+\\@TEXT_ID@<100>
 Miyako
 Uh... oh....
 
-\\@FADE_OUT@<1, 255, 0, 0, 0>
+\\@FADE_OUT@<1, 170, 0, 30, 0>
 \w<25>
 \\@SQ_CALL@<1>
 \\@SE_PLAY@<0, "talk/talk_se/Hit_BurningLong", 0, 100>
 \aw
 
+\\@SYSTEM@<100>
 \\@CHARA_IN@< 1, 2, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10016", 100>
+\\@TEXT_ID@<110>
 Akiha
 It's as if the curtain is coming down on the world
 itself, don't you think? To you, that's what I am.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10017", 100>
+\\@TEXT_ID@<120>
 Akiha
 Farewell, Miyako Arima. Had you not held a dream 
 so lofty you would've never become aware of how 
@@ -106,6 +136,9 @@ lacking you really are.
 \\@BGM_FADE@<1,-1,0,-3,1>
 \\@FADE_OUT@<0, 0, 0, 0, 0>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
 
 \\@CHARA_OUT@< 0, -1, -1, 0, 0>
 \\@CHARA_OUT@< 1, -1, -1, 0, 0>
@@ -123,3 +156,4 @@ lacking you really are.
 
 \w<420>
 \e
+

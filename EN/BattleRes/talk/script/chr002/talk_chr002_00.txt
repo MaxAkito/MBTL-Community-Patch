@@ -1,51 +1,68 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg01", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<1>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+// \\@BG_IN@<"screen_bg01", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 2, 0, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 2, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//akiha
+\\@CHARA_SET_PATTERN@<4, 90>//akiha
+
+\\@CHARA_IN@<0, 2, 0, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 2, 3, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0000", 100>
+\\@TEXT_ID@<10>
 Akiha
-*sigh* This cold is almost making me break out in hives.
-It's getting on my nerves.
 \l
 
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0001", 100>
+\\@TEXT_ID@<20>
 Akiha
-I don't know who this Mixblood could be, but do they
-really think they can just go around doing as they
-like without MY permission?
+Who does this impure creature think they are, doing
+whatever they please without my leave?
 \l
+
+\\@CHARA_SET_PATTERN@<4, 105>//akiha
 
 \\@CHARA_IN@< 0, 2, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0002", 100>
+\\@TEXT_ID@<30>
 Akiha
-It's almost as if they're asking to be killed, no?
+It's as if they are asking me to reach out and snap
+their neck like a twig.
 \l
+
+\\@CHARA_SET_PATTERN@<4, 106>//akiha
 
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0003", 100>
+\\@TEXT_ID@<40>
 Akiha
-And it would appear Shiki has gone off on his own again.
+And it would appear Shiki has gone off
+on his own again.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 11>//akiha
 \\@CHARA_IN@< 0, 2, 202, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0004", 100>
+\\@TEXT_ID@<50>
 Akiha
-Perhaps I could teach this outsider a lesson if I 
-have to venture out and bring Shiki home anyways.
+Perhaps I will teach this outsider a lesson on my way
+to bring him home.
 
 
 \\@BGM_STOP@<0>
 \e
+

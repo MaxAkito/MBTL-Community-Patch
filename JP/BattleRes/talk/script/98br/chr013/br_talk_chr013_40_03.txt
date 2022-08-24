@@ -30,7 +30,7 @@
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10010", 100>
-\\@TEXT_ID@<10>
+
 Shiki
 あぶない都古ちゃん！
 頭上から１メートル大の氷塊が！
@@ -38,7 +38,7 @@ Shiki
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10050", 100>
-\\@TEXT_ID@<20>
+
 Miyako
 ひょ、ひょうかい！？　夏なのに！？
 とと、とにかく、てやーーーーっ！
@@ -69,7 +69,7 @@ Miyako
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, 4, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10000", 100>
-\\@TEXT_ID@<30>
+
 Volv@Volv_Fuyu
 ……おれのプレゼントを、正面から粉砕するとは。
 ……酷い街だ。無惨、ここに極まったな。
@@ -96,14 +96,14 @@ Volv@Volv_Fuyu
 
 \\@SYSTEM@<100>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10070", 100>
-\\@TEXT_ID@<40>
+
 Neco_Arc
 ～これまでのあらすじ～
 \l
 
 \\@CHARA_IN@< 3, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10071", 100>
-\\@TEXT_ID@<50>
+
 Neco_Arc
 凄腕の暗殺者、ノエルを倒した都古。
 しかし平穏は１０分しか続かなかった。
@@ -111,21 +111,21 @@ Neco_Arc
 
 \\@CHARA_IN@< 3, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10072", 100>
-\\@TEXT_ID@<60>
+
 Neco_Arc
 新たに現れた、遠野志貴を狙う吸血怪人。
 その名はマロース。冬将軍マロース。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10073", 100>
-\\@TEXT_ID@<70>
+
 Neco_Arc
 三咲町にドチャクソな寒波が訪れる。
 \l
 
 \\@CHARA_IN@< 3, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10074", 100>
-\\@TEXT_ID@<80>
+
 Neco_Arc
 このままではかき氷の売り上げは低下し、
 海の家は大量の《在庫＜やきそば＞を抱えるだろう。
@@ -133,7 +133,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 3, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10075", 100>
-\\@TEXT_ID@<90>
+
 Neco_Arc
 夏の風物詩を、そしてオニイチャンとの
 サマー・バカンスの可能性を守るため、
@@ -141,7 +141,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 3, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10076", 100>
-\\@TEXT_ID@<100>
+
 Neco_Arc
 いま、都古の秘められた真の力が覚醒する……！
 
@@ -176,14 +176,14 @@ Neco_Arc
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, -1, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10001", 100>
-\\@TEXT_ID@<110>
+
 Volv@Volv_Fuyu
 ……大抵の痛みには慣れたつもりだが。
 \l
 
 \\@CHARA_SET_PATTERN@<6, 11>//vlov ため息
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10002", 100>
-\\@TEXT_ID@<120>
+
 Volv@Volv_Fuyu
 ……純真な少女の受け取り拒否を直に見るのは、
 いくつになっても堪えるものだ……。
@@ -191,7 +191,7 @@ Volv@Volv_Fuyu
 
 \\@CHARA_IN@< 1, 9, 4, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10003", 100>
-\\@TEXT_ID@<130>
+
 Volv@Volv_Fuyu
 おれなりに、流行り物を押さえたつもりだが……。
 
@@ -200,7 +200,7 @@ Volv@Volv_Fuyu
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10051", 100>
-\\@TEXT_ID@<140>
+
 Miyako
 あー！　よく見たら氷の中に何か入ってるーー！
 えーと、これは……
@@ -208,7 +208,7 @@ Miyako
 \\@CHARA_SET_PATTERN@<5, 27>//shiki 眼鏡うなずき（2回）
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10011", 100>
-\\@TEXT_ID@<150>
+
 Shiki
 カードゲームのエクステンドパックだね。
 でもこれ、レギュレーション的に二世代ほど前のヤツだよ。
@@ -217,7 +217,7 @@ Shiki
 \\@CHARA_SET_PATTERN@<5, 28>//shiki 眼鏡ため息
 \\@CHARA_IN@< 2, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10012", 100>
-\\@TEXT_ID@<160>
+
 Shiki
 使い道はほぼないかなあ。
 まあ、コレクターなら取っておきたいかもだけど。
@@ -227,7 +227,7 @@ Shiki
 \\@CHARA_SET_PATTERN@<4,11>//miyako 構え→立ち
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10052", 100>
-\\@TEXT_ID@<170>
+
 Miyako
 そうなんだー。
 すてきなイラストがいっぱい描かれてるのにねー。
@@ -236,7 +236,7 @@ Miyako
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, 2, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10004", 100>
-\\@TEXT_ID@<180>
+
 Volv@Volv_Fuyu
 …………ソレジャナイ……のか？
 おれの《土地＜くに＞では……それが……最新だと……
@@ -246,7 +246,7 @@ Volv@Volv_Fuyu
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10013", 100>
-\\@TEXT_ID@<190>
+
 Shiki
 \\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
 \\@EMG_PRINT@<"特別意訳：どこの地方のデュエリストですか？", 102, 1130, 670>
@@ -261,7 +261,7 @@ Shiki
 \\@CHARA_IN@< 1, 9, 6, 0, 101>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10005", 100>
-\\@TEXT_ID@<200>
+
 Volv@Volv_Fuyu
 お―――
 おおぉおおおォオオオオオオオ……！！！！
@@ -271,7 +271,7 @@ Volv@Volv_Fuyu
 \\@CHARA_IN@< 0, 13, 5, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10053", 100>
-\\@TEXT_ID@<210>
+
 Miyako
 ひゃあああ！？
 とと、とつぜんなんでしょーか、マロースさん！？
@@ -280,14 +280,14 @@ Miyako
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, 5, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10006", 100>
-\\@TEXT_ID@<220>
+
 Volv@Volv_Fuyu
 その男はいま、触れてはならない闇に触れた。
 流通？　流通だと？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10007", 100>
-\\@TEXT_ID@<230>
+
 Volv@Volv_Fuyu
 おれの《土地＜くに＞は郵便すら半年遅れで届く魔境。
 いわんや、当日届きの通販など夢のまた夢。
@@ -295,7 +295,7 @@ Volv@Volv_Fuyu
 
 \\@CHARA_IN@< 1, 9, 1, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10008", 100>
-\\@TEXT_ID@<240>
+
 Volv@Volv_Fuyu
 都会の人間どもはこれだから度しがたい。
 ……やはり、この街は死に絶えねばならん。
@@ -304,7 +304,7 @@ Volv@Volv_Fuyu
 \\@CHARA_SET_PATTERN@<6, 4>//vlov いくぞ！
 \\@CHARA_IN@< 1, 9, 2, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10009", 100>
-\\@TEXT_ID@<250>
+
 Volv@Volv_Fuyu
 おれは冬将軍マロース。
 またの名を怪人サンタクロース。
@@ -312,7 +312,7 @@ Volv@Volv_Fuyu
 
 \\@CHARA_IN@< 1, 9, 5, 0, 101>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo_10010", 100>
-\\@TEXT_ID@<260>
+
 Volv@Volv_Fuyu
 吹雪に埋もれた交通網を見て、今まで
 どれほど恵まれた環境にいたのかを思い知るがいい！
@@ -321,7 +321,7 @@ Volv@Volv_Fuyu
 \\@CHARA_IN@< 0, 13, 6, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10054", 100>
-\\@TEXT_ID@<270>
+
 Miyako
 ひゃーー！？　気持ちはわかるけど、
 サンタクロースが言っていいセリフじゃないよね！？

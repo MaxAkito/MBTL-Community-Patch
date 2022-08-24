@@ -32,7 +32,7 @@
 
 \\@CHARA_IN@< 1, 0, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0130", 100>
-\\@TEXT_ID@<10>
+
 Arcueid
 あー、もー！！　これ以上シエルと
 やり合ってもおもしろくなーい！
@@ -40,14 +40,14 @@ Arcueid
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0131", 100>
-\\@TEXT_ID@<20>
+
 Arcueid
 追い詰めるとビュンビュン逃げ回って！
 いいかげん降参しなさいよね！
 
 \\@CHARA_IN@< 0, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0130", 100>
-\\@TEXT_ID@<30>
+
 Ciel
 そのセリフ、
 そっくり貴女にお返しします！
@@ -58,7 +58,7 @@ Ciel
 \\@CHARA_SET_PATTERN@<5, 199>//arc クロスカウンター
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0131", 100>
-\\@TEXT_ID@<40>
+
 Ciel
 ずっと日なたにいて、
 どうしてこんなに元気なんです、か！
@@ -69,14 +69,14 @@ Ciel
 \\@CHARA_SET_PATTERN@<6, 30>//shiki
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0310", 100>
-\\@TEXT_ID@<50>
+
 Shiki
 はい、そこまで、そこまでーー！
 ふたりとも大丈夫か！？
 
 \\@CHARA_IN@< 1, 0, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0132", 100>
-\\@TEXT_ID@<60>
+
 Arcueid
 ぜんぜん大丈夫じゃなーい！
 めっちゃクラクラするんですけどぉ！
@@ -84,7 +84,7 @@ Arcueid
 
 \\@CHARA_IN@< 0, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0132", 100>
-\\@TEXT_ID@<70>
+
 Ciel
 わたしも同じく、です……
 ちょっと、動けそうにありません……。
@@ -96,7 +96,7 @@ Ciel
 
 \\@CHARA_IN@< 1, 0, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0133", 100>
-\\@TEXT_ID@<80>
+
 Arcueid
 ふーんだ。シエルなんてこのまま
 死者のエサにでもなればいいのよ。
@@ -104,7 +104,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<6, 31>//shiki
 \\@CHARA_IN@< 0, 3, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0311", 100>
-\\@TEXT_ID@<90>
+
 Shiki
 ばか。死者が人を食ってたら、
 それこそアルクェイドの仕事だろ。
@@ -113,7 +113,7 @@ Shiki
 
 \\@CHARA_IN@< 0, 3, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0312", 100>
-\\@TEXT_ID@<100>
+
 Shiki
 まあ当然、おまえのおかげで
 そんな物騒な話はないけどな。
@@ -123,7 +123,7 @@ Shiki
 
 \\@CHARA_IN@< 1, 0, 20, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0134", 100>
-\\@TEXT_ID@<110>
+
 Arcueid
 ……もう。
 志貴のそういうところ、ほーんとズルい。
@@ -132,7 +132,7 @@ Arcueid
 
 \\@CHARA_IN@< 1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0135", 100>
-\\@TEXT_ID@<120>
+
 Arcueid
 シエル。今日のところは志貴を貸してあげるけど、
 後始末はしといてよね。
@@ -140,35 +140,35 @@ Arcueid
 
 \\@CHARA_IN@< 0, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0133", 100>
-\\@TEXT_ID@<130>
+
 Ciel
 後始末って、何のですか？
 
 
 \\@CHARA_IN@< 1, 0, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0136", 100>
-\\@TEXT_ID@<140>
+
 Arcueid
 なに、一日幸せすぎて鈍くなった？
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0137", 100>
-\\@TEXT_ID@<150>
+
 Arcueid
 なんでわたしたちが戦う事になったのか、
 考えてみれば分かるでしょう。
 
 \\@CHARA_IN@< 0, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0134", 100>
-\\@TEXT_ID@<160>
+
 Ciel
 ！　では、ノエルの言っていた『貴女』は――
 
 
 \\@CHARA_IN@< 1, 0, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0138", 100>
-\\@TEXT_ID@<170>
+
 Arcueid
 わたしのソックリさん……とは言いたくないわ。
 まあ、ほんの少しだけ似てる何かでしょ。
@@ -176,7 +176,7 @@ Arcueid
 
 \\@CHARA_IN@< 1, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0139", 100>
-\\@TEXT_ID@<180>
+
 Arcueid
 わたし、関わりたくないから。
 シエルに押しつけてあげる。
@@ -184,14 +184,14 @@ Arcueid
 
 \\@CHARA_IN@< 0, 11, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0135", 100>
-\\@TEXT_ID@<190>
+
 Ciel
 あー……そういうコトですか。
 
 
 \\@CHARA_IN@< 1, 0, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0140", 100>
-\\@TEXT_ID@<200>
+
 Arcueid
 そういうコト。
 それじゃ、後はよろしくね。
@@ -208,7 +208,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<6, 22>//shiki
 \\@CHARA_IN@< 0, 3, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0313", 100>
-\\@TEXT_ID@<210>
+
 Shiki
 ？？？　
 どういうコトなんです？
@@ -216,7 +216,7 @@ Shiki
 
 \\@CHARA_IN@< 0, 11, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0136", 100>
-\\@TEXT_ID@<220>
+
 Ciel
 遠野くんは知らないままでいた方が
 いいことです。
@@ -227,7 +227,7 @@ Ciel
 
 \\@CHARA_IN@< 0, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0137", 100>
-\\@TEXT_ID@<230>
+
 Ciel
 それより遠野くん、
 この後何か予定はありますか？
@@ -235,7 +235,7 @@ Ciel
 \\@CHARA_SET_PATTERN@<6, 23>//shiki
 \\@CHARA_IN@< 0, 3, 21, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0314", 100>
-\\@TEXT_ID@<240>
+
 Shiki
 ないですよ。どのみち門限ギリギリまで
 先輩と過ごすつもりだったし。
@@ -243,14 +243,14 @@ Shiki
 
 \\@CHARA_IN@< 0, 11, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0138", 100>
-\\@TEXT_ID@<250>
+
 Ciel
 えっ。
 
 
 \\@CHARA_IN@< 0, 3, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0315", 100>
-\\@TEXT_ID@<260>
+
 Shiki
 先輩、どこか行きたいところとかあります？
 
@@ -261,7 +261,7 @@ Shiki
 \\@SQ_CALL@<1>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0139", 100>
-\\@TEXT_ID@<270>
+
 Ciel
 ――はい！
 \l
@@ -274,7 +274,7 @@ Ciel
 \\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0140", 100>
-\\@TEXT_ID@<280>
+
 Ciel
 今日はいろいろあって、肝心の遠野くんに
 ついては何もできませんでしたよね？
@@ -282,7 +282,7 @@ Ciel
 
 // \\@CHARA_IN@< 0, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0141", 100>
-\\@TEXT_ID@<290>
+
 Ciel
 ですが、こんなコトもあろうかと！
 前もって良さそうなお店を見つけておきました！
@@ -290,46 +290,46 @@ Ciel
 
 // \\@CHARA_IN@< 0, 3, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0316", 100>
-\\@TEXT_ID@<300>
+
 Shiki
 ―――ひょっとして、辛いヤツですか？
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0142", 100>
-\\@TEXT_ID@<310>
+
 Ciel
 ！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0143", 100>
-\\@TEXT_ID@<320>
+
 Ciel
 だ、大丈夫です。ちゃんと、それ以外の
 お店も調べてあります。もちろん。
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0317", 100>
-\\@TEXT_ID@<330>
+
 Shiki
 いえ。辛いの、いいですよね。
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0318", 100>
-\\@TEXT_ID@<340>
+
 Shiki
 一日歩きづめだったから、
 ガツンときついの、美味しそうです。
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0144", 100>
-\\@TEXT_ID@<350>
+
 Ciel
 そ、そうですか。
 遠野くんがそう言うのなら仕方ありませんね。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0145", 100>
-\\@TEXT_ID@<360>
+
 Ciel
 では手始めに、
 近くにできた新しいお店に行きましょうか。
@@ -337,7 +337,7 @@ Ciel
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0146", 100>
-\\@TEXT_ID@<370>
+
 Ciel
 たいへんコスパのいいインド料理店で、
 学生のわたしたちにはお勧めのお店なのです！

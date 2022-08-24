@@ -25,7 +25,7 @@
 //＃都古EDカット
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0068", 100>
-\\@TEXT_ID@<10>
+
 Miyako
 もうこわいことはなんにもなし！
 わたしの毎日はすっっごくごきげんなのでした☆
@@ -38,7 +38,7 @@ Miyako
 \\@SE_PLAY@<0, "talk/talk_se/Cmn_Clank", 0, 100>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10001", 100>
-\\@TEXT_ID@<20>
+
 Miyako
 え？　え？
 \l
@@ -58,7 +58,7 @@ Miyako
 
 \\@GO_SUB@<"QUAKE_2">
 \\@CHARA_IN@< 0, 13, -1, 0, 1>
-\\@TEXT_ID@<30>
+
 Miyako
 えぇーーーーーーー！！！！？
 
@@ -68,13 +68,13 @@ Miyako
 \\@SYSTEM@<100>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10000", 100>
-\\@TEXT_ID@<40>
+
 Neco_Arc@Neco_Arc_Hatena
 にゃっにゃっにゃっにゃっ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10001", 100>
-\\@TEXT_ID@<50>
+
 Neco_Arc@Neco_Arc_Hatena
 いたいけな少女が幸せな夢から目を覚ますと、
 そこは謎の精神空間だった。
@@ -84,7 +84,7 @@ Neco_Arc@Neco_Arc_Hatena
 \\@CHARA_SET_PATTERN@<4, 11>//miyako 構え→立ち
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10003", 100>
-\\@TEXT_ID@<60>
+
 Miyako
 この声は……！
 どういうコトだ、姿を見せろ怪しい猫ーー！
@@ -102,7 +102,7 @@ Miyako
 \\@CHARA_IN@< 2, 19, -1, 0, 1>
 //ここから立ち絵だす
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10002", 100>
-\\@TEXT_ID@<70>
+
 Neco_Arc
 ボンジュール、カンフールックのお嬢さん。
 突然のＥＤキャンセル、さぞ驚かれたコトでしょう。
@@ -110,7 +110,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10003", 100>
-\\@TEXT_ID@<80>
+
 Neco_Arc
 さあ泣き崩れろ。取り乱せ。うろちょろしろ。
 投げスカリモーションからぶっぱしろ。
@@ -119,7 +119,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 0>//neco
 \\@CHARA_IN@< 2, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10004", 100>
-\\@TEXT_ID@<90>
+
 Neco_Arc
 にゃ～んて、時間が止まっているから
 そんな自由はないんだけどニャ～！
@@ -129,7 +129,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10004", 100>
-\\@TEXT_ID@<100>
+
 Miyako
 時間が……止まってるの？
 
@@ -138,7 +138,7 @@ Miyako
 \\@CHARA_IN@< 2, 19, 101, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10005", 100>
-\\@TEXT_ID@<110>
+
 Neco_Arc
 そう。なぜならここは貴様の精神世、
 
@@ -148,7 +148,7 @@ Neco_Arc
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10005", 100>
-\\@TEXT_ID@<120>
+
 Miyako
 ネコアルク！
 おまえ、ネコアルクだな！？
@@ -159,7 +159,7 @@ Miyako
 \\@CHARA_IN@< 2, 19, 103, 0, 1>
 \\@CHARA_EMOVE@< 2, -1, 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10006", 100>
-\\@TEXT_ID@<130>
+
 Neco_Arc
 ごはっ！？　待って待ってすごく怖い、
 なぜアタシの名前を知っている！？
@@ -169,7 +169,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<4, 1>//miyako 真剣
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10006", 100>
-\\@TEXT_ID@<140>
+
 Miyako
 だって下に出てるし。
 
@@ -179,7 +179,7 @@ Miyako
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10007", 100>
-\\@TEXT_ID@<150>
+
 Neco_Arc
 なるほど精神世界だった。
 対応力の化け物かよこのチャイナ。
@@ -189,14 +189,14 @@ Neco_Arc
 \\@CHARA_IN@< 2, 19, 108, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10008", 100>
-\\@TEXT_ID@<160>
+
 Neco_Arc
 しかし、いささか情報が古い、
 あるいはネコに優しすぎるのではありませんかな？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10009", 100>
-\\@TEXT_ID@<170>
+
 Neco_Arc
 アタシはネコアルクなどという
 《旧時代＜平成＞の遺物ではニャイ。
@@ -206,7 +206,7 @@ Neco_Arc
 \\@CHARA_IN@< 2, 19, 101, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10010", 100>
-\\@TEXT_ID@<180>
+
 Neco_Arc
 Ｒｅ：ｍａｋｅという新しいパワーに目覚めた
 シャイニングキャッツ……そう、ルミアルク！
@@ -215,7 +215,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10007", 100>
-\\@TEXT_ID@<190>
+
 Miyako
 そうなんだ。どこが変わったの？
 
@@ -225,7 +225,7 @@ Miyako
 \\@CHARA_IN@< 2, 19, 102, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10011", 100>
-\\@TEXT_ID@<200>
+
 Neco_Arc
 倫理観をジュラ紀からペルム紀にアップデートした。
 これによって対戦ダイヤグラム成績も向上。
@@ -235,7 +235,7 @@ Neco_Arc
 \\@CHARA_IN@< 2, 19, 106, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10012", 100>
-\\@TEXT_ID@<210>
+
 Neco_Arc
 ほら、さすがに全キャラに対して０：１０は
 外道がすぎるっショ？
@@ -244,7 +244,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 0>//neco
 \\@CHARA_IN@< 2, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10013", 100>
-\\@TEXT_ID@<220>
+
 Neco_Arc
 なので、同キャラ対戦にかぎり５：５になるよう
 調整してもらっている最中ニャんだよねこれが。
@@ -254,7 +254,7 @@ Neco_Arc
 \\@CHARA_IN@< 0, 13, 13, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10008", 100>
-\\@TEXT_ID@<230>
+
 Miyako
 （うん。なにも変わってないってコトだね）
 
@@ -263,7 +263,7 @@ Miyako
 \\@CHARA_SET_PATTERN@<5, 3>//neco やれやれ
 \\@CHARA_IN@< 2, 19, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10014", 100>
-\\@TEXT_ID@<240>
+
 Neco_Arc
 あー、あと目からビームを出す時のかけ声を改変した。
 さすがに今のご時世、あの技名はヤバイ。
@@ -272,7 +272,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 0>//neco
 \\@CHARA_IN@< 2, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10015", 100>
-\\@TEXT_ID@<250>
+
 Neco_Arc
 まあいいや、《近状報告＜こまかいはなし＞は。
 アタシも慈善事業で時空を彷徨ってるワケじゃねえ。
@@ -280,14 +280,14 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10016", 100>
-\\@TEXT_ID@<260>
+
 Neco_Arc
 我が積年のライバル、ミヤコくん。
 ここはプロローグと本編の狭間の世界。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10017", 100>
-\\@TEXT_ID@<270>
+
 Neco_Arc
 そして、さっきまで貴様が味わっていた至福の一時は
 史実でも正史でも公式でもありません。
@@ -298,7 +298,7 @@ Neco_Arc
 \\@CHARA_IN@< 0, 13, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10009", 100>
-\\@TEXT_ID@<280>
+
 Miyako
 ！　どういうコト、バカネコ？
 
@@ -308,7 +308,7 @@ Miyako
 \\@CHARA_IN@< 2, 19, 102, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 11>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10018", 100>
-\\@TEXT_ID@<290>
+
 Neco_Arc
 にゃっにゃっにゃっ（※由緒正しいシャム笑い）。
 \l
@@ -316,21 +316,21 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 2>//neco ゆらゆら
 \\@CHARA_IN@< 2, 19, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10019", 100>
-\\@TEXT_ID@<300>
+
 Neco_Arc
 勘のいいヒロインなら
 気づいていたのではないですかニャ？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10020", 100>
-\\@TEXT_ID@<310>
+
 Neco_Arc
 今まで見ていた《展開＜シナリオ＞は数多ある可能性のひとつ。
 もし戦う力があったのなら起きていたかもしれない未来。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10021", 100>
-\\@TEXT_ID@<320>
+
 Neco_Arc
 アリよりのナシ。ナシよりのアリ。
 そんな曖昧な考察のもと作られた夢物語。
@@ -340,7 +340,7 @@ Neco_Arc
 \\@CHARA_IN@< 2, 19, 106, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10022", 100>
-\\@TEXT_ID@<330>
+
 Neco_Arc
 そう。つまりはｙｏｕのニューロンが見せた幻。
 ただの与太話にすぎない、というコトに、ね？
@@ -349,7 +349,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10010", 100>
-\\@TEXT_ID@<340>
+
 Miyako
 ――――――。
 \l
@@ -357,7 +357,7 @@ Miyako
 \\@CHARA_SET_PATTERN@<4, 1>//miyako 真剣
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10011", 100>
-\\@TEXT_ID@<350>
+
 Miyako
 ぜんぜんわかんない。
 もっと分かりやすく。
@@ -368,7 +368,7 @@ Miyako
 \\@CHARA_IN@< 2, 19, 107, 0, 1>
 \\@CHARA_EMOVE@<2, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10023", 100>
-\\@TEXT_ID@<360>
+
 Neco_Arc
 ここまで丁寧に説明しても分からない、と。
 \l
@@ -376,14 +376,14 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 0>//neco
 \\@CHARA_IN@< 2, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10024", 100>
-\\@TEXT_ID@<370>
+
 Neco_Arc
 ほら、アレアレ。
 有名なシュレディンガーなにがしが言ってたじゃん？
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10025", 100>
-\\@TEXT_ID@<380>
+
 Neco_Arc
 『たとえ目の前にネコ缶が確定していたとしても、
 　缶切りのない猫は永遠にご馳走にありつけない』
@@ -393,7 +393,7 @@ Neco_Arc
 \\@CHARA_IN@< 2, 19, 107, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>// 下に揺らす
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10026", 100>
-\\@TEXT_ID@<390>
+
 Neco_Arc
 深いよねー。神はにゃんでこんな複雑で困難な
 世界を作ったのか。暇なのかな？
@@ -402,14 +402,14 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 0>//neco
 \\@CHARA_IN@< 2, 19, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10027", 100>
-\\@TEXT_ID@<400>
+
 Neco_Arc
 まあアレだニャ、ようは絵に描いた餅ってコト。
 \l
 
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10028", 100>
-\\@TEXT_ID@<410>
+
 Neco_Arc
 今さっき《精神＜サイコ＞の壁のように砕け散ったのは、
 貴様が迎えるかもしれない理想の未来だったのニャ。
@@ -417,7 +417,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10029", 100>
-\\@TEXT_ID@<420>
+
 Neco_Arc
 現実にいる貴様はいまだお布団でオネムの最中。
 あの眼鏡ヤロウは無情にも遠野邸にＧＯ。
@@ -425,7 +425,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10030", 100>
-\\@TEXT_ID@<430>
+
 Neco_Arc
 このままでは正規の《運命＜ルート＞通り、
 貴様がオニイチャンと過ごす展開はないと知れ。
@@ -434,7 +434,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10012", 100>
-\\@TEXT_ID@<440>
+
 Miyako
 …………。
 ………………。
@@ -445,7 +445,7 @@ Miyako
 \\@CHARA_IN@< 0, 13, 9, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10013", 100>
-\\@TEXT_ID@<450>
+
 Miyako
 ………………ヤダ。
 そんなの、ぜったいヤダーーーー！
@@ -455,7 +455,7 @@ Miyako
 \\@CHARA_IN@< 0, 13, 6, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10014", 100>
-\\@TEXT_ID@<460>
+
 Miyako
 なんとかできないの！？
 いま、時間が止まってるんでしょ！？
@@ -463,7 +463,7 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10015", 100>
-\\@TEXT_ID@<470>
+
 Miyako
 すぐにわたしを起こして！
 お兄ちゃんを引きとめに行くから！
@@ -474,7 +474,7 @@ Miyako
 \\@CHARA_IN@< 2, 19, 107, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10031", 100>
-\\@TEXT_ID@<480>
+
 Neco_Arc
 だーかーらー、それができないから
 こんなコトになってるんでしょーが。
@@ -482,7 +482,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10032", 100>
-\\@TEXT_ID@<490>
+
 Neco_Arc
 貴様がいま目を覚ましたところで、
 いつもの緊張癖から何も出来ないのは必定。
@@ -491,7 +491,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 1>//neco 万歳
 \\@CHARA_IN@< 2, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10033", 100>
-\\@TEXT_ID@<500>
+
 Neco_Arc
 運命を変えたいのなら、まず自分を変えるンだ！
 厳しいけど明言なンだ！
@@ -501,7 +501,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10016", 100>
-\\@TEXT_ID@<510>
+
 Miyako
 自分を変える……？
 えっと、じゃあ……
@@ -511,7 +511,7 @@ Miyako
 \\@CHARA_IN@< 0, 13, 16, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10017", 100>
-\\@TEXT_ID@<520>
+
 Miyako
 《高校生＜オトナ＞になって、
 お兄ちゃんと同じ高校に通えってコト？　きゃっ☆
@@ -523,7 +523,7 @@ Miyako
 \\@CHARA_IN@< 2, 19, 105, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10034", 100>
-\\@TEXT_ID@<530>
+
 Neco_Arc
 それは誰も求めてはいない。
 
@@ -533,7 +533,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 16>//neco キシャ―戻り
 \\@CHARA_IN@< 2, 19, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10035", 100>
-\\@TEXT_ID@<540>
+
 Neco_Arc
 強くなれ、と言っているンだよ都古クン。
 アタシはその為に現れた貴様の導き手。
@@ -541,7 +541,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10036", 100>
-\\@TEXT_ID@<550>
+
 Neco_Arc
 この世界は力あるものしか生き残れない。
 はい、他のヒロインを見れば明白ですね。
@@ -549,7 +549,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10037", 100>
-\\@TEXT_ID@<560>
+
 Neco_Arc
 にゃんで、今からこの精神世界に
 『都古ルート』を実装します。
@@ -557,7 +557,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10038", 100>
-\\@TEXT_ID@<570>
+
 Neco_Arc
 これはアタシがいろんな並行世界を巡って
 かき集めて編集した、
@@ -565,14 +565,14 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10039", 100>
-\\@TEXT_ID@<580>
+
 Neco_Arc
 『もし有間都古が月姫のヒロインだったら』
 という仮想シナリオのダイジェストです。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10040", 100>
-\\@TEXT_ID@<590>
+
 Neco_Arc
 この戦いをくぐり抜けた暁には、
 貴様は新たなる力……
@@ -581,7 +581,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 6>//neco 両手ピョコピョコ万歳
 \\@CHARA_IN@< 2, 19, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10041", 100>
-\\@TEXT_ID@<600>
+
 Neco_Arc
 『ゲストヒロイン』から『サブヒロイン』に
 昇格する資格が与えられるであろう……！
@@ -592,13 +592,13 @@ Neco_Arc
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10018", 100>
-\\@TEXT_ID@<610>
+
 Miyako
 す、すごい……！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10019", 100>
-\\@TEXT_ID@<620>
+
 Miyako
 なにを言っているのかなにひとつ分からないけど、
 すごく手間がかかってるコトだけは分かる！
@@ -607,7 +607,7 @@ Miyako
 \\@CHARA_SET_PATTERN@<4, 11>//miyako 構え→立ち
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10020", 100>
-\\@TEXT_ID@<630>
+
 Miyako
 でも、なんでバカネコがそんなコトを？
 わたしとは初対面だよね？
@@ -618,7 +618,7 @@ Miyako
 \\@CHARA_IN@< 2, 19, 109, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10042", 100>
-\\@TEXT_ID@<640>
+
 Neco_Arc
 売れる恩はいくらでも売っておく。
 今回はそういう戦略です。ｙｏｕも大人になれば分かる。
@@ -629,7 +629,7 @@ Neco_Arc
 \\@CHARA_EMOVE@<0, -1 , 2>
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10021", 100>
-\\@TEXT_ID@<650>
+
 Miyako
 ――――――。
 
@@ -637,7 +637,7 @@ Miyako
 
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10043", 100>
-\\@TEXT_ID@<660>
+
 Neco_Arc
 うーん、無垢な少女を騙すのは気が引けるけど
 いい反応だニャー。
@@ -645,7 +645,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10044", 100>
-\\@TEXT_ID@<670>
+
 Neco_Arc
 これから地獄の特訓みたいなデスモードが始まるけど、
 合意とみていいかニャ？
@@ -656,7 +656,7 @@ Neco_Arc
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10022", 100>
-\\@TEXT_ID@<680>
+
 Miyako
 もっちろん！
 それで強くなれるんだよね！
@@ -666,7 +666,7 @@ Miyako
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10045", 100>
-\\@TEXT_ID@<690>
+
 Neco_Arc
 おっけー。じゃ、最初の対戦相手を召喚します。
 チュートリアル、チュートリアル。
@@ -674,7 +674,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10046", 100>
-\\@TEXT_ID@<700>
+
 Neco_Arc
 ここでは命は猫の髭よりも軽い。
 これから貴様はげんなりするほど死を体験する。
@@ -682,7 +682,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10047", 100>
-\\@TEXT_ID@<710>
+
 Neco_Arc
 でも逆に考えると軽いので命は実質無料です。
 ひとやまイクラの命とくらぁ。
@@ -690,7 +690,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10048", 100>
-\\@TEXT_ID@<720>
+
 Neco_Arc
 コンティニューは無限にできるので、
 心おきなく無理ゲーにチャレンジしていただければ。
@@ -699,7 +699,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 1>//neco 万歳
 \\@CHARA_IN@< 2, 19, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10049", 100>
-\\@TEXT_ID@<730>
+
 Neco_Arc
 ―――グッドキャット・チャイナ！
 ボスラッシュモード、はじまるよ～！

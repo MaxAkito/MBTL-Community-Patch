@@ -27,7 +27,7 @@
 
 \\@CHARA_IN@< 0, 0, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0010", 100>
-\\@TEXT_ID@<10>
+
 Arcueid
 …………。
 
@@ -36,7 +36,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<4, 26>//眼鏡うなずき（1回）
 \\@CHARA_IN@< 2, 3, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0020", 100>
-\\@TEXT_ID@<20>
+
 Shiki
 さて、次は教会で厄落としっと。
 ……厄落としって教会か？
@@ -45,7 +45,7 @@ Shiki
 \\@CHARA_SET_PATTERN@<4, 24>//眼鏡やれやれ
 \\@CHARA_IN@< 2, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0021", 100>
-\\@TEXT_ID@<30>
+
 Shiki
 なんか妙な空気だな。頭がクラクラする。
 空模様も妙だし……あれ、誰かいる……
@@ -63,7 +63,7 @@ Shiki
 \\@CHARA_SET_PATTERN@<5, 34>//怒り払い・静止
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0011", 100>
-\\@TEXT_ID@<40>
+
 Arcueid
 やれやれ。アレが原因ね。
 志貴、秒殺していい？
@@ -72,7 +72,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<4, 30>//眼鏡待て
 \\@CHARA_IN@< 2, 3, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0022", 100>
-\\@TEXT_ID@<50>
+
 Shiki
 バッカ、いきなり襲いかかる奴があるか！
 せめて話ぐらいきいてやれ！
@@ -81,7 +81,7 @@ Shiki
 \\@CHARA_SET_PATTERN@<5, 20>//怒り
 \\@CHARA_IN@< 0, 0, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0012", 100>
-\\@TEXT_ID@<60>
+
 Arcueid
 バカっていうなー！
 ちゃんと「殺していい？」って聞いたし！
@@ -90,7 +90,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<4, 134>//眼鏡待て困惑→疲れ
 \\@CHARA_IN@< 2, 3, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0023", 100>
-\\@TEXT_ID@<70>
+
 Shiki
 とにかくステイ、ステイだ。
 だってあの娘は……くっ、なぜか頭痛が痛い！
@@ -100,7 +100,7 @@ Shiki
 \\@CHARA_SET_PATTERN@<5, 21>//怒り→提案
 \\@CHARA_IN@< 0, 0, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0013", 100>
-\\@TEXT_ID@<80>
+
 Arcueid
 志貴、大丈夫？
 やっぱりアイツ、ひねりつぶしとく？
@@ -111,7 +111,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<6, 10>//ぷんすか
 \\@CHARA_IN@< 1, 14, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0000", 100>
-\\@TEXT_ID@<90>
+
 Dead_Noel
 ざっけんな。黙ってきいていれば
 好き勝手言ってくれるじゃない。
@@ -119,14 +119,14 @@ Dead_Noel
 
 \\@CHARA_IN@< 1, 14, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0001", 100>
-\\@TEXT_ID@<100>
+
 Dead_Noel
 そのカレシの体調不良、わたしのせいじゃないから。
 ほぼ１００パー、日頃の自業自得でしょ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0002", 100>
-\\@TEXT_ID@<110>
+
 Dead_Noel
 いちいちわたしのせいにするのやめてよね。
 
@@ -137,7 +137,7 @@ Dead_Noel
 \\@CHARA_SET_PATTERN@<5, 7>//足組み
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0014", 100>
-\\@TEXT_ID@<120>
+
 Arcueid
 だってアナタ、見るからに弱そうなんだもん
 っていうか、チョロそう？
@@ -148,7 +148,7 @@ Arcueid
 \\@CHARA_IN@< 1, 14, 5, 0, 1>
 \\@CHARA_EMOVE@<1, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0003", 100>
-\\@TEXT_ID@<130>
+
 Dead_Noel
 ハア！？　弱くないわよ！　チョロくないし！
 そっちのカレシはこれから堕とす予定だし！
@@ -157,7 +157,7 @@ Dead_Noel
 
 \\@CHARA_IN@< 0, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0015", 100>
-\\@TEXT_ID@<140>
+
 Arcueid
 そっかー。
 \l
@@ -165,7 +165,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<5, 9>//怒り払い
 \\@CHARA_IN@< 0, 0, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0016", 100>
-\\@TEXT_ID@<150>
+
 Arcueid
 で、もういい？
 
@@ -176,7 +176,7 @@ Arcueid
 \\@CHARA_IN@< 1, 14, 3, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0004", 100>
-\\@TEXT_ID@<160>
+
 Dead_Noel
 こわっ！！
 感情の温度差だけで殺す気か！
@@ -185,7 +185,7 @@ Dead_Noel
 \\@CHARA_SET_PATTERN@<6, 10>//ぷんすか
 \\@CHARA_IN@< 1, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0005", 100>
-\\@TEXT_ID@<170>
+
 Dead_Noel
 そうじゃなくて！　会話しなさいよ！
 か・い・わ！
@@ -193,7 +193,7 @@ Dead_Noel
 
 \\@CHARA_IN@< 1, 14, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0006", 100>
-\\@TEXT_ID@<180>
+
 Dead_Noel
 そこのエモノの注意、ちゃんと聞いてた？
 まずは会話してあげろって。いいコト言うじゃん。
@@ -204,7 +204,7 @@ Dead_Noel
 \\@CHARA_SET_PATTERN@<5, 7>//足組み
 \\@CHARA_IN@< 0, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0017", 100>
-\\@TEXT_ID@<190>
+
 Arcueid
 えへへー、でしょー！
 わたしにバカバカ言うの、志貴だけよね！
@@ -216,7 +216,7 @@ Arcueid
 \\@CHARA_IN@< 1, 14, 14, 0, 1>
 \\@CHARA_EMOVE@<1, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0007", 100>
-\\@TEXT_ID@<200>
+
 Dead_Noel
 喜ぶところじゃないんだけど！？
 とにかく！　絶対ここは通さないんだから！
@@ -225,7 +225,7 @@ Dead_Noel
 \\@CHARA_SET_PATTERN@<6, 6>//全力どう！
 \\@CHARA_IN@< 1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0008", 100>
-\\@TEXT_ID@<210>
+
 Dead_Noel
 そう―――以前のわたしなら逃げ出してたけど、
 今のわたしはひと味違うの！
@@ -235,7 +235,7 @@ Dead_Noel
 \\@CHARA_SET_PATTERN@<4, 24>//眼鏡やれやれ
 \\@CHARA_IN@< 2, 3, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0024", 100>
-\\@TEXT_ID@<220>
+
 Shiki
 （やっぱり。黙っていたのは逃げるか戦うか、
 　様子を見ていたからだったんだな……）
@@ -248,13 +248,13 @@ Shiki
 \\@CHARA_SET_PATTERN@<6, 4>//見下し（まだだ笑うな）
 \\@CHARA_IN@< 1, 14, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0009", 100>
-\\@TEXT_ID@<230>
+
 Dead_Noel
 どうしてもここを通りたいのなら……
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0010", 100>
-\\@TEXT_ID@<240>
+
 Dead_Noel
 そうね、アナタの「なんとかのゲボクー」とかいう
 アレで命じてみたら？
@@ -262,7 +262,7 @@ Dead_Noel
 
 \\@CHARA_SET_PATTERN@<6, 5>//ふふっ
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0011", 100>
-\\@TEXT_ID@<250>
+
 Dead_Noel
 あれ、二十七祖に下賜する言葉よね？
 やってやって。わたしにもやって！
@@ -272,7 +272,7 @@ Dead_Noel
 \\@CHARA_SET_PATTERN@<5, 18>//足組み考え待機
 \\@CHARA_IN@< 0, 0, 202, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0018", 100>
-\\@TEXT_ID@<260>
+
 Arcueid
 えー。
 やだ、めんどくさーい。
@@ -284,7 +284,7 @@ Arcueid
 \\@CHARA_IN@< 1, 14, 5, 0, 1>
 \\@CHARA_EMOVE@<1, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0012", 100>
-\\@TEXT_ID@<270>
+
 Dead_Noel
 めんどくさい！？
 
@@ -293,7 +293,7 @@ Dead_Noel
 
 \\@CHARA_IN@< 0, 0, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0019", 100>
-\\@TEXT_ID@<280>
+
 Arcueid
 だってそれ、わたしが得するコトないもん。
 アナタに全然興味ないし。
@@ -302,7 +302,7 @@ Arcueid
 
 \\@CHARA_IN@< 1, 14, 14, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0013", 100>
-\\@TEXT_ID@<290>
+
 Dead_Noel
 あっそう！
 じゃあ死んでも忘れないようにしてやる！
@@ -310,7 +310,7 @@ Dead_Noel
 
 \\@CHARA_SET_PATTERN@<6, 25>//dnoel
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0014", 100>
-\\@TEXT_ID@<300>
+
 Dead_Noel
 何が真祖の姫だ、プリンセスならこっちだっての！
 アンタを倒して、わたしがトップに立ってやる！
@@ -320,7 +320,7 @@ Dead_Noel
 
 \\@CHARA_IN@< 0, 0, 14, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0020", 100>
-\\@TEXT_ID@<310>
+
 Arcueid
 おおっと？
 けっこうやる感じ？
@@ -331,7 +331,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<6, 19>//切れそう・切れない
 \\@CHARA_IN@< 1, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0015", 100>
-\\@TEXT_ID@<320>
+
 Dead_Noel
 とっうぜん！
 あやしい注射パワーで二階梯特進！
@@ -339,14 +339,14 @@ Dead_Noel
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0016", 100>
-\\@TEXT_ID@<330>
+
 Dead_Noel
 《真祖の姫殺し＜ジャイアントキリング＞でさらに二階梯特進！
 \l
 
 \\@CHARA_IN@< 1, 14, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0017", 100>
-\\@TEXT_ID@<340>
+
 Dead_Noel
 ジャンピングチャンスの倍々プッシュで
 １０倍昇格もいけるはず。
@@ -355,7 +355,7 @@ Dead_Noel
 \\@CHARA_SET_PATTERN@<6, 4>//見下し（まだだ笑うな）
 \\@CHARA_IN@< 1, 14, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0018", 100>
-\\@TEXT_ID@<350>
+
 Dead_Noel
 だいたい、腕力だけの姫とかゴリラかっていうの！
 その点こっちは夢と魔薬のプリンセス\sf000
@@ -364,7 +364,7 @@ Dead_Noel
 
 \\@CHARA_IN@< 1, 14, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0019", 100>
-\\@TEXT_ID@<360>
+
 Dead_Noel
 わたしこそ死徒の秩序……そう！
 新時代のニュー真祖、ノエルＣＨＡＮ★！　よね！
@@ -379,7 +379,7 @@ Dead_Noel
 \\@SYSTEM@<131>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "Unison/Arc08_0021_Sik08_0025", 100>
-\\@TEXT_ID@<370>
+
 Arcueid_and_Shiki
 …………。（あっちゃあ……）
 
@@ -387,7 +387,7 @@ Arcueid_and_Shiki
 
 \\@CHARA_IN@< 1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0020", 100>
-\\@TEXT_ID@<380>
+
 Dead_Noel
 んんー？
 絶望の悲鳴のひとつも上げるかと思ったのに。
@@ -395,7 +395,7 @@ Dead_Noel
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0021", 100>
-\\@TEXT_ID@<390>
+
 Dead_Noel
 あんまりにも夢溢れる計画に、声も出ない？
 もう精神的に勝ち、ってところかしら？
@@ -404,7 +404,7 @@ Dead_Noel
 
 \\@CHARA_IN@< 0, 0, 16, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0022", 100>
-\\@TEXT_ID@<400>
+
 Arcueid
 夢溢れるっていうか、寝てるっていうか……
 目覚めてたら恥ずかしくて絶対言えないというか……
@@ -413,7 +413,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<4, 28>//眼鏡ため息
 \\@CHARA_IN@< 2, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0026", 100>
-\\@TEXT_ID@<410>
+
 Shiki
 二階梯特進を２回って完全に死んでるでしょ。
 死に癖、ついてるんじゃない？
@@ -426,7 +426,7 @@ Shiki
 \\@CHARA_SET_PATTERN@<6, 10>//ぷんすか
 \\@CHARA_IN@< 1, 14, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0022", 100>
-\\@TEXT_ID@<420>
+
 Dead_Noel
 あぁ！？
 
@@ -435,7 +435,7 @@ Dead_Noel
 
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0023", 100>
-\\@TEXT_ID@<430>
+
 Arcueid
 だいたい真祖ってそういうんじゃないんだけどなー。
 ちょっと修正してあげるしかないかー。
@@ -444,14 +444,14 @@ Arcueid
 
 \\@CHARA_SET_PATTERN@<5, 7>//足組み
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0024", 100>
-\\@TEXT_ID@<440>
+
 Arcueid
 アナタ、志貴にもシエルにもちょっかい
 出しそうな匂いがするし。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0025", 100>
-\\@TEXT_ID@<450>
+
 Arcueid
 ある意味ヒロイン顔？　みたいな。
 
@@ -461,7 +461,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<6, 5>//ふふっ
 \\@CHARA_IN@< 1, 14, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0023", 100>
-\\@TEXT_ID@<460>
+
 Dead_Noel
 そ、そう？
 そんな顔、してるかな？
@@ -473,7 +473,7 @@ Dead_Noel
 \\@CHARA_IN@< 0, 0, 7, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0026", 100>
-\\@TEXT_ID@<470>
+
 Arcueid
 ええ。だから本気で戦ってあげる。
 遠慮なく、容赦なくね？
@@ -484,7 +484,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<6, 2>//驚き→怯え
 \\@CHARA_IN@< 1, 14, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0024", 100>
-\\@TEXT_ID@<480>
+
 Dead_Noel
 （あ、やば。
 　死ぬじゃん、わたし！）

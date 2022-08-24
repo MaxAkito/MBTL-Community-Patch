@@ -37,7 +37,7 @@
 
 \\@CHARA_IN@< 2, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0290", 100>
-\\@TEXT_ID@<10>
+
 Shiki
 指定されている場所はここだけど……
 空模様、とつぜん暗くなりましたね。
@@ -45,7 +45,7 @@ Shiki
 
 \\@CHARA_IN@< 2, 3, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0291", 100>
-\\@TEXT_ID@<20>
+
 Shiki
 場所が悪いのかな？　特に何もないし、
 次に行きましょうか、先輩。
@@ -53,21 +53,21 @@ Shiki
 
 \\@CHARA_IN@< 0, 11, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0110", 100>
-\\@TEXT_ID@<30>
+
 Ciel
 そうですね遠野くん。
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0111", 100>
-\\@TEXT_ID@<40>
+
 Ciel
 あそこに誰かいる気がしますが、
 何かの見間違い、という事にしておきます。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0112", 100>
-\\@TEXT_ID@<50>
+
 Ciel
 代行者ともあろう者が死徒に堕ちたばかりか、
 恥も外聞もなく姿を晒すなどありえませんから。
@@ -77,7 +77,7 @@ Ciel
 \\@CHARA_SET_PATTERN@<6, 10>//ぷんすか
 \\@CHARA_IN@< 1, 14, 14, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0030", 100>
-\\@TEXT_ID@<60>
+
 Dead_Noel
 恥じらいぐらいあるわよ！
 ミニスカで大剣振り回してるアンタが言うなッ！
@@ -86,7 +86,7 @@ Dead_Noel
 \\@CHARA_SET_PATTERN@<6, 8>//にっこり
 \\@CHARA_IN@< 1, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0031", 100>
-\\@TEXT_ID@<70>
+
 Dead_Noel
 あ。そっか、強がりでしょ、今の！
 カワイサで負けてるから無視してるんだー！
@@ -95,7 +95,7 @@ Dead_Noel
 
 \\@CHARA_IN@< 1, 14, 9 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0032", 100>
-\\@TEXT_ID@<80>
+
 Dead_Noel
 若さでも強さでもわたしの勝ちってコト！
 やだもうー、シエルのくせにみっぐるしぃー\sf000
@@ -106,14 +106,14 @@ Dead_Noel
 \\@CHARA_SET_PATTERN@<5, 14>//くすり
 \\@CHARA_IN@< 0, 11, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0113", 100>
-\\@TEXT_ID@<90>
+
 Ciel
 ―――いま、なんと？
 
 
 \\@CHARA_IN@< 2, 3, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0292", 100>
-\\@TEXT_ID@<100>
+
 Shiki
 やっべ。
 \l
@@ -122,7 +122,7 @@ Shiki
 \\@CHARA_SET_PATTERN@<4, 30>//眼鏡待て
 \\@CHARA_IN@< 2, 3, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0293", 100>
-\\@TEXT_ID@<110>
+
 Shiki
 先輩、行きましょう。知らない死徒です。
 君子おかしいのに付き合わず、です。
@@ -131,7 +131,7 @@ Shiki
 \\@CHARA_IN@< 0, 11, 8, 0, 1>
 \\@CHARA_FACE@< 0, -1, 7, 230>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0114", 100>
-\\@TEXT_ID@<120>
+
 Ciel
 まあ、そうですね。せっかくのデー……こほん。
 遠野くんとのウォーキング中ですので。
@@ -144,7 +144,7 @@ Ciel
 \\@CHARA_SET_PATTERN@<6, 5>//ふふっ
 \\@CHARA_IN@< 1, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0033", 100>
-\\@TEXT_ID@<130>
+
 Dead_Noel
 そう、スイートタイムはこれでおしまい！
 ビターペインフルな愛の墓場にご招待～♪
@@ -165,7 +165,7 @@ Dead_Noel
 \\@CHARA_SET_PATTERN@<6, 10>//ぷんすか
 \\@CHARA_IN@< 1, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0034", 100>
-\\@TEXT_ID@<140>
+
 Dead_Noel
 待ちなさいよ！？
 わたしをいなかった扱いすんな！
@@ -173,13 +173,13 @@ Dead_Noel
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0035", 100>
-\\@TEXT_ID@<150>
+
 Dead_Noel
 こっちにだって退くに退けない理由があるの！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0036", 100>
-\\@TEXT_ID@<160>
+
 Dead_Noel
 あの感情の温度差がすっごいこわい真祖に、
 ここでやっつけろって命令されたんだから！
@@ -188,7 +188,7 @@ Dead_Noel
 
 \\@CHARA_IN@< 0, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0115", 100>
-\\@TEXT_ID@<170>
+
 Ciel
 ―――アルクェイドに？
 
@@ -226,7 +226,7 @@ Ciel
 
 \\@CHARA_IN@< 0, 0, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0110", 100>
-\\@TEXT_ID@<180>
+
 Arcueid
 ――――――。
 \l
@@ -234,7 +234,7 @@ Arcueid
 
 \\@CHARA_IN@< 0, 0, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0111", 100>
-\\@TEXT_ID@<190>
+
 Arcueid
 アナタを見逃す理由はないけど、
 骨太代行者の相手をするなら助けてあげる。
@@ -242,7 +242,7 @@ Arcueid
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0112", 100>
-\\@TEXT_ID@<200>
+
 Arcueid
 もっとも、足止めにもならないと思うけど。
 いやがらせ程度にはなるでしょう？
@@ -250,7 +250,7 @@ Arcueid
 
 \\@CHARA_IN@< 0, 0, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0113", 100>
-\\@TEXT_ID@<210>
+
 Arcueid
 イヤなら首をもぎとって、
 畑のカラスよけにするわ。
@@ -258,7 +258,7 @@ Arcueid
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0114", 100>
-\\@TEXT_ID@<220>
+
 Arcueid
 報酬？　まだそうしていないというだけで
 十分でしょう？
@@ -298,7 +298,7 @@ Arcueid
 
 \\@CHARA_IN@< 1, 14, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0037", 100>
-\\@TEXT_ID@<230>
+
 Dead_Noel
 ―――なんて脅されたら、
 逆らえるはずないじゃない！
@@ -308,14 +308,14 @@ Dead_Noel
 
 \\@CHARA_IN@< 2, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0294", 100>
-\\@TEXT_ID@<240>
+
 Shiki
 アルクェイドが……？
 ……何か悪いものでも食べたのかな……。
 
 \\@CHARA_IN@< 0, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0116", 100>
-\\@TEXT_ID@<250>
+
 Ciel
 虫、ではなく腹の居所が悪かった、と？
 それはどうでしょうか……
@@ -323,7 +323,7 @@ Ciel
 
 \\@CHARA_IN@< 0, 11, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0117", 100>
-\\@TEXT_ID@<260>
+
 Ciel
 彼女が死徒を使役したという例は、
 わたしの知るかぎりありません。
@@ -333,7 +333,7 @@ Ciel
 \\@CHARA_SET_PATTERN@<5, 22>//決めポーズ
 \\@CHARA_IN@< 0, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0118", 100>
-\\@TEXT_ID@<270>
+
 Ciel
 で、誰が骨太代行者ですかー！
 
@@ -343,7 +343,7 @@ Ciel
 \\@CHARA_SET_PATTERN@<6, 2>//怯え
 \\@CHARA_IN@< 1, 14, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0038", 100>
-\\@TEXT_ID@<280>
+
 Dead_Noel
 わ、わたしに怒らないでよ！？
 あくまで状況供述なんだから！
@@ -353,7 +353,7 @@ Dead_Noel
 
 \\@CHARA_IN@< 0, 11, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0119", 100>
-\\@TEXT_ID@<290>
+
 Ciel
 いいでしょう。アルクェイドに聞くより
 貴女を尋問した方が早そうです。
@@ -364,7 +364,7 @@ Ciel
 \\@CHARA_SET_PATTERN@<6, 10>//
 \\@CHARA_IN@< 1, 14, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0039", 100>
-\\@TEXT_ID@<300>
+
 Dead_Noel
 ハン、結局は骨太じゃない！
 このパワハラ代行者！
@@ -372,7 +372,7 @@ Dead_Noel
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0040", 100>
-\\@TEXT_ID@<310>
+
 Dead_Noel
 少しプレッシャーかければわたしの口が
 軽くなるなんて、もう思わないコトね！

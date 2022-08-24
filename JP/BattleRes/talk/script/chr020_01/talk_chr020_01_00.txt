@@ -12,7 +12,7 @@
 \\@SYSTEM@<100>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0000", 100>
-\\@TEXT_ID@<10>
+
 Navigate
 アンサモンプログラム　スタート。
 霊子変換を開始　します。
@@ -20,7 +20,7 @@ Navigate
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0001", 100>
-\\@TEXT_ID@<20>
+
 Navigate
 レイシフト開始まで　あと３、２、１……
 \l
@@ -29,28 +29,28 @@ Navigate
 \\@SE_PLAY@<1, "talk/talk_se/Cmn_Warning", 1, 100>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0002", 100>
-\\@TEXT_ID@<30>
+
 Navigate
 工程に問題発生。
 時空連続体に理解困難の不具合　発生。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0003", 100>
-\\@TEXT_ID@<40>
+
 Navigate
 グランドオーダー　実証　停止。
 レイシフト　ルート構築　は　継続します。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0004", 100>
-\\@TEXT_ID@<50>
+
 Navigate
 コフィン内のパイロットの安全を最優先。
 強制排出をロック。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0005", 100>
-\\@TEXT_ID@<60>
+
 Navigate
 パイロットの　自主的な帰還を
 期待　します。
@@ -88,14 +88,14 @@ Navigate
 
 \\@CHARA_IN@<0, 20, 213, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0040", 100>
-\\@TEXT_ID@<70>
+
 Mash
 ……ぁ……れ？
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0041", 100>
-\\@TEXT_ID@<80>
+
 Mash
 ここは……いったい……？
 特異点ではないようですが……
@@ -113,7 +113,7 @@ Mash
 
 \\@CHARA_IN@< 2, 19, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0260", 100>
-\\@TEXT_ID@<90>
+
 Neco_Arc
 少女がトンネルを抜けると、
 そこは一面のグレートキャッツビレッジだった……。
@@ -124,7 +124,7 @@ Neco_Arc
 \\@CHARA_IN@< 2, 19, 101, 0, 1>
 \\@CHARA_EMOVE@<2, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0261", 100>
-\\@TEXT_ID@<100>
+
 Neco_Arc
 なーんてな！　文学的なＯＰとか
 アタシには似合わないっつーの！
@@ -134,14 +134,14 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 2>//ゆらゆら
 \\@CHARA_IN@< 2, 19, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0262", 100>
-\\@TEXT_ID@<110>
+
 Neco_Arc
 グッモーニン、素敵な甲冑ガール。
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0263", 100>
-\\@TEXT_ID@<120>
+
 Neco_Arc
 布団とかねえからコタツで看病してたけど、
 だいじょうぶ？　おしりいたくない？
@@ -150,7 +150,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 3>//やれやれ
 \\@CHARA_IN@< 2, 19, 107, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0264", 100>
-\\@TEXT_ID@<130>
+
 Neco_Arc
 あ、痛くない。地面に直置きのコタツでも
 ビクともしない、と。耐久Ａなんですなぁ。
@@ -161,7 +161,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<4, 61>//mash
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0265", 100>
-\\@TEXT_ID@<140>
+
 Neco_Arc
 まあいいや、ミカン食べる？
 これ、エヒメのおいしいトコ。
@@ -173,7 +173,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 0, 20, 202, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0042", 100>
-\\@TEXT_ID@<150>
+
 Mash
 は、はい、ありがとうございます。
 ぁ……とても甘くて美味しいです！
@@ -184,7 +184,7 @@ Mash
 \\@CHARA_SET_PATTERN@<5, 2>//ゆらゆら
 \\@CHARA_IN@< 2, 19, 118, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0266", 100>
-\\@TEXT_ID@<160>
+
 Neco_Arc
 でしょ～？　もっと食べなさい、もっと食べなさい。
 毒とか入ってないから。
@@ -193,7 +193,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<4, 63>//mash
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0267", 100>
-\\@TEXT_ID@<170>
+
 Neco_Arc
 黄泉の食べ物を食べたら地上に出られないとか、
 そんなケチくさいコト言わニャいよ。
@@ -201,7 +201,7 @@ Neco_Arc
 
 \\@CHARA_SET_PATTERN@<5, 3>//やれやれ
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0268", 100>
-\\@TEXT_ID@<180>
+
 Neco_Arc
 だいたいさあ、客を呼びとめたいんなら
 呪いじゃなくて味で勝負っしょ！
@@ -211,13 +211,13 @@ Neco_Arc
 
 \\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
 \\@EMG_PRINT_TEXT@<102, 1130, 670>
-\\@TEXT_ID@<185>
+
 誤字ではありません
 
 \\@CHARA_SET_PATTERN@<5, 1>//万歳
 \\@CHARA_IN@< 2, 19, 112, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0269", 100>
-\\@TEXT_ID@<190>
+
 Neco_Arc
 こちとら伊達に脱ヒロインして店はじめてねぇ！
 この麺１煮干し９のネコ完メンで天下とったらぁ！
@@ -229,7 +229,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 0, 20, 220, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0042_1", 100>
-\\@TEXT_ID@<200>
+
 Mash
 （なるほど、という顔）
 
@@ -239,7 +239,7 @@ Mash
 \\@CHARA_SET_PATTERN@<5, 16>//キシャ―戻り
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0270", 100>
-\\@TEXT_ID@<210>
+
 Neco_Arc
 ほう。怒濤のカオスラッシュにも驚かれない。
 大山鳴動してネズミも出ねえときた。
@@ -247,14 +247,14 @@ Neco_Arc
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0271", 100>
-\\@TEXT_ID@<220>
+
 Neco_Arc
 ここグレートキャッツビレッジは妖精郷の一つ。
 地上から人間が迷いこんでくる事もある。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0272", 100>
-\\@TEXT_ID@<230>
+
 Neco_Arc
 察するところ、お嬢さんもその一例かな？
 どこの世界の冒険少女なんだい？
@@ -265,7 +265,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 0, 20, 206, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0043", 100>
-\\@TEXT_ID@<240>
+
 Mash
 は、はい。わたしはマシュ・キリエライト。
 人理保障機関カルデアに所属する研究員であり、
@@ -273,7 +273,7 @@ Mash
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0044", 100>
-\\@TEXT_ID@<250>
+
 Mash
 英霊と融合を果たした
 デミ・サーヴァントの成功例です。
@@ -283,7 +283,7 @@ Mash
 
 \\@CHARA_IN@< 0, 20, 218, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0045", 100>
-\\@TEXT_ID@<260>
+
 Mash
 アナタは……その、どこの惑星の方でしょう？
 地球上の生命体とは思えませんが……
@@ -295,7 +295,7 @@ Mash
 \\@CHARA_SET_PATTERN@<5, 13>//ワイン
 \\@CHARA_IN@< 2, 19, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0273", 100>
-\\@TEXT_ID@<270>
+
 Neco_Arc
 おやおや、冗談のうまいお嬢さんだ。
 おいしいミカンのお返しにしちゃあパンチ利いてる。
@@ -305,7 +305,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 6>//両手ピョコピョコ万歳
 \\@CHARA_IN@< 2, 19, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0274", 100>
-\\@TEXT_ID@<280>
+
 Neco_Arc
 でもまあ、地上にはいないよねこんな美獣！
 そのセクスィー、まさにモンスター級！　キラッ☆
@@ -316,7 +316,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 0, 20, 201, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0046", 100>
-\\@TEXT_ID@<290>
+
 Mash
 怪物的、という意味ですね。
 適切な比喩表現、ありがとうございます。
@@ -328,7 +328,7 @@ Mash
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0275", 100>
-\\@TEXT_ID@<300>
+
 Neco_Arc
 うん。わずか１分のやりとりですが、
 ｙｏｕには遊びが通じないのは理解した。
@@ -337,7 +337,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0276", 100>
-\\@TEXT_ID@<310>
+
 Neco_Arc
 よろしくマシュ君。アタシはネコアルク。
 このネコ國のトップ・ネコ。
@@ -345,7 +345,7 @@ Neco_Arc
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0277", 100>
-\\@TEXT_ID@<320>
+
 Neco_Arc
 察するところ、マシュ君は一刻も早く元の世界に
 戻らなければニャらない……違うかな？
@@ -357,7 +357,7 @@ Neco_Arc
 \\@CHARA_IN@< 0, 20, 213, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0047", 100>
-\\@TEXT_ID@<330>
+
 Mash
 はい。でもどうすれば……
 \l
@@ -365,7 +365,7 @@ Mash
 
 \\@CHARA_IN@< 0, 20, 212, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0048", 100>
-\\@TEXT_ID@<340>
+
 Mash
 カルデアとの通信は完全に途絶、
 ここがどこの時代なのかも分からない、なんて……
@@ -376,7 +376,7 @@ Mash
 \\@CHARA_IN@< 2, 19, 114, 0, 1>
 \\@CHARA_EMOVE@<2, -1, 11>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0278", 100>
-\\@TEXT_ID@<350>
+
 Neco_Arc
 にゃっにゃっにゃっ。
 心配するなマドモアゼル。
@@ -384,7 +384,7 @@ Neco_Arc
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0279", 100>
-\\@TEXT_ID@<360>
+
 Neco_Arc
 悩みは色々あるだろうけど、ちょっとコタツを
 どけてごらん？　驚くぜ？
@@ -398,7 +398,7 @@ Neco_Arc
 \\@CHARA_IN@< 0, 20, 216, 0, 1>
 \\@CHARA_FACE@<0,-1,223,350>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0049", 100>
-\\@TEXT_ID@<370>
+
 Mash
 ？　コタツをですか？
 では失礼して……こ、これは……！
@@ -411,7 +411,7 @@ Mash
 
 \\@CHARA_IN@< 0, 20, 223, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0050", 100>
-\\@TEXT_ID@<380>
+
 Mash
 英霊召喚のサークルにそっくりです……！
 ネコアルクさんは召喚士だったのですか！？
@@ -422,14 +422,14 @@ Mash
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0280", 100>
-\\@TEXT_ID@<390>
+
 Neco_Arc
 うん。これはね、マシュ君が空から落ちてきて、
 アタシをクッションにした時にね。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0281", 100>
-\\@TEXT_ID@<400>
+
 Neco_Arc
 スポンジみたいになった体から魔力（比喩表現）が
 地面にビシャってなって、この通り。
@@ -439,7 +439,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 5>//悪だくみ
 \\@CHARA_IN@< 2, 19, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0282", 100>
-\\@TEXT_ID@<410>
+
 Neco_Arc
 すごいっしょ？
 控えめに見ても異世界転移のゲートです。
@@ -449,7 +449,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<4, 75>//mash
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0283", 100>
-\\@TEXT_ID@<420>
+
 Neco_Arc
 マシュ君の力（重さ）と、ネコの力（断末魔）が
 融合した合わせ技……とでも言っておきますか。
@@ -458,7 +458,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 0, 20, 204, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0051", 100>
-\\@TEXT_ID@<430>
+
 Mash
 もも、申し訳ありません……！
 ネコアルクさんを押し潰していたなんて……！
@@ -466,7 +466,7 @@ Mash
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0052", 100>
-\\@TEXT_ID@<440>
+
 Mash
 いつもは、はい、どちらかと言うとわたしが
 盾になるというか、着地役を果たすのですがっ！
@@ -476,7 +476,7 @@ Mash
 \\@CHARA_SET_PATTERN@<5, 0>//
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0284", 100>
-\\@TEXT_ID@<450>
+
 Neco_Arc
 ほう。じゃあマシュ君は護衛役？
 なるほどなー。そんな感じするする。
@@ -485,7 +485,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 2, 19, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0285", 100>
-\\@TEXT_ID@<460>
+
 Neco_Arc
 じゃ、話がまとまったところで
 ゲートに飛び込もっか☆
@@ -494,14 +494,14 @@ Neco_Arc
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0286", 100>
-\\@TEXT_ID@<470>
+
 Neco_Arc
 マシュ君は元の世界に戻るために。
 アタシはＭＢ界を平和にするために。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0287", 100>
-\\@TEXT_ID@<480>
+
 Neco_Arc
 いっちょ協力して異世界冒険しよう、ぜ！
 
@@ -510,14 +510,14 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<4, 77>//困惑
 \\@CHARA_IN@< 0, 20, 218, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0053", 100>
-\\@TEXT_ID@<490>
+
 Mash
 いえ、あの、話が見えなくて……
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0054", 100>
-\\@TEXT_ID@<500>
+
 Mash
 ネコアルクさんをお助けするのはいいのですが、
 なぜわたしなのでしょう……？
@@ -527,7 +527,7 @@ Mash
 \\@CHARA_SET_PATTERN@<5, 1>//万歳
 \\@CHARA_IN@< 2, 19, 112, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0288", 100>
-\\@TEXT_ID@<510>
+
 Neco_Arc
 分かるな、ネコと和解せよ！
 なぜも何もニャいんだよマシュ君！
@@ -535,7 +535,7 @@ Neco_Arc
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0289", 100>
-\\@TEXT_ID@<520>
+
 Neco_Arc
 なぜなら―――
 \l
@@ -546,7 +546,7 @@ Neco_Arc
 \\@NPC_LOAD_SYNC@<7, 93, 200, 0, 1>//小物
 \\@CHARA_SET_PATTERN@<7, 1>//落雷
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0290", 100>
-\\@TEXT_ID@<530>
+
 Neco_Arc
 人類の総意が！　売り上げが！
 ＤＬＣを求めているンだッ！
@@ -556,7 +556,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<4, 78>//真面目待機
 \\@CHARA_IN@< 0, 20, 223, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0055", 100>
-\\@TEXT_ID@<540>
+
 Mash
 ―――人類の総意―――
 \l
@@ -564,7 +564,7 @@ Mash
 
 \\@CHARA_IN@< 0, 20, 214, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0056", 100>
-\\@TEXT_ID@<550>
+
 Mash
 ネコアルクさんはそんなに大きな使命を
 お持ちだったのですね！
@@ -574,7 +574,7 @@ Mash
 \\@CHARA_SET_PATTERN@<4, 79>//盾構え
 \\@CHARA_IN@< 0, 20, 215, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0057", 100>
-\\@TEXT_ID@<560>
+
 Mash
 そういう事ならお任せください！
 まだまだ未熟者ですが、マシュ・キリエライト、
@@ -582,7 +582,7 @@ Mash
 
 \\@CHARA_IN@< 0, 20, 223, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0058", 100>
-\\@TEXT_ID@<570>
+
 Mash
 この盾にかけて人理のために戦います！
 世界のルールを乱す侵略者に容赦はしません！
@@ -592,7 +592,7 @@ Mash
 \\@CHARA_SET_PATTERN@<5, 11>//あれぇ？
 \\@CHARA_IN@< 2, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0291", 100>
-\\@TEXT_ID@<580>
+
 Neco_Arc
 ………………。
 （純粋な人間に慣れていない顔）
@@ -602,7 +602,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 38>//
 \\@CHARA_IN@< 2, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0292", 100>
-\\@TEXT_ID@<590>
+
 Neco_Arc
 ま、いっか！
 異世界や、買わず飛び込む無料ゲー、ってな。
@@ -612,7 +612,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<5, 35>//
 \\@CHARA_IN@< 2, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0293", 100>
-\\@TEXT_ID@<600>
+
 Neco_Arc
 マシュ君、ｙｏｕを新たな勇者―――
 \l
@@ -620,21 +620,21 @@ Neco_Arc
 
 \\@CHARA_SET_PATTERN@<5, 1>//万歳
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0294", 100>
-\\@TEXT_ID@<610>
+
 Neco_Arc
 ネコ二十七キャットのひとりに任命する！
 アタシと一緒にＭＢ界の悪を倒すンだ！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0295", 100>
-\\@TEXT_ID@<620>
+
 Neco_Arc
 その結果、アタシの体には魔力が高まり、
 新たなゲートを作りだす事も可能ッ！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0296", 100>
-\\@TEXT_ID@<630>
+
 Neco_Arc
 何度か実験していれば、いつかは元の世界に
 通じるゲートもできるって寸法さ！
@@ -645,7 +645,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<4, 83>//むんっ！
 \\@CHARA_IN@< 0, 20, 221, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0059", 100>
-\\@TEXT_ID@<640>
+
 Mash
 はい！　《召喚装置＜ネコアルクさん＞に魔力がたまり次第、
 雑巾のように搾らせていただきますね！
@@ -655,7 +655,7 @@ Mash
 \\@CHARA_SET_PATTERN@<5, 11>//あれぇ？
 \\@CHARA_IN@< 2, 19, 111, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0297", 100>
-\\@TEXT_ID@<650>
+
 Neco_Arc
 ―――。
 いまなんか怖いコト言わなかった、マシュ君？

@@ -45,14 +45,14 @@
 \\@SYSTEM@<100>
 \\@CHARA_IN@< 3, 19, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10100", 100>
-\\@TEXT_ID@<10>
+
 Neco_Arc
 ～これまでのあらすじ～
 \l
 
 \\@CHARA_IN@< 3, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10101", 100>
-\\@TEXT_ID@<20>
+
 Neco_Arc
 ついに三咲町を牛耳る悪の本部に
 辿り着いた有間都古。
@@ -60,7 +60,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 3, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10102", 100>
-\\@TEXT_ID@<30>
+
 Neco_Arc
 そこは遠野志貴の妹にして遠野家当主、
 遠野秋葉が支配する洋館だった。
@@ -68,7 +68,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 3, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10103", 100>
-\\@TEXT_ID@<40>
+
 Neco_Arc
 遠野秋葉は遠野志貴の根無し草な性根をただし、
 品行方正な優等生になってもらうため、
@@ -76,28 +76,28 @@ Neco_Arc
 
 \\@CHARA_IN@< 3, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10104", 100>
-\\@TEXT_ID@<50>
+
 Neco_Arc
 暇を持て余したシスターを金で雇い、
 田舎からやってきた吸血鬼と協定を結び、
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10105", 100>
-\\@TEXT_ID@<60>
+
 Neco_Arc
 普段から目を離せない双子の侍女を
 『減給されたくなければ』と恫喝し、
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10106", 100>
-\\@TEXT_ID@<70>
+
 Neco_Arc
 遠野志貴捕獲計画を企てていたのだった。
 \l
 
 \\@CHARA_IN@< 3, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10107", 100>
-\\@TEXT_ID@<80>
+
 Neco_Arc
 つまりどういう事かというと、
 
@@ -124,7 +124,7 @@ Neco_Arc
 \\@CHARA_EMOVE@<0, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10080", 100>
 \\@GO_SUB@<"QUAKE_2">
-\\@TEXT_ID@<90>
+
 Miyako
 ぜんぜん吸血鬼事件と関係ない、
 どうでもいい家庭内騒動だこれーーーー！
@@ -135,7 +135,7 @@ Miyako
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10081", 100>
-\\@TEXT_ID@<100>
+
 Miyako
 そうだよね、ネコアルクの脚本だもんね！
 期待したわたしが馬鹿だった！
@@ -143,14 +143,14 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10082", 100>
-\\@TEXT_ID@<110>
+
 Miyako
 さっきの吸血鬼のお姉さん、このオチを知ってたから
 邪魔しに来てくれたんだ……
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10083", 100>
-\\@TEXT_ID@<120>
+
 Miyako
 アキハなんて、どうせビームひとつ撃てない
 意地悪なだけのヤツだろうし……
@@ -158,7 +158,7 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10084", 100>
-\\@TEXT_ID@<130>
+
 Miyako
 ラスボス役とか、
 荷が勝ちすぎるに決まってるよ……
@@ -174,7 +174,7 @@ Miyako
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 2, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10000", 100>
-\\@TEXT_ID@<140>
+
 Akiha
 ―――まったく。呼び鈴も鳴らさず押し入ってきて、
 第一声がそれですか。
@@ -182,7 +182,7 @@ Akiha
 
 \\@CHARA_IN@< 1, 2, 201, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10001", 100>
-\\@TEXT_ID@<150>
+
 Akiha
 意地悪なだけ、とか。
 ラスボスには相応しくない、とか……
@@ -191,7 +191,7 @@ Akiha
 \\@CHARA_SET_PATTERN@<5, 5>//akiha 呆れ→目開け
 \\@CHARA_IN@< 1, 2, 202, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10002", 100>
-\\@TEXT_ID@<160>
+
 Akiha
 甘い評価をしていただいて、ありがとう。
 この後、本気を出すのを躊躇ってしまいそうだわ。
@@ -201,7 +201,7 @@ Akiha
 \\@CHARA_IN@< 0, 13, 5, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10085", 100>
-\\@TEXT_ID@<170>
+
 Miyako
 うぇ！？　だだ、誰かいる……！
 あれがアキハなの、お兄ちゃ―――
@@ -212,7 +212,7 @@ Miyako
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10086", 100>
-\\@TEXT_ID@<180>
+
 Miyako
 （あれ？　お兄ちゃん、どこにもいない……？）
 
@@ -220,7 +220,7 @@ Miyako
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 2, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10003", 100>
-\\@TEXT_ID@<190>
+
 Akiha
 ……ここにきて挙動不審な娘ですね。
 助けを期待しているのなら諦めなさい。
@@ -228,14 +228,14 @@ Akiha
 
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10004", 100>
-\\@TEXT_ID@<200>
+
 Akiha
 ここは遠野の私有地。
 警察も、代行者とやらも近づけない帰らずの森。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10005", 100>
-\\@TEXT_ID@<210>
+
 Akiha
 不埒な侵入者の末路は決まっています。
 呪うのなら、自らの運命を呪うのね。
@@ -245,7 +245,7 @@ Akiha
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10087", 100>
-\\@TEXT_ID@<220>
+
 Miyako
 な、なんかヒヤッとした気配が来る……！
 い、いいよ、わたしだって強いんだからっ！
@@ -255,7 +255,7 @@ Miyako
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10088", 100>
-\\@TEXT_ID@<230>
+
 Miyako
 勝負だ、アキハ！　わたしは有間都古、
 血は繋がってないけど、お兄ちゃんの妹です！
@@ -264,7 +264,7 @@ Miyako
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 2, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak_10006", 100>
-\\@TEXT_ID@<240>
+
 Akiha
 ―――有間、ですって？
 

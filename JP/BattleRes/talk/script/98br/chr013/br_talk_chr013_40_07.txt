@@ -27,7 +27,7 @@
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 19, 105, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10110", 100>
-\\@TEXT_ID@<10>
+
 Neco_Arc
 うっわ、大人げねー。
 当主おとなげねー！　色々ねー！
@@ -36,7 +36,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<6, 3>//neco やれやれ
 \\@CHARA_IN@< 1, 19, 107, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10111", 100>
-\\@TEXT_ID@<20>
+
 Neco_Arc
 子供相手にあのセリフ、どう思いますか眼鏡クン。
 七年の気遣いも冷めるのでは？
@@ -46,14 +46,14 @@ Neco_Arc
 \\@CHARA_IN@< 2, 3, -1, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10040", 100>
-\\@TEXT_ID@<30>
+
 Shiki
 子供相手に、とか思ってないですよ。
 \l
 
 \\@CHARA_SET_PATTERN@<5, 23>//shiki 眼鏡お手戻り
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10041", 100>
-\\@TEXT_ID@<40>
+
 Shiki
 都古ちゃんが本気で向かってきたから、
 アイツも本気で応えてるだけでしょ。
@@ -62,7 +62,7 @@ Shiki
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 19, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10112", 100>
-\\@TEXT_ID@<50>
+
 Neco_Arc
 マジかよその信頼おりひめひこぼしいまそかり。
 そういう八方美人な態度、アタシどうかと思うなー。
@@ -71,7 +71,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<6, 3>//neco やれやれ
 \\@CHARA_IN@< 1, 19, 107, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10113", 100>
-\\@TEXT_ID@<60>
+
 Neco_Arc
 なに？　眼鏡クンなだけに《透明多面体＜プリズム＞ってコト？
 《視線＜ひかり＞を分散・屈折・全反射、みたいな。
@@ -80,7 +80,7 @@ Neco_Arc
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 2, 3, 6, 0, 1>//喜び2
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10042", 100>
-\\@TEXT_ID@<70>
+
 Shiki
 ははは。気づいてないようだから教えてやるけど、
 おまえの言動、人類には八割理解できないからな。
@@ -90,7 +90,7 @@ Shiki
 \\@CHARA_IN@< 1, 19, 110, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10114", 100>
-\\@TEXT_ID@<80>
+
 Neco_Arc
 ほほう、けっこうな打率ですニャー。
 最近はアタリが１％でも有情だと―――
@@ -99,7 +99,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<6, 35>//neco
 \\@CHARA_IN@< 1, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10115", 100>
-\\@TEXT_ID@<90>
+
 Neco_Arc
 おっと、ピロートークはそこまでだボーイ。
 プリンセスが目を覚ますようだ、ぜ……？
@@ -120,7 +120,7 @@ Neco_Arc
 \\@CHARA_IN@< 0, 13, -1, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10100", 100>
-\\@TEXT_ID@<100>
+
 Miyako
 ひゃーーーーー！
 鬼みたいなコジュウトに殺されちゃうーーー！
@@ -131,7 +131,7 @@ Miyako
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10101", 100>
-\\@TEXT_ID@<110>
+
 Miyako
 ……って、あれ？
 アキハいない？　ここは一番最初の……
@@ -141,7 +141,7 @@ Miyako
 \\@CHARA_IN@< 1, 19, 108, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10116", 100>
-\\@TEXT_ID@<120>
+
 Neco_Arc
 ウィムシュー。
 貴様の精神世界、その入り口だニャ幼女拳士。
@@ -150,7 +150,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<6, 14>//neco
 \\@CHARA_IN@< 1, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10117", 100>
-\\@TEXT_ID@<130>
+
 Neco_Arc
 いっときのヒロイン体験、如何だったでしょうか？
 血湧き肉躍るアクション大作に満足した？
@@ -158,7 +158,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 1, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10118", 100>
-\\@TEXT_ID@<140>
+
 Neco_Arc
 それとも、ラブロマンスの欠片もない
 お子様展開にガッカリした？
@@ -168,7 +168,7 @@ Neco_Arc
 \\@CHARA_IN@< 0, 13, 9, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10102", 100>
-\\@TEXT_ID@<150>
+
 Miyako
 か、欠片くらいはあったんですけど！
 いっしょにファミレスでランチも食べたし！
@@ -176,7 +176,7 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10103", 100>
-\\@TEXT_ID@<160>
+
 Miyako
 ね、そうだよね、お兄ちゃん！？
 
@@ -185,7 +185,7 @@ Miyako
 \\@CHARA_IN@< 3, 3, 1, 0, 1>
 \\@CHARA_EMOVE@<3, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10043", 100>
-\\@TEXT_ID@<170>
+
 Shiki
 そうだね。作戦会議もかねて、途中でね。
 次はパンケーキを頼もっか。
@@ -193,7 +193,7 @@ Shiki
 \\@CHARA_SET_PATTERN@<4, 6>//miyako YES
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10104", 100>
-\\@TEXT_ID@<180>
+
 Miyako
 えへへー。
 
@@ -201,7 +201,7 @@ Miyako
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 19, 107, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10119", 100>
-\\@TEXT_ID@<190>
+
 Neco_Arc
 こちら、お父さん視点であるとお気づきでない？
 
@@ -210,14 +210,14 @@ Neco_Arc
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10105", 100>
-\\@TEXT_ID@<200>
+
 Miyako
 じゃなくてバカネコ、今のはどういうコト！？
 \l
 
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10106", 100>
-\\@TEXT_ID@<210>
+
 Miyako
 わたし、確かにアキハに勝ったのに！
 なんであんな展開になっちゃうの！？
@@ -225,7 +225,7 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10107", 100>
-\\@TEXT_ID@<220>
+
 Miyako
 このシナリオ、バグってない！？
 
@@ -234,7 +234,7 @@ Miyako
 \\@CHARA_IN@< 1, 19, 100, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 11>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10120", 100>
-\\@TEXT_ID@<230>
+
 Neco_Arc
 にゃっにゃっにゃっ。
 《永パ＜バグ＞もなければ《遅滞＜ラグ＞もない。
@@ -243,7 +243,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<6, 2>//neco ゆらゆら
 \\@CHARA_IN@< 1, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10121", 100>
-\\@TEXT_ID@<240>
+
 Neco_Arc
 どんな展開、どんな選択をしようと、
 貴様のシナリオには必ず、最後にアレが立ちはだかる。
@@ -251,7 +251,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 1, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10122", 100>
-\\@TEXT_ID@<250>
+
 Neco_Arc
 貴様にとって超えられない壁。
 絶対の壁。運命の壁。とにかく壁。
@@ -259,7 +259,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 1, 19, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10123", 100>
-\\@TEXT_ID@<260>
+
 Neco_Arc
 有間都古が有間都古である以上、
 あの鬼妹にはどうあっても勝てないんだニャー。
@@ -269,7 +269,7 @@ Neco_Arc
 \\@CHARA_IN@< 0, 13, 11, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10108", 100>
-\\@TEXT_ID@<270>
+
 Miyako
 そんな……じゃあ、お兄ちゃんは何をしても
 戻ってこないってコト？
@@ -279,7 +279,7 @@ Miyako
 \\@CHARA_IN@< 1, 19, 110, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10124", 100>
-\\@TEXT_ID@<280>
+
 Neco_Arc
 うんにャ。
 勝てない、からＥＤがない、とはかぎらニャい。
@@ -288,13 +288,13 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<6, 13>//neco
 \\@CHARA_IN@< 1, 19, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10125", 100>
-\\@TEXT_ID@<290>
+
 Neco_Arc
 ある達人はこう言った。
 
 \\@CHARA_IN@< 1, 19, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10126", 100>
-\\@TEXT_ID@<300>
+
 Neco_Arc
 “もっともヤバみな格闘技とは、敵をグループに
 　誘ってしゅきぴを横取りするコトだ”と。
@@ -303,7 +303,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<6, 14>//neco
 \\@CHARA_IN@< 1, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10127", 100>
-\\@TEXT_ID@<310>
+
 Neco_Arc
 あれ、違ったかニャ？
 まあいいや、だいたいあってる。
@@ -312,7 +312,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<6, 1>//neco 万歳
 \\@CHARA_IN@< 1, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10128", 100>
-\\@TEXT_ID@<320>
+
 Neco_Arc
 すべてはここからなンだ、我がライバルよ。
 貴様は今日、絶対の敗北を知った。
@@ -321,7 +321,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<6, 0>//neco
 \\@CHARA_IN@< 1, 19, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10129", 100>
-\\@TEXT_ID@<330>
+
 Neco_Arc
 次に目覚めた時、その悔しさがバネになって
 突進力の増したアナタがいます。
@@ -329,7 +329,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 1, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10130", 100>
-\\@TEXT_ID@<340>
+
 Neco_Arc
 どうかそのコトを忘れないでください。
 連敗にも意味はある。はい、復唱。
@@ -337,7 +337,7 @@ Neco_Arc
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10109", 100>
-\\@TEXT_ID@<350>
+
 Miyako
 え、うえ……！？
 えっと、バッドエンドは無駄じゃない、みたいな？
@@ -347,7 +347,7 @@ Miyako
 \\@CHARA_IN@< 1, 19, 106, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10131", 100>
-\\@TEXT_ID@<360>
+
 Neco_Arc
 ほほう、なかなか夢のある変換。
 その順応性は大器の証だニャー。
@@ -356,7 +356,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<6, 0>//neco
 \\@CHARA_IN@< 1, 19, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10132", 100>
-\\@TEXT_ID@<370>
+
 Neco_Arc
 それじゃあ今回はこのヘンで。
 チャイナよ、次の挑戦の時までグッドキャッ―――
@@ -378,7 +378,7 @@ Neco_Arc
 
 \\@CHARA_SET_PATTERN@<6, 70>//neco フェードアウト
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10133", 100>
-\\@TEXT_ID@<380>
+
 Neco_Arc
 あれ？　おかしいな？
 視界が。斜めに。落ちて。いくよ？
@@ -395,14 +395,14 @@ Neco_Arc
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 2, 3, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10044", 100>
-\\@TEXT_ID@<390>
+
 Shiki
 それはちょっと同意できないな。
 次に目覚めた時だって？　それこそ無責任だ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10045", 100>
-\\@TEXT_ID@<400>
+
 Shiki
 ここでならいくらでも失敗できる。
 そこをもっと評価しないと。
@@ -411,7 +411,7 @@ Shiki
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10110", 100>
-\\@TEXT_ID@<410>
+
 Miyako
 お兄ちゃん……？
 
@@ -419,21 +419,21 @@ Miyako
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 2, 3, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10046", 100>
-\\@TEXT_ID@<420>
+
 Shiki
 だからさ。ここでずっと、
 都古ちゃんは勝てない戦いをすればいい。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10047", 100>
-\\@TEXT_ID@<430>
+
 Shiki
 オチはともかく、
 そこまでの過程はできているんだ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10048", 100>
-\\@TEXT_ID@<440>
+
 Shiki
 現実はここまで楽しい話じゃないんだし。
 なら、目を覚ます必要はないだろう？
@@ -441,7 +441,7 @@ Shiki
 
 \\@CHARA_SET_PATTERN@<5, 28>//shiki 眼鏡ため息
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10049", 100>
-\\@TEXT_ID@<450>
+
 Shiki
 それでも“いやだ”というのなら仕方がない。
 お兄ちゃんとして、厳しめの教育をしよう。
@@ -453,7 +453,7 @@ Shiki
 \\@CHARA_IN@< 0, 13, -1, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10111", 100>
-\\@TEXT_ID@<460>
+
 Miyako
 ―――そっか。
 そういうコト、なんだ。
@@ -461,21 +461,21 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10112", 100>
-\\@TEXT_ID@<470>
+
 Miyako
 そうだよね。勝てなかったから逃げ出します、じゃ
 カッコ悪いよね。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10113", 100>
-\\@TEXT_ID@<480>
+
 Miyako
 次に行くなら、ちゃんと成果を出さないと。
 \l
 
 \\@CHARA_IN@< 0, 13, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10114", 100>
-\\@TEXT_ID@<490>
+
 Miyako
 確かにアキハは
 わたしにとって大理石みたいな壁だけど―――
@@ -483,7 +483,7 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10115", 100>
-\\@TEXT_ID@<500>
+
 Miyako
 それよりもっと苦手で、やりづらくて、
 大好きなひとが、目の前にいるんだから。
@@ -492,7 +492,7 @@ Miyako
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 2, 3, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10050", 100>
-\\@TEXT_ID@<510>
+
 Shiki
 あれ。まいったな、勇気与えちゃったぞ。
 ……はあ。悪役ムーブ、ヘタクソだった？
@@ -502,7 +502,7 @@ Shiki
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10116", 100>
-\\@TEXT_ID@<520>
+
 Miyako
 ううん、すっごくそれっぽかった！
 都古のお兄ちゃんは、きっすいの鬼畜眼鏡だーー！

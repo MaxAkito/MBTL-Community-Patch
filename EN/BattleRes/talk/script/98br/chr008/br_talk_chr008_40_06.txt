@@ -1,0 +1,375 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>//背景　公園_噴水前_夜
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 62, 100>//ほのぼのとした日常系BGM
+
+
+\\@CHARA_IN@<0, 8, 16, 1, 0>
+\\@CHARA_IN@<1, 3, 410, 2, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 8, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<4, 105>
+
+\\@NPC_LOAD_SYNC@<5, 3, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 91>//デフォルト・眼鏡無し
+
+\\@SYSTEM@<121>
+\\@CHARA_IN@<0, 8, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0140", 100>
+\\@TEXT_ID@<10>
+Noel
+なんとか逃げきれた～～！！（涙）
+もう洋館とかコリゴリよ～～～！
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 106>//shiki
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 410, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0210", 100>
+\\@TEXT_ID@<20>
+Shiki_GakuseiKare
+まったくです。ワンチャンで気が合うかも、と
+思った俺が愚かでした。
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0141", 100>
+\\@TEXT_ID@<30>
+Noel
+キミもキミよ！　ＳＯＳメール送ったのに
+やって来ないし！　なにしてたの！？
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 104>//考え
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 406, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0211", 100>
+\\@TEXT_ID@<40>
+Shiki_GakuseiKare
+あ。ホントだ。メールきてるな。
+
+
+\\@CHARA_IN@<1, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0212", 100>
+\\@TEXT_ID@<50>
+Shiki_GakuseiKare
+ごめん。メイドの娘と図書室の整理をしてて、
+気づかなかった。
+
+\\@CHARA_SET_PATTERN@<4, 125>
+\\@SYSTEM@<121>
+\\@CHARA_IN@<0, 8, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0142", 100>
+\\@TEXT_ID@<60>
+Noel
+シレッとサイアクなコト言うしぃー！
+キミ、根は人でなしでしょー！？
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 106>//呆れ
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 404, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0213", 100>
+\\@TEXT_ID@<70>
+Shiki_GakuseiKare
+そうですか？　すみません、実はあんまり
+人付き合いの経験、ないんです。
+
+
+\\@CHARA_SET_PATTERN@<5, 117>//呆れ戻り
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0214", 100>
+\\@TEXT_ID@<80>
+Shiki_GakuseiKare
+人の少ない田舎育ちだったから。
+同じ遊び友達もいなかったし。
+
+
+\\@CHARA_SET_PATTERN@<4, 104>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0143", 100>
+\\@TEXT_ID@<90>
+Noel
+そうなんだ。社交性あるのにね。
+じゃあ、今は無理して私の手伝いをしてるの？
+\l
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 408, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0215", 100>
+\\@TEXT_ID@<100>
+Shiki_GakuseiKare
+ノエル先生には気を遣ってないですよ。
+カッコ悪いところ見せ合ったでしょ。
+
+
+
+\\@CHARA_SET_PATTERN@<4, 97>
+\\@CHARA_IN@<0, 8, 15, 0, 1>
+\aw
+\w<60>
+
+
+\\@CHARA_IN@<1, 3, 402, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0216", 100>
+\\@TEXT_ID@<110>
+Shiki_GakuseiKare
+それより。これからどうするんです？
+そもそもノエル先生の目的は？
+
+
+\\@CHARA_SET_PATTERN@<4, 102>//考え
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0144", 100>
+\\@TEXT_ID@<120>
+Noel
+んー、そうね、丘の上の屋敷はハズレだったから、
+次は学校かしら。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 103>//提案
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 402, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0217", 100>
+\\@TEXT_ID@<130>
+Shiki_GakuseiKare
+そうじゃなくて。探している吸血鬼を倒した後、
+何をしたいんですか？
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0145", 100>
+\\@TEXT_ID@<140>
+Noel
+何って……将来とか、夢の話？
+そんなのあると思う？　私に？
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 101>//怒り
+\\@CHARA_IN@<0, 8, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0146", 100>
+\\@TEXT_ID@<150>
+Noel
+っていうか、考える余裕はないの！
+めっちゃ希望はあるけど、どうせ叶いっこないし！
+\l
+
+
+\\@CHARA_IN@<0, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0147", 100>
+\\@TEXT_ID@<160>
+Noel
+私の人生はマイナスなの、絶賛沈没中なの！
+アイツを倒さないかぎり浮き上がる事はないの！
+
+
+\\@CHARA_SET_PATTERN@<5, 107>//頷き
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 402, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0218", 100>
+\\@TEXT_ID@<170>
+Shiki_GakuseiKare
+海の底にぶくぶく沈んでいる最中だ、と。
+確かに、それじゃ生きるのに精一杯ですね。
+
+
+\\@NPC_LOAD_SYNC@<6, 5, -120, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//roa
+\\@CHARA_SET_PATTERN@<6, 119>//歩く
+\\@CHARA_WAIT_PATTERN@<6, 121>//ぶつかるまで待機
+
+\\@CHARA_IN@<1, 5, 0, 2, 0>
+\aw
+
+// 振り向く
+\\@CHARA_SET_PATTERN@<5, 99>//眼鏡無し振り向き
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 3, 417, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0219", 100>
+\\@TEXT_ID@<180>
+Shiki_GakuseiKare
+おっと。
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 5, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0000", 100>
+\\@TEXT_ID@<190>
+Roa
+――――――。
+
+
+\\@CHARA_SET_PATTERN@<4, 107>//驚き
+
+\\@SYSTEM@<131>
+\\@CHARA_IN@<0, 8, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0148", 100>
+\\@TEXT_ID@<200>
+Noel
+（やっば、目がイッてる……！
+　中毒！？　何かの中毒者ね、この白シャツ！）
+
+
+\\@CHARA_SET_PATTERN@<5, 104>//考え
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 3, 408, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0220", 100>
+\\@TEXT_ID@<210>
+Shiki_GakuseiKare
+すみません、真面目な話をしていて、
+前を見ていませんでした。
+
+\\@CHARA_SET_PATTERN@<6, 122>
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 5, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0001", 100>
+\\@TEXT_ID@<220>
+Roa
+いえ、構いませんよ。
+肩がぶつかっただけです。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0002", 100>
+\\@TEXT_ID@<230>
+Roa
+とはいえ、確かに注意力散漫ですね。
+可愛らしい恋人と一緒なら尚更です。
+\l
+
+\\@CHARA_IN@<1, 5, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0003", 100>
+\\@TEXT_ID@<240>
+Roa
+夜の公園は人の凶暴性を刺激するもの。
+今後は注意するといいでしょう。
+
+
+\\@CHARA_SET_PATTERN@<4, 103>//楽
+\\@SYSTEM@<131>
+\\@CHARA_IN@<0, 8, 19, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0149", 100>
+\\@TEXT_ID@<250>
+Noel
+（顔に似合わずいい《性格＜ヤツ＞だった！
+　ソウヤも捨てたものじゃないわね！）
+\l
+
+\\@CHARA_SET_PATTERN@<5, 103>//提案
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0221", 100>
+\\@TEXT_ID@<260>
+Shiki_GakuseiKare
+そうします。あ、でもそっちも気をつけて。
+シャツのボタン、外れてますよ。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0222", 100>
+\\@TEXT_ID@<270>
+Shiki_GakuseiKare
+路上演奏の帰りですか？
+よっぽどエキサイトしたんですね。
+
+\\@CHARA_SET_PATTERN@<4, 100>//喜び
+\\@CHARA_IN@<0, 8, 19, 1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0150", 100>
+\\@TEXT_ID@<280>
+Noel
+あ、ホントだ。
+裸のピアニスト、カッコイー！
+
+
+
+\\@BGM_FADE@<0, 100, 0, 60, 1>
+
+\\@CHARA_SET_PATTERN@<6, 123>
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 5, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0004", 100>
+\\@TEXT_ID@<290>
+Roa
+―――なんだと？
+\l
+
+
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@CHARA_SET_PATTERN@<6, 124>
+
+\\@SYSTEM@<122>
+\\@CHARA_IN@<1, 5, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0005", 100>
+\\@TEXT_ID@<300>
+Roa
+ちげえだろ、ギタリストだろぉ！？
+ピアニストがレザーのパンツ履くかっての！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0006", 100>
+\\@TEXT_ID@<310>
+Roa
+なんてこった、《凶暴性＜スイッチ＞入っちまった！
+\l
+
+\\@SYSTEM@<102>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0007", 100>
+\\@TEXT_ID@<320>
+Roa
+１曲目は静かなバラードにしたかったのに、
+テメエらのせいで《沸点＜レート＞は飛び飛びだ！
+\l
+
+\\@CHARA_SET_PATTERN@<6, 125>
+
+\\@SYSTEM@<122>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0008", 100>
+\\@TEXT_ID@<330>
+Roa
+弾けるぜ繊細マインド！
+音楽性の違いが、オマエたちを切り刻む！
+
+\\@CHARA_SET_PATTERN@<4, 107>//驚き
+\\@CHARA_SET_PATTERN@<5, 119>//驚き
+
+\\@CHARA_IN@<0, 8, 5, 0, 1>
+\\@SYSTEM@<121>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0151", 100>
+\\@TEXT_ID@<340>
+Noel
+ええぇ褒めたつもりなんですけどぉー！？
+雷速でつっこんで来るぅーー！
+\l
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0152", 100>
+\\@TEXT_ID@<350>
+Noel
+すご、都心の暴漢はみんなサイボーグだって
+《小説＜はなし＞、ホントだったのね！
+
+
+\\@BGM_STOP@<0>
+\e
+

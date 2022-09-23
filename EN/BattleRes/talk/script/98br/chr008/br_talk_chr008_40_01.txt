@@ -1,0 +1,452 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<23>//背景　交差点
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\\@NPC_CHARA_SHADOW@<2>//シンプルな影に変更
+\\@NPC_CHARA_EFFECT@<1,23>//ステージに合わせたキャラ効果
+
+\\@SYSTEM@<0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 8, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<4, 110>//手紙手に持つ
+
+\\@BGM_PLAY@<0, 72, 100>
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@<0, 8, 7, 1, 0>
+\aw
+
+\\@CHARA_IN@<0, 8, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0000", 100>
+\\@TEXT_ID@<10>
+Noel
+……封筒、届いたわね。
+あのクソガキとの口約束が本当なら……これで……
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0001", 100>
+\\@TEXT_ID@<20>
+Noel
+いいえ。
+期待しない、期待しない……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0002", 100>
+\\@TEXT_ID@<30>
+Noel
+どうせいつもの《ぬか喜び＜パターン＞でしょ、
+せいぜい、特別手当が関の山だって。
+\l
+
+\\@CHARA_IN@<0, 8, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0003", 100>
+\\@TEXT_ID@<40>
+Noel
+……よし。
+開けるか。
+\l
+
+\\@SYSTEM@<200>
+\\@CHARA_SET_PATTERN@< 4, 111 >//手紙読む
+\\@CHARA_CLEAR@<0>
+\aw
+
+\\@SYSTEM@<100>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0004", 100>
+\\@TEXT_ID@<50>
+NONE
+『……以上の報告を以て、代行者ノエルより
+　異端審問の任を解くものとする』
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0005", 100>
+\\@TEXT_ID@<60>
+NONE
+『以後は浄化対象となった現地の監察者として
+　喜捨巡礼に励むよう指導する』
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0006", 100>
+\\@TEXT_ID@<70>
+NONE
+『慰問司祭代行
+　マーリオゥ・ジャッロ・ベスティーノ』
+\l
+\\@CHARA_SET_PATTERN@< 4, 113 >//まじか
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 14, 1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0007", 100>
+\\@TEXT_ID@<80>
+Noel
+―――マジか。
+\l
+
+
+\\@CHARA_SET_PATTERN@< 4, 114 >//ちょろすぎ
+
+\\@SYSTEM@<111>
+\\@CHARA_IN@<0, 8, 19, 1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0008", 100>
+\\@TEXT_ID@<90>
+Noel
+うわっ、教会チョロすぎぃ～～！
+もう受領されちゃってる～～ぅ☆
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0009", 100>
+\\@TEXT_ID@<100>
+Noel
+持つべきものは頼れる上司ね！
+ぜんっぜん好きじゃないけどね！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0010", 100>
+\\@TEXT_ID@<110>
+Noel
+これで死にそうな毎日はおっしまーい！
+グッバイ、ノルマに縛られていた私！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0011", 100>
+\\@TEXT_ID@<120>
+Noel
+そしてハロー、サラリー制になった私！
+安定した生活って最っ高！
+\l
+
+\\@CHARA_SET_PATTERN@< 4, 115 >//うひゃひゃ
+
+\\@CHARA_IN@<0, 8, 20, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0012", 100>
+\\@TEXT_ID@<130>
+Noel
+うひゃ。うひひゃ。
+うひゃひゃひゃひゃ……！
+\l
+
+
+\\@CHARA_SET_PATTERN@< 4, 116 >//だるーん
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0013", 100>
+\\@TEXT_ID@<140>
+Noel
+って、テンションあがりすぎでしょ。
+冷静に、冷静に。でも無理、頬が蕩けちゃう～～☆
+\l
+
+
+\\@CHARA_SET_PATTERN@< 4, 117 >//喜び
+
+\\@CHARA_IN@<0, 8, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0014", 100>
+\\@TEXT_ID@<150>
+Noel
+ふふ。これも全部お人好しな《志貴君＜あの子＞のおかげね。
+利用しきったらポイ捨てするつもりだったけど。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0015", 100>
+\\@TEXT_ID@<160>
+Noel
+あ、全部ってのは言い過ぎか。
+ちょびっと。ほんのちょびっとね？
+\l
+
+\\@CHARA_SET_PATTERN@< 4, 118 >
+
+\\@CHARA_IN@<0, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0016", 100>
+\\@TEXT_ID@<170>
+Noel
+とにかく、早く帰って引っ越しの準備しないと！
+あんな安アパートじゃ威厳も何もないわ！
+\l
+
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_Driving", 1, 100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0017", 100>
+\\@TEXT_ID@<180>
+Noel
+人生の先輩として、ゴージャスでカジュアルで、
+それでいてキュートな展開を演出しなく―――
+\l
+
+\\@QUAKE@<1, 3>//通常揺れ, 揺れ幅
+
+\\@CHARA_SET_PATTERN@< 4, 119 >
+\\@CHARA_IN@<0, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0018", 100>
+\\@TEXT_ID@<190>
+Noel
+って、人がパーフェクトプラン（脳内）を
+立てている時に邪魔しないでよ！
+\l
+
+
+\\@CHARA_SET_PATTERN@< 4, 120 >
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0019", 100>
+\\@TEXT_ID@<200>
+Noel
+日本のことわざにあるでしょ、
+人の夢路を邪魔するヤツは車に轢かれて、
+\l
+
+
+\\@QUAKE@<0>//揺れ停止
+\\@BGM_FADE@<0, -1, 0, 30, 1>
+\\@SE_STOP@<1>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Braking", 0, 100>
+
+
+\\@CHARA_SET_MVNAME@< 4, "CameraUp" >
+
+\\@NPC_LOAD_SYNC@<7, 91, 0, 0, 0>
+\\@CHARA_SET_PATTERN@<7, 1>//トラック凸
+
+\\@FADE_OUT@<1, 255, 255, 255, 0>
+\\@FADE_OUT@<2, 0, 0, 0, 0>
+\aw
+
+\\@SYSTEM@<100>
+\\@CHARA_IN@<0, 8, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0020", 100>
+\\@TEXT_ID@<210>
+Noel
+あー、そう来たかー。
+\l
+
+\\@SYSTEM@<200>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+
+// 画面、暗転。ウエイト３秒から
+\\@CHARA_SET_MVNAME@< 4, "CameraReset" >
+\\@CHARA_CLEAR@<0>
+\aw
+
+\w<60>
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@LOAD_BATTLE_BG@<9>//BG読み込み
+\\@NPC_CHARA_SHADOW@<1>//ステージ依存の影に変更
+\\@NPC_CHARA_EFFECT@<1,9>//ステージに合わせたキャラ効果
+
+\\@CHARA_SET_PATTERN@<7, 0>//別PATにしてトラックや関連物を消す
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 8, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@< 4, 130 >
+
+\\@NPC_LOAD_SYNC@<5, 3, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 110>
+
+\\@SYSTEM@<100>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0140", 100>
+\\@TEXT_ID@<220>
+Shiki_Hatena
+……さい！
+
+
+
+\\@FADE_IN@<1, 255, 255, 255, 0>
+\\@FADE_IN@<2, 0, 0, 0, 0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 100>
+\\@CHARA_IN@<1, 3, 3, 2, 0>
+\aw
+
+\\@CHARA_IN@<1, 3, 3, 0, 1>
+
+\\@SYSTEM@<102>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0141", 100>
+\\@TEXT_ID@<230>
+Shiki_Hatena
+起きてください、ノエル先生！
+いいかげん、起きないと死にますよ！
+
+
+\\@CHARA_IN@<0, 8, 11, 1, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@< 4, 131 >
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0021", 100>
+\\@TEXT_ID@<240>
+Noel
+―――はへ？
+
+
+
+\\@NPC_LOAD_SYNC@<6, 9, 720, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//vlov
+\\@CHARA_SET_PATTERN@<6, 6>
+
+\\@CHARA_IN@<1, 9, 6, 2, 0>
+\aw
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 9, 6, 0, 1>
+\\@TEXT_ID@<250>
+Volv
+“…………！”
+
+\\@SYSTEM@<121>
+\\@CHARA_SET_PATTERN@< 4, 132 >
+\\@CHARA_IN@<0, 8, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0022", 100>
+\\@TEXT_ID@<260>
+Noel
+はあああ！？
+なにアイツ上級死徒！？　っていうかここドコ！？
+\l
+
+//一旦ヴローヴは消す
+\\@CHARA_SET_MVNAME@<6, "FadeOutAndCameraOut">//vlov
+
+\\@CHARA_SET_PATTERN@< 4, 133 >//ジタバタ
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0023", 100>
+\\@TEXT_ID@<270>
+Noel
+うわ、めっちゃ熱い、地面燃えてる燃えてるぅー！
+誰か説明、説明してよー！
+\l
+
+\\@CHARA_SET_PATTERN@< 5, 109 >//ｖｓヴローヴ目線下
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 405, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0142", 100>
+\\@TEXT_ID@<280>
+Shiki_Hatena
+説明って……ノエル先生、頭打ったんですか？
+あ、打ってますね。後頭部にアザ、できてます。
+
+// カメラも消す
+\\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>
+
+\\@CHARA_SET_PATTERN@< 5, 155 >//起き上がり目線をノエルに
+\\@CHARA_SET_PATTERN@< 4, 142 >//たすけてー
+
+\\@CHARA_IN@<1, 3, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0143", 100>
+\\@TEXT_ID@<290>
+Shiki_Hatena
+受け身失敗ですね。めちゃくちゃ強いクセに
+基本的なコトに手を抜くの、なんとかしてください。
+
+
+\\@CHARA_SET_PATTERN@< 4, 136 >
+
+\\@CHARA_SET_PATTERN@< 5, 156 >//目線上げる
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 14, 1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0024", 100>
+\\@TEXT_ID@<300>
+Noel
+え……強いって、私が？　メチャクチャ？
+\l
+
+
+\\@CHARA_SET_PATTERN@< 4, 137 >
+
+\\@SYSTEM@<101>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0025", 100>
+\\@TEXT_ID@<310>
+Noel
+待って。
+ウソでもいいからもう一度言って言って！
+\l
+
+\\@CHARA_SET_PATTERN@< 5, 157 >//目線ノエル
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 410, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0144", 100>
+\\@TEXT_ID@<320>
+Shiki_Hatena
+はいはい、世界で一番ウザ強いですよ。
+何回言わせるんですか。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0145", 100>
+\\@TEXT_ID@<330>
+Shiki_Hatena
+ノエル先生は別世界からやってきた
+吸血鬼退治のスペシャリストで、
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0146", 100>
+\\@TEXT_ID@<340>
+Shiki_Hatena
+ビジネス感覚で街を守る守護天使で、
+埋葬機関ってところの期待の新人なんでしょ。
+
+\\@CHARA_IN@<1, 3, 404, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0147", 100>
+\\@TEXT_ID@<350>
+Shiki_Hatena
+なんか様子がおかしいけど、
+それはまあ初めからとして。
+
+
+\\@CHARA_IN@<1, 3, 423, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0148", 100>
+\\@TEXT_ID@<360>
+Shiki_Hatena
+ほら、早く立ち上がってください。
+あともう一押しです。
+
+
+\\@CHARA_IN@<1, 3, 408, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0149", 100>
+\\@TEXT_ID@<370>
+Shiki_Hatena
+さっきまでアイツを追い詰めていたんだから、
+真面目にやれば勝てますよ。
+
+
+\\@CHARA_SET_PATTERN@< 5, 156 >//目線上げる
+\\@CHARA_SET_PATTERN@< 4, 138 >
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 6, 1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0026", 100>
+\\@TEXT_ID@<380>
+Noel
+そ、そうなんだ！？
+そうよね、なんだかそんな気もしてきたわ！
+\l
+
+\\@CHARA_SET_PATTERN@< 4, 140 >
+
+\\@SYSTEM@<121>
+\\@CHARA_IN@<0, 8, 4, 1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0027", 100>
+\\@TEXT_ID@<390>
+Noel
+よーし、やるぞ私ーー！
+運命はいつも大回転！　人生逆転、待ったなしよ！
+
+
+\\@BGM_STOP@<0>
+\e
+

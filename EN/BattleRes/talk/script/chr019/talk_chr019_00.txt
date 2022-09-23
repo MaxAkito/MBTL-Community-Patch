@@ -1,0 +1,384 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<23>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+\\@NPC_LOAD_SYNC@<7, 93, 0, 0, 0>//小物
+
+\\@NPC_LOAD_SYNC@<4, 19, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 1>//万歳
+
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_ShortLightning", 0, 100>
+\\@CHARA_SET_PATTERN@<7, 1>//落雷
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 101, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 19, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0340", 100>
+\\@TEXT_ID@<10>
+Neco_Arc
+イルミネーションを裂く《雷＜いかずち＞と共に、
+ネコ、ついに降臨。目を逸らすな、現実だ。
+\l
+
+\\@BGM_PLAY@<0, 61, 100>//コミカルでちょっと怪しげなBGM
+
+\\@CHARA_SET_PATTERN@<4, 38>//neco
+
+\\@CHARA_IN@< 0, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0341", 100>
+\\@TEXT_ID@<20>
+Neco_Arc
+えー、ここが新しい月姫の舞台、総耶ですか？
+うん、そうや。
+\l
+
+\\@CHARA_IN@< 0, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0342", 100>
+\\@TEXT_ID@<30>
+Neco_Arc
+――――――。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
+\\@CHARA_IN@< 0, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0343", 100>
+\\@TEXT_ID@<40>
+Neco_Arc
+ご機嫌麗しゅう、
+健全なダイヤグラムの皆さま。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0344", 100>
+\\@TEXT_ID@<50>
+Neco_Arc
+こんにちは。《人類＜アナタ＞の気の置けない《隣人＜パートナー＞。
+エリートキャット、ネコアルクです。
+\l
+
+\\@NPC_LOAD_SYNC@<5, 20, 520, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 1>//にっこり待機
+
+\\@CHARA_IN@< 2, 20, 201, 2, 0>
+\\@CHARA_MUKI@<2, 1>
+\aw
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 2, 20, 204, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0100", 100>
+\\@TEXT_ID@<60>
+Mash
+じょ、助手のマシュ・キリエライトです。
+うわあ……ここが、２０１０年代の日本の首都！
+\l
+
+\\@CHARA_IN@< 2, 20, 223, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+\\@CHARA_SET_PATTERN@<5, 2>//お辞儀
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0101", 100>
+\\@TEXT_ID@<70>
+Mash
+ふつつかなデミ・サーヴァントですが、
+よろしくお願いしますっ！
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 3>//やれやれ
+\\@CHARA_IN@< 0, 19, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0345", 100>
+\\@TEXT_ID@<80>
+Neco_Arc
+おやおや、この程度の街並に興奮するとは。
+アタシのパートナーとしちゃあまだまだ見習いですな。
+
+
+\\@CHARA_IN@< 0, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0346", 100>
+\\@TEXT_ID@<90>
+Neco_Arc
+マシュ君はアレかな？
+北極とか密林、そういう秘境育ちかな？
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 3>//はにかみ
+\\@CHARA_IN@< 2, 20, 218, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0102", 100>
+\\@TEXT_ID@<100>
+Mash
+いえ、そういうワケではないのですが……
+レイシフトではない事が新鮮で。
+\l
+
+\\@CHARA_IN@< 2, 20, 209, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0103", 100>
+\\@TEXT_ID@<110>
+Mash
+でもネコアルクさん。ここが本当に、
+キャッツさんたちを脅かす悪の都市なのですか？
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 35>//neco
+\\@CHARA_IN@< 0, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0347", 100>
+\\@TEXT_ID@<120>
+Neco_Arc
+そうだよ。
+この世すべての悪と言っても過言ではニャい。
+\l
+
+\\@SYSTEM@<121>
+
+\\@CHARA_SET_PATTERN@<4, 4>//キシャ―
+\\@CHARA_IN@< 0, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0348", 100>
+\\@TEXT_ID@<130>
+Neco_Arc
+１０年も放置しやがって高級ワインかってーの！
+この恨み、七代祟っても収まらねぇー！
+\l
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 16>//キシャ―戻り
+\\@CHARA_IN@< 0, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0349", 100>
+\\@TEXT_ID@<140>
+Neco_Arc
+はい。そういうワケで、我々選ばれた戦士が
+こうしてＭＢ界を侵略しに来たのですね。
+\l
+
+\\@SYSTEM@<121>
+\\@CHARA_SET_PATTERN@<4, 1>//万歳
+\\@CHARA_IN@< 0, 19, 112, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0350", 100>
+\\@TEXT_ID@<150>
+Neco_Arc
+それも強力な新キャラをひっさげて！
+《もう月姫のヤツらには頼らねぇーーー！＜もうコンパチキャラには飽き飽きだーーー！＞
+\l
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 4>//キシャ―
+\\@CHARA_IN@< 0, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0351", 100>
+\\@TEXT_ID@<160>
+Neco_Arc
+メカなメイド君とか、ヤニ吸ってるアタシとか、
+アイツらそもそも裏切る気満々だったンだ！
+\l
+
+\\@CHARA_SET_PATTERN@<4, 2>//前後にゆらゆら
+\\@CHARA_IN@< 0, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0352", 100>
+\\@TEXT_ID@<170>
+Neco_Arc
+その点、マシュ君はいい……
+瞳が金魚すくいの水くらいにキレイだぜ……
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 4>//笑顔で会釈
+\\@CHARA_IN@< 2, 20, 201, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0104", 100>
+\\@TEXT_ID@<180>
+Mash
+ありがとうございます。
+ネコアルクさんのお役に立てれば幸いです。
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
+\\@CHARA_IN@< 0, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0353", 100>
+\\@TEXT_ID@<190>
+Neco_Arc
+にゃっにゃっにゃっ……見ろよこの純粋さ、
+この可憐さ。おそらく一部クリア後のマシュ君かな？
+\l
+
+\\@CHARA_SET_PATTERN@<4, 3>//やれやれ
+\\@CHARA_IN@< 0, 19, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0354", 100>
+\\@TEXT_ID@<200>
+Neco_Arc
+んじゃ、遠慮なく制圧といきますか。
+マシュ君、いっちょビルをなぎ払ってやんなさい。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0355", 100>
+\\@TEXT_ID@<210>
+Neco_Arc
+それくらいできるんでしょ？
+そっちはほら、いつも世界とか救ってるって話だし。
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 5>//盾構え
+\\@CHARA_IN@< 2, 20, 203, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0105", 100>
+\\@TEXT_ID@<220>
+Mash
+は、はい！
+マシュ・キリエライト、がんばります！
+\l
+
+\\@CHARA_IN@< 2, 20, 220, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0106", 100>
+\\@TEXT_ID@<230>
+Mash
+この盾は人理の礎。人類史を乱す悪であれば、
+確実に、優先的に粉砕します！
+
+
+\\@CHARA_SET_PATTERN@<5, 6>//盾投げ
+
+\w<79>//人力でタイミング無理やり合わせてる
+
+\\@CHARA_SET_PATTERN@<4, 7>//ふきとび
+
+\\@GO_SUB@<"QUAKE_2">
+\\@SE_PLAY@<0, "talk/talk_se/Hit_MetalD", 0, 100>
+\\@CHARA_OUT@<0, 19, 113, 1, 0>
+\aw
+
+\\@SYSTEM@<101>
+
+// \\@CHARA_IN@< 0, 19, 113, 0, 1>
+\\@CHARA_FOCUS_COLOR@<-1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0356", 100>
+\\@TEXT_ID@<240>
+Neco_Arc
+げーてぃあ！？
+
+\\@CHARA_SET_PATTERN@<5, 18>//困惑
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 2, 20, 204, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0107", 100>
+\\@TEXT_ID@<250>
+Mash
+！？
+なぜネコアルクさんにラウンドシールドが！？
+
+\\@CHARA_FOCUS_COLOR@<-1,1>
+\\@CHARA_IN@< 0, 19, 113, 11, 0>
+\aw
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 8>//よろよろ立ち上がり
+\\@CHARA_IN@< 0, 19, 113, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0357", 100>
+\\@TEXT_ID@<260>
+Neco_Arc
+ふふふ。はじめての都会で緊張してたのかな？
+ところで、アタシがいる時はその盾は投げないでね。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 38>//neco
+\\@CHARA_IN@< 0, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0358", 100>
+\\@TEXT_ID@<270>
+Neco_Arc
+まあいいや、ビルはアタシのビームでなぎ払おっと☆
+マシュ君はタンク役としてアタシの護りを―――
+
+\\@SYSTEM@<100>
+
+\\@BGM_PLAY@<0, 74, 100>
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_Siren", 1, 100>//SE サイレン
+
+\\@CHARA_SET_PATTERN@<4, 35>//neco
+\\@CHARA_SET_PATTERN@<5, 48>//振り向き
+
+\\@CHARA_IN@< 0, 19, 102, 0, 1>
+\\@CHARA_IN@< 2, 20, 214, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+
+\\@CHARA_FOCUS_COLOR@<-1,1>
+\aw
+
+
+\\@SYSTEM@<100>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcAnn/NpcAnn08_0000", 100>
+\\@TEXT_ID@<280>
+Announce
+NECO反応が検出されました。
+NECO反応が検出されました。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcAnn/NpcAnn08_0001", 100>
+\\@TEXT_ID@<290>
+Announce
+区民の皆さんは所定の場所に、
+得意な武器を持ってやる気全開で出動してください。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcAnn/NpcAnn08_0002", 100>
+\\@TEXT_ID@<300>
+Announce
+この街ではNECOと名のつく生命体は
+厳しく管理・禁止されています。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcAnn/NpcAnn08_0003", 100>
+\\@TEXT_ID@<310>
+Announce
+生け捕りは１ランクアップ相当の。
+抹殺は２ランクアップ相当の懸賞金が与えられます。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcAnn/NpcAnn08_0004", 100>
+\\@TEXT_ID@<320>
+Announce
+繰り返します。
+たった今、NECO反応が検出され―――
+
+\\@SYSTEM@<120>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcKum/NpcKum08_0000", 100>
+\\@TEXT_ID@<330>
+Residents
+うおおおおおーーーー！
+新鮮なNECOキャラだ、荒らせーーーー！
+
+\\@SE_STOP@<1>//SE停止 サイレン
+
+\\@CHARA_SET_PATTERN@<4, 4>//キシャ―
+\\@SYSTEM@<121>
+\\@CHARA_IN@< 0, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0359", 100>
+\\@TEXT_ID@<340>
+Neco_Arc
+群衆が武装して襲いかかってくるだとぅ！？
+\l
+
+\\@SYSTEM@<101>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0360", 100>
+\\@TEXT_ID@<350>
+Neco_Arc
+リメイクして物騒になったとは聞いてたけど、
+ここまで民度がフランス革命とは、おのれシエル！
+
+
+\\@BGM_STOP@<0>
+\e
+

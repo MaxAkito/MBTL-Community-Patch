@@ -1,0 +1,701 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<13>//背景　公園_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\\@SYSTEM@<0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 8, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<4, 90>//デフォルト
+
+\\@NPC_LOAD_SYNC@<5, 3, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 91>//デフォルト・眼鏡無し
+
+\aw
+
+\\@BGM_PLAY@<0, 62, 100>//ほのぼのとした日常系BGM
+
+\\@CHARA_IN@<0, 8, 7, 1, 0>
+\\@CHARA_IN@<1, 3, 400, 2, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<4, 102>//noel考える
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0030", 100>
+\\@TEXT_ID@<10>
+Noel
+えっと……今までの話を纏めるとぉ……
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0031", 100>
+\\@TEXT_ID@<20>
+Noel
+私は総耶にやってきた別世界の住人で、
+キミは吸血鬼事件に巻き込まれた一般人で、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0032", 100>
+\\@TEXT_ID@<30>
+Noel
+さっきの死徒は街を支配する大物の仲間で、
+キミと私、ふたりでやっつけたってコト？
+\l
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0150", 100>
+\\@TEXT_ID@<40>
+Shiki_GakuseiKare
+大雑把に言えばそうです。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0151", 100>
+\\@TEXT_ID@<50>
+Shiki_GakuseiKare
+ノエル先生はうちの学校の教師で、学科は現社。
+今年新設されたダンス部の顧問。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0152", 100>
+\\@TEXT_ID@<60>
+Shiki_GakuseiKare
+全国規模のコーヒー店の社長令嬢で、
+お住まいは赤山の一等地。
+
+\\@CHARA_SET_PATTERN@<5, 103>//説明
+
+\\@CHARA_IN@<1, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0153", 100>
+\\@TEXT_ID@<70>
+Shiki_GakuseiKare
+でもこっちの世界だと身よりがないんで、
+安アパートで暮らしてましたけどね。
+
+\\@CHARA_SET_PATTERN@<4, 122>//がっくし
+\\@SYSTEM@<131>
+\\@CHARA_IN@<0, 8, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0033", 100>
+\\@TEXT_ID@<80>
+Noel
+（あ。分かった。これ異世界だ。
+　ついに私も異世界転生しちゃったかー）
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 116>//提案戻り
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 404, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0154", 100>
+\\@TEXT_ID@<90>
+Shiki_GakuseiKare
+ノエル先生？
+
+
+\\@CHARA_SET_PATTERN@<4, 100>//noel喜ぶ
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0034", 100>
+\\@TEXT_ID@<100>
+Noel
+ううん、いいのいいの、何でもない、何でもなーい！
+細かい事は考えない方針で！
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0035", 100>
+\\@TEXT_ID@<110>
+Noel
+なんか今の私、イケてるしさ。
+異世界だろうと構わないわ。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 103>//noel楽
+
+\\@CHARA_IN@<0, 8, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0036", 100>
+\\@TEXT_ID@<120>
+Noel
+それで、学生服のキミ？
+キミは私の味方ってコトでいいの？
+\l
+
+\\@CHARA_SET_PATTERN@<5, 105>//うんうん
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 423, 0, 1>
+\\@CHARA_EMOVE@<1, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0155", 100>
+\\@TEXT_ID@<130>
+Shiki_GakuseiKare
+もちろん。死者に襲われていたところを助けて
+もらってから、今日までの腐れ縁です。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0156", 100>
+\\@TEXT_ID@<140>
+Shiki_GakuseiKare
+ノエル先生が死者相手に大立ち回りした後、
+職質されて捕まった時も面会に行ったでしょ。
+
+\\@CHARA_SET_PATTERN@<4, 102>//noel考える
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0037", 100>
+\\@TEXT_ID@<150>
+Noel
+マジか。
+―――あ。思い出してきた。
+\l
+
+
+\\@CHARA_IN@<0, 8, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0038", 100>
+\\@TEXT_ID@<160>
+Noel
+“うちの姉がご迷惑おかけしました。
+　昨日、結婚を約束していた１０年来の恋人が
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0039", 100>
+\\@TEXT_ID@<170>
+Noel
+　実在しないネット上の《幻想＜さぎ＞だと判明し、
+　ありえないくらい深酒してしまって……”
+\l
+
+\\@CHARA_SET_PATTERN@<4, 105>//noel なき抗議
+\\@SYSTEM@<121>
+\\@CHARA_IN@<0, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0040", 100>
+\\@TEXT_ID@<180>
+Noel
+って、方便にしてもあんまりじゃない！？
+お巡りさんに本気で同情されるとかさぁ！
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 106>//あきれ
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 408, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0157", 100>
+\\@TEXT_ID@<190>
+Shiki_GakuseiKare
+いいじゃないですか、いい警官で。
+人情溢れるソウヤシティですよ。
+
+
+\\@CHARA_SET_PATTERN@<4, 124>//よくなーい！
+\\@SYSTEM@<121>
+\\@CHARA_IN@<0, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0041", 100>
+\\@TEXT_ID@<200>
+Noel
+よくなーい！
+キミ、態度おかしくない！？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0042", 100>
+\\@TEXT_ID@<210>
+Noel
+私のこと子供扱いしてる気がするし！
+だいたい、なんでメガネしてないの！？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0043", 100>
+\\@TEXT_ID@<220>
+Noel
+さっきも後ろでアドバイスしてただけだし！
+仲間なら一緒に戦ってよね、もー！
+\l
+
+\\@CHARA_SET_PATTERN@<5, 104>//考え
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 405, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0158", 100>
+\\@TEXT_ID@<230>
+Shiki_GakuseiKare
+メガネ？　あれ、メガネなんてしてました、俺？
+ずっと裸眼ですけど。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0159", 100>
+\\@TEXT_ID@<240>
+Shiki_GakuseiKare
+それと腹部にすごいダメージを受けているから
+戦うなって言ったの、先生ですよ？
+
+
+\\@CHARA_SET_PATTERN@<4, 102>//noel考える
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0044", 100>
+\\@TEXT_ID@<250>
+Noel
+……あ。そうよね、思い出した。
+キミ、路地裏のゴミ捨て場で倒れてたんだっけ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0045", 100>
+\\@TEXT_ID@<260>
+Noel
+お腹にすっごいアザがあって、
+よく生きてるもんだと思ったけど……
+\l
+
+\\@CHARA_SET_PATTERN@<4, 104>//noel気遣い
+
+\\@CHARA_IN@<0, 8, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0046", 100>
+\\@TEXT_ID@<270>
+Noel
+体はもういいの？　少し休んでいこっか？
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 105>//うんうん
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 408, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0160", 100>
+\\@TEXT_ID@<280>
+Shiki_GakuseiKare
+そこはご心配なく。ダメージのショックで、
+ちょっと気分が子供時代に戻っているだけです。
+
+
+\\@CHARA_SET_PATTERN@<5, 91>//デフォ眼鏡なし
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0161", 100>
+\\@TEXT_ID@<290>
+Shiki_GakuseiKare
+今の先生みたいに記憶喪失という訳でも
+ありません。戦えないだけ。
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0047", 100>
+\\@TEXT_ID@<300>
+Noel
+そ、そうなんだ。
+なんとなく、危ない人間の気がしたんだけど……
+\l
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 406, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0162", 100>
+\\@TEXT_ID@<310>
+Shiki_GakuseiKare
+危ない、ですか？　強い、とかじゃなく？
+あやふやな印象ですね？
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0048", 100>
+\\@TEXT_ID@<320>
+Noel
+そ、そうよね？　なに言ってんだろ私……
+キミは何度も助けてくれたのに……
+\l
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0163", 100>
+\\@TEXT_ID@<330>
+Shiki_GakuseiKare
+そうですよ。これまで５回助けて、
+５回助けられました。イーブンです。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0164", 100>
+\\@TEXT_ID@<340>
+Shiki_GakuseiKare
+でも、おかげでノエル先生は
+この街で一番頼りになる人だって分かりました。
+
+\\@CHARA_IN@<1, 3, 408, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0165", 100>
+\\@TEXT_ID@<350>
+Shiki_GakuseiKare
+ロアってヤツを倒すんでしょう？
+ノエル先生ならきっとできます。うん、バッチリ。
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0049", 100>
+\\@TEXT_ID@<360>
+Noel
+――――ほんとに？
+本当にそう思う？
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 106>//shiki あきれ
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 400, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0166", 100>
+\\@TEXT_ID@<370>
+Shiki_GakuseiKare
+真面目にやってくれれば。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0167", 100>
+\\@TEXT_ID@<380>
+Shiki_GakuseiKare
+いきなり柱の上に登ろうとして足滑らせて気絶、
+とか、もう二度とやらなければ。
+
+\\@CHARA_SET_PATTERN@<4, 105>//noel泣き
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0050", 100>
+\\@TEXT_ID@<390>
+Noel
+うわああ、やるかやらないかで言えばやりそう！
+そんなコトしてたのね、こっちの私！
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 117>//あきれ戻り
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 409, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0168", 100>
+\\@TEXT_ID@<400>
+Shiki_GakuseiKare
+少しずつ思い出してきましたか。
+この分ならすぐに馴染めそうだ。
+
+
+\\@CHARA_SET_PATTERN@<5, 103>//shiki 提案
+
+\\@CHARA_IN@<1, 3, 402, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0169", 100>
+\\@TEXT_ID@<410>
+Shiki_GakuseiKare
+それじゃあ吸血鬼退治を再開しましょう。
+もうアタリはついているんでしょ。
+
+
+\\@CHARA_SET_PATTERN@<4, 103>//noel楽
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0051", 100>
+\\@TEXT_ID@<420>
+Noel
+ええ、もっちろん！
+いま閃光のように思い出した！
+\l
+
+
+\\@CHARA_IN@<0, 8, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0052", 100>
+\\@TEXT_ID@<430>
+Noel
+街を見下ろせる一等地に豪邸ぶっ建ててる、
+いけ好かない金持ちいるでしょ？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0053", 100>
+\\@TEXT_ID@<440>
+Noel
+あれがロアの潜伏先！
+あんな怪しい場所、他にないもの！
+\l
+
+\\@CHARA_SET_PATTERN@<5, 105>//うんうん
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 417, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0170", 100>
+\\@TEXT_ID@<450>
+Shiki_GakuseiKare
+確かに。
+言われてみれば怪しすぎるな、あの家。
+
+\\@CHARA_SET_PATTERN@<4, 100>//noel喜ぶ
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0054", 100>
+\\@TEXT_ID@<460>
+Noel
+そうと決まればレッツゴー！
+●＜前＞は追い返されたけど、今回はキミがいるし！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0055", 100>
+\\@TEXT_ID@<470>
+Noel
+頼れる美女に理解ある彼クンとか、
+これもうヒロインルート乗ったんじゃないかしら！
+
+\\@BGM_FADE@<0, 100, 0, 60, 1>
+\\@BGM_PLAY@<1, 74, 100>
+
+\\@NPC_LOAD_SYNC@<6, 8, 480, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<6, 13>//かっこいいポーズ
+
+\\@CHARA_IN@<1, 8, 303, 2, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<4, 93>//noel 喜ぶ戻り
+\\@CHARA_SET_PATTERN@<5, 159>//shiki キョロキョロ
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@<1, 8, 303, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgn/NpcNgn08_0000", 100>
+\\@TEXT_ID@<480>
+Negative_Noel
+はあ？
+なに思い上がってるのよアンタ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgn/NpcNgn08_0001", 100>
+\\@TEXT_ID@<490>
+Negative_Noel
+文系のガキつかまえて頭蕩けてる？　それとも、
+トラックにでも轢かれて脳みそ飛び出しちゃった？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgn/NpcNgn08_0002", 100>
+\\@TEXT_ID@<500>
+Negative_Noel
+一つや二つ良いことがあったぐらいで、
+上手くいくワケないじゃない。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgn/NpcNgn08_0003", 100>
+\\@TEXT_ID@<510>
+Negative_Noel
+そんな希望を持っても無駄よ、無駄。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgn/NpcNgn08_0004", 100>
+\\@TEXT_ID@<520>
+Negative_Noel
+どうせ最後には台無しにされるんだから、
+ここで夢から覚ましてあげる。
+\l
+
+\\@CHARA_IN@<1, 8, 302, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgn/NpcNgn08_0005", 100>
+\\@TEXT_ID@<530>
+Negative_Noel
+あ、違うか、夢に落としてあげる、よね！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgn/NpcNgn08_0006", 100>
+\\@TEXT_ID@<540>
+Negative_Noel
+甘い夢にようこそ私！
+真っ逆さまに、くらーい井戸の底に帰りましょう！
+
+
+\\@SYSTEM@<122>
+\\@CHARA_IN@<1, 3, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0171", 100>
+\\@TEXT_ID@<550>
+Shiki_GakuseiKare
+ノエル先生がもうひとり！？
+そうか、敵に擬態する吸血鬼―――！
+
+
+\\@CHARA_SET_PATTERN@<5, 120>//shiki 驚き
+\\@CHARA_SET_PATTERN@<4, 103>//noel楽
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0056", 100>
+\\@TEXT_ID@<560>
+Noel
+あー、違う違う。
+あれはもうひとりの私。ネガ・ノエル。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 121>//shiki ？？？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 411, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0172", 100>
+\\@TEXT_ID@<570>
+Shiki_GakuseiKare
+―――なんて？
+
+
+\\@CHARA_SET_PATTERN@<4, 102>//noel考える
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0057", 100>
+\\@TEXT_ID@<580>
+Noel
+自分へのダメ出しが何年も続くと出てくるの、
+ああいうの。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0058", 100>
+\\@TEXT_ID@<590>
+Noel
+まっとうに頑張ろうとする自分を止める
+『悪の自分』って言えば分かる？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0059", 100>
+\\@TEXT_ID@<600>
+Noel
+そっかー。たまに化粧してる時とか見えてたけど、
+ついに実体化しちゃったかー。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 105>//shiki 腕組うんうん
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0173", 100>
+\\@TEXT_ID@<610>
+Shiki_GakuseiKare
+……よし。
+その話は後で詳しく聞くとして。
+
+
+
+\\@CHARA_IN@<1, 3, 400, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0174", 100>
+\\@TEXT_ID@<620>
+Shiki_GakuseiKare
+問題は性能だね。
+強いんですか、ネガ・ノエル？
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0060", 100>
+\\@TEXT_ID@<630>
+Noel
+かなり。私と同じ実力のクセに、
+なぜか黒鍵は無限に使えるの！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 101>//noel怒り
+
+\\@CHARA_IN@<0, 8, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0061", 100>
+\\@TEXT_ID@<640>
+Noel
+ずるいわよね……まさに理想の代行者？
+そんなの、私じゃ勝てっこないわ……
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 8, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgn/NpcNgn08_0007", 100>
+\\@TEXT_ID@<650>
+Negative_Noel
+そう。羨ましい。妬ましい。格好いい。
+私はそういう気持ちで出来ている私。
+\l
+
+
+\\@CHARA_IN@<1, 8, 302, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgn/NpcNgn08_0008", 100>
+\\@TEXT_ID@<660>
+Negative_Noel
+貴女に勝ち目はないわ。おとなしく、
+１０本しかない黒鍵を数えているコトね！
+
+\\@CHARA_SET_PATTERN@<5, 106>//あきれ
+
+\\@CHARA_IN@<1, 3, 410, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0175", 100>
+\\@TEXT_ID@<670>
+Shiki_GakuseiKare
+まったく……
+問題はそこじゃないでしょ。
+
+
+\\@CHARA_IN@<1, 3, 400, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0176", 100>
+\\@TEXT_ID@<680>
+Shiki_GakuseiKare
+ノエル先生の長所は分かりやすさと突進力です。
+器用じゃないんだから、やるコトなんて一つでいい。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0177", 100>
+\\@TEXT_ID@<690>
+Shiki_GakuseiKare
+一点突破が貴女の持ち味です。
+多芸である必要はない。
+
+\\@CHARA_SET_PATTERN@<4, 107>//驚き
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0062", 100>
+\\@TEXT_ID@<700>
+Noel
+―――学生服クン。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 91>//デフォルト・眼鏡無し
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0178", 100>
+\\@TEXT_ID@<710>
+Shiki_GakuseiKare
+だいたい、飛び道具なんて
+ここぞという時に一発撃てればいいんです。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0179", 100>
+\\@TEXT_ID@<720>
+Shiki_GakuseiKare
+限られた数で戦う方が、
+達人っぽくてカッコイイでしょ？
+
+\\@CHARA_SET_PATTERN@<4, 106>//noelえっへん
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0063", 100>
+\\@TEXT_ID@<730>
+Noel
+言えてる！　１０本しかない私、じゃないんだ！
+１０本でも勝てるすごい私、よね！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 3>//やったる
+\\@SYSTEM@<121>
+\\@CHARA_IN@<0, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0064", 100>
+\\@TEXT_ID@<740>
+Noel
+行くわよ、ネガ・ノエル！
+無限黒鍵なんかに負けるかおりゃーーーー！
+
+
+\\@BGM_STOP@<0>
+\e
+

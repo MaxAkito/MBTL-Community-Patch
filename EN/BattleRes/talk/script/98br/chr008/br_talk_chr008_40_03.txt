@@ -1,0 +1,335 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<8>//背景　遠野邸外観_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\\@SYSTEM@<0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 8, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<4, 90>//デフォルト
+
+\\@NPC_LOAD_SYNC@<5, 3, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 91>//デフォルト・眼鏡無し
+
+\\@BGM_PLAY@<0, 62, 100>//ほのぼのとした日常系BGM
+
+
+\\@CHARA_IN@<0, 8, 13, 1, 0>
+\\@CHARA_IN@<1, 3, 400, 2, 0>
+\aw
+
+
+\\@CHARA_SET_PATTERN@<4, 105>//泣き抗議
+
+\\@SYSTEM@<121>
+\\@CHARA_IN@<0, 8, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0070", 100>
+\\@TEXT_ID@<10>
+Noel
+性能、ぜんぜん同じじゃなかったじゃなーーーい！
+やだもー、私のネガ強すぎー！
+\l
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 408, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0180", 100>
+\\@TEXT_ID@<20>
+Shiki_GakuseiKare
+まあまあ。伸びしろがある、という事で。
+ノエル先生もそのうち、あれくらい強くなりますよ。
+
+
+\\@CHARA_SET_PATTERN@<4, 102>//考える
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 19, 1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0071", 100>
+\\@TEXT_ID@<30>
+Noel
+そ、そう？
+ありがと、嬉しいコト言ってくれて。
+\l
+
+
+\\@CHARA_IN@<0, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0072", 100>
+\\@TEXT_ID@<40>
+Noel
+キミ、普段は物静か……っていうより何事にも
+無関心な感じだけど、根は優しいのね。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 103>//楽
+
+\\@CHARA_IN@<0, 8, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0073", 100>
+\\@TEXT_ID@<50>
+Noel
+シスター服の私じゃなくて、
+普段着の私だったら放っておかなかったかも\sf000
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 104>//shiki 考え
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 406, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0181", 100>
+\\@TEXT_ID@<60>
+Shiki_GakuseiKare
+放っておかないも何も、もう捕まってますけど。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0182", 100>
+\\@TEXT_ID@<70>
+Shiki_GakuseiKare
+『朝弱いから毎朝起こしに来て』って、
+教師にあるまじきお願いでは？
+
+\\@CHARA_SET_PATTERN@<4, 107>//驚き
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0074", 100>
+\\@TEXT_ID@<80>
+Noel
+え゛゛゛゛
+それホント？
+\l
+
+
+
+\\@CHARA_SET_PATTERN@<5, 107>//shiki 軽い頷き
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 408, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0183", 100>
+\\@TEXT_ID@<90>
+Shiki_GakuseiKare
+やってるコトはゴミ出しですけどね。
+健全なコトこの上ないです。
+
+
+\\@CHARA_SET_PATTERN@<4, 104>//気遣い
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0075", 100>
+\\@TEXT_ID@<100>
+Noel
+も、もちろんよ、年上で教師でシスターだもの！
+うわあ、仕事からまないと《チキン＜こんな＞もんかぁ！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 118>//よーし
+
+\\@CHARA_IN@<0, 8, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0076", 100>
+\\@TEXT_ID@<110>
+Noel
+―――コホン。
+その話は後でじっくりメモるとしてぇ……
+\l
+
+\\@CHARA_IN@<0, 8, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0077", 100>
+\\@TEXT_ID@<120>
+Noel
+いよいよ悪の総本山よ。
+相変わらず鬼のようなセキュリティね。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 102>//noel 考える
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0078", 100>
+\\@TEXT_ID@<130>
+Noel
+忍び込むのはやっぱ厳しいか……
+宅配便でーす！　も門前払いだろうし……。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0079", 100>
+\\@TEXT_ID@<140>
+Noel
+……………何かアイディア、あったりする？
+\l
+
+\\@CHARA_SET_PATTERN@<5, 103>//shiki 提案
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 400, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0184", 100>
+\\@TEXT_ID@<150>
+Shiki_GakuseiKare
+臨時の家政婦として雇われましょう。
+ここに《紹介文＜ツテ＞があります。
+
+
+\\@CHARA_SET_PATTERN@<4, 100>//喜ぶ
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 12, 1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0080", 100>
+\\@TEXT_ID@<160>
+Noel
+わぉ、用意いーい！
+なんでもできるのね、キミ！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 102>//考え
+\\@CHARA_IN@<0, 8, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0081", 100>
+\\@TEXT_ID@<170>
+Noel
+あれ。でもなんでこんなの持ってるの？
+この屋敷に知り合いとかいたりした？
+\l
+
+\\@CHARA_SET_PATTERN@<5, 104>//shiki 頭かかえ
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 408, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0185", 100>
+\\@TEXT_ID@<180>
+Shiki_GakuseiKare
+はあ。まあ、そんなところです。
+
+
+\\@CHARA_SET_PATTERN@<5, 103>//shiki 提案
+\\@CHARA_IN@<1, 3, 400, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0186", 100>
+\\@TEXT_ID@<190>
+Shiki_GakuseiKare
+ノエル先生は家政婦さんとして潜入、
+正体がバレないよう、内部調査をしてください。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0187", 100>
+\\@TEXT_ID@<200>
+Shiki_GakuseiKare
+誰が吸血鬼なのかまだ断定できてないんだし、
+戦うのは証拠が揃ってからです。
+
+\\@CHARA_SET_PATTERN@<5, 116>//shiki 提案戻り
+
+\\@CHARA_SET_PATTERN@<4, 103>//noel 楽
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 8, 1, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0082", 100>
+\\@TEXT_ID@<210>
+Noel
+はーい、わかってまーす！
+一般人に手を出すのは御法度だものね！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0083", 100>
+\\@TEXT_ID@<220>
+Noel
+じゃあさっそく呼び鈴を―――
+
+
+\\@CHARA_IN@<1, 1, 105, 2, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<6, 1, 480, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//hisui
+\\@CHARA_SET_PATTERN@<6, 0>//デフォルト
+
+\\@CHARA_SET_PATTERN@<5, 99>//振り向き
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0040", 100>
+\\@TEXT_ID@<230>
+Hisui
+その必要はありません。
+話は聞かせていただきました。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 1>//おじぎ
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0041", 100>
+\\@TEXT_ID@<240>
+Hisui
+求人募集を見ていらっしゃったのですね。
+当家は慢性的な人手不足です。助かります。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 17>//hisui
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0042", 100>
+\\@TEXT_ID@<250>
+Hisui
+加えて志―――
+\l
+
+\\@CHARA_SET_PATTERN@<5, 122>//しーっ
+
+//\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 3, 417, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0188", 100>
+\\@TEXT_ID@<260>
+Shiki_GakuseiKare
+――――――。
+
+\\@CHARA_SET_PATTERN@<5, 123>//しーっ戻り
+
+\\@CHARA_IN@<1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0043", 100>
+\\@TEXT_ID@<270>
+Hisui
+そちらの方のご紹介であれば審査も不要です。
+ですが……
+\l
+
+\\@CHARA_IN@<1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0044", 100>
+\\@TEXT_ID@<280>
+Hisui
+当家に仕える者は、たとえ一般の方であろうと
+多少の心得が必須となります。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 100>//hisui
+\\@CHARA_IN@<1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0045", 100>
+\\@TEXT_ID@<290>
+Hisui
+このように広い敷地ですので、
+野生の熊に襲われないともかぎりません。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 20>//マンボ
+
+\\@CHARA_IN@<1, 1, 101, 0, 1>
+\\@CHARA_FACE@<1, -1, 104, 512>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0046", 100>
+\\@TEXT_ID@<300>
+Hisui
+空手。柔術。合気。カポエラ。シラット。
+サンボ。マンボ。……失礼、最後のは違いました。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 4>//優雅
+
+\\@CHARA_IN@<1, 1, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0047", 100>
+\\@TEXT_ID@<310>
+Hisui
+遠野家筆頭メイド、翡翠。
+僭越ながら、この場でテストさせていただきます。
+
+\\@CHARA_SET_PATTERN@<4, 107>//noel 驚き
+\\@SYSTEM@<121>
+\\@CHARA_IN@<0, 8, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0084", 100>
+\\@TEXT_ID@<320>
+Noel
+それはいいけど、ひょっこり熊が出る洋館って
+完全にアウトじゃない！？
+
+
+\\@BGM_STOP@<0>
+\e
+

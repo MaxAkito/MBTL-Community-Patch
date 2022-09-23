@@ -1,0 +1,263 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<23>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 19, -100, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+
+\\@NPC_LOAD_SYNC@<5, 20, 100, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+
+\\@CHARA_IN@< 0, 19, 110, 1, 0>
+\\@CHARA_IN@< 2, 20, 200, 2, 0>
+\\@CHARA_MUKI@<2, 1>
+\aw
+
+
+\\@CHARA_IN@< 0, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0430", 100>
+\\@TEXT_ID@<10>
+Neco_Arc
+地球を揺るがす接戦の末、お嬢は倒した。
+アタシ史上３本指に入る悪夢のようなバトルだった。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0431", 100>
+\\@TEXT_ID@<20>
+Neco_Arc
+ニャんだけど―――
+\l
+
+\\@BGM_PLAY@<0, 64, 100>//ギャグっぽいコミカルで陽気なBGM
+
+\\@CHARA_SET_PATTERN@<4, 4>//キシャ―
+\\@CHARA_IN@< 0, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0432", 100>
+\\@TEXT_ID@<30>
+Neco_Arc
+なんかこれ、思っていたのとちがーーーう！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0433", 100>
+\\@TEXT_ID@<40>
+Neco_Arc
+あんな２頭身キャラを倒したところで
+ＭＢ界の頂点と言えようか？　いや言えまい。
+\l
+
+\\@CHARA_IN@< 0, 19, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0434", 100>
+\\@TEXT_ID@<50>
+Neco_Arc
+一体どうニャッてんだよ！？
+本当のシエルは！？　本当のお嬢はどこにいったー！？
+
+\\@CHARA_SET_PATTERN@<4, 16>//キシャ―戻り
+
+\\@CHARA_SET_PATTERN@<5, 18>//困惑
+\\@CHARA_IN@< 2, 20, 212, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0130", 100>
+\\@TEXT_ID@<60>
+Mash
+あの。ここまで戦った状況で、
+こんなコトを言うのは心苦しいのですが……
+\l
+
+
+\\@CHARA_IN@< 2, 20, 211, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0131", 100>
+\\@TEXT_ID@<70>
+Mash
+このレシートをご覧ください。
+
+\\@CHARA_IN@< 0, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0435", 100>
+\\@TEXT_ID@<80>
+Neco_Arc
+なになに……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0436", 100>
+\\@TEXT_ID@<90>
+Neco_Arc
+『大満足！　特盛りニボシ３匹弁当
+　賞味期限　平成３３年１２月３１日までならイケる』……
+\l
+
+\\@CHARA_SET_PATTERN@<4, 41>//neco
+\\@CHARA_IN@< 0, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0437", 100>
+\\@TEXT_ID@<100>
+Neco_Arc
+平成３３年だとぅ……！？
+では……では……ここは……
+\l
+
+\\@CHARA_SET_PATTERN@<4, 18>//頭のけぞり
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0438", 100>
+\\@TEXT_ID@<110>
+Neco_Arc
+月姫の世界……いや、
+ＭＢ界ではなかったのか！
+
+\\@CHARA_SET_PATTERN@<5, 203>//はにかみ
+
+\\@CHARA_IN@< 2, 20, 201, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0132", 100>
+\\@TEXT_ID@<120>
+Mash
+ここもパラレルワールドだったのですね。
+特異点とは違うようですが。
+
+\\@CHARA_SET_PATTERN@<4, 20>//頭のけぞり戻り
+\\@CHARA_IN@< 0, 19, 102, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0439", 100>
+\\@TEXT_ID@<130>
+Neco_Arc
+ニャるほど。だが間違いを重ねてヒトは成長する。
+だいたい座標は分かった。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0440", 100>
+\\@TEXT_ID@<140>
+Neco_Arc
+ここまで同じ芸風なら、あと一つ隣りがＭＢ界だろ。
+―――マシュ君！　魔力は溜まったかな！
+
+\\@CHARA_SET_PATTERN@<5, 221>//むんっ！
+\\@CHARA_IN@< 2, 20, 215, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+\\@CHARA_EMOVE@<2, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0133", 100>
+\\@TEXT_ID@<150>
+Mash
+はい、ネコアルクさんの戦いのおかげで、
+宝具充填１００％です！
+\l
+
+\\@CHARA_IN@< 2, 20, 215, 0, 1>
+\\@CHARA_MUKI@<2, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0134", 100>
+\\@TEXT_ID@<160>
+Mash
+ゲート、開きます！
+
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_RayShift", 0, 100>
+
+
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>
+
+
+\\@CHARA_CLEAR@<0>
+\\@CHARA_CLEAR@<2>
+
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0441", 100>
+\\@TEXT_ID@<170>
+Neco_Arc
+ＧＯ　ＧＯ　ＧＯ　ＧＯ！
+うひょー、この波乗り感、たまらない、ゼ！
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0135", 100>
+\\@TEXT_ID@<180>
+Mash
+わたしも新鮮な体験です。
+どちらかというとゼロセイルに近い気がします。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0442", 100>
+\\@TEXT_ID@<190>
+Neco_Arc
+マジかよワンミスで時空の狭間に落ちるスリルを
+毎回とかすげえなカルデア。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0443", 100>
+\\@TEXT_ID@<200>
+Neco_Arc
+……ふむ。そんな地獄の斡旋場から
+更なる戦力を手に入れるのも悪くない……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0444", 100>
+\\@TEXT_ID@<210>
+Neco_Arc
+……所詮は捨て駒、ぼろ雑巾になるまで
+コキ使ってやろーじゃねぇですか……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0445", 100>
+\\@TEXT_ID@<220>
+Neco_Arc
+もし、マドモアゼル。サーヴァント、だっけ？
+マシュ君の他にも呼べるのかな？
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0136", 100>
+\\@TEXT_ID@<230>
+Mash
+そうですね……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0137", 100>
+\\@TEXT_ID@<240>
+Mash
+ネコアルクさんにも魔術回路はありますから、
+一騎分の召喚なら可能ではないでしょうか？
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0446", 100>
+\\@TEXT_ID@<250>
+Neco_Arc
+―――見えた。
+勝利へのプラン、固まった……！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0447", 100>
+\\@TEXT_ID@<260>
+Neco_Arc
+更なる力を手に入れ、
+真のＭＢ界に旅立つネコアルクとその仲間たち。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0448", 100>
+\\@TEXT_ID@<270>
+Neco_Arc
+次回、メルティブラッド：タイプルミナ激動編！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0449", 100>
+\\@TEXT_ID@<280>
+Neco_Arc
+“ノーコントロール、バーサーカー大召喚！
+　あれ、アタシん家燃えてない？”
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0450", 100>
+\\@TEXT_ID@<290>
+Neco_Arc
+に、セレブキャ～～～ッツ！
+
+\\@CHARA_IN@< 2, 20, 205, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0138", 100>
+\\@TEXT_ID@<300>
+Mash
+（マスター適性はなくて令呪もありませんが、
+　ネコアルクさんの勇気と幸運を信じて―――！）
+
+\\@SYSTEM@<21>
+\aw
+
+\\@BGM_STOP@<0>
+\e
+

@@ -1,0 +1,349 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<25>//背景　公園_夕
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 76, 100>
+
+
+\\@CHARA_IN@< 0, 11, 4, 1, 0>
+\\@CHARA_IN@< 1, 0, 3, 2, 0>
+\aw
+
+//これがないとカメラがガクつく
+\\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//camera
+
+\\@NPC_LOAD_SYNC@<4, 11, -120, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<4, 4>//ciel
+
+\\@NPC_LOAD_SYNC@<5, 0, 120, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//arc
+\\@CHARA_SET_PATTERN@<5, 11>//ぷんすか
+
+\\@NPC_LOAD_SYNC@<6, 3, -480, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 19>//眼鏡立ち呼吸
+
+
+\\@CHARA_IN@< 1, 0, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0130", 100>
+
+Arcueid
+あー、もー！！　これ以上シエルと
+やり合ってもおもしろくなーい！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0131", 100>
+
+Arcueid
+追い詰めるとビュンビュン逃げ回って！
+いいかげん降参しなさいよね！
+
+\\@CHARA_IN@< 0, 11, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0130", 100>
+
+Ciel
+そのセリフ、
+そっくり貴女にお返しします！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 199>//ciel クロスカウンター
+\\@CHARA_SET_PATTERN@<5, 199>//arc クロスカウンター
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0131", 100>
+
+Ciel
+ずっと日なたにいて、
+どうしてこんなに元気なんです、か！
+
+\\@CHARA_SET_MVNAME@<4, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+\\@CHARA_SET_MVNAME@<5, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+
+\\@CHARA_SET_PATTERN@<6, 30>//shiki
+\\@CHARA_IN@< 0, 3, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0310", 100>
+
+Shiki
+はい、そこまで、そこまでーー！
+ふたりとも大丈夫か！？
+
+\\@CHARA_IN@< 1, 0, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0132", 100>
+
+Arcueid
+ぜんぜん大丈夫じゃなーい！
+めっちゃクラクラするんですけどぉ！
+
+
+\\@CHARA_IN@< 0, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0132", 100>
+
+Ciel
+わたしも同じく、です……
+ちょっと、動けそうにありません……。
+
+
+\\@CHARA_SET_PATTERN@<4, 201>//ciel クロスカウンター
+\\@CHARA_SET_PATTERN@<5, 201>//arc クロスカウンター
+\w<110>//ダウンして起き上がり始めるまでちょっと待つ
+
+\\@CHARA_IN@< 1, 0, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0133", 100>
+
+Arcueid
+ふーんだ。シエルなんてこのまま
+死者のエサにでもなればいいのよ。
+
+\\@CHARA_SET_PATTERN@<6, 31>//shiki
+\\@CHARA_IN@< 0, 3, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0311", 100>
+
+Shiki
+ばか。死者が人を食ってたら、
+それこそアルクェイドの仕事だろ。
+\l
+
+
+\\@CHARA_IN@< 0, 3, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0312", 100>
+
+Shiki
+まあ当然、おまえのおかげで
+そんな物騒な話はないけどな。
+
+
+\\@CHARA_SET_PATTERN@<5, 202>//arc 呼吸２
+
+\\@CHARA_IN@< 1, 0, 20, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0134", 100>
+
+Arcueid
+……もう。
+志貴のそういうところ、ほーんとズルい。
+\l
+
+
+\\@CHARA_IN@< 1, 0, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0135", 100>
+
+Arcueid
+シエル。今日のところは志貴を貸してあげるけど、
+後始末はしといてよね。
+
+
+\\@CHARA_IN@< 0, 11, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0133", 100>
+
+Ciel
+後始末って、何のですか？
+
+
+\\@CHARA_IN@< 1, 0, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0136", 100>
+
+Arcueid
+なに、一日幸せすぎて鈍くなった？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0137", 100>
+
+Arcueid
+なんでわたしたちが戦う事になったのか、
+考えてみれば分かるでしょう。
+
+\\@CHARA_IN@< 0, 11, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0134", 100>
+
+Ciel
+！　では、ノエルの言っていた『貴女』は――
+
+
+\\@CHARA_IN@< 1, 0, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0138", 100>
+
+Arcueid
+わたしのソックリさん……とは言いたくないわ。
+まあ、ほんの少しだけ似てる何かでしょ。
+\l
+
+\\@CHARA_IN@< 1, 0, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0139", 100>
+
+Arcueid
+わたし、関わりたくないから。
+シエルに押しつけてあげる。
+
+
+\\@CHARA_IN@< 0, 11, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0135", 100>
+
+Ciel
+あー……そういうコトですか。
+
+
+\\@CHARA_IN@< 1, 0, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0140", 100>
+
+Arcueid
+そういうコト。
+それじゃ、後はよろしくね。
+
+
+\\@CHARA_SET_PATTERN@<5, 203>//arc 飛び去る
+\w<29>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "InitCameraKeep">//camera初期化
+
+// アルク跳び去る
+\\@CHARA_OUT@< 1, -1, -1, 2, 0>
+
+\\@CHARA_SET_PATTERN@<6, 22>//shiki
+\\@CHARA_IN@< 0, 3, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0313", 100>
+
+Shiki
+？？？　
+どういうコトなんです？
+
+
+\\@CHARA_IN@< 0, 11, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0136", 100>
+
+Ciel
+遠野くんは知らないままでいた方が
+いいことです。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 205>//ciel 早着替え
+
+\\@CHARA_IN@< 0, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0137", 100>
+
+Ciel
+それより遠野くん、
+この後何か予定はありますか？
+
+\\@CHARA_SET_PATTERN@<6, 23>//shiki
+\\@CHARA_IN@< 0, 3, 21, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0314", 100>
+
+Shiki
+ないですよ。どのみち門限ギリギリまで
+先輩と過ごすつもりだったし。
+
+
+\\@CHARA_IN@< 0, 11, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0138", 100>
+
+Ciel
+えっ。
+
+
+\\@CHARA_IN@< 0, 3, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0315", 100>
+
+Shiki
+先輩、どこか行きたいところとかあります？
+
+\\@CHARA_OUT@< 0, -1, -1, 0, 0>
+\aw
+
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0139", 100>
+
+Ciel
+――はい！
+\l
+
+
+//EDにいくためにドットキャラはすべて開放
+\\@CHARA_SET_PATTERN@<4, 0>//ciel 念のためパターン変えてエフェクトを消す
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0140", 100>
+
+Ciel
+今日はいろいろあって、肝心の遠野くんに
+ついては何もできませんでしたよね？
+\l
+
+// \\@CHARA_IN@< 0, 11, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0141", 100>
+
+Ciel
+ですが、こんなコトもあろうかと！
+前もって良さそうなお店を見つけておきました！
+
+
+// \\@CHARA_IN@< 0, 3, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0316", 100>
+
+Shiki
+―――ひょっとして、辛いヤツですか？
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0142", 100>
+
+Ciel
+！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0143", 100>
+
+Ciel
+だ、大丈夫です。ちゃんと、それ以外の
+お店も調べてあります。もちろん。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0317", 100>
+
+Shiki
+いえ。辛いの、いいですよね。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0318", 100>
+
+Shiki
+一日歩きづめだったから、
+ガツンときついの、美味しそうです。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0144", 100>
+
+Ciel
+そ、そうですか。
+遠野くんがそう言うのなら仕方ありませんね。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0145", 100>
+
+Ciel
+では手始めに、
+近くにできた新しいお店に行きましょうか。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0146", 100>
+
+Ciel
+たいへんコスパのいいインド料理店で、
+学生のわたしたちにはお勧めのお店なのです！
+
+
+
+\\@BGM_STOP@<0>
+\e
+

@@ -1,0 +1,575 @@
+\\@SYSTEM@<9999>
+\\@FADE_OUT@<0,0,0,0,1>
+\\@BG_IN@<"ed_whiteroom", 0, 2>// 背景　真っ白
+\aw
+
+\\@FADE_OUT@<1,255,255,255,0>
+\aw
+
+\\@FADE_IN@<0,0,0,0,0>
+\aw
+
+\\@SYSTEM@<1>
+\aw
+
+\\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//カメラ完全固定
+
+\\@NPC_LOAD_SYNC@<4, 8, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<4, 105>//noel 泣き抗議
+
+\\@BGM_PLAY@<0, 76, 100>
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>
+
+
+
+\\@CHARA_IN@<0, 8, 17, 1, 0>
+\aw
+
+\\@CHARA_IN@<0, 8, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0190", 100>
+\\@TEXT_ID@<10>
+Noel
+勝った！
+勝った、けど……
+\l
+
+
+\\@CHARA_IN@<0, 8, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0191", 100>
+\\@TEXT_ID@<20>
+Noel
+何もかも真っ白になってるぅー！
+これ、元の世界に戻っちゃうやつー！
+\l
+
+
+\\@NPC_LOAD_SYNC@<5, 3, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 106>//shiki 呆れ
+
+
+\\@CHARA_IN@<1, 3, 410, 2, 0>
+\aw
+
+\\@CHARA_IN@<1, 3, 410, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0250", 100>
+\\@TEXT_ID@<30>
+Shiki_GakuseiKare
+そりゃ戻ります。
+ご自分で否定したじゃないですか。
+
+
+\\@CHARA_SET_PATTERN@<5, 117>//shiki 呆れ戻り
+\\@CHARA_IN@<1, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0251", 100>
+\\@TEXT_ID@<40>
+Shiki_GakuseiKare
+順当な決着ですよ。宿敵がたまたますれ違った
+暴漢だったとか、そんな話は流石にね。
+
+\\@CHARA_SET_PATTERN@<4, 104>//noel 気遣い
+
+\\@CHARA_IN@<0, 8, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0192", 100>
+\\@TEXT_ID@<50>
+Noel
+そうだけど……じゃあキミは？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0193", 100>
+\\@TEXT_ID@<60>
+Noel
+私にとって都合のいい脇役だったキミは、
+どうなるの？　こっちの世界にしかいないの？
+
+\\@CHARA_IN@<1, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0252", 100>
+\\@TEXT_ID@<70>
+Shiki_GakuseiKare
+いえ、こっちにもそっちにもいません。
+なんで、ノエル先生が目覚めたら消えます。
+
+
+\\@CHARA_IN@<1, 3, 402, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0253", 100>
+\\@TEXT_ID@<80>
+Shiki_GakuseiKare
+俺はですね、
+
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<5, -2, -160, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 19>//shiki 眼鏡あり呼吸
+
+\\@NPC_LOAD_SYNC@<4, 0, 160, 0, 1>
+\\@CHARA_SET_PATTERN@<4, 0>//arc
+\\@BG_OUT@<0, 2>
+\\@CHARA_CLEAR@<0>
+\\@CHARA_CLEAR@<1>
+\\@SQ_CALL@<2>
+\aw
+
+
+
+
+\\@LOAD_BATTLE_BG@<5>//背景　路地裏_昼
+\aw
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_IN@<0, 3, 11, 1, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<5, 22>//shiki 眼鏡ありお手
+
+\\@CHARA_IN@<0, 3, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0254", 100>
+\\@TEXT_ID@<90>
+Shiki_Yakusoku
+では、目をお開けくださいお姫さま。
+ここが今日のコンサート会場だよ。
+
+
+\\@CHARA_IN@<1, 0, 22, 2, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<4, 20>//arc
+\\@CHARA_IN@<1, 0, 22, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0100", 100>
+\\@TEXT_ID@<100>
+Arcueid
+路地裏デート２回目かーーーい！
+\l
+
+\\@CHARA_SET_PATTERN@<4, 80>//arc 15Fパンチ
+\\@CHARA_SET_PATTERN@<5, 149>//shiki 15Fふっとばされ
+
+\\@CHARA_EMOVE@<1, -1 , 3>
+\\@CHARA_OUT@<0, 3, -1, 1, 0>
+\aw
+\w<20>
+
+\\@CHARA_SET_PATTERN@<4, 20>//arc ぷんすか見下し
+
+\\@CHARA_IN@<1, 0, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0101", 100>
+\\@TEXT_ID@<110>
+Arcueid
+バカ、知らない！　わたし帰る！
+明日までに代案考えてきてくれたら許す！
+
+\\@CHARA_SET_PATTERN@<4, 81>//arc ぷんすか後ろ撤退
+
+
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 8, -160, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 104>//noel 気遣い
+
+\\@NPC_LOAD_SYNC@<5, -2, 160, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 105>//shiki 腕組うんうん
+
+\\@CHARA_CLEAR@<0>
+\\@CHARA_CLEAR@<1>
+\\@SQ_CALL@<3>
+\\@BG_IN@<"ed_whiteroom", 0, 2>// 背景　真っ白
+\aw
+
+\\@CHARA_IN@<0, 8, 17, 1, 0>
+\\@CHARA_IN@<1, 3, 410, 2, 1>
+\aw
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_IN@<1, 3, 410, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0255", 100>
+\\@TEXT_ID@<120>
+Shiki_GakuseiKare
+諸事情あって眼鏡を落として、
+ショックで一部記憶が飛んでいた俺なんです。
+
+
+\\@CHARA_SET_PATTERN@<5, 118>//shiki 頷き戻り
+\\@CHARA_IN@<1, 3, 423, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0256", 100>
+\\@TEXT_ID@<130>
+Shiki_GakuseiKare
+自業自得なんでお気になさらず。
+『野』でも『夜』でもないレアキャラってコトで。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0257", 100>
+\\@TEXT_ID@<140>
+Shiki_GakuseiKare
+ノエル先生が目覚めれば、
+幻のように消えるだけです。
+
+\\@CHARA_IN@<1, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0258", 100>
+\\@TEXT_ID@<150>
+Shiki_GakuseiKare
+でもノエル先生とふたりで吸血鬼探しを
+していたのは本当ですよ。
+
+\\@CHARA_SET_PATTERN@<5, 106>//shiki 呆れ
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0259", 100>
+\\@TEXT_ID@<160>
+Shiki_GakuseiKare
+こんな寄り道していていいのかなー、と
+呆れてもいましたけど。
+
+\\@CHARA_SET_PATTERN@<5, 117>//shiki 呆れ戻り
+
+\\@CHARA_IN@<0, 8, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0194", 100>
+\\@TEXT_ID@<170>
+Noel
+―――じゃあ。
+こうなるコト、分かってたの？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0195", 100>
+\\@TEXT_ID@<180>
+Noel
+分かっていて、私を助けてくれてたの？
+もう死んでいるかもしれない私を？
+\l
+
+
+\\@CHARA_IN@<1, 3, 408, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0260", 100>
+\\@TEXT_ID@<190>
+Shiki_GakuseiKare
+俺と違って貴女には先があったから。
+
+
+\\@CHARA_SET_PATTERN@<5, 99>//shiki ふりむき
+\\@CHARA_IN@<1, 3, 423, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0261", 100>
+\\@TEXT_ID@<200>
+Shiki_GakuseiKare
+ま、だいたい楽しかったです。
+都合の良い彼氏役も、《偶＜たま＞には悪くないですね。
+
+
+\\@FADE_OUT@<0, 255, 255, 255, 0>
+\aw
+
+\\@CHARA_CLEAR@<1>
+
+// 全部開放
+// 念のためPAT変更を挟む
+\\@CHARA_SET_PATTERN@<4, 0>
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+
+\\@CHARA_SET_PATTERN@<5, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+
+\\@CHARA_SET_PATTERN@<7, 0>
+\\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>
+
+\\@SQ_CALL@<4>
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\aw
+
+
+
+\\@CHARA_IN@<0, 8, 18, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0196", 100>
+\\@TEXT_ID@<210>
+Noel
+ぁ―――。
+\l
+
+
+\\@CHARA_FOCUS_COLOR@<-1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0262", 100>
+\\@TEXT_ID@<220>
+Shiki_GakuseiKare
+それじゃあ、お達者で。
+ヒロインになるんでしょ？
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0263", 100>
+\\@TEXT_ID@<230>
+Shiki_GakuseiKare
+あんまり目はなさそうだけど、
+できる範囲で努力してください。
+
+
+\\@SQ_CALL@<5>
+
+\\@CHARA_IN@<0, 8, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0197", 100>
+\\@TEXT_ID@<240>
+Noel
+―――そうだ。
+なんで、一番はじめにしなかったんだろう。
+\l
+
+
+\\@CHARA_IN@<0, 8, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0198", 100>
+\\@TEXT_ID@<250>
+Noel
+ねえーー！　キミ、名前はーー！？
+最後にキミの名前、教えてよーーー！
+\l
+
+\\@SQ_CALL@<6>
+
+\\@CHARA_FOCUS_COLOR@<-1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0264", 100>
+\\@TEXT_ID@<260>
+Shiki_GakuseiKare
+いやあ。
+それ言っちゃうと台無しでしょ。
+
+
+//シーン切り替えでフェードアウト
+\\@CHARA_OUT@<0, 8, -1, 0, 0>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<1, 255, 255, 255, 0>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0199", 100>
+\\@TEXT_ID@<270>
+Noel
+えー、でも聞きたーーーい！
+アドレス交換、アドレス交換ーーーー！
+\l
+
+
+\\@FADE_IN@<1,255,255,255,0>
+\\@FADE_IN@<2, 255, 255, 255, 0>
+\\@SQ_CALL@<7>
+
+
+
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Coverlet", 0, 100>
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0200", 100>
+\\@TEXT_ID@<280>
+Noel
+―――って、夢かぁ～！
+\l
+
+
+\\@BGM_PLAY@<0, 66, 100>//明るい爽やかなBGM
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0201", 100>
+\\@TEXT_ID@<290>
+Noel
+そうよね……これが私の日常。
+代わり映えのないワンパターン。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0202", 100>
+\\@TEXT_ID@<300>
+Noel
+昨日は風邪気味でさっさと横になったし。
+疲れきっていつ寝たかも覚えてないわよーだ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0203", 100>
+\\@TEXT_ID@<310>
+Noel
+あー、体だっるぅ……。頭クラクラ……。
+でもだーれも助けてくれない。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0204", 100>
+\\@TEXT_ID@<320>
+Noel
+シエルに連絡なんかいれるか、クソー！
+いつも通り、私だけで回復してや、
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0265", 100>
+\\@TEXT_ID@<330>
+Shiki
+あれ、ノエル先生、起きました？
+じゃあ朝ごはんにしましょうか。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0266", 100>
+\\@TEXT_ID@<340>
+Shiki
+おかゆしか作れませんけど、
+熱があるんだから丁度いいですよね。
+
+// \\@CHARA_IN@<0, 8, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0205", 100>
+\\@TEXT_ID@<350>
+Noel
+え゛゛
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0206", 100>
+\\@TEXT_ID@<360>
+Noel
+志貴くん、なんでいるの！？
+あれ、夢！？　まだ夢か！？
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0267", 100>
+\\@TEXT_ID@<370>
+Shiki
+なんでって……昨日の夜、携帯に連絡くれたでしょ。
+“もうダむゅ　ねりゅ　プリンと健康飲料　タノム”
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0268", 100>
+\\@TEXT_ID@<380>
+Shiki
+あんまりにもあんまりな内容だったんで
+看病に来ました。迷惑でした？
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0207", 100>
+\\@TEXT_ID@<390>
+Noel
+め、迷惑じゃないけど―――
+君、遠野志貴くんよね？　調査対象の！？
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0269", 100>
+\\@TEXT_ID@<400>
+Shiki
+いつの話してるんですか。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0270", 100>
+\\@TEXT_ID@<410>
+Shiki
+確かに最初はそんな感じで
+ケンカをふっかけられましたけど、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0271", 100>
+\\@TEXT_ID@<420>
+Shiki
+色々あってほっとけなくなって、
+俺の方から降参したんです。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0208", 100>
+\\@TEXT_ID@<430>
+Noel
+―――。
+降参って言うと、つまり？
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0272", 100>
+\\@TEXT_ID@<440>
+Shiki
+捕まった、というか。
+部屋の鍵を預かって、もう７日ですよ。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0209", 100>
+\\@TEXT_ID@<450>
+Noel
+夢だったけど夢じゃない！
+うそうそうそ、これめっちゃ私ルートじゃん！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0210", 100>
+\\@TEXT_ID@<460>
+Noel
+トラックに轢かれた気がするけど、
+そんな事はなかったわ！
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0273", 100>
+\\@TEXT_ID@<470>
+Shiki
+（轢かれる直前でしたけどね。
+　それを助けたのが始まりですよ）
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0211", 100>
+\\@TEXT_ID@<480>
+Noel
+見たかシエル、私の逆転・大勝利～～～！
+これからめっちゃ甘々な生活してやるんだから！
+\l
+
+\\@FADE_OUT@<0, 255, 255, 255, 0>//フェードアウト
+\aw
+
+\\@FADE_IN@<0, 255, 255, 255, 0>//フェードイン
+\\@SQ_CALL@<8>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0212", 100>
+\\@TEXT_ID@<490>
+Noel
+あ～～もう最高～～～！
+まさにルミナスなエンディングね！
+
+//シーン切り替えでフェードアウト
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+
+\\@FADE_OUT@<0, 0, 0, 0, 0>//フェードアウト
+\aw
+
+\\@FADE_IN@<0, 0, 0, 0, 0>//フェードイン
+
+\\@BGM_PLAY@<0, 78, 100>
+
+\\@SQ_CALL@<9>
+
+\w<60>
+
+\\@SQ_CALL@<10>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0102", 100>
+\\@TEXT_ID@<500>
+Arcueid_with_Ciel_and_Akiha
+ここがあのノエルのハウスね。
+じゃ、さっそく乗り込もっか！
+
+\\@SQ_CALL@<11>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0090", 100>
+\\@TEXT_ID@<510>
+Ciel_with_Arcueid_and_Akiha
+そうですね。
+シスター・ノエルの弁明を聞きたいですし。
+
+
+\\@SQ_CALL@<12>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0090", 100>
+\\@TEXT_ID@<520>
+Akiha_with_Arcueid_and_Ciel
+私は家を預かる者として、兄の弁明を。
+どんな珍説が飛び出すか、今からとても楽しみです\sf000
+
+
+\\@TEXT_ID@<530>
+NONE
+ノエルの　運命は　いかに。
+
+
+
+
+\\@SYSTEM@<21>
+\aw
+
+\\@BGM_STOP@<0>
+\e
+

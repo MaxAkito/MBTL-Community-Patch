@@ -1,0 +1,322 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<1>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 63, 100>//落ち着いた日常系BGM
+
+\\@NPC_LOAD_SYNC@<4, 20, -480, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 23>//おやっ？
+\\@NPC_LOAD_SYNC@<5, 19, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+
+\\@CHARA_IN@< 0, 20, 209, 1, 0>
+\\@CHARA_IN@< 1, 19, 100, 2, 0>
+\aw
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 205, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0060", 100>
+
+Mash
+ここがネコアルクさんの目的地……
+まるでお城のようです。
+\l
+
+//カメラを固定しておく
+\\@NPC_LOAD_SYNC@<7, 90, -400, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//camera
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0061", 100>
+
+Mash
+どこもかしこも手入れが行き届いていて、
+細やかな心遣いが感じられます。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 203>//はにかみ
+\\@CHARA_IN@< 0, 20, 207, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0062", 100>
+
+Mash
+きっと素敵な当主様なのでしょうね。
+優しくて、明るくて、おきれいな。
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0300", 100>
+
+Neco_Arc
+うん、まあだいたい合ってる。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0301", 100>
+
+Neco_Arc
+お嬢は敵対するとめっちゃ怖いけど、
+基本は良家のお嬢様だからニャー。
+\l
+
+//セリフのタイミングに合わせてフライパンが飛んでくるように判定データで調整
+\\@NPC_LOAD_SYNC@<6, 1, 460, -300, 1>
+\\@CHARA_SET_PATTERN@<6, 14>//フライパン
+
+\\@CHARA_SET_PATTERN@<5, 21>//フライパン被弾
+\\@CHARA_IN@< 1, 19, 104, 0, 1>
+\\@CHARA_FACE@<1, -1, 119, 351>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0302", 100>
+
+Neco_Arc
+むしろ注意すべきは使用人の方ニャんだよ。
+気をつけろ、特に箒持ってる方はこべぇぇえええ！？
+
+\\@CHARA_SET_MVNAME@<5, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+\\@CHARA_SET_MVNAME@<6, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@BGM_PLAY@<1, 65, 100>//楽しくにぎやかなBGM
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 18>//困惑
+\\@CHARA_IN@< 0, 20, 222, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0063", 100>
+
+Mash
+ネコアルクさん！？
+だいじょうぶですか！？
+
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>//フライパン削除
+\\@CHARA_SET_MVNAME@<7, "InitCameraKeep">//camera初期化
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 23>//頭のけぞり戻り
+\\@CHARA_IN@< 1, 19, 113, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0303", 100>
+
+Neco_Arc
+う、うん、なんとかね。
+ところで、これはどういう歓迎なのかなメイド君？
+
+\\@NPC_LOAD_SYNC@<6, 1, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+
+\\@SYSTEM@<102>
+\\@CHARA_CLEAR@<1>
+\\@CHARA_IN@< 1, 1, 107, 2, 0>
+\aw
+
+\\@CHARA_IN@< 1, 1, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0090", 100>
+
+Hisui
+たいへん失礼いたしました。
+今のは調理に使っていたフライパンです。
+\l
+
+
+\\@CHARA_IN@< 1, 1, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0091", 100>
+
+Hisui
+返しの練習をしていたところ指が滑りました。
+お気に召していただけたのなら幸いです。
+
+\\@CHARA_SET_PATTERN@<5, 38>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 106, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0304", 100>
+
+Neco_Arc
+ん、そっか☆
+事故ならしょうがないか☆
+\l
+
+\\@CHARA_SET_PATTERN@<5, 0>
+\\@CHARA_IN@< 0, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0305", 100>
+
+Neco_Arc
+じゃあちょっと失礼しますね。
+アタシたちは当主に用があるので。
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0092", 100>
+
+Hisui
+当家の主人は多忙につき、現在、
+面会はお断りしております。ですが―――
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0093", 100>
+
+Hisui
+お客様にも事情がおありのようですね。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0094", 100>
+
+Hisui
+どうしても、と仰るのでしたら、
+特別にお伺いをたててまいります。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 100>//hisui どうぞ
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0095", 100>
+
+Hisui
+それまでどうぞ、こちらへ。
+迎賓室にご案内いたします。
+
+\\@CHARA_SET_PATTERN@<6, 101>//hisui どうぞ→てくてく撤退
+
+\\@CHARA_OUT@< 1, 1, -1, 0, 0>
+\aw
+\\@CHARA_SET_MVNAME@<6, "FadeOutAndCameraOut">
+
+\\@CHARA_SET_PATTERN@<5, 38>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0306", 100>
+
+Neco_Arc
+ほんと？　迎賓室ってネコ缶バーある？
+ない？　ドリンクバーだけ？　やっさすぃー。
+\l
+
+\\@NPC_LOAD_SYNC@<5, -2, -320, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 1>//万歳
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0307", 100>
+
+Neco_Arc
+まあいいや、行こうぜマシュ君！
+リフレッシュのチャンスは逃がさねー！
+
+\\@CHARA_IN@< 0, 20, 203, 11, 0>
+\aw
+\\@CHARA_SET_PATTERN@<4, 22>//決めポーズ
+\\@CHARA_IN@< 0, 20, 203, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0064", 100>
+
+Mash
+いえ。気をつけてください、ネコアルクさん。
+そのメイドの方は危険です。
+\l
+
+
+\\@CHARA_IN@< 0, 20, 214, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0065", 100>
+
+Mash
+端末ではありますが、シールドに内包された
+近未来観測レンズ・シバが、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0066", 100>
+
+Mash
+１分後のネコアルクさんに
+『死亡』ステータスを表示しています！
+
+\\@CHARA_IN@< 1, 19, 108, 12, 0>
+\aw
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 13>//ワイン
+\\@CHARA_IN@< 1, 19, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0308", 100>
+
+Neco_Arc
+そなの？
+でもこのウェルカムワイン、中々だぜ？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0309", 100>
+
+Neco_Arc
+この喉に詰まるような異物感はどうだ……
+例えるなら体が別の何かに乗っ取られるような……
+
+
+
+\\@NPC_LOAD_SYNC@<8, 4, -320, 0, 1>
+\\@CHARA_SET_PATTERN@<8, 100>//登場煙幕
+
+\\@CHARA_SET_COLOR@<7,34>//スロット７に読むキャラのカラーは34（ネコヒスイ）
+\\@NPC_LOAD_SYNC@<7, 19, -320, 0, 1>
+\\@CHARA_SET_PATTERN@<7, 0>//
+
+//ネコアルク消す
+\\@NPC_LOAD_SYNC@<5, -1, -320, 0, 1>
+
+\\@CHARA_IN@< 1, 61, 100, 12, 0>//ネコヒスイ
+\aw
+
+\\@BGM_FADE@<1, -1, 0, 60, 1>
+\\@BGM_PLAY@<0, 61, 100>//コミカルでちょっと怪しげなBGM
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 61, 100, 0, 1>//ネコヒスイ
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNhi/NpcNhi08_0000", 100>
+
+Neco_Hisui
+っていうか乗っ取られた。
+こんにちは。ネコヒスイです。
+\l
+
+\\@CHARA_SET_PATTERN@<7, 5>//悪だくみ
+\\@CHARA_IN@< 1, 61, 109, 0, 1>//ネコヒスイ
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNhi/NpcNhi08_0001", 100>
+
+Neco_Hisui
+ふふ。マシュ君もいっぱい、いっとく？
+メイドになればどんな殺人ケーキも思いのまま、だぜ？
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 20, 203, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0067", 100>
+
+Mash
+精神に異常をきたす薬物を検知、
+カルデア式解毒メソッドを実行します！
+\l
+
+
+\\@CHARA_IN@< 0, 20, 223, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0068", 100>
+
+Mash
+ごめんなさい、ネコアルクさん！
+助ける方法はこれしかありません……！
+
+
+\\@CHARA_SET_PATTERN@<7, 44>//
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 61, 100, 0, 1>//ネコヒスイ
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNhi/NpcNhi08_0002", 100>
+
+Neco_Hisui
+ワオ、すっごい判断力。
+１分後に死亡って、そういうコト？
+
+
+
+\\@BGM_STOP@<0>
+\e
+

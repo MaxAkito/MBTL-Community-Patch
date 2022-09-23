@@ -1,0 +1,669 @@
+\\@SYSTEM@<9999>
+\\@BG_IN@<"ed_bg00", 0, 2>//背景　黒
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 71, 100>
+
+
+
+\\@SYSTEM@<100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0000", 100>
+
+Navigate
+アンサモンプログラム　スタート。
+霊子変換を開始　します。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0001", 100>
+
+Navigate
+レイシフト開始まで　あと３、２、１……
+\l
+
+\\@FADE_IN@<2, 128, 0, 0, 0>
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_Warning", 1, 100>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0002", 100>
+
+Navigate
+工程に問題発生。
+時空連続体に理解困難の不具合　発生。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0003", 100>
+
+Navigate
+グランドオーダー　実証　停止。
+レイシフト　ルート構築　は　継続します。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0004", 100>
+
+Navigate
+コフィン内のパイロットの安全を最優先。
+強制排出をロック。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0005", 100>
+
+Navigate
+パイロットの　自主的な帰還を
+期待　します。
+
+
+\\@SE_STOP@<1>
+
+\\@BGM_FADE@<0, -1, 0, -2, 1>
+
+\\@FADE_OUT@<0, 255, 255, 255, 0>
+\aw
+
+
+\\@BG_OUT@<0, 2>
+\\@LOAD_BATTLE_BG@<24>
+\aw
+
+\\@SYSTEM@<200>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 20, -200, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 59>//mash
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+
+\\@CHARA_IN@<0, 20, 213, 1, 0>
+\aw
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 60>//mash
+
+\\@CHARA_IN@<0, 20, 213, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0040", 100>
+
+Mash
+……ぁ……れ？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0041", 100>
+
+Mash
+ここは……いったい……？
+特異点ではないようですが……
+
+\\@BGM_PLAY@<0, 61, 100>//コミカルでちょっと怪しげなBGM
+
+\\@NPC_LOAD_SYNC@<5, 19, 200, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 5>//neco
+
+\\@CHARA_IN@<2, 19, 109, 2, 0>
+\aw
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 2, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0260", 100>
+
+Neco_Arc
+少女がトンネルを抜けると、
+そこは一面のグレートキャッツビレッジだった……。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 6>//両手ピョコピョコ万歳
+\\@CHARA_IN@< 2, 19, 101, 0, 1>
+\\@CHARA_EMOVE@<2, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0261", 100>
+
+Neco_Arc
+なーんてな！　文学的なＯＰとか
+アタシには似合わないっつーの！
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 2>//ゆらゆら
+\\@CHARA_IN@< 2, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0262", 100>
+
+Neco_Arc
+グッモーニン、素敵な甲冑ガール。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0263", 100>
+
+Neco_Arc
+布団とかねえからコタツで看病してたけど、
+だいじょうぶ？　おしりいたくない？
+\l
+
+\\@CHARA_SET_PATTERN@<5, 3>//やれやれ
+\\@CHARA_IN@< 2, 19, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0264", 100>
+
+Neco_Arc
+あ、痛くない。地面に直置きのコタツでも
+ビクともしない、と。耐久Ａなんですなぁ。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 31>//みかん投げる
+\\@CHARA_SET_PATTERN@<4, 61>//mash
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0265", 100>
+
+Neco_Arc
+まあいいや、ミカン食べる？
+これ、エヒメのおいしいトコ。
+
+
+\\@CHARA_SET_PATTERN@<4, 62>//mash
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 20, 202, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0042", 100>
+
+Mash
+は、はい、ありがとうございます。
+ぁ……とても甘くて美味しいです！
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 2>//ゆらゆら
+\\@CHARA_IN@< 2, 19, 118, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0266", 100>
+
+Neco_Arc
+でしょ～？　もっと食べなさい、もっと食べなさい。
+毒とか入ってないから。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 63>//mash
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0267", 100>
+
+Neco_Arc
+黄泉の食べ物を食べたら地上に出られないとか、
+そんなケチくさいコト言わニャいよ。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 3>//やれやれ
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0268", 100>
+
+Neco_Arc
+だいたいさあ、客を呼びとめたいんなら
+呪いじゃなくて味で勝負っしょ！
+\l
+
+\\@CHARA_SET_PATTERN@<4, 64>//mash
+
+\\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
+\\@EMG_PRINT_TEXT@<102, 1130, 670>
+
+誤字ではありません
+
+\\@CHARA_SET_PATTERN@<5, 1>//万歳
+\\@CHARA_IN@< 2, 19, 112, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0269", 100>
+
+Neco_Arc
+こちとら伊達に脱ヒロインして店はじめてねぇ！
+この麺１煮干し９のネコ完メンで天下とったらぁ！
+
+
+\\@CHARA_SET_PATTERN@<4, 65>//mash
+
+\\@SYSTEM@<131>
+
+\\@CHARA_IN@< 0, 20, 220, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0042_1", 100>
+
+Mash
+（なるほど、という顔）
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 16>//キシャ―戻り
+\\@CHARA_IN@< 2, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0270", 100>
+
+Neco_Arc
+ほう。怒濤のカオスラッシュにも驚かれない。
+大山鳴動してネズミも出ねえときた。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0271", 100>
+
+Neco_Arc
+ここグレートキャッツビレッジは妖精郷の一つ。
+地上から人間が迷いこんでくる事もある。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0272", 100>
+
+Neco_Arc
+察するところ、お嬢さんもその一例かな？
+どこの世界の冒険少女なんだい？
+
+\\@CHARA_SET_PATTERN@<4, 67>//mash
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 20, 206, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0043", 100>
+
+Mash
+は、はい。わたしはマシュ・キリエライト。
+人理保障機関カルデアに所属する研究員であり、
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0044", 100>
+
+Mash
+英霊と融合を果たした
+デミ・サーヴァントの成功例です。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 68>//mash
+
+\\@CHARA_IN@< 0, 20, 218, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0045", 100>
+
+Mash
+アナタは……その、どこの惑星の方でしょう？
+地球上の生命体とは思えませんが……
+
+\\@CHARA_SET_PATTERN@<4, 69>//mash
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 13>//ワイン
+\\@CHARA_IN@< 2, 19, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0273", 100>
+
+Neco_Arc
+おやおや、冗談のうまいお嬢さんだ。
+おいしいミカンのお返しにしちゃあパンチ利いてる。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 6>//両手ピョコピョコ万歳
+\\@CHARA_IN@< 2, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0274", 100>
+
+Neco_Arc
+でもまあ、地上にはいないよねこんな美獣！
+そのセクスィー、まさにモンスター級！　キラッ☆
+
+\\@CHARA_SET_PATTERN@<4, 70>//mash
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 20, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0046", 100>
+
+Mash
+怪物的、という意味ですね。
+適切な比喩表現、ありがとうございます。
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 0>//
+\\@CHARA_IN@< 2, 19, 110, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0275", 100>
+
+Neco_Arc
+うん。わずか１分のやりとりですが、
+ｙｏｕには遊びが通じないのは理解した。
+\l
+
+
+\\@CHARA_IN@< 2, 19, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0276", 100>
+
+Neco_Arc
+よろしくマシュ君。アタシはネコアルク。
+このネコ國のトップ・ネコ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0277", 100>
+
+Neco_Arc
+察するところ、マシュ君は一刻も早く元の世界に
+戻らなければニャらない……違うかな？
+
+\\@CHARA_SET_PATTERN@<4, 71>//mash
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 20, 213, 0, 1>
+\\@CHARA_EMOVE@<0, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0047", 100>
+
+Mash
+はい。でもどうすれば……
+\l
+
+
+\\@CHARA_IN@< 0, 20, 212, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0048", 100>
+
+Mash
+カルデアとの通信は完全に途絶、
+ここがどこの時代なのかも分からない、なんて……
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 5>//悪だくみ
+\\@CHARA_IN@< 2, 19, 114, 0, 1>
+\\@CHARA_EMOVE@<2, -1, 11>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0278", 100>
+
+Neco_Arc
+にゃっにゃっにゃっ。
+心配するなマドモアゼル。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0279", 100>
+
+Neco_Arc
+悩みは色々あるだろうけど、ちょっとコタツを
+どけてごらん？　驚くぜ？
+
+
+\\@CHARA_SET_PATTERN@<4, 73>//mash
+\\@CHARA_SET_PATTERN@<5, 32>//みかんカゴキャッチ待機
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 20, 216, 0, 1>
+\\@CHARA_FACE@<0,-1,223,350>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0049", 100>
+
+Mash
+？　コタツをですか？
+では失礼して……こ、これは……！
+\l
+
+\\@CHARA_SET_MVNAME@<4, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+\\@CHARA_SET_MVNAME@<5, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+
+
+
+\\@CHARA_IN@< 0, 20, 223, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0050", 100>
+
+Mash
+英霊召喚のサークルにそっくりです……！
+ネコアルクさんは召喚士だったのですか！？
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 2, 19, 110, 0, 1>
+\\@CHARA_EMOVE@<2, -1 , 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0280", 100>
+
+Neco_Arc
+うん。これはね、マシュ君が空から落ちてきて、
+アタシをクッションにした時にね。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0281", 100>
+
+Neco_Arc
+スポンジみたいになった体から魔力（比喩表現）が
+地面にビシャってなって、この通り。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 5>//悪だくみ
+\\@CHARA_IN@< 2, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0282", 100>
+
+Neco_Arc
+すごいっしょ？
+控えめに見ても異世界転移のゲートです。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 75>//mash
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0283", 100>
+
+Neco_Arc
+マシュ君の力（重さ）と、ネコの力（断末魔）が
+融合した合わせ技……とでも言っておきますか。
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 20, 204, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0051", 100>
+
+Mash
+もも、申し訳ありません……！
+ネコアルクさんを押し潰していたなんて……！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0052", 100>
+
+Mash
+いつもは、はい、どちらかと言うとわたしが
+盾になるというか、着地役を果たすのですがっ！
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 0>//
+\\@CHARA_IN@< 2, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0284", 100>
+
+Neco_Arc
+ほう。じゃあマシュ君は護衛役？
+なるほどなー。そんな感じするする。
+\l
+
+
+\\@CHARA_IN@< 2, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0285", 100>
+
+Neco_Arc
+じゃ、話がまとまったところで
+ゲートに飛び込もっか☆
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0286", 100>
+
+Neco_Arc
+マシュ君は元の世界に戻るために。
+アタシはＭＢ界を平和にするために。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0287", 100>
+
+Neco_Arc
+いっちょ協力して異世界冒険しよう、ぜ！
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 77>//困惑
+\\@CHARA_IN@< 0, 20, 218, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0053", 100>
+
+Mash
+いえ、あの、話が見えなくて……
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0054", 100>
+
+Mash
+ネコアルクさんをお助けするのはいいのですが、
+なぜわたしなのでしょう……？
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 1>//万歳
+\\@CHARA_IN@< 2, 19, 112, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0288", 100>
+
+Neco_Arc
+分かるな、ネコと和解せよ！
+なぜも何もニャいんだよマシュ君！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0289", 100>
+
+Neco_Arc
+なぜなら―――
+\l
+
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_ShortLightning", 0, 100>
+
+\\@SYSTEM@<121>
+\\@NPC_LOAD_SYNC@<7, 93, 200, 0, 1>//小物
+\\@CHARA_SET_PATTERN@<7, 1>//落雷
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0290", 100>
+
+Neco_Arc
+人類の総意が！　売り上げが！
+ＤＬＣを求めているンだッ！
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 78>//真面目待機
+\\@CHARA_IN@< 0, 20, 223, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0055", 100>
+
+Mash
+―――人類の総意―――
+\l
+
+
+\\@CHARA_IN@< 0, 20, 214, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0056", 100>
+
+Mash
+ネコアルクさんはそんなに大きな使命を
+お持ちだったのですね！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 79>//盾構え
+\\@CHARA_IN@< 0, 20, 215, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0057", 100>
+
+Mash
+そういう事ならお任せください！
+まだまだ未熟者ですが、マシュ・キリエライト、
+\l
+
+\\@CHARA_IN@< 0, 20, 223, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0058", 100>
+
+Mash
+この盾にかけて人理のために戦います！
+世界のルールを乱す侵略者に容赦はしません！
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 11>//あれぇ？
+\\@CHARA_IN@< 2, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0291", 100>
+
+Neco_Arc
+………………。
+（純粋な人間に慣れていない顔）
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 38>//
+\\@CHARA_IN@< 2, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0292", 100>
+
+Neco_Arc
+ま、いっか！
+異世界や、買わず飛び込む無料ゲー、ってな。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 35>//
+\\@CHARA_IN@< 2, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0293", 100>
+
+Neco_Arc
+マシュ君、ｙｏｕを新たな勇者―――
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 1>//万歳
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0294", 100>
+
+Neco_Arc
+ネコ二十七キャットのひとりに任命する！
+アタシと一緒にＭＢ界の悪を倒すンだ！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0295", 100>
+
+Neco_Arc
+その結果、アタシの体には魔力が高まり、
+新たなゲートを作りだす事も可能ッ！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0296", 100>
+
+Neco_Arc
+何度か実験していれば、いつかは元の世界に
+通じるゲートもできるって寸法さ！
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 83>//むんっ！
+\\@CHARA_IN@< 0, 20, 221, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0059", 100>
+
+Mash
+はい！　《召喚装置＜ネコアルクさん＞に魔力がたまり次第、
+雑巾のように搾らせていただきますね！
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<5, 11>//あれぇ？
+\\@CHARA_IN@< 2, 19, 111, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0297", 100>
+
+Neco_Arc
+―――。
+いまなんか怖いコト言わなかった、マシュ君？
+
+
+
+
+
+\\@BGM_STOP@<0>
+\e
+

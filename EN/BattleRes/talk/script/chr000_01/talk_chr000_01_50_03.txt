@@ -1,0 +1,497 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<18>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+\\@SYSTEM@<100>
+\aw
+
+\\@BGM_PLAY@<0, 75, 100>
+
+// 志貴の方がプライオリティ上にする
+\\@NPC_LOAD_SYNC@<4, 3, 180, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 19>//眼鏡立ち呼吸
+
+\\@NPC_LOAD_SYNC@<5, 0, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+
+
+\\@CHARA_IN@< 0, 0, 13, 1, 0>
+\\@CHARA_IN@< 2, 3, 0, 1, 0>
+\aw
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 0, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0010", 100>
+
+Arcueid
+…………。
+
+
+
+\\@CHARA_SET_PATTERN@<4, 26>//眼鏡うなずき（1回）
+\\@CHARA_IN@< 2, 3, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0020", 100>
+
+Shiki
+さて、次は教会で厄落としっと。
+……厄落としって教会か？
+\l
+
+\\@CHARA_SET_PATTERN@<4, 24>//眼鏡やれやれ
+\\@CHARA_IN@< 2, 3, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0021", 100>
+
+Shiki
+なんか妙な空気だな。頭がクラクラする。
+空模様も妙だし……あれ、誰かいる……
+
+
+\\@NPC_LOAD_SYNC@<7, 90, 950, 0, 0>//カメラ位置調節のための透明ダミー
+
+\\@CHARA_SET_PATTERN@<4, 25>//眼鏡やれやれ戻り
+\\@NPC_LOAD_SYNC@<6, 14, 600, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+// 死徒ノエル、登場
+\\@CHARA_IN@< 1, 14, 0, 4, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<5, 34>//怒り払い・静止
+\\@CHARA_IN@< 0, 0, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0011", 100>
+
+Arcueid
+やれやれ。アレが原因ね。
+志貴、秒殺していい？
+
+
+\\@CHARA_SET_PATTERN@<4, 30>//眼鏡待て
+\\@CHARA_IN@< 2, 3, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0022", 100>
+
+Shiki
+バッカ、いきなり襲いかかる奴があるか！
+せめて話ぐらいきいてやれ！
+
+
+\\@CHARA_SET_PATTERN@<5, 20>//怒り
+\\@CHARA_IN@< 0, 0, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0012", 100>
+
+Arcueid
+バカっていうなー！
+ちゃんと「殺していい？」って聞いたし！
+
+
+\\@CHARA_SET_PATTERN@<4, 134>//眼鏡待て困惑→疲れ
+\\@CHARA_IN@< 2, 3, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0023", 100>
+
+Shiki
+とにかくステイ、ステイだ。
+だってあの娘は……くっ、なぜか頭痛が痛い！
+
+
+\\@CHARA_SET_PATTERN@<4, 135>//疲れループ
+\\@CHARA_SET_PATTERN@<5, 21>//怒り→提案
+\\@CHARA_IN@< 0, 0, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0013", 100>
+
+Arcueid
+志貴、大丈夫？
+やっぱりアイツ、ひねりつぶしとく？
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 10>//ぷんすか
+\\@CHARA_IN@< 1, 14, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0000", 100>
+
+Dead_Noel
+ざっけんな。黙ってきいていれば
+好き勝手言ってくれるじゃない。
+\l
+
+\\@CHARA_IN@< 1, 14, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0001", 100>
+
+Dead_Noel
+そのカレシの体調不良、わたしのせいじゃないから。
+ほぼ１００パー、日頃の自業自得でしょ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0002", 100>
+
+Dead_Noel
+いちいちわたしのせいにするのやめてよね。
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 136>//疲れ→立ち
+
+\\@CHARA_SET_PATTERN@<5, 7>//足組み
+\\@CHARA_IN@< 0, 0, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0014", 100>
+
+Arcueid
+だってアナタ、見るからに弱そうなんだもん
+っていうか、チョロそう？
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 10>//ぷんすか
+\\@CHARA_IN@< 1, 14, 5, 0, 1>
+\\@CHARA_EMOVE@<1, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0003", 100>
+
+Dead_Noel
+ハア！？　弱くないわよ！　チョロくないし！
+そっちのカレシはこれから堕とす予定だし！
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0015", 100>
+
+Arcueid
+そっかー。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 9>//怒り払い
+\\@CHARA_IN@< 0, 0, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0016", 100>
+
+Arcueid
+で、もういい？
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 2>//驚き→怯え
+\\@CHARA_IN@< 1, 14, 3, 0, 1>
+\\@CHARA_EMOVE@<1, -1 , 4>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0004", 100>
+
+Dead_Noel
+こわっ！！
+感情の温度差だけで殺す気か！
+\l
+
+\\@CHARA_SET_PATTERN@<6, 10>//ぷんすか
+\\@CHARA_IN@< 1, 14, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0005", 100>
+
+Dead_Noel
+そうじゃなくて！　会話しなさいよ！
+か・い・わ！
+\l
+
+\\@CHARA_IN@< 1, 14, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0006", 100>
+
+Dead_Noel
+そこのエモノの注意、ちゃんと聞いてた？
+まずは会話してあげろって。いいコト言うじゃん。
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<5, 7>//足組み
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0017", 100>
+
+Arcueid
+えへへー、でしょー！
+わたしにバカバカ言うの、志貴だけよね！
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 18>//ぷんすか２
+\\@CHARA_IN@< 1, 14, 14, 0, 1>
+\\@CHARA_EMOVE@<1, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0007", 100>
+
+Dead_Noel
+喜ぶところじゃないんだけど！？
+とにかく！　絶対ここは通さないんだから！
+\l
+
+\\@CHARA_SET_PATTERN@<6, 6>//全力どう！
+\\@CHARA_IN@< 1, 14, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0008", 100>
+
+Dead_Noel
+そう―――以前のわたしなら逃げ出してたけど、
+今のわたしはひと味違うの！
+
+\\@SYSTEM@<131>
+
+\\@CHARA_SET_PATTERN@<4, 24>//眼鏡やれやれ
+\\@CHARA_IN@< 2, 3, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0024", 100>
+
+Shiki
+（やっぱり。黙っていたのは逃げるか戦うか、
+　様子を見ていたからだったんだな……）
+
+
+\\@CHARA_SET_PATTERN@<4, 25>//眼鏡やれやれ戻り
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 4>//見下し（まだだ笑うな）
+\\@CHARA_IN@< 1, 14, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0009", 100>
+
+Dead_Noel
+どうしてもここを通りたいのなら……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0010", 100>
+
+Dead_Noel
+そうね、アナタの「なんとかのゲボクー」とかいう
+アレで命じてみたら？
+\l
+
+\\@CHARA_SET_PATTERN@<6, 5>//ふふっ
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0011", 100>
+
+Dead_Noel
+あれ、二十七祖に下賜する言葉よね？
+やってやって。わたしにもやって！
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<5, 18>//足組み考え待機
+\\@CHARA_IN@< 0, 0, 202, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0018", 100>
+
+Arcueid
+えー。
+やだ、めんどくさーい。
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 10>//ぷんすか
+\\@CHARA_IN@< 1, 14, 5, 0, 1>
+\\@CHARA_EMOVE@<1, -1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0012", 100>
+
+Dead_Noel
+めんどくさい！？
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 0, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0019", 100>
+
+Arcueid
+だってそれ、わたしが得するコトないもん。
+アナタに全然興味ないし。
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 14, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0013", 100>
+
+Dead_Noel
+あっそう！
+じゃあ死んでも忘れないようにしてやる！
+\l
+
+\\@CHARA_SET_PATTERN@<6, 25>//dnoel
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0014", 100>
+
+Dead_Noel
+何が真祖の姫だ、プリンセスならこっちだっての！
+アンタを倒して、わたしがトップに立ってやる！
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 0, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0020", 100>
+
+Arcueid
+おおっと？
+けっこうやる感じ？
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 19>//切れそう・切れない
+\\@CHARA_IN@< 1, 14, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0015", 100>
+
+Dead_Noel
+とっうぜん！
+あやしい注射パワーで二階梯特進！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0016", 100>
+
+Dead_Noel
+《真祖の姫殺し＜ジャイアントキリング＞でさらに二階梯特進！
+\l
+
+\\@CHARA_IN@< 1, 14, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0017", 100>
+
+Dead_Noel
+ジャンピングチャンスの倍々プッシュで
+１０倍昇格もいけるはず。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 4>//見下し（まだだ笑うな）
+\\@CHARA_IN@< 1, 14, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0018", 100>
+
+Dead_Noel
+だいたい、腕力だけの姫とかゴリラかっていうの！
+その点こっちは夢と魔薬のプリンセス\sf000
+\l
+
+
+\\@CHARA_IN@< 1, 14, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0019", 100>
+
+Dead_Noel
+わたしこそ死徒の秩序……そう！
+新時代のニュー真祖、ノエルＣＨＡＮ★！　よね！
+
+
+
+\\@CHARA_IN@< 0, 0, 12, 0, 1>
+\\@CHARA_IN@< 2, 3, 25, 0, 1>
+\\@CHARA_FOCUS_COLOR@<0,0>
+\aw
+
+\\@SYSTEM@<131>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "Unison/Arc08_0021_Sik08_0025", 100>
+
+Arcueid_and_Shiki
+…………。（あっちゃあ……）
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 14, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0020", 100>
+
+Dead_Noel
+んんー？
+絶望の悲鳴のひとつも上げるかと思ったのに。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0021", 100>
+
+Dead_Noel
+あんまりにも夢溢れる計画に、声も出ない？
+もう精神的に勝ち、ってところかしら？
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 0, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0022", 100>
+
+Arcueid
+夢溢れるっていうか、寝てるっていうか……
+目覚めてたら恥ずかしくて絶対言えないというか……
+
+
+\\@CHARA_SET_PATTERN@<4, 28>//眼鏡ため息
+\\@CHARA_IN@< 2, 3, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0026", 100>
+
+Shiki
+二階梯特進を２回って完全に死んでるでしょ。
+死に癖、ついてるんじゃない？
+
+
+\\@CHARA_SET_PATTERN@<4, 29>//眼鏡ため息戻り
+
+\\@SYSTEM@<122>
+
+\\@CHARA_SET_PATTERN@<6, 10>//ぷんすか
+\\@CHARA_IN@< 1, 14, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0022", 100>
+
+Dead_Noel
+あぁ！？
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_IN@< 0, 0, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0023", 100>
+
+Arcueid
+だいたい真祖ってそういうんじゃないんだけどなー。
+ちょっと修正してあげるしかないかー。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 7>//足組み
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0024", 100>
+
+Arcueid
+アナタ、志貴にもシエルにもちょっかい
+出しそうな匂いがするし。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0025", 100>
+
+Arcueid
+ある意味ヒロイン顔？　みたいな。
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 5>//ふふっ
+\\@CHARA_IN@< 1, 14, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0023", 100>
+
+Dead_Noel
+そ、そう？
+そんな顔、してるかな？
+
+
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<5, 9>//怒り払い
+\\@CHARA_IN@< 0, 0, 7, 0, 1>
+\\@CHARA_EMOVE@<0, -1, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0026", 100>
+
+Arcueid
+ええ。だから本気で戦ってあげる。
+遠慮なく、容赦なくね？
+
+
+\\@SYSTEM@<132>
+
+\\@CHARA_SET_PATTERN@<6, 2>//驚き→怯え
+\\@CHARA_IN@< 1, 14, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0024", 100>
+
+Dead_Noel
+（あ、やば。
+　死ぬじゃん、わたし！）
+
+
+\\@BGM_STOP@<0>
+\e
+
+
+

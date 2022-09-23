@@ -8,13 +8,8 @@ The Knight King who pursues the mystery of why she had been summoned to a parall
 True Name: Artoria Pendragon
 Saber is a swordswoman possessed of a regal bearing. Her golden locks and her silver armor, accentuated with blue, make her stick out in the city of Souya. Her True Name is none other than Artoria Pendragon, the celebrated Knight of the Holy Sword, famed as the one who commanded the Round Table during the Arthurian cycle. Because she hid her true gender in life, history remembers her as King Arthur.
 
-<<<<<<< Updated upstream
 死後は、伝説的な英雄として「英霊の座」に刻まれ”サーヴァント”となった。本来、「英霊の座」という仕組みのないこの世界に何故か現界してしまい、その謎を解くため、総耶の街を探索することに……。
-After death, she became a Servant, engraved into the the 'Throne of Heroes' for her legendary deeds. Now, finding herself manifested in a world where the mechanisms of the Throne of Heroes do not exist, she heads out to explore the city of Souya and uncover the mystery behind her summoning.
-=======
-死後は、伝説的な英雄として「英霊の座」に刻まれ”サーヴァント”となった。本来、「英霊召喚」という仕組みのないこの世界に何故か現界してしまい、その謎を解くため、総耶の街を探索することに……。
-After death, she became a Servant, engraved into the the 'Throne of Heroes' for her legendary deeds. Now she has manifested in a world where the Heroic Spirit summoning mechanisms do not exist, and so heads out to explore the city of Souya in order to solve the mystery of her own summoning...
->>>>>>> Stashed changes
+After death, she became a Servant, engraved into the the 'Throne of Heroes' for her legendary deeds. Now, finding herself manifested in a world where the Heroic Spirit summoning mechanisms do not exist, she heads out to explore the city of Souya and uncover the mystery behind her summoning.
 
 生来持つ莫大な魔力により、そのブースト効果で己の身体能力を本来の何倍にも引き上げている。その魔力を集束・加速させた”光”の断層による究極の斬撃[ruby=約束された勝利の剣]「エくスカリバー」[/ruby]や、手に持つ聖剣の姿を不可視にする[ruby=風王結界]「インビシブル・エア」[/ruby]などの宝具を有する。
 Thanks to her innate abundance of magical energy, she can boost her own physical abilities several times beyond her usual output.

@@ -23,8 +23,8 @@
 シールドカウンターときた。
 */
 Neco_Arc
-くっそう、ドイツもコイツも見てから余裕で
-シールドカウンターときた。
+Sunnuvabitch, why is every person I come across
+able to so easily Shield Counter me?
 \l
 
 \\@CHARA_SET_PATTERN@<4, 3>//やれやれ
@@ -36,8 +36,8 @@ Neco_Arc
 安易なビームは通さない、というコトか……
 */
 Neco_Arc
-これが最新のゲームシステム……
-安易なビームは通さない、というコトか……
+So this is the new game-mechanic...
+Means I can't beam my way through so easily...
 \l
 
 \\@CHARA_IN@< 0, 19, 104, 0, 1>
@@ -45,9 +45,10 @@ Neco_Arc
 \\@TEXT_ID@<30>
 /*-comment-
 んにゃ、それにしてもヤバイでしょこの街。
+P: I need a cat pun.
 */
 Neco_Arc
-んにゃ、それにしてもヤバイでしょこの街。
+Meow, all that said, this city sure is wild.
 \l
 
 \\@CHARA_SET_PATTERN@<4, 4>//キシャ―
@@ -59,8 +60,9 @@ Neco_Arc
 おちおちコンビニで買い物もできねー！
 */
 Neco_Arc
-ネコと見るや勝ち星拾いに来やがって、
-おちおちコンビニで買い物もできねー！
+They come tryin' to claim their victory as soon as they see a cat. 
+I can't even go shopping at the convenience store in peace!
+
 
 \\@CHARA_IN@< 2, 20, 205, 2, 0>
 \\@CHARA_MUKI@<2, 1>
@@ -83,8 +85,8 @@ Neco_Arc
 はい、ネコ缶とおでんと野菜ジュースです。
 */
 Mash
-ただいま帰りましたネコアルクさん。
-はい、ネコ缶とおでんと野菜ジュースです。
+I've returned, Neco-Arc.
+Here's some cat-food, oden and vegetable juice.
 
 \\@CHARA_WAIT_PATTERN@<5, 12>
 \aw
@@ -104,8 +106,8 @@ Mash
 夢に見たコンビニエンスストアはどうでしたかな？
 */
 Neco_Arc
-おっと。ダンケシュウ、マドモアゼル。
-夢に見たコンビニエンスストアはどうでしたかな？
+Wowzers, danke schon, mademoiselle.
+How was it going the convenience store of your dreams?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0375", 100>
@@ -114,7 +116,7 @@ Neco_Arc
 地方だとないんでしょ、ああいうの？
 */
 Neco_Arc
-地方だとないんでしょ、ああいうの？
+They ain't got those out in the boonies, I bet.
 
 \\@SYSTEM@<102>
 
@@ -129,8 +131,8 @@ Neco_Arc
 洗練された沢山の商品と、温かな店内！
 */
 Mash
-はい、とても刺激的でした！
-洗練された沢山の商品と、温かな店内！
+Oh, it was very inspiring!
+The heaps of polished products! The warm interior!
 \l
 
 \\@CHARA_IN@< 2, 20, 206, 0, 1>
@@ -142,8 +144,8 @@ Mash
 購買部の設置を進言したいと思います！
 */
 Mash
-カルデアに帰れたら、すぐに
-購買部の設置を進言したいと思います！
+Once I return to Chaldea,
+I think I'll propose the establishment of a co-op immediately!
 
 
 \\@CHARA_SET_PATTERN@<5, 3>//はにかみ
@@ -158,10 +160,11 @@ Mash
 /*-comment-
 うんうん。うちの王国にもニャイから、
 その気持ちすごく分かる。
+P: Need cat pun here.
 */
 Neco_Arc
-うんうん。うちの王国にもニャイから、
-その気持ちすごく分かる。
+Oh yeah. Ain't nothing like that back in my kingdom either,
+so I get how you feel.
 \l
 
 \\@CHARA_SET_PATTERN@<4, 3>//やれやれ
@@ -171,10 +174,11 @@ Neco_Arc
 /*-comment-
 とはいえネコは気まぐれだからニャー。
 値段の概念とか高度すぎんだよニャー。
+P: Need cat pun here.
 */
 Neco_Arc
-とはいえネコは気まぐれだからニャー。
-値段の概念とか高度すぎんだよニャー。
+That said, you know we cats are capricious.
+This whole 'price' concept is too advanced for us.
 \l
 
 
@@ -187,8 +191,8 @@ Neco_Arc
 マシュくん、缶切りある？　ナイ？
 */
 Neco_Arc
-まあいいや、ネコ缶開けよっと。
-マシュくん、缶切りある？　ナイ？
+Well, whatever. Cat food, here I come.
+Hey Mash, you got a can-opener? No?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0379", 100>
@@ -196,10 +200,11 @@ Neco_Arc
 /*-comment-
 仕方ない、まるごといってみっか。
 平和な公園ニャもの、刃物とか求められません。
+P: Need cat pun here.
 */
 Neco_Arc
-仕方ない、まるごといってみっか。
-平和な公園ニャもの、刃物とか求められません。
+That's too bad. Guess I've got no choice but to swallow it whole.
+This is a peaceful park, can't go bringing in such sharps things here.
 
 \\@BGM_FADE@<0, 100, 0, 120, 1>// フェードアウト
 
@@ -216,8 +221,8 @@ Neco_Arc
 危ないネコアルクさん！
 */
 Mash
-そうですね―――いえ、
-危ないネコアルクさん！
+You're right--Wait,
+Watch out, Neco-Arc!
 \l
 
 \\@BGM_PLAY@<0, 74, 100>
@@ -241,8 +246,8 @@ Mash
 いったいどこから！？
 */
 Mash
-これは投剣！？
-いったいどこから！？
+A throwing blade!?
+Where did it come from?
 
 \\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
 \\@CHARA_IN@< 0, 19, 109, 0, 1>
@@ -253,8 +258,8 @@ Mash
 物騒なスパチャありがとう！
 */
 Neco_Arc
-ほほう。頭上から無言で飛び道具コマンド×３とは。
-物騒なスパチャありがとう！
+Oh-hoo. These 3xProjectiles coming in from overhead with as much as a warning could only be one thing...
+Thanks for the dangerous-ass Superchat!
 \l
 
 
@@ -267,8 +272,8 @@ Neco_Arc
 ピックアップの日でもねー！
 */
 Neco_Arc
-だが今日はアタシの誕生日でもなければ
-ピックアップの日でもねー！
+But today is neither my birthday,
+nor my gacha rate-up!
 \l
 
 
@@ -279,8 +284,8 @@ Neco_Arc
 街灯の上にいるのは分かってるンだ！
 */
 Neco_Arc
-姿を現せシエル！
-街灯の上にいるのは分かってるンだ！
+Show yourself, Ciel
+I know you're standing up there on the lamppost!
 
 
 \\@CHARA_OUT@< 2, -1, -1, 0, 0>
@@ -298,8 +303,8 @@ Neco_Arc
 ただのNECOではないようですね。
 */
 Neco_Ciel_Hatena
-私の名前を知っている……？
-ただのNECOではないようですね。
+You know my name?
+It appears you are no mere Neco after all...
 \l
 
 
@@ -308,10 +313,11 @@ Neco_Ciel_Hatena
 /*-comment-
 それに傍らにいる少女。
 明らかに異なる世界の存在です。
+P: 異なる世界 instead of just isekai, what do you know.
 */
 Neco_Ciel_Hatena
-それに傍らにいる少女。
-明らかに異なる世界の存在です。
+Also, that girl by your side...
+She's clearly an existence from some other world.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNci/NpcNci08_0002", 100>
@@ -319,10 +325,11 @@ Neco_Ciel_Hatena
 /*-comment-
 答えなさい。どうやってこの世界に現れたのです。
 明確な目的があるのですか？
+P: The second clause needs to be improved.
 */
 Neco_Ciel_Hatena
-答えなさい。どうやってこの世界に現れたのです。
-明確な目的があるのですか？
+Answer me. How did you manifest in this world?
+And do you have an actual goal here?
 
 \\@SYSTEM@<101>
 
@@ -335,8 +342,8 @@ Neco_Ciel_Hatena
 それが分かればアタシも苦労しねーよ。
 */
 Neco_Arc
-どうやってって、
-それが分かればアタシも苦労しねーよ。
+How?
+If I knew that, I wouldn't be in any trouble!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0384", 100>
@@ -346,8 +353,8 @@ Neco_Arc
 都古クンだけなんだけどさぁ。
 */
 Neco_Arc
-アタシがちょっかいかけられるのは
-都古クンだけなんだけどさぁ。
+The only person I meddled with directly was
+lil Miyako, that's all.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0385", 100>
@@ -357,8 +364,9 @@ Neco_Arc
 そこの甲冑ガールが不安そうに俯いてたワケ。
 */
 Neco_Arc
-コタツで寝落ちしてふっと目を覚ましたら、
-そこの甲冑ガールが不安そうに俯いてたワケ。
+I fell asleep by my kotatsu, and when I woke up,
+this girl in plate-armor was suddenly there, 
+uneasy, with her gaze cast downward.
 
 
 \\@CHARA_IN@< 0, 20, 207, 0, 1>
@@ -370,8 +378,8 @@ Neco_Arc
 ネコアルクさんが励ましてくれたのです。
 */
 Mash
-はい。途方に暮れていたわたしを、
-ネコアルクさんが励ましてくれたのです。
+Indeed. Neco-Arc got me back on my feet with her 
+words of encouragement when I was lost and confused.
 
 
 \\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
@@ -383,8 +391,8 @@ Mash
 何よりルックスがいい。マイティ＆ブレイブ。
 */
 Neco_Arc
-ね？　いい子っしょ？
-何よりルックスがいい。マイティ＆ブレイブ。
+Right? Good girl, ain't she?
+Especially her looks. MIGHTY & BRAVE.
 \l
 
 
@@ -397,8 +405,8 @@ Neco_Arc
 とは基本コンセプトからして違うんだよなぁ。
 */
 Neco_Arc
-どこかの誰かさんの完全武装？　とかいうの？
-とは基本コンセプトからして違うんだよなぁ。
+You know that Powered-something person? Or whatever they were called?
+This gal's different from her, right down to their fundamental concepts.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0388", 100>
@@ -406,10 +414,11 @@ Neco_Arc
 /*-comment-
 重火器にギロチン刃とか、ヒロインとして
 あるまじき殺意ニャんだよねー。
+P: Need cat pun here.
 */
 Neco_Arc
-重火器にギロチン刃とか、ヒロインとして
-あるまじき殺意ニャんだよねー。
+Goin' around with heavy weaponry, guillotine blades, and whatever else
+is some bloodthirsty-ass behavior for a heroine, don'tcha think?
 
 \\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
 \aw
@@ -422,8 +431,8 @@ Neco_Arc
 では、望み通り冷徹に処断します。とう！（↑）
 */
 Neco_Ciel_Hatena
-―――ただの愉快犯のようですね。
-では、望み通り冷徹に処断します。とう！（↑）
+...It appears to have been a crime of passion.
+As you wish then. I shall show no mercy in executing you. Hee-ya （↑）
 
 \\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
 \\@SYSTEM@<131>
@@ -435,8 +444,9 @@ Neco_Ciel_Hatena
 　地面に降りてきたシエルなぞ恐るるに足らず！）
 */
 Neco_Arc
-（バカめ、挑発に乗ったな！
-　地面に降りてきたシエルなぞ恐るるに足らず！）
+（You fool! You fell for my provocations!
+ There is nothing about Ciel worthy of fearing once her feet has hit the ground!）
+
 \l
 
 
@@ -446,10 +456,11 @@ Neco_Arc
 /*-comment-
 （アタシの爪で、あのセクスィーな法衣を
 　《水玉模様＜ズタズタ＞にしてやらァ！）
+P: Maybe something more literal for 水玉模様?
 */
 Neco_Arc
-（アタシの爪で、あのセクスィーな法衣を
-　《水玉模様＜ズタズタ＞にしてやらァ！）
+（My claws will reduce your nun's habit to such 
+ shreds that you'll feel practically naked!）
 
 \\@CHARA_SET_COLOR@<6,30>//スロット６に読むキャラのカラーは30（ネコシエル）
 \\@NPC_LOAD_SYNC@<6, 19, 380, 0, 1>
@@ -465,11 +476,11 @@ Neco_Arc
 /*-comment-
 しゅた（↓）。覚悟なさい、不良品饅頭！
 この街に、アナタの居場所はありません！
-
+P: Manjuu as dough ball to more accurately render to joke.
 */
 Neco_Ciel
-しゅた（↓）。覚悟なさい、不良品饅頭！
-この街に、アナタの居場所はありません！
+Hup （↓）! Prepare yourself, you defective dough ball!
+There's no place for you in this city!
 
 
 \\@CHARA_SET_PATTERN@<4, 11>//あれぇ？
@@ -484,8 +495,8 @@ Neco_Ciel
 
 */
 Neco_Arc
-……………………。
-あっれぇー？
+......
+Whaaa--
 
 
 \\@BGM_STOP@<0>

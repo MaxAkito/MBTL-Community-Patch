@@ -195,6 +195,10 @@ chara_type 900
 //志貴ー、わたしたちもブイなのだー、やろっ！
 //だから俺は戦闘不参加だって。
 //ふたりで仲良く戦ってください。
+Yaaaaay! Got one over her firsties!
+Shikiii, we should do the V for Victory together too!
+I told you already, I'm not a part of this battle.
+Please, you two go have a nice fight without me.
 \\@LINE_CG@<0, 0, -128,0,112,32, 0, 96,112,32>\\@LINE_CG@<1, 2, -128,0,112,32, 0,160,112,32>
 \e
 
@@ -207,6 +211,10 @@ chara_switchframe 570
 //ところで、アナタなんて名前だったの？
 //志貴は知ってた？　知ってたかー。
 //………ふーん。なんで？
+Yup, that's that.
+By the way, what was your name again?
+Wait, Shiki, you know? You know, huh...
+Hmmmm, how come?
 \e
 
 // 99まで追加可能

@@ -210,7 +210,8 @@ In addition, some things are capitalized by virtue of being names of organizatio
 
 | Character       | Status                           | 
 | :-------------- |:-------------------------------- | 
-| Arcueid   (000) | Editing complete         (Petri) |
+| Arcueid   (000) | Editing complete         (Light) |
+| Arcueid B (000) | N/A                              |
 | Hisui     (001) | Play-testing adjustments (Petri) |
 | Akiha     (002) | Play-testing adjustments (Petri) |
 | Shiki     (003) | Play-testing adjustments (Petri) |
@@ -219,18 +220,21 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Kouma     (006) | Play-testing adjustments (Petri) |
 | Maids     (007) | Play-testing adjustments (Petri) |
 | Noel      (008) | Play-testing adjustments (Petri) |
+| BossRush B(008) | N/A                              |
 | Vlov      (009) | Play-testing adjustments (Petri) |
 | Warc      (010) | Play-testing adjustments (Petri) |
 | Ciel      (011) | Play-testing adjustments (Petri) |
-| Saber     (012) | Editing complete         (Petri) |
+| CielB     (011) | N/A                              |
+| Saber     (012) | Editing complete         (Light) |
 | Miyako    (013) | Play-testing adjustments (Petri) | 
-| Boss Rush (013) | Play-testing adjustments (Petri) |
+| BossRush  (013) | Play-testing adjustments (Petri) |
 | DA Noel   (014) | Play-testing adjustments (Petri) |
 | Aoko      (015) | Play-testing adjustments (Petri) |
 | P. Ciel   (016) | Play-testing adjustments (Petri) |
 | Mario     (017) | Play-testing adjustments (Petri) |
 | Neco-Arc  (019) | Translation complete     (Petri) |
-| Matthew   (020) | N/A                              |
+| Mash      (020) | N/A                              |
+| Mash B    (020) | N/A                              |
 
 ### Win-quotes
 
@@ -255,7 +259,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | P. Ciel   (016) | Play-testing adjustments (Petri) |
 | Mario     (017) | Play-testing adjustments (Petri) |
 | Neco-Arc  (019) | N/A                              |
-| Matthew   (020) | N/A                              |
+| Mash      (020) | N/A                              |
 
 ### Strings
 

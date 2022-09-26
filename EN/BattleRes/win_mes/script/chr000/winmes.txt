@@ -2,23 +2,31 @@ WinMesScript
 
 WinMes00:
 chara_type 100
+//はいおしま～い！
+//さ、次いってみよっか♪
 That's a wrap!
 Let's keep going! ♪
 \e
 
 WinMes01:
 chara_type 0
+//楽勝、ぶいにゃのだー！
 That was meowwy easy!
 \e
 
 WinMes02:
 chara_type 103
+//悪いけど貴方じゃ勝ち目はゼロよ。
+//生まれ変わって出直すことね。
 Sorry, but you never had a chance of winning.
 Maybe try again in your next life.
 \e
 
 WinMes03:
 chara_type 102
+//まだ諦めないの？　ふーん……
+//じゃあ、次はもう少し残酷に壊してあげる。
+//吸血鬼らしく、ね。
 Still not giving up? Fine...
 I'll just have to break you a little more 
 savagely next time. You know, as a vampire should.
@@ -26,21 +34,28 @@ savagely next time. You know, as a vampire should.
 
 WinMes04:
 chara_type 102
+//血を吸わないのかですって？
+//冗談、そこいらにいる三流と一緒にしないでくださらない？
 Why don't I drink your blood? Very funny. 
 I would appreciate it if you didn't mistake 
 me for those other third-rate vampires.
 \e
 
-
+// パーフェクト時は抽選されない Not used after a Perfect
 WinMes05:
 chara_type 104
+//やるものね、ちょっとだけ本気になっちゃった。
+//次があるなら期待してるわ。
 Not bad. I had to get a little serious there.
 I'll look forward to next time, if there is one.
 \e
 
-
+// パーフェクト時は抽選されない Not used after a Perfect
 WinMes06:
 chara_type 104
+//……少し陽射しを浴びすぎたかしら。
+//この程度の相手と“戦い”になるなんて、
+//性能が落ちてるみたい。
 Perhaps I've stayed out in the sun too long. 
 You were so weak... The fact that this even qualified 
 as a fight must mean my performance is dropping.
@@ -48,12 +63,18 @@ as a fight must mean my performance is dropping.
 
 WinMes07:
 chara_type 103
+//あら、もう終わり？
+//見かけほどじゃないのね、貴方。
 Oh, done already? 
 Not as strong as you look, are you?
 \e
 
 WinMes08:
 chara_type 100
+//あー、気持ち良かったー♪
+//青空の下でこう、かっきーんって
+//ミサイルを打ち返すような感じ？
+//やったコトないけど。
 Ahh, that felt great! ♪
 Like that feeling you get standing under 
 a blue sky after deflecting a missile, you know? 
@@ -62,6 +83,9 @@ Not that I've ever done that.
 
 WinMes09:
 chara_type 100
+//まだやる？
+//楽しかったから、もう一回ぐらいなら
+//こてんぱんにしてあげましょう！
 You wanna go again? 
 It was pretty fun, but if we're doing 
 one more I'll hand your ass to you!
@@ -69,6 +93,9 @@ one more I'll hand your ass to you!
 
 WinMes10:
 chara_type 103
+//……時々、貴方たちが解らなくなるわ。
+//勝てないって解ってるのに、
+//どうして自分から命を差し出すのかって。
 Sometimes I just don't understand you people.
 Why do you continue to throw your lives away
 when you know you can't win?
@@ -76,6 +103,8 @@ when you know you can't win?
 
 WinMes11:
 chara_type 102
+//跳んで、回って、殴ってたら終わっちゃった。
+//ん～～、舞踏会ってこういうモノ？
 Jump, turn around, throw a punch, and it's over.
 Hmmmm, is this what dancing at a ball is like?
 \e
@@ -83,6 +112,8 @@ Hmmmm, is this what dancing at a ball is like?
 // 対志貴 Versus Shiki
 WinMes12:
 chara_type 0
+//へへーん。どう、見直した？
+//志貴が本気になっても、もう負けないんだから！
 Heheh. So, impressed or what?
 Even if you get serious, Shiki, I'm not losing again ♪
 \e
@@ -90,6 +121,9 @@ Even if you get serious, Shiki, I'm not losing again ♪
 // 対ヴローヴ Versus Vlov
 WinMes13:
 chara_type 103
+//祖になったばかりとはいえ、
+//礼儀作法を覚えなさい。
+//アナタに原理を譲った親の程度が知れるわ。
 You may have just became an Ancestor, 
 but you should still know some manners.
 Otherwise it reflects poorly on the 
@@ -99,6 +133,9 @@ sire who bequeathed you their Principle.
 // 対秋葉 Versus Akiha
 WinMes14:
 chara_type 100
+//妹、日増しに鋭くなってるわね。
+//志貴は困ってたけど、わたしは遊び相手が
+//増えて嬉しいんだけどなぁ。
 You're getting sharper by the day.
 Shiki might be bothered by it, but
 I'm happy to have more playmates.
@@ -107,6 +144,10 @@ I'm happy to have more playmates.
 // 対シエル Versus Ciel
 WinMes15:
 chara_type 101
+//ああ面倒くさい、キリがないにも程がある……！
+//さっさと消えてシエル。
+//これ以上やるなら、被害にあうのは
+//貴女だけじゃなくなるわよ。
 Ugh, how annoying. It never ends!
 Just go away already, Ciel.
 Keep this up, and the casualties 
@@ -116,6 +157,9 @@ won't stop at just you.
 // 対ロア Versus Roa
 WinMes16:
 chara_type 103
+//さようなら、わたしのはじめての人！
+//ねえ満足？　今度は血と言わず、
+//魂もろとも八つ裂きにしてあげたわ！
 Farewell, my very first! Were you satisfied?
 Not only did I spill your blood this time,
 but I tore you apart completely, soul included!
@@ -124,6 +168,9 @@ but I tore you apart completely, soul included!
 // 対軋間 Versus Kouma
 WinMes17:
 chara_type 103
+//アナタ、この国の旧い混血？
+//人と混ざってはいるけど、血の質は幻獣クラスよ？
+//どうやって維持してたの？
 You're... a Japanese Mixblood?
 There's some human mixed in, but the quality of 
 your blood is on par with a Phantasmal Beast. 
@@ -133,9 +180,33 @@ How do you maintain that?!
 // 対武装シエル Versus Powered Ciel
 WinMes18:
 chara_type 102
+//もー、先に本気にならないでよねー！
+//わたし、まだお淑やかな吸血鬼！
+//そう簡単に暴走したりしませーん！
 Oh c'mon! Don't get all serious ahead of me!
 I'm still just a graceful little vampire!
 I'm not gonna go berserk thaaat easily!
+\e
+
+// アルクェイドＢシナリオ　対シエル（ストーリー専用） Arcueid B Story versus Ciel (story exclusive)
+WinMesArcade01Win11:
+chara_type 900
+//よーーーし、まず一本先取っ！
+//志貴ー、わたしたちもブイなのだー、やろっ！
+//だから俺は戦闘不参加だって。
+//ふたりで仲良く戦ってください。
+\\@LINE_CG@<0, 0, -128,0,112,32, 0, 96,112,32>\\@LINE_CG@<1, 2, -128,0,112,32, 0,160,112,32>
+\e
+
+// アルクェイドＢシナリオ　対死徒ノエル（ストーリー専用） Arcueid B Story versus DA Noel (story exclusive)
+WinMesArcade01Win14:
+chara_type 0
+chara_type_sub 102
+chara_switchframe 570
+//はい、こんなところでしょう！
+//ところで、アナタなんて名前だったの？
+//志貴は知ってた？　知ってたかー。
+//………ふーん。なんで？
 \e
 
 // 99まで追加可能
@@ -145,12 +216,16 @@ I'm not gonna go berserk thaaat easily!
 
 WinMes3WinStreak00:
 chara_type 0
+//ひゅーひゅー、３連勝～！
+//この調子でいってみよ～！
 Alright! Three wins in a row!
 Gotta keep it up!
 \e
 
 WinMes10WinStreak00:
 chara_type 0
+//すっごい、１０連勝おめでとう！
+//なんかもう、ん～～～っ！！！！　って感じ！
 Awesome! Ten wins in a row! It just...
 Ahhh... feels so great, you know?!
 \e

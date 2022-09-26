@@ -447,10 +447,11 @@ it falls to me to pass sentence on any outsiders who would disturb it!
 /*-comment-
 身の程を弁える時よ。
 ２頭身の分際で、この私に勝てると思って？
+P: I dunno if localizing ２頭身 as 'chibi' is really the play here, but it seemed better than "2-head tall"
 */
 Neco_Akiha
 The time has come for you to know your place.
-Did you really think you could stand a chance against me with that 2 head tall body of yours?
+Did you really think you could stand a chance against me with that chibi body of yours?
 
 
 

@@ -26,8 +26,8 @@
 アタシ史上３本指に入る悪夢のようなバトルだった。
 */
 Neco_Arc
-地球を揺るがす接戦の末、お嬢は倒した。
-アタシ史上３本指に入る悪夢のようなバトルだった。
+In the aftermath of the slobber-knocker that rocked the earth, the mistress was defeated.
+Gotta be one of the top three most nightmarish battles I've ever fought.
 \l
 
 
@@ -35,9 +35,10 @@ Neco_Arc
 \\@TEXT_ID@<20>
 /*-comment-
 ニャんだけど―――
+P: Need cat pun here.
 */
 Neco_Arc
-ニャんだけど―――
+That said...
 \l
 
 \\@BGM_PLAY@<0, 64, 100>//ギャグっぽいコミカルで陽気なBGM
@@ -50,7 +51,7 @@ Neco_Arc
 なんかこれ、思っていたのとちがーーーう！
 */
 Neco_Arc
-なんかこれ、思っていたのとちがーーーう！
+All this shit is totally up the wazoo from what I'd planned!!
 \l
 
 
@@ -59,10 +60,12 @@ Neco_Arc
 /*-comment-
 あんな２頭身キャラを倒したところで
 ＭＢ界の頂点と言えようか？　いや言えまい。
+P: See previous 'chibi' comments
 */
 Neco_Arc
-あんな２頭身キャラを倒したところで
-ＭＢ界の頂点と言えようか？　いや言えまい。
+Could I really see myself at the top of the totem pole of the Melty-verse
+just by defeating these chibi characters?! No, of course I can't!
+
 \l
 
 \\@CHARA_IN@< 0, 19, 103, 0, 1>
@@ -71,10 +74,11 @@ Neco_Arc
 /*-comment-
 一体どうニャッてんだよ！？
 本当のシエルは！？　本当のお嬢はどこにいったー！？
+P: Need cat pun here.
 */
 Neco_Arc
-一体どうニャッてんだよ！？
-本当のシエルは！？　本当のお嬢はどこにいったー！？
+Just what the heck is goin' on?!
+Where's the real Ciel?! Where's the real mistress gone?!
 
 \\@CHARA_SET_PATTERN@<4, 16>//キシャ―戻り
 
@@ -88,8 +92,8 @@ Neco_Arc
 こんなコトを言うのは心苦しいのですが……
 */
 Mash
-あの。ここまで戦った状況で、
-こんなコトを言うのは心苦しいのですが……
+Umm, I know it might sting for me to bring this up
+after all the battles we've gone through, but...
 \l
 
 
@@ -101,7 +105,7 @@ Mash
 このレシートをご覧ください。
 */
 Mash
-このレシートをご覧ください。
+Peruse this receipt, if you would.
 
 \\@CHARA_IN@< 0, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0435", 100>
@@ -110,7 +114,7 @@ Mash
 なになに……
 */
 Neco_Arc
-なになに……
+Let's see here...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0436", 100>
@@ -118,10 +122,12 @@ Neco_Arc
 /*-comment-
 『大満足！　特盛りニボシ３匹弁当
 　賞味期限　平成３３年１２月３１日までならイケる』……
+P: How the fuck do I localize this joke?
+P: Explanation: Japanese traditionally use a calender based on the current emperor's reign. The current era, Reiwa, began in 2019, signalling the end of Heisei, which had been the era up until 2018. The last Heisei year was Heisei 30. Therefore, Heisei 33 is like, 2022 in a different parallel dimension.
 */
 Neco_Arc
-『大満足！　特盛りニボシ３匹弁当
-　賞味期限　平成３３年１２月３１日までならイケる』……
+"Satisfaction guaranteed! Extra-large 3-sardine Lunch Box
+ Expiration date： Should keep until Heisei 33, 31st of December"
 \l
 
 \\@CHARA_SET_PATTERN@<4, 41>//neco
@@ -133,8 +139,8 @@ Neco_Arc
 では……では……ここは……
 */
 Neco_Arc
-平成３３年だとぅ……！？
-では……では……ここは……
+Heisei 33?!
+So... you're telling me... this...
 \l
 
 \\@CHARA_SET_PATTERN@<4, 18>//頭のけぞり
@@ -145,8 +151,8 @@ Neco_Arc
 ＭＢ界ではなかったのか！
 */
 Neco_Arc
-月姫の世界……いや、
-ＭＢ界ではなかったのか！
+Isn't the Tsukihime world, no
+it's not even the Melty-verse!
 
 \\@CHARA_SET_PATTERN@<5, 203>//はにかみ
 
@@ -159,8 +165,8 @@ Neco_Arc
 特異点とは違うようですが。
 */
 Mash
-ここもパラレルワールドだったのですね。
-特異点とは違うようですが。
+It appears this was a parallel world too.
+Though somewhat different from a Singularity.
 
 \\@CHARA_SET_PATTERN@<4, 20>//頭のけぞり戻り
 \\@CHARA_IN@< 0, 19, 102, 0, 1>
@@ -170,10 +176,11 @@ Mash
 /*-comment-
 ニャるほど。だが間違いを重ねてヒトは成長する。
 だいたい座標は分かった。
+P: Need cat pun here.
 */
 Neco_Arc
-ニャるほど。だが間違いを重ねてヒトは成長する。
-だいたい座標は分かった。
+I see. Still, mankind only grows by failing over and over again.
+I've grasped the approximate coordinates here.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0440", 100>
@@ -183,8 +190,9 @@ Neco_Arc
 ―――マシュ君！　魔力は溜まったかな！
 */
 Neco_Arc
-ここまで同じ芸風なら、あと一つ隣りがＭＢ界だろ。
-―――マシュ君！　魔力は溜まったかな！
+Considering how similar this world was, I'm sure the next one over's gonna be the Melty-verse!
+Mash! You got enough magical saved up now?!
+
 
 \\@CHARA_SET_PATTERN@<5, 221>//むんっ！
 \\@CHARA_IN@< 2, 20, 215, 0, 1>
@@ -197,8 +205,8 @@ Neco_Arc
 宝具充填１００％です！
 */
 Mash
-はい、ネコアルクさんの戦いのおかげで、
-宝具充填１００％です！
+Yes! Thanks to you fighting it out,
+my Noble Phantasm gauge has hit 100%, Neco-Arc!
 \l
 
 \\@CHARA_IN@< 2, 20, 215, 0, 1>
@@ -209,7 +217,7 @@ Mash
 ゲート、開きます！
 */
 Mash
-ゲート、開きます！
+I'm opening the gate!
 
 \\@SE_PLAY@<0, "talk/talk_se/Cmn_RayShift", 0, 100>
 
@@ -231,8 +239,9 @@ Mash
 うひょー、この波乗り感、たまらない、ゼ！
 */
 Neco_Arc
-ＧＯ　ＧＯ　ＧＯ　ＧＯ！
-うひょー、この波乗り感、たまらない、ゼ！
+Go, go, go, go!
+Yahoo! These waves are hella sick, yo!
+
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0135", 100>
 \\@TEXT_ID@<180>
@@ -241,8 +250,8 @@ Neco_Arc
 どちらかというとゼロセイルに近い気がします。
 */
 Mash
-わたしも新鮮な体験です。
-どちらかというとゼロセイルに近い気がします。
+It's new to me as well.
+If I had to compare it to something, it sort of feels close to Zero Sail.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0442", 100>
 \\@TEXT_ID@<190>
@@ -251,8 +260,8 @@ Mash
 毎回とかすげえなカルデア。
 */
 Neco_Arc
-マジかよワンミスで時空の狭間に落ちるスリルを
-毎回とかすげえなカルデア。
+Wait, for real? You go through the thrill of a single mistake plunging
+you into the abyss of spacetime all the time? Chaldea is nuts.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0443", 100>
@@ -260,10 +269,11 @@ Neco_Arc
 /*-comment-
 ……ふむ。そんな地獄の斡旋場から
 更なる戦力を手に入れるのも悪くない……
+P: Not entirely sure to interpret 斡旋場 here.
 */
 Neco_Arc
-……ふむ。そんな地獄の斡旋場から
-更なる戦力を手に入れるのも悪くない……
+Hm... Wouldn't hurt to get some additional backup from
+such a hellish talent agency.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0444", 100>
@@ -273,8 +283,8 @@ Neco_Arc
 コキ使ってやろーじゃねぇですか……
 */
 Neco_Arc
-……所詮は捨て駒、ぼろ雑巾になるまで
-コキ使ってやろーじゃねぇですか……
+She's nuthin' but a throwaway pawn to me, after all.
+What reason do I have to not wring her dry?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0445", 100>
@@ -284,8 +294,8 @@ Neco_Arc
 マシュ君の他にも呼べるのかな？
 */
 Neco_Arc
-もし、マドモアゼル。サーヴァント、だっけ？
-マシュ君の他にも呼べるのかな？
+Excuse me, mademoiselle. Those, uh, Servants, was it?
+Would you perhaps be able to summon any more of them?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0136", 100>
 \\@TEXT_ID@<230>
@@ -293,7 +303,7 @@ Neco_Arc
 そうですね……
 */
 Mash
-そうですね……
+Let me think...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0137", 100>
@@ -303,8 +313,8 @@ Mash
 一騎分の召喚なら可能ではないでしょうか？
 */
 Mash
-ネコアルクさんにも魔術回路はありますから、
-一騎分の召喚なら可能ではないでしょうか？
+You do have Magic Circuits,
+so maybe a single Servant is possible for you to summon?
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0446", 100>
 \\@TEXT_ID@<250>
@@ -313,8 +323,8 @@ Mash
 勝利へのプラン、固まった……！
 */
 Neco_Arc
-―――見えた。
-勝利へのプラン、固まった……！
+I can see it already.
+The plan which will lead to me to victory has taken shape!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0447", 100>
@@ -324,8 +334,9 @@ Neco_Arc
 真のＭＢ界に旅立つネコアルクとその仲間たち。
 */
 Neco_Arc
-更なる力を手に入れ、
-真のＭＢ界に旅立つネコアルクとその仲間たち。
+Neco-Arc and her comrades acquire further power,
+as they journey towards the true Melty-verse.
+
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0448", 100>
@@ -334,7 +345,7 @@ Neco_Arc
 次回、メルティブラッド：タイプルミナ激動編！
 */
 Neco_Arc
-次回、メルティブラッド：タイプルミナ激動編！
+Next time on MELTY BLOOD： TYPE LUMINA, the Upheaval Arc begins!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0449", 100>
@@ -344,17 +355,18 @@ Neco_Arc
 　あれ、アタシん家燃えてない？”
 */
 Neco_Arc
-“ノーコントロール、バーサーカー大召喚！
-　あれ、アタシん家燃えてない？”
+"The grand summoning of an uncontrollable Berserker!
+ Wait, isn't our house on fire?"
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0450", 100>
 \\@TEXT_ID@<290>
 /*-comment-
 に、セレブキャ～～～ッツ！
+P: What was meant
 */
 Neco_Arc
-に、セレブキャ～～～ッツ！
+Look forward to the CELEBRITY CAAAAT!!
 
 \\@CHARA_IN@< 2, 20, 205, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0138", 100>
@@ -364,8 +376,8 @@ Neco_Arc
 　ネコアルクさんの勇気と幸運を信じて―――！）
 */
 Mash
-（マスター適性はなくて令呪もありませんが、
-　ネコアルクさんの勇気と幸運を信じて―――！）
+（Neco-Arc doesn't have any Master-aptitude nor Command Spells
+ but I'll chose to believe in her bravery and good fortune!）
 
 \\@SYSTEM@<21>
 \aw

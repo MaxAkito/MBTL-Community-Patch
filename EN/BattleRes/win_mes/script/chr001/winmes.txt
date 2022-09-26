@@ -139,12 +139,16 @@ emanating from Miss Arcueid just now.
 
 WinMes3WinStreak00:
 chara_type 3
+//３連勝……。
+//見事な家具さばきです。
 Three wins...
 You handled that furniture splendidly.
 \e
 
 WinMes10WinStreak00:
 chara_type 100
+//１０連勝……。
+//もしや名のある執事様なのですか？
 Ten wins...
 You wouldn't happen to be a famous butler in disguise?
 \e

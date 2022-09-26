@@ -3,6 +3,8 @@ WinMesScript
 
 WinMes00:
 chara_type 1
+//退屈な人。
+/優劣は明らかですから、これ以上続ける必要はありません。
 How tedious you are...
 My superiority has been clearly demonstrated. 
 There's no need to continue this any further.
@@ -10,18 +12,24 @@ There's no need to continue this any further.
 
 WinMes01:
 chara_type 1
+//楽しかったわ。
+//次があるのなら、優先的に相手をしてさしあげます。
 That was enjoyable. I would gladly serve
 as your opponent if ever there is a next time.
 \e
 
 WinMes02:
 chara_type 102
+//なんだ、私もけっこう戦えるじゃない。
+//これなら反転する必要もないみたいね。
 Would you look at that. I fight quite well, after all. 
 It appears it won't even prove necessary for me to Invert.
 \e
 
 WinMes03:
 chara_type 101
+//勝敗は決しました。出口はあちらです。
+//生きているうちにお帰りください。
 The battle has been decided. 
 You will find the exit over there. 
 I suggest you use it while you're still alive.
@@ -29,6 +37,9 @@ I suggest you use it while you're still alive.
 
 WinMes04:
 chara_type 101
+//あら、納得のいかない顔ね。
+//お望みならもう一度試してみますか？
+//結果は未来永劫変わらないでしょうけど。
 Ooh, you look dissatisfied. 
 Do you perhaps wish to try again? 
 The outcome will remain the same for all eternity, however.
@@ -36,12 +47,16 @@ The outcome will remain the same for all eternity, however.
 
 WinMes05:
 chara_type 0
+//こんなところね。
+//ふふ、ちょっとはしたなかったかしら？
 That will have to do.
 Hah, perhaps I acted a bit immodestly?
 \e
 
 WinMes06:
 chara_type 104
+//戦いは力ではなく、技と機転によるものです。
+//そのあたり、骨身に染みたようですね。
 Battle isn't about power. 
 It's about having technique and a keen mind. 
 I'm sure you've grasped that well enough by now.
@@ -49,6 +64,9 @@ I'm sure you've grasped that well enough by now.
 
 WinMes07:
 chara_type 1
+//……滑稽ね、私。
+//こんな優劣を決めたところで、
+//欲しいものは何一つ手に入らないのに
 How silly of me.
 Just what was I thinking of gaining 
 from proving my superiority like this?
@@ -56,6 +74,8 @@ from proving my superiority like this?
 
 WinMes08:
 chara_type 2
+//ありがとう、いい気分転換になりました。
+//どう、週に一度ほどお相手をして下さらない？
 Thank you. This has proven a great diversion.
 Would you perhaps consider serving as my 
 opponent once a week or so? How about it?
@@ -63,12 +83,17 @@ opponent once a week or so? How about it?
 
 WinMes09:
 chara_type 102
+//いかがでした？
+//舞踏の稽古は始めたばかりですけど、中々のものでしょう？
 How was it? I only started practicing my dance moves
 recently, but I think I'm learning quickly.
 \e
 
 WinMes10:
 chara_type 1
+//あら、ひどい傷。すぐに看護師を手配します
+//から安心してください。あ、けどあやしい
+//薬漬けにされないよう注意なさってね？
 Oh dear, those injuries look nasty. Don't worry, 
 I'll have someone see to your wounds right away. 
 Oh, but be careful. She has a habit of over-medicating.
@@ -76,6 +101,8 @@ Oh, but be careful. She has a habit of over-medicating.
 
 WinMes11:
 chara_type 2
+//実に有意義な時間でした。
+//――――それでは、ごきげんよう。
 Well, that was a productive use of my time.
 Do take care.
 \e
@@ -83,6 +110,8 @@ Do take care.
 // 対志貴 Versus Shiki
 WinMes12:
 chara_type 0
+//ほら、私だってやれば出来るでしょう兄さん？
+//今度からは私にも相談してくださいね。
 See, Shiki? I am quite able in battle too,
 am I to put my mind to it. Promise to ask me 
 for help the next time you need it, understood?
@@ -91,6 +120,9 @@ for help the next time you need it, understood?
 // 対志貴 Versus Shiki
 WinMes13:
 chara_type 103
+//兄さん、また無断で屋敷を抜け出して……！
+//今度という今度は許しませんっ。
+//しばらく離島で反省なさって貰います！
 Why do you keep leaving the mansion without permission?!
 This is the last time! For now, you'll have to spend some 
 time on a secluded island until you've reflected on your actions!
@@ -99,6 +131,8 @@ time on a secluded island until you've reflected on your actions!
 // 対ヒスコハ Versus Maids
 WinMes14:
 chara_type 1
+//―――言うまでもないコトだけど。
+//二人とも、減給ぐらいは覚悟しているんでしょうねぇ？
 This goes without saying, but you two understand that 
 you'll be receiving a pay cut for this, right? At minimum.
 \e
@@ -106,6 +140,9 @@ you'll be receiving a pay cut for this, right? At minimum.
 // 対琥珀 Versus Kohaku
 WinMes15:
 chara_type 104
+//琥珀、貴女の不埒三昧もここまでよ！
+//さあ、今すぐ監視カメラを撤去して
+//怪しげなクスリも投棄なさい！
 Kohaku, I will tolerate your outrageous behavior no longer! 
 You will take down the surveillance cameras you've installed 
 and destroy your questionable medicine immediately!
@@ -114,6 +151,10 @@ and destroy your questionable medicine immediately!
 // 対有間都古 Versus Miyako
 WinMes16:
 chara_type 1
+//貴女ね、仮にも有間の一人娘でしょう？
+//中学生になったら浅上に入学するんだから、
+//もっと礼儀正しく……え？
+//浅上には行かないですって？
 For what it's worth, you're a daughter of the Arima family, 
 no? Once you're in middle school, you'll be attending 
 Asagami Academy, so make sure you act more refine--
@@ -128,12 +169,17 @@ What? You don't plan on attending Asagami Academy?!
 
 WinMes3WinStreak00:
 chara_type 102
+//３連勝とはなかなかやりますね。
+//私も良い稽古になります。
 Three wins isn't bad. 
 This is proving to be quite the useful training session.
 \e
 
 WinMes10WinStreak00:
 chara_type 2
+//すご、１０連勝……！
+//あ……いえ、失礼。
+//興味がおありならぜひ当家にいらしてください。歓迎いたします。
 Ten wins?! That's amazing! *ahem* Excuse me. 
 What I meant to say was, you would be most 
 welcome at our mansion should you be so interested.

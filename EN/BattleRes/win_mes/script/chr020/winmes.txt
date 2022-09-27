@@ -11,12 +11,18 @@ chara_switchframe1 679
 //……戦いが終わった時はこう言うのが
 //礼儀だとネコアルクさんに教わりましたが……
 //ど、どうでしょうか？
+'I'm still raring to go, come at me!'
+That's what Neco-Arc taught me was proper to say
+after a battle has ended.
+H-How was it?
 \e
 
 WinMes01:
 chara_type 7
 //損害は軽微でした。
 //補充なしで次の戦闘に移行できます。
+Damages minimal.
+Proceeding to next battle without replenishment.
 \e
 
 WinMes02:
@@ -24,12 +30,16 @@ chara_type 8
 //驚嘆すべき戦闘力でした。
 //何か特別なトレーニングでも
 //されているのですか？
+I can only be astonished at your combat prowess.
+Have you been undergoing some sort of special training?
 \e
 
 WinMes03:
 chara_type 0
 //ふぅ、驚きの連続です！
 //後ほど、所感などまとめさせていただければ！
+Whoa, what a string of surprises!
+I'll have to organize my thoughts about it sometime later.
 \e
 
 WinMes04:
@@ -37,6 +47,9 @@ chara_type 1
 //時代が変われば武器も変わるのは
 //当然ですが……たいへん得がたい
 //戦闘経験を積ませていただきました。
+It's only natural that the instruments of war
+would change with each passing era, but... you've given
+me quite the unforgettable combat experience, thank you.
 \e
 
 WinMes05:
@@ -46,6 +59,9 @@ chara_switchframe 280
 //何より防御が凄かった、ですか……？
 //はい！　わたしはカルデアが誇る、
 //盾のサーヴァントですので！
+You think my defense stood out the most...?
+Indeed! I am Chaldea's famous 
+Servant of the Shield, after all!
 \e
 
 
@@ -54,6 +70,9 @@ chara_type 5
 //マスター不在ですが、わたしも経験豊富なので！
 //マシュ・キリエライト、
 //パワフルに、がんばります！
+Though my Master is absent, I'm still plenty experienced myself!
+Mash Kyrielight,
+On duty, powerfully!
 \e
 
 WinMes07:
@@ -61,53 +80,74 @@ chara_type 107
 //なんであれ、未知の事を学べる事は幸福です。
 //わたしの取り柄はそれくらいなので……
 //ご協力、ありがとうございました！
+No matter what it may be, it's always a joy to learn about things I didn't know.
+That's pretty much all I'm good for...
+I'm very thankful for your cooperation in this matter!
 \e
 
-// 対死徒
+// 対死徒 Versus Dead Apostles
 WinMes08:
 chara_type 124
 //ヒトでありながら、
 //人類の脅威として活動する……
 //対話する事は、できないのでしょうか……
+Though human,
+your actions threaten mankind nonetheless.
+It appears we cannot simply talk this over.
 \e
 
-// 対死徒
+// 対死徒 Versus Dead Apostles
 WinMes09:
 chara_type 114
-わたしたちの世界にも
+//わたしたちの世界にも
 //吸血種は存在しますが……
 //これほど強力、いえ、独自性を持った
 //種は記録されていません……。
+There are bloodsuckers in our world too...
+But there aren't any records of them being this
+powerful, no, this unique...
 \e
 
-// 対セイバー
+// 対セイバー Versus Saber
 WinMes10:
 chara_type 1
 //カルデアとは違う舞台、
 //多くの物語ではなくたった一つの物語から
 //やってきた方なのですね。
 //とても、眩しいです。
+You're someone who has arrived from a world separate to Chaldea,
+someone originating from a single story, instead of many.
+That is so very precious.
 \e
 
-// 対ネコアルク
+// 対ネコアルク Versus Neco-Arc
 WinMes11:
 chara_type 3
 //準備運動にお付き合いいただき、
 //ありがとうございました！
 //次回もよろしくお願いします、
 //ネコアルクさん！
+I very much appreciate you allowing me
+accompany you on your warm-up sessions!
+I look forward to next time as well,
+Neco-Arc!
 \e
 
-// 対翡翠
+// 対翡翠 Versus Hisui
 WinMes12:
 chara_type 4
 //仕えるものの心構え……
 //日常のサポート、お手伝い……
 //なるほど。翡翠さんからは学ぶべき事が
 //たくさんありましゅ……
+//P: たくさんありましゅ…… seems to be some weird Mash pun...?
+How to think like a servant,
+to provide routine support, to help out...
+I see. There are many things I ought to learn
+from Hisui.
 \e
 
-// 対ロア（ストーリー専用）
+// 対ロア（ストーリー専用） Versus Roa (story only)
 WinMesArcadeWin05:
 chara_type 114
 chara_type_sub 100
@@ -118,9 +158,13 @@ chara_switchframe1 585
 //様々な魔術に精通した強敵でした。
 //これで街に潜む吸血鬼は―――え、
 //床にゲートが！？　きゃあああーーー！？
+Unlike the first Dead Apostle I encountered,
+you were a real dangerous opponent, what with having mastered all those varieties of Magecraft.
+With this, the Dead Apostle lurking in the city is def-- wha--
+There's a gate below?! Kyaaaaaaaaaaa!?
 \e
 
-// 対ヒスコハ（ストーリー専用）
+// 対ヒスコハ（ストーリー専用） Versus Maids (story only)
 WinMesArcadeWin07:
 chara_type 101
 chara_type_sub 119
@@ -128,19 +172,26 @@ chara_switchframe 270
 //驚きました、お二人ともお強いのですね！
 //……え？　普段はとても戦えない？
 //今夜だけ限定の戦闘力……なるほど。
+I'm surprised, the two of you are quite strong!
+Huh? You usually don't fight very much at all?
+You were only strong tonight in particular... I see.
 \e
 
-// 対死徒ノエル（ストーリー専用）
+// 対死徒ノエル（ストーリー専用） Versus DA Noel (story only)
 WinMesArcadeWin14:
 chara_type 6
 //魔術、科学による力でもなく、
 //星の神秘による力でもない……
 //ただ●＜そこにいるだけ＞で世界を侵す毒。
 //これが、死徒と呼ばれる吸血鬼なのですね。
+Power borne not of magecraft, nor of science,
+nor even of the planet's arcanity...
+But a poison which infringes upon the world by presence alone.
+So that's what it means to be one of the Dead Apostle type vampires.
 \e
 
 
-// 対ネコアルク（Ｂシナリオストーリー専用）
+// 対ネコアルク（Ｂシナリオストーリー専用） Versus Neco-Arc (B story only)
 WinMesArcade01Win19:
 chara_type 6
 chara_type_sub 5
@@ -149,9 +200,13 @@ chara_switchframe 630
 //わたしたちの世界と法則は違うようですが、
 //戦闘に支障はありません。
 //カルデアの代表として、頑張ります！
+Vampires in 2010s Japan...
+It appears the laws governing this world is different from mine,
+but I feel no hindrances in my ability to fight. 
+Chaldea's representative, on duty!
 \e
 
-// 対ネコヒスイ（Ｂシナリオストーリー専用）
+// 対ネコヒスイ（Ｂシナリオストーリー専用） Versus Neco-Hisui (B story only)
 WinMesArcade01Win19_03:
 chara_type 101
 chara_type_sub 110
@@ -160,9 +215,13 @@ chara_switchframe 590
 //念のため、あと数回衝撃を加えて胃洗浄も……
 //ネコアルクさん！？
 //そんなに急いでどこに行かれるのですか！？
+Thank god. I've managed to extract all venom!
+But just for good measure, I'll perform some gastric lavage with these extra few blow--
+Neco-Arc?!
+Just where are you heading that you'd hurry off so quickly?
 \e
 
-// 対ネココハク（Ｂシナリオストーリー専用）
+// 対ネココハク（Ｂシナリオストーリー専用） Versus Neco-Kohaku (B story only)
 WinMesArcade01Win19_04:
 chara_type 0
 chara_type_sub 4
@@ -171,6 +230,10 @@ chara_switchframe 435
 //さすがネコアルクさん、脅威の回復力です！
 //では、地上に戻りましょう。
 //お屋敷の主人にご挨拶されるのですよね？
+Expulsion of venom complete!
+What incredible resilience! I expected nothing less of Neco-Arc!
+Alright, then let's get back to the ground.
+You've been greeted by the master of this mansion already, right?
 \e
 
 // 99まで追加可能
@@ -182,6 +245,8 @@ WinMes3WinStreak00:
 chara_type 3
 //３連勝、お見事です！
 //今日はノッているとみました！
+Great work on the three consecutive wins!
+I can see you're doing better than ever today!
 \e
 
 WinMes10WinStreak00:
@@ -192,4 +257,8 @@ chara_switchframe 615
 //わたしも緊張してきました……
 //深呼吸、深呼吸……
 //さあ、更なるレコードを築きましょう！
+Ten straight wins is nothing to scoff at!
+I'm getting nervous as well...
+Deep breaths, deep breaths...
+Okay, let's keep going for ever grander records!
 \e

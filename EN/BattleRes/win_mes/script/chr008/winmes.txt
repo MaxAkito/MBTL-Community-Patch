@@ -3,6 +3,10 @@ WinMesScript
 
 WinMes00:
 chara_type 3
+//きゃー☆　危うくやられちゃうところでした！
+//ノエル恐かったですぅ－！
+//……よし、最後のショットまでバッチリ！
+//ナマグサ坊主の司祭さまたちに送信、送信と……
 Eeek! ☆ That was a really close one!
 I was sooo scared!
 There... Those were some good photos!
@@ -12,6 +16,9 @@ who are sicko enough to like 'em.
 
 WinMes01:
 chara_type 2
+//ダメダメ、見逃してもらえると思ってた？
+//異端者にかける情けなんて、
+//合コンで好みの相手に当たるぐらいないわよ？
 You didn't think I'd let you go so easily, did you?
 Finding a heathen worthy of pity is harder than
 finding marriage material at a speed-dating event.
@@ -19,6 +26,9 @@ finding marriage material at a speed-dating event.
 
 WinMes02:
 chara_type 5
+//ハァ？
+//余裕ないんだから手加減とかする訳ないでしょ？
+//バカなの？
 What? You expected me to go easy on you? 
 Why would I do that when I can barely hold 
 my own out here? Are you stupid?
@@ -26,13 +36,19 @@ my own out here? Are you stupid?
 
 WinMes03:
 chara_type 100
-The defeated get sent to the execution room, without exception. 
+//敗者はみんな平等に処理室行きよ。
+//ま、顔が好みの子なら、
+//ちょっ～～っとぐらいはエコ贔屓するけどね？
+The losers get sent to the execution room, without exception. 
 Though I suppose if your looks are to my liking,
-I might be able to show a teensy bit of favoritism.
+I might be able to show a teeeensy bit of favoritism.
 \e
 
 WinMes04:
 chara_type 100
+//私より強い代行者を知っている？
+//あっ、そう。じゃ、そいつより優れてるところを、
+//これからたっぷり教えてあげる。
 You know an Executor stronger than me?
 Sure, whatever. Guess I'll just have to slowly and 
 painfully show you what it is that I am better at then.
@@ -40,12 +56,16 @@ painfully show you what it is that I am better at then.
 
 WinMes05:
 chara_type 0
+//聖なるかな、我が代行は主の御心なり―――
+//ふふ、便利な言葉だと思わない？
 Lord God Almighty, thy Will is that which I Execute.
 Hehe, such a convenient little phrase, don't you think?
 \e
 
 WinMes06:
 chara_type 101
+//あー……明日の休み、なにしよ……
+//婚活とか自分磨きとか、体力残ってないっつーの……
 Mmm... got tomorrow off... what to do...
 Damnit, I've energy neither to work on
 myself nor to go marriage hunting...
@@ -53,6 +73,9 @@ myself nor to go marriage hunting...
 
 WinMes07:
 chara_type 104
+//……今夜も何とか生き延びた……
+//凡人だっていうのに、
+//いつまでこんなコトやってんだろう、私……
 I managed to make it through this night as well...
 I'm just an ordinary person...
 Just how long can I keep this up?
@@ -61,6 +84,8 @@ Just how long can I keep this up?
 // 対シエル Versus Ciel
 WinMes08:
 chara_type 6
+//え？　うそ、アイツから一本とれちゃった！？
+//インフルエンザでも罹ったの、シエル！？
 Wha-- No way! I managed to get one over HER?! 
 Were you down with the flu or something, Ciel?!
 \e
@@ -69,6 +94,9 @@ Were you down with the flu or something, Ciel?!
 // アルク、ロア、ヴローヴ、暴走アルク、秋葉 Arc, Roa, Vlov, Red Arc, Akiha
 WinMes09:
 chara_type 103
+//超越者ぶってんじゃないわよ。
+//人間以上だっていうなら、
+//人間以外を相手にしなさいよ。
 There you go, thinking you're some kind of otherworldly being.
 Well if you think you're sooo much better than us humans, 
 then maybe you should go fight someone who isn't.
@@ -77,18 +105,12 @@ then maybe you should go fight someone who isn't.
 // 対ノエル
 WinMes10:
 chara_type 5
+//今の、私の幻……？
+//……ううん、大丈夫。大丈夫よ、ノエル……
+//私はまだ、ちゃんと人間なんだから……
 What was that? Some kind of phantom Noel...?
 Come on Noel, pull yourself together...
 You're still just a regular human...
-\e
-
-// 対秋葉シナリオ用
-WinMesArcadeWin02:
-chara_type 6
-Now's my chance! Retreeeaaat!
-Phew... I think I managed to lose her.
-That girl's abilities are no joke. Invisible attacks?
-It's like those True Ancestors I've heard of...
 \e
 
 // 対マーリオゥ
@@ -111,9 +133,28 @@ take her out after she got serious, c'mon.
 I must've fallen asleep just as I got back home.
 \e
 
-// 対ヴローヴシナリオ用
+
+// 対秋葉シナリオ用 Versus Akiha (story only)
+WinMesArcadeWin02:
+chara_type 6
+//チャンス！　てったい、てったーい！
+//……ふう、なんとか逃げ切った……。
+//冗談じゃないわよ、なにあの《娘＜こ＞のスペック。
+//見えない攻撃とか、噂にきく真祖かっていうの。
+Now's my chance! Retreeeaaat!
+Phew... I think I managed to lose her.
+That girl's abilities are no joke. Invisible attacks?
+It's like those True Ancestors I've heard of...
+\e
+
+
+// 対ヴローヴシナリオ用 Versus Vlov (story only)
 WinMesArcadeWin09:
 chara_type 3
+//やった、なんとか追い詰めた……！
+//ええ、私だってやればできる、
+//できるに決まってる！　後は聖堂に閉じ込めて……
+//ええ？　うそ、ここから本気だすの、アイツ！？
 Alright! I'm winning somehow! 
 I may actually be able to pull this off. No, I'm sure I can
 pull this off! Now I just trap him in my temple, and then--
@@ -127,12 +168,16 @@ What?! No way! NOW he decides to get serious?!
 
 WinMes3WinStreak00:
 chara_type 3
+//３連勝ね。
+//この調子で頑張ってくれると先生嬉しいな～！
 That makes three. 
 Keep this up and your teacher's gonna be so proud of you!
 \e
 
 WinMes10WinStreak00:
 chara_type 4
+//すっごい、１０連勝！？
+//きゃー☆　私をベガスに連れてって！
 Wow! Ten wins in a row?! ☆
 Woo-hoo! You should take me to Vegas sometime!
 \e

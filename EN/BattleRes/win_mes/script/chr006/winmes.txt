@@ -3,12 +3,16 @@ WinMesScript
 
 WinMes00:
 chara_type 0
+//《介添＜かいぞえ＞はいるか？
+//不作法でよければ《済度＜さいど＞してやるが。
 Need assistance?
 I could guide you towards paramiti, if you would so wish.
 \e
 
 WinMes01:
 chara_type 1
+//婆娑羅者＜ばさらもの＞、
+//一念三千にはほど遠い。
 How worldly you are.
 Far from perceiving all of reality 
 in the span of a single thought.
@@ -16,35 +20,47 @@ in the span of a single thought.
 
 WinMes02:
 chara_type 0
+//殺生に益も無益もない。
+//悪を定めねば生きられぬが咎と知れ。
 There is neither good nor evil in the taking of life. 
 Know that to deem the other as evil is to err.
 \e
 
 WinMes03:
 chara_type 0
+//―――なんだそれは。《猿＜ましら＞に劣る。
 What are you doing? You are less than even the ape.
 \e
 
 WinMes04:
 chara_type 0
+//《六根六境＜ろっこんろっきょう＞、ことごとく排斥する。
+//残念なく成仏しろ。
 Cast off your ties to this worldly plane
 and enter nirvana without regret.
 \e
 
 WinMes05:
 chara_type 0
+//やるな。気が向いたのなら、
+//またケンカを売りにきてくれ。
 Not bad. If you're ever itching for 
 another fight, feel free to come find me.
 \e
 
 WinMes06:
 chara_type 0
+//ふと思ったのだが。
+//おまえ、本当に人間か？
 It just occurred to me but...
 Are you sure you're human?
 \e
 
 WinMes07:
 chara_type 0
+//《悪種＜あくしゅ＞は土を選ばず芽吹く。
+//《徒花＜あだばな＞だったのか毒草だったのか、
+//おまえの《髑髏＜しゃれこうべ＞が語るだろうよ。
 Bad seeds bloom without regard to their soil.
 Was it merely a weed? Or was it rife with poison?
 Only your bare skull may tell us which.
@@ -53,20 +69,26 @@ Only your bare skull may tell us which.
 // 対志貴 Versus Shiki
 WinMes08:
 chara_type 1
+//人違いだ。他をあたれ。
 You have the wrong man. Find someone else.
 \e
 
 // 対アルク Versus Arcueid
 WinMes09:
 chara_type 0
+//無茶苦茶な女だな。
+//いずこかの《化仏＜けぶつ＞なのだろうが、
+//この国の土はおまえには合わん。
 A most bizarre woman.
 The soil of this land does not suit you.
-Even if perhaps you would be a nirmanakaya someplace else.
+Even if you would perhaps be a nirmanakaya someplace else.
 \e
 
 // 対ヒスコハ Versus Maids
 WinMes10:
 chara_type 0
+//おまえたちとよく似た姉妹を知っていてな。
+//このあたりで引き下がってくれないか。
 I once knew a pair of sisters who resembled you two, 
 so... could I perhaps ask of you to back down?
 \e
@@ -74,6 +96,9 @@ so... could I perhaps ask of you to back down?
 // 対志貴(ストーリーでのエンカウント専用) Versus Shiki (story only when encountered)
 WinMesArcadeWin03:
 chara_type 1
+//あいにく、運心とは無縁でな。
+//悔いる心も、思い出す罰もない。
+//清算がしたいのなら、俺を殺せるだけの腕を持て。
 Unfortunately, repentance ill befits me.
 I have neither regret, nor fitting punishment.
 If my reckoning is your wish, 
@@ -87,6 +112,8 @@ you must first have the ability to kill me.
 
 WinMes3WinStreak00:
 chara_type 0
+//三連勝となると実力だ。
+//よく鍛えているな、おまえ。
 Three wins in a row is proof of your skill.
 I see you've trained well.
 \e
@@ -94,6 +121,8 @@ I see you've trained well.
 
 WinMes10WinStreak00:
 chara_type 0
+//十連勝とは、大したヤツだ。
+//まっとうな大会なら優勝しているぞ？
 Ten wins in a row is quite impressive. 
 If this were a tournament, it would already be over.
 \e

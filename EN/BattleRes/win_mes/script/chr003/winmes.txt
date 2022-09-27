@@ -3,32 +3,43 @@ WinMesScript
 
 WinMes00:
 chara_type 101
+//もう一回やるかい？
+//こっちはいいけど、
+//やめておいた方がいいんじゃないか？
 You wanna go again? I'm game,
 but you should probably quit
 while you still can.
 \e
 
-
+// パーフェクト時は抽選されない Not used after a Perfect
 WinMes01:
 chara_type 103
+//あー、死ぬかと思った……
+//出来る限り手加減したんで、それで帳消しってコトで。
 Wow, thought I was a goner there for a second. 
 I guess that's what I get for going easy on you.
 \e
 
 WinMes02:
 chara_type 1
+//生きてるんだろ？
+//なら、どんな生き物であれ死ぬさ。
 You're alive, right?
 See, all things that are alive eventually die.
 \e
 
 WinMes03:
 chara_type 101
+//あんまり動くと貧血になるんでね、このあたりで失礼するよ。
 I'll be taking my leave now.
 I can only fight for so long before I get anemic.
 \e
 
+// パーフェクト時は抽選されない Not used after a Perfect
 WinMes04:
 chara_type 3
+//楽しかった？　そりゃどうも。
+//こっちは散々だよ。次はもうちょっと空気を読んでくれ。
 You had fun? Good for you. 
 Personally, I'm totally beat. 
 Try to be a bit more considerate next time.
@@ -36,6 +47,8 @@ Try to be a bit more considerate next time.
 
 WinMes05:
 chara_type 1
+//悪いが行くぞ。
+//救急車は呼んでおくから、病院のベッドで反省しろ。
 Sorry, but I've got places to be. 
 I'll call an ambulance for you.
 You can reflect on what you did in your hospital bed.
@@ -43,6 +56,9 @@ You can reflect on what you did in your hospital bed.
 
 WinMes06:
 chara_type 101
+//黒猫、カラス、霊柩車。
+//ああ、柳の下を通るってのもあったっけ。
+//不運なのはお互いさまってコトで。
 Black cats, crows, hearses... 
 Something about walking under weeping willows too.
 It seems bad luck has cursed the both of us.
@@ -50,6 +66,9 @@ It seems bad luck has cursed the both of us.
 
 WinMes07:
 chara_type 1
+//次はうまくやれ。
+//こんな世の中だ。何が虎の尾になるのか、
+//パッと見じゃ分からないんだからさ。
 Try harder next time. 
 You know how it is these days...
 Appearances can be deceiving.
@@ -59,7 +78,11 @@ Never know what'll turn out to be dangerous.
 // 対アルクェイド Versus Arcueid
 WinMes08:
 chara_type 103
-Whoa! That was dangerous! 
+//うわ、危なかった……！
+//あのなあアルクェイド、おまえ相手に
+//遊びも手加減もないだろう。
+//面白半分でケンカ売るなって言うの。
+Damn, that was dangerous! 
 You just don't know how to hold back, do you, Arcueid?
 So don't go picking fights just because you feel like it.
 \e
@@ -67,6 +90,9 @@ So don't go picking fights just because you feel like it.
 // 対シエル Versus Ciel
 WinMes09:
 chara_type 100
+//ありがとう、先輩。
+//なんだかんだって手加減してくれるところ、
+//大好きですよ。
 Thanks, Ciel. 
 I really love the way you 
 always kind of hold back against me.
@@ -75,6 +101,8 @@ always kind of hold back against me.
 // 対秋葉 Versus Akiha
 WinMes10:
 chara_type 103
+//やばかったぁ……。
+//秋葉のヤツ、隠れて特訓でもしてるんじゃないだろうな……？
 That was real close... 
 Has Akiha been training in secret or something?
 \e
@@ -82,6 +110,8 @@ Has Akiha been training in secret or something?
 // 対ヒスコハ Versus Maids
 WinMes11:
 chara_type 101
+//ごめん、二人とも！
+//用が済んだら屋敷に戻るから、埋め合わせはその時に！
 Sorry, you two! I promise to head back to the mansion 
 when I'm finished! I'll make this up to you then!
 \e
@@ -89,6 +119,9 @@ when I'm finished! I'll make this up to you then!
 // 対翡翠 Versus Kohaku
 WinMes12:
 chara_type 101
+//……翡翠の偽物までいるのか……。
+//ごめんな翡翠。たとえ偽物でも、手を上げて
+//すまなかった。
 I didn't realize there was a fake Hisui out there.
 Still, it doesn't feel right raising a hand against her. 
 Sorry about that.
@@ -97,6 +130,9 @@ Sorry about that.
 // 対琥珀 Versus Kohaku
 WinMes13:
 chara_type 103
+//琥珀さん……の偽物、だよな？
+//……えっと、本物に会ったら謝っておくから、
+//今回はこれで勘弁してくれます？
 You're just a fake Kohaku, aren't you? 
 I'll have to remember to apologize to the real 
 one when I see her. Do you mind if we call it a day?
@@ -105,6 +141,9 @@ one when I see her. Do you mind if we call it a day?
 // 対軋間 Versus Kishima
 WinMes14:
 chara_type 1
+//……今のは……誰だったか……
+//思い出せないな……
+//昔の夢を、見ているようだった……
 Who... was that...?
 I can't remember...
 It almost felt as if I was dreaming of the past...
@@ -113,6 +152,9 @@ It almost felt as if I was dreaming of the past...
 // 対青子 Versus Aoko
 WinMes15:
 chara_type 100
+//以上、これまでの成果です。
+//ご心配なく先生。まだ失敗ばかりだけど、
+//前向きにやっています。
 And that's all I've learned.
 Don't worry, Aoko. I don't always 
 succeed, but I'll always try my best.
@@ -121,6 +163,10 @@ succeed, but I'll always try my best.
 // 対武装シエル Versus Powered Ciel
 WinMes16:
 chara_type 100
+//模擬戦、勉強になりました。
+//共闘ではなかったけど、
+//先輩の動きに合わせるの、
+//ワルツみたいで楽しかったです。
 I've learned a lot from this mock-battle.
 Matching my movements with yours was enjoyable, 
 almost like a waltz, even though we were fight against 
@@ -133,12 +179,17 @@ each other, rather than together.
 
 WinMes3WinStreak00:
 chara_type 103
+//もう３連勝！？
+//早く帰りたかったのに……仕方ない、もう少し付き合ってくれる？
 Three wins already?! I had planned on going home early,
 but would you mind me sticking around for a bit longer?
 \e
 
 WinMes10WinStreak00:
 chara_type 0
+//１０連勝なんて凄いじゃないか！
+//なんか楽しくなってきた！
+//この調子でどんどんいこう！
 Ten wins?! That's amazing!
 This is getting pretty fun!
 Let's keep it up!

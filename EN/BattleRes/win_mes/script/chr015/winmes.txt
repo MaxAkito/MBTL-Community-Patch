@@ -3,12 +3,17 @@ WinMesScript
 
 WinMes00:
 chara_type 100
+//それじゃあね。
+//縁があったらまた会いましょう。
 See ya!
 Let us meet again, should fate so decree.
 \e
 
 WinMes01:
 chara_type 100
+//怪我、もう治ってるでしょ？
+//あなたの体力だけ使わせてもらったから、
+//一日休めば元通りよ。
 Your injuries are fine now, right?
 I took the liberty of using your stamina for them so
 if you just rest for a day or so you'll be as good as new. 
@@ -16,6 +21,9 @@ if you just rest for a day or so you'll be as good as new.
 
 WinMes02:
 chara_type 7
+//ん～～～、快っ適～～！
+//ありがとうキミ、いい運動になったわ！
+//昨日一日分の肩こり、とれた感じ！　
 Mm-mmm! That felt great!
 Thanks a lot, this has made for quite the workout!
 My stiff shoulders feel nice and loose now.　
@@ -25,6 +33,10 @@ WinMes03:
 chara_type 103
 chara_type_sub 100
 chara_switchframe 455
+//思い切り、足りてないんじゃない？
+//定番ばっかりやってると、精神、腐るわよ？
+//どんなことにせよ、
+//新しいコト、はじめなくっちゃね。
 Don't you think you're a bit too straight-laced? 
 You should try new things every now and then. 
 Being so by-the-book all the time's gonna dull your mind.
@@ -32,6 +44,9 @@ Being so by-the-book all the time's gonna dull your mind.
 
 WinMes04:
 chara_type 105
+//ところで、くわえタバコで、メガネかけて、
+//芸術家きどってる女を見たら殴っといて。
+//人の名前で協会からお金引き出すなって。
 By the way, if you see an artsy girl with glasses
 who's always smoking, punch her for me, and then tell her to 
 stop using my name to take out money from the Association.
@@ -41,6 +56,10 @@ WinMes05:
 chara_type 6
 chara_type_sub 3
 chara_switchframe 310
+//格闘というより戦場だった？
+//銃撃戦にもほどがある？
+//当然じゃない。私、上品なレディですので。
+//殴り合いとか、とてもとても。ほほほほほ。
 That was more like being on a battlefield than having 
 a fight? I didn't have to turn this into a shootout?
 But I had to! As a sophisticated and cultured lady, 
@@ -50,6 +69,9 @@ O-ho-ho-ho!
 
 WinMes06:
 chara_type 103
+//この時代だと楽器屋、あんまり無いのね。
+//新しいエレキが欲しいんだけどなぁ……
+//８０年代ので、キレイな青色のヤツ、ないかなぁ……
 It's too bad there aren't that many music stores in this era.
 I'm really in the mood for a new electric guitar...
 One of those nice blue ones they had in the 80's...
@@ -59,6 +81,10 @@ WinMes07:
 chara_type 104
 chara_type_sub 106
 chara_switchframe 300
+//財布……じゃなかった、命までは取らないわ。
+//そのかわり、晩ゴハン、奢ってくれない？
+//焼き肉屋さんかぁ、ジンギスカンかぁ、
+//ステーキハウスでもいいなー！
 I won't take your wallet--I mean, your life.
 So, how about you take me out for dinner instead?
 A yakiniku place would be nice... or maybe something Mongolian?
@@ -67,6 +93,9 @@ Oh, or maybe a steakhouse!
 
 WinMes08:
 chara_type 100
+//曇った顔してるけど、なんなら一緒に来る？
+//七つの海を気ままに越えていけば、
+//たいていの悩みは消えていくからね～。
 Don't look so down. How about you come with me?
 Exploring the seven seas beholden to no one has a way
 of making your troubles disappear, believe me.
@@ -77,19 +106,23 @@ WinMes09:
 chara_type 1
 chara_type_sub 3
 chara_switchframe 120
+//調子が悪かった？
+//まっさか。単に、相手が悪かったのよ。
+//アナタたち相手なら、遠慮しなくていいワケだし？
 You weren't just in bad form. Stop with the excuses.
 You just messed with the wrong person, that's all.
-After all, when I'm up against monsters like you
-people, I know not to hold back.
+I know not to hold back when I'm up against monsters like you, y'know?
 \e
 
 //対志貴 Versus Shiki
-//This needs further editing t. Petri
 WinMes10:
 chara_type 100
+//素敵な男の子になるのはもうちょっと先かな。
+//バイ志貴、どっかの片田舎で出会える日を
+//楽しみにしているわ。
 You've not quite became the lovely man I'd hoped for yet. 
-Adieu for now. I'll look forward to the day we meet in the 
-countryside somewhere in the middle of nowhere.
+Adieu for now. I'm looking forward to the day we meet again,
+out in the middle of nowhere in some countryside.
 \e
 
 //対秋葉 Versus Akiha
@@ -97,6 +130,9 @@ WinMes11:
 chara_type 2
 chara_type_sub 5
 chara_switchframe 160
+//教育的指導、終了～！
+//私が言うのもなんだけど、力の使い方を
+//間違えてるわよ？
 That's all for today's lesson!
 I realize I'm not one to talk, but the 
 way you're using your power is all wrong.
@@ -107,15 +143,31 @@ WinMes12:
 chara_type 104
 chara_type_sub 103
 chara_switchframe 535
-Gematria-based lightning together with vampiric strength.
-Despite appearances, He was quite the orthodox Dead Apostle.
+//数秘紋による雷霆と、吸血鬼の身体能力。
+//外見に似合わず、正統派の死徒だったわ。
+//……まあ、まだ何かありそうだったけど、
+//私には見せないか。
+Numeromancy-based lightning together with vampiric strength.
+Despite appearances, he was quite the orthodox Dead Apostle.
 Still, feels like there was something more to him.
 He wouldn't show it to me, though.
+\e
+
+// 対ネコアルク
+WinMes13:
+chara_type 101
+//………すごい生き物だったわね。
+//宝石の爺さんの仕業かなあ。
+//どこの世界の邪神よ、今の。
 \e
 
 // 対ロア（ストーリー専用） Versus Roa (story only)
 WinMesArcadeWin05:
 chara_type 4
+//あ。やば、倒しちゃったーー！？
+//不老不死の秘術とやらを
+//聞き出さなきゃいけなかったのにぃぃーー！
+//グッバイ、私のボーナス！
 Oh, oops. I killed him!?
 I still needed to interrogate him about his
 secret to immortality or whatever! Nooooo!
@@ -125,6 +177,10 @@ Farewell, my dear bonus!
 // 対死徒ノエル（ストーリー専用） Versus Dead Apostle Noel (story only)
 WinMesArcadeWin14:
 chara_type 5
+//……しまった、逃げられた。
+//どこかの祖の箱入り娘？　だったのかな？
+//上級死徒のポテンシャルなのに、
+//戦術は駆け出し同然なんだもの。親近感、湧いちゃった。
 Drats, looks like she got away...
 What was that? Some Ancestor's hidden daughter?
 She's got the potential of a Greater Dead Apostle
@@ -139,6 +195,8 @@ It almost reminds me of myself...
 
 WinMes3WinStreak00:
 chara_type 7
+//ノッてきたわね！
+//ここからガンガンいきましょう！
 You're on fire now!
 Let's keep it going!
 \e
@@ -147,6 +205,10 @@ WinMes10WinStreak00:
 chara_type 0
 chara_type_sub 7
 chara_switchframe 298
+//１０連勝おめでとう！
+//でもまだいけるでしょう？
+//勝つまでやる、も嫌いじゃないけど。
+//負けなしで勝ち逃げする、がいちばん好きよ、私。
 Congrats on your ten straight wins!
 But you still wanna keep going, right?
 Nothing wrong with wanting to keep going for the wins.

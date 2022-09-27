@@ -3,6 +3,8 @@ WinMesScript
 
 WinMes00:
 chara_type 1
+//はい、お掃除終了です。
+//いくら元気だからっておいたはダメですよ？
 There we go, all cleaned up.
 I know you're just bursting with energy, 
 but no more pranks, 'kay?
@@ -10,6 +12,8 @@ but no more pranks, 'kay?
 
 WinMes01:
 chara_type 0
+//やった、わたしの大勝利ですね！？
+//よーし、翡翠ちゃん抜きでも負けませんよー！
 An overwhelming victory for me! 
 Yaaay, even without Hisui I'm invincible!
 \e
@@ -18,6 +22,9 @@ WinMes02:
 chara_type 3
 chara_type_sub 1
 chara_switchframe 230
+//楽しく仲良く、ケンカはダメです。
+//目を覚ましたらお茶をご用意しますから、
+//しばらく眠っていてくださいな♪
 We should be trying to get along instead of fighting. 
 I'll prepare some tea for when you regain consciousness
 so feel free to sleep as long as you need to! ♪
@@ -25,6 +32,8 @@ so feel free to sleep as long as you need to! ♪
 
 WinMes03:
 chara_type 0
+//あらあら、物騒ですね。
+//そんな危ないものはポイしちゃいましょう、ポーイ！
 Uh-oh, that's not very safe!
 You know what we do with dangerous things like that?
 Into the trash it goes!
@@ -32,12 +41,17 @@ Into the trash it goes!
 
 WinMes04:
 chara_type 1
+//次はぜひ正門からいらっしゃってくださいまし。
+//その時は精一杯のおもてなしをいたしますから。
 Please use the main entrance next time. 
 That way I might give you an even warmer welcome.
 \e
 
 WinMes05:
 chara_type 102
+//驚きました？
+//遠野家に仕える侍女ですもの、
+//この程度の嗜みは心得ているんです。
 Surprised? 
 I am a maid under the employ of the Tohno family, 
 you know. We all have some degree of learning in
@@ -46,6 +60,8 @@ the etiquette of battle.
 
 WinMes06:
 chara_type 102
+//ご満足いただけましたか？
+//ふふ、次はもっと強いお薬を出してさしあげます。
 Was it to your liking? Heheh... 
 I will be sure to bring an even stronger 
 dose of medicine for you next time.
@@ -53,6 +69,9 @@ dose of medicine for you next time.
 
 WinMes07:
 chara_type 1
+//良薬は口に苦し、教訓は胸に痛しと申します。
+//これに懲りて、次からはお行儀よくなさって
+//くださいね。
 The best medicine is bitter... The truth hurts... 
 So now that you have learned your lesson, 
 I expect to see an improvement in your behavior.
@@ -60,6 +79,9 @@ I expect to see an improvement in your behavior.
 
 WinMes08:
 chara_type 100
+//結構なお手前でした。よーし、わたしももっと
+//鍛練して、お屋敷を牛耳―――い、いえいえ、
+//秋葉さまと志貴さんをお守りしなくては！
 I'm quite impressed with myself!
 Alright! I'll train even harder, seize 
 control of the mansion and-- I-I mean,
@@ -68,6 +90,8 @@ My duty is to protect Lady Akiha and Shiki!
 
 WinMes09:
 chara_type 0
+//手当ては済ませておきました。
+//元気になったらまた遊びに来てくださいまし。
 I took the liberty of treating your wounds. 
 Feel free to come back once you feel better.
 \e
@@ -75,6 +99,9 @@ Feel free to come back once you feel better.
 // 対志貴 Versus Shiki
 WinMes10:
 chara_type 2
+//乱暴にしてごめんなさいね志貴さん。
+//さ、お詫びにご馳走いたしますので、
+//食堂においでくださいな。
 I'm terribly sorry for being so rough, Shiki. 
 Allow me to apologize by preparing a meal for you. 
 C'mon, let's get going to the dining hall.
@@ -83,6 +110,9 @@ C'mon, let's get going to the dining hall.
 // 対秋葉 Versus Akiha
 WinMes11:
 chara_type 102
+//うふふ、わたしの勝ちです秋葉さま。
+//それでは約束通り、監視カメラの増強と
+//志貴さんのお薬代をアップさせて下さいね♪
 Heehee. Seems I've won this time, Lady Akiha. 
 Don't forget our agreement. I get to install more 
 surveillance cameras and will receive a larger budget 
@@ -92,6 +122,9 @@ for Shiki's medicines! ♪
 // 対翡翠 Versus Kohaku
 WinMes12:
 chara_type 1
+//はい、わたしの勝ちね翡翠ちゃん。
+//それじゃあ約束通り、お屋敷のお掃除を
+//任せて下さいね♪
 Looks like I win, Hisui.
 As promised, I'll take over the 
 cleaning duties of the mansion now! ♪
@@ -107,12 +140,16 @@ cleaning duties of the mansion now! ♪
 
 WinMes3WinStreak00:
 chara_type 0
+//３連勝、おみごと～♪
+//本日はご馳走と致しましょう！
 Well done! That's three straight wins! ♪
 I'll prepare a feast in celebration!
 \e
 
 WinMes10WinStreak00:
 chara_type 1
+//まさに新進気鋭、百戦錬磨の１０連勝！
+//いけるところまでいってしまいましょう！
 The up-and-coming battle champion, 
 with ten consecutive wins!
 Show us how far you can go!
@@ -121,5 +158,6 @@ Show us how far you can go!
 //隠しキャラ解放test
 UnlockMes00:
 chara_type 0
+//琥珀のストーリーが開放されました。
 Kohaku story has been unlocked.
 \e

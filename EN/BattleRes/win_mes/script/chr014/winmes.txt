@@ -5,6 +5,10 @@ WinMes00:
 chara_type 106
 chara_type_sub 101
 chara_switchframe 520
+//えー、もう死んじゃうの～ぅ？
+//もっと遊びたかったのになぁ……
+//なーんて、言うと思った？
+//クソザコに割く時間なんてあるワケないでしょ？
 Aww, dead already?
 I wanted to play with you some more...
 Hah! As if.
@@ -15,6 +19,10 @@ WinMes01:
 chara_type 8
 chara_type_sub 7
 chara_switchframe 665
+//ほら見て、もう傷がなくなっちゃった\sf000
+//最後の努力も、これまでの人生も、
+//何もかも無駄になっちゃったね？
+//あはは、必死に抵抗してくれたのに、カワイソー！
 Would you look at that, my injures have healed already! \sf000
 Seems your efforts--even your entire life up until
 this point--were all for nothing, doesn't it? Ahaha! 
@@ -24,6 +32,9 @@ You struggled so pathetically too, you poor little thing!
 //対人間 Versus Humans
 WinMes02:
 chara_type 1
+//ただのニンゲンが、
+//吸血鬼になったわたしに勝てるワケないじゃない。
+//都合のいい夢でも見ちゃった？
 A mere human?
 Standing a chance against me? 
 After I'd turned into a vampire?
@@ -33,6 +44,9 @@ In your dreams.
 //対死徒 Versus Dead Apostles
 WinMes03:
 chara_type 6
+//なりたてのわたしに負けちゃうなんて、
+//消えたくなるくらい恥ずかしいでしょ？
+//ふふ……そのお願いだけは叶えてあ・げ・る。
 Wow, and I haven't even been a vampire all that long.
 Doesn't the shame just wanna make you disappear?
 Hehe... that, at least, I can arrange for you \sf000
@@ -40,6 +54,10 @@ Hehe... that, at least, I can arrange for you \sf000
 
 WinMes04:
 chara_type 1
+//あーあ、たいくつ……。
+//前は戦うだけで心臓が破裂しそうだったのに……
+//強くなりすぎちゃうと、
+//娯楽もワンランク上にしないとダメなのかぁ……
 Ugh, boooring...
 Before, any kind of battle would almost made my heart jump
 out of my chest. But now, well... I guess once you get 
@@ -48,13 +66,19 @@ too strong, you need a higher class of entertainment.
 
 WinMes05:
 chara_type 8
-How's it feel? My Principle is the 'Bells of Nostalgia'.
+//どう？　わたしの原理は望郷の鐘。
+//幸福だった頃の記憶を呼び起こす、
+//オトナになるほど残酷な聖夜の鐘よ。
+How's it feel? My Principle's the 'Bells of Nostalgia'.
 Christmas bells that conjure up memories of happier times.
 They are as merciless as the feeling of growing up.
 \e
 
 WinMes06:
 chara_type 106
+//ふーん。けっこうやるじゃない。
+//頭にきたから逃がしてあげる。
+//安心して？　七日後に倍返しで復讐するから\sf000
 Hmph, you're not half bad. 
 But I've lost my patience. I'll let you go for now. 
 Don't worry, though. 
@@ -65,6 +89,9 @@ WinMes07:
 chara_type 102
 chara_type_sub 103
 chara_switchframe 360
+//ふん。
+//今の戦い、いい教訓になったって認めてあげる。
+//……忘れないよう、メモメモっと……
 Hmph...
 I'll admit, this fight taught me an important lesson.
 Better note it down so I don't forget...
@@ -73,6 +100,10 @@ Better note it down so I don't forget...
 //対シエル Versus Ciel
 WinMes08:
 chara_type 2
+//……あれ？　おかしいな……おかしいよね？
+//不死身なのがアナタの取り柄で嫌味で贖罪なのに。
+//ほら、早く起きて？
+//早く起きて、もっとわたしに殺させてくれるんでしょう？
 Huh? That's odd... I mean, really. 
 Being unkillable was all you were good for! 
 Why you were so annoying! It was your atonement! 
@@ -83,6 +114,9 @@ Aren't you supposed to let me kill you some more?!
 //対志貴 Versus Shiki
 WinMes09:
 chara_type 8
+//どう志貴クン？　薔薇の魔眼、気に入ってくれた？
+//やりたいこと、思いついたこと、
+//何でも出来ちゃうんだから\sf000
 Well, Shiki? 
 How do you like my Mystic Eyes of Roses?
 With these, I can make you experience anything 
@@ -92,6 +126,10 @@ I can think of. Anything I want \sf000
 //対ロア Versus Roa
 WinMes10:
 chara_type 102
+//……殺した……けど…………
+//また生まれ変わっちゃうだけじゃない……
+//なにやってるの……
+//なにやってるのよ、わたし……！
 I killed him...
 But... now he'll just come back again...
 Damn it...
@@ -101,15 +139,28 @@ What am I even doing?!
 // 対マーリオゥ Versus Mario
 WinMes11:
 chara_type 6
+//あーあ、司祭代行死んじゃったー？
+//ひどいよねぇ、あんまりだよねぇ？
+//神さま、助けてくれないんだもんねぇ？
 Oh no, I guess the Acting Presbyter went and died?
 How awful, just reprehensible, really!
-I guess God really doesn't save everyone!
+I guess God doesn't save everyone!
 \e
 
+// 対ネコアルク Versus Neco-Arc
+WinMes12:
+chara_type 4
+ちょっと、近寄らないでよね！
+仲間認定とかしたら、マジ殺すから、ホント！
+\e
 
 // 対志貴（ストーリー専用）  Versus Shiki (story only)
 WinMesArcadeWin03:
 chara_type 100
+//そう、これはぜーんぶユメ。
+//わたしが作り出した悪いユメ！
+//感謝してね志貴クン？　これでもわたし、
+//アナタに同情してあげてたのよ？
 That's right, this whole thing is just a dream...
 A nightmare of my very own creation.
 You should be grateful, Shiki. 
@@ -119,6 +170,10 @@ In a way... I'm showing you mercy.
 // 対琥珀（ストーリー専用） Versus Kohaku (story only)
 WinMesArcadeWin04:
 chara_type 101
+//ふーん、吸血鬼の血ってこうなってるんだぁ。
+//エーテルっていうの？
+//好きに物質化できるのはいいけど、
+//魂のカタチに縛られるのは不便じゃない？
 Hmm... So this is what vampire blood is made out of, huh? 
 It's called "Ether", right? Being able to materialize it at
 will is great and all, but isn't it kind of inconvenient 
@@ -128,6 +183,9 @@ that it's restricted to the shape of the soul?
 // 対ロア（ストーリー専用） Versus Roa (story only)
 WinMesArcadeWin05:
 chara_type 3
+//なあんだ、あっさり死んだじゃない！
+//ほら、転生とか勝手にすれば？
+//わたしの知ったコトじゃないし！
 What's wrong? You sure died easily.
 C'mon, why don't you go reincarnate or something?
 See if I care!
@@ -140,12 +198,16 @@ See if I care!
 
 WinMes3WinStreak00:
 chara_type 8
+//うふふ。３連勝、３連勝～☆
+//勝つのって気持ちいいよねぇ？
 Heehee. Three wins for me! 
-Victory feels so gooood!
+Victory feels sooo good!
 \e
 
 WinMes10WinStreak00:
 chara_type 7
+//やったぁ、堂々の１０連勝！
+//わたし、間違いなくヒロインじゃない！？
 Yay! I did it! Ten straight wins!
 I'm totally the new heroine of this story!
 \e

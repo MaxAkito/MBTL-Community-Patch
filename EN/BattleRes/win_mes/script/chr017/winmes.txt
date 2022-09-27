@@ -3,6 +3,9 @@ WinMesScript
 
 WinMes00:
 chara_type 304
+//ったく、ガキに負けてんじゃねえよ。
+//力の話じゃねえぞ、頭の話だぞ？
+//思考精度、もちっとあげてこい。
 Fuckin' hell, don't go losing to a goddamn kid.
 And it wasn't 'cause of your strength, but your noggin.
 Hit the books before you challenge me again.
@@ -10,6 +13,8 @@ Hit the books before you challenge me again.
 
 WinMes01:
 chara_type 104
+//若さだけが取り柄でね。
+//恥も外聞もなく、オトナの手を借りてボコるワケだ。
 All I got goin' for me is my youth.
 Don't need to care 'bout keepin' up appearances,
 I can just get some adults to beat people up for me.
@@ -17,6 +22,9 @@ I can just get some adults to beat people up for me.
 
 WinMes02:
 chara_type 100
+//テメェの技術だけ信じてるようじゃ一生下っ端だ。
+//自分にできないコトは、
+//他人に無理矢理やらせねぇとな？
 You'll stay a nobody for the rest of your life 
 if all you do is depend on your own skills. 
 We all got shit we can't do ourselves.
@@ -25,6 +33,8 @@ So you gotta force others to do it for you. You get me?
 
 WinMes03:
 chara_type 305
+//勢いだけで勝てるかよ。
+//こちとらゲーム世代だ、百手先まで読んでるぜ。
 You can't just hope you'll fuckin' win.
 Imma part of the gamer generation. 
 I can read your every move.
@@ -34,6 +44,10 @@ WinMes04:
 chara_type 101
 chara_type_sub 107
 chara_switchframe 500
+//《鍵盤織機＜ピアノマシン＞はもともと絹糸の機織りでな。
+//機を織るように、人体を操作・強化する。
+//……爺さんが子どもの頃、
+//ショーウインドウごしに憧れたモンさ。
 This Piano Machine was originally a silk loom.
 Now it weaves people instead, controlling and 
 strengthening them. My old man used to gaze longingly 
@@ -46,6 +60,9 @@ chara_type_sub 303
 chara_switchframe 320
 chara_type_sub1 300
 chara_switchframe1 540
+//ガキの身分はいいよなあ、考えなしにケンカを売れて。
+//ん？　ああ、こっちの話だ。
+//気にせず寝てな、ガキ。
 Being a kid's real nice, socially speaking. 
 Can pick as many fights as I want. 
 Sorry, was talkin' to myself there.
@@ -54,6 +71,10 @@ Don't worry 'bout it. Go take a nap, kid.
 
 WinMes06:
 chara_type 100
+//昔から荒事は得意でね。
+//神学よりこっちの方が役に立ったもんさ。
+//司祭代行になってから、
+//めっきり機会は減っちまったがな？
 Always had a knack for violence. 
 Much more useful than theology, at least.
 The times I get to use it have gone down the 
@@ -66,6 +87,9 @@ chara_type_sub 102
 chara_switchframe 175
 chara_type_sub1 107
 chara_switchframe1 370
+//おう、帰るぞテメェら。
+//あん、欲しい《生活＜モ＞《用品＜ン＞がある？
+//仕方ねえ、デパートよってくか。予算は月給分までな。
 We're heading back, fuckers.
 You kiddin'? Need something for your place?
 Goddamnit, I guess we can stop by the store. 
@@ -75,6 +99,9 @@ Keep the budget within your monthly wage, though.
 // 対一般人(ヒスコハは除外した方が良さそう) Versus Commoner (except Maids)
 WinMes08:
 chara_type 306
+//ソプラノ、カリウスに連絡だ。
+//バカがひとり倒れてるから保護しとけってな。
+//最低限、傷の手当てもオマケしてやれ。
 Soprano, contact Karius.
 Tell him we've got a dumbass down. They need custody.
 Make sure to get 'em some medical care as a lil extra.
@@ -83,6 +110,10 @@ Make sure to get 'em some medical care as a lil extra.
 //対死徒（非人間） Versus non-humans
 WinMes09:
 chara_type 303
+//アルト、アンドゥーに連絡。
+//クズをひとつ始末したんで後処理をやらせろ。
+//現場の処理だけじゃねえぞ。
+//犠牲者も調べて、ケアしとけ。
 Alto, contact Andou.
 Took care of some trash, so I need him to deal with 
 the other shit. And I ain't just talking 'bout cleaning
@@ -95,8 +126,12 @@ WinMes10:
 chara_type 106
 chara_type_sub 100
 chara_switchframe 680
+//……おかしいな、オレの見立てだと
+//もっとヤバい機動してきそうだったんだが……
+//人間相手だとそそられねぇってか？
+//ハッ、若いうちからヤバいのにハマっちまったな？
 Real weird... I'd expected, well...
-That you'd show off some crazy moves or somethin'...
+That you'd come at me with some crazy moves or somethin'...
 Guess you don't get all riled up if you're only
 up against normal humans. Hah! So young, and you're 
 already hooked on something so fucked up.
@@ -107,6 +142,9 @@ WinMes11:
 chara_type 304
 chara_type_sub 303
 chara_switchframe 260
+//勝つには勝ったが、
+//オレの理性が負けそうだ……
+//何があったらここまで変わるんだよ、アンタ！？
 Win's a win, but...
 Feels like I'm losing my senses instead!
 The hell happened to make you so different?!
@@ -115,6 +153,9 @@ The hell happened to make you so different?!
 //対暴走アルクェイド Versus Red Arcueid
 WinMes12:
 chara_type 305
+//ここまでだ、退くぞテメェら！
+//倒した先から『もっと強く』なる怪物だ、
+//マトモにやりあっていられるか！
 Fall back, fuckers! We're leaving.
 This monster's just gonna come back stronger if we 
 kill it. I ain't dumb enough to fight this head-on.
@@ -123,6 +164,9 @@ kill it. I ain't dumb enough to fight this head-on.
 // 対シエル Versus Ciel
 WinMes13:
 chara_type 100
+//不思議そうな顔だな？
+//テメェの手の内は熟知してる。
+//対応策なんざ、腐るほど考案済みだ。
 What're ya looking so confused for?
 I know your lil tricks inside and out.
 Planned out my countermeasures goddamn ages ago.
@@ -131,6 +175,9 @@ Planned out my countermeasures goddamn ages ago.
 // 対武装シエル Versus Powered Ciel
 WinMes14:
 chara_type 106
+//……ったく、熱くなりやがって。
+//メゾソプラノ。そいつ水牢にいれとけ。
+//３日も経てば頭も冷えるだろ。
 Fuckin' hell... You're real worked up.
 Mezzo-Soprano, to the water chamber with her.
 She'll probably cool down in three days or so.
@@ -139,6 +186,9 @@ She'll probably cool down in three days or so.
 // 対ロア Versus Roa
 WinMes15:
 chara_type 306
+//クソヘビ野郎。
+//タランテラなんざてめぇには勿体ねえ。
+//スケルツォで十分だ。
 You fucking snake bastard.
 A tarantella's wasted on your ass.
 A scherzo's all you'll get.
@@ -149,6 +199,10 @@ WinMes16:
 chara_type 303
 chara_type_sub 306
 chara_switchframe 680
+//シエルと比べる、なんてバカはしねえが……
+//テメェ、動きが単純すぎるんだよ。
+//ゆるそうに見えて頭が硬いっつーか……
+//（一度、自信つけさせてやるか……）
 I ain't unfair enough to compare you to Ciel but...
 Man, your movements are way too simple.
 You seem kinda whimsical, yet also damn stubborn...
@@ -158,6 +212,9 @@ You seem kinda whimsical, yet also damn stubborn...
 // 対死徒ノエル Versus Dead Apostle Noel
 WinMes17:
 chara_type 306
+//―――ソプラノ。アルト。聖歌を許す。
+//それなりに丁寧に《葬＜おく＞ってやれ。
+//これでも、隣人のために働き続けた女だ。
 Soprano, Alto. Elegy permitted.
 And make sure she's buried with care, will ya?
 End of the day, she kept working hard for the greater good.
@@ -166,10 +223,14 @@ End of the day, she kept working hard for the greater good.
 // 対青子 Versus Aoko
 WinMes18:
 chara_type 305
+//おい待てテメェ、やりたい放題やって逃げるな！
+//メゾソプラノ、カリウス呼んでこい！
+//時計塔への抗議文、
+//めっちゃ長いの作成してやる！
 Stop it, you piece of shit! Think you can get away
 after all you did!? Mezzo-Soprano, get me Karius!
 I'm 'boutta write one HELLUVA long formal 
-complaint to the Mages Assocation.
+complaint to the Mages Association.
 \e
 
 
@@ -178,6 +239,10 @@ WinMesArcadeWin00:
 chara_type 107
 chara_type_sub 101
 chara_switchframe 465
+//ふう。なんとか撃退、っと。
+//《精神＜メンタル＞ガッタガタで助かったぜ。
+//不安材料はこれでクリアした。
+//あとはロアの目覚めを待てばいい。
 Phew. Drove her back somehow.
 Thank god she was so mentally unstable...
 All hurdles that got me worried have now been taken 
@@ -187,6 +252,9 @@ care of. Now I just gotta wait for Roa to wake up.
 // 対ノエル（ストーリー専用） Versus Noel (story only)
 WinMesArcadeWin08:
 chara_type 104
+//よし、お互いいい運動になったな。
+//《鍵盤織機＜ピアノマシン＞の調子は悪くない。
+//『人形使い』マーリオゥ、数年越しに復活ってな？
 Ey, good workout for the both of us.
 My Piano Machine ain't in bad shape. Maybe Mario the 
 Puppetmaster's gonna be back on the scene for a few years?
@@ -195,8 +263,12 @@ Puppetmaster's gonna be back on the scene for a few years?
 // 対青子（ストーリー専用） Versus Aoko (story only)
 WinMesArcadeWin15:
 chara_type 105
+//っらぁァ、思い知ったか魔法使い！
+//あー、スッとしたー！
+//そりゃあ全部ラウレンティスの自業自得だがな、
+//凡人の意地、舐めてんじゃねえぞオラァ！
 Goddamn, learn your place, Magician!
-Aaah, that felt good!
+Ahhh, that felt good!
 Not that Laurentis didn't have this coming but... We mortals 
 can be real stubborn. Ain't nothing to mess with, fucker!
 \e
@@ -208,12 +280,16 @@ can be real stubborn. Ain't nothing to mess with, fucker!
 
 WinMes3WinStreak00:
 chara_type 0
+//３連勝か。
+//いいねぇ、出だしは好調だ。
 Three in a row, huh?
 Ain't bad, off to a good start.
 \e
 
 WinMes10WinStreak00:
 chara_type 302
+//１０連勝か！　いいね、有能なヤツは大好きだ！
+//なあ、オレの下で働けよ。優遇するぜ？
 Ten straight wins! Good shit, I love competent people!
 Hey, how 'bout you come work for me? I'll treat ya well.
 \e

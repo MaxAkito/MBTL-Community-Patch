@@ -3,35 +3,46 @@ WinMesScript
 
 WinMes00:
 chara_type 0
+//……おれの前に、立つな。
 Get out of my sight...
 \e
 
 WinMes01:
 chara_type 0
+//……あいにく、語るほどの武勇もない。
+//凍えて死ね。
 Unfortunately, you had little valor to speak of.
 Freeze... and die.
 \e
 
 WinMes02:
 chara_type 0
+//おれが進む《路＜みち＞は河だけだ。
+//見渡すかぎりの氷海にいたのでな。
 As I once inhabited a boundless and frozen sea,
 the path I take is that of the river. 
 \e
 
 WinMes03:
 chara_type 0
+//暖かい……血液とは、骨を燃やす《薪＜まき＞のようだ……
 It warms... 
 What is blood, if not kindling for the bones...?
 \e
 
 WinMes04:
 chara_type 0
+//……別段、種類は問わない。
+//どのような肉塊であれ、燃えさえすれば焚き火になる。
 I do not particularly concern myself with the type 
 of flesh... As long as it burns, it may serve as pyre.
 \e
 
 WinMes05:
 chara_type 0
+//騎士と言えば聞こえはいいが、
+//おれの相手はもっぱら、狼や熊どもだった。
+//交渉術など覚えようがない。
 My being a knight might sound grander than it is.
 All I fought were but wolves and bears. I never had 
 the means of learning how to connect with people...
@@ -39,14 +50,19 @@ the means of learning how to connect with people...
 
 WinMes06:
 chara_type 0
+//……妻か？　１０人のみ娶った。
+//こう見えて、奥手でな。
 A wife? I have taken only but ten of them...
 You see, I may not look it, but I was a late bloomer...
 \e
 
 WinMes07:
 chara_type 0
+//即興の武器ばかりだが、槍だけは特別だ。
+//ゼリア・アッフェンバウムの永久凍土……
+//壊せぬものは数あれど、これが砕ける事はない。
 Though my weapons are mostly improvised, my spear 
-is different. Zaria Offenbaum's Permafrost... 
+is special. Zaria Offenbaum's Permafrost... 
 It will surely never shatter on me, even if there 
 are many things that it cannot break.
 \e
@@ -54,6 +70,9 @@ are many things that it cannot break.
 // 対ロア Versus Roa
 WinMes08:
 chara_type 1
+//……これでいい。
+//次のおまえなどおれは知らん。
+//ただ一度、貴様の悲願を阻めば、おれの勝ちだ。
 This is satisfactory.
 I don't care who the next you will be.
 Having thwarted your ambitions just once is enough for me.
@@ -62,6 +81,9 @@ Having thwarted your ambitions just once is enough for me.
 // 対シエル Versus Ciel
 WinMes09:
 chara_type 0
+//……人間とは思えぬ剣術だった。
+//……残念だ。我が八番目の妻と似ていなければ、
+//おれも勇気をだしたものを。
 I would not figure you human from your swordsmanship...
 What a pity... If only you hadn't looked so much like
 my 8th wife, I would have faced you with more valor.
@@ -70,6 +92,10 @@ my 8th wife, I would have faced you with more valor.
 // 対アルク Versus Arcueid
 WinMes10:
 chara_type 0
+//……ようやく止まったか。
+//これでまだ眠っているというのだから恐れ入る。
+//―――この女が持つ原理は、おれのような
+//田舎者には高尚すぎるか……？
 She's finally come to a stop...
 And that was with her still in slumber. Most impressive.
 The Principle this woman bears is perhaps something too 
@@ -84,13 +110,17 @@ noble for a backwater person like me...
 
 WinMes3WinStreak00:
 chara_type 0
+//……やるな。
+//これは、長い狩りになりそうだ。
 Not bad. 
 I sense this hunt will be a long one.
 \e
 
 WinMes10WinStreak00:
 chara_type 0
+//技量があり、天運があり、なにより忍耐がある……
+//ジェド・マロース並の偉人と言わざるをえない……
 You have talent, good fortune and 
-of most importance, perseverence. 
+of most importance, perseverance. 
 I must admit... your greatness is on par with Ded Moroz himself.
 \e

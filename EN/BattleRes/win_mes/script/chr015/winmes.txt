@@ -159,6 +159,9 @@ chara_type 101
 //………すごい生き物だったわね。
 //宝石の爺さんの仕業かなあ。
 //どこの世界の邪神よ、今の。
+What an amazing creature...
+Is this the work of the ol' jewel man?
+And just what world did this evil god come from, huh?
 \e
 
 // 対ロア（ストーリー専用） Versus Roa (story only)

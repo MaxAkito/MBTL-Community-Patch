@@ -3,6 +3,10 @@ WinMesScript
 
 WinMes00:
 chara_type 0
+//翡翠ちゃん、指だして指！
+//あ……はい、こうですか姉さん？
+//はい、せーのっ、
+//ぶいなのだー♪
 Hisui, quick! Hold up your fingers like this!
 What? Oh... Like this?
 Yeah! Ready?!
@@ -12,6 +16,8 @@ V for victory! ♪
 
 WinMes01:
 chara_type 0
+//やりました、姉妹の絆の勝利です！
+//とはいえ。これはやりすぎです、姉さん。
 We did it! A victory for the bonds of sisterhood!
 I think we may have gone a little overboard, Kohaku.
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0, 0,112,32>
@@ -19,6 +25,8 @@ I think we may have gone a little overboard, Kohaku.
 
 WinMes02:
 chara_type 0
+//ええっと、次のお掃除先は……
+//地図によるとあちらのようです。急ぎましょう。
 Let's see, where are we to clean next?
 According to the map, it's this way. Let us do hurry.
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0, 0,112,32>
@@ -26,6 +34,9 @@ According to the map, it's this way. Let us do hurry.
 
 WinMes03:
 chara_type 0
+//……わたしたちの勝ち……ですか？
+//勝ちも勝ち、間違いなく大勝利よ翡翠ちゃん！
+//…………はい。なんだか、恥ずかしいですね。
 Did... we win?
 More than just win! We scored an overwhelming victory!
 I see... Somehow, it feels a bit embarrassing...
@@ -34,6 +45,8 @@ I see... Somehow, it feels a bit embarrassing...
 
 WinMes04:
 chara_type 0
+//街に巣くう悪魔は、こうして監獄行きになるんですっ。
+//……姉さんも気をつけるべきだと思います……
 All fiends who infest this city are headed straight to prison.
 That means you should probably be careful too, Kohaku...
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0, 0,112,32>
@@ -42,6 +55,9 @@ That means you should probably be careful too, Kohaku...
 
 WinMes05:
 chara_type 0
+//……ふう。姉さん怪我はありませんでしたか？
+//大丈夫よ。けど今回はちょっとやばかったね。
+//……はい。姉さんもお疲れさまでした。
 Phew... Are you all unhurt, Kohaku?
 Of course. That was a close one though, wasn't it?
 Indeed... Good work, Kohaku.
@@ -50,6 +66,10 @@ Indeed... Good work, Kohaku.
 
 WinMes06:
 chara_type 0
+//―――業務完了です。失礼をお許し下さい。
+//ううん、素敵よ翡翠ちゃん！
+//仕事とあらば誰であろうとお掃除するところ、
+//お姉ちゃん大好きです！
 That concludes our business. Please excuse our intrusion.
 That was wonderful, Hisui!
 I love seeing you hard at work cleaning someone's
@@ -59,6 +79,10 @@ clock like that, Sis!
 
 WinMes07:
 chara_type 0
+//ふう、中々の大仕事でした。翡翠ちゃん、怪我はない？
+//はい。それより姉さん、着物の帯が……
+//おっと危ない危ない。
+//次は翡翠ちゃんみたいな洋服に着替えましょうか？
 Phew, that was quite taxing. Hisui, are you alright?
 I'm fine. But your kimono obi...
 Oh, whoops. Let me just fix that...
@@ -69,6 +93,9 @@ Maybe I'll wear something more more
 
 WinMes08:
 chara_type 0
+//翡翠ちゃん、ちょっと休んでいきません？
+//職務怠慢と秋葉様にご報告しますが？
+//あーうち……翡翠ちゃん、密告グセついてない？
 Hisui, why don't we take a short break?
 Sure, but I will report your negligence to Lady Akiha.
 Drat! You just can't help tattling, can you?
@@ -78,6 +105,8 @@ Drat! You just can't help tattling, can you?
 // 対志貴 Versus Shiki
 WinMes09:
 chara_type 0
+//どうです志貴さん、このバツグンのコンビネーション！
+//……申し訳ありません、志貴さま。
 What do you think of our excellent teamwork, Shiki?
 I am deeply sorry, Master Shiki.
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0, 0,112,32>
@@ -86,6 +115,9 @@ I am deeply sorry, Master Shiki.
 // 対秋葉 Versus Akiha
 WinMes10:
 chara_type 0
+//お許し下さい秋葉様。
+//ストライキ中ですので、武力行使を致しました。
+//……翡翠ちゃん、容赦なかったですねぇ……
 Please accept our apologies, Lady Akiha.
 As we are on strike, I saw it fit to employ force.
 Hisui, you didn't hold back at all...
@@ -95,6 +127,10 @@ Hisui, you didn't hold back at all...
 // 対ノエル(ストーリー専用) Versus Noel (story only)
 WinMesArcadeWin08:
 chara_type 0
+//くっ……！　あと一歩というところで
+//逃げられました！　フラッシュバンとか、小癪な！
+//姉さん、それより志貴様です……！
+//何か役に立つ薬をお願いします……！
 That was close! She got away just as we were so close 
 to catching her! Flash bangs are such a dirty trick!
 More importantly Kohaku, we need to attend to Master Shiki...!
@@ -109,6 +145,8 @@ I must request you bring out any medicine that could help...!
 
 WinMes3WinStreak00:
 chara_type 0
+//翡翠ちゃん！３連勝ですよ！３連勝！
+//貴方を、お見事です。
 Look, Hisui! Three wins in a row!
 You will be the... excellent.
 \\@LINE_CG@<0, 0, -128,0,112,32, 0,32,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0, 0,112,32>
@@ -116,6 +154,8 @@ You will be the... excellent.
 
 WinMes10WinStreak00:
 chara_type 0
+//姉さん、１０連勝です。
+//ふふふ、まさしく絆の勝利です！
 Ten consecutive wins, Kohaku.
 Heehee! No doubt thanks to our strong bond!
 \\@LINE_CG@<0, 0, -128,0,112,32, 0, 0,112,32>\\@LINE_CG@<1, 1, -128,0,112,32, 0,32,112,32>

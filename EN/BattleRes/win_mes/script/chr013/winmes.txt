@@ -3,12 +3,17 @@ WinMesScript
 
 WinMes00:
 chara_type 0
+//うーーーーーーー、
+//だぁーーーーーーー！
 Uuuu...
 Hyah!!
 \e
 
 WinMes01:
 chara_type 1
+//てや、そや、いぇーい！
+//どうだ、まいったかっ！
+//八極拳は二の打ち要らずだい！
 Hah! Hyah! Take that! Well?!
 Had enough?!
 Bajiquan needs no second strike!
@@ -16,30 +21,41 @@ Bajiquan needs no second strike!
 
 WinMes02:
 chara_type 102
+//やった、勝ったー！
+//これならお兄ちゃんも褒めてくれるよね！
 Yay! I did it!
 Shiki's sure to compliment me after that!
 \e
 
 WinMes03:
 chara_type 100
+//こうちょーこうちょー、ぜっこうちょう！
+//これも日頃のこんふーのたまものです！
 I'm in form! Perfect form!
 This is all thanks to my daily kung fu training!
 \e
 
 WinMes04:
 chara_type 2
+//子供だからってあまくみないでよね。
+//いまはちっちゃいけど、すぐに大きくなるんだからっ！
 Don't underestimate me just because I'm a kid! 
 I may be small now, but I'll grow up in no time!
 \e
 
 WinMes05:
 chara_type 104
+//あれ、空中でダッシュできてるよね、わたし？
+//んー……まあいっか、細かいコトは！
 Hold on, how is it I can dash in mid-air? Hmm... 
 Well whatever, probably best not to think too much about it.
 \e
 
 WinMes06:
 chara_type 1
+//強いのは当たり前だよ、
+//うちには道場があるんだから！
+//……うん、ずっと使われてなかったのは、ひみつ。
 Of course I'm strong! 
 I've got a dojo at home after all! 
 I'll just keep it a secret that nobody ever used it...
@@ -47,30 +63,40 @@ I'll just keep it a secret that nobody ever used it...
 
 WinMes07:
 chara_type 4
+//いたた、げんこつしてたらしびれちゃった。
+//……うう、まだこんふーが足りないなあ……
 Ouchie, clenching my fists hurts. 
 Looks like my kung fu skills still need work...
 \e
 
 WinMes08:
 chara_type 101
+//剛よく柔をたつ！
+//へーんだ、そんなひよひよな打撃じゃぜんぜんきかないよーだ！
 The sword is mightier than the pen!
 Ha-haa, I don't feel your teensy-weensy punches at all! 
 \e
 
 WinMes09:
 chara_type 103
+//今日の修行はこれでおしまい。
+//あとはぁ、遠野のお屋敷をカンシしにいかなくちゃ！
 That's enough practice for today. 
 Now time to go monitor the Tohno mansion!
 \e
 
 WinMes10:
 chara_type 1
+//ふゃあ、汗かいちゃった。
+//……うん、今日はつかれたからおやすみおやすみ。
 What a workout. I'm exhausted.
 Time to get some sleep.
 \e
 
 WinMes11:
 chara_type 103
+//いけないいけない、弱いものいじめはカッコワルイよね。
+//お兄ちゃんの妹は正義のミカタ、なんだから
 Stop that! 
 Don't you know bullying people weaker than you is lame?
 I'm Shiki's sister, a hero who fights for justice. 
@@ -79,6 +105,9 @@ Watch out!
 
 WinMes12:
 chara_type 3
+//ふしぎ、わたしのトーロ、強くなってる？
+//昨日まではできなかったコトが、今日できるようになっている……
+//そっか、成長期ってヤツだ！
 How strange. Are my stances getting better?
 Things I couldn't do yesterday seem almost easy today. 
 Oh, I get it! This is that growth spurt thing I've heard about!
@@ -88,6 +117,8 @@ Oh, I get it! This is that growth spurt thing I've heard about!
 // 有間都古（同キャラ） Versus Miyako (mirror match)
 WinMes13:
 chara_type 2
+//う、うらやましくなんてないんだからっ。
+//なによ、ニセモノのくせにキレイな髪しちゃって、ふんだっ。
 Y-You think just because you have better-looking hair
 that I'd be jealous? Hmph, you're just an impostor!
 \e
@@ -95,6 +126,8 @@ that I'd be jealous? Hmph, you're just an impostor!
 // 対遠野志貴 Versus Tohno Shiki
 WinMes14:
 chara_type 104
+//お兄ちゃんゲットー！
+//えへへ、帰ったら宿題を見てもらうんだー♪
 Caught you, Shiki! Ehehe... 
 You're gonna look over my homework after we get back home.
 \e
@@ -103,6 +136,10 @@ You're gonna look over my homework after we get back home.
 // 対軋間紅摩（ストーリー専用） Versus Kishima Kouma (story only)
 WinMesArcadeWin06:
 chara_type 4
+//あわわ……いきおいで戦っちゃったけど、
+//すっごく礼儀ただしいひとだった……
+//え？　お兄ちゃんはこっち？　連れて帰っていい？
+//ありがとう、どっかくのひと！
 Oh, oops... I just kinda went ahead and fought him.
 He was a reeaally polite too...
 What? My brother is this way? I can take him with me?
@@ -112,6 +149,9 @@ Thanks, Mr. Lone-Horn!
 // 対シエル（ストーリー専用） Versus Ciel (Story only)
 WinMesArcadeWin11:
 chara_type 2
+//《謝々＜シェシェ＞、めっちゃ参考になりました、マーマ先輩！
+//え―――ひゃあああ！？
+//は、はい、マーマじゃなくてシスターでした、シスター先輩！
 Xie-xie. I learned a lot from that, Mommy!
 Whoops! Wait!
 R-Right, you're not a Mommy... you're a Sister!
@@ -125,6 +165,8 @@ R-Right, you're not a Mommy... you're a Sister!
 
 WinMes3WinStreak00:
 chara_type 102
+//よーし、ノッてきたー！
+//三回連続で勝っちゃうとか、もうまぎれもない実力だよね！
 Alright! Winning three times in a row that's like...
 Whoa... You're the real deal!
 \e
@@ -132,13 +174,16 @@ Whoa... You're the real deal!
 
 WinMes10WinStreak00:
 chara_type 0
+//すっごーい、１０連勝だー！
+//もう達人クラスなのではないでしょーか……
+//わたしはわたしの将来がおそろしい……
 Wow! Ten whole wins!
 Doesn't this mean I'm basically a martial artist master...
 My future potential scares even myself...
 \e
 
 
-//隠しキャラ解放シーン　テスト (test message?)
+//隠しキャラ解放シーン　テスト
 UnlockMes00:
 chara_type 2
 unlock message

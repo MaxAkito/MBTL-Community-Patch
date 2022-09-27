@@ -150,8 +150,10 @@ I guess God doesn't save everyone!
 // 対ネコアルク Versus Neco-Arc
 WinMes12:
 chara_type 4
-ちょっと、近寄らないでよね！
-仲間認定とかしたら、マジ殺すから、ホント！
+//ちょっと、近寄らないでよね！
+//仲間認定とかしたら、マジ殺すから、ホント！
+Hey! You better get away from me!
+If you ever see me as a friend I'll actually kill you, for real!
 \e
 
 // 対志貴（ストーリー専用）  Versus Shiki (story only)

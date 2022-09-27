@@ -3,6 +3,9 @@ WinMesScript
 
 WinMes00:
 chara_type 0
+//やるじゃないか負け犬。
+//その芸風、見かけ以上に面白かったぜ。
+//一命をとりとめたんなら、サーカスに売り込みにいけ。
 Not bad, weakling. 
 Your little performance was far more enjoyable 
 than expected. If you make it out of here alive, 
@@ -11,6 +14,9 @@ perhaps you should consider joining a circus!
 
 WinMes01:
 chara_type 0
+//それじゃあ腹ごしらえといくか。
+//献血に協力してもらうぜ？
+//見かけ通り、慢性的な貧血でね。
 That left me a bit hungry. You wouldn't mind if I took a
 teensy donation of blood, would you? See, I suffer from a
 chronic case of anemia, as you might be able to tell.
@@ -18,12 +24,18 @@ chronic case of anemia, as you might be able to tell.
 
 WinMes02:
 chara_type 2
+//黒コゲ死体いっちょうあがり！
+//あとは路地裏の野犬どもを愉しませてやるといい！
 One charred corpse coming up! Now all that's left is to 
 let the strays in the back alleys have some fun with it!
 \e
 
 WinMes03:
 chara_type 1
+//……終わってしまえば実に興醒めですね、
+//戦いというヤツは。嗜虐の悦びは生かしてこそ。
+//君もそう思わな……
+//ああ、失礼。とっくに息絶えていたようだ。
 And so the battle comes to an end, together with my fun.
 You've gotta enjoy the hurting as long as you can, wouldn't
 you sa-- Oh excuse me, seems you stopped breathing ages ago.
@@ -31,6 +43,9 @@ you sa-- Oh excuse me, seems you stopped breathing ages ago.
 
 WinMes04:
 chara_type 0
+//愉しませてくれた礼だ、人間らしく葬ってあげよう。
+//……喜びなさい。火葬ならぬ雷葬などと、
+//まず味わえない地獄ですよ？
 In my gratitude for you in allowing me to enjoy myself, 
 I'll do the only humane thing and bury you... Rejoice! 
 Not many people have ever had the honor of experiencing 
@@ -39,24 +54,34 @@ the hellish sensation of being cremated by lightning.
 
 WinMes05:
 chara_type 2
+//悪いねえ、随分と手間取らせて。
+//一撃で首をイカせてやれればいいんだが、
+//ありゃあアレで技術がいる。
+//いや、昔のサムライってのは大したものさ。
 Sorry about that. It took longer than I expected. I would
-have liked to send your head rolling with a single attack,
+have liked to send your head rolling with a single strike,
 but that actually requires more technique than you'd think. 
 Sure makes you respect the samurai of old, doesn't it?
 \e
 
 WinMes06:
 chara_type 0
+//そう動くな、血が零れる。
+//今日は地面の血をすする気分じゃない。
+//たまには吸血鬼らしく振る舞いたい。
 Stop moving around, will you? 
 Your blood's gonna spill and I don't feel like 
-drinking off the ground today. I have to act 
-like a proper vampire at least once in a while.
+drinking off the ground today. I would like to act 
+as a proper vampire at least once in a while.
 \e
 
 // 対志貴 Versus Shiki
 WinMes07:
 chara_type 2
-You said that what you and I see aren't the same.
+//オレが視ているモノは違うだと？
+//ハ、同じだよ！　行き着くところは
+//バラバラになるだけなんだからな！
+You said what you and I see aren't the same.
 Hah, but they are! At the end of the day,
 all they do is just cut things to pieces!
 \e
@@ -64,6 +89,9 @@ all they do is just cut things to pieces!
 // 対アルクェイド Versus Arcueid
 WinMes08:
 chara_type 1
+//……真祖であれ故障する、か。
+//傷一つでここまで価値がなくなるとは。
+//なるほど。完全なるものの唯一の欠点だな。
 So even a True Ancestor can malfunction, huh? 
 Just a single scratch, and its worth has plummeted this much.
 Right, that must be the sole flaw of a perfect being.
@@ -72,7 +100,11 @@ Right, that must be the sole flaw of a perfect being.
 // 対シエル Versus Ciel
 WinMes09:
 chara_type 0
-You know you're completely wasting your potential, Sister?
+//せっかくのポテンシャルが台無しだぜシスター？
+//オレならもっと上手く使ってやれるんだが……
+//ああ、勿体ない勿体ない、そんな才能がここで
+//潰されるなんて、本当に勿体ないなあ……！
+You know you're completely wasting your potential, right, Sister?
 I could've put it to much better use than you...
 It really is a damn shame to put an end to someone with
 so much talent! Truly a waste!
@@ -81,6 +113,10 @@ so much talent! Truly a waste!
 // 対秋葉 Versus Akiha
 WinMes10:
 chara_type 1
+//……ふむ。この個体相手だと手足の感覚が
+//いささか落ちるな。
+//愛情によるものか、情欲によるものか、
+//私には判断はつかないがね。
 Hmm...? The sensations in my current body do dampen 
 somewhat when I'm fighting this particular girl...
 Perhaps it's because of love... perhaps because of lust...
@@ -90,6 +126,8 @@ I can't really tell, either way.
 // 対吸血鬼 Versus Vampire
 WinMes11:
 chara_type 0
+//ひどい夜だ。そう思わないかご同輩？
+//あの月の光すら、オレには眩しすぎて気が滅入る。
 What an awful night... Wouldn't you agree, 
 my fellow vampire? It's a bit depressing, really.
 Even the moonlight is too bright for me.
@@ -98,6 +136,10 @@ Even the moonlight is too bright for me.
 // 対武装シエル Versus Powered Ciel
 WinMes12:
 chara_type 0
+//七つの死因に分けての使用ですか。
+//何を警戒しての出し惜しみかは
+//知りませんが、
+//次は『本体』を連れてきなさい。
 Using the Seven Causes of Death in their split-up form?
 I'm not sure what you're so worried about that you'd
 hold back like that. Next time you should bring 
@@ -107,6 +149,9 @@ out the real deal instead.
 // 対志貴(ストーリー専用) Versus Shiki (story only)
 WinMesArcadeWin03:
 chara_type 1
+//……残念だ、何も変わっていなかったとは。
+//君であれば、この変異ごと解体できると
+//期待していたのだが……
 What a shame. Looks like nothing has changed.
 I was hoping that at least YOU would've been able to
 cut me apart, alongside this deviation of events...
@@ -115,11 +160,15 @@ cut me apart, alongside this deviation of events...
 // 対シエル(ストーリー専用) Versus Ciel (story only)
 WinMesArcadeWin11:
 chara_type 0
+//おまえにとって過度な武装は枷になる。
+//奇跡のような肉体を人の知恵で拘束している
+//ようなものだ。異端を嫌悪する前に、
+//自らの超越性と向き合うがいい。
 For you, those excessive weapons are nothing but a shackle.
 You've practically put your miraculous body into bondage. 
 Indeed, the bondage of human knowledge. 
 Before you go condemning other heresies, I think you'd best
-come to terms with your own otherwordliness first.
+come to terms with your own otherworldliness first.
 \e
 
 
@@ -130,6 +179,8 @@ come to terms with your own otherwordliness first.
 
 WinMes3WinStreak00:
 chara_type 0
+//素晴らしい……。
+//貴方といれば血に困ることもなさそうです。
 Splendid. I see there will be no lack
 of blood to drink with you around.
 \e
@@ -137,6 +188,8 @@ of blood to drink with you around.
 
 WinMes10WinStreak00:
 chara_type 2
+//おう、やるもんだ！
+//世が世なら下僕にしていたかもな！
 Hey, you're pretty good! 
 Under other circumstances, I would've made you my underling!
 \e

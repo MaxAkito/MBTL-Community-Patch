@@ -202,22 +202,29 @@ I'm sure your brother is quite proud of your outstanding
 leadership abilities, considering how young you are.
 \e
 
-// シエルＢシナリオ　対アルクェイド（ストーリー専用）
+// シエルＢシナリオ　対アルクェイド（ストーリー専用） Ciel B story versus Arcueid (story only)
 WinMesArcade01Win00:
 chara_type 900
-ああもう、倒しても倒しても元気なんですから！
-こうなれば最後の手段です！
-遠野くん、ちょっと手伝ってもらえます！？
-ごめん先輩、ここは公平に見守ってます……。
+//ああもう、倒しても倒しても元気なんですから！
+//こうなれば最後の手段です！
+//遠野くん、ちょっと手伝ってもらえます！？
+//ごめん先輩、ここは公平に見守ってます……。
+Oh, c'mon! I keep beating you over and over yet you're as spry as ever!
+I suppose this means I have to take to my last resort!
+Shiki, could you help me out here for a bit?!
+Sorry, Ciel. I'm trying to watch over you two impartially here.
 \\@LINE_CG@<0, 0, -128,0,112,32, 0, 128,112,32>\\@LINE_CG@<1, 3, -128,0,112,32, 0,160,112,32>
 \e
 
-// シエルＢシナリオ　対死徒ノエル（ストーリー専用）
+// シエルＢシナリオ　対死徒ノエル（ストーリー専用） Ciel B story versus DA Noel (story only)
 WinMesArcade01Win14:
 chara_type 901
-ものすごく早口で色々話してくれましたけど、
-肝心なコトは何もわからなかったですね……。
-言わないでください。頭が痛くなります……。
+//ものすごく早口で色々話してくれましたけど、
+//肝心なコトは何もわからなかったですね……。
+//言わないでください。頭が痛くなります……。
+You kept going on about a bunch of stuff while talking super fast,
+so in the end, I didn't understand a thing about what you wanted to get said...
+And please don't talk now. I'm gonna have a headache...
 \\@LINE_CG@<0, 0, -128,0,112,32, 0, 160,112,32>\\@LINE_CG@<1, 2, -128,0,112,32, 0,128,112,32>
 \e
 

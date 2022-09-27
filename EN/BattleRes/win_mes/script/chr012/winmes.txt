@@ -3,6 +3,8 @@ WinMesScript
 
 WinMes00:
 chara_type 1
+//ƒKƒCƒh‚ÍŒ‹\‚Å‚·B“ú–{‚ÌŠX‚É‚ÍÚ‚µ‚¢‚Ì‚ÅB
+//‚Æ‚Í‚¢‚¦A‚±‚ÌŠX‚Í„‚Ì’m‚éŠX‚æ‚è“s‰ï‚Ì‚æ‚¤‚Å‚·‚ËB
 I do not require someone to guide me.
 After all, I am quite familiar with Japanese cities.
 That said, this city is far more urban than the one I know.
@@ -10,6 +12,9 @@ That said, this city is far more urban than the one I know.
 
 WinMes01:
 chara_type 0
+//€“kcc„‚Ì‘‚Å‚Í‚ ‚Ü‚è•·‚©‚È‚©‚Á‚½Œ¾—t‚Å‚·B
+//‘¾—z‚Éã‚¢‚Ì‚È‚çAƒKƒEƒFƒCƒ“‹¨‚ÌŒ•‚ğ
+//Ø‚è‚Ä‚­‚é‚×‚«‚Å‚µ‚½‚©cc
 Dead Apostle...
 Not a phrase one would hear often back in my home country.
 Perhaps I should have borrowed Sir Gawain's sword
@@ -18,18 +23,26 @@ if they're so weak to sunlight.
 
 WinMes02:
 chara_type 1
+//‚±‚ê‚à‰½‚©‚Ì‰‚Å‚µ‚å‚¤B
+//„‚Ì—Í‚ª•K—v‚Å‚ ‚ê‚Î‚¨‘İ‚µ‚µ‚Ü‚·‚ªH
 Fate must have had a hand in this.
 I could lend you my strength should it prove necessary.
 \e
 
 WinMes03:
 chara_type 0
+//‘¼‚ÉƒT[ƒ”ƒ@ƒ“ƒg‚Í‚¢‚È‚¢‚æ‚¤‚Å‚·‚ËB
+//cc„A‚¤‚¢‚Ä‚¢‚È‚¯‚ê‚Î‚¢‚¢‚Ì‚Å‚·‚ªcc
 There don't seem to be any other Servants here.
 Hopefully I don't appear too out of place.
 \e
 
 WinMes04:
 chara_type 1
+//cc–°‚ç‚È‚¢•s–é‚ÌŠXcc
+//‚Æ‚±‚ë‚ÅA“sS‚É‚ ‚é[–é‚ÌˆùH“X‚Í
+//‚Æ‚Ä‚à”ü–¡‚µ‚¢‚Æ•·‚«‚Ü‚µ‚½B
+//‹ï‘Ì“I‚ÈZŠ‚Æ‚¨Š©‚ß‚ğĞ‰î‚µ‚Ä‚­‚¾‚³‚¢B
 A nightless city that never sleeps...
 Incidentally, I've heard these kinds of cities house many
 late-night dining establishments that serve especially
@@ -37,36 +50,47 @@ delicious food. May I trouble you to provide me with
 an address and menu recommendations?
 \e
 
-// ï¿½Îˆï¿½Êl Versus commoner (Kohaku, Hisui, Shiki, Akiha)
-// ï¿½Åï¿½ï¿½Eï¿½ï¿½ï¿½ßEï¿½Hï¿½tï¿½Eï¿½uï¿½M
+// ‘Îˆê”Êl Versus Commoner
+// ãÅ‰EàæàßEH—tEu‹M Hisui, Kohaku, Akiha, Shiki
 WinMes05:
 chara_type 1
+//cc‚Ó‚¤B‚È‚ñ‚Æ‚©‰ö‰ä‚ğ‚³‚¹‚¸‚ÉÏ‚İ‚Ü‚µ‚½B
+//Ÿ‚Í‚à‚Á‚ÆTd‚ÉA–Ú—§‚½‚È‚¢‚æ‚¤‚És“®‚µ‚È‚¯‚ê‚Îcc
 Phew...
 I'm glad I managed to finish this without causing injury.
 I must be more careful not to stand out as much next time.
 \e
 
-// ï¿½Î”\ï¿½Íï¿½ Versus superpowered person (Akiha, Vlov)
-// ï¿½Hï¿½tï¿½Eï¿½ï¿½ï¿½Aï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½
+// ‘Î”\—ÍÒ Versus Superpowered people
+// H—tEƒƒAEƒ”ƒ[ƒ” Akiha, Roa, Vlov
 WinMes06:
 chara_type 2
+//“G‚È‚ª‚çA–Ú‚ğŒ©’£‚éˆÙ”\‚Å‚µ‚½B
+//Ÿ‚Í‚»‚¿‚ç‚ÉŒR”z‚ª‚ ‚ª‚é‚©‚à‚µ‚ê‚Ü‚¹‚ñ‚ËB
 Though you are my enemy, I must admit.
 Your abilities are astonishing.
 I may find myself defeated next time we do battle.
 \e
 
-// ï¿½Î‹zï¿½ï¿½ï¿½S Versus Vampire (Vlov, Roa, DA Noel, Red Arc)
-// ï¿½ï¿½ï¿½Aï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Eï¿½\ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½N
+// ‘Î‹zŒŒ‹S Versus Vampires
+// ƒƒAEƒ”ƒ[ƒ”E–\‘–ƒAƒ‹ƒN Roa, Vlov, Red Arc
 WinMes07:
 chara_type 0
+//o‚ÉŠÒ‚é‚ª‚¢‚¢A‰ö•¨B
+//‰½•¨‚Å‚ ‚êA
+//lX‚ğ‹º‚©‚·–‚‚Å‚ ‚ê‚Îa‚è•š‚¹‚é‚Ì‚İ‚¾B
 Return to dust, monster.
 I shall strike down any evil which would threaten
 the populace, whatever form it may take.
 \e
 
-// ï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßiï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½[ï¿½ï¿½pï¿½j Versus Kohaku and Hisui (when they fight together)
+// ‘ÎãÅ‰•àæàßiƒXƒg[ƒŠ[ê—pj Versus Maids (story only)
 WinMesArcadeWin07:
 chara_type 0
+//ƒoƒcƒOƒ“‚ÌƒRƒ“ƒrƒl[ƒVƒ‡ƒ“‚¾‚Á‚½‚Ì‚Å
+//—D‚ê‚½ƒAƒTƒVƒ“‚¾‚Æv‚Á‚½‚Ì‚Å‚·‚ªcc
+//‚Ü‚³‚©A‚½‚¾‚¨’ƒ–Ú‚È‚¾‚¯‚ÌƒƒCƒh‚½‚¿‚¾‚Á‚½‚Æ‚Ícc
+//‚±‚ÌŠX‚Ì‹M‘°ŠK‹‰‚Í‚Ç‚¤‚È‚Á‚Ä‚¢‚é‚Ì‚Å‚µ‚å‚¤cc
 You two have such excellent teamwork that I mistook you
 for a pair of highly skilled Assassins. Little did I suspect
 you were merely a pair of mischievous maids. There's certainly
@@ -74,27 +98,32 @@ something strange about the nobility in this city.
 \e
 
 
-// 99ï¿½Ü‚Å’Ç‰ï¿½ï¿½Â”\
+// 99‚Ü‚Å’Ç‰Á‰Â”\
 
 
-// ï¿½Rï¿½Aï¿½ï¿½ï¿½Eï¿½Pï¿½Oï¿½Aï¿½ï¿½ï¿½ï¿½pï¿½Zï¿½ï¿½ï¿½t (win streak messages)
+// ‚R˜AŸE‚P‚O˜AŸê—pƒZƒŠƒt (win streak messages)
 
 WinMes3WinStreak00:
 chara_type 1
+//‘f°‚ç‚µ‚¢˜r‘O‚Å‚·B
+//‚±‚Ì‚Ü‚ÜŸ‚¿i‚İ‚Ü‚µ‚å‚¤B
 Excellent skills.
-Stay focused and let's keep up the good work.
+Let's keep the win streak going.
 \e
 
 
 WinMes10WinStreak00:
 chara_type 2
+//Š´•‚¢‚½‚µ‚Ü‚µ‚½B
+//‚ ‚È‚½‚Ì‚æ‚¤‚ÈƒvƒŒƒCƒ„[‚Éo‰ï‚¦‚ÄA„‚Í‚Æ‚Ä‚àŒÖ‚ç‚µ‚¢B
 Most impressive.
 I am honored to have met a player such as yourself.
 \e
 
 
-//ï¿½Bï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Vï¿½[ï¿½ï¿½ï¿½@ï¿½eï¿½Xï¿½g (story unlock message)
+//‰B‚µƒLƒƒƒ‰‰ğ•úƒV[ƒ“@ƒeƒXƒg (story unlock message)
 UnlockMes00:
 chara_type 0
+//ƒZƒCƒo[‚ÌƒXƒg[ƒŠ[‚ªŠJ•ú‚³‚ê‚Ü‚µ‚½B
 Saber story has been unlocked.
 \e

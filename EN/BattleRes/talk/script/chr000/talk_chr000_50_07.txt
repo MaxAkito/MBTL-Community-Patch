@@ -27,7 +27,11 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0000", 100>
 \\@TEXT_ID@<10>
 Volv
-That soul... pale as the sacred mountains...
+/*-comment-
+……その白い霊峰の如き魂……間違いはない。
+ようやく遭えたな、真祖の姫。
+*/
+A soul as pure white as the mountaintops...
 There's no doubt about it.
 We finally meet, Princess of the True Ancestors.
 
@@ -36,7 +40,11 @@ We finally meet, Princess of the True Ancestors.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0020", 100>
 \\@TEXT_ID@<20>
 Arcueid
-Who are you? Not a Dead Apostle I've seen before,
+/*-comment-
+誰、アナタ。覚えのない死徒だけど。
+ここ百年で出てきたニュービー？
+*/
+And who are you? Not a Dead Apostle I've seen before,
 at least. Some newbie who just popped up in these 
 last hundred years?
 
@@ -45,6 +53,9 @@ last hundred years?
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0001", 100>
 \\@TEXT_ID@<30>
 Volv
+/*-comment-
+……ヴローヴ・アルハンゲリ。
+*/
 Vlov Arkhangel...
 \l
 
@@ -52,6 +63,10 @@ Vlov Arkhangel...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0002", 100>
 \\@TEXT_ID@<40>
 Volv
+/*-comment-
+……一度だけだが、面識はある。
+……絶海より、貴様の影を追ってきた。
+*/
 We've met before, just once...
 I've been in pursuit of your shadow 
 from across the distant ocean...
@@ -61,6 +76,10 @@ from across the distant ocean...
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0003", 100>
 \\@TEXT_ID@<50>
 Volv
+/*-comment-
+……互いに、長居は無用だ。
+*/
+この街は腐るように暖かく、虚ろなほど寒い。
 But neither of us need stay here for long...
 This city is warm of rot... yet cold like the void.
 \l
@@ -69,6 +88,10 @@ This city is warm of rot... yet cold like the void.
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0004", 100>
 \\@TEXT_ID@<60>
 Volv
+/*-comment-
+おまえの首を断ち、その心臓を拝領する。
+―――おれの病は、それで癒やされる筈だ。
+*/
 I shall sever your head and be rewarded with your 
 heart... With that... my illness shall surely heal.
 
@@ -78,6 +101,10 @@ heart... With that... my illness shall surely heal.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0021", 100>
 \\@TEXT_ID@<70>
 Arcueid
+/*-comment-
+そう。予定に入っていなかったけど、
+死にたいのなら相手になってあげる。
+*/
 I see. I wasn't really planning on it,
 but if you want to die so badly, I'll help you out.
 \l
@@ -88,6 +115,10 @@ but if you want to die so badly, I'll help you out.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0022", 100>
 \\@TEXT_ID@<80>
 Arcueid
+/*-comment-
+安心なさい、跡形も残さないから。
+策を弄さず、正面から来た蛮勇に免じてね！
+*/
 Don't worry, I won't leave any traces of you behind.
 You know, out of consideration for your reckless 
 bravery in facing me head-on.

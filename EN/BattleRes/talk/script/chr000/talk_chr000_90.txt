@@ -19,6 +19,10 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0030", 100>
 \\@TEXT_ID@<10>
 Arcueid
+/*-comment-
+はーあ。あれだけ暴れたのに出てこないなんて。
+今回のアイツ、今までより我慢強い？
+*/
 *sigh* I've made all this fuss and he still 
 won't show himself. Does his current self have
 more restraint than usual?
@@ -27,6 +31,10 @@ more restraint than usual?
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0031", 100>
 \\@TEXT_ID@<20>
 Arcueid
+/*-comment-
+仕方ないけど、地道に捜すしかないか。
+人間みたいで面倒だけど―――
+*/
 Well, I've got no other choice but to search 
 the hard way. Hate how I have to go about it 
 like a human would.
@@ -37,6 +45,10 @@ like a human would.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0032", 100>
 \\@TEXT_ID@<30>
 Arcueid
+/*-comment-
+っと、あぶないあぶない、
+あやうく転ぶところだった！
+*/
 Oops, that was close.
 I almost fell!
 \l
@@ -44,6 +56,10 @@ I almost fell!
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0033", 100>
 \\@TEXT_ID@<40>
 Arcueid
+/*-comment-
+おかしいなあ、石につまづくなんて、
+そんな無駄な機能ついてないのに。
+*/
 Strange... I don't come with pointless
 functions like tripping over rocks.
 \l
@@ -51,6 +67,9 @@ functions like tripping over rocks.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0034", 100>
 \\@TEXT_ID@<50>
 Arcueid
+/*-comment-
+ヴローヴにやられた傷がまだ治ってないようね。
+*/
 Seems I still haven't recovered 
 from those wounds I got from Vlov.
 \l
@@ -58,6 +77,10 @@ from those wounds I got from Vlov.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0035", 100>
 \\@TEXT_ID@<60>
 Arcueid
+/*-comment-
+―――けど、なにかしら。
+ヘンに胸がドキドキしてる。
+*/
 But what is this...?
 My heart is beating weirdly fast.
 \l
@@ -65,6 +88,10 @@ My heart is beating weirdly fast.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0036", 100>
 \\@TEXT_ID@<70>
 Arcueid
+/*-comment-
+ふふ、明日にもロアが見つかるっていう
+報せならいいんだけど。
+*/
 Heheh, maybe it's a sign that I'll find
 Roa tomorrow. That'd be great.
 

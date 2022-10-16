@@ -1,7 +1,7 @@
 \\@SYSTEM@<9999>
-\\@LOAD_BATTLE_BG@<4>
-\\@FADE_IN@<0, 0, 0, 0, 0>
-
+\\@LOAD_BATTLE_BG@<4>//背景　公園_噴水前
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg04", 0, 2>//背景　公園_噴水前
 
 \\@SYSTEM@<0>
 \aw
@@ -25,6 +25,10 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0000", 100>
 \\@TEXT_ID@<10>
 Arcueid
+/*-comment-
+あきれた。宗旨替えにもほどがある。
+こんな極東の島国まで転生先に選ぶなんて。
+*/
 Unbelievable. Talk about a conversion. Why would a 
 priest pick this Far East island to reincarnate?
 \l
@@ -33,6 +37,10 @@ priest pick this Far East island to reincarnate?
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0001", 100>
 \\@TEXT_ID@<20>
 Arcueid
+/*-comment-
+よっぽど面白い条件でも見つけたのかしら。
+ま、わたしには関係のない話だけど。
+*/
 Did you discover some really interesting conditions
 here perhaps? Oh well, it doesn't really concern me.
 \l
@@ -41,6 +49,10 @@ here perhaps? Oh well, it doesn't really concern me.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0002", 100>
 \\@TEXT_ID@<30>
 Arcueid
+/*-comment-
+小さな街だし、あぶり出すのに３日もいらないわ。
+待っていなさいロア、すぐに片付けてあげるから。
+*/
 It's a small city; it won't even take 3 days to 
 smoke him out. Just you wait, Roa. I'll take care
 of you in no time.

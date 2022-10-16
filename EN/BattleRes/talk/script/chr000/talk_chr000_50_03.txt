@@ -1,10 +1,11 @@
 \\@SYSTEM@<9999>
 \\@LOAD_BATTLE_BG@<5>//背景　路地裏
-\\@FADE_IN@<0, 0, 0, 0, 0>
-
-
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg05", 0, 2, 0>//背景　路地裏
 \\@SYSTEM@<0>
 \aw
+
+\\@SYSTEM@<0>
 
 //\\@SYSTEM@<1>
 
@@ -30,6 +31,10 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0000", 100>
 \\@TEXT_ID@<10>
 Noel
+/*-comment-
+うっわぁ真祖でたーーー！？
+ちょっと待ってちょっと待って、これ基本業務外～！
+*/
 Whoa! A True Ancestor?! Wait-wait-wait!
 This isn't part of my job description!
 
@@ -39,6 +44,10 @@ This isn't part of my job description!
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0010", 100>
 \\@TEXT_ID@<20>
 Arcueid
+/*-comment-
+教会の代行者……？　そんな性能でよく
+今まで生き残ってこられたわね。
+*/
 An Executor of the Church...? I'm impressed you've
 survived up until now with your capabilities.
 \l
@@ -49,6 +58,10 @@ survived up until now with your capabilities.
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0011", 100>
 \\@TEXT_ID@<30>
 Arcueid
+/*-comment-
+邪魔にもならなそうだし、
+見なかったコトにしてもいいんだけど……
+*/
 I doubt you'll prove much trouble,
 so I could pretend I never saw you, but...
 \l
@@ -60,12 +73,19 @@ so I could pretend I never saw you, but...
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0012", 100>
 \\@TEXT_ID@<40>
 Arcueid
+/*-comment-
+うん。アナタからすっごく嫌いなヤツの
+匂いがするし、
+*/
 Yeah. You reek of someone I happen to hate!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0013", 100>
 \\@TEXT_ID@<50>
 Arcueid
+/*-comment-
+ここで退場してもらおっかな！
+*/
 Guess I'll get rid of you after all!
 
 
@@ -78,6 +98,10 @@ Guess I'll get rid of you after all!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0001", 100>
 \\@TEXT_ID@<60>
 Noel
+/*-comment-
+ひいぃぃ、人違い、人違いです～～！
+名前似てるけど！　性格真逆だから！
+*/
 Eeep! Wait! You've got the wrong person!
 Our names are similar, but our personalities
 are complete opposites!
@@ -90,6 +114,9 @@ are complete opposites!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0002", 100>
 \\@TEXT_ID@<70>
 Noel
+/*-comment-
+ってもうやる気マックスだし、この真祖！
+*/
 Oh no, the True Ancestor has 
 already made up her mind about this!
 \l
@@ -99,6 +126,10 @@ already made up her mind about this!
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0003", 100>
 \\@TEXT_ID@<80>
 Noel
+/*-comment-
+ああもう、こうなったらやってやるわよ！
+生き汚い下っ端の底力、舐めないでよね！
+*/
 Ugh, if that's the case, so be it! But don't 
 underestimate how strong even an unsightly 
 nobody can be!

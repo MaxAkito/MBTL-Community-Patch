@@ -245,7 +245,7 @@ WinMes3WinStreak00:
 chara_type 3
 //３連勝、お見事です！
 //今日はノッているとみました！
-Great work on the three consecutive wins!
+Great work on the three straight wins!
 I can see you're doing better than ever today!
 \e
 
@@ -257,7 +257,7 @@ chara_switchframe 615
 //わたしも緊張してきました……
 //深呼吸、深呼吸……
 //さあ、更なるレコードを築きましょう！
-Ten straight wins is nothing to scoff at!
+Ten straight wins is a big deal!
 I'm getting nervous as well...
 Deep breaths, deep breaths...
 Okay, let's keep going for ever grander records!

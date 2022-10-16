@@ -24,15 +24,19 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0133", 100>
 
 Mash
+/*comment
 はい、ネコアルクさんの戦いのおかげで、
 宝具充填１００％です！
+*/
 \l
 
 \\@CHARA_IN@< 0, 20, 215, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0134", 100>
 
 Mash
+/*comment
 ゲート、開きます！
+*/
 
 
 \\@SE_PLAY@<0, "talk/talk_se/Cmn_RayShift", 0, 100>
@@ -46,97 +50,125 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0330", 100>
 
 Neco_Arc
+/*comment
 はい。と言うワケで、このＭＢ界はＭＢ界に
 よく似た悪夢のネコワールドだったンだ。
+*/
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0331", 100>
 
 Neco_Arc
+/*comment
 だがアタシは挫けない。諦めない。回線切らない。
 ネコはいつだって夏への扉を探すものだから。
+*/
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0090", 100>
 
 Mash
+/*comment
 ふふ。
 ネコアルクさんはロマンチストなのですね。
+*/
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0332", 100>
 
 Neco_Arc
+/*comment
 ふふ、よせやい。
 アタシは猫に優しい主人公を評価しているだけさ。
+*/
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0333", 100>
 
 Neco_Arc
+/*comment
 それよりマシュ君。
 出口のほうはどう？　見えてきた？
+*/
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0091", 100>
 
 Mash
+/*comment
 はい。シバによるとあと４０秒でもっとも近い
 並行世界に転移するようです。
+*/
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0092", 100>
 
 Mash
+/*comment
 ゲート間の移動も安定しています。
 これもネコアルクさんのおかげですね。
+*/
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0093", 100>
 
 Mash
+/*comment
 カルデアの技術ではこんな事はできません。
+*/
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0334", 100>
 
 Neco_Arc
+/*comment
 合わせ技。合わせ技だよ、マシュ君。
 いちばん強いのは信じるふたり。繋ぎ合う手なンだ。
+*/
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0335", 100>
 
 Neco_Arc
+/*comment
 アタシたちはもう仲間なンだ。
 一緒にＭＢ界を正そうじゃーないか。
+*/
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0094", 100>
 
 Mash
+/*comment
 はい！
 人理を破壊しようする方に容赦はしません！
+*/
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0095", 100>
 
 Mash
+/*comment
 マシュ・キリエライト、
 どんな結末が待っていても心を鋼にする覚悟です！
+*/
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0336", 100>
 
 Neco_Arc
+/*comment
 ふふ、なんて頼もしい。
 まさに正義の女神と言わざるをえない。
+*/
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0337", 100>
 
 Neco_Arc
+/*comment
 皆さんも、最後の落ちまで見えてきましたね？
 あーあ、イヤな予感しかしねえニャーーーァ！
+*/
 
 
 

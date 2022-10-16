@@ -22,8 +22,10 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0060", 100>
 
 Mash
+/*comment
 ここがネコアルクさんの目的地……
 まるでお城のようです。
+*/
 \l
 
 //カメラを固定しておく
@@ -34,8 +36,10 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0061", 100>
 
 Mash
+/*comment
 どこもかしこも手入れが行き届いていて、
 細やかな心遣いが感じられます。
+*/
 \l
 
 \\@CHARA_SET_PATTERN@<4, 203>//はにかみ
@@ -43,8 +47,10 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0062", 100>
 
 Mash
+/*comment
 きっと素敵な当主様なのでしょうね。
 優しくて、明るくて、おきれいな。
+*/
 
 \\@SYSTEM@<102>
 
@@ -52,15 +58,19 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0300", 100>
 
 Neco_Arc
+/*comment
 うん、まあだいたい合ってる。
+*/
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0301", 100>
 
 Neco_Arc
+/*comment
 お嬢は敵対するとめっちゃ怖いけど、
 基本は良家のお嬢様だからニャー。
+*/
 \l
 
 //セリフのタイミングに合わせてフライパンが飛んでくるように判定データで調整
@@ -73,8 +83,10 @@ Neco_Arc
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0302", 100>
 
 Neco_Arc
+/*comment
 むしろ注意すべきは使用人の方ニャんだよ。
 気をつけろ、特に箒持ってる方はこべぇぇえええ！？
+*/
 
 \\@CHARA_SET_MVNAME@<5, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
 \\@CHARA_SET_MVNAME@<6, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
@@ -91,8 +103,10 @@ Neco_Arc
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0063", 100>
 
 Mash
+/*comment
 ネコアルクさん！？
 だいじょうぶですか！？
+*/
 
 \\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>//フライパン削除
 \\@CHARA_SET_MVNAME@<7, "InitCameraKeep">//camera初期化
@@ -104,8 +118,10 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0303", 100>
 
 Neco_Arc
+/*comment
 う、うん、なんとかね。
 ところで、これはどういう歓迎なのかなメイド君？
+*/
 
 \\@NPC_LOAD_SYNC@<6, 1, 320, 0, 1>
 \\@CHARA_SET_MVNAME@<6, "FadeIn">
@@ -119,8 +135,10 @@ Neco_Arc
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0090", 100>
 
 Hisui
+/*comment
 たいへん失礼いたしました。
 今のは調理に使っていたフライパンです。
+*/
 \l
 
 
@@ -128,8 +146,10 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0091", 100>
 
 Hisui
+/*comment
 返しの練習をしていたところ指が滑りました。
 お気に召していただけたのなら幸いです。
+*/
 
 \\@CHARA_SET_PATTERN@<5, 38>
 \\@SYSTEM@<101>
@@ -138,8 +158,10 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0304", 100>
 
 Neco_Arc
+/*comment
 ん、そっか☆
 事故ならしょうがないか☆
+*/
 \l
 
 \\@CHARA_SET_PATTERN@<5, 0>
@@ -147,8 +169,10 @@ Neco_Arc
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0305", 100>
 
 Neco_Arc
+/*comment
 じゃあちょっと失礼しますね。
 アタシたちは当主に用があるので。
+*/
 
 
 \\@SYSTEM@<102>
@@ -156,29 +180,37 @@ Neco_Arc
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0092", 100>
 
 Hisui
+/*comment
 当家の主人は多忙につき、現在、
 面会はお断りしております。ですが―――
+*/
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0093", 100>
 
 Hisui
+/*comment
 お客様にも事情がおありのようですね。
+*/
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0094", 100>
 
 Hisui
+/*comment
 どうしても、と仰るのでしたら、
 特別にお伺いをたててまいります。
+*/
 \l
 
 \\@CHARA_SET_PATTERN@<6, 100>//hisui どうぞ
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0095", 100>
 
 Hisui
+/*comment
 それまでどうぞ、こちらへ。
 迎賓室にご案内いたします。
+*/
 
 \\@CHARA_SET_PATTERN@<6, 101>//hisui どうぞ→てくてく撤退
 
@@ -192,8 +224,10 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0306", 100>
 
 Neco_Arc
+/*comment
 ほんと？　迎賓室ってネコ缶バーある？
 ない？　ドリンクバーだけ？　やっさすぃー。
+*/
 \l
 
 \\@NPC_LOAD_SYNC@<5, -2, -320, 0, 1>
@@ -201,8 +235,10 @@ Neco_Arc
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0307", 100>
 
 Neco_Arc
+/*comment
 まあいいや、行こうぜマシュ君！
 リフレッシュのチャンスは逃がさねー！
+*/
 
 \\@CHARA_IN@< 0, 20, 203, 11, 0>
 \aw
@@ -211,8 +247,10 @@ Neco_Arc
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0064", 100>
 
 Mash
+/*comment
 いえ。気をつけてください、ネコアルクさん。
 そのメイドの方は危険です。
+*/
 \l
 
 
@@ -220,15 +258,19 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0065", 100>
 
 Mash
+/*comment
 端末ではありますが、シールドに内包された
 近未来観測レンズ・シバが、
+*/
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0066", 100>
 
 Mash
+/*comment
 １分後のネコアルクさんに
 『死亡』ステータスを表示しています！
+*/
 
 \\@CHARA_IN@< 1, 19, 108, 12, 0>
 \aw
@@ -240,16 +282,20 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0308", 100>
 
 Neco_Arc
+/*comment
 そなの？
 でもこのウェルカムワイン、中々だぜ？
+*/
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0309", 100>
 
 Neco_Arc
+/*comment
 この喉に詰まるような異物感はどうだ……
 例えるなら体が別の何かに乗っ取られるような……
+*/
 
 
 
@@ -275,8 +321,10 @@ Neco_Arc
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNhi/NpcNhi08_0000", 100>
 
 Neco_Hisui
+/*comment
 っていうか乗っ取られた。
 こんにちは。ネコヒスイです。
+*/
 \l
 
 \\@CHARA_SET_PATTERN@<7, 5>//悪だくみ
@@ -284,8 +332,10 @@ Neco_Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNhi/NpcNhi08_0001", 100>
 
 Neco_Hisui
+/*comment
 ふふ。マシュ君もいっぱい、いっとく？
 メイドになればどんな殺人ケーキも思いのまま、だぜ？
+*/
 
 
 \\@SYSTEM@<101>
@@ -293,8 +343,10 @@ Neco_Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0067", 100>
 
 Mash
+/*comment
 精神に異常をきたす薬物を検知、
 カルデア式解毒メソッドを実行します！
+*/
 \l
 
 
@@ -302,8 +354,10 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0068", 100>
 
 Mash
+/*comment
 ごめんなさい、ネコアルクさん！
 助ける方法はこれしかありません……！
+*/
 
 
 \\@CHARA_SET_PATTERN@<7, 44>//
@@ -312,8 +366,10 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNhi/NpcNhi08_0002", 100>
 
 Neco_Hisui
+/*comment
 ワオ、すっごい判断力。
 １分後に死亡って、そういうコト？
+*/
 
 
 

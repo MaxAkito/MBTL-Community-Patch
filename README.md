@@ -258,8 +258,8 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | Aoko      (015) | Play-testing adjustments (Petri) |
 | P. Ciel   (016) | Play-testing adjustments (Petri) |
 | Mario     (017) | Play-testing adjustments (Petri) |
-| Neco-Arc  (019) | N/A                              |
-| Mash      (020) | N/A                              |
+| Neco-Arc  (019) | Translation complete     (Petri) |
+| Mash      (020) | Translation complete     (Petri) |
 
 ### Strings
 

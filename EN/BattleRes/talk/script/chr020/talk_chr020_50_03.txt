@@ -27,6 +27,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0161", 100>
 \\@TEXT_ID@<20>
 Mash
+/*-comment-
 世界から隔絶された空間。
 未来も過去も曖昧な泡沫状態―――
 \l
@@ -35,6 +36,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0162", 100>
 \\@TEXT_ID@<30>
 Mash
+/*-comment-
 『固有結界』……
 でも、魔術が働いている反応はないのに……？
 
@@ -52,6 +54,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0060", 100>
 \\@TEXT_ID@<40>
 Dead_Noel
+/*-comment-
 なぁに、新しいお客さま？
 見たコトない顔だけど……
 \l
@@ -60,6 +63,7 @@ Dead_Noel
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0061", 100>
 \\@TEXT_ID@<50>
 Dead_Noel
+/*-comment-
 魔術云々の話をしているなら、
 油断しちゃイケナイ相手ってコトよね？
 \l
@@ -68,6 +72,7 @@ Dead_Noel
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0062", 100>
 \\@TEXT_ID@<60>
 Dead_Noel
+/*-comment-
 いいわ、普通の《人間＜ゆめ＞を摘まむのも
 退屈していたところよ。
 \l
@@ -77,6 +82,7 @@ Dead_Noel
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0063", 100>
 \\@TEXT_ID@<70>
 Dead_Noel
+/*-comment-
 ようこそ、起きたまま見る悪夢の世界へ。
 現実という悪夢から目を覚まさせてあげる。
 
@@ -85,6 +91,7 @@ Dead_Noel
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0163", 100>
 \\@TEXT_ID@<80>
 Mash
+/*-comment-
 ！　貴女が街に巣くった吸血鬼、ですね。
 一見して少女の風貌ですが……
 \l
@@ -93,6 +100,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0164", 100>
 \\@TEXT_ID@<90>
 Mash
+/*-comment-
 魔力反応は人間を超越しています。
 魔獣、幻獣クラスの脅威と判断しました。
 \l
@@ -101,6 +109,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0165", 100>
 \\@TEXT_ID@<100>
 Mash
+/*-comment-
 人々を餌食にする災害なら容赦はしません。
 先輩の故郷に、アナタたちは不要です！
 
@@ -111,6 +120,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0064", 100>
 \\@TEXT_ID@<110>
 Dead_Noel
+/*-comment-
 は、この国に恋人でもいるのアナタ？
 そうなんだ、そうなんだー！
 \l
@@ -121,6 +131,7 @@ Dead_Noel
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0065", 100>
 \\@TEXT_ID@<120>
 Dead_Noel
+/*-comment-
 ならソイツもちゃーんと殺してあげる！
 やっぱり恋人はセットじゃなきゃ！
 \l
@@ -128,6 +139,7 @@ Dead_Noel
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0066", 100>
 \\@TEXT_ID@<130>
 Dead_Noel
+/*-comment-
 だって、その方が盛り上がるもの！
 信じ合って励まし合って、最後の最後で裏切り合う！
 \l
@@ -136,6 +148,7 @@ Dead_Noel
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0067", 100>
 \\@TEXT_ID@<140>
 Dead_Noel
+/*-comment-
 ああもうたまんない……！
 どんな果物より甘い、人工のスクロース！
 \l
@@ -144,6 +157,7 @@ Dead_Noel
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0068", 100>
 \\@TEXT_ID@<150>
 Dead_Noel
+/*-comment-
 ほーんと、美味しすぎるアナタたちが悪いのよ？
 わたし、食べ過ぎで太っちゃいそう！
 
@@ -152,6 +166,7 @@ Dead_Noel
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0166", 100>
 \\@TEXT_ID@<160>
 Mash
+/*-comment-
 それは嘘ですね。
 吸血鬼には成長も、味覚もないと聞きました。
 \l
@@ -161,6 +176,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0167", 100>
 \\@TEXT_ID@<170>
 Mash
+/*-comment-
 アナタは自分の罪に酔っているだけ。
 夢から覚めるのはそちらの方です！
 

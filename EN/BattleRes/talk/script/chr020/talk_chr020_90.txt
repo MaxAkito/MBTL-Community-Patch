@@ -21,6 +21,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0180", 100>
 \\@TEXT_ID@<10>
 Mash
+/*-comment-
 ……吸血鬼との戦いに勝利したのも束の間、
 足元に出現したゲートに落ちてしまったのです。
 \l
@@ -33,6 +34,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0181", 100>
 \\@TEXT_ID@<20>
 Mash
+/*-comment-
 落ちた先はまた不思議な空間で……
 そこで知り合ったネ……ネ……あれ？
 \l
@@ -40,6 +42,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0182", 100>
 \\@TEXT_ID@<30>
 Mash
+/*-comment-
 不思議です、名前が思い出せません……
 でも、なんだか安心できる方でした。
 \l
@@ -47,6 +50,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0183", 100>
 \\@TEXT_ID@<40>
 Mash
+/*-comment-
 その方といくつもの世界を渡って、
 最後には大会が開かれました。
 \l
@@ -54,6 +58,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0184", 100>
 \\@TEXT_ID@<50>
 Mash
+/*-comment-
 『旧vs新　宿命の戦い』と、
 その方は仰っていましたが……
 \l
@@ -65,6 +70,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0185", 100>
 \\@TEXT_ID@<60>
 Mash
+/*-comment-
 え？　大会の結果ですか？
 それは―――ふふ、内緒です。
 \l
@@ -72,6 +78,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0186", 100>
 \\@TEXT_ID@<70>
 Mash
+/*-comment-
 いつか、とっておきの時にお話しますので、
 それまでお待ちください。
 \l
@@ -79,6 +86,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0187", 100>
 \\@TEXT_ID@<80>
 Mash
+/*-comment-
 日本の都市……総耶という街を主軸にした、
 いくつもの並行世界での戦い。
 \l
@@ -86,6 +94,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0188", 100>
 \\@TEXT_ID@<90>
 Mash
+/*-comment-
 いま思い返しても楽しい事ばかりで。
 たいへん、有意義だったと思います！
 \l
@@ -93,6 +102,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcBoy/NpcBoy08_0000", 100>
 \\@TEXT_ID@<100>
 Fujimaru
+/*-comment-
 そっか。お帰りマシュ。
 たくさんの冒険、おつかれさま。
 
@@ -100,6 +110,7 @@ Fujimaru
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0189", 100>
 \\@TEXT_ID@<110>
 Mash
+/*-comment-
 ―――はい！　マシュ・キリエライト、
 たくさんの世界を巡って無事、帰還完了です！
 

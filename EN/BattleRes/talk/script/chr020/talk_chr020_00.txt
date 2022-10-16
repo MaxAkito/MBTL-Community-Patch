@@ -14,6 +14,7 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0000", 100>
 \\@TEXT_ID@<10>
 Navigate
+/*-comment-
 アンサモンプログラム　スタート。
 霊子変換を開始　します。
 \l
@@ -21,6 +22,7 @@ Navigate
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0001", 100>
 \\@TEXT_ID@<20>
 Navigate
+/*-comment-
 レイシフト開始まで　あと３、２、１……
 \l
 
@@ -30,6 +32,7 @@ Navigate
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0002", 100>
 \\@TEXT_ID@<30>
 Navigate
+/*-comment-
 工程に問題発生。
 時空連続体に理解困難の不具合　発生。
 \l
@@ -37,6 +40,7 @@ Navigate
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0003", 100>
 \\@TEXT_ID@<40>
 Navigate
+/*-comment-
 グランドオーダー　実証　停止。
 レイシフト　ルート構築　は　継続します。
 \l
@@ -44,6 +48,7 @@ Navigate
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0004", 100>
 \\@TEXT_ID@<50>
 Navigate
+/*-comment-
 コフィン内のパイロットの安全を最優先。
 強制排出をロック。
 \l
@@ -51,6 +56,7 @@ Navigate
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0005", 100>
 \\@TEXT_ID@<60>
 Navigate
+/*-comment-
 パイロットの　自主的な帰還を
 期待　します。
 
@@ -91,6 +97,7 @@ Navigate
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0100", 100>
 \\@TEXT_ID@<70>
 Hisui
+/*-comment-
 このあたり、でしょうか。
 先ほど大きな落下音がしたのは。
 \l
@@ -99,6 +106,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0101", 100>
 \\@TEXT_ID@<80>
 Hisui
+/*-comment-
 また姉さんが掃除と称して、
 
 
@@ -106,6 +114,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0130", 100>
 \\@TEXT_ID@<90>
 Kohaku
+/*-comment-
 『たまには外で埃をとってあげませんと。
 　はーい、キレイになりましょうね～～～\sf000』
 \l
@@ -115,6 +124,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0131", 100>
 \\@TEXT_ID@<100>
 Kohaku
+/*-comment-
 『ほうほう。これはとってもお高い伊万里焼きの壺。
 　あ。いっけない、手が滑りました☆』
 
@@ -123,6 +133,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0102", 100>
 \\@TEXT_ID@<110>
 Hisui
+/*-comment-
 と、槙久様の《骨董品＜コレクション＞を窓から
 落としてしまったのでしょうが……
 
@@ -148,6 +159,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0103", 100>
 \\@TEXT_ID@<130>
 Hisui
+/*-comment-
 ……！　泥棒……ううん、迷子……？
 いえ、それより傷を診ないと……！
 \l
@@ -156,6 +168,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0104", 100>
 \\@TEXT_ID@<140>
 Hisui
+/*-comment-
 姉さん、緊急事態です！
 至急、西館横の庭までお願いします！
 
@@ -201,6 +214,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0132", 100>
 \\@TEXT_ID@<150>
 Kohaku
+/*-comment-
 安心して、翡翠ちゃん。
 \l
 
@@ -208,6 +222,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0133", 100>
 \\@TEXT_ID@<160>
 Kohaku
+/*-comment-
 確かに高級そうな西洋甲冑ですが、
 これは当家にはなかったものかと。
 
@@ -215,6 +230,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0105", 100>
 \\@TEXT_ID@<170>
 Hisui
+/*-comment-
 姉さん、そうではなく。
 甲冑はどうでもいいので、この方の怪我を診てください。
 
@@ -223,6 +239,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0134", 100>
 \\@TEXT_ID@<180>
 Kohaku
+/*-comment-
 あ、そっちです？
 擦り傷も打ち身もないし、健康そのものよ。
 \l
@@ -231,6 +248,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0135", 100>
 \\@TEXT_ID@<190>
 Kohaku
+/*-comment-
 ちょっとお腹が減っていて元気が出ないかな？
 くらいの状態かと。
 
@@ -245,6 +263,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0141", 100>
 \\@TEXT_ID@<200>
 Mash
+/*-comment-
 ぁ―――
 
 \\@CHARA_SET_PATTERN@<4, 18>//困惑
@@ -252,6 +271,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0142", 100>
 \\@TEXT_ID@<210>
 Mash
+/*-comment-
 ここは……いったい……
 あの……あなたたちは？
 
@@ -261,6 +281,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0136", 100>
 \\@TEXT_ID@<220>
 Kohaku
+/*-comment-
 おや。目を覚まされましたね。
 おはようございます、見知らぬ方。
 \l
@@ -269,12 +290,14 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0137", 100>
 \\@TEXT_ID@<230>
 Kohaku
+/*-comment-
 わたしどもはここ遠野邸の使用人です。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0138", 100>
 \\@TEXT_ID@<240>
 Kohaku
+/*-comment-
 こちらの翡翠ちゃんが庭で倒れている貴女を
 見つけて、今まで看病していました。
 \l
@@ -286,6 +309,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0143", 100>
 \\@TEXT_ID@<250>
 Mash
+/*-comment-
 それは……ありがとうございます。
 翡翠さん、と仰るのですね。
 
@@ -295,6 +319,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0106", 100>
 \\@TEXT_ID@<260>
 Hisui
+/*-comment-
 無理はなさらず。
 まだ横になっていてください。
 \l
@@ -302,6 +327,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0107", 100>
 \\@TEXT_ID@<270>
 Hisui
+/*-comment-
 私は翡翠、こちらの使用人は琥珀と申します。
 以後、名前でお呼びいただければ。
 \l
@@ -309,6 +335,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0108", 100>
 \\@TEXT_ID@<280>
 Hisui
+/*-comment-
 何か事情がおありのようですが……
 ご自分の名前は言えますか？
 
@@ -318,6 +345,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0144", 100>
 \\@TEXT_ID@<290>
 Mash
+/*-comment-
 はい。わたしはマシュ・キリエライト。
 人理保障機関カルデアの……
 \l
@@ -327,6 +355,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0145", 100>
 \\@TEXT_ID@<300>
 Mash
+/*-comment-
 ……すみません。一般の方にカルデアの職務を
 お伝えする事はできないのでした……。
 \l
@@ -336,6 +365,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0146", 100>
 \\@TEXT_ID@<310>
 Mash
+/*-comment-
 ……ごめんなさい。危ないところを助けて
 いただいたのに、何もお返しできなくて……
 
@@ -344,6 +374,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0109", 100>
 \\@TEXT_ID@<320>
 Hisui
+/*-comment-
 その必要はありません。
 幸い、当家は経済的に恵まれています。
 \l
@@ -351,6 +382,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0110", 100>
 \\@TEXT_ID@<330>
 Hisui
+/*-comment-
 傷ついた方を助けるのは当然のこと。
 当然のことに、お礼をいただく事はできません。
 
@@ -360,6 +392,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0147", 100>
 \\@TEXT_ID@<340>
 Mash
+/*-comment-
 翡翠さん―――
 
 
@@ -368,6 +401,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0111", 100>
 \\@TEXT_ID@<350>
 Hisui
+/*-comment-
 どうぞ翡翠、と。
 他に何かありましたら遠慮なくお尋ねください。
 \l
@@ -375,6 +409,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0112", 100>
 \\@TEXT_ID@<360>
 Hisui
+/*-comment-
 わたくしどもはしがない使用人ですが、
 情報だけはよく集めております。
 \l
@@ -383,6 +418,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0113", 100>
 \\@TEXT_ID@<370>
 Hisui
+/*-comment-
 おもに、そこの姉さんが。
 あまり自慢できない方法で。
 
@@ -391,6 +427,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0139", 100>
 \\@TEXT_ID@<380>
 Kohaku
+/*-comment-
 てへ☆
 
 \\@CHARA_SET_PATTERN@<6, 17>//内緒戻り
@@ -401,6 +438,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0148", 100>
 \\@TEXT_ID@<390>
 Mash
+/*-comment-
 そ、そうなのですか？
 では、街の名前と年代を教えていただけますか？
 \l
@@ -409,6 +447,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0149", 100>
 \\@TEXT_ID@<400>
 Mash
+/*-comment-
 わたしは特異点……じゃなくて、えっと……
 \l
 
@@ -418,6 +457,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0150", 100>
 \\@TEXT_ID@<410>
 Mash
+/*-comment-
 そう！　普通ではありえない、街の異常を
 解決するために派遣されたエージェント！　なので！
 \l
@@ -428,6 +468,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0151", 100>
 \\@TEXT_ID@<420>
 Mash
+/*-comment-
 （カルデアの職務は明かせませんが、
 　これなら問題はないハズです！）
 
@@ -437,6 +478,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0140", 100>
 \\@TEXT_ID@<430>
 Kohaku
+/*-comment-
 なんと！　では、貴女が
 郵便受けに入っているいつもの《チラシ＜アレ＞、
 \l
@@ -445,6 +487,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0141", 100>
 \\@TEXT_ID@<440>
 Kohaku
+/*-comment-
 『異端まわりの問題、お任せください！
 　オプションでトイレ・お風呂問題も即解決！』
 \l
@@ -453,6 +496,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0142", 100>
 \\@TEXT_ID@<450>
 Kohaku
+/*-comment-
 の方なのですね！
 \l
 
@@ -460,6 +504,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0143", 100>
 \\@TEXT_ID@<460>
 Kohaku
+/*-comment-
 どんな方がいらっしゃるのかなー、と
 面白がって申し込んだ甲斐がありました！
 
@@ -468,6 +513,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0114", 100>
 \\@TEXT_ID@<470>
 Hisui
+/*-comment-
 ―――姉さん。またそんな無駄遣いをして。
 秋葉さまをあまり怒らせるのは……
 
@@ -476,6 +522,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0144", 100>
 \\@TEXT_ID@<480>
 Kohaku
+/*-comment-
 結果よければすべて良しよ、翡翠ちゃん！
 \l
 
@@ -484,6 +531,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0145", 100>
 \\@TEXT_ID@<490>
 Kohaku
+/*-comment-
 少なくとも、これで志貴さんがやんちゃをする
 必要はなくなったのですもの！
 
@@ -493,6 +541,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0115", 100>
 \\@TEXT_ID@<500>
 Hisui
+/*-comment-
 ……それは確かに。
 危険な仕事であれば、専門職の方にお任せするべきです。
 
@@ -504,6 +553,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0152", 100>
 \\@TEXT_ID@<510>
 Mash
+/*-comment-
 ……危険な仕事、なのですね？
 それでしたら力になれるかと。
 \l
@@ -512,6 +562,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0153", 100>
 \\@TEXT_ID@<520>
 Mash
+/*-comment-
 詳しい話を聞かせていただけますか？
 
 \\@SYSTEM@<102>
@@ -519,6 +570,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0146", 100>
 \\@TEXT_ID@<530>
 Kohaku
+/*-comment-
 はい。この街はふたりの吸血鬼に
 平和を脅かされているのです。
 \l
@@ -529,6 +581,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0147", 100>
 \\@TEXT_ID@<540>
 Kohaku
+/*-comment-
 制限速度を守らない。公序良俗も眼中なし。
 深夜に鐘を鳴らしては人々を洗脳する……
 \l
@@ -536,6 +589,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0148", 100>
 \\@TEXT_ID@<550>
 Kohaku
+/*-comment-
 今の総耶の夜は、
 さながら魔女狩りの夜のようです。
 \l
@@ -546,6 +600,7 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0149", 100>
 \\@TEXT_ID@<560>
 Kohaku
+/*-comment-
 これでは当家の名声も地に落ちるというもの。
 お力、お貸しくださいますか？
 
@@ -555,11 +610,13 @@ Kohaku
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0154", 100>
 \\@TEXT_ID@<570>
 Mash
+/*-comment-
 もちろんです、ミス・琥珀。
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0155", 100>
 \\@TEXT_ID@<580>
 Mash
+/*-comment-
 人理を守る《英霊＜もの＞として、なにより、
 おふたりの優しさに助けられた《人間＜もの＞として、
 \l
@@ -569,6 +626,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0156", 100>
 \\@TEXT_ID@<590>
 Mash
+/*-comment-
 マシュ・キリエライト！
 なんちゃって吸血鬼ハンターとして出撃です！
 
@@ -578,6 +636,7 @@ Mash
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0116", 100>
 \\@TEXT_ID@<600>
 Hisui
+/*-comment-
 マシュ様……姉さんの口車に乗っているのを
 承知の上で依頼を受けてくださるのですね。
 \l
@@ -586,6 +645,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0117", 100>
 \\@TEXT_ID@<610>
 Hisui
+/*-comment-
 では、わたしどもも
 できうるかぎりの誠意をお見せしなくては。
 \l
@@ -594,6 +654,7 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0118", 100>
 \\@TEXT_ID@<620>
 Hisui
+/*-comment-
 マシュ様に戦い抜く力があるかどうか。
 僭越ながら、確認させていただきます……！
 

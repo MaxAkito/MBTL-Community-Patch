@@ -34,6 +34,10 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0000", 100>
 \\@TEXT_ID@<10>
 Hisui
+/*-comment-
+お初にお目に掛かります、お客様。
+遠野家に仕える使用人の翡翠と申します。
+*/
 Welcome. It is a pleasure to make your acquaintance.
 I am known as Hisui, a servant under the employ of 
 the Tohno family.
@@ -43,6 +47,10 @@ the Tohno family.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0001", 100>
 \\@TEXT_ID@<20>
 Hisui
+/*-comment-
+本日はどのようなご用件でしょう。
+お名前とご用件をおきかせください。
+*/
 May I inquire as to the reason for your visit today?
 Please state your name and business.
 \l
@@ -52,6 +60,10 @@ Please state your name and business.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0002", 100>
 \\@TEXT_ID@<30>
 Hisui
+/*-comment-
+……有間都古さま……
+有間家の長女様であらせられますね。
+*/
 I see, Miss Arima Miyako... If I understand correctly,
 you are the eldest daughter of the Arima branch family.
 \l
@@ -62,6 +74,10 @@ you are the eldest daughter of the Arima branch family.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0003", 100>
 \\@TEXT_ID@<40>
 Hisui
+/*-comment-
+……申し訳ありません。
+あいにく、本日は志貴さまも秋葉様も不在……
+*/
 I am terribly sorry, but unfortunately Master Shiki
 and Lady Akiha are both away at the moment.
 \l
@@ -73,6 +89,10 @@ and Lady Akiha are both away at the moment.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0004", 100>
 \\@TEXT_ID@<50>
 Hisui
+/*-comment-
+……なるほど。
+お二人ではなく、わたしに話がおありなのですね。
+*/
 I see... 
 You wish to speak with me, not them.
 \l
@@ -80,6 +100,10 @@ You wish to speak with me, not them.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0005", 100>
 \\@TEXT_ID@<60>
 Hisui
+/*-comment-
+社会科見学……遠野家の普段の生活や、
+わたしどもの働きぶりが知りたい、と。
+*/
 You have come to observe what it is like to live at
 the Tohno mansion, and to learn about my position? 
 For your social studies?
@@ -92,6 +116,10 @@ For your social studies?
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0006", 100>
 \\@TEXT_ID@<70>
 Hisui
+/*-comment-
+（遠野邸の事情は他言無用、流出禁止の機密事項。
+　決して漏らす事はできません。）
+*/
 (The matters of the Tohno house are of confidential 
  nature, and thus are not to be spoken of to outsiders. 
  Under no circumstance can I afford to leak them.)
@@ -101,6 +129,10 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0007", 100>
 \\@TEXT_ID@<80>
 Hisui
+/*-comment-
+（ですが、都古さまの期待に満ちた眼差しを
+　無碍にするのは―――）
+*/
 (And yet, I could not be so rude as to betray 
  the look of expectation in Miss Miyako's gaze.)
 \l
@@ -109,6 +141,9 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0008", 100>
 \\@TEXT_ID@<90>
 Hisui
+/*-comment-
+（……やはり。ここは、姉さんを見習って……）
+*/
 (What would Kohaku do in this situation...?)
 \l
 
@@ -120,6 +155,10 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0009", 100>
 \\@TEXT_ID@<100>
 Hisui
+/*-comment-
+コホン。分かりました。
+勉強熱心なのは良い事と存じます。
+*/
 *Ahem* Very well. It pleases me to see someone
 who is willing to work hard and learn new things.
 \l
@@ -127,6 +166,10 @@ who is willing to work hard and learn new things.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0010", 100>
 \\@TEXT_ID@<110>
 Hisui
+/*-comment-
+どこまで期待にそえられるかは分かりませんが、
+誠心誠意、お話させていただきます。
+*/
 I don't know how helpful this will be, but allow 
 me to speak of this to you in utmost honesty.
 \l
@@ -135,7 +178,10 @@ me to speak of this to you in utmost honesty.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0011", 100>
 \\@TEXT_ID@<120>
 Hisui
---This all took place one night last week--
+/*-comment-
+―――これは、先週のとある夜の出来事ですが―――
+*/
+This all took place one night last week...
 
 \\@BGM_STOP@<0>
 \e

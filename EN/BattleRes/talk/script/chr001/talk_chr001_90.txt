@@ -21,6 +21,10 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0040", 100>
 \\@TEXT_ID@<10>
 Hisui
+/*-comment-
+……このように。
+遠野家の使用人たるもの武芸にも秀でています。
+*/
 As you can see, those in the employ of the Tohno 
 family are all quite skilled in the martial arts.
 \l
@@ -28,6 +32,10 @@ family are all quite skilled in the martial arts.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0041", 100>
 \\@TEXT_ID@<20>
 Hisui
+/*-comment-
+今回は披露できませんでしたが、
+日本刀の扱いにはそれなりに自信が。はい。
+*/
 I had no room to demonstrate it in this particular
 incident, but I am quite confident in my skills with
 a katana as well.
@@ -37,12 +45,19 @@ a katana as well.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0042", 100>
 \\@TEXT_ID@<30>
 Hisui
+/*-comment-
+（……いけません。）
+*/
 (I shouldn't be doing this...)
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0043", 100>
 \\@TEXT_ID@<40>
 Hisui
+/*-comment-
+（都古さまの反応がとても可愛らしいので、
+　つい話を盛ってしまいました……）
+*/
 (Miss Miyako's reactions were so cute that I 
  over-exaggerated my story without thinking...)
 \l
@@ -50,6 +65,10 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0044", 100>
 \\@TEXT_ID@<50>
 Hisui
+/*-comment-
+（日本刀は遠野の親類の方からお預かりしている
+　コレクションというだけで、
+*/
 (It's true that I take care of the Tohno family's 
  large collection of traditional Japanese swords...)
 \l
@@ -57,6 +76,9 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0045", 100>
 \\@TEXT_ID@<60>
 Hisui
+/*-comment-
+　わたし自身、振るった記憶はないのですが……）
+*/
 (But I have no recollection 
  of actually using one myself)
 
@@ -67,6 +89,10 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0000", 100>
 \\@TEXT_ID@<70>
 Kohaku
+/*-comment-
+ええそう、そうなんですよ都古さん！
+翡翠ちゃんはこう見えて《瑠璃鋼＜るりはがね＞流合戦術、
+*/
 Yes, that's right, Miyako! She may not 
 look like it, but Hisui is a master of 
 the Lapis Steel battle technique and...
@@ -75,6 +101,10 @@ the Lapis Steel battle technique and...
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0001", 100>
 \\@TEXT_ID@<80>
 Kohaku
+/*-comment-
+《梅茶河＜めちゃかわ＞式の継承者……
+どんな悪党も一刀両断！　なのです！
+*/
 ...the successor of the Kyuuti-Pai style! She can
 cut down any evil-doer with but a single strike!
 
@@ -119,6 +149,10 @@ cut down any evil-doer with but a single strike!
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0046", 100>
 \\@TEXT_ID@<90>
 Hisui
+/*-comment-
+！？　姉さん、いつの間に！？
+わたし以上に話を盛っていませんか！？
+*/
 Kohaku?! When did you get here?! And why are you
 exaggerating even more than I did?!
 
@@ -128,6 +162,10 @@ exaggerating even more than I did?!
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0002", 100>
 \\@TEXT_ID@<100>
 Kohaku
+/*-comment-
+Kohaku
+まあまあ、そこは気にせず。
+*/
 It's fine. Don't worry about it.
 \l
 
@@ -136,6 +174,10 @@ It's fine. Don't worry about it.
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0003", 100>
 \\@TEXT_ID@<110>
 Kohaku
+/*-comment-
+せっかくですから続きは客間でいたしましょう！
+おいしい紅茶をご馳走しますね、都古さん。
+*/
 Why don't we continue this in the parlor, Miyako?
 I'll treat you to some quality tea.
 \l
@@ -144,6 +186,9 @@ I'll treat you to some quality tea.
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0004", 100>
 \\@TEXT_ID@<120>
 Kohaku
+/*-comment-
+ちょうど三時ですし、翡翠ちゃんも休憩しましょう？
+*/
 It's almost 3 o'clock, so why not take a break, Hisui?
 \l
 
@@ -151,6 +196,10 @@ It's almost 3 o'clock, so why not take a break, Hisui?
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0005", 100>
 \\@TEXT_ID@<130>
 Kohaku
+/*-comment-
+都古さんから有間での志貴さんの暮らしぶり、
+聞かせてもらえるチャンスでは？
+*/
 This is could prove a wonderful opportunity to hear 
 about Shiki's time living with the Arima family.
 
@@ -160,6 +209,10 @@ about Shiki's time living with the Arima family.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0047", 100>
 \\@TEXT_ID@<140>
 Hisui
+/*-comment-
+それは―――はい。
+志貴さまのお体を看る上で、今後の参考になります。
+*/
 That is a good idea. It will be most helpful
 when caring for Master Shiki in the future.
 \l
@@ -168,6 +221,10 @@ when caring for Master Shiki in the future.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0048", 100>
 \\@TEXT_ID@<150>
 Hisui
+/*-comment-
+ではお茶請けをお出ししますね。
+ちょうど朝に作っておいたケーキが―――
+*/
 Allow me to prepare some tea and snacks, then.
 In fact, I just made a fresh cake this mor-
 
@@ -177,7 +234,10 @@ In fact, I just made a fresh cake this mor-
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0006", 100>
 \\@TEXT_ID@<160>
 Kohaku
-No, that's quite alright!
+/*-comment-
+待って、それ待ってーーー！
+*/
+Don't! Just... wait!
 \l
 
 \\@CHARA_IN@< 2, 4, 104, 0, 1>
@@ -185,8 +245,12 @@ No, that's quite alright!
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0007", 100>
 \\@TEXT_ID@<170>
 Kohaku
+/*-comment-
+翡翠ちゃん、お菓子はわたしが用意するから、
+翡翠ちゃんは休んでいてーーーー！
+*/
 I can take care of the refreshments! 
-Hisui, you just wait here and relax!
+Hisui, you just wait here and relax!!
 
 
 \\@SYSTEM@<21>

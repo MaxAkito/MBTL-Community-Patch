@@ -31,8 +31,12 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0000", 100>
 \\@TEXT_ID@<10>
 Ciel
-Shiki, you want to be more independeeeeent...
-You want to live on your ooooown...
+/*-comment-
+遠野くんは自立したくなーる……
+一人暮らしがしたくなーる……
+*/
+Shiki, you want to be more independeeent...
+You want to live on your ooown...
 \l
 
 \\@CHARA_EMOVE@<1, -1 , 3>
@@ -42,6 +46,10 @@ You want to live on your ooooown...
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0001", 100>
 \\@TEXT_ID@<20>
 Ciel
+/*-comment-
+でも資金が心許ないので、お茶目で
+頼れる先輩のアパートに住みたくなーる……
+*/
 But since you're lacking money, you start wanting to
 move in with your reliable, affable upperclasswoman 
 from schooooool...
@@ -50,6 +58,10 @@ from schooooool...
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0000", 100>
 \\@TEXT_ID@<30>
 Shiki
+/*-comment-
+むにゃむにゃ……いえ、それもう一人暮らし
+じゃないし、俺がしたいのは自立であって、
+*/
 *Mumble* That's not the same as living on my own.
 I want to become independent so...
 \l
@@ -57,6 +69,10 @@ I want to become independent so...
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0001m", 100>
 \\@TEXT_ID@<40>
 Shiki
+/*-comment-
+先輩と同居なんてしたらヒモになる未来しか
+見えないしチクショウ最高かよ。
+*/
 If I move in with you, all that would happen is 
 that you'd become like my sugar momma and wait, 
 that's freaking awesome.
@@ -74,6 +90,9 @@ that's freaking awesome.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0030", 100>
 \\@TEXT_ID@<50>
 Hisui
+/*-comment-
+………………。
+*/
 ......
 \l
 
@@ -83,6 +102,10 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0031", 100>
 \\@TEXT_ID@<60>
 Hisui
+/*-comment-
+……ハッ。
+いけない、あまりの既視感に頭が真っ白に。
+*/
 No, get a grip, Hisui.
 My head went blank at all the deja vu I just felt.
 \l
@@ -93,6 +116,12 @@ My head went blank at all the deja vu I just felt.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0032", 100>
 \\@TEXT_ID@<70>
 Hisui
+/*-comment-
+\\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
+\\@EMG_PRINT@<"※未成年でなくても禁じられています", 102, 1130, 670>
+怪しげな勧誘はそこまでです、シエル様。
+法律により未成年への洗脳は禁じられています。
+*/
 \\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
 \\@EMG_PRINT@<"*Actually prohibited even if they aren't a minor.", 102, 1130, 670>
 Cease your shady solicitations, Miss Ciel.
@@ -106,6 +135,10 @@ The brainwashing of minors is prohibited by law.
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0002", 100>
 \\@TEXT_ID@<80>
 Ciel
+/*-comment-
+な、翡翠さん！？　どうしてこんなところに！？
+チィ、アルクェイドも役に立ちませんね！
+*/
 Wha- Hisui?! What are you doing here?
 Damn it! So not even Arcueid could stop you!
 \l
@@ -115,6 +148,10 @@ Damn it! So not even Arcueid could stop you!
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0003", 100>
 \\@TEXT_ID@<90>
 Ciel
+/*-comment-
+い、いえ、違います、違うんですよ？
+これは荒療治、そう荒療治なんです！
+*/
 N-No, wait! This isn't what it looks like!
 This is, uh, for medical purposes! Yeah, that's it!
 \l
@@ -122,6 +159,10 @@ This is, uh, for medical purposes! Yeah, that's it!
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0004", 100>
 \\@TEXT_ID@<100>
 Ciel
+/*-comment-
+ノエル先生にかけられた暗示を打ち消すため、
+やむなく、遠野くんの深層意識に細工をですね？
+*/
 In order to cancel out the hypnotism applied by
 Noel, I had no choice but to tinker with Shiki's 
 subconscious, that's all!
@@ -132,6 +173,10 @@ subconscious, that's all!
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0033", 100>
 \\@TEXT_ID@<110>
 Hisui
+/*-comment-
+納得いたしました。
+あの弟子にしてこの師あり、という事ですね。
+*/
 I believe I understand the situation now.
 Like master, like apprentice, I suppose.
 \l
@@ -142,6 +187,9 @@ Like master, like apprentice, I suppose.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0034", 100>
 \\@TEXT_ID@<120>
 Hisui
+/*-comment-
+―――率直に言って、アナタが元締めです。
+*/
 In other words, you are the mastermind behind this.
 
 \\@SYSTEM@<102>
@@ -150,6 +198,9 @@ In other words, you are the mastermind behind this.
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0005", 100>
 \\@TEXT_ID@<130>
 Ciel
+/*-comment-
+く、本当に出来心、いえ、誤解なのに……！
+*/
 N-No, it was just a whim-- I mean-- a misunderstanding!
 \l
 
@@ -159,6 +210,10 @@ N-No, it was just a whim-- I mean-- a misunderstanding!
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0006", 100>
 \\@TEXT_ID@<140>
 Ciel
+/*-comment-
+仕方ありません、不本意ですが
+翡翠さんにも暗示をかけるしかないようですね！
+*/
 Fine then, you leave me no choice. I didn't 
 want to do this, but it looks like I need to 
 hypnotize you as well!
@@ -169,6 +224,9 @@ hypnotize you as well!
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0035", 100>
 \\@TEXT_ID@<150>
 Hisui
+/*-comment-
+その前に志貴さまを解放いたします。
+*/
 I must insist you release Master Shiki first.
 \l
 
@@ -176,6 +234,10 @@ I must insist you release Master Shiki first.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0036", 100>
 \\@TEXT_ID@<160>
 Hisui
+/*-comment-
+……それと。困ったら魅了やら暗示やらで
+切り抜けようとするのは改めた方がよろしいかと。
+*/
 Also, I believe you should correct your habit of 
 trying to use charms or that hypnosis skill of 
 yours to get out of trouble.
@@ -185,6 +247,9 @@ yours to get out of trouble.
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His06_0037", 100>
 \\@TEXT_ID@<170>
 Hisui
+/*-comment-
+アルクェイド様と姉妹なのですか？
+*/
 Actually, in that sense you almost 
 appear related to Miss Arcueid.
 
@@ -196,6 +261,10 @@ appear related to Miss Arcueid.
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0007", 100>
 \\@TEXT_ID@<180>
 Ciel
+/*-comment-
+この煽り力……！
+ただのメイドではありませんね、アナタ！？
+*/
 She sure knows how to get a rise out of me!
 You aren't just an ordinary maid, are you?!
 

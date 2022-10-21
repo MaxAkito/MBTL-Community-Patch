@@ -24,14 +24,25 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0000", 100>
 \\@TEXT_ID@<10>
 Akiha
+/*-comment-
+……はあ。壁をかきむしりたくなるような、
+勘に障る寒さね。
+*/
+*sigh* This cold is almost making me break out in hives.
+It's getting on my nerves.
 \l
 
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0001", 100>
 \\@TEXT_ID@<20>
 Akiha
-Who does this impure creature think they are, doing
-whatever they please without my leave?
+/*-comment-
+どこの混血かは知りませんが、
+私に断りもなく歩きまわるなんて―――
+*/
+I don't know who this Mixblood could be, but do they
+really think they can just go around doing as they
+like without MY permission?
 \l
 
 \\@CHARA_SET_PATTERN@<4, 105>//akiha
@@ -40,8 +51,11 @@ whatever they please without my leave?
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0002", 100>
 \\@TEXT_ID@<30>
 Akiha
-It's as if they are asking me to reach out and snap
-their neck like a twig.
+/*-comment-
+もう殺してください、と
+言っているようなものよね？
+*/
+It's almost as if they're asking to be killed, no?
 \l
 
 \\@CHARA_SET_PATTERN@<4, 106>//akiha
@@ -50,8 +64,11 @@ their neck like a twig.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0003", 100>
 \\@TEXT_ID@<40>
 Akiha
-And it would appear Shiki has gone off
-on his own again.
+/*-comment-
+……見れば兄さんも出かけて
+しまったようですし。
+*/
+And it would appear Shiki has gone off on his own again.
 \l
 
 \\@CHARA_SET_PATTERN@<4, 11>//akiha
@@ -59,8 +76,12 @@ on his own again.
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0004", 100>
 \\@TEXT_ID@<50>
 Akiha
-Perhaps I will teach this outsider a lesson on my way
-to bring him home.
+/*-comment-
+迎えに行くついでに、
+よそ者に灸を据えるとしましょうか。
+*/
+Perhaps I could teach this outsider a lesson if I 
+have to venture out and bring Shiki home anyway.
 
 
 \\@BGM_STOP@<0>

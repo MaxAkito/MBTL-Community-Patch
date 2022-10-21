@@ -1,8 +1,24 @@
-\\@BG_IN@<"screen_bg03", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg03", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<5, 1, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//hisui
+\\@CHARA_SET_PATTERN@<5, 0>//hisui
+
+\\@NPC_LOAD_SYNC@<6, 4, 480, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//kohaku
+\\@CHARA_SET_PATTERN@<6, 0>//kohaku
+
+\\@SYSTEM@<101>
+\\@NPC_LOAD_SYNC@<4, 2, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//akiha
+\\@CHARA_SET_PATTERN@<4, 4>//akiha
 
 \\@CHARA_IN@<0, 2, 0, 1, 0>
 \\@CHARA_IN@<1, 4, 103, 4, 0>
@@ -11,47 +27,84 @@
 
 \\@BGM_PLAY@<0, 74, 100>
 
-
 \\@CHARA_IN@< 0, 2, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0010", 100>
+\\@TEXT_ID@<10>
 Akiha
+/*-comment-
+……呆れた。あなたたち、
+こんなところで何をやっているの？
+*/
 Unbelievable. Just what do you 
 two think you are doing here?
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<6, 12>//kohaku
+\\@CHARA_SET_PATTERN@<5, 8>//hisui
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 1, 4, 104, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0000", 100>
+\\@TEXT_ID@<20>
 Kohaku
+/*-comment-
+きゃっ！？　秋葉さま、
+どうして外出なさってるんですか！？
+*/
 Eek! Lady Akiha?! 
 What business brings you all the way here?!
 \l
 
+\\@CHARA_SET_PATTERN@<6, 7>//kohaku
+
 \\@CHARA_IN@< 1, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0001", 100>
+\\@TEXT_ID@<30>
 Kohaku
+/*-comment-
+あ、いえ、違いますよ？　お忙しい秋葉さまのお手を
+煩わせないよう、わたしたちで街の調査をしてみよう、と。
+*/
 Oh, um... rather, what I meant to say was we thought
 it appropriate to investigate the city by ourselves,
 so as to lighten our busy master's burden.
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 5>//akiha
+
 \\@CHARA_IN@< 0, 2, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0011", 100>
+\\@TEXT_ID@<40>
 Akiha
+/*-comment-
+言い訳は結構です。
+*/
 Enough of your excuses.
 \l
 
 \\@CHARA_IN@< 0, 2, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0012", 100>
+\\@TEXT_ID@<50>
 Akiha
+/*-comment-
+貴方たちの役割は屋敷の管理よ。
+それ以外の仕事は許しません。
+*/
 Your two are responsible for taking care of the mansion.
 All other activities are strictly prohibited.
 \l
 
 \\@CHARA_IN@< 0, 2, 201, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0013", 100>
+\\@TEXT_ID@<60>
 Akiha
+/*-comment-
+私の目を盗んで油を売っていた以上、
+覚悟はできているんでしょうねぇ？
+*/
 I assume you are prepared to accept any punishment 
 for neglecting your duties and sneaking off 
 without my knowledge?
@@ -62,3 +115,4 @@ without my knowledge?
 
 \\@BGM_STOP@<0>
 \e
+

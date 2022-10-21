@@ -1,14 +1,27 @@
-\\@BG_IN@<"screen_bg05", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<5>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg05", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<1, 8, 0, 4, 0>
-\\@CHARA_IN@<3, 3, 10, 46, 0>
+\\@NPC_LOAD_SYNC@<6, 8, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<6, 6>//noel
+
+\\@NPC_LOAD_SYNC@<7, 3, 240, 0, 1>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<7, 1>//shiki
+
+\\@CHARA_IN@<1, 8, 0, 12, 0>
+\\@CHARA_IN@<3, 3, 10, 12, 0>
 \aw
 
 \\@BGM_PLAY@<0, 73, 100>
+
+\\@SYSTEM@<102>
 
 \\@CHARA_IN@< 1, 8, 100, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 3>
@@ -16,113 +29,212 @@
 \\@CHARA_EMOVE@<1, -1 , 3>
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0030", 100>
+\\@TEXT_ID@<10>
 Noel
+/*-comment-
+はーい……あなたはだんだん好きになーる……
+年上で包容力はないけど経済力もなくて、
+*/
 You are falling deeeeeeply in looove...
 She is older than you, narrow-minded, 
 doesn't have much money...
 \l
+
+\\@CHARA_SET_PATTERN@<6, 7>//noel
 
 \\@CHARA_EMOVE@<1, -1 , 3>
 \aw
 \\@CHARA_EMOVE@<1, -1 , 3>
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0031", 100>
+\\@TEXT_ID@<20>
 Noel
+/*-comment-
+才能はとくにないうえ努力家でもないけど
+可愛いお姉さんが好きになーる……
+*/
 ...possesses little talent, and enjoys 
 slacking off, but still, you are falling 
 in love with a cutie like meeee...
 
 \\@CHARA_IN@< 3, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0060", 100>
+\\@TEXT_ID@<30>
 Shiki
+/*-comment-
+どうかな……そうかな……ありかな……
+ちょっとその条件は厳しいような、
+*/
 I mean... is that... doable...?
 I feel like that's a bit too much to ask...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0061", 100>
+\\@TEXT_ID@<40>
 Shiki
+/*-comment-
+ひとつくらいクリアした方がいいような気が
+しないでもないけど、好きになーる……
+*/
 Some part of me feels as though at least one of 
-those qualities ought to be improved, but still... 
+those qualities should be improved, but still... 
 I'm falling in loveeee...
 
+\\@NPC_LOAD_SYNC@<4, 4, -480, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//kohaku
+\\@CHARA_SET_PATTERN@<4, 0>//kohaku
+
+\\@NPC_LOAD_SYNC@<5, 1, -240, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//hisui
+\\@CHARA_SET_PATTERN@<5, 0>//hisui
 
 \\@CHARA_IN@<0, 1, 1, 1, 0>
 \\@CHARA_IN@<2, 4, 100, 3, 0>
 \aw
 
+\\@CHARA_SET_PATTERN@<4, 12>//kohaku
+\\@SYSTEM@<101>
+
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 2, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0040", 100>
+\\@TEXT_ID@<50>
 Kohaku
+/*-comment-
+きゃーーーーーーーーあああああ！
+なんという衝撃映像でしょう！
+*/
 Ahhhh!
 What a shocking sight!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0041", 100>
+\\@TEXT_ID@<60>
 Kohaku
+/*-comment-
+シスター服の不審者がいたいけな学生を椅子に
+縛り付けて、必死に自己アピールしています！
+*/
 An innocent boy tied to a chair with a suspicious-looking
 woman in nun's clothing desperately trying convince 
 him of her own virtues?!
 
+\\@CHARA_SET_PATTERN@<5, 8>//hisui
+
 \\@CHARA_IN@< 0, 1, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0020", 100>
+\\@TEXT_ID@<70>
 Hisui
+/*-comment-
+目と気を確かに姉さん。
+あれは自己アピールではありません。
+*/
 Look closely, Kohaku. 
 That is no ordinary convincing she's doing.
 \l
 
 \\@CHARA_IN@< 0, 1, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0021", 100>
+\\@TEXT_ID@<80>
 Hisui
+/*-comment-
+催眠術、あるいは暗示です。
+１秒の猶予も、一寸の恩情もないかと。
+*/
 They are hypnotic suggestions. We don't have
 a moment to lose. Nor a lick of sympathy to spare.
 
+\\@CHARA_SET_PATTERN@<4, 9>//kohaku
+
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0042", 100>
+\\@TEXT_ID@<90>
 Kohaku
-Oh, I see! So she is employing violence, 
-but psychologically! That is unforgivable!
+/*-comment-
+なるほど、精神的暴力でしたか！
+それは断じて許せません！
+*/
+Oh, I see! So it's psychological abuse!
+That is absolutely horrible!
 \l
+
+\\@CHARA_SET_PATTERN@<4, 15>//kohaku お叱り
 
 \\@CHARA_IN@< 2, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0043", 100>
+\\@TEXT_ID@<100>
 Kohaku
+/*-comment-
+そこの方、お気持ちは分かりますが、
+患者の自由意志をすべて奪うのはＮＧです！
+*/
 You there! I know how you feel, but removing 
 ALL of a patient's free will is inexcusable!
 
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<6, 3>//noel やったる
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0032", 100>
+\\@TEXT_ID@<110>
 Noel
+/*-comment-
+なによ、やる気！？
+*/
 What, you wanna go?!
 \l
 
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0033", 100>
+\\@TEXT_ID@<120>
 Noel
-Do you intend to rob me of my final chance at getting 
+/*-comment-
+いままでブラック職場で彼氏ひとり作れなかった
+最後のチャンスも奪おうっていうの！？
+*/
+You really intend to rob me of my final chance at getting 
 a boyfriend?! I haven't been able to make even a single
 one at my shady job!
 \l
 
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0034", 100>
+\\@TEXT_ID@<130>
 Noel
+/*-comment-
+万死に値するわよ、ジャリども！
+*/
 There's no graver sin than that, you little shits!
+
+\\@CHARA_SET_PATTERN@<5, 6>//hisui
+\\@SYSTEM@<101>
 
 \\@CHARA_IN@< 0, 1, 0, 0, 1>
 \\@CHARA_FOCUS_COLOR@<0,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0022", 100>
+\\@TEXT_ID@<140>
 Hisui
+/*-comment-
+働きづめならわたしたちも負けてはいません。
+*/
 I'd wager our work schedule is 
 at least as demanding as yours.
 
+\\@CHARA_SET_PATTERN@<5, 7>//hisui
+\\@CHARA_SET_PATTERN@<4, 3>//kohaku
+
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0044", 100>
+\\@TEXT_ID@<150>
 Kohaku
+/*-comment-
+率直に言って―――あなたを、犯人です！
+*/
 Truth be told... you WILL be the culprit!
 
 
 \\@BGM_STOP@<0>
 \e
+

@@ -1,8 +1,25 @@
-\\@BG_IN@<"screen_bg03", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg03", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
 \aw
+
+// \\@SYSTEM@<1>
+
+\\@NPC_LOAD_SYNC@<6, 2, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//akiha
+\\@CHARA_SET_PATTERN@<6, 1>//akiha
+
+\\@SYSTEM@<101>
+\\@NPC_LOAD_SYNC@<4, 4, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//kohaku
+\\@CHARA_SET_PATTERN@<4, 0>//kohaku
+
+\\@NPC_LOAD_SYNC@<5, 1, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//hisui
+\\@CHARA_SET_PATTERN@<5, 0>//hisui
 
 \\@CHARA_IN@<0, 1, 1, 1, 0>
 \\@CHARA_IN@<2, 4, 100, 3, 0>
@@ -13,78 +30,138 @@
 
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0030", 100>
+\\@TEXT_ID@<10>
 Kohaku
+/*-comment-
+見つけましたよ秋葉さまっ。
+*/
 Found you, Lady Akiha!
 
+\\@SYSTEM@<102>
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 1, 2, 5, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0040", 100>
+\\@TEXT_ID@<20>
 Akiha
+/*-comment-
+！？
+*/
 Huh?!
 \l
 
+\\@CHARA_SET_PATTERN@<6, 2>//akiha
+
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0041", 100>
+\\@TEXT_ID@<30>
 Akiha
+/*-comment-
+……って、誰かと思えば貴女たちじゃない。
+*/
 Oh, it's just you two.
 \l
 
 \\@CHARA_IN@< 1, 2, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0042", 100>
+\\@TEXT_ID@<40>
 Akiha
+/*-comment-
+こんな夜更けに出歩くよう命じた覚えはありません。
+おとなしく屋敷に戻りなさい。
+*/
 I don't remember ordering you to go wandering around
 this late at night. Return to the mansion at once.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 1, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His05_0010", 100>
+\\@TEXT_ID@<50>
 Hisui
+/*-comment-
+い、いえ、秋葉さま。
+それが、志貴さまなのですが……
+*/
 B-But Lady Akiha...
 Master Shiki is--
+
+\\@CHARA_SET_PATTERN@<4, 5>//kohaku 内緒
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 2, 4, 104, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0031", 100>
+\\@TEXT_ID@<60>
 Kohaku
+/*-comment-
+シャラップ翡翠ちゃん！
+*/
 Shut up, Hisui!
 \l
 
 \\@CHARA_IN@< 2, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0032", 100>
+\\@TEXT_ID@<70>
 Kohaku
-A Lady Akiha who does not sympathize with the 
-thoughtfulness of her dutiful servants is no 
-Lady Akiha at all!
+/*-comment-
+健気に仕える使用人の心遣いが
+分からぬ秋葉さまなど秋葉さまではありません！
+*/
+A Lady Akiha who does not understand how thoughtful
+her dutiful servants are, is no Lady Akiha at all!
 \l
 
 \\@CHARA_IN@< 2, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh05_0033", 100>
+\\@TEXT_ID@<80>
 Kohaku
+/*-comment-
+遠野家の平穏を維持する為、
+ここで一度秋葉さまをへこませるのもやむなしです！
+*/
 In order to maintain the tranquility of the Tohno 
 household, we have no choice but to teach her a lesson!
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<6, 11>//akiha
+
 \\@CHARA_IN@< 1, 2, 200, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0043", 100>
+\\@TEXT_ID@<90>
 Akiha
+/*-comment-
+……いいでしょう。
+今の言葉、私への挑戦と受け取りました。
+*/
 Very well... I suppose I should
 interpret those words as a challenge then?
 \l
 
 \\@CHARA_IN@< 1, 2, 200, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0044", 100>
+\\@TEXT_ID@<100>
 Akiha
+/*-comment-
+何のつもりかは知りませんし聞く気もありませんので
+あしからず。もちろん、負けた時の弁明もね？
+*/
 You'll have to excuse me, but I'm not sure what you're
 up to, nor do I really care. The same goes for your 
-excuses after you lose as well.
+excuses after you lose.
 \l
 
 \\@CHARA_IN@< 1, 2, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0045", 100>
+\\@TEXT_ID@<110>
 Akiha
+/*-comment-
+ふふふ……いい機会よ。主人に刃向かう事が
+どれほど恐ろしいか、体罰きつめで教えてあげる……！
+*/
 Hehehe... What a great opportunity. I'm sure a bit of 
 corporal punishment will serve excellently in showing 
 just how terrifying it is to oppose your master.
 
 \\@BGM_STOP@<0>
 \e
+

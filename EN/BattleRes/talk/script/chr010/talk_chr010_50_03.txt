@@ -1,8 +1,20 @@
-\\@BG_IN@<"screen_bg03", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg03", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 10, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//warc
+\\@CHARA_SET_PATTERN@<4, 10>//warc
+
+\\@NPC_LOAD_SYNC@<5, 11, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<5, 4>//ciel
+
 
 \\@CHARA_IN@<0, 10, 0, 1, 0>
 \\@CHARA_IN@<1, 11, 6, 2, 0>
@@ -10,89 +22,154 @@
 
 \\@BGM_PLAY@<0, 74, 100>
 
+\\@SYSTEM@<101>
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0010", 100>
+\\@TEXT_ID@<10>
 Red_Arcueid
+/*-comment-
+はぁいシエル。相変わらず元気そうで嬉しいわ。
+*/
 Hi there, Ciel! I'm glad to see you're doing well.
 \l
 
 \\@CHARA_IN@< 0, 10, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0011", 100>
+\\@TEXT_ID@<20>
 Red_Arcueid
+/*-comment-
+他の生き物はみんな柔らかくて、
+さっきから退屈していたの。
+*/
 All the other creatures I've fought are just so
 soft and squishy, I was starting to get bored.
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0020", 100>
+\\@TEXT_ID@<30>
 Ciel
+/*-comment-
+アルクェイド――――貴女。
+自身を制御する事さえ、放棄したのですか。
+*/
 Arcueid... Have you abandoned all 
 attempts at controlling yourself?
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0012", 100>
+\\@TEXT_ID@<40>
 Red_Arcueid
-Hehe... I'm loving the way you force 
+/*-comment-
+ふふん。いいなあ、その無理矢理な上から目線。
+*/
+Hehe... I looove the way you force 
 that condescending attitude of yours.
 \l
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0013", 100>
+\\@TEXT_ID@<50>
 Red_Arcueid
+/*-comment-
+失禁寸前なのに、頑張って
+『代行者』に徹している。
+*/
 You try so hard to act the part of an Executor, despite 
 the fact you look just about ready to wet yourself.
 \l
 
 \\@CHARA_IN@< 0, 10, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0014", 100>
+\\@TEXT_ID@<60>
 Red_Arcueid
+/*-comment-
+私、貴女のそういうところ、ほんっと―――
+*/
 I love it sooo much, I just...
 \l
+
+\\@CHARA_SET_PATTERN@<4, 7>//warc
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0015", 100>
+\\@TEXT_ID@<70>
 Red_Arcueid
+/*-comment-
+笑っちゃうくらい好き！
+*/
 Can't help but laugh!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0016", 100>
+\\@TEXT_ID@<80>
 Red_Arcueid
+/*-comment-
+壊し甲斐のあるオモチャだもの、
+これ以上ないくらい、乱暴に扱ってあげる！
+*/
 You're what I'd call a toy worth breaking!
 I promise to be as nice and rough as possible!
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0021", 100>
+\\@TEXT_ID@<90>
 Ciel
-I know you're not serious, but please stop
-acting as if you've taken a liking to me.
+/*-comment-
+……貴女に気に入られているとか、
+冗談でもやめてください。
+*/
+I don't know if this is a joke or what,
+but please stop acting as if you've taken a liking to me.
 \l
 
 \\@CHARA_IN@< 1, 11, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0022", 100>
+\\@TEXT_ID@<100>
 Ciel
-I don't think I've ever felt more 
-unnerved than when you say that.
+/*-comment-
+過去体験した事のない怖気が走りました。
+*/
+I've never experienced something as horrifying as that thought.
 \l
 
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0023", 100>
+\\@TEXT_ID@<110>
 Ciel
+/*-comment-
+いいでしょう。
+*/
 Still, if you insist...
 \l
 
+\\@CHARA_SET_PATTERN@<5, 5>//ciel
+
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0024", 100>
+\\@TEXT_ID@<120>
 Ciel
-I don't know what has happened to you, but in 
-accordance with the will of the Lord above, 
-vampires are to be eliminated.
+/*-comment-
+貴女に何があったかは知りませんが、
+主の御心に従い、吸血鬼は排除するもの。
+*/
+I don't know what has happened to you, but the will of 
+Lord above decrees that vampires are to be eliminated.
 \l
 
 \\@CHARA_IN@< 1, 11, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0025", 100>
+\\@TEXT_ID@<130>
 Ciel
-I'll take you on, Arcueid!
+/*-comment-
+―――勝負です、アルクェイド！
+*/
+The fight is on, Arcueid!
 
 
 \\@BGM_STOP@<0>
 \e
+

@@ -1,83 +1,142 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg07", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<7>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg07", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@< 0, 10, 6, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 10, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//warc
+\\@CHARA_SET_PATTERN@<4, 6>//warc
+
+\\@CHARA_IN@< 0, 10, 6, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 78, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 10, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0000", 100>
+\\@TEXT_ID@<10>
 Red_Arcueid
+/*-comment-
+……ここ、どこ？
+私、何をしていたんだっけ……
+*/
 Where... am I? 
 And what was I doing...?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0001", 100>
+\\@TEXT_ID@<20>
 Red_Arcueid
-Right... it was... so agonizing, so miserable, 
-so deplorable, I wanted to cry.
+/*-comment-
+たしか……すごく……
+痛くて、悔しくて、悲しくて、泣きたくて、
+*/
+I remember how...
+I was in such agony, such misery, 
+such sadness, that I wanted to cry.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0002", 100>
+\\@TEXT_ID@<30>
 Red_Arcueid
-And I had not been able to hold it back anymore...
-I just wanted to... destroy... him...
+/*-comment-
+自分でもどうしようもなくて、
+ひたすら、めちゃくちゃにしてあげたくて―――
+*/
+I don't know why, but I...
+I just wanted to ravage him...
 \l
 
 \\@FADE_OUT@<1, 255, 255, 255, 1>
 \\@CHARA_IN@< 0, 10, 5, 0, 1>
+\\@CHARA_SET_PATTERN@<4, 20>//warc
 \w<8>
 \\@FADE_IN@<1, 255, 255, 255, 0>
 \aw
 
 \\@CHARA_IN@< 0, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0003", 100>
+\\@TEXT_ID@<40>
 Red_Arcueid
+/*-comment-
+―――あ。
+そうだ……そうだった。
+*/
 Oh. 
 Right... Right!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 21>//warc
+
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0004", 100>
+\\@TEXT_ID@<50>
 Red_Arcueid
+/*-comment-
+私、思い出した。ふふ。ふふ。あはははは！
+思い出した、思い出しちゃった！
+*/
 Hehehe. I remember. Heh... heheh... ahahaha!
 I remember, I remember everything!
 \l
 
-
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0005", 100>
+\\@TEXT_ID@<60>
 Red_Arcueid
+/*-comment-
+ありがとう人類、たいしたものね人類！
+よくも『元のわたし』を殺してくれました！
+*/
 Thank you, humankind! You really are something else!
 To think you were able to kill my original body!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//warc
+
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0006", 100>
+\\@TEXT_ID@<70>
 Red_Arcueid
+/*-comment-
+おかげでほらこの通り、
+こんなに自由な私になったわ！
+*/
 And now just look at me! Thanks to that,
-I'm more free than ever before!
+I'm freer than ever before!
 \l
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0007", 100>
+\\@TEXT_ID@<80>
 Red_Arcueid
-Now all that remains is to do 
-what is expected of me, right?
+/*-comment-
+あとはもう、
+望まれた通りのムーヴをするだけ。
+*/
+And now,
+I simply have to do what they wished for.
 \l
 
-/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0008", 100>
-Red_Arcueid
-After all, the fact that they turned me into
-this means I can do whatever I want, right?
+\\@CHARA_SET_PATTERN@<4, 7>//warc
 
+/*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0008", 100>
+\\@TEXT_ID@<90>
+Red_Arcueid
+/*-comment-
+こんな『私』にしちゃったんだもの。
+何もかも、好きにしていいってコトよね？
+*/
+After all, they were ones who turned me into this.
+So it's fine if I do whatever I want, right?
 
 \\@BGM_STOP@<0>
 \e
+

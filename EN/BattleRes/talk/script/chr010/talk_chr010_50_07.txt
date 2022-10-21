@@ -1,8 +1,19 @@
-\\@BG_IN@<"screen_bg05", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<5>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg05", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<5, 5, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//roa
+\\@CHARA_SET_PATTERN@<5, 1>//roa
+
+\\@NPC_LOAD_SYNC@<4, 10, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//warc
+\\@CHARA_SET_PATTERN@<4, 6>//warc
 
 \\@CHARA_IN@<0, 10, 3, 1, 0>
 \\@CHARA_IN@<1,  5, 1, 2, 0>
@@ -10,173 +21,318 @@
 
 \\@BGM_PLAY@<0, 75, 100>
 
-
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 10, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0020", 100>
+\\@TEXT_ID@<10>
 Red_Arcueid
-How disappointing...
+/*-comment-
+……がっかり。
+*/
+I'm beyond let down...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0021", 100>
+\\@TEXT_ID@<20>
 Red_Arcueid
+/*-comment-
+どうしてここにおまえがいるの、ロア？
+志貴でしょう？
+*/
 What are you doing here, Roa?
 It was supposed to be Shiki!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 24>//warc
+
 \\@CHARA_IN@< 0, 10, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0022", 100>
+\\@TEXT_ID@<30>
 Red_Arcueid
-He's the one who's supposed to be trying to kill me!
+/*-comment-
+ここで私を殺しにくるのは志貴でしょう！？
+*/
+He's the one who's supposed to come killing me right about now!
 \l
 
 \\@CHARA_IN@< 0, 10, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0023", 100>
+\\@TEXT_ID@<40>
 Red_Arcueid
+/*-comment-
+それだけを楽しみに、
+それだけを歓びに、
+*/
 That's the only thing I've been looking forward to!
 That's the only thing that can give me happiness!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0024", 100>
+\\@TEXT_ID@<50>
 Red_Arcueid
-And so I crushed everyone underfoot because  
-that's the only thing I've been wanting as a reward!
-
+/*-comment-
+それだけをご褒美にして、
+ここまでみんな踏みにじってきたのに！
+*/
+That's the only thing I've been wanting as a reward!
+And so, I crushed everyone else underfoot!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 23>//warc
 \\@CHARA_IN@< 0, 10, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0025", 100>
+\\@TEXT_ID@<60>
 Red_Arcueid
+/*-comment-
+ああもう、チェンジ、チェンジ！
+消えて。その陰気くさい顔とか、本気で見たくない。
+*/
 C'mon! Change right now! Begone!
 I really don't want to see that gloomy face of yours!
 \l
 
 \\@CHARA_IN@< 0, 10, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0026", 100>
+\\@TEXT_ID@<70>
 Red_Arcueid
+/*-comment-
+ここで引っ込まないと、
+死ぬより辛い目に合わせるわよ。
+*/
 If you don't piss off I'm going to make you 
 experience something much worse than just death.
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 2>//roa
+
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0070", 100>
+\\@TEXT_ID@<80>
 Roa
-I'm the one who's disappointed here.
+/*-comment-
+失望しているのはこちらの方だ。
+*/
+I'm the one who should be disappointed here.
 \l
+
+\\@CHARA_SET_PATTERN@<5, 17>//roa
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0071", 100>
+\\@TEXT_ID@<90>
 Roa
+/*-comment-
+おまえの世界への影響力が増せば、
+その血を奪った私の濃度も向上する。
+*/
 As your influence over the world increases, so does the
-thickness of my blood, as it something I stole from you.
+thickness of my blood, due to it being something I stole from you.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0072", 100>
+\\@TEXT_ID@<100>
 Roa
+/*-comment-
+必然、この体を乗っ取るのは私になる。
+*/
 As a matter of course, Shiki's body would then become mine.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0073", 100>
+\\@TEXT_ID@<110>
 Roa
+/*-comment-
+おまえが、思うまま、我が儘に振る舞えば
+振る舞うほど遠野志貴は苦しむと、
+*/
 Did you really not realize that the more you behaved 
-like a child, the more you did as you liked...
+like a child, the more you did whatever pleased you...
 \l
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0074", 100>
+\\@TEXT_ID@<120>
 Roa
+/*-comment-
+理解していなかったのかね？
+*/
 The more Shiki Tohno would suffer?
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 15>//warc
 
 \\@CHARA_IN@< 0, 10, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0027", 100>
+\\@TEXT_ID@<130>
 Red_Arcueid
+/*-comment-
+―――。
+*/
 ......
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0075", 100>
+\\@TEXT_ID@<140>
 Roa
+/*-comment-
+…………人間らしさ、とは度し難いな。
+*/
 Human nature makes one all too pathetic.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0076", 100>
+\\@TEXT_ID@<150>
 Roa
+/*-comment-
+あの完全だった月の姫が、
+ここまで動物的に堕ちようとは。
+*/
 To think that the perfect Princess of the Moon 
 would fall so far as to become a lowly beast.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0077", 100>
+\\@TEXT_ID@<160>
 Roa
-You're not actually berserk,
+/*-comment-
+これでは暴走というより狂躁だ。
+*/
+You're not mad,
 you've just lost yourself in excitement.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0078", 100>
+\\@TEXT_ID@<170>
 Roa
-Though... I suppose I don't have much room to judge.
+/*-comment-
+まあ―――そういうオレも
+偉そうに言えた身ではないがね。
+*/
+Though, I suppose I don't have much room to judge.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0079", 100>
+\\@TEXT_ID@<180>
 Roa
+/*-comment-
+肉体とは厄介なものだよ。
+こうして体にあった《地金＜じがね＞を晒しているのだから。
+*/
 Bodies sure are vexing things. It's all too 
 easy for their true character to bleed through.
 
+\\@CHARA_SET_PATTERN@<4, 16>//warc
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0028", 100>
+\\@TEXT_ID@<190>
 Red_Arcueid
+/*-comment-
+そっか。
+考えてみれば、それもアリだった。
+*/
 I see.
 Giving it some thought, I suppose that makes sense.
 \l
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0029", 100>
+\\@TEXT_ID@<200>
 Red_Arcueid
-Shiki has been suffering because of 
-my childish outbursts, correct?
+/*-comment-
+ええ―――私が暴れた分、
+志貴は苦しんだってコトでしょう？
+*/
+You said that the more I ran amok,
+the more Shiki would suffer, correct?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0030", 100>
+\\@TEXT_ID@<210>
 Red_Arcueid
+/*-comment-
+ならそれで充分、志貴は罪を償ったわ。
+私を殺した責任をね。
+*/
 In that case, he has more than 
 atoned for the sin of killing me.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 20>//warc
+
 \\@CHARA_IN@< 0, 10, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0031", 100>
+\\@TEXT_ID@<220>
 Red_Arcueid
+/*-comment-
+でも―――ふふふ。
+*/
 Hehehe. Still...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0032", 100>
+\\@TEXT_ID@<230>
 Red_Arcueid
+/*-comment-
+加害者が刑を終えても、
+被害者である私の気持ちは別のもの。
+*/
 Just because the perpetrator has served his sentence
 doesn't mean that the victim feels any better about it.
 \l
 
 \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0033", 100>
+\\@TEXT_ID@<240>
 Red_Arcueid
+/*-comment-
+志貴にはまだ、
+私の気持ちを受け止めてもらわなくっちゃ。
+*/
 Shiki still has to accept my feelings for him.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 21>//warc
 \\@CHARA_IN@< 0, 10, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0034", 100>
+\\@TEXT_ID@<250>
 Red_Arcueid
-These gently boiling feelings of my vampiric urges, 
-that is. But first I have to get rid of those who 
-stand in my way.
+/*-comment-
+ぐつぐつに煮えたぎった、この吸血衝動をね？
+その為にはまず邪魔者を消し去らないと。
+*/
+The boiling feelings of my vampiric urges, that is.
+But first I have to get rid of those who stand in my way.
 \l
+
+\\@CHARA_SET_PATTERN@<4, 11>//warc
 
 \\@CHARA_IN@< 0, 10, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0035", 100>
+\\@TEXT_ID@<260>
 Red_Arcueid
-Let's see... Roa, was it? 
-You'll do just fine...
+/*-comment-
+ええと、ロア、だったっけ？
+ちょうど良かった。
+Swapped lines here and below
+*/
+Let's see. Roa, was it? 
+I need to get ready for the main course
 \l
 
 \\@CHARA_IN@< 0, 10, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0036", 100>
+\\@TEXT_ID@<270>
 Red_Arcueid
-In serving as my napkin while I do a 
-little prep before the main course, that is.
+/*-comment-
+ディナー前の軽い準備として
+ナプキンがわりに使ってあげる。
+*/
+So you'll do just fine...
+In serving as my napkin, that is
 
 \\@BGM_STOP@<0>
 \e
+

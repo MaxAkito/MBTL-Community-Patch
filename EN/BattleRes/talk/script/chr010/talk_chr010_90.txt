@@ -6,36 +6,56 @@
 \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@< 0, 10, 1, 44, 0>
-\\@CHARA_MUKI@<0,0>
+\\@SPEAKERCG_IN@<0, 10,1, 128,-240, 128,-240, 0,255, 30, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 10, 1, 44, 0>
+// \\@CHARA_MUKI@<0,0>
 \aw
 
 
 \\@BGM_PLAY@<0, 77, 100>
 
-\\@CHARA_IN@< 0, 10, 6, 0, 1>
+\\@SPEAKERCG_IN@<0, 10,6, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 10, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0040", 100>
+\\@TEXT_ID@<10>
 Red_Arcueid
+/*-comment-
+これでおしまい？
+指を拭くコトもできなかったわ。
+*/
 Is it over already?
 That wasn't enough to even wipe my fingers with.
 \l
 
-\\@CHARA_IN@< 0, 10, 2, 0, 1>
+\\@SPEAKERCG_IN@<0, 10,2, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 10, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0041", 100>
+\\@TEXT_ID@<20>
 Red_Arcueid
-Well, no use complaining. I mean, after all... 
-My hands are completely soaked in blood!
+/*-comment-
+でもまあ、仕方ないか。
+だって血まみれだったものね、私の手！
+*/
+Though I suppose that's to be expected.
+I mean, my hands are completely soaked in blood!
 \l
 
-\\@CHARA_IN@< 0, 10, 1, 0, 1>
+\\@SPEAKERCG_IN@<0, 10,1, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 10, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0042", 100>
+\\@TEXT_ID@<30>
 Red_Arcueid
+/*-comment-
+さあ、後はアナタが目覚めるだけよ、志貴。
+早く目を覚まして。私の手の中で絶望して。
+*/
 All that's left is for you to wake up, Shiki. 
-Hurry up, open your eyes and despair as you 
-find yourself in my hands.
+Hurry up, open your eyes and despair
+as you find yourself in my hands.
 \l
 
-\\@CHARA_OUT@<0, -1, -1, 0, 0>
+\\@SPEAKERCG_IN@<0, 10,1, 128,-240, 128,-240, 255,0, 30, 1024,1024, 0>
+// \\@CHARA_OUT@<0, -1, -1, 0, 0>
 \aw
 
 \\@BGM_FADE@<0, 100, 0, 60, 1>
@@ -46,24 +66,45 @@ find yourself in my hands.
 \\@BGM_PLAY@<0, 75, 100>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0043", 100>
+\\@TEXT_ID@<40>
 Red_Arcueid
+/*-comment-
+優しく、じっくり―――葡萄みたいに、
+一つずつもぎとってあげるから！
+*/
 I'll tear you apart... slowly... gently... 
 like plucking grapes off a vine, one by one!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0010", 100>
+\\@TEXT_ID@<50>
 Shiki
+/*-comment-
+ん……なにか物騒な殺し文句が聞こえたような……
+って、なんだこれ、どうなってんだ！？
+*/
 Hm...? Feels like I just heard one of the scariest 
 pick-up lines ever uttered... Wait, what's going on?!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0011", 100>
+\\@TEXT_ID@<60>
 Shiki
+/*-comment-
+高い高い高い！　あとやばい！
+形容しがたい非常識に眩暈がする！
+P: The ludicrous verbosity of Shiki's panic is very much a thing in JP
+*/
 Oh damn, I'm high up! This is insane! This 
 indescribably absurd situation is giving me vertigo!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0004", 100>
+\\@TEXT_ID@<70>
 Red_Arcueid
+/*-comment-
+……ロアから体を取り返してあげたのに、
+なにその反応。本当、イラつく。
+*/
 After I went through all that trouble to recover
 your body from Roa, that's the first thing you say? 
 How infuriating.
@@ -72,76 +113,132 @@ How infuriating.
 \\@GO_SUB@<"QUAKE_3">
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0005", 100>
+\\@TEXT_ID@<80>
 Red_Arcueid
+/*-comment-
+今の自分の立場、分かってないんじゃない？
+このまま握りつぶしてあげましょうか？
+*/
 I don't think you understand the position 
 you're in. Perhaps I should just squeeze 
 the life out of you right now.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0012", 100>
+\\@TEXT_ID@<90>
 Shiki
-Hey! Stop swinging me around, idiot!
+/*-comment-
+ちっょ、揺らすなバカ！
+あわわ落ちる落ちる……！
+*/
+Hey! Stop swinging me around, dumbass!
 Oh god, I'm going to fall!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0013", 100>
+\\@TEXT_ID@<100>
 Shiki
-I'll say it again, and as many times as it takes...
+/*-comment-
+でもあえて言うぞ。何度でも言うぞ。
+*/
+But I have something I must tell you,
+and you better believe I'll make it stick.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0014", 100>
+\\@TEXT_ID@<110>
 Shiki
-Aren't you at all embarrassed about turning into 
-a giant?! And then snapping and going on a rampage 
-like that?! It's disgraceful!
+/*-comment-
+結局巨大化とか恥ずかしくないのか！？
+キレたから暴れるなんてみっともない！
+*/
+Aren't you at all embarrassed about turning into a giant?!
+Snapping like that and going on a rampage is totally disgraceful!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0006", 100>
+\\@TEXT_ID@<120>
 Red_Arcueid
+/*-comment-
+恥ずかしい訳ないじゃない。
+*/
 And just why should I feel embarrassed?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0007", 100>
+\\@TEXT_ID@<130>
 Red_Arcueid
+/*-comment-
+だいたい、必死な顔で人の親指にしがみついているヤツに言われても
+ぜーんぜん気にならないわ。
+*/
 Besides, who are you to tell me that as you 
-pathetically cling for dear life onto another 
+pathetically cling on for dear life to another 
 person's thumb? As if I'd care, dummy!
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik06_0015", 100>
+\\@TEXT_ID@<140>
 Shiki
+/*-comment-
+えー。その割には、いま素に戻ってなかった？
+そもそもおまえ人じゃないだろー。
+*/
 Uh. You say that, but you're acting pretty much
 like your usual self now. Also, you're not 
 really a person, now are you?
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0008", 100>
+\\@TEXT_ID@<150>
 Red_Arcueid
+/*-comment-
+……よし殺す。殺された分やり返したら
+許してあげようと思ったけど、気が変わった。
+*/
 That's it, you're dead. I was thinking of forgiving 
 you for killing me if you paid me back in full, 
-but I've changed my mind.
+but I changed my mind.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0009", 100>
+\\@TEXT_ID@<160>
 Red_Arcueid
+/*-comment-
+お望み通り、何もかも台無しにしてあげる。
+これもみんなアナタのセイ―――
+*/
 Since you seem to want it so badly, 
 I'll end it all now.
 And it's all your stupid fault, too.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa06_0010", 100>
+\\@TEXT_ID@<170>
 Red_Arcueid
+/*-comment-
+地獄の苦しみの中で、
+街ごとぺったんこになりなさい……！
+*/
 Get ready to experience the hell of being squashed
 into a pancake, together with this whole city.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0080", 100>
+\\@TEXT_ID@<180>
 Shiki
+/*-comment-
+ぐああああああああああああ！
+すべて俺が悪かったというのかーーーー！
+*/
 Gaaahhh!
 Was this really all my fault?!
 
 \\@FADE_OUT@<0,0,0,0,0>
 \\@BGM_FADE@<0, 100, 0, 60, 1>
 \bgmw0
-\\@BG_IN@<"screen_bg04", 0, 2>
+// \\@BG_IN@<"screen_bg04", 0, 2>
 \aw
+
+\\@BG_OUT@<0,0>
+\\@LOAD_BATTLE_BG@<4>
 
 \\@BGM_PLAY@<0, 76, 100>
 \\@FADE_IN@<0,0,0,0,0>
@@ -151,6 +248,16 @@ Was this really all my fault?!
 \\@SYSTEM@<1>
 \aw
 
+\\@NPC_LOAD_SYNC@<4, 0, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 8>//arc
+
+\\@NPC_LOAD_SYNC@<5, 3, 180, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 19>//shiki
+
+
+
 \\@CHARA_IN@<0, 0, 0, 11, 0>
 \\@CHARA_IN@<1, 3, 7, 12, 0>
 \aw
@@ -159,66 +266,117 @@ Was this really all my fault?!
 \\@CHARA_IN@< 0, 0, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0070", 100>
+\\@TEXT_ID@<190>
 Arcueid
-...and that's the dream I had!
+/*-comment-
+という夢を見たのでしたーー！
+どう？　すっごく面白かったでしょ、志貴！
+*/
+...and that's how my dream went!
 Whaddya think? Isn't that fascinating, Shiki?!
 
+\\@CHARA_SET_PATTERN@<5, 24>//shiki
 \\@CHARA_IN@< 1, 3, -1, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0081", 100>
+\\@TEXT_ID@<200>
 Shiki
+/*-comment-
+いやあ、はは。
+―――どのへんが？
+*/
 Well... Um...
 Which part, exactly?
 
 \\@CHARA_IN@< 0, 0, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0071", 100>
+\\@TEXT_ID@<210>
 Arcueid
+/*-comment-
+どのへんって、
+わたしがシエルをやっつけるところとか、
+*/
 What do you mean? You didn't like
 the part where I beat up Ciel...?
 \l
 
 \\@CHARA_IN@< 0, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0072", 100>
+\\@TEXT_ID@<220>
 Arcueid
-Or the infinite reincarnation combo I pulled off against 
-Roa?! I guess that last part was a bit horrible...
+/*-comment-
+ロアを転生無限コンボでハメるところとか！
+最後のくだりはちょっとホラーだったけど……
+*/
+Or the Infinite Reincarnation Combo I pulled off against 
+Roa?! Though I guess the way it ended was a bit horrible...
 
+\\@CHARA_SET_PATTERN@<5, 28>//shiki
 \\@CHARA_IN@< 1, 3, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0082", 100>
+\\@TEXT_ID@<230>
 Shiki
+/*-comment-
+ちょっとじゃない。めっちゃホラーだった。
+*/
 A bit? It's was completely horrifying!
 \l
 
 \\@CHARA_IN@< 1, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0083", 100>
+\\@TEXT_ID@<240>
 Shiki
+/*-comment-
+いちいち表現がエグいんだよおまえ。
+もっとこう、可愛くできないのか？
+*/
 And those expressions you were making were awful too.
 Couldn't you do something more... cute?
 \l
 
+\\@CHARA_SET_PATTERN@<5, 29>//shiki
 \\@CHARA_IN@< 1, 3, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0084", 100>
+\\@TEXT_ID@<250>
 Shiki
+/*-comment-
+というか、なんでそんな夢を見たんですか？
+*/
 Why did you have such a terrible dream anyway?
 
+\\@CHARA_SET_PATTERN@<4, 23>//arc
 \\@CHARA_IN@< 0, 0, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0073", 100>
+\\@TEXT_ID@<260>
 Arcueid
-For a True Ancestor, I have dreams quite often.
+/*-comment-
+わたし、けっこう夢を見る真祖だよ？
+*/
+For a True Ancestor, I dream quite often.
 \l
 
 \\@CHARA_IN@< 0, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0074", 100>
+\\@TEXT_ID@<270>
 Arcueid
+/*-comment-
+むかしっからいろんな夢を見ていたから、
+こういうのもアリかなって。
+*/
 I've had all sorts of dreams since as long as I can remember.
 I guess I was bound to have one like this eventually.
 \l
 
 \\@SQ_CALL@<3>
 
+\\@CHARA_SET_PATTERN@<4, 17>//arc
 \\@CHARA_IN@< 0, 0, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0075", 100>
+\\@TEXT_ID@<280>
 Arcueid
+/*-comment-
+ああ、でも―――
+*/
 Although...
 \l
 
@@ -227,28 +385,49 @@ Although...
 \\@CHARA_OUT@< 1, 3, -1, 0, 0>
 \aw
 
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0076", 100>
+\\@TEXT_ID@<290>
 Arcueid
+/*-comment-
+どこまでが夢で、
+どこまでが現実かなんて、
+*/
 It's hard to tell where reality begins
 and the dream ends...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0077", 100>
+\\@TEXT_ID@<300>
 Arcueid
+/*-comment-
+夢に囚われているかぎりは分からない。
+安心するのはまだ早いかも。
+*/
 Especially when you're still dreaming.
-Maybe it's too early to relax.
+Maybe it's still too early to relax?
 \l
 
 \\@BGM_FADE@<0, 100, 0, 60, 1>
 \bgmw0
 
-\\@CHARA_IN@< 0, 10, 8, 44, 0>
-\\@CHARA_MUKI@<0, 0>
+\\@SPEAKERCG_IN@<0, 10,8, 128,-240, 128,-240, 0,255, 30, 1024,1024, 0>
+\aw
+// \\@CHARA_IN@< 0, 10, 8, 44, 0>
+// \\@CHARA_MUKI@<0, 0>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0044", 100>
+\\@TEXT_ID@<310>
 Arcueid
+/*-comment-
+ね、そうでしょう？
+私の、素敵な殺人鬼さん―――
+*/
 Wouldn't you agree, 
 my lovely little murderer?
 
 \\@BGM_STOP@<0>
 \e
+

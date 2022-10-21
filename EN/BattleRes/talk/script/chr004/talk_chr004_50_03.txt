@@ -1,133 +1,249 @@
-\\@BG_IN@<"screen_bg05", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<5>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg05", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@BGM_PLAY@<0, 74, 100>
 \\@BGM_FADE@<0, 0, 100, 240, 0>
 
+\\@NPC_LOAD_SYNC@<4, 4, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//kohaku
+\\@CHARA_SET_PATTERN@<4, 0>//kohaku
+
+\\@SYSTEM@<102>
 \\@SE_PLAY@<0, "talk/talk_se/Hit_PunchC", 0, 30>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0000", 30>
+\\@TEXT_ID@<10>
 Noel
+/*-comment-
+……。……。
+note, she silently voices このっ in the actual voice clip
+*/
 You... little!
 
 \\@CHARA_IN@<0, 4, 101, 3, 0>
 \aw
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 4, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0030", 100>
+\\@TEXT_ID@<20>
 Kohaku
+/*-comment-
+ああ、良かった、ようやくお話の
+できそうな方を見つけました。
+*/
 Finally, someone who looks like they 
 might be possible to have a chat with.
 \l
 
 \\@CHARA_IN@< 0, 4, 100, 50, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0031", 100>
+\\@TEXT_ID@<30>
 Kohaku
+/*-comment-
+もし、そこのシスター姿の方。
+この街で不審なモノは見ませんでしたか？
+*/
 Excuse me, nun-looking person over there. You haven't 
 seen someone suspicious around town, have you?
+
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<5, 8, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<5, 12>//noel
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \\@CHARA_IN@<1, 8, 3, 12, 0>
 \aw
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0001", 100>
+\\@TEXT_ID@<40>
 Noel
-Huh?
+/*-comment-
+―――は？
+*/
+What?
 \l
 
 \\@CHARA_IN@< 1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0002", 100>
+\\@TEXT_ID@<50>
 Noel
-What's that? You're asking for 'someone suspicious' 
-in a situation like this? Really...?
+/*-comment-
+なに言ってるの、アナタ。
+この状況で不審なモノはないか、なんて、
+*/
+Are you kidding me? You're asking for 'someone suspicious' 
+in a situation like this? Really?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0003", 100>
+\\@TEXT_ID@<60>
 Noel
+/*-comment-
+わたしをバカにしてるワケ？
+それとも新手の死徒？　血が足りないの？
+*/
 Are you making fun of me? Or what? 
 You some new Dead Apostle? Low on blood?
 
+\\@CHARA_SET_PATTERN@<4, 9>//kohaku
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0032", 100>
+\\@TEXT_ID@<70>
 Kohaku
-Dead Apostle? Low on blood? Um... 
+/*-comment-
+死徒？　血が足りない？
+あ、あのぅ……何のことでしょう？
+*/
+'Dead Apostle'? 'Low on blood'? Um... 
 I'm not quite sure what you mean?
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0004", 100>
+\\@TEXT_ID@<80>
 Noel
+/*-comment-
+何って、危機感がないのは脳が―――って
+その顔、あの屋敷の家政婦じゃん！
+*/
 Oh, you don't understand the danger you're in because
 your brain's alrea-- Hold on... I know that face! 
 You're one of the maids from that mansion!
 \l
 
+\\@CHARA_SET_PATTERN@<5, 15>//noel
+
 \\@CHARA_IN@< 1, 8, 100, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0005", 100>
+\\@TEXT_ID@<90>
 Noel
+/*-comment-
+ついてる、わたし！
+ダックがフォアグラ状態でやってきた！
+Note, in Japanese, a duck (かも) is a sucker, so what she's saying here (literally, 'the duck came to me in a foie-gras state!') is a wordplay on that.
+*/
 This is my lucky day! This dumb duck has appeared 
 right in front of me, already fully prepared!
 \l
 
 \\@CHARA_IN@< 1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0006", 100>
+\\@TEXT_ID@<100>
 Noel
+/*-comment-
+まわりに人気もないし、
+あの当主様もいないしね？
+*/
 There's nobody around. And it seems that 
 family head of yours isn't nearby either.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 6>//noel
 \\@CHARA_IN@< 1, 8, 300, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0007", 100>
+\\@TEXT_ID@<110>
 Noel
+/*-comment-
+話を聞くのはこっちの方よ、家政婦さん。
+すこーし手荒い尋問、受けてくれる？
+*/
 I'll be the one asking the questions tonight, 
 little maid. My interrogation might be a biiit 
 rough but... you'll be fine, right?
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 12>//kohaku
+
 \\@CHARA_IN@< 0, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0033", 100>
+\\@TEXT_ID@<120>
 Kohaku
+/*-comment-
+うえ、まさかの展開ですかぁ！？
+*/
 Uh-oh, this is quite the plot twist.
 \l
 
 \\@CHARA_IN@< 0, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0034", 100>
+\\@TEXT_ID@<130>
 Kohaku
-This is bad! Quite the monster suprise, even!
+/*-comment-
+いけません、
+もんすたーさぷらいずどゆー！
+*/
+This is bad! Quite the monster surprise, even!
 \l
+
+\\@CHARA_SET_PATTERN@<4, 3>//kohaku
 
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0035", 100>
+\\@TEXT_ID@<140>
 Kohaku
-Kohaku daaaaaash! I'm skedaddling at full force!
+/*-comment-
+琥珀だーーっしゅ！　全力で撤退、てったーい！
+*/
+KOHAKU DAAAAASH!
+I'm skedaddling at full force!
 \l
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0036", 100>
+\\@TEXT_ID@<150>
 Kohaku
+/*-comment-
+家政婦の勘で
+『あ、この人クチだけだな☆』と分かりますが、
+*/
 My maid senses are telling me this one 
 is all bark and no bite, but even so...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0037", 100>
+\\@TEXT_ID@<160>
 Kohaku
+/*-comment-
+追い詰められたＯＬは何であれ爆発物、
+ここは逃げるが勝ちとみました！
+*/
 Office ladies who've hit a wall in life are ticking
 time bombs! In this situation, a tactical retreat 
 would be more prudent!
 
+\\@CHARA_SET_PATTERN@<5, 3>//noel
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0008", 100>
+\\@TEXT_ID@<170>
 Noel
+/*-comment-
+ハッ、美味しいカモを逃がすかっていうの！
+*/
 Hah! I'm not letting my delicious little duck go!
 \l
 
 \\@CHARA_IN@< 1, 8, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe06_0009", 100>
+\\@TEXT_ID@<180>
 Noel
+/*-comment-
+悪いけど手足の一本、
+ブチ折られるのを覚悟してよね！
+*/
 Sorry, but prepare yourself to 
 lose at least one of your limbs!
 
 \\@BGM_STOP@<0>
 \e
+

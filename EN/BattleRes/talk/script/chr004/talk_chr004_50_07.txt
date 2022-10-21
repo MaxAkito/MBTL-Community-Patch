@@ -1,7 +1,10 @@
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg06", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@CHARA_IN@<0, 4, 102, 1, 0>
@@ -9,124 +12,228 @@
 
 \\@BGM_PLAY@<0, 75, 100>
 
+\\@SYSTEM@<101>
+\\@NPC_LOAD_SYNC@<4, 4, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//kohaku
+\\@CHARA_SET_PATTERN@<4, 0>//kohaku
+
 \\@CHARA_IN@< 0, 4, 106, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0040", 100>
+\\@TEXT_ID@<10>
 Kohaku
+/*-comment-
+ふう。
+街にいるのはおかしくなった人だけですねー。
+*/
 Phew...
 Has everyone left in this city gone crazy?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0041", 100>
+\\@TEXT_ID@<20>
 Kohaku
+/*-comment-
+それとも、やっぱりコレ自体が
+『おかしな夢』なのでしょうか。
+*/
 Or maybe this is all just strange dream after all? 
 \l
 
 \\@CHARA_IN@< 0, 4, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0042", 100>
+\\@TEXT_ID@<30>
 Kohaku
-I mean who'd think there'd be a crypt 
+/*-comment-
+駅前の公園にこんな地下墓地が出来ていますし。
+*/
+I mean who would think there'd be a catacomb 
 like this just under the station park?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0043", 100>
+\\@TEXT_ID@<40>
 Kohaku
+/*-comment-
+これは雪……？　氷、でしょうか。
+まだ季節は秋の筈ですが。
+*/
 Is this snow? Or perhaps... ice?
 But it's still autumn, I thought...
+
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<5, 9, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//vlov
+\\@CHARA_SET_PATTERN@<5, 0>//vlov
 
 \\@CHARA_IN@<1, 9, 0, 2, 0>
 \aw
 
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0000", 100>
+\\@TEXT_ID@<50>
 Volv
-�gA visitor?�h
+/*-comment-
+“…………来訪者か。”
+*/
+“A visitor?”
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0001", 100>
+\\@TEXT_ID@<60>
 Volv
-�gThough it may not suit me... I am still a Suzerain. 
-  Entertaining many guests is part of my position.�h
+/*-comment-
+“性に合わないとはいえ、おれも城主だ。
+　多くの客を迎えてきた立場だが……”
+*/
+“Though it may not suit me... I am still a Suzerain. 
+  Entertaining many guests is part of my position.”
 \l
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0002", 100>
+\\@TEXT_ID@<70>
 Volv
-�gOh? Too cold for you to even move a muscle...�h
+/*-comment-
+“…………この極寒の中で眉一つ動かず、か。”
+*/
+“Oh? Too cold for you to even move a muscle...”
 \l
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0003", 100>
+\\@TEXT_ID@<80>
 Volv
-�gI grieve for you, woman. 
-  I know a soul much like yours.�h
+/*-comment-
+“悲しいな、女。
+　おまえとよく似た魂を知っている”
+*/
+“I grieve for you, woman. 
+  I know a soul much like yours.”
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0004", 100>
+\\@TEXT_ID@<90>
 Volv
-�gLike a ship left to rot at the edge 
+/*-comment-
+“地の果てで朽ち果てた舟のような、
+　自壊してなお動く時計のような。”
+*/
+“Like a ship left to rot at the edge 
   of the world, or a clock that keeps
-  ticking towards its own destruction.�h
+  ticking towards its own destruction.”
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0005", 100>
+\\@TEXT_ID@<100>
 Volv
-�gWell, one of my wives was like that, at least.�h
+/*-comment-
+“まあ、おれの《妻＜おんな＞のひとりだが”
+*/
+“Well, one of my wives was like that, at least.”
 \l
 
 \\@CHARA_IN@< 1, 9, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0006", 100>
+\\@TEXT_ID@<110>
 Volv
-�gPerhaps us meeting here was under the guidance of
+/*-comment-
+“ここで遭ったのもカリーシャの導きか。
+　―――血は浴びずに、眠るように殺してやろう”
+*/
+“Perhaps us meeting here was under the guidance of
   my Karisha. Worry not, your death will be 
-  bloodless, almost as if entering into slumber.�h
+  bloodless, almost as if entering into slumber.”
 
+\\@CHARA_SET_PATTERN@<4, 9>//kohaku
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0044", 100>
+\\@TEXT_ID@<120>
 Kohaku
+/*-comment-
+むむ。どこの言葉でしょう、
+何を言っているのか、まるっきり分かりません！
+*/
 What language may this be? 
 I can't understand a word of it!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 5>//kohaku
+
+\\@CHARA_SET_PATTERN@<4, 15>//kohaku
 \\@CHARA_IN@< 0, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0045", 100>
+\\@TEXT_ID@<130>
 Kohaku
+/*-comment-
+ですが、ワルモノである事は分かります！
+*/
 All I know is that he sounds like a bad guy!
 \l
 
 \\@CHARA_IN@< 0, 4, 103, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0046", 100>
+\\@TEXT_ID@<140>
 Kohaku
+/*-comment-
+なにやら志貴さんと同タイプな気もしますが、
+それはそれ。
+*/
 For some reason, he also reminds me a bit of Shiki.
-Not that it really matters...
+Not that it really matters.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0047", 100>
+\\@TEXT_ID@<150>
 Kohaku
+/*-comment-
+たちの悪い病気を長く患っているご様子。
+医に関わるものとして見過ごせません。
+*/
 It appears you are suffering from a nasty chronic 
 disease. As one engaged in the practice of medicine, 
 I must do something about it!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 18>//kohaku
+
 \\@CHARA_IN@< 0, 4, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0048", 100>
+\\@TEXT_ID@<160>
 Kohaku
+/*-comment-
+どうかお覚悟を、異国の方。
+*/
 Prepare yourself, Mr. Foreigner.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0049", 100>
+\\@TEXT_ID@<170>
 Kohaku
+/*-comment-
+この箒と薬とたのしい植物たちが、
+痛みを癒やすわずかな救いとならんことを！
+*/
 I pray my broom, medicine, and silly plants will 
-prove at least a little effective in alleviating 
+prove at least slightly effective in alleviating 
 your suffering.
 
+\\@CHARA_SET_PATTERN@<5, 1>//vlov
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo06_0007", 100>
+\\@TEXT_ID@<180>
 Volv
-�gUh...
-  I suspect those plants won't be of much use...�h
+/*-comment-
+“……いや。
+　その植物では、さすがに無理ではないだろうか”
+*/
+“Uh...
+  I suspect those plants won't be of much use...”
 
 \\@BGM_STOP@<0>
 \e
+

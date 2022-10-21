@@ -18,69 +18,122 @@
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0050", 100>
+\\@TEXT_ID@<10>
 Kohaku
+/*-comment-
+んー、おはようございまーす！
+*/
 What a wonderful morning!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0051", 100>
+\\@TEXT_ID@<20>
 Kohaku
+/*-comment-
+よく分かりませんが、晴れて街は元通り。
+庭園に異常なし、今朝も元気で何よりです☆
+*/
 I don't really understand why, but the city appears
 to be back to normal. Nothing wrong with the garden
 either! I feel great today as well!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0052", 100>
+\\@TEXT_ID@<30>
 Kohaku
+/*-comment-
+いえ、あの浮遊感やコートの男性が
+なんだったのか、なにも判明していないので
+*/
 Well, I'm still not quite sure what that floating
 sensation or that man in the coat were all about...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0053", 100>
+\\@TEXT_ID@<40>
 Kohaku
+/*-comment-
+不安がないではないのですが……
+世界に“説明のつく事”は珍しい。
+*/
 So I suppose I can't say I'm entirely without worries.
 But not everything in this world has an explanation.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0054", 100>
+\\@TEXT_ID@<50>
 Kohaku
+/*-comment-
+一見、いつも通りの日常だとしても、
+社会には不思議、不条理が溢れているのですから。
+*/
 Even if things seem normal at first glance, 
 society is filled with mysteries and absurdities.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0055", 100>
+\\@TEXT_ID@<60>
 Kohaku
-If I think of it that way, I suppose I should see 
+/*-comment-
+その例で言えば、
+今回のはちょっとしたお祭のようなもの。
+*/
+Thinking about it that way, I suppose I should see 
 my experience last night as a fun little outing.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0056", 100>
+\\@TEXT_ID@<70>
 Kohaku
-This whole...
+/*-comment-
+夜が明ければすべて解決、なんて、
+まさしく夢のようなお話でございました。
+*/
+This whole,
 "Then dawn came, and all was well!" 
-Sort of story really is akin to a dream.
+-sort of story really is akin to a dream.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0057", 100>
+\\@TEXT_ID@<80>
 Kohaku
+/*-comment-
+ええ、はい。
+*/
 Right, must be.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0058", 100>
+\\@TEXT_ID@<90>
 Kohaku
+/*-comment-
+お屋敷には異常なく、
+なべて世は事も無し―――
+*/
 There's nothing out of order at the mansion,
 and all seems right with the world...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0059", 100>
+\\@TEXT_ID@<100>
 Kohaku
-Even so, I must not allow myself to relax. I shall 
-continue to perform my duties with dignity and poise.
+/*-comment-
+ふふ。でもこれに気を緩めず、
+清く正しく、粛々とお仕事をこなしませんと。
+*/
+Hehe, even so, I should continue to stay alert
+and perform my duties with dignity and poise.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh06_0060", 100>
+\\@TEXT_ID@<110>
 Kohaku
+/*-comment-
+私は遠野家に仕える使用人。
+誠心誠意、真心をこめて秋葉さまを支えるのです！
+*/
 I am a servant under the employ of the 
-Tohno family. I shall serve Lady Akiha 
+Tohno family. I shall must Lady Akiha 
 to the absolute best of my abilities!
 
 \\@SYSTEM@<21>
@@ -89,3 +142,4 @@ to the absolute best of my abilities!
 
 \\@BGM_STOP@<0>
 \e
+

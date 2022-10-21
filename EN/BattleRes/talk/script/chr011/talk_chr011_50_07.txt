@@ -1,8 +1,20 @@
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg06", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<5, 9, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//vlov
+\\@CHARA_SET_PATTERN@<5, 0>//vlov
+
+\\@SYSTEM@<101>
+\\@NPC_LOAD_SYNC@<4, 11, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<4, 4>//ciel
 
 \\@CHARA_IN@<0, 11, 3, 1, 0>
 \\@CHARA_IN@<1,  9, 0, 2, 0>
@@ -13,25 +25,45 @@
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 0, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0050", 100>
+\\@TEXT_ID@<10>
 Ciel
+/*-comment-
+二十七祖……！？
+*/
 One of the 27 Ancestors!?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0051", 100>
+\\@TEXT_ID@<20>
 Ciel
+/*-comment-
+まさか、こんな大物が
+街に巣食っていたというのですか。
+*/
 I did not expect someone so significant
 to be lurking in this city.
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0090", 100>
+\\@TEXT_ID@<30>
 Volv
+/*-comment-
+……代行者……。
+……驚くのはこちらの方だ。
+*/
 An Executor...
 I must admit... I am surprised as well.
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0091", 100>
+\\@TEXT_ID@<40>
 Volv
+/*-comment-
+慎みはないのか？　こんな極東の地にまで、
+その醜悪な目を広げているとは。
+*/
 Do you people have no shame? Does the Church
 truly believe it has the right to turn its 
 vile gaze this far east?
@@ -39,14 +71,24 @@ vile gaze this far east?
 
 \\@CHARA_IN@< 1, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0092", 100>
+\\@TEXT_ID@<50>
 Volv
-Yet... no matter how far you extend your gaze, it won't
+/*-comment-
+……だが、どれほど広い目を持っていようと、
+それが曇っているのでは話にならん。
+*/
+Still, no matter how far you extend your gaze, it won't
 do you much good if your sight is as dim as it is.
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0093", 100>
+\\@TEXT_ID@<60>
 Volv
+/*-comment-
+……不要だ。この街同様、貴様らも不要だ。
+蛇の企みもかぎ取れない犬に価値はない。
+*/
 You people are so pointless... as pointless as this city 
 itself. What value is there to a dog that cannot even 
 sniff out the schemes of a serpent?
@@ -54,27 +96,50 @@ sniff out the schemes of a serpent?
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0094", 100>
+\\@TEXT_ID@<70>
 Volv
+/*-comment-
+ここでのたれ死んでいけ、女。
+*/
 You will die a dog's death here tonight, woman.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0095", 100>
+\\@TEXT_ID@<80>
 Volv
+/*-comment-
+燃え尽きたその肉が、
+死者どもの慰みになるだろうよ。
+*/
 May your burnt flesh serve as amusement for the Dead.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0052", 100>
+\\@TEXT_ID@<90>
 Ciel
+/*-comment-
+……それはこちらの台詞です。
+予定外ですが、ここでその罪を洗い流す。
+*/
 I believe you have our roles reversed. This meeting was
 unexpected, but you shall pay for your sins all the same.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 20>//ciel
+
 \\@CHARA_IN@< 0, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0053", 100>
+\\@TEXT_ID@<100>
 Ciel
+/*-comment-
+我が手は主の代行なり。
+逃れる事はできないと知りなさい。
+*/
 My hands Execute the Lord's will.
 Know that there is no escape from Him.
 
 
 \\@BGM_STOP@<0>
 \e
+

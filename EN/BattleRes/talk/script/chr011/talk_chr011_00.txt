@@ -1,55 +1,94 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg02", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<12>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg12", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 11, 6, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 11, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<4, 0>//ciel
+
+\\@CHARA_IN@<0, 11, 6, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 11, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0030", 100>
+\\@TEXT_ID@<10>
 Ciel
+/*-comment-
+死徒に侵された街……
+*/
 This city has been infested with Dead Apostles...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0031", 100>
+\\@TEXT_ID@<20>
 Ciel
+/*-comment-
+早急に病原を絶つのがわたしたち、
+代行者の役目ですが……
+*/
 The duty of us Executors is to quickly eliminate
 such diseases at the source, and yet...
 \l
 
+\\@CHARA_SET_PATTERN@<4, 12>//ciel
+
 \\@CHARA_IN@< 0, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0032", 100>
+\\@TEXT_ID@<30>
 Ciel
-Not only does she show up an entire month 
-behind schedule, she gets all excited about
-the city life in Japan...
+/*-comment-
+一ヶ月遅れで合流した彼女は
+日本の街の様子に浮かれるばかりか、
+*/
+Not only did she go on a nightlife spree after
+arriving in Japan one whole month late,
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0033", 100>
+\\@TEXT_ID@<40>
 Ciel
-She finally even goes all like�F
-'Well, I wanna infiltrate your school too!'
+/*-comment-
+自分も学校に潜入する！
+なんて言い出す始末……
+*/
+Now she's even going all like：
+'well, I want infiltrate your school too!'
 \l
+
+\\@CHARA_SET_PATTERN@<4, 18>//ciel
 
 \\@CHARA_IN@< 0, 11, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0034", 100>
+\\@TEXT_ID@<50>
 Ciel
+/*-comment-
+今回、彼女を戦力として当てに
+するのはやめましょう。
+*/
 For now, it's best I don't count 
 on her to be of any help in battle.
 \l
 
 \\@CHARA_IN@< 0, 11, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0035", 100>
+\\@TEXT_ID@<60>
 Ciel
-Looks like I'll have to take care of this myself...
+/*-comment-
+わたしひとりで解決するとしましょうか。
+*/
+Looks like I'll have to take care of this myself.
 
 
 \\@BGM_STOP@<0>
 \e
+

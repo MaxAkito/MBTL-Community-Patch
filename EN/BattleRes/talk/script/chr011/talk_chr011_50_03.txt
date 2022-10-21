@@ -1,86 +1,157 @@
-\\@BG_IN@<"screen_bg03", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg03", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 11, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<4, 0>//ciel
+
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<5, 2, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//akiha
+\\@CHARA_SET_PATTERN@<5, 14>//akiha
 
 \\@CHARA_IN@<0, 11, 6, 1, 0>
 \\@CHARA_IN@<1,  2, 0, 2, 0>
 \aw
 
-
 \\@BGM_PLAY@<0, 74, 100>
 
 \\@CHARA_IN@< 1, 2, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0060", 100>
+\\@TEXT_ID@<10>
 Akiha
+/*-comment-
+あら。私の街で悪さをする鼠を探しに来てみれば、
+ひときわ大きなドブ鼠を見つけるなんて。
+*/
 What have we here? I came in search of a mouse 
 sneaking around my city, and wound up catching 
-a rather oversized rat instead.
+a rather over-sized rat instead.
 \l
 
 \\@CHARA_IN@< 1, 2, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0061", 100>
+\\@TEXT_ID@<20>
 Akiha
+/*-comment-
+いえ、鼠というのは失礼ね。
+野良犬の類いかしら、貴女？
+*/
 Actually, rat is perhaps a bit rude.
 You're more like, let's see... a stray dog?
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0040", 100>
+\\@TEXT_ID@<30>
 Ciel
+/*-comment-
+その認識で構いませんよ、遠野家のお嬢さん。
+*/
 Call me whatever you wish, Lady Tohno.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0041", 100>
+\\@TEXT_ID@<40>
 Ciel
+/*-comment-
+貴女も監査の対象です。
+ここでその力を測っておくのもいいでしょう。
+*/
 You were meant to be investigated anyhow. I might 
 as well evaluate your abilities right here and now.
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 2>//akiha
+
 \\@CHARA_IN@< 1, 2, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0062", 100>
+\\@TEXT_ID@<50>
 Akiha
+/*-comment-
+私を調べる、ですか？
+足下でキャンキャン鳴くだけの犬が？
+*/
 Investigate me? 
 You? A lowly dog barking away beneath my feet?
 \l
 
+\\@CHARA_SET_PATTERN@<5, 4>//akiha
+
 \\@CHARA_IN@< 1, 2, 200, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0063", 100>
+\\@TEXT_ID@<60>
 Akiha
-How unpleasant... I'm this close to crushing you 
-underfoot. I hope you have prepared for your pathetic
-yet anonymous death.
+/*-comment-
+……不愉快ね。思わず踏み潰してしまいそう。
+人知れず、憐れに消える準備はできていて？
+*/
+How unpleasant... I'm this close to crushing you beneath my heels.
+I hope you're prepared for your pathetic yet anonymous death.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0042", 100>
+\\@TEXT_ID@<70>
 Ciel
+/*-comment-
+そんなものははじめからありませんよ。
+遺言も、形見分けもわたしたちには不要なもの。
+*/
 I've never had the need to prepare for anything 
 like that. We of the Church do not leave wills, 
-or keepsakes. We do not need them.
+nor keepsakes. We do not need them.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0043", 100>
+\\@TEXT_ID@<80>
 Ciel
+/*-comment-
+貴女の言う通り、いつ死んでもいい身ですので。
+*/
 In that sense I am always prepared to die, 
 much as you asked of me.
 \l
 
 \\@CHARA_IN@< 0, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0044", 100>
+\\@TEXT_ID@<90>
 Ciel
+/*-comment-
+ああ、でもひとつだけ忠告しておきましょう。
+*/
 Though there is one thing I should warn you about.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 20>//ciel
+
 \\@CHARA_IN@< 0, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0045", 100>
+\\@TEXT_ID@<100>
 Ciel
+/*-comment-
+わたし、犬は犬でも猟犬ですので。
+*/
 I may be a dog, but I was bred for hunting.
 \l
 
 \\@CHARA_IN@< 0, 11, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0046", 100>
+\\@TEXT_ID@<110>
 Ciel
-Try not to let your guard down, or I might just rip out
-that slender throat of yours.
+/*-comment-
+油断していると、その細い首を
+一噛みで食い千切るかもですよ？
+*/
+Try not to let your guard down,
+or I might just rip out that slender throat of yours.
 
 \\@BGM_STOP@<0>
 \e
+

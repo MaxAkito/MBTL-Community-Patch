@@ -1,68 +1,124 @@
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg06", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
-\aw
-
-\\@CHARA_IN@<0, 6, 0, 1, 0>
-\\@CHARA_IN@<1, 9, 0, 2, 0>
+// \\@SYSTEM@<1>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
 
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 6, 0, 1, 0>
+\\@CHARA_IN@<1, 9, 0, 2, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<5, 9, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//vlov
+\\@CHARA_SET_PATTERN@<5, 0>//vlov
+
+\\@NPC_LOAD_SYNC@<4, 6, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//kishima
+\\@CHARA_SET_PATTERN@<4, 1>//kishima
+
 \\@CHARA_IN@< 0, 6, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0020", 100>
+\\@TEXT_ID@<10>
 Kishima
+/*-comment-
+おい、そこのマタギ。暖はいるか。
+その体、熱を失ってもう何年になる？
+*/
 You, huntsman over there. Do you require warmth? How 
 many years has it been since your body lost its heat?
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0030", 100>
+\\@TEXT_ID@<20>
 Volv
+/*-comment-
+……百年程度だ。
+*/
 It has been about 100 years...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0031", 100>
+\\@TEXT_ID@<30>
 Volv
+/*-comment-
+ご当主の苦しみに比べれば、
+まだ情けを受けるには早すぎる。
+*/
 But compared to my liege's suffering,
 it's far too early for me to receive any pity.
 \l
 
 \\@CHARA_IN@< 1, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0032", 100>
+\\@TEXT_ID@<40>
 Volv
+/*-comment-
+だが―――
+*/
 Nevertheless...
 \l
 
 \\@CHARA_IN@< 1, 9, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0033", 100>
+\\@TEXT_ID@<50>
 Volv
+/*-comment-
+貴様の炎を喰らう事に、異論はない。
+*/
 I have no objections to feasting upon your flames.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0034", 100>
+\\@TEXT_ID@<60>
 Volv
-You saw my true form and yet, you felt nothing.
+/*-comment-
+おれの《貌＜すがた＞を見て、
+貴様は何も感じなかった。
+*/
+You saw me for what I truly am, and yet, you felt nothing.
 \l
 
 \\@CHARA_IN@< 1, 9, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0035", 100>
+\\@TEXT_ID@<70>
 Volv
-Indeed... Such is how a warrior ought to be.
+/*-comment-
+……そうだ。武人とは、そうでなくてはな。
+*/
+Yes... Such is how a warrior ought to be.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0021", 100>
+\\@TEXT_ID@<80>
 Kishima
-These are just some martial arts I've picked up.
-But if you deem that acceptable, allow me to demonstrate.
+/*-comment-
+あとからついてきた武だが、
+その程度でいいのなら振る舞おう。
+*/
+My martial arts are something I just happened to pick up,
+but if you deem that acceptable, allow me to give you a display.
 \l
 
 \\@CHARA_IN@< 0, 6, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0022", 100>
+\\@TEXT_ID@<90>
 Kishima
+/*-comment-
+オレの名を覚えておけ。
+軋間紅摩。おまえを、骨まで灼く男だ。
+*/
 Remember my name. Kouma Kishima. 
-The man who will burn you to down to the very bone.
+The man who will burn you down to the very bone.
 
 
 \\@BGM_STOP@<0>
 \e
+

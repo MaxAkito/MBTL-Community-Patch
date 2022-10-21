@@ -1,43 +1,70 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg05", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<5>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg05", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 6, 0, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 6, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//kishima
+\\@CHARA_SET_PATTERN@<4, 1>//kishima
+
+\\@CHARA_IN@<0, 6, 0, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 6, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0000", 100>
+\\@TEXT_ID@<10>
 Kishima
+/*-comment-
+この人口過密の都市に吸血鬼とはな。
+物好きな怪物もいたものだ。
+*/
 I did not expect to find a vampire in this crowded city.
 Even monsters must have their hobbies, it appears.
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0001", 100>
+\\@TEXT_ID@<20>
 Kishima
+/*-comment-
+俺には関わりのない手合いのようだが……
+この都市には幾ばくか縁がある。
+*/
 Normally I would have nothing to do with them.
 But I do have my ties to this city.
 \l
 
 \\@CHARA_IN@< 0, 6, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0002", 100>
+\\@TEXT_ID@<30>
 Kishima
+/*-comment-
+袖すり合うのも多生の……というヤツだ。
+*/
 I suppose this was just meant to be...
 \l
 
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0003", 100>
+\\@TEXT_ID@<40>
 Kishima
+/*-comment-
+三年間怪我なく過ごした以上、
+数日程度のタダ働きはするさ。
+*/
 Considering I have gone three years without injury,
-I could do with a few days of uncompensated work.
+I might as well do a few days of uncompensated work.
 
 
 \\@BGM_STOP@<0>
 \e
+

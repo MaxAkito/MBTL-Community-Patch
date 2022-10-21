@@ -1,101 +1,177 @@
-\\@BG_IN@<"screen_bg03", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg03", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@BGM_PLAY@<0, 74, 100>
+
+\\@SYSTEM@<102>
+
+\\@NPC_LOAD_SYNC@<4, 6, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//kishima
+\\@CHARA_SET_PATTERN@<4, 1>//kishima
+
+\\@NPC_LOAD_SYNC@<5, 11, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<5, 4>//ciel
 
 \\@CHARA_IN@<0,  6, 0, 1, 0>
 \\@CHARA_IN@<1, 11, 3, 2, 0>
 \aw
 
-\\@BGM_PLAY@<0, 74, 100>
-
 \\@CHARA_IN@< 1, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0010", 100>
+\\@TEXT_ID@<10>
 Ciel
+/*-comment-
+止まりなさい、そこの男。
+*/
 Stop right there, mister.
 \l
 
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0011", 100>
+\\@TEXT_ID@<20>
 Ciel
-You don't seem to be a vampire, but your atrocities 
-cannot be overlooked. Actually, that goes double if 
-you're not a vampire.
+/*-comment-
+吸血鬼ではないようですが、その凶行は目に余る。
+いえ、吸血鬼でないのなら尚更です。
+*/
+You don't appear to be a vampire, but your atrocities 
+cannot be overlooked. Actually, not being a vampire
+makes it all the worse.
 \l
 
 \\@CHARA_IN@< 1, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0012", 100>
+\\@TEXT_ID@<30>
 Ciel
-Even if perhaps your bloodline is unrelated to the 
+/*-comment-
+この国特有の血族……聖霊の父とは無縁のものが、
+神の血を騙るなどあってはならない。
+*/
+Even if your bloodline is perhaps unrelated to the 
 Holy Father's, and actually native to this country, 
-it is still unacceptable to claim divine blood...
-
+it is still unacceptable to claim to be of divine blood.
 \l
 
 \\@CHARA_IN@< 1, 11, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0013", 100>
+\\@TEXT_ID@<40>
 Ciel
+/*-comment-
+主の意向の代行者として、
+その生存を断ちきりましょう。
+*/
 As an Executor of the Lord's wishes,
 I must bring an end to such beings.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 6, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0010", 100>
+\\@TEXT_ID@<50>
 Kishima
+/*-comment-
+……余所の土地にまでご苦労な事だ。
+*/
 Must be quite tiring bringing yourself all this way...
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0011", 100>
+\\@TEXT_ID@<60>
 Kishima
+/*-comment-
+侵略こそがおまえたちの教義だったな。
+信じるものがただ一つである事の強み……
+*/
 Incursion lies at the heart of your creed.
 There is indeed strength in monotheism...
 \l
 
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0012", 100>
+\\@TEXT_ID@<70>
 Kishima
+/*-comment-
+いや、羨ましいかぎりだ。
+*/
 Most enviable, in fact.
 \l
 
 \\@CHARA_IN@< 0, 6, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0013", 100>
+\\@TEXT_ID@<80>
 Kishima
+/*-comment-
+……だとしても、その潔癖さでは生き辛かろうよ。
+*/
 Even so, 
-such a fastidious lifestyle must be difficult...
+It must be hard to live under in such fastidious conditions.
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0014", 100>
+\\@TEXT_ID@<90>
 Kishima
-You deploy no underhanded tactics against those who bear
-no sin. Hopefully such compassion is backed by ability.
+/*-comment-
+咎なき者には騙し打ちはしない。
+その慈愛に実力が伴っていればいいが。
+*/
+You employ no underhanded tactics against those who do not
+bear sin. Hopefully such compassion is backed by ability.
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0014", 100>
+\\@TEXT_ID@<100>
 Ciel
+/*-comment-
+…………物言わぬ鬼かと思えば、
+ずいぶん舌が回るのですね。
+*/
 I thought you an Oni without much to say,
 but you prove to be quite eloquent...
 \l
 
 \\@CHARA_IN@< 1, 11, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0015", 100>
+\\@TEXT_ID@<110>
 Ciel
-You're not even human, but still a Buddhist?
+/*-comment-
+人間ではないクセに仏教徒なのですか？
+*/
+You're a Buddhist in spite of your own inhumanity?
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 6, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0015", 100>
+\\@TEXT_ID@<120>
 Kishima
-Heh. These days, we Oni are the more pious ones.
+/*-comment-
+フッ。昨今、鬼の方が信心深いものだ。
+口上は不要、改宗は諦めろ。
+*/
+Heh. These days, it us Oni who prove most pious.
 But enough talk. Give up on your conversion attempt.
 \l
 
 \\@CHARA_IN@< 0, 6, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "06Kis/Kis05_0016", 100>
+\\@TEXT_ID@<130>
 Kishima
-Face me, woman who knows not death.
-I'll help you out with that ennui.
+/*-comment-
+来るがいい、死なずの女。
+おまえの倦怠に付き合ってやる。
+*/
+Bring it, deathless woman.
+I'll take care of the weariness of life you feel.
 
 
 \\@BGM_STOP@<0>
 \e
+

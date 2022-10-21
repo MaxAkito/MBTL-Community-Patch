@@ -17,55 +17,97 @@
 \\@SQ_CALL@<1>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0080", 100>
+\\@TEXT_ID@<10>
 Volv
+/*-comment-
+―――ここまで、か。
+*/
 So this is where it ends...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0081", 100>
+\\@TEXT_ID@<20>
 Volv
+/*-comment-
+この女を喰らったところで、
+おれの何が、変わるでもない。
+*/
 Nothing about me has changed, 
 even after I consumed that woman.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0082", 100>
+\\@TEXT_ID@<30>
 Volv
+/*-comment-
+……過去は変わらない。
+*/
 The past cannot be changed.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0083", 100>
+\\@TEXT_ID@<40>
 Volv
+/*-comment-
+……手にするべき明日も、思いつかない。
+*/
 And I cannot conceive what kind 
 of future I ought to strive for...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0084", 100>
+\\@TEXT_ID@<50>
 Volv
+/*-comment-
+……そのような亡霊が、
+なぜ生きながらえる必要がある。
+*/
 So then... what is the point of a
 wraith like me to keep on living?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0085", 100>
+\\@TEXT_ID@<60>
 Volv
+/*-comment-
+……漂流は終わりだ。
+二百年……この命になってから、
+*/
 My time adrift has come to an end... 
-It's been... 200 years... since I became like this.
+It's been 200 years... since I became like this.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0086", 100>
+\\@TEXT_ID@<70>
 Volv
+/*-comment-
+一度も、魂を懸けるほどの敵に
+遭わなかったのは、心残りだが……
+*/
 That I did not once meet an adversary worthy of putting
 my soul on the line for... does give me some regrets...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0087", 100>
+\\@TEXT_ID@<80>
 Volv
-That too... is a fitting end for man such as I.
+/*-comment-
+……それも、狗にすらなれなかった男には、
+相応の末路だろうよ…………。
+*/
+That too... is a fitting end for a man such as I.
 A man who could not even play the role of a dog.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0088", 100>
+\\@TEXT_ID@<90>
 Volv
-Alas... 
-It is so... very... cold...
+/*-comment-
+―――ああ。
+　　　ここは、とても、寒い―――
+*/
+　　　Alas... 
+　　　It is so... very... cold...
 
 \\@SYSTEM@<21>
 \aw
@@ -73,3 +115,4 @@ It is so... very... cold...
 
 \\@BGM_STOP@<0>
 \e
+

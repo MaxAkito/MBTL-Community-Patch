@@ -1,40 +1,69 @@
 \\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
 \\@BG_IN@<"ed_bg00", 0, 2>
+\\@NPC_CHARA_SHADOW@<2>
 \aw
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@BGM_PLAY@<0, 78, 100>
 
+\\@SYSTEM@<100>
+
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0000", 100>
+\\@TEXT_ID@<10>
 Worker
+/*-comment-
+おーい、こっちの余ったコンテナはどうすんだー！？
+どこに運べばいいんだっつーの！
+*/
 Hey! What should we do with this extra container?!
 C'mon, where does this thing go?!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0001", 100>
+\\@TEXT_ID@<20>
 Worker
+/*-comment-
+あぁ？　書類がない？　倉庫に置いておけ？
+なんだよそりゃ、うちは物置じゃねーぞ？
 What? It's not on the manifest? 
 Just stick it in the warehouse for now?
 We're not a goddamn storage unit, you know?
+*/
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0002", 100>
+\\@TEXT_ID@<30>
 Worker
+/*-comment-
+……まったく、どこの荷物だよ。
+マロース海運……？　はあん、
+*/
 What a pain. Where is this thing from, anyway?
 Moroz Maritime Shipping? Huh...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0003", 100>
+\\@TEXT_ID@<40>
 Worker
+/*-comment-
+ロシアからの長旅ってワケか……
+とりあえず、持ち主がわからねえならオレのモンだよな？
+*/
 So it came here all the way from Russia?
 Oh well, finders, keepers, am I right?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0004", 100>
+\\@TEXT_ID@<50>
 Worker
+/*-comment-
+さて、中は……中は……
+コンテナいっぱいの花と棺桶が一つだあ？
+*/
 Let's see what we've got in here... 
 Oh, it's full of flowers... 
 and what looks like a coffin?
@@ -43,69 +72,123 @@ and what looks like a coffin?
 \\@SE_PLAY@<0,"talk/talk_se/Hit_BurningLong",0,100>
 \\@FADE_OUT@<2, 128,0 ,0 ,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0005", 100>
+\\@TEXT_ID@<60>
 Worker
+/*-comment-
+なに考えて―――なんだ、おい。
+花が燃えて―――うお、うああああああ！？
+*/
 Who the he--Whoa! The flowers
 are starting to bu--! AH...AHHH!!
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0006", 100>
+\\@TEXT_ID@<70>
 Worker
+/*-comment-
+たすけ、たすけて……！
+燃える、なんだこれ、オレ内側から燃えてるよぅ……！
+*/
 He--help me! What the--I'm burning... Wha--
 It feels like, I'm burning up from the inside!
+
+\\@SYSTEM@<200>
 
 \\@FADE_IN@<2, 128,0 ,0 ,0>
 \aw
 
-\\@CHARA_IN@<0, 9, 0, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 9, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//vlov
+\\@CHARA_SET_PATTERN@<4, 0>//vlov
+
+\\@CHARA_IN@<0, 9, 0, 1, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0050", 100>
+\\@TEXT_ID@<80>
 Volv
+/*-comment-
+……港に着いたようだ。
+*/
 Seems I have arrived at port...
 \l
 
 \\@CHARA_IN@< 0, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0051", 100>
+\\@TEXT_ID@<90>
 Volv
+/*-comment-
+……人生は分からぬものだ。
+おれのような男が、柩一つで海を渡る事になるとは。
+*/
 You never know how life turns out... To think a man such 
-as I... would cross an entire ocean with just a coffin.
+as I would cross an entire ocean with just a coffin...
 \l
 
 \\@CHARA_IN@< 0, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0052", 100>
+\\@TEXT_ID@<100>
 Volv
+/*-comment-
+……いや。これが初めてでもなかったな。
+棺に入れられ、北海に追放された。
+*/
 Though... this wasn't the first time. I was sealed in
 a coffin when they first exiled me to the northern seas.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 11>//vlov
+
 \\@CHARA_IN@< 0, 9, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0053", 100>
+\\@TEXT_ID@<110>
 Volv
+/*-comment-
+……今ではもう、おれではない他人の記憶だ。
+*/
 But now... 
 Those memories are barely even my own anymore...
 \l
 
 \\@CHARA_IN@< 0, 9, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0054", 100>
+\\@TEXT_ID@<120>
 Volv
+/*-comment-
+……さて。正気でいられるのも残りわずか。
+*/
 Nevertheless... I will only remain sane for so long.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 13>//vlov
+
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0055", 100>
+\\@TEXT_ID@<130>
 Volv
+/*-comment-
+最後の機会だ。おれがおれでなくなる前に、
+真祖の姫の心臓を手に入れる。
+*/
 This is my last chance. I must acquire the 
-Princess of the True Ancestors's heart before
-I lose myself entirely.
+heart of the Princess of the True Ancestors
+before I lose myself entirely.
 \l
 
 \\@CHARA_IN@< 0, 9, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0056", 100>
+\\@TEXT_ID@<140>
 Volv
+/*-comment-
+その後で―――貴様の足跡に追いつくぞ、蛇め。
+*/
 And then, I shall track you down, vile Serpent.
 
 
 \\@BGM_STOP@<0>
 \e
+

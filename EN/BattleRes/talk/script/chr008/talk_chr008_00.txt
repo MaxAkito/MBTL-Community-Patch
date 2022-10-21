@@ -1,98 +1,177 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg04", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<4>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg04", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 8, 9, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 8, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<4, 102>//noel
+
+\\@CHARA_IN@<0, 8, 9, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 73, 100>
 
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@< 0, 8, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0040", 100>
+\\@TEXT_ID@<10>
 Noel
+/*-comment-
+アイツに遅れること、一ヶ月……
+ようやくロアの潜伏先に赴任できたわ。
+*/
 Finally I've transferred to where Roa is hiding.
-Even if I got here a month after she did...
+Even if I got here a month after Ciel did...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0041", 100>
+\\@TEXT_ID@<20>
 Noel
+/*-comment-
+ソウヤって読むのかしらね、この街の名前。
+*/
 So this city is called Souya, huh?
 \l
+
+\\@CHARA_SET_PATTERN@<4, 100>//noel
 
 \\@CHARA_IN@< 0, 8, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0042", 100>
+\\@TEXT_ID@<30>
 Noel
+/*-comment-
+やだー、わりと都会じゃなーい！
+*/
 But oh my! It's got more inner city charm than you'd think!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0043", 100>
+\\@TEXT_ID@<40>
 Noel
-Chloe, TOCCA, Miu Miu, even M�EA�EC!
+/*-comment-
+シロエにトーカ、チュウチュウにマークもある！
+テンションあがっちゃう！
+*/
+There's Chloe, TOCCA, Miu Miu, even M・A・C!
 This is going to be fun!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 103>//noel
+
 \\@CHARA_IN@< 0, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0044", 100>
+\\@TEXT_ID@<50>
 Noel
+/*-comment-
+いままで田舎町ばっかりだったから
+シスター服しか着なかったけど、
+*/
 Before this we were always stuck in some 
 countryside village in the middle of nowhere. 
 All I could wear was my nun's habit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0045", 100>
+\\@TEXT_ID@<60>
 Noel
+/*-comment-
+今回は趣味に走れそう！
+えーと……なになに。アイツの表向きの職業は……
+*/
 But now I can really immerse myself in my hobbies!
 Let's see... what's her outward persona like...
 \l
+
+\\@CHARA_SET_PATTERN@<4, 101>//noel
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0046", 100>
+\\@TEXT_ID@<70>
 Noel
-No way?! A student?! Are you actually serious? 
+/*-comment-
+はあ、学生！？　なっめてんのかオイ、
+心身共にティーンエイジかっつーの！
+*/
+Really?! A student?! Are fucking kidding me? 
 You're gonna be a teenager not just in body 
 but in mind too!?
 \l
 
+\\@CHARA_SET_PATTERN@<4, 102>//noel
+
 \\@CHARA_IN@< 0, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0047", 100>
+\\@TEXT_ID@<80>
 Noel
+/*-comment-
+……チッ。私じゃさすがに学生はきつい……
+いやいける？　……いやいや冷静になれ私……
+*/
 Tsk. I probably could not pull off the student look...
-Or could I? No, no, get a hold of yourself.
+Or could I? No, no, get a hold of yourself, Noel.
 \l
+
+\\@CHARA_SET_PATTERN@<4, 60>//noel
 
 \\@CHARA_IN@< 0, 8, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0048", 100>
+\\@TEXT_ID@<90>
 Noel
+/*-comment-
+うーん…………よし、教師で手を打ちましょう！
+学生は無理でもそれならイケる！
+*/
 Hmmmmm... Oh! If I can't be a student, then 
 I'll just have to become a teacher instead!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 100>//noel
+
 \\@CHARA_IN@< 0, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0049", 100>
+\\@TEXT_ID@<100>
 Noel
+/*-comment-
+そうと決まれば手続き、手続き！
+キャー☆　なんか楽しそーう！
+*/
 With that decided, time to submit my papers!
-Oh, this is going to be so much fun! ��
+Oh, this is going to be so much fun! ☆
 \l
 
 \\@CHARA_IN@< 0, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0050", 100>
+\\@TEXT_ID@<110>
 Noel
+/*-comment-
+昼は悩める生徒たちの相談役、
+夜は吸血鬼を退治する謎のシスターとか、
+*/
 A wise instructor, molding young minds by day!
 And a mysterious nun, killing vampires by night!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 106>//noel
+
 \\@CHARA_IN@< 0, 8, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0051", 100>
+\\@TEXT_ID@<120>
 Noel
+/*-comment-
+キャラ立ってきたわね！
+*/
 Oh, I've created a great character for myself already!
 
 \\@BGM_STOP@<0>
 \e
+

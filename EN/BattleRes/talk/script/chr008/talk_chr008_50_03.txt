@@ -1,8 +1,19 @@
-\\@BG_IN@<"screen_bg08", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<8>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg08", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 8, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<4, 20>//noel
+
+\\@NPC_LOAD_SYNC@<5, 2, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//akiha
+\\@CHARA_SET_PATTERN@<5, 90>//akiha
 
 \\@CHARA_IN@<0, 8, 0, 1, 0>
 \\@CHARA_IN@<1, 2, 0, 2, 0>
@@ -10,104 +21,189 @@
 
 \\@BGM_PLAY@<0, 74, 100>
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@< 1, 2, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0050", 100>
+\\@TEXT_ID@<10>
 Akiha
+/*-comment-
+お待ちなさい、そこの不審者。
+*/
 Stop right there, whoever-you-may-be.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0051", 100>
+\\@TEXT_ID@<20>
 Akiha
+/*-comment-
+当家の様子を監視していたようですが、
+その必要はありません。
+*/
 It seems you've been monitoring our family estate, 
 but you really need not, I assure you.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 105>//akiha
+
 \\@CHARA_IN@< 1, 2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0052", 100>
+\\@TEXT_ID@<30>
 Akiha
+/*-comment-
+どうぞ、屋敷の中にお入りください。
+*/
 Why don't you come inside and make yourself comfortable?
 \l
 
 \\@CHARA_IN@< 1, 2, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0053", 100>
+\\@TEXT_ID@<40>
 Akiha
+/*-comment-
+お客様として歓迎いたしますわ。
+お話があるのでしょう？
+*/
 I would be happy to entertain you as a guest.
 I assume you wish to speak with me?
 \l
 
+
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0054", 100>
+\\@TEXT_ID@<50>
 Akiha
-I know just the place where we might enjoy some tea and
-have a pleasant conversation without being interrupted.
+/*-comment-
+誰の邪魔も入らない場所で、
+ゆっくりとお茶を楽しむのはどうかしら？
+*/
+I know just the place where we can have a pleasant 
+conversation and have some tea without being interrupted.
 \l
 
 
+\\@CHARA_SET_PATTERN@<4, 70>//noel 喜ぶ
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0060", 100>
+\\@TEXT_ID@<60>
 Noel
+/*-comment-
+え、ほんと？　ご丁寧にどうも……
+さっすがブルジョワ、余裕と優雅に溢れてるぅ！
+*/
 Wait, for real? I'll gratefully accept then... 
 You bourgeoisie sure have magnanimity and 
 elegance to spare!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 71>//noel
+
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0061", 100>
+\\@TEXT_ID@<70>
 Noel
+/*-comment-
+……なーんて、誰がほいほい付いていくかっての。
+*/
 As if. Has anyone honestly fallen for that before?
 \l
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0062", 100>
+\\@TEXT_ID@<80>
 Noel
+/*-comment-
+殺意も敵意もない、めっちゃ上等な笑顔だけど
+血の匂いだけは誤魔化せない。
+*/
 I don't sense any hostility behind that fine smile of 
 yours, but you can't cover up the smell of your blood.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 72>//noel 考える
 \\@CHARA_IN@< 0, 8, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0063", 100>
+\\@TEXT_ID@<90>
 Noel
+/*-comment-
+中に入ったら即死でしょ、コレ。
+*/
 You would've had me killed as soon as I entered.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 106>//akiha
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 2, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0055", 100>
+\\@TEXT_ID@<100>
 Akiha
+/*-comment-
+あら。それは誤解というものです。
+*/
 Oh, heavens no. That's quite the misunderstanding.
 \l
 
 \\@CHARA_IN@< 1, 2, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0056", 100>
+\\@TEXT_ID@<110>
 Akiha
+/*-comment-
+貴女の目的と所属、所属組織の規模を教えて
+いただくまでは、丁重に扱わせていただきます。
+*/
 Until you told me who sent you, how big of an
 organization they are and what their objective is, 
 I would have handled you ever so gently...
 \l
 
+\\@CHARA_SET_PATTERN@<5, 105>//akiha
 \\@CHARA_IN@< 1, 2, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak05_0057", 100>
+\\@TEXT_ID@<120>
 Akiha
+/*-comment-
+もっとも―――その後の安全は保証できませんが。
+*/
 Naturally, I could not guarantee 
 your safety after that though.
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 71>//noel 怒り
+
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0064", 100>
+\\@TEXT_ID@<130>
 Noel
+/*-comment-
+１０代でその発想が既に人外だっつーの！
+*/
 Teenagers with those kinda thoughts
 are what we call 'inhuman'!
 \l
 
 \\@CHARA_IN@< 0, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0065", 100>
+\\@TEXT_ID@<140>
 Noel
+/*-comment-
+死徒ではないようだけど、
+血を吸う鬼に変わりはないのよね？
+*/
 You don't appear to be a Dead Apostle, but you're a 
-bloodsucking fiend all the same, aren't you?
+bloodsucking monster all the same, aren't you?
 \l
 
+\\@CHARA_SET_PATTERN@<4, 3>//noel やったる
 \\@CHARA_IN@< 0, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0066", 100>
+\\@TEXT_ID@<150>
 Noel
+/*-comment-
+なら、遠慮なくやってやろうじゃない！
+*/
 And if that's the case, I've 
 got no qualms in taking you down.
 
 \\@BGM_STOP@<0>
 \e
+

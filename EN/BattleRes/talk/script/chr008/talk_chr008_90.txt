@@ -17,95 +17,170 @@
 \\@SQ_CALL@<1>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0080", 100>
+\\@TEXT_ID@<10>
 Noel
+/*-comment-
+はぁーあー！
+*/
 Ugh!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0081", 100>
+\\@TEXT_ID@<20>
 Noel
+/*-comment-
+結局、アイツに助けられて助かった、なんて、
+いつものパターンかぁ……
+*/
 After all that's said and done, she's saved 
-me again... Just like it usually plays out...
-
+me again... Just like it always plays out...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0082", 100>
+\\@TEXT_ID@<30>
 Noel
+/*-comment-
+鬱るなぁ……
+*/
 Big mood...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0083", 100>
+\\@TEXT_ID@<40>
 Noel
-Well, it being a joint operation is better than usual,
+/*-comment-
+ま、共同作業ってコトで大幅にスコアは上がったし、
+危ないところはぜんぶ押しつけられたしで、
+*/
+Well, it being a joint operation was better than usual,
 so that's a point for me. Also I just let her do all 
 the dangerous stuff, sooo...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0084", 100>
+\\@TEXT_ID@<50>
 Noel
-Basically, there were nothing but positives all around!
+/*-comment-
+結果的にはプラスもプラス、
+楽して生きるってこういうコトよね！
+*/
+In hindsight, there were nothing but positives all around!
 Nothing wrong with taking the easy route in life!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0085", 100>
+\\@TEXT_ID@<60>
 Noel
+/*-comment-
+晴れて一年分のノルマクリア、
+これで堂々と教師生活を満喫できる！
+*/
 I think I've done enough work for the rest of the year!
 Now I can sit back, relax and enjoy the teacher life!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0086", 100>
+\\@TEXT_ID@<70>
 Noel
+/*-comment-
+部屋は清潔、ごはんは美味しい、遊び場たくさん！
+いえーい、都会の夜、さいっこー！
+*/
 A clean room, delicious food, and lots of 
 places to enjoy! Yaaay, city nightlife owns!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0087", 100>
+\\@TEXT_ID@<80>
 Noel
+/*-comment-
+……って、あれ？
+*/
 Huh? What was that?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0088", 100>
+\\@TEXT_ID@<90>
 Noel
+/*-comment-
+いま、路地裏にふらふら歩いていったの、
+うちの生徒じゃない？
+*/
 That almost looked like one of my 
 students wandering through the back alleys.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0089", 100>
+\\@TEXT_ID@<100>
 Noel
+/*-comment-
+私のクラスの、たしか……そうそう、弓塚さん！
+*/
 Isn't that... Oh, right! 
 That's Satsuki Yumizuka from my class!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0090", 100>
+\\@TEXT_ID@<110>
 Noel
+/*-comment-
+弓って名字が気にくわなくて、
+なんとなく覚えちゃったんだけど……
+Note, Bow = Yumi = Ciel, so that's why Noel remembered it.
+Might need a better translation.
+*/
 I managed to somehow memorize her name because the 
 'yumi' in her last name really sticks in my throat.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0091", 100>
+\\@TEXT_ID@<120>
 Noel
+/*-comment-
+へえ。あの路地裏に、ねぇ？
+*/
 Hmm... in THAT back alley?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0092", 100>
+\\@TEXT_ID@<130>
 Noel
+/*-comment-
+さて、どうしよっかなあ。
+*/
 Well, well, what should I do?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0093", 100>
+\\@TEXT_ID@<140>
 Noel
+/*-comment-
+気を利かせて見なかった事にするか、
+聖職者として様子を見に行くべきか。
+*/
 Do I pretend I didn't see anything? Or, given 
 that I'm a nun and all, do I go check on her?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0094", 100>
+\\@TEXT_ID@<150>
 Noel
+/*-comment-
+ま、今夜はいいコトあったし、
+たまには無償の人助けとまいりますか！
+*/
 Oh, why not? I'm in a good mood tonight. 
-Might as well play the Good Samaritan now and then!
+Might as well play Good Samaritan now and then!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0095", 100>
+\\@TEXT_ID@<160>
 Noel
-Besides, I'll be seeing her fairly often now. 
+/*-comment-
+しばらく顔を合わせるんだもの、
+頼れるお姉さんとして振る舞いましょう！
+*/
+Besides, I'll be seeing her fairly often from now on. 
 I've gotta give her the impression that I'm 
 someone who can be relied on!
 
@@ -116,3 +191,4 @@ someone who can be relied on!
 
 \\@BGM_STOP@<0>
 \e
+

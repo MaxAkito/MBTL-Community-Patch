@@ -1,13 +1,22 @@
-\\@BG_IN@<"screen_bg10", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<10>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg10", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<5, 8, 320, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<5, 19>//noel
 
 \\@CHARA_IN@<1, 8, 9, 2, 0>
 \aw
 
 \\@BGM_PLAY@<0, 74, 100>
+
+\\@SYSTEM@<102>
 
 \\@CHARA_EMOVE@<1, -1 , 1>
 \aw
@@ -15,7 +24,12 @@
 \aw
 \\@CHARA_IN@< 1, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0010", 100>
+\\@TEXT_ID@<10>
 Noel
+/*-comment-
+うーん……見えそうで見えない……
+入れそうで入れない……
+*/
 Hmm... 
 I can kinda see in, but not really...
 I can kinda enter, but not really...
@@ -23,13 +37,22 @@ I can kinda enter, but not really...
 
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0011", 100>
+\\@TEXT_ID@<20>
 Noel
+/*-comment-
+どうなってるのよこの屋敷……
+*/
 What is up with this mansion...?
 \l
 
 \\@CHARA_IN@< 1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0012", 100>
+\\@TEXT_ID@<30>
 Noel
+/*-comment-
+ホームセキュリティ万全じゃない……
+土地の力と近代化のハイブリットとか何様？
+*/
 They even have a whole home security system...
 Who do they think they are, combining this modern 
 stuff with the lay of the land?!
@@ -37,91 +60,166 @@ stuff with the lay of the land?!
 
 \\@CHARA_IN@< 1, 8, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0013", 100>
+\\@TEXT_ID@<40>
 Noel
+/*-comment-
+もっと魔術的なものに頼りなさいよ、むかつく……！
+*/
 Why can't they rely more on something magecrafty?! 
 Ugh, this sucks!
+
+\\@SYSTEM@<101>
+\\@NPC_LOAD_SYNC@<4, 3, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<4, 1>//shiki
 
 \\@CHARA_IN@< 0, 3, 0, 1, 0>
 \aw
 \\@CHARA_IN@< 0, 3, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0010", 100>
+\\@TEXT_ID@<50>
 Shiki
+/*-comment-
+……いたよ。
+*/
 And there they are...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0011", 100>
+\\@TEXT_ID@<60>
 Shiki
+/*-comment-
+すっごい不審者いたよ……
+うちの屋敷を堂々と覗き見しているよ……
+*/
 Someone super suspicious...
 Flagrantly peeking into our mansion...
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 8, 6, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 4>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0014", 100>
+\\@TEXT_ID@<70>
 Noel
+/*-comment-
+はっ……！？　この、一見大人しそうに見えて、
+その実心底冷め切った冷徹なキラーサイトは……
+*/
 Wha-?! Oh, wait, that unassuming appearance, yet deep
 and chilling killer sight. It could only be one person...
 \l
 
+\\@NPC_LOAD_SYNC@<5, -2, 320, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 7>//noel
+
 \\@CHARA_IN@< 1, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0015", 100>
+\\@TEXT_ID@<80>
 Noel
+/*-comment-
+やっぱり志貴クンね！
+*/
 Hello there, Shiki!
 \l
 
 \\@CHARA_IN@< 1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0016", 100>
+\\@TEXT_ID@<90>
 Noel
+/*-comment-
+美人教師の私生活が気になるのはわかるけど、
+*/
 I understand that it's only natural to wonder about
 your attractive teacher's private life...
 \l
 
 \\@CHARA_IN@< 1, 8, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0017", 100>
+\\@TEXT_ID@<100>
 Noel
+/*-comment-
+先生の夜のアルバイトまでストーキングするなんて……
+不良少年にも程がない？
+*/
 But stalking me to see where I work at night? 
 That's some real delinquent behavior there, you know.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 13>//noel かっこいいポーズ
 \\@CHARA_IN@< 1, 8, 300, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0018", 100>
+\\@TEXT_ID@<110>
 Noel
+/*-comment-
+それとも先生にイケナイ指導とか、されたいのかな？
+*/
 Or are you here for some... 
 illicit... extra-curricular activities?
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 4>//shiki
 
 \\@CHARA_OUT@< 0, 3, 2, 0, 0>
 \aw
 \\@CHARA_IN@< 0, 3, 103, 11, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0012", 100>
+\\@TEXT_ID@<120>
 Shiki
+/*-comment-
+………………。
+*/
 ......
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 71>//noel 怒り（斧）
 
 \\@CHARA_IN@< 1, 8, 11, 0, 1>
 \\@CHARA_IN@< 1, 8, -1, 22, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0019", 100>
+\\@TEXT_ID@<130>
 Noel
+/*-comment-
+うっわぁ……そりゃあこっちも不審者だけど、
+切り替え早すぎない？
+*/
 Whoa! Hold on! I know this looks suspicious,
 but aren't you jumping the gun a bit here?!
 \l
 
 \\@CHARA_IN@< 1, 8, 9, 32, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0020", 100>
+\\@TEXT_ID@<140>
 Noel
+/*-comment-
+ま、手間が省けたからいいけど。
+*/
 Oh well, I suppose this'll save time in the long run.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 73>//noel 楽
+
 \\@CHARA_IN@< 1, 8, 0, 32, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0021", 100>
+\\@TEXT_ID@<150>
 Noel
+/*-comment-
+見られたからには仕方ないワケだし？
+*/
 There's no point in hiding now that I've been found out.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 3>//noel やったる
 \\@CHARA_IN@< 1, 8, 1, 32, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe05_0022", 100>
+\\@TEXT_ID@<160>
 Noel
+/*-comment-
+ここで手足ちょ～～っと叩き潰して、
+尋問室につれていってあげましょう！
+*/
 Guess I'll juuust have to crush your limbs a little
 so I can bring you in for interrogation. 
 
-
 \\@BGM_STOP@<0>
 \e
+

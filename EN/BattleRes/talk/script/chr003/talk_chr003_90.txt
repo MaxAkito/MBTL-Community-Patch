@@ -1,39 +1,61 @@
-\\@BG_IN@<"screen_bg03", 0, 2>
+\\@BG_IN@<"screen_bg04", 0, 2>
 
 \\@SYSTEM@<0>
 \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@< 0, 3, 0, 44, 0>
-\\@CHARA_MUKI@<0,0>
+\\@SPEAKERCG_IN@<0, 3,0, 128,-240, 128,-240, 0,255, 30, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 3, 0, 44, 0>
+// \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 76, 100>
 
-\\@CHARA_IN@< 0, 3, 10, 0, 1>
+\\@SPEAKERCG_IN@<0, 3,10, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 3, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0030", 100>
+\\@TEXT_ID@<10>
 Shiki
+/*-comment-
+……ふう。なんとかなった。
+*/
 Phew... Guess I pulled it off.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0031", 100>
+\\@TEXT_ID@<20>
 Shiki
+/*-comment-
+なりゆきとはいえ、あんな怪物とやりあうのは
+これっきりにしてほしい……
+*/
 It wasn't exactly intentional, but I hope I never
 have to fight a monster like that ever again.
 \l
 
-\\@CHARA_IN@< 0, 3, 4, 0, 1>
+\\@SPEAKERCG_IN@<0, 3,4, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
+// \\@CHARA_IN@< 0, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0032", 100>
+\\@TEXT_ID@<30>
 Shiki
+/*-comment-
+ああ、手足が重い……眼鏡を外しすぎた。
+これじゃ屋敷まで帰れない。
+*/
 Damn, my body feels heavy. I had my glasses
 off for too long. I'm going to have trouble 
 getting home like this.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0033", 100>
+\\@TEXT_ID@<40>
 Shiki
+/*-comment-
+もう少し、ベンチで休んでいかないと―――
+*/
 I'll just rest for a bit longer on this bench...
 
-\\@CHARA_OUT@<0, -1, -1, 0, 0>
+\\@SPEAKERCG_IN@<0, 3,10, 128,-240, 128,-240, 255,0, 0, 1024,1024, 0>
+// \\@CHARA_OUT@<0, -1, -1, 0, 0>
 \aw
 \\@BGM_STOP@<0>
 
@@ -41,12 +63,20 @@ I'll just rest for a bit longer on this bench...
 \aw
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0034", 100>
-That was when...
+\\@TEXT_ID@<50>
+/*-comment-
+――――――その時。
+*/
 \l
 
 \\@SQ_CALL@<2>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0035", 100>
+\\@TEXT_ID@<60>
+/*-comment-
+俺は、遠野志貴という容れ物が、
+跡形もなく壊れる音を聞いた。
+*/
 I heard a noise that sounded as if a vessel, perhaps 
 one named Shiki Tohno, broke against the ground,
 never to be whole again.
@@ -56,35 +86,67 @@ never to be whole again.
 \\@SQ_CALL@<3>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0036", 100>
+\\@TEXT_ID@<70>
+/*-comment-
+脈拍が跳ねあがる。
+*/
 My pulse suddenly quickened.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0037", 100>
+\\@TEXT_ID@<80>
+/*-comment-
+《回転＜レート＞が振り切れる。
+*/
 My body was going at full spin.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0038", 100>
+\\@TEXT_ID@<90>
+/*-comment-
+静脈と動脈が活性化する。
+*/
 My veins, even my arteries, 
 all flared into great activity.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0039", 100>
-My mind began breaking apart, more and more, as I
-saw a dream-like vision that set my spine alight.
+\\@TEXT_ID@<100>
+/*-comment-
+神経は次々と散裂し、脊髄が加熱する《幻覚＜ゆめ＞を見る。
+*/
+One after the other, my nerves began breaking apart.
+My spine was set alight. 
+All by that dream-like vision I bore witness to.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0040", 100>
+\\@TEXT_ID@<110>
 Shiki
-...Agh...
+/*-comment-
+―――、あア―――
+*/
+Agh...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0041", 100>
+\\@TEXT_ID@<120>
+/*-comment-
+夜はまだ終わっていなかった。
+*/
 The night was not over yet.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0042", 100>
+\\@TEXT_ID@<130>
+/*-comment-
+吸血鬼と俺を結ぶ縁は、正しく、
+この瞬間から始まった。
+*/
 It was only from that moment onward that my destiny 
 became TRULY intertwined with that of vampires.
 
+
 \\@BGM_STOP@<0>
 \e
+

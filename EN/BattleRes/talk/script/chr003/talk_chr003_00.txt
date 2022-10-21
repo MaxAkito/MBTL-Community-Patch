@@ -1,57 +1,95 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg01", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<1>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg01", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@< 0, 3, 0, 44, 0>
+\\@NPC_LOAD_SYNC@<4, 3, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<4, 90>//shiki
+
+\\@CHARA_IN@< 0, 3, 0, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<101>
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0000", 100>
+\\@TEXT_ID@<10>
 Shiki
+/*-comment-
+よくない月だ。
+気を抜くと所々に線が視える。
+*/
 What an ominous moon... If I don't keep it
 together, I'll start seeing lines everywhere.
 \l
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0001", 100>
+\\@TEXT_ID@<20>
 Shiki
+/*-comment-
+こんな夜は家に籠もって朝を待った
+ほうが得策なんだけど……
+*/
 On nights like these, it would be prudent
 to stay inside and wait for morning.
 \l
+
+\\@CHARA_SET_PATTERN@<4, 140>//shiki
 
 \\@CHARA_IN@< 0, 3, 4, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 13>
 \aw
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0002", 100>
+\\@TEXT_ID@<30>
 Shiki
+/*-comment-
+そういう訳にもいかないか。
+*/
 But I can't afford to do that.
 \l
 
 \\@CHARA_IN@< 0, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0003", 100>
+\\@TEXT_ID@<40>
 Shiki
+/*-comment-
+屋敷にいる男手は俺だけだし。
+*/
 I am the only man in the house, after all.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0004", 100>
+\\@TEXT_ID@<50>
 Shiki
+/*-comment-
+兄貴として頼りになるところを
+見せたいのもホントだし。
+*/
 Also, I really wanna show the others that I can 
 be depended on as the elder brother that I am.
 \l
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0005", 100>
+\\@TEXT_ID@<60>
 Shiki
+/*-comment-
+とりあえず屋敷のまわりに
+ヘンなのがいないか、見てくるとしよう。
+*/
 Right now, that means patrolling the area 
 around the mansion for any signs of trouble.
 
+
 \\@BGM_STOP@<0>
 \e
+

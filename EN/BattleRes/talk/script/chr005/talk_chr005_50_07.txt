@@ -1,139 +1,254 @@
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg06", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
+\\@NPC_LOAD_SYNC@<4, 5, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//roa
+\\@CHARA_SET_PATTERN@<4, 14>//roa
+
+\\@NPC_LOAD_SYNC@<5, 0, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//arc
+\\@CHARA_SET_PATTERN@<5, 12>//arc
+
 \\@CHARA_IN@<0, 5, 1, 1, 0>
-\\@CHARA_IN@<1, 0, 0, 2, 0>
+\\@CHARA_IN@<1, 0, 2, 2, 0>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0040", 100>
+\\@TEXT_ID@<10>
 Arcueid
+/*-comment-
+どう、わたしの方から出てきてあげたわ。
+これで満足？
+*/
 Well, I'm finally here for you. 
 I hope you're satisfied.
 \l
 
 \\@CHARA_IN@< 1, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0041", 100>
+\\@TEXT_ID@<20>
 Arcueid
+/*-comment-
+真っ先に私に向かってくるのなら
+汚らしいだけだったのに、
+*/
 If only you had come straight for me, then this 
 would've just ended up a minor unpleasantry, yet...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0042", 100>
+\\@TEXT_ID@<30>
 Arcueid
+/*-comment-
+わたしを避けて志貴を狙うなんてね。
+*/
 You avoided me and went for Shiki instead.
 \l
 
 \\@CHARA_IN@< 1, 0, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0043", 100>
+\\@TEXT_ID@<40>
 Arcueid
-Ugh...
+/*-comment-
+―――本当。
+生き物らしく死ねると思わないで。
+*/
+Seriously...
 Do not expect to die a normal death.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0044", 100>
+\\@TEXT_ID@<50>
 Arcueid
+/*-comment-
+わたし、自分でもどうなるか分からないから。
+*/
 Not even I know what awaits you this time.
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 1>//roa
 
 \\@CHARA_IN@< 0, 5, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0040", 100>
+\\@TEXT_ID@<60>
 Roa
+/*-comment-
+――――――
+*/
 ......
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0045", 100>
+\\@TEXT_ID@<70>
 Arcueid
+/*-comment-
+どうしたの、今さら怖くなった？
+けど無理よ。何があっても無理。
+*/
 Now you hesitate? What's wrong? Finally starting to
 feel some fear? But it's too late. It's all too late.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0046", 100>
+\\@TEXT_ID@<80>
 Arcueid
+/*-comment-
+おまえは生きてここから出られない。
+*/
 You will not leave this place alive.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 34>//arc
 \\@CHARA_IN@< 1, 0, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0047", 100>
+\\@TEXT_ID@<90>
 Arcueid
+/*-comment-
+慈悲も許しもない。この星に、痕跡さえ残さない。
+できる事は命乞いぐら―――
+*/
 I will show you no mercy. Every fiber of your 
 being shall be erased from this world. 
 All you'll be able to do is beg for mer-
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0041", 100>
+\\@TEXT_ID@<100>
 Roa
-Not quite. I have no business with you.
+/*-comment-
+――――――いや。おまえに用はない。
 
+*/
+Actually, I have no use for you.
+
+\\@CHARA_SET_PATTERN@<5, 5>//arc
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 0, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0048", 100>
+\\@TEXT_ID@<110>
 Arcueid
+/*-comment-
+……なん、ですって……？
+*/
 Excuse... me?
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0042", 100>
+\\@TEXT_ID@<120>
 Roa
+/*-comment-
+おまえのような故障品に用はない、と言ったのだ。
+*/
 I said... 
-I have no business with a piece of junk like you.
+I have no use for a piece of junk like you.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0043", 100>
+\\@TEXT_ID@<130>
 Roa
+/*-comment-
+私が待ち焦がれるのはおまえのような、
+人の世を顧みるモノではない。
+*/
 What I'd been so eagerly awaiting wasn't someone
 so concerned with the workings of man like you.
 \l
 
 \\@CHARA_IN@< 0, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0044", 100>
+\\@TEXT_ID@<140>
 Roa
+/*-comment-
+消え去れ《堕姫＜だき＞。
+*/
 Begone, fallen princess.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0045", 100>
+\\@TEXT_ID@<150>
 Roa
+/*-comment-
+恥ずかしげもなく欠陥をむき出しにするなど、
+私と姫君への侮辱に他ならない。
+*/
 That you'd lay your defects to bare without 
-an ounce of shame... It's an affront, both 
-to me and the princess, no doubt about it.
+an ounce of shame... It's nothing less than an affront,
+both to me and the princess.
 \l
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0046", 100>
+\\@TEXT_ID@<160>
 Roa
+/*-comment-
+おまえのような偽物は、私の手で花と散らすのみだ。
+*/
 Such a cheap imitation can do 
 naught but wither at my touch.
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 34>//arc
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 1, 0, 7, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 11>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0049", 100>
+\\@TEXT_ID@<170>
 Arcueid
+/*-comment-
+は―――あは、あはははははははは！
+*/
 Ha, hah... ahahaha... 
 Ahahahahahaha!!
 \l
 
 \\@CHARA_IN@< 1, 0, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0050", 100>
+\\@TEXT_ID@<180>
 Arcueid
+/*-comment-
+面白い、面白いわロア！
+道化役として城に来た時より、何倍も心に響いた！
+*/
 You're hilarious! A complete riot, Roa!
-This joke hit way better than the time 
-you showed up to my castle as a jester.
+You're being way funnier than that time 
+you showed up to my castle as a jester!
 \l
 
 \\@CHARA_IN@< 1, 0, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0051", 100>
+\\@TEXT_ID@<190>
 Arcueid
+/*-comment-
+怒りでおなかが捻れそう！
+もうダメ、耐えられない！
+*/
 You make me so angry I might be sick!
 I can stand it no longer!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0052", 100>
+\\@TEXT_ID@<200>
 Arcueid
+/*-comment-
+その血を、一滴残らずまき散らしてあげる！
+*/
 I'm going to spill every last drop of your blood!
 
 \\@BGM_STOP@<0>
 \e
+

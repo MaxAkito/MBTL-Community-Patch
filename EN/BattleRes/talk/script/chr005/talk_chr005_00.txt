@@ -1,91 +1,116 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg09", 0, 2>
+\\@BG_IN@<"screen_bg06", 0, 2>
 \aw
 
 \\@SYSTEM@<0>
 \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 5, 1, 44, 0>
-\\@CHARA_MUKI@<0,0>
+\\@SPEAKERCG_IN@<0, 5,4, 128,-240, 128,-240, 0,255, 30, 1024,1024, 0>
+// \\@CHARA_IN@<0, 5, 4, 44, 0>
+// \\@CHARA_MUKI@<0,0>
 \aw
 
-\\@BGM_PLAY@<0, 78, 100>
-
-\\@CHARA_IN@< 0, 5, 3, 0, 1>
-/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0000", 100>
-Roa
-I'm... alive? Even though my point of death was 
-pierced by the Mystic Eyes of Death Perception?
-\l
+\\@BGM_PLAY@<0, 77, 100>
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
-/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0001", 100>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0050", 100>
+\\@TEXT_ID@<10>
 Roa
-Did he fail to kill me? 
-No, impossible...
+/*-comment-
+……直死の魔眼によって破損した彼女ではこの程度。
+私でさえ打倒しうる規模だが、さて―――
+*/
+So this is all she amounts to after having been damaged
+by the Mystic Eyes of Death Perception. It's to the extent
+that even I could defeat her, however...
+
+\\@SPEAKERCG_IN@<0, 5,4, 128,-240, 128,-240, 255,0, 0, 1024,1024, 0>
+// \\@CHARA_OUT@<0, -1, -1, 0, 0>
+\aw
+
+\\@FADE_IN@<0,255,255,255,0>
+\\@SQ_CALL@<>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0000", 100>
+\\@TEXT_ID@<20>
+Archetype_Earth
+/*-comment-
+―――命を賭した曲芸であったな道化。
+その覚悟に報いてやろう。
+*/
+Thou setst thy life on that scene acted, 
+little jester. Sith such spirit thou dost 
+display, a reward be thee most worthy.
+
+\\@SPEAKERCG_IN@<0,5,5,-245,120,-245,120,255,255,0,820,820,0>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0051", 100>
+\\@TEXT_ID@<30>
+Roa
+/*-comment-
+……やはり、本体が出てきては話にならないな。
+魔術回路を全て防御に回して、さて何秒持つか―――
+*/
+As suspected, with her real form unleashed, I no longer 
+stand a chance. Even with all my magic circuits 
+put to defense, I wonder how many seconds will I last?
+
+\\@GO_SUB@<"RoaOUT_Face0_L">
+
+/*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0001", 100>
+\\@TEXT_ID@<40>
+Archetype_Earth
+/*-comment-
+戯れだ、《一撃＜くちづけ＞を許す。
+*/
+A jest, then：　lone be the 'kiss' thou art permitted.
 \l
 
-\\@CHARA_IN@<0, 5, 4, 0, 1>
-/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0002", 100>
+/*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0002", 100>
+\\@TEXT_ID@<50>
+Archetype_Earth
+/*-comment-
+その血、その魂を捧げるように、
+最期の生を叫ぶがよい。
+*/
+Clamour thou shouldst, for thy last life, like thou
+wert to dedicate thy blood, nay, thy very soul.
+
+\\@SPEAKERCG_IN@<0,5,6,-245,120,-245,120,255,255,0,820,820,0>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0052", 100>
+\\@TEXT_ID@<60>
 Roa
-He wouldn't. After all, I tore that
-woman to pieces, ever so gently.
+/*-comment-
+は―――それでこそ、それでこそだ！
+八百年前。私は確かに永遠を見た。
+*/
+This... this is what I've been waiting for! 
+800 years ago, I really did glimpse eternity.
 \l
 
-\\@CHARA_IN@<0, 5, 4, 0, 1>
-/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0003", 100>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0053", 100>
+\\@TEXT_ID@<70>
 Roa
-The vampire known as Roa was completely killed. 
-Such is certain.
+/*-comment-
+あの時よりいささかも色あせない月の姫よ―――！
+*/
+O Princes of the Moon, as perfect as the time I first saw you!
+I beseech you!
 \l
 
-\\@CHARA_IN@< 0, 5, 5, 0, 1>
-/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0004", 100>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0054", 100>
+\\@TEXT_ID@<80>
 Roa
-What we have here then, is no doubt a 
-deviation taking place after that event.
-\l
+/*-comment-
+十八度目の死、最期の転生を、ここで燃やし尽くして
+ご覧に入れよう！
+*/
+My eighteenth death, my final reincarnation...
+Witness, as I burn it out for good!
 
-\\@CHARA_IN@< 0, 5, 5, 0, 1>
-/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0005", 100>
-Roa
-So... am I the oddity here?
-Or is it the world itself that's odd?
-\l
-
-\\@CHARA_IN@< 0, 5, 4, 0, 1>
-/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0006", 100>
-Roa
-If I had to guess, what would make most sense is that
-this is a parting gift of some sorts from Paranodahlia.
-\l
-
-\\@CHARA_IN@< 0, 5, 5, 0, 1>
-/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0007", 100>
-Roa
-If it's the world itself, then, well...
-This current "me" won't have a clue as to why.
-\l
-
-\\@CHARA_IN@< 0, 5, 1, 0, 1>
-/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0008", 100>
-Roa
-Regardless...
-\l
-
-/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0009", 100>
-Roa
-It would seem I still have a role to play, 
-but let's leave that to the others for the time being.
-\l
-
-\\@CHARA_IN@< 0, 5, 0, 0, 1>
-/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0010", 100>
-Roa
-Temporary as it may be, this is a body nonetheless.
-I ought to have as much fun with it as I can.
+\\@GO_SUB@<"RoaOUT_Face0_L">
 
 
 \\@BGM_STOP@<0>
 \e
+

@@ -1,8 +1,20 @@
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg06", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@SYSTEM@<101>
+\\@NPC_LOAD_SYNC@<4, 5, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//roa
+\\@CHARA_SET_PATTERN@<4, 15>//roa
+
+\\@NPC_LOAD_SYNC@<5, 3, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 90>//shiki
 
 \\@CHARA_IN@<0, 5, 1, 1, 0>
 \\@CHARA_IN@<1, 3, 0, 2, 0>
@@ -12,94 +24,165 @@
 
 \\@CHARA_IN@< 0, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0020", 100>
+\\@TEXT_ID@<10>
 Roa
+/*-comment-
+よう。
+再会を祝して乾杯といこうじゃないか志貴。
+*/
 Well, if it isn't Shiki. We should make 
 a toast in honor of this joyous reunion.
 \l
 
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0021", 100>
+\\@TEXT_ID@<20>
 Roa
+/*-comment-
+酒は飲めるか？　まだ無理？
+ああ、ならオレの飲み物を分けてやろう。
+*/
 Oh, that's right. You're still too young for alcohol.
 Perhaps you would care for a sip of my drink, then?
 \l
 
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0022", 100>
+\\@TEXT_ID@<30>
 Roa
-It's just some low-class Executor blood, but hey...
+/*-comment-
+安っぽい代行者の血だが、
+なに、これはこれで馴れればクセになるぜ？
+*/
+It's just some crappy Executor blood, but hey...
 Might not be so bad once you get used to it.
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 3, 5, 0, 1>
 \\@CHARA_IN@< 1, 3, -1, 22, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0050", 100>
+\\@TEXT_ID@<40>
 Shiki
+/*-comment-
+ロア……！？
+*/
 Roa?!
 \l
 
 \\@CHARA_IN@< 1, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0051", 100>
+\\@TEXT_ID@<50>
 Shiki
+/*-comment-
+……凄いな。あれで生きてるとか、
+本当に蛇みたいなしつこさだ。
+*/
 I'm impressed you survived after that. You really 
-have the persistence of a snake, don't you?
+do have the persistence of a snake, don't you?
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0023", 100>
+\\@TEXT_ID@<60>
 Roa
+/*-comment-
+そう睨むな兄弟。
+しょっぱなから全開にしちまったら脳が破裂するぞ？
+*/
 No need to glare, friend. Your brain might rupture 
-if you stare so hard right from the start.
+if you stare at me so hard right out of the gate.
 \l
 
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0024", 100>
+\\@TEXT_ID@<70>
 Roa
-Don't worry, the Church has more Executors than 
-they know what to do with. Their job is to kill 
-us vampires, or else be killed in return.
+/*-comment-
+安心しろ、代行者なんざ掃いて捨てるほどいる。
+連中はオレたちを殺すか殺されるのかが仕事だ。
+*/
+Don't worry, Executors are dime a dozen. 
+Up against us vampires, their job is kill or be killed.
 \l
 
 \\@CHARA_IN@< 0, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0025", 100>
+\\@TEXT_ID@<80>
 Roa
-So basically, it was just another 
+/*-comment-
+つまり、これも基本業務のうちってな！
+*/
+In other words, it was just another 
 day at the office for them!
 
-\\@CHARA_IN@< 1, 3, 100, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 40>//shiki 眼鏡はずし
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 103, 0, 1>
 \\@CHARA_IN@< 1, 3, -1, 32, 20>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0052", 100>
+\\@TEXT_ID@<90>
 Shiki
+/*-comment-
+―――そうか。言いたい事はそれだけだな。
+*/
 Really now? Is that all you have to say?
 \l
 
-\\@CHARA_IN@< 1, 3, 102, 0, 1>
+// \\@CHARA_IN@< 1, 3, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik05_0053", 100>
+\\@TEXT_ID@<100>
 Shiki
+/*-comment-
+シンプルで結構だ。
+特に感慨もなく始末できる。
+*/
 That makes things simple. I can dispose 
 of you without any complicated feelings.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0026", 100>
+\\@TEXT_ID@<110>
 Roa
+/*-comment-
+まったく。血気盛んなのはどちらなのだか。
+*/
 Good grief. 
 Sometimes I wonder which one of us enjoys this more.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0027", 100>
+\\@TEXT_ID@<120>
 Roa
+/*-comment-
+極限状態でのおまえの切り替えは
+実に気持ちがいい。私も見習いたいものだ。
+*/
 The way you change under duress is truly 
 something else. I almost envy it, really.
 \l
 
 \\@CHARA_IN@< 0, 5, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0028", 100>
+\\@TEXT_ID@<130>
 Roa
+/*-comment-
+―――では再戦だ、殺人鬼。
+*/
 Time for a rematch then, murderer.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0029", 100>
+\\@TEXT_ID@<140>
 Roa
-Consider this a test to see how much
-you have improved since last we met.
+/*-comment-
+あれからどれだけ腕をあげたのか、
+私の手で確かめるとしよう。
+*/
+I might as well experience firsthand how 
+much you've improved since last we met.
+
 
 \\@BGM_STOP@<0>
 \e
+

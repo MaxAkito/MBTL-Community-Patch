@@ -1,64 +1,120 @@
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg06", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<4, 5, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//roa
+\\@CHARA_SET_PATTERN@<4, 15>//roa
+
+\\@NPC_LOAD_SYNC@<5, 11, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<5, 4>//ciel
+
 \\@CHARA_IN@<0,  5, 1, 1, 0>
-\\@CHARA_IN@<1, 11, 0, 2, 0>
+\\@CHARA_IN@<1, 11, 3, 2, 0>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
 
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0000", 100>
+\\@TEXT_ID@<10>
 Ciel
+/*-comment-
+……やはり貴方でしたかロア。
+わたしが、もっと早く気づいていれば……
+*/
 So it really was you, Roa. 
 If only I had sensed your presence sooner...
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 5, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0030", 100>
+\\@TEXT_ID@<20>
 Roa
+/*-comment-
+志貴は死ななくて済んだろうな。
+*/
 Then perhaps Shiki would still be alive.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 14>//roa
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0031", 100>
+\\@TEXT_ID@<30>
 Roa
+/*-comment-
+あいつもそうだが、
+おまえも鈍っているぞ代行者。
+*/
 Same as you, I feel he wasn't as 
 powerful as I'd remembered, Executor.
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0001", 100>
+\\@TEXT_ID@<40>
 Ciel
+/*-comment-
+ええ。
+この過ちはわたしの甘さが招いた事。
+*/
 Indeed. This negligent situation 
 was brought on by my own weakness.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 20>//ciel
 \\@CHARA_IN@< 1, 11, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie05_0002", 100>
+\\@TEXT_ID@<50>
 Ciel
-But that ends here. After all... the source of 
+/*-comment-
+けれどそれも終わりです。
+甘さの元は、貴方が自ら断ったのだから。
+*/
+But that ends here. After all, the root of 
 that weakness is something you've just cut down 
 with your own two hands.
 
+\\@CHARA_SET_PATTERN@<4, 15>//roa
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0032", 100>
+\\@TEXT_ID@<60>
 Roa
+/*-comment-
+……ふん。ようやくらしくなったな猟犬。
+*/
 Heh. The hound finally bares her fangs.
 \l
 
 \\@CHARA_IN@< 0, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0033", 100>
+\\@TEXT_ID@<70>
 Roa
+/*-comment-
+それでこそ私の前の肉体だ。
+*/
 That's how my previous host ought to be.
 \l
 
 \\@CHARA_IN@< 0, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0034", 100>
+\\@TEXT_ID@<80>
 Roa
-Very well. Bring it, Elesia.
+/*-comment-
+―――よろしい、来なさいエレイシア。
+この手で直接、その体を仕付けてあげましょう。
+*/
+Very well. Bring it on, Elesia.
 I'll whip you into shape with my own two hands.
 
 \\@BGM_STOP@<0>
 \e
+

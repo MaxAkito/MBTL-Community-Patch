@@ -1,8 +1,14 @@
-\\@BG_IN@<"screen_bg03", 0, 2>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<3>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
 
 \\@SYSTEM@<0>
 \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 12, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//saber
+\\@CHARA_SET_PATTERN@<4, 0>//saber
 
 \\@CHARA_IN@<0, 12, 1, 1, 0>
 \aw
@@ -11,36 +17,64 @@
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0030", 100>
+\\@TEXT_ID@<10>
 Saber
+/*-comment-
+この街を危険にさらしている元凶は断ちました。
+*/
 I have disposed of the threat to this town.
 \l
 
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0031", 100>
+\\@TEXT_ID@<20>
 Saber
+/*-comment-
+……私が“聖剣を持つ騎士”として喚ばれた以上、
+役目はこれで終わりでしょうが……
+*/
 I was called forth by virtue of my duty as the knight
 who wields the Holy Sword. With this, perhaps
 that duty is over.
+
+\\@NPC_LOAD_SYNC@<5, 0, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//arc
+\\@CHARA_SET_PATTERN@<5, 12>//arc
 
 \\@CHARA_IN@<1, 0, 1, 2, 0>
 \aw
 
 \\@CHARA_IN@< 1, 0, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0080", 100>
+\\@TEXT_ID@<30>
 Arcueid
+/*-comment-
+ロアを倒したのはアナタ？
+*/
 Are you the one who beat Roa?
 \l
 
 \\@CHARA_IN@< 1, 0, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0081", 100>
+\\@TEXT_ID@<40>
 Arcueid
+/*-comment-
+余計な事をしてくれたわね、なんて
+文句の一つも言いたいところだけど……
+*/
 I'd like nothing more than to lecture you about
 staying outta other people's business, but...
 \l
 
+\\@CHARA_SET_PATTERN@<5, 7>//arc
 \\@CHARA_IN@< 1, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0082", 100>
+\\@TEXT_ID@<50>
 Arcueid
+/*-comment-
+その武器、星の《内海＜うちうみ＞で作られた《武器＜もの＞でしょ？
+すっごーーい、初めて見た！
+*/
 That weapon of yours was forged within the
 the Planet's Inner-sea, right? It's sooo coooool!
 I've never seen anything like it!
@@ -48,58 +82,100 @@ I've never seen anything like it!
 
 \\@CHARA_IN@< 1, 0, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0083", 100>
+\\@TEXT_ID@<60>
 Arcueid
+/*-comment-
+よろしく、可愛い剣士さん！
+わたし、その剣とは親戚のような間柄なのです！
+*/
 Nice to meet you, cute little swordswoman!
 That sword and I are like cousins in a way!
 
 
 \\@CHARA_IN@< 0, 12, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0032", 100>
+\\@TEXT_ID@<70>
 Saber
+/*-comment-
+聖剣と同じ……？
+受肉した精霊、という事ですか？
+*/
 You're like my Holy Sword? Are you saying
 you are some kind of elemental given flesh?
 \l
 
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0033", 100>
+\\@TEXT_ID@<80>
 Saber
-But you do not look like--
+/*-comment-
+ですが、あなたはどう見ても―――
+*/
+But you're obviously just a--
 
 \\@CHARA_IN@< 1, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0084", 100>
+\\@TEXT_ID@<90>
 Arcueid
+/*-comment-
+ええ。人間の言うところの吸血鬼ですもの、わたし。
+*/
 Yeah! What humans would call a vampire. That's me.
 \l
 
 \\@CHARA_IN@< 1, 0, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0085", 100>
+\\@TEXT_ID@<100>
 Arcueid
+/*-comment-
+ふふ……星の為じゃなくて、
+星に住む人々の為に作られた武器ね……
+*/
 Hehe... A weapon forged not to protect the planet,
 but rather the people living upon it.
 \l
 
 \\@CHARA_IN@< 1, 0, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0086", 100>
+\\@TEXT_ID@<110>
 Arcueid
+/*-comment-
+よーし！　ほんの少し、あの月が雲に
+隠れるまでの間、遊びましょうお嬢さん。
+*/
 Alright! Why don't we have a little fun?!
 At least until the moon disappears behind the clouds!
 \l
 
 \\@CHARA_IN@< 1, 0, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc05_0087", 100>
+\\@TEXT_ID@<120>
 Arcueid
+/*-comment-
+どっちの格が上か、確かめたくなってきた！
+*/
 I'd love to see which of us is stronger!
 \l
 
+
 \\@CHARA_IN@< 0, 12, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0034", 100>
+\\@TEXT_ID@<130>
 Saber
+/*-comment-
+―――ふう。
+*/
 *sigh*
 \l
 
 \\@CHARA_IN@< 0, 12, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0035", 100>
+\\@TEXT_ID@<140>
 Saber
+/*-comment-
+そう無邪気に言われては断るのも難しい。
+どうしてか私も胸が弾んでいます。
+*/
 You ask with such eagerness I find it hard to refuse
 your request. In fact, I curiously find myself
 quite excited at the prospect.
@@ -107,7 +183,12 @@ quite excited at the prospect.
 
 \\@CHARA_IN@< 0, 12, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0036", 100>
+\\@TEXT_ID@<150>
 Saber
+/*-comment-
+いいでしょう、白い吸血鬼。
+どちらが偶然として優れているのか―――
+*/
 Very well then, vampire in white.
 Let's see who between us happens to be superior.
 \l
@@ -124,10 +205,18 @@ Let's see who between us happens to be superior.
 
 \\@SYSTEM@<1>
 \aw
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0037", 100>
+\\@TEXT_ID@<160>
 Saber
+/*-comment-
+ひとりの《剣士＜ヒロイン＞として
+その挑戦に応じましょう！
+*/
 A heroine such as myself can't reject your challenge!
 
 \\@BGM_STOP@<0>
 \e
+

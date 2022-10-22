@@ -1,7 +1,10 @@
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg06", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@CHARA_IN@<0, 12, 1, 1, 0>
@@ -10,48 +13,91 @@
 
 \\@BGM_PLAY@<0, 75, 100>
 
+\\@NPC_LOAD_SYNC@<4, 12, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//saber
+\\@CHARA_SET_PATTERN@<4, 0>//saber
+
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<5, 5, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//roa
+\\@CHARA_SET_PATTERN@<5, 4>//roa
+
 \\@CHARA_IN@< 1, 5, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0080", 100>
+\\@TEXT_ID@<10>
 Roa
+/*-comment-
+こいつは驚きだ。
+使い魔として成立するほどの英霊とはね。
+*/
 Now this is quite the surprise.
 A Heroic Spirit able to manifest as a familiar?
 \l
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0081", 100>
+\\@TEXT_ID@<20>
 Roa
+/*-comment-
+あんた、仮説としてたてられていた
+《境界記録帯＜ゴーストライナー＞ってヤツかい？
+*/
 Are you perhaps one of those
 hypothesized Ghost Liners, then?
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0020", 100>
+\\@TEXT_ID@<30>
 Saber
+/*-comment-
+…………。
+*/
 ...
 \l
 
 \\@CHARA_IN@< 0, 12, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0021", 100>
+\\@TEXT_ID@<40>
 Saber
+/*-comment-
+どことなく私たちに近い気配ですが、
+《敬虔＜けいけん＞な信徒でありながら、魔術の香りがする。
+*/
 Your presence appears similar to that of my own,
-yet I sense magecraft about you, despite the fact that
-you appear to be a pious believer.
+yet I sense magecraft about you, even though you 
+also you appear to be a pious believer.
 \l
 
 \\@CHARA_IN@< 0, 12, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0022", 100>
+\\@TEXT_ID@<50>
 Saber
+/*-comment-
+私を喚んだのは貴殿か？
+*/
 Are you the one who summoned me?
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0082", 100>
+\\@TEXT_ID@<60>
 Roa
-Nah, wasn't me.
+/*-comment-
+いいや、オレじゃあない。
+*/
+No, certainly wasn't me.
 \l
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0083", 100>
+\\@TEXT_ID@<70>
 Roa
+/*-comment-
+召喚術は学んでいないし、なにより、
+世界の壁を壊そうなんて暇人の考えだ。
+*/
 I was never interested in the summoning arts.
 Besides... You've gotta have a little too much
 free time to go around poking holes between worlds.
@@ -59,14 +105,23 @@ free time to go around poking holes between worlds.
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0084", 100>
+\\@TEXT_ID@<80>
 Roa
+/*-comment-
+こう見えてスケジュールは緻密かつ過密でね。
+*/
 And while I may look like I have exactly that,
 I'm afraid my schedule is meticulously packed.
 \l
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0085", 100>
+\\@TEXT_ID@<90>
 Roa
+/*-comment-
+アンタのような不純物には早々にお帰り願いたい。
+今の姫君は興味本位で動くドラ猫だからな。
+*/
 If you ask me, foreign elements such as you ought to make
 a hasty exit. The princess is like a cat, you see?
 She gets distracted a bit too easily.
@@ -74,37 +129,63 @@ She gets distracted a bit too easily.
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0086", 100>
+\\@TEXT_ID@<100>
 Roa
+/*-comment-
+戦いにでもなったら、せっかくの仕込みが台無しだ。
+*/
 I can't have you two fight, or else my careful
 preparations will all be for naught.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0023", 100>
+\\@TEXT_ID@<110>
 Saber
+/*-comment-
+この街を使って何らかの儀式を行おう、
+というのですね。
+*/
 In other words, you are planning to
 use this city for some sort of ritual.
 \l
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0024", 100>
+\\@TEXT_ID@<120>
 Saber
+/*-comment-
+……召喚された理由は分かりませんが、
+行うべき使命は分かりました。
+*/
 I may have yet to uncover how I was summoned,
 but the purpose behind it is clear as day.
 \l
 
 \\@CHARA_IN@< 0, 12, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0025", 100>
+\\@TEXT_ID@<130>
 Saber
-No matter the era, no matter the city.
-It is the sworn duty of a knight
+/*-comment-
+どのような時代、どのような都市であれ、
+人々の暮らしを守るのが騎士の努め。
+*/
+No matter the era, no matter the city,
+it is the sworn duty of a knight
 to protect the lives of the innocent.
 \l
 
 \\@CHARA_IN@< 0, 12, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0026", 100>
+\\@TEXT_ID@<140>
 Saber
+/*-comment-
+―――見知らぬ魔術師よ。
+その企み、我が聖剣で両断する！
+*/
 I know not what mage you may be, but your plans
 shall meet their end upon my Holy Sword!
 
 \\@BGM_STOP@<0>
 \e
+

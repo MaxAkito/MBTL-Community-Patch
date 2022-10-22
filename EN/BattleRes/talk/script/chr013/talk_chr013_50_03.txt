@@ -1,44 +1,62 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg13", 0, 2, 0>
+\\@LOAD_BATTLE_BG@<13>
+\\@FADE_OUT@<2, 0, 0, 0, 0>
 \aw
 
+// \\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg13", 0, 2, 0>
+
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 
 \\@DRAW_EFFECT@<1>
 \aw
 
-\\@FADE_OUT@<2, 0, 0, 0, 0>
-\aw
+
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<101>
 
-\\@CHARA_IN@<2, 52, 0, 44, 0>
+\\@CHARA_IN@<2, 52, 0, 11, 0>
 \\@CHARA_MUKI@<2,0>
 \aw
 
 \\@CHARA_IN@< 2, 52, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0020", 100>
+\\@TEXT_ID@<10>
 Bake_Neko
+/*-comment-
+これまでのあらすじ。
+*/
 The story so far...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcCat/NpcCat06_0021", 100>
+\\@TEXT_ID@<20>
 Bake_Neko
+/*-comment-
+無敵。あまりにも無敵。立ち塞がる敵を倒し、
+着実に悪の総本山に近づいているのであった。
+*/
 Miyako was unbeatable, truly unbeatable! She 
 soundly defeated one obstacle after another, 
-steadily approaching the villain's lair.
+and steadily approached the villain's lair.
 
+\\@SYSTEM@<200>
 \\@CHARA_OUT@< 2, 52, -1, 0, 1>
 \aw
 \\@DRAW_EFFECT@<0>
 \aw
 
+\\@SYSTEM@<101>
 \\@FADE_IN@<2, 255, 255, 255, 0>
 
+\\@NPC_LOAD_SYNC@<4, 13, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
+\\@CHARA_SET_PATTERN@<4, 7>//miyako
 
 \\@CHARA_IN@<0, 13, 3, 1, 0>
 \aw
@@ -46,36 +64,65 @@ steadily approaching the villain's lair.
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 12>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0030", 100>
+\\@TEXT_ID@<30>
 Miyako
+/*-comment-
+はあー……
+はあー……
+*/
 *huff*
 *huff*
 \l
 
 \\@CHARA_IN@< 0, 13, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0031", 100>
+\\@TEXT_ID@<40>
 Miyako
-Wait-wait-wait.
-Something's not right. Right? I mean seriously!
+/*-comment-
+ちょっと待って。ちょっと待って。
+なんかおかしい。おかしいよね、なんか！？
+*/
+Please hold on for a minute. Please.
+This is just ridiculous. Right? I mean seriously!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0032", 100>
+\\@TEXT_ID@<50>
 Miyako
-I don't know any of these people but every time 
-I meet someone they just start attacking me without
-so much as a hello! 
+/*-comment-
+会うひと会うひと知らないひとばっかりで、
+挨拶もなしでおそいかかってくるし！
+*/
+I don't even know who any of these people are, and yet
+they just start attacking me without so much as a hello!
 \l
 
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0033", 100>
+\\@TEXT_ID@<60>
 Miyako
-If I wasn't a kung fu master, this would've 
-turned into a police case long ago!
+/*-comment-
+わたしがカンフーのたつじんでなかったら、
+とっくにけいじじけんだよ！
+*/
+If it wasn't for my mastery of kung fu, 
+this would've turned into a police case long ago!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0034", 100>
+\\@TEXT_ID@<70>
 Miyako
-All I want to do is go to the Tohno mansion and beat 
-up the evil sister who's imprisoned my brother!
+/*-comment-
+わたしは遠野のお屋敷にいって、お兄ちゃんを
+閉じこめる悪い妹をやっつけたいだけなのに！
+*/
+It's not fair! All I want to do is go to the Tohno mansion
+and beat up the evil sister who's imprisoned my brother!
+
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<5, 11, 640, -300, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//ciel
+\\@CHARA_SET_PATTERN@<5, 13>//ciel
 
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 \\@CHARA_IN@<1, 11, 0, 12, 0>
@@ -84,134 +131,257 @@ up the evil sister who's imprisoned my brother!
 \\@CHARA_IN@<1, 11, 1, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0010", 100>
+\\@TEXT_ID@<80>
 Ciel
+/*-comment-
+ほほう。
+それはなかなか興味深いお話ですね。
+*/
 Oho?
 That's quite the interesting story you have there.
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 3>//miyako
 
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0035", 100>
+\\@TEXT_ID@<90>
 Miyako
+/*-comment-
+！　空から黒いのが降ってきた！？
+まま、またわたしの邪魔をしにきたの！？
+*/
 Some person in black fell from the sky?!
 A-A-Another who has come to stand in my way, huh?!
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 11, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0011", 100>
+\\@TEXT_ID@<100>
 Ciel
+/*-comment-
+おっと。
+驚かせたのならごめんなさい。
+*/
 Oh dear. 
 I apologize if I startled you.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 14>//ciel くすり
 \\@CHARA_IN@<1, 11, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0012", 100>
+\\@TEXT_ID@<110>
 Ciel
-It's alright. I am a Nun of Justice, entrusted with
+/*-comment-
+だいじょうぶ。私は街の治安を護る正義のシスター。
+アナタの味方ですよ、有間都古さん。
+*/
+Worry not. I am a Nun of Justice, entrusted with
 protecting this town. I'm on your side, Miyako Arima.
 \l
 
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0013", 100>
+\\@TEXT_ID@<120>
 Ciel
+/*-comment-
+その武術、八極拳ですね？
+よく練られた《功夫＜コンフー＞でした。
+*/
 Was that the bajiquan style I saw you using?
 Your kung fu skills are quite impressive.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0036", 100>
+\\@TEXT_ID@<130>
 Miyako
+/*-comment-
+……！
+*/
 Wha--?!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 6>//miyako YES
+\\@SYSTEM@<131>
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0037", 100>
+\\@TEXT_ID@<140>
 Miyako
-(She must be a good person! After all,
- she recognized my bajiquan style!)
+/*-comment-
+（このひと、いい人だ……！
+　はっきょくけんだって見抜いてるし！）
+*/
+(She recognized my bajiquan style!
+ Wow, she MUST be a good person then!)
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 7>//ciel
 
 \\@CHARA_IN@<1, 11, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0014", 100>
+\\@TEXT_ID@<150>
 Ciel
+/*-comment-
+ふふふ。私のことは親切な眼鏡の先輩、と
+覚えていただければ。
+*/
 Hehehe, just think of me as your kindly,
 bespectacled upperclasswoman.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0015", 100>
+\\@TEXT_ID@<160>
 Ciel
+/*-comment-
+お兄さんにも、そのように
+伝えていただけると助かります。
+*/
 I would appreciate if you introduced 
 me like that to your brother as well.
 \l
 
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0016", 100>
+\\@TEXT_ID@<170>
 Ciel
+/*-comment-
+それで、何か困ったコトはありませんか？
+私でよければご教授しますが。
+*/
 So, is there anything troubling you?
 I'd be happy to give you a lesson.
 
+\\@CHARA_SET_PATTERN@<4,11>//miyako 構え→立ち
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0038", 100>
+\\@TEXT_ID@<180>
 Miyako
+/*-comment-
+あ、あのっ！
+はじめてきた街だから、迷子になっちゃって！
+*/
 Well, umm! You see, this is my first time
 in this town. I think I'm lost!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0039", 100>
+\\@TEXT_ID@<190>
 Miyako
+/*-comment-
+遠野のお屋敷へはどうすれば行けるでしょうかっ！
+*/
 Where should I go to get to the Tohno mansion?
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 11, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0017", 100>
+\\@TEXT_ID@<200>
 Ciel
-It's about a 30-minute walk from the station
-on top of that small hill over there.
+/*-comment-
+駅前から３０分ほど徒歩で移動した先にある、
+あの小高い丘の上ですよ。
+*/
+It's on top of that small hill over there,
+about 30-minutes away from the station.
 \l
 
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0018", 100>
+\\@TEXT_ID@<210>
 Ciel
+/*-comment-
+それと、妹さんの名前は遠野秋葉さんです。
+玄関で用向きを言うときにお使いください。
+*/
 Also, the younger sister's name is Tohno Akiha. Be sure
 to ask for her when you state your business at the door.
 
+\\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0040", 100>
+\\@TEXT_ID@<220>
 Miyako
+/*-comment-
+アキハ……！
+うわあ、こんな悪そうな名前、聞いたことない……！
+*/
 Akiha...! First time I've heard of such an
 obviously evil name!
 
+\\@CHARA_SET_PATTERN@<4, 5>//miyako
+
 \\@CHARA_IN@<1, 11, 1, 0, 1>
 
+\\@CHARA_SET_PATTERN@<4, 5>//miyako オス
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0041", 100>
+\\@TEXT_ID@<230>
 Miyako
+/*-comment-
+ありがとうございます、シスター先輩！
+よーし、がんばるぞーーー！
+*/
 Thank you, Sister!
 I'll do my best!
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0019", 100>
+\\@TEXT_ID@<240>
 Ciel
+/*-comment-
+あ。その前に少しだけお節介を。
+今のままでは秋葉さんには勝てません。
+*/
 Oh, before you go, and forgive me for being so blunt, 
-but you cannot beat Akiha as you are now.
+but you cannot beat Akiha as you are right now.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 16>//ciel 眼鏡→立ち
 \\@CHARA_IN@<1, 11, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie06_0020", 100>
+\\@TEXT_ID@<250>
 Ciel
-It appears your bajiquan still lacks in resolve.
+/*-comment-
+アナタの八極拳には思い切りが足りないようですから。
+ここで一つ、私が教授してあげましょう。
+*/
+Your bajiquan seems to still not have that final oomph.
 Allow me to give you a lesson.
 
+\\@CHARA_SET_PATTERN@<4,11>//miyako 構え→立ち
+\\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 14, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0042", 100>
+\\@TEXT_ID@<260>
 Miyako
+/*-comment-
+！
+*/
 Really?!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 6>//miyako YES
+\\@SYSTEM@<131>
 \\@CHARA_IN@< 0, 13, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0043", 100>
+\\@TEXT_ID@<270>
 Miyako
+/*-comment-
+（特訓だーーー！　旅先の特訓イベントきたーーー！
+　なんかすっごく拳士っぽい！）
+*/
 (Yay! Time for my special vacation training montage! 
  Now I really feel like I'm in a kung fu movie!)
 
 \\@BGM_STOP@<0>
 \e
+

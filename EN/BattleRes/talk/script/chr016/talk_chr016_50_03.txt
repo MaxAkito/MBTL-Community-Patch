@@ -1,10 +1,20 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg07", 0, 2, 0>
-\aw
+\\@LOAD_BATTLE_BG@<7>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg07", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+
+\\@NPC_LOAD_SYNC@<4, 16, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//pciel
+\\@CHARA_SET_PATTERN@<4, 2>//pciel
+
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<5, 17, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//mario
+\\@CHARA_SET_PATTERN@<5, 4>//mario
 
 \\@CHARA_IN@<0, 16, 0, 1, 0>
 \\@CHARA_IN@<1, 17, 0, 2, 0>
@@ -16,15 +26,25 @@
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0030", 100>
+\\@TEXT_ID@<10>
 Mario
+/*-comment-
+物騒なカッコウしてるじゃねえか代行者。
+なんだ、紛争地帯にでも行くつもりか？
+*/
 Got some dangerous-looking duds on, Executor.
-You off to a war zone or somethin'?
+You off to fight a war or somethin'?
 \l
 
 \\@CHARA_IN@<1, 17, 0, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0031", 100>
+\\@TEXT_ID@<20>
 Mario
+/*-comment-
+いいぜ、止めはしねえからさっさと行けよ。
+埋葬機関はそういう組織だ。
+*/
 Go ahead, I ain't stopping ya. Get goin'.
 That's what the Burial Agency organization's for.
 \l
@@ -32,69 +52,132 @@ That's what the Burial Agency organization's for.
 \\@CHARA_IN@<1, 17, 1, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0032", 100>
+\\@TEXT_ID@<30>
 Mario
+/*-comment-
+こんな極東の近代都市、
+はじめから場違いだったのさ。
+*/
 You never fit into this modern 
 Far Eastern city to begin with.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 16, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0030", 100>
+\\@TEXT_ID@<40>
 Powered_Ciel
+/*-comment-
+……そうでもありませんが。
+なんのつもりです、マーリオゥ司祭代行。
+*/
 I'm not heading anywhere...
-What are you up to anyways, Acting Presbyter?
+What are you up to anyway, Acting Presbyter?
 \l
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0031", 100>
+\\@TEXT_ID@<50>
 Powered_Ciel
+/*-comment-
+周囲のビルに、
+複数の代行者が待機しているようですが。
+*/
 And why do you have so many Executors positioned 
-on and around the local buildings?
+on and around the buildings here?
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0033", 100>
+\\@TEXT_ID@<60>
 Mario
+/*-comment-
+ああ。言っても聞かない猟犬は
+始末するしかねえからな。
+*/
 Y'know, hounds that don't listen s'gotta be put down.
 \l
+
+\\@CHARA_SET_PATTERN@<5, 6>//mario
 
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0034", 100>
+\\@TEXT_ID@<70>
 Mario
+/*-comment-
+なんで、最後にもう一度言ってやる。
+『ロアには手を出すな』。オラ、返答しな。
+*/
 So this is the last time I'mma say this.
 Leave Roa alone...... Hey, what're you shuttin' up for?
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 3>//pciel
+
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0032", 100>
+\\@TEXT_ID@<80>
 Powered_Ciel
+/*-comment-
+法王庁に確認しました。
+*/
 I contacted the Vatican...
 \l
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0033", 100>
+\\@TEXT_ID@<90>
 Powered_Ciel
+/*-comment-
+マーリオゥ・ジャッロ・ベスティーノは、現在、
+アイスランドのデータバンクを視察中だと。
+*/
 According to them, Mario Gallo Bestino
 is currently inspecting a databank in Iceland.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 2>//pciel
+
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0034", 100>
+\\@TEXT_ID@<100>
 Powered_Ciel
+/*-comment-
+ここにいる筈のない者の命令は聞けません。
+彼の名を騙る死徒とみなし、排除します。
+*/
 I won't obey the orders of someone who shouldn't 
 be here. Hereon, I shall consider you a Dead Apostle 
 impersonating him. Moving in for elimination.
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 13>//mario
+
 \\@CHARA_IN@<1, 17, 9, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0035", 100>
+\\@TEXT_ID@<110>
 Mario
+/*-comment-
+はじめからやる気満々かよ。
+なら手段は選んでいられねえな。
+*/
 So you were raring to go from the start?
 Guess I ain't gotta hold back then.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 12>//mario
+
 \\@CHARA_IN@<1, 17, 6, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0036", 100>
+\\@TEXT_ID@<120>
 Mario
+/*-comment-
+……ったく。
+せめて遠野志貴だけは助けたいってか？
+*/
 Man, gimme a goddamn break.
 All this, just cuz you wanna save Shiki Tohno?
 \l
@@ -102,15 +185,25 @@ All this, just cuz you wanna save Shiki Tohno?
 \\@CHARA_IN@<1, 17, 10, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0037", 100>
+\\@TEXT_ID@<130>
 Mario
-I'll admit he's a decent guy.
+/*-comment-
+アイツは確かにマトモだったよ。
+自分からロアとケリをつけやがった。
+*/
+I'll admit, he's a decent guy.
 He got his shit sorted with Roa on all his own.
 \l
 
 \\@CHARA_IN@<1, 17, 10, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0038", 100>
+\\@TEXT_ID@<140>
 Mario
+/*-comment-
+だが、それでもロアの転生先だったからな。
+もっと厄介なのに目を付けられちまった。
+*/
 But since he was Roa's host, 
 somethin' even worse set its eyes on him.
 \l
@@ -118,37 +211,67 @@ somethin' even worse set its eyes on him.
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0039", 100>
+\\@TEXT_ID@<150>
 Mario
+/*-comment-
+アイツの魔眼も今の姫君には通じない。
+もう手遅れなんだよ。諦めな。
+*/
 His Mystic Eyes ain't gonna work on the 
 princess no more. Shit's too late. Give it up.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0035", 100>
+\\@TEXT_ID@<160>
 Powered_Ciel
+/*-comment-
+やってみなければ分かりません。
+どのみち真祖は討伐対象です。
+*/
 We can't say that for sure yet. Besides, that doesn't 
 change our duty to exterminate the True Ancestor.
 \l
 
 \\@CHARA_IN@<0, 16, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0036", 100>
+\\@TEXT_ID@<170>
 Powered_Ciel
+/*-comment-
+ここで彼女を倒し、ロア誕生の責任を取らせる。
+そこに何の問題が？
+*/
 Once I've defeated her, she'll finally have taken 
-responsibilty for creating Roa. I hope you don't 
+responsibility for creating Roa. I hope you don't 
 have any problems with that?
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 17, 7, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0040", 100>
+\\@TEXT_ID@<180>
 Mario
+/*-comment-
+聞く耳持たずかよ。
+仕方ねえ、ここで何回か死んでいけキャーンズ。
+*/
 Ain't no room for talking 'bout it, huh? Got no choice 
 then, how about you go die a couple'a times, Quinze?
+
+\\@CHARA_SET_PATTERN@<5, 3>//mario
 
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0041", 100>
+\\@TEXT_ID@<190>
 Mario
+/*-comment-
+テメェの《戦法＜パターン＞は重々承知だ。
+頭を吹っ飛ばせば、少しは冷静になるだろう？
+*/
 I know your attack patterns inside and goddamn out.
 Maybe your head will clear up a bit once I lop it off.
 
 \\@BGM_STOP@<0>
 \e
+

@@ -1,42 +1,73 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg05", 0, 2>
-\aw
+\\@LOAD_BATTLE_BG@<5>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg05", 0, 2>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 16, 0, 1, 0>
-\\@CHARA_IN@<1, 8, 0, 2, 0>
+\\@NPC_LOAD_SYNC@<4, 16, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//pciel
+\\@CHARA_SET_PATTERN@<4, 15>//pciel
+
+\\@NPC_LOAD_SYNC@<5, 8, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//noel
+\\@CHARA_SET_PATTERN@<5, 77>//noel
+
+\\@CHARA_IN@<0, 16, 0, 11, 0>
+\\@CHARA_IN@<1, 8, 0, 12, 0>
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<102>
 
 \\@CHARA_IN@<1, 8, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0000", 100>
+\\@TEXT_ID@<10>
 Noel
+/*-comment-
+げっ！？　ちょっとなにそれ！？
+いつものシスター服はどうしたのよ！？
+*/
 Whoa! What's that!?
 What happened to your nun's habit?!
 \l
 
 \\@CHARA_IN@<1, 8, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0001", 100>
+\\@TEXT_ID@<20>
 Noel
-Nobody told me we'd be launching an all-out assault
-on the city! I only brought my anti-Dead Apostle gear 
-with me!
+/*-comment-
+都市制圧戦なんて聞いてないわよ？
+私、対死徒用装備しか持ってないんだけど！
+*/
+Nobody told me we'd be launching an Urban Subjugation Operation!
+I only brought my anti-Dead Apostle gear with me!
+
+\\@SYSTEM@<101>
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0010", 100>
+\\@TEXT_ID@<30>
 Powered_Ciel
+/*-comment-
+状況が変わったのです、シスター・ノエル。
+貴女にはサポートをお願いします。
+*/
 The situation has changed, Sister Noel.
 I require your backup.
 \l
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0011", 100>
+\\@TEXT_ID@<40>
 Powered_Ciel
+/*-comment-
+アルクェイド・ブリュンスタッドの出現を確認。
+これを追って現れた二十七祖の原理を感知。
+*/
 Arcueid Brunestud sighting has been confirmed. 
 Additionally, one of the 27 Ancestor's Principles
 has been detected.
@@ -44,7 +75,12 @@ has been detected.
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0012", 100>
+\\@TEXT_ID@<50>
 Powered_Ciel
+/*-comment-
+アルクェイドが調査対象・遠野志貴と
+接触した翌日、両者は戦闘を開始。
+*/
 Both parties engaged in battle the day following 
 Arcueid's initial contact with investigation target
 Shiki Tohno.
@@ -52,20 +88,35 @@ Shiki Tohno.
 
 \\@CHARA_IN@<0, 16, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0013", 100>
+\\@TEXT_ID@<60>
 Powered_Ciel
+/*-comment-
+二十七祖は敗れ、
+アルクェイドは勝利したものの弱体化。
+*/
 The Ancestor was defeated, and while Arcueid was 
 victorious, she has fallen into a weakened state.
 \l
 
 \\@CHARA_IN@<0, 16, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0014", 100>
+\\@TEXT_ID@<70>
 Powered_Ciel
+/*-comment-
+……いえ、危険状態に移行しました。
+*/
 Or more precisely, into a dangerous state.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 16>//pciel
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0015", 100>
+\\@TEXT_ID@<80>
 Powered_Ciel
+/*-comment-
+あり得ない事ですが、死徒を狩る目的より、
+個人の感情を優先しているようです。
+*/
 Strange as it may seem, it appears that she's 
 prioritizing her personal feelings over her 
 objective of hunting down Dead Apostles.
@@ -73,97 +124,189 @@ objective of hunting down Dead Apostles.
 
 \\@CHARA_IN@<0, 16, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0016", 100>
+\\@TEXT_ID@<90>
 Powered_Ciel
+/*-comment-
+制御できない太陽が散歩しているようなもの。
+早急な対策が必要でしょう。
+*/
 It's as if we're letting a walking sun go loose.
 We need to take quick countermeasures.
 
+
+\\@CHARA_SET_PATTERN@<5, 72>//noel
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@<1, 8, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0002", 100>
+\\@TEXT_ID@<100>
 Noel
+/*-comment-
+そんなコトになってたのね……。
+はーい、了解了解。
+*/
 Sounds serious...
-Okaaay, understood.
+Okay, understood.
 \l
 
 \\@CHARA_IN@<1, 8, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0003", 100>
+\\@TEXT_ID@<110>
 Noel
+/*-comment-
+バケモノの中のバケモノなんて相手に
+してらんないし。
+*/
 It's not like I'm going up against
 that monster-among-monsters myself.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 73>//noel
+
 \\@CHARA_IN@<1, 8, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0004", 100>
+\\@TEXT_ID@<120>
 Noel
+/*-comment-
+そういうハードなのは貴女に任せるわシエルさん。
+私は調査対象を見張ってまーす\sf000
+*/
 I'll leave that honor to you, Ciel. While you're 
 dealing with her, I'll keep an eye on the target \sf000
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 17>//pciel
 \\@CHARA_IN@<0, 16, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0017", 100>
+\\@TEXT_ID@<130>
 Powered_Ciel
+/*-comment-
+……まだ結果は出ていませんが、
+彼を逃がさないように。
+*/
 We still don't have confirmation about his status,
 but at the very least, try not to let him escape.
 \l
 
 \\@CHARA_IN@<0, 16, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0018", 100>
+\\@TEXT_ID@<140>
 Powered_Ciel
+/*-comment-
+アルクェイドが現れた事はロアにも伝わっている。
+必ず、何らかの行動を起こすはず。
+*/
 Roa can tell that Arcueid has appeared.
 He's sure to make some kind of move.
 \l
 
 \\@CHARA_IN@<0, 16, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0019", 100>
+\\@TEXT_ID@<150>
 Powered_Ciel
+/*-comment-
+これはピンチではありますが、
+チャンスでもある。
+*/
 So while things might be bad, 
 this also presents us with an opportunity.
 \l
 
 \\@CHARA_IN@<0, 16, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0020", 100>
+\\@TEXT_ID@<160>
 Powered_Ciel
+/*-comment-
+彼女が回復する前にロアの棺を発見し、
+その魂を粉砕します。
+*/
 If we can find Roa's coffin before Arcueid fully 
 recovers, we can destroy his soul once and for all.
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@<1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0005", 100>
+\\@TEXT_ID@<170>
 Noel
+/*-comment-
+ええ、がんばって。
+棺がカラだったら私の出番ね。
+*/
 Sure, go ahead.
 And if the coffin's empty, that's where I come in.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 79>//noel
+\\@CHARA_SET_PATTERN@<4, 20>//pciel
+
 \\@CHARA_FACE@<1, 0, 2, 260>
 \\@CHARA_FACE@<0, 3, 10, 400>//シエル表情変化
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0006", 100>
+\\@TEXT_ID@<180>
 Noel
+/*-comment-
+その時は調査対象がロアで確定だから、
+両脚ぶっ潰してここまで連れて……
+*/
 That'll confirm that our target is Roa, so I'll 
 just cut his legs off and bring him over here...
 \l
 
+\\@CHARA_SET_MVNAME@<4, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+\\@CHARA_SET_PATTERN@<5, 72>//noel
+
 \\@CHARA_IN@<1, 8, 11, 0, 1>
 \\@CHARA_FACE@<1, 11, 0, 210>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0007", 100>
+\\@TEXT_ID@<190>
 Noel
+/*-comment-
+なによ、いきなり機嫌悪くなってない？
+あ。そっか、志貴クンの処理か！
+*/
 Hey, what are you looking so mad about? 
 Oh... It's about Shiki's execution, isn't it?
 \l
 
+\\@CHARA_SET_PATTERN@<5, 6>//noel
+
 \\@CHARA_IN@<1, 8, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0008", 100>
+\\@TEXT_ID@<200>
 Noel
+/*-comment-
+だいじょうぶ、
+手柄を独り占めなんてしないしない！
+*/
 Don't worry, 
 I won't claim all the glory for myself.
 \l
 
 \\@CHARA_IN@<1, 8, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe07_0009", 100>
+\\@TEXT_ID@<210>
 Noel
-You wanna do the inquistive work together? I mean, this
+/*-comment-
+ふたりで一緒に異端審問しましょう？
+この時をずっと待ってたんだものね、私たち？
+*/
+You wanna do the inquisitive work together? I mean, this
 is what we've been waiting for all this time, right?
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 19>//pciel
 \\@CHARA_IN@<0, 16, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0021", 100>
+\\@TEXT_ID@<220>
 Powered_Ciel
+/*-comment-
+………………。
+*/
 ...
 
 \\@BGM_STOP@<0>
 \e
+

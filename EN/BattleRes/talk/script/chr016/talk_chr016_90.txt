@@ -18,107 +18,194 @@
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0060", 100>
+\\@TEXT_ID@<10>
 Powered_Ciel
+/*-comment-
+っ、ぁ―――！
+危うく喪心状態になるところでした……！
+*/
 Whoa!
-I almost lost consciousness there...!
+I was close to losing consciousness for a second!
 \l
 
 \\@SQ_CALL@<2>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0061", 100>
+\\@TEXT_ID@<20>
 Powered_Ciel
+/*-comment-
+アレが真祖の、器を失った姿―――
+エーテルで構成された、《霊子筐体＜ライトフレーム＞！
+*/
 So that's what a True Ancestor looks like without 
-its body... A spiritron-frame composed from ether...!
+its body... A spiritron-frame composed from ether!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0062", 100>
+\\@TEXT_ID@<30>
 Powered_Ciel
+/*-comment-
+（しかも、現象から生態に変化している……！
+　こんなものが確定したら、世界が軋んで崩壊する……！）
+*/
 (Not only that, but it's changing from a phenomenon 
- into a lifeform...! If that thing is established, 
+ to a lifeform...! If that thing is established, 
  the world will shear and collapse!)
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0020", 100>
+\\@TEXT_ID@<40>
 Red_Arcueid
+/*-comment-
+ふうん。私の視線を正面から受けて、
+ちゃんと自我を保てるんだ。
+*/
 Huh. You're still able to retain 
 your mind under my direct gaze.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0021", 100>
+\\@TEXT_ID@<50>
 Red_Arcueid
+/*-comment-
+さすが、ロアの惚れ込んだ肉体ね。
+性能だけなら人類最高域なんじゃない？
+*/
 It's no wonder Roa was so enamored with your body. 
 Its capabilities are the pinnacle of human potential.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0022", 100>
+\\@TEXT_ID@<60>
 Red_Arcueid
+/*-comment-
+ま、それも低次元の競い合い。
+私から見れば小石と小石の背比べ、だけど。
+*/
 Though for me, such comparisons belong in a lower dimension.
 I may as well be comparing one tiny pebble to another.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0023", 100>
+\\@TEXT_ID@<70>
 Red_Arcueid
-Let us continue, my wonderful little doll!
+/*-comment-
+さあ、続けましょうお人形さん？
+*/
+So why don't we keep going, my wonder little doll?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0024", 100>
+\\@TEXT_ID@<80>
 Red_Arcueid
-I'm not holding anything back this time, so if you have 
-any last tricks to play, now would be the time to do it.
+/*-comment-
+私も本気を出したんだから、
+貴女も奥の手を出してくれるのよね？
+*/
+I'm already going all out, so if you have any last
+tricks to play, now would be the time to do it.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0025", 100>
+\\@TEXT_ID@<90>
 Red_Arcueid
+/*-comment-
+クロムクレイの大聖堂。
+ベ・ゼの断頭台。
+*/
 Chromclay's Cathedral...
 Be'ze's Guillotine...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0026", 100>
+\\@TEXT_ID@<100>
 Red_Arcueid
+/*-comment-
+そして、アインナッシュの鐘撞堂。
+*/
 And now, Einnashe's Belfry.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0027", 100>
+\\@TEXT_ID@<110>
 Red_Arcueid
+/*-comment-
+早く見せて。
+それで私を倒してみせて。
+*/
 Hurry up and show it to me.
-Maybe that'll give you a fighting chance.
+And then, try your best to defeat me with it.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0028", 100>
+\\@TEXT_ID@<120>
 Red_Arcueid
+/*-comment-
+何をしても許してあげる。
+何をされても超えてあげる。
+*/
 I'll let you throw whatever you have at me.
 And then I'll overcome all of it!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0029", 100>
+\\@TEXT_ID@<130>
 Red_Arcueid
-Ahh... This is so, so much fun!
+/*-comment-
+ああ―――楽しい、楽しい、楽しい！
+*/
+Oh... This is so, so much fun!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0030", 100>
+\\@TEXT_ID@<140>
 Red_Arcueid
+/*-comment-
+こんなに胸が弾む相手は、
+アナタとアイツの二人だけ！
+*/
 You and him are the only ones who've
 ever made me feel this kind of thrill!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0031", 100>
+\\@TEXT_ID@<150>
 Red_Arcueid
+/*-comment-
+ほら、逃げないでがんばる、がんばる！
+隕石みたいに、すっごいのをちょうだい！
+*/
 Oh, don't run away now. You can do this!
-Give me something big, like a meteor!
+C'mon, give me something big, like a meteor!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa07_0032", 100>
+\\@TEXT_ID@<160>
 Red_Arcueid
+/*-comment-
+軽く受け止めて、貴女のプライドごと
+叩き折ってあげるから！
+*/
 I'll take everything you can throw at me, and tear it 
 to pieces, together with that paltry pride of yours.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0063", 100>
+\\@TEXT_ID@<170>
 Powered_Ciel
+/*-comment-
+―――いいでしょう。
+その慢心が命取りです。
+*/
 Very well then.
 But know that your overconfidence will be your undoing.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0064", 100>
+\\@TEXT_ID@<180>
 Powered_Ciel
+/*-comment-
+そんなに《痛い＜・・＞のが好きなら、
+確かに、こちらの方が貴女向きでした。
+*/
 If you want to experience real pain that badly,
 then I suppose this would be the tool for the job.
 \l
@@ -128,19 +215,29 @@ then I suppose this would be the tool for the job.
 \\@SE_PLAY@<1, "talk/talk_se/Cmn_MagicCharge", 0, 100>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0065", 100>
+\\@TEXT_ID@<190>
 Powered_Ciel
-Emissary of Heaven, Sound of Crucifixion. 
+/*-comment-
+天の使い、《磔刑＜たっけい＞の《響＜おと＞。剣の枝葉、鉄の波濤。
+《原理血戒＜イデアブラッド＞７番―――《腑海林＜ふかいりん＞アインナッシュ。
+*/
+Emissary of Heaven, Sound of Crucifixion.
 Foliage of Blades, Waves of Iron. 
-Idea Blood Number Seven, Forest of Einnashe.
+Idea Blood Number Seven, The Gutwood Einnashe.
 \l
 
 \\@FADE_OUT@<1,255,255,255,0>
 \\@SQ_CALL@<3>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0066", 100>
+\\@TEXT_ID@<200>
 Powered_Ciel
+/*-comment-
+収穫せよ、《苗床祭壇＜なえどこさいだん＞。
+致死の傷ではなく、無限の苦痛でその生態を押し返します！
+*/
 Seedbed Altar, bear fruit! Strike not a fatal blow,
-but repel this bioform through never-ending torment!
+but repel this physis through never-ending torment!
 
 \\@SYSTEM@<21>
 \aw
@@ -148,3 +245,4 @@ but repel this bioform through never-ending torment!
 
 \\@BGM_STOP@<0>
 \e
+

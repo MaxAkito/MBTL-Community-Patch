@@ -203,6 +203,7 @@ In addition, some things are capitalized by virtue of being names of organizatio
 | 転生無限者    | (the) Infinite Reincarnator| Roa's first nickname
 | アカシャの蛇     | The Serpent of Akasha   | Roa's second nickname
 | 幻想獣　　　　　　　| Phantasmal Beast        | Mythological creatures
+| 腑海林       | Gutwood                  | One of Forest of Einnashe's titles
 
 ## Progress
 

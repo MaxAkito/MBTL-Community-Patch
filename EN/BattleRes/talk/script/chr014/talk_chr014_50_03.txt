@@ -1,81 +1,151 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg18", 0, 2, 0>
-\aw
+\\@LOAD_BATTLE_BG@<18>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg18", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 14, 0, 1, 0>
+\\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//camera
+
+\\@NPC_LOAD_SYNC@<4, 14, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//dnoel
+\\@CHARA_SET_PATTERN@<4, 4>//dnoel
+
+\\@NPC_LOAD_SYNC@<5, 3, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
+\\@CHARA_SET_PATTERN@<5, 3>//shiki
+
+\\@CHARA_IN@<0, 14, 0, 3, 0>
 \\@CHARA_IN@<1, 3, 3, 2, 0>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
 
+\\@SYSTEM@<102>
 
 \\@CHARA_IN@< 1, 3, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0000", 100>
+\\@TEXT_ID@<10>
 Shiki
-The sewers have become rivers of blood.
-Corpses are piled up in the city's back alleys.
+/*-comment-
+下水道は血の河。
+路地裏には死体の山。
+*/
+The sewers run red with blood, while corpses
+have piled up in the city's back alleys.
 \l
 
+/*-comment-
+メガネなし、冷酷
+*/
 
 \\@CHARA_IN@< 1, 3, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0001", 100>
+\\@TEXT_ID@<20>
 Shiki
+/*-comment-
+誰もが家に閉じこもっていて、
+出歩いている連中は肉の腐った元人間。
+*/
 People lock their doors and cower inside while the rotting
 remains of what were once humans prowl the streets.
 \l
 
 \\@CHARA_IN@< 1, 3, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0002", 100>
+\\@TEXT_ID@<30>
 Shiki
-And so I come checking at my school, at which 
-there now stands a strange church of sorts.
+/*-comment-
+で。
+学校に来てみれば、おかしな教会が建っている。
+*/
+And so I come checking at my school,
+at which now stands a strange church of sorts.
 \l
 
 \\@CHARA_IN@< 1, 3, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0003", 100>
+\\@TEXT_ID@<40>
 Shiki
-Hey, you.
+/*-comment-
+そこのキミ。
+これ、何かの催し物だったりする？
+*/
+Hey, you there.
 Are you setting up for a show or something?
 \l
 
 \\@CHARA_IN@< 1, 3, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0004", 100>
+\\@TEXT_ID@<50>
 Shiki
+/*-comment-
+それとも、今日こそ目が覚めずに
+地獄に落ちたのかな、俺は。
+*/
 Or perhaps today was finally the day 
 that I fell into hell without realizing it.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 14, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0020", 100>
+\\@TEXT_ID@<60>
 Dead_Noel
+/*-comment-
+へえ、思ったより落ち着いてるんだ。
+やせ我慢？　それとも現実逃避？
+*/
 Ooh, you're more calm about this than I was
 expecting. Is that just bravado? Or do you not 
 dare look reality in the eye?
 \l
 
+/*-comment-
+退屈
+*/
 
 \\@CHARA_IN@<0, 14, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0021", 100>
+\\@TEXT_ID@<70>
 Dead_Noel
-And I was sooo looking forward to seeing you panic, 
-too. You're really not all that cute, now are you?
+/*-comment-
+あわてふためく顔が見たかったのになぁ。
+ほーんと、とことん可愛くないんだから。
+*/
+And I was sooo looking forward to seeing you panic, too. 
+You're really not all that cute, now are you?
 \l
 
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0022", 100>
+\\@TEXT_ID@<80>
 Dead_Noel
+/*-comment-
+でも、ものは言いよう、とらえよう。
+なさけない《悲鳴＜こえ＞は物理で漏らせばいいんだもの。
+*/
 Still, there’s a right way to go about everything. 
 If I want to hear your pathetic screams, I guess
 I'll have to force them out of you.
 \l
 
+/*-comment-
+にまり
+*/
+
+\\@CHARA_SET_PATTERN@<4, 5>//dnoel
 
 \\@CHARA_IN@<0, 14, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0023", 100>
+\\@TEXT_ID@<90>
 Dead_Noel
+/*-comment-
+ようこそ、
+“泣いても死んでも許してあげない懺悔教室”へ。
+*/
 Welcome to my confessional class! 
 Here you can cry out your sins all you want,
 but never be forgiven, even in death.
@@ -83,7 +153,12 @@ but never be forgiven, even in death.
 
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0024", 100>
+\\@TEXT_ID@<100>
 Dead_Noel
+/*-comment-
+歓迎するわ、遠野志貴クン。説明は省くけど、
+アナタは生きてちゃいけないゴミクズなの。
+*/
 We've been expecting you, Shiki Tohno. I'm not gonna 
 get too into the explanation, but basically... you're 
 a piece of shit who doesn't deserve to live.
@@ -91,87 +166,156 @@ a piece of shit who doesn't deserve to live.
 
 \\@CHARA_IN@<0, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0025", 100>
+\\@TEXT_ID@<110>
 Dead_Noel
-I know you're just a regular upstanding human 
-right now. But still, just give up and die right
-now for me, 'kay? \sf000
+/*-comment-
+今はまだマトモな人間なのは知ってるけど、
+諦めてここで死んでね\sf000
+*/
+I know you're just a regular upstanding human right now,
+but just give up and die for me, 'kay? \sf000
 \l
+
+\\@CHARA_SET_PATTERN@<4, 7>//dnoel
 
 \\@CHARA_IN@<0, 14, 8, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0026", 100>
+\\@TEXT_ID@<120>
 Dead_Noel
-Oh, where are my manners? I should introduce
-myself. You know, like you would at a blind date!
+/*-comment-
+あ、その前に自己紹介とかする？
+合コンみたいに！
+*/
+Oh, or maybe you'd like an introduction first?
+You know, like you would at a blind date!
 \l
 
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0027", 100>
+\\@TEXT_ID@<130>
 Dead_Noel
+/*-comment-
+アナタの事は２週間前から調べていたけど、
+アナタはわたしの顔も名前も知らな、
+*/
 I've been investigating you for the last two weeks. 
-But you, on the other hand, don't even know my face,
+You, on the other hand, don't even know my face,
 let alone my na--
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 3, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0005", 100>
+\\@TEXT_ID@<140>
 Shiki
+/*-comment-
+いらないよ。興味もないし。
+それに、マトモな人間でもない。
+*/
 Don't bother. I don't care.
 Besides, I'm NOT a regular upstanding human.
 \l
 
+/*-comment-
+冷酷
+*/
+
+\\@CHARA_SET_PATTERN@<5, 4>//shiki
 
 //クロスフェードでポーズ切替
 \\@CHARA_OUT@< 1, 3, 3, 0, 1>
 \\@CHARA_IN@< 2, 3, 103, 12, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0006", 100>
+\\@TEXT_ID@<150>
 Shiki
+/*-comment-
+身内を殺されたから殺し返しに来ただけでさ。
+アンタの名前も素性も、余分な話だ。
+*/
 You killed one of my relatives, so I'm here to kill 
 you back. That's all. Your name, your background... 
 None of that matters to me.
 
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 14, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0028", 100>
+\\@TEXT_ID@<160>
 Dead_Noel
+/*-comment-
+―――いい。
+たまんない、ゾクゾクしちゃう！
+*/
 Oh, that is rich.
 You're giving me chills!
 \l
 
+/*-comment-
+狂喜ニヤリ
+*/
 
 \\@CHARA_IN@<0, 14, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0029", 100>
+\\@TEXT_ID@<170>
 Dead_Noel
+/*-comment-
+自分のコト、
+特別な人間だって思ってるんでしょ？
+*/
 Just look at you. You probably think
 you're someone special, don't you?
 \l
 
 \\@CHARA_IN@<0, 14, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0030", 100>
+\\@TEXT_ID@<180>
 Dead_Noel
-You think you can overcome any problem by 
-going at it with all you've got, don't you?
+/*-comment-
+全力でやればなんでもできるって
+思ってるんでしょう？
+*/
+You think you can overcome any problem you face 
+by just doing your very best, don't you?
 \l
+
+\\@CHARA_SET_PATTERN@<4, 3>//dnoel
 
 \\@CHARA_IN@<0, 14, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0031", 100>
+\\@TEXT_ID@<190>
 Dead_Noel
-But of course you do! If you weren't so full of 
+/*-comment-
+ええ、そうでなくっちゃ
+踏みにじり甲斐がないわ！
+*/
+You do, don't you? If you weren't so full of 
 yourself, grinding you beneath my heel wouldn't 
 be nearly as much fun!
 \l
 
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0032", 100>
+\\@TEXT_ID@<200>
 Dead_Noel
+/*-comment-
+その根拠のない自信ごとブッ刺して、
+掻き出して、細切れにして、
+*/
 I'm going to skewer you together with that 
-misplaced confidence of yours. I'll scrape 
+misplaced confidence of yours, scrape 
 you around, cut you into little pieces...
 \l
 
 \\@CHARA_IN@<0, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0033", 100>
+\\@TEXT_ID@<210>
 Dead_Noel
+/*-comment-
+わたしの《眼＜なか＞に入れてあげる。
+だってその方が幸せだもの、アナタの場合！
+*/
 And finally, I'll even put you inside of my eyes!
-I'm sure you'll be a lot happier that way anyways!
+I'm sure you'll be a lot happier that way anyway!
 
 \\@BGM_STOP@<0>
 \e
+

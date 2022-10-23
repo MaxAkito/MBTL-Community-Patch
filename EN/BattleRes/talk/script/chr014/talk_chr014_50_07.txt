@@ -1,97 +1,191 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg18", 0, 2, 0>
-\aw
+\\@LOAD_BATTLE_BG@<18>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg18", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
+\\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//camera
 
-\\@CHARA_IN@<0, 14, 0, 1, 0>
+\\@NPC_LOAD_SYNC@<4, 14, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//dnoel
+\\@CHARA_SET_PATTERN@<4, 14>//dnoel
+
+\\@NPC_LOAD_SYNC@<5, 5, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//roa
+\\@CHARA_SET_PATTERN@<5, 14>//roa
+
+\\@CHARA_IN@<0, 14, 0, 3, 0>
 \\@CHARA_IN@<1, 5, 1, 2, 0>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
 
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0000", 100>
+\\@TEXT_ID@<10>
 Roa
+/*-comment-
+ほう。これはまた、見覚えのある教会だ。
+染みついた血の匂いまで一致している。
+*/
 Well, now this church looks quite familiar. 
 It's practically the exact same, right down to 
 the scent of blood staining its floors.
 \l
 
+/*-comment-
+冷静
+*/
 
+\\@CHARA_SET_PATTERN@<5, 15>//roa
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0001", 100>
+\\@TEXT_ID@<20>
 Roa
-Seems you've gone out of your way to fully recreate it.
+/*-comment-
+わざわざ再現したのかな？
+即興にしては、血の使い方を心得ている。
+*/
+You really went out of your way to recreate it?
 It's a bit slapdash, but you've got the use of blood down.
 \l
 
 \\@CHARA_IN@< 1, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0002", 100>
+\\@TEXT_ID@<30>
 Roa
+/*-comment-
+評価を改めたよ新人。
+よくてⅣ階梯と思ったが、Ⅵ階梯と認めよう。
+*/
 My opinion of you has improved, youngling. I thought 
 you a mere Rank IV at best, but considering this, 
-I ought to acknowledge you as Rank VI.
+I'll acknowledge you as Rank VI.
 \l
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0003", 100>
+\\@TEXT_ID@<40>
 Roa
+/*-comment-
+いや、瞬間的な話であれば
+Ⅶ階梯にも届いているか？
+*/
 Actually, for a bit there, you might have 
 perhaps even reached all the way to Rank VII.
 \l
 
 \\@CHARA_IN@< 1, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0004", 100>
+\\@TEXT_ID@<50>
 Roa
+/*-comment-
+なんにせよ醜悪な発明、
+この上なく邪悪な成果だ。喝采に値する。
+*/
 Either way, quite the repulsive invention. A most 
 exquisitely wicked accomplishment, worthy of praise.
 
+/*-comment-
+褒めているのは阿良句博士の投薬であって、ノエルではない
+*/
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 16>//dnoel
 
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0040", 100>
+\\@TEXT_ID@<60>
+Dead_Noel
+/*-comment-
+さっすが逃げの達人、長生きだけが取り柄の蛇。
+口が上手いじゃない。
+*/
 You've got quite the mouth. Just as you'd figure 
 from someone whose only good quality is living for 
 so damn long, the master of cowards himself.
 \l
 
+/*-comment-
+ニマリ
+*/
 
 \\@CHARA_IN@<0, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0041", 100>
+\\@TEXT_ID@<70>
 Dead_Noel
+/*-comment-
+なに、もしかして命乞い？
+わたしを褒めて助けてもらおうってハラ？
+*/
 Or what, was that supposed to be you begging for 
 your life? Do you really think empty flattery will 
 convince me to spare you?
 \l
 
+/*-comment-
+余裕見下し
+*/
 
 \\@CHARA_IN@<0, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0042", 100>
+\\@TEXT_ID@<80>
 Dead_Noel
+/*-comment-
+いいわ。そういうコトなら、
+もう少しだけ聞いてあげる。
+*/
 Go on then. If that how it's gonna be I don't 
 mind listening to what you have to say.
 \l
 
+/*-comment-
+ニマリ
+*/
 
 \\@CHARA_IN@<0, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0043", 100>
+\\@TEXT_ID@<90>
 Dead_Noel
+/*-comment-
+智恵の蛇なんでしょう？
+役に立つコト、言ってみなさいよ。
+*/
 C'mon, aren't you the wise serpent?
-Go on, tell me something useful.
+please, tell me something useful.
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 14>//roa
 
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0005", 100>
+\\@TEXT_ID@<100>
 Roa
+/*-comment-
+役に立つコト……か。そうだな。
+おまえに必要なものといえば、
+*/
 Something useful? Hmm... I wonder, 
 what would someone like you find useful?
 \l
 
+/*-comment-
+真剣
+*/
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0006", 100>
+\\@TEXT_ID@<110>
 Roa
+/*-comment-
+代行者に取り入って長らえる術か。
+それとも、海を渡って逃げ延びる方法か。
+*/
 A way for you to cozy up with the Executors so you
 can survive their assault? Or maybe a means for you 
 to escape and hide overseas?
@@ -99,78 +193,147 @@ to escape and hide overseas?
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0007", 100>
+\\@TEXT_ID@<120>
 Roa
+/*-comment-
+ああ、しかし申し訳ない。
+あいにく、どちらも経験がなくてね。
+*/
 I'll have to apologize, but I've 
 no experience with any of that.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 15>//roa
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0008_a", 100>
+\\@TEXT_ID@<130>
 Roa
+/*-comment-
+物乞いに教授するものは何もない。
+身の程を弁え、夜明けを待つ事をお勧めするよ。
+*/
 I have nothing to teach a beggar. Know your place.
 I advise you to just sit back and wait for dawn.
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 10>//dnoel
+
 \\@CHARA_IN@<0, 14, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0044", 100>
+\\@TEXT_ID@<140>
 Dead_Noel
+/*-comment-
+―――は？
+なにそれ。殺したい。いますぐ死んで。
+*/
 Huh? 
-I'm this close to just killing you. Right now.
+What was that? I'm this close to just killing you on the spot.
 \l
 
+/*-comment-
+怒り
+*/
 
 \\@CHARA_IN@<0, 14, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0045", 100>
+\\@TEXT_ID@<150>
 Dead_Noel
+/*-comment-
+他人の体に転生してまで“死”から
+逃げ続けたのはソッチでしょ。
+*/
 You're the one who keeps running from death
 by inhabiting other people's bodies.
 \l
 
 \\@CHARA_IN@<0, 14, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0046", 100>
+\\@TEXT_ID@<160>
 Dead_Noel
+/*-comment-
+同じ吸血鬼になって理解したわ。
+転生無限者なんて笑わせる。
+*/
 Now that I'm a vampire too, I understand better than 
 ever just how stupid Mr. Endless Reincarnator really is.
 \l
 
 \\@CHARA_IN@<0, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0047", 100>
+\\@TEXT_ID@<170>
 Dead_Noel
+/*-comment-
+領地もない、配下もない、
+大した異能も持たない、Ⅵ階梯の成り上がり。
+*/
 You've got no territory, no followers, and no good abilities, 
 either. You're just a poser, no better than Rank VI.
 \l
 
 \\@CHARA_IN@<0, 14, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0048", 100>
+\\@TEXT_ID@<180>
 Dead_Noel
+/*-comment-
+それがオマエよロア。
+死徒としての《存在規模＜スケール＞ならわたしのが上。
+*/
 That's all you are, Roa, and all you'll ever be.
 As far as Dead Apostles go, my Lifescale surpasses yours.
 \l
 
 \\@CHARA_IN@<0, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0049", 100>
+\\@TEXT_ID@<190>
 Dead_Noel
-Could you please not try to act like you're my 
-superior with that botched reincarnated body?
+/*-comment-
+転生に失敗したそんな体で、
+偉そうに先輩風吹かせないでくれる？
+*/
+Could you please stop trying to act like you're my superior
+with that botched reincarnated body of yours?
+
+\\@SYSTEM@<102>
 
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0009", 100>
+\\@TEXT_ID@<200>
 Roa
+/*-comment-
+―――その通りだ。
+少しは頭が回るようになったじゃないか。
+*/
 That is indeed who I am. Seems you're starting
-to get your head around all this a bit better.
+to get your head around all this a bit more.
 \l
 
+/*-comment-
+やれやれ
+*/
 
+\\@CHARA_SET_PATTERN@<5, 13>//roa
 \\@CHARA_IN@< 1, 5, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0010", 100>
+\\@TEXT_ID@<210>
 Roa
+/*-comment-
+だが残念だ。領地だの配下だの、これまで
+意識していなかった些事に執心するとは。
+*/
 But really? Territory? Followers? I didn't imagine 
-you'd be so obessesed with paltries that you'd never 
+you'd be so obsessed with paltries that you'd never 
 spared a thought to before.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 14>//roa
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0011", 100>
+\\@TEXT_ID@<220>
 Roa
+/*-comment-
+元が小さいが故に、大きな力を手に入れると
+ガワばかり求めてしまう。
+*/
 I suppose since you started out so insignificant, 
 once you got a taste of some real power all you 
 care about are superficialities.
@@ -178,42 +341,79 @@ care about are superficialities.
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0012", 100>
+\\@TEXT_ID@<230>
 Roa
-I guess that's in a Dead Apostle's nature... 
-No, it's probably just because you're a sad nobody.
+/*-comment-
+死徒の習性……というより、凡人の悲しさだな。
+エレイシアとは比べるべくもない。
+*/
+I guess that's just in a Dead Apostle's nature... 
+No, it's probably more because you're a sad nobody.
 Suppose I shouldn't compare you to Elesia.
 
+\\@CHARA_SET_PATTERN@<4, 1>//dnoel
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 14, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0050", 100>
+\\@TEXT_ID@<240>
 Dead_Noel
-What did you say?!
+/*-comment-
+―――なんですって？
+*/
+What did you say?
 
+/*-comment-
+無表情睨み
+シエルと比べられてマジギレ一秒前
+*/
 
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0013", 100>
+\\@TEXT_ID@<250>
 Roa
+/*-comment-
+怒りたいのはこちらの方だ。
+*/
 I'm the one who should be offended here.
 \l
 
+/*-comment-
+余裕
+*/
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0014", 100>
+\\@TEXT_ID@<260>
 Roa
+/*-comment-
+私への復讐を成したいのか、
+自分の殻を破りたいのか。
+*/
 Is this about wanting to take revenge on me? 
 Or is it about wanting to change yourself?
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0015", 100>
+\\@TEXT_ID@<270>
 Roa
+/*-comment-
+そんな事も決められない愚者が、
+一時とはいえ、私の教会を模倣するなど。
+*/
 You're an imbecile who could never decide between 
-those two. And now you have the audacity, even if 
-just for a moment, to model this church after mine?
-
+those two. And now you have the audacity, even if
+only momentarily, to model your church after mine?
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0016", 100>
+\\@TEXT_ID@<280>
 Roa
+/*-comment-
+おまえには初めから何も無かった。
+私への憎しみも。エレイシアへの憤りも。
+*/
 Your hatred towards me... 
 Your resentment towards Elesia...
 Neither of them were really ever there.
@@ -221,66 +421,132 @@ Neither of them were really ever there.
 
 \\@CHARA_IN@< 1, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0017", 100>
+\\@TEXT_ID@<290>
 Roa
+/*-comment-
+一度も自分と向き合ってこなかったおまえに、
+《超えられる＜・・・・・＞線などない。
+*/
 You never managed to come to terms with yourself, 
 and so, there was never anything for you to overcome.
 \l
 
 \\@CHARA_IN@< 1, 5, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0018", 100>
+\\@TEXT_ID@<300>
 Roa
+/*-comment-
+復讐者にも超越者にもなれぬ半端者。
+それがおまえだ、死徒ノエル。
+*/
 A failure capable of neither enacting revenge nor 
 transcending beyond their own humanity. That is all 
 you are, Dead Apostle Noel, and all you'll ever be.
 
+\\@SYSTEM@<121>
+\\@CHARA_SET_PATTERN@<4, 18>//dnoel
+
 \\@CHARA_IN@<0, 14, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0051", 100>
+\\@TEXT_ID@<310>
 Dead_Noel
+/*-comment-
+―――黙れ。
+黙れ、黙れ、黙れ―――！
+P: Skylar White moment
+*/
 Shut up...
 Shut up, shut up, shut up!!
 \l
 
 \\@CHARA_IN@<0, 14, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0052", 100>
+\\@TEXT_ID@<320>
 Dead_Noel
+/*-comment-
+わたしより弱いクセに！
+わたしに殺されるだけのクズが、わたしを語るな！
+*/
 You're weaker than me! In fact, you're just a little 
-SHIT who is gonna get killed by me anyways! Don't you 
+SHIT who is gonna get killed by me anyway! Don't you 
 DARE talk about what I am!
 
+\\@CHARA_SET_PATTERN@<5, 15>//roa
+\\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0019", 100>
+\\@TEXT_ID@<330>
 Roa
+/*-comment-
+その上無策か、手に負えんな。
+*/
 And you're completely brainless too.
 You can't make this up.
 \l
 
+/*-comment-
+凶悪なニヤリ
+*/
 
 \\@CHARA_IN@< 1, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0020", 100>
+\\@TEXT_ID@<340>
 Roa
+/*-comment-
+いいぜ、殺し合いだろう？
+幕を引いてやるよ、脱落者！
+*/
 Fine, let's see which one of us dies first!
 Prepare yourself for the end, fallen one!
 \l
 
+\\@CHARA_SET_PATTERN@<5, 16>//roa
+
 \\@CHARA_FACE@<1,1,6,142>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0021", 100>
+\\@TEXT_ID@<350>
 Roa
+/*-comment-
+だいたいさぁ―――なんだよその若作り！
+いつまでもクリスマスって歳でもねえだろ？
+*/
 And c'mon...! That youthful appearance isn't fooling anyone!
 Do you intend to be at the age of that Christmas forever?
 
+/*-comment-
+笑いながら
+*/
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 10>//dnoel
+
 \\@CHARA_IN@<0, 14, 14, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0053", 100>
+\\@TEXT_ID@<360>
 Dead_Noel
+/*-comment-
+うるさい、これがわたし、
+わたしのなりたかった姿！
+*/
 Shut your mouth! This is who I am!
 This is who I always wanted to be!
 \l
 
+/*-comment-
+怒り叫び
+*/
 
 \\@CHARA_IN@<0, 14, 14, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0054", 100>
+\\@TEXT_ID@<370>
 Dead_Noel
+/*-comment-
+いつまでも、続けるんだ！
+そのために吸血鬼になったんだから……！
+*/
 And that will go on forever!
 That's why I became a vampire...!
 
 \\@BGM_STOP@<0>
 \e
+

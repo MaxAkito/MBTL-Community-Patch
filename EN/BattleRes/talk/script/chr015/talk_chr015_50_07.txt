@@ -1,131 +1,264 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg06", 0, 2, 0>
-\aw
+\\@LOAD_BATTLE_BG@<6>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg06", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
 \\@CHARA_IN@<0, 15, 8, 1, 0>
-\\@CHARA_IN@<1, 5, 1, 2, 0>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
 
+\\@SYSTEM@<101>
+\\@NPC_LOAD_SYNC@<4, 15, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//aoko
+\\@CHARA_SET_PATTERN@<4, 1>//aoko
 
 \\@CHARA_IN@<0, 15, 5, 0, 1>
 \\@CHARA_FACE@<0,5,4,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0030", 100>
+\\@TEXT_ID@<10>
 Aoko
+/*-comment-
+地下にこんな大規模な祭壇があるなんて……
+これ、１年や２年で出来るものじゃないわよ？
+*/
 Who'd have thought there'd be an altar this big down here?
 You couldn't have built this in just a year or two.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 11>//aoko
+
 \\@CHARA_IN@<0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0031", 100>
+\\@TEXT_ID@<20>
 Aoko
+/*-comment-
+えーと、マーリオゥの調べだと７年前に
+ロアってヤツが目覚めたって話だけど……
+*/
 Now, according to Mario's information, that Roa
 guy awakened around seven years ago but...
 
+/*-comment-
+これ、もっと前からじゃない？　という所感
+*/
+
+\\@SYSTEM@<102>
+\\@NPC_LOAD_SYNC@<5, 5, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//roa
+\\@CHARA_SET_PATTERN@<5, 14>//roa
+
+\\@CHARA_IN@<1, 5, 1, 2, 0>
+\aw
 
 \\@CHARA_IN@<1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0030", 100>
+\\@TEXT_ID@<30>
 Roa
+/*-comment-
+これはこれは。
+まさか最新の魔法使いの登場とは。
+*/
 Well, well. To think the newest 
 Magician would make her appearance...
 \l
 
 \\@CHARA_IN@<1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0031", 100>
+\\@TEXT_ID@<40>
 Roa
+/*-comment-
+いずれやって来ると確信はしていたが、
+この段階でやって来るのは予想外だ。
+*/
 I was convinced you'd come for me eventually, of course.
 But this is a little sooner than I counted on.
 \l
 
 \\@CHARA_FACE@<1,5,2,210>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0032", 100>
+\\@TEXT_ID@<50>
 Roa
-My Pantheon has yet to be activated. Could this possibly
+/*-comment-
+まだパンティオンは起動していない。
+もしや未来からの客人かな？　となると―――
+*/
+The Pantheon has yet to be activated. Could you possibly
 be a visitor from the future? If that's the case, then...
 \l
 
+\\@CHARA_SET_PATTERN@<5, 16>//roa
+
 \\@CHARA_IN@<1, 5, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0033", 100>
+\\@TEXT_ID@<60>
 Roa
+/*-comment-
+は―――はハ、ハハハハハハハハ！
+やはり彼の、私の理論は正しかった！
+*/
 Heh... Hahahahaha!
-Looks like his-- no, my theory was correct after all!
+Looks like his-- no, MY theory was correct after all!
 \l
 
+/*-comment-
+ニヤリ
+*/
 
 \\@CHARA_IN@<1, 5, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0034", 100>
+\\@TEXT_ID@<70>
 Roa
+/*-comment-
+ソラを暴くロアの企みは、
+いちおうの成功を見たというコトか！
+*/
 So I take it that my plan to see the cosmos 
 unveiled did in fact in some way succeed!
 \l
 
+\\@CHARA_SET_PATTERN@<5, 18>//roa
+
 \\@CHARA_IN@<1, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0035", 100>
+\\@TEXT_ID@<80>
 Roa
-The celestial egg! The atomic structure of creation!
+/*-comment-
+天体の卵！　開闢の原子配列！
+運河は収束し天堂に「　」は鎮座する！
+*/
+The celestial egg! The atomic structure of genesis!
 The flow converges, and "  " is enshrined in heaven!
 \l
 
 \\@CHARA_IN@<1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0036", 100>
+\\@TEXT_ID@<90>
 Roa
+/*-comment-
+だが無駄骨だ、《ここ＜・・＞でもまだ遅い。
+そして何もかもおしまいだ。
+*/
 But it's all in vain. Even here, you've come too late!
 And not only that, but you're done for, too.
 \l
 
+\\@CHARA_SET_PATTERN@<5, 19>//roa
+
 \\@CHARA_FACE@<1,0,6,360>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0037", 100>
+\\@TEXT_ID@<100>
 Roa
+/*-comment-
+事の始まりに立ち会う事なぞ不可能なのだよ。
+なぜなら―――貴様は、ここで命を終えるのだから！
+*/
 You will not have the honor of being present at 
-the start... because your miserable life ends here!
+its start... because your miserable life ends here!
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 2>//aoko
 
 \\@CHARA_IN@<0, 15, 11, 0, 1>
-// Œ‡”Ô /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0032", 100>
+// 欠番 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0032", 100>
+\\@TEXT_ID@<110>
 Aoko
+/*-comment-
+――――。
+*/
 ...
 
+/*-comment-
+空気を読んだ真顔。
+*/
 
+\\@CHARA_SET_PATTERN@<5, 14>//roa
+
+\\@SYSTEM@<102>
 \\@CHARA_IN@<1, 5, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0038", 100>
+\\@TEXT_ID@<120>
 Roa
+/*-comment-
+…………。
+なぜ黙っているのかな、キミ。
+*/
 ...
 What's with the silence?
 \l
 
+/*-comment-
+むぅ
+*/
 
 \\@CHARA_IN@<1, 5, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0039", 100>
+\\@TEXT_ID@<130>
 Roa
+/*-comment-
+二度目のもしや……だが。
+もしや……私は、やらかしたかな？
+*/
 One other possibility...
 Did I perhaps... screw up?
 \l
 
+/*-comment-
+勘違いでなんかヘンなこといったかな？
+*/
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 9>//aoko
 
 \\@CHARA_IN@<0, 15, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0033", 100>
+\\@TEXT_ID@<140>
 Aoko
+/*-comment-
+ソ、ソンナコト、ナイヨ？
+ソウ。ワタシ、ミライカラ、ヤッテキタ。
+*/
 N-No, NoT aT AlL.
 YoU'rE cOmPlEtElY rIgHt. I HaVe CoMe fRoM ThE fUtUrE. 
 \l
 
+/*-comment-
+目を逸らす
+*/
 
 \\@CHARA_IN@<0, 15, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0034", 100>
+\\@TEXT_ID@<150>
 Aoko
+/*-comment-
+ワタシ、アナタ、ヤッツケル。
+オカネモラッテバカンス最高。ＯＫ？
+*/
 I wIlL dEfEaT yOu, EvIlDoEr.
 AnD GeT tOnS oF CaSh fOr My VaCaTiOn... Ok?
 
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 13>//roa
+
 \\@CHARA_IN@<1, 5, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa07_0040", 100>
+\\@TEXT_ID@<160>
 Roa
+/*-comment-
+ただの迷子かよチクショウ！
+これだから魔法使いってヤツは！
+*/
 You're just some random drifter off the street!
 Ugh, this is why I hate Magicians!
 
+/*-comment-
+まじ怒り
+*/
 
 \\@BGM_STOP@<0>
 \e
+

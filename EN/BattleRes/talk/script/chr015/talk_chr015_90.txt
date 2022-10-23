@@ -1,10 +1,24 @@
+\\@LOAD_BATTLE_BG@<13>
 \\@BG_IN@<"ed_bg00", 0, 2>
+\\@NPC_CHARA_SHADOW@<2>
 
 \\@SYSTEM@<0>
 \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@< 0, 15, 1, 44, 0>
+//カメラを固定してマーリオゥの足先だけ映す
+\\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//camera
+
+\\@NPC_LOAD_SYNC@<4, 15, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//aoko
+\\@CHARA_SET_PATTERN@<4, 0>//aoko
+
+// \\@NPC_LOAD_SYNC@<5, 17, 680, 0, 1>
+// \\@CHARA_SET_MVNAME@<5, "FadeIn">//mario
+// \\@CHARA_SET_PATTERN@<5, 100>//mario 影
+
+\\@CHARA_IN@< 0, 15, 1, 1, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
@@ -13,169 +27,302 @@
 \\@CHARA_FOCUS_COLOR@<0,1>
 \\@QUAKE@<2,30,30>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0020", 100>
+\\@TEXT_ID@<10>
 Mario@Mario_Hatena
-You shitty-ass gunner! I see they were right 
+/*-comment-
+っこのクソガンナー！
+壊す事しかできねえって噂は本当だったな！
+*/
+You stupid-ass gunner! I see they were right 
 about you causing nothin' but destruction!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0021", 100>
+\\@TEXT_ID@<20>
 Mario@Mario_Hatena
+/*-comment-
+なんだ、ニホン名物カイジュウってヤツかテメェ？
+ビームを撃てれば幸せな悲しいモンスターか？
+*/
 Are you fuckin' Godzilla? Japan's tragic monster who
 can only find happiness in shooting laser beams?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0022", 100>
+\\@TEXT_ID@<30>
 Mario@Mario_Hatena
+/*-comment-
+ロアだけじゃなく工房まで消し炭にしやがって、
+『人間使い』の目も曇ったもんだ！
+*/
 The entire fuckin' Workshop, reduced to ash, 
 alongside Roa! My reputation as the 'Peoplemaster' 
 ain't gonna survive this shit.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0023", 100>
+\\@TEXT_ID@<40>
 Mario@Mario_Hatena
-I feel like an dumbass for even 
+/*-comment-
+あーあ、テメェなんかに依頼したオレが阿呆だった！
+*/
+I feel like a dumbass for even 
 hiring you in the first place.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0024", 100>
+\\@TEXT_ID@<50>
 Mario@Mario_Hatena
+/*-comment-
+くれてやる金なんざねえぞ、
+ブタバコにブチこまれる前にさっさと消えな！
+*/
 You're not getting a fuckin' cent.
-Outta my sight before I throw you in the slammer!
+Get outta my sight before I throw you in the slammer!
 
+\\@CHARA_SET_PATTERN@<4, 17>//aoko 驚き
 \\@CHARA_IN@< 0, 15, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0040", 100>
+\\@TEXT_ID@<60>
 Aoko
+/*-comment-
+ちょっ、オトナげないにも程がない！？
+ちゃんと街は救ったでしょ！？
+*/
 Hey-- C'mon now, don't be such a child!
 I mean I DID save the city, you know!?
 \l
 
 \\@CHARA_IN@< 0, 15, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0041", 100>
+\\@TEXT_ID@<70>
 Aoko
-I may have failed the side missions,
+/*-comment-
+そりゃあオプションは未達成だけど、
+基本業務はこなしたし！
+*/
+I may have failed the side mission,
 but I still got the job done!
 \l
 
+\\@CHARA_SET_PATTERN@<4, 8>//aoko
 \\@CHARA_IN@< 0, 15, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0042", 100>
+\\@TEXT_ID@<80>
 Aoko
+/*-comment-
+はい、報酬振り込んで！
+*/
 So yeah, hand over that money, 'kay?
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0025", 100>
+\\@TEXT_ID@<90>
 Mario@Mario_Hatena
+/*-comment-
+そいつはテメェの破壊活動で
+いってこいだっつーの！
+*/
 I'm tellin' you, it all went towards paying
 off the damages you caused, dumbass.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0026", 100>
+\\@TEXT_ID@<100>
 Mario@Mario_Hatena
+/*-comment-
+マジで地下鉄ぶっ壊しやがって、
+人命被害が出なかったのは奇跡だぜ！
+*/
 It's goddamn miracle no one was hurt 
 when you destroyed those train cars!
 
+\\@CHARA_SET_PATTERN@<4, 19>//aoko 真剣
 \\@CHARA_IN@< 0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0043", 100>
+\\@TEXT_ID@<110>
 Aoko
+/*-comment-
+奇跡じゃない。そこはちゃんと確認してます。
+私、一般人は殺さない約束してるから。
+*/
 Miracle nothing. I made sure no one would be in 
 danger before I got started. I've promised to 
 never harm ordinary people.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 9>//aoko あちゃー
 \\@CHARA_IN@< 0, 15, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0044", 100>
+\\@TEXT_ID@<120>
 Aoko
+/*-comment-
+……もう。はいはい、分かったわよ。
+*/
 But okay, whatever then. I get it.
 \l
 
 \\@CHARA_IN@< 0, 15, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0045", 100>
+\\@TEXT_ID@<130>
 Aoko
+/*-comment-
+せめて交通費は出してよね。
+オーストラリアから飛んできたんだから。
+*/
 At least reimburse me for my travel expenses.
 I flew all the way from Australia to be here!
 \l
 
 \\@CHARA_FACE@<0,4,2,220>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0046", 100>
+\\@TEXT_ID@<140>
 Aoko
+/*-comment-
+司祭ともあろう方がイライラしちゃってさー。
+あ。その体質のせいで怒りっぽいの？
+*/
 Mr. High-and-Mighty Presbyter sure has one hell
 of a temper... Wait, could it be because of how 
 your body works that you're so worked up?
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0027", 100>
+\\@TEXT_ID@<150>
 Mario@Mario_Hatena
-Of fuckin' course. See, you can think after all.
+/*-comment-
+そうだよ。分かってんじゃねえか。
+これが最後のチャンスだったってのにな！
+*/
+Of-fuckin-course it is. See, you can think after all.
 'S what I was sayin'. This was my last chance.
 
+\\@CHARA_SET_PATTERN@<4, 2>//aoko む？
 \\@CHARA_IN@< 0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0047", 100>
-Aoko
-I could do some emergency treatment, you know?
+\\@TEXT_ID@<160>
+Aokoc
+/*-comment-
+？　応急処置でいいならできるよ？
+ようはそれ、止めればいいんでしょ？
+*/
+I could do some emergency treatment for you, you know?
 I mean, I just have to put a stop to it, right?
+
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0028", 100>
+\\@TEXT_ID@<170>
 Mario@Mario_Hatena
+/*-comment-
+なん―――だと―――？
+*/
 Wait--what?!
 
 \\@BGM_FADE@<0, -1, 0, -2, 1>
 \\@FADE_OUT@<0, 255, 255, 255, 0>
 \w<180>
 
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>
 \\@CHARA_OUT@<0, -1, -1, 0, 0>
 \\@CHARA_OUT@<1, -1, -1, 0, 0>
 \aw
 
+/*-comment-
+画面白画面でフェイドして、ウエイト３秒くらいはさんでからED絵
+*/
 \\@FADE_IN@<0, 255, 255, 255, 0>
 
 \\@SQ_CALL@<1>
-\\@BGM_PLAY@<0, 76, 100>
+\\@BGM_PLAY@<0, 66, 100>
 \aw
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0048", 100>
+\\@TEXT_ID@<180>
 Aoko
-Oh boy, Hawaii at last!
-I love it here!
+/*-comment-
+ん～～～～～！
+やっぱハワイはいーーわーーー！
+*/
+Yahoooo!
+God I looove Hawaii!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0049", 100>
+\\@TEXT_ID@<190>
 Aoko
+/*-comment-
+司祭さまからめっちゃ報酬もらって、
+プライベートビーチまで貸してもらっちゃった！
+*/
 That Presbyter sure knows how to treat a lady.
 He gave me enough to rent my own private beach!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0050", 100>
+\\@TEXT_ID@<200>
 Aoko
+/*-comment-
+まさに《瓢箪＜ひょうたん＞から駒なり！
+日頃の善行がここで活きた！　って感じ！
+*/
 Sometimes fortune sure smiles upon you!
 All my good deeds are finally paying off!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0051", 100>
+\\@TEXT_ID@<210>
 Aoko
+/*-comment-
+有珠にもメールして……あ、ダメか、
+あの子、まだかたくなにＩＴ関連嫌ってた。
+*/
 I have to text Alice about thi-- wait... 
 She's still a die-hard IT-hater. Won't work.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0052", 100>
+\\@TEXT_ID@<220>
 Aoko
+/*-comment-
+二世クンは忙しいだろうし、
+姉貴は……ダメダメ、南の島がホラー案件になる。
+*/
 El-Melloi II is probably busy, and my sister... No way, 
 we'd turn this tropical island into a living hell.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0053", 100>
+\\@TEXT_ID@<230>
 Aoko
+/*-comment-
+ここはひとりでのんびり、
+リッチなバカンスにひたりましょう！
+*/
 Guess I'll just go ahead and enjoy this
 high-class lifestyle all by myself, then!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0054", 100>
+\\@TEXT_ID@<240>
 Aoko
+/*-comment-
+目立った終末案件もないし、
+ゼルレッチの爺さんも見当たらないし！
+*/
 No world that needs saving from impending doom, 
 and not a glimpse of good old Zelretch, either.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0055", 100>
+\\@TEXT_ID@<250>
 Aoko
+/*-comment-
+世は未だコトもなし。
+私の出番は何年先になるかな～～！
+*/
 For now, all is well.
 I won't have to get involved for many a year!
 
@@ -184,3 +331,4 @@ I won't have to get involved for many a year!
 
 \\@BGM_STOP@<0>
 \e
+

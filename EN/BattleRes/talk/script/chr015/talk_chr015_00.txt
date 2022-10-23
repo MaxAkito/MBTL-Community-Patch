@@ -1,193 +1,372 @@
 \\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<13>
 \\@BG_IN@<"ed_bg00", 0, 2>
+\\@NPC_CHARA_SHADOW@<2>
 \aw
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
-\\@CHARA_IN@<0, 15, 1, 44, 0>
+//カメラを固定してマーリオゥの足先だけ映す
+\\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//camera
+
+\\@NPC_LOAD_SYNC@<4, 15, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//aoko
+\\@CHARA_SET_PATTERN@<4, 0>//aoko
+
+// \\@NPC_LOAD_SYNC@<5, 17, 680, 0, 1>
+// \\@CHARA_SET_MVNAME@<5, "FadeIn">//mario
+// \\@CHARA_SET_PATTERN@<5, 100>//mario 影
+
+\\@CHARA_IN@<0, 15, 1, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
 \\@BGM_PLAY@<0, 71, 100>
 
+\\@SYSTEM@<100>
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0000", 100>
+\\@TEXT_ID@<10>
 Mario@Mario_Hatena
+/*-comment-
+―――以上がこの街の状況だ。
+*/
 So... that's how things stand in this town.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0001", 100>
+\\@TEXT_ID@<20>
 Mario@Mario_Hatena
+/*-comment-
+ステージⅡ、地下での《浸潤＜しんじゅん＞。
+ステージⅢ、地上への転移。
+*/
 Stage II, spreading under ground...
 Stage III, moving above ground...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0002", 100>
+\\@TEXT_ID@<30>
 Mario@Mario_Hatena
+/*-comment-
+この中間ってところだが、
+死者どもの動きはそう活発じゃねえ。
+*/
 Guess somewhere in between these two.
 Though, the Dead aren't all too active.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0003", 100>
+\\@TEXT_ID@<40>
 Mario@Mario_Hatena
-Maybe their sire Dead Apostle is still asleep.
+/*-comment-
+《親基＜おやもと＞の死徒がまだ眠ってんのか、
+そもそもの組織作りがよく出来ていたのか。
+*/
+Maybe their sire Dead Apostle's still asleep.
 Or maybe they were just well-organized from the start.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0004", 100>
+\\@TEXT_ID@<50>
 Mario@Mario_Hatena
+/*-comment-
+ま、両方だろ。
+なんにせよスピード勝負だ。
+*/
 Well, probably a lil bit of both.
 Either way, now it's just a matter of speed.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0005", 100>
+\\@TEXT_ID@<60>
 Mario@Mario_Hatena
-See, 'cause of stuff I can't use the Executors I got
-on me. I need this done before it gets out to 
+/*-comment-
+ワケあって手持ちの代行者は使えなくてな。
+他に漏れる前にカタをつけてくれ。
+*/
+See, got my circumstances, so I can't use the Executors
+I got on me. I need this done before it gets out to 
 anyone else, capisce?
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 2>//aoko むむ？
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0000", 100>
+\\@TEXT_ID@<70>
 Aoko
-O-ho. No wonder you were so lightly guarded. 
+/*-comment-
+あら。守りが薄いと思ったら、
+司祭様におかれましてはお忍びだったんだ。
+*/
+My, my. No wonder you were so lightly guarded. 
 So, Mr. High-and-Mighty Presbyter is undercover, huh?
 \l
 
 \\@CHARA_IN@<0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0001", 100>
+\\@TEXT_ID@<80>
 Aoko
+/*-comment-
+Ⅵ階梯の死徒ひとりにしては破格の報酬だけど、
+口止め料も含めてってコトか。
+*/
 I thought the reward was a bit out-of-scale for just
 a single Rank VI Dead Apostle, but that's with hush 
 money included, huh?
 \l
 
+\\@SYSTEM@<100>
+
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0006", 100>
+\\@TEXT_ID@<90>
 Mario@Mario_Hatena
+/*-comment-
+あったりまえだ。
+聖堂教会のエリートがテメェなんかと関係持つかよ。
+*/
 Goddamn right.
 You think a Church elite would wanna associate with you?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0007", 100>
+\\@TEXT_ID@<100>
 Mario@Mario_Hatena
+/*-comment-
+聖堂教会にも魔術協会にも爪弾きにされている
+アウトロー。第五の魔法使い。
+*/
 After all, you're considered an outlaw by both the Holy 
 Church, and the Mages Association, Miss Fifth Magician.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0008", 100>
+\\@TEXT_ID@<110>
 Mario@Mario_Hatena
+/*-comment-
+テメェなら何の因果もなしに現れて、
+特に理由もなく死徒どもを始末しても不思議じゃない。
+*/
 So it wouldn't be outta character for you to just roll
 up into a town and take care of some Dead Apostles for 
-no real reason, ya know?
+no real reason, if ya know what I mean?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0009", 100>
+\\@TEXT_ID@<120>
 Mario@Mario_Hatena
+/*-comment-
+いわゆる正義の味方ってヤツだ。
+文無しなのが玉に瑕だがな。
+*/
 Kinda like, I'unno, some kinda superhero?
 Only problem being that it don't exactly pay well.
 
+
+\\@CHARA_SET_PATTERN@<4, 9>//aoko
+
+\\@SYSTEM@<101>
+
 \\@CHARA_IN@<0, 15, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0002", 100>
+\\@TEXT_ID@<130>
 Aoko
+/*-comment-
+そうなのよねー。
+最近は姉貴のツケにもできなくてさー。
+*/
 You're right about that.
 Lately I can't even pay my sister's tabs.
 \l
 
 \\@CHARA_IN@<0, 15, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0003", 100>
+\\@TEXT_ID@<140>
 Aoko
+/*-comment-
+武士は食わねど高楊枝、にも限度があるし。
+ちょっとバカンスにも行きたいし。
+*/
 I know poverty builds character and all, but...
 I'd like to be able take a vacation now and then.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 4>//aoko
+
 \\@CHARA_IN@<0, 15, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0004", 100>
+\\@TEXT_ID@<150>
 Aoko
+/*-comment-
+オッケー、契約成立。
+事情は聞かないコトこみで引き受けましょう！
+*/
 Okay, I guess we have a deal. And that's with 
 me not prying into your business included.
 \l
 
 \\@CHARA_IN@<0, 15, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0005", 100>
+\\@TEXT_ID@<160>
 Aoko
+/*-comment-
+この口座に金額、振り込んでくれる？
+ちゃちゃっと片付けてくるから。
+*/
 Could you send the money over to this account?
 I'll take care of this before you know it.
 \l
 
+\\@CHARA_SET_PATTERN@<4, 2>//aoko むむ？
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0006", 100>
+\\@TEXT_ID@<170>
 Aoko
+/*-comment-
+でもこの街、こんなに物騒だった？
+死徒以外にも厄ネタ、あるみたいだけど。
+*/
 That said, was this town always so dangerous? 
 Seems there's some other nasty stuff lurking here.
 Well, aside from the Dead Apostles.
 
+/*-comment-
+むぅ
+*/
+
+\\@SYSTEM@<100>
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0010", 100>
+\\@TEXT_ID@<180>
 Mario@Mario_Hatena
+/*-comment-
+そっちは無視していい。オレたちの管轄外だ。
+土地の持ち主と戦争する気はねえよ。
+*/
 Ignore 'em. That's outside of our jurisdiction.
 Prefer'd to avoid conflict with the local landowners.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0011", 100>
+\\@TEXT_ID@<190>
 Mario@Mario_Hatena
+/*-comment-
+親基を見つけて捕まえるだけで……ん？
+なんだ。テメェ、総耶に馴染みがあったのか？
+*/
 Just find and capture the sire vampire-- Hm? 
 Wait, the fuck? You familiar with Souya or somethin'?
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 16>//aoko ふぁさー
 \\@CHARA_IN@<0, 15, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0007", 100>
+\\@TEXT_ID@<200>
 Aoko
+/*-comment-
+いえいえ、ちょっと前に立ち寄っただけ。
+その時はこんな状況じゃなかったけどね。
+*/
 Oh, no. I just passed through a little while ago.
 It wasn't like this back then, though.
 \l
 
 \\@CHARA_IN@<0, 15, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0008", 100>
+\\@TEXT_ID@<210>
 Aoko
+/*-comment-
+―――そっか。
+こういう縁もあってもいいわよね。
+*/
 Fate's treating me well for once, I suppose.
 \l
+
+\\@CHARA_SET_PATTERN@<4, 5>//aoko
 
 \\@CHARA_IN@<0, 15, 7, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0009", 100>
+\\@TEXT_ID@<220>
 Aoko
+/*-comment-
+よーし、やる気でてきたー！
+いつもの倍、はりきっていきましょう！
+*/
 Yeah, I'm feeling really fired up now!
 I'm gonna go all out! Double over!
 
+\\@SYSTEM@<100>
+
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0012", 100>
+\\@TEXT_ID@<230>
 Mario@Mario_Hatena
+/*-comment-
+……マジかよ、資料にねえぞ。
+日本狭いな。いや、テメェが風来坊なだけか。
+*/
 For real...? Your dossier didn't mention that. 
-Guess Japan's just a tiny country. Or actually, 
-it's probably more your wanderer spirit at play.
+Guess Japan's a tiny country. Actually, probably
+just your wanderer spirit at play.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0013", 100>
+\\@TEXT_ID@<240>
 Mario@Mario_Hatena
+/*-comment-
+まあいい。器物破損は控えめにな。
+面倒だからって地下ごと吹っ飛ばすなよ？
+*/
 Anyway, try and keep collateral damage down, would ya?
 I don't wanna see you destroying the whole underground.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0014", 100>
+\\@TEXT_ID@<250>
 Mario@Mario_Hatena
-Your goal here is ultimately to seize the Workshop. 
-Anything outside what's necessary for that is coming
+/*-comment-
+目的はあくまで工房の押さえだ。
+壊した分は報酬から引くんで、よろしく。
+*/
+Goal's here is ultimately to seize the Workshop. 
+Anythin' outside what's necessary for that is coming
 outta your pay, capisce?
 
+\\@SYSTEM@<101>
+
+\\@CHARA_SET_PATTERN@<4, 18>//aoko 驚き（鞄あり）
 \\@CHARA_IN@<0, 15, 3, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 3>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0010", 100>
+\\@TEXT_ID@<260>
 Aoko
+/*-comment-
+うそ！？　地下鉄のひとつやふたつ、
+経費で落ちないの！？
+*/
 What?! Come on, you can write
 off a couple of subway trains, right?
 
+\\@SYSTEM@<120>
+
 \\@CHARA_FOCUS_COLOR@<0,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcMar/NpcMar07_0015", 100>
+\\@TEXT_ID@<270>
 Mario@Mario_Hatena
+/*-comment-
+落ちねえよ！
+*/
 Of course not, dumbass!
 
 \\@BGM_STOP@<0>
 \e
+

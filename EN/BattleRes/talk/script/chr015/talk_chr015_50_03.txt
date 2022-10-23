@@ -1,48 +1,87 @@
 \\@SYSTEM@<9999>
-\\@BG_IN@<"screen_bg18", 0, 2, 0>
-\aw
+\\@LOAD_BATTLE_BG@<18>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+// \\@BG_IN@<"screen_bg18", 0, 2, 0>
 
 \\@SYSTEM@<0>
-\\@SYSTEM@<1>
+// \\@SYSTEM@<1>
 \aw
 
+\\@NPC_LOAD_SYNC@<4, 15, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//aoko
+\\@CHARA_SET_PATTERN@<4, 1>//aoko
+
 \\@CHARA_IN@<0, 15, 1, 1, 0>
-\\@CHARA_IN@<1, 14, 0, 2, 0>
 \aw
 
 \\@BGM_PLAY@<0, 75, 100>
 
-
+\\@SYSTEM@<101>
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0020", 100>
+\\@TEXT_ID@<10>
 Aoko
+/*-comment-
+甘い匂いに釣られてやって来たけど……
+総耶にこんな教会あったっけ？
+*/
 I just followed that sweet scent to get here...
 Was there always a church like this here in Souya?
 \l
 
 \\@CHARA_IN@<0, 15, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0021", 100>
+\\@TEXT_ID@<20>
 Aoko
-Is this even real? I mean, these roses
+/*-comment-
+っていうか、ここ、ちゃんと現実？
+あの薔薇も半分呪いで出来ているようなものだし。
+*/
+Actually, is this even real? I mean, these roses
 seem to be halfway made out of curses...
 \l
 
 \\@CHARA_IN@<0, 15, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0022", 100>
+\\@TEXT_ID@<30>
 Aoko
+/*-comment-
+固有結界……とは違うか。
+半分『夢の世界』が侵食してない、ここ？
+*/
 A Reality Marble, then? No... not quite. This place 
 is halfway subsumed by some dream-world, isn't it?
 
+
+\\@NPC_LOAD_SYNC@<5, 14, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//dnoel
+\\@CHARA_SET_PATTERN@<5, 14>//dnoel
+
+\\@CHARA_IN@<1, 14, 0, 4, 0>
+\aw
+
+\\@SYSTEM@<102>
+
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0080", 100>
+\\@TEXT_ID@<40>
 Dead_Noel
+/*-comment-
+へえ。どこの誰かは知らないけど、
+ずいぶんと余裕があるのね、アナタ。
+*/
 Oh? I don't know who you are, but you sure are 
 acting nonchalant given the situation here.
 \l
 
 \\@CHARA_IN@<1, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0081", 100>
+\\@TEXT_ID@<50>
 Dead_Noel
+/*-comment-
+フリーの魔術師？
+マトモな感性してれば恐怖で震え上がるのに。
+*/
 Some freelance mage, perhaps? I mean, if you felt 
 fear like a normal person did, you'd be shaking in 
 terror right about now.
@@ -50,67 +89,131 @@ terror right about now.
 
 \\@CHARA_IN@<1, 14, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0082", 100>
+\\@TEXT_ID@<60>
 Dead_Noel
+/*-comment-
+あ、違うか。
+ザコすぎて力の差が分からないってヤツ！
+*/
 Oh, I get it. You're just so weak you can't
 even tell how hopelessly outmatched you are!
 \l
 
+/*-comment-
+笑い
+*/
+
+\\@CHARA_SET_PATTERN@<5, 15>//dnoel
 
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0083", 100>
+\\@TEXT_ID@<70>
 Dead_Noel
+/*-comment-
+いいわ。大事の前の準備運動、
+ストレッチがわりに遊んであげる。
+*/
 Sure, I've got some time to kill before my next assignment.
-Playing with you could be a nice little warmup.
+Playing with you could be a nice little warm up.
 \l
 
+/*-comment-
+余裕ニヤリ
+*/
 
 \\@CHARA_IN@<1, 14, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0084", 100>
+\\@TEXT_ID@<80>
 Dead_Noel
+/*-comment-
+吸血鬼の体は最高だけど、
+味覚が消えたのは困りものでさぁ。
+*/
 Having a vampire body is awesome, but one of the
 drawbacks to it is losing my sense of taste.
 \l
 
 \\@CHARA_IN@<1, 14, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0085", 100>
+\\@TEXT_ID@<90>
 Dead_Noel
+/*-comment-
+美味しい、不味い、なんて贅沢は、
+血でしか味わえなくなっちゃった。
+*/
 This is delicious! This is awful! Luxurious sensations 
 like that are something which only blood lets me satisfy.
 \l
 
 \\@CHARA_IN@<1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0086", 100>
+\\@TEXT_ID@<100>
 Dead_Noel
+/*-comment-
+ねえ。魔術師の血ってどんな味？
+やっぱり苦かったり、辛かったりする？
+*/
 So... I wonder what a mage's blood tastes like?
-Oh, I bet it's bitter, but spicy!
+Oh, I bet it's bitter and astringent!
 \l
 
+/*-comment-
+ニタリ
+*/
+
+\\@CHARA_SET_PATTERN@<5, 8>//dnoel
 
 \\@CHARA_IN@<1, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0087", 100>
+\\@TEXT_ID@<110>
 Dead_Noel
+/*-comment-
+ふふ。だったら優しく殺してあげる。
+わたし、チョコミント大好きだから！
+*/
 So don't worry, I'll slaughter you ever so gently.
 I love mint chocolate, after all. 
 
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 11>//aoko
+
 \\@CHARA_IN@<0, 15, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0023", 100>
+\\@TEXT_ID@<120>
 Aoko
+/*-comment-
+そ？　私の血、冷たくはあるかもだけど、
+甘くはないと思うわよ？
+*/
 Really now? My blood might be a bit chilly
 but I doubt it's much sweet at all.
 \l
 
 \\@CHARA_IN@<0, 15, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0024", 100>
+\\@TEXT_ID@<130>
 Aoko
+/*-comment-
+あと、そっちと違って『優しく』はできないなぁ。
+*/
 Also, unlike you, I can't promise I'll be so gentle.
 \l
 
 \\@CHARA_IN@<0, 15, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0025", 100>
+\\@TEXT_ID@<140>
 Aoko
+/*-comment-
+―――私、嫌いなのよね、薔薇。
+悪いけど、建物ごと消えてくれる？
+*/
 You see, roses... I just can't stand them. So, sorry, 
 but could you just disappear, together with that church?
 
+/*-comment-
+シリアス
+*/
 
 \\@BGM_STOP@<0>
 \e
+

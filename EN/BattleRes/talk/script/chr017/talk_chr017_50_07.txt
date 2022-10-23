@@ -1,6 +1,6 @@
 \\@SYSTEM@<9999>
 \\@LOAD_BATTLE_BG@<6>
-\\@FADE_IN@<0, 0, 0, 0, 0>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
 // \\@BG_IN@<"screen_bg06", 0, 2>//最初は地下墓地を表示
 
 \\@SYSTEM@<0>
@@ -24,6 +24,10 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0060", 100>
 \\@TEXT_ID@<10>
 Aoko
+/*-comment-
+はい、吸血鬼退治終了～☆
+ついでに工房も大爆発～～☆
+*/
 Vampire extermination, complete! ☆ 
 Not to mention the Workshop, blown to smithereens! ☆
 
@@ -32,13 +36,13 @@ Not to mention the Workshop, blown to smithereens! ☆
 \\@SE_PLAY@<1, "talk/talk_se/Cmn_BombB", 0, 100>
 \w<180>
 
-
+// ステージ　地下爆心地にできる？
 \\@BG_CLEAR@<>// 背景を消去
 
 \\@LOAD_BATTLE_BG@<9>
 // \\@BG_IN@<"screen_bg09", 0, 2, 0>//MEMORY用に背景を表示
 
-
+//ホワイトアウト中に表情変更
 \\@CHARA_IN@<1, 15, 7, 0, 1>
 \\@CHARA_MUKI@<1,1>
 
@@ -52,6 +56,10 @@ Not to mention the Workshop, blown to smithereens! ☆
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0061", 100>
 \\@TEXT_ID@<20>
 Aoko
+/*-comment-
+いやあ、いいコトした後は空気がおいしいな～！
+風通しも良くなって結構結構！
+*/
 Ahh, the air feels so much fresher when you've been out
 doing good. Ventilation is pretty good now too, awesome!
 
@@ -70,6 +78,10 @@ doing good. Ventilation is pretty good now too, awesome!
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0090", 100>
 \\@TEXT_ID@<30>
 Mario
+/*-comment-
+結構じゃねぇえええええ！
+テメェ、なにしてやがる！？
+*/
 "Awesome" my fuckin' ass!
 What the hell do you think you're doing?!
 \l
@@ -78,6 +90,10 @@ What the hell do you think you're doing?!
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0091", 100>
 \\@TEXT_ID@<40>
 Mario
+/*-comment-
+ロアを殺したばかりか、
+工房までオシャカにしやがって……！
+*/
 Not ONLY did you fuckin' straight up kill Roa, 
 but you even blew up his goddamn Workshop too!!
 \l
@@ -88,6 +104,10 @@ but you even blew up his goddamn Workshop too!!
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0092", 100>
 \\@TEXT_ID@<50>
 Mario
+/*-comment-
+どこの魔術師だ、所属を言え、所属を！
+教会あげて抗議しに行ってやる！
+*/
 Which fuckin' mage are you? State your affiliations, 
 right now! I'll go sue 'em with the whole goddamn 
 Church behind me!
@@ -101,6 +121,10 @@ Church behind me!
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0062", 100>
 \\@TEXT_ID@<60>
 Aoko
+/*-comment-
+所属って、どこの派閥かってコト？
+ごめん、魔術協会には入ってないんだ。
+*/
 Affiliations? You mean like factions and stuff?
 Sorry, but I'm not part of the Mages Association.
 \l
@@ -111,7 +135,11 @@ Sorry, but I'm not part of the Mages Association.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0063", 100>
 \\@TEXT_ID@<70>
 Aoko
-My name's Aoko Aozaki. I'm a freelancing
+/*-comment-
+こんにちは、はじめまして。
+フリーの何でも屋、蒼崎青子でーす！
+*/
+The name's Aoko Aozaki. I'm a freelancing
 jack-of-all-trades. Nice to meet you!
 \l
 
@@ -120,6 +148,10 @@ jack-of-all-trades. Nice to meet you!
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0064", 100>
 \\@TEXT_ID@<80>
 Aoko
+/*-comment-
+昔この街で知り合った友達の様子が、
+とつぜん、なんとなーく気になって、
+*/
 I have a friend I got to know here sometime ago, 
 so I just kinda felt like checking up on them 
 all of a sudden.
@@ -130,6 +162,10 @@ all of a sudden.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0065", 100>
 \\@TEXT_ID@<90>
 Aoko
+/*-comment-
+こっそり様子を見に来たら死徒が根付いてたんで、
+お節介と思いつつも退治してしまいました。
+*/
 I took a little look and found a vampire had taken 
 root in the city. Might've been a bit nosy of me, 
 but I still took care of it.
@@ -141,6 +177,9 @@ but I still took care of it.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0066", 100>
 \\@TEXT_ID@<100>
 Aoko
+/*-comment-
+以上、これまでのあらすじ。
+*/
 And that's the story so far.
 \l
 
@@ -150,6 +189,10 @@ And that's the story so far.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0067", 100>
 \\@TEXT_ID@<110>
 Aoko
+/*-comment-
+―――何か問題ある、マーリオゥ司祭代行？
+吸血鬼を退治するのがアナタたちのお仕事だもの。
+*/
 Do we have a problem, Acting Presbyter Mario?
 Exterminating vampires is what you people do, isn't it?
 \l
@@ -159,6 +202,10 @@ Exterminating vampires is what you people do, isn't it?
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0068", 100>
 \\@TEXT_ID@<120>
 Aoko
+/*-comment-
+感謝こそされ、
+煙たがられるなんて事はないでしょ？
+*/
 Shouldn't you be thanking me
 instead of acting all annoyed and stuff?
 \l
@@ -170,6 +217,10 @@ instead of acting all annoyed and stuff?
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0069", 100>
 \\@TEXT_ID@<130>
 Aoko
+/*-comment-
+たとえば―――死徒が遺した文献を残らず秘匿しよう、
+なんて考えでもないかぎりは。
+*/
 Unless... you were, I don't know, planning on 
 collecting the Dead Apostle's research and keeping 
 it for yourself?
@@ -181,6 +232,10 @@ it for yourself?
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0093", 100>
 \\@TEXT_ID@<140>
 Mario
+/*-comment-
+アオザキ……アオコ……！
+テメェ、さては余所の組織に雇われたな！？
+*/
 Aoko... Aozaki...!
 Which fuckin' organization put you up to this?!
 \l
@@ -189,6 +244,10 @@ Which fuckin' organization put you up to this?!
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0094", 100>
 \\@TEXT_ID@<150>
 Mario
+/*-comment-
+何処のどいつだ、うちの獲物をかっさらおうなんて
+命知らずな不届き者は！
+*/
 Who the hell is it that's dumb enough to think they 
 can take my prey from right under my goddamn nose?!
 
@@ -199,6 +258,10 @@ can take my prey from right under my goddamn nose?!
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0070", 100>
 \\@TEXT_ID@<160>
 Aoko
+/*-comment-
+え？　いやだなあ、ほんとに偶然だって。
+サービスで正義の味方をしただけだし。
+*/
 Huh? Oh no, it really was just a coincidence, honest.
 Thought I'd help out by playing superhero for a bit.
 \l
@@ -208,6 +271,10 @@ Thought I'd help out by playing superhero for a bit.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0071", 100>
 \\@TEXT_ID@<170>
 Aoko
+/*-comment-
+でも、ちょっとだけ虫の知らせはあったかな。
+ゼルレッチの爺さんから電話があってさー。
+*/
 Although, I did have one little tip-off.
 Old Zelretch gave me a call.
 \l
@@ -217,8 +284,12 @@ Old Zelretch gave me a call.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0072", 100>
 \\@TEXT_ID@<180>
 Aoko
+/*-comment-
+なんでも、このまま貴方がロアと取引をすると、
+何もかも悪い方に転がっていくんだとか。
+*/
 He said that if you and Roa struck a deal then 
-things would go pretty badly for all of us.
+things would go pretty badly for the rest of us.
 \l
 
 \\@CHARA_IN@<1, 15, 1, 0, 1>
@@ -226,6 +297,10 @@ things would go pretty badly for all of us.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0073", 100>
 \\@TEXT_ID@<190>
 Aoko
+/*-comment-
+でも“何”が“悪い”のかは
+教えてくれなかったから、ほら、
+*/
 But he never told me exactly what it was that 
 would go so "badly". So you know, given that...
 
@@ -234,6 +309,10 @@ would go so "badly". So you know, given that...
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0095", 100>
 \\@TEXT_ID@<200>
 Mario
+/*-comment-
+面倒だから当事者を始末した、か。
+《頭＜あたま＞トロールなんじゃねえかテメェ？
+*/
 ...You'd rather take out one of the concerned 
 parties before anything could happen... 
 You act like a goddamn troll.
@@ -243,6 +322,10 @@ You act like a goddamn troll.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0096", 100>
 \\@TEXT_ID@<210>
 Mario
+/*-comment-
+……ま、疑わしきは罰せよ、だ。
+そのあたりは同意してやる。
+*/
 Still, the accused shall face punishment...
 I can see what you're thinkin' there.
 \l
@@ -251,8 +334,12 @@ I can see what you're thinkin' there.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0097", 100>
 \\@TEXT_ID@<220>
 Mario
+/*-comment-
+実際の話、ロアと取引をしていたら、
+オレはこの街を差し出していただろうしな。
+*/
 Had my deal with Roa actually come to pass, I'd've 
-probably been fine with handing over the city to him.
+probably been fine with handing the city over to him.
 \l
 
 \\@CHARA_SET_PATTERN@<4, 13>//mario
@@ -260,6 +347,10 @@ probably been fine with handing over the city to him.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0098", 100>
 \\@TEXT_ID@<230>
 Mario
+/*-comment-
+で、次は？
+被害を未然に防いだ正義の味方はどうするんだ？
+*/
 So what's next? Now that you've prevented any further 
 casualties, what's on the agenda for Miss Superhero?
 
@@ -270,8 +361,12 @@ casualties, what's on the agenda for Miss Superhero?
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0074", 100>
 \\@TEXT_ID@<240>
 Aoko
-Well, I was planning on heading home.
-But I don't think I can do that right now.
+/*-comment-
+あー……このまま帰りたいところだけど、
+そうはいかないかぁ……。
+*/
+Well, I WAS planning on heading home.
+But I don't think I can do that anymore.
 \l
 
 \\@CHARA_IN@<1, 15, 6, 0, 1>
@@ -279,6 +374,10 @@ But I don't think I can do that right now.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0075", 100>
 \\@TEXT_ID@<250>
 Aoko
+/*-comment-
+サービス過剰もどうかと思うけど、
+乗りかかった船だしね。
+*/
 Might be overdoing it with the altruism here, 
 but well, I've already gotten this far.
 \l
@@ -290,6 +389,10 @@ but well, I've already gotten this far.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0076", 100>
 \\@TEXT_ID@<260>
 Aoko
+/*-comment-
+ここはもうひとりに灸を据えて、
+禍根は断っておきましょう。
+*/
 There's one more person I need to give a lecture to
 if I want to get rid of the problem once and for all.
 \l
@@ -299,15 +402,22 @@ if I want to get rid of the problem once and for all.
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0077", 100>
 \\@TEXT_ID@<270>
 Aoko
+/*-comment-
+アナタ、根っからの『善人』だけど。
+善い事のためなら、なんだってしちゃう人でしょう？
+*/
 Besides, you're a good guy at heart.
 Someone who'd do anything if it's for the right cause.
-
 
 \\@SYSTEM@<101>
 \\@CHARA_IN@<0, 17, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0099", 100>
 \\@TEXT_ID@<280>
 Mario
+/*-comment-
+その通りだ魔法使い。
+おまけに諦めが悪くてね。
+*/
 You ain't wrong, magician.
 But also, I'm pretty damn stubborn.
 \l
@@ -319,6 +429,10 @@ But also, I'm pretty damn stubborn.
 /*-auto-*/\\@VOICE_PLAY@<0, "17Mar/Mar07_0100", 100>
 \\@TEXT_ID@<290>
 Mario
+/*-comment-
+ここで一発、痛い目に遭わせてくれよ。
+そうでもなけりゃ、諦めがつかないってモンだ。
+*/
 Let me get a few blows in, will ya? Enough that 
 it'll hurt. If you don't, I dunno if my 
 stubbornness will let this shit go. 

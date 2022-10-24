@@ -20,18 +20,30 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10130", 100>
 \\@TEXT_ID@<10>
 Miyako
+/*-comment-
+その日。
+目を覚ますと、お兄ちゃんはいなくなっていました。
+*/
 When I awoke that day...
 my brother was already gone.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10131", 100>
 \\@TEXT_ID@<20>
 Miyako
+/*-comment-
+遠野のお屋敷に戻ったんだよ、とお父さん。
+あの子なら心配はいらないわ、とお母さん。
+*/
 My father said he had returned to the Tohno mansion.
 My mother assured me that he would be just fine.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10132", 100>
 \\@TEXT_ID@<30>
 Miyako
+/*-comment-
+わたしはショックをうけてストライキ。
+ふてくされて、当たり散らして、部屋に籠もること半日間。
+*/
 Me, I went on strike out of shock, snapping at 
 everyone who came close and locking myself in my 
 room most of the day.
@@ -39,14 +51,22 @@ room most of the day.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10133", 100>
 \\@TEXT_ID@<40>
 Miyako
+/*-comment-
+―――道場。
+そうだ。道場に行かないと。
+*/
 The dojo...
-I need to go to the dojo...
+I needed to go to the dojo...
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10134", 100>
 \\@TEXT_ID@<50>
 Miyako
-Not even I myself quite understand the urge 
-as to why, but I hurried to the dojo anyways.
+/*-comment-
+わたしは自分でも不思議なくらいの行動力で、
+道場に駆けだした。
+*/
+Not even I myself quite understood the urge 
+as to why, but I hurried to the dojo anyway.
 
 \\@SYSTEM@<21>
 \aw

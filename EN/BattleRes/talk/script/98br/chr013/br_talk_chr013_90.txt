@@ -19,40 +19,66 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10140", 100>
 \\@TEXT_ID@<10>
 Miyako
+/*-comment-
+ふっ！　はっ！　せいやーーーーーっ！
+*/
 Hyah! Hyah!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10141", 100>
 \\@TEXT_ID@<20>
 Miyako
+/*-comment-
+よく覚えてないけど、
+わたしにはすっごく遠いゴールがあって、
+*/
 I don't remember when it happened, but a 
-suuuper distant goal had appeared before me.
+suuuper distant goal had suddenly appeared before me.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10142", 100>
 \\@TEXT_ID@<30>
 Miyako
+/*-comment-
+イヤんなるくらい高い、恐るべき壁が待っています。
+ふさぎこんでいるヒマはみじんもないのです。
+*/
 It loomed impossibly tall above, like a massive, 
 impassable wall. I couldn't waste a moment of time sulking.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10143", 100>
 \\@TEXT_ID@<40>
 Miyako
+/*-comment-
+うん、もっともっと強くならないと！
+*/
 I had to get stronger!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10144", 100>
 \\@TEXT_ID@<50>
 Miyako
+/*-comment-
+待っててね、お兄ちゃん！
+次は必ず、パンケーキを食べるんだから！
+*/
 Wait for me, Shiki! 
 Next time, we'll both order pancakes!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10145", 100>
 \\@TEXT_ID@<60>
 Miyako
+/*-comment-
+かくしょうはないけど、
+《期限＜リミット＞にはまだ猶予があるはず。
+*/
 I wasn't sure why,
 but I feel like I still had a lot of time left.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10146", 100>
 \\@TEXT_ID@<70>
 Miyako
+/*-comment-
+街から人が消えるくらい暑い夏が、きっと、
+わたしの『運命の日』になる予感がしまーす！
+*/
 On a summer day so hot that most people wouldn't dare go
 outside... I knew that's when my fate would be decided...
 

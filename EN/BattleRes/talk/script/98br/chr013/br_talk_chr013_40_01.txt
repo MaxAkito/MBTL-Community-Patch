@@ -26,6 +26,10 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0068", 100>
 \\@TEXT_ID@<10>
 Miyako
+/*-comment-
+もうこわいことはなんにもなし！
+わたしの毎日はすっっごくごきげんなのでした☆
+*/
 Nothing scares me anymore!
 My days were filled with joy and happiness! ☆
 \l
@@ -38,6 +42,9 @@ My days were filled with joy and happiness! ☆
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10001", 100>
 \\@TEXT_ID@<20>
 Miyako
+/*-comment-
+え？　え？
+*/
 Wha-wha--
 \l
 
@@ -58,6 +65,9 @@ Wha-wha--
 \\@CHARA_IN@< 0, 13, -1, 0, 1>
 \\@TEXT_ID@<30>
 Miyako
+/*-comment-
+えぇーーーーーーー！！！！？
+*/
 Whaaaaaat?!
 
 \\@BGM_PLAY@<0, 61, 100>//コミカルでちょっと怪しげなBGM
@@ -68,12 +78,19 @@ Whaaaaaat?!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10000", 100>
 \\@TEXT_ID@<40>
 Neco_Arc@Neco_Arc_Hatena
+/*-comment-
+にゃっにゃっにゃっにゃっ。
+*/
 Mya-ha-ha-ha-haa!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10001", 100>
 \\@TEXT_ID@<50>
 Neco_Arc@Neco_Arc_Hatena
+/*-comment-
+いたいけな少女が幸せな夢から目を覚ますと、
+そこは謎の精神空間だった。
+*/
 The innocent young girl awoke from her blissful dream
 to find herself in a mysterious space within the mind.
 
@@ -84,6 +101,10 @@ to find herself in a mysterious space within the mind.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10003", 100>
 \\@TEXT_ID@<60>
 Miyako
+/*-comment-
+この声は……！
+どういうコトだ、姿を見せろ怪しい猫ーー！
+*/
 I know this voice! 
 What's going on?! Show yourself, you shady feline!
 
@@ -102,7 +123,11 @@ What's going on?! Show yourself, you shady feline!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10002", 100>
 \\@TEXT_ID@<70>
 Neco_Arc
-Bonjour, China-girl. I'll wager you're probably
+/*-comment-
+ボンジュール、カンフールックのお嬢さん。
+突然のＥＤキャンセル、さぞ驚かれたコトでしょう。
+*/
+Bonjour, Little kung fu lady. I'll wager you're probably
 surprised to find your ending cut short like that.
 \l
 
@@ -110,6 +135,10 @@ surprised to find your ending cut short like that.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10003", 100>
 \\@TEXT_ID@<80>
 Neco_Arc
+/*-comment-
+さあ泣き崩れろ。取り乱せ。うろちょろしろ。
+投げスカリモーションからぶっぱしろ。
+*/
 You gonna break down and cry? Lose your cool? 
 Feel lost? And then leg it after you get stuck 
 in your throw-whiff motion?
@@ -120,6 +149,10 @@ in your throw-whiff motion?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10004", 100>
 \\@TEXT_ID@<90>
 Neco_Arc
+/*-comment-
+にゃ～んて、時間が止まっているから
+そんな自由はないんだけどニャ～！
+*/
 Just kitty-ing! There's not a whole lot 
 that can happen when time is stopped!
 
@@ -130,6 +163,9 @@ that can happen when time is stopped!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10004", 100>
 \\@TEXT_ID@<100>
 Miyako
+/*-comment-
+時間が……止まってるの？
+*/
 Time is... stopped?
 
 \\@SYSTEM@<102>
@@ -139,6 +175,9 @@ Time is... stopped?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10005", 100>
 \\@TEXT_ID@<110>
 Neco_Arc
+/*-comment-
+そう。なぜならここは貴様の精神世、
+*/
 Of course. This is all in your head, after--
 
 \\@SYSTEM@<101>
@@ -149,6 +188,10 @@ Of course. This is all in your head, after--
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10005", 100>
 \\@TEXT_ID@<120>
 Miyako
+/*-comment-
+ネコアルク！
+おまえ、ネコアルクだな！？
+*/
 Neco-Arc!
 You're called Neco-Arc, aren't you?!
 
@@ -160,6 +203,10 @@ You're called Neco-Arc, aren't you?!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10006", 100>
 \\@TEXT_ID@<130>
 Neco_Arc
+/*-comment-
+ごはっ！？　待って待ってすごく怖い、
+なぜアタシの名前を知っている！？
+*/
 Wha--?! Wait-wait-wait, that's freaky!
 How do you know my name?!
 
@@ -170,6 +217,9 @@ How do you know my name?!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10006", 100>
 \\@TEXT_ID@<140>
 Miyako
+/*-comment-
+だって下に出てるし。
+*/
 It says so right down there on the screen.
 
 \\@SYSTEM@<102>
@@ -180,6 +230,10 @@ It says so right down there on the screen.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10007", 100>
 \\@TEXT_ID@<150>
 Neco_Arc
+/*-comment-
+なるほど精神世界だった。
+対応力の化け物かよこのチャイナ。
+*/
 Oh, right. Since this is happening in your head it makes 
 sense you can see that. You sure adapt quickly, China-girl.
 \l
@@ -190,6 +244,10 @@ sense you can see that. You sure adapt quickly, China-girl.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10008", 100>
 \\@TEXT_ID@<160>
 Neco_Arc
+/*-comment-
+しかし、いささか情報が古い、
+あるいはネコに優しすぎるのではありませんかな？
+*/
 Your info is a bit outdated, however. Either that, or 
 you just have a soft spot for cute kittens like myself.
 \l
@@ -197,6 +255,10 @@ you just have a soft spot for cute kittens like myself.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10009", 100>
 \\@TEXT_ID@<170>
 Neco_Arc
+/*-comment-
+アタシはネコアルクなどという
+《旧時代＜平成＞の遺物ではニャイ。
+*/
 I am no longer the ancient relic known as Neco-Arc!
 That model was so last decade!
 \l
@@ -207,6 +269,10 @@ That model was so last decade!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10010", 100>
 \\@TEXT_ID@<180>
 Neco_Arc
+/*-comment-
+Ｒｅ：ｍａｋｅという新しいパワーに目覚めた
+シャイニングキャッツ……そう、ルミアルク！
+*/
 I am the Shining Cat who has been awoken to the new 
 power known as “Re$:make”! That's right, Lumi-Arc!
 
@@ -216,6 +282,9 @@ power known as “Re$:make”! That's right, Lumi-Arc!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10007", 100>
 \\@TEXT_ID@<190>
 Miyako
+/*-comment-
+そうなんだ。どこが変わったの？
+*/
 Really? So what's changed?
 
 \\@SYSTEM@<102>
@@ -226,6 +295,10 @@ Really? So what's changed?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10011", 100>
 \\@TEXT_ID@<200>
 Neco_Arc
+/*-comment-
+倫理観をジュラ紀からペルム紀にアップデートした。
+これによって対戦ダイヤグラム成績も向上。
+*/
 My morals have been updated from the Jurassic period to the 
 Permian, which has then also improved my matchup-spread
 \l
@@ -236,6 +309,10 @@ Permian, which has then also improved my matchup-spread
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10012", 100>
 \\@TEXT_ID@<210>
 Neco_Arc
+/*-comment-
+ほら、さすがに全キャラに対して０：１０は
+外道がすぎるっショ？
+*/
 Having a 0$:10 matchup against every character 
 is just a bit too damn sad, ya know?
 \l
@@ -245,6 +322,10 @@ is just a bit too damn sad, ya know?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10013", 100>
 \\@TEXT_ID@<220>
 Neco_Arc
+/*-comment-
+なので、同キャラ対戦にかぎり５：５になるよう
+調整してもらっている最中ニャんだよねこれが。
+*/
 So I was just in the process of adjusting it
 to have at least a 5$:5 matchup in the mirror.
 
@@ -255,6 +336,9 @@ to have at least a 5$:5 matchup in the mirror.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10008", 100>
 \\@TEXT_ID@<230>
 Miyako
+/*-comment-
+（うん。なにも変わってないってコトだね）
+*/
 (In other words, nothing has changed)
 
 \\@SYSTEM@<102>
@@ -264,6 +348,10 @@ Miyako
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10014", 100>
 \\@TEXT_ID@<240>
 Neco_Arc
+/*-comment-
+あー、あと目からビームを出す時のかけ声を改変した。
+さすがに今のご時世、あの技名はヤバイ。
+*/
 Oh, and my catchphrase when firing my eye beams has 
 been updated. You know how things are these days.
 That attack's name was a bit too spicy.
@@ -274,6 +362,10 @@ That attack's name was a bit too spicy.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10015", 100>
 \\@TEXT_ID@<250>
 Neco_Arc
+/*-comment-
+まあいいや、《近状報告＜こまかいはなし＞は。
+アタシも慈善事業で時空を彷徨ってるワケじゃねえ。
+*/
 But that's enough about my patch notes! 
 I'm not hanging around in this space pocket 
 out of the goodness of my heart.
@@ -283,13 +375,21 @@ out of the goodness of my heart.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10016", 100>
 \\@TEXT_ID@<260>
 Neco_Arc
+/*-comment-
+我が積年のライバル、ミヤコくん。
+ここはプロローグと本編の狭間の世界。
+*/
 Miyako, my ancient rival, this place we are in happens
-to be a world inbetween the prologue and the main story.
+to be a world in-between the prologue and the main story.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10017", 100>
 \\@TEXT_ID@<270>
 Neco_Arc
+/*-comment-
+そして、さっきまで貴様が味わっていた至福の一時は
+史実でも正史でも公式でもありません。
+*/
 In addition, the moment of bliss you enjoyed before now 
 was neither historical, factual or official!
 
@@ -301,6 +401,9 @@ was neither historical, factual or official!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10009", 100>
 \\@TEXT_ID@<280>
 Miyako
+/*-comment-
+！　どういうコト、バカネコ？
+*/
 What is that supposed to mean, you dumb cat?
 
 \\@SYSTEM@<102>
@@ -311,6 +414,9 @@ What is that supposed to mean, you dumb cat?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10018", 100>
 \\@TEXT_ID@<290>
 Neco_Arc
+/*-comment-
+にゃっにゃっにゃっ（※由緒正しいシャム笑い）。
+*/
 Myahahah! (*with the air of a venerable feline)
 \l
 
@@ -319,6 +425,10 @@ Myahahah! (*with the air of a venerable feline)
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10019", 100>
 \\@TEXT_ID@<300>
 Neco_Arc
+/*-comment-
+勘のいいヒロインなら
+気づいていたのではないですかニャ？
+*/
 I'd expected a smart heroine like yourself would have
 already guessed at my meowning!
 \l
@@ -326,6 +436,10 @@ already guessed at my meowning!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10020", 100>
 \\@TEXT_ID@<310>
 Neco_Arc
+/*-comment-
+今まで見ていた《展開＜シナリオ＞は数多ある可能性のひとつ。
+もし戦う力があったのなら起きていたかもしれない未来。
+*/
 The story you experienced until now was simply one 
 possibility among many; a future which might have 
 occured had you possessed the ability to fight.
@@ -334,6 +448,10 @@ occured had you possessed the ability to fight.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10021", 100>
 \\@TEXT_ID@<320>
 Neco_Arc
+/*-comment-
+アリよりのナシ。ナシよりのアリ。
+そんな曖昧な考察のもと作られた夢物語。
+*/
 Something born from nothing; Nothing born from something; 
 Vague possibilities giving birth to an impossible story.
 \l
@@ -344,6 +462,10 @@ Vague possibilities giving birth to an impossible story.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10022", 100>
 \\@TEXT_ID@<330>
 Neco_Arc
+/*-comment-
+そう。つまりはｙｏｕのニューロンが見せた幻。
+ただの与太話にすぎない、というコトに、ね？
+*/
 Basically, an illusion shown to you by the 
 neurons in your noggin. Nothing more than 
 some make-believe. Get it now?
@@ -354,6 +476,9 @@ some make-believe. Get it now?
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10010", 100>
 \\@TEXT_ID@<340>
 Miyako
+/*-comment-
+――――――。
+*/
 .....
 \l
 
@@ -362,6 +487,10 @@ Miyako
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10011", 100>
 \\@TEXT_ID@<350>
 Miyako
+/*-comment-
+ぜんぜんわかんない。
+もっと分かりやすく。
+*/
 Not in the least.
 Explain it so I can understand.
 
@@ -373,7 +502,10 @@ Explain it so I can understand.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10023", 100>
 \\@TEXT_ID@<360>
 Neco_Arc
-I've been explaining so nicely 
+/*-comment-
+ここまで丁寧に説明しても分からない、と。
+*/
+I've been explaining it so nicely 
 and you still don't get it?
 \l
 
@@ -382,13 +514,21 @@ and you still don't get it?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10024", 100>
 \\@TEXT_ID@<370>
 Neco_Arc
+/*-comment-
+ほら、アレアレ。
+有名なシュレディンガーなにがしが言ってたじゃん？
+*/
 Oh, come on. 
-It's like that famous Schrodinger guy once said...
+It's like that famous Schroedinger guy once said...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10025", 100>
 \\@TEXT_ID@<380>
 Neco_Arc
+/*-comment-
+『たとえ目の前にネコ缶が確定していたとしても、
+　缶切りのない猫は永遠にご馳走にありつけない』
+*/
 “Even with a can of cat food right in front of her,
  a cat without a can opener will remain hungry forever.”
 \l
@@ -399,6 +539,10 @@ Neco_Arc
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10026", 100>
 \\@TEXT_ID@<390>
 Neco_Arc
+/*-comment-
+深いよねー。神はにゃんでこんな複雑で困難な
+世界を作ったのか。暇なのかな？
+*/
 How deep is that? Why do you suppose God made the world
 so complex and confusing? You think he was bored?
 \l
@@ -408,6 +552,9 @@ so complex and confusing? You think he was bored?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10027", 100>
 \\@TEXT_ID@<400>
 Neco_Arc
+/*-comment-
+まあアレだニャ、ようは絵に描いた餅ってコト。
+*/
 I suppose wondering is as pointless as pie in the sky.
 \l
 
@@ -415,6 +562,10 @@ I suppose wondering is as pointless as pie in the sky.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10028", 100>
 \\@TEXT_ID@<410>
 Neco_Arc
+/*-comment-
+今さっき《精神＜サイコ＞の壁のように砕け散ったのは、
+貴様が迎えるかもしれない理想の未来だったのニャ。
+*/
 That which just shattered like a psycho going 
 through a wall with an axe was the possible arrival 
 of your ideal future. 
@@ -424,14 +575,22 @@ of your ideal future.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10029", 100>
 \\@TEXT_ID@<420>
 Neco_Arc
+/*-comment-
+現実にいる貴様はいまだお布団でオネムの最中。
+あの眼鏡ヤロウは無情にも遠野邸にＧＯ。
+*/
 In reality, you're still counting yarn balls in your bed
-while that dumb glasses-boy is heading to the Tohno manor.
+while that dumb glasses-boy is headed to the Tohno manor.
 \l
 
 \\@CHARA_IN@< 2, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10030", 100>
 \\@TEXT_ID@<430>
 Neco_Arc
+/*-comment-
+このままでは正規の《運命＜ルート＞通り、
+貴様がオニイチャンと過ごす展開はないと知れ。
+*/
 Know that as things stand, events will all follow the 
 standard route, and you will never get your time 
 together with your brother.
@@ -442,6 +601,10 @@ together with your brother.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10012", 100>
 \\@TEXT_ID@<440>
 Miyako
+/*-comment-
+…………。
+………………。
+*/
 .....
 .....
 \l
@@ -453,6 +616,10 @@ Miyako
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10013", 100>
 \\@TEXT_ID@<450>
 Miyako
+/*-comment-
+………………ヤダ。
+そんなの、ぜったいヤダーーーー！
+*/
 ........
 No way...! I don't want that, EVER!!
 \l
@@ -463,6 +630,10 @@ No way...! I don't want that, EVER!!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10014", 100>
 \\@TEXT_ID@<460>
 Miyako
+/*-comment-
+なんとかできないの！？
+いま、時間が止まってるんでしょ！？
+*/
 Isn't there anything I can do?! 
 You said time is stopped, didn't you?!
 \l
@@ -471,6 +642,10 @@ You said time is stopped, didn't you?!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10015", 100>
 \\@TEXT_ID@<470>
 Miyako
+/*-comment-
+すぐにわたしを起こして！
+お兄ちゃんを引きとめに行くから！
+*/
 Wake me up right now! 
 I'll go make sure my brother doesn't leave!
 
@@ -482,7 +657,11 @@ I'll go make sure my brother doesn't leave!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10031", 100>
 \\@TEXT_ID@<480>
 Neco_Arc
-I just explained this to you. The whole reason 
+/*-comment-
+だーかーらー、それができないから
+こんなコトになってるんでしょーが。
+*/
+And I'm tellin' ya, the whole reason 
 you're here is because you CAN'T change that.
 \l
 
@@ -490,6 +669,10 @@ you're here is because you CAN'T change that.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10032", 100>
 \\@TEXT_ID@<490>
 Neco_Arc
+/*-comment-
+貴様がいま目を覚ましたところで、
+いつもの緊張癖から何も出来ないのは必定。
+*/
 Even if you were to wake up now, your paralyzing shyness 
 would certainly prevent you from even speaking to him.
 \l
@@ -499,6 +682,10 @@ would certainly prevent you from even speaking to him.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10033", 100>
 \\@TEXT_ID@<500>
 Neco_Arc
+/*-comment-
+運命を変えたいのなら、まず自分を変えるンだ！
+厳しいけど明言なンだ！
+*/
 If you wish to change your fate, you must begin by 
 changing yourself! I know that's rough to hear, 
 but there's a reason people keep saying it!
@@ -510,6 +697,10 @@ but there's a reason people keep saying it!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10016", 100>
 \\@TEXT_ID@<510>
 Miyako
+/*-comment-
+自分を変える……？
+えっと、じゃあ……
+*/
 Change myself? So...
 You mean...
 \l
@@ -520,6 +711,10 @@ You mean...
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10017", 100>
 \\@TEXT_ID@<520>
 Miyako
+/*-comment-
+《高校生＜オトナ＞になって、
+お兄ちゃんと同じ高校に通えってコト？　きゃっ☆
+*/
 I should grow up and enroll in the same high school
 as my brother? Heehee! ☆
 
@@ -532,6 +727,9 @@ as my brother? Heehee! ☆
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10034", 100>
 \\@TEXT_ID@<530>
 Neco_Arc
+/*-comment-
+それは誰も求めてはいない。
+*/
 No, nobody is asking you to do that.
 
 \\@FONT_SIZE_RESTORE@<>
@@ -542,6 +740,10 @@ No, nobody is asking you to do that.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10035", 100>
 \\@TEXT_ID@<540>
 Neco_Arc
+/*-comment-
+強くなれ、と言っているンだよ都古クン。
+アタシはその為に現れた貴様の導き手。
+*/
 You need to grow stronger, Miyako. 
 That is why I have appeared as your mentor.
 \l
@@ -550,6 +752,10 @@ That is why I have appeared as your mentor.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10036", 100>
 \\@TEXT_ID@<550>
 Neco_Arc
+/*-comment-
+この世界は力あるものしか生き残れない。
+はい、他のヒロインを見れば明白ですね。
+*/
 Only the strong can survive in this world. Look at 
 the other heroine's stories and its clear as day.
 \l
@@ -558,6 +764,10 @@ the other heroine's stories and its clear as day.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10037", 100>
 \\@TEXT_ID@<560>
 Neco_Arc
+/*-comment-
+にゃんで、今からこの精神世界に
+『都古ルート』を実装します。
+*/
 That's why I am going to implement a “Miyako Route” 
 into this head-space of yours.
 \l
@@ -566,6 +776,10 @@ into this head-space of yours.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10038", 100>
 \\@TEXT_ID@<570>
 Neco_Arc
+/*-comment-
+これはアタシがいろんな並行世界を巡って
+かき集めて編集した、
+*/
 I've pieced it together from fragments
 of parallel worlds I have visited.
 \l
@@ -574,6 +788,10 @@ of parallel worlds I have visited.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10039", 100>
 \\@TEXT_ID@<580>
 Neco_Arc
+/*-comment-
+『もし有間都古が月姫のヒロインだったら』
+という仮想シナリオのダイジェストです。
+*/
 Think of it as a summary of the hypothetical scenario 
 in which Miyako Arima was the heroine of Tsukihime.
 \l
@@ -581,6 +799,10 @@ in which Miyako Arima was the heroine of Tsukihime.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10040", 100>
 \\@TEXT_ID@<590>
 Neco_Arc
+/*-comment-
+この戦いをくぐり抜けた暁には、
+貴様は新たなる力……
+*/
 Should you make it through the battles ahead, you 
 shall find yourself in possession of a new power...
 \l
@@ -590,6 +812,10 @@ shall find yourself in possession of a new power...
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10041", 100>
 \\@TEXT_ID@<600>
 Neco_Arc
+/*-comment-
+『ゲストヒロイン』から『サブヒロイン』に
+昇格する資格が与えられるであろう……！
+*/
 That of being gaining the right of going from 
 "Guest Heroine" all the way to "Sub-Heroine"!
 
@@ -601,12 +827,19 @@ That of being gaining the right of going from
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10018", 100>
 \\@TEXT_ID@<610>
 Miyako
+/*-comment-
+す、すごい……！
+*/
 R-Really?! Wow!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10019", 100>
 \\@TEXT_ID@<620>
 Miyako
+/*-comment-
+なにを言っているのかなにひとつ分からないけど、
+すごく手間がかかってるコトだけは分かる！
+*/
 I still have absolutely not a single clue what you're
 talking about, but I get it must've been a lot of effort!
 \l
@@ -616,6 +849,10 @@ talking about, but I get it must've been a lot of effort!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10020", 100>
 \\@TEXT_ID@<630>
 Miyako
+/*-comment-
+でも、なんでバカネコがそんなコトを？
+わたしとは初対面だよね？
+*/
 But why go to all that trouble? 
 This is the first time we've met, isn't it?
 
@@ -627,6 +864,10 @@ This is the first time we've met, isn't it?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10042", 100>
 \\@TEXT_ID@<640>
 Neco_Arc
+/*-comment-
+売れる恩はいくらでも売っておく。
+今回はそういう戦略です。ｙｏｕも大人になれば分かる。
+*/
 I try to get as many people into my favor as I can. This 
 is no exception. Maybe you'll understand when you're older.
 
@@ -638,6 +879,9 @@ is no exception. Maybe you'll understand when you're older.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10021", 100>
 \\@TEXT_ID@<650>
 Miyako
+/*-comment-
+――――――。
+*/
 .....
 
 \\@SYSTEM@<102>
@@ -646,6 +890,10 @@ Miyako
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10043", 100>
 \\@TEXT_ID@<660>
 Neco_Arc
+/*-comment-
+うーん、無垢な少女を騙すのは気が引けるけど
+いい反応だニャー。
+*/
 A good response. Though I feel somewhat ashamed of
 taking advantage of an innocent little girl.
 \l
@@ -654,6 +902,10 @@ taking advantage of an innocent little girl.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10044", 100>
 \\@TEXT_ID@<670>
 Neco_Arc
+/*-comment-
+これから地獄の特訓みたいなデスモードが始まるけど、
+合意とみていいかニャ？
+*/
 A hellish training course is about to begin. 
 Do you consent to activate death mode?
 
@@ -665,6 +917,10 @@ Do you consent to activate death mode?
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10022", 100>
 \\@TEXT_ID@<680>
 Miyako
+/*-comment-
+もっちろん！
+それで強くなれるんだよね！
+*/
 Of course!
 It's gonna make me stronger, right?
 
@@ -675,14 +931,22 @@ It's gonna make me stronger, right?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10045", 100>
 \\@TEXT_ID@<690>
 Neco_Arc
+/*-comment-
+おっけー。じゃ、最初の対戦相手を召喚します。
+チュートリアル、チュートリアル。
+*/
 OK! I will summon your first opponent, then.
-Tutorial! Tutorial!
+Tutorial Time.
 \l
 
 \\@CHARA_IN@< 2, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10046", 100>
 \\@TEXT_ID@<700>
 Neco_Arc
+/*-comment-
+ここでは命は猫の髭よりも軽い。
+これから貴様はげんなりするほど死を体験する。
+*/
 Here, your life is as fine as a cat's whiskers.
 You will grow weary of how often you experience death.
 \l
@@ -691,6 +955,10 @@ You will grow weary of how often you experience death.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10047", 100>
 \\@TEXT_ID@<710>
 Neco_Arc
+/*-comment-
+でも逆に考えると軽いので命は実質無料です。
+ひとやまイクラの命とくらぁ。
+*/
 But on the other hand, death here is cheap. 
 You'll have more lives than an entire herd of cats!
 \l
@@ -699,6 +967,10 @@ You'll have more lives than an entire herd of cats!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10048", 100>
 \\@TEXT_ID@<720>
 Neco_Arc
+/*-comment-
+コンティニューは無限にできるので、
+心おきなく無理ゲーにチャレンジしていただければ。
+*/
 You have an infinite amount of continues, so feel free
 to keep going at this unfair game without worries.
 \l
@@ -708,8 +980,12 @@ to keep going at this unfair game without worries.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10049", 100>
 \\@TEXT_ID@<730>
 Neco_Arc
-GOOD CAT China-girl!
-Boss Rush Mode, beginnnn!
+/*-comment-
+―――グッドキャット・チャイナ！
+ボスラッシュモード、はじまるよ～！
+*/
+Good Cat China-girl!
+Boss Rush Mode, begiiiin!
 
 
 \\@BGM_STOP@<0>

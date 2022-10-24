@@ -29,6 +29,10 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10110", 100>
 \\@TEXT_ID@<10>
 Neco_Arc
+/*-comment-
+うっわ、大人げねー。
+当主おとなげねー！　色々ねー！
+*/
 Wow! The Tohno head sure is immature!
 In more ways than one!
 \l
@@ -38,9 +42,13 @@ In more ways than one!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10111", 100>
 \\@TEXT_ID@<20>
 Neco_Arc
+/*-comment-
+子供相手にあのセリフ、どう思いますか眼鏡クン。
+七年の気遣いも冷めるのでは？
+*/
 What do you think about her saying stuff like that 
-to a kid, glasses-boy? Maybe your seven years of 
-feeling bad for her have even dampened a bit?
+to a kid, glasses-boy? Maybe your seven years worth
+of feeling bad for her have even dampened a bit?
 
 \\@CHARA_SET_PATTERN@<5, 22>//shiki 眼鏡お手
 \\@SYSTEM@<101>
@@ -49,6 +57,9 @@ feeling bad for her have even dampened a bit?
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10040", 100>
 \\@TEXT_ID@<30>
 Shiki
+/*-comment-
+子供相手に、とか思ってないですよ。
+*/
 Akiha doesn't think of her as a kid, you know?
 \l
 
@@ -56,6 +67,10 @@ Akiha doesn't think of her as a kid, you know?
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10041", 100>
 \\@TEXT_ID@<40>
 Shiki
+/*-comment-
+都古ちゃんが本気で向かってきたから、
+アイツも本気で応えてるだけでしょ。
+*/
 Miyako came at her in earnest. 
 I think Akiha was merely answering her in kind.
 
@@ -65,6 +80,10 @@ I think Akiha was merely answering her in kind.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10112", 100>
 \\@TEXT_ID@<50>
 Neco_Arc
+/*-comment-
+マジかよその信頼おりひめひこぼしいまそかり。
+そういう八方美人な態度、アタシどうかと思うなー。
+*/
 What's with that misplaced star-crossed lovers 
 level of trust? I dunno about that kinda 
 get-along-with-everyone-attitude, personally.
@@ -75,6 +94,10 @@ get-along-with-everyone-attitude, personally.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10113", 100>
 \\@TEXT_ID@<60>
 Neco_Arc
+/*-comment-
+なに？　眼鏡クンなだけに《透明多面体＜プリズム＞ってコト？
+《視線＜ひかり＞を分散・屈折・全反射、みたいな。
+*/
 Or what? Do you think that just because you're the 
 glasses-boy that you're some kind of prism dispersing, 
 bending, and reflecting the light of others?
@@ -85,6 +108,10 @@ bending, and reflecting the light of others?
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10042", 100>
 \\@TEXT_ID@<70>
 Shiki
+/*-comment-
+ははは。気づいてないようだから教えてやるけど、
+おまえの言動、人類には八割理解できないからな。
+*/
 Hahaha. In case you weren't aware, we humans are only
 able to understand about 20% of what you say.
 
@@ -95,6 +122,10 @@ able to understand about 20% of what you say.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10114", 100>
 \\@TEXT_ID@<80>
 Neco_Arc
+/*-comment-
+ほほう、けっこうな打率ですニャー。
+最近はアタリが１％でも有情だと―――
+*/
 Wow, that's an ameowzing rate.
 Nowadays 1% on the SSR is considered generous.
 \l
@@ -104,7 +135,11 @@ Nowadays 1% on the SSR is considered generous.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10115", 100>
 \\@TEXT_ID@<90>
 Neco_Arc
-Oho! Let's cease our pillow-talk, my boy,
+/*-comment-
+おっと、ピロートークはそこまでだボーイ。
+プリンセスが目を覚ますようだ、ぜ……？
+*/
+Whoopsies! Let's cease our pillow-talk, my boy,
 It seems our princess here is about to wake up...
 
 \\@CHARA_SET_PATTERN@<5, 20>//shiki 眼鏡振り向き
@@ -125,6 +160,10 @@ It seems our princess here is about to wake up...
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10100", 100>
 \\@TEXT_ID@<100>
 Miyako
+/*-comment-
+ひゃーーーーー！
+鬼みたいなコジュウトに殺されちゃうーーー！
+*/
 AAAHHHHHH!!
 I'm gonna be killed by my inhuman stepsister!
 \l
@@ -136,6 +175,10 @@ I'm gonna be killed by my inhuman stepsister!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10101", 100>
 \\@TEXT_ID@<110>
 Miyako
+/*-comment-
+……って、あれ？
+アキハいない？　ここは一番最初の……
+*/
 Wait... Wha--?
 Where's Akiha? This looks like back where we started...
 
@@ -146,6 +189,10 @@ Where's Akiha? This looks like back where we started...
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10116", 100>
 \\@TEXT_ID@<120>
 Neco_Arc
+/*-comment-
+ウィムシュー。
+貴様の精神世界、その入り口だニャ幼女拳士。
+*/
 Oui, mademoiselle. We're back at the entrance to
 your head space, Little Fist of the Grade-schooler.
 \l
@@ -155,6 +202,10 @@ your head space, Little Fist of the Grade-schooler.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10117", 100>
 \\@TEXT_ID@<130>
 Neco_Arc
+/*-comment-
+いっときのヒロイン体験、如何だったでしょうか？
+血湧き肉躍るアクション大作に満足した？
+*/
 How did you enjoy your brief time as the heroine? 
 Was your hot-blooded and manly action epic everything 
 you wanted it to be?
@@ -164,6 +215,10 @@ you wanted it to be?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10118", 100>
 \\@TEXT_ID@<140>
 Neco_Arc
+/*-comment-
+それとも、ラブロマンスの欠片もない
+お子様展開にガッカリした？
+*/
 Or were you disappointed at the G-rated plot of which 
 there was not even a glimpse of love or romance?
 
@@ -174,6 +229,10 @@ there was not even a glimpse of love or romance?
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10102", 100>
 \\@TEXT_ID@<150>
 Miyako
+/*-comment-
+か、欠片くらいはあったんですけど！
+いっしょにファミレスでランチも食べたし！
+*/
 T-There was a glimpse at least!
 We had lunch in at a diner, just the two of us!
 \l
@@ -182,6 +241,9 @@ We had lunch in at a diner, just the two of us!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10103", 100>
 \\@TEXT_ID@<160>
 Miyako
+/*-comment-
+ね、そうだよね、お兄ちゃん！？
+*/
 Isn't that right, Shiki?!
 
 \\@CHARA_SET_PATTERN@<5, 27>//shiki 眼鏡うなずき（2回）
@@ -191,6 +253,10 @@ Isn't that right, Shiki?!
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10043", 100>
 \\@TEXT_ID@<170>
 Shiki
+/*-comment-
+そうだね。作戦会議もかねて、途中でね。
+次はパンケーキを頼もっか。
+*/
 We did. Just a part of our strategy meeting, though. 
 I think I'll order the pancakes next time.
 
@@ -199,6 +265,9 @@ I think I'll order the pancakes next time.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10104", 100>
 \\@TEXT_ID@<180>
 Miyako
+/*-comment-
+えへへー。
+*/
 Heehee!
 
 \\@CHARA_SET_PATTERN@<6, 3>//neco やれやれ
@@ -207,7 +276,10 @@ Heehee!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10119", 100>
 \\@TEXT_ID@<190>
 Neco_Arc
-You are aware he's just treating you like a kid, right?
+/*-comment-
+こちら、お父さん視点であるとお気づきでない？
+*/
+You're aware he's just treating you like a kid, right?
 
 \\@CHARA_SET_PATTERN@<4, 1>
 \\@SYSTEM@<101>
@@ -216,6 +288,9 @@ You are aware he's just treating you like a kid, right?
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10105", 100>
 \\@TEXT_ID@<200>
 Miyako
+/*-comment-
+じゃなくてバカネコ、今のはどういうコト！？
+*/
 Never mind that, you dumb cat! What happened here?
 \l
 
@@ -223,6 +298,10 @@ Never mind that, you dumb cat! What happened here?
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10106", 100>
 \\@TEXT_ID@<210>
 Miyako
+/*-comment-
+わたし、確かにアキハに勝ったのに！
+なんであんな展開になっちゃうの！？
+*/
 I won that fight against Akiha! What gives?!
 Why did the cutscene act like I lost?!
 \l
@@ -231,6 +310,9 @@ Why did the cutscene act like I lost?!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10107", 100>
 \\@TEXT_ID@<220>
 Miyako
+/*-comment-
+このシナリオ、バグってない！？
+*/
 Is this story mode bugged!?
 
 \\@CHARA_SET_PATTERN@<6, 5>
@@ -240,6 +322,10 @@ Is this story mode bugged!?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10120", 100>
 \\@TEXT_ID@<230>
 Neco_Arc
+/*-comment-
+にゃっにゃっにゃっ。
+《永パ＜バグ＞もなければ《遅滞＜ラグ＞もない。
+*/
 Mya-ha-ha-ha.
 There was no bug, nor any lag.
 \l
@@ -249,7 +335,11 @@ There was no bug, nor any lag.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10121", 100>
 \\@TEXT_ID@<240>
 Neco_Arc
-No matter what path you take or what decision 
+/*-comment-
+どんな展開、どんな選択をしようと、
+貴様のシナリオには必ず、最後にアレが立ちはだかる。
+*/
+No matter what path you take, or what decision 
 you make, she is always going to block your path.
 \l
 
@@ -257,14 +347,22 @@ you make, she is always going to block your path.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10122", 100>
 \\@TEXT_ID@<250>
 Neco_Arc
-The wall you can never overcome. The absolute wall. 
-The wall of fate. In all ways, a wall!!
+/*-comment-
+貴様にとって超えられない壁。
+絶対の壁。運命の壁。とにかく壁。
+*/
+A wall you can never overcome. An absolute wall. 
+A wall of fate. In all ways, a wall!!
 \l
 
 \\@CHARA_IN@< 1, 19, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10123", 100>
 \\@TEXT_ID@<260>
 Neco_Arc
+/*-comment-
+有間都古が有間都古である以上、
+あの鬼妹にはどうあっても勝てないんだニャー。
+*/
 As long as you remain Miyako Arima, 
 there is no defeating that inhuman sister.
 
@@ -275,6 +373,10 @@ there is no defeating that inhuman sister.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10108", 100>
 \\@TEXT_ID@<270>
 Miyako
+/*-comment-
+そんな……じゃあ、お兄ちゃんは何をしても
+戻ってこないってコト？
+*/
 No way... Does that mean my brother 
 won't come back no matter what I do?
 
@@ -285,6 +387,10 @@ won't come back no matter what I do?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10124", 100>
 \\@TEXT_ID@<280>
 Neco_Arc
+/*-comment-
+うんにャ。
+勝てない、からＥＤがない、とはかぎらニャい。
+*/
 Well... Just because you can't win 
 doesn't mean there's no ending.
 \l
@@ -294,13 +400,20 @@ doesn't mean there's no ending.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10125", 100>
 \\@TEXT_ID@<290>
 Neco_Arc
+/*-comment-
+ある達人はこう言った。
+*/
 A master once said...
 
 \\@CHARA_IN@< 1, 19, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10126", 100>
 \\@TEXT_ID@<300>
 Neco_Arc
-“The most busted fighting tech is the ability 
+/*-comment-
+“もっともヤバみな格闘技とは、敵をグループに
+　誘ってしゅきぴを横取りするコトだ”と。
+*/
+“The most busted fighting game tech is the ability 
 　to draw your enemy close, then snatch their 
 　loved one away for yourself.”
 \l
@@ -310,6 +423,10 @@ Neco_Arc
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10127", 100>
 \\@TEXT_ID@<310>
 Neco_Arc
+/*-comment-
+あれ、違ったかニャ？
+まあいいや、だいたいあってる。
+*/
 Wait, that doesn't sound quite right...
 Oh well, close enough.
 \l
@@ -319,6 +436,10 @@ Oh well, close enough.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10128", 100>
 \\@TEXT_ID@<320>
 Neco_Arc
+/*-comment-
+すべてはここからなンだ、我がライバルよ。
+貴様は今日、絶対の敗北を知った。
+*/
 Everything starts here, my worthy rival.
 Today, you have experienced utter defeat.
 \l
@@ -328,6 +449,10 @@ Today, you have experienced utter defeat.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10129", 100>
 \\@TEXT_ID@<330>
 Neco_Arc
+/*-comment-
+次に目覚めた時、その悔しさがバネになって
+突進力の増したアナタがいます。
+*/
 When next you wake, this bitterness will 
 fuel you, propelling you to move forward.
 \l
@@ -336,6 +461,10 @@ fuel you, propelling you to move forward.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10130", 100>
 \\@TEXT_ID@<340>
 Neco_Arc
+/*-comment-
+どうかそのコトを忘れないでください。
+連敗にも意味はある。はい、復唱。
+*/
 Don't forget these words of wisdom. There is meaning in
 continued failure. Got that? Now say it back to me!
 
@@ -344,8 +473,12 @@ continued failure. Got that? Now say it back to me!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10109", 100>
 \\@TEXT_ID@<350>
 Miyako
-Wait, what...? Are you trying to say 
-that this bad end was't pointless?
+/*-comment-
+え、うえ……！？
+えっと、バッドエンドは無駄じゃない、みたいな？
+*/
+Wait, what...? Are you trying to say
+this bad end wasn't pointless?
 
 \\@CHARA_SET_PATTERN@<6, 5>
 \\@SYSTEM@<102>
@@ -354,6 +487,10 @@ that this bad end was't pointless?
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10131", 100>
 \\@TEXT_ID@<360>
 Neco_Arc
+/*-comment-
+ほほう、なかなか夢のある変換。
+その順応性は大器の証だニャー。
+*/
 Well, well, look at you. That adaptability of 
 yours just proves that you have great potential.
 \l
@@ -363,6 +500,10 @@ yours just proves that you have great potential.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10132", 100>
 \\@TEXT_ID@<370>
 Neco_Arc
+/*-comment-
+それじゃあ今回はこのヘンで。
+チャイナよ、次の挑戦の時までグッドキャッ―――
+*/
 I think that's about enough for this time.
 Until we meet again, China-girl. GOOD CA--
 \l
@@ -385,6 +526,10 @@ Until we meet again, China-girl. GOOD CA--
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10133", 100>
 \\@TEXT_ID@<380>
 Neco_Arc
+/*-comment-
+あれ？　おかしいな？
+視界が。斜めに。落ちて。いくよ？
+*/
 Huh? That's odd.
 Everything is... falling... diagonally...?
 
@@ -402,6 +547,10 @@ Everything is... falling... diagonally...?
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10044", 100>
 \\@TEXT_ID@<390>
 Shiki
+/*-comment-
+それはちょっと同意できないな。
+次に目覚めた時だって？　それこそ無責任だ。
+*/
 I don't quite agree with that... “When next you wake”? 
 Isn't that a bit irresponsible?
 \l
@@ -409,6 +558,10 @@ Isn't that a bit irresponsible?
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10045", 100>
 \\@TEXT_ID@<400>
 Shiki
+/*-comment-
+ここでならいくらでも失敗できる。
+そこをもっと評価しないと。
+*/
 Here, you can fail as much as you like.
 I think you ought to use that to the fullest.
 
@@ -418,6 +571,9 @@ I think you ought to use that to the fullest.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10110", 100>
 \\@TEXT_ID@<410>
 Miyako
+/*-comment-
+お兄ちゃん……？
+*/
 Shiki...?
 
 \\@CHARA_SET_PATTERN@<5, 23>
@@ -426,6 +582,10 @@ Shiki...?
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10046", 100>
 \\@TEXT_ID@<420>
 Shiki
+/*-comment-
+だからさ。ここでずっと、
+都古ちゃんは勝てない戦いをすればいい。
+*/
 So basically... you might as well keep 
 on fighting this unwinnable fight, forever.
 \l
@@ -433,6 +593,10 @@ on fighting this unwinnable fight, forever.
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10047", 100>
 \\@TEXT_ID@<430>
 Shiki
+/*-comment-
+オチはともかく、
+そこまでの過程はできているんだ。
+*/
 Even if the ending doesn't go your way.
 everything up until then you'll do just fine.
 \l
@@ -440,6 +604,10 @@ everything up until then you'll do just fine.
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10048", 100>
 \\@TEXT_ID@<440>
 Shiki
+/*-comment-
+現実はここまで楽しい話じゃないんだし。
+なら、目を覚ます必要はないだろう？
+*/
 Besides, reality isn't nearly as interesting as this
 place can be, so why would you need to wake up?
 \l
@@ -448,6 +616,10 @@ place can be, so why would you need to wake up?
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10049", 100>
 \\@TEXT_ID@<450>
 Shiki
+/*-comment-
+それでも“いやだ”というのなら仕方がない。
+お兄ちゃんとして、厳しめの教育をしよう。
+*/
 And if you still intend on going against me, 
 then I suppose your brother's just gonna have
 to teach you a lesson.
@@ -461,6 +633,10 @@ to teach you a lesson.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10111", 100>
 \\@TEXT_ID@<460>
 Miyako
+/*-comment-
+―――そっか。
+そういうコト、なんだ。
+*/
 You're right...
 I see it now.
 \l
@@ -469,6 +645,10 @@ I see it now.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10112", 100>
 \\@TEXT_ID@<470>
 Miyako
+/*-comment-
+そうだよね。勝てなかったから逃げ出します、じゃ
+カッコ悪いよね。
+*/
 Running from a bad situation just because I lost
 would be the definition of lame.
 \l
@@ -476,6 +656,9 @@ would be the definition of lame.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10113", 100>
 \\@TEXT_ID@<480>
 Miyako
+/*-comment-
+次に行くなら、ちゃんと成果を出さないと。
+*/
 I've got to keep trying until I produce results.
 \l
 
@@ -483,14 +666,22 @@ I've got to keep trying until I produce results.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10114", 100>
 \\@TEXT_ID@<490>
 Miyako
+/*-comment-
+確かにアキハは
+わたしにとって大理石みたいな壁だけど―――
+*/
 It's true that Akiha is like a giant 
-wall made of marble for me. But still...
+marble wall to me. But still...
 \l
 
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10115", 100>
 \\@TEXT_ID@<500>
 Miyako
+/*-comment-
+それよりもっと苦手で、やりづらくて、
+大好きなひとが、目の前にいるんだから。
+*/
 ...there's someone I find much harder to deal with,
 yet who I love so dearly right in front of me!
 
@@ -500,7 +691,11 @@ yet who I love so dearly right in front of me!
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10050", 100>
 \\@TEXT_ID@<510>
 Shiki
-It would seem I have inadvertently given you courage.
+/*-comment-
+あれ。まいったな、勇気与えちゃったぞ。
+……はあ。悪役ムーブ、ヘタクソだった？
+*/
+Ah, drats. It seems I ended up motivating you instead.
 I'm not very good at playing the villain, am I?
 
 \\@CHARA_SET_PATTERN@<4, 6>//miyako YES
@@ -510,8 +705,12 @@ I'm not very good at playing the villain, am I?
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10116", 100>
 \\@TEXT_ID@<520>
 Miyako
+/*-comment-
+ううん、すっごくそれっぽかった！
+都古のお兄ちゃんは、きっすいの鬼畜眼鏡だーー！
+*/
 No, you did great! You were born to play
-the role of a soulless character with glasses!
+the role of a typical villain with glasses!
 
 
 \\@CHARA_IN@< 2, 3, 108, 0, 20>

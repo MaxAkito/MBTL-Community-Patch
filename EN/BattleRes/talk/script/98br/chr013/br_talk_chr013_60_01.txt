@@ -27,6 +27,10 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10030", 100>
 \\@TEXT_ID@<10>
 Miyako
+/*-comment-
+しし、死ぬかと思ったーーー！
+はじめからトンデモないのが出てきたんだけど！
+*/
 I thought I was done for! 
 Why's it gotta be so hard right from the start?!
 \l
@@ -35,6 +39,10 @@ Why's it gotta be so hard right from the start?!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10031", 100>
 \\@TEXT_ID@<20>
 Miyako
+/*-comment-
+初日からあんなのに襲われるのが
+わたしのヒロインルートなの！？
+*/
 It's only the first day and that thing is what comes 
 attacking me! Is this really MY route?!
 \l
@@ -42,6 +50,10 @@ attacking me! Is this really MY route?!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10032", 100>
 \\@TEXT_ID@<30>
 Miyako
+/*-comment-
+いっかいの小学生に
+かいけつできる事件じゃないんですけどぉ！
+*/
 That's not something a grade-schooler like 
 me should be able to handle on their own!
 
@@ -55,6 +67,10 @@ me should be able to handle on their own!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10050", 100>
 \\@TEXT_ID@<40>
 Neco_Arc
+/*-comment-
+うん、アタシもそう思う。
+でも月姫ってそういうお話なんだよニャー。
+*/
 You know, I was just thinking the same.
 Unfortunately, Tsukihime is just that kind of story.
 \l
@@ -63,6 +79,10 @@ Unfortunately, Tsukihime is just that kind of story.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10051", 100>
 \\@TEXT_ID@<50>
 Neco_Arc
+/*-comment-
+とはいえ、よく初戦の無理ゲーを突破しました。
+アタシはいま、エモ知れぬ感動に包まれています。
+*/
 That said, good job beating the first part of this unfair 
 game. I'm really being subsumed by the feelz right now.
 
@@ -72,6 +92,10 @@ game. I'm really being subsumed by the feelz right now.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10052", 100>
 \\@TEXT_ID@<60>
 Neco_Arc
+/*-comment-
+胸を張るのです、カンフーチャイナ。
+ｙｏｕは自らの手で、運命と戦う権利を手に入れた……！
+*/
 Stand tall, kung fu China-girl! Y・O・U have just claimed 
 the right to overturn your fate through your own power!
 
@@ -82,8 +106,12 @@ the right to overturn your fate through your own power!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10033", 100>
 \\@TEXT_ID@<70>
 Miyako
+/*-comment-
+！
+バ、バカネコ……！
+*/
 ...!
-This dumb cat actually cares...
+This dumb cat actually cares...!
 
 \\@CHARA_SET_PATTERN@<5, 5>//neco
 \\@SYSTEM@<102>
@@ -91,8 +119,12 @@ This dumb cat actually cares...
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10053", 100>
 \\@TEXT_ID@<80>
 Neco_Arc
+/*-comment-
+いい話ですか？　いい話ですよね。
+実際、ボランティアでここまではしねーっつーの。
+*/
 Oh, does it not move your heart? Of course it does...
-A volunteer wouldn't have stuck around this long to help!
+The regular ol' volunteer wouldn't have stuck around this long.
 \l
 
 \\@CHARA_SET_PATTERN@<5, 0>//neco
@@ -100,8 +132,12 @@ A volunteer wouldn't have stuck around this long to help!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10054", 100>
 \\@TEXT_ID@<90>
 Neco_Arc
-Now then, the real Miyako Route starts now so I 
-will be returning to my behind-the-scenes work.
+/*-comment-
+さて。ここからが本当の『都古ルート』に
+なりますので、アタシは裏方に戻ります。
+*/
+Alrighty, the real Miyako Route starts now,
+so I'll be returning to my behind-the-scenes work from here.
 \l
 
 \\@CHARA_SET_PATTERN@<5, 35>//neco
@@ -109,6 +145,10 @@ will be returning to my behind-the-scenes work.
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10055", 100>
 \\@TEXT_ID@<100>
 Neco_Arc
+/*-comment-
+いったいどんな物語が展開されるのか―――
+運命はいつも待ったなし、戦え少年少女！
+*/
 I can't wait to see how this story unfolds! Destiny 
 waits for no-one! Keep on fighting, boys and girls!
 \l
@@ -118,12 +158,19 @@ waits for no-one! Keep on fighting, boys and girls!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10056", 100>
 \\@TEXT_ID@<110>
 Neco_Arc
+/*-comment-
+次回、都古ルート３日目。
+*/
 Next time： Miyako Route - Day 3.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10057", 100>
 \\@TEXT_ID@<120>
 Neco_Arc
+/*-comment-
+『正体不明、黒幕に雇われた暗殺者！
+　お兄ちゃん、その担任教師サバよんでる！』
+*/
 “The Unknowable Assassin Who Has Been Hired By 
  The Main Villain! Shiki! Your homeroom teacher
  isn't actually as young as she says!”
@@ -132,6 +179,9 @@ Neco_Arc
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10058", 100>
 \\@TEXT_ID@<130>
 Neco_Arc
+/*-comment-
+にご期待ください！
+*/
 See you soon!
 
 \\@BGM_FADE@<0,100,0,-3,1>

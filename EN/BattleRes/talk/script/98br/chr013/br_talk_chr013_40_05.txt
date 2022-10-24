@@ -29,6 +29,10 @@
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10000", 100>
 \\@TEXT_ID@<10>
 Red_Arcueid@Red_Arcueid_Hatena
+/*-comment-
+はいストップ。
+それ以上進むと芥子粒になるわよ、学生さん。
+*/
 Stop right there, little girl.
 Come any closer and I'll atomize you.
 
@@ -37,6 +41,9 @@ Come any closer and I'll atomize you.
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10030", 100>
 \\@TEXT_ID@<20>
 Shiki
+/*-comment-
+っ！　今の声は―――
+*/
 Wha--?! That voice!
 
 \\@CHARA_SET_PATTERN@<4, 3>//miyako 驚き
@@ -45,6 +52,9 @@ Wha--?! That voice!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10070", 100>
 \\@TEXT_ID@<30>
 Miyako
+/*-comment-
+って、向こうから津波みたいのが迫ってきてるー！？
+*/
 What's that?! It looks like a tsunami is headed this way!
 
 \\@SQ_CALL@<1>
@@ -75,6 +85,9 @@ What's that?! It looks like a tsunami is headed this way!
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10090", 100>
 \\@TEXT_ID@<40>
 Neco_Arc
+/*-comment-
+～これまでのあらすじ～
+*/
 The story so far!!
 
 
@@ -86,6 +99,9 @@ The story so far!!
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10001", 100>
 \\@TEXT_ID@<50>
 Red_Arcueid
+/*-comment-
+そういうのいいから。
+*/
 Who cares about the story so far!
 
 \\@SQ_CALL@<2>
@@ -126,6 +142,9 @@ Who cares about the story so far!
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10031", 100>
 \\@TEXT_ID@<60>
 Shiki
+/*-comment-
+あわわわわ……。
+*/
 Uh-oh!
 
 \\@CHARA_IN@< 0, 13, 10, 0, 1>
@@ -133,6 +152,9 @@ Uh-oh!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10071", 100>
 \\@TEXT_ID@<70>
 Miyako
+/*-comment-
+あわわわわ……。
+*/
 Uh-oh!
 
 \\@CHARA_SET_PATTERN@<6, 10>
@@ -141,6 +163,10 @@ Uh-oh!
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10002", 100>
 \\@TEXT_ID@<80>
 Red_Arcueid
+/*-comment-
+あら。どうしたの、お兄ちゃん？
+いつもの『あぶない都古ちゃん！』はナシ？
+*/
 What's wrong? Not gonna do the whole "Watch out, Miyako" 
 routine for your dear sister this round?
 \l
@@ -149,6 +175,9 @@ routine for your dear sister this round?
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10003", 100>
 \\@TEXT_ID@<90>
 Red_Arcueid
+/*-comment-
+私、あの導入気に入ってたんだけどなー。
+*/
 I kinda liked that little intro myself, you know.
 \l
 
@@ -156,6 +185,10 @@ I kinda liked that little intro myself, you know.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10004", 100>
 \\@TEXT_ID@<100>
 Red_Arcueid
+/*-comment-
+目の前で聞けると思って、
+張り切って衝撃波とか出してみたのに。
+*/
 I was hoping you'd let me hear it for myself. That's 
 why I went to the trouble of making that shockwave.
 \l
@@ -164,6 +197,10 @@ why I went to the trouble of making that shockwave.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10005", 100>
 \\@TEXT_ID@<110>
 Red_Arcueid
+/*-comment-
+二人とも顔を真っ青にして立ちすくんじゃって、
+つまんない。
+*/
 You're both just standing there, faces frozen in fear.
 Boooring.
 \l
@@ -172,6 +209,10 @@ Boooring.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10006", 100>
 \\@TEXT_ID@<120>
 Red_Arcueid
+/*-comment-
+私がここにいるの、そんなに意外だった？
+それとも―――もう出てこない、なんて油断してた？
+*/
 Is it really that odd to see me here? Oh wait, maybe
 you stupidly thought I wouldn't show up again, huh?
 
@@ -181,6 +222,10 @@ you stupidly thought I wouldn't show up again, huh?
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10032", 100>
 \\@TEXT_ID@<130>
 Shiki
+/*-comment-
+（意外というか論外と言いたい。言い返したい。
+　……でも、確かに油断していたな……）
+*/
 (Odd? I want to tell her it should be impossible,
  but she's right, that really was a bit stupid of me.)
 \l
@@ -189,6 +234,10 @@ Shiki
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10033", 100>
 \\@TEXT_ID@<140>
 Shiki
+/*-comment-
+（ここは遠野邸。頑張ってるのは都古ちゃん。
+　なら、ラスボスはどう考えてもうちの《当主＜アレ＞）
+*/
 (This is the Tohno mansion. Miyako is the one fighting.
  Anybody'd assume the last boss to be you know, HER.)
 \l
@@ -198,6 +247,10 @@ Shiki
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10034", 100>
 \\@TEXT_ID@<150>
 Shiki
+/*-comment-
+（普通なら空気読んで引っ込んでるもんだけど……
+　そもそもフツーじゃないもんな、アイツ！）
+*/
 (Normally you'd take a hint and stay out of the way. 
  But this crazy woman is anything but normal!)
 
@@ -208,6 +261,10 @@ Shiki
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10007", 100>
 \\@TEXT_ID@<160>
 Red_Arcueid
+/*-comment-
+ええ、そういうコト。
+本当ならチュートリアルで満足するんだろうけど―――
+*/
 I see you're starting to get it. Under normal 
 circumstances, I'd be satisfied with just being
 a tutorial but...
@@ -217,6 +274,10 @@ a tutorial but...
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10008", 100>
 \\@TEXT_ID@<170>
 Red_Arcueid
+/*-comment-
+思いのほか、楽しかったし悔しかったから？
+今度はこっちの芸風で？　遊んでみようかなって。
+*/
 It proved unexpectedly fun, but also a bit 
 disappointing, I guess? So this time I thought 
 I'd play with you in this outfit.
@@ -225,6 +286,10 @@ I'd play with you in this outfit.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10009", 100>
 \\@TEXT_ID@<180>
 Red_Arcueid
+/*-comment-
+筋書きの決まった物語じゃつまらない。
+意味のないアクシデントも必要でしょう？
+*/
 I get bored when the story is too easy to figure out
 anyway. Sometimes you need some forced drama, right?
 
@@ -234,6 +299,10 @@ anyway. Sometimes you need some forced drama, right?
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10072", 100>
 \\@TEXT_ID@<190>
 Miyako
+/*-comment-
+あわわわ……
+ムリムリ、ぜったいムリ！
+*/
 No-no-no!
 I can't do this! No way!
 \l
@@ -242,6 +311,10 @@ I can't do this! No way!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10073", 100>
 \\@TEXT_ID@<200>
 Miyako
+/*-comment-
+逃げよう、お兄ちゃん！
+もう一回あの人に勝つビジョンが浮かばないもん！
+*/
 Let's get out of here, Shiki! 
 I honestly can't see myself defeating her again!
 
@@ -256,6 +329,10 @@ I honestly can't see myself defeating her again!
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10035", 100>
 \\@TEXT_ID@<210>
 Shiki
+/*-comment-
+…………まあ。
+その意見には、俺も頷きたい。
+*/
 Well...
 I suppose I can't fault you for that...
 \l
@@ -264,6 +341,10 @@ I suppose I can't fault you for that...
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10036", 100>
 \\@TEXT_ID@<220>
 Shiki
+/*-comment-
+他の相手ならともかく、アイツだと俺も勝ち目がないし。
+おもに罪悪感的な理由で。
+*/
 If it were anybody else, then maybe. 
 But even I can't handle this one... 
 Mostly because I still feel a bit bad, but...
@@ -273,8 +354,12 @@ Mostly because I still feel a bit bad, but...
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10037", 100>
 \\@TEXT_ID@<230>
 Shiki
-Are you sure you want to run? That would mean
-giving up on being the main heroine, you know?
+/*-comment-
+でもいいのかな。ここで逃げるという事は、
+主役である事から逃げるという事だ。
+*/
+But are you sure you want to run away? That would
+mean giving up on being the main heroine, you know?
 \l
 
 \\@CHARA_IN@< 2, 3, 4, 0, 1>
@@ -282,6 +367,10 @@ giving up on being the main heroine, you know?
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10038", 100>
 \\@TEXT_ID@<240>
 Shiki
+/*-comment-
+それはちょっと勿体ないよ。
+キミはここまで、《運命＜それ＞と戦う為にやってきたのに。
+*/
 Seems like kind of a waste. I mean you've already 
 come this far in your battle against destiny.
 
@@ -291,6 +380,10 @@ come this far in your battle against destiny.
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10074", 100>
 \\@TEXT_ID@<250>
 Miyako
+/*-comment-
+―――そうだった。
+うん、そうでした……！
+*/
 Ugh! You're right!
 I nearly forgot!
 \l
@@ -300,6 +393,10 @@ I nearly forgot!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10075", 100>
 \\@TEXT_ID@<260>
 Miyako
+/*-comment-
+わたしがやっつけるのはあの人じゃなくて、
+自分の臆病さ、だもんね！
+*/
 She's not the real enemy! 
 I'm here to defeat my own cowardice!
 \l
@@ -310,6 +407,10 @@ I'm here to defeat my own cowardice!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10076", 100>
 \\@TEXT_ID@<270>
 Miyako
+/*-comment-
+さっすがお兄ちゃん！
+気合い、いただきましたっ！
+*/
 You always know just what to say, Shiki!
 Thanks for the motivation!
 \l
@@ -319,6 +420,10 @@ Thanks for the motivation!
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10077", 100>
 \\@TEXT_ID@<280>
 Miyako
+/*-comment-
+いくぞっ、わたしの最大の敵！
+できるだけ、おてやわらかにお願いします！
+*/
 My greatest foe! Here I come! 
 But... please try to go easy on me!
 
@@ -329,6 +434,10 @@ But... please try to go easy on me!
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10010", 100>
 \\@TEXT_ID@<290>
 Red_Arcueid
+/*-comment-
+そうそう、それでこそよ。
+ジャイアントキリングをする側はそうでなくっちゃ。
+*/
 Now that's more like it! 
 Bravery is what you'll need going up against Goliath.
 \l
@@ -337,6 +446,10 @@ Bravery is what you'll need going up against Goliath.
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa_10011", 100>
 \\@TEXT_ID@<300>
 Red_Arcueid
+/*-comment-
+どのくらい動けるようになったか、
+残酷に確かめてあげる！
+*/
 I suppose I'll just have to see for myself how much
 you've improved. As cruelly as I can, of course!
 

@@ -18,6 +18,8 @@ Navigate
 アンサモンプログラム　スタート。
 霊子変換を開始　します。
 */
+Unsummon Program, start.
+Commencing spiritron conversion.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0001", 100>
@@ -26,6 +28,8 @@ Navigate
 /*-comment-
 レイシフト開始まで　あと３、２、１……
 */
+Rayshift commencing in...
+3... 2... 1...
 \l
 
 \\@FADE_IN@<2, 128, 0, 0, 0>
@@ -38,6 +42,8 @@ Navigate
 工程に問題発生。
 時空連続体に理解困難の不具合　発生。
 */
+Operational problem, detected.
+Inexplicable spacetime continuum malfunction, detected.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0003", 100>
@@ -47,6 +53,8 @@ Navigate
 グランドオーダー　実証　停止。
 レイシフト　ルート構築　は　継続します。
 */
+Grand Order verification, halted
+Resuming Rayshift route formulation.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0004", 100>
@@ -56,6 +64,8 @@ Navigate
 コフィン内のパイロットの安全を最優先。
 強制排出をロック。
 */
+Ensuring the safety of pilot within coffin.
+Forced ejection, locked.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0005", 100>
@@ -65,6 +75,7 @@ Navigate
 パイロットの　自主的な帰還を
 期待　します。
 */
+We are expecting the pilot return by their own devices.
 
 \\@SE_STOP@<1>//SE停止 アラート
 
@@ -107,6 +118,8 @@ Hisui
 このあたり、でしょうか。
 先ほど大きな落下音がしたのは。
 */
+Was it around here, perhaps?
+I heard a noise of something crashing just now.
 \l
 
 \\@CHARA_IN@< 1, 1, 2, 0, 1>
@@ -116,6 +129,8 @@ Hisui
 /*-comment-
 また姉さんが掃除と称して、
 */
+What happened was probably that Kohaku was 
+pretending to be cleaning again, when...
 
 
 \\@CHARA_IN@< 1, 4, 100, 0, 1>
@@ -126,6 +141,8 @@ Kohaku
 『たまには外で埃をとってあげませんと。
 　はーい、キレイになりましょうね～～～\sf000』
 */
+"Sometimes it doesn't hurt to do some dusting outside.
+ Okie-dokies, let's get you all clean and pretty now \sf000"
 \l
 
 
@@ -137,7 +154,8 @@ Kohaku
 『ほうほう。これはとってもお高い伊万里焼きの壺。
 　あ。いっけない、手が滑りました☆』
 */
-
+"My, oh my. Look at that super expensive Imari porcelain vase.
+ Oh, whoops, there goes my clumsy hands again ☆"
 
 \\@CHARA_IN@< 1, 1, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0102", 100>
@@ -147,6 +165,8 @@ Hisui
 と、槙久様の《骨董品＜コレクション＞を窓から
 落としてしまったのでしょうが……
 */
+...and so dropped one of Master Makihisa's 
+collection antiques out the window.
 
 \\@NPC_LOAD_SYNC@<4, 20, -320, 0, 0>
 \\@CHARA_SET_MVNAME@<4, "FadeIn">
@@ -160,7 +180,10 @@ Hisui
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0140", 100>
 \\@TEXT_ID@<120>
 Mash
+/*-comment-
 …………
+*/
+...
 
 \\@CHARA_SET_PATTERN@<5, 5>//怯え
 
@@ -174,6 +197,8 @@ Hisui
 ……！　泥棒……ううん、迷子……？
 いえ、それより傷を診ないと……！
 */
+Wha-! A thief? No... someone who got lost?
+Nevermind that, I need to examine their injuries first!
 \l
 
 \\@CHARA_IN@< 1, 1, 0, 0, 1>
@@ -184,6 +209,8 @@ Hisui
 姉さん、緊急事態です！
 至急、西館横の庭までお願いします！
 */
+Kohaku, we have an emergency!
+Please make yourself to the garden beside the west wing, post haste!
 
 \\@BGM_FADE@<0, 100, 0, -2, 1>
 \\@CHARA_FOCUS_COLOR@< -1, 1>
@@ -230,6 +257,7 @@ Kohaku
 /*-comment-
 安心して、翡翠ちゃん。
 */
+Don't worry, Hisui.
 \l
 
 
@@ -240,6 +268,8 @@ Kohaku
 確かに高級そうな西洋甲冑ですが、
 これは当家にはなかったものかと。
 */
+That does indeed look like some expensive knight's armor,
+but it's not ours, so she didn't steal it.
 
 \\@CHARA_IN@< 1, 1, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0105", 100>
@@ -249,6 +279,8 @@ Hisui
 姉さん、そうではなく。
 甲冑はどうでもいいので、この方の怪我を診てください。
 */
+Kohaku, that's not the point.
+The armor doesn't matter, please look to this person's injuries.
 
 \\@CHARA_IN@< 3, 4, 105, 0, 1>
 \\@CHARA_FACE@<3,105,100,147>
@@ -259,6 +291,8 @@ Kohaku
 あ、そっちです？
 擦り傷も打ち身もないし、健康そのものよ。
 */
+Oh, that?
+No scratches nor bruises, as healthy as can be.
 \l
 
 \\@CHARA_IN@< 3, 4, 101, 0, 1>
@@ -269,6 +303,8 @@ Kohaku
 ちょっとお腹が減っていて元気が出ないかな？
 くらいの状態かと。
 */
+Maybe they're feeling a bit down on account of their empty stomach?
+Nothing particularly bad.
 
 \\@CHARA_IN@< 0, 20, 213, 1, 0>
 \aw
@@ -284,6 +320,7 @@ Mash
 /*-comment-
 ぁ―――
 */
+Hm...
 
 \\@CHARA_SET_PATTERN@<4, 18>//困惑
 \\@CHARA_IN@< 0, 20, 208, 0, 1>
@@ -294,6 +331,8 @@ Mash
 ここは……いったい……
 あの……あなたたちは？
 */
+Where... is this?
+And.. who are you two?
 
 
 \\@SYSTEM@<102>
@@ -305,6 +344,8 @@ Kohaku
 おや。目を覚まされましたね。
 おはようございます、見知らぬ方。
 */
+Oh my. Awake, are we?
+Good morning to you, stranger.
 \l
 
 \\@CHARA_IN@< 3, 4, 101, 0, 1>
@@ -314,6 +355,7 @@ Kohaku
 /*-comment-
 わたしどもはここ遠野邸の使用人です。
 */
+The two of use are servants here at Tohno estate.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0138", 100>
@@ -323,6 +365,8 @@ Kohaku
 こちらの翡翠ちゃんが庭で倒れている貴女を
 見つけて、今まで看病していました。
 */
+Hisui over here found you out cold in the garden,
+and has been looking after you since.
 \l
 
 \\@CHARA_SET_PATTERN@<4, 202>//お辞儀
@@ -336,6 +380,8 @@ Mash
 それは……ありがとうございます。
 翡翠さん、と仰るのですね。
 */
+Oh... thank you very much.
+Hisui, was it?
 
 \\@SYSTEM@<102>
 
@@ -347,6 +393,8 @@ Hisui
 無理はなさらず。
 まだ横になっていてください。
 */
+You can take it easy.
+Feel free to rest some more.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0107", 100>
@@ -356,6 +404,8 @@ Hisui
 私は翡翠、こちらの使用人は琥珀と申します。
 以後、名前でお呼びいただければ。
 */
+I'm called Hisui, and this servant over here is Kohaku.
+Feel free to address us as such henceforth.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0108", 100>
@@ -365,6 +415,8 @@ Hisui
 何か事情がおありのようですが……
 ご自分の名前は言えますか？
 */
+You appear to be in some kind of predicament.
+Do you remember what your name is?
 
 \\@CHARA_SET_PATTERN@<4, 201>//にっこり待機
 \\@SYSTEM@<101>
@@ -376,6 +428,8 @@ Mash
 はい。わたしはマシュ・キリエライト。
 人理保障機関カルデアの……
 */
+Yes. I'm called Mash Kyrielight.
+I work for the Human Order Security Organization Chaldea as a...
 \l
 
 \\@CHARA_SET_PATTERN@<4, 219>//困惑
@@ -387,6 +441,8 @@ Mash
 ……すみません。一般の方にカルデアの職務を
 お伝えする事はできないのでした……。
 */
+Oh... I apologize. I'm not at liberty to discuss
+the particulars of my duties to civilians. 
 \l
 
 
@@ -398,6 +454,8 @@ Mash
 ……ごめんなさい。危ないところを助けて
 いただいたのに、何もお返しできなくて……
 */
+I'm sorry. I appreciate you saving me when I was
+in danger, but I have nothing to give for it.
 
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 1, -1, 0, 1>
@@ -408,6 +466,8 @@ Hisui
 その必要はありません。
 幸い、当家は経済的に恵まれています。
 */
+Fortunately, there is no need to, either.
+The Tohno family is not lacking in wealth.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0110", 100>
@@ -417,6 +477,8 @@ Hisui
 傷ついた方を助けるのは当然のこと。
 当然のことに、お礼をいただく事はできません。
 */
+Helping someone who's been injured is only natural.
+We could not possibly accept a reward for that.
 
 \\@CHARA_SET_PATTERN@<4, 217>//はにかみ待機
 \\@SYSTEM@<101>
@@ -426,7 +488,8 @@ Hisui
 Mash
 /*-comment-
 翡翠さん―――
-
+*/
+Miss Hisui...
 
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 1, -1, 0, 1>
@@ -437,6 +500,8 @@ Hisui
 どうぞ翡翠、と。
 他に何かありましたら遠慮なくお尋ねください。
 */
+Just Hisui, please.
+If you need something else, feel free to ask.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0112", 100>
@@ -446,6 +511,8 @@ Hisui
 わたくしどもはしがない使用人ですが、
 情報だけはよく集めております。
 */
+The two of us are but a pair of humble servants,
+but we've at least made sure to stay highly informed.
 \l
 
 \\@CHARA_IN@< 1, 1, 101, 0, 1>
@@ -456,6 +523,8 @@ Hisui
 おもに、そこの姉さんが。
 あまり自慢できない方法で。
 */
+Particularly Kohaku over here.
+Usually through some rather unscrupulous methods, too.
 
 \\@CHARA_SET_PATTERN@<6, 5>//内緒
 \\@CHARA_IN@< 3, 4, 100, 0, 1>
@@ -465,6 +534,7 @@ Kohaku
 /*-comment-
 てへ☆
 */
+Whoopsies ☆
 
 \\@CHARA_SET_PATTERN@<6, 17>//内緒戻り
 
@@ -478,6 +548,8 @@ Mash
 そ、そうなのですか？
 では、街の名前と年代を教えていただけますか？
 */
+O-Oh, really now?
+Then, would you be so kind as to tell me what city, and what era I find myself in?
 \l
 
 
@@ -487,6 +559,7 @@ Mash
 /*-comment-
 わたしは特異点……じゃなくて、えっと……
 */
+I'm here for the singularit-- I mean, um...
 \l
 
 \\@CHARA_SET_PATTERN@<4, 221>//むんっ！
@@ -499,6 +572,8 @@ Mash
 そう！　普通ではありえない、街の異常を
 解決するために派遣されたエージェント！　なので！
 */
+Right! I'm an agent here to solve the unnatural
+happenings going on in the city! Obviously!
 \l
 
 
@@ -511,6 +586,8 @@ Mash
 （カルデアの職務は明かせませんが、
 　これなら問題はないハズです！）
 */
+(I can't divulge the details of my duties at Chaldea,
+ but with this explanation, that won't be a problem anymore!)
 
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 3, 4, 104, 0, 1>
@@ -522,6 +599,8 @@ Kohaku
 なんと！　では、貴女が
 郵便受けに入っているいつもの《チラシ＜アレ＞、
 */
+Dear me! So that means those fliers always stuffed
+into the mailbox are yours!
 \l
 
 \\@CHARA_IN@< 3, 4, 103, 0, 1>
@@ -532,6 +611,8 @@ Kohaku
 『異端まわりの問題、お任せください！
 　オプションでトイレ・お風呂問題も即解決！』
 */
+"Have you got heresy problems? Call now! Satisfaction guaranteed!
+ Pay extra, and we'll provide plumbing services too!"
 \l
 
 \\@CHARA_IN@< 3, 4, 104, 0, 1>
@@ -541,6 +622,7 @@ Kohaku
 /*-comment-
 の方なのですね！
 */
+That's you, isn't it?
 \l
 
 \\@CHARA_IN@< 3, 4, 101, 0, 1>
@@ -551,6 +633,9 @@ Kohaku
 どんな方がいらっしゃるのかなー、と
 面白がって申し込んだ甲斐がありました！
 */
+I was so curious about what kind of person they could be,
+I couldn't resist calling to find out. And happy that I did!
+
 
 \\@CHARA_SET_PATTERN@<5, 48>//振り向き
 \\@CHARA_IN@< 1, 1, 107, 0, 1>
@@ -561,6 +646,9 @@ Hisui
 ―――姉さん。またそんな無駄遣いをして。
 秋葉さまをあまり怒らせるのは……
 */
+Kohaku, you need to stop wasting money like that.
+If you upset Akiha too much, she'll--
+
 
 \\@CHARA_SET_PATTERN@<6, 5>//内緒
 \\@CHARA_IN@< 3, 4, 109, 0, 1>
@@ -570,6 +658,7 @@ Kohaku
 /*-comment-
 結果よければすべて良しよ、翡翠ちゃん！
 */
+All well that ends well, Hisui!
 \l
 
 
@@ -581,6 +670,8 @@ Kohaku
 少なくとも、これで志貴さんがやんちゃをする
 必要はなくなったのですもの！
 */
+At the very least, this means Shiki doesn't have to
+go on his nightly rendezvous anymore.
 
 \\@CHARA_SET_PATTERN@<6, 17>//内緒戻り
 
@@ -592,6 +683,8 @@ Hisui
 ……それは確かに。
 危険な仕事であれば、専門職の方にお任せするべきです。
 */
+You bring up a good point...
+We ought to leave the dangerous work to professionals.
 
 \\@CHARA_SET_PATTERN@<5, 48>//振り向き
 
@@ -605,6 +698,8 @@ Mash
 ……危険な仕事、なのですね？
 それでしたら力になれるかと。
 */
+Dangerous work? Is that right?
+In that case, I believe I could be of help.
 \l
 
 \\@CHARA_IN@< 0, 20, 214, 0, 1>
@@ -614,6 +709,7 @@ Mash
 /*-comment-
 詳しい話を聞かせていただけますか？
 */
+May I be privy to the details?
 
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 3, 4, 101, 0, 1>
@@ -624,6 +720,9 @@ Kohaku
 はい。この街はふたりの吸血鬼に
 平和を脅かされているのです。
 */
+Of course. Two vampires are threatening to disrupt the
+peace in our city.
+
 \l
 
 
@@ -636,6 +735,8 @@ Kohaku
 制限速度を守らない。公序良俗も眼中なし。
 深夜に鐘を鳴らしては人々を洗脳する……
 */
+They don't keep to the speed limit. They have no regard for public decency.
+They keep ringing these bells late at night and brainwashing people...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0148", 100>
@@ -645,6 +746,7 @@ Kohaku
 今の総耶の夜は、
 さながら魔女狩りの夜のようです。
 */
+Right now, Souya's nights are practically like those of the witch hunts.
 \l
 
 \\@CHARA_SET_PATTERN@<6, 9>//kohaku
@@ -657,6 +759,8 @@ Kohaku
 これでは当家の名声も地に落ちるというもの。
 お力、お貸しくださいますか？
 */
+If this goes on, the reputation of our house will fall into the gutter.
+Would you be so kind as to offer us your help?
 
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 20, 203, 0, 1>
@@ -667,6 +771,7 @@ Mash
 /*-comment-
 もちろんです、ミス・琥珀。
 */
+Of course, Miss Kohaku.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0155", 100>
 \\@TEXT_ID@<580>
@@ -675,6 +780,8 @@ Mash
 人理を守る《英霊＜もの＞として、なにより、
 おふたりの優しさに助けられた《人間＜もの＞として、
 */
+Not only I am a Heroic Spirit, guardian of human order,
+but I'm also someone you saved out of nothing but the kindness of your heart...
 \l
 
 \\@CHARA_SET_PATTERN@<4, 22>//決めポーズ
@@ -686,6 +793,8 @@ Mash
 マシュ・キリエライト！
 なんちゃって吸血鬼ハンターとして出撃です！
 */
+Mash Kyrielight, on duty!
+Now as a knock-off vampire hunter!
 
 \\@CHARA_SET_PATTERN@<6, 11>//kohaku
 \\@SYSTEM@<102>
@@ -697,6 +806,8 @@ Hisui
 マシュ様……姉さんの口車に乗っているのを
 承知の上で依頼を受けてくださるのですね。
 */
+Lady Mash... You're accepting this request, even while 
+fully aware you're just playing into Kohaku's hands. Very well.
 \l
 
 \\@CHARA_IN@< 1, 1, 105, 0, 1>
@@ -707,6 +818,8 @@ Hisui
 では、わたしどもも
 できうるかぎりの誠意をお見せしなくては。
 */
+In that case, the two of us ought to show how
+serious we are about this too.
 \l
 
 
@@ -717,7 +830,8 @@ Hisui
 マシュ様に戦い抜く力があるかどうか。
 僭越ながら、確認させていただきます……！
 */
-
+Do you have the strength to make it through this battle, Lady Mash?
+I mean no offense, but you'll have to be so kind as to let us find out ourselves!
 
 \\@BGM_STOP@<0>
 \e

@@ -24,6 +24,8 @@ Mash
 シバの観測機能が《停止＜ビジー＞している……？
 おそらく、ここは現実空間ではありません。
 */
+SHEBA's observer functions have halted? 
+That probably means this place isn't part of reality.
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0161", 100>
@@ -33,6 +35,8 @@ Mash
 世界から隔絶された空間。
 未来も過去も曖昧な泡沫状態―――
 */
+This space is isolated from the rest of the world.
+Both future and past is in an unclear, evanescent state.
 \l
 
 \\@CHARA_IN@< 0, 20, 216, 0, 1>
@@ -43,6 +47,8 @@ Mash
 『固有結界』……
 でも、魔術が働いている反応はないのに……？
 */
+A "Reality Marble"...
+And yet, I cannot detect the activity of any magecraft.
 
 \\@NPC_LOAD_SYNC@<7, 90, 260, 0, 1>//カメラ位置調整のための透明ダミー
 
@@ -62,6 +68,8 @@ Dead_Noel
 なぁに、新しいお客さま？
 見たコトない顔だけど……
 */
+What now... a new visitor?
+Haven't seen you before.
 \l
 
 
@@ -72,6 +80,8 @@ Dead_Noel
 魔術云々の話をしているなら、
 油断しちゃイケナイ相手ってコトよね？
 */
+All that talk about magecraft or whatever has gotta mean
+you're an opponent I shouldn't underestimate too much, right?
 \l
 
 \\@CHARA_IN@< 1, 14, 10, 0, 1>
@@ -82,6 +92,8 @@ Dead_Noel
 いいわ、普通の《人間＜ゆめ＞を摘まむのも
 退屈していたところよ。
 */
+Fine by me, I was getting bored with snacking on
+the dreams of normal humans anyway.
 \l
 
 
@@ -93,6 +105,8 @@ Dead_Noel
 ようこそ、起きたまま見る悪夢の世界へ。
 現実という悪夢から目を覚まさせてあげる。
 */
+Welcome, to world of waking nightmares.
+I'll help you out in awakening from the nightmare of reality.
 
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 20, 214, 0, 1>
@@ -103,6 +117,8 @@ Mash
 ！　貴女が街に巣くった吸血鬼、ですね。
 一見して少女の風貌ですが……
 */
+Oh! You must be one of the vampires nesting in the city. I see.
+You appear to be just a young girl on the outside, but...
 \l
 
 
@@ -113,6 +129,8 @@ Mash
 魔力反応は人間を超越しています。
 魔獣、幻獣クラスの脅威と判断しました。
 */
+Your magical energy readings transcend those of a human's.
+I'd deem you are threat on par with a demonic, or phantasmal beast.
 \l
 
 \\@CHARA_IN@< 0, 20, 203, 0, 1>
@@ -123,6 +141,8 @@ Mash
 人々を餌食にする災害なら容赦はしません。
 先輩の故郷に、アナタたちは不要です！
 */
+I show no mercy toward calamities who would prey upon humanity.
+You monsters have no place here in my Master's homeland!
 
 
 \\@CHARA_SET_PATTERN@<5, 15>//見下し→立ち
@@ -135,6 +155,8 @@ Dead_Noel
 は、この国に恋人でもいるのアナタ？
 そうなんだ、そうなんだー！
 */
+Hah! Are you telling me your lover's from this country?
+But of course he is, of cooourse he is!
 \l
 
 
@@ -147,6 +169,8 @@ Dead_Noel
 ならソイツもちゃーんと殺してあげる！
 やっぱり恋人はセットじゃなきゃ！
 */
+Why don't I kill him too, then?
+Lovers are a 2-in-1 deal, after all!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0066", 100>
@@ -156,6 +180,9 @@ Dead_Noel
 だって、その方が盛り上がるもの！
 信じ合って励まし合って、最後の最後で裏切り合う！
 */
+I mean, that's so much more exciting!
+You believe in each other, support each other,
+only to, in the very end, betray each other!
 \l
 
 \\@CHARA_IN@< 1, 14, 13, 0, 1>
@@ -166,6 +193,8 @@ Dead_Noel
 ああもうたまんない……！
 どんな果物より甘い、人工のスクロース！
 */
+God, it's sooo good!
+Sweeter than any fruit： sucrose, the product of man!
 \l
 
 
@@ -176,6 +205,8 @@ Dead_Noel
 ほーんと、美味しすぎるアナタたちが悪いのよ？
 わたし、食べ過ぎで太っちゃいそう！
 */
+Honestly, you people brought this on yourself, being so delicious and all!
+Eating this much might make me fat!
 
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 20, 203, 0, 1>
@@ -186,6 +217,8 @@ Mash
 それは嘘ですね。
 吸血鬼には成長も、味覚もないと聞きました。
 */
+You're lying, I see.
+I've heard vampires can neither mature, nor feel taste.
 \l
 
 
@@ -197,7 +230,8 @@ Mash
 アナタは自分の罪に酔っているだけ。
 夢から覚めるのはそちらの方です！
 */
-
+You're just drunk on your own sins.
+The one who'll awaken from their dreams here is you!
 
 \\@BGM_STOP@<0>
 \e

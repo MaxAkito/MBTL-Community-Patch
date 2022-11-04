@@ -106,7 +106,7 @@ Dead_Noel
 現実という悪夢から目を覚まさせてあげる。
 */
 Welcome, to world of waking nightmares.
-I'll help you out in awakening from the nightmare of reality.
+Allow me to awaken you from the nightmare of reality.
 
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 20, 214, 0, 1>
@@ -130,7 +130,7 @@ Mash
 魔獣、幻獣クラスの脅威と判断しました。
 */
 Your magical energy readings transcend those of a human's.
-I'd deem you are threat on par with a demonic, or phantasmal beast.
+I've deemed you a threat on par with a demonic, or phantasmal beast.
 \l
 
 \\@CHARA_IN@< 0, 20, 203, 0, 1>
@@ -182,7 +182,7 @@ Dead_Noel
 */
 I mean, that's so much more exciting!
 You believe in each other, support each other,
-only to, in the very end, betray each other!
+and yet, at the very, very end, you betray each other!
 \l
 
 \\@CHARA_IN@< 1, 14, 13, 0, 1>
@@ -218,7 +218,7 @@ Mash
 吸血鬼には成長も、味覚もないと聞きました。
 */
 You're lying, I see.
-I've heard vampires can neither mature, nor feel taste.
+I've heard vampires cannot grow, just as they don't have any taste.
 \l
 
 

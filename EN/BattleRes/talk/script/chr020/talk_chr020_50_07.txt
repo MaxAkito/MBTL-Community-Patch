@@ -24,6 +24,9 @@ Mash
 街の地下にこんな空洞が……
 中心にある祭壇、床と天井に刻まれた紋様……
 */
+You wouldn't think there'd be a such a big cavern beneath the city..
+This central altar, the floor, the ceiling...
+They've all got these patterns engraved into them.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0171", 100>
@@ -33,6 +36,8 @@ Mash
 アニムスフィアの系統とは違いますが、
 複雑さでは同等のものです。
 */
+They're of a different system to that of the Animusphere ones,
+but they're equal in terms of complexity, at least.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0172", 100>
@@ -42,6 +47,8 @@ Mash
 日本に魔術協会は存在しない。
 なのに、どうやってこんな高度な術式を……？
 */
+The Mages Association doesn't exist in Japan.
+But then, how could there be such an advanced formula here...?
 
 \\@NPC_LOAD_SYNC@<5, 5, 320, 0, 1>
 \\@CHARA_SET_MVNAME@<5, "FadeIn">
@@ -59,6 +66,8 @@ Roa
 内容は理解はできずとも、ものの本質……
 カタチの美しさは感じ取れている。
 */
+Even if you do you comprehend its inner workings,
+you're able to grasp at its essence, and the beauty of its form.
 \l
 
 
@@ -69,6 +78,8 @@ Roa
 悪くない、合格だお嬢さん。
 １４代目の『私』なら《第四階梯＜夜属＞として生徒にしている……
 */
+Not bad. I'll give you a passing grade, little lady.
+The 14th 'me' would've taken you under their wing as a Nightkin.
 \l
 
 \\@CHARA_SET_PATTERN@<5, 6>//すんっ…
@@ -79,6 +90,7 @@ Roa
 /*-comment-
 うん？　なんだ、魂が混ざっているな？
 */
+Hm? Oh, there's another soul in you, isn't there?
 \l
 
 
@@ -89,6 +101,8 @@ Roa
 人間と霊体のコンテンポラリー。
 過去のものを“今に生きる”ものと合わせている。
 */
+A human and spiritual body in contemporaneous union.
+The alignment of a thing of the past with a thing of the currently living.
 \l
 
 \\@CHARA_SET_PATTERN@<5, 2>//ポリポリ
@@ -100,6 +114,8 @@ Roa
 ……まったく。
 よくもまあ、そんな実験をしたものだ。
 */
+Good grief.
+Quite audacious to perform such an experiment.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0015", 100>
@@ -109,6 +125,8 @@ Roa
 それではいずれ■■として生きねばならなくなる。
 永遠を騙る死徒なんぞよりおぞましい結末だ。
 */
+It means you'll have to eventually live as a ■■.
+A fate more terrible than even that of the Dead Apostles and their false eternity.
 
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 20, 208, 0, 1>
@@ -119,6 +137,8 @@ Mash
 貴方がこの地下の主、なのですか……？
 吸血鬼と聞いていたので、てっきり……
 */
+Are you the owner of this underground place?
+I heard they were a vampire, so I'd imagined they'd be more...
 
 
 \\@CHARA_SET_PATTERN@<5, 3>//ポリポリ戻り
@@ -131,6 +151,8 @@ Roa
 邪悪な怪物を《想像＜イメージ＞していたかな？
 その通りだ。気にしなくていい。
 */
+More like some kind of terrible monster, I take it?
+I very much am. You don't have to worry on that front.
 \l
 
 
@@ -141,6 +163,8 @@ Roa
 今は寝起きで肉体の意識が沈殿しているだけさ。
 すぐに撹拌され、『私』という『私』が混ざり合う。
 */
+It's just that I recently woke up, so my body's consciousness is still below the surface.
+Soon, it shall stir, and then, 'I' will merge back into 'me'.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0018", 100>
@@ -150,6 +174,8 @@ Roa
 立ち去るのなら今のうちだ。
 私も、英霊もどきの血など吸いたくはないからね。
 */
+If you are to depart, now's the time.
+Not as if I'd want to suck the blood of some false Heroic Spirit either.
 
 \\@CHARA_SET_PATTERN@<4, 0>//
 \\@SYSTEM@<101>
@@ -161,6 +187,8 @@ Mash
 ……いえ。
 ここを去るのは、貴方を倒した後に。
 */
+I won't.
+I'll only depart from here once you lay defeated on the ground.
 \l
 
 
@@ -171,6 +199,7 @@ Mash
 /*-comment-
 貴方に似た方を知っています。
 */
+I know of someone quite like you.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0176", 100>
@@ -180,6 +209,8 @@ Mash
 高い知性と深い感情を持ち、
 その上で大きな非道を為しえようとした賢人を。
 */
+A sage possessed of both great intelligence and compassion,
+yet at the same time, capable of great cruelty.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0177", 100>
@@ -189,6 +220,7 @@ Mash
 わたしはカルデアのデミ・サーヴァント、
 マシュ・キリエライト。
 */
+I am the Demi-Servant of Chaldea, Mash Kyrielight.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0178", 100>
@@ -198,6 +230,8 @@ Mash
 かつて第一の獣と戦ったものとして、
 ここで、貴方と戦います。
 */
+I once fought the First Beast, and in that same capacity,
+I shall now face you.
 
 \\@CHARA_SET_PATTERN@<5, 7>//大笑い
 \\@SYSTEM@<102>
@@ -209,6 +243,8 @@ Roa
 いい《表情＜かお＞だ、一丁前に叫びやがる！
 では、死という治療を始めよう！
 */
+Now that's the look of someone shouting like they're hotshit!
+Sure, let's begin. The treatment I will be administering is death!
 \l
 
 
@@ -220,6 +256,8 @@ Roa
 世紀の大手術だが、なに、お代は結構だ！
 その盾ひとつで充分におつりがくるさ！
 */
+It'll be the surgery of the century! But oh, don't worry.
+I won't be taking a cent! Your shield will cover the costs just fine!
 
 \\@BGM_STOP@<0>
 \e

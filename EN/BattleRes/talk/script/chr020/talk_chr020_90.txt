@@ -25,6 +25,8 @@ Mash
 ……吸血鬼との戦いに勝利したのも束の間、
 足元に出現したゲートに落ちてしまったのです。
 */
+...And then as soon as I was victorious in my battle against the vampire,
+I feel into a portal that suddenly appeared beneath my feet.
 \l
 
 /*-comment-
@@ -39,6 +41,8 @@ Mash
 落ちた先はまた不思議な空間で……
 そこで知り合ったネ……ネ……あれ？
 */
+I had fallen into yet another mysterious place,
+and there, I got acquainted with this, uh, Ne-- Ne-- Hm?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0182", 100>
@@ -48,6 +52,8 @@ Mash
 不思議です、名前が思い出せません……
 でも、なんだか安心できる方でした。
 */
+How strange. I can't seem to recall their name.
+Still, they were somehow a quite dependable fellow.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0183", 100>
@@ -57,6 +63,8 @@ Mash
 その方といくつもの世界を渡って、
 最後には大会が開かれました。
 */
+Together with them, I crossed countless different worlds,
+and in the final one, a tournament was held.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0184", 100>
@@ -66,6 +74,8 @@ Mash
 『旧vs新　宿命の戦い』と、
 その方は仰っていましたが……
 */
+"Old vs New - Battles of the Fates",
+was what this person had called it.
 \l
 
 /*-comment-
@@ -79,6 +89,8 @@ Mash
 え？　大会の結果ですか？
 それは―――ふふ、内緒です。
 */
+Hm? The result of the tournament?
+That's... hehe, still a secret.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0186", 100>
@@ -88,6 +100,8 @@ Mash
 いつか、とっておきの時にお話しますので、
 それまでお待ちください。
 */
+I'll tell you about it at some point, when the time is right.
+You'll just have to wait until then.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0187", 100>
@@ -97,6 +111,9 @@ Mash
 日本の都市……総耶という街を主軸にした、
 いくつもの並行世界での戦い。
 */
+I fought in many battles, across many parallel worlds,
+but they always revolved around urban Japan,
+or more specifically, the city of Souya.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0188", 100>
@@ -106,6 +123,8 @@ Mash
 いま思い返しても楽しい事ばかりで。
 たいへん、有意義だったと思います！
 */
+Now that I think back on it, it was fun all around.
+I think it was an amazingly worthwhile experience!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcBoy/NpcBoy08_0000", 100>
@@ -115,6 +134,8 @@ Fujimaru
 そっか。お帰りマシュ。
 たくさんの冒険、おつかれさま。
 */
+Gotcha, welcome back, Mash.
+You must've fought well across all your adventures.
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0189", 100>
@@ -124,7 +145,8 @@ Mash
 ―――はい！　マシュ・キリエライト、
 たくさんの世界を巡って無事、帰還完了です！
 */
-
+Of course! Mash Kyrielight, mission complete!
+I journeyed across tons of worlds, and have now returned safe and sound!
 
 
 \\@SYSTEM@<21>

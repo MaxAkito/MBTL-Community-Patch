@@ -54,7 +54,7 @@ Navigate
 レイシフト　ルート構築　は　継続します。
 */
 Grand Order verification, halted
-Resuming Rayshift route formulation.
+Resuming formulation of Rayshift route.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0004", 100>

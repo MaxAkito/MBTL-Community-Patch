@@ -300,7 +300,7 @@ Mash
 近未来観測レンズ・シバが、
 */
 It may only be a terminal, but the Near-Future
-Observation Lens SHIVA that's contained within my shield...
+Observation Lens SHEBA that's contained within my shield...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0066", 100>

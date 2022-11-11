@@ -26,6 +26,8 @@ Mash
 ここがネコアルクさんの目的地……
 まるでお城のようです。
 */
+So this was your destination, Neco-Arc...
+It's almost like a castle.
 \l
 
 //カメラを固定しておく
@@ -40,6 +42,8 @@ Mash
 どこもかしこも手入れが行き届いていて、
 細やかな心遣いが感じられます。
 */
+Every single spot here is so thoroughly tended to;
+you can really feel the meticulousness of the person who did it.
 \l
 
 \\@CHARA_SET_PATTERN@<4, 203>//はにかみ
@@ -51,6 +55,8 @@ Mash
 きっと素敵な当主様なのでしょうね。
 優しくて、明るくて、おきれいな。
 */
+The head of this mansion must surely be a wonderful person.
+Kind, cheerful, pretty...
 
 \\@SYSTEM@<102>
 
@@ -61,6 +67,7 @@ Neco_Arc
 /*comment
 うん、まあだいたい合ってる。
 */
+Sure, only mostly spot on, but sure.
 \l
 
 
@@ -71,6 +78,8 @@ Neco_Arc
 お嬢は敵対するとめっちゃ怖いけど、
 基本は良家のお嬢様だからニャー。
 */
+She's real damn scary to square up against,
+but most of the time she's a noble and respectable lady.
 \l
 
 //セリフのタイミングに合わせてフライパンが飛んでくるように判定データで調整
@@ -87,6 +96,8 @@ Neco_Arc
 むしろ注意すべきは使用人の方ニャんだよ。
 気をつけろ、特に箒持ってる方はこべぇぇえええ！？
 */
+If anything, its those two servants you gotta watch out for.
+Be careful, especially against the one with the broooaaahhgghh--
 
 \\@CHARA_SET_MVNAME@<5, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
 \\@CHARA_SET_MVNAME@<6, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
@@ -107,6 +118,8 @@ Mash
 ネコアルクさん！？
 だいじょうぶですか！？
 */
+Neco-Arc?!
+Are you okay?!
 
 \\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>//フライパン削除
 \\@CHARA_SET_MVNAME@<7, "InitCameraKeep">//camera初期化
@@ -122,6 +135,9 @@ Neco_Arc
 う、うん、なんとかね。
 ところで、これはどういう歓迎なのかなメイド君？
 */
+Y-Yeah, somehow.
+By the way, what kinda way of greeting people is this, little maid?
+
 
 \\@NPC_LOAD_SYNC@<6, 1, 320, 0, 1>
 \\@CHARA_SET_MVNAME@<6, "FadeIn">
@@ -139,6 +155,8 @@ Hisui
 たいへん失礼いたしました。
 今のは調理に使っていたフライパンです。
 */
+I'm terribly sorry.
+That was the frying pan I employ for cooking.
 \l
 
 
@@ -150,6 +168,8 @@ Hisui
 返しの練習をしていたところ指が滑りました。
 お気に召していただけたのなら幸いです。
 */
+I was practicing how to flip food, when I slipped, and it went flying.
+I can only hope it was to your liking.
 
 \\@CHARA_SET_PATTERN@<5, 38>
 \\@SYSTEM@<101>
@@ -162,6 +182,8 @@ Neco_Arc
 ん、そっか☆
 事故ならしょうがないか☆
 */
+Oh, gotcha ☆
+Well, if it was an accident, then that's that ☆
 \l
 
 \\@CHARA_SET_PATTERN@<5, 0>
@@ -173,6 +195,8 @@ Neco_Arc
 じゃあちょっと失礼しますね。
 アタシたちは当主に用があるので。
 */
+Aight, we'll be off then.
+Got business with the mistress, and all.
 
 
 \\@SYSTEM@<102>
@@ -184,6 +208,8 @@ Hisui
 当家の主人は多忙につき、現在、
 面会はお断りしております。ですが―――
 */
+Our mistress is currently terribly busy.
+As such, she is not accepting any visitors. However...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0093", 100>
@@ -192,6 +218,7 @@ Hisui
 /*comment
 お客様にも事情がおありのようですね。
 */
+It appears your circumstances are equally peculiar.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0094", 100>
@@ -201,6 +228,8 @@ Hisui
 どうしても、と仰るのでしたら、
 特別にお伺いをたててまいります。
 */
+If you do so insist, then I suppose I could
+make an exception and go inquire with her.
 \l
 
 \\@CHARA_SET_PATTERN@<6, 100>//hisui どうぞ
@@ -211,6 +240,8 @@ Hisui
 それまでどうぞ、こちらへ。
 迎賓室にご案内いたします。
 */
+Before that, please, follow me.
+I will guide you to the quest room.
 
 \\@CHARA_SET_PATTERN@<6, 101>//hisui どうぞ→てくてく撤退
 
@@ -228,6 +259,8 @@ Neco_Arc
 ほんと？　迎賓室ってネコ缶バーある？
 ない？　ドリンクバーだけ？　やっさすぃー。
 */
+For reals? There a cat-food bar in this guest room?
+No? Just a drink bar? Boooooriiing.
 \l
 
 \\@NPC_LOAD_SYNC@<5, -2, -320, 0, 1>
@@ -239,6 +272,8 @@ Neco_Arc
 まあいいや、行こうぜマシュ君！
 リフレッシュのチャンスは逃がさねー！
 */
+Whatevs. Let's go, Mash!
+I'd never let an opportunity to get a breather get away!
 
 \\@CHARA_IN@< 0, 20, 203, 11, 0>
 \aw
@@ -251,6 +286,8 @@ Mash
 いえ。気をつけてください、ネコアルクさん。
 そのメイドの方は危険です。
 */
+Wait. We need to be careful, Neco-Arc.
+This maid is dangerous.
 \l
 
 
@@ -262,6 +299,8 @@ Mash
 端末ではありますが、シールドに内包された
 近未来観測レンズ・シバが、
 */
+It may only be a terminal, but the Near-Future
+Observation Lens SHIVA that's contained within my shield...
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0066", 100>
@@ -271,6 +310,9 @@ Mash
 １分後のネコアルクさんに
 『死亡』ステータスを表示しています！
 */
+...is currently displaying that 1 minute into the future,
+the entity known as Neco-Arc will be dead!
+
 
 \\@CHARA_IN@< 1, 19, 108, 12, 0>
 \aw
@@ -286,6 +328,8 @@ Neco_Arc
 そなの？
 でもこのウェルカムワイン、中々だぜ？
 */
+Really now?
+But you know, this wine's pretty darn great?
 \l
 
 
@@ -296,7 +340,8 @@ Neco_Arc
 この喉に詰まるような異物感はどうだ……
 例えるなら体が別の何かに乗っ取られるような……
 */
-
+Oh man, I can feel it weirdly stuffing in my throat, awesome...
+It almost feels like my body is being taken over by something else...
 
 
 \\@NPC_LOAD_SYNC@<8, 4, -320, 0, 1>
@@ -325,6 +370,8 @@ Neco_Hisui
 っていうか乗っ取られた。
 こんにちは。ネコヒスイです。
 */
+Oh c'mon, I actually did get taken over.
+Hello there. Heco-Hisui here.
 \l
 
 \\@CHARA_SET_PATTERN@<7, 5>//悪だくみ
@@ -336,6 +383,8 @@ Neco_Hisui
 ふふ。マシュ君もいっぱい、いっとく？
 メイドになればどんな殺人ケーキも思いのまま、だぜ？
 */
+Heh. So, want a cheeky lil chug too, Mash?
+Once maidified, you could make as many killer cakes as you'd like, y'know?
 
 
 \\@SYSTEM@<101>
@@ -347,6 +396,8 @@ Mash
 精神に異常をきたす薬物を検知、
 カルデア式解毒メソッドを実行します！
 */
+Drug with mind-altering properties detected.
+Deploying Chaldea-style detoxification method!
 \l
 
 
@@ -358,6 +409,8 @@ Mash
 ごめんなさい、ネコアルクさん！
 助ける方法はこれしかありません……！
 */
+Forgive me, Neco-Arc!
+This is the only way you can be saved!
 
 
 \\@CHARA_SET_PATTERN@<7, 44>//
@@ -370,7 +423,8 @@ Neco_Hisui
 ワオ、すっごい判断力。
 １分後に死亡って、そういうコト？
 */
-
+Wowzers, you go hard.
+Me being dead in 1 minute makes so much sense now.
 
 
 \\@BGM_STOP@<0>

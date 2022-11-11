@@ -23,6 +23,8 @@ Mash
 なんという事でしょう……。
 ネコアルクさんとはぐれてしまいました……。
 */
+Oh no, what should I do?
+I've lost sight of Neco-Arc...
 \l
 
 
@@ -34,6 +36,8 @@ Mash
 その上、気がつくと怪しい地下空洞にいる
 マシュ・キリエライトです。
 */
+And to make matter worse, Mash Kyrielight suddenly
+found herself lost in some dodgy underground cavern.
 \l
 
 
@@ -45,6 +49,8 @@ Mash
 お屋敷の奥にある森に踏み入ったところ、
 着物姿の女性の後ろ姿が見えましたので、
 */
+When I stepped foot in forest behind the mansion,
+I saw the silhouette of a woman wearing a kimono.
 \l
 
 \\@CHARA_FACE@<0, -1, 208, 280>
@@ -55,6 +61,8 @@ Mash
 道を訪ねるために
 追いかけただけなのですが……おや？
 */
+I only followed her because I wanted
+to ask for some directions and-- Hm?
 \l
 
 
@@ -67,6 +75,8 @@ Mash
 どこからか話し声が……
 ネコアルクさんと……どなたでしょう？
 */
+I can hear people talking somewhere around here...
+It's Neco-Arc and... who could that be?
 
 
 \\@FADE_OUT@<0, 0, 0, 0, 0>
@@ -99,6 +109,8 @@ Neco_Arc
 ふむ……無数に存在する可能性。
 絶対にない、と言い切れない別のアタシ。
 */
+Hmm... The existence of innumerable possibilities...
+Another me, which as much as I want to deny it, seems to exist as well.
 \l
 
 
@@ -109,6 +121,8 @@ Neco_Arc
 こっちの世界では《拳＜グー＞パンでゲロりましたが、
 どっかの世界では膝パンで毒物排出、と。
 */
+I took a gut-punch and puked in this world,
+but in another, I took it on the legs, and was detoxified.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0312", 100>
@@ -118,6 +132,8 @@ Neco_Arc
 それどっちも同じじゃニャい？
 大丈夫？　もっと平和な解決策ってないの？
 */
+So, ain't it all the same?
+Is this fine? Ain't there some more peaceful solution to this?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0313", 100>
@@ -127,6 +143,8 @@ Neco_Arc
 まあいいや。ようはパラレルワールドの事っしょ。
 ん、今はマルチバース理論って言うの？
 */
+Well, whatevs. It's that parallel world stuff, ain't it?
+Oh, they call it the multiverse theory these days?
 \l
 
 \\@CHARA_SET_PATTERN@<5, 2>//ゆらゆら
@@ -138,6 +156,8 @@ Neco_Arc
 にゃにゃにゃ、知ってる知ってる。
 でもなんでかっこよく言い変えたの？　改名商法？
 */
+Mya-ha-ha. Yeah, 'course I know that.
+But what's with the cool-ass renaming? New trademark?
 \l
 
 \\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
@@ -151,6 +171,8 @@ Kohaku_Hatena
 そういうお話ではありません。
 そもそもマルチバース理論は商標フリーです。
 */
+No, that's not what it's about at all.
+Besides, multiverse theory is public domain!
 
 
 \\@CHARA_SET_PATTERN@<5, 0>//
@@ -163,6 +185,7 @@ Neco_Arc
 /*comment
 怪しいマルチ商法の話ではないと。残念です。
 */
+It's not some shady multi-network marketing strategy? Shame.
 \l
 
 \\@CHARA_SET_PATTERN@<5, 3>//やれやれ
@@ -174,6 +197,8 @@ Neco_Arc
 だがｙｏｕはアタシがその『マルチの証明』だと言う。
 『マルチの化身』とも。
 */
+Okay, but you said I was living proof for this multi-stuff.
+"The Avatar of the Multiverse" or something.
 \l
 
 \\@CHARA_SET_PATTERN@<5, 5>//悪だくみ
@@ -185,6 +210,8 @@ Neco_Arc
 参りましたなあ。そこに気がつくとは、
 なかなかどうしてミスに置けないお方だ。
 */
+You sure got me good. Never thought someone would catch on.
+Never would've pegged you as being so clever.
 \l
 
 
@@ -195,6 +222,8 @@ Neco_Arc
 『いるだけで世界が揺らぐミスキャスト』……ふ。
 ネコの使い途をネコ以上によく理解しているようです。
 */
+'A miscasting whose mere presence is enough to destabilize the world'... Hmph.
+Seems you've got better understanding of the Nekos than they themselves do.
 \l
 
 \\@CHARA_SET_PATTERN@<5, 0>//
@@ -206,6 +235,8 @@ Neco_Arc
 ―――で。
 つまり、なんなの？
 */
+So...
+In conclusion... what?
 \l
 
 
@@ -219,6 +250,7 @@ Kohaku_Hatena
 /*comment
 アナタは世界にとって剥離剤になりえるのです。
 */
+You 
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0112", 100>
@@ -228,6 +260,8 @@ Kohaku_Hatena
 異物であるアナタはこの世界の法則に守られない。
 最弱です。きっと誰にも勝てません。
 */
+You're a foreign entity, so under this world's rules, I can't protect you.
+Nobody is weaker than you. I bet you won't be able to win against anyone else.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0113", 100>
 
@@ -236,6 +270,8 @@ Kohaku_Hatena
 ですが運命にも縛られない。
 アナタの視界はいい意味でブレブレなので、
 */
+On the other hand, you also aren't bound by fate.
+I mean it in a good way when I say your point of view is blurry.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0114", 100>
 
@@ -244,6 +280,8 @@ Kohaku_Hatena
 この世界にいながら隣の世界の設定を、
 現在を観測できる。
 */
+As such, even while in this world, you can observe the context
+and current events of worlds close-by.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0115", 100>
 
@@ -252,6 +290,8 @@ Kohaku_Hatena
 想像してみてください。一つの缶詰の中に、
 二つ分の中身が重なったら？
 */
+Just please try imagining it. What would happen if the inside
+of a single can of food had enough content for two?
 
 \\@CHARA_SET_PATTERN@<5, 36>//
 \\@SYSTEM@<101>
@@ -263,6 +303,8 @@ Neco_Arc
 え。なにそれ怖い。
 ……破裂する……のか？
 */
+The heck? Stop scaring me.
+Wouldn't the can... burst?
 \l
 
 \\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
@@ -275,6 +317,7 @@ Kohaku_Hatena
 /*comment
 ●＜いえ＞。●＜融合です＞。
 */
+No. The contents would fuse.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0117", 100>
 
@@ -283,6 +326,8 @@ Kohaku_Hatena
 ヒロインＡと結ばれた運命と、
 ヒロインＢと結ばれた運命。
 */
+His fate of ending up with Heroine A, and
+his fate of ending up with Heroine B.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0118", 100>
 
@@ -291,6 +336,8 @@ Kohaku_Hatena
 それらが混ざり合い、両立する事も可能なのです。
 誰も傷つかない《世界＜ルート＞ができるんです！
 */
+These two blending together and coexisting is possible, you see.
+There could be a Route in which nobody gets hurts!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0119", 100>
 
@@ -299,6 +346,8 @@ Kohaku_Hatena
 アナタが燃え尽きるほど頑張って志貴さんを
 直視し続ければ、あるいは！
 */
+If you just continuously observe Shiki intently enough that 
+you risk sweating blood, then perhaps it could be realized!
 
 \\@CHARA_SET_PATTERN@<5, 35>//
 \\@SYSTEM@<101>
@@ -310,6 +359,8 @@ Neco_Arc
 《燃え尽きるほど！＜ニャん……だと……＞！
 んっ、でもその世界、控えめに言ってゴミ！
 */
+Wh-what? (sweating blood?!)
+Hm, but honestly, that kinda world seems like it would suck.
 
 \\@SYSTEM@<200>
 \\@FADE_OUT@<0, 0, 0, 0, 0>
@@ -342,6 +393,8 @@ Mash
 ……よく聞こえませんが、
 終末装置に匹敵する危機感がすごいです。
 */
+I can't really hear very well but...
+The threat here feels on par with that of a doomsday device.
 \l
 
 
@@ -356,6 +409,8 @@ Mash
 でも内密な話のようなのでこれ以上近づく事は……
 終わるまで待っているべきでしょうか……あ。
 */
+Still, it appears they're talking in secret so I can't really get closer.
+Perhaps it would be prudent to wait until they're done... Oh, oops.
 
 \\@CHARA_SET_MVNAME@<4, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
 \\@CHARA_SET_MVNAME@<8, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
@@ -387,6 +442,8 @@ Mash
 Kohaku_Hatena
 /*comment
 どなたです！？
+*/
+Who are you?!
 
 \\@CHARA_IN@< 1, 19, 100, 2, 0>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0322", 100>
@@ -394,6 +451,8 @@ Kohaku_Hatena
 Neco_Arc
 /*comment
 ど誰かな？
+*/
+W-who could it be?
 
 \\@CHARA_IN@< 0, 20, 203, 1, 0>
 \aw
@@ -404,6 +463,8 @@ Neco_Arc
 Mash
 /*comment
 ニャ……ニャアアアー！
+*/
+Meow... Meooooow!
 
 \\@CHARA_OUT@< 0, 20, -1, 0, 0>
 \aw
@@ -422,6 +483,8 @@ Neco_Arc
 なんだアタシのファンか。
 気にすんにゃ、今の魅力的な話を続けこッハァ！？
 */
+Ah, just one of my fans.
+Dontcha worry about it. Let's keep this fascinating goinkthahhh?!
 \l
 
 \\@CHARA_SET_MVNAME@<5, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
@@ -438,6 +501,8 @@ Kohaku_Hatena
 突然のカンフル剤ですが体に害はありません。
 事後処理、よろしくお願いしますね？
 */
+Sorry for the sudden injection, but it's not harmful.
+Please take care of this for me, would you?
 
 
 \\@NPC_LOAD_SYNC@<6, -2, -272, 0, 0>
@@ -457,6 +522,8 @@ Neco_Arc
 おお……おおぉおおおお……！
 ニャんだこれ、めっちゃ健康ーーーー！
 */
+Whoa... WhooooOaaOAaa!
+What the heck is this, I feel so aliveeeee!
 \l
 
 \\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>//琥珀消す
@@ -468,6 +535,9 @@ Neco_Arc
 未知の栄養素が体内を駆け巡る！
 まるで生まれ変わるようだ！
 */
+Some unknown nourishment is rushing around inside my body!
+It almost feels like I've been reborn!
+
 
 \\@NPC_LOAD_SYNC@<8, 4, -272, 0, 1>
 \\@CHARA_SET_PATTERN@<8, 100>//登場煙幕
@@ -488,6 +558,8 @@ Neco_Kohaku
 っていうか生まれ変わった。
 こんにちは。ネココハクです。
 */
+Oh c'mon, I actually have been reborn.
+Hello there. Neco-Kohaku here.
 \l
 
 
@@ -498,6 +570,8 @@ Neco_Kohaku
 今のはどんなウイルスも裸足で逃げ出す
 スーパーワクチンだよ？
 */
+Anyway, so this was a super vaccine.
+Ain't no virus brave enough to stand up to this one.
 \l
 
 \\@CHARA_IN@< 1, 62, 110, 0, 1>//ネココハク
@@ -508,6 +582,8 @@ Neco_Kohaku
 でも心配しニャいで。
 アタシは平気です。
 */
+But don't worry about lil ol' me.
+I'm totally fine.
 \l
 
 
@@ -518,6 +594,8 @@ Neco_Kohaku
 だからお腹を殴って嘔吐させないで。
 マシュ君は平和的手段でアタシを助けてくださいねっと。
 */
+So please, don't start punching me in the stomach until I puke.
+Mash, please find a way of saving me that doesn't involve violence.
 
 \\@NPC_LOAD_SYNC@<4, 20, -680, 0, 0>
 \\@CHARA_SET_MVNAME@<4, "FadeIn">
@@ -537,6 +615,8 @@ Mash
 ……ネコアルクさん……
 ……残念ですが……
 */
+Neco-Arc...
+I'm truly sorry, but...
 \l
 
 
@@ -549,6 +629,8 @@ Mash
 肉体に異常をきたす薬物を検知、
 カルデア式解毒メソッドⅡを実行します！
 */
+Drug with body-altering properties detected.
+Deploying Chaldea-style detoxification method II!
 \l
 
 
@@ -560,6 +642,8 @@ Mash
 手遅れです、ネコアルクさん！
 助ける方法はこれが一番です！
 */
+It's too late, Neco-Arc!
+This is the most effective way of saving you!
 
 
 \\@CHARA_SET_PATTERN@<5, 18>//頭のけぞり
@@ -572,6 +656,8 @@ Neco_Kohaku
 痛みを伴う治療法はいらねーーー！
 ドクター！　教育どうなってんだドクター！
 */
+These painful-ass treatments can go to hell!
+Doctor! What kind of education did you give her?! Doctor!!
 
 
 

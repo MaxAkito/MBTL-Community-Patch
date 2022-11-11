@@ -371,7 +371,7 @@ Neco_Hisui
 こんにちは。ネコヒスイです。
 */
 Oh c'mon, I actually did get taken over.
-Hello there. Heco-Hisui here.
+Hello there. Neco-Hisui here.
 \l
 
 \\@CHARA_SET_PATTERN@<7, 5>//悪だくみ

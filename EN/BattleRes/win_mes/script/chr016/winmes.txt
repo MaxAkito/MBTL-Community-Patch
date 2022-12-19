@@ -143,6 +143,19 @@ while she boasts an anomalous acceleration of it.
 Something like that.
 \e
 
+// 対ネコアルク
+WinMes16:
+chara_type 201
+chara_type_sub 203
+chara_switchframe 530
+chara_type_sub1 205
+chara_switchframe1 730
+//そこに並んで正座しなさい。はい、目を瞑って。
+//いいから動かない。動いた分苦しみますよ。
+//え、何をする気だ、ですか？
+//ふふふ。それはご想像にお任せします。
+Line up and 
+\e
 
 // 対マーリオゥ（ストーリー専用） Versus Mario (story only)
 WinMesArcadeWin17:

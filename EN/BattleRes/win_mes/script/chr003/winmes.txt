@@ -24,8 +24,8 @@ WinMes02:
 chara_type 1
 //生きてるんだろ？
 //なら、どんな生き物であれ死ぬさ。
-You're alive, right?
-See, all things that are alive eventually die.
+You're part of the living, right?
+But you see, all things that are alive eventually die.
 \e
 
 WinMes03:
@@ -61,7 +61,7 @@ chara_type 101
 //不運なのはお互いさまってコトで。
 Black cats, crows, hearses... 
 Something about walking under weeping willows too.
-It seems bad luck has cursed the both of us.
+What I'm saying is that it seems bad luck has cursed the both of us.
 \e
 
 WinMes07:
@@ -72,7 +72,7 @@ chara_type 1
 Try harder next time. 
 You know how it is these days...
 Appearances can be deceiving.
-Never know what'll turn out to be dangerous.
+Never know who'll turn out to be dangerous.
 \e
 
 // 対アルクェイド Versus Arcueid
@@ -82,9 +82,9 @@ chara_type 103
 //あのなあアルクェイド、おまえ相手に
 //遊びも手加減もないだろう。
 //面白半分でケンカ売るなって言うの。
-Damn, that was dangerous! 
+Whoa, that was close! 
 You just don't know how to hold back, do you, Arcueid?
-So don't go picking fights just because you feel like it.
+So please, don't go picking fights just because you feel like it.
 \e
 
 // 対シエル Versus Ciel
@@ -94,8 +94,8 @@ chara_type 100
 //なんだかんだって手加減してくれるところ、
 //大好きですよ。
 Thanks, Ciel. 
-I really love the way you 
-always kind of hold back against me.
+You always sort of hold back against me.
+I love that about you.
 \e
 
 // 対秋葉 Versus Akiha
@@ -123,7 +123,7 @@ chara_type 101
 //ごめんな翡翠。たとえ偽物でも、手を上げて
 //すまなかった。
 I didn't realize there was a fake Hisui out there.
-Still, it doesn't feel right raising a hand against her. 
+Still, it doesn't feel right to treat her roughly. 
 Sorry about that.
 \e
 
@@ -133,7 +133,7 @@ chara_type 103
 //琥珀さん……の偽物、だよな？
 //……えっと、本物に会ったら謝っておくから、
 //今回はこれで勘弁してくれます？
-You're just a fake Kohaku, aren't you? 
+You're a fake Kohaku, aren't you? 
 I'll have to remember to apologize to the real 
 one when I see her. Do you mind if we call it a day?
 \e
@@ -155,7 +155,7 @@ chara_type 100
 //以上、これまでの成果です。
 //ご心配なく先生。まだ失敗ばかりだけど、
 //前向きにやっています。
-And that's all I've learned.
+And that's all I've learned so far.
 Don't worry, Aoko. I don't always 
 succeed, but I'll always try my best.
 \e
@@ -167,10 +167,10 @@ chara_type 100
 //共闘ではなかったけど、
 //先輩の動きに合わせるの、
 //ワルツみたいで楽しかったです。
-I've learned a lot from this mock-battle.
+I've learned a lot from this practice battle.
 Matching my movements with yours was enjoyable, 
-almost like a waltz, even though we were fight against 
-each other, rather than together.
+almost like a waltz, despite the fact that we were 
+fighting against each other, rather than together.
 \e
 
 // 99まで追加可能

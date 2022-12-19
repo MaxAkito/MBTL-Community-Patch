@@ -8,8 +8,8 @@ chara_type 0
 //一命をとりとめたんなら、サーカスに売り込みにいけ。
 Not bad, weakling. 
 Your little performance was far more enjoyable 
-than expected. If you make it out of here alive, 
-perhaps you should consider joining a circus!
+than I'd expected. If you somehow manage to survive this, 
+I'd recommend you consider joining a circus.
 \e
 
 WinMes01:
@@ -26,8 +26,8 @@ WinMes02:
 chara_type 2
 //黒コゲ死体いっちょうあがり！
 //あとは路地裏の野犬どもを愉しませてやるといい！
-One charred corpse coming up! Now all that's left is to 
-let the strays in the back alleys have some fun with it!
+One charred corpse coming up!
+Now you'll prove plenty entertaining for the strays in the back alleys.
 \e
 
 WinMes03:
@@ -38,7 +38,7 @@ chara_type 1
 //ああ、失礼。とっくに息絶えていたようだ。
 And so the battle comes to an end, together with my fun.
 You've gotta enjoy the hurting as long as you can, wouldn't
-you sa-- Oh excuse me, seems you stopped breathing ages ago.
+you sa-- Oh, excuse me, you breathed your last already.
 \e
 
 WinMes04:
@@ -58,7 +58,7 @@ chara_type 2
 //一撃で首をイカせてやれればいいんだが、
 //ありゃあアレで技術がいる。
 //いや、昔のサムライってのは大したものさ。
-Sorry about that. It took longer than I expected. I would
+Sorry about that. You gave me quite a bit of trouble. I would
 have liked to send your head rolling with a single strike,
 but that actually requires more technique than you'd think. 
 Sure makes you respect the samurai of old, doesn't it?
@@ -69,10 +69,10 @@ chara_type 0
 //そう動くな、血が零れる。
 //今日は地面の血をすする気分じゃない。
 //たまには吸血鬼らしく振る舞いたい。
-Stop moving around, will you? 
-Your blood's gonna spill and I don't feel like 
-drinking off the ground today. I would like to act 
-as a proper vampire at least once in a while.
+Stop moving around, would you? 
+You'll spill your blood over the pavement. 
+I don't feel like drinking off the ground today. 
+Sometimes I do want to behave as a proper vampire.
 \e
 
 // 対志貴 Versus Shiki
@@ -81,9 +81,9 @@ chara_type 2
 //オレが視ているモノは違うだと？
 //ハ、同じだよ！　行き着くところは
 //バラバラになるだけなんだからな！
-You said what you and I see aren't the same.
-Hah, but they are! At the end of the day,
-all they do is just cut things to pieces!
+You said that what we see isn't the same.
+Hah, but it is! At the end of the day,
+we both just cut things into pieces!
 \e
 
 // 対アルクェイド Versus Arcueid
@@ -118,7 +118,7 @@ chara_type 1
 //愛情によるものか、情欲によるものか、
 //私には判断はつかないがね。
 Hmm...? The sensations in my current body do dampen 
-somewhat when I'm fighting this particular girl...
+somewhat when I'm fighting this particular specimen...
 Perhaps it's because of love... perhaps because of lust...
 I can't really tell, either way.
 \e
@@ -140,10 +140,10 @@ chara_type 0
 //何を警戒しての出し惜しみかは
 //知りませんが、
 //次は『本体』を連れてきなさい。
-Using the Seven Causes of Death in their split-up form?
+Using the Seven Causes of Death in their separated form?
 I'm not sure what you're so worried about that you'd
-hold back like that. Next time you should bring 
-out the real deal instead.
+hold back like that.
+Bring out the real deal instead next time instead.
 \e
 
 // 対志貴(ストーリー専用) Versus Shiki (story only)
@@ -168,7 +168,7 @@ For you, those excessive weapons are nothing but a shackle.
 You've practically put your miraculous body into bondage. 
 Indeed, the bondage of human knowledge. 
 Before you go condemning other heresies, I think you'd best
-come to terms with your own otherworldliness first.
+come to terms with your own transcendentiality first.
 \e
 
 

@@ -250,7 +250,7 @@ Kohaku_Hatena
 /*comment
 アナタは世界にとって剥離剤になりえるのです。
 */
-You 
+You have the possibility of becoming the stripping agent for the world.
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0112", 100>
@@ -260,7 +260,7 @@ Kohaku_Hatena
 異物であるアナタはこの世界の法則に守られない。
 最弱です。きっと誰にも勝てません。
 */
-You're a foreign entity, so under this world's rules, I can't protect you.
+Foreign entities likes you cannot be protected by the world's rules. 
 Nobody is weaker than you. I bet you won't be able to win against anyone else.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0113", 100>

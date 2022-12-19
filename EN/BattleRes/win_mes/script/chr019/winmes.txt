@@ -6,15 +6,15 @@ chara_type 100
 //怪猫、天を揺るがす。
 //あんま舐めてっと太陽ごとぶっ飛ばすぞ？
 The Monster Cat Shakes the Heavens.
-If ya keep looking down on me I'll punt you into the goddamn sun.
+Don't mess with me. I'll punt you into the goddamn sun.
 \e
 
 WinMes01:
 chara_type 100
 //エビ以上カニ未満。なにがって？
 //そりゃオメェ、味の話だよ。
-Above shrimp, but not quite crab-level. Oh, sorry.
-I'm talking about how you taste, of course.
+Above shrimp, but not quite crab-level. Confused?
+I'm talking about how you taste, duh.
 \e
 
 WinMes02:
@@ -22,9 +22,9 @@ chara_type 1
 //モクセイでＳＯＳキャッチ！
 //しーきゅーしーきゅー、待っていろ、いま助けにネコが行く！
 //地球のおいしいゴハンを届けにいく、ぜ！
-I'm receiving an SOS from Jupiter!
-C-Q, C-Q, just you wait, Neco's on her way to save ya!
-I'll be right over with some delicious Earth food, no worries!
+SOS incoming from Jupiter!
+C-Q. C-Q. Just you wait, Neco here's on her way to save ya!
+Delicious Earth food delivery comin' right up!
 \e
 
 WinMes03:
@@ -32,7 +32,7 @@ chara_type 0
 //ネコ、地獄にまっしぐら。
 //キャットフードはウェルダンでお願いします。
 This Neco's headed straight for hell.
-Please give me my cat food seared to well done.
+I'll take the cat food well done, if you please.
 \e
 
 WinMes04:
@@ -41,8 +41,8 @@ chara_type 207
 //ネコは九つの命を持つって知ってた？
 //九連敗までは負けじゃニャいってコト。
 Meeeooown liiives.
-Did you know cats have nine lives?
-Means I don't lose until you beat me nine times in a row.
+Didya know cats have nine lives?
+Means I can't lose until you beat me nine times in a row.
 \e
 
 //対シエル　※ネコシリーズはwin_mes_table.txtで除外 Versus Ciel
@@ -56,9 +56,9 @@ chara_switchframe1 610
 //パンチにはキック、キックにはパンチじゃニャいと。
 //来いよシエル、シールドなんて捨ててかかってこい！
 //―――今だ、真祖ビーム！
-You're an Executor, yeah?
-Gotta answer punch with kick, kick with punch, yeah!
-So bring it, Ciel! Stop shielding and just come at me!
+Aren't you an Executor?
+Gotta answer punch with kick, and kick with punch, meow!
+Bring it, Ciel! Stop shielding and just come at me!
 ...Now's my chance, TRUE ANCESTOR BEAM!
 \e
 
@@ -67,7 +67,7 @@ chara_type 2
 //グッナイ！　さよなら未練！
 //夢の世界でデトックスだぜ！
 Gu'nite! See you never, my regrets!
-Imma detox in the dream world!
+I'mma detox in the world my of dreams!
 \e
 
 WinMes07:
@@ -77,7 +77,7 @@ chara_type 203
 //来たるべき電子戦のために、ね？
 I ain't here to grill you about your cryptocurrency addiction.
 But you know, make sure to apply SHOCK to your hands at least.
-Given the upcoming digital war, it's for the best.
+Gotta prepare for the inevitable digital war, y'know? 
 \e
 
 
@@ -87,8 +87,8 @@ chara_type 2
 //一撃一撃が未開封の荷物ぐらい重かった……
 //みんなも積みゲーには気をつけようぜ。
 What a terrifying opponent...
-The weight of their blows were as heavy as a sealed luggage bag.
-We all need to watch out so our backlogs don't get too big.
+Those attack felt as heavy as my unopened packages.
+I'm telling ya, don't let your backlog get too big.
 \e
 
 //対遠野志貴・七夜志貴　※ネコシリーズはwin_mes_table.txtで除外 Versus Tohno Shiki
@@ -101,9 +101,9 @@ chara_switchframe1 470
 //ところでネコ喫茶のオーナーとかに興味ニャい？
 //ニャいの？　大きいのひとりで間に合ってる？
 //チッ、惚気ありがとっしたー！
-By the by, no interest in the Neco-cafe owner, me?
+By the by, no interest in me, the Neco-cafe owner?
 No? Really? Got enough on your hands with just the big me?
-Tsk, yeah, go ahead, tell me more about your wonderful girlfriend.
+Tsk, yeah, go ahead, tell me more about your wonderful girlfriend!
 \e
 
 
@@ -112,7 +112,7 @@ chara_type 2
 //第二ロケットパージ、第二宇宙ネコ速度に到達。
 //んー。ところでコレ、どうすれば止まるのかな？
 Secondary rockets purged. Second cosmic-neco velocity achieved.
-Hmm. By the way, how am I supposed to stop these?
+Hmm. By the way, how do I stop these?
 \e
 
 WinMes11:
@@ -121,10 +121,10 @@ chara_type 205
 //ネコ一体につき１《Ｔ＜テラ＞とか、
 //どんだけ容量あるンだよアイツら。
 //１《Ｍ＜メガ＞の間違いじゃニャい？
-Man, the data cost per battle sure is pretty damn steep.
-You tellin' me each Neco is one terrabyte?
+Man, bandwidth per battle's pretty damn steep.
+You tellin' me each Neco is a whole terrabyte?
 Just how big are their damn file-sizes?
-Sure nobody just read one megabyte wrong?
+Sure it wasn't supposed to be 1MB?
 \e
 
 WinMes12:
@@ -145,8 +145,8 @@ chara_type 0
 //しょうがにゃいなあ、じゃ、ちょっと
 //二軒となりのコンビニ行ってくるぜ！
 Huh? You want me to go buy some hot tea?
-You just can't help it, can you? Aight, imma
-head out and buy some by the convenience store two blocks over.
+You just can't help it, can you? Aight, I'mma head out
+and buy some by the convenience store two blocks over!
 \e
 
 // 対有間都古　※ネコシリーズはwin_mes_table.txtで除外
@@ -155,9 +155,9 @@ chara_type 206
 //なんでノータイムで地震が来るの？
 //なんで平気な顔で裏回りとか中段打つの？
 //アタシの知ってる拳法とはちょっと違う気がするよ？
-How can you just quake n shake me out of the blue?
-How can you so calmly teleport behind me and slap me with a mid?
-Kinda doesn't feel like the sorta martial arts I know about, dontcha think?
+How can you just quake-n-shake me outta the blue?
+How can you so calmly warp behind me and slap me with a mid?
+Kinda don't feel like normal martial arts to me, that.
 \e
 
 // 対マシュ　※ネコシリーズはwin_mes_table.txtで除外
@@ -166,9 +166,9 @@ chara_type 202
 //マシュ君。同じアニマル属性として、
 //ひとつだけ忠告しておこう。
 //１０トン以上の鉄で殴られると、すごく痛い。
-Mash. You know we've both got the same
-wild animal blood in us, so lemme give ya some advice.
-If you hit someone with steel weighing over 10 tons, it goddamn hurts.
+Mash. Lemme tell you something useful,
+y'know, one dangerous beast to another.
+Getting hit by a 10-ton mass of steel fuckin' hurts.
 \e
 
 // 対セイバー　※ネコシリーズはwin_mes_table.txtで除外
@@ -181,16 +181,16 @@ chara_switchframe 794
 //こんな運命みたことねー！
 //一緒に『ニャヴァロン・カ・フェ』とか開こうぜ！
 Oh shit, look at that incredible beaut...
-She's blonde, got a holy sword, and comes from fairyland.
-That's what we call a main heroine.
-Talk about fate! Let's open up Meowalon-ka-Fae together, aight?
+She's blonde, got a holy sword, and comes from fairyland!
+That's what we call a main heroine!
+Talk about fate! Come, we're opening Meowalon-ka-Fae together!
 \e
 
 // 対ネコアルク　※ネコシリーズはwin_mes_table.txtで除外
 WinMes17:
 chara_type 100
 //いえ、初めて見る顔です、こんにゃヤツ。
-Oh, no. No way I'd have met someone like this before.
+Uh, no. Ain't seen this person before, ever.
 \e
 
 
@@ -201,11 +201,11 @@ chara_type 2
 //だが、街では既にＮＥＣＯ禁止法が敷かれていた。
 //悪法の元締め、総耶のアルカポネ・遠野グループを
 //倒すため、ネコは夜の町に飛び込むのであった。
-Neco-Arc commences her mission to invade the Meltyverse.
-However, the city has already put an Anti-Neco law into effect.
-In order to defeat the one behind this evil law,
-the Al Capone of Souya, the Tohno group, 
-this Neco heads out into the night once more.
+And so, Neco-Arc commenced her mission to conquer the Meltyverse.
+However, the city already had a Anti-Neco law put into effect.
+Thus, in order to defeat the Tohno Group, also known as the
+Al-Capone of Souya, and repeal this evil law,
+The brave Neco headed out into the night once more.
 \e
 
 // 対ネコアキハ（ストーリー専用）
@@ -220,9 +220,10 @@ chara_switchframe1 705
 //ん？　ならなんで勝ったのかって？
 //そりゃ同キャラ対戦に慣れてンだよ。
 We've got the same reach, same power, same moves...
-In ordinary circumstances, we'd be nothing more than tragic rivals destined to tie eachother.
-So then how come I won?
-Well, obviously it's cuz I'm used to mirror matches, duh?
+Under ordinary circumstances, we'd be nothing more 
+than tragic rivals destined to tie each other.
+Betcha wondering how come I won then?
+Obviously cuz I'm a pro at mirror matches, duh?
 \e
 
 // 対ネコシエル（ストーリー専用）
@@ -238,8 +239,8 @@ chara_switchframe1 555
 //そっかー。
 Sorry, Mash. I can't remember the last few minutes.
 Could you explain what happened?
-Wha-? You were too pre-occupied with your lunch from the convenience store?
-Alright, suuure.
+Wha-? You were too preoccupied with your lunch 
+from the convenience store? Shucks, I guess.
 \e
 
 // 99まで追加可能
@@ -260,9 +261,9 @@ chara_type 102
 //グレーテスト・プレイヤー１！
 //ネコの神か。神だった！
 //よーしベガスに乗り込もう、ぜ！
-You're the GREATEST PLAYER 1!
+You're the GREATEST PLAYER NO. 1!
 The God of Necos. GOD!
-We're heading to Vegas, let's gooo!
+Hey baby, Vegas here I come!!
 \e
 
 

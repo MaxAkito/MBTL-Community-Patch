@@ -37,8 +37,8 @@ chara_type 102
 //血を吸わないのかですって？
 //冗談、そこいらにいる三流と一緒にしないでくださらない？
 Why don't I drink your blood? Very funny. 
-I would appreciate it if you didn't mistake 
-me for those other third-rate vampires.
+I'd appreciate if you stopped treating
+me like some common vampire trash.
 \e
 
 // パーフェクト時は抽選されない Not used after a Perfect
@@ -58,7 +58,7 @@ chara_type 104
 //性能が落ちてるみたい。
 Perhaps I've stayed out in the sun too long. 
 You were so weak... The fact that this even qualified 
-as a fight must mean my performance is dropping.
+as a fight must mean my performance has dropped.
 \e
 
 WinMes07:
@@ -76,8 +76,8 @@ chara_type 100
 //ミサイルを打ち返すような感じ？
 //やったコトないけど。
 Ahh, that felt great! ♪
-Like that feeling you get standing under 
-a blue sky after deflecting a missile, you know? 
+Like the feeling you get standing under 
+the bright sky after deflecting a missile, you know? 
 Not that I've ever done that. 
 \e
 
@@ -115,7 +115,7 @@ chara_type 0
 //へへーん。どう、見直した？
 //志貴が本気になっても、もう負けないんだから！
 Heheh. So, impressed or what?
-Even if you get serious, Shiki, I'm not losing again ♪
+Even if you go all out, I'm not losing again ♪
 \e
 
 // 対ヴローヴ Versus Vlov
@@ -150,8 +150,8 @@ chara_type 101
 //貴女だけじゃなくなるわよ。
 Ugh, how annoying. It never ends!
 Just go away already, Ciel.
-Keep this up, and the casualties 
-won't stop at just you.
+Keep this up, and the collateral will
+eventually involve more people than just you.
 \e
 
 // 対ロア Versus Roa
@@ -160,7 +160,7 @@ chara_type 103
 //さようなら、わたしのはじめての人！
 //ねえ満足？　今度は血と言わず、
 //魂もろとも八つ裂きにしてあげたわ！
-Farewell, my very first! Were you satisfied?
+Farewell, my very first! So... satisfied?
 Not only did I spill your blood this time,
 but I tore you apart completely, soul included!
 \e
@@ -172,8 +172,8 @@ chara_type 103
 //人と混ざってはいるけど、血の質は幻獣クラスよ？
 //どうやって維持してたの？
 You're... a Japanese Mixblood?
-There's some human mixed in, but the quality of 
-your blood is on par with a Phantasmal Beast. 
+There's some human in you, but the quality of 
+your blood is on par with that of a Phantasmal Beast. 
 How do you maintain that?!
 \e
 
@@ -183,9 +183,9 @@ chara_type 102
 //もー、先に本気にならないでよねー！
 //わたし、まだお淑やかな吸血鬼！
 //そう簡単に暴走したりしませーん！
-Oh c'mon! Don't get all serious ahead of me!
+Oh, c'mon! Don't get all serious before I do!
 I'm still just a graceful little vampire!
-I'm not gonna go berserk thaaat easily!
+I'm not gonna run amok THAT easily!
 \e
 
 // アルクェイドＢシナリオ　対シエル（ストーリー専用） Arcueid B Story versus Ciel (story exclusive)
@@ -195,9 +195,9 @@ chara_type 900
 //志貴ー、わたしたちもブイなのだー、やろっ！
 //だから俺は戦闘不参加だって。
 //ふたりで仲良く戦ってください。
-Yaaaaay! Got one over her firsties!
-Shikiii, we should do the V for Victory together too!
-I told you already, I'm not a part of this battle.
+Yaaaaay! One aheadsies of you, Ciel!
+Shiki~, we should do the V for Victory together too!
+I already told you I'm not gonna fight.
 Please, you two go have a nice fight without me.
 \\@LINE_CG@<0, 0, -128,0,112,32, 0, 96,112,32>\\@LINE_CG@<1, 2, -128,0,112,32, 0,160,112,32>
 \e
@@ -213,7 +213,7 @@ chara_switchframe 570
 //………ふーん。なんで？
 Yup, that's that.
 By the way, what was your name again?
-Wait, Shiki, you know? You know, huh...
+Wait, Shiki, you knew? You knew, huh...
 Hmmmm, how come?
 \e
 

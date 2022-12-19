@@ -11,10 +11,10 @@ chara_switchframe1 679
 //……戦いが終わった時はこう言うのが
 //礼儀だとネコアルクさんに教わりましたが……
 //ど、どうでしょうか？
-'I'm still raring to go, come at me!'
-That's what Neco-Arc taught me was proper to say
-after a battle has ended.
-H-How was it?
+'I'm still raring to go! Come at me!'
+Neco-Arc taught this is what's proper
+to say at the end of a fight.
+W-What do think?
 \e
 
 WinMes01:
@@ -22,7 +22,7 @@ chara_type 7
 //損害は軽微でした。
 //補充なしで次の戦闘に移行できます。
 Damages minimal.
-Proceeding to next battle without replenishment.
+Proceeding to next battle without resupplying.
 \e
 
 WinMes02:
@@ -38,7 +38,7 @@ WinMes03:
 chara_type 0
 //ふぅ、驚きの連続です！
 //後ほど、所感などまとめさせていただければ！
-Whoa, what a string of surprises!
+Phew... what a string of surprises!
 I'll have to organize my thoughts about it sometime later.
 \e
 
@@ -47,8 +47,8 @@ chara_type 1
 //時代が変われば武器も変わるのは
 //当然ですが……たいへん得がたい
 //戦闘経験を積ませていただきました。
-It's only natural that the instruments of war
-would change with each passing era, but... you've given
+I suppose it's only natural that the instruments of war
+would change with the era... That said, you've given
 me quite the unforgettable combat experience, thank you.
 \e
 
@@ -70,9 +70,8 @@ chara_type 5
 //マスター不在ですが、わたしも経験豊富なので！
 //マシュ・キリエライト、
 //パワフルに、がんばります！
-Though my Master is absent, I'm still plenty experienced myself!
-Mash Kyrielight,
-On duty, powerfully!
+Even without a Master, I'm still plenty experienced on my own!
+Mash Kyrielight, on duty, powerfully!
 \e
 
 WinMes07:
@@ -80,9 +79,9 @@ chara_type 107
 //なんであれ、未知の事を学べる事は幸福です。
 //わたしの取り柄はそれくらいなので……
 //ご協力、ありがとうございました！
-No matter what it may be, it's always a joy to learn about things I didn't know.
-That's pretty much all I'm good for...
-I'm very thankful for your cooperation in this matter!
+It brings me happiness to learn something new, 
+regardless of what it may be. I think that's what I excel at,
+if nothing else. Thank you so much for your cooperation!
 \e
 
 // 対死徒 Versus Dead Apostles
@@ -91,9 +90,8 @@ chara_type 124
 //ヒトでありながら、
 //人類の脅威として活動する……
 //対話する事は、できないのでしょうか……
-Though human,
-your actions threaten mankind nonetheless.
-It appears we cannot simply talk this over.
+Your actions threaten mankind even though you are human yourself...
+I suppose we cannot simply talk this over...?
 \e
 
 // 対死徒 Versus Dead Apostles
@@ -103,9 +101,9 @@ chara_type 114
 //吸血種は存在しますが……
 //これほど強力、いえ、独自性を持った
 //種は記録されていません……。
-There are bloodsuckers in our world too...
-But there aren't any records of them being this
-powerful, no, this unique...
+There are bloodsuckers in my world too...
+Even so, there aren't any records of any of them 
+being this powerful--or rather, this distinctive...
 \e
 
 // 対セイバー Versus Saber
@@ -115,9 +113,9 @@ chara_type 1
 //多くの物語ではなくたった一つの物語から
 //やってきた方なのですね。
 //とても、眩しいです。
-You're someone who has arrived from a world separate to Chaldea,
-someone originating from a single story, instead of many.
-That is so very precious.
+I see, so you're someone who has arrived from a world 
+separate to Chaldea's. Someone originating from a single story,
+instead of many. That is so very precious.
 \e
 
 // 対ネコアルク Versus Neco-Arc
@@ -127,7 +125,7 @@ chara_type 3
 //ありがとうございました！
 //次回もよろしくお願いします、
 //ネコアルクさん！
-I very much appreciate you allowing me
+I very much appreciate you allowing me to
 accompany you on your warm-up sessions!
 I look forward to next time as well,
 Neco-Arc!
@@ -141,10 +139,10 @@ chara_type 4
 //なるほど。翡翠さんからは学ぶべき事が
 //たくさんありましゅ……
 //P: たくさんありましゅ…… seems to be some weird Mash pun...?
-How to think like a servant,
-to provide routine support, to help out...
-I see. There are many things I ought to learn
-from Hisui.
+How to think like a servant.
+How to provide routine support. 
+How to give assistance...
+I see. There are many things that Hisui could teach me.
 \e
 
 // 対ロア（ストーリー専用） Versus Roa (story only)
@@ -159,9 +157,10 @@ chara_switchframe1 585
 //これで街に潜む吸血鬼は―――え、
 //床にゲートが！？　きゃあああーーー！？
 Unlike the first Dead Apostle I encountered,
-you were a real dangerous opponent, what with having mastered all those varieties of Magecraft.
+you were a real dangerous opponent, given your mastery
+of all those different varieties of magecraft.
 With this, the Dead Apostle lurking in the city is def-- wha--
-There's a gate below?! Kyaaaaaaaaaaa!?
+There's a gate below?! Eeeeeek!?
 \e
 
 // 対ヒスコハ（ストーリー専用） Versus Maids (story only)
@@ -172,9 +171,10 @@ chara_switchframe 270
 //驚きました、お二人ともお強いのですね！
 //……え？　普段はとても戦えない？
 //今夜だけ限定の戦闘力……なるほど。
-I'm surprised, the two of you are quite strong!
+How surprising, the two of you were quite strong!
 Huh? You usually don't fight very much at all?
-You were only strong tonight in particular... I see.
+So, you were only this strong tonight in particular.
+I see...
 \e
 
 // 対死徒ノエル（ストーリー専用） Versus DA Noel (story only)
@@ -184,10 +184,10 @@ chara_type 6
 //星の神秘による力でもない……
 //ただ●＜そこにいるだけ＞で世界を侵す毒。
 //これが、死徒と呼ばれる吸血鬼なのですね。
-Power borne not of magecraft, nor of science,
-nor even of the planet's arcanity...
-But a poison which infringes upon the world by presence alone.
-So that's what it means to be one of the Dead Apostle type vampires.
+Power born not from magecraft or science,
+nor even from the planet's arcanas...
+A poison which intrudes upon the world by its presence alone.
+So that's what the Dead Apostle-type vampires are.
 \e
 
 
@@ -200,9 +200,9 @@ chara_switchframe 630
 //わたしたちの世界と法則は違うようですが、
 //戦闘に支障はありません。
 //カルデアの代表として、頑張ります！
-Vampires in 2010s Japan...
-It appears the laws governing this world is different from mine,
-but I feel no hindrances in my ability to fight. 
+Japan in the 2010s... Vampires...
+Though it appears the laws governing this world are different
+from mine, it doesn't impede on my ability to fight.
 Chaldea's representative, on duty!
 \e
 
@@ -215,10 +215,11 @@ chara_switchframe 590
 //念のため、あと数回衝撃を加えて胃洗浄も……
 //ネコアルクさん！？
 //そんなに急いでどこに行かれるのですか！？
-Thank god. I've managed to extract all venom!
-But just for good measure, I'll perform some gastric lavage with these extra few blow--
+Thank God. All venom neutralized!
+But just for good measure, 
+I'll perform some gastric lavage with extra few blow--
 Neco-Arc?!
-Just where are you heading that you'd hurry off so quickly?
+Where are you off to in such a hurry?!
 \e
 
 // 対ネココハク（Ｂシナリオストーリー専用） Versus Neco-Kohaku (B story only)
@@ -230,10 +231,10 @@ chara_switchframe 435
 //さすがネコアルクさん、脅威の回復力です！
 //では、地上に戻りましょう。
 //お屋敷の主人にご挨拶されるのですよね？
-Expulsion of venom complete!
+Expulsion of venom, complete!
 What incredible resilience! I expected nothing less of Neco-Arc!
-Alright, then let's get back to the ground.
-You've been greeted by the master of this mansion already, right?
+Alright, let's get back to the surface.
+We SHOULD greet the master of this mansion, shouldn't we?
 \e
 
 // 99まで追加可能
@@ -246,7 +247,7 @@ chara_type 3
 //３連勝、お見事です！
 //今日はノッているとみました！
 Great work on the three straight wins!
-I can see you're doing better than ever today!
+I see you're in great form today!
 \e
 
 WinMes10WinStreak00:
@@ -257,8 +258,8 @@ chara_switchframe 615
 //わたしも緊張してきました……
 //深呼吸、深呼吸……
 //さあ、更なるレコードを築きましょう！
-Ten straight wins is a big deal!
+Ten straight wins is no small feat!
 I'm getting nervous as well...
 Deep breaths, deep breaths...
-Okay, let's keep going for ever grander records!
+Okay! Let's go for even higher records!
 \e

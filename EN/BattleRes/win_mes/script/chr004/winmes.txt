@@ -15,7 +15,7 @@ chara_type 0
 //やった、わたしの大勝利ですね！？
 //よーし、翡翠ちゃん抜きでも負けませんよー！
 An overwhelming victory for me! 
-Yaaay, even without Hisui I'm invincible!
+Yaaay, even without Hisui, I'm invincible!
 \e
 
 WinMes02:
@@ -26,7 +26,7 @@ chara_switchframe 230
 //目を覚ましたらお茶をご用意しますから、
 //しばらく眠っていてくださいな♪
 We should be trying to get along instead of fighting. 
-I'll prepare some tea for when you regain consciousness
+I'll prepare some tea for you when you regain consciousness
 so feel free to sleep as long as you need to! ♪
 \e
 
@@ -44,7 +44,7 @@ chara_type 1
 //次はぜひ正門からいらっしゃってくださいまし。
 //その時は精一杯のおもてなしをいたしますから。
 Please use the main entrance next time. 
-That way I might give you an even warmer welcome.
+That way I can give you an even warmer welcome.
 \e
 
 WinMes05:
@@ -53,7 +53,7 @@ chara_type 102
 //遠野家に仕える侍女ですもの、
 //この程度の嗜みは心得ているんです。
 Surprised? 
-I am a maid under the employ of the Tohno family, 
+I AM a maid under the employ of the Tohno family, 
 you know. We all have some degree of learning in
 the etiquette of battle.
 \e
@@ -72,9 +72,9 @@ chara_type 1
 //良薬は口に苦し、教訓は胸に痛しと申します。
 //これに懲りて、次からはお行儀よくなさって
 //くださいね。
-The best medicine is bitter... The truth hurts... 
-So now that you have learned your lesson, 
-I expect to see an improvement in your behavior.
+The best medicine is bitter and the truth hurts... 
+Now that you have learned your lesson, 
+I expect to see an improvement in your behavior for next time.
 \e
 
 WinMes08:
@@ -114,9 +114,9 @@ chara_type 102
 //それでは約束通り、監視カメラの増強と
 //志貴さんのお薬代をアップさせて下さいね♪
 Heehee. Seems I've won this time, Lady Akiha. 
-Don't forget our agreement. I get to install more 
-surveillance cameras and will receive a larger budget 
-for Shiki's medicines! ♪
+Don't forget our agreement; I get to install more 
+surveillance cameras and I will receive a larger budget 
+for Shiki's medicines ♪
 \e
 
 // 対翡翠 Versus Kohaku
@@ -127,7 +127,7 @@ chara_type 1
 //任せて下さいね♪
 Looks like I win, Hisui.
 As promised, I'll take over the 
-cleaning duties of the mansion now! ♪
+cleaning duties of the mansion now ♪
 \e
 
 // 99まで追加可能
@@ -142,7 +142,7 @@ WinMes3WinStreak00:
 chara_type 0
 //３連勝、おみごと～♪
 //本日はご馳走と致しましょう！
-Well done! That's three straight wins! ♪
+Well done! That's three straight wins ♪
 I'll prepare a feast in celebration!
 \e
 

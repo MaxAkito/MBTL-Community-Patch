@@ -4,7 +4,7 @@ WinMesScript
 WinMes00:
 chara_type 2
 //あの、お怪我はなかったでしょうか……？
-Um, I hope you are not injured?
+Um, I hope you are not injured...
 \e
 
 
@@ -14,7 +14,7 @@ chara_type 2
 //その、体に触れられるのは苦手なものですから、つい……。
 I am terribly sorry... It's just... 
 I'm not very comfortable with 
-others touching me so I just...
+others touching me, so I just...
 \e
 
 
@@ -22,8 +22,8 @@ WinMes02:
 chara_type 101
 //真剣勝負との事でしたので、
 //出来るかぎり努力させていただきました。
-You seemed as if you wanted an earnest fight,
-so I saw it fit that I put in my all.
+You seemed as if you wanted an real fight,
+so I deemed it appropriate that I give it my all.
 \e
 
 
@@ -51,7 +51,7 @@ chara_type 1
 //その、あまりに激しいものですから、
 //こちらも必死で抵抗してしまいました。
 I'm terribly sorry. 
-It's just... it was all just so intense,
+It's just... you came at me so intensely,
 I felt it necessary to defend myself.
 \e
 
@@ -61,7 +61,7 @@ chara_type 101
 //……はあ、怖かった。
 //お願いですから、もうこのような真似はしないでください。
 That was frightening...
-I must ask that you do not do that again.
+I must ask that you don't do that again.
 \e
 
 
@@ -73,7 +73,7 @@ chara_type 0
 //これでよろしかったのでしょうか……？
 //何分、荒事は不得手なものですから。
 Was that satisfactory...?
-I'm afraid this kind of rough-housing is not my strong point.
+I'm afraid this sort of rough-housing is not my forte.
 \e
 
 WinMes09:
@@ -102,7 +102,7 @@ WinMes11:
 chara_type 1
 //真剣勝負との事でしたので、全力を尽くしました。
 //ご満足いただけたでしょうか、秋葉様。
-You seemed as if you wanted an earnest fight, so I 
+You seemed as if you wanted an real fight, so I 
 gave it my all. Was it to your liking, Lady Akiha?
 \e
 
@@ -113,8 +113,8 @@ chara_type 100
 //なんかすごく厭な殺気を感じたものだから、
 //全力で迎撃してしまいました。
 I'm sorry, Kohaku... 
-I sensed a quite unpleaseant bloodlust coming from you.
-I had no choice but to repel you with all my might.
+There was this very unpleasant bloodlust coming off of you.
+I had no choice but to give it my all in fending you off.
 \e
 
 // 対アルクェイド Versus Arcueid

@@ -70,7 +70,7 @@ Only your bare skull may tell us which.
 WinMes08:
 chara_type 1
 //人違いだ。他をあたれ。
-You have the wrong man. Find someone else.
+You have the wrong man. Look elsewhere.
 \e
 
 // 対アルク Versus Arcueid
@@ -102,7 +102,7 @@ chara_type 1
 Unfortunately, repentance ill befits me.
 I have neither regret, nor fitting punishment.
 If my reckoning is your wish, 
-you must first have the ability to kill me.
+come back when you have the ability to kill me.
 \e
 
 // 99まで追加可能

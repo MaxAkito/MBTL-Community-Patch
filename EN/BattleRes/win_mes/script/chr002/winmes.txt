@@ -5,9 +5,9 @@ WinMes00:
 chara_type 1
 //退屈な人。
 /優劣は明らかですから、これ以上続ける必要はありません。
-How tedious you are...
+How tedious...
 My superiority has been clearly demonstrated. 
-There's no need to continue this any further.
+There's no need for this to go on any further.
 \e
 
 WinMes01:
@@ -22,8 +22,8 @@ WinMes02:
 chara_type 102
 //なんだ、私もけっこう戦えるじゃない。
 //これなら反転する必要もないみたいね。
-Would you look at that. I fight quite well, after all. 
-It appears it won't even prove necessary for me to Invert.
+Would you look at that. I fight quite well, don't I? 
+It seems there is no need for me to Invert for this one.
 \e
 
 WinMes03:
@@ -42,7 +42,7 @@ chara_type 101
 //結果は未来永劫変わらないでしょうけど。
 Ooh, you look dissatisfied. 
 Do you perhaps wish to try again? 
-The outcome will remain the same for all eternity, however.
+Just know that the outcome will remain the same for all eternity, however.
 \e
 
 WinMes05:
@@ -50,7 +50,7 @@ chara_type 0
 //こんなところね。
 //ふふ、ちょっとはしたなかったかしら？
 That will have to do.
-Hah, perhaps I acted a bit immodestly?
+Hehe, perhaps that was a bit immodest of me?
 \e
 
 WinMes06:
@@ -59,7 +59,7 @@ chara_type 104
 //そのあたり、骨身に染みたようですね。
 Battle isn't about power. 
 It's about having technique and a keen mind. 
-I'm sure you've grasped that well enough by now.
+But I'm sure you've grasped that well enough by now.
 \e
 
 WinMes07:
@@ -67,9 +67,9 @@ chara_type 1
 //……滑稽ね、私。
 //こんな優劣を決めたところで、
 //欲しいものは何一つ手に入らないのに
-How silly of me.
-Just what was I thinking of gaining 
-from proving my superiority like this?
+God, I'm being so silly.
+Proving my superiority like this
+isn't going to give me what I want.
 \e
 
 WinMes08:
@@ -78,7 +78,7 @@ chara_type 2
 //どう、週に一度ほどお相手をして下さらない？
 Thank you. This has proven a great diversion.
 Would you perhaps consider serving as my 
-opponent once a week or so? How about it?
+opponent once a week or so? Well?
 \e
 
 WinMes09:
@@ -95,15 +95,15 @@ chara_type 1
 //から安心してください。あ、けどあやしい
 //薬漬けにされないよう注意なさってね？
 Oh dear, those injuries look nasty. Don't worry, 
-I'll have someone see to your wounds right away. 
-Oh, but be careful. She has a habit of over-medicating.
+I'll have someone see to them right away. 
+Oh, but just a quick warning; she has a habit of over-medicating.
 \e
 
 WinMes11:
 chara_type 2
 //実に有意義な時間でした。
 //――――それでは、ごきげんよう。
-Well, that was a productive use of my time.
+Why, quite the productive use of my time.
 Do take care.
 \e
 
@@ -112,9 +112,8 @@ WinMes12:
 chara_type 0
 //ほら、私だってやれば出来るでしょう兄さん？
 //今度からは私にも相談してくださいね。
-See, Shiki? I am quite able in battle too,
-am I to put my mind to it. Promise to ask me 
-for help the next time you need it, understood?
+See, Shiki? I am quite capable when I to put my mind to it. 
+Promise to ask me for help the next time you need it. Understood?
 \e
 
 // 対志貴 Versus Shiki
@@ -124,8 +123,8 @@ chara_type 103
 //今度という今度は許しませんっ。
 //しばらく離島で反省なさって貰います！
 Why do you keep leaving the mansion without permission?!
-This is the last time! For now, you'll have to spend some 
-time on a secluded island until you've reflected on your actions!
+This is the last time! Until you've reflected on your actions,
+you'll just have to spend some time on this secluded island!
 \e
 
 // 対ヒスコハ Versus Maids
@@ -155,8 +154,8 @@ chara_type 1
 //中学生になったら浅上に入学するんだから、
 //もっと礼儀正しく……え？
 //浅上には行かないですって？
-For what it's worth, you're a daughter of the Arima family, 
-no? Once you're in middle school, you'll be attending 
+For what it's worth, you ARE part of the Arima family, no?
+Once you're in middle school, you'll be attending 
 Asagami Academy, so make sure you act more refine--
 What? You don't plan on attending Asagami Academy?!
 \e
@@ -181,7 +180,7 @@ chara_type 2
 //あ……いえ、失礼。
 //興味がおありならぜひ当家にいらしてください。歓迎いたします。
 Ten wins?! That's amazing! *ahem* Excuse me. 
-What I meant to say was, you would be most 
+What I meant to say was; you would be most 
 welcome at our mansion should you be so interested.
 \e
 

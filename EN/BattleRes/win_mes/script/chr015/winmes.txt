@@ -148,9 +148,9 @@ chara_switchframe 535
 //……まあ、まだ何かありそうだったけど、
 //私には見せないか。
 Numeromancy-based lightning together with vampiric strength.
-Despite appearances, he was quite the orthodox Dead Apostle.
-Still, feels like there was something more to him.
-He wouldn't show it to me, though.
+You wouldn't guess it, but he was quite the orthodox Dead Apostle.
+Still... it feels like there was something more to him.
+It seems he wouldn't show that to me, though.
 \e
 
 // 対ネコアルク
@@ -160,8 +160,8 @@ chara_type 101
 //宝石の爺さんの仕業かなあ。
 //どこの世界の邪神よ、今の。
 What an amazing creature...
-Is this the work of the ol' jewel man?
-And just what world did this evil god come from, huh?
+Could this be the work of the ol' jewel man, perhaps?
+Just what world did this evil god come from, huh?
 \e
 
 // 対ロア（ストーリー専用） Versus Roa (story only)
@@ -171,7 +171,7 @@ chara_type 4
 //不老不死の秘術とやらを
 //聞き出さなきゃいけなかったのにぃぃーー！
 //グッバイ、私のボーナス！
-Oh, oops. I killed him!?
+Oh, oops. I killed him?!
 I still needed to interrogate him about his
 secret to immortality or whatever! Nooooo!
 Farewell, my dear bonus!
@@ -185,8 +185,8 @@ chara_type 5
 //上級死徒のポテンシャルなのに、
 //戦術は駆け出し同然なんだもの。親近感、湧いちゃった。
 Drats, looks like she got away...
-What was that? Some Ancestor's hidden daughter?
-She's got the potential of a Greater Dead Apostle
+What was that? Some reclusive daughter of an Ancestor?
+She's got the potential of a Greater Dead Apostle,
 but she fights like a total newbie. 
 It almost reminds me of myself...
 \e
@@ -214,7 +214,7 @@ chara_switchframe 298
 //負けなしで勝ち逃げする、がいちばん好きよ、私。
 Congrats on your ten straight wins!
 But you still wanna keep going, right?
-Nothing wrong with wanting to keep going for the wins.
+Nothing wrong with wanting to keep going.
 That said, personally I'd rather run away with the win.
 That way, I never lose.
 \e

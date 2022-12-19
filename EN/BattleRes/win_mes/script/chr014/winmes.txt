@@ -9,8 +9,8 @@ chara_switchframe 520
 //もっと遊びたかったのになぁ……
 //なーんて、言うと思った？
 //クソザコに割く時間なんてあるワケないでしょ？
-Aww, dead already?
-I wanted to play with you some more...
+Awww, dead already?
+But I wanted to play with you some more...
 Hah! As if.
 Really think I'd have time to waste on trash like you?
 \e
@@ -24,8 +24,8 @@ chara_switchframe 665
 //何もかも無駄になっちゃったね？
 //あはは、必死に抵抗してくれたのに、カワイソー！
 Would you look at that, my injures have healed already! \sf000
-Seems your efforts--even your entire life up until
-this point--were all for nothing, doesn't it? Ahaha! 
+It was all pointless! Not only your last efforts,
+but practically your whole life up until now! Ahaha! 
 You struggled so pathetically too, you poor little thing!
 \e
 
@@ -49,7 +49,7 @@ chara_type 6
 //ふふ……そのお願いだけは叶えてあ・げ・る。
 Wow, and I haven't even been a vampire all that long.
 Doesn't the shame just wanna make you disappear?
-Hehe... that, at least, I can arrange for you \sf000
+Hehe... that, at least, I can arrange\sf000for\sf000you\sf000
 \e
 
 WinMes04:
@@ -59,7 +59,7 @@ chara_type 1
 //強くなりすぎちゃうと、
 //娯楽もワンランク上にしないとダメなのかぁ……
 Ugh, boooring...
-Before, any kind of battle would almost made my heart jump
+Before, battle would almost made my heart jump
 out of my chest. But now, well... I guess once you get 
 too strong, you need a higher class of entertainment.
 \e
@@ -69,7 +69,7 @@ chara_type 8
 //どう？　わたしの原理は望郷の鐘。
 //幸福だった頃の記憶を呼び起こす、
 //オトナになるほど残酷な聖夜の鐘よ。
-How's it feel? My Principle's the 'Bells of Nostalgia'.
+How's it feel? The 'Bells of Nostalgia' are my Principle.
 Christmas bells that conjure up memories of happier times.
 They are as merciless as the feeling of growing up.
 \e
@@ -82,7 +82,7 @@ chara_type 106
 Hmph, you're not half bad. 
 But I've lost my patience. I'll let you go for now. 
 Don't worry, though. 
-In seven days I'll exact sweet revenge upon you \sf000
+In seven days I'll exact sweet, sweet revenge on you \sf000
 \e
 
 WinMes07:
@@ -94,7 +94,7 @@ chara_switchframe 360
 //……忘れないよう、メモメモっと……
 Hmph...
 I'll admit, this fight taught me an important lesson.
-Better note it down so I don't forget...
+Better not forget. Into the notes it goes...
 \e
 
 //対シエル Versus Ciel
@@ -104,9 +104,9 @@ chara_type 2
 //不死身なのがアナタの取り柄で嫌味で贖罪なのに。
 //ほら、早く起きて？
 //早く起きて、もっとわたしに殺させてくれるんでしょう？
-Huh? That's odd... I mean, really. 
-Being unkillable was all you were good for! 
-Why you were so annoying! It was your atonement! 
+Huh? That's odd... I mean, really.
+Being unkillable was all you were good for!
+It's what I hated about you! It was your atonement! 
 So hurry up already. Wake up! 
 Aren't you supposed to let me kill you some more?!
 \e
@@ -152,8 +152,9 @@ WinMes12:
 chara_type 4
 //ちょっと、近寄らないでよね！
 //仲間認定とかしたら、マジ殺すから、ホント！
-Hey! You better get away from me!
-If you ever see me as a friend I'll actually kill you, for real!
+Hey! Get away from me!
+If you start seeing me as part of your friends,
+I'm going to kill for you real! Seriously!
 \e
 
 // 対志貴（ストーリー専用）  Versus Shiki (story only)
@@ -165,7 +166,7 @@ chara_type 100
 //アナタに同情してあげてたのよ？
 That's right, this whole thing is just a dream...
 A nightmare of my very own creation.
-You should be grateful, Shiki. 
+You should be grateful, Shiki.
 In a way... I'm showing you mercy.
 \e
 
@@ -202,7 +203,7 @@ WinMes3WinStreak00:
 chara_type 8
 //うふふ。３連勝、３連勝～☆
 //勝つのって気持ちいいよねぇ？
-Heehee. Three wins for me! 
+Heehee. Three wins for me! ☆
 Victory feels sooo good!
 \e
 

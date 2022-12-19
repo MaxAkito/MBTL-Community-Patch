@@ -3,6 +3,8 @@ WinMesScript
 
 WinMes00:
 chara_type 3
+//《処理＜こと＞は済みました。
+//武装各種、基底状態に移行。次の案件に向かいます。
 Elimination complete.
 Transitioning all armaments to ground state. 
 Proceeding to next mission.
@@ -10,45 +12,63 @@ Proceeding to next mission.
 
 WinMes01:
 chara_type 3
+//普段の私は技術と経験で戦いますが、
+//この武装では力で押し通ります。
+//貴方程度では止められません。
 Usually, I like to rely on technique and experience.
-But with these armaments, force alone is enough.
+However, with these armaments, force alone is sufficient.
 At your level, you could never stop me.
 \e
 
 WinMes02:
 chara_type 0
-You've been completely outclassed. Pathetic.
-I've strengthened my physical power using magecraft. 
-I have to, since I'm handling these heavy weapons 
-with my feminine body.
+//完全に力負けですね。情けない。
+//こちらの腕力は魔術によって強化済みです。女の身で
+//重火器を扱うのです、それぐらいはしています。
+You've been completely overpowered. Pathetic.
+My physical strength has been enhanced with magecraft.
+Considering I'm handling such heavy weapons with my 
+feminine body, I very much have to do so.
 \e
 
 WinMes03:
 chara_type 1
-This mallet is a horn of purity which has endured 
-for millenia. You should be honored. Under normal 
-circumstances, it would never be used on the likes of you.
+//この鉄槌は千年を生きた純潔の角。
+//光栄に思いなさい。
+//本来、貴方などに使うべき《聖典＜もの＞ではありません。
+My instrument of justice is a horn of purity which has endured 
+for millennia. You should be honored. Under normal 
+circumstances, Scriptures would never be used on the likes of you.
 \e
 
 WinMes04:
 chara_type 1
 chara_type_sub 3
 chara_switchframe 450
+//《焼死＜ブレイズ＞、《出血死＜ブレイド＞、《衝突死＜ブレイク＞。
+//この三つが今の私の主武装です。
+//お気に召しましたか？
 Blaze, Blade, Break.
-These three are my current primary armaments.
+These three are my current primary weaponry.
 Were they to your liking?
 \e
 
 WinMes05:
 chara_type 203
+//私の魔術回路は貴方たちとは桁が違う。
+//エンジンで例えるなら、小型バイクと
+//ロケットほどの差です。太刀打ちできると思いましたか？
 My magical circuits are on a different level to yours.
-It's like comparing the engines of a motorcycle to
-those of a rocket. Did you really think you stood a chance?
+It's like comparing the engine of a motorcycle to
+that of a rocket. Did you really think you stood a chance?
 \e
 
 // 対アルクェイド
 WinMes06:
 chara_type 3
+//こちらの励起状態を見誤りましたねアルクェイド。
+//貴方が能力の底上げをするより早く、
+//私がその心臓を撃ち抜きました。
 You underestimated MY state of excitation, Arcueid.
 As such, I managed to gouge your heart out faster 
 than you were able to reach your full potential power.
@@ -59,10 +79,14 @@ WinMes07:
 chara_type 104
 chara_type_sub 102
 chara_switchframe 490
-I know you're not a bad person, but unfortunately
-you've been mixed up in this incident regardless.
+//善人であっても、
+//事件の渦中にいるのは間違いありません。
+//しばらく夜の活動は控えるように。
+//―――いいですね？
+I know you're not a bad person, but unfortunately,
+you've been wrapped up in this incident regardless.
 I'd recommend laying low for a few nights.
-You got that?
+Am I clear?
 \e
 
 // 対秋葉 Versus Akiha
@@ -70,26 +94,37 @@ WinMes08:
 chara_type 103
 chara_type_sub 105
 chara_switchframe 600
-Obviously I ought to eliminate you here and now, but...
-I'll choose to believe in your humanity. Or rather, 
-your self-dignity. Because in that respect, above all 
-else, you're the strongest person I know, Akiha.
+//……今のうちに処理すべきなのは明白ですが……
+//貴女の人間性、いえ、自尊心にかけてみましょう。
+//その点において、
+//貴女は他の誰よりも強いようですから、秋葉さん。
+It's clear I ought to eliminate you here and now...
+However, I'll choose to believe in your humanity. Or rather, 
+your self-dignity. Because at least in that respect,
+you're the strongest person I know, Akiha.
 \e
 
 //対暴走アルクェイド Versus Red Arcueid
 WinMes09:
 chara_type 1
+//純然たるパワー勝負でしたね。
+//もっとも、貴女はまだ本性を、
+//私はまだ第七聖典を全駆動させていません。
+//どちらが上かは、その時に。
 Now that was a battle of pure power versus power.
-That said, you've yet to show your true nature,
+That said, you've yet to show me your true nature,
 just as I've yet to deploy the entirety of the 
 Seventh Scripture. We'll see which one of us 
-is stronger when that time comes.
+is actually stronger when such a time comes.
 \e
 
 //対マーリオゥ Versus Mario
 WinMes10:
 chara_type 203
-Creatura's Piano Machine...
+//クレアトゥーラの《鍵盤織機＜ピアノマシン＞……
+//司祭代行ともあろう方が、
+//ずいぶんと古くさい武器を使うのですね。
+The Piano Machine of Creatura...
 To think the esteemed Acting Presbyter
 would be wielding such an old-fashioned weapon...
 \e
@@ -99,15 +134,22 @@ WinMes11:
 chara_type 1
 chara_type_sub 0
 chara_switchframe 600
+//代行者としての最低水準は維持しているようですね。
+//いえ、最近は以前よりわずかに技が鋭い……
+//シスター・ノエル。何か、モチベーションを
+//向上させるものを見つけたのですか？
 It appears you're at least keeping yourself at the minimum 
-standard befitting of an Executor. Actually, you've even 
-gotten a bit sharper lately. Did you perhaps discover some 
-source of motivation to improve, Sister Noel?
+standard befit of an Executor. Actually, you've even 
+gotten a bit sharper lately. Perhaps you've found 
+some a source of motivation to improve, Sister Noel?
 \e
 
 //対死徒ノエル Versus Dead Apostle Noel
 WinMes12:
 chara_type 1
+//―――正しさは、力でのみ証明される。
+//死徒ノエル。
+//貴女の弱さを、断罪しました。
 Might makes right.
 Dead Apostle Noel...
 Your weakness... has come to judgment.
@@ -116,15 +158,21 @@ Your weakness... has come to judgment.
 // 対ロア Versus Roa
 WinMes13:
 chara_type 1
+//今度こそ終わりです、アカシャの蛇。
+//第七聖典は貴方の魂を打ち砕いた。
+//歪んだ教義の果ては、光のない地の底と知りなさい。
 This is the end, Serpent of Akasha.
 I've shattered your soul with the Seventh Scripture.
-Your twisted beliefs have led you only to the depths of darkness.
+The only place your twisted beliefs have led you
+is the depths of darkness.
 \e
 
 // 対吸血鬼 Versus Vampire
 WinMes14:
 chara_type 203
-I have no sympathy or understanding to spare for inhuman 
+//ヒトならざるものに掛ける温情も、理解もありません。
+//貴方の死は、一行ほどの記録として処理しましょう。
+I have neither sympathy nor understanding to spare for inhuman 
 creatures such as you. Your death will amount to no more 
 than a single line of text in my report.
 \e
@@ -136,8 +184,12 @@ chara_type_sub 203
 chara_switchframe 130
 chara_type_sub1 204
 chara_switchframe1 760
+//今のが第五の魔法使い……
+//私とは似ているようで正反対です。
+//私は破格の魔力生成量、彼女は規格外の加速量……
+//という事ですか。
 So that was the Fifth Magician...
-She and I are somewhat alike, yet also complete opposites.
+The two of us appear similar, but we're complete opposites.
 I boast an unprecedented production of magical energy,
 while she boasts an anomalous acceleration of it. 
 Something like that.
@@ -154,15 +206,21 @@ chara_switchframe1 730
 //いいから動かない。動いた分苦しみますよ。
 //え、何をする気だ、ですか？
 //ふふふ。それはご想像にお任せします。
-Line up and 
+You there, stand at attention. Now, close your eyes.
+And stop moving, would you? It will only make you suffer more.
+Curious about what I'm about to do, are we?
+Hehehe... I'll leave that to your imagination.
 \e
 
 // 対マーリオゥ（ストーリー専用） Versus Mario (story only)
 WinMesArcadeWin17:
 chara_type 203
+//失礼、先を急ぎます。
+//治療はお付きの代行者に。
+//―――私を気遣っての忠告には、感謝します。
 Excuse me, but I have to hurry.
-I'll leave your wounds to the Executors you have with you.
-That said, I'm grateful you'd go out of your way to warn me.
+The Executors you brought with you can take care of your injuries.
+That said, I do appreciate you going out of your way to warn me.
 \e
 
 
@@ -173,14 +231,19 @@ That said, I'm grateful you'd go out of your way to warn me.
 
 WinMes3WinStreak00:
 chara_type 204
-Three straight wins. Not that its anything special.
-It's true that I'm in good condition though. 
+//３連勝。特に嬉しくはありませんが、
+//調子が良いのは確かですね。当然の結果ですが。
+Three straight wins. It's not much to celebrate,
+but it's true that I'm in good condition.
+Obviously this is how it'd turn out.
 \e
 
 WinMes10WinStreak00:
 chara_type 0
 chara_type_sub 4
 chara_switchframe 330
+//１０連勝……そうですか、１０連勝……ふふ。
+//これはもうチャンピオンと言っていいのでは？
 Ten whole wins... I see, ten whole wins... Hehe.
 I think I'm worthy of being called a champion, don't you?
 \e

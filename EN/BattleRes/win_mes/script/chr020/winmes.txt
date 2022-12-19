@@ -145,6 +145,29 @@ How to give assistance...
 I see. There are many things that Hisui could teach me.
 \e
 
+// 対牛若丸
+WinMes13:
+chara_type 1
+//近代都市であっても、
+//牛若丸さんの身のこなしは華麗ですね！
+//ビルの側面を走る……
+//わたしもやってみたいです……
+Even in this modern city,
+your movements are so elegant, Ushiwakamaru!
+You can run at the sides of buildings...
+I want to try that as well...
+\e
+
+// 対巌窟王
+WinMes14:
+chara_type 2
+//……いったいどなただったのでしょうか……
+//声だけなら、
+//どこかで聞いた気がするのですが……
+Just who could that have been...?
+I feel like I've at least heard that voice somewhere before...
+\e
+
 // 対ロア（ストーリー専用） Versus Roa (story only)
 WinMesArcadeWin05:
 chara_type 114

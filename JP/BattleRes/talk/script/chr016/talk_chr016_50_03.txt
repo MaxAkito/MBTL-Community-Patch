@@ -21,7 +21,7 @@
 \\@CHARA_MUKI@<1,1>
 \aw
 
-\\@BGM_PLAY@<0, 75, 100>
+\\@BGM_PLAY@<0, 75, 50>
 
 \\@CHARA_IN@<1, 17, 3, 0, 1>
 \\@CHARA_MUKI@<1,1>

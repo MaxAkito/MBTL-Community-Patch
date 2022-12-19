@@ -1,0 +1,485 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<35>//背景　遠野邸ロビー_夜 モノクロ
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+
+\\@NPC_LOAD_SYNC@<4, 13, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 7>
+
+\\@NPC_LOAD_SYNC@<5, 13, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 0, 13, 3, 1, 0>
+\\@CHARA_IN@< 1, 13, 1, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 63, 50>//落ち着いた日常系BGM
+
+\\@CHARA_IN@< 1, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0008", 100>
+\\@TEXT_ID@<530>
+Negative_Miyako
+はい、おしまい。
+思ったよりやってくれたけど、そろそろ限界でしょ？
+
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0194", 100>
+\\@TEXT_ID@<540>
+Miyako
+うぅぅ～～～！
+ズルい、わたしのクセにつよすぎじゃん……！
+
+
+\\@CHARA_SET_PATTERN@<5, 1>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 13, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0009", 100>
+\\@TEXT_ID@<550>
+Negative_Miyako
+あったりまえじゃん。
+わたしは未来のあなたなんだから。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0010", 100>
+\\@TEXT_ID@<560>
+Negative_Miyako
+“行動するのは、弱いわたしをなくしてから”とか。
+\l
+
+\\@CHARA_IN@< 1, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0011", 100>
+\\@TEXT_ID@<570>
+Negative_Miyako
+そんな甘い考えでいくなら、
+せめて、これくらい強くならないとね？
+
+
+\\@CHARA_SET_PATTERN@<4, 14>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0195", 100>
+\\@TEXT_ID@<580>
+Miyako
+え……じゃあ……あなたは……
+
+
+
+\\@CHARA_SET_PATTERN@<5, 11>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 13, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0012", 100>
+\\@TEXT_ID@<590>
+Negative_Miyako
+なーんて、わたしとあなたは別世界の都古だけど！
+じゃあね、総耶のわたし！
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 4>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0013", 100>
+\\@TEXT_ID@<600>
+Negative_Miyako
+今の３倍、ううん、１０倍はコンフーを積むがよい！
+それでようやくスタートラインだ！
+
+\\@SYSTEM@<100>
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+\aw
+\w<30>
+
+\\@CHARA_SET_PATTERN@<4, 6>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0196", 100>
+\\@TEXT_ID@<610>
+Miyako
+やったーーー！
+わたし、今くらい強くなれるんだ！
+\l
+
+
+
+\\@CHARA_IN@< 0, 13, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0197", 100>
+\\@TEXT_ID@<620>
+Miyako
+うん、まっかせて！　そっちに負けないよう、
+大トロ食べてがんばりまーーーす！
+\l
+
+
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@SYSTEM@<200>
+\\@FADE_OUT@<0, 255, 255, 255, 0>
+\aw
+
+\\@LOAD_BATTLE_BG@<1>//背景　遠野邸ロビー_夜
+\\@CHARA_SET_PATTERN@<4, 29>
+
+\\@NPC_LOAD_SYNC@<5, 19, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 41>
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 13, 0, 1>
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+\w<120>
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<4, 30>
+\\@CHARA_IN@< 0, 13, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0198", 100>
+\\@TEXT_ID@<630>
+Miyako
+うん……やるよ……やるのです……
+さいきょうの、八極拳士に……むにゃむにゃ
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0236", 100>
+\\@TEXT_ID@<640>
+Neco_Arc
+コイツ未来の自分に勝ちやがった！
+齢１２才にしてヒロインかよ！？
+\l
+
+
+
+\\@CHARA_SET_PATTERN@<5, 13>
+\\@CHARA_IN@< 1, 19, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0237", 100>
+\\@TEXT_ID@<650>
+Neco_Arc
+ですが……やはりお子様なんですなぁ。
+夜１０時を過ぎればオネムです。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0238", 100>
+\\@TEXT_ID@<660>
+Neco_Arc
+都古クンは倒れ、
+シエルはコハッキーの罠で地下に落ち、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0239", 100>
+\\@TEXT_ID@<670>
+Neco_Arc
+お嬢は執務室でかっこつけた自分を思い返して悶々中。
+つまり、アタシのひとり勝ちです。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0240", 100>
+\\@TEXT_ID@<680>
+Neco_Arc
+さーて、分割メガネはぜんぶ回収☆
+３Ｄクリスタルをバザーに出して大もうけ―――
+
+
+\\@NPC_LOAD_SYNC@<6, 3, -400, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 2>
+
+\\@CHARA_SET_PATTERN@<5, 129>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@BGM_PLAY@<1, 74, 50>
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 400, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0473", 100>
+\\@TEXT_ID@<690>
+Shiki
+はいこんにちは。
+今夜は月が見えませんね。
+
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0241", 100>
+\\@TEXT_ID@<700>
+Neco_Arc
+はわわわわわわあ！？
+おおおオマエは完全体！？　なぜ戻っている！？
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 402, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0474", 100>
+\\@TEXT_ID@<710>
+Shiki
+そこは根性で。
+全部揃ってるんだから、なんとかするよ。
+
+
+
+\\@CHARA_SET_PATTERN@<5, 40>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0242", 100>
+\\@TEXT_ID@<720>
+Neco_Arc
+くわっ、ここにきて精神論、いや主人公補正！
+この流れは―――この流れは―――！
+
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 408, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0475", 100>
+\\@TEXT_ID@<730>
+Shiki
+うん。オマエは１７分割じゃ足りなそうだ。
+１０８片ぐらいに分割できるんじゃない？
+
+
+
+\\@CHARA_SET_PATTERN@<5, 132>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0243", 100>
+\\@TEXT_ID@<740>
+Neco_Arc
+煩悩かよ。
+
+\w<60>
+
+\\@CHARA_OUT@< 0, -1, -1, 0, 0>
+\\@CHARA_OUT@< 1, -1, -1, 0, 0>
+\\@BGM_FADE@<1, -1, 0, 60, 1>
+\\@CHARA_SET_MVNAME@<6, "DRAW_LA_Effect">
+\w<240>
+
+\\@FADE_OUT@<0, 0, 0, 0, 1>
+\aw
+\\@CHARA_CLEAR@<0>
+\\@CHARA_CLEAR@<1>
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "InitCameraKeep">//カメラ初期化
+
+\w<180>
+\\@LOAD_BATTLE_BG@<0>//BG消す
+
+
+
+\\@BGM_PLAY@<0, 76, 50>
+
+\\@FADE_IN@<0,255,255,255,0>
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>//EDスチル
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0476", 100>
+\\@TEXT_ID@<750>
+Shiki
+という訳で一件落着。
+分割していた時のコトはよく覚えてないんだけど……
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0477", 100>
+\\@TEXT_ID@<760>
+Shiki
+おまえにも助けてもらったんだろ、アルクェイド。
+礼を言うよ。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0210", 100>
+\\@TEXT_ID@<770>
+Arcueid
+そう？　お礼をくれるなら喜んで。
+楽しかったから、わたしはもう充分だけどね～。
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0211", 100>
+\\@TEXT_ID@<780>
+Arcueid
+あ、でもシエルったらひどくない？
+ドアの前で放置よ、放置！
+\l
+
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0212", 100>
+\\@TEXT_ID@<790>
+Arcueid
+わたし、ずっと待ってたんですけど！
+決戦に行くなら声をかけるべきじゃない！？
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0478", 100>
+\\@TEXT_ID@<800>
+Shiki
+まあ、そこは先輩なりに気を遣った……のかな。
+アルクェイドまでいたら過剰戦力だし。
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0213", 100>
+\\@TEXT_ID@<810>
+Arcueid
+む、またシエルの味方？
+そもそも気を遣うって何によ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0214", 100>
+\\@TEXT_ID@<820>
+Arcueid
+シエルがわたしを気遣うとか、
+世界が終わるまでないでしょー？
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0479", 100>
+\\@TEXT_ID@<830>
+Shiki
+（うーん、けっこうあると思うけど……
+　まあ、言わぬが花かな？）
+\l
+
+
+\\@CHARA_IN@< 0, 3, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0480", 100>
+\\@TEXT_ID@<840>
+Shiki
+……と。
+そういえば、俺も気になる事があった。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0481", 100>
+\\@TEXT_ID@<850>
+Shiki
+先輩から聞いた話だけど、アルクェイド、
+すぐに像を手放したんだって？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0482", 100>
+\\@TEXT_ID@<860>
+Shiki
+なんでだよ。
+そんなに都古ちゃんが気に入ったのか？
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0215", 100>
+\\@TEXT_ID@<870>
+Arcueid
+なんでって―――
+……。言わなきゃダメ？
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0483", 100>
+\\@TEXT_ID@<880>
+Shiki
+ダメ。知りたい。教えてくれないと、
+今晩手作りメニューはナシです。
+
+
+\\@CHARA_IN@< 1, 0, 23, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0216", 100>
+\\@TEXT_ID@<890>
+Arcueid
+少しでも早く元に戻ってほしかったのも
+ホントだけど……
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0217", 100>
+\\@TEXT_ID@<900>
+Arcueid
+……だって志貴、小さいままだったでしょう？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0218", 100>
+\\@TEXT_ID@<910>
+Arcueid
+志貴に怪物みたく見られるの、イヤだったの。
+だからキスするの、我慢したんだよ。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0484", 100>
+\\@TEXT_ID@<920>
+Shiki
+――――――。
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0219", 100>
+\\@TEXT_ID@<930>
+Arcueid
+そりゃあ小さい妹はすっっっっごく
+羨ましかったけど、結果オーライ！
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0220", 100>
+\\@TEXT_ID@<940>
+Arcueid
+そのおかげでこうして一緒にいるんだものね！
+辛抱を覚えたわたし、無敵じゃない！？
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0485", 100>
+\\@TEXT_ID@<950>
+Shiki
+…………ああもう。
+おまえが無敵なのは今に始まった事じゃないけど―――
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0486", 100>
+\\@TEXT_ID@<960>
+Shiki
+……でもまあ、いちいちもっともなので。
+我慢した分、返してやる。
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0221", 100>
+\\@TEXT_ID@<970>
+Arcueid
+え―――、あ
+\l
+
+
+\\@CHARA_IN@< 1, 0, 20, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0222", 100>
+\\@TEXT_ID@<980>
+Arcueid
+うん。じゃあ、ちょうだい。
+一番の功労者に、感謝をこめて、ね？
+
+
+\\@BGM_STOP@<0>
+\e
+

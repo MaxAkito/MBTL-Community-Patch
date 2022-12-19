@@ -4,7 +4,7 @@
 \\@SYSTEM@<0>
 \aw
 
-\\@BGM_PLAY@<0, 62, 100>//‚Ù‚Ì‚Ú‚Ì‚Æ‚µ‚½“úíŒnBGM
+\\@BGM_PLAY@<0, 62, 50>//‚Ù‚Ì‚Ú‚Ì‚Æ‚µ‚½“úíŒnBGM
 
 
 \\@CHARA_IN@<0, 8, 16, 1, 0>
@@ -299,7 +299,7 @@ Noel
 
 
 
-\\@BGM_FADE@<0, 100, 0, 60, 1>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
 
 \\@CHARA_SET_PATTERN@<6, 123>
 
@@ -312,7 +312,7 @@ Roa
 \l
 
 
-\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_PLAY@<0, 74, 50>
 
 \\@CHARA_SET_PATTERN@<6, 124>
 

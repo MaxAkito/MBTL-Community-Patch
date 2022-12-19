@@ -1,0 +1,176 @@
+WinMesScript
+
+
+WinMes00:
+chara_type 0
+眼も足も観も遅い。
+勝ち気だけは早かったようだがな。
+\e
+
+WinMes01:
+chara_type 6
+これが当代の戦いですか。
+武器の性能はともかく、
+使い手はいささか甘いようだ。
+\e
+
+WinMes02:
+chara_type 109
+よい戦いでした。
+よろしければ、また一戦。
+\e
+
+WinMes03:
+chara_type 105
+chara_type_sub 102
+chara_switchframe 320
+chara_type_sub1 104
+chara_switchframe1 720
+遊びだと言ったのに本気だった、ですか？
+侮らないでいただきたい。
+私の遊びはつねに全力です。
+貴殿はそれに足る相手でした。
+\e
+
+WinMes04:
+chara_type 5
+いまいち下駄の響きが良くないな……
+コンクリートは音を吸収するのですね。
+\e
+
+WinMes05:
+chara_type 5
+chara_type_sub 4
+chara_switchframe 465
+chara_type_sub1 3
+chara_switchframe1 868
+治安が良いのは結構ですが、
+遊び相手が少ないのは困りものです。
+歌を歌う、買い物をする、映画を観る？
+ほほう。それはそれで楽しそうだ。
+\e
+
+
+WinMes06:
+chara_type 104
+体を動かす事であれば、
+私の右に出る者はおりません。
+どんな戦場、どんな環境であれ、
+縦横無尽に駆けてみせましょう。
+\e
+
+WinMes07:
+chara_type 110
+chara_type_sub 107
+chara_switchframe 600
+chara_type_sub1 109
+chara_switchframe1 765
+……まあ、私もサーヴァントですので。
+その時代に合わせた常識は持ち合わせています。
+ケンカなら峰打ち。ですよね？
+\e
+
+// 対死徒
+WinMes08:
+chara_type 7
+この時代まで生き延びる鬼がいようとは。
+人の世であるかぎり
+外道が絶える事はない、という事か。
+\e
+
+// 対死徒
+WinMes09:
+chara_type 101
+西洋の鬼がなぜこの国にいる。
+肉を食らうのとは違うようだが……
+貴様等、一体なにを食べている？
+\e
+
+// 対マシュ
+WinMes10:
+chara_type 104
+ふう。また一段と上達しましたね、マシュ殿。
+さすがの私も、
+その盾を通すのは骨が折れます。
+\e
+ 
+// 対牛若丸
+WinMes11:
+chara_type 7
+chara_type_sub 12
+chara_switchframe 362
+化け狸……いや師匠のところの《小天狗＜こてんぐ＞か？
+わざわざ私に化けるヤツがあるか！
+せめて弁慶に化けろ、弁慶に！
+\e
+
+// 対ネコアルク
+WinMes12:
+chara_type 107
+ギルガメッシュ王の言葉が
+身にしみますね……
+多いというのはそれだけで気持ちが悪いです……
+\e
+
+
+// 牛若丸シナリオ　対秋葉（ストーリー専用）
+WinMesArcadeWin02:
+chara_type 8
+chara_type_sub 10
+chara_switchframe 353
+chara_type_sub1 4
+chara_switchframe1 750
+無念。本気にはさせられませんでした。
+かくなる上はもう一度、
+こちらも九郎義経として全力で―――は？
+気に入ったので客人に、ですか？
+\e
+
+// 牛若丸シナリオ　対有間都古（ストーリー専用）
+WinMesArcadeWin13:
+chara_type 3
+chara_type_sub 4
+chara_switchframe 580
+chara_type_sub1 9
+chara_switchframe1 1140
+いい戦いでした。長ずれば大拳士になるは明白、
+この先どうか健やかに。
+ん？　強い相手を探しているのなら
+丘の上の洋館にいる、と？　かたじけない、都古殿。
+\e
+
+// 牛若丸シナリオ　対ネコアルク（ストーリー専用）
+WinMesArcadeWin19:
+chara_type 101
+chara_type_sub 100
+chara_switchframe 220
+chara_type_sub1 106
+chara_switchframe1 450
+chara_type_sub2 110
+chara_switchframe2 670
+何度首を飛ばしても元に戻るとは……！
+ええい近寄るな潰れ饅頭、ちょっと怖い！
+待て、わかった、助太刀は承る！
+だが、その前に観光をさせてもらおう！
+\e
+
+
+// 99まで追加可能
+
+
+// ３連勝・１０連勝専用セリフ
+
+WinMes3WinStreak00:
+chara_type 6
+３連勝ですね。
+肩慣らしはここまで、でしょうか。
+\e
+
+WinMes10WinStreak00:
+chara_type 104
+chara_type_sub 103
+chara_switchframe 440
+やりました、１０連勝です！
+もうぐりっぐりに褒めていただけますね！
+あ、いえ。天才なので当然ですが。
+\e

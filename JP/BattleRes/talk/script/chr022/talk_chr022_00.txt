@@ -1,0 +1,161 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<20>//背景　ビル屋上_夜
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 78, 50>
+
+
+\\@NPC_LOAD_SYNC@<5, 19, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "CallEff_lah">
+\\@CHARA_SET_PATTERN@<5, 201>
+
+\\@NPC_LOAD_SYNC@<6, 22, -160, 0, 0>
+\\@CHARA_SET_PATTERN@<6, 18>
+
+
+\\@CHARA_IN@< 0, 22, 100, 1, 0>
+\\@CHARA_IN@< 1, 19, 200, 2, 0>
+\aw
+
+
+\\@CHARA_SET_MVNAME@<6, "Mv_Call_BlackFramesMng">
+\\@SYSTEM@<121>
+\\@CHARA_IN@< 0, 22, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0030", 100>
+\\@TEXT_ID@<10>
+Edmond
+救済の渇望、復讐の切望！
+幾層掻き出そうと底のない無念の累積！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0031", 100>
+\\@TEXT_ID@<20>
+Edmond
+おぞましい！　例えようもなく！
+近代化した地獄と見まごうほどに！
+\l
+
+\\@CHARA_IN@< 0, 22, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0032", 100>
+\\@TEXT_ID@<30>
+Edmond
+だが、それでこそ俺の出向く意味がある！
+聞くがいい、煉獄の住人どもよ！
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 10>
+\\@CHARA_IN@< 0, 22, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0033", 100>
+\\@TEXT_ID@<40>
+Edmond
+我が名は巌窟王！　巌窟王エドモン・ダンテス！
+恩讐の彼方より、ひとりの女を救いに来た！
+\l
+
+\\@CHARA_SET_PATTERN@<5, 202>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0480", 100>
+\\@TEXT_ID@<50>
+Neco_Arc_Namamono
+うひゃー、試しに喚んだらホントに来た！
+２騎目のサーヴァント、ゲットだぜ！
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0481", 100>
+\\@TEXT_ID@<60>
+Neco_Arc_Namamono
+自分の欲望を抑え、秘蔵のネコ缶を三つも
+捧げたアタシに不可能はニャい。
+
+\\@CHARA_SET_PATTERN@<5, 203>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0482", 100>
+\\@TEXT_ID@<70>
+Neco_Arc_Namamono
+しかもめっちゃ強そうじゃん、ｙｏｕ！
+クラスはなんていうの？　頭上に輝くレアリティは？
+
+\\@NPC_LOAD_SYNC@<4, 93, -160, 0, 0>//小物
+\\@SE_PLAY@<0, "talk/talk_se/Hit_BurningLong", 0, 75>
+\\@CHARA_SET_PATTERN@<4, 11>//炎
+
+\\@CHARA_SET_PATTERN@<6, 25>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 22, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0034", 100>
+\\@TEXT_ID@<80>
+Edmond
+異邦であろうと我が炎は消えず！
+エクストラクラス、アヴェンジャーであるが故に！
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 204>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0483", 100>
+\\@TEXT_ID@<90>
+Neco_Arc_Namamono
+あち、あちちちち！
+アヴェンジャー君、炎抑えて抑えて！
+
+\\@CHARA_SET_PATTERN@<5, 205>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0484", 100>
+\\@TEXT_ID@<100>
+Neco_Arc_Namamono
+そのありあまる力はこの後！
+きゃっつらとの対決に備えて溜めておくンだ！
+
+\\@CHARA_SET_MVNAME@<4, "FadeOutAndCameraOut">
+
+\\@CHARA_SET_PATTERN@<6, 4>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 22, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0035", 100>
+\\@TEXT_ID@<110>
+Edmond
+仕事とは急ぐものだ。
+だが俺にとって時間とは刹那に等しい。
+\l
+
+\\@NPC_LOAD_SYNC@<4, -1, -160, 0, 0>
+
+\\@CHARA_IN@< 0, 22, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0036", 100>
+\\@TEXT_ID@<120>
+Edmond
+この地を無尽に駆け、その最奥を探るなど造作もない。
+\l
+
+\\@CHARA_IN@< 0, 22, 203, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0037", 100>
+\\@TEXT_ID@<130>
+Edmond
+待て。然して希望せよ。
+助けを請う夜の鐘が、俺を呼ぶ灯りになるだろう！
+
+
+\\@CHARA_SET_MVNAME@<6, "Mv_Delete_BlackFramesMng">
+\\@CHARA_SET_PATTERN@<6, 29>
+
+\\@CHARA_OUT@< 0, 22, -1, 1, 0>
+\aw
+
+
+\\@CHARA_SET_PATTERN@<5, 206>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0485", 100>
+\\@TEXT_ID@<140>
+Neco_Arc_Namamono
+うーん、またもやノーコントロール。
+サーヴァントってバーサーカーしかいないのかな？
+
+
+\\@BGM_STOP@<0>
+\e
+

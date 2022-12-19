@@ -8,7 +8,7 @@
 // \\@SYSTEM@<1>
 \aw
 
-\\@BGM_PLAY@<0, 78, 100>
+\\@BGM_PLAY@<0, 78, 50>
 
 \\@SYSTEM@<100>
 
@@ -47,7 +47,7 @@ Worker
 コンテナいっぱいの花と棺桶が一つだあ？
 \l
 
-\\@SE_PLAY@<0,"talk/talk_se/Hit_BurningLong",0,100>
+\\@SE_PLAY@<0,"talk/talk_se/Hit_BurningLong",0,75>
 \\@FADE_OUT@<2, 128,0 ,0 ,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcWok/NpcWok06_0005", 100>
 \\@TEXT_ID@<60>

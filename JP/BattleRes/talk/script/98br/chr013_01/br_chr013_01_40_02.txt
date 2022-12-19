@@ -1,0 +1,293 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<33>// 背景　都古の部屋
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 62, 50>//ほのぼのとした日常系BGM
+
+\\@NPC_LOAD_SYNC@<5, 13, 15, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 185>
+\\@NPC_CHARA_SHADOW@<1>// シンプルな影
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 313, 1, 0>
+\aw
+
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_AlarmClock", 1, 75>
+
+\\@CHARA_IN@< 0, 13, 313, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0000", 100>
+\\@TEXT_ID@<10>
+Miyako
+……むにゃむにゃ……飛び道具はやめて……
+……やめてください……やめないとブッとばすぞぉ……
+
+
+// ピカっと光る
+\\@NPC_LOAD_SYNC@<4, 93, 15, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 16>
+
+\\@CHARA_IN@< 0, 13, 308, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0001", 100>
+\\@TEXT_ID@<20>
+Miyako
+……うーん……明日はよていどーりにするから、
+今日はもうちょっとだけ…………あれ？
+
+\\@SE_STOP@<1>
+\\@CHARA_SET_MVNAME@<4, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+
+\\@CHARA_SET_PATTERN@<5, 186>
+
+\\@CHARA_IN@< 0, 13, 307, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0002", 100>
+\\@TEXT_ID@<30>
+Miyako
+いま、ピカッって光ったような……？
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0003", 100>
+\\@TEXT_ID@<40>
+Miyako
+すごく近いところで……
+というか、わたしのすぐ真横、だよね？
+
+
+\\@CHARA_SET_PATTERN@<5, 187>
+\\@CHARA_IN@< 0, 13, 314, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0004", 100>
+\\@TEXT_ID@<50>
+Miyako
+――――――。
+
+
+\\@CHARA_SET_PATTERN@<5, 183>
+\\@CHARA_IN@< 0, 13, 302, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0005", 100>
+\\@TEXT_ID@<60>
+Miyako
+なにこれ、なにこれーーー！
+お兄ちゃん！　お兄ちゃんの彫像だーー！
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0006", 100>
+\\@TEXT_ID@<70>
+Miyako
+ううん、すたっちゅー？
+すたっちゅーって言うんだよね、こういうの！
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0007", 100>
+\\@TEXT_ID@<80>
+Miyako
+すっごくリアル、すっごくキレーーイ！
+まるで本物みたい！
+
+
+\\@CHARA_SET_PATTERN@<5, 184>
+\\@CHARA_IN@< 0, 13, 313, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0008", 100>
+\\@TEXT_ID@<90>
+Miyako
+でもどうしてわたしの枕元に？
+などと、ヤボなコトは言わないわたしです。
+
+\\@CHARA_SET_PATTERN@<5, 183>
+\\@CHARA_IN@< 0, 13, 302, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0009", 100>
+\\@TEXT_ID@<100>
+Miyako
+だってこれ、どう見ても
+お父さんからのプレゼントだよね！
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0010", 100>
+\\@TEXT_ID@<110>
+Miyako
+お兄ちゃんが遠野のお家に行っちゃって、
+わたしが落ち込んでるから買ってきてくれたんだ！
+
+\\@CHARA_SET_PATTERN@<5, 188>
+\\@CHARA_IN@< 0, 13, 316, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0011", 100>
+\\@TEXT_ID@<120>
+Miyako
+よーし、元気でたーーー！
+有間都古、今日も６時からがんばりま～～す！
+
+
+\\@SYSTEM@<200>
+\\@CHARA_OUT@<0, 13, -1, 0, 0>
+
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@LOAD_BATTLE_BG@<32>// 背景　有間道場
+
+
+\\@NPC_LOAD_SYNC@<4, 3, -50, 125, 0>
+\\@CHARA_SET_PATTERN@<4, 186>
+\\@NPC_LOAD_SYNC@<5, -2, 50, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 13, 1, 0>
+\aw
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<5, 35>
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0012", 100>
+\\@TEXT_ID@<130>
+Miyako
+まずは道場のぞうきん掛け、ラジオ体操、
+日課のトーロ百回打ち！
+
+\\@CHARA_IN@< 0, 13, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0013", 100>
+\\@TEXT_ID@<140>
+Miyako
+かっこよくこなすから、見ててねお兄ちゃん（像）！
+都古、すっごく強くなったんだから！
+
+// 画面暗転してから、都古の部屋に戻る。
+\\@SYSTEM@<200>
+\\@CHARA_OUT@<0, 13, -1, 0, 0>
+
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@LOAD_BATTLE_BG@<33>// 背景　都古の部屋
+
+\\@CHARA_SET_PATTERN@<5, 5>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 202, 1, 0>
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 1>
+\\@NPC_LOAD_SYNC@<5, -2, 0, 0, 1>
+\aw
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+
+\\@CHARA_IN@< 0, 13, 202, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0014", 100>
+\\@TEXT_ID@<150>
+Miyako
+おっす！
+いつもより１０分早く、コンフーおわりました！
+
+\\@CHARA_SET_PATTERN@<5, 190>
+\\@CHARA_IN@< 0, 13, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0015", 100>
+\\@TEXT_ID@<160>
+Miyako
+―――コホン。
+これもお兄ちゃんの像があったからなのです。
+
+\\@CHARA_SET_PATTERN@<5, 191>
+\\@CHARA_IN@< 0, 13, 19, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0016", 100>
+\\@TEXT_ID@<170>
+Miyako
+…………。
+……………………。
+
+\\@CHARA_SET_PATTERN@<5, 192>
+\\@CHARA_IN@< 0, 13, 18, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0017", 100>
+\\@TEXT_ID@<180>
+Miyako
+というワケで、ですね。
+都古は、日曜日でも、がんばったので……
+
+\\@CHARA_SET_PATTERN@<5, 193>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0018", 100>
+\\@TEXT_ID@<190>
+Miyako
+ご、ごほうびに、ちゅーなど……
+しちゃっても、いいでしょーか……っ！
+
+
+\\@CHARA_SET_PATTERN@<5, 194>
+\\@SYSTEM@<100>
+\\@CHARA_IN@< 0, 13, 20, 0, 1>
+\w<30>
+
+\\@BGM_STOP@<0>
+
+\\@NPC_LOAD_SYNC@<6, 19, -640, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 0>
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 100, 12, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0160", 100>
+\\@TEXT_ID@<210>
+Neco_Arc
+――――――。
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<5, 195>
+\\@CHARA_IN@< 0, 13, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0019", 100>
+\\@TEXT_ID@<220>
+Miyako
+―――み、見た！？
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 196>
+\\@CHARA_SET_PATTERN@<6, 9>
+\\@CHARA_IN@< 1, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0161", 100>
+\\@TEXT_ID@<230>
+Neco_Arc
+うんニャ、見てない見てない。
+だってまだしてないじゃんｙｏｕ。
+
+
+\\@CHARA_SET_PATTERN@<6, 3>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0162", 100>
+\\@TEXT_ID@<240>
+Neco_Arc
+ぬいぐるみにｋｉｓｓの一つもできないようでは
+ビームのひとつも撃てませんからね。
+
+\\@CHARA_SET_PATTERN@<6, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0163", 100>
+\\@TEXT_ID@<250>
+Neco_Arc
+続けて続けて。アタシは気にせず、
+ぶちゅ～～～っと熱いヴェェェゼをどうぞ。
+
+\\@CHARA_IN@< 1, 19, 118, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0164", 100>
+\\@TEXT_ID@<260>
+Neco_Arc
+―――恥ずかしがらなくても、いいのよ？
+
+
+\\@SYSTEM@<100>
+\\@CHARA_SET_PATTERN@<5, 240>
+\\@CHARA_IN@< 0, 13, 11, 0, 1>
+\w<60>
+
+
+\\@CHARA_SET_PATTERN@<5, 241>
+\\@SYSTEM@<121>
+\\@CHARA_IN@< 0, 13, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0020", 100>
+\\@TEXT_ID@<280>
+Miyako
+うわあああああ！
+バカネコ、ぶっっっとばすぞーーーー！
+
+\\@BGM_STOP@<0>
+\e
+

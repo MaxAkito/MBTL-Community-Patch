@@ -20,7 +20,7 @@
 \\@CHARA_IN@<1,  9, 0, 2, 0>
 \aw
 
-\\@BGM_PLAY@<0, 75, 100>
+\\@BGM_PLAY@<0, 75, 50>
 
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 0, 11, 5, 0, 1>

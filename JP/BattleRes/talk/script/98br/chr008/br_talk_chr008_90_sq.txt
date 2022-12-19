@@ -36,7 +36,7 @@ function Talk::Initialize()
 		p.Show = 1;//描画を有効にする
 		
 		//アニメーションを登録する
-		local prio = 400; // 全体プライオリティ
+		local prio = 460; // 全体プライオリティ
 		
 		local framestep = 1.0/60; // 1フレーム
 		local fWait = 0.0;

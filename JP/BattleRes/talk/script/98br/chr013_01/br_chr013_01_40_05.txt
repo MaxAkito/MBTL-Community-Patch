@@ -1,0 +1,439 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<5>
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\\@BG_IN@<"ed_bg00", 0, 2>//背景　黒（おかしくなければ駅前）
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 62, 50>//ほのぼのとした日常系BGM
+
+
+\\@NPC_LOAD_SYNC@<5, 13, 80, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 299>
+
+\\@NPC_LOAD_SYNC@<6, 2, -80, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 90>
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 500, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 3, 500, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0410", 100>
+\\@TEXT_ID@<10>
+Shiki
+ストップ。
+都古ちゃん、そこの路地裏に入ってもらえる？
+
+\\@CHARA_SET_PATTERN@<6, 5>
+\\@CHARA_IN@< 0, 2, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0150", 100>
+\\@TEXT_ID@<20>
+Akiha
+兄さん？
+そんな寄り道をしている場合じゃ、
+
+\\@CHARA_SET_PATTERN@<5, 300>
+\\@CHARA_IN@< 0, 13, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0090", 100>
+\\@TEXT_ID@<30>
+Miyako
+はーい！　こっちだね、お兄ちゃん！
+
+\\@CHARA_SET_PATTERN@<6, 101>
+\\@CHARA_IN@< 0, 2, 19, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0151", 100>
+\\@TEXT_ID@<40>
+Akiha
+…………。
+
+\\@SYSTEM@<200>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+\\@NPC_LOAD_SYNC@<4, -1, -320, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, -320, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, -480, 0, 0>
+
+\\@CHARA_CLEAR@<0>
+
+\\@BGM_PLAY@<0, 64, 50>//ギャグっぽいコミカルで陽気なBGM
+
+\\@BG_OUT@<0, 0>
+\aw
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<8, 8, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">
+\\@CHARA_SET_PATTERN@<8, 101>
+
+//ハルバードと志貴像
+\\@NPC_LOAD_SYNC@<7, 8, 160, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 195>
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 8, 206, 2, 0>
+\aw
+
+
+\\@CHARA_IN@< 1, 8, 206, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0220", 100>
+\\@TEXT_ID@<50>
+Noel
+ちょっと、どういう事よ……
+昨日の夜はあったじゃない、このヘンに！
+\l
+
+\\@CHARA_SET_PATTERN@<8, 102>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0221", 100>
+\\@TEXT_ID@<60>
+Noel
+誰かに先を越されちゃった？
+でもこんなところに来るヤツいる？
+\l
+
+\\@CHARA_SET_PATTERN@<8, 108>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0222", 100>
+\\@TEXT_ID@<70>
+Noel
+あーもうドジったわぁ……
+見かけた時に拾っておけば良かった……
+\l
+
+\\@CHARA_SET_PATTERN@<8, 118>
+\\@CHARA_IN@< 1, 8, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0223", 100>
+\\@TEXT_ID@<80>
+Noel
+でも……うふふ。
+日頃から善行は積んでおくものね？
+\l
+
+\\@CHARA_SET_PATTERN@<8, 117>
+\\@CHARA_IN@< 1, 8, 202, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0224", 100>
+\\@TEXT_ID@<90>
+Noel
+そうでしょう、志貴クン？
+こーんなチャンスが巡ってくるなんてさあ？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0225", 100>
+\\@TEXT_ID@<100>
+Noel
+それとも今までの八方美人の罰かしら？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0226", 100>
+\\@TEXT_ID@<110>
+Noel
+身動きもできない、手のひらサイズの
+お人形さん扱いなんてカッワイソー\sf000
+\l
+
+\\@CHARA_SET_PATTERN@<8, 118>
+\\@CHARA_IN@<1, 8, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0227", 100>
+\\@TEXT_ID@<120>
+Noel
+『恋人になる可能性がある者には必ず一体』
+『多く持っていた者が次回作のメインになる』
+\l
+
+
+\\@CHARA_IN@< 1, 8, 203, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0228", 100>
+\\@TEXT_ID@<130>
+Noel
+あのネコ、キモいけどいいコト言うじゃん！
+\l
+
+\\@CHARA_SET_PATTERN@<8, 100>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0229", 100>
+\\@TEXT_ID@<140>
+Noel
+それなら私にも勝ち目アリアリ～☆
+さっさと集めて夢のヒロインルートにＧＯサ！
+\l
+
+\\@CHARA_SET_PATTERN@<8, 117>
+\\@CHARA_IN@< 1, 8, 204, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0230", 100>
+\\@TEXT_ID@<150>
+Noel
+うひひ。待っててね志貴クン。お姉さんがキミを
+理想の男の子にしちゃうんだから\sf000
+
+\\@NPC_LOAD_SYNC@<5, 13, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 208>
+
+\\@NPC_LOAD_SYNC@<6, 2, -200, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 157>
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 25, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 13, 25, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0091", 100>
+\\@TEXT_ID@<160>
+Miyako
+ヘンタイだーーーーー！
+
+\\@CHARA_SET_PATTERN@<8, 107>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 8, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0231", 100>
+\\@TEXT_ID@<170>
+Noel
+誰！？　まさかシエル！？
+―――って。
+\l
+
+
+\\@CHARA_SET_PATTERN@<8, 108>
+\\@CHARA_IN@< 1, 8, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0232", 100>
+\\@TEXT_ID@<180>
+Noel
+なんだガキか。驚かすなっての。
+いま忙しいから、遊び場なら他を……
+
+
+\\@CHARA_SET_PATTERN@<5, 203>
+\\@CHARA_SET_PATTERN@<6, 104>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0152", 100>
+\\@TEXT_ID@<190>
+Akiha
+失礼。貴女がその手に持っているものを、
+よく見せていただけますか？
+
+\\@CHARA_SET_PATTERN@<6, 209>
+\\@CHARA_SET_PATTERN@<8, 187>
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 8, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0233", 100>
+\\@TEXT_ID@<200>
+Noel
+！　遠野秋葉！？
+しまっ―――とあ！？
+
+
+\\@CHARA_SET_MVNAME@<6, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+\\@CHARA_SET_MVNAME@<8, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+\\@CHARA_WAIT_PATTERN@<6,0>
+\aw
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0153", 100>
+\\@TEXT_ID@<210>
+Akiha
+都古さん。出口は私が固めますから、
+貴女は彼女から像を取り上げて。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 4>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0154", 100>
+\\@TEXT_ID@<220>
+Akiha
+どこのどなたか存じませんが―――
+\l
+
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 2, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0155", 100>
+\\@TEXT_ID@<230>
+Akiha
+（本当に、どこでそんな縁をほいほい作るのか
+　反省していただかないといけませんが）
+\l
+
+\\@CHARA_IN@< 0, 2, 101, 0, 1>
+\\@CHARA_SET_PATTERN@<6, 5>
+\\@SYSTEM@<101>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0156", 100>
+\\@TEXT_ID@<240>
+Akiha
+ここで、しばらく流動食しか受けつけない
+お腹にしてあげなさい。
+
+\\@CHARA_SET_PATTERN@<5, 205>
+\\@CHARA_IN@< 0, 13, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0092", 100>
+\\@TEXT_ID@<250>
+Miyako
+は、はいぃ！
+分かりました！
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 8, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0234", 100>
+\\@TEXT_ID@<260>
+Noel
+いや、待って待って！
+渡す、渡すから！　命だけはー！
+
+\\@CHARA_SET_PATTERN@<6, 109>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0157", 100>
+\\@TEXT_ID@<270>
+Akiha
+誤解なさっているようですね。
+像はあくまで二次目的です。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0158", 100>
+\\@TEXT_ID@<280>
+Akiha
+遠野家長男との交際、その可能性がある事自体
+私的にはアウトです。
+\l
+
+\\@CHARA_IN@< 0, 2, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0159", 100>
+\\@TEXT_ID@<290>
+Akiha
+兄は妹を第一に想うもの。
+この宇宙の法則を乱す輩は許しません。
+
+\\@CHARA_SET_PATTERN@<5, 212>
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+\w<60>
+
+
+\\@CHARA_SET_PATTERN@<8, 191>
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 8, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0235", 100>
+\\@TEXT_ID@<300>
+Noel
+チッ、ブラコンに嘘泣きは通じないか！
+こうなったら最後の手段―――
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe09_0236", 100>
+\\@TEXT_ID@<310>
+Noel
+年長者を舐めんなオラーー！
+こっちは一度修羅場くぐってるんだから！
+
+\\@CHARA_SET_PATTERN@<8, 192>
+\w<50>
+\\@SE_PLAY@<0, "talk/talk_se/System_PowerUpA", 0, 75>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 255, 64, 64, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<8, 14, 200, 0, 1>
+\\@CHARA_SET_PATTERN@<8, 0>
+\\@CHARA_SET_PATTERN@<6, 90>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\\@CHARA_IN@< 1, 14, 8, 4, 0>
+
+
+\\@BGM_PLAY@<0, 74, 50>
+
+\\@LOAD_BATTLE_BG@<18>//背景　教会の薔薇園
+\aw
+\\@FADE_IN@<0, 255, 64, 64, 0>
+\aw
+
+
+\\@CHARA_SET_PATTERN@<8, 4>
+\\@CHARA_IN@< 1, 14, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno09_0050", 100>
+\\@TEXT_ID@<320>
+Dead_Noel
+はーい、超絶美少女登場～～☆
+いっきに最年少になっちゃったかしら？
+\l
+
+\\@CHARA_IN@< 1, 14, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno09_0051", 100>
+\\@TEXT_ID@<330>
+Dead_Noel
+高校生とかおばさんよ、おばさん。
+並みいる年増たちはそろって産廃なんだから。
+\l
+
+\\@CHARA_IN@< 1, 14, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno09_0052", 100>
+\\@TEXT_ID@<340>
+Dead_Noel
+志貴クンもそう思うでしょ？
+恋人は年下の方がいいって。思わない？
+\l
+
+\\@CHARA_SET_PATTERN@<8, 5>
+\\@CHARA_IN@< 1, 14, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno09_0053", 100>
+\\@TEXT_ID@<350>
+Dead_Noel
+なーんて、どっちでもいいわよね、
+アナタの意見なんて！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno09_0054", 100>
+\\@TEXT_ID@<360>
+Dead_Noel
+そこで見てなさい？　最強の愛らしさで、
+年上のお兄ちゃんをメチャクチャにしてあげる！
+
+\\@CHARA_SET_PATTERN@<5, 206>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0093", 100>
+\\@TEXT_ID@<370>
+Miyako
+不思議。２７才くらいのお姉さんが、
+わたしと同い年くらいになっちゃった。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 207>
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0094", 100>
+\\@TEXT_ID@<380>
+Miyako
+でも同じ年ならトモダチになれそうです！
+こんにちは、有間都古です！
+
+\\@CHARA_SET_PATTERN@<8, 0>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 14, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno09_0055", 100>
+\\@TEXT_ID@<390>
+Dead_Noel
+…………。
+\l
+
+\\@CHARA_SET_PATTERN@<8, 10>
+\\@CHARA_IN@< 1, 14, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno09_0056", 100>
+\\@TEXT_ID@<400>
+Dead_Noel
+ああもう！　このジャンルでも
+ライバルがいるとか、どうなってるのよ！？
+
+\\@BGM_STOP@<0>
+\e

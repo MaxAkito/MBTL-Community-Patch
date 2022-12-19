@@ -1,0 +1,107 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 65, 50>//楽しくにぎやかなBGM
+
+\\@NPC_LOAD_SYNC@<4, 3, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 91>
+
+\\@NPC_LOAD_SYNC@<5, 21, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 1>
+
+\\@CHARA_IN@< 0, 3, 400, 1, 0>
+\\@CHARA_IN@< 1, 21, 100, 2, 0>
+\aw
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 21, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0010", 100>
+\\@TEXT_ID@<10>
+Ushiwaka
+ほう。てっきり、貴様の隣にいた
+女が出てくるものと思ったが……
+\l
+
+\\@CHARA_IN@< 1, 21, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0011", 100>
+\\@TEXT_ID@<20>
+Ushiwaka
+ナイフというのか？
+その短い刃で立ち合うとは、私も侮られたものだ。
+
+\\@CHARA_SET_PATTERN@<4, 106>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 400, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0100", 100>
+\\@TEXT_ID@<30>
+Shiki
+アイツは箱入りのお嬢様でね、
+こういった争い事には向かないよ。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 117>
+\\@CHARA_IN@< 0, 3, 418, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0101", 100>
+\\@TEXT_ID@<40>
+Shiki
+……そもそも、大切な妹だし。
+番犬仕事は俺の役割。武士の相手なんかさせられるか。
+
+
+\\@CHARA_SET_PATTERN@<5, 20>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 21, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0012", 100>
+\\@TEXT_ID@<50>
+Ushiwaka
+兄として妹を守る、というのだな。
+―――佳し。相手にとって不足無し。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 4>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0013", 100>
+\\@TEXT_ID@<60>
+Ushiwaka
+あのネコからは軟派・軽薄・多情の獣と聞いていたが、
+肝の据わった《男＜お＞の《子＜こ＞である。
+\l
+
+\\@CHARA_IN@< 1, 21, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0014", 100>
+\\@TEXT_ID@<70>
+Ushiwaka
+興味は無かった故、
+一瞬で断ち切るつもりだったが、改めた。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 5>
+\\@CHARA_IN@< 1, 21, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0015", 100>
+\\@TEXT_ID@<80>
+Ushiwaka
+価値のある敵であれば全力を尽くすまで。
+その首、渾身の一刀で戴こう。
+
+
+\\@CHARA_SET_PATTERN@<4, 119>
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 3, 411, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0102", 100>
+\\@TEXT_ID@<90>
+Shiki
+…………。
+（昔のひとの精神構造ってわかんないなー！）
+
+
+\\@BGM_STOP@<0>
+\e
+

@@ -1,0 +1,216 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<11>//背景　遠野邸ロビー_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>
+
+\\@SYSTEM@<0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 21, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//ushi
+\\@CHARA_SET_PATTERN@<4, 4>//ushi
+
+\\@NPC_LOAD_SYNC@<7, 2, 200, 0, 1>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 100>
+
+\\@NPC_LOAD_SYNC@<6, 4, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 0>
+
+\\@NPC_LOAD_SYNC@<5, 1, 440, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@CHARA_IN@< 0, 21, 8, 1, 0>
+\\@CHARA_IN@<1, 2, 0, 2, 0>
+\aw
+
+
+\\@BGM_PLAY@<0, 76, 50>
+
+
+\\@CHARA_IN@<1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0270", 100>
+\\@TEXT_ID@<10>
+Akiha
+事情は分かったわ。
+こちらの《生物＜なまもの＞が元凶だったのね。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0271", 100>
+\\@TEXT_ID@<20>
+Akiha
+あの怪生物をどう追い返すかは
+また別の問題として。
+\l
+
+\\@CHARA_SET_PATTERN@<7, 109>
+\\@CHARA_IN@<1, 2, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0272", 100>
+\\@TEXT_ID@<30>
+Akiha
+アレとの契約が切れ次第、うちにおいでなさい。
+別に大きな使命がある訳でもないのでしょう？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0273", 100>
+\\@TEXT_ID@<40>
+Akiha
+なら気の済むまで現世を満喫するべきです。
+観光で終わらせるのは勿体ない。
+
+\\@CHARA_SET_PATTERN@<4, 6>//ushi
+\\@CHARA_IN@< 0, 21, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0110", 100>
+\\@TEXT_ID@<50>
+Ushiwaka
+良いのですか！？　この牛若、自分で言うのも
+なんですが、常に迷惑をかける性分なのですが！
+
+\\@CHARA_SET_PATTERN@<7, 103>
+\\@CHARA_IN@<1, 2, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0274", 100>
+\\@TEXT_ID@<60>
+Akiha
+いまさらおかしな客人がひとり増えようと
+構いません。
+\l
+
+
+\\@CHARA_IN@<1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0275", 100>
+\\@TEXT_ID@<70>
+Akiha
+それに貴女、知り合いに似ているし。
+犬っぽいところが放っておけないわ。
+\l
+
+
+\\@CHARA_SET_PATTERN@<7, 105>
+\\@CHARA_IN@<1, 2, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0276", 100>
+\\@TEXT_ID@<80>
+Akiha
+とはいえドレスコードは守っていただきます。
+琥珀。翡翠。わかっているわね？
+
+
+\\@CHARA_SET_PATTERN@<5, 4>
+\\@CHARA_IN@<1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0120", 100>
+\\@TEXT_ID@<90>
+Hisui
+お任せください。
+牛若丸様でしたら、こちらの区はどうでしょう？
+
+\\@CHARA_SET_PATTERN@<6, 4>
+\\@CHARA_IN@<1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0160", 100>
+\\@TEXT_ID@<100>
+Kohaku
+きゃー、ナイスチョイスよ翡翠ちゃん！
+でもお姉ちゃん、こっちの区のが好きだなー！
+
+\\@CHARA_SET_PATTERN@<4, 1>//ushi
+\\@CHARA_IN@< 0, 21, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0111", 100>
+\\@TEXT_ID@<110>
+Ushiwaka
+……区？
+\l
+
+// シーン切り替え処理
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>
+\\@CHARA_OUT@<0, -1, -1, 0, 0>
+\\@CHARA_OUT@<1, -1, -1, 0, 0>
+\aw
+\w<60>
+
+// 画面暗転から
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 66, 50>//明るい爽やかなBGM
+
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\\@FADE_IN@<1,255,255,255,0>
+\\@SQ_CALL@<1>//EDスチル　高校の学生服姿の牛若丸
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0230", 100>
+\\@TEXT_ID@<120>
+Arcueid_Arumi
+はーい、みんな声援ありがとーう☆
+今日は新しいトモダチを紹介するね！
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0112", 100>
+\\@TEXT_ID@<130>
+Ushiwaka
+はじめまして！
+転校生の薄井緑子です！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0113", 100>
+\\@TEXT_ID@<140>
+Ushiwaka
+趣味は剣道、好きな攻めは面打ち全般。
+いま欲しいものは命のやりとりのできる強敵。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0114", 100>
+\\@TEXT_ID@<150>
+Ushiwaka
+休日は浜にてサーフィンを極める予定です。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0115", 100>
+\\@TEXT_ID@<160>
+Ushiwaka
+現代になれないふつつか者ですが、
+みなさま、どうぞよろしくお願いします！
+\l
+
+\\@VOICE_PLAY@<0, "NpcStu/NpcStu09_0000", 100>
+\\@TEXT_ID@<170>
+Students
+うおーーー！！！
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0231", 100>
+\\@TEXT_ID@<180>
+Arcueid_Arumi
+うん、どう見てもサーヴァントだけど、
+制服を着てるなら間違いなく高校生～！
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0232", 100>
+\\@TEXT_ID@<190>
+Arcueid_Arumi
+戦いが好きなんでしょ？
+なら、となりのクラスに一見おとなしいけど
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0233", 100>
+\\@TEXT_ID@<200>
+Arcueid_Arumi
+本性は研ぎ研ぎの眼鏡の生徒がいるから、
+一緒にちょっかい出しにいきましょう！
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0116", 100>
+\\@TEXT_ID@<210>
+Ushiwaka
+はい、是非！　私に務まるか不安でしたが、
+学生生活も遊び甲斐がありそうです！
+
+
+\\@SYSTEM@<21>
+\aw
+
+\\@BGM_STOP@<0>
+\e
+

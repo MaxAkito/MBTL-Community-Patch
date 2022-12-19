@@ -1,0 +1,196 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<90>//背景　トレーニングルーム 影を出すためにステージは読み込んでおく
+\\@BG_IN@<"ed_bg00", 0, 2>//背景　黒
+\aw
+
+\\@SYSTEM@<0>
+\\@SYSTEM@<1>
+\aw
+
+\\@BGM_PLAY@<0, 76, 50>
+
+\\@NPC_LOAD_SYNC@<4, 4, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 0>
+
+\\@NPC_LOAD_SYNC@<5, 1, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@CHARA_IN@< 0, 4, 110, 1, 0>
+\\@CHARA_IN@< 1, 1, 105, 2, 0>
+\aw
+
+\\@CHARA_IN@< 0, 4, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0000", 100>
+\\@TEXT_ID@<10>
+KaisetuA
+とまあ。
+早いことに、あの戦いから一週間。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0001", 100>
+\\@TEXT_ID@<20>
+KaisetuA
+わたしども遠野家一同、そしてアルクェイド様、
+シエル様は一致団結して、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0002", 100>
+\\@TEXT_ID@<30>
+KaisetuA
+マシュ様を元の世界に送り届けるため、
+様々な冒険を繰り広げ、そして―――
+
+
+
+\\@CHARA_SET_MVNAME@<4, "FadeOutAndCameraOut">
+\\@CHARA_SET_MVNAME@<5, "FadeOutAndCameraOut">
+\\@CHARA_OUT@<0, -1, -1, 0, 0>
+\\@CHARA_OUT@<1, -1, -1, 0, 0>
+\aw
+
+//一応消しておく
+\\@NPC_LOAD_SYNC@<4, -1, -160, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 160, 0, 0>
+
+\\@SQ_CALL@<1>//EDスチル
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0030", 100>
+\\@TEXT_ID@<40>
+Mash
+お世話になりました。
+皆さんのおかげで宝具の出力も安定しています。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0031", 100>
+\\@TEXT_ID@<50>
+Mash
+このゲートは確実にカルデアに通じています。
+なにしろ、巌窟王さんのナビ付きですから！
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0020", 100>
+\\@TEXT_ID@<60>
+Edmond
+……俺の事はいい。急げ、キリエライト。
+おまえの帰りを待つ者がいるうちに。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0040", 100>
+\\@TEXT_ID@<70>
+Ushiwaka
+私はもうしばらくこちらに。
+もともとあのネコに召喚されたサーヴァントです。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0041", 100>
+\\@TEXT_ID@<80>
+Ushiwaka
+カルデアにはカルデアの私がいるでしょう。
+マシュ殿についていくのはよくありません。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0032", 100>
+\\@TEXT_ID@<90>
+Mash
+そうですか……残念です。
+それでは名残りはつきませんが……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0033", 100>
+\\@TEXT_ID@<100>
+Mash
+本当にありがとうございました、総耶の皆さん。
+またいつか、お会いできる事を信じています！
+
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_RayShift", 0, 75>
+
+
+\\@FADE_OUT@<0, 255, 255, 255, 0>
+\aw
+
+\\@SQ_CALL@<2>//EDスチル消す
+
+\\@BG_IN@<"ed_bg00", 0, 2>//背景　黒
+\aw
+
+\\@CHARA_CLEAR@<0>
+
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 4, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 0>
+
+\\@NPC_LOAD_SYNC@<5, 1, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@CHARA_IN@< 0, 4, 110, 1, 0>
+\\@CHARA_IN@< 1, 1, 105, 2, 0>
+\aw
+
+
+\\@CHARA_IN@< 1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0030", 100>
+\\@TEXT_ID@<110>
+KaisetuB
+かくして、
+異世界からの侵略は水際で防がれました。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0031", 100>
+\\@TEXT_ID@<120>
+KaisetuB
+マシュ様は元の世界に戻り、
+街には平穏が戻りました。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 2>
+\\@CHARA_IN@< 1, 1, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0032", 100>
+\\@TEXT_ID@<130>
+KaisetuB
+ここまでのプレイ、そしてご視聴、
+まことにありがとうございます。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0033", 100>
+\\@TEXT_ID@<140>
+KaisetuB
+解説はわたし、遠野家のメイド、翡翠と。
+
+
+\\@CHARA_IN@< 0, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0003", 100>
+\\@TEXT_ID@<150>
+KaisetuA
+秋葉さまの忠実な侍女、琥珀がお送りしました！
+出番がなかったのがやや悲しいです！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 4>
+\\@CHARA_SET_PATTERN@<5, 4>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0004", 100>
+\\@TEXT_ID@<160>
+KaisetuA
+それでは皆さん、さよ～～なら～～～！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0005", 100>
+\\@TEXT_ID@<170>
+KaisetuA
+これからもメルティブラッドを
+よろしくお願いしますね～～～！
+
+
+\\@BGM_STOP@<0>
+\e
+

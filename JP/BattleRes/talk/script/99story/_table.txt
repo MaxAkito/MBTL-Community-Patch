@@ -1,0 +1,26 @@
+
+Route_Table <-
+{
+	scriptpath = "./BattleRes/talk/script/99story/",
+	List = [],
+};
+
+// ■script
+// checkFlag:そのフラグがあれば選択できるようになる
+// clearFlag:読むと立つフラグ　※今は未使用
+
+// type=savepoint
+// flag:通過すると立つフラグ
+// key:これは一体なんだ
+
+local route00 = 
+{
+	StageTable = 
+	[
+	    // { script="0000" }, // バティスタプロローグ
+	    // { type="savepoint" },
+	],
+};
+
+Route_Table.List.append( route00 ); // 登録
+

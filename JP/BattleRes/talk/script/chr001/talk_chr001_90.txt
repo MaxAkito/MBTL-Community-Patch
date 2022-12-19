@@ -13,7 +13,7 @@
 \\@SYSTEM@<1>
 \aw
 
-\\@BGM_PLAY@<0, 72, 100>
+\\@BGM_PLAY@<0, 72, 50>
 \\@FADE_IN@<1,255,255,255,0>
 \\@SQ_CALL@<1>
 
@@ -76,11 +76,11 @@ Kohaku
 Ç«ÇÒÇ»à´ì}Ç‡àÍìÅóºífÅIÅ@Ç»ÇÃÇ≈Ç∑ÅI
 
 \\@SQ_CALL@<2>
-\\@BGM_FADE@<0,100,0,30,1>
+\\@BGM_FADE@<0,-1,0,30,1>
 \\@SPEAKERCG_CLEAR@<>
 \\@FADE_OUT@<2,0,0,0,1>
 \aw
-\\@SE_PLAY@<0, "talk/talk_se/Cmn_Clank", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Clank", 0, 75>
 
 \\@FADE_OUT@<0,0,0,0,1>
 \\@FADE_OUT@<0,255,255,255,0>
@@ -109,7 +109,7 @@ Kohaku
 \\@CHARA_IN@<2, 4, 100, 2, 0>
 \aw
 
-\\@BGM_PLAY@<0, 76, 100>
+\\@BGM_PLAY@<0, 76, 50>
 
 \\@CHARA_IN@< 0, 1, 3, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>

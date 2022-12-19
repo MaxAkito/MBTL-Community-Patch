@@ -1,0 +1,204 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 62, 50>//ほのぼのとした日常系BGM
+
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+\aw
+
+\\@NPC_LOAD_SYNC@<6, 3, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 90>
+
+\\@NPC_LOAD_SYNC@<5, 21, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 30>
+
+\\@NPC_LOAD_SYNC@<4, 2, -280, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 90>
+
+\\@NPC_LOAD_SYNC@<7, 11, -400, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 0>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\\@CHARA_IN@< 0, 3, 0, 1, 0>
+\\@CHARA_IN@< 1, 21, 100, 2, 0>
+\aw
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 21, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0016", 100>
+\\@TEXT_ID@<100>
+Ushiwaka
+遠野殿は身が軽いな！
+まるで羽毛のようだ！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0017", 100>
+\\@TEXT_ID@<110>
+Ushiwaka
+無茶をすれば私と同じ事ができるでしょう。
+なぜ壁を駆けたり天井に張り付いたりしないのです？
+\l
+
+\\@CHARA_SET_PATTERN@<5, 1>
+\\@CHARA_IN@< 1, 21, 112, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0018", 100>
+\\@TEXT_ID@<120>
+Ushiwaka
+まあ、軽い故に脆いのでしくじれば落ちて死にますが、
+戦いで死ぬのなら本望なのでは？
+
+
+\\@CHARA_SET_PATTERN@<6, 24>
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 3, 25, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0103", 100>
+\\@TEXT_ID@<130>
+Shiki
+………………。
+（やっぱり昔のひとの精神構造ってわかんないなー！）
+
+\\@CHARA_SET_PATTERN@<4, 115>
+\\@CHARA_IN@< 0, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0030", 100>
+\\@TEXT_ID@<140>
+Akiha
+（またこの人は自分の事を棚に上げて。
+　何を思っているか丸わかりですね）
+\l
+
+\\@CHARA_SET_PATTERN@<6, 25>
+
+\\@CHARA_SET_PATTERN@<4, 116>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0031", 100>
+\\@TEXT_ID@<150>
+Akiha
+牛若丸さん？　失礼ですが、
+そちらの事情を聞かせていただいても？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0032", 100>
+\\@TEXT_ID@<160>
+Akiha
+『主は選べない』『仕事』等、
+あまり良くない言葉を仰っていましたが。
+
+\\@CHARA_SET_PATTERN@<5, 4>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 21, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0019", 100>
+\\@TEXT_ID@<170>
+Ushiwaka
+簡単に言うと傭兵です。
+\l
+
+\\@CHARA_IN@< 1, 21, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0020", 100>
+\\@TEXT_ID@<180>
+Ushiwaka
+私はあの生物に召喚された身ですので、
+基本、アレの手助けをしなくてはいけません。
+
+\\@CHARA_SET_PATTERN@<4, 100>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0033", 100>
+\\@TEXT_ID@<190>
+Akiha
+自分から解約はできないのですか？　できる？
+ただし新しい主人が必要、と。
+\l
+
+\\@CHARA_IN@< 0, 2, 108, 0, 1>
+\\@CHARA_SET_PATTERN@<4, 111>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0034", 100>
+\\@TEXT_ID@<200>
+Akiha
+ではそのように。貴女がこちらに在住する為の
+経費はすべて当家でまかないましょう。
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 21, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0021", 100>
+\\@TEXT_ID@<210>
+Ushiwaka
+私に主を裏切れ、と？
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0035", 100>
+\\@TEXT_ID@<220>
+Akiha
+首を切れ、とは言ってはいません。
+契約を解除した場合の話をしているだけです。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 105>
+\\@CHARA_IN@< 0, 2, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0036", 100>
+\\@TEXT_ID@<230>
+Akiha
+また、貴女があの生物と敵対する必要はありません。
+―――私たちだけで充分ですので。
+
+\\@CHARA_SET_PATTERN@<5, 20>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 21, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0022", 100>
+\\@TEXT_ID@<240>
+Ushiwaka
+兄上のようだ、秋葉殿。
+その条件であれば、私が断る理由はないな。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0037", 100>
+\\@TEXT_ID@<250>
+Akiha
+ありがとうございます。
+素敵な関係が築けそうね。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 198>
+\\@CHARA_SET_PATTERN@<5, 199>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0038", 100>
+\\@TEXT_ID@<260>
+Akiha
+気の済むまで遠野家の施設を使ってください。
+今後は自由に振る舞っていただいて結構です。
+
+
+\\@CHARA_SET_PATTERN@<7, 60>
+\\@CHARA_IN@< 0, 11, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0060", 100>
+\\@TEXT_ID@<270>
+Ciel
+……なんていうか、遠野くん……
+
+\\@CHARA_SET_PATTERN@<6, 28>
+\\@CHARA_IN@< 0, 3, 26, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0104", 100>
+\\@TEXT_ID@<280>
+Shiki
+言わないで先輩。
+せめて俺たちはクリーンな学生でいましょうね。
+
+
+\\@BGM_STOP@<0>
+\e
+

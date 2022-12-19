@@ -19,7 +19,7 @@
 \\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
 \\@CHARA_SET_PATTERN@<4, 105>//noel 泣き抗議
 
-\\@BGM_PLAY@<0, 76, 100>
+\\@BGM_PLAY@<0, 76, 50>
 \\@FADE_IN@<1,255,255,255,0>
 \\@SQ_CALL@<1>
 
@@ -168,6 +168,8 @@ Arcueid
 
 \\@FADE_OUT@<0, 0, 0, 0, 0>
 \aw
+
+\\@LOAD_BATTLE_BG@<0>//戦闘中BGを消す
 
 \\@NPC_LOAD_SYNC@<4, 8, -160, 0, 0>
 \\@CHARA_SET_PATTERN@<4, 104>//noel 気遣い
@@ -353,7 +355,7 @@ Noel
 
 
 
-\\@SE_PLAY@<0, "talk/talk_se/Cmn_Coverlet", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Coverlet", 0, 75>
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0200", 100>
@@ -363,7 +365,7 @@ Noel
 \l
 
 
-\\@BGM_PLAY@<0, 66, 100>//明るい爽やかなBGM
+\\@BGM_PLAY@<0, 66, 50>//明るい爽やかなBGM
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0201", 100>
 \\@TEXT_ID@<290>
@@ -528,7 +530,7 @@ Noel
 
 \\@FADE_IN@<0, 0, 0, 0, 0>//フェードイン
 
-\\@BGM_PLAY@<0, 78, 100>
+\\@BGM_PLAY@<0, 78, 50>
 
 \\@SQ_CALL@<9>
 

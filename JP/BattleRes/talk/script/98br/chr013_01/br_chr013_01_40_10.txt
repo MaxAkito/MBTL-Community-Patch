@@ -1,0 +1,1419 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<11>//背景　遠野邸_ロビー_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 72, 50>
+
+\\@NPC_LOAD_SYNC@<4, 3, -180, 0, 1>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 247>
+
+\\@NPC_LOAD_SYNC@<6, 2, -240, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 165>
+
+\\@NPC_LOAD_SYNC@<7, 4, 240, 0, 1>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 90>
+
+\\@NPC_LOAD_SYNC@<8, 1, 80, 0, 1>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">
+\\@CHARA_SET_PATTERN@<8, 90>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 3, 1, 0>
+\\@CHARA_IN@< 1, 1, 105, 2, 0>
+\aw
+
+\\@CHARA_IN@< 0, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0190", 100>
+\\@TEXT_ID@<10>
+Akiha
+―――さて。
+用意はいいわね、ふたりとも？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0080", 100>
+\\@TEXT_ID@<20>
+Hisui
+はい。都古さまたちもお帰りになり、
+屋敷の敷地には他に誰もおりません。
+
+
+\\@CHARA_SET_PATTERN@<7, 5>
+\\@CHARA_IN@< 1, 4, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0090", 100>
+\\@TEXT_ID@<30>
+Kohaku
+誰よりも志貴さんに固執する秋葉さま自ら、
+志貴さん像を手渡したのです。
+\l
+
+\\@CHARA_IN@< 1, 4, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0091", 100>
+\\@TEXT_ID@<40>
+Kohaku
+話を聞いたシエル様もアルクェイド様も、
+遠野邸から探索の手を引くでしょう。
+\l
+
+\\@CHARA_SET_PATTERN@<7, 6>
+\\@CHARA_IN@< 1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0092", 100>
+\\@TEXT_ID@<50>
+Kohaku
+これほど完璧な潔白の証明がありましょうか。
+さすが秋葉さま、と言わざるを得ません！
+
+\\@CHARA_SET_PATTERN@<6, 166>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0191", 100>
+\\@TEXT_ID@<60>
+Akiha
+そう褒めるほどのものではなくてよ琥珀。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0192", 100>
+\\@TEXT_ID@<70>
+Akiha
+私はただ、あの場で像に拘っては
+良くない結果になる、と判断しただけ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0193", 100>
+\\@TEXT_ID@<80>
+Akiha
+当家にははじめから四つの像があった。
+私はそれを把握していただけの話です。
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0081", 100>
+\\@TEXT_ID@<90>
+Hisui
+四つ目の像は早朝、秋葉さまの手で
+執務室の金庫に保管したのでしたね。
+
+\\@CHARA_SET_PATTERN@<7, 9>
+\\@CHARA_IN@< 1, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0093", 100>
+\\@TEXT_ID@<100>
+Kohaku
+はい、問答無用で使用人から徴収したのです（涙）！
+さすが秋葉さま、と言わざるを得ません（涙）！
+
+
+\\@CHARA_SET_PATTERN@<6, 167>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0194", 100>
+\\@TEXT_ID@<110>
+Akiha
+お黙りなさい。
+その慎重さが功を奏したのです。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0195", 100>
+\\@TEXT_ID@<120>
+Akiha
+シエルさんとアルクェイドさんがいる以上、
+１７分割された兄さんは元に戻るはず。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 168>
+\\@CHARA_IN@< 0, 2, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0196", 100>
+\\@TEXT_ID@<130>
+Akiha
+ですが、何も『全てが必要』という
+ワケではないでしょう。ないかもです。
+\l
+
+\\@CHARA_IN@< 0, 2, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0197", 100>
+\\@TEXT_ID@<140>
+Akiha
+１７分の１ぐらい欠けていても問題はありません。
+もともとちょっと抜けている人ですから。
+
+\\@CHARA_SET_PATTERN@<8, 11>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0082", 100>
+\\@TEXT_ID@<150>
+Hisui
+秋葉さま……その推論は、さすがに……
+
+
+\\@CHARA_SET_PATTERN@<7, 5>
+\\@SYSTEM@<132>
+\\@CHARA_IN@< 1, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0094", 100>
+\\@TEXT_ID@<160>
+Kohaku
+（しっ、そこは様子を見ましょう翡翠ちゃん！
+　いま勢いを止めてはいけませんっ！）
+\l
+
+\\@CHARA_IN@< 1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0095", 100>
+\\@TEXT_ID@<170>
+Kohaku
+（善か悪か、どちらに転んでも痛い目を見るのは
+　秋葉さまですから！）
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0083", 100>
+\\@TEXT_ID@<180>
+Hisui
+…………。
+
+
+\\@CHARA_SET_PATTERN@<6, 169>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0198", 100>
+\\@TEXT_ID@<190>
+Akiha
+コホン。都古さんの話では、口づけをすれば
+像は人間に戻るそうです。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 170>
+\\@CHARA_IN@< 0, 2, 18, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0199", 100>
+\\@TEXT_ID@<200>
+Akiha
+…………では。
+仕方ありませんが、これも当主の務め。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 171>
+\\@CHARA_IN@< 0, 2, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0200", 100>
+\\@TEXT_ID@<210>
+Akiha
+……さあ。
+目覚めなさい、私たちだけの兄さん。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 172>
+\\@CHARA_WAIT_PATTERN@<6, 176>
+\aw
+
+// 光るクリスタル
+\\@NPC_LOAD_SYNC@<9, 93, -240, 0, 0>
+\\@CHARA_SET_PATTERN@<9, 19>
+
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Glitter", 0, 75>
+\\@FADE_OUT@<0, 255, 255, 255, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<9, -1, -240, 0, 0>
+
+\\@CHARA_SET_PATTERN@<7, 90>
+\\@CHARA_SET_PATTERN@<8, 90>
+
+\\@CHARA_SET_PATTERN@<4, 250>
+\\@CHARA_SET_PATTERN@<6, 177>
+
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<6, 132>
+\\@CHARA_IN@< 0, 2, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0201", 100>
+\\@TEXT_ID@<220>
+Akiha
+―――やった、ホントに戻った！
+\l
+
+
+\\@CHARA_IN@< 0, 2, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0202", 100>
+\\@TEXT_ID@<230>
+Akiha
+兄さん、ずっと像のままなんて
+堅苦しかったでしょう？　お加減は―――
+\l
+
+\\@CHARA_SET_PATTERN@<4, 307>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 507, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0000", 100>
+\\@TEXT_ID@<240>
+H_Shiki_Kakusi
+うわ、秋葉！？
+
+
+\\@CHARA_SET_PATTERN@<6, 133>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0203", 100>
+\\@TEXT_ID@<250>
+Akiha
+うわ？
+\l
+
+
+\\@FONT_SIZE_CHANGE@<1, 20>
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 525, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0001", 100>
+\\@TEXT_ID@<260>
+H_Shiki_Kakusi
+あ―――しまっ。
+
+\\@FONT_SIZE_RESTORE@<>
+
+\\@CHARA_SET_PATTERN@<4, 308>
+\w<60>
+
+\\@CHARA_IN@< 1, 3, 525, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0002", 100>
+\\@TEXT_ID@<270>
+H_Shiki_Kakusi
+そうか、ネコにヘンな光線を受けたんだっけ……
+それでこうなる、と。ははは。まいったなぁ。
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0204", 100>
+\\@TEXT_ID@<280>
+Akiha
+……何か怪しい素振りですね。
+なぜ「うわ」なんですか？
+\l
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 509, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0003", 100>
+\\@TEXT_ID@<290>
+H_Shiki_Kakusi
+いや、秋葉がでっかいから。
+それだけ。ほんとそれだけだよ。
+
+\\@CHARA_SET_PATTERN@<4, 250>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 18, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0205", 100>
+\\@TEXT_ID@<300>
+Akiha
+……まあ、今の兄さんから見れば、
+何もかも大きいのでしょう。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 105>
+\\@CHARA_IN@< 0, 2, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0206", 100>
+\\@TEXT_ID@<310>
+Akiha
+実際はそちらが小さいのですが。
+まるで小鳥のようね、兄さん？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0084", 100>
+\\@TEXT_ID@<320>
+Hisui
+はい。今の志貴さまはお小さくあらせられます。
+ですので……
+\l
+
+\\@CHARA_SET_PATTERN@<8, 8>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0085", 100>
+\\@TEXT_ID@<330>
+Hisui
+たいへん危険、たいへん緊張します。
+……その、自重していただければ、と。
+
+
+\\@CHARA_SET_PATTERN@<4, 254>
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 3, 504, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0004", 100>
+\\@TEXT_ID@<340>
+H_Shiki_Kakusi
+翡翠にまでそう言われると現実味あるな……
+どのくらい小さいんだ、俺？
+
+\\@CHARA_SET_PATTERN@<7, 7>
+\\@CHARA_IN@< 1, 4, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0096", 100>
+\\@TEXT_ID@<350>
+Kohaku
+はい、では失礼して……
+動かないで、おとなしくしていてくださいね……
+\l
+
+\\@CHARA_SET_PATTERN@<7, 126>
+\w<60>
+
+\\@CHARA_SET_PATTERN@<7, 85>
+\\@CHARA_IN@< 1, 4, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0097", 100>
+\\@TEXT_ID@<360>
+Kohaku
+おお……これは……まな板の上の鯉……
+いえ、《鰯＜いわし＞……カマボコ？
+\l
+
+
+\\@CHARA_IN@< 1, 3, 514, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0005", 100>
+\\@TEXT_ID@<370>
+H_Shiki_Kakusi
+……すみません、琥珀さん。
+指使いが、ちょっと……。
+
+\\@CHARA_SET_PATTERN@<7, 86>
+\\@CHARA_IN@< 1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0098", 100>
+\\@TEXT_ID@<380>
+Kohaku
+おおっと。
+ごめんなさいまし、つい☆
+\l
+
+
+\\@CHARA_IN@< 1, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0099", 100>
+\\@TEXT_ID@<390>
+Kohaku
+ちょうど１０ｃｍでしょうか。
+お部屋に飾りたいほど愛らしいサイズかと\sf000
+\l
+
+
+\\@CHARA_IN@< 1, 3, 510, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0006", 100>
+\\@TEXT_ID@<400>
+H_Shiki_Kakusi
+……うわあ、１７分割ってそういう……
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0007", 100>
+\\@TEXT_ID@<410>
+H_Shiki_Kakusi
+頭いたいな、あのネコ……
+いつもの琥珀さんの悪戯なら良かったのに……
+
+\\@CHARA_SET_PATTERN@<7, 5>
+\\@CHARA_IN@< 1, 4, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0100", 100>
+\\@TEXT_ID@<420>
+Kohaku
+おや。
+私の仕業であればお許しいただけるのですか？
+
+
+\\@CHARA_IN@< 1, 3, 518, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0008", 100>
+\\@TEXT_ID@<430>
+H_Shiki_Kakusi
+……叱りはしますけど、たいていは。
+翡翠と琥珀さんは特別だから。
+
+
+\\@NPC_LOAD_SYNC@<9, 93, 80, -280, 1>
+\\@CHARA_SET_PATTERN@<9, 8>
+
+\\@CHARA_SET_PATTERN@<8, 120>
+\\@CHARA_IN@< 1, 1, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0086", 100>
+\\@TEXT_ID@<440>
+Hisui
+―――。
+
+
+\\@NPC_LOAD_SYNC@<9, 93, -44, -280, 1>
+\\@CHARA_SET_PATTERN@<9, 8>
+
+\\@CHARA_SET_PATTERN@<7, 11>
+\\@CHARA_IN@< 1, 4, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0101", 100>
+\\@TEXT_ID@<450>
+Kohaku
+―――。
+
+
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0207", 100>
+\\@TEXT_ID@<460>
+Akiha
+（妙な雰囲気だけど……
+　とにかく、兄さんを手に入れたのは事実です）
+\l
+
+\\@CHARA_IN@< 0, 2, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0208", 100>
+\\@TEXT_ID@<470>
+Akiha
+（うまくいけばこのままずっと屋敷に残って、
+　私と―――）
+\l
+
+\\@CHARA_SET_PATTERN@<6, 159>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0209", 100>
+\\@TEXT_ID@<480>
+Akiha
+ふっ。勝ったわ。
+祝杯をあげなさい、琥珀、翡翠！
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 160>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0210", 100>
+\\@TEXT_ID@<490>
+Akiha
+今日が私の最高の日―――
+『《妹大完結＜シスターコンプリート＞』と名付けましょう！
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@SYSTEM@<200>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<8, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<9, -1, 0, 0, 0>
+
+// 画面暗転、シーン戻る
+\\@BG_IN@<"ed_bg00", 0, 2>//背景　黒
+\\@BGM_PLAY@<0, 74, 50>
+
+\\@NPC_LOAD_SYNC@<8, 93, 0, 0, 0>
+\\@CHARA_SET_PATTERN@<8, 13>
+
+\\@NPC_LOAD_SYNC@<7, 13, 200, 0, 0>
+\\@CHARA_SET_PATTERN@<7, 80>
+
+\\@NPC_LOAD_SYNC@<6, 11, 0, 0, 0>
+\\@CHARA_SET_PATTERN@<6, 80>
+
+\\@NPC_LOAD_SYNC@<5, 19, -200, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 75>
+
+
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+\\@CHARA_IN@< 1, 11, 6, 0, 1>
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0160", 100>
+\\@TEXT_ID@<500>
+Miyako
+遠野のお屋敷には、
+もうお兄ちゃん像はないはずだけど！？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0300", 100>
+\\@TEXT_ID@<510>
+Ciel
+秋葉さん、翡翠さん、琥珀さんの
+３名がそれぞれ像を譲渡した……でしょう？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0301", 100>
+\\@TEXT_ID@<520>
+Ciel
+確かに、あの屋敷には他に住人はいません。
+トオノクン像は３つしかない。
+\l
+
+\\@CHARA_IN@< 1, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0302", 100>
+\\@TEXT_ID@<530>
+Ciel
+そう考えるのは当然でしょう。
+ですが、●＜これはＭＢ＞なのです。
+
+\\@SYSTEM@<132>
+\\@CHARA_IN@< 1, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0200", 100>
+\\@TEXT_ID@<540>
+Neco_Arc
+（ふふふ、本人も気づかぬうちのメタ発言……
+　順当にシエル先生化が進んでいるようですニャ）
+
+//眼鏡なし
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 910, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0050", 100>
+\\@TEXT_ID@<550>
+C_Shiki
+そっか、なるほど……そういうカテゴリーなら
+あと一つありますね。確かに。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 507, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0460", 100>
+\\@TEXT_ID@<560>
+Shiki
+？　分かるのか、おまえ？
+
+//眼鏡なし
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 925, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0051", 100>
+\\@TEXT_ID@<570>
+C_Shiki
+まあ、一度でも遠野家に戻っていれば。
+具体的なコトは恐ろしくて言えないけど。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 507, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0461", 100>
+\\@TEXT_ID@<580>
+Shiki
+なんで？
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 925, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0052", 100>
+\\@TEXT_ID@<590>
+C_Shiki
+いま俺を乗せてくれているひとがどんなに
+優しくても、こわーいひとに変わるからだよ。
+
+
+\\@CHARA_IN@< 1, 11, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0303", 100>
+\\@TEXT_ID@<600>
+Ciel
+ご理解いただけているようで何よりです。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0304", 100>
+\\@TEXT_ID@<610>
+Ciel
+遠野くんの悪いところは、そこまで
+分かっているのに自分を止められないところですね。
+
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0201", 100>
+\\@TEXT_ID@<620>
+Neco_Arc
+業火のようなハートウォーミング会話はよせ。
+そろそろ遠野邸の敷地にでるゾ！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0202", 100>
+\\@TEXT_ID@<630>
+Neco_Arc
+館内に入ればすぐに防犯ベルが鳴る！
+何度もやってるからアタシは詳しいンだ！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0203", 100>
+\\@TEXT_ID@<640>
+Neco_Arc
+作戦所用時間は３分！
+それ以上は安全を保障できない！
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0161", 100>
+\\@TEXT_ID@<650>
+Miyako
+バカネコ、やけに協力的じゃん！
+また何か企んでるじゃないだろうな！
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0204", 100>
+\\@TEXT_ID@<660>
+Neco_Arc
+ネコにも《責任感＜ココロ＞はあるんだぜチャイナ。
+メガネを分割したのはアタシの失策だった。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0205", 100>
+\\@TEXT_ID@<670>
+Neco_Arc
+なんつーか収拾が付かないにも程がある。
+なんで、まずは元に戻します。
+\l
+
+\\@CHARA_IN@< 1, 19, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0206", 100>
+\\@TEXT_ID@<680>
+Neco_Arc
+ひとり倒すだけでもライフワークなのに
+それが複数いるとか眩暈がするっしょ？
+\l
+
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0207", 100>
+\\@TEXT_ID@<690>
+Neco_Arc
+それにさー。
+どのヒロインも幸福になるって話は好きだけどさー。
+\l
+
+\\@CHARA_IN@< 1, 19, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0208", 100>
+\\@TEXT_ID@<700>
+Neco_Arc
+主人公がヒロインの数だけいれば解決とか、
+違うと思うんだよねー。
+\l
+
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0209", 100>
+\\@TEXT_ID@<710>
+Neco_Arc
+運命っていうのはそういうマルチプルな
+モンじゃねえんだ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0210", 100>
+\\@TEXT_ID@<720>
+Neco_Arc
+取り返しの付かない、
+オンリーワンなものだと思うわけ。
+\l
+
+\\@CHARA_IN@< 1, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0211", 100>
+\\@TEXT_ID@<730>
+Neco_Arc
+それが、たとえ自分の望み通りの展開で
+なかったとしても、ね。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0162", 100>
+\\@TEXT_ID@<740>
+Miyako
+…………。
+（そうだよね……起きた事は、戻せないよね……）
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0305", 100>
+\\@TEXT_ID@<750>
+Ciel
+都古さん、遠野くん！　遠野邸に突入します！
+トオノクン像の確保を最優先で！
+
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@SYSTEM@<200>
+\\@FADE_OUT@<0, 255, 255, 255, 0>
+\aw
+\\@BG_OUT@<0, 2>
+
+
+\\@NPC_LOAD_SYNC@<5, 3, -360, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 281>
+
+\\@NPC_LOAD_SYNC@<6, 3, 170, 0, 1>
+\\@CHARA_SET_PATTERN@<6, 300>
+
+\\@NPC_LOAD_SYNC@<7, 13, -160, 0, 0>
+\\@CHARA_SET_PATTERN@<7, 299>
+
+\\@NPC_LOAD_SYNC@<8, 11, -280, 0, 0>
+\\@CHARA_SET_PATTERN@<8, 0>
+
+\\@NPC_LOAD_SYNC@<9, 19, -400, 0, 0>
+\\@CHARA_SET_PATTERN@<9, 0>
+
+
+\\@NPC_LOAD_SYNC@<11, 2, 80, 0, 1>
+\\@CHARA_SET_PATTERN@<11, 90>
+
+\\@NPC_LOAD_SYNC@<10, 4, 400, 0, 1>
+\\@CHARA_SET_PATTERN@<10, 0>
+
+\\@NPC_LOAD_SYNC@<12, 1, 280, 0, 1>
+\\@CHARA_SET_PATTERN@<12, 0>
+
+
+\\@NPC_LOAD_SYNC@<13, 90, 0, 0, 1>
+\\@CHARA_SET_MVNAME@<13, "CameraKeep">//カメラ完全固定
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 0, 13, 3, 0, 1>
+\\@CHARA_IN@< 1, 2, 204, 0, 1>
+\aw
+
+\\@BGM_PLAY@<0, 75, 50>
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\aw
+
+
+\\@CHARA_SET_PATTERN@<11, 133>
+\\@CHARA_IN@< 1, 2, 204, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0211", 100>
+\\@TEXT_ID@<760>
+Akiha
+こんな時間での来訪はともかく、
+地下から不法侵入だなんて。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0212", 100>
+\\@TEXT_ID@<770>
+Akiha
+有間では礼儀作法を教わっていなかったの？
+これでは賊と思われても仕方がない―――
+\l
+
+\\@CHARA_SET_PATTERN@<11, 4>
+\\@CHARA_IN@< 1, 2, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0213", 100>
+\\@TEXT_ID@<780>
+Akiha
+いえ、誤解も何もなく完全に強盗かしら。
+私の大事なものを盗みに現れたのですから。
+
+\\@CHARA_SET_PATTERN@<7, 306>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0163", 100>
+\\@TEXT_ID@<790>
+Miyako
+アキハ！　それにお兄ちゃん！
+あっちのお兄ちゃんも元に戻ってる！？
+\l
+
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0164", 100>
+\\@TEXT_ID@<800>
+Miyako
+シスター先輩の言う通りだった！
+こっそり隠してたなんて、ズルい！
+
+\\@CHARA_SET_PATTERN@<11, 5>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0214", 100>
+\\@TEXT_ID@<810>
+Akiha
+あなたのお兄ちゃんではありません。
+私の兄です。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0215", 100>
+\\@TEXT_ID@<820>
+Akiha
+兄さんを慕うあなたの幼心に免じて、
+一度目は無傷で帰しましたが……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0216", 100>
+\\@TEXT_ID@<830>
+Akiha
+その口の悪さは注意して
+矯正できるものではありませんね。
+\l
+
+\\@CHARA_SET_PATTERN@<11, 109>
+\\@CHARA_IN@< 1, 2, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0217", 100>
+\\@TEXT_ID@<840>
+Akiha
+厳しめの躾けが必要でしょう。
+その肩にいらっしゃる、暢気な保護者ともども。
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 507, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0462", 100>
+\\@TEXT_ID@<850>
+Shiki
+上から目線ハンパないんだけど、
+あの《娘＜こ＞、ほんとに秋葉？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0463", 100>
+\\@TEXT_ID@<860>
+Shiki
+美人すぎるし凜々しすぎるし、
+よく似た他人じゃなくて？
+
+\\@CHARA_SET_PATTERN@<11, 103>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0218", 100>
+\\@TEXT_ID@<870>
+Akiha
+聞こえていてよ兄さん。
+発言には注意することね。
+\l
+
+\\@CHARA_SET_PATTERN@<11, 4>
+\\@CHARA_IN@< 1, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0219", 100>
+\\@TEXT_ID@<880>
+Akiha
+都古さんへの教育が終わったら、
+次はそちらの番です。
+\l
+
+\\@CHARA_IN@< 1, 2, 204, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0220", 100>
+\\@TEXT_ID@<890>
+Akiha
+７年ぶりに再開した妹への軽率な発言の数々……
+もう一度聞かされてはたまりません。
+\l
+
+
+\\@CHARA_IN@< 1, 2, 202, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0221", 100>
+\\@TEXT_ID@<900>
+Akiha
+ですので―――ええ。
+たっぷりと、容赦なく。
+\l
+
+
+\\@CHARA_SET_PATTERN@<11, 5>
+\\@CHARA_IN@< 1, 2, 205, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0222", 100>
+\\@TEXT_ID@<910>
+Akiha
+こちらの兄さんと同じように、
+改めて躾けてさしあげます。
+
+\\@CHARA_IN@< 1, 3, 526, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0009", 100>
+\\@TEXT_ID@<920>
+H_Shiki_Kakusi
+げんなり。
+
+
+\\@CHARA_SET_PATTERN@<8, 22>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0306", 100>
+\\@TEXT_ID@<930>
+Ciel
+あの衰弱ぶり、よほどの虐待と見ました！
+いったい何をしたのです、秋葉さん！
+
+\\@CHARA_SET_PATTERN@<11, 101>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0223", 100>
+\\@TEXT_ID@<940>
+Akiha
+？　今までの問題行為についての言及を、
+休みなしで４時間行っただけですが？
+\l
+
+
+\\@CHARA_SET_PATTERN@<11, 110>
+\\@CHARA_IN@< 1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0224", 100>
+\\@TEXT_ID@<950>
+Akiha
+それもまださわり程度です。
+本番はこれから。大した事ではありません。
+
+\\@CHARA_SET_PATTERN@<5, 310>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 915, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0053", 100>
+\\@TEXT_ID@<960>
+C_Shiki
+秋葉の《お小言を＜なん＞……《４時間＜だと＞……？
+
+\\@CHARA_SET_PATTERN@<8, 60>
+\\@CHARA_IN@< 0, 11, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0307", 100>
+\\@TEXT_ID@<970>
+Ciel
+話を聞いただけでこちらの遠野くんもですか！？
+どれほど疲弊するんです！？
+
+
+\\@CHARA_SET_PATTERN@<5, 311>
+
+
+\\@CHARA_SET_PATTERN@<6, 301>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 527, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0010", 100>
+\\@TEXT_ID@<980>
+H_Shiki_Kakusi
+めちゃくちゃきっついです！
+助けて先輩、このままじゃ殺される！
+
+
+\\@CHARA_SET_PATTERN@<11, 99>
+\\@CHARA_IN@< 1, 2, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0225", 100>
+\\@TEXT_ID@<990>
+Akiha
+兄さん？
+まだ反省が足りないようですね？
+
+
+\\@CHARA_SET_PATTERN@<6, 302>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 527, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0011", 100>
+\\@TEXT_ID@<1000>
+H_Shiki_Kakusi
+ほらなー！　出せ、出してくれー！
+スパルタ教育に殺されるー！
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 500, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0464", 100>
+\\@TEXT_ID@<1010>
+Shiki
+自業自得……なのか？
+自分の事だけど分かんないな、アレ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0465", 100>
+\\@TEXT_ID@<1020>
+Shiki
+あんな綺麗な《娘＜こ＞がそこまでするって事は、
+アイツに問題がある気がするけど……
+
+\\@CHARA_IN@< 0, 3, 906, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0054", 100>
+\\@TEXT_ID@<1030>
+C_Shiki
+同感だ。あの俺は人としてどうかと思う
+ルートの俺っぽい。
+\l
+
+
+\\@CHARA_IN@< 0, 3, 910, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0055", 100>
+\\@TEXT_ID@<1040>
+C_Shiki
+先輩、もう帰ろう。
+あいつはほっといていいですよ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0056", 100>
+\\@TEXT_ID@<1050>
+C_Shiki
+“ひとりの遠野志貴”に戻る時、
+あのパーツはわりと致命的です。
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 527, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0012", 100>
+\\@TEXT_ID@<1060>
+H_Shiki_Kakusi
+おまえー！　おまえなー！
+それでも俺かー！？
+
+\\@CHARA_SET_PATTERN@<6, 302>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0013", 100>
+\\@TEXT_ID@<1070>
+H_Shiki_Kakusi
+俺ならこれがどういう状況か分かるだろう！？
+バッドエンドに一直線なんだけどー！
+
+\\@CHARA_SET_PATTERN@<7, 304>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0165", 100>
+\\@TEXT_ID@<1080>
+Miyako
+……お兄ちゃん同士でケンカしてる……
+どうしよう、シスター先輩？
+
+\\@CHARA_SET_PATTERN@<8, 14>
+\\@CHARA_IN@< 0, 11, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0308", 100>
+\\@TEXT_ID@<1090>
+Ciel
+あはは……そういう部分も含めての遠野くん
+ですので、今さら無視するワケには……。
+\l
+
+
+\\@CHARA_SET_PATTERN@<8, 60>
+\\@CHARA_IN@< 0, 11, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0309", 100>
+\\@TEXT_ID@<1100>
+Ciel
+あ。いえ、待ってください。
+バッドエンドに一直線……？
+\l
+
+
+\\@CHARA_SET_PATTERN@<8, 31>
+\\@CHARA_IN@< 0, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0310", 100>
+\\@TEXT_ID@<1110>
+Ciel
+失礼。そちらの遠野くんに質問です。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0311", 100>
+\\@TEXT_ID@<1120>
+Ciel
+貴方はもしかして、
+秋葉さんの手元に現れた遠野くんではない？
+
+\\@CHARA_SET_PATTERN@<6, 303>
+\\@CHARA_SET_PATTERN@<11, 111>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0226", 100>
+\\@TEXT_ID@<1130>
+Akiha
+当然でしょう。そちらは都古さんに手渡しました。
+どうあれ、兄さんには元に戻ってほしいので。
+\l
+
+
+\\@CHARA_IN@< 1, 2, 0, 0, 1>
+\\@CHARA_FACE@<1, 0, 13, 300>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0227", 100>
+\\@TEXT_ID@<1140>
+Akiha
+こちらのリトル兄さんは当家にあった４つ目の
+像を、……で解放したものですが、何か？
+
+\\@CHARA_SET_PATTERN@<8, 33>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0312", 100>
+\\@TEXT_ID@<1150>
+Ciel
+ああ……そうでしたか。智恵は回るものの、
+根本が善良なのですね、秋葉さんは。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0313", 100>
+\\@TEXT_ID@<1160>
+Ciel
+都古さんに譲渡した像が『そちらの像』であれば、
+そんな事にはならなかったのに。
+
+\\@CHARA_SET_PATTERN@<11, 98>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0228", 100>
+\\@TEXT_ID@<1170>
+Akiha
+……何が言いたいの？
+
+
+\\@CHARA_SET_PATTERN@<8, 71>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0314", 100>
+\\@TEXT_ID@<1180>
+Ciel
+鳥籠になんて閉じ込めず、わたしたちのように
+信頼関係を築けていた、という事です。
+\l
+
+
+\\@CHARA_IN@< 0, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0315", 100>
+\\@TEXT_ID@<1190>
+Ciel
+でも仕方ありませんよね。
+そちらの遠野くんに罪はあり……ありません。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0316", 100>
+\\@TEXT_ID@<1200>
+Ciel
+彼が秋葉さんに苦手意識を持っているのは当然です。
+なぜなら―――
+\l
+
+\\@CHARA_SET_PATTERN@<8, 60>
+\\@CHARA_IN@< 0, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0317", 100>
+\\@TEXT_ID@<1210>
+Ciel
+彼の運命の相手は貴女ではなく、
+翡翠さんでもなく、琥珀嬢でもない。
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0318", 100>
+\\@TEXT_ID@<1220>
+Ciel
+『翡翠＆琥珀』と縁のある遠野志貴なんです。
+貴女の遠野志貴ではないんですよ、秋葉さん。
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@CHARA_SET_PATTERN@<10, 11>
+\\@CHARA_SET_PATTERN@<12, 120>
+
+\\@CHARA_SET_PATTERN@<11, 136>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0229", 100>
+\\@TEXT_ID@<1230>
+Akiha
+え。
+
+
+\\@CHARA_SET_PATTERN@<7, 310>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0166", 100>
+\\@TEXT_ID@<1240>
+Miyako
+え。
+
+
+\\@CHARA_SET_PATTERN@<9, 38>
+\\@CHARA_IN@< 0, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0212", 100>
+\\@TEXT_ID@<1250>
+Neco_Arc
+マジかよ。
+
+
+\\@BGM_PLAY@<0, 64, 50>//ギャグっぽいコミカルで陽気なBGM
+
+\\@NPC_LOAD_SYNC@<11, -2, 80, 0, 0>
+\\@CHARA_SET_PATTERN@<11, 137>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 203, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0230", 100>
+\\@TEXT_ID@<1260>
+Akiha
+ど―――どういう事ですか兄さん！？
+そんな話ってアリなの！？
+
+
+\\@CHARA_SET_PATTERN@<6, 306>
+\\@CHARA_IN@< 1, 3, 525, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0014", 100>
+\\@TEXT_ID@<1270>
+H_Shiki
+いやあ……何でだろうね？
+
+
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_BirdCage", 0, 75>
+
+\\@CHARA_SET_PATTERN@<11, 138>
+\\@CHARA_IN@< 1, 2, 203, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0231", 100>
+\\@TEXT_ID@<1280>
+Akiha
+訊きたいのは私の方です！
+あの『うわっ』はそういうコトだったのねーーー！
+
+\\@CHARA_SET_MVNAME@<12, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+
+
+\\@CHARA_SET_PATTERN@<7, 304>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0167", 100>
+\\@TEXT_ID@<1290>
+Miyako
+……えーと。
+\l
+
+
+
+\\@CHARA_SET_PATTERN@<7, 305>
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0168", 100>
+\\@TEXT_ID@<1300>
+Miyako
+とにかく、そのお兄ちゃんは
+アキハのお兄ちゃんじゃないんでしょ？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0169", 100>
+\\@TEXT_ID@<1310>
+Miyako
+ならこっちに渡してくれてもいいじゃん。
+それでお兄ちゃんは元通りになるんだから。
+
+\\@CHARA_SET_PATTERN@<11, 140>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0232", 100>
+\\@TEXT_ID@<1320>
+Akiha
+――――――いいえ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0233", 100>
+\\@TEXT_ID@<1330>
+Akiha
+渡す訳にはいきません。
+こんな困った人でも、遠野家の長男……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0234", 100>
+\\@TEXT_ID@<1340>
+Akiha
+私の、私だけの兄さんです。
+その心が、他人に向けられているとしても。
+
+\\@CHARA_SET_PATTERN@<8, 71>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0319", 100>
+\\@TEXT_ID@<1350>
+Ciel
+秋葉さん……
+
+\\@CHARA_SET_PATTERN@<11, 141>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 205, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0235", 100>
+\\@TEXT_ID@<1360>
+Akiha
+そもそも。翡翠と琥珀は当家の所有物。
+その恋人であれば私の所有物です。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0236", 100>
+\\@TEXT_ID@<1370>
+Akiha
+私のものを貴女たちに渡す道理はありません。
+この兄さんは一生、鳥籠の中で反省してもらいます。
+
+
+\\@CHARA_SET_PATTERN@<6, 307>
+\\@CHARA_IN@< 1, 3, 527, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Hsk09_0015", 100>
+\\@TEXT_ID@<1380>
+H_Shiki
+まずい、完全に開き直った！
+『この当主が酷い』令和版更新だ！
+\l
+
+\\@CHARA_SET_PATTERN@<11, 142>
+\\@CHARA_SET_PATTERN@<6, 251>
+\\@CHARA_SET_PATTERN@<10, 12>
+\\@CHARA_SET_PATTERN@<12, 8>
+
+\\@SYSTEM@<100>
+\\@CHARA_CLEAR@<1>
+/*-auto-*/\\@VOICE_PLAY@<1, "03Sik/Hsk09_0016", 100>
+\w<180>
+
+\\@NPC_LOAD_SYNC@<6, -1, 80, -270, 1>
+// \\@TEXT_ID@<1390>
+// H_Shiki
+// Ｎｏｏｏｏｏｏｏｏ～～～～～～～！
+
+\\@VOICE_STOP@<1>
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 205, 12, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<11, -2, 80, 0, 1>
+\\@CHARA_IN@< 1, 2, 205, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0237", 100>
+\\@TEXT_ID@<1400>
+Akiha
+奪うというのならご自由に。
+ですがその場合、こちらも同じ権利を行使します。
+\l
+
+
+
+\\@CHARA_SET_PATTERN@<11, 25>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0238", 100>
+\\@TEXT_ID@<1410>
+Akiha
+私が勝てばそちらのふたりも没収です。
+それでよろしくて？
+
+\\@CHARA_SET_PATTERN@<7, 308>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0170", 100>
+\\@TEXT_ID@<1420>
+Miyako
+あわわ、前とはぜんぜん違う迫力……！
+アキハ、本気になっちゃった！
+
+
+\\@CHARA_SET_PATTERN@<8, 20>
+\\@CHARA_IN@< 0, 11, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0320", 100>
+\\@TEXT_ID@<1430>
+Ciel
+そのようですね。都古さんでは荷が勝ちすぎます。
+ここは私が、
+
+
+\\@CHARA_SET_PATTERN@<7, 302>
+\\@CHARA_IN@< 0, 13, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0171", 100>
+\\@TEXT_ID@<1440>
+Miyako
+ううん、だいじょうぶ！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0172", 100>
+\\@TEXT_ID@<1450>
+Miyako
+あっちが本気を出してくれたなら、
+わたしも本気を出さないと！
+\l
+
+\\@CHARA_SET_PATTERN@<7, 301>
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0173", 100>
+\\@TEXT_ID@<1460>
+Miyako
+妹として負けられません！
+勝てなくても、全力でたたかいます！
+
+
+
+\\@BGM_STOP@<0>
+\e
+

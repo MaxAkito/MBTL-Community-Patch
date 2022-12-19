@@ -1,0 +1,173 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<8>//背景　遠野邸外観_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 72, 50>
+
+\\@NPC_LOAD_SYNC@<5, 13, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 200>
+
+\\@NPC_LOAD_SYNC@<6, 2, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 90>
+
+\\@NPC_LOAD_SYNC@<7, 4, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 0>
+
+\\@NPC_LOAD_SYNC@<8, 1, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">
+\\@CHARA_SET_PATTERN@<8, 0>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 0, 1, 0>
+\\@CHARA_IN@< 1, 1, 105, 2, 0>
+\aw
+
+\\@CHARA_IN@< 0, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0170", 100>
+\\@TEXT_ID@<10>
+Akiha
+……話は以上です。
+●＜状況＞は分かりましたね？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, 105, 0, 1>
+\\@TEXT_ID@<20>
+Hisui
+…………。
+
+
+\\@CHARA_IN@< 1, 4, 110, 0, 1>
+\\@TEXT_ID@<30>
+Kohaku
+…………。
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0171", 100>
+\\@TEXT_ID@<40>
+Akiha
+今朝、貴女たちの部屋に出現したクリスタル像は、
+１７分割された当家の人的財産です。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0172", 100>
+\\@TEXT_ID@<50>
+Akiha
+私が持っていたものは都古さんに委ねました。
+貴女たちも大人しく渡すように。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 109>
+\\@CHARA_IN@< 0, 2, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0173", 100>
+\\@TEXT_ID@<60>
+Akiha
+―――と。
+言いたいところですが、強制はしません。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0174", 100>
+\\@TEXT_ID@<70>
+Akiha
+あの像はただの飾りではなく、運命的なもの。
+私が一方的に取り上げていいものではありません。
+\l
+
+\\@CHARA_IN@< 0, 2, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0175", 100>
+\\@TEXT_ID@<80>
+Akiha
+なので―――渡したくない、というのであれば、
+ここで都古さんと戦いなさい。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0176", 100>
+\\@TEXT_ID@<90>
+Akiha
+自分の運命は自分で守る、あるいは手放す。
+恋とはそういうものでしょう？
+
+\\@CHARA_SET_PATTERN@<6, 103>
+
+\\@CHARA_SET_PATTERN@<8, 120>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 1, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0061", 100>
+\\@TEXT_ID@<100>
+Hisui
+秋葉さま―――よろしいのですか？
+
+
+\\@CHARA_SET_PATTERN@<7, 4>
+\\@CHARA_IN@< 1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0061", 100>
+\\@TEXT_ID@<110>
+Kohaku
+よろしいですとも！
+なんて感動的、そして寛容なお言葉でしょう！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0062", 100>
+\\@TEXT_ID@<120>
+Kohaku
+さすがは秋葉さま、遠野家の誇る初代お嬢様！
+《星＜スタァ＞のように輝いておられます！
+
+
+\\@CHARA_SET_PATTERN@<8, 121>
+\\@CHARA_IN@< 1, 1, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0062", 100>
+\\@TEXT_ID@<130>
+Hisui
+承知いたしました。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0063", 100>
+\\@TEXT_ID@<140>
+Hisui
+秋葉さまが都古さまをお連れになられた時、
+この像をお渡しする事を覚悟しましたが―――
+\l
+
+\\@CHARA_SET_PATTERN@<8, 6>
+\\@CHARA_IN@< 1, 1, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0064", 100>
+\\@TEXT_ID@<150>
+Hisui
+―――私、本気を出します。
+禁じられたマジカルジェイドパワー全開です。
+
+\\@CHARA_SET_PATTERN@<5, 203>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0100", 100>
+\\@TEXT_ID@<160>
+Miyako
+（メイドさん、すっっごく真剣だ……！
+　こっちも全力でやらないと……！）
+\l
+
+
+
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0101", 100>
+\\@TEXT_ID@<170>
+Miyako
+押忍、一手お願いします！
+お兄ちゃんを心配する気持ちは一緒ってコトだよね！
+
+\\@BGM_STOP@<0>
+\e
+

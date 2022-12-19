@@ -1,0 +1,345 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<27>//背景　ビル屋上_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 63, 50>//落ち着いた日常系BGM
+
+\\@NPC_LOAD_SYNC@<5, 13, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 200>
+
+\\@NPC_LOAD_SYNC@<6, 11, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 210>
+
+\\@NPC_LOAD_SYNC@<7, 0, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 101>
+
+\\@NPC_LOAD_SYNC@<8, 2, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">
+\\@CHARA_SET_PATTERN@<8, 90>
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 0, 11, 0, 1, 0>
+\\@CHARA_IN@< 1, 0, 200, 2, 0>
+\aw
+
+\\@CHARA_IN@< 1, 0, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0150", 100>
+\\@TEXT_ID@<10>
+Arcueid
+わたしのこと呼んだ、シエルー？
+ビルの屋上とか分かってるぅー！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0151", 100>
+\\@TEXT_ID@<20>
+Arcueid
+陰湿な罠を張って待ち受けるには
+もってこいの場所だものね！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0152", 100>
+\\@TEXT_ID@<30>
+Arcueid
+うんうん、今日は最っ高に機嫌いいから、
+ほいほい乗ってきてあげちゃった！
+
+\\@CHARA_SET_PATTERN@<8, 100>
+\\@CHARA_IN@< 1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0120", 100>
+\\@TEXT_ID@<40>
+Akiha
+……私だけではなく、
+アルクェイドさんもですか？
+\l
+
+\\@CHARA_IN@< 1, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0121", 100>
+\\@TEXT_ID@<50>
+Akiha
+いよいよ白黒をつける気なのかと思いましたが、
+事情がお有りのようですね。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0190", 100>
+\\@TEXT_ID@<60>
+Ciel
+はい。まずはこちらの方を紹介します。
+どうぞ、都古さん。
+
+\\@CHARA_SET_PATTERN@<5, 203>
+\\@CHARA_IN@< 0, 13, 24, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0070", 100>
+\\@TEXT_ID@<70>
+Miyako
+は、はじめまして！
+こんにちは、有間都古です！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0071", 100>
+\\@TEXT_ID@<80>
+Miyako
+将来の夢は八極拳の達人になって、
+お兄ちゃんと道場を開くことです！
+
+
+\\@CHARA_SET_PATTERN@<7, 7>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0153", 100>
+\\@TEXT_ID@<90>
+Arcueid
+そっかー、こんにちは！
+アルクェイド・ブリュンスタッドです！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0154", 100>
+\\@TEXT_ID@<100>
+Arcueid
+将来の夢はとくにないけど、
+職業はお姫さまなのであった！
+
+\\@CHARA_SET_PATTERN@<5, 201>
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0072", 100>
+\\@TEXT_ID@<110>
+Miyako
+（お姫さま！　ほんとだ、この人お姫さまだ！
+　だってすっごくキレイで、ふわふわしてるし！）
+
+\\@CHARA_SET_PATTERN@<8, 111>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0122", 100>
+\\@TEXT_ID@<120>
+Akiha
+有間ですって……？
+待ちなさい。貴女、有間のひとり娘の？
+\l
+
+\\@CHARA_SET_PATTERN@<8, 101>
+\\@CHARA_IN@< 1, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0123", 100>
+\\@TEXT_ID@<130>
+Akiha
+……いえ、失礼しました。私は遠野秋葉です。
+有間の娘ならそれで分かりますね？
+
+\\@CHARA_SET_PATTERN@<5, 210>
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 13, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0073", 100>
+\\@TEXT_ID@<140>
+Miyako
+（こっちは女王様だ……！
+　すっごくキレイなのに、ツンツンしてるし！）
+
+\\@CHARA_SET_PATTERN@<6, 60>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0191", 100>
+\\@TEXT_ID@<150>
+Ciel
+いけませんよ、初対面の女の子を脅かしては。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 204>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0192", 100>
+\\@TEXT_ID@<160>
+Ciel
+このおふたりは●＜なぜか＞わたしの話だと
+聞き流してしまうので、都古さん、お願いします。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0193", 100>
+\\@TEXT_ID@<170>
+Ciel
+それとも―――都古さんの保護者として、
+遠野くんがしてくれますか？
+
+\\@CHARA_SET_PATTERN@<5, 210>
+\\@CHARA_IN@< 0, 13, 18, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0074", 100>
+\\@TEXT_ID@<180>
+Miyako
+！？　シスター先輩、
+お兄ちゃんのコトは内緒じゃないの！？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 0, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0155", 100>
+\\@TEXT_ID@<190>
+Arcueid
+え、志貴もいるの？　どこどこ～！？
+やった、ちょうど話したいことあったのよね！
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 204, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0124", 100>
+\\@TEXT_ID@<200>
+Akiha
+兄さんがこちらに？　昨夜から無断外泊をされて、
+連絡もありませんでしたが……
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0075", 100>
+\\@TEXT_ID@<210>
+Miyako
+い、いえ、あの、そのっ、
+
+
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 3, 504, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0390", 100>
+\\@TEXT_ID@<220>
+Shiki
+（これは俺が出るしかないな……）
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0391", 100>
+\\@TEXT_ID@<230>
+Shiki
+（アルクェイドさん……はあまり見ない方がいいな。
+　めっちゃ美人で、かばん越しでも眩暈がするし）
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0392", 100>
+\\@TEXT_ID@<240>
+Shiki
+（問題はもうひとりの……秋葉って、ホントに？
+　イメージ変わりす……いや。変わらないか）
+\l
+
+
+\\@CHARA_IN@< 0, 3, 501, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0393", 100>
+\\@TEXT_ID@<250>
+Shiki
+（元から美人だったもんな、アイツ）
+\l
+
+\\@NPC_LOAD_SYNC@<4, 3, -320, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 381>
+\\@CHARA_SET_PATTERN@<5, 277>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 500, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0394", 100>
+\\@TEXT_ID@<260>
+Shiki
+俺ならここにいるよ。
+こんにちは。はじめまして、と、久しぶり？　かな？
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@BGM_PLAY@<1, 64, 50>//ギャグっぽいコミカルで陽気なBGM
+
+
+\\@CHARA_SET_PATTERN@<7, 5>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 0, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0156", 100>
+\\@TEXT_ID@<270>
+Arcueid
+うわっ、志貴ちっちゃ！？
+あわ……あわわ、あわわわ……！
+
+\\@CHARA_IN@< 1, 2, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0125", 100>
+\\@TEXT_ID@<280>
+Akiha
+――――――。
+（※あまりの事で思考停止中）
+
+
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 3, 504, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0395", 100>
+\\@TEXT_ID@<290>
+Shiki
+（予想通りの反応だな……ま、そうだろうけど）
+\l
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 504, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0396", 100>
+\\@TEXT_ID@<300>
+Shiki
+えーと、アルクェイドさん？
+俺と知り合いみたいだけど、ごめんなさい。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0397", 100>
+\\@TEXT_ID@<310>
+Shiki
+俺は君と初対面なんだ。
+なんで、他人行儀な説明になっちゃうけど―――
+
+\\@CHARA_SET_PATTERN@<7, 20>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 0, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0157", 100>
+\\@TEXT_ID@<320>
+Arcueid
+は？　初対面って、志貴が、わたしと？
+\l
+
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 0, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0158", 100>
+\\@TEXT_ID@<330>
+Arcueid
+そんなのあり得ないんですけどぉ！
+言って良い冗談と悪い冗談があるんじゃない！？
+\l
+
+\\@CHARA_SET_PATTERN@<7, 13>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 0, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0159", 100>
+\\@TEXT_ID@<340>
+Arcueid
+あ。分かった、またシエルの洗脳でしょ。
+なら直接、物理で治すしかないわね。
+\l
+
+\\@CHARA_IN@< 1, 0, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0160", 100>
+\\@TEXT_ID@<350>
+Arcueid
+ちょっと手荒いけど覚悟して！
+脱水機にかけられる雑巾みたいにしてあげる！
+
+
+\\@SYSTEM@<121>
+\\@CHARA_IN@< 0, 3, 515, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0398", 100>
+\\@TEXT_ID@<360>
+Shiki
+マジかよ手荒いのレベルが激しすぎる！
+どうなってんだこのお姫さま！？
+
+
+\\@NPC_LOAD_SYNC@<4, -1, -320, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 208>
+\\@CHARA_IN@< 0, 13, 24, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0076", 100>
+\\@TEXT_ID@<370>
+Miyako
+ちょちょちょっと待って～～～！
+今のお兄ちゃんはていちょーに扱ってくださーい！
+
+\\@BGM_STOP@<1>
+\e

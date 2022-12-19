@@ -6,7 +6,7 @@
 \\@SYSTEM@<1>
 \aw
 
-\\@BGM_PLAY@<0, 76, 100>
+\\@BGM_PLAY@<0, 76, 50>
 
 //これがないとカメラがガクつく
 \\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
@@ -32,14 +32,14 @@
 // \\@CHARA_IN@< 1, 11, 305, 0, 1>
 \\@CHARA_IN@< 1, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0010", 100>
-
+\\@TEXT_ID@<10>
 Ciel
 くっ……！
 さすがにご近所に配慮した武装だけでは……
 
 \\@CHARA_IN@< 0, 0, 16, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0040", 100>
-
+\\@TEXT_ID@<20>
 Arcueid
 うー……
 さすがに昼間ずっと歩き回った後だと……
@@ -51,7 +51,7 @@ Arcueid
 // \\@CHARA_IN@< 0, 11, 7, 0, 1>
 \\@CHARA_FOCUS_COLOR@<-1,0>
 /*-auto-*/\\@VOICE_PLAY@<0, "Unison/Arc08_0041_Cie08_0011", 100>
-
+\\@TEXT_ID@<30>
 Arcueid_and_Ciel
 倒しきれ、ない……！
 
@@ -59,7 +59,7 @@ Arcueid_and_Ciel
 \\@CHARA_SET_PATTERN@<5, 24>//shiki
 \\@CHARA_IN@< 0, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0040", 100>
-
+\\@TEXT_ID@<40>
 Shiki
 ５：５でまさかのダブルＫＯ！？
 ふたりとも、大丈夫か！？
@@ -70,14 +70,14 @@ Shiki
 
 \\@CHARA_IN@< 1, 11, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0012", 100>
-
+\\@TEXT_ID@<50>
 Ciel
 ……わたしは大丈夫です。
 
 
 \\@CHARA_IN@< 0, 0, 20, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0042", 100>
-
+\\@TEXT_ID@<60>
 Arcueid
 わたしも……負けては、ないけど……
 思ったよりダメージ入ってる……。
@@ -86,41 +86,32 @@ Arcueid
 
 \\@CHARA_IN@< 0, 0, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0043", 100>
-
+\\@TEXT_ID@<70>
 Arcueid
 ……でも。
 どうして最後は手を止めたのよ、シエル。
 
-/*-comment-
-アルクェイド＠02
-*/
 
 \\@CHARA_IN@< 1, 11, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0013", 100>
-
+\\@TEXT_ID@<80>
 Ciel
 ……ここで貴女を反省させても根本的な解決には
 ならない、と気がついただけです。
 \l
 
-/*-comment-
-シエル＠08
-*/
 
 \\@CHARA_IN@< 1, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0014", 100>
-
+\\@TEXT_ID@<90>
 Ciel
 秋葉さんの予定表に従って街を散策して、
 戦闘をしていたようですが……
 \l
 
-/*-comment-
-シエル＠07
-*/
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0015", 100>
-
+\\@TEXT_ID@<100>
 Ciel
 秋葉さんが遠野くんを危険に
 晒すとは思えません。
@@ -128,7 +119,7 @@ Ciel
 \\@CHARA_SET_PATTERN@<5, 24>//眼鏡やれやれ
 \\@CHARA_IN@< 0, 3, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0041", 100>
-
+\\@TEXT_ID@<110>
 Shiki
 （ん～～、どうかな～～？）
 
@@ -136,7 +127,7 @@ Shiki
 
 \\@CHARA_IN@< 1, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0016", 100>
-
+\\@TEXT_ID@<120>
 Ciel
 では、今回の絵図を描いたのは何者か。
 そう思った時、手が止まったのです。
@@ -144,7 +135,7 @@ Ciel
 
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0044", 100>
-
+\\@TEXT_ID@<130>
 Arcueid
 ……あー。
 わたしには観測できないやつかー。
@@ -152,14 +143,14 @@ Arcueid
 
 \\@CHARA_IN@< 0, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0042", 100>
-
+\\@TEXT_ID@<140>
 Shiki
 ふたりとも急に納得したけど……
 どういうコト？
 
 \\@CHARA_IN@< 1, 11, 9, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0017", 100>
-
+\\@TEXT_ID@<150>
 Ciel
 こちらの話です。頭の痛い案件ですので、
 遠野くんは知らない方がよいかと。
@@ -168,7 +159,7 @@ Ciel
 \\@CHARA_SET_PATTERN@<4, 28>//立ち上がり
 \\@CHARA_IN@< 1, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0018", 100>
-
+\\@TEXT_ID@<160>
 Ciel
 ……なので、今回はこれで終わりです。
 貴女が続けるつもりならその限りではありませんが。
@@ -177,7 +168,7 @@ Ciel
 \\@CHARA_SET_PATTERN@<6, 28>//立ち上がり
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0045", 100>
-
+\\@TEXT_ID@<170>
 Arcueid
 そんなわけないでしょ。
 わたしもシエルはおなかいっぱい。
@@ -186,14 +177,14 @@ Arcueid
 
 \\@CHARA_IN@< 0, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0046", 100>
-
+\\@TEXT_ID@<180>
 Arcueid
 それより志貴、お姫様だっこで部屋まで運んで。
 こういう時、そうするんでしょ？
 
 \\@CHARA_IN@< 0,  3, 18, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0043", 100>
-
+\\@TEXT_ID@<190>
 Shiki
 バカ、調子に乗るな。……っていうか、
 ここからおまえのマンションまでは流石にムリ。
@@ -201,7 +192,7 @@ Shiki
 
 \\@CHARA_IN@< 0, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0044", 100>
-
+\\@TEXT_ID@<200>
 Shiki
 すみません先輩、そっち支えてもらえますか？
 
@@ -209,7 +200,7 @@ Shiki
 \\@CHARA_SET_PATTERN@<6, 20>//怒り
 \\@CHARA_IN@< 0, 0, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0047", 100>
-
+\\@TEXT_ID@<210>
 Arcueid
 やだやだー！
 シエルの肩借りるくらいなら、ここで車止めになる！
@@ -217,7 +208,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<5, 28>//眼鏡ため息
 \\@CHARA_IN@< 0, 3, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0045", 100>
-
+\\@TEXT_ID@<220>
 Shiki
 あのな、あれはせいぜい室内で１０メートルが限界だ。
 外で何百メートルもやることじゃない。
@@ -226,14 +217,14 @@ Shiki
 
 \\@CHARA_SET_PATTERN@<5, 29>//眼鏡ため息戻り
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0046", 100>
-
+\\@TEXT_ID@<230>
 Shiki
 そもそも、ほっといても回復するだろおまえ。
 ベンチで休む、ぐらいにしてくれない？
 
 \\@CHARA_IN@< 0, 0, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0048", 100>
-
+\\@TEXT_ID@<240>
 Arcueid
 今日のわたし、精神的にすっごくつかれてるのー！
 もう一歩も動きたくなーい！
@@ -242,7 +233,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<4, 11>//退屈
 \\@CHARA_IN@< 1, 11, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0019", 100>
-
+\\@TEXT_ID@<250>
 Ciel
 （精神的……確かにアルクェイドにしては
 　被害が少ないですね……）
@@ -250,7 +241,7 @@ Ciel
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0020", 100>
-
+\\@TEXT_ID@<260>
 Ciel
 （彼女なりに気を遣って、遠野くんを
 　守っていた……）
@@ -259,7 +250,7 @@ Ciel
 \\@CHARA_SET_PATTERN@<4, 19>//退屈戻り
 \\@CHARA_IN@< 1, 11, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0021", 100>
-
+\\@TEXT_ID@<270>
 Ciel
 はあ。仕方ありません。
 ここは譲りましょう。
@@ -268,7 +259,7 @@ Ciel
 
 \\@CHARA_IN@< 1, 11, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie08_0022", 100>
-
+\\@TEXT_ID@<280>
 Ciel
 申し訳ありませんが、ドラ猫の世話はお任せします。
 わたしの家は反対方向ですので、ここで。
@@ -289,7 +280,7 @@ Ciel
 \\@CHARA_SET_PATTERN@<6, 7>//足組み
 \\@CHARA_IN@< 0, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0049", 100>
-
+\\@TEXT_ID@<290>
 Arcueid
 おっ、今日は気が利くじゃない。
 ばいばーい、シエル！
@@ -299,14 +290,14 @@ Arcueid
 \\@CHARA_SET_PATTERN@<6, 48>//振り向き
 \\@CHARA_IN@< 0, 0, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0050", 100>
-
+\\@TEXT_ID@<300>
 Arcueid
 はい志貴、早く早く！
 
 \\@CHARA_SET_PATTERN@<5, 24>//眼鏡やれやれ
 \\@CHARA_IN@< 0, 3, 4, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0047", 100>
-
+\\@TEXT_ID@<310>
 Shiki
 しょうがないな……わかったよ。
 おまえのマンションの入口までだからな？
@@ -315,35 +306,35 @@ Shiki
 
 \\@CHARA_IN@< 0, 0, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0051", 100>
-
+\\@TEXT_ID@<320>
 Arcueid
 えー、どうして？
 部屋まで運んでくれても同じでしょ！？
 
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0048", 100>
-
+\\@TEXT_ID@<330>
 Shiki
 俺の中では違うんだよ！
 部屋に入ったらおまえ、鍵閉める気だろ！
 
 \\@CHARA_IN@< 0, 0, 11, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0052", 100>
-
+\\@TEXT_ID@<340>
 Arcueid
 ふーんだ、けちー。
 \l
 
 \\@CHARA_IN@< 0, 0, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0053", 100>
-
+\\@TEXT_ID@<350>
 Arcueid
 じゃ、わたしを一度も下ろさずマンションまで
 行けたら、その先はあきらめてあげる。どう？
 
 \\@CHARA_IN@< 0, 3, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0049", 100>
-
+\\@TEXT_ID@<360>
 Shiki
 ああ、それならいいよ。
 でも体重増やしたり、わざと暴れるのはナシだぞ？
@@ -351,7 +342,7 @@ Shiki
 \\@CHARA_SET_PATTERN@<6, 16>//足組み考え
 \\@CHARA_IN@< 0, 0, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0054", 100>
-
+\\@TEXT_ID@<370>
 Arcueid
 ……………………………………………………ちぇ。
 
@@ -359,7 +350,7 @@ Arcueid
 \\@CHARA_SET_PATTERN@<5, 28>//眼鏡ため息
 \\@CHARA_IN@< 0, 3, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0050", 100>
-
+\\@TEXT_ID@<380>
 Shiki
 ……やる気だったな。子供か、ほんと。
 そういうワルイ子はやっぱりひとりで、
@@ -369,7 +360,7 @@ Shiki
 \\@CHARA_SET_PATTERN@<6, 17>//にっこり
 \\@CHARA_IN@< 0, 0, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0055", 100>
-
+\\@TEXT_ID@<390>
 Arcueid
 わかったわかった。おとなしくしてるから、ね？
 はい、だっこ？
@@ -377,7 +368,7 @@ Arcueid
 
 \\@CHARA_IN@< 0,  3, 18, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0051", 100>
-
+\\@TEXT_ID@<400>
 Shiki
 ………………。
 
@@ -393,42 +384,42 @@ Shiki
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc08_0056", 100>
-
+\\@TEXT_ID@<410>
 Arcueid
 へへへー。
 しゅっぱつしんこー！
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0052", 100>
-
+\\@TEXT_ID@<420>
 Shiki
 ……はあ。学校の知り合いに見られたら
 どうするんだ、コレ……
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0053", 100>
-
+\\@TEXT_ID@<430>
 Shiki
 （いや、それより体力を心配しないと。
 　途中で下ろすのは男が廃……）
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0054", 100>
-
+\\@TEXT_ID@<440>
 Shiki
 いや、じゃなくて約束、約束！
 大事なのはそこだ、そこ！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0055", 100>
-
+\\@TEXT_ID@<450>
 Shiki
 夕方までに帰らないと秋葉が泣くとか
 意味分からないしな！
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0056", 100>
-
+\\@TEXT_ID@<460>
 Shiki
 行くぞぉ……うおおおおおおおおお、
 持ってくれよ俺の足腰！！
@@ -436,7 +427,7 @@ Shiki
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik08_0057", 100>
-
+\\@TEXT_ID@<470>
 Shiki
 って、こら、首に抱きつくな！
 落とすだろ、ばかーーー！

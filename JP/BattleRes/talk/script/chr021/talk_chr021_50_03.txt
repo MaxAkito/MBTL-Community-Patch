@@ -1,0 +1,290 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<15>//背景　草原_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+
+\\@BGM_PLAY@<0, 62, 50>//ほのぼのとした日常系BGM
+
+\\@NPC_LOAD_SYNC@<4, 21, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//ushi
+\\@CHARA_SET_PATTERN@<4, 6>//ushi
+
+
+\\@CHARA_IN@< 0, 21, 11, 1, 0>
+\aw
+
+\\@SYSTEM@<100>
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 21, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0070", 100>
+\\@TEXT_ID@<10>
+Ushiwaka
+建物ばかりの街かと思ったが、
+見晴らしの良い場所もあるではないですか。
+\l
+
+
+\\@CHARA_IN@< 0, 21, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0071", 100>
+\\@TEXT_ID@<20>
+Ushiwaka
+気に入りました。マシュ殿より預かった『コンビニ弁当』、
+ここで戴くとしよう。
+
+
+\\@NPC_LOAD_SYNC@<5, 13, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@CHARA_IN@< 1, 13, 0, 2, 0>
+\aw
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 13, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0200", 100>
+\\@TEXT_ID@<30>
+Miyako
+あれ？　見なれない人がいる。
+不思議な格好だけど、路地裏のひとかな？
+\l
+
+
+\\@CHARA_IN@< 1, 13, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0201", 100>
+\\@TEXT_ID@<40>
+Miyako
+『路地裏にはたまに眼帯をしたり、
+　翼のはえた服装のひとがいたりするけど、
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0202", 100>
+\\@TEXT_ID@<50>
+Miyako
+　基本的には無害だから通報してはいけないよ。
+　趣味の範囲で楽しんでいるかぎりはね』
+\l
+
+\\@CHARA_IN@< 1, 13, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0203", 100>
+\\@TEXT_ID@<60>
+Miyako
+って、お兄ちゃん言ってたもんね！
+それに……
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 6>
+\\@CHARA_IN@< 1, 13, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0204", 100>
+\\@TEXT_ID@<70>
+Miyako
+シュッとした姿勢、さらさらの黒髪……
+すごぉい！　すごい美人さんだ……！
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 11>
+\\@CHARA_IN@< 1, 13, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0205", 100>
+\\@TEXT_ID@<80>
+Miyako
+ちょっと話しかけてみよーーっと！
+すいません、一緒に写真いいですかー！
+
+
+\\@CHARA_SET_PATTERN@<4, 21>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 21, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0072", 100>
+\\@TEXT_ID@<90>
+Ushiwaka
+おや。これは愛らしい。
+私などでよければよろこんで。
+\l
+
+
+\\@SYSTEM@<131>
+\\@CHARA_SET_PATTERN@<4, 1>
+\\@CHARA_IN@< 0, 21, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0073", 100>
+\\@TEXT_ID@<100>
+Ushiwaka
+（……いや待て。私は霊体化していた。
+　通常の目では見えるはずはないのですが……）
+\l
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 22>
+\\@CHARA_IN@< 0, 21, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0074", 100>
+\\@TEXT_ID@<110>
+Ushiwaka
+いえ、別にいいですね、細かいことは。
+おそらく見鬼の才があるのでしょう。
+\l
+
+\\@CHARA_IN@< 0, 21, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0075", 100>
+\\@TEXT_ID@<120>
+Ushiwaka
+幼子殿、どうぞこちらに。
+そうだ、お腹は減ってはいませんか？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0076", 100>
+\\@TEXT_ID@<130>
+Ushiwaka
+ちょうど昼食にしようと思―――
+
+\\@BGM_PLAY@<0, 74, 50>
+
+\\@CHARA_SET_PATTERN@<4, 50>
+\\@CHARA_SET_PATTERN@<5, 130>
+
+
+\\@CHARA_IN@< 0, 21, 9, 0, 1>
+\\@CHARA_IN@< 1, 13, 4, 0, 1>
+\\@SYSTEM@<122>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0206", 100>
+\\@TEXT_ID@<140>
+Miyako
+ほわたーーーーー！
+
+
+\\@SYSTEM@<121>
+\\@CHARA_IN@< 0, 21, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0077", 100>
+\\@TEXT_ID@<150>
+Ushiwaka
+なんとぉ！？
+\l
+
+\\@CHARA_WAIT_PATTERN@< 4, 52 >//牛若丸着地まで待機
+// \\@CHARA_WAIT_PATTERN@< 5, 0 >//都古着地からニュートラルになるまで待機
+\aw
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 4>
+\\@CHARA_IN@< 0, 21, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0078", 100>
+\\@TEXT_ID@<160>
+Ushiwaka
+あぶなっ、何をするのです！
+危うく抜きかけたではないですか！
+
+
+\\@CHARA_SET_PATTERN@<5, 1>
+\\@CHARA_IN@< 1, 13, 3, 0, 1>
+\\@SYSTEM@<102>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0207", 100>
+\\@TEXT_ID@<170>
+Miyako
+バカネコの匂いがする！
+カッコイイ見た目にだまされないぞっ！
+\l
+
+
+\\@CHARA_IN@< 1, 13, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0208", 100>
+\\@TEXT_ID@<180>
+Miyako
+お姉さんはいい人みたいだけど、
+ネコの手下なら見逃せない！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0209", 100>
+\\@TEXT_ID@<190>
+Miyako
+うん、今日の特訓中にであったのは
+きっと武者修行ってヤツ！
+\l
+
+\\@CHARA_SET_PATTERN@<5, 8>
+\\@CHARA_IN@< 1, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0210", 100>
+\\@TEXT_ID@<200>
+Miyako
+いざじんじょうに勝負、しょーぶ！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0211", 100>
+\\@TEXT_ID@<210>
+Miyako
+わたしは都古！　有間都古！
+まだ小学生だけど、りっぱな八極拳士です！
+
+\\@CHARA_SET_PATTERN@<4, 1>
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 21, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0079", 100>
+\\@TEXT_ID@<220>
+Ushiwaka
+（バカネコ……あの猫又の事か？
+　困ったな。確かにその通りではある）
+\l
+
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 20>
+\\@CHARA_IN@< 0, 21, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0080", 100>
+\\@TEXT_ID@<230>
+Ushiwaka
+しかし。あのような潰れ饅頭とは関係なく、
+挑戦に応えましょう。
+\l
+
+
+\\@CHARA_IN@< 0, 21, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0081", 100>
+\\@TEXT_ID@<240>
+Ushiwaka
+都古、と言いましたね。威勢のいい名乗りでした。
+五条橋のやんちゃ坊主を思い出す。
+\l
+
+\\@CHARA_IN@< 0, 21, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0082", 100>
+\\@TEXT_ID@<250>
+Ushiwaka
+訳あって名は明かせませんが、
+私の事は……そうですね、薄緑、とでも。
+
+\\@CHARA_SET_PATTERN@<5, 3>
+\\@CHARA_IN@< 1, 13, 5, 0, 1>
+\\@SYSTEM@<132>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0212", 100>
+\\@TEXT_ID@<260>
+Miyako
+（うすみどり……！
+　めっちゃ素敵なお名前だーー！）
+
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 21, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0083", 100>
+\\@TEXT_ID@<270>
+Ushiwaka
+その歳で武者修行とは恐れ入る。
+幼子と気を遣ったこちらが無礼でした。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0084", 100>
+\\@TEXT_ID@<280>
+Ushiwaka
+先ほど購入した竹光でお相手しましょう。
+お互い、良い経験になりそうです……！
+
+
+\\@BGM_STOP@<0>
+\e
+

@@ -1,0 +1,400 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<13>//背景　公園_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+
+\\@NPC_LOAD_SYNC@<5, 19, -25, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//neco
+\\@CHARA_SET_PATTERN@<5, 170>//neco
+
+\\@NPC_LOAD_SYNC@<6, 20, 25, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">//mash
+\\@CHARA_SET_PATTERN@<6, 25>//mash
+
+\\@CHARA_IN@< 1, 19, 100, 2, 0>
+\aw
+
+\\@SYSTEM@<100>
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0460", 100>
+\\@TEXT_ID@<10>
+Neco_Arc
+チョークで召喚陣を書いて、と……。
+かきかき……。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 171>//neco
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0461", 100>
+\\@TEXT_ID@<20>
+Neco_Arc
+んー、肉球みたいな模様になったけど、
+だいたい合ってる合ってる。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 172>//neco
+\\@CHARA_IN@< 1, 19, 112, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0462", 100>
+\\@TEXT_ID@<30>
+Neco_Arc
+んじゃいっくぞー！
+人生はいつもクラッシュ＆エラーじゃんよ！
+\l
+
+\\@CHARA_SET_PATTERN@<5, 173>//neco
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0463", 100>
+\\@TEXT_ID@<40>
+Neco_Arc
+閉じよ、閉じよ、閉じよ。
+ん？　なんかルビふってあるけど分かんねー！
+\l
+
+
+\\@SYSTEM@<122>
+\\@CHARA_SET_PATTERN@<5, 174>//neco
+\\@CHARA_IN@< 1, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0464", 100>
+\\@TEXT_ID@<50>
+Neco_Arc
+いいや、とにかくカモーン！
+良くして和よりの来たれ、天秤の守り手よーーー！
+
+\\@CHARA_SET_PATTERN@<5, 175>//neco
+\w<100>
+
+\\@NPC_LOAD_SYNC@<7, 93, -305, 0, 0>//小物
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Discharge", 0, 75>
+\\@CHARA_SET_PATTERN@<7, 1>//落雷
+
+\\@NPC_LOAD_SYNC@<4, 21, -305, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//ushi
+\\@CHARA_SET_PATTERN@<4, 17>//ushi
+\w<90>
+
+
+\\@CHARA_SET_PATTERN@<5, 0>//neco
+
+
+\\@CHARA_IN@< 0, 21, 108, 1, 0>
+\aw
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 21, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0050", 100>
+\\@TEXT_ID@<60>
+Ushiwaka
+サーヴァント、ライダー。
+牛若丸、召喚に応じ参上しました。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0051", 100>
+\\@TEXT_ID@<70>
+Ushiwaka
+九郎義経に至る前の幼名なれど、
+技の冴えに違いは無く。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0052", 100>
+\\@TEXT_ID@<80>
+Ushiwaka
+敵がどれほどの大軍であろうと貴方に勝利を。
+なに、敵将の首を取れば何事も解決です。
+\l
+
+\\@CHARA_IN@< 0, 21, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0053", 100>
+\\@TEXT_ID@<90>
+Ushiwaka
+―――などと、いまさら言うまでもありませんね。
+お久しぶりですマシュ殿。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0054", 100>
+\\@TEXT_ID@<100>
+Ushiwaka
+円卓の盾を触媒にしての召喚とあれば、
+どのような異邦の地であろうとはせ参じ―――
+
+\\@CHARA_SET_PATTERN@<4, 18>//ushi
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 0, 21, 110, 0, 1>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0465", 100>
+\\@TEXT_ID@<110>
+Neco_Arc
+――――――。
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 21, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0055", 100>
+\\@TEXT_ID@<120>
+Ushiwaka
+――――――。
+
+\\@CHARA_SET_PATTERN@<5, 5>//neco
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0466", 100>
+\\@TEXT_ID@<130>
+Neco_Arc
+《問おう＜エクスキューズミー＞。
+ｙｏｕがアタシのペンフレンド？
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 21, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0056", 100>
+\\@TEXT_ID@<140>
+Ushiwaka
+なんだ貴様は。
+《狐狸＜こり＞の《類＜たぐい＞、いや猫又か？
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 18>//neco 頭のけぞり
+\\@SQ_CALL@<1>
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\\@CHARA_SET_PATTERN@<4, 0>//ushi
+
+\\@GO_SUB@<"QUAKE_2">
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Clank", 0, 75>
+\aw
+
+\\@BGM_FADE@<0, -1, 0, -2, 1>
+
+\\@SQ_CALL@<2>
+\\@CHARA_CLEAR@<1>
+\aw
+
+\\@CHARA_SET_PATTERN@<5, 70>//neco フェードアウト
+
+\\@CHARA_IN@< 0, 21, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0057", 100>
+\\@TEXT_ID@<150>
+Ushiwaka
+まあいい。その盾をどこで拾った。
+返答によっては首を落とすぞ。
+
+
+\\@CHARA_SET_PATTERN@<5, 3>//neco
+\\@CHARA_SET_MVNAME@<5, "FadeIn">//neco
+\\@CHARA_IN@< 1, 19, 110, 12, 0>
+\aw
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0467", 100>
+\\@TEXT_ID@<160>
+Neco_Arc
+おいおい、コイツはとんだじゃじゃ馬ガールだ。
+音速かな？　《台詞＜おと＞が後からついてくる。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 9>//neco
+\\@CHARA_IN@< 1, 19, 118, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0468", 100>
+\\@TEXT_ID@<170>
+Neco_Arc
+だがその暴力性が気に入った！
+ウェルカム、ポンポコ侍！
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 38>//neco
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0469", 100>
+\\@TEXT_ID@<180>
+Neco_Arc
+アタシはネコアルク。
+この盾はマシュ君が貸してくれたよ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0470", 100>
+\\@TEXT_ID@<190>
+Neco_Arc
+マシュ君はいまコンビニに買い物に行ってるよ。
+その隙に戦力を増強したんだよ。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 2>//neco
+\\@CHARA_IN@< 1, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0471", 100>
+\\@TEXT_ID@<200>
+Neco_Arc
+アー、ユー、アンダースタン？
+理解した？　アタシ、トモダチ。テキ、チガウ。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 21, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0058", 100>
+\\@TEXT_ID@<210>
+Ushiwaka
+……マシュ殿は近くにいるのだな。
+そうであれば刀は収めるが……
+\l
+
+
+\\@CHARA_IN@< 0, 21, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0059", 100>
+\\@TEXT_ID@<220>
+Ushiwaka
+なぜカタコトで話す。
+召喚する以上、その国の言語には詳しかろう。
+
+
+\\@CHARA_SET_PATTERN@<5, 0>//neco
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0472", 100>
+\\@TEXT_ID@<230>
+Neco_Arc
+ん、なんとなく。
+話が通じるならオッケーです。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0473", 100>
+\\@TEXT_ID@<240>
+Neco_Arc
+牛若丸って言うの？　若クンって呼んでいい？
+男なの？　女なの？
+\l
+
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0474", 100>
+\\@TEXT_ID@<250>
+Neco_Arc
+レアリティは？　銃刀法違反って知ってる？
+その服はどうしたの？　成長期が急に来たの？
+\l
+
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0475", 100>
+\\@TEXT_ID@<260>
+Neco_Arc
+まあいいや、そのあたりはステータス画面で
+確認すっから。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 35>//neco
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0476", 100>
+\\@TEXT_ID@<270>
+Neco_Arc
+改めて、よろしく若クン。
+アタシは正義のネコ、ネコアルク。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0477", 100>
+\\@TEXT_ID@<280>
+Neco_Arc
+ふやけた饅頭のような姿は世を忍ぶ仮の姿。
+今回君を呼んだのは他でもない。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0478", 100>
+\\@TEXT_ID@<290>
+Neco_Arc
+にっくきＭＢ界の面子にわからせるため、
+君のそのフレッシュな力がひつ
+
+\\@BGM_FADE@<0, -1, 0, -2, 1>
+
+\\@CHARA_SET_PATTERN@<5, 18>//neco 頭のけぞり
+\\@SQ_CALL@<1>
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\\@CHARA_SET_PATTERN@<4, 19>//ushi
+
+\\@GO_SUB@<"QUAKE_2">
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Clank", 0, 75>
+\aw
+
+
+\\@SQ_CALL@<3>
+\\@CHARA_CLEAR@<1>
+\aw
+
+\\@CHARA_SET_PATTERN@<5, 70>//neco フェードアウト
+\w<60>
+
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 21, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0060", 100>
+\\@TEXT_ID@<300>
+Ushiwaka
+―――よし、妖魔退散。
+諫言、聞くに能わず。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0061", 100>
+\\@TEXT_ID@<310>
+Ushiwaka
+私は何も見なかった。
+人理の影法師として、潔く消え去るのみ。
+\l
+
+\\@CHARA_IN@< 0, 21, 112, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0062", 100>
+\\@TEXT_ID@<320>
+Ushiwaka
+………………とはいえ。
+\l
+
+
+
+\\@CHARA_IN@< 0, 21, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0063", 100>
+\\@TEXT_ID@<330>
+Ushiwaka
+弁慶ではあるまいし、そこまで生真面目に
+なるのも牛若にあらず。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0064", 100>
+\\@TEXT_ID@<340>
+Ushiwaka
+話に聞いた二十一世紀の日本、
+肌に感じる強敵の気配……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0065", 100>
+\\@TEXT_ID@<350>
+Ushiwaka
+これほど胸躍る舞台もない。
+マシュ殿も探さないといけませんし……
+\l
+
+\\@CHARA_IN@< 0, 21, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0066", 100>
+\\@TEXT_ID@<360>
+Ushiwaka
+せっかく召喚されたのです。
+退去するまでこの世界を楽しもうではありませんか。
+
+
+
+\\@BGM_STOP@<0>
+\e
+

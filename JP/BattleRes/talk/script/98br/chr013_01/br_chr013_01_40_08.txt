@@ -1,0 +1,313 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>//背景　地下墓地
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 50>
+
+\\@NPC_LOAD_SYNC@<5, 13, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 60>
+
+\\@NPC_LOAD_SYNC@<6, 0, -480, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 130>
+
+\\@NPC_LOAD_SYNC@<7, 11, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 120>
+
+\\@NPC_LOAD_SYNC@<8, 93, 320, 0, 0>
+\\@CHARA_SET_PATTERN@<8, 5>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+\w<64>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 0, 2, 1, 0>
+\\@CHARA_IN@< 1, 13, 3, 2, 0>
+\aw
+
+\\@CHARA_IN@< 0, 0, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0200", 100>
+\\@TEXT_ID@<10>
+Arcueid
+あ、ダメ。
+わたし、そのドアに入れないっぽい。
+
+
+\\@CHARA_SET_PATTERN@<5, 3>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 13, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0130", 100>
+\\@TEXT_ID@<20>
+Miyako
+お、お腹の調子がわるいんですかっ！？
+おくすり、おくすり持ってきます！
+
+
+\\@CHARA_SET_PATTERN@<6, 122>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 0, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0201", 100>
+\\@TEXT_ID@<30>
+Arcueid
+ううん、そういうんじゃなくて気持ち的な問題。
+『行ったら絶対後悔する』みたいな。
+\l
+
+\\@CHARA_IN@< 0, 0, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0202", 100>
+\\@TEXT_ID@<40>
+Arcueid
+立ち会えないのはつまらないけど、
+ここで都古と志貴を待ってるわ。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 124>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0203", 100>
+\\@TEXT_ID@<50>
+Arcueid
+―――シエル、しっかりね。
+性格は心配だけど、性能は信頼してる。
+
+
+\\@CHARA_SET_PATTERN@<7, 31>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0240", 100>
+\\@TEXT_ID@<60>
+Ciel
+……それは私も同じです。
+理性はともかく、貴女の直感はいつも正しい。
+\l
+
+
+\\@CHARA_SET_PATTERN@<7, 62>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0241", 100>
+\\@TEXT_ID@<70>
+Ciel
+任せなさい。どんな手を使っても、
+遠野くんを……の状態に戻してきます。
+
+
+\\@CHARA_SET_PATTERN@<5, 61>
+\\@CHARA_SET_PATTERN@<7, 121>
+\w<60>
+
+\\@CHARA_OUT@<1, -1, -1, 2, 0>
+\aw
+\\@CHARA_SET_PATTERN@<8, 6>
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 0, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0204", 100>
+\\@TEXT_ID@<80>
+Arcueid
+ん？　いま、わたしのって言った？
+
+
+\\@SYSTEM@<200>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<6, -1, -480, 0, 0>
+\\@CHARA_CLEAR@<0>
+
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+
+\\@LOAD_BATTLE_BG@<24>//背景　グレートキャッツビレッジ
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<5, 13, -480, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 59>
+
+\\@NPC_LOAD_SYNC@<7, 11, -640, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 119>
+
+\\@NPC_LOAD_SYNC@<6, 19, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 140>
+\w<64>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 1, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0131", 100>
+\\@TEXT_ID@<90>
+Miyako
+お邪魔しまーす。
+こちら、バカネコのお宅でしょうかー？
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 104, 2, 0>
+\aw
+
+\\@CHARA_IN@< 1, 19, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0170", 100>
+\\@TEXT_ID@<100>
+Neco_Arc
+え？　宅配ピザもう来たの？
+今から注文打ち込むところなのに早くね？
+\l
+
+
+\\@CHARA_IN@< 1, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0171", 100>
+\\@TEXT_ID@<110>
+Neco_Arc
+なるほど、昨日入った『格安！　超・光通信』って
+そういうコト。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0172", 100>
+\\@TEXT_ID@<120>
+Neco_Arc
+タキオン粒子で時間を超える、と。
+未来予知による犯罪防止まであと一歩ですかな？
+\l
+
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0173", 100>
+\\@TEXT_ID@<130>
+Neco_Arc
+では『ニボシ＆イワシのピザ』ごっちゃんです。
+代金はいつも通り出世払いで―――
+\l
+
+\\@CHARA_SET_PATTERN@<6, 141>
+\\@CHARA_WAIT_PATTERN@<6,142>
+\aw
+
+
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0174", 100>
+\\@TEXT_ID@<140>
+Neco_Arc
+本丸攻め込まれてるじゃねーーーか！
+雇った傭兵どもは何をしていた！？
+
+
+\\@CHARA_SET_PATTERN@<7, 60>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0242", 100>
+\\@TEXT_ID@<150>
+Ciel
+ドアを守っていた衛士の方たちですか？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0243", 100>
+\\@TEXT_ID@<160>
+Ciel
+“あのネコに支払い能力はありませんよ”
+と説明したら、皆さん帰っていきましたが。
+
+\\@CHARA_SET_PATTERN@<6, 143>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0175", 100>
+\\@TEXT_ID@<170>
+Neco_Arc
+冬将軍マロース……！
+機関車ミハイル……！　っかえねー！
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 144>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0176", 100>
+\\@TEXT_ID@<180>
+Neco_Arc
+……ふむ。では、この展開はやはり？
+
+
+\\@CHARA_SET_PATTERN@<5, 1>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0132", 100>
+\\@TEXT_ID@<190>
+Miyako
+そうだ、バカネコ！
+お兄ちゃんを返して！　あと戻して！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0133", 100>
+\\@TEXT_ID@<200>
+Miyako
+分割した当人なら戻し方も知ってるでしょ！
+ちゃんとできたら《寸勁＜すんけい＞百発で許してあげる！
+
+\\@CHARA_SET_PATTERN@<6, 3>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0177", 100>
+\\@TEXT_ID@<210>
+Neco_Arc
+おいおい、そいつは過剰防衛ってヤツだぜ？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0177_1", 100>
+\\@TEXT_ID@<220>
+Neco_Arc
+ワンインチパンチをハンドレッドパンチに
+されちゃあ、武術界も黙ってはいられません。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 4>
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0178", 100>
+\\@TEXT_ID@<230>
+Neco_Arc
+そもそもｙｏｕがなに言ってるかわからねー！
+もうファイトでしかわかりあえねー！
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 35>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0179", 100>
+\\@TEXT_ID@<240>
+Neco_Arc
+行くぞチャイナ、我が宿命のライバル、
+我が最推しのヒロインよ！
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 90>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0179_1", 100>
+\\@TEXT_ID@<250>
+Neco_Arc
+グレートキャッツビレッジでは、
+アタシの力はおおよそ1.3倍になる！
+\l
+
+\\@SYSTEM@<122>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0179_2", 100>
+\\@TEXT_ID@<260>
+Neco_Arc
+最終決戦っ、だっ！
+ここを貴様の《教えて教室＜バッドエンド＞にしてやらぁ！
+
+\\@BGM_STOP@<0>
+\e

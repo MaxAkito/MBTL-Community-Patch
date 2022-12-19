@@ -8,7 +8,7 @@
 // \\@SYSTEM@<1>
 \aw
 
-\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_PLAY@<0, 74, 50>
 
 //＃公園_夜
 
@@ -32,7 +32,7 @@
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 2, 3, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10020", 100>
-
+\\@TEXT_ID@<10>
 Shiki
 あぶない都古ちゃん！
 そのサンドイッチと紅茶は毒入りだ！
@@ -40,7 +40,7 @@ Shiki
 \\@CHARA_IN@< 0, 13, 0, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10060", 100>
-
+\\@TEXT_ID@<20>
 Miyako
 うん、分かってる！
 だって見た目からヤッバイ色してたからね！
@@ -63,7 +63,7 @@ Miyako
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 1, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His_10000", 100>
-
+\\@TEXT_ID@<30>
 Hisui@Hisui_TooriMaid
 ―――失敗しました。
 やはり、姉さんの紅茶に問題があったかと。
@@ -71,7 +71,7 @@ Hisui@Hisui_TooriMaid
 \\@CHARA_SET_PATTERN@<7, 9>//kohaku 困惑
 \\@CHARA_IN@< 3, 4, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10000", 100>
-
+\\@TEXT_ID@<40>
 Kohaku@Kohaku_TooriKaseifu
 どうでしょうー。翡翠ちゃんのウメサンドの方が
 アウトだったと思いますよー？
@@ -87,13 +87,13 @@ Kohaku@Kohaku_TooriKaseifu
 \\@CHARA_OUT@<1, 1, -1, 0, 0>
 \\@CHARA_OUT@<2, 3, -1, 0, 0>
 \\@CHARA_OUT@<3, 4, -1, 0, 0>
-\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\@BGM_FADE@<0, -1, 0, -2, 1>
 \\aw
 
 \\@DRAW_EFFECT@<1>
 \aw
 
-\\@BGM_PLAY@<1, 61, 100>//コミカルでちょっと怪しげなBGM
+\\@BGM_PLAY@<1, 61, 50>//コミカルでちょっと怪しげなBGM
 
 \\@CHARA_IN@< 3, 19,  0, 44, 0>
 \\@CHARA_MUKI@<3,0>
@@ -102,21 +102,21 @@ Kohaku@Kohaku_TooriKaseifu
 \\@SYSTEM@<100>
 \\@CHARA_IN@< 3, 19, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10080", 100>
-
+\\@TEXT_ID@<50>
 Neco_Arc
 ～これまでのあらすじ～
 \l
 
 \\@CHARA_IN@< 3, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10081", 100>
-
+\\@TEXT_ID@<60>
 Neco_Arc
 ラスボスと見まごう強さを持った、
 本筋とはまったく関係のない怪人を倒した都古。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10082", 100>
-
+\\@TEXT_ID@<70>
 Neco_Arc
 いっときのカロリー補給を求めて立ち寄った公園は、
 しかし、すでに黒幕の手が伸びていたのであった。
@@ -124,21 +124,21 @@ Neco_Arc
 
 \\@CHARA_IN@< 3, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10083", 100>
-
+\\@TEXT_ID@<80>
 Neco_Arc
 ほがらかな笑顔でティーセットを勧めてきた
 双子の少女に秘められた悲しい過去……
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNec/NpcNec_10084", 100>
-
+\\@TEXT_ID@<90>
 Neco_Arc
 あきらかに挙動のおかしいチートコンビを前に、
 心優しい都古は拳を振るえるのであろうか。
 
 \\@CHARA_OUT@<3, -1, -1, 0, 0>
 \\aw
-\\@BGM_FADE@<1, 100, 0, -2, 1>
+\\@BGM_FADE@<1, -1, 0, -2, 1>
 
 
 \\@DRAW_EFFECT@<0>
@@ -167,7 +167,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<6, 0>//立ち
 
 
-\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_PLAY@<0, 74, 50>
 \\@CHARA_IN@< 0, 13, 0, 11, 0>
 \\@CHARA_IN@< 2, 3, 0, 11, 0>
 \\@CHARA_IN@< 3, 4, 101, 12, 100>
@@ -178,7 +178,7 @@ Neco_Arc
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10061", 100>
-
+\\@TEXT_ID@<100>
 Miyako
 でも、なんで通りすがりのメイドさんと家政婦さんが
 毒を盛ってくるの？
@@ -186,7 +186,7 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 17, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10062", 100>
-
+\\@TEXT_ID@<110>
 Miyako
 路地裏で襲ってきたシスターと同じ暗殺者なのかな。
 お兄ちゃん、この二人のこと知ってる？
@@ -194,7 +194,7 @@ Miyako
 \\@CHARA_SET_PATTERN@<5, 24>//shiki 眼鏡やれやれ
 \\@CHARA_IN@< 2, 3, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10021", 100>
-
+\\@TEXT_ID@<120>
 Shiki
 いやあ。知ってるも何もこの二人は―――
 
@@ -202,7 +202,7 @@ Shiki
 \\@CHARA_IN@< 1, 1, 4, 0, 1>
 \\@CHARA_EMOVE@<1, -1 , 14>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His_10001", 100>
-
+\\@TEXT_ID@<130>
 Hisui
 ノーです志貴さま。
 今の私どもは、貴方の知る私どもではありません。
@@ -211,14 +211,14 @@ Hisui
 \\@CHARA_IN@< 3, 4, 106, 0, 1>
 \\@CHARA_EMOVE@<3, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10001", 100>
-
+\\@TEXT_ID@<140>
 Kohaku
 はい。わたしたちは非道な雇用主に洗脳され、
 都古様を排除せんとする悲しき暗殺者……
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10002", 100>
-
+\\@TEXT_ID@<150>
 Kohaku
 決して自分たちの意志で遊びにきたワケではないので、
 そのあたり留意していただければ。
@@ -228,7 +228,7 @@ Kohaku
 \\@CHARA_IN@< 2, 3, 6, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10022", 100>
-
+\\@TEXT_ID@<160>
 Shiki
 （なるほど。秋葉はともかく、自分たちの
 　キャライメージは守ろうという強い意志を感じる）
@@ -236,14 +236,14 @@ Shiki
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 13, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10063", 100>
-
+\\@TEXT_ID@<170>
 Miyako
 せんのう……？
 お兄ちゃん、せんのうって何？
 
 \\@CHARA_IN@< 2, 3, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10023", 100>
-
+\\@TEXT_ID@<180>
 Shiki
 言う事をきかせてむりやり働かせるってコトかな。
 でもあの二人、とくに琥珀さんの方は、
@@ -253,14 +253,14 @@ Shiki
 \\@CHARA_IN@< 3, 4, 102, 0, 1>
 \\@CHARA_EMOVE@<3, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10003", 100>
-
+\\@TEXT_ID@<190>
 Kohaku
 ソウデス。ワタシタチ　ハ　アキハ様ニ
 操ラレテ　イルノデス。ヤッツケテ。ヤッツケテ。
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10004", 100>
-
+\\@TEXT_ID@<200>
 Kohaku
 ハヤク　アキハ様ヲ　ヤッツケテ。
 オモシロイカラ　ヤッツケテ。
@@ -270,7 +270,7 @@ Kohaku
 \\@CHARA_IN@< 0, 13, 12, 0, 1>
 \\@CHARA_EMOVE@<0, -1 , 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10064", 100>
-
+\\@TEXT_ID@<210>
 Miyako
 ロボットみたいなしゃべり方……！
 せんのうってロボットにするってコトなの！？
@@ -278,7 +278,7 @@ Miyako
 
 \\@CHARA_IN@< 0, 13, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10065", 100>
-
+\\@TEXT_ID@<220>
 Miyako
 たいへん、早く助けてあげないと……！
 でもどうやって……！？
@@ -286,7 +286,7 @@ Miyako
 \\@CHARA_SET_PATTERN@<5, 28>//shiki 眼鏡ため息
 \\@CHARA_IN@< 2, 3, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10024", 100>
-
+\\@TEXT_ID@<230>
 Shiki
 うん。まあ、戦えば気が済むんじゃない？
 本人たちもやる気みたいだし。
@@ -294,7 +294,7 @@ Shiki
 
 \\@CHARA_SET_PATTERN@<5, 29>//shiki 眼鏡ため息戻り
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10025", 100>
-
+\\@TEXT_ID@<240>
 Shiki
 大物の後のちょっとした息抜きと思って、
 のびのび戦おうか。
@@ -303,7 +303,7 @@ Shiki
 \\@CHARA_IN@< 2, 3, -1, 0, 1>
 \\@CHARA_EMOVE@<2, -1 , 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik_10026", 100>
-
+\\@TEXT_ID@<250>
 Shiki
 大丈夫。多少いいのが入っても、
 琥珀さんにはいい薬になるから。
@@ -312,7 +312,7 @@ Shiki
 \\@CHARA_IN@< 0, 13, 1, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10066", 100>
-
+\\@TEXT_ID@<260>
 Miyako
 りょーかい！　メイドさんたちのためだもんね！
 全力で打ち込みまーす！
@@ -322,7 +322,7 @@ Miyako
 \\@CHARA_IN@< 3, 4, 105, 0, 1>
 \\@CHARA_EMOVE@<3, -1, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh_10005", 100>
-
+\\@TEXT_ID@<270>
 Kohaku
 アイヤー。志貴サン　ノ　ソウイウ　ドライナトコロ
 チョット　ドウカト　思ウアルヨ。

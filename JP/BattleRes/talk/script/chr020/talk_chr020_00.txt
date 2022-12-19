@@ -5,7 +5,7 @@
 \\@SYSTEM@<0>
 \aw
 
-\\@BGM_PLAY@<0, 71, 100>
+\\@BGM_PLAY@<0, 71, 50>
 
 
 
@@ -25,7 +25,7 @@ Navigate
 \l
 
 \\@FADE_IN@<2, 128, 0, 0, 0>
-\\@SE_PLAY@<1, "talk/talk_se/Cmn_Warning", 1, 100>//SE アラート
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_Warning", 1, 75>//SE アラート
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNav/NpcNav08_0002", 100>
 \\@TEXT_ID@<30>
@@ -56,12 +56,11 @@ Navigate
 
 \\@SE_STOP@<1>//SE停止 アラート
 
-\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\@BGM_FADE@<0, -1, 0, -2, 1>
 
 \\@FADE_OUT@<0, 255, 255, 255, 0>
 \aw
 
-//画面・ビカーーと光って、暗転。
 \\@BG_CLEAR@<>
 \\@LOAD_BATTLE_BG@<8>
 \aw
@@ -75,9 +74,8 @@ Navigate
 \\@CHARA_IN@< 1, 1, 1, 2, 0>
 \aw
 
-\\@BGM_PLAY@<0, 72, 100>
+\\@BGM_PLAY@<0, 72, 50>
 
-//ウエイト３秒から
 
 \\@NPC_LOAD_SYNC@<5, 1, 320, 0, 1>
 \\@CHARA_SET_MVNAME@<5, "FadeIn">
@@ -159,7 +157,7 @@ Hisui
 姉さん、緊急事態です！
 至急、西館横の庭までお願いします！
 
-\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\@BGM_FADE@<0, -1, 0, -2, 1>
 \\@CHARA_FOCUS_COLOR@< -1, 1>
 \\@GO_SUB@<"SceneChange_OUT">
 
@@ -194,7 +192,7 @@ Hisui
 \\@CHARA_IN@< 1, 1, 105, 2, 0>
 \aw
 
-\\@BGM_PLAY@<0, 62, 100>
+\\@BGM_PLAY@<0, 62, 50>
 
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 3, 4, -1, 0, 1>

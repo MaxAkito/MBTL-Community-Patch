@@ -12,7 +12,7 @@
 \\@SYSTEM@<1>
 \aw
 
-\\@BGM_PLAY@<0, 77, 100>
+\\@BGM_PLAY@<0, 77, 50>
 \\@FADE_IN@<1,255,255,255,0>
 \\@SQ_CALL@<1>
 
@@ -141,8 +141,8 @@ Powered_Ciel
 \l
 
 \\@SQ_CALL@<3>
-\\@SE_PLAY@<0, "talk/talk_se/Cmn_Whirlwind", 0, 100>
-\\@SE_PLAY@<1, "talk/talk_se/Cmn_MagicCharge", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Whirlwind", 0, 75>
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_MagicCharge", 0, 75>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "16Pci/Pci07_0065", 100>
 \\@TEXT_ID@<190>

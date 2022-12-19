@@ -24,7 +24,7 @@
 \\@CHARA_IN@<3,  1, 1, 2, 0>
 \aw
 
-\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_PLAY@<0, 74, 50>
 
 \\@SYSTEM@<101>
 
@@ -107,7 +107,7 @@ Kohaku
 
 \\@CHARA_SET_PATTERN@<4, 10>//saber
 \\@GO_SUB@<"QUAKE_2">
-\\@SE_PLAY@<0,"talk/talk_se/Cmn_SmokeScreen",0,100>
+\\@SE_PLAY@<0,"talk/talk_se/Cmn_SmokeScreen",0,75>
 \\@GO_SUB@<"DAMEGE_RED">
 
 \\@SYSTEM@<101>

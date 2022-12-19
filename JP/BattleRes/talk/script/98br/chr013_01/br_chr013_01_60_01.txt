@@ -1,0 +1,266 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<10>// 背景　遠野邸外観_夜
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+
+\\@NPC_LOAD_SYNC@<4, 3, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 0>
+
+\\@NPC_LOAD_SYNC@<5, 19, 320, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 103>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 0, 3, 400, 1, 0>
+\\@CHARA_IN@< 1, 19, 113, 2, 0>
+\aw
+
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+
+
+
+
+\\@CHARA_IN@< 1, 19, 113, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0133", 100>
+\\@TEXT_ID@<200>
+Neco_Arc
+このメガネ、強すぎる……！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0134", 100>
+\\@TEXT_ID@<210>
+Neco_Arc
+くっ……主人公を拉致すれば勝ったも同然、
+あの獰猛なヒロインズもおとなしく従うはず……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0135", 100>
+\\@TEXT_ID@<220>
+Neco_Arc
+そんな、かつてない緻密な計画が、
+最後の最後で失敗するニャんて……
+
+
+\\@CHARA_SET_PATTERN@<4, 11>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0326", 100>
+\\@TEXT_ID@<230>
+Shiki
+最後どころか初手でバグってるよ。
+……まったく、なんで俺ばっかりこんな……
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 22>
+\\@CHARA_IN@< 0, 3, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0327", 100>
+\\@TEXT_ID@<240>
+Shiki
+いいよ、見逃すから帰ってくれ。
+今回、オマエに殺意とかなかったから。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 23>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0328", 100>
+\\@TEXT_ID@<250>
+Shiki
+これに懲りたら気軽に出てくるんじゃないぞ。
+なんとかビレッジとやらで平和に暮らしてろ。
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 115, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0136", 100>
+\\@TEXT_ID@<260>
+Neco_Arc
+メガネ……おまえってヤツは……
+どこまで……どこまで……
+\l
+
+
+
+\\@CHARA_SET_PATTERN@<5, 82>
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0137", 100>
+\\@TEXT_ID@<270>
+Neco_Arc
+どこまで主人公気質なのかニャ？
+\l
+
+
+\\@CHARA_IN@< 1, 19, 101, 0, 1>
+
+\\@CHARA_SET_PATTERN@<4, 63>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0329", 100>
+\\@TEXT_ID@<290>
+Shiki
+はいはい。いつものビームだろ。
+シールドシールド。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 84>
+
+
+\\@FADE_OUT@<1, 255, 255, 255, 0>
+\\@CHARA_OUT@< 0, 3, 0, 0, 0>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0330", 100>
+\\@TEXT_ID@<300>
+Shiki
+つあ、まぶし！？
+また怪しい新技か！？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0138", 100>
+\\@TEXT_ID@<310>
+Neco_Arc
+ニャニャニャ、さらばだグッドボーイ！
+これはただの眼力光線ではない！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0139", 100>
+\\@TEXT_ID@<320>
+Neco_Arc
+禁断のネコ魔法！　異世界で謎の人物に
+教えてもらった、『プリズム分割光線』だッッッ！
+
+\\@SYSTEM@<101>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0331", 100>
+\\@TEXT_ID@<330>
+Shiki
+プリ……なに？
+うあ、うああああああああああああ！！！！？
+
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+
+\\@CHARA_SET_PATTERN@<4, 180>
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+\\@FADE_IN@<1, 255, 255, 255, 0>
+\aw
+
+
+\\@BGM_PLAY@<0, 162, 50>//Strange Dreamer（午前零時の逢瀬）
+\\@SYSTEM@<102>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0140", 100>
+\\@TEXT_ID@<340>
+Neco_Arc
+説明しよう。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0141", 100>
+\\@TEXT_ID@<350>
+Neco_Arc
+プリズム分割光線。それは主人公が各ヒロインたちと
+結ばれた別世界があると仮定し、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0142", 100>
+\\@TEXT_ID@<360>
+Neco_Arc
+それを『この世界』の『遠野志貴』に
+集める禁断の魔法。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 35>
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0143", 100>
+\\@TEXT_ID@<370>
+Neco_Arc
+貴様も主人公のはしくれなら２つ、いや３つ４つ、
+どうかと思うけど５つか６つはエンドがあるであろう。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0144", 100>
+\\@TEXT_ID@<380>
+Neco_Arc
+この光線はそのルート分、貴様の力を分割する！
+\l
+
+\\@CHARA_SET_PATTERN@<5, 1>
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 19, 112, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0145", 100>
+\\@TEXT_ID@<390>
+Neco_Arc
+６分の１の火力の貴様など恐るるに足りず！
+ひとりひとり各個撃破してやらー！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 182>
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@BGM_PLAY@<1, 64, 50>//ギャグっぽいコミカルで陽気なBGM
+
+
+
+\\@CHARA_SET_PATTERN@<5, 11>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 116, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0146", 100>
+\\@TEXT_ID@<400>
+Neco_Arc
+……なぜ６人のネコメガネにならず、
+３Ｄクリスタル像（現在入手困難）に？
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 36>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0147", 100>
+\\@TEXT_ID@<410>
+Neco_Arc
+しかも、ひー、ふー、みー、よー……１７？
+１７分割？　マルチエンドの《極み＜プロ＞か？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0148", 100>
+\\@TEXT_ID@<420>
+Neco_Arc
+１７つもヒロインエンドがあるってコト？
+貴様どんだけ？
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 183>
+\\@CHARA_SET_PATTERN@<5, 41>
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0149", 100>
+\\@TEXT_ID@<430>
+Neco_Arc
+ニャッ！？
+ちょっ、まっ……！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 184>
+\w<60>
+
+\\@CHARA_SET_PATTERN@<5, 36>
+\\@CHARA_IN@< 1, 19, 117, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0150", 100>
+\\@TEXT_ID@<440>
+Neco_Arc
+…………やっべぇ～～…………。
+
+\\@BGM_STOP@<0>
+\e
+

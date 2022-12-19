@@ -1,0 +1,605 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<1>//背景　遠野邸ロビー_夜
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 63, 50>//落ち着いた日常系BGM
+
+
+\\@NPC_LOAD_SYNC@<7, 13, -280, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 7>
+
+\\@NPC_LOAD_SYNC@<6, 13, -280, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 226>
+
+
+\\@NPC_LOAD_SYNC@<12, 2, 280, 0, 1>
+\\@CHARA_SET_MVNAME@<12, "FadeIn">
+\\@CHARA_SET_PATTERN@<12, 18>
+\w<60>
+
+\\@NPC_LOAD_SYNC@<6, -1, -280, 0, 0>
+\\@CHARA_SET_PATTERN@<7, 220>
+\w<80>
+\\@CHARA_SET_PATTERN@<7, 200>
+
+
+\\@NPC_LOAD_SYNC@<13, 90, 0, 0, 1>
+\\@CHARA_SET_MVNAME@<13, "CameraKeep">//カメラ完全固定
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 0, 13, 3, 1, 0>
+\\@CHARA_IN@< 1, 2, 8, 2, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<12, 115>
+\\@CHARA_IN@< 1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0240", 100>
+\\@TEXT_ID@<10>
+Akiha
+……心のどこかにあった罪悪感……
+その差が勝敗をわけたようね。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0241", 100>
+\\@TEXT_ID@<20>
+Akiha
+このまま続けても構いませんが……
+それこそシエル先輩が黙っていないでしょうし。
+\l
+
+\\@CHARA_SET_PATTERN@<12, 116>
+\\@CHARA_IN@< 1, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0242", 100>
+\\@TEXT_ID@<30>
+Akiha
+いいでしょう。
+今回は、私の落ち度が大きかったようです。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0243", 100>
+\\@TEXT_ID@<40>
+Akiha
+節操のない兄さんをお渡しします。
+どうぞ、元の根無し草に戻してあげなさい。
+\l
+
+\\@NPC_LOAD_SYNC@<11, 1, 570, 0, 1>
+\\@CHARA_SET_MVNAME@<11, "FadeIn">
+\\@CHARA_SET_PATTERN@<11, 130>
+
+\\@NPC_LOAD_SYNC@<10, 3, 420, -175, 1>
+\\@CHARA_SET_MVNAME@<10, "FadeIn">
+\\@CHARA_SET_PATTERN@<10, 240>
+
+\w<90>
+\\@NPC_LOAD_SYNC@<12, -2, 280, 0, 0>
+\\@CHARA_SET_PATTERN@<12, 220>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+
+\\@NPC_LOAD_SYNC@<10, -1, 0, -175, 1>
+\\@NPC_LOAD_SYNC@<12, -2, 280, 0, 1>
+
+\w<60>
+\\@CHARA_SET_PATTERN@<12, 90>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<12, 102>
+\\@CHARA_IN@< 1, 2, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0244", 100>
+\\@TEXT_ID@<50>
+Akiha
+では、私はここで。
+ふざけたネコの儀式など見たくもありませんので。
+\l
+
+
+\\@CHARA_SET_PATTERN@<12, 103>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0245", 100>
+\\@TEXT_ID@<60>
+Akiha
+執務室の仕事に戻ります。
+事が済んだ後、結果だけ知らせに来てください。
+
+\\@CHARA_SET_PATTERN@<12, 22>
+\\@CHARA_SET_PATTERN@<11, 135>
+
+
+\w<180>
+
+\\@NPC_LOAD_SYNC@<11, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<12, -1, 0, 0, 0>
+
+
+\\@NPC_LOAD_SYNC@<8, 11, -680, 0, 0>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">
+\\@CHARA_SET_PATTERN@<8, 215>
+
+\\@CHARA_IN@< 1, 11, 8, 0, 1>
+\aw
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0330", 100>
+\\@TEXT_ID@<70>
+Ciel
+では、わたしたちも秋葉さんに倣いましょう。
+はい、遠野くん。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 291>
+\\@CHARA_SET_PATTERN@<8, 216>
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0331", 100>
+\\@TEXT_ID@<80>
+Ciel
+大冒険、お疲れ様でした。
+短い間でしたが、ご迷惑おかけしました。
+
+
+\\@CHARA_SET_PATTERN@<5, 292>
+\\@CHARA_SET_PATTERN@<8, 217>
+//眼鏡なし
+\\@CHARA_IN@< 1, 3, 918, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0060", 100>
+\\@TEXT_ID@<90>
+C_Shiki
+もう。迷惑をかけたのはこっちでしょ。
+\l
+
+\\@CHARA_IN@< 1, 3, 918, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0061", 100>
+\\@TEXT_ID@<100>
+C_Shiki
+…………ありがとう、先輩。
+それと、余計な事を教えちゃって、ごめん。
+
+
+
+
+\\@CHARA_IN@< 1, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0332", 100>
+\\@TEXT_ID@<110>
+Ciel
+そんな顔をしないでください。
+わたし、とても楽しかったです。
+
+
+\\@CHARA_SET_PATTERN@<7, 250>
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0180", 100>
+\\@TEXT_ID@<120>
+Miyako
+（そうだ……これで、
+　このお兄ちゃんとお別れなんだ……）
+\l
+
+
+\\@CHARA_IN@< 0, 13, 23, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0181", 100>
+\\@TEXT_ID@<130>
+Miyako
+（遠野のお家に帰っちゃう前のお兄ちゃん……
+　ずっと有間の家にいてくれるお兄ちゃん……）
+
+
+\\@CHARA_SET_PATTERN@<7, 251>
+\w<40>
+\\@NPC_LOAD_SYNC@<4, 3, -280, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 287>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 504, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0470", 100>
+\\@TEXT_ID@<140>
+Shiki
+………………。
+
+
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 13, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0182", 100>
+\\@TEXT_ID@<150>
+Miyako
+（でも、それはうそ。あの日、
+　止められなかったのは他でもないわたし）
+\l
+
+
+\\@SYSTEM@<131>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0183", 100>
+\\@TEXT_ID@<160>
+Miyako
+（だから、取り戻すのは、取り返すのは、
+　わたしだけのお兄ちゃん、じゃない！）
+\l
+
+\\@CHARA_SET_PATTERN@<7, 252>
+\\@CHARA_IN@< 0, 13, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0184", 100>
+\\@TEXT_ID@<170>
+Miyako
+（じぶんの手でちゃんと掴んで、
+　心の底から、笑顔で抱きつけるわたしなんだ！）
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 501, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0471", 100>
+\\@TEXT_ID@<180>
+Shiki
+………………。
+
+\\@CHARA_WAIT_PATTERN@<4, 288>
+\aw
+
+\\@CHARA_SET_PATTERN@<7, 253>
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0185", 100>
+\\@TEXT_ID@<190>
+Miyako
+……うん。
+お待たせ、お兄ちゃん。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0186", 100>
+\\@TEXT_ID@<200>
+Miyako
+ちょっと迷っちゃったけど、もういいよ。
+わたしを守ってくれて、ありがとう。
+
+
+\\@CHARA_SET_PATTERN@<7, 254>
+\\@CHARA_IN@< 0, 3, 508, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0472", 100>
+\\@TEXT_ID@<210>
+Shiki
+どういたしまして。
+俺も、都古ちゃんと冒険できて楽しかったよ。
+
+
+
+\\@CHARA_SET_PATTERN@<7, 255>
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+\w<30>
+\\@CHARA_IN@< 0, 13, 2, 0, 1>
+\aw
+\w<30>
+
+
+\\@SYSTEM@<100>
+\\@CHARA_FOCUS_COLOR@<-1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0220", 100>
+\\@TEXT_ID@<220>
+Neco_Arc_Hatena
+ほんとにそれでいいのかニャ～～？
+いい子ちゃんでいたいだけじゃないのかニャ～～？
+
+
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+
+\\@FADE_OUT@<0, 255, 255, 255, 1>
+\aw
+
+\\@LOAD_BATTLE_BG@<35>//背景　遠野邸ロビー_夜 モノクロ
+
+
+\\@NPC_LOAD_SYNC@<8, -1, 0, 0, 0>
+
+
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+\\@CHARA_IN@< 1, 19, 101, 0, 1>
+
+// 志貴モノクロ化
+\\@CHARA_SET_PATTERN@<4, 294>
+
+\\@NPC_LOAD_SYNC@<9, 19, 0, 0, 1>
+\\@CHARA_SET_MVNAME@<9, "FadeIn">
+\\@CHARA_SET_PATTERN@<9, 1>
+
+\\@FADE_IN@<0, 255, 255, 255, 1>
+\aw
+
+\\@CHARA_SET_PATTERN@<9, 90>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0221", 100>
+\\@TEXT_ID@<230>
+Neco_Arc
+ん～～～、ターーイム・ストーーーップ！
+いま、すべての時間が《午睡＜ネコ休み＞する！
+
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+
+\\@NPC_LOAD_SYNC@<5, 13, -280, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 256>
+\\@CHARA_SET_PATTERN@<7, 258>
+\\@CHARA_SET_PATTERN@<9, 64>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0187", 100>
+\\@TEXT_ID@<240>
+Miyako
+！　バカネコ、なんのつもり！？
+ここまできてひっくり返すの！？
+\l
+
+\\@CHARA_WAIT_PATTERN@<7, 0>
+\aw
+
+
+\\@CHARA_SET_PATTERN@<7, 4>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0188", 100>
+\\@TEXT_ID@<250>
+Miyako
+いいや、めんどいからかかってこい！
+もうネコ対策バッチリだし！
+
+\\@CHARA_SET_PATTERN@<7, 1>
+\\@CHARA_SET_PATTERN@<9, 0>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0222", 100>
+\\@TEXT_ID@<260>
+Neco_Arc
+まあ待てよチャイナ、
+今回はいい話を持ってきたんだって。
+\l
+
+
+\\@CHARA_SET_PATTERN@<9, 5>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0223", 100>
+\\@TEXT_ID@<270>
+Neco_Arc
+１７分割されたメガネはついに集結した。
+後はアタシがもう一度プリズムすればなんとかなる。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0224", 100>
+\\@TEXT_ID@<280>
+Neco_Arc
+でも、その時にちょっとズルが
+できるんだよね、これが。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0225", 100>
+\\@TEXT_ID@<290>
+Neco_Arc
+ｙｏｕと一緒に戦ったそちらの紳士なメガネを
+コアとして戻せば、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0226", 100>
+\\@TEXT_ID@<300>
+Neco_Arc
+『この世界において都古ルートになる遠野志貴』
+として確定するンだ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0227", 100>
+\\@TEXT_ID@<310>
+Neco_Arc
+シエルがちょっとだけ考えていたのもコレだよ。
+途中で悪の誘惑を払ったけどね。
+\l
+
+\\@CHARA_SET_PATTERN@<9, 13>
+\\@CHARA_IN@< 1, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0228", 100>
+\\@TEXT_ID@<320>
+Neco_Arc
+さて―――どうですかな？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0229", 100>
+\\@TEXT_ID@<330>
+Neco_Arc
+ｙｏｕが望むならそういう
+セッティングもナシではありません。
+\l
+
+
+\\@CHARA_IN@< 1, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0230", 100>
+\\@TEXT_ID@<340>
+Neco_Arc
+なにしろこのメガネ、上書きするには惜しいメガネ。
+中々の保護者力でした。
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0231", 100>
+\\@TEXT_ID@<350>
+Neco_Arc
+ネコ会議の末、このメガネなら我々の脅威には
+ならないと結論もでたところです。
+
+\\@CHARA_SET_PATTERN@<9, 150>
+\w<60>
+
+
+\\@CHARA_SET_PATTERN@<7, 150>
+\\@CHARA_SET_PATTERN@<9, 64>
+// 志貴像が衝撃で上に飛ぶ
+\\@CHARA_SET_PATTERN@<4, 295>
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0189", 100>
+\\@TEXT_ID@<360>
+Miyako
+とーーーぅ！
+\l
+
+
+\\@CHARA_WAIT_PATTERN@<7, 0>
+\aw
+
+
+\\@CHARA_WAIT_PATTERN@<7, 3>
+\\@CHARA_IN@< 0, 13, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0190", 100>
+\\@TEXT_ID@<370>
+Miyako
+とと、あぶないあぶない、ごめんお兄ちゃん！
+
+
+\\@CHARA_WAIT_PATTERN@<7, 11>
+\\@CHARA_SET_PATTERN@<9, 38>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0232", 100>
+\\@TEXT_ID@<380>
+Neco_Arc
+交渉は決裂？　そっかー。
+じゃあ仕方ない。奥の手、見てく？
+\l
+
+
+\\@CHARA_SET_PATTERN@<9, 41>
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0233", 100>
+\\@TEXT_ID@<390>
+Neco_Arc
+アタシがただのネコだと油断した貴様の不覚！
+伊達に１００万回近く《マルチバースして＜死んで＞ねー！
+\l
+
+
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0234", 100>
+\\@TEXT_ID@<400>
+Neco_Arc
+今ここに異世界の勇者を召喚する！
+いでよ、有間都古にとって最強の相手―――
+\l
+
+\\@CHARA_SET_PATTERN@<9, 63>
+\w<114>
+
+
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\\@NPC_LOAD_SYNC@<10, 13, 260, 0, 1>
+\\@CHARA_SET_MVNAME@<10, "FadeIn">
+\\@CHARA_SET_PATTERN@<10, 0>
+\aw
+\\@CHARA_WAIT_PATTERN@<9, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<9, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0235", 100>
+\\@TEXT_ID@<410>
+Neco_Arc
+即ち！
+悪の有間都古だーーー！
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 13, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0000", 100>
+\\@TEXT_ID@<420>
+Negative_Miyako
+…………。
+
+
+\\@CHARA_SET_PATTERN@<7, 37>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0191", 100>
+\\@TEXT_ID@<430>
+Miyako
+うそーーー！？
+ネコがわたしを喚びだしたーーー！？
+
+
+\\@CHARA_SET_PATTERN@<10, 1>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 13, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0001", 100>
+\\@TEXT_ID@<440>
+Negative_Miyako
+わかる。ネコに喚ばれるとか超屈辱。
+朝ごはん、３日は喉を通らないよ。
+\l
+
+
+\\@CHARA_IN@< 1, 13, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0002", 100>
+\\@TEXT_ID@<450>
+Negative_Miyako
+でも今回はほっとけない。自分のことだから。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0003", 100>
+\\@TEXT_ID@<460>
+Negative_Miyako
+“行動するのは、弱いわたしをなくしてから”？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0004", 100>
+\\@TEXT_ID@<470>
+Negative_Miyako
+ダメだよそれ。そんな甘い考えでいるなら
+痛い目にあわせないとね。
+
+\\@CHARA_SET_PATTERN@<7, 1>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0192", 100>
+\\@TEXT_ID@<480>
+Miyako
+っ……！　わたしのクセにえらそうじゃん！
+いいよ、相手になってあげる！
+\l
+
+
+\\@CHARA_SET_PATTERN@<7, 8>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0193", 100>
+\\@TEXT_ID@<490>
+Miyako
+アキハとの戦いで開眼したわたしに、
+悪のわたしが勝てると思わないでよね！
+
+\\@CHARA_SET_PATTERN@<10, 11>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0005", 100>
+\\@TEXT_ID@<500>
+Negative_Miyako
+それはどうかな？
+ま、戦って見ればわかるよ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0006", 100>
+\\@TEXT_ID@<510>
+Negative_Miyako
+総耶の《都古＜あなた＞が三咲の《都古＜わたし＞に勝てるかどうか。
+ネコ曰く、『これは新と旧の戦い』。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "NpcNgm/NpcNgm09_0007", 100>
+\\@TEXT_ID@<520>
+Negative_Miyako
+わたしが辿り着いたあのゴールにあなたが
+辿り着けるか、確かめてあげる！
+\l
+
+\\@BGM_STOP@<0>
+\e

@@ -1,0 +1,137 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 3, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 90>
+
+\\@NPC_LOAD_SYNC@<5, 20, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 19>
+
+\\@NPC_LOAD_SYNC@<6, 11, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 0>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\\@BGM_PLAY@<0, 62, 50>//ほのぼのとした日常系BGM
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+\aw
+
+\\@CHARA_IN@< 0, 3, 1, 1, 0>
+\\@CHARA_IN@< 1, 20, 200, 2, 0>
+\\@CHARA_MUKI@<1, 1>
+\aw
+
+\\@CHARA_SET_PATTERN@<4, 24>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0094", 100>
+\\@TEXT_ID@<80>
+Shiki
+いやあ……何が“とりあえず勝てばいい”だか。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 25>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0095", 100>
+\\@TEXT_ID@<90>
+Shiki
+すっっごく強かった。凄いね、君。
+胸を借りるのはこっちの方だった。
+
+\\@CHARA_SET_PATTERN@<5, 2>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 20, 209, 0, 1>
+\\@CHARA_MUKI@<1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0013", 100>
+\\@TEXT_ID@<100>
+Mash
+い、いえ、こちらこそ。
+かつてないタイプの戦闘でした。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 3>
+\\@CHARA_IN@< 1, 20, 203, 0, 1>
+\\@CHARA_MUKI@<1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0014", 100>
+\\@TEXT_ID@<110>
+Mash
+危険予知……いえ、未来観測をするシバが
+常にアラートを出すなんて、山の翁さん以来です！
+\l
+
+\\@CHARA_SET_PATTERN@<5, 17>
+\\@CHARA_IN@< 1, 20, 205, 0, 1>
+\\@CHARA_MUKI@<1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0015", 100>
+\\@TEXT_ID@<120>
+Mash
+どのような魔術系統なのでしょうか！？
+
+
+\\@CHARA_SET_PATTERN@<6, 62>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0050", 100>
+\\@TEXT_ID@<130>
+Ciel
+そういう話は今回はナシにしましょう。
+私も貴女の武装については尋ねませんので。
+
+
+\\@CHARA_SET_PATTERN@<5, 19>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 20, 216, 0, 1>
+\\@CHARA_MUKI@<1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0016", 100>
+\\@TEXT_ID@<140>
+Mash
+す、すみません。
+そうですよね、志貴さんは一般の方との事でした……
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0051", 100>
+\\@TEXT_ID@<150>
+Ciel
+それより貴女とあの生物のお話を
+聞かせていただけますか？
+
+
+\\@CHARA_SET_PATTERN@<5, 17>//TODO:できれば903の盾無しに
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 20, 219, 0, 1>
+\\@CHARA_MUKI@<1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0017", 100>
+\\@TEXT_ID@<160>
+Mash
+？　ネコアルクさんですか？
+\l
+
+\\@CHARA_IN@< 1, 20, 201, 0, 1>
+\\@CHARA_MUKI@<1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0018", 100>
+\\@TEXT_ID@<170>
+Mash
+わたしがカルデアに帰還するために必要な
+エネルギーを集めてくださっているのですが……
+
+\\@CHARA_SET_PATTERN@<6, 8>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0052", 100>
+\\@TEXT_ID@<180>
+Ciel
+―――ほほう。
+
+
+\\@BGM_STOP@<0>
+\e

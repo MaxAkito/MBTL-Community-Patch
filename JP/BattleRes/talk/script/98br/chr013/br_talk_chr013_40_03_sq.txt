@@ -30,7 +30,8 @@ function Talk::Initialize()
 		print( format( "\n >> %s Load error.", sPcFile ) );
 		p.IsDone = 0;
 	}
-	local sPcFile = format( "%s/bossrush/br_chr013_st01.pat", sFilePath );
+	sPcFile = format( "%s/bossrush/br_chr013_st01.pat", sFilePath );
+	TalkSqCallback.UseFileInSquirrel( {type=0, file_name=sPcFile} );
 	if( p.PA_Event.Load( sPcFile ) == 0 )
 	{
 		//ÉçÅ[Éhé∏îs

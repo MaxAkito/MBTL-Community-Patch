@@ -14,7 +14,7 @@
 \\@CHARA_IN@<0, 15, 1, 1, 0>
 \aw
 
-\\@BGM_PLAY@<0, 75, 100>
+\\@BGM_PLAY@<0, 75, 50>
 
 \\@SYSTEM@<101>
 \\@CHARA_IN@<0, 15, 2, 0, 1>
@@ -74,9 +74,6 @@ Dead_Noel
 ザコすぎて力の差が分からないってヤツ！
 \l
 
-/*-comment-
-笑い
-*/
 
 \\@CHARA_SET_PATTERN@<5, 15>//dnoel
 
@@ -88,9 +85,6 @@ Dead_Noel
 ストレッチがわりに遊んであげる。
 \l
 
-/*-comment-
-余裕ニヤリ
-*/
 
 \\@CHARA_IN@<1, 14, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0084", 100>
@@ -116,9 +110,6 @@ Dead_Noel
 やっぱり苦かったり、辛かったりする？
 \l
 
-/*-comment-
-ニタリ
-*/
 
 \\@CHARA_SET_PATTERN@<5, 8>//dnoel
 
@@ -154,9 +145,6 @@ Aoko
 ―――私、嫌いなのよね、薔薇。
 悪いけど、建物ごと消えてくれる？
 
-/*-comment-
-シリアス
-*/
 
 \\@BGM_STOP@<0>
 \e

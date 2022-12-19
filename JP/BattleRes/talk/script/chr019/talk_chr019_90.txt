@@ -33,7 +33,7 @@ Neco_Arc
 ニャんだけど―――
 \l
 
-\\@BGM_PLAY@<0, 64, 100>//ギャグっぽいコミカルで陽気なBGM
+\\@BGM_PLAY@<0, 64, 50>//ギャグっぽいコミカルで陽気なBGM
 
 \\@CHARA_SET_PATTERN@<4, 4>//キシャ―
 \\@CHARA_IN@< 0, 19, 105, 0, 1>
@@ -152,7 +152,7 @@ Mash
 Mash
 ゲート、開きます！
 
-\\@SE_PLAY@<0, "talk/talk_se/Cmn_RayShift", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_RayShift", 0, 75>
 
 
 \\@FADE_IN@<1,255,255,255,0>

@@ -1,0 +1,287 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<5>//路地裏
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+
+
+\\@NPC_LOAD_SYNC@<5, 13, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 299>
+
+\\@NPC_LOAD_SYNC@<6, 2, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 90>
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 0, 13, 3, 1, 0>
+\\@CHARA_IN@< 1, 2, 8, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 63, 50>//落ち着いた日常系BGM
+
+\\@CHARA_IN@< 1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0160", 100>
+\\@TEXT_ID@<410>
+Akiha
+よく分からない人でしたが、
+強敵であった事は認めましょう。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 105>
+\\@CHARA_IN@< 1, 2, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0161", 100>
+\\@TEXT_ID@<420>
+Akiha
+おつかれさまでした、都古さん。
+日頃から鍛えているのが分かる、良い動きでした。
+
+
+\\@CHARA_SET_PATTERN@<5, 297>
+\\@SYSTEM@<100>
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+\w<60>
+
+
+\\@CHARA_SET_PATTERN@<5, 300>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0095", 100>
+\\@TEXT_ID@<430>
+Miyako
+押忍、ありがとうございます！
+これも毎日見てくれたお兄ちゃんのおかげです！
+
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0162", 100>
+\\@TEXT_ID@<440>
+Akiha
+―――へえ。毎日。
+とても妹思いなのね、そこのお兄様は。
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 520, 0, 1>
+\\@CHARA_FACE@<0, 520, 525, 280>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0411", 100>
+\\@TEXT_ID@<450>
+Shiki
+いや、それほどでも。ははは。
+…………これ、家に戻ったらどうなるんだ俺？
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 106>
+\\@CHARA_SET_PATTERN@<5, 298>
+
+
+\\@CHARA_IN@< 0, 3, 504, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0412", 100>
+\\@TEXT_ID@<460>
+Shiki
+いや、それはともかく。
+今のシスター……いや魔法少女系？　の話だと、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0413", 100>
+\\@TEXT_ID@<470>
+Shiki
+あのネコも俺を集めているみたいだ。
+先を越されないよう急ごう。
+
+
+\\@CHARA_SET_PATTERN@<6, 100>
+\\@SYSTEM@<102>
+
+
+\\@CHARA_IN@< 1, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0163", 100>
+\\@TEXT_ID@<500>
+Akiha
+他の分割兄さん集めは……まあ、問題ないでしょう。
+\l
+
+\\@CHARA_IN@< 1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0164", 100>
+\\@TEXT_ID@<510>
+Akiha
+アルクェイドさんとシエルさんなら、
+一日で街中を探索できます。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0165", 100>
+\\@TEXT_ID@<520>
+Akiha
+私たちはネコの邪魔が入る前に、
+遠野邸に向かいましょう。
+
+\\@SYSTEM@<200>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_CLEAR@<0>
+\\@CHARA_CLEAR@<1>
+\\@NPC_LOAD_SYNC@<4, -1, -240, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, -160, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 160, 0, 1>
+
+\\@BGM_PLAY@<0, 72, 50>
+
+\\@NPC_LOAD_SYNC@<4, 11, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 31>
+
+\\@LOAD_BATTLE_BG@<27>//背景　ビル屋上　昼
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 8, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0210", 100>
+\\@TEXT_ID@<530>
+Ciel
+シスター・ノエルが敗れましたか……
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0211", 100>
+\\@TEXT_ID@<540>
+Ciel
+彼女はわたしたちの中でも一番の問題児、
+当然の結果とも言えますが……
+\l
+
+
+\\@SYSTEM@<100>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_302", 50>
+\\@TEXT_ID@<550>
+C_Shiki_Hatena
+………………………………………………。
+………、…、………………………………？
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0212", 100>
+\\@TEXT_ID@<560>
+Ciel
+はい。今のでハッキリしました。
+分割された遠野くんは縁の深い者……
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0213", 100>
+\\@TEXT_ID@<570>
+Ciel
+ネコ風に言うと『ヒロイン因子』を持つ者の
+ところに現れる。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0214", 100>
+\\@TEXT_ID@<580>
+Ciel
+とはいえ、それはすべての者にではない。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0215", 100>
+\\@TEXT_ID@<590>
+Ciel
+『今この街にいない者』『まだ一方通行の者』
+『たんに顔見知りなだけの者』……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0216", 100>
+\\@TEXT_ID@<600>
+Ciel
+それら、『受け取り相手が不在』の場合、
+『ルート未確定』という事で
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0217", 100>
+\\@TEXT_ID@<610>
+Ciel
+様々な場所にうち捨てられている、と。
+\l
+
+\\@SYSTEM@<100>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_303", 50>
+\\@TEXT_ID@<620>
+C_Shiki_Hatena
+…………？
+……、…………………？
+
+
+\\@CHARA_SET_PATTERN@<4, 62>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0218", 100>
+\\@TEXT_ID@<630>
+Ciel
+酷くありません。反省。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 63>
+\\@CHARA_IN@< 0, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0219", 100>
+\\@TEXT_ID@<640>
+Ciel
+ともあれ、ルート未確定の遠野くんを
+ネコがどう悪用するか分かりません。
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0221", 100>
+\\@TEXT_ID@<660>
+Ciel
+１７つの断片が八割も集まれば
+元に戻すには充分でしょう。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 71>
+\\@CHARA_IN@< 0, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0222", 100>
+\\@TEXT_ID@<670>
+Ciel
+まあ……シスター・ノエルの邪な考えも、
+なるほどアリか、と思わないでもありませんが……
+\l
+
+
+
+\\@CHARA_IN@< 0, 11, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0223", 100>
+\\@TEXT_ID@<680>
+Ciel
+残念なことに、
+彼女たちはもっとも重要な事実を知りません。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 60>
+\\@CHARA_IN@< 0, 11, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0224", 100>
+\\@TEXT_ID@<690>
+Ciel
+―――こちらの目はまだある、という事です。
+頑張りましょうね、遠野くん！
+
+
+\\@BGM_STOP@<0>
+\e
+

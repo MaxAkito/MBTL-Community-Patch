@@ -1,0 +1,174 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 3, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 91>
+
+\\@NPC_LOAD_SYNC@<5, 19, 240, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 120>
+
+\\@NPC_LOAD_SYNC@<6, 20, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 0>
+
+\\@NPC_LOAD_SYNC@<7, 11, -260, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 0>
+
+\\@NPC_LOAD_SYNC@<8, 21, -360, 0, 0>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">
+\\@CHARA_SET_PATTERN@<8, 4>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\\@CHARA_IN@< 0, 3, 3, 1, 0>
+\\@CHARA_IN@< 1, 19, 100, 2, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<5, 119>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0064", 100>
+\\@TEXT_ID@<350>
+Neco_Arc_Rumi
+バカな……ここに来るまで数々の異世界を
+渡ってきたアタシが、このルミアルクが！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0065", 100>
+\\@TEXT_ID@<360>
+Neco_Arc_Rumi
+人の心の前に敗れると言うのか！
+ありえニャい、ありえニャい！
+\l
+
+\\@CHARA_SET_PATTERN@<5, 118>
+\\@SYSTEM@<122>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0066", 100>
+\\@TEXT_ID@<370>
+Neco_Arc_Rumi
+こうなれば最期の手段！
+更なる力が必要だ！　マシュ君！
+\l
+
+\\@CHARA_SET_PATTERN@<5, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0067", 100>
+\\@TEXT_ID@<380>
+Neco_Arc_Rumi
+また盾の力を使ってほしい！
+隣の世界で新技を会得してくる！
+
+\\@CHARA_SET_PATTERN@<6, 222>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 20, 208, 0, 1>
+\\@CHARA_MUKI@<1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0026", 100>
+\\@TEXT_ID@<390>
+Mash
+え……ですが、ここがネコアルクさんの
+目的の世界だと……え？
+\l
+
+\\@CHARA_SET_MVNAME@<6, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+
+\\@CHARA_IN@< 1, 20, 219, 0, 1>
+\\@CHARA_MUKI@<1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0027", 100>
+\\@TEXT_ID@<400>
+Mash
+ラウンドシールドがひとりでに……！？
+
+\\@CHARA_SET_PATTERN@<5, 6>
+\\@CHARA_IN@< 1, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0068", 100>
+\\@TEXT_ID@<410>
+Neco_Arc_Rumi
+おお！　天は我に味方せり！
+いよーし、いっちょ別世界にダイブ―――
+
+\\@CHARA_SET_PATTERN@<6, 223>
+
+\\@CHARA_SET_PATTERN@<5, 105>
+\w<33>
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_Scrape", 1, 75>
+
+
+\\@CHARA_SET_PATTERN@<7, 71>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0081", 100>
+\\@TEXT_ID@<420>
+Ciel
+やはりそうなりましたか。
+マシュさんによると、その盾は人理を守る盾だそうで。
+
+
+\\@CHARA_SET_PATTERN@<8, 1>
+\\@CHARA_IN@< 0, 21, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0030", 100>
+\\@TEXT_ID@<430>
+Ushiwaka
+なるほど。自業自得ですね。
+
+
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 19, 113, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0069", 100>
+\\@TEXT_ID@<440>
+Neco_Arc_Rumi
+うぼぉぉおおおお！
+大根おろしのキモチがわかっちゃう！
+\l
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 113, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0070", 100>
+\\@TEXT_ID@<450>
+Neco_Arc_Rumi
+く、くう、アタシの出番はここまでか……！
+だが忘れるな人類！　そしてメガネ！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0071", 100>
+\\@TEXT_ID@<460>
+Neco_Arc_Rumi
+月姫がマルチエンド形式であるかぎり！
+貴様がトゥルーエンドを迎えないかぎり！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0072", 100>
+\\@TEXT_ID@<470>
+Neco_Arc_Rumi
+必ず、第二第三のアタシが現れるであろう！
+いつか―――いつの日か、きっと……！
+\l
+
+//br_talk_chr013_01_40_01.txtの終盤のシーンに合わせているのでこの辺のポーズ編集する時は注意
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0073", 100>
+\\@TEXT_ID@<480>
+Neco_Arc_Rumi
+コーンティニュー、コーンティニュー、
+コーンティニュー…………
+
+\\@SE_STOP@<1>
+\\@CHARA_SET_PATTERN@<5, 108>
+\\@FADE_OUT@<0, 255, 255, 255, 0>
+\aw
+
+\\@BGM_STOP@<0>
+\e
+

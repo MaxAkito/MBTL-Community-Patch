@@ -1,0 +1,539 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<13>//背景　公園_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 62, 50>//ほのぼのとした日常系BGM
+
+\\@NPC_LOAD_SYNC@<7, 13, -60, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 0>
+
+\\@NPC_LOAD_SYNC@<6, 13, -60, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 227>
+
+\\@NPC_LOAD_SYNC@<5, 3, 60, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+
+\\@CHARA_SET_PATTERN@<5, 281>
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 0, 13, 3, 1, 0>
+\\@CHARA_IN@< 1, 3, 504, 2, 0>
+\aw
+
+
+\\@CHARA_IN@< 1, 3, 504, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0350", 100>
+\\@TEXT_ID@<10>
+Shiki
+……とまあ、以上が昨夜の出来事なんだ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0351", 100>
+\\@TEXT_ID@<20>
+Shiki
+あのネコの怪しげな光線を浴びたら、
+１７つに分裂しちゃってさ。
+
+
+\\@CHARA_SET_PATTERN@<7, 38>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0030", 100>
+\\@TEXT_ID@<30>
+Miyako
+あ～～の～～バ～～カ～～ネ～～コ～～！！！！
+今度あったら金星までふっとばす！
+\l
+
+\\@CHARA_SET_PATTERN@<7, 150>
+\\@CHARA_SET_PATTERN@<5, 279>
+\\@CHARA_WAIT_PATTERN@<5, 281>
+\aw
+
+
+\\@CHARA_SET_PATTERN@<7, 3>
+\\@CHARA_IN@< 0, 13, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0031", 100>
+\\@TEXT_ID@<40>
+Miyako
+あわわ……！
+ごご、ごめんなさい、わたしったら考えなしで！
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 501, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0352", 100>
+\\@TEXT_ID@<50>
+Shiki
+だいじょうぶ、今のはたまたま。
+都古ちゃんはヘンに暴れたりしないから安心だ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0353", 100>
+\\@TEXT_ID@<60>
+Shiki
+じゃあ俺はこのへんで。
+ここまで連れてきてくれてありがとう。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0354", 100>
+\\@TEXT_ID@<70>
+Shiki
+都古ちゃんも早く家に帰って、
+啓子さんを安心させてくれ。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0032", 100>
+\\@TEXT_ID@<80>
+Miyako
+え……お兄ちゃん、どこかに行っちゃうの？
+そんな体なのに？
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 501, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0355", 100>
+\\@TEXT_ID@<90>
+Shiki
+理屈は分からないけど、分裂したのなら
+集めないとまずいだろ？
+\l
+
+\\@CHARA_IN@< 1, 3, 520, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0356", 100>
+\\@TEXT_ID@<100>
+Shiki
+動けるのは分割した中で俺だけみたいだし。
+なんとかしてみるよ。
+
+\\@CHARA_SET_PATTERN@<7, 11>
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0033", 100>
+\\@TEXT_ID@<110>
+Miyako
+（あ……だめ、行かせたらだめだ……！
+　せっかく帰ってきてくれたのに……）
+\l
+
+\\@CHARA_SET_PATTERN@<7, 2>
+\\@CHARA_IN@< 0, 13, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0034", 100>
+\\@TEXT_ID@<120>
+Miyako
+（ううん、そうじゃなくて！
+　今のお兄ちゃんをひとりになんてできない……！）
+\l
+
+\\@CHARA_SET_PATTERN@<7, 13>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0035", 100>
+\\@TEXT_ID@<130>
+Miyako
+―――まま、待っておにいひゃん！
+わ、わたしにも手伝わせてくださいっ！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0036", 100>
+\\@TEXT_ID@<140>
+Miyako
+あのバカネコの悪巧みの半分は
+わたしの責任みたいなものだし！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0037", 100>
+\\@TEXT_ID@<150>
+Miyako
+今日は休日だし、学校ないし、このまま家に
+帰ったらわたし、気になって悪い子になっちゃいます！
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 505, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0357", 100>
+\\@TEXT_ID@<160>
+Shiki
+――――――。
+\l
+
+
+\\@CHARA_IN@< 1, 3, 501, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0358", 100>
+\\@TEXT_ID@<170>
+Shiki
+そっか。それは頼もしい。
+都古ちゃんが助けてくれれば百人力だ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0359", 100>
+\\@TEXT_ID@<180>
+Shiki
+俺からお願いしていいかな。
+他の俺を探す手伝いをしてくれる？
+
+// 　
+
+\\@SYSTEM@<100>
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+\w<60>
+
+
+\\@CHARA_SET_PATTERN@<7, 6>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0038", 100>
+\\@TEXT_ID@<200>
+Miyako
+うん、もちろん！
+おおぶねに乗った気でいてね、お兄ちゃん！
+
+
+
+\\@SYSTEM@<132>
+\\@CHARA_IN@< 1, 3, 521, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0360", 100>
+\\@TEXT_ID@<210>
+Shiki
+（いい笑顔だ。できるかぎり、危険な場所には
+　連れて行かないようにしないと）
+\l
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 501, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0361", 100>
+\\@TEXT_ID@<220>
+Shiki
+ああ、でも移動する時は気をつけて。
+\l
+
+
+
+\\@CHARA_IN@< 1, 3, 500, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0362", 100>
+\\@TEXT_ID@<230>
+Shiki
+……どうしようかな。
+踏まれないよう、後ろについていけばいいか……
+
+\\@NPC_LOAD_SYNC@<6, -1, -80, 0, 0>
+
+\\@CHARA_SET_PATTERN@<7, 220>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0039", 100>
+\\@TEXT_ID@<240>
+Miyako
+それならリュックサックにしまっちゃうね！
+何かあったらご教授お願いしますっ！
+
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 510, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0363", 100>
+\\@TEXT_ID@<250>
+Shiki
+……それしかないか。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0364", 100>
+\\@TEXT_ID@<260>
+Shiki
+休日とはいえ、都古ちゃんひとりで
+行動させるのは気が引けるけど……
+
+\\@CHARA_SET_PATTERN@<7, 206>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0040", 100>
+\\@TEXT_ID@<270>
+Miyako
+ひとりじゃないよ？
+お兄ちゃんがいるじゃん。
+
+
+\\@SYSTEM@<132>
+\\@CHARA_IN@< 1, 3, 500, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0365", 100>
+\\@TEXT_ID@<280>
+Shiki
+（そう言ってくれるのは嬉しいけど、
+　パッと見ひとりで出歩く小学生だからなぁ……）
+\l
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 501, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0366", 100>
+\\@TEXT_ID@<290>
+Shiki
+わかった。何かあったらすぐ出るから、
+危ない人を見かけたら教えて。
+
+\\@CHARA_SET_PATTERN@<7, 201>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0041", 100>
+\\@TEXT_ID@<300>
+Miyako
+はーい！
+\l
+
+\\@CHARA_SET_PATTERN@<7, 202>
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0042", 100>
+\\@TEXT_ID@<310>
+Miyako
+あ。ひとつ聞いていい？
+お兄ちゃん、どのくらいの大きさなの？
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 504, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0367", 100>
+\\@TEXT_ID@<320>
+Shiki
+どのくらいって、１７分割しちゃったからね。
+俺の身長が１７０ｃｍちょいだから、１７で割ると？
+
+
+\\@CHARA_SET_PATTERN@<7, 210>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0043", 100>
+\\@TEXT_ID@<330>
+Miyako
+じゅっ、１０ｃｍ……！
+てて、ていねいに扱います、押忍！
+\l
+
+\\@CHARA_SET_PATTERN@<7, 206>
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0044", 100>
+\\@TEXT_ID@<340>
+Miyako
+でも、なんで１７分割なの？
+何か理由があってのコトなんですか？
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 525, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0368", 100>
+\\@TEXT_ID@<350>
+Shiki
+――――――。
+\l
+
+\\@CHARA_SET_PATTERN@<7, 207>
+
+\\@CHARA_IN@< 1, 3, 508, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0369", 100>
+\\@TEXT_ID@<360>
+Shiki
+ところで都古ちゃん。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0370", 100>
+\\@TEXT_ID@<370>
+Shiki
+他の俺の場所、ひとつ心当たりがあるんだ。
+まずはそこに行ってみようか。
+\l
+
+
+\\@SYSTEM@<132>
+\\@CHARA_IN@< 1, 3, 502, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0371", 100>
+\\@TEXT_ID@<380>
+Shiki
+（……あのネコが言っていた事が本当なら……
+　たぶん、あそこにもあるんじゃないかな……？）
+
+
+\\@CHARA_SET_PATTERN@<7, 219>
+\w<36>
+\\@NPC_LOAD_SYNC@<5, -2, -60, 0, 0>
+
+\\@CHARA_SET_PATTERN@<5, 285>
+\w<49>
+\\@CHARA_SET_PATTERN@<7, 220>
+
+
+
+\\@SYSTEM@<200>
+\\@CHARA_CLEAR@<0>
+\\@CHARA_CLEAR@<1>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+// 一旦キャラ消す
+\\@NPC_LOAD_SYNC@<7, -1, -60, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 60, 0, 1>
+\w<60>
+
+\\@BGM_PLAY@<0, 75, 50>
+
+\\@NPC_LOAD_SYNC@<6, 13, 0, 0, 0>
+\\@CHARA_SET_PATTERN@<6, 0>
+\\@NPC_LOAD_SYNC@<5, 13, -100, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 226>
+
+\\@LOAD_BATTLE_BG@<15>//背景　草原_昼（青子ステージ）
+\aw
+
+\\@CHARA_SET_PATTERN@<6, 0>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 0, 1, 0>
+\aw
+
+
+\\@CHARA_IN@< 0, 13, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0045", 100>
+\\@TEXT_ID@<390>
+Miyako
+お兄ちゃんの言う通り、
+高台にある野原にやってきたけど……
+\l
+
+\\@NPC_LOAD_SYNC@<7, 3, 480, 0, 1>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 269>
+
+\\@CHARA_SET_PATTERN@<6, 6>
+\\@CHARA_IN@< 0, 13, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0046", 100>
+\\@TEXT_ID@<400>
+Miyako
+あったー！
+アレ、間違いなくお兄ちゃんだー！
+
+\\@CHARA_SET_PATTERN@<6, 43>
+\\@SYSTEM@<100>
+\\@CHARA_FOCUS_COLOR@<0,1>
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0372", 100>
+\\@TEXT_ID@<410>
+Shiki
+危ない都古ちゃん、上だ！
+何か飛んでくる！
+
+\\@CHARA_WAIT_PATTERN@<6, 0>//ダッシュ停止まで確実に待つ
+\aw
+
+// カメラ位置調整のため透明なダミーから黒鍵呼んでる
+\\@NPC_LOAD_SYNC@<8, 11, 67, 0, 1>
+\\@CHARA_SET_PATTERN@<8, 101>
+
+\\@CHARA_SET_PATTERN@<6, 40>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0047", 100>
+\\@TEXT_ID@<420>
+Miyako
+うん、ちょうけいっ！
+\l
+
+\\@CHARA_WAIT_PATTERN@<6, 0>//シールド終わるまで確実に待つ
+\aw
+
+\\@NPC_LOAD_SYNC@<8, -1, 0, 0, 1>
+
+\\@CHARA_SET_PATTERN@<6, 1>
+\\@CHARA_IN@< 0, 13, 17, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0048", 100>
+\\@TEXT_ID@<430>
+Miyako
+見たか、お兄ちゃんとわたしのコンビネーション！
+バカネコの仲間だな！　姿を見せろ！
+
+\\@NPC_LOAD_SYNC@<8, 11, 640, 0, 1>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">
+\\@CHARA_SET_PATTERN@<8, 11>
+
+\\@CHARA_IN@< 1, 11, 6, 2, 0>
+\aw
+
+\\@SYSTEM@<102>
+
+\\@CHARA_IN@< 1, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0150", 100>
+\\@TEXT_ID@<440>
+Ciel
+黒鍵を防いだ事は褒めてあげましょう。
+ですが、見え透いた嘘には騙されません。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0151", 100>
+\\@TEXT_ID@<450>
+Ciel
+１７つのトオノクン像を探しに来た事自体が、
+あのネコの配下である証拠です。
+\l
+
+
+\\@CHARA_IN@< 1, 11, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0152", 100>
+\\@TEXT_ID@<460>
+Ciel
+その像も、貴女が持っている像も
+ここで回収するとしましょう。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0153", 100>
+\\@TEXT_ID@<470>
+Ciel
+年端のいかない少女を脅すのは気が引けますが、
+彼を助けるのは私に与えられた特権ですので。
+
+\\@CHARA_SET_PATTERN@<6, 3>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0049", 100>
+\\@TEXT_ID@<480>
+Miyako
+うわ、めっちゃ強そうなシスターさんだ！
+どどど、どうしようお兄ちゃん！？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0050", 100>
+\\@TEXT_ID@<490>
+Miyako
+知り合い？
+知り合いなら話し合いで解決する！？
+
+\\@NPC_LOAD_SYNC@<4, 3, -60, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 287>
+
+\\@CHARA_IN@< 0, 3, 502, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0373", 100>
+\\@TEXT_ID@<500>
+Shiki
+？　いや、知らない人だ。
+話し合いは無理じゃないかな。
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<8, 19>
+
+\\@CHARA_IN@< 1, 11, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0154", 100>
+\\@TEXT_ID@<510>
+Ciel
+（今のは《生＜なま＞遠野くん！？
+　しかも、わたしを知らない、んですか……！？）
+
+\\@BGM_STOP@<0>
+\e

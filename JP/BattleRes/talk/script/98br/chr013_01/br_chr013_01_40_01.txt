@@ -1,0 +1,275 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<10>// 背景　遠野邸外観_夜
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 71, 50>
+
+\\@NPC_LOAD_SYNC@<4, 3, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 90>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 0, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 3, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0320", 100>
+\\@TEXT_ID@<10>
+Shiki
+…………さて。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0321", 100>
+\\@TEXT_ID@<20>
+Shiki
+おかしな物音が聞こえたんで、
+外の様子を見に来たけど……。
+\l
+
+\\@CHARA_IN@< 0, 3, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0322", 100>
+\\@TEXT_ID@<30>
+Shiki
+犬の遠吠えも、這いずる影もない。
+特におかしな事はなくて良かった良かった！
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+\\@CHARA_FOCUS_COLOR@<-1,1>
+
+\\@SYSTEM@<100>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0120", 100>
+\\@TEXT_ID@<40>
+Neco_Arc_Hatena
+犬の遠吠えはなくても
+ネコの鳴き声はどうですかニャ？
+
+
+\\@NPC_LOAD_SYNC@<5, 19, 320, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 38>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 100, 2, 0>
+\aw
+
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0121", 100>
+\\@TEXT_ID@<50>
+Neco_Arc
+具体的に言うとアタシですが。
+やっ。こんちは、今夜は月が綺麗ですね？
+
+\\@CHARA_SET_PATTERN@<4, 33>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0323", 100>
+\\@TEXT_ID@<60>
+Shiki
+！？　おまえは―――
+\l
+
+
+\\@SYSTEM@<200>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, -1, -320, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 320, 0, 0>
+
+\\@DRAW_EFFECT@<1>
+\\@CHARA_CLEAR@<0>
+\\@CHARA_CLEAR@<1>
+
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+\aw
+
+
+\\@BGM_PLAY@<0, 65, 50>
+
+
+//※br_talk_chr003_60_04.txtの終盤のシーンに合わせているので編集する時は注意
+\\@NPC_LOAD_SYNC@<4, 3, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 91>
+
+\\@NPC_LOAD_SYNC@<5, 19, 240, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 105>
+
+\\@NPC_LOAD_SYNC@<6, 20, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 223>
+
+\\@NPC_LOAD_SYNC@<7, 11, -260, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 71>
+
+\\@NPC_LOAD_SYNC@<8, 21, -360, 0, 0>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">
+\\@CHARA_SET_PATTERN@<8, 1>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\w<33>
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_Scrape", 1, 75>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_IN@< 1, 19, 113, 12, 0>
+\aw
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 113, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0070", 100>
+\\@TEXT_ID@<70>
+Neco_Arc_Rumi
+く、くう、アタシの出番はここまでか……！
+だが忘れるな人類！　そしてメガネ！
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0072", 100>
+\\@TEXT_ID@<80>
+Neco_Arc_Rumi
+必ず、第二第三のアタシが現れるであろう！
+いつか―――いつの日か、きっと……！
+
+\\@SYSTEM@<200>
+\aw
+
+// 回想終わり
+\\@CHARA_CLEAR@<1>
+\\@SE_STOP@<1>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@DRAW_EFFECT@<0>
+
+\\@CHARA_SET_MVNAME@<9, "InitCameraKeep">//camera初期化
+
+\\@NPC_LOAD_SYNC@<4, -1, -160, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 240, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 160, 0, 0>
+\\@NPC_LOAD_SYNC@<7, -1, -260, 0, 0>
+\\@NPC_LOAD_SYNC@<8, -1, -360, 0, 0>
+\\@NPC_LOAD_SYNC@<9, -1, 0, 0, 0>
+
+\\@LOAD_BATTLE_BG@<10>// 背景　遠野邸外観_夜
+\\@BGM_PLAY@<0, 64, 50>
+
+
+\\@NPC_LOAD_SYNC@<4, 3, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 33>
+
+\\@NPC_LOAD_SYNC@<5, 19, 320, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 38>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 5, 11, 0>
+\\@CHARA_IN@< 1, 19, 100, 12, 0>
+\aw
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_IN@< 0, 3, 27, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0324", 100>
+\\@TEXT_ID@<90>
+Shiki
+もう来たのかよ！？
+
+\\@CHARA_SET_PATTERN@<5, 5>
+\\@SYSTEM@<112>
+\\@CHARA_IN@< 1, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0124", 100>
+\\@TEXT_ID@<100>
+Neco_Arc
+まあね☆　需要と供給ってヤツ。
+最短２分で続編が始まるサービスです。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 44>
+\\@SYSTEM@<102>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0125", 100>
+\\@TEXT_ID@<110>
+Neco_Arc
+っていうか、前回のはコラボ企画にのっかった特別編。
+アタシも実力は２００％しか出していなかった。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 45>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0126", 100>
+\\@TEXT_ID@<120>
+Neco_Arc
+賢明なｙｏｕならネコ９部作の中じゃおとなしめの、
+異色のエピソードだったってわかるっしょ？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0127", 100>
+\\@TEXT_ID@<130>
+Neco_Arc
+今回は本気。メインストーリー更新だから。
+ＭＢ界はこれでおしまいです。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 2>
+\\@CHARA_IN@< 1, 19, 114, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0128", 100>
+\\@TEXT_ID@<140>
+Neco_Arc
+あ、ネコ９部作っていうのはそれぞれ３作で一つ、
+前期・中期・後期で語られるマイソロ、
+
+
+\\@CHARA_SET_PATTERN@<4, 40>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0325", 100>
+\\@TEXT_ID@<150>
+Shiki
+――――――。
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 13>
+\\@CHARA_IN@< 1, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0129", 100>
+\\@TEXT_ID@<160>
+Neco_Arc
+おやおや、無言でキラーサイト？
+アタシも甘く見られたものですなぁ。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 4>
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0130", 100>
+\\@TEXT_ID@<170>
+Neco_Arc
+バカめ、前回の戦いはあえて負けた忖度バトル！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0131", 100>
+\\@TEXT_ID@<180>
+Neco_Arc
+ヘタに貴様を倒すと後ろのおっかないガールズが
+アタシを袋だたきにする未来が見えていたからだ！
+\l
+
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0132", 100>
+\\@TEXT_ID@<190>
+Neco_Arc
+だが今は貴様ひとり！　何かあるとひとりで出歩く
+体質がアダになったので反省してくださいね！
+
+\\@BGM_STOP@<1>
+\e
+

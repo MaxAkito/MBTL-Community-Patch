@@ -1,0 +1,1400 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<11>//背景　遠野邸_ロビー_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 62, 50>//ほのぼのとした日常系BGM
+
+
+
+\\@SYSTEM@<100>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0020", 100>
+\\@TEXT_ID@<10>
+Ｘ月Ｘ日　遠野邸にて。
+とある休日の、うららかな午後。
+
+
+
+//bank4はネコアルクで使う（他キャラと重なるのでprio手前にするため）
+\\@NPC_LOAD_SYNC@<8, 0, -80, 0, 0>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">
+\\@CHARA_SET_PATTERN@<8, 13>
+
+\\@NPC_LOAD_SYNC@<5, 11, 80, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@NPC_LOAD_SYNC@<6, 3, -380, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 330>
+
+\\@NPC_LOAD_SYNC@<7, 2, 380, 0, 1>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 90>
+
+\\@CHARA_IN@< 0, 0, 6, 1, 0>
+\\@CHARA_IN@< 1, 11, 0, 2, 0>
+\aw
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 0, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0060", 100>
+\\@TEXT_ID@<20>
+Arcueid
+ビリヤードはもうおしまーーい！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0061", 100>
+\\@TEXT_ID@<30>
+Arcueid
+妹とのゲームは面白かったのに、
+シエルとのゲームはつまんなーい！
+
+\\@CHARA_SET_PATTERN@<5, 60>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0030", 100>
+\\@TEXT_ID@<40>
+Ciel
+おや。具体的に言うと、
+どこがつまらなかったのですか？
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 0, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0062", 100>
+\\@TEXT_ID@<50>
+Arcueid
+どこがも何も、シエルの番になったら
+わたしの番がまわってこなかった！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0063", 100>
+\\@TEXT_ID@<60>
+Arcueid
+ちくちくちくちく、一球ずつ地味～～に
+落としていって、危なげなく終わっちゃうし！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0064", 100>
+\\@TEXT_ID@<70>
+Arcueid
+相手のミスを待ち続けるゲームって陰湿だわ。
+ほんとシエル。そう思わない、志貴？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0031", 100>
+\\@TEXT_ID@<80>
+Ciel
+負け惜しみ、ありがとうございます。
+丁寧なプレイに徹した甲斐がありました。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0032", 100>
+\\@TEXT_ID@<90>
+Ciel
+遠野くんも、基本に忠実でミスのない、
+頼れる上級生の方が安心しますよね？
+
+\\@CHARA_SET_PATTERN@<8, 50>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0065", 100>
+\\@TEXT_ID@<100>
+Arcueid
+だって。志貴はどう思う？
+安心より《刺激＜ピンチ＞のが好きだよね？
+
+
+\\@CHARA_SET_PATTERN@<6, 360>
+\\@CHARA_IN@< 0, 70, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0060", 100>
+\\@TEXT_ID@<110>
+Shiki
+……どうも何も、ピンチの捉え方を
+まず改めてほしいけど、それは後にして。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 362>
+\\@CHARA_IN@< 0, 70, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0061", 100>
+\\@TEXT_ID@<120>
+Shiki
+ビリヤードは一方的な試合になる事もあるけど、
+それはプレイヤーの技量を競うものだからだ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0062", 100>
+\\@TEXT_ID@<130>
+Shiki
+“相手がミスをすればチャンスがくる”じゃなくて、
+“完璧なプレイをして勝つ”が本質ってコト。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 333>
+\\@CHARA_IN@< 0, 70, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0063", 100>
+\\@TEXT_ID@<140>
+Shiki
+ビリヤードのルール内で言うなら、シエル先輩の
+プレイスタイルの方が正しいし、そもそも、
+\l
+
+
+\\@CHARA_IN@< 0, 70, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0064", 100>
+\\@TEXT_ID@<150>
+Shiki
+慎重さと我慢強さを要求されるゲームじゃ、
+先輩に一日の長がある。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 337>
+\\@CHARA_IN@< 0, 70, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0065", 100>
+\\@TEXT_ID@<160>
+Shiki
+同じ球遊びなら、ボウリングの方がまだ
+アルクェイドに勝算があったと思うよ。
+
+\\@NPC_LOAD_SYNC@<8, -2, -80, 0, 1>
+\\@CHARA_SET_PATTERN@<8, 5>
+
+
+
+\\@SYSTEM@<102>
+
+\\@CHARA_SET_PATTERN@<7, 105>
+\\@CHARA_IN@< 1, 2, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0000", 100>
+\\@TEXT_ID@<170>
+Akiha
+ええ。ビリヤードはゲームではなく競技ですから。
+勝敗は運に左右されません。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0001", 100>
+\\@TEXT_ID@<180>
+Akiha
+普通はもう少しプレイヤーは入れ替わるのですが、
+シエルさんが上手すぎましたね。
+\l
+
+\\@CHARA_SET_PATTERN@<7, 106>
+\\@CHARA_IN@< 1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0002", 100>
+\\@TEXT_ID@<190>
+Akiha
+とはいえ、ラック数はほぼイーブン。
+お二人とも仲がよろしい事で。
+\l
+
+
+\\@CHARA_SET_PATTERN@<7, 115>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0003", 100>
+\\@TEXT_ID@<200>
+Akiha
+シエルさんも人間離れした、もういいかげんプロに
+なって外国に帰られては？　というプレイでしたが、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0004", 100>
+\\@TEXT_ID@<210>
+Akiha
+アルクェイドさんも人間離れした、その力をどうか
+炭鉱などで発揮されては？　というプレイでした。
+
+\\@CHARA_SET_PATTERN@<7, 116>
+
+\\@CHARA_SET_PATTERN@<5, 71>
+\\@CHARA_IN@< 1, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0033", 100>
+\\@TEXT_ID@<220>
+Ciel
+そうですね。ブレイクショットで９ボールを
+落とすか、ブレイクショットで手球が粉になるか。
+\l
+
+
+\\@CHARA_IN@< 1, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0034", 100>
+\\@TEXT_ID@<230>
+Ciel
+いつ殺人級の事故が発生するか、
+ハラハラして見守っていましたから。
+\l
+
+
+
+\\@CHARA_IN@< 1, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0035", 100>
+\\@TEXT_ID@<240>
+Ciel
+アルクェイドとは物を突く、叩く、といった
+競技は控えた方がいいですね。
+\l
+
+
+
+\\@CHARA_SET_PATTERN@<5, 62>
+\\@CHARA_IN@< 1, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0036", 100>
+\\@TEXT_ID@<250>
+Ciel
+というか。
+彼女との遊びは控えましょうね、遠野くん。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0037", 100>
+\\@TEXT_ID@<260>
+Ciel
+まわりの迷惑になりますので。
+
+\\@CHARA_SET_PATTERN@<6, 358>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 70, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0066", 100>
+\\@TEXT_ID@<270>
+Shiki
+普段はちゃんと監督しています。
+でも今日はシエル先輩がいるから。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0067", 100>
+\\@TEXT_ID@<280>
+Shiki
+アルクェイドが遊びに夢中になっても
+止めてもらえるし、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0068", 100>
+\\@TEXT_ID@<290>
+Shiki
+コイツが本気だせるのって、結局、先輩だけだし。
+シエルシエルってうるさいんですから、普段。
+
+\\@CHARA_SET_PATTERN@<8, 6>
+\\@CHARA_IN@< 0, 0, 11, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0066", 100>
+\\@TEXT_ID@<300>
+Arcueid
+はあ！？　本気とか出さないし！
+シエルごとき片手間であしらってますけど！？
+
+
+\\@CHARA_SET_PATTERN@<6, 332>
+\\@CHARA_IN@< 0, 70, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0069", 100>
+\\@TEXT_ID@<310>
+Shiki
+ほら。なんで、ふたりの試合、
+見ていてすっごく楽しかった。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 336>
+\\@CHARA_IN@< 0, 70, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0070", 100>
+\\@TEXT_ID@<320>
+Shiki
+気兼ねなく競い合えるのっていいよね。
+フレンドシップ、いい言葉です。
+
+
+
+\\@SYSTEM@<100>
+\\@CHARA_SET_PATTERN@<8, 5>
+\\@CHARA_SET_PATTERN@<5, 14>
+\\@CHARA_SET_PATTERN@<7, 158>
+
+\\@CHARA_IN@< 1, 11, 13, 0, 1>
+\aw
+\w<60>
+\\@CHARA_IN@< 1, 2, 10, 0, 1>
+\aw
+\w<60>
+\\@CHARA_IN@< 1, 0, 19, 0, 1>
+\aw
+\w<60>
+
+
+
+\\@CHARA_SET_PATTERN@<7, 106>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0005", 100>
+\\@TEXT_ID@<360>
+Akiha
+……コホン。アルクェイドさん。
+他に、何かリクエストはありますか？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0006", 100>
+\\@TEXT_ID@<370>
+Akiha
+４人同時に楽しめるようなゲームがいいなら、
+幾つかご紹介できますが。
+
+\\@NPC_LOAD_SYNC@<8, -2, -80, 0, 0>
+\\@CHARA_SET_PATTERN@<8, 7>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 0, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0067", 100>
+\\@TEXT_ID@<380>
+Arcueid
+ほんと？　ありがと、妹。
+\l
+
+
+\\@CHARA_IN@< 0, 0, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0068", 100>
+\\@TEXT_ID@<390>
+Arcueid
+でも次は志貴と二人きりになれるのがいいな。
+あっちの森に湖とかない？
+\l
+
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0069", 100>
+\\@TEXT_ID@<400>
+Arcueid
+ボートならわたしが用意するから
+気遣いはいらないわ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0070", 100>
+\\@TEXT_ID@<410>
+Arcueid
+空想具現化でなんでも造れるから。
+志貴、白鳥型のボートが好きって知ってた？
+
+\\@CHARA_SET_PATTERN@<6, 365>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 70, 27, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0070_1", 100>
+\\@TEXT_ID@<420>
+Shiki
+（ぶーっ！）
+
+
+
+\\@CHARA_SET_PATTERN@<7, 101>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1,  2, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0007", 100>
+\\@TEXT_ID@<430>
+Akiha
+兄さん。
+
+
+\\@CHARA_SET_PATTERN@<6, 341>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 70, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0071", 100>
+\\@TEXT_ID@<440>
+Shiki
+はい。なんでしょう。
+
+
+\\@CHARA_SET_PATTERN@<7, 110>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1,  2, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0008", 100>
+\\@TEXT_ID@<450>
+Akiha
+初耳ですが、お好きなんですか？
+あの愛らしい《白鳥＜スワン＞ボートが。
+
+
+
+\\@CHARA_SET_PATTERN@<6, 340>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 70, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0072", 100>
+\\@TEXT_ID@<460>
+Shiki
+いや、あんまり。目立つでしょ、アレ。
+他になくて、仕方なくだったんだ。
+
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1,  2, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0009", 100>
+\\@TEXT_ID@<470>
+Akiha
+『仕方なく』アルクェイドさんと複数回
+乗ったことがある、と。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0010", 100>
+\\@TEXT_ID@<480>
+Akiha
+この付近だと《非偲池＜おもわずのいけ＞のボート場ですか？
+平均レンタル時間は３０分から１時間。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0011", 100>
+\\@TEXT_ID@<490>
+Akiha
+余人の入らない空間で、それだけの時間、
+いったい何を話されていたのかしら。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0012", 100>
+\\@TEXT_ID@<500>
+Akiha
+将来の事で有意義なお話であればいいのですが。
+\l
+
+\\@CHARA_SET_PATTERN@<7, 109>
+\\@CHARA_IN@< 1, 2, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0013", 100>
+\\@TEXT_ID@<510>
+Akiha
+―――後ほど、詳しく聞かせていただけますね？
+（ニッコリ）
+
+
+\\@CHARA_SET_PATTERN@<6, 349>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 70, 25, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0073", 100>
+\\@TEXT_ID@<520>
+Shiki
+別に、街の案内をしていただけ、なんですけど？
+（控えめに言って地獄かな？）
+\l
+
+
+
+\\@BGM_STOP@<0>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_ShortLightning", 0, 75>
+
+
+\\@FADE_OUT@<2, 255, 255, 255, 1>//即座に
+\w<2>
+\\@FADE_OUT@<2, 0, 0, 0, 1>//即座に
+
+\\@CHARA_IN@< 0, 70, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0074", 100>
+\\@TEXT_ID@<530>
+Shiki
+うわ、落雷！？
+近いぞ、庭じゃないかコレ！？
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 2, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0014", 100>
+\\@TEXT_ID@<540>
+Akiha
+あら、停電？
+でも明かりが消えたくらいでこの暗さは―――
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 0, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0071", 100>
+\\@TEXT_ID@<550>
+Arcueid
+？　なんかヘンな予感、しない？
+悪寒っていうか、運命っていうか―――
+
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+
+\\@SYSTEM@<120>
+\\@CHARA_FOCUS_COLOR@<-1,1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0000", 100>
+\\@TEXT_ID@<560>
+Neco_Arc_Hatena
+ニャハハハハハハ！
+やったぜマシュ君、今度こそ真のＭＢ界、だっ！
+
+
+//全員右向きで驚く
+\\@NPC_LOAD_SYNC@<5, -2, 80, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -2, -240, 0, 0>
+\\@NPC_LOAD_SYNC@<7, -2, 240, 0, 0>
+\\@CHARA_SET_PATTERN@<8, 5>
+\\@CHARA_SET_PATTERN@<5, 70>
+\\@CHARA_SET_PATTERN@<7, 158>
+\\@CHARA_SET_PATTERN@<6, 340>
+
+\\@NPC_LOAD_SYNC@<4, 19, 640, 0, 1>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 90>
+
+\\@NPC_LOAD_SYNC@<9, 90, 320, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\\@FADE_IN@<2, 0, 0, 0, 0>
+\aw
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0001", 100>
+\\@TEXT_ID@<570>
+Neco_Arc
+こんにちは物騒なヒロインズ！
+平和ボケした雁首ならべて大いに結構！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 0>
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0002", 100>
+\\@TEXT_ID@<580>
+Neco_Arc
+だがアタシが来たからには何もかもおしまいです。
+昔の、仲の悪いアナタたちに戻ってもらいます。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0003", 100>
+\\@TEXT_ID@<590>
+Neco_Arc
+はじめての方、よろしくね。
+わかってる方、やさしくね。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0004", 100>
+\\@TEXT_ID@<600>
+Neco_Arc
+アタシはネコアルク。
+妖精郷のネコを代表する《輝ける＜シャイニング＞アクトレス。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0005", 100>
+\\@TEXT_ID@<610>
+Neco_Arc
+今回は、いつまでも真主人公を実装しない
+貴様らを罰するために現れました。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 4>
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0006", 100>
+\\@TEXT_ID@<620>
+Neco_Arc
+なにより！　そこのメガネ！
+マンゴーみたいな日常パート見せつけやがって！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0007", 100>
+\\@TEXT_ID@<630>
+Neco_Arc
+甘すぎて血糖値で死ぬ前に、
+ここで貴様の《幸福＜カロリー＞をゼロに戻してやる！
+
+
+\\@CHARA_SET_PATTERN@<6, 342>
+\\@EMG_SETUP@<16, 0, 0, 0, 16, 64, 1>
+\\@EMG_PRINT_TEXT@<102, 1130, 670>
+\\@TEXT_ID@<635>
+※『さっきのどこが甘い日常パートに見えたんだい？　という温かな微笑み。』
+
+\\@SYSTEM@<100>
+\\@CHARA_IN@< 0, 70, 8, 0, 1>
+\\@TEXT_ID@<636>
+NONE
+ 
+
+\\@CHARA_SET_PATTERN@<6, 340>
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<8, 110>
+\\@CHARA_IN@< 0, 0, 16, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0072", 100>
+\\@TEXT_ID@<640>
+Arcueid
+うーん……やっぱり調子悪い。
+眩暈がする。わたし、ちょっと寝るね。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0073", 100>
+\\@TEXT_ID@<650>
+Arcueid
+全力で関わりたくないし。
+ああいうの、シエルに任せるわ。
+
+\\@CHARA_SET_PATTERN@<8, 83>//arc
+
+
+\\@NPC_LOAD_SYNC@<5, -2, 80, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 31>
+\\@CHARA_IN@< 0, 11, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0038", 100>
+\\@TEXT_ID@<660>
+Ciel
+ずるい、貴女はいつもそうです！
+汚れ仕事を押しつけないでくれません！？
+
+
+\\@CHARA_SET_PATTERN@<7, 106>
+\\@CHARA_IN@< 0, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0015", 100>
+\\@TEXT_ID@<670>
+Akiha
+まあ。あの方、シエルさんのお知り合いですか？
+同類？
+
+
+
+\\@CHARA_SET_PATTERN@<4, 9>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0008", 100>
+\\@TEXT_ID@<680>
+Neco_Arc
+うん、同類。
+アニメに例えると２クールはもう過ごした仲サ☆
+
+
+\\@NPC_LOAD_SYNC@<5, -2, 80, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 60>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0039", 100>
+\\@TEXT_ID@<690>
+Ciel
+はい？
+あの、身に覚えがないんですが？
+
+
+\\@CHARA_SET_PATTERN@<6, 345>
+\\@CHARA_IN@< 0, 70, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0075", 100>
+\\@TEXT_ID@<700>
+Shiki
+先輩、下がって。
+ああいうのの戯言は話半分に聞くべきです。
+
+
+\\@CHARA_SET_PATTERN@<5, 61>
+\\@CHARA_IN@< 0, 11, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0040", 100>
+\\@TEXT_ID@<710>
+Ciel
+あ、はい、もちろんです。
+って、半分は本当だと思ってません！？
+
+
+\\@CHARA_SET_PATTERN@<6, 358>
+\\@CHARA_IN@< 0, 70, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0076", 100>
+\\@TEXT_ID@<720>
+Shiki
+思ってない思ってない。
+とにかく言い分を聞きましょう。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 363>
+\\@CHARA_IN@< 0, 70, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0077", 100>
+\\@TEXT_ID@<730>
+Shiki
+ほらおまえ、用件を言えよ。
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0078", 100>
+\\@TEXT_ID@<740>
+Shiki
+アルクェイドとシエル先輩と秋葉の親睦会に
+自分からやってくるなんて、よっぽどの急用だ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0079", 100>
+\\@TEXT_ID@<750>
+Shiki
+それとも自分から死にに来たチャレンジャーか？
+なら別に止めないけど。
+
+\\@CHARA_SET_PATTERN@<6, 359>
+
+\\@CHARA_SET_PATTERN@<4, 13>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0009", 100>
+\\@TEXT_ID@<760>
+Neco_Arc
+ほほう。その対応力、真祖の姫の従者に相応しい。
+さすがは主人公ですな。暫定ではありますがね。
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0016", 100>
+\\@TEXT_ID@<770>
+Akiha
+従者ではありません。私の兄です。
+\l
+
+
+\\@CHARA_IN@< 0, 2, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0017", 100>
+\\@TEXT_ID@<780>
+Akiha
+―――失礼、口が滑りました。
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0018", 100>
+\\@TEXT_ID@<790>
+Akiha
+暫定……と言うからには、
+真の主人公が存在する、というコトかしら？
+
+
+\\@NPC_LOAD_SYNC@<10, 93, 640, 0, 0>//小物
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Discharge", 0, 75>
+\\@CHARA_SET_PATTERN@<10, 1>//落雷
+\\@FADE_IN@<2, 255, 255, 255, 0>
+
+\\@CHARA_SET_PATTERN@<4, 35>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0010", 100>
+\\@TEXT_ID@<800>
+Neco_Arc
+もちろんだ！
+忘却は罪なり！　ムチはアメなり！
+\l
+
+\aw
+
+\\@NPC_LOAD_SYNC@<10, -1, 620, 0, 0>//解放
+
+\\@CHARA_SET_PATTERN@<4, 5>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0011", 100>
+\\@TEXT_ID@<810>
+Neco_Arc
+今こそ教えよう、長きに亘る
+メインキャラとゲストキャラの戦いの歴史を！
+\l
+
+\\@CHARA_SET_PATTERN@<4, 35>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0012", 100>
+\\@TEXT_ID@<820>
+Neco_Arc
+初代。Ｒｅ：ＡＣＴ。ＡＣ。ＡＡ。ＡＡＣＣ。
+何かの呪文のようだがシリーズの歴史と思え。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0013", 100>
+\\@TEXT_ID@<830>
+Neco_Arc
+知ってますか。五回もの間、
+我々は戦っては滅びてきた。マヤ文明かよ。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 35>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0014", 100>
+\\@TEXT_ID@<840>
+Neco_Arc
+まさに光と闇のエンドレスバトル。
+資本主義が生んだ絶望のサヴァイバル。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0015", 100>
+\\@TEXT_ID@<850>
+Neco_Arc
+力なき者はつねにおまえたちに主役の座を
+譲ってきた。―――だが。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 4>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0016", 100>
+\\@TEXT_ID@<860>
+Neco_Arc
+長き雌伏の時を経て、アタシはついに実装された！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0017", 100>
+\\@TEXT_ID@<870>
+Neco_Arc
+ここは月姫本編にあらず！
+チート技、強キャラが支配する《格闘＜ＭＢ＞世界！
+\l
+
+\\@SYSTEM@<122>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0018", 100>
+\\@TEXT_ID@<880>
+Neco_Arc
+一番強いヤツが次回作のトップを
+とるのが《慣例＜ルール＞ニャんだよ！！！！！
+
+\\@CHARA_SET_PATTERN@<7, 25>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0019", 100>
+\\@TEXT_ID@<890>
+Akiha
+つまり、当家の長男は
+次回作のメインビジュアルに相応しくないと？
+
+
+\\@CHARA_SET_PATTERN@<4, 11>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 117, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0019", 100>
+\\@TEXT_ID@<900>
+Neco_Arc
+そ、そこまでは言ってニャいんですけどぉ……
+えーとですね、ですから、その……
+
+
+\\@CHARA_SET_PATTERN@<7, 26>
+
+\\@CHARA_SET_PATTERN@<5, 32>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0041", 100>
+\\@TEXT_ID@<910>
+Ciel
+ふむ。では『実力で主役を勝ち取れ』
+というコトですか？
+
+
+\\@CHARA_SET_PATTERN@<4, 1>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 114, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0020", 100>
+\\@TEXT_ID@<920>
+Neco_Arc
+そう！　そうニャんだ！
+やっぱシエルなんだよなぁ。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 35>
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0021", 100>
+\\@TEXT_ID@<930>
+Neco_Arc
+我々はメイン勢に宣戦を布告する！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0022", 100>
+\\@TEXT_ID@<940>
+Neco_Arc
+ゲストとメイン……どちらが強いのか、
+生き残りをかけた一騎打ちを！
+\l
+
+\\@CHARA_SET_PATTERN@<4, 2>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0023", 100>
+\\@TEXT_ID@<950>
+Neco_Arc
+紹介しよう！
+そのために異世界から召喚した我が戦士たちを！
+\l
+
+\\@SYSTEM@<122>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0024", 100>
+\\@TEXT_ID@<960>
+Neco_Arc
+まずはひとりめ！　鉄壁のガードと容赦ない《突進＜つっこみ＞！
+純朴可憐なエイジスター、マシュ・キリエライト！
+
+\\@NPC_LOAD_SYNC@<10, 20, 480, 0, 1>
+\\@CHARA_SET_MVNAME@<10, "FadeIn">
+\\@CHARA_SET_PATTERN@<10, 0>
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 20, 203, 0, 1>
+\\@CHARA_MUKI@<1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0000", 100>
+\\@TEXT_ID@<970>
+Mash
+は、はい！　名誉ある大会と聞きましたので、
+せいいっぱい戦わせていただきます！
+
+\\@CHARA_SET_PATTERN@<5, 70>
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0042", 100>
+\\@TEXT_ID@<980>
+Ciel
+（あの盾、特級の魔術礼装ですね……
+　魔術協会の衛士、でしょうか？）
+
+
+\\@CHARA_SET_PATTERN@<4, 9>
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0025", 100>
+\\@TEXT_ID@<990>
+Neco_Arc
+ふたりめ！　容赦・常識は平安時代に置いてきた！
+目にも止まらぬマッハ天狗、牛若丸！
+
+
+
+\\@NPC_LOAD_SYNC@<8, 21, 640, 0, 1>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">
+\\@CHARA_SET_PATTERN@<8, 15>
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 21, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0000", 100>
+\\@TEXT_ID@<1000>
+Ushiwaka
+主は選べぬのがサーヴァントの宿命なれば。
+さっさと仕事をこなして解放されたいです。
+
+\\@CHARA_SET_PATTERN@<7, 100>
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0020", 100>
+\\@TEXT_ID@<1010>
+Akiha
+（……あの方、イヤイヤそうですね。
+　とても天狗には見えませんが……）
+
+
+\\@CHARA_SET_PATTERN@<4, 1>
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 19, 112, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0026", 100>
+\\@TEXT_ID@<1020>
+Neco_Arc
+そしてラストは皆さんご存じこのお方！
+いつでも笑顔\sf000　が素敵な《紳士＜ジェントリ＞！　エドモン・ダレデス！
+
+
+
+\\@NPC_LOAD_SYNC@<11, 22, 800, 0, 1>
+\\@CHARA_SET_MVNAME@<11, "Mv_Call_BlackFramesMng_withFadeIn">
+\\@CHARA_SET_PATTERN@<11, 4>
+
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 22, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0000", 100>
+\\@TEXT_ID@<1030>
+Edmond
+知っているぞ！　ここが！　地獄だ！
+
+\\@CHARA_SET_PATTERN@<6, 350>
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 70, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0080", 100>
+\\@TEXT_ID@<1040>
+Shiki
+（初見で分かるんだ、あのひと！）
+
+\\@CHARA_IN@< 0, 2, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0021", 100>
+\\@TEXT_ID@<1050>
+Akiha
+（ご存じなのに誰なんです？）
+
+
+\\@CHARA_SET_PATTERN@<4, 13>
+\\@SYSTEM@<112>
+\\@CHARA_IN@< 1, 19, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0027", 100>
+\\@TEXT_ID@<1060>
+Neco_Arc
+ニャッニャッニャッ。
+あいつぐ《Ｂ＜ビッグ＞・《Ｎ＜ネーム＞の登場に声も出ないようですなぁ。
+\l
+
+
+
+\\@CHARA_SET_PATTERN@<4, 35>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0028", 100>
+\\@TEXT_ID@<1070>
+Neco_Arc
+そう！　コイツらこそＦ世界の住人！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0029", 100>
+\\@TEXT_ID@<1080>
+Neco_Arc
+一都市で切った張ったするご近所伝奇とは違う、
+スケールのでかい《世界規模＜グローバル＞コンテンツ！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0030", 100>
+\\@TEXT_ID@<1090>
+Neco_Arc
+メインキャラであるコトに奢ったメガネを
+倒すにはうってつけの人材です！
+
+\\@CHARA_SET_PATTERN@<6, 361>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 70, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0081", 100>
+\\@TEXT_ID@<1100>
+Shiki
+おまえもそのご近所伝奇の一員なんだけど？
+なんだってその人たちに頼るんだよ。
+
+
+\\@CHARA_SET_PATTERN@<4, 90>
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 19, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0031", 100>
+\\@TEXT_ID@<1110>
+Neco_Arc
+アタシは！　勝つ為なら！
+いつだって《Fate＜強いほう＞につく！
+
+
+\\@CHARA_SET_PATTERN@<4, 0>
+
+\\@CHARA_SET_PATTERN@<5, 72>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0043", 100>
+\\@TEXT_ID@<1120>
+Ciel
+……秋葉さん、遠野くん、申し訳ありません……
+わたしがもっとしっかりしていれば……
+
+
+\\@CHARA_SET_PATTERN@<7, 101>
+\\@CHARA_IN@< 0, 2, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0022", 100>
+\\@TEXT_ID@<1130>
+Akiha
+シエル先輩が謝ることではありませんが……
+あの、なぜ？
+
+
+\\@CHARA_IN@< 0, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0044", 100>
+\\@TEXT_ID@<1140>
+Ciel
+はい……わたしもよく分からないのですが、
+\l
+
+
+\\@CHARA_IN@< 0, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0045", 100>
+\\@TEXT_ID@<1150>
+Ciel
+『ダメだあのネコ、ちゃんと監督しないと……』
+という気持ちが凄くて……
+\l
+
+
+\\@CHARA_IN@< 0, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0046", 100>
+\\@TEXT_ID@<1160>
+Ciel
+あの生物のやらかし・しでかしは、
+すべてわたしの責任になる気がするんです……
+
+
+\\@CHARA_SET_PATTERN@<7, 136>
+\\@CHARA_IN@< 0, 2, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0023", 100>
+\\@TEXT_ID@<1170>
+Akiha
+そんな……責任感・自己犠牲の強い方だと
+察していましたが、そこまで……
+
+
+\\@CHARA_SET_PATTERN@<6, 331>
+\\@CHARA_IN@< 0, 70, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0082", 100>
+\\@TEXT_ID@<1180>
+Shiki
+………………。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0083", 100>
+\\@TEXT_ID@<1190>
+Shiki
+いいよ、その３人に勝てばいいんだろ？
+押し入り強盗にはてっとり早くお帰り願おう。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0084", 100>
+\\@TEXT_ID@<1200>
+Shiki
+俺が勝てば主役続投。
+そっちが勝ったらこの世の地獄ってだけだ。
+
+\\@CHARA_SET_PATTERN@<4, 37>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 111, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0032", 100>
+\\@TEXT_ID@<1210>
+Neco_Arc
+―――ふ。
+なにその強気、ちょっと怖い。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 35>
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0033", 100>
+\\@TEXT_ID@<1220>
+Neco_Arc
+だがその強気が命取りだ！
+四対四……
+\l
+
+
+
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0034", 100>
+\\@TEXT_ID@<1230>
+Neco_Arc
+甲冑美少女対決・マシュ君対シエル、
+黒髪美少女対決・若クン対お嬢、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0035", 100>
+\\@TEXT_ID@<1240>
+Neco_Arc
+中二美男子対決・ダレデス対メガネ、
+\l
+
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0036", 100>
+\\@TEXT_ID@<1250>
+Neco_Arc
+そして金髪メインヒロイン対決として
+アタシとオリジナルを予定していましたが、
+\l
+
+\\@CHARA_SET_PATTERN@<4, 41>
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0037", 100>
+\\@TEXT_ID@<1260>
+Neco_Arc
+貴様がその気なら総当たりにしてやんよ！
+\l
+
+\\@CHARA_SET_PATTERN@<4, 35>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0038", 100>
+\\@TEXT_ID@<1270>
+Neco_Arc
+アタシもハリウッド女優だ、
+この３騎が敗れた時はうだうだ言わぬ！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0039", 100>
+\\@TEXT_ID@<1280>
+Neco_Arc
+心の底から、
+貴様をＭＢ界のＳランクキャラと認めよう！
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 1>
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 19, 112, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0040", 100>
+\\@TEXT_ID@<1290>
+Neco_Arc
+いでよグレートキャッツコロシアム！
+我が井戸端劇場よ！
+
+
+\\@SYSTEM@<200>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 255, 255, 255, 0>
+\aw
+
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+\aw
+
+\\@BGM_PLAY@<0, 74, 50>
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\aw
+
+
+\\@CHARA_SET_PATTERN@<7, 101>
+\\@SYSTEM@<121>
+\\@CHARA_IN@< 0, 2, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0024", 100>
+\\@TEXT_ID@<1300>
+Akiha
+！　うちのロビーが一瞬で別世界に！？
+\l
+
+
+\\@CHARA_SET_PATTERN@<7, 115>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0025", 100>
+\\@TEXT_ID@<1310>
+Akiha
+別にそれは不思議ではありませんが、
+観客のクオリティに眩暈を起こしそう！
+
+
+\\@CHARA_SET_PATTERN@<4, 0>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0041", 100>
+\\@TEXT_ID@<1320>
+Neco_Arc
+はい。
+誰もが思う感想、ありがとうございます。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 9>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0042", 100>
+\\@TEXT_ID@<1330>
+Neco_Arc
+んじゃあ一戦目、いってみっか！
+ボスラッシュモードver.3、ＢvsＦ編―――
+\l
+
+
+
+\\@CHARA_SET_PATTERN@<4, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0043", 100>
+\\@TEXT_ID@<1340>
+Neco_Arc
+はっじまっるよー！
+
+
+\\@BGM_STOP@<0>
+
+\\@SYSTEM@<200>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+\\@CHARA_SET_MVNAME@<11, "Mv_Delete_BlackFramesMng">//一応消しておく
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<8, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<9, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<10, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<11, -1, 0, 0, 0>
+\\@CHARA_CLEAR@<0>
+\\@CHARA_CLEAR@<1>
+\aw
+\w<120>//長めにとる
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@BGM_PLAY@<0, 65, 50>//楽しくにぎやかなBGM
+
+
+\\@NPC_LOAD_SYNC@<4, 3, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 91>
+
+\\@NPC_LOAD_SYNC@<5, 20, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@CHARA_IN@< 0, 3, 400, 1, 0>
+\\@CHARA_IN@< 1, 20, 208, 2, 0>
+\\@CHARA_MUKI@<1, 1>
+\aw
+
+\\@CHARA_SET_PATTERN@<5, 18>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 20, 208, 0, 1>
+\\@CHARA_MUKI@<1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0010", 100>
+\\@TEXT_ID@<1350>
+Mash
+あ、あれ？　教会が魔改造したジャガーノート級
+ファイターさんと戦う、と聞いていましたが……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0011", 100>
+\\@TEXT_ID@<1360>
+Mash
+本当に、貴方が？
+魔術師でも代行者でもないようですが……
+
+\\@CHARA_SET_PATTERN@<4, 106>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 408, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0090", 100>
+\\@TEXT_ID@<1370>
+Shiki
+そう、ただの学生なんだ。
+後ろめたいなら手加減など、ひとつよろしく。
+\l
+
+
+\\@SYSTEM@<131>
+\\@CHARA_SET_PATTERN@<4, 104>
+\\@CHARA_IN@< 0, 3, 410, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0091", 100>
+\\@TEXT_ID@<1380>
+Shiki
+（っていうか、この子、明らかに騙されてるからなぁ……
+　《他人事＜ひとごと＞だけど、相方が心配だよ……）
+\l
+
+
+
+\\@SYSTEM@<101>
+\\@CHARA_SET_PATTERN@<4, 2>
+\\@CHARA_IN@< 0, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0092", 100>
+\\@TEXT_ID@<1390>
+Shiki
+ま、そこは俺が心配する事じゃないけどね。
+とりあえず勝てばいいんだし。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0093", 100>
+\\@TEXT_ID@<1400>
+Shiki
+こっちも程度は心得ている。
+大怪我しない範囲で戦おう。
+
+\\@CHARA_SET_PATTERN@<5, 22>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 20, 205, 0, 1>
+\\@CHARA_MUKI@<1, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0012", 100>
+\\@TEXT_ID@<1410>
+Mash
+は、はい！　マシュ・キリエライト、
+胸を借りるつもりで戦います！
+
+\\@BGM_STOP@<0>
+
+
+
+\e

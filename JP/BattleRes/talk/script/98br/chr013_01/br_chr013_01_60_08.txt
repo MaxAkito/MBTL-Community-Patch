@@ -1,0 +1,463 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<24>//背景　グレートキャッツビレッジ
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+
+\\@NPC_LOAD_SYNC@<5, 13, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 6>
+
+\\@NPC_LOAD_SYNC@<7, 11, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 0>
+
+\\@NPC_LOAD_SYNC@<6, 19, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 120>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 15, 1, 0>
+\\@CHARA_IN@< 1, 19, 113, 2, 0>
+\aw
+
+
+\\@CHARA_IN@< 0, 13, 15, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0137", 100>
+\\@TEXT_ID@<270>
+Miyako
+ｙｅｓ！　やってみたらできました！
+
+
+
+\\@NPC_LOAD_SYNC@<4, 3, 60, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 280>
+
+\\@CHARA_IN@< 0, 3, 500, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0440", 100>
+\\@TEXT_ID@<280>
+Shiki
+《教えて教室＜バッドエンド＞になったのはオマエの方だったな。
+いい薬になっただろ。
+
+
+
+\\@CHARA_SET_PATTERN@<6, 121>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0180", 100>
+\\@TEXT_ID@<290>
+Neco_Arc
+――――――ねえ。なにこれ？
+
+
+
+\\@CHARA_SET_PATTERN@<4, 281>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 502, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0441", 100>
+\\@TEXT_ID@<300>
+Shiki
+なにって、オマエのせいで１７分割された一つだよ。
+なんで俺だけ動けるのかは謎だけど。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0442", 100>
+\\@TEXT_ID@<310>
+Shiki
+いいから残りの像を出して、あのなんとか光線で
+元に戻してくれ。いいかげん不便でしょうがない。
+
+\\@CHARA_SET_PATTERN@<6, 122>
+
+\\@SYSTEM@<100>
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+\w<45>
+
+\\@CHARA_SET_PATTERN@<6, 42>
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+\w<45>
+
+\\@CHARA_SET_PATTERN@<6, 41>
+\\@CHARA_IN@< 1, 19, 105, 0, 1>
+\w<45>
+
+\\@CHARA_SET_PATTERN@<6, 43>
+\\@CHARA_IN@< 1, 19, 109, 0, 1>
+\w<45>
+
+
+\\@CHARA_SET_PATTERN@<6, 9>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0181", 100>
+\\@TEXT_ID@<320>
+Neco_Arc
+ん。ムリ☆
+
+
+\\@CHARA_SET_PATTERN@<5, 1>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0138", 100>
+\\@TEXT_ID@<330>
+Miyako
+なんで！？
+説明しろバカネコー！
+
+
+
+\\@CHARA_SET_PATTERN@<6, 44>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0182", 100>
+\\@TEXT_ID@<340>
+Neco_Arc
+あのですねぇ。一度分離したものを戻すとか、
+ネコにそんな高度なコトができるとでも？
+
+
+
+\\@CHARA_SET_PATTERN@<4, 281>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 924, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0443", 100>
+\\@TEXT_ID@<350>
+Shiki
+――――――。
+
+
+\\@CHARA_SET_PATTERN@<6, 38>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0183", 100>
+\\@TEXT_ID@<360>
+Neco_Arc
+あ。待って、できます。たぶん。
+目を反転させてプリズム光線撃てば。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 3>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0184", 100>
+\\@TEXT_ID@<370>
+Neco_Arc
+でもそれってアタシの命も危ないんだよニャー。
+プリズム光線は撃つごとに《即死判定＜デッドロール＞必要だから。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 909, 0, 1>//眼鏡なし
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0444", 100>
+\\@TEXT_ID@<380>
+Shiki
+イチかバチかの命がけの攻撃だったんだ。
+でも、試すチャンスがあるだけマシじゃないか？
+
+
+\\@CHARA_SET_PATTERN@<6, 37>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 111, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0185", 100>
+\\@TEXT_ID@<390>
+Neco_Arc
+うん。
+いま確実に、言う通りにしないと待っている死。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 35>
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0186", 100>
+\\@TEXT_ID@<400>
+Neco_Arc
+だが―――これだけは言っておく！
+アタシは像など持っていない！
+\l
+
+
+\\@CHARA_SET_PATTERN@<7, 8>
+\\@CHARA_SET_PATTERN@<5, 3>
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+\aw
+\w<30>
+\\@CHARA_IN@< 0, 3, 905, 0, 1>
+\aw
+\w<30>
+
+
+
+\\@CHARA_SET_PATTERN@<6, 44>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0187", 100>
+\\@TEXT_ID@<430>
+Neco_Arc
+渡せば助かるものがあるなら
+ソッコー差し出してるっつーの。
+\l
+
+
+
+\\@CHARA_SET_PATTERN@<6, 5>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0188", 100>
+\\@TEXT_ID@<440>
+Neco_Arc
+皆さん、思いだしてほしい。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0189", 100>
+\\@TEXT_ID@<450>
+Neco_Arc
+アタシは一体目の回収に都古クンの部屋に向かい、
+そしてどうなったかを。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0190", 100>
+\\@TEXT_ID@<460>
+Neco_Arc
+ふっとばされて夜空の星になった悲しい存在に、
+街を探し回る体力が残っていると思いますか？
+\l
+
+\\@CHARA_SET_PATTERN@<6, 44>
+\\@CHARA_IN@< 1, 19, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0191", 100>
+\\@TEXT_ID@<470>
+Neco_Arc
+ニャいんだな、これが☆
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 13>
+\\@CHARA_IN@< 1, 19, 109, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0192", 100>
+\\@TEXT_ID@<480>
+Neco_Arc
+アタシに出来たコトは腹部の痛みに耐えながら
+どうせ使えないと思いつつ冴えないＯＬに声をかけ
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0193", 100>
+\\@TEXT_ID@<490>
+Neco_Arc
+自分の代わりにクリスタル像を回収させようと
+したぐらい。あとはここで養生してました。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0194", 100>
+\\@TEXT_ID@<500>
+Neco_Arc
+都古クンにおかれましては、
+今後はもうちょっと手加減してくださいね。
+
+\\@CHARA_SET_PATTERN@<5, 11>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0139", 100>
+\\@TEXT_ID@<510>
+Miyako
+う、うん、たしかに夜空の星まで
+吹っ飛ばすのはやりすぎでした……
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 1>
+\\@CHARA_IN@< 0, 13, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0140", 100>
+\\@TEXT_ID@<520>
+Miyako
+でも、それだと話が合わない！
+残りのお兄ちゃんはドコに行ったの！？
+
+
+\\@CHARA_SET_PATTERN@<6, 3>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0195", 100>
+\\@TEXT_ID@<530>
+Neco_Arc
+そりゃ他のヒロイン候補でしょ。
+こっそり隠し持ってるんじゃニャい？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0196", 100>
+\\@TEXT_ID@<540>
+Neco_Arc
+たとえば、
+誰よりも先に行動していたヤツとか。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0197", 100>
+\\@TEXT_ID@<550>
+Neco_Arc
+都古クンと同じように、
+朝から像を探しているヤツはいなかった？
+
+\\@CHARA_SET_PATTERN@<5, 50>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0141", 100>
+\\@TEXT_ID@<560>
+Miyako
+―――あ。
+
+
+
+\\@CHARA_IN@< 0, 3, 905, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0445", 100>
+\\@TEXT_ID@<570>
+Shiki
+―――まさか―――
+っ！
+
+\\@BGM_PLAY@<0, 74, 50>
+\\@FADE_OUT@<0, 0, 0, 0, 1>
+\aw
+
+\\@CHARA_CLEAR@<1>
+
+// 全キャラ一回消す
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>
+
+
+\\@NPC_LOAD_SYNC@<10, 95, 0, 0, 0>//GCV
+\\@CHARA_SET_PATTERN@<10, 0>
+
+\\@CHARA_IN@< 0, 3, 405, 0, 1>
+
+\w<10>
+
+\\@FADE_IN@<0, 0, 0, 0, 1>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, 3, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 69>
+\w<30>
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\\@SQ_CALL@<1>
+
+\\@GO_SUB@<"QUAKE_2">
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Clank", 0, 75>
+\\@CHARA_SET_PATTERN@<4, 60>
+\aw
+
+
+\\@NPC_LOAD_SYNC@<5, 3, 250, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 8>
+
+\\@CHARA_IN@< 1, 3, 423, 12, 0>
+\aw
+
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 423, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0000", 100>
+\\@TEXT_ID@<580>
+C_Shiki
+しまった、しくじった。
+やりづらいもんだな、自分相手の奇襲って。
+
+
+\\@FADE_OUT@<0, 0, 0, 0, 1>
+\aw
+
+\\@NPC_LOAD_SYNC@<10, -1, 0, 0, 0>//背景消す
+
+\\@NPC_LOAD_SYNC@<5, 13, -320, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@NPC_LOAD_SYNC@<6, 19, -160, 0, 0>
+\\@CHARA_SET_PATTERN@<6, 0>
+
+\\@NPC_LOAD_SYNC@<7, 11, 320, 0, 1>
+\\@CHARA_SET_PATTERN@<7, 0>
+
+
+\\@NPC_LOAD_SYNC@<4, 3, -30, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 280>
+
+\\@NPC_LOAD_SYNC@<8, 3, 30, 0, 1>
+\\@CHARA_SET_PATTERN@<8, 280>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\\@BG_OUT@<0, 2>
+
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+\\@CHARA_IN@< 1, 11, 1, 0, 1>
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0142", 100>
+\\@TEXT_ID@<590>
+Miyako
+マーマ先輩！
+
+
+
+\\@CHARA_SET_PATTERN@<7, 60>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0244", 100>
+\\@TEXT_ID@<600>
+Ciel
+シスター先輩、ですよ都古さん。
+気づかれてしまうとは残念です。
+\l
+
+
+
+\\@CHARA_SET_PATTERN@<7, 61>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0245", 100>
+\\@TEXT_ID@<610>
+Ciel
+手荒なマネはしたくありませんので、
+どうかそのまま、抵抗などしないように。
+\l
+
+\\@CHARA_SET_PATTERN@<7, 62>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0246", 100>
+\\@TEXT_ID@<620>
+Ciel
+あ、そちらの遠野くんも
+大人しくしてもらえますか？
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0247", 100>
+\\@TEXT_ID@<630>
+Ciel
+沢山のルート分岐のお仕置きにしても、
+その体で踏み潰されたくはないでしょう？
+
+
+
+\\@BGM_STOP@<0>
+\e
+

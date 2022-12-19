@@ -16,7 +16,7 @@
 \\@CHARA_MUKI@<0,0>
 \aw
 
-\\@BGM_PLAY@<0, 72, 100>
+\\@BGM_PLAY@<0, 72, 50>
 
 \\@SYSTEM@<101>
 
@@ -92,7 +92,7 @@ Miyako
 \\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
 \\@SYSTEM@<100>
 
-\\@BGM_FADE@<0, 100, 0, 60, 1>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
 
 \\@CHARA_OUT@< 0, 13, -1, 0, 0>
 \aw
@@ -102,7 +102,7 @@ Miyako
 
 // \\@BG_IN@<"ed_bg00", 0, 0>
 
-\\@BGM_PLAY@<0, 71, 100>
+\\@BGM_PLAY@<0, 71, 50>
 
 \\@CHARA_IN@<1, 3, 12, 2, 0>
 \aw
@@ -197,7 +197,7 @@ Miyako
 っ…………！
 \l
 
-\\@BGM_FADE@<0, 100, 0, 60, 1>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
 // \\@FADE_OUT@<2,0,0,0,0>
 // \\@BG_OUT@<0,0>
 // \aw
@@ -209,7 +209,7 @@ Miyako
 \\@CHARA_SET_MVNAME@<4, "FadeIn">//miyako
 \\@CHARA_SET_PATTERN@<4, 0>//miyako
 
-\\@BGM_PLAY@<0, 72, 100>
+\\@BGM_PLAY@<0, 72, 50>
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy05_0012", 100>
 \\@TEXT_ID@<180>
 Miyako
@@ -345,7 +345,7 @@ Miyako
 \\@CHARA_SET_PATTERN@<4, 8>//miyako 行くぞ！
 \\@CHARA_IN@< 0, 13, -1, 52, 20>
 \\@CHARA_MUKI@<0,0>
-\\@SE_PLAY@<0, "talk/talk_se/Hit_PunchC", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Hit_PunchC", 0, 75>
 \\@GO_SUB@<"QUAKE_1">
 \w<10>
 \\@CHARA_IN@< 0, 13, -1, 50, 20>

@@ -59,7 +59,7 @@ function Talk::Call(call_no)
 	print( format( "\nCall Call:%d", call_no ) );
 
 
-	local prio = 400; // 全体プライオリティ
+	local prio = 460; // 全体プライオリティ
 
 	local p = Talk;
 	local fnc = tPAni;

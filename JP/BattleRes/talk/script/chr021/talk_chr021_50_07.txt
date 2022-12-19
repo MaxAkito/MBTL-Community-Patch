@@ -1,0 +1,267 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<11>//背景　遠野邸ロビー_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 63, 50>
+
+\\@NPC_LOAD_SYNC@<4, 21, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">//ushi
+\\@CHARA_SET_PATTERN@<4, 20>//ushi
+
+\\@CHARA_IN@<0, 21, 10, 1, 0>
+\aw
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 21, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0090", 100>
+\\@TEXT_ID@<10>
+Ushiwaka
+ここが都古殿の言っていた洋館か。
+確かに並々ならぬ圧を感じる。
+\l
+
+
+
+\\@CHARA_IN@< 0, 21, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0091", 100>
+\\@TEXT_ID@<20>
+Ushiwaka
+とはいえ《厭魅＜えんみ＞の類でなし。
+《深山幽谷＜しんざんゆうこく＞に《坐＜ま＞します《物精＜もの＞の《気＜け＞のような……。
+\l
+
+\\@CHARA_IN@< 0, 21, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0092", 100>
+\\@TEXT_ID@<30>
+Ushiwaka
+ふ。これは大当たりだ。
+師匠に勝るとも劣らぬ大物とみた！
+\l
+
+\\@CHARA_IN@< 0, 21, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0093", 100>
+\\@TEXT_ID@<40>
+Ushiwaka
+たのもー！
+この館で一番の《兵＜つわもの＞を出していただこう！
+
+
+\\@NPC_LOAD_SYNC@<6, 2, 200, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 90>
+
+\\@NPC_LOAD_SYNC@<5, 4, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@CHARA_IN@<1, 2, 4, 2, 0>
+\aw
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0250", 100>
+\\@TEXT_ID@<50>
+Akiha
+誰ですか、休日の朝から堂々と。
+\l
+
+
+\\@CHARA_IN@<1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0251", 100>
+\\@TEXT_ID@<60>
+Akiha
+当家は確かに植物園、プール、温泉、テニス場、と
+取り揃えていますが、道場はありま―――
+\l
+
+\\@SYSTEM@<132>
+\\@CHARA_SET_PATTERN@<6, 101>
+\\@CHARA_IN@<1, 2, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0252", 100>
+\\@TEXT_ID@<70>
+Akiha
+（この方、服……ああいう着こなしなのかしら。
+　いえ、さすがにそれはね。武者でもあるまいし）
+\l
+
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<6, 106>
+\\@CHARA_IN@<1, 2, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0253", 100>
+\\@TEXT_ID@<80>
+Akiha
+―――その、嵐にでも遭ったのですか？
+ああ、それでやむを得ず門を叩いたと。
+\l
+
+
+\\@CHARA_IN@<1, 2, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0254", 100>
+\\@TEXT_ID@<90>
+Akiha
+助けを求めてきた方を追い返す訳にはいきませんね。
+琥珀。すぐに替えの洋服を。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0255", 100>
+\\@TEXT_ID@<100>
+Akiha
+あのままでは風邪を引いてしまいます。
+
+\\@CHARA_SET_PATTERN@<4, 21>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 21, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0094", 100>
+\\@TEXT_ID@<110>
+Ushiwaka
+心配ご無用。この牛若、幼少の頃より
+この出で立ちで野山を駆けておりますれば。
+\l
+
+\\@CHARA_IN@< 0, 21, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0095", 100>
+\\@TEXT_ID@<120>
+Ushiwaka
+病に倒れた事など一度もありません。
+倒れたるは空腹と、弁慶の説教のみ。
+
+\\@CHARA_SET_PATTERN@<6, 101>
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 2, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0256", 100>
+\\@TEXT_ID@<130>
+Akiha
+お、幼い頃からそういった服装でしたか。
+それは……はい、失礼しました。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 106>
+\\@CHARA_IN@<1, 2, 18, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0257", 100>
+\\@TEXT_ID@<140>
+Akiha
+服装はどうあれ、
+貴女が貴人である事は分かります。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0258", 100>
+\\@TEXT_ID@<150>
+Akiha
+個人の趣味ですものね、他人である私が
+とやかく言う権利は―――
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@CHARA_SET_PATTERN@<5, 11>
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0150", 100>
+\\@TEXT_ID@<160>
+Kohaku
+秋葉さま秋葉さま。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0151", 100>
+\\@TEXT_ID@<170>
+Kohaku
+あの方のファッション、健康な男子高校生には
+いささか目の毒ではありませんか？
+
+\w<30>
+
+\\@BGM_PLAY@<0, 65, 50>
+
+\\@CHARA_SET_PATTERN@<6, 8>
+\\@CHARA_IN@<1, 2, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0259", 100>
+\\@TEXT_ID@<180>
+Akiha
+即刻に注意、そして指導させていただきます。
+当家では『タイトなタイツに鎧』は通例にありませんので。
+\l
+
+
+// クロスフェードで立ち絵変化
+\\@CHARA_OUT@<1, 2, 3, 0, 1>
+\\@CHARA_IN@<2, 2, 105, 12, 0>
+\aw
+
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0260", 100>
+\\@TEXT_ID@<190>
+Akiha
+何処のどなたかは存じませんが
+例外は許しません。もっとも―――
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 20>//akiha　超怒り
+// クロスフェードで立ち絵変化
+\\@CHARA_OUT@<2, 2, 105, 0, 1>
+\\@CHARA_IN@<1, 2, 106, 12, 0>
+\aw
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0261", 100>
+\\@TEXT_ID@<200>
+Akiha
+私の視界にいる以上、運命は決まっていますが。
+
+
+\\@CHARA_SET_PATTERN@<4, 10>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 21, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0096", 100>
+\\@TEXT_ID@<210>
+Ushiwaka
+っ、肌に焼けるような痛みだと……！？
+\l
+
+
+\\@CHARA_IN@< 0, 21, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0097", 100>
+\\@TEXT_ID@<220>
+Ushiwaka
+魔術、巫術の素振りはなかった。
+今のは純粋な生態機能によるものだ。
+\l
+
+\\@CHARA_IN@< 0, 21, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0098", 100>
+\\@TEXT_ID@<230>
+Ushiwaka
+となれば《神體＜がんたい＞か、混血か。
+確かに並の●＜もの＞ではないようだな！
+\l
+
+\\@CHARA_IN@< 0, 21, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0099", 100>
+\\@TEXT_ID@<240>
+Ushiwaka
+なぜ怒ったのかは不可思議だが、
+●＜その気＞になったのは有り難い。
+\l
+
+
+\\@CHARA_IN@< 0, 21, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0100", 100>
+\\@TEXT_ID@<250>
+Ushiwaka
+並の遊びは飽きたところ、
+これよりは紙一重のせめぎ合い。
+\l
+
+\\@CHARA_IN@< 0, 21, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "21Usw/Usw09_0101", 100>
+\\@TEXT_ID@<260>
+Ushiwaka
+いざ、生粋の鬼退治！
+総耶観光、これにて決着といたしましょう！
+
+
+
+\\@BGM_STOP@<0>
+\e
+

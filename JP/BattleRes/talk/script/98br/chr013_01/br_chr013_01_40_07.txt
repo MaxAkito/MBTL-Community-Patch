@@ -1,0 +1,161 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<8>//背景　遠野邸外観_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 62, 50>//ほのぼのとした日常系BGM
+
+\\@NPC_LOAD_SYNC@<5, 13, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 200>
+
+\\@NPC_LOAD_SYNC@<6, 2, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 90>
+
+\\@NPC_LOAD_SYNC@<7, 4, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 0>
+
+\\@NPC_LOAD_SYNC@<8, 1, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<8, "FadeIn">
+\\@CHARA_SET_PATTERN@<8, 0>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 0, 13, 0, 1, 0>
+\\@CHARA_IN@< 1, 1, 103, 2, 0>
+\aw
+
+
+\\@CHARA_SET_PATTERN@<8, 2>
+\\@CHARA_IN@< 1, 1, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0070", 100>
+\\@TEXT_ID@<10>
+Hisui
+勝負はここまでですね。
+素直で、とてもまっすぐな一撃でした。
+\l
+
+\\@NPC_LOAD_SYNC@<11, 3, 255, -241, 1>
+\\@CHARA_SET_PATTERN@<11, 270>
+
+\\@CHARA_SET_PATTERN@<8, 100>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0071", 100>
+\\@TEXT_ID@<20>
+Hisui
+こちらをどうぞ。私の全力に応えていただき、
+ありがとうございました。
+
+
+\\@NPC_LOAD_SYNC@<11, -1, 255, -241, 0>
+\\@CHARA_SET_PATTERN@<8, 99>
+
+\\@CHARA_SET_PATTERN@<5, 201>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0110", 100>
+\\@TEXT_ID@<30>
+Miyako
+わたしの方こそ、ありがとうございました！
+必ずお兄ちゃんを元に戻しますね！
+
+
+\\@CHARA_SET_PATTERN@<7, 7>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0070", 100>
+\\@TEXT_ID@<40>
+Kohaku
+翡翠ちゃん、お疲れさま。
+それでは、次は私の番ですね！
+\l
+
+\\@CHARA_SET_PATTERN@<7, 3>
+\\@CHARA_IN@< 1, 4, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0071", 100>
+\\@TEXT_ID@<50>
+Kohaku
+戦いは不得手ですが、志貴さんの為でしたら
+この琥珀、栄養剤マシマシで挑みますとも！
+
+\\@CHARA_SET_PATTERN@<8, 8>
+\\@CHARA_IN@< 1, 1, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "01His/His09_0072", 100>
+\\@TEXT_ID@<60>
+Hisui
+姉さん、そこは控え目に。
+都古さまも志貴さまのために戦っていますので。
+
+\\@CHARA_SET_PATTERN@<7, 9>
+\\@CHARA_IN@< 1, 4, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0072", 100>
+\\@TEXT_ID@<70>
+Kohaku
+おっと、そうでした。むむ。
+もしや、どっちが勝っても良い戦いですか？
+\l
+
+\\@CHARA_SET_PATTERN@<7, 11>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0073", 100>
+\\@TEXT_ID@<80>
+Kohaku
+都古さまが勝っても志貴さんは元通り。
+わたしたちが勝っても別に悪用はしないので―――
+
+\\@CHARA_SET_PATTERN@<6, 4>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0180", 100>
+\\@TEXT_ID@<90>
+Akiha
+琥珀。
+
+
+\\@CHARA_SET_PATTERN@<7, 18>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 4, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0074", 100>
+\\@TEXT_ID@<100>
+Kohaku
+失礼、戦いましょう！
+秋葉さまのお気持ちを無下にはできません☆
+\l
+
+\\@CHARA_IN@< 1, 4, 106, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0075", 100>
+\\@TEXT_ID@<110>
+Kohaku
+志貴さんを賭けての戦いなど不埒千万、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0076", 100>
+\\@TEXT_ID@<120>
+Kohaku
+侍女精神に反すること
+ダイエット中の餡子の如しですが……
+\l
+
+\\@CHARA_IN@< 1, 4, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0077", 100>
+\\@TEXT_ID@<130>
+Kohaku
+僭越ながら、わたしもヒロイン候補として
+本音を出してみようかと！
+\l
+
+\\@CHARA_SET_PATTERN@<7, 3>
+\\@CHARA_IN@< 1, 4, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh09_0078", 100>
+\\@TEXT_ID@<140>
+Kohaku
+準備はよろしいですか都古さま。
+今日の仕込み箒、星五つ級の切れ味です！
+
+\\@BGM_STOP@<0>
+\e

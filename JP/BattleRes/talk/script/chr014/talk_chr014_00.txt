@@ -1,7 +1,6 @@
 \\@SYSTEM@<9999>
 \\@LOAD_BATTLE_BG@<9>
 \\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
-// \\@BG_IN@<"screen_bg09", 0, 2>
 
 \\@SYSTEM@<0>
 // \\@SYSTEM@<1>
@@ -15,7 +14,7 @@
 \\@CHARA_MUKI@<1,0>
 \aw
 
-\\@BGM_PLAY@<0, 78, 100>
+\\@BGM_PLAY@<0, 78, 50>
 
 \\@SYSTEM@<101>
 
@@ -27,9 +26,6 @@ Dead_Noel
 ……いたい……いたい……
 \l
 
-/*-comment-
-寝起き
-*/
 
 \\@CHARA_IN@<1, 14, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0001", 100>
@@ -65,9 +61,6 @@ Dead_Noel
 そうだった、そうだった！
 \l
 
-/*-comment-
-愕然喜び（ひきつり笑いでも）
-*/
 
 \\@CHARA_SET_PATTERN@<4, 3>//dnoel
 
@@ -79,9 +72,6 @@ Dead_Noel
 すごい、なにこれ笑い止まんない！
 \l
 
-/*-comment-
-高笑い
-*/
 
 \\@CHARA_IN@<0, 14, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0005", 100>
@@ -109,9 +99,6 @@ Dead_Noel
 ズルいズルい、吸血鬼ってズルすぎない！？
 \l
 
-/*-comment-
-そんな吸血鬼になったわたし、サイコー！　ヤッター！　くらいのテンション
-*/
 
 \\@CHARA_FACE@<0,9,10,325>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0008", 100>
@@ -131,9 +118,6 @@ Dead_Noel
 そうと分かれば実験、実験。
 \l
 
-/*-comment-
-ニヤリ
-*/
 
 \\@CHARA_IN@<0, 14, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0010", 100>
@@ -143,9 +127,6 @@ Dead_Noel
 とりま栄養補給と、愛らしい身体のチェック？
 \l
 
-/*-comment-
-自分がどこまでできるかチェックするのが先よね？　くらいの自己確認。
-*/
 
 \\@CHARA_SET_PATTERN@<4, 7>//dnoel
 
@@ -157,9 +138,7 @@ Dead_Noel
 わたし、いったい何ができるんだろう！
 \l
 
-/*-comment-
-無垢うっとり
-*/
+
 
 \\@BGM_STOP@<0>
 \e

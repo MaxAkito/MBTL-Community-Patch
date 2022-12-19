@@ -1,0 +1,191 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<33>// 背景　都古の部屋
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\\@NPC_CHARA_SHADOW@<1>// シンプルな影
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 64, 50>//ギャグっぽいコミカルで陽気なBGM
+
+\\@NPC_LOAD_SYNC@<4, 13, -160, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 140>
+
+\\@NPC_LOAD_SYNC@<5, 19, 160, 0, 1>
+\\@CHARA_SET_PATTERN@<5, 95>
+
+\\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//カメラ完全固定
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 0, 13, 0, 1, 0>
+\\@CHARA_IN@< 1, 19, 113, 2, 0>
+\aw
+
+
+\\@CHARA_IN@< 1, 19, 113, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0165", 100>
+\\@TEXT_ID@<290>
+Neco_Arc
+ぼわぁぁぁ～～～～！！！！
+回収一体目から《再起不能＜リタイヤ＞級のダメージかよーーー！
+
+
+\\@CHARA_OUT@< 1, -1, -1, 2, 0>
+\aw
+
+
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_StarTwinkle", 0, 75>
+
+\\@BG_IN@<"dummy_dlc4_event_aozora_flash", 0, 2>
+\aw
+
+\\@CHARA_SET_PATTERN@<4, 5>
+\\@NPC_LOAD_SYNC@<5, -1, 160, 0, 1>
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\w<30>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 13, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0021", 100>
+\\@TEXT_ID@<300>
+Miyako
+……決まった……決まりすぎた……。
+グッバイ、バカネコ。火星に行ってて。
+
+
+\\@BGM_PLAY@<1, 62, 50>//ほのぼのとした日常系BGM
+
+\\@CHARA_SET_PATTERN@<4, 11>
+\\@CHARA_IN@< 0, 13, 19, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0022", 100>
+\\@TEXT_ID@<310>
+Miyako
+……と。よく分からないけど、
+とつぜんの悪はほろびたので……
+
+
+\\@CHARA_SET_PATTERN@<4, 193>
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0023", 100>
+\\@TEXT_ID@<320>
+Miyako
+気を取り直して、もういちど……
+ごほうび、いただきますっ……！
+
+
+\\@CHARA_IN@< 0, 13, 21, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0024", 100>
+\\@TEXT_ID@<330>
+Miyako
+てへへ。照れくさいけど、
+これからもよろしくね、お兄ちゃん！
+
+\\@CHARA_SET_PATTERN@<4, 243>
+\w<60>
+
+\\@BGM_FADE@<1, -1, 0, 60, 1>
+
+// ピカっと光る
+\\@NPC_LOAD_SYNC@<9, 93, -160, 0, 0>
+\\@CHARA_SET_PATTERN@<9, 17>
+
+\\@CHARA_SET_PATTERN@<4, 244>
+\\@CHARA_IN@< 0, 13, 12, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0025", 100>
+\\@TEXT_ID@<340>
+Miyako
+へ？
+
+
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Glitter", 0, 75>
+\\@FADE_OUT@<0, 255, 255, 255, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>//一旦消す
+\\@NPC_LOAD_SYNC@<9, -1, 0, 0, 0>
+
+\\@NPC_LOAD_SYNC@<6, 94, 0, 0, 0>
+\\@CHARA_SET_PATTERN@<6, 0>
+
+\\@NPC_LOAD_SYNC@<5, 3, 0, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 38>
+
+\\@CHARA_IN@< 1, 3, 22, 12, 0>
+\aw
+
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\aw
+
+\\@BGM_PLAY@<0, 64, 50>//ギャグっぽいコミカルで陽気なBGM
+
+\\@CHARA_SET_PATTERN@<4, 3>
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0026", 100>
+\\@TEXT_ID@<350>
+Miyako
+―――うそ。
+お兄ちゃんが、お兄ちゃんに―――
+
+
+\\@CHARA_SET_PATTERN@<5, 28>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0340", 100>
+\\@TEXT_ID@<360>
+Shiki
+……ふう。ずっとあのままかと思った。
+
+\\@CHARA_SET_PATTERN@<5, 29>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0341", 100>
+\\@TEXT_ID@<370>
+Shiki
+助かったよ、ありがとう都古ちゃん。
+都古ちゃんのおかげで元に戻れたみたいだ。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0027", 100>
+\\@TEXT_ID@<380>
+Miyako
+はい、それはどういたしまして、だけど……
+
+
+\\@CHARA_SET_PATTERN@<6, 1>//ぼかし解除
+\w<60>
+
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\\@CHARA_IN@< 1, 3, 501, 0, 1>
+
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>//ぼかし背景消す
+
+\\@NPC_LOAD_SYNC@<4, 13, -160, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 3>
+
+\\@NPC_LOAD_SYNC@<5, -2, 0, 0, 1>
+// \\@CHARA_SET_PATTERN@<5, 200>
+\\@CHARA_SET_PATTERN@<5, 281>
+\aw
+
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0028", 100>
+\\@TEXT_ID@<390>
+Miyako
+……あの。
+すっごく、ちっちゃい……ですよね？
+
+\\@SYSTEM@<102>
+// \\@CHARA_SET_PATTERN@<5, 201>
+\\@CHARA_IN@< 1, 3, 525, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0342", 100>
+\\@TEXT_ID@<400>
+Shiki
+うん。まあ、そうだよなぁ……。
+
+
+\\@BGM_STOP@<0>
+\e
+

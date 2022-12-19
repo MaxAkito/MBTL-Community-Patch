@@ -1,0 +1,492 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<15>//背景　草原_昼
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+\\@NPC_LOAD_SYNC@<5, 13, -160, 0, 0>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@NPC_LOAD_SYNC@<4, 3, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 280>
+
+\\@NPC_LOAD_SYNC@<6, 11, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 0>
+
+\\@SYSTEM@<100>
+\\@CHARA_IN@< 0, 13, 0, 1, 0>
+\\@CHARA_IN@< 1, 11, 6, 2, 0>
+\aw
+
+
+\\@BGM_PLAY@<0, 75, 50>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 502, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0374", 100>
+\\@TEXT_ID@<520>
+Shiki
+前言撤回だ、都古ちゃんストップ！
+その人相手にこれ以上やると危ない。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0375", 100>
+\\@TEXT_ID@<530>
+Shiki
+手加減してくれてるようだし、話し合いをしよう！
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+
+\\@CHARA_SET_PATTERN@<6, 60>
+\\@SYSTEM@<132>
+\\@CHARA_IN@< 1, 11, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0155", 100>
+\\@TEXT_ID@<540>
+Ciel
+（やっぱり……！
+　見間違いではありませんでした……！）
+\l
+
+
+\\@BGM_PLAY@<1, 62, 50>//ほのぼのとした日常系BGM
+
+
+\\@CHARA_SET_PATTERN@<4, 281>
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<6, 61>
+\\@CHARA_IN@< 1, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0156", 100>
+\\@TEXT_ID@<550>
+Ciel
+こちらこそ失礼をしました。
+都古さん、と言うのですね。
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 62>
+\\@CHARA_IN@< 1, 11, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0157", 100>
+\\@TEXT_ID@<560>
+Ciel
+あ。もしや有間家の長女ですか？
+遠野くんの妹の。
+\l
+
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0158", 100>
+\\@TEXT_ID@<570>
+Ciel
+それなら味方ですね。こんにちは、お嬢さん。
+わたしはシエル。学校では遠野くんの先輩です。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0159", 100>
+\\@TEXT_ID@<580>
+Ciel
+目的は同じのようですが、いちおう、
+事情を聞かせていただけますか？
+
+\\@CHARA_SET_PATTERN@<5, 6>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0051", 100>
+\\@TEXT_ID@<590>
+Miyako
+そ、そうなんだ。お兄ちゃんの先輩なら、
+わたしにとっても大先輩です！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0052", 100>
+\\@TEXT_ID@<600>
+Miyako
+とっても強いし、素敵だし、優しそうだし、
+マー……いえ、シスター先輩と呼ばせてください！
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0160", 100>
+\\@TEXT_ID@<610>
+Ciel
+これはご丁寧に。
+いい妹さんのようで微笑ましいです、遠野くん。
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 22, 0, 1>
+\\@CHARA_FACE@<0, 22, 14, 400>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0053", 100>
+\\@TEXT_ID@<620>
+Miyako
+てへへ。わたし、いい妹だってお兄ちゃん！
+……お兄ちゃん？
+
+
+
+\\@CHARA_IN@< 0, 3, 504, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0376", 100>
+\\@TEXT_ID@<630>
+Shiki
+うん。都古ちゃんがいい子なのは同意するけど、
+それ以外はちょっと。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0377", 100>
+\\@TEXT_ID@<640>
+Shiki
+シエルさん、ですか？
+初めて見るけど、本当にうちの学校の上級生？
+
+
+\\@SYSTEM@<100>
+\\@CHARA_SET_PATTERN@<5, 50>
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+
+
+\\@CHARA_SET_PATTERN@<6, 71>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0161", 100>
+\\@TEXT_ID@<660>
+Ciel
+……はあ。
+なるほど、そういう事ですか。
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0162", 100>
+\\@TEXT_ID@<680>
+Ciel
+より状況を理解できましたが、さすがにヘコみます。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0163", 100>
+\\@TEXT_ID@<690>
+Ciel
+そっちの遠野くんは
+わたしと出会う前の遠野くんなんですね。
+\l
+
+\\@CHARA_IN@< 1, 11, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0164", 100>
+\\@TEXT_ID@<700>
+Ciel
+これがマルチバースというヤツですか……
+あのネコも厄介な事態を引き起こしてくれました。
+
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 504, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0378", 100>
+\\@TEXT_ID@<710>
+Shiki
+？？？
+
+\\@CHARA_SET_PATTERN@<5, 50>
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0054", 100>
+\\@TEXT_ID@<720>
+Miyako
+？？？
+
+\\@CHARA_SET_PATTERN@<6, 60>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0165", 100>
+\\@TEXT_ID@<730>
+Ciel
+貴方にとってわたしはまだ先輩ではない、
+という事です。でも……そうですね。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0166", 100>
+\\@TEXT_ID@<740>
+Ciel
+●＜あちら＞の妹さんの記憶はあるのでは？
+遠野秋葉さん。貴方の妹にあたる女性ですが。
+
+\\@CHARA_SET_PATTERN@<5, 1>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 23, 0, 1>
+\\@TEXT_ID@<750>
+Miyako
+…………。
+
+
+
+\\@CHARA_IN@< 0, 3, 502, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0379", 100>
+\\@TEXT_ID@<760>
+Shiki
+もちろん。血の繋がった妹なんですから。
+……７年間、顔を合わせていませんけど。
+
+\\@CHARA_SET_PATTERN@<5, 50>
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0055", 100>
+\\@TEXT_ID@<770>
+Miyako
+え。
+お兄ちゃん、それって、
+
+
+\\@CHARA_SET_PATTERN@<6, 62>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0167", 100>
+\\@TEXT_ID@<780>
+Ciel
+おかしいですが、
+おかしくはないんですよ都古さん。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0168", 100>
+\\@TEXT_ID@<790>
+Ciel
+大先輩として一言で説明するとですね。
+『そちらの遠野くんは遠野家に戻る前の彼である』
+\l
+
+\\@CHARA_IN@< 1, 11, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0169", 100>
+\\@TEXT_ID@<800>
+Ciel
+なので、わたしの事もまだ知らないのです。
+（必然、アルクェイドの事も知りません）
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 505, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0380", 100>
+\\@TEXT_ID@<810>
+Shiki
+あ、なるほど。
+分割した俺はそれぞれ状況が違うってコトですね。
+
+
+\\@CHARA_SET_PATTERN@<6, 62>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0170", 100>
+\\@TEXT_ID@<820>
+Ciel
+ふふ。相変わらずの理解力、嬉しいです。
+\l
+
+\\@CHARA_IN@< 1, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0171", 100>
+\\@TEXT_ID@<830>
+Ciel
+そちらの遠野くんは貴女を第一に考える遠野くん……
+つまり『有間都古のお兄ちゃん』です。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0172", 100>
+\\@TEXT_ID@<840>
+Ciel
+おそらく、分かれた遠野くんはそれぞれ
+『運命の相手』の元に飛んでいったのでしょう。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0173", 100>
+\\@TEXT_ID@<850>
+Ciel
+ひとつの運命に対してひとつの体。
+とても誠実です。
+\l
+
+\\@CHARA_IN@< 1, 11, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0174", 100>
+\\@TEXT_ID@<860>
+Ciel
+あ。でも、この場合は『愛が多い』と
+言うのかもしれません。あくまで個人の感想ですが。
+
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 511, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0381", 100>
+\\@TEXT_ID@<870>
+Shiki
+い、言わないんじゃないでしょうか。
+同時攻略じゃないんだし。
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0175", 100>
+\\@TEXT_ID@<880>
+Ciel
+ふふふ。
+そのお話はまた後で、ゆっくり。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 63>
+\\@CHARA_IN@< 1, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0176", 100>
+\\@TEXT_ID@<890>
+Ciel
+そちらの事情を聞かせていただけますか？
+実のところ、わたしもまだ五里霧中なんです。
+
+
+\\@SYSTEM@<200>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\w<30>
+
+\\@NPC_LOAD_SYNC@<4, -1, -160, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 273>
+\\@CHARA_SET_PATTERN@<6, 210>
+
+\\@CHARA_IN@< 0, 13, 8, 0, 1>
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@SYSTEM@<101>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0056", 100>
+\\@TEXT_ID@<900>
+Miyako
+……というワケなんです。
+朝起きたらお兄ちゃんがいて、
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0057", 100>
+\\@TEXT_ID@<910>
+Miyako
+バカネコがやってきて、
+他のクリスタル像を集めなきゃって。
+
+\\@CHARA_SET_PATTERN@<6, 60>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0177", 100>
+\\@TEXT_ID@<920>
+Ciel
+……そうでしたか。
+わたしより先に、あのネコに遭遇したのですね。
+\l
+
+
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0178", 100>
+\\@TEXT_ID@<930>
+Ciel
+ともあれ、目的は同じですね。
+わたしも遠野くんには元に戻ってほしい派です。
+\l
+
+
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0179", 100>
+\\@TEXT_ID@<940>
+Ciel
+この草原に飛んできたトオノクン像は
+都古さんにお任せします。
+\l
+
+\\@NPC_LOAD_SYNC@<11, 3, 173, -283, 1>
+\\@CHARA_SET_PATTERN@<11, 271>
+
+\\@CHARA_SET_PATTERN@<6, 255>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0180", 100>
+\\@TEXT_ID@<950>
+Ciel
+それと、こちらもどうぞ。
+わたしが拾ったものです。
+
+
+\\@CHARA_SET_PATTERN@<5, 285>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 14, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0058", 100>
+\\@TEXT_ID@<960>
+Miyako
+え……いいんですか？
+だってこのお兄ちゃんは、シスター先輩の……
+
+
+\\@NPC_LOAD_SYNC@<11, -1, 147, -283, 1>
+\\@CHARA_SET_PATTERN@<6, 62>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0181", 100>
+\\@TEXT_ID@<970>
+Ciel
+今の状況は健全ではありませんから。
+貴女に任せるのが一番の近道でしょう。
+
+
+\\@CHARA_SET_PATTERN@<5, 273>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0059", 100>
+\\@TEXT_ID@<980>
+Miyako
+あ、ありがとうございます！
+１＋２で、３つ目のお兄ちゃんゲットです！
+
+
+\\@CHARA_SET_PATTERN@<6, 60>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 9, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0182", 100>
+\\@TEXT_ID@<990>
+Ciel
+その言い方はどうかと思いますが……
+\l
+
+
+\\@CHARA_SET_PATTERN@<6, 61>
+\\@CHARA_IN@< 1, 11, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0183", 100>
+\\@TEXT_ID@<1000>
+Ciel
+問題はこの後ですね。
+少なくともあと二つ、わたしに心当たりがあります。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0184", 100>
+\\@TEXT_ID@<1010>
+Ciel
+二つ……いえ、ふたりに連絡を取るので、
+総耶に戻りましょう。
+\l
+
+\\@CHARA_IN@< 1, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0185", 100>
+\\@TEXT_ID@<1020>
+Ciel
+おそらく戦いになりますので、そのつもりで。
+話の通じる方たちではありませんので。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 504, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0382", 100>
+\\@TEXT_ID@<1030>
+Shiki
+？？？
+
+\\@CHARA_SET_PATTERN@<5, 272>
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0060", 100>
+\\@TEXT_ID@<1040>
+Miyako
+？？？
+
+
+\\@BGM_STOP@<1>
+\e
+

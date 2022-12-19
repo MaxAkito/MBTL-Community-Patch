@@ -1,0 +1,223 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<20>//背景　ビル屋上_夜
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+
+\\@NPC_LOAD_SYNC@<6, 22, -40, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "Mv_Call_BlackFramesMng_withFadeIn">
+\\@CHARA_SET_PATTERN@<6, 21>
+
+\\@NPC_LOAD_SYNC@<4, 11, -40, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 100>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 22, 0, 1, 0>
+\aw
+
+\\@BGM_PLAY@<0, 75, 50>
+\w<30>
+
+
+\\@CHARA_IN@<0, 22, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0040", 100>
+\\@TEXT_ID@<10>
+Edmond
+これは―――黒鍵での影縫いか。
+随分と時代がかった手を使う。
+\l
+
+
+\\@CHARA_IN@<0, 22, 5, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0041", 100>
+\\@TEXT_ID@<20>
+Edmond
+この街の惨状には似合わぬ凄腕だ。
+今まで何をしていた代行者。免罪符でも売っていたか？
+
+
+
+\\@CHARA_SET_MVNAME@<7, "CameraReset" >
+
+\\@NPC_LOAD_SYNC@<5, 16, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 1>
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<2, 16, 0, 2, 0>
+\aw
+
+\\@CHARA_IN@<2, 16, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0340", 100>
+\\@TEXT_ID@<30>
+Ciel
+《金＜きん＞で買える許しはありません。
+だいいち、この国では買う者はいませんよ。
+\l
+
+\\@CHARA_IN@<2, 16, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0341", 100>
+\\@TEXT_ID@<40>
+Ciel
+あきれ果てた状態、という点については同感ですが。
+私もひと月前に来たばかりです。
+
+\\@CHARA_SET_PATTERN@<6, 4>
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 22, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0042", 100>
+\\@TEXT_ID@<50>
+Edmond
+―――そうか。先ほどの言葉は取り消す。
+清貧の徒に聞かせるものではなかった。
+\l
+
+
+\\@CHARA_IN@<0, 22, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0043", 100>
+\\@TEXT_ID@<60>
+Edmond
+この街は救われるだろう。
+おまえのような女がいるのだからな。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0044", 100>
+\\@TEXT_ID@<70>
+Edmond
+俺はおまえの贖いを否定しない。
+おまえも俺の仕事を阻みはしない。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0045", 100>
+\\@TEXT_ID@<80>
+Edmond
+―――どうだ？
+互いに利のある取引だが。
+
+\\@CHARA_SET_PATTERN@<5, 17>
+\\@SYSTEM@<102>
+\\@CHARA_IN@<2, 16, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0342", 100>
+\\@TEXT_ID@<90>
+Ciel
+……残念ですが、それはできません。
+貴方が何者であれ、これ以上の跳梁は見過ごせない。
+\l
+
+\\@CHARA_IN@<2, 16, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0343", 100>
+\\@TEXT_ID@<100>
+Ciel
+その炎の中に主の威光を感じました。
+さぞ敬虔な信徒なのでしょう。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0344", 100>
+\\@TEXT_ID@<110>
+Ciel
+本来であれば弁明なく処断するところですが、
+その祈りに免じて、告解の機会を与えます。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 15>
+\\@CHARA_IN@<2, 16, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0345", 100>
+\\@TEXT_ID@<120>
+Ciel
+名乗りなさい、亡霊。
+洗礼を以て、貴方の苦しみを終わらせましょう。
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 22, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0046", 100>
+\\@TEXT_ID@<130>
+Edmond
+ク―――
+\l
+
+
+
+\\@CHARA_SET_PATTERN@<6, 10>
+\\@SYSTEM@<121>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0047", 100>
+\\@TEXT_ID@<140>
+Edmond
+クク、クハハハハハハハハハハ！
+\l
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 22, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0048", 100>
+\\@TEXT_ID@<150>
+Edmond
+さすがは鉄の女、恐れ入る！
+教えの為ではなく、俺の為に死の橋を渡るとは！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0049", 100>
+\\@TEXT_ID@<160>
+Edmond
+すべてをその手で失いながら、
+復讐に身を燃やす事なく、自らを薪とする。
+\l
+
+\\@CHARA_IN@<0, 22, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0050", 100>
+\\@TEXT_ID@<170>
+Edmond
+大したものだ。だが相手を間違えたな！
+\l
+
+\\@NPC_LOAD_SYNC@<4, 93, -325, 0, 0>//小物
+\\@SE_PLAY@<0, "talk/talk_se/Hit_BurningLong", 0, 75>
+\\@CHARA_SET_PATTERN@<4, 11>//炎
+
+\\@CHARA_SET_PATTERN@<6, 25>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0051", 100>
+\\@TEXT_ID@<180>
+Edmond
+天上への門は遠きに過ぎた。
+俺は恩讐の化身、アヴェンジャー！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0052", 100>
+\\@TEXT_ID@<190>
+Edmond
+燃やし尽くす事でのみ終息を与えるもの！
+俺との相性は最悪だぞ、代行者！
+
+
+
+\\@CHARA_SET_PATTERN@<5, 1>
+\\@SYSTEM@<102>
+\\@CHARA_IN@<2, 16, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0346", 100>
+\\@TEXT_ID@<200>
+Ciel
+―――そのようですね。
+その炎は第八秘蹟会のもの。罪の浄化に特化している。
+\l
+
+\\@CHARA_IN@<2, 16, 4, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0347", 100>
+\\@TEXT_ID@<210>
+Ciel
+ですが、それは●＜もう味わいました＞。
+その責め苦では私の《肉体＜からだ＞は崩れない。
+\l
+
+\\@CHARA_IN@<2, 16, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0348", 100>
+\\@TEXT_ID@<220>
+Ciel
+救世主の山を語る亡霊よ。
+いま、その巡礼を終わらせてあげましょう……！
+
+
+
+\\@BGM_STOP@<0>
+\e
+

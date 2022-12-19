@@ -1,0 +1,409 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+
+\\@NPC_LOAD_SYNC@<4, 19, 0, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 3>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 104, 1, 0>
+\aw
+
+\\@CHARA_IN@< 0, 19, 104, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0050", 100>
+\\@TEXT_ID@<10>
+Neco_Arc
+くっそう、３連敗かぁ。
+敵ながら脅威の主人公力。やるじゃん
+\l
+
+\\@CHARA_SET_PATTERN@<4, 13>
+\\@CHARA_IN@< 0, 19, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0051", 100>
+\\@TEXT_ID@<20>
+Neco_Arc
+ですが、それもここまで。立て続けの連戦で
+メガネの疲労もピークではありませんかな？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0052", 100>
+\\@TEXT_ID@<30>
+Neco_Arc
+そろそろ白旗をあげる頃っしょ。
+どれどれ、あっちの待合室は、っと……
+
+\\@CHARA_SET_PATTERN@<4, 135>
+\w<28>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+\\@CHARA_OUT@< 0, -1, -1, 0, 0>
+
+\\@SYSTEM@<100>
+
+
+\\@NPC_LOAD_SYNC@<4, 3, -200, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 90>
+
+\\@NPC_LOAD_SYNC@<5, 0, 0, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@NPC_LOAD_SYNC@<6, 11, 160, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "FadeIn">
+\\@CHARA_SET_PATTERN@<6, 0>
+
+\\@NPC_LOAD_SYNC@<7, 2, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<7, "FadeIn">
+\\@CHARA_SET_PATTERN@<7, 90>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+\\@BGM_PLAY@<0, 62, 50>//ほのぼのとした日常系BGM
+\\@LOAD_BATTLE_BG@<34>//背景　控室
+\aw
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_IN@< 0, 3, 0, 1, 0>
+\\@CHARA_IN@< 1, 11, 200, 2, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<6, 62>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 200, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0080", 100>
+\\@TEXT_ID@<40>
+Ciel
+ところで。
+振り返ってみて、一番の強敵は誰でしたか？
+
+
+\\@CHARA_SET_PATTERN@<4, 22>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0130", 100>
+\\@TEXT_ID@<50>
+Shiki
+それはマシュさん。
+一生懸命でまっすぐで、驚きました。
+\l
+
+\\@CHARA_IN@< 0, 3, 8, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0131", 100>
+\\@TEXT_ID@<60>
+Shiki
+先輩に似ていたから。
+そういう意味で、すごく戦いづらかった。
+
+\\@CHARA_SET_PATTERN@<4, 23>
+
+
+\\@SYSTEM@<100>
+\\@CHARA_SET_PATTERN@<6, 60>
+\\@CHARA_IN@< 1, 11, 204, 0, 1>
+\w<60>
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<7, 100>
+\\@CHARA_IN@< 1, 2, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak09_0050", 100>
+\\@TEXT_ID@<80>
+Akiha
+牛若丸さんは？
+速度では完全に兄さんを上回っていましたが。
+
+
+\\@CHARA_SET_PATTERN@<4, 27>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 10, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0132", 100>
+\\@TEXT_ID@<90>
+Shiki
+ああ、追いつくのが大変だった。
+攻撃も鋭かったしね。
+\l
+
+\\@CHARA_SET_PATTERN@<4, 22>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0133", 100>
+\\@TEXT_ID@<100>
+Shiki
+でも妹って手のかかるものだろ？
+これでも兄貴だからね。慣れてるよ。
+
+\\@CHARA_SET_PATTERN@<4, 23>
+\\@SYSTEM@<100>
+\\@CHARA_SET_PATTERN@<7, 157>
+\\@CHARA_IN@< 1, 2, 11, 0, 1>
+\w<60>
+
+
+\\@SYSTEM@<102>
+\\@CHARA_SET_PATTERN@<5, 114>
+\\@CHARA_IN@< 1, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0090", 100>
+\\@TEXT_ID@<120>
+Arcueid
+わたしは黒コートのダレデスーー！
+びゅんびゅん飛び回って親近感湧いちゃった！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0091", 100>
+\\@TEXT_ID@<130>
+Arcueid
+っていうか、わたしもアヴェンジャーだよね！
+殺した責任、これからもとってもらいまーす！
+
+\\@CHARA_SET_PATTERN@<4, 28>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 18, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0134", 100>
+\\@TEXT_ID@<140>
+Shiki
+はいはい、わかってるわかってる。
+帰りにファミレス寄るから、それで取りますよ。
+
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_OUT@< 0, -1, -1, 0, 0>
+\\@CHARA_OUT@< 1, -1, -1, 0, 0>
+
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+
+\\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<6, -1, 0, 0, 0>
+\\@NPC_LOAD_SYNC@<7, -1, 0, 0, 0>
+
+\\@NPC_LOAD_SYNC@<4, 19, 0, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 135>
+\aw
+
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+
+\\@CHARA_IN@< 0, 19, 105, 1, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<4, 4>
+\\@SYSTEM@<121>
+\\@CHARA_IN@< 0, 19, 105, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0053", 100>
+\\@TEXT_ID@<150>
+Neco_Arc
+くわーーーーー！
+もういい！　ピロートークはたくさんだ！
+\l
+
+\\@CHARA_IN@< 0, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0054", 100>
+\\@TEXT_ID@<160>
+Neco_Arc
+こうなったらアタシ自らが出る！
+あのギルティメガネに真の格闘技を教えてやんよ！
+
+
+\\@BGM_FADE@<0, -1, 0, -2, 1>
+\\@GO_SUB@<"SceneChange_OUT">
+
+// 画面暗転、ウエイトから
+\\@CHARA_CLEAR@<0>
+\aw
+
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+\aw
+
+//暗転させておく
+\\@NPC_LOAD_SYNC@<6, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "BG_AntenKeep">
+
+\\@NPC_LOAD_SYNC@<4, 3, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 18>
+
+\\@NPC_LOAD_SYNC@<5, 19, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 136>
+
+
+\\@BGM_PLAY@<0, 64, 50>//コミカルでちょっと怪しげなBGM
+
+\\@GO_SUB@<"SceneChange_IN">
+\\@SYSTEM@<100>
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0020", 100>
+\\@TEXT_ID@<170>
+Announce
+……この世界にやって来た時、
+ネコアルクさんはこう言いました。
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0021", 100>
+\\@TEXT_ID@<180>
+Announce
+『勝ち残るのはただひとり。
+　旧vs新　宿命の戦いを見せてやる』と。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0022", 100>
+\\@TEXT_ID@<190>
+Announce
+円卓の騎士として、
+わたしはその決意を見届けたいと思います。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0023", 100>
+\\@TEXT_ID@<200>
+Announce
+これは世界をかけた戦いである。
+これは尊厳をかけた戦いである。
+
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0024", 100>
+\\@TEXT_ID@<210>
+Announce
+そしてこれは、誰もが望む戦いである！
+
+
+\\@SYSTEM@<120>
+/*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas09_0025", 100>
+\\@TEXT_ID@<220>
+Announce
+会場に集まったネコの皆さん！
+お待たせしました！　いよいよ決勝戦です！
+
+\\@FADE_OUT@<0, 255, 255, 255, 1>
+//暗転終わり
+\\@NPC_LOAD_SYNC@<6, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<6, "BG_AntenOff">
+
+\\@CHARA_SET_PATTERN@<4, 3>
+\\@CHARA_SET_PATTERN@<5, 0>
+\aw
+\w<30>
+\\@FADE_IN@<0, 255, 255, 255, 0>
+\aw
+
+
+\\@CHARA_IN@< 0, 3, 3, 1, 0>
+\\@CHARA_IN@< 1, 19, 100, 2, 0>
+\aw
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0135", 100>
+\\@TEXT_ID@<230>
+Shiki
+覚悟はいいか。
+この後の用事もできたんで、速攻で終わらせるぞ。
+
+\\@CHARA_SET_PATTERN@<5, 44>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0055", 100>
+\\@TEXT_ID@<240>
+Neco_Arc
+おやおや、これだから足の長い主人公は。
+リーチの差だけで勝てる気でいらっしゃる？
+\l
+
+\\@CHARA_SET_PATTERN@<5, 45>
+\\@CHARA_IN@< 1, 19, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0056", 100>
+\\@TEXT_ID@<250>
+Neco_Arc
+まあ、実際大切だけどニャ、リーチ。
+リーチゼロのアタシが言うんだ、説得力しかねえ。
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 35>
+\\@CHARA_IN@< 1, 19, 102, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0057", 100>
+\\@TEXT_ID@<260>
+Neco_Arc
+だが！　アタシはもう以前のアタシではない！
+今までどんな強者も修得できなかった境地……
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0058", 100>
+\\@TEXT_ID@<270>
+Neco_Arc
+前人未踏の新技をひっさげてやってきた、
+シャイニング・キャットなンだ！
+
+\\@CHARA_SET_PATTERN@<4, 106>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 406, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0136", 100>
+\\@TEXT_ID@<280>
+Shiki
+なんだよ。また見かけだけの分身技か？
+ダメージ低くて《なにも＜コンボ＞繋がらないような。
+
+\\@CHARA_SET_PATTERN@<5, 0>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0059", 100>
+\\@TEXT_ID@<290>
+Neco_Arc
+いいえ。
+歩きながらの　ビーム掃射に　成功しました。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0060", 100>
+\\@TEXT_ID@<300>
+Neco_Arc
+シールド不可。ガード不可。
+しかも　にじり寄っていくという　悪夢です。
+
+\\@CHARA_SET_PATTERN@<4, 119>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 411, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0137", 100>
+\\@TEXT_ID@<310>
+Shiki
+…………マジで？
+
+\\@CHARA_SET_PATTERN@<5, 90>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 19, 101, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0061", 100>
+\\@TEXT_ID@<320>
+Neco_Arc
+ふはは、恐れおののけ《ＵＮＢＥＡＭ＜アンビーム＞！
+自分の命をもガリガリ削る新技で貴様を倒す！
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0062", 100>
+\\@TEXT_ID@<330>
+Neco_Arc
+コハッキーの悪知恵も、猫くんの力も借りぬ！
+アタシは新世代のネコ２７キャットのひとり、
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0063", 100>
+\\@TEXT_ID@<340>
+Neco_Arc
+ネコ呼んで『目覚まし閃光』のルミアルク！
+このビームが、次回作の表紙を勝ち取ると信じて！
+
+\\@BGM_STOP@<0>
+
+\e

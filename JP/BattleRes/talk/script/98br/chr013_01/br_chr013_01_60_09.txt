@@ -1,0 +1,311 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<24>//背景　グレートキャッツビレッジ
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\\@BGM_PLAY@<0, 74, 50>
+
+
+\\@NPC_LOAD_SYNC@<10, 95, 0, 0, 0>//GCV
+\\@CHARA_SET_PATTERN@<10, 0>
+
+\\@NPC_LOAD_SYNC@<7, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//カメラ完全固定
+
+\\@NPC_LOAD_SYNC@<4, 3, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 69>
+\w<30>
+\aw
+
+\\@SQ_CALL@<1>
+
+\\@GO_SUB@<"QUAKE_2">
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Clank", 0, 75>
+\\@CHARA_SET_PATTERN@<4, 60>
+\aw
+
+\\@NPC_LOAD_SYNC@<5, 3, 250, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 8>
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 0, 3, 402, 11, 0>
+\\@CHARA_IN@< 1, 3, 423, 12, 0>
+\aw
+
+
+\\@CHARA_IN@< 1, 3, 423, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0000", 100>
+\\@TEXT_ID@<770>
+C_Shiki
+しまった、しくじった。
+やりづらいもんだな、自分相手の奇襲って。
+
+
+\\@SYSTEM@<100>
+\\@CHARA_IN@< 0, 3, 405, 0, 1>
+\aw
+\w<30>
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 400, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0450", 100>
+\\@TEXT_ID@<780>
+Shiki
+そっか、あの人の方の俺か。
+そりゃ消しにかかるよな。邪魔だろうし。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0451", 100>
+\\@TEXT_ID@<790>
+Shiki
+他に動けるようになった俺がいても、
+どの志貴も等価だ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0452", 100>
+\\@TEXT_ID@<800>
+Shiki
+誰が残るべきか、どちらが上かは意味がない。
+運命なんて他と比べる事じゃない。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0453", 100>
+\\@TEXT_ID@<810>
+Shiki
+ただ自分を大切……じゃないな。
+自分●＜が＞大切なものを優先するべきだ。
+
+//メガネなし
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 409, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0036", 100>
+\\@TEXT_ID@<820>
+C_Shiki
+その通り。物わかりのいい俺で良かった。
+じゃ、ここであっさり消えてくれ。
+
+
+\\@CHARA_SET_PATTERN@<4, 103>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0454", 100>
+\\@TEXT_ID@<830>
+Shiki
+うーん、それはよくないんじゃない？
+ほら。肝心のふたり。
+\l
+
+
+\\@CHARA_SET_MVNAME@<7, "CameraZoomOut">//カメラ引く
+//都古
+\\@NPC_LOAD_SYNC@<9, 13, -900, -50, 0>
+\\@CHARA_SET_PATTERN@<9, 179>
+//シエル
+\\@NPC_LOAD_SYNC@<8, 16, 900, -50, 1>
+\\@CHARA_SET_PATTERN@<8, 24>
+\w<5>
+\\@CHARA_SET_MVNAME@<8, "CallSousaiEff">
+\\@CHARA_SET_PATTERN@<10, 2>//暗転背景 Paniで背景表示してるから力業で暗転した背景を表示
+\w<95>
+\\@CHARA_SET_MVNAME@<7, "CameraKeep">//カメラ戻す
+
+
+\\@CHARA_IN@< 0, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0455", 100>
+\\@TEXT_ID@<840>
+Shiki
+ここで俺たちが殺し合っても悲しませるだけだしね。
+運命だって言うなら、最後まで付き合わない？
+
+//メガネなし
+
+\\@CHARA_SET_PATTERN@<5, 104>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 3, 406, 0, 1>
+\\@CHARA_FACE@<1,406,410,340>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0037", 100>
+\\@TEXT_ID@<850>
+C_Shiki
+……くそ。一度懲りてる分、反論できない。
+おまえの言う通りだ。
+\l
+
+\\@CHARA_IN@< 1, 3, 423, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0038", 100>
+\\@TEXT_ID@<860>
+C_Shiki
+あーあ。先輩がもっと身勝手なひとだったら、
+１７人のバトルロイヤルって道もあったのになぁ。
+
+
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@SYSTEM@<200>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@NPC_LOAD_SYNC@<10, -1, 0, 0, 0>//背景消す
+
+\\@NPC_LOAD_SYNC@<5, 13, -320, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@NPC_LOAD_SYNC@<6, 19, -160, 0, 0>
+\\@CHARA_SET_PATTERN@<6, 0>
+
+\\@NPC_LOAD_SYNC@<9, 11, 320, 0, 1>
+\\@CHARA_SET_PATTERN@<9, 210>
+
+
+\\@NPC_LOAD_SYNC@<4, 3, -230, 0, 0>
+\\@CHARA_SET_PATTERN@<4, 281>
+
+\\@NPC_LOAD_SYNC@<8, 3, 260, 0, 1>
+\\@CHARA_SET_PATTERN@<8, 281>
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 0, 13, 3, 0, 1>
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+
+// 画面切り替え
+
+\\@BGM_PLAY@<0, 63, 50>//落ち着いた日常系BGM
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0286", 100>
+\\@TEXT_ID@<870>
+Ciel
+参りました。
+勝負は貴女の勝ちです、都古さん。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0287", 100>
+\\@TEXT_ID@<880>
+Ciel
+この事件を解決に導く役目、貴女にお譲りします。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0288", 100>
+\\@TEXT_ID@<890>
+Ciel
+それでいいですね、遠野くん？
+貴方の先輩なのに、負けてしまってごめんなさい。
+
+
+//メガネなし
+
+\\@NPC_LOAD_SYNC@<8, -2, 260, 0, 0>
+\\@CHARA_IN@< 1, 3, 918, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0039", 100>
+\\@TEXT_ID@<900>
+C_Shiki
+いいです、そんなの。
+先輩がそういうひとだって分かってましたから。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0040", 100>
+\\@TEXT_ID@<910>
+C_Shiki
+というか、焚きつけた俺が悪いんです。
+先輩は振り回されただけですよ。
+
+\\@CHARA_SET_PATTERN@<9, 14>
+\\@CHARA_IN@< 1, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0289", 100>
+\\@TEXT_ID@<920>
+Ciel
+そんな事はありません。
+わたしも本気で、悪いコト、考えてしまいました。
+\l
+
+\\@CHARA_IN@< 1, 11, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0290", 100>
+\\@TEXT_ID@<930>
+Ciel
+あ、でもここで像に戻る、とかナシですよ。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0291", 100>
+\\@TEXT_ID@<940>
+Ciel
+わたしを悪の道に誘惑した以上、
+最後まで一緒にいてくださいね。
+
+//メガネなし
+
+\\@CHARA_IN@< 1, 3, 908, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Csk09_0041", 100>
+\\@TEXT_ID@<950>
+C_Shiki
+―――はい。
+俺でよければ、喜んで。
+
+
+// Ｃ志貴、シエルの肩に乗る
+\\@CHARA_SET_PATTERN@<9, 220>
+\\@NPC_LOAD_SYNC@<8, -1, 280, 0, 0>
+
+
+
+\\@CHARA_SET_PATTERN@<5, 50>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 13, 7, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy09_0154", 100>
+\\@TEXT_ID@<960>
+Miyako
+え、えーっと……
+つまり、どういうコトなのでしょう！？
+
+
+
+\\@CHARA_IN@< 0, 3, 901, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0456", 100>
+\\@TEXT_ID@<970>
+Shiki
+あっちもあのまま、
+あともう少し同行するってコト。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0457", 100>
+\\@TEXT_ID@<980>
+Shiki
+最後のひとつが何処にあるのか、
+あの人は分かってるみたいだしね。
+
+\\@CHARA_SET_PATTERN@<9, 219>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 11, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0292", 100>
+\\@TEXT_ID@<990>
+Ciel
+ええ、すぐに案内します。
+アナタもですよ、ネコ型生物。
+\l
+
+\\@CHARA_SET_PATTERN@<6, 39>
+
+
+
+\\@CHARA_IN@< 1, 11, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "11Cie/Cie09_0293", 100>
+\\@TEXT_ID@<1000>
+Ciel
+最後のトオノクン像はあの場所―――
+遠野邸にある筈です。
+
+
+
+\\@BGM_STOP@<0>
+\e
+

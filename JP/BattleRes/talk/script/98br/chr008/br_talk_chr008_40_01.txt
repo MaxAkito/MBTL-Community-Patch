@@ -11,7 +11,7 @@
 \\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
 \\@CHARA_SET_PATTERN@<4, 110>//手紙手に持つ
 
-\\@BGM_PLAY@<0, 72, 100>
+\\@BGM_PLAY@<0, 72, 50>
 
 
 \\@SYSTEM@<101>
@@ -175,7 +175,7 @@ Noel
 あんな安アパートじゃ威厳も何もないわ！
 \l
 
-\\@SE_PLAY@<1, "talk/talk_se/Cmn_Driving", 1, 100>
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_Driving", 1, 75>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "08Noe/Noe08_0017", 100>
 \\@TEXT_ID@<180>
@@ -208,7 +208,7 @@ Noel
 \\@QUAKE@<0>//揺れ停止
 \\@BGM_FADE@<0, -1, 0, 30, 1>
 \\@SE_STOP@<1>
-\\@SE_PLAY@<0, "talk/talk_se/Cmn_Braking", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Braking", 0, 75>
 
 
 \\@CHARA_SET_MVNAME@< 4, "CameraUp" >
@@ -270,7 +270,7 @@ Shiki_Hatena
 \\@FADE_IN@<2, 0, 0, 0, 0>
 \aw
 
-\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_PLAY@<0, 74, 50>
 \\@CHARA_IN@<1, 3, 3, 2, 0>
 \aw
 

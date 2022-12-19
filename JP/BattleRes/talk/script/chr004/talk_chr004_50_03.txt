@@ -7,8 +7,8 @@
 // \\@SYSTEM@<1>
 \aw
 
-\\@BGM_PLAY@<0, 74, 100>
-\\@BGM_FADE@<0, 0, 100, 240, 0>
+\\@BGM_PLAY@<0, 74, 50>
+\\@BGM_FADE@<0, 0, 50, 240, 0>
 
 \\@NPC_LOAD_SYNC@<4, 4, -320, 0, 0>
 \\@CHARA_SET_MVNAME@<4, "FadeIn">//kohaku

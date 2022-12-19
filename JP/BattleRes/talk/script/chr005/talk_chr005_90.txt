@@ -11,7 +11,7 @@
 // \\@CHARA_MUKI@<0,0>
 \aw
 
-\\@BGM_PLAY@<0, 77, 100>
+\\@BGM_PLAY@<0, 77, 50>
 
 \\@CHARA_IN@< 0, 5, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa05_0050", 100>

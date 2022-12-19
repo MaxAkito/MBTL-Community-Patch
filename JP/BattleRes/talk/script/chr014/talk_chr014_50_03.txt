@@ -22,7 +22,7 @@
 \\@CHARA_IN@<1, 3, 3, 2, 0>
 \aw
 
-\\@BGM_PLAY@<0, 75, 100>
+\\@BGM_PLAY@<0, 75, 50>
 
 \\@SYSTEM@<102>
 
@@ -34,9 +34,6 @@ Shiki
 路地裏には死体の山。
 \l
 
-/*-comment-
-メガネなし、冷酷
-*/
 
 \\@CHARA_IN@< 1, 3, 3, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik07_0001", 100>
@@ -78,9 +75,6 @@ Dead_Noel
 やせ我慢？　それとも現実逃避？
 \l
 
-/*-comment-
-退屈
-*/
 
 \\@CHARA_IN@<0, 14, 15, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0021", 100>
@@ -98,9 +92,7 @@ Dead_Noel
 なさけない《悲鳴＜こえ＞は物理で漏らせばいいんだもの。
 \l
 
-/*-comment-
-にまり
-*/
+
 
 \\@CHARA_SET_PATTERN@<4, 5>//dnoel
 
@@ -155,9 +147,6 @@ Shiki
 それに、マトモな人間でもない。
 \l
 
-/*-comment-
-冷酷
-*/
 
 \\@CHARA_SET_PATTERN@<5, 4>//shiki
 
@@ -179,9 +168,7 @@ Dead_Noel
 たまんない、ゾクゾクしちゃう！
 \l
 
-/*-comment-
-狂喜ニヤリ
-*/
+
 
 \\@CHARA_IN@<0, 14, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno07_0029", 100>

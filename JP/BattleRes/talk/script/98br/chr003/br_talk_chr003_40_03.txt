@@ -1,0 +1,215 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<30>//背景　トレーニングルーム・コロシアム
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+\\@BGM_PLAY@<0, 65, 50>//楽しくにぎやかなBGM
+
+
+\\@NPC_LOAD_SYNC@<5, 22, 0, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "Mv_Call_BlackFramesMng_withFadeIn">
+\\@CHARA_SET_PATTERN@<5, 12>
+
+\\@CHARA_IN@< 1, 22, 201, 2, 0>
+\aw
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 22, 201, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0010", 100>
+\\@TEXT_ID@<10>
+Edmond
+………………。
+
+
+\\@NPC_LOAD_SYNC@<4, 3, -640, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 91>
+\\@CHARA_IN@< 0, 3, 405, 1, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<4, 104>
+\\@SYSTEM@<131>
+\\@CHARA_IN@< 0, 3, 405, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0110", 100>
+\\@TEXT_ID@<20>
+Shiki
+（？　黙ったまま動かない……なんだろうな、あれ。
+　あまりの馬鹿らしさに呆れてるのか？）
+\l
+
+\\@CHARA_SET_PATTERN@<4, 112>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0111", 100>
+\\@TEXT_ID@<30>
+Shiki
+（にしても、闘技場の真ん中に立ってる
+　だけなのに絵になるな……どこかの《王者＜チャンピオン＞？）
+
+
+\\@CHARA_SET_PATTERN@<5, 13>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 22, 2, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0011", 100>
+\\@TEXT_ID@<40>
+Edmond
+そうではない！　俺は暗き恩讐のアヴェンジャー！
+《嘲笑＜わら＞う事はあれ、呆れなどあり得ぬ！
+\l
+
+\\@CHARA_IN@< 1, 22, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0012", 100>
+\\@TEXT_ID@<50>
+Edmond
+これは我が夢想の《終＜つい＞、遠き青春への敬礼！
+数奇なる運命への、万感の礼である！
+
+\\@CHARA_SET_PATTERN@<4, 104>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 425, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0112", 100>
+\\@TEXT_ID@<60>
+Shiki
+そ、そうですか。すみません、邪魔しちゃって。
+じゃあ始めていいですか？
+
+
+\\@CHARA_SET_PATTERN@<5, 4>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 22, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0013", 100>
+\\@TEXT_ID@<70>
+Edmond
+……………………。
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 411, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0113", 100>
+\\@TEXT_ID@<80>
+Shiki
+ダメみたいですか？
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 22, 111, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0014", 100>
+\\@TEXT_ID@<90>
+Edmond
+―――真祖の姫はどうした。
+先ほど、その姿を垣間見たが。
+
+\\@CHARA_SET_PATTERN@<4, 112>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 406, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0114", 100>
+\\@TEXT_ID@<100>
+Shiki
+アルクェイド？
+そういえばさっき目を覚ましてたっけ。呼びますか？
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 22, 100, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0015", 100>
+\\@TEXT_ID@<110>
+Edmond
+……………………（コクリ）。
+
+
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\\@CHARA_FOCUS_COLOR@<-1,1>
+\aw
+
+\\@NPC_LOAD_SYNC@<4, -2, -320, 0, 0>
+\\@NPC_LOAD_SYNC@<5, -2, 320, 0, 1>
+\\@NPC_LOAD_SYNC@<6, 0, -480, 0, 0>
+\\@CHARA_SET_PATTERN@<5, 40>
+\\@CHARA_SET_PATTERN@<6, 100>
+
+\\@NPC_LOAD_SYNC@<9, 90, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<9, "CameraKeep">//カメラ完全固定
+
+
+\\@BGM_PLAY@<0, 62, 50>//ほのぼのとした日常系BGM
+\\@FADE_IN@<0, 0, 0, 0, 0>
+\aw
+
+\\@CHARA_SET_PATTERN@<6, 101>
+\\@SYSTEM@<111>
+\\@CHARA_IN@< 0, 0, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0080", 100>
+\\@TEXT_ID@<120>
+Arcueid
+なになにー？　わたしのこと呼んだー？
+やっほー！　はじめまして、黒ずくめのひと！
+\l
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 0, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0081", 100>
+\\@TEXT_ID@<130>
+Arcueid
+素敵なコートね。仕立てた職人と、
+選んだひとの想いが今も生きているって感じ！
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "00Arc/Arc09_0082", 100>
+\\@TEXT_ID@<140>
+Arcueid
+アナタの旅は終わりのないもののようだけど、
+きっと、最期にはその人が待っているでしょう！
+
+
+\\@CHARA_SET_PATTERN@<5, 42>
+\\@SYSTEM@<102>
+\\@CHARA_IN@< 1, 22, 107, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0016", 100>
+\\@TEXT_ID@<150>
+Edmond
+――――――ふ。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 10>
+\\@SYSTEM@<122>
+\\@CHARA_IN@< 1, 22, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0017", 100>
+\\@TEXT_ID@<160>
+Edmond
+はは、ははははははははは！！！！
+貴様こそ、よい旅の終わりを迎えるだろう！
+\l
+
+
+
+\\@SYSTEM@<102>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0018", 100>
+\\@TEXT_ID@<170>
+Edmond
+今はその証明の時！
+腕試しというヤツだ、存分に味わうがいい！
+
+\\@CHARA_SET_PATTERN@<4, 104>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 3, 407, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0115", 100>
+\\@TEXT_ID@<180>
+Shiki
+マジか。上機嫌で怒ってるぞ、あの人。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 112>
+\\@CHARA_IN@< 0, 3, 401, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "03Sik/Sik09_0116", 100>
+\\@TEXT_ID@<190>
+Shiki
+けど悪い気はしないな。不思議と清々しい。
+あっちがその気なら、こっちも健全にやりますか！
+
+\\@BGM_STOP@<0>
+
+\e

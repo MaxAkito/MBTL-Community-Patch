@@ -1,0 +1,108 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<24>//背景　グレートキャッツビレッジ
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+\aw
+
+\\@SYSTEM@<0>
+\aw
+
+
+
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
+
+\\@NPC_LOAD_SYNC@<4, 19, 0, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "FadeIn">
+\\@CHARA_SET_PATTERN@<4, 120>
+
+\\@CHARA_IN@< 0, 19, 113, 1, 0>
+\aw
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 113, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0244", 100>
+\\@TEXT_ID@<990>
+Neco_Arc
+うう、容赦のない解体、エクセレント……
+細胞から綺麗になるとかコスメティックすぎんだろ……
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0245", 100>
+\\@TEXT_ID@<1000>
+Neco_Arc
+さすがのアタシもここからの復活には
+時間を要する……
+\l
+
+// ゆっくり暗転開始
+\\@NPC_LOAD_SYNC@<6, 90, 0, 0, 1>
+\\@CHARA_SET_MVNAME@<6, "BG_AntenOn">
+
+
+\\@CHARA_SET_PATTERN@<4, 125>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0246", 100>
+\\@TEXT_ID@<1010>
+Neco_Arc
+具体的には一作分ぐらいの制作時間が……ん？
+え。あ、あなた様は、まさか……！？
+\l
+
+// 完全に暗転させる
+\\@CHARA_SET_MVNAME@<6, "BG_AntenKeep">
+
+\\@NPC_LOAD_SYNC@<5, 96, 480, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 0>
+
+\\@CHARA_SET_MVNAME@<4, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
+
+\\@CHARA_FOCUS_COLOR@<-1, 1>
+\\@SYSTEM@<102>
+\\@TEXT_ID@<1020>
+Len_Hatena
+………………。
+
+\\@CHARA_SET_PATTERN@<4, 13>
+\\@SYSTEM@<101>
+\\@CHARA_IN@< 0, 19, 108, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0247", 100>
+\\@TEXT_ID@<1030>
+Neco_Arc
+んー、『役に立たないネコね』
+と言わんばかりのクールビューティー。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0248", 100>
+\\@TEXT_ID@<1040>
+Neco_Arc
+でも待って。がんばるから。
+まだ侵略プランは沢山あるから。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0249", 100>
+\\@TEXT_ID@<1050>
+Neco_Arc
+役に立たない部下の粛正とか、やめてくださいます？
+ダメ？　はい、わかりました。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 1>//攻撃待機
+
+/*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec09_0250", 100>
+\\@TEXT_ID@<1060>
+Neco_Arc
+それでは皆さん、さようなら。
+次は―――アタシたちの本気を見せてやるぜ！
+
+\\@CHARA_SET_PATTERN@<5, 2>//攻撃
+\\@CHARA_SET_PATTERN@<4, 190>
+
+
+\\@FADE_OUT@<0, 0, 0, 0, 0>
+\aw
+
+\\@BGM_STOP@<0>
+\e
+

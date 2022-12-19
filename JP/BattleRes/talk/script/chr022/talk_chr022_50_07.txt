@@ -1,0 +1,152 @@
+\\@SYSTEM@<9999>
+\\@LOAD_BATTLE_BG@<6>//背景　地下空洞
+\\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
+
+\\@SYSTEM@<0>
+\aw
+
+
+\\@NPC_LOAD_SYNC@<4, 22, -320, 0, 0>
+\\@CHARA_SET_MVNAME@<4, "Mv_Call_BlackFramesMng_withFadeIn">
+\\@CHARA_SET_PATTERN@<4, 40>
+
+\\@NPC_LOAD_SYNC@<5, 5, 320, 0, 1>
+\\@CHARA_SET_MVNAME@<5, "FadeIn">
+\\@CHARA_SET_PATTERN@<5, 14>
+
+
+\\@CHARA_IN@<0, 22, 6, 1, 0>
+\\@CHARA_IN@<1, 5, 1, 2, 0>
+\aw
+
+\\@BGM_PLAY@<0, 74, 50>
+
+
+\\@CHARA_SET_PATTERN@<5, 13>
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 5, 3, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa09_0030", 100>
+\\@TEXT_ID@<10>
+Roa
+おいおい、またサーヴァントかよ！
+世界のセキュリティはガバガバだな！
+
+
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 22, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0060", 100>
+\\@TEXT_ID@<20>
+Edmond
+――――――。
+
+
+\\@CHARA_SET_PATTERN@<5, 14>
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 5, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa09_0031", 100>
+\\@TEXT_ID@<30>
+Roa
+とはいえ。
+邪魔者ではあるが、希少であるのも事実だな。
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa09_0032", 100>
+\\@TEXT_ID@<40>
+Roa
+おまえは特に●＜こちら寄り＞だ。
+醜い反英雄。《魂＜め＞を見りゃあ分かる。
+\l
+
+\\@CHARA_SET_PATTERN@<5, 15>
+\\@CHARA_IN@<1, 5, 1, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa09_0033", 100>
+\\@TEXT_ID@<50>
+Roa
+どうだ、抑止力の使いっ走りなんぞ辞めて、
+こちらの儀式に手を貸さないか？
+\l
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa09_0034", 100>
+\\@TEXT_ID@<60>
+Roa
+英霊も死徒もつまるところゴールは同じ。
+『この星の最終解答』だ。
+\l
+
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa09_0035", 100>
+\\@TEXT_ID@<70>
+Roa
+これまで多くの愚者が挑み、敗れていったがね。
+今回はなかなかの手応えだ。
+\l
+
+\\@CHARA_IN@<1, 5, 0, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa09_0036", 100>
+\\@TEXT_ID@<80>
+Roa
+●＜あと一手が上手くいけば＞、●＜残り百手は必ず成立する＞。
+うまい話すぎてそそられるだろ？
+
+\\@CHARA_SET_PATTERN@<4, 42>
+\\@SYSTEM@<101>
+\\@CHARA_IN@<0, 22, 3, 0, 1>
+\\@CHARA_FACE@<0,-1, 5, 278>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0061", 100>
+\\@TEXT_ID@<90>
+Edmond
+―――貴様がそう言うのなら、事実だろう。
+希代の神学者。宙の法に手を伸ばした者よ。
+\l
+
+
+\\@CHARA_SET_PATTERN@<4, 41>
+\\@SYSTEM@<121>
+\\@CHARA_IN@<0, 22, 110, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0062", 100>
+\\@TEXT_ID@<100>
+Edmond
+だが！　その試みが偉業だとしても、
+俺が貴様を見逃す事は断じてありえん！
+\l
+
+
+
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0063", 100>
+\\@TEXT_ID@<110>
+Edmond
+ミハイル・ロア・バルダムヨォン！
+どのような世界であれ、貴様は俺の敵である！
+\l
+
+\\@CHARA_SET_PATTERN@<4, 6>
+\\@CHARA_IN@<0, 22, 103, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "22Edo/Edo09_0064", 100>
+\\@TEXT_ID@<120>
+Edmond
+愉快だ、これが笑わずにいられるか！
+よくも、俺の仕事を邪魔してくれた！
+
+
+\\@SYSTEM@<102>
+\\@CHARA_IN@<1, 5, 6, 0, 1>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa09_0037", 100>
+\\@TEXT_ID@<130>
+Roa
+なんだ、そのナリからして
+１８世紀あたりの食い残しかい！
+\l
+
+
+\\@CHARA_SET_PATTERN@<5, 16>
+/*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa09_0038", 100>
+\\@TEXT_ID@<140>
+Roa
+これだから人間ってヤツは！
+いつまでも過去に囚われて、生きてて楽しいのかねぇ！
+
+
+\\@BGM_STOP@<0>
+\e
+

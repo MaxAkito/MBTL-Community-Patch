@@ -12,7 +12,7 @@
 \\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
 \\@CHARA_SET_PATTERN@<5, 91>//デフォルト・眼鏡無し
 
-\\@BGM_PLAY@<0, 62, 100>//ほのぼのとした日常系BGM
+\\@BGM_PLAY@<0, 62, 50>//ほのぼのとした日常系BGM
 
 
 \\@CHARA_IN@<0, 8, 13, 1, 0>

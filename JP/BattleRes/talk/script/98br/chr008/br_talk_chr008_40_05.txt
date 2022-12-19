@@ -9,7 +9,7 @@
 \\@CHARA_SET_MVNAME@<4, "FadeIn">//noel
 \\@CHARA_SET_PATTERN@<4, 105>
 
-\\@BGM_PLAY@<0, 64, 100>//ギャグっぽいコミカルで陽気なBGM
+\\@BGM_PLAY@<0, 64, 50>//ギャグっぽいコミカルで陽気なBGM
 
 \\@SYSTEM@<101>
 
@@ -73,8 +73,8 @@ Noel
 \\@CHARA_IN@<0, 8, 10, 0, 1>
 \\@CHARA_FOCUS_COLOR@<0,1>
 
-\\@BGM_FADE@<0, 100, 0, 60, 1>
-\\@BGM_PLAY@<1, 78, 100>//超シリアス
+\\@BGM_FADE@<0, -1, 0, 60, 1>
+\\@BGM_PLAY@<1, 78, 50>//超シリアス
 
 \\@NPC_LOAD_SYNC@<5, 2, 440, -130, 1>
 \\@CHARA_SET_MVNAME@<5, "FadeIn">//akiha
@@ -101,9 +101,6 @@ Akiha
 貴女では琥珀の相手は骨だったでしょう。
 だって、一目で使い捨ての駒だと分かる風貌だもの。
 
-/*-comment-
-優雅微笑み。超・上から目線
-*/
 
 \\@SYSTEM@<101>
 \\@CHARA_IN@<0, 8, 10, 0, 1>
@@ -113,9 +110,6 @@ Noel
 ！　コイツ、いつのまに……！？
 ってか、ガキのクセに上から目線ね！
 
-/*-comment-
-ノエル＠10
-*/
 
 \\@SYSTEM@<102>
 \\@CHARA_IN@<1, 2, 1, 0, 1>
@@ -167,9 +161,6 @@ Akiha
 ……今までにないタイプの方ですね。
 \l
 
-/*-comment-
-思案
-*/
 
 \\@CHARA_IN@<1, 2, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "02Sak/Sak08_0066", 100>
@@ -179,7 +170,7 @@ Akiha
 少し、お話をしてよろしくて？
 
 \\@FADE_OUT@<0, 0, 0, 0, 0>
-\\@BGM_FADE@<1, 100, 0, 60, 1>
+\\@BGM_FADE@<1, -1, 0, 60, 1>
 \aw
 
 \\@CHARA_SET_PATTERN@<6, 0>//透明に
@@ -199,7 +190,7 @@ Akiha
 \\@FADE_IN@<0, 0, 0, 0, 0>
 \aw
 
-\\@BGM_PLAY@<0, 63, 100>//落ち着いた日常系BGM
+\\@BGM_PLAY@<0, 63, 50>//落ち着いた日常系BGM
 
 
 \\@SYSTEM@<102>
@@ -417,7 +408,7 @@ Noel
 \\@CHARA_IN@<0, 3, 406, 1, 0>
 \aw
 
-\\@BGM_FADE@<0, 100, 0, 60, 1>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
 
 \\@NPC_LOAD_SYNC@<7, 3, -660, 0, 0>
 \\@CHARA_SET_PATTERN@<7, 101>//shiki 歩いてくる
@@ -438,7 +429,7 @@ Shiki_GakuseiKare
 だって先生、部屋の鍵持ってないでしょ。
 
 
-\\@BGM_PLAY@<0, 74, 100>//エンカウント
+\\@BGM_PLAY@<0, 74, 50>//エンカウント
 
 \\@SYSTEM@<102>
 \\@CHARA_SET_PATTERN@<5, 20>//akiha　超怒り

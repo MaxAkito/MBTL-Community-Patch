@@ -11,7 +11,7 @@
 \\@CHARA_SET_MVNAME@<4, "FadeIn">
 \\@CHARA_SET_PATTERN@<4, 1>//万歳
 
-\\@SE_PLAY@<0, "talk/talk_se/Cmn_ShortLightning", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_ShortLightning", 0, 75>
 \\@CHARA_SET_PATTERN@<7, 1>//落雷
 
 
@@ -27,7 +27,7 @@ Neco_Arc
 ネコ、ついに降臨。目を逸らすな、現実だ。
 \l
 
-\\@BGM_PLAY@<0, 61, 100>//コミカルでちょっと怪しげなBGM
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
 
 \\@CHARA_SET_PATTERN@<4, 38>//neco
 
@@ -254,7 +254,7 @@ Mash
 \\@CHARA_SET_PATTERN@<4, 7>//ふきとび
 
 \\@GO_SUB@<"QUAKE_2">
-\\@SE_PLAY@<0, "talk/talk_se/Hit_MetalD", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Hit_MetalD", 0, 75>
 \\@CHARA_OUT@<0, 19, 113, 1, 0>
 \aw
 
@@ -304,8 +304,8 @@ Neco_Arc
 
 \\@SYSTEM@<100>
 
-\\@BGM_PLAY@<0, 74, 100>
-\\@SE_PLAY@<1, "talk/talk_se/Cmn_Siren", 1, 100>//SE サイレン
+\\@BGM_PLAY@<0, 74, 50>
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_Siren", 1, 75>//SE サイレン
 
 \\@CHARA_SET_PATTERN@<4, 35>//neco
 \\@CHARA_SET_PATTERN@<5, 48>//振り向き

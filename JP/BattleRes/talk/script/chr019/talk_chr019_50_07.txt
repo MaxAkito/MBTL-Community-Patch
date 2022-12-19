@@ -20,7 +20,7 @@
 \\@CHARA_MUKI@<2, 1>
 \aw
 
-\\@BGM_PLAY@<0, 73, 100>
+\\@BGM_PLAY@<0, 73, 50>
 
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 19, 110, 0, 1>
@@ -89,10 +89,6 @@ Neco_Arc
 
 \\@SQ_CALL@<2>
 
-/*-comment-
-\\@CHARA_IN@< 0, 19, 109, 0, 1>
-ネコアルク＠勝利_01
-*/
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0406", 100>
 \\@TEXT_ID@<80>
@@ -164,7 +160,7 @@ Neco_Arc
 \\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
 \aw
 
-\\@BGM_FADE@<0, 100, 0, 120, 1>
+\\@BGM_FADE@<0, -1, 0, 120, 1>
 
 \\@CHARA_SET_PATTERN@<4, 19>//頭のけぞり戻り
 
@@ -178,7 +174,7 @@ Neco_Akiha_Hatena
 
 \\@CHARA_SET_PATTERN@<4, 35>//neco
 \\@CHARA_SET_PATTERN@<5, 48>//振り向き
-\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_PLAY@<0, 74, 50>
 
 \\@SYSTEM@<101>
 
@@ -228,7 +224,7 @@ Neco_Arc
 
 
 \\@DRAW_EFFECT@<1>
-\\@BGM_FADE@<0, -1, 30, 10, 0>
+\\@BGM_FADE@<0, -1, 25, 10, 0>
 \aw
 
 \\@CHARA_IN@< 0, 19, 106, 0, 1>
@@ -239,12 +235,9 @@ Neco_Arc
 ネコにも敵に向ける憐れはあるのである
 \l
 
-/*-comment-
-ここだけ時間ストップ、スローに。モノローグ
-*/
 
 \\@DRAW_EFFECT@<0>
-\\@BGM_FADE@<0, -1, 100, 120, 0>
+\\@BGM_FADE@<0, -1, 50, 120, 0>
 \aw
 
 
@@ -256,9 +249,7 @@ Neco_Arc
 ボス度全開の登場セリフ、ありがっした！
 \l
 
-/*-comment-
-時間戻る
-*/
+
 \\@CHARA_SET_PATTERN@<4, 17>//キシャ―戻り
 
 \\@CHARA_IN@< 0, 19, 100, 0, 1>

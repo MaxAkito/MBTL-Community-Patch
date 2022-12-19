@@ -7,20 +7,22 @@
 // \\@SYSTEM@<1>
 \aw
 
-\\@NPC_LOAD_SYNC@<4, 19, 0, 0, 0>
-\\@CHARA_SET_PATTERN@<4, 80>//召喚エフェクト
-\\@CHARA_WAIT_PATTERN@<4, 81>//
-\aw
+// \\@NPC_LOAD_SYNC@<4, 19, 0, 0, 0>
+// \\@CHARA_SET_PATTERN@<4, 80>//召喚エフェクト
+// \\@CHARA_WAIT_PATTERN@<4, 81>//
+// \aw
 
 \\@NPC_LOAD_SYNC@<5, 12, 0, 0, 0>
 \\@CHARA_SET_MVNAME@<5, "FadeIn">//saber
-\\@CHARA_SET_PATTERN@<5, 5>//saber
+\\@CHARA_SET_PATTERN@<5, 14>//saber
+
+\w<60>
 
 \\@CHARA_IN@<0, 12, 6, 11, 0>
 \\@CHARA_MUKI@<0,0>
 \aw
 
-\\@BGM_PLAY@<0, 71, 100>
+\\@BGM_PLAY@<0, 71, 50>
 
 \\@SYSTEM@<101>
 

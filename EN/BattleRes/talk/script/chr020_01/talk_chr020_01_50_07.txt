@@ -413,9 +413,9 @@ Mash
 でも内密な話のようなのでこれ以上近づく事は……
 終わるまで待っているべきでしょうか……あ。
 */
-Still, it appears they're talking in secret so I can't really
-get closer. Perhaps it would be prudent to wait until they're done.
-Oh, oops.
+Still, it appears they're talking in secret so I 
+can't really get closer. Perhaps it would be prudent
+to wait until they're done... Oh! Oops!
 
 \\@CHARA_SET_MVNAME@<4, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
 \\@CHARA_SET_MVNAME@<8, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
@@ -599,8 +599,8 @@ Neco_Kohaku
 だからお腹を殴って嘔吐させないで。
 マシュ君は平和的手段でアタシを助けてくださいねっと。
 */
-So please, don't start punching me in the stomach until I puke.
-Mash, please find a way of saving me
+So please, don't start punching me in the stomach 
+until I puke. Mash, please find a way of saving me
 that doesn't involve violence.
 
 \\@NPC_LOAD_SYNC@<4, 20, -680, 0, 0>

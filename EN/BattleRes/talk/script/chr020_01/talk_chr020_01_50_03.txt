@@ -58,6 +58,7 @@ Mash
 The head of this mansion must surely be a wonderful person.
 Kind, cheerful, pretty...
 
+
 \\@SYSTEM@<102>
 
 \\@CHARA_IN@< 1, 19, 110, 0, 1>

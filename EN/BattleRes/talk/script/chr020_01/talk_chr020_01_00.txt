@@ -423,7 +423,8 @@ Neco_Arc
 でもまあ、地上にはいないよねこんな美獣！
 そのセクスィー、まさにモンスター級！　キラッ☆
 */
-Got a point tho, ain't no beast as hot as me up there on the surface.
+Got a point tho, ain't no beast as 
+hot as me up there on the surface.
 I'm a sexy goddamn monster! *wink* ☆
 
 \\@CHARA_SET_PATTERN@<4, 70>//mash
@@ -439,7 +440,8 @@ Mash
 適切な比喩表現、ありがとうございます。
 */
 So you mean you're monstrous?
-That's an expressive way of describing yourself, thank you very much
+That's an expressive way of describing yourself, 
+thank you very much
 
 \\@SYSTEM@<102>
 
@@ -481,6 +483,7 @@ Neco_Arc
 Lemme guess, you've gotta return to your home-world
 asap, amirite?
 
+
 \\@CHARA_SET_PATTERN@<4, 71>//mash
 
 \\@SYSTEM@<101>
@@ -507,6 +510,7 @@ Mash
 */
 My communications with Chaldea are completely cut off.
 I don't even know what era I'm currently finding myself in.
+
 
 \\@SYSTEM@<102>
 
@@ -588,6 +592,7 @@ Yeah, so the thing is, back when you came
 flying down from the sky and used me as your landing cushion...
 \l
 
+
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0281", 100>
 
 Neco_Arc
@@ -624,8 +629,9 @@ Neco_Arc
 マシュ君の力（重さ）と、ネコの力（断末魔）が
 融合した合わせ技……とでも言っておきますか。
 */
-With the power of Mash('s weight) and Neco-Arc('s death throes) combined,
-a mighty combo move was born... Yeah, let's just call it that.
+With the power of Mash('s weight) and Neco-Arc('s death throes)
+combined, a mighty combo move was born... 
+Yeah, let's just call it that.
 
 
 \\@SYSTEM@<101>
@@ -817,7 +823,8 @@ Mash
 世界のルールを乱す侵略者に容赦はしません！
 */
 I swear upon my shield to fight on behalf of Human Order!
-I shall show no mercy to the villains who would disturb the world's rules!
+I shall show no mercy to the villains
+who would disturb the world's rules!
 
 \\@SYSTEM@<102>
 
@@ -830,7 +837,7 @@ Neco_Arc
 ………………。
 （純粋な人間に慣れていない顔）
 */
-... 
+......
 (the face of someone uncomfortable around such pure people)
 \l
 
@@ -921,7 +928,7 @@ Neco_Arc
 ―――。
 いまなんか怖いコト言わなかった、マシュ君？
 */
-...
+......
 Uh, I think I just heard you say something frightening, Mash.
 
 

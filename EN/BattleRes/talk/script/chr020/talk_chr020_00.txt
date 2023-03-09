@@ -155,7 +155,7 @@ Kohaku
 　あ。いっけない、手が滑りました☆』
 */
 "My, oh my. Look at that super expensive Imari porcelain vase.
- Oh, whoops, there goes my clumsy hands again ☆"
+ Oh, whoops, there go my clumsy hands again ☆"
 
 \\@CHARA_IN@< 1, 1, 5, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "01His/His08_0102", 100>

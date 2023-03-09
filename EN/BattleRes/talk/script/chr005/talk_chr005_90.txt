@@ -22,8 +22,8 @@ Roa
 私でさえ打倒しうる規模だが、さて―――
 */
 So this is all she amounts to after having been damaged
-by the Mystic Eyes of Death Perception. It's to the extent
-that even I could defeat her, however...
+by the Mystic Eyes of Death Perception. 
+Even I could defeat her. Nevertheless...
 
 \\@SPEAKERCG_IN@<0, 5,4, 128,-240, 128,-240, 255,0, 0, 1024,1024, 0>
 // \\@CHARA_OUT@<0, -1, -1, 0, 0>
@@ -63,7 +63,7 @@ Archetype_Earth
 /*-comment-
 戯れだ、《一撃＜くちづけ＞を許す。
 */
-A jest, then：　lone be the 'kiss' thou art permitted.
+A jest, then.　Lone be the 'kiss' thou art permitted.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "npc1/Npc105_0002", 100>

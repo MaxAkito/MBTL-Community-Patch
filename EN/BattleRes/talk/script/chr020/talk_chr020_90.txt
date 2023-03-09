@@ -19,14 +19,15 @@
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0180", 100>
-\\@TEXT_ID@<10>
+
 Mash
 /*-comment-
 ……吸血鬼との戦いに勝利したのも束の間、
 足元に出現したゲートに落ちてしまったのです。
 */
-...And then as soon as I was victorious in my battle against the vampire,
-I fell into a portal that suddenly appeared beneath my feet.
+...And then as soon as I was victorious in my battle 
+against the vampire, I fell into a portal that suddenly
+appeared beneath my feet.
 \l
 
 /*-comment-
@@ -35,7 +36,7 @@ I fell into a portal that suddenly appeared beneath my feet.
 */
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0181", 100>
-\\@TEXT_ID@<20>
+
 Mash
 /*-comment-
 落ちた先はまた不思議な空間で……
@@ -46,7 +47,7 @@ and there, I got acquainted with this, uh, Ne-- Ne-- Hm?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0182", 100>
-\\@TEXT_ID@<30>
+
 Mash
 /*-comment-
 不思議です、名前が思い出せません……
@@ -57,7 +58,7 @@ Still, they were somehow a rather dependable fellow.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0183", 100>
-\\@TEXT_ID@<40>
+
 Mash
 /*-comment-
 その方といくつもの世界を渡って、
@@ -68,7 +69,7 @@ and in the final one, a tournament was held.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0184", 100>
-\\@TEXT_ID@<50>
+
 Mash
 /*-comment-
 『旧vs新　宿命の戦い』と、
@@ -83,7 +84,7 @@ was what this person had called it.
 */
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0185", 100>
-\\@TEXT_ID@<60>
+
 Mash
 /*-comment-
 え？　大会の結果ですか？
@@ -94,7 +95,7 @@ That's... hehe, still a secret.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0186", 100>
-\\@TEXT_ID@<70>
+
 Mash
 /*-comment-
 いつか、とっておきの時にお話しますので、
@@ -105,7 +106,7 @@ You'll just have to wait until then.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0187", 100>
-\\@TEXT_ID@<80>
+
 Mash
 /*-comment-
 日本の都市……総耶という街を主軸にした、
@@ -117,7 +118,7 @@ or more specifically, the city of Souya.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0188", 100>
-\\@TEXT_ID@<90>
+
 Mash
 /*-comment-
 いま思い返しても楽しい事ばかりで。
@@ -128,7 +129,7 @@ I think it was an amazingly worthwhile experience!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcBoy/NpcBoy08_0000", 100>
-\\@TEXT_ID@<100>
+
 Fujimaru
 /*-comment-
 そっか。お帰りマシュ。
@@ -139,14 +140,15 @@ You must've fought well across all your adventures.
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0189", 100>
-\\@TEXT_ID@<110>
+
 Mash
 /*-comment-
 ―――はい！　マシュ・キリエライト、
 たくさんの世界を巡って無事、帰還完了です！
 */
 Of course! Mash Kyrielight, mission complete!
-I journeyed across tons of worlds, and have now returned safe and sound!
+I journeyed across tons of worlds, 
+and have now returned safe and sound!
 
 
 \\@SYSTEM@<21>

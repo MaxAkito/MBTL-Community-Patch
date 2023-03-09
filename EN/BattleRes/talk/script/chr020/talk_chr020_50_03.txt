@@ -18,7 +18,7 @@
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 20, 214, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0160", 100>
-\\@TEXT_ID@<10>
+
 Mash
 /*-comment-
 シバの観測機能が《停止＜ビジー＞している……？
@@ -29,7 +29,7 @@ That probably means this place isn't part of reality.
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0161", 100>
-\\@TEXT_ID@<20>
+
 Mash
 /*-comment-
 世界から隔絶された空間。
@@ -41,13 +41,13 @@ Both future and past is in an unclear, evanescent state.
 
 \\@CHARA_IN@< 0, 20, 216, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0162", 100>
-\\@TEXT_ID@<30>
+
 Mash
 /*-comment-
 『固有結界』……
 でも、魔術が働いている反応はないのに……？
 */
-A "Reality Marble"...
+It's a "Reality Marble"...
 And yet, I cannot detect the activity of any magecraft.
 
 \\@NPC_LOAD_SYNC@<7, 90, 260, 0, 1>//カメラ位置調整のための透明ダミー
@@ -62,7 +62,7 @@ And yet, I cannot detect the activity of any magecraft.
 
 \\@CHARA_IN@< 1, 14, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0060", 100>
-\\@TEXT_ID@<40>
+
 Dead_Noel
 /*-comment-
 なぁに、新しいお客さま？
@@ -74,7 +74,7 @@ Haven't seen you before.
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0061", 100>
-\\@TEXT_ID@<50>
+
 Dead_Noel
 /*-comment-
 魔術云々の話をしているなら、
@@ -86,7 +86,7 @@ you're an opponent I shouldn't underestimate too much, right?
 
 \\@CHARA_IN@< 1, 14, 10, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0062", 100>
-\\@TEXT_ID@<60>
+
 Dead_Noel
 /*-comment-
 いいわ、普通の《人間＜ゆめ＞を摘まむのも
@@ -99,7 +99,7 @@ the dreams of normal humans anyway.
 
 \\@CHARA_SET_PATTERN@<5, 14>//見下し登場
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0063", 100>
-\\@TEXT_ID@<70>
+
 Dead_Noel
 /*-comment-
 ようこそ、起きたまま見る悪夢の世界へ。
@@ -111,7 +111,7 @@ Allow me to awaken you from the nightmare of reality.
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 20, 214, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0163", 100>
-\\@TEXT_ID@<80>
+
 Mash
 /*-comment-
 ！　貴女が街に巣くった吸血鬼、ですね。
@@ -123,19 +123,20 @@ You appear to be just a young girl on the outside, but...
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0164", 100>
-\\@TEXT_ID@<90>
+
 Mash
 /*-comment-
 魔力反応は人間を超越しています。
 魔獣、幻獣クラスの脅威と判断しました。
 */
-Your magical energy readings transcend those of a human's.
-I've deemed you a threat on par with a demonic, or phantasmal beast.
+Your magical energy readings transcend those 
+of a human's. I can see you are a threat on 
+par with a demonic, or phantasmal beast.
 \l
 
 \\@CHARA_IN@< 0, 20, 203, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0165", 100>
-\\@TEXT_ID@<100>
+
 Mash
 /*-comment-
 人々を餌食にする災害なら容赦はしません。
@@ -149,7 +150,7 @@ You monsters have no place here in my Master's homeland!
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 14, 8, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0064", 100>
-\\@TEXT_ID@<110>
+
 Dead_Noel
 /*-comment-
 は、この国に恋人でもいるのアナタ？
@@ -163,7 +164,7 @@ But of course he is, of cooourse he is!
 \\@CHARA_SET_PATTERN@<5, 7>//たまんない
 \\@CHARA_IN@< 1, 14, 12, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0065", 100>
-\\@TEXT_ID@<120>
+
 Dead_Noel
 /*-comment-
 ならソイツもちゃーんと殺してあげる！
@@ -174,7 +175,7 @@ Lovers are a 2-in-1 deal, after all!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0066", 100>
-\\@TEXT_ID@<130>
+
 Dead_Noel
 /*-comment-
 だって、その方が盛り上がるもの！
@@ -187,51 +188,54 @@ and yet, at the very, very end, you betray each other!
 
 \\@CHARA_IN@< 1, 14, 13, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0067", 100>
-\\@TEXT_ID@<140>
+
 Dead_Noel
 /*-comment-
 ああもうたまんない……！
 どんな果物より甘い、人工のスクロース！
 */
 God, it's sooo good!
-Sweeter than any fruit： sucrose, the product of man!
+Sweeter than any fruit：
+A sucrose made of humans!
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "14Dno/Dno08_0068", 100>
-\\@TEXT_ID@<150>
+
 Dead_Noel
 /*-comment-
 ほーんと、美味しすぎるアナタたちが悪いのよ？
 わたし、食べ過ぎで太っちゃいそう！
 */
-Honestly, you people brought this on yourself, being so delicious and all!
+Honestly, you people brought this on yourself, 
+being so delicious and all!
 Eating this much might make me fat!
 
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 20, 203, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0166", 100>
-\\@TEXT_ID@<160>
+
 Mash
 /*-comment-
 それは嘘ですね。
 吸血鬼には成長も、味覚もないと聞きました。
 */
 You're lying, I see.
-I've heard vampires cannot grow, just as they don't have any taste.
+I've heard vampires cannot grow,
+just as they don't have any senee of taste.
 \l
 
 
 \\@CHARA_IN@< 0, 20, 206, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0167", 100>
-\\@TEXT_ID@<170>
+
 Mash
 /*-comment-
 アナタは自分の罪に酔っているだけ。
 夢から覚めるのはそちらの方です！
 */
 You're just drunk on your own sins.
-The one who'll awaken from their dreams here is you!
+The only one who'll awaken from their dreams here is you!
 
 \\@BGM_STOP@<0>
 \e

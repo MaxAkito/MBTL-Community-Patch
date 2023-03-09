@@ -17,7 +17,7 @@
 \\@CHARA_SET_PATTERN@<4, 4>//キシャ―
 \\@CHARA_IN@< 0, 19, 105, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0370", 100>
-\\@TEXT_ID@<10>
+
 /*-comment-
 くっそう、ドイツもコイツも見てから余裕で
 シールドカウンターときた。
@@ -30,7 +30,7 @@ able to so easily Shield Counter me?
 \\@CHARA_SET_PATTERN@<4, 3>//やれやれ
 \\@CHARA_IN@< 0, 19, 107, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0371", 100>
-\\@TEXT_ID@<20>
+
 /*-comment-
 これが最新のゲームシステム……
 安易なビームは通さない、というコトか……
@@ -42,7 +42,7 @@ Means I can't beam my way through so easily...
 
 \\@CHARA_IN@< 0, 19, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0372", 100>
-\\@TEXT_ID@<30>
+
 /*-comment-
 んにゃ、それにしてもヤバイでしょこの街。
 P: I need a cat pun.
@@ -54,7 +54,7 @@ Meow, all that said, this city sure is wild.
 \\@CHARA_SET_PATTERN@<4, 4>//キシャ―
 \\@CHARA_IN@< 0, 19, 105, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0373", 100>
-\\@TEXT_ID@<40>
+
 /*-comment-
 ネコと見るや勝ち星拾いに来やがって、
 おちおちコンビニで買い物もできねー！
@@ -79,7 +79,7 @@ I can't even go shopping at the convenience store in peace!
 \\@CHARA_IN@< 2, 20, 207, 0, 1>
 \\@CHARA_MUKI@<2, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0110", 100>
-\\@TEXT_ID@<50>
+
 /*-comment-
 ただいま帰りましたネコアルクさん。
 はい、ネコ缶とおでんと野菜ジュースです。
@@ -100,7 +100,7 @@ Here's some cat-food, oden and vegetable juice.
 \\@CHARA_SET_PATTERN@<4, 13>//ワイン
 \\@CHARA_IN@< 0, 19, 108, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0374", 100>
-\\@TEXT_ID@<60>
+
 /*-comment-
 おっと。ダンケシュウ、マドモアゼル。
 夢に見たコンビニエンスストアはどうでしたかな？
@@ -111,7 +111,7 @@ How was it going the convenience store of your dreams?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0375", 100>
-\\@TEXT_ID@<70>
+
 /*-comment-
 地方だとないんでしょ、ああいうの？
 */
@@ -125,7 +125,7 @@ They ain't got those out in the boonies, I bet.
 \\@CHARA_MUKI@<2, 1>
 \\@CHARA_EMOVE@<2, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0111", 100>
-\\@TEXT_ID@<80>
+
 /*-comment-
 はい、とても刺激的でした！
 洗練された沢山の商品と、温かな店内！
@@ -138,7 +138,7 @@ The heaps of polished products! The warm interior!
 \\@CHARA_IN@< 2, 20, 206, 0, 1>
 \\@CHARA_MUKI@<2, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0112", 100>
-\\@TEXT_ID@<90>
+
 /*-comment-
 カルデアに帰れたら、すぐに
 購買部の設置を進言したいと思います！
@@ -156,7 +156,7 @@ I think I'll propose the establishment of a co-op immediately!
 \\@CHARA_IN@< 0, 19, 106, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0376", 100>
-\\@TEXT_ID@<100>
+
 /*-comment-
 うんうん。うちの王国にもニャイから、
 その気持ちすごく分かる。
@@ -170,7 +170,7 @@ so I get how you feel.
 \\@CHARA_SET_PATTERN@<4, 3>//やれやれ
 \\@CHARA_IN@< 0, 19, 107, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0377", 100>
-\\@TEXT_ID@<110>
+
 /*-comment-
 とはいえネコは気まぐれだからニャー。
 値段の概念とか高度すぎんだよニャー。
@@ -185,7 +185,7 @@ This whole 'price' concept is too advanced for us.
 \\@CHARA_SET_PATTERN@<4, 0>//ニュートラル
 \\@CHARA_IN@< 0, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0378", 100>
-\\@TEXT_ID@<120>
+
 /*-comment-
 まあいいや、ネコ缶開けよっと。
 マシュくん、缶切りある？　ナイ？
@@ -196,15 +196,16 @@ Hey Mash, you got a can-opener? No?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0379", 100>
-\\@TEXT_ID@<130>
+
 /*-comment-
 仕方ない、まるごといってみっか。
 平和な公園ニャもの、刃物とか求められません。
 P: Need cat pun here.
 */
 Neco_Arc
-That's too bad. Guess I've got no choice but to swallow it whole.
-This is a peaceful park, can't go bringing in such sharps things here.
+Welp, Guess I've got no choice but to swallow it whole.
+This is a peaceful park, 
+can't go bringing in such sharps things here.
 
 \\@BGM_FADE@<0, 100, 0, 120, 1>// フェードアウト
 
@@ -215,7 +216,7 @@ This is a peaceful park, can't go bringing in such sharps things here.
 \\@CHARA_MUKI@<2, 1>
 \\@CHARA_FACE@<2, 200, 223, 130>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0113", 100>
-\\@TEXT_ID@<140>
+
 /*-comment-
 そうですね―――いえ、
 危ないネコアルクさん！
@@ -240,7 +241,7 @@ Watch out, Neco-Arc!
 
 \\@CHARA_IN@< 0, 20, 203, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0114", 100>
-\\@TEXT_ID@<150>
+
 /*-comment-
 これは投剣！？
 いったいどこから！？
@@ -252,13 +253,14 @@ Where did it come from?
 \\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
 \\@CHARA_IN@< 0, 19, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0380", 100>
-\\@TEXT_ID@<160>
+
 /*-comment-
 ほほう。頭上から無言で飛び道具コマンド×３とは。
 物騒なスパチャありがとう！
 */
 Neco_Arc
-Oh-hoo. These 3xProjectiles coming in from overhead with as much as a warning could only be one thing...
+Oh-hoo. These 3xProjectiles coming in from overhead without 
+so much as a warning could only mean one thing...
 Thanks for the dangerous-ass Superchat!
 \l
 
@@ -266,7 +268,7 @@ Thanks for the dangerous-ass Superchat!
 \\@CHARA_SET_PATTERN@<4, 4>//キシャ―
 \\@CHARA_IN@< 0, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0381", 100>
-\\@TEXT_ID@<170>
+
 /*-comment-
 だが今日はアタシの誕生日でもなければ
 ピックアップの日でもねー！
@@ -278,7 +280,7 @@ nor my gacha rate-up!
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0382", 100>
-\\@TEXT_ID@<180>
+
 /*-comment-
 姿を現せシエル！
 街灯の上にいるのは分かってるンだ！
@@ -297,7 +299,7 @@ I know you're standing up there on the lamppost!
 \\@SYSTEM@<100>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNci/NpcNci08_0000", 100>
-\\@TEXT_ID@<190>
+
 /*-comment-
 私の名前を知っている……？
 ただのNECOではないようですね。
@@ -309,7 +311,7 @@ It appears you are no mere Neco after all...
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNci/NpcNci08_0001", 100>
-\\@TEXT_ID@<200>
+
 /*-comment-
 それに傍らにいる少女。
 明らかに異なる世界の存在です。
@@ -321,7 +323,7 @@ She's clearly an existence from some other world.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNci/NpcNci08_0002", 100>
-\\@TEXT_ID@<210>
+
 /*-comment-
 答えなさい。どうやってこの世界に現れたのです。
 明確な目的があるのですか？
@@ -336,7 +338,7 @@ And do you have an actual goal here?
 \\@CHARA_SET_PATTERN@<4, 44>//neco
 \\@CHARA_IN@< 0, 19, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0383", 100>
-\\@TEXT_ID@<220>
+
 /*-comment-
 どうやってって、
 それが分かればアタシも苦労しねーよ。
@@ -347,7 +349,7 @@ If I knew that, I wouldn't be in any trouble!
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0384", 100>
-\\@TEXT_ID@<230>
+
 /*-comment-
 アタシがちょっかいかけられるのは
 都古クンだけなんだけどさぁ。
@@ -358,7 +360,7 @@ lil Miyako, that's all.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0385", 100>
-\\@TEXT_ID@<240>
+
 /*-comment-
 コタツで寝落ちしてふっと目を覚ましたら、
 そこの甲冑ガールが不安そうに俯いてたワケ。
@@ -372,7 +374,7 @@ uneasy, with her gaze cast downward.
 \\@CHARA_IN@< 0, 20, 207, 0, 1>
 \\@CHARA_EMOVE@<0, -1, 2>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0115", 100>
-\\@TEXT_ID@<250>
+
 /*-comment-
 はい。途方に暮れていたわたしを、
 ネコアルクさんが励ましてくれたのです。
@@ -385,7 +387,7 @@ words of encouragement when I was lost and confused.
 \\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
 \\@CHARA_IN@< 0, 19, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0386", 100>
-\\@TEXT_ID@<260>
+
 /*-comment-
 ね？　いい子っしょ？
 何よりルックスがいい。マイティ＆ブレイブ。
@@ -399,60 +401,63 @@ Especially her looks. MIGHTY & BRAVE.
 \\@CHARA_SET_PATTERN@<4, 3>//やれやれ
 \\@CHARA_IN@< 0, 19, 107, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0387", 100>
-\\@TEXT_ID@<270>
+
 /*-comment-
 どこかの誰かさんの完全武装？　とかいうの？
 とは基本コンセプトからして違うんだよなぁ。
 */
 Neco_Arc
-You know that Powered-something person? Or whatever they were called?
-This gal's different from her, right down to their fundamental concepts.
+You know that Powered-something person? Or whatever?
+This gal's different from her, 
+right down to her fundamental concept.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0388", 100>
-\\@TEXT_ID@<280>
+
 /*-comment-
 重火器にギロチン刃とか、ヒロインとして
 あるまじき殺意ニャんだよねー。
 P: Need cat pun here.
 */
 Neco_Arc
-Goin' around with heavy weaponry, guillotine blades, and whatever else
-is some bloodthirsty-ass behavior for a heroine, don'tcha think?
+Goin' around with heavy weaponry, guillotine blades,
+and whatever else is some bloodthirsty-ass behavior 
+for a heroine, don'tcha think?
 
 \\@CHARA_FOCUS_COLOR@<-1,1>//全てを暗く
 \aw
 
 \\@SYSTEM@<100>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNci/NpcNci08_0003", 100>
-\\@TEXT_ID@<290>
+
 /*-comment-
 ―――ただの愉快犯のようですね。
 では、望み通り冷徹に処断します。とう！（↑）
 */
 Neco_Ciel_Hatena
 ...It appears to have been a crime of passion.
-As you wish then. I shall show no mercy in executing you. Hee-ya （↑）
+As you wish then.
+I shall show no mercy in executing you. Hee-ya （↑）
 
 \\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
 \\@SYSTEM@<131>
 \\@CHARA_IN@< 0, 19, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0389", 100>
-\\@TEXT_ID@<300>
+
 /*-comment-
 （バカめ、挑発に乗ったな！
 　地面に降りてきたシエルなぞ恐るるに足らず！）
 */
 Neco_Arc
 （You fool! You fell for my provocations!
- There is nothing about Ciel worthy of fearing once her feet has hit the ground!）
-
+ There is nothing about Ciel worthy of fearing
+ once her feet has hit the ground!）
 \l
 
 
 \\@CHARA_SET_PATTERN@<4, 1>//万歳
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0390", 100>
-\\@TEXT_ID@<310>
+
 /*-comment-
 （アタシの爪で、あのセクスィーな法衣を
 　《水玉模様＜ズタズタ＞にしてやらァ！）
@@ -472,7 +477,7 @@ Neco_Arc
 
 \\@CHARA_IN@< 1, 56, -1, 0, 1>//ネコシエル
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcNci/NpcNci08_0004", 100>
-\\@TEXT_ID@<320>
+
 /*-comment-
 しゅた（↓）。覚悟なさい、不良品饅頭！
 この街に、アナタの居場所はありません！
@@ -488,7 +493,7 @@ There's no place for you in this city!
 // \\@CHARA_IN@< 0, 19, 105, 0, 1>
 \\@CHARA_IN@< 0, 19, 116, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0391", 100>
-\\@TEXT_ID@<330>
+
 /*-comment-
 ……………………。
 あっれぇー？

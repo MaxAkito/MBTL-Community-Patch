@@ -69,7 +69,8 @@ Neco_Arc
 ネコはいつだって夏への扉を探すものだから。
 */
 But I shant yield, nor surrender, nor unplug my internet.
-It's in a Necos blood to keep looking for the door which leads to summer!
+It's in a Necos blood to keep looking
+for the door which leads to summer!
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0090", 100>
 
@@ -89,7 +90,8 @@ Neco_Arc
 アタシは猫に優しい主人公を評価しているだけさ。
 */
 What's with the giggling, huh?
-All I'm saying is I think highly of protagonists who treat cats well.
+All I'm saying is I think highly of
+protagonists who treat cats well.
 \l
 
 
@@ -178,7 +180,8 @@ Mash
 どんな結末が待っていても心を鋼にする覚悟です！
 */
 Mash Kyrielight, on duty!
-No matter what lies ahead, my steel-clad resolve shall never waver!
+No matter what lies ahead,
+my steel-clad resolve shall never waver!
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0336", 100>
@@ -199,8 +202,9 @@ Neco_Arc
 皆さんも、最後の落ちまで見えてきましたね？
 あーあ、イヤな予感しかしねえニャーーーァ！
 */
-And you people on the other side of the screen, you see where
-this is going, right? Oh boy, I've got a reeeaaal bad feeling about this!
+And you people on the other side of the screen, 
+you see where this is going, right?
+Oh boy, I've got a reeeaaal bad feeling about this!
 
 
 

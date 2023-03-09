@@ -110,7 +110,8 @@ Neco_Arc
 絶対にない、と言い切れない別のアタシ。
 */
 Hmm... The existence of innumerable possibilities...
-Another me, which as much as I want to deny it, seems to exist as well.
+Another me, which as much as I want to deny it, 
+seems to exist as well.
 \l
 
 
@@ -222,8 +223,9 @@ Neco_Arc
 『いるだけで世界が揺らぐミスキャスト』……ふ。
 ネコの使い途をネコ以上によく理解しているようです。
 */
-'A miscasting whose mere presence is enough to destabilize the world'... Hmph.
-Seems you've got better understanding of the Nekos than they themselves do.
+'A miscasting whose mere presence is enough to destabilize
+the world'... Hmph. Seems you've got better understanding of
+the Nekos than they themselves do.
 \l
 
 \\@CHARA_SET_PATTERN@<5, 0>//
@@ -250,7 +252,8 @@ Kohaku_Hatena
 /*comment
 アナタは世界にとって剥離剤になりえるのです。
 */
-You have the possibility of becoming the stripping agent for the world.
+You have the possibility of becoming 
+the stripping agent for the world.
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0112", 100>
@@ -260,8 +263,9 @@ Kohaku_Hatena
 異物であるアナタはこの世界の法則に守られない。
 最弱です。きっと誰にも勝てません。
 */
-Foreign entities likes you cannot be protected by the world's rules. 
-Nobody is weaker than you. I bet you won't be able to win against anyone else.
+Foreign entities like you aren't protected by the world's rules. 
+Nobody is weaker than you.
+I bet you won't be able to win against anyone else.
 
 /*-auto-*/\\@VOICE_PLAY@<0, "04Koh/Koh08_0113", 100>
 
@@ -409,8 +413,9 @@ Mash
 でも内密な話のようなのでこれ以上近づく事は……
 終わるまで待っているべきでしょうか……あ。
 */
-Still, it appears they're talking in secret so I can't really get closer.
-Perhaps it would be prudent to wait until they're done... Oh, oops.
+Still, it appears they're talking in secret so I can't really
+get closer. Perhaps it would be prudent to wait until they're done.
+Oh, oops.
 
 \\@CHARA_SET_MVNAME@<4, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
 \\@CHARA_SET_MVNAME@<8, "JumpActionTiming">//Param3==1ならFrameID100に飛ばす
@@ -595,7 +600,8 @@ Neco_Kohaku
 マシュ君は平和的手段でアタシを助けてくださいねっと。
 */
 So please, don't start punching me in the stomach until I puke.
-Mash, please find a way of saving me that doesn't involve violence.
+Mash, please find a way of saving me
+that doesn't involve violence.
 
 \\@NPC_LOAD_SYNC@<4, 20, -680, 0, 0>
 \\@CHARA_SET_MVNAME@<4, "FadeIn">

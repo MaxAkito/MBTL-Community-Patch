@@ -21,7 +21,7 @@
 
 \\@CHARA_IN@< 0, 19, 101, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0340", 100>
-\\@TEXT_ID@<10>
+
 /*-comment-
 イルミネーションを裂く《雷＜いかずち＞と共に、
 ネコ、ついに降臨。目を逸らすな、現実だ。
@@ -38,7 +38,7 @@ eyes. This is reality.
 
 \\@CHARA_IN@< 0, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0341", 100>
-\\@TEXT_ID@<20>
+
 /*-comment-
 えー、ここが新しい月姫の舞台、総耶ですか？
 うん、そうや。
@@ -50,7 +50,7 @@ What was it... Souya? More like Soy-ya.
 
 \\@CHARA_IN@< 0, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0342", 100>
-\\@TEXT_ID@<30>
+
 /*-comment-
 ――――――。
 */
@@ -61,7 +61,7 @@ Neco_Arc
 \\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
 \\@CHARA_IN@< 0, 19, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0343", 100>
-\\@TEXT_ID@<40>
+
 /*-comment-
 ご機嫌麗しゅう、
 健全なダイヤグラムの皆さま。
@@ -73,7 +73,7 @@ Oh all ye whose tier-list placement is in such good health.
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0344", 100>
-\\@TEXT_ID@<50>
+
 /*-comment-
 こんにちは。《人類＜アナタ＞の気の置けない《隣人＜パートナー＞。
 エリートキャット、ネコアルクです。
@@ -96,7 +96,7 @@ the Elite Cat, Neco-Arc.
 \\@CHARA_IN@< 2, 20, 204, 0, 1>
 \\@CHARA_MUKI@<2, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0100", 100>
-\\@TEXT_ID@<60>
+
 /*-comment-
 じょ、助手のマシュ・キリエライトです。
 うわあ……ここが、２０１０年代の日本の首都！
@@ -110,7 +110,7 @@ Whoa... so this is the Japanese capital in the 2010s!
 \\@CHARA_MUKI@<2, 1>
 \\@CHARA_SET_PATTERN@<5, 2>//お辞儀
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0101", 100>
-\\@TEXT_ID@<70>
+
 /*-comment-
 ふつつかなデミ・サーヴァントですが、
 よろしくお願いしますっ！
@@ -124,26 +124,28 @@ but I am pleased to you meet you as well.
 \\@CHARA_SET_PATTERN@<4, 3>//やれやれ
 \\@CHARA_IN@< 0, 19, 107, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0345", 100>
-\\@TEXT_ID@<80>
+
 /*-comment-
 おやおや、この程度の街並に興奮するとは。
 アタシのパートナーとしちゃあまだまだ見習いですな。
 */
 Neco_Arc
-Oh my, you telling me this measly city was enough to get you excited?
-For being my partner, you sure still have a lot to learn.
+Oh my, you telling me this measly city 
+was enough to get you excited? For being
+my partner, you sure still have a lot to learn.
 
 
 \\@CHARA_IN@< 0, 19, 110, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0346", 100>
-\\@TEXT_ID@<90>
+
 /*-comment-
 マシュ君はアレかな？
 北極とか密林、そういう秘境育ちかな？
 */
 Neco_Arc
 Oh, don't tell me, Mash.
-You were raised in some secluded region like the arctic or the jungle, weren't you?
+You were raised in some secluded region 
+like the arctic or the jungle, weren't you?
 
 \\@SYSTEM@<102>
 
@@ -151,7 +153,7 @@ You were raised in some secluded region like the arctic or the jungle, weren't y
 \\@CHARA_IN@< 2, 20, 218, 0, 1>
 \\@CHARA_MUKI@<2, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0102", 100>
-\\@TEXT_ID@<100>
+
 /*-comment-
 いえ、そういうワケではないのですが……
 レイシフトではない事が新鮮で。
@@ -164,7 +166,7 @@ It's just... so novel that I'm not Rayshifting for once.
 \\@CHARA_IN@< 2, 20, 209, 0, 1>
 \\@CHARA_MUKI@<2, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0103", 100>
-\\@TEXT_ID@<110>
+
 /*-comment-
 でもネコアルクさん。ここが本当に、
 キャッツさんたちを脅かす悪の都市なのですか？
@@ -178,7 +180,7 @@ to disturb the peace of all cat-kind?
 \\@CHARA_SET_PATTERN@<4, 35>//neco
 \\@CHARA_IN@< 0, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0347", 100>
-\\@TEXT_ID@<120>
+
 /*-comment-
 そうだよ。
 この世すべての悪と言っても過言ではニャい。
@@ -193,21 +195,22 @@ I wouldn't hesitate to call it All Evil of the World, even.
 \\@CHARA_SET_PATTERN@<4, 4>//キシャ―
 \\@CHARA_IN@< 0, 19, 105, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0348", 100>
-\\@TEXT_ID@<130>
+
 /*-comment-
 １０年も放置しやがって高級ワインかってーの！
 この恨み、七代祟っても収まらねぇー！
 */
 Neco_Arc
-Does it think it's some kind of fine wine that's been aged for 10 years or something?!
-I'm tellin' ya, this kinda resentment ain't gonna go away even if you put a curse on it for seven generations!
+Does it think it's some kind of fine wine that's been aged for
+10 years or something?! This kinda resentment ain't going away
+ even if you put a curse on it for 7 generations!
 \l
 
 \\@SYSTEM@<101>
 \\@CHARA_SET_PATTERN@<4, 16>//キシャ―戻り
 \\@CHARA_IN@< 0, 19, 100, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0349", 100>
-\\@TEXT_ID@<140>
+
 /*-comment-
 はい。そういうワケで、我々選ばれた戦士が
 こうしてＭＢ界を侵略しに来たのですね。
@@ -221,41 +224,44 @@ have come invading the Melty-verse in this fashion.
 \\@CHARA_SET_PATTERN@<4, 1>//万歳
 \\@CHARA_IN@< 0, 19, 112, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0350", 100>
-\\@TEXT_ID@<150>
+
 /*-comment-
 それも強力な新キャラをひっさげて！
 《もう月姫のヤツらには頼らねぇーーー！＜もうコンパチキャラには飽き飽きだーーー！＞
 */
 Neco_Arc
 That's why I've gotta come with a strong new character in hand!
-《Can't damn well leave this to the Tsukihime peeps!!＜I'm sick and tired of all the compatible characters!!＞
+I'm sick and tired of all the compatible characters!!
+(Can't damn well leave this to the Tsukihime peeps!!)
 \l
 
 \\@SYSTEM@<101>
 \\@CHARA_SET_PATTERN@<4, 4>//キシャ―
 \\@CHARA_IN@< 0, 19, 102, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0351", 100>
-\\@TEXT_ID@<160>
+
 /*-comment-
 メカなメイド君とか、ヤニ吸ってるアタシとか、
 アイツらそもそも裏切る気満々だったンだ！
 */
 Neco_Arc
 Like that mecha maid, or that version of me smoking a cig.
-They were basically always rearing to betray me from the very start!
+They were basically always rearing
+to betray me from the very start!
 \l
 
 \\@CHARA_SET_PATTERN@<4, 2>//前後にゆらゆら
 \\@CHARA_IN@< 0, 19, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0352", 100>
-\\@TEXT_ID@<170>
+
 /*-comment-
 その点、マシュ君はいい……
 瞳が金魚すくいの水くらいにキレイだぜ……
 */
 Neco_Arc
 In that sense, You're great, Mash.
-Oh look at those eyes, as clear as the water used for goldfish scooping.
+Oh look at those eyes, as clear as 
+the water used for goldfish scooping.
 
 \\@SYSTEM@<102>
 
@@ -263,7 +269,7 @@ Oh look at those eyes, as clear as the water used for goldfish scooping.
 \\@CHARA_IN@< 2, 20, 201, 0, 1>
 \\@CHARA_MUKI@<2, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0104", 100>
-\\@TEXT_ID@<180>
+
 /*-comment-
 ありがとうございます。
 ネコアルクさんのお役に立てれば幸いです。
@@ -277,7 +283,7 @@ I'm all too happy if I can be of help.
 \\@CHARA_SET_PATTERN@<4, 5>//にゃっにゃっにゃっ
 \\@CHARA_IN@< 0, 19, 109, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0353", 100>
-\\@TEXT_ID@<190>
+
 /*-comment-
 にゃっにゃっにゃっ……見ろよこの純粋さ、
 この可憐さ。おそらく一部クリア後のマシュ君かな？
@@ -290,7 +296,7 @@ In all likelihood, you're Mash from after beating Part 1.
 \\@CHARA_SET_PATTERN@<4, 3>//やれやれ
 \\@CHARA_IN@< 0, 19, 104, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0354", 100>
-\\@TEXT_ID@<200>
+
 /*-comment-
 んじゃ、遠慮なく制圧といきますか。
 マシュ君、いっちょビルをなぎ払ってやんなさい。
@@ -301,7 +307,7 @@ Mash, knock over those buildings a little for me, would ya?
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0355", 100>
-\\@TEXT_ID@<210>
+
 /*-comment-
 それくらいできるんでしょ？
 そっちはほら、いつも世界とか救ってるって話だし。
@@ -316,7 +322,7 @@ I mean, geez, you're always saving the world or whatever.
 \\@CHARA_IN@< 2, 20, 203, 0, 1>
 \\@CHARA_MUKI@<2, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0105", 100>
-\\@TEXT_ID@<220>
+
 /*-comment-
 は、はい！
 マシュ・キリエライト、がんばります！
@@ -329,14 +335,15 @@ Mash Kyrielight, on duty!
 \\@CHARA_IN@< 2, 20, 220, 0, 1>
 \\@CHARA_MUKI@<2, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0106", 100>
-\\@TEXT_ID@<230>
+
 /*-comment-
 この盾は人理の礎。人類史を乱す悪であれば、
 確実に、優先的に粉砕します！
 */
 Mash
-This shield is the Cornerstone of Human Order. It shall pulverize
-all evil that would threaten human history without fail, and without delay.
+This shield is the Cornerstone of Human Order. 
+It shall pulverize all evil that would threaten
+human history without fail, and without delay.
 
 
 \\@CHARA_SET_PATTERN@<5, 6>//盾投げ
@@ -355,7 +362,7 @@ all evil that would threaten human history without fail, and without delay.
 // \\@CHARA_IN@< 0, 19, 113, 0, 1>
 \\@CHARA_FOCUS_COLOR@<-1,1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0356", 100>
-\\@TEXT_ID@<240>
+
 /*-comment-
 げーてぃあ！？
 */
@@ -369,7 +376,7 @@ Goeetiiaaa!?!?
 \\@CHARA_IN@< 2, 20, 204, 0, 1>
 \\@CHARA_MUKI@<2, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0107", 100>
-\\@TEXT_ID@<250>
+
 /*-comment-
 ！？
 なぜネコアルクさんにラウンドシールドが！？
@@ -387,27 +394,29 @@ Why did my Round Shield go for Neco-Arc!?
 \\@CHARA_SET_PATTERN@<4, 8>//よろよろ立ち上がり
 \\@CHARA_IN@< 0, 19, 113, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0357", 100>
-\\@TEXT_ID@<260>
+
 /*-comment-
 ふふふ。はじめての都会で緊張してたのかな？
 ところで、アタシがいる時はその盾は投げないでね。
 */
 Neco_Arc
-Heh-heh-heh... I guess first time in the city got you nervous?
-Apropos nothing, make sure not to throw that shield when I'm around. 
+Heh-heh-heh... I guess first time in the city got 
+you nervous? Apropos nothing, make sure not to 
+throw that shield when I'm around. 
 \l
 
 \\@CHARA_SET_PATTERN@<4, 38>//neco
 \\@CHARA_IN@< 0, 19, 106, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0358", 100>
-\\@TEXT_ID@<270>
+
 /*-comment-
 まあいいや、ビルはアタシのビームでなぎ払おっと☆
 マシュ君はタンク役としてアタシの護りを―――
 */
 Neco_Arc
-Oh weeell, guess I'll take knock over the buildings with my beams ☆
-Mash, do your tank stuff and protect me inst--
+Oh weeell, guess I'll take knock over 
+the buildings with my beams ☆ Mash, do 
+your tank stuff and protect me inst--
 
 
 \\@SYSTEM@<100>
@@ -428,29 +437,30 @@ Mash, do your tank stuff and protect me inst--
 
 \\@SYSTEM@<100>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcAnn/NpcAnn08_0000", 100>
-\\@TEXT_ID@<280>
+
 /*-comment-
 NECO反応が検出されました。
 NECO反応が検出されました。
 */
 Announce
-NECO RESPONSE DETECTED.
-NECO RESPONSE DETECTED.
+NECO READING DETECTED.
+NECO READING DETECTED.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcAnn/NpcAnn08_0001", 100>
-\\@TEXT_ID@<290>
+
 /*-comment-
 区民の皆さんは所定の場所に、
 得意な武器を持ってやる気全開で出動してください。
 */
 Announce
 ALL WARD RESIDENTS, PROCEED TO DESIGNATED LOCATIONS.
-PLEASE MOBILIZE WITH YOUR PREFERRED WEAPON AND ENTHUSIASM TO SPARE.
+PLEASE MOBILIZE WITH YOUR PREFERRED 
+WEAPON AND ENTHUSIASM TO SPARE.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcAnn/NpcAnn08_0002", 100>
-\\@TEXT_ID@<300>
+
 /*-comment-
 この街ではNECOと名のつく生命体は
 厳しく管理・禁止されています。
@@ -461,7 +471,7 @@ CONTROLLED AND FORBIDDEN IN THIS CITY.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcAnn/NpcAnn08_0003", 100>
-\\@TEXT_ID@<310>
+
 /*-comment-
 生け捕りは１ランクアップ相当の。
 抹殺は２ランクアップ相当の懸賞金が与えられます。
@@ -472,7 +482,7 @@ WHILE KILLING ONE WILL NET ONE CORRESPONDING TO 2 RANK-UPS.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcAnn/NpcAnn08_0004", 100>
-\\@TEXT_ID@<320>
+
 /*-comment-
 繰り返します。
 たった今、NECO反応が検出され―――
@@ -480,11 +490,11 @@ WHILE KILLING ONE WILL NET ONE CORRESPONDING TO 2 RANK-UPS.
 */
 Announce
 I REPEAT.
-NECO RESPONSE HAS JUST BEEN DETECTED.
+NECO READING HAS JUST BEEN DETECTED.
 
 \\@SYSTEM@<120>
 /*-auto-*/\\@VOICE_PLAY@<0, "NpcKum/NpcKum08_0000", 100>
-\\@TEXT_ID@<330>
+
 /*-comment-
 うおおおおおーーーー！
 新鮮なNECOキャラだ、荒らせーーーー！
@@ -499,24 +509,26 @@ It's a new Neco-character! Fuck 'em up!!
 \\@SYSTEM@<121>
 \\@CHARA_IN@< 0, 19, 105, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0359", 100>
-\\@TEXT_ID@<340>
+
 /*-comment-
 群衆が武装して襲いかかってくるだとぅ！？
 */
 Neco_Arc
-You really telling me the populace is armed and about to attack us?!
+You really telling me the populace
+is armed and about to attack us?!
 \l
 
 \\@SYSTEM@<101>
 /*-auto-*/\\@VOICE_PLAY@<0, "19Nec/Nec08_0360", 100>
-\\@TEXT_ID@<350>
+
 /*-comment-
 リメイクして物騒になったとは聞いてたけど、
 ここまで民度がフランス革命とは、おのれシエル！
 */
 Neco_Arc
 I heard they'd become really dangerous after the remake,
-but to think public morals had gotten so French Revolution! Damn you Ciel!
+but to think public morals had gotten so French Revolution!
+Damn you Ciel!
 
 
 \\@BGM_STOP@<0>

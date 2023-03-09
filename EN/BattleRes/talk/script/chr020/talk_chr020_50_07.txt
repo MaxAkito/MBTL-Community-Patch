@@ -18,19 +18,19 @@
 
 \\@CHARA_IN@< 0, 20, 214, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0170", 100>
-\\@TEXT_ID@<10>
+
 Mash
 /*-comment-
 街の地下にこんな空洞が……
 中心にある祭壇、床と天井に刻まれた紋様……
 */
-You wouldn't think there'd be a such a big cavern beneath the city..
+To think there'd be a such a big cavern beneath the city..
 This central altar, the floor, the ceiling...
 They've all got these patterns engraved into them.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0171", 100>
-\\@TEXT_ID@<20>
+
 Mash
 /*-comment-
 アニムスフィアの系統とは違いますが、
@@ -41,14 +41,14 @@ but they're equal in terms of complexity, at least.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0172", 100>
-\\@TEXT_ID@<30>
+
 Mash
 /*-comment-
 日本に魔術協会は存在しない。
 なのに、どうやってこんな高度な術式を……？
 */
 The Mages Association doesn't exist in Japan.
-But then, how could there be such an advanced formula here...?
+But then, how could there be such an advanced spell here...?
 
 \\@NPC_LOAD_SYNC@<5, 5, 320, 0, 1>
 \\@CHARA_SET_MVNAME@<5, "FadeIn">
@@ -60,32 +60,34 @@ But then, how could there be such an advanced formula here...?
 
 \\@CHARA_IN@< 1, 5, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0010", 100>
-\\@TEXT_ID@<40>
+
 Roa
 /*-comment-
 内容は理解はできずとも、ものの本質……
 カタチの美しさは感じ取れている。
 */
-Even if you do you comprehend its inner workings,
-you're able to grasp at its essence, and the beauty of its form.
+Even if you do not comprehend its inner workings,
+you're able to grasp at its essence, 
+and the beauty of its form.
 \l
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0011", 100>
-\\@TEXT_ID@<50>
+
 Roa
 /*-comment-
 悪くない、合格だお嬢さん。
 １４代目の『私』なら《第四階梯＜夜属＞として生徒にしている……
 */
-Not bad. I'll give you a passing grade, little lady.
-The 14th 'me' would've taken you under their wing as a Nightkin.
+Not bad. I'll give you a passing grade,
+little lady. The 14th 'me' would've surely 
+taken you under their wing as a Nightkin.
 \l
 
 \\@CHARA_SET_PATTERN@<5, 6>//すんっ…
 \\@CHARA_IN@< 1, 5, 2, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0012", 100>
-\\@TEXT_ID@<60>
+
 Roa
 /*-comment-
 うん？　なんだ、魂が混ざっているな？
@@ -95,20 +97,21 @@ Hm? Oh, there's another soul in you, isn't there?
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0013", 100>
-\\@TEXT_ID@<70>
+
 Roa
 /*-comment-
 人間と霊体のコンテンポラリー。
 過去のものを“今に生きる”ものと合わせている。
 */
 A human and spiritual body in contemporaneous union.
-The alignment of a thing of the past with a thing of the currently living.
+The alignment of a thing of the past 
+with a thing of the currently living.
 \l
 
 \\@CHARA_SET_PATTERN@<5, 2>//ポリポリ
 \\@CHARA_IN@< 1, 5, 7, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0014", 100>
-\\@TEXT_ID@<80>
+
 Roa
 /*-comment-
 ……まったく。
@@ -119,19 +122,20 @@ Quite audacious to perform such an experiment.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0015", 100>
-\\@TEXT_ID@<90>
+
 Roa
 /*-comment-
 それではいずれ■■として生きねばならなくなる。
 永遠を騙る死徒なんぞよりおぞましい結末だ。
 */
 It means you'll have to eventually live as a ■■.
-A fate more terrible than even that of the Dead Apostles and their false eternity.
+A fate more terrible than even that of the
+Dead Apostles and their false eternity.
 
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 20, 208, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0173", 100>
-\\@TEXT_ID@<100>
+
 Mash
 /*-comment-
 貴方がこの地下の主、なのですか……？
@@ -145,7 +149,7 @@ I heard they were a vampire, so I'd imagined they'd be more...
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 5, 1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0016", 100>
-\\@TEXT_ID@<110>
+
 Roa
 /*-comment-
 邪悪な怪物を《想像＜イメージ＞していたかな？
@@ -157,31 +161,33 @@ I very much am. You don't have to worry on that front.
 
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0017", 100>
-\\@TEXT_ID@<120>
+
 Roa
 /*-comment-
 今は寝起きで肉体の意識が沈殿しているだけさ。
 すぐに撹拌され、『私』という『私』が混ざり合う。
 */
-It's just that I recently woke up, so my body's consciousness is still below the surface.
-Soon, it shall stir, and then, 'I' will merge back into 'me'.
+It's just that I recently woke up, so my body's consciousness
+is still below the surface. Soon, it shall stir, and then, 
+'I' will merge back into 'me'.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0018", 100>
-\\@TEXT_ID@<130>
+
 Roa
 /*-comment-
 立ち去るのなら今のうちだ。
 私も、英霊もどきの血など吸いたくはないからね。
 */
 If you are to depart, now's the time.
-Not as if I'd want to suck the blood of some false Heroic Spirit either.
+Not as if I'd want to suck the blood 
+of some false Heroic Spirit either.
 
 \\@CHARA_SET_PATTERN@<4, 0>//
 \\@SYSTEM@<101>
 \\@CHARA_IN@< 0, 20, 203, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0174", 100>
-\\@TEXT_ID@<140>
+
 Mash
 /*-comment-
 ……いえ。
@@ -194,7 +200,7 @@ I'll only depart from here once you lay defeated on the ground.
 
 \\@CHARA_IN@< 0, 20, 214, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0175", 100>
-\\@TEXT_ID@<150>
+
 Mash
 /*-comment-
 貴方に似た方を知っています。
@@ -203,7 +209,7 @@ I know of someone quite like you.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0176", 100>
-\\@TEXT_ID@<160>
+
 Mash
 /*-comment-
 高い知性と深い感情を持ち、
@@ -214,7 +220,7 @@ yet at the same time, capable of great cruelty.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0177", 100>
-\\@TEXT_ID@<170>
+
 Mash
 /*-comment-
 わたしはカルデアのデミ・サーヴァント、
@@ -224,7 +230,7 @@ I am the Demi-Servant of Chaldea, Mash Kyrielight.
 \l
 
 /*-auto-*/\\@VOICE_PLAY@<0, "20Mas/Mas08_0178", 100>
-\\@TEXT_ID@<180>
+
 Mash
 /*-comment-
 かつて第一の獣と戦ったものとして、
@@ -237,27 +243,29 @@ I shall now face you.
 \\@SYSTEM@<102>
 \\@CHARA_IN@< 1, 5, 0, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0019", 100>
-\\@TEXT_ID@<190>
+
 Roa
 /*-comment-
 いい《表情＜かお＞だ、一丁前に叫びやがる！
 では、死という治療を始めよう！
 */
 Now that's the look of someone shouting like they're hotshit!
-Sure, let's begin. The treatment I will be administering is death!
+Sure, let's begin. 
+The treatment I will be administering is death!
 \l
 
 
 \\@CHARA_IN@< 1, 5, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "05Roa/Roa08_0020", 100>
-\\@TEXT_ID@<200>
+
 Roa
 /*-comment-
 世紀の大手術だが、なに、お代は結構だ！
 その盾ひとつで充分におつりがくるさ！
 */
 It'll be the surgery of the century! But oh, don't worry.
-I won't be taking a cent! Your shield will cover the costs just fine!
+I won't be taking a cent! 
+Your shield will cover the costs just fine!
 
 \\@BGM_STOP@<0>
 \e

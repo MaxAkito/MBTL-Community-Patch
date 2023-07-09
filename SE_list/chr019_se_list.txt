@@ -1,0 +1,454 @@
+__dofile__("./script/btl_SEDefine.txt"); //ＳＥ定数
+
+local path = "./se/normal_se/"; // ファイルパス、登録しやすいように
+local btlpath = "./se/battle_se/";
+local chrpath = btlpath + "chr019/";
+local spepath = path + "special/";
+
+SeList_Table <-
+{
+	TableNum = 1, // SEセレクトとかでのプログラム側参照用、テーブル最大値を入れておく
+	UseTable = 0, // 何番目のテーブルを使うか
+	Path = [],	// パス設定簡略化用
+	Status = [],	// 実際に再生時に使われる配列
+	
+	//これが-1以外だとカラーに応じてSeList_Table.Pathのn番目のフォルダが勝手に切り替わる（デフォルトは-1）
+	//BattlePath = 1ならpath=1で定義してる音声のパスが書き換わる
+	BattlePath = 1, // 対戦中に使うSEのPath番号 ※ネコシリーズ用
+};
+
+// ※並び順変えるとBattlePathの値も変える必要がある
+SeList_Table.Path.append( path ); //Path[0]→path=0　省略可
+SeList_Table.Path.append( chrpath ); //Path[1]→path=1 キャラのボイス
+SeList_Table.Path.append( spepath ); //Path[2]→path=2 AD・LA用seのフォルダ
+
+SeList_Table.Status.resize(750); // 確保
+local st = SeList_Table.Status; // 登録しやすいように省略
+
+//汎用エフェクトから呼ばれるので定義必須
+st[20] = {  volumetype=0, type=-1, file="Move_Landing", }; // 着地
+st[42] = {  volumetype=0, type=-1, file="Move_RerereDash" }; // 前ダッシュ（レレレ走り）
+st[44] = {  volumetype=0, type=-1, file="Move_DashStop"     }; // ダッシュ停止
+
+st[50] = { volumetype=0, path=2, type=-1, file="Cmn_BombKaboom" }; // 爆発（ちゅどーん） 通常投げ
+st[51] = { volumetype=0, path=2, type=-1, file="Atk_EyeBeam" }; // 目からビーム
+st[52] = { volumetype=0, path=2, type=-1, file="Atk_FrameShort" }; // 火炎放射
+st[53] = { volumetype=0, path=2, type=-1, file="Cmn_SpaceQuake" }; // ゴゴゴゴ
+st[54] = { volumetype=0, path=2, type=-1, file="Cmn_SandSweep" }; // 砂掻き
+st[55] = { volumetype=0, path=2, type=-1, file="Cmn_ElectronicSound" }; // 電子音
+st[56] = { volumetype=0, path=2, type=-1, file="Cmn_ShortHolyPow" }; // エコアルク登場
+st[57] = { volumetype=0, path=2, type=-1, file="Cmn_BigSmoke" }; // 煙幕
+st[58] = { volumetype=0, path=2, type=-1, file="Cmn_FalledCan" }; // 落下缶
+st[59] = { volumetype=0, path=2, type=-1, file="Cmn_ItemGet" }; // アイテム取得
+st[60] = { volumetype=0, path=2, type=-1, file="Cmn_Summon" }; // 召喚陣
+st[61] = { volumetype=0, path=2, type=-1, file="Cmn_Appearance" }; // 召喚物出現
+st[62] = { volumetype=0, path=2, type=-1, file="Atk_MetalDocking" }; // 合体音（J214EX）
+
+st[70] = { volumetype=0, path=2, type=-1, file="Cmn_BalloonBurst" }; // 風船破裂
+st[71] = { volumetype=0, path=2, type=-1, file="Cmn_PowerDown" }; // パワーダウン
+
+st[80] = { volumetype=0, path=2, type=-1, file="Cmn_ShakeSpring" }; // ボヨン
+st[81] = { volumetype=0, path=2, type=-1, file="Cmn_RocketBoost" }; // ロケット発射
+
+st[90] = { volumetype=0, path=2, type=-1, file="Cmn_Whirlwind" }; // 風の音（エコアルクで使用）
+
+
+// 共通
+// 登場（3秒程度）
+st[100] = { volumetype=1, path=1, file="nec00_2000", type=0, category=1, userparam=130 }; // じゃんじゃじゃ～ん
+st[101] = { volumetype=1, path=1, file="nec00_2001", type=0, category=1, userparam=191 }; // にゃっにゃにゃにゃにゃっにゃっにゃっ……
+st[102] = { volumetype=1, path=1, file="nec00_2002", type=0, category=1, userparam=178 }; // 気をつけな、飛び出すぜ？
+st[103] = { volumetype=1, path=1, file="nec00_2003", type=0, category=1, userparam=333 }; // おいおい、サインは断って……あ、違う？　バトル？　そっかー。
+st[104] = { volumetype=1, path=1, file="nec00_2004", type=0, category=1, userparam=165 }; // ネコ、地獄にまっしぐら！
+st[105] = { volumetype=1, path=1, file="nec00_2005", type=0, category=1, userparam=153 }; // 人類ネコ、顕現！
+
+// 対都古
+st[110] = { volumetype=1, path=1, file="nec00_2007", type=0, category=1, userparam=268 }; // 理解しろチャイナ、アタシは心を入れ替えたンだ
+
+// 対遠野志貴
+st[111] = { volumetype=1, path=1, file="nec00_2009", type=0, category=1, userparam=274 }; // ニャニャニャ。お灸を据えてやるぜギルティボーイ？
+
+// 対シエル
+st[112] = { volumetype=1, path=1, file="nec00_2011", type=0, category=1, userparam=241 }; // シエル、なんか若くない？　また年齢詐称か？
+
+// 対アルクェイド
+st[113] = { volumetype=1, path=1, file="nec00_2012", type=0, category=1, userparam=261 }; // 美しい……鏡を見ているようだ、ぜ？
+
+// 対遠野秋葉
+st[114] = { volumetype=1, path=1, file="nec00_2013", type=0, category=1, userparam=330 }; // 素直になれよお嬢。一緒に眼鏡わからせようぜ？
+
+// 対マシュ
+st[115] = { volumetype=1, path=1, file="nec00_2015", type=0, category=1, userparam=148 }; // マシュ君の優しさを信じて！
+st[116] = { volumetype=1, path=1, file="nec00_2016", type=0, category=1, userparam=91 }; // 地獄かよ
+
+// 対巌窟王
+st[117] = { volumetype=1, path=1, file="nec00_2018", type=0, category=1, userparam=160 }; // ニャんだよ その恩讐反応って
+
+
+// 後が無くなったラウンドの開幕（2秒程度）
+st[120] = { volumetype=1, path=1, file="nec00_2020", type=0, category=3 }; // あつまれ、恨みパワー！
+st[121] = { volumetype=1, path=1, file="nec00_2021", type=0, category=3 }; // ブチギレですよ！？
+st[122] = { volumetype=1, path=1, file="nec00_2022", type=0, category=3 }; // ニボシが足りねえ！
+
+// ラウンド勝利（3秒程度）
+st[125] = { volumetype=1, path=1, file="nec00_2023", type=0, category=1, userparam=92 }; // いえ～い
+st[126] = { volumetype=1, path=1, file="nec00_2024", type=0, category=1, userparam=108 }; // ういーん（WINの意）
+st[127] = { volumetype=1, path=1, file="nec00_2025", type=0, category=1, userparam=112 }; // シャイニングキャッツ！
+st[128] = { volumetype=1, path=1, file="nec00_2026", type=0, category=1, userparam=178 }; // お前も～ネコミミになれ
+
+// 対ネコアルク
+st[130] = { volumetype=1, path=1, file="nec00_2027", type=0, category=1, userparam=238 }; // ネコを超えるものはネコだけなのさ……
+
+// 対サーヴァント
+st[131] = { volumetype=1, path=1, file="nec00_2028", type=0, category=1, userparam=182 }; // この奇跡、ＳＳＲ！
+
+// 決着勝利・汎用（3秒程度）
+st[135] = { volumetype=1, path=1, file="nec00_2029", type=0, category=1, userparam=201 }; // 勝っているなら、ネコだって生きてける
+st[136] = { volumetype=1, path=1, file="nec00_2030", type=0, category=1, userparam=218 }; // にゃにゃにゃ、体はネコで出来ている
+st[137] = { volumetype=1, path=1, file="nec00_2031", type=0, category=1, userparam=89 }; // ういにんぐ！
+st[138] = { volumetype=1, path=1, file="nec00_2032", type=0, category=1, userparam=159 }; // 昼飯はにゃかうじゃにゃいのか！？
+
+// 決着勝利・辛勝（3秒程度）
+st[139] = { volumetype=1, path=1, file="nec00_2033", type=0, category=1, userparam=258 }; // 危なかった……このネコ缶がなかったら死んでいたよ？
+
+// 決着勝利・楽勝（3秒程度）
+st[140] = { volumetype=1, path=1, file="nec00_2034", type=0, category=1, userparam=161 }; // どした？　財布でも落としたのか？
+
+// 対志貴
+st[145] = { volumetype=1, path=1, file="nec00_2035", type=0, category=1, userparam=180 }; // 祝！　ネコルート開始！
+
+// 対シエル
+st[146] = { volumetype=1, path=1, file="nec00_2036", type=0, category=1, userparam=157 }; // 今回もスパイシーだったぜ
+
+// 対都古
+st[147] = { volumetype=1, path=1, file="nec00_2037", type=0, category=1, userparam=216 }; // 修業しなおしてくるんだな、都古クン
+st[148] = { volumetype=1, path=1, file="nec00_2037", type=0, category=1, userparam=187 }; // 修業しなおしてくるんだな、チャイナ ※ネコシリーズ専用、ファイル番号は同じだがセリフが違う userparamはネコシエルにあわせてある
+
+// 待機モーション（2秒程度）
+st[150] = { volumetype=1, path=1, file="nec00_2038", type=0, category=1 }; // 今夜、アナタの精神は肉体を離れやっべえ体験をするのです。それが―――グレート・キャッツ・ターイム。
+st[151] = { volumetype=1, path=1, file="nec00_2039", type=0, category=1 }; // もう何もしない、という選択。汝、右の頬にコンボくらったら、左の頬にもコンボくらうべし。
+ 
+// タイムアップ判定負け（3秒程度）
+st[155] = { volumetype=1, path=1, file="nec00_2040", type=0, category=1 }; // ずっりぃー、ネコの陪審員を要求する！
+st[156] = { volumetype=1, path=1, file="nec00_2041", type=0, category=1 }; // あと5秒で大逆転だったんだけどにゃー
+
+
+
+
+// 弱攻撃（0.08～0.18秒程度）
+st[160] = { volumetype=1, path=1, file="nec00_2100_a", type=0, category=1 }; // ふ
+st[161] = { volumetype=1, path=1, file="nec00_2101_a", type=0, category=1 }; // や
+st[162] = { volumetype=1, path=1, file="nec00_2102_a", type=0, category=1 }; // にゃ
+st[163] = { volumetype=1, path=1, file="nec00_2100_b", type=0, category=1 }; // ふ
+st[164] = { volumetype=1, path=1, file="nec00_2101_b", type=0, category=1 }; // や
+st[165] = { volumetype=1, path=1, file="nec00_2102_b", type=0, category=1 }; // にゃ
+
+// 中攻撃（0.1～0.3秒程度）
+st[166] = { volumetype=1, path=1, file="nec00_2103_a", type=0, category=1 }; // ふん
+st[167] = { volumetype=1, path=1, file="nec00_2104_a", type=0, category=1 }; // やっ
+st[168] = { volumetype=1, path=1, file="nec00_2105_a", type=0, category=1 }; // にゃにゃ
+st[169] = { volumetype=1, path=1, file="nec00_2103_b", type=0, category=1 }; // ふん
+st[170] = { volumetype=1, path=1, file="nec00_2104_b", type=0, category=1 }; // やっ
+st[171] = { volumetype=1, path=1, file="nec00_2105_b", type=0, category=1 }; // にゃにゃ
+
+// 強攻撃（0.2～0.6秒程度）
+st[172] = { volumetype=1, path=1, file="nec00_2106_a", type=0, category=1 }; // はっ！
+st[173] = { volumetype=1, path=1, file="nec00_2107_a", type=0, category=1 }; // やっ！
+st[174] = { volumetype=1, path=1, file="nec00_2108_a", type=0, category=1 }; // にゃにゃにゃ！
+st[175] = { volumetype=1, path=1, file="nec00_2106_b", type=0, category=1 }; // はっ！
+st[176] = { volumetype=1, path=1, file="nec00_2107_b", type=0, category=1 }; // やっ！
+st[177] = { volumetype=1, path=1, file="nec00_2108_b", type=0, category=1 }; // にゃにゃにゃ！
+
+// 浮かせ攻撃（0.3～0.85秒程度）
+st[180] = { volumetype=1, path=1, file="nec00_2109", type=0, category=3 }; // アデュー！
+st[181] = { volumetype=1, path=1, file="nec00_2110", type=0, category=3 }; // ロケット！
+st[182] = { volumetype=1, path=1, file="nec00_2111", type=0, category=3 }; // はじまるよ！
+st[183] = { volumetype=1, path=1, file="nec00_2112", type=0, category=3 }; // エビのように！
+
+// 吹き飛ばし攻撃（0.3～0.85秒程度）
+st[190] = { volumetype=1, path=1, file="nec00_2113", type=0, category=1 }; // 死ぬなっ！
+st[191] = { volumetype=1, path=1, file="nec00_2114", type=0, category=1 }; // 吹き飛べぃ！
+st[192] = { volumetype=1, path=1, file="nec00_2115", type=0, category=1 }; // さいならー
+st[193] = { volumetype=1, path=1, file="nec00_2116", type=0, category=1 }; // ビヨンド！
+
+
+// その他特殊攻撃（0.3～0.85秒程度）
+st[200] = { volumetype=1, path=1, file="nec00_2120", type=0, category=1 }; // ミラクル！
+st[201] = { volumetype=1, path=1, file="nec00_2121", type=0, category=1 }; // ぱん～ち
+st[202] = { volumetype=1, path=1, file="nec00_2122", type=0, category=1 }; // き～っく
+st[203] = { volumetype=1, path=1, file="nec00_2123", type=0, category=1 }; // キシャーッ！
+st[204] = { volumetype=1, path=1, file="nec00_2124", type=0, category=1 }; // 肉球！
+st[205] = { volumetype=1, path=1, file="nec00_2125", type=0, category=1 }; // おはよう！
+st[206] = { volumetype=1, path=1, file="nec00_2126", type=0, category=1 }; // おやすみ！
+st[207] = { volumetype=1, path=1, file="nec00_2127", type=0, category=1 }; // ガードふのー
+st[208] = { volumetype=1, path=1, file="nec00_2128", type=0, category=1 }; // いーすぽーつ
+
+// 投げ成功（空中投げも）（1秒程度）
+st[240] = { volumetype=1, path=1, file="nec00_2200", type=0, category=1 }; // ぶっころす！
+st[241] = { volumetype=1, path=1, file="nec00_2201", type=0, category=1 }; // バインド！
+st[242] = { volumetype=1, path=1, file="nec00_2202", type=0, category=1 }; // ぶいあ～～～る（ＶＲ）
+st[243] = { volumetype=1, path=1, file="nec00_2203", type=0, category=1 }; // キャッチ！
+
+// 投げ失敗（空中投げも）（1秒程度）
+st[250] = { volumetype=1, path=1, file="nec00_2204", type=0, category=1 }; // にゃぁ！
+st[251] = { volumetype=1, path=1, file="nec00_2205", type=0, category=1 }; // もらった！
+st[252] = { volumetype=1, path=1, file="nec00_2206", type=0, category=1 }; // にゃにぃ！？
+st[253] = { volumetype=1, path=1, file="nec00_2206_1", type=0, category=1 }; // どやぁ ※ネコシリーズには存在しない
+
+// 敵の投げ技を回避（1秒程度）
+st[260] = { volumetype=1, path=1, file="nec00_2207", type=0, category=1, prio=Def_SEP_ThrowTech, check=1 }; // アタシに触るな！
+st[261] = { volumetype=1, path=1, file="nec00_2208", type=0, category=1, prio=Def_SEP_ThrowTech, check=1 }; // バッボーイ（バッドボーイ）
+
+// 振り向き（0.5秒程度）
+st[270] = { volumetype=1, path=1, file="nec00_2300", type=0, category=1, prio=Def_SEP_Furimuki, }; // ん
+st[271] = { volumetype=1, path=1, file="nec00_2301", type=0, category=1, prio=Def_SEP_Furimuki, }; // ふむ
+
+// ダッシュ（空中ダッシュも）（0.5秒程度）
+st[290] = { volumetype=1, path=1, file="nec00_2305", type=0, category=1 }; // にゃにゃにゃっ！
+// st[291] = { volumetype=1, path=1, file="nec00_2306", type=0, category=1 }; // いんめるまん！
+st[292] = { volumetype=1, path=1, file="nec00_2307", type=0, category=1 }; // だ～っしゅ！
+st[293] = { volumetype=1, path=1, file="nec00_2308", type=0, category=1 }; // にゅい～～ん
+// st[294] = { volumetype=1, path=1, file="nec00_2305_a", type=0, category=1 }; // にゃにゃにゃっ！ ※ネコシリーズには存在しない
+// st[295] = { volumetype=1, path=1, file="nec00_2306_a", type=0, category=1 }; // いんめるまん！ ※ネコシリーズには存在しない
+// st[296] = { volumetype=1, path=1, file="nec00_2307_a", type=0, category=1 }; // だ～っしゅ！ ※ネコシリーズには存在しない
+
+// バックステップ（空中バックダッシュも）（0.5秒程度）
+st[300] = { volumetype=1, path=1, file="nec00_2310", type=0, category=1 }; // にゃにゃっ！
+st[301] = { volumetype=1, path=1, file="nec00_2311", type=0, category=1 }; // 当たらないにゃ～
+st[302] = { volumetype=1, path=1, file="nec00_2312", type=0, category=1 }; // 離脱する！
+
+// 弱攻撃ガード（0.5秒程度）
+st[310] = { volumetype=1, path=1, file="nec00_2400", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // んー
+st[311] = { volumetype=1, path=1, file="nec00_2401", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // にゃ
+st[312] = { volumetype=1, path=1, file="nec00_2402", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // むん
+
+// 中攻撃ガード（0.5秒程度）
+st[320] = { volumetype=1, path=1, file="nec00_2403", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // んにゃ
+st[321] = { volumetype=1, path=1, file="nec00_2404", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // むぐ
+st[322] = { volumetype=1, path=1, file="nec00_2405", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // うにゃん
+
+// 強攻撃ガード（0.5秒程度）
+st[330] = { volumetype=1, path=1, file="nec00_2406", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // うにゃにゃ
+st[331] = { volumetype=1, path=1, file="nec00_2407", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // うんうん
+st[332] = { volumetype=1, path=1, file="nec00_2408", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // にゃんとも
+
+// 攻撃を見切り余裕でガード（0.5秒程度）
+st[340] = { volumetype=1, path=1, file="nec00_2409", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // んー、若い若い
+st[341] = { volumetype=1, path=1, file="nec00_2410", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // んー、無駄無駄
+st[342] = { volumetype=1, path=1, file="nec00_2411", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 新聞お断り
+
+// ガード失敗ダメージ（0.5秒程度）
+st[350] = { volumetype=1, path=1, file="nec00_2412", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // キャット！
+st[351] = { volumetype=1, path=1, file="nec00_2413", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // スリル！
+st[352] = { volumetype=1, path=1, file="nec00_2414", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // ラブ！
+ 
+// 受け身（1～2秒程度）
+st[360] = { volumetype=1, path=1, file="nec00_2500", type=0, category=1, prio=Def_SEP_Recover }; // よっこらせ
+st[361] = { volumetype=1, path=1, file="nec00_2501", type=0, category=1, prio=Def_SEP_Recover }; // やってくれたにゃ
+st[362] = { volumetype=1, path=1, file="nec00_2502", type=0, category=1, prio=Def_SEP_Recover }; // 許すまじ！
+st[363] = { volumetype=1, path=1, file="nec00_2503", type=0, category=1, prio=Def_SEP_Recover }; // なんかした？
+
+// シールド発動（1～2秒程度）
+st[370] = { volumetype=1, path=1, file="nec00_2504", type=0, category=1 }; // 見える！多分
+st[371] = { volumetype=1, path=1, file="nec00_2505", type=0, category=1 }; // かも～ん
+st[372] = { volumetype=1, path=1, file="nec00_2506", type=0, category=1 }; // うぇるか～む
+
+// シールド成功（1～2秒程度）
+st[380] = { volumetype=1, path=1, file="nec00_2507", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // にゃにゃっ
+st[381] = { volumetype=1, path=1, file="nec00_2508", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // サマージャンボ！？
+st[382] = { volumetype=1, path=1, file="nec00_2509", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 応援ありがとう！
+st[383] = { volumetype=1, path=1, file="nec00_2510", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // にゃいす！
+
+// シールド取って反撃（0.3～0.85秒程度）
+st[390] = { volumetype=1, path=1, file="nec00_2511", type=0, category=1 }; // かうんた～
+st[391] = { volumetype=1, path=1, file="nec00_2512", type=0, category=1 }; // 復讐の時！
+st[392] = { volumetype=1, path=1, file="nec00_2513", type=0, category=1 }; // アタシのターン！
+ 
+// シールド取って回り込んで反撃（0.3～0.85秒程度）
+st[395] = { volumetype=1, path=1, file="nec00_2514", type=0, category=1 }; // 後ろですよ！？
+st[396] = { volumetype=1, path=1, file="nec00_2515", type=0, category=1 }; // さぷらいず！
+st[397] = { volumetype=1, path=1, file="nec00_2516", type=0, category=1 }; // どこを見ている！
+st[398] = { volumetype=1, path=1, file="nec00_2517", type=0, category=1 }; // おばへっ！（オーバーヘッドの意味）
+
+// 弱攻撃ダメージ（0.3秒程度）
+st[400] = { volumetype=1, path=1, file="nec00_2600", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // ぐえ
+st[401] = { volumetype=1, path=1, file="nec00_2601", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // ぎゃ
+st[402] = { volumetype=1, path=1, file="nec00_2602", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // うぐ
+
+// 中攻撃ダメージ（0.3秒程度）
+st[410] = { volumetype=1, path=1, file="nec00_2603", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // ごはっ！？
+st[411] = { volumetype=1, path=1, file="nec00_2604", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // ぎにゃっ！？
+st[412] = { volumetype=1, path=1, file="nec00_2605", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // にゃんと！？
+
+// 強攻撃ダメージ（0.5秒程度）
+st[420] = { volumetype=1, path=1, file="nec00_2606", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // たわば！
+st[421] = { volumetype=1, path=1, file="nec00_2607", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // ビーフ！？
+st[422] = { volumetype=1, path=1, file="nec00_2608", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // ぶらきゃ！
+ 
+// ダウン（1～2秒程度）
+st[430] = { volumetype=1, path=1, file="nec00_2609", type=0, category=1, prio=Def_SEP_KO }; // ボロ雑巾のようにーーーー！
+st[431] = { volumetype=1, path=1, file="nec00_2610", type=0, category=1, prio=Def_SEP_KO }; // ぎにゃぁーーーー！？
+st[432] = { volumetype=1, path=1, file="nec00_2611", type=0, category=1, prio=Def_SEP_KO }; // にゃんてこったーーー！？
+
+// ダウン・ノックアウト（2～3秒程度）
+st[440] = { volumetype=1, path=1, file="nec00_2612", type=0, category=1, prio=Def_SEP_KO }; // 末代までたーたーるーにゃー
+st[441] = { volumetype=1, path=1, file="nec00_2613", type=0, category=1, prio=Def_SEP_KO }; // ネコではダメだと言うのかーーー！
+
+// 起き上がり（1秒程度）
+st[450] = { volumetype=1, path=1, file="nec00_2614", type=0, category=1 }; // うぇいかっ！（ウェイクアップの意）
+st[451] = { volumetype=1, path=1, file="nec00_2615", type=0, category=1 }; // むくり
+
+// 起き上がり・瀕死（1秒程度）
+st[460] = { volumetype=1, path=1, file="nec00_2616", type=0, category=1 }; // ゆ、ゆる……（許して、の意）
+
+// 本気を出す（体力一定値以下で発動）（1.5秒程度）
+st[470] = { volumetype=1, path=1, file="nec00_2700", type=0, category=3 }; // カンニング！
+st[471] = { volumetype=1, path=1, file="nec00_2701", type=0, category=3 }; // 止まってみえる！
+ 
+// ゲージ溜め（1.2秒程度）
+st[480] = { volumetype=1, path=1, file="nec00_2702", type=0, category=1 }; // にゃにゃにゃにゃにゃ……
+st[481] = { volumetype=1, path=1, file="nec00_2703", type=0, category=1 }; // オーエス！　オーエス！
+
+// 強制開放（1.2秒程度）
+st[490] = { volumetype=1, path=1, file="nec00_2704", type=0, category=3 }; // ネコ集会、はじまるよ～！
+st[491] = { volumetype=1, path=1, file="nec00_2705", type=0, category=3 }; // スーパー缶切りタイム！
+st[492] = { volumetype=1, path=1, file="nec00_2706", type=0, category=3 }; // 本気にさせたにゃ！
+st[493] = { volumetype=1, path=1, file="nec00_2707", type=0, category=3 }; // 肉球全開、八卦（はっけ）良し！
+
+// 必殺技（1～2秒程度）
+// （技名：真祖ビーム）
+st[500] = { volumetype=1, path=1, file="nec00_3001", type=0, category=1 }; // えいしゃー！
+st[501] = { volumetype=1, path=1, file="nec00_3002", type=0, category=1 }; // デスビーム！
+st[502] = { volumetype=1, path=1, file="nec00_3003", type=0, category=1 }; // びぃ～～む
+st[503] = { volumetype=1, path=1, file="nec00_3004", type=0, category=1 }; // 滅びよ
+st[504] = { volumetype=1, path=1, file="nec00_3005", type=0, category=1 }; // 栄えよ
+
+// （技名：真祖ビームEX）
+st[505] = { volumetype=1, path=1, file="nec00_3007", type=0, category=1 }; // ルミナス！
+st[506] = { volumetype=1, path=1, file="nec00_3008", type=0, category=1 }; // 早すぎたんだッ！
+st[507] = { volumetype=1, path=1, file="nec00_3009", type=0, category=1 }; // 眩しくて見えねぇ！
+st[508] = { volumetype=1, path=1, file="nec00_3010", type=0, category=1 }; // 文明の光！
+
+// （技名：ワニ園に行きたいワタシ）
+st[510] = { volumetype=1, path=1, file="nec00_3012", type=0, category=1 }; // どりどりどりどり……
+st[511] = { volumetype=1, path=1, file="nec00_3013", type=0, category=1 }; // ドリル！
+st[512] = { volumetype=1, path=1, file="nec00_3014", type=0, category=1 }; // いま行く～～
+ 
+// （技名：六身分解ゴッドキャット）
+st[515] = { volumetype=1, path=1, file="nec00_3016", type=0, category=1 }; // ゴッド、キャーット！
+st[516] = { volumetype=1, path=1, file="nec00_3017", type=0, category=1 }; // 油断しましたね？
+st[517] = { volumetype=1, path=1, file="nec00_3018", type=0, category=1 }; // 引っかけろ！
+
+// （技名：アバドンフレア）
+st[520] = { volumetype=1, path=1, file="nec00_3022", type=0, category=1 }; // ぼわーーー！
+st[521] = { volumetype=1, path=1, file="nec00_3023", type=0, category=1 }; // 愛の炎ーーー！
+
+// （技名：アバドンフォース）
+st[525] = { volumetype=1, path=1, file="nec00_3026", type=0, category=1 }; // うわぁぁぁ！？（やけくそ気味に腕をグルグル回して攻撃）
+st[526] = { volumetype=1, path=1, file="nec00_3027", type=0, category=1 }; // アンタッチャブル！？
+st[527] = { volumetype=1, path=1, file="nec00_3028", type=0, category=1 }; // ひゅー、すとーん！
+
+// （技名：ネコ反復横跳び）
+st[530] = { volumetype=1, path=1, file="nec00_3030", type=0, category=1 }; // しゃしゃしゃっ！
+st[531] = { volumetype=1, path=1, file="nec00_3031", type=0, category=1 }; // ふんふんふんふん！
+st[532] = { volumetype=1, path=1, file="nec00_3032", type=0, category=1 }; // ネネネネネネネネ（ネコ　が震動でぶれている）
+
+// （技名：ネコ反復横跳びEX）
+st[535] = { volumetype=1, path=1, file="nec00_3035", type=0, category=1 }; // これがネコ光体化現象だ！
+st[536] = { volumetype=1, path=1, file="nec00_3036", type=0, category=1 }; // いんふれーしょん！
+
+// （技名：黄泉返りキャットR（リターンズ））
+st[540] = { volumetype=1, path=1, file="nec00_3040", type=0, category=1 }; // こんばんはー
+st[541] = { volumetype=1, path=1, file="nec00_3041", type=0, category=1 }; // 増える増えるー
+st[542] = { volumetype=1, path=1, file="nec00_3042", type=0, category=1 }; // 後ろだよ明智クン！
+st[543] = { volumetype=1, path=1, file="nec00_3043", type=0, category=1 }; // 昨日だよ小林クン
+
+// （技名：空中ネコ戦艦・ゴモラン）
+st[550] = { volumetype=1, path=1, file="nec00_3045", type=0, category=1 }; // ふぁいっ！
+st[551] = { volumetype=1, path=1, file="nec00_3046", type=0, category=1 }; // そぉい！
+st[552] = { volumetype=1, path=1, file="nec00_3047", type=0, category=1 }; // きっちょむ！
+
+// （技名：空中ネコ戦艦・ゴモランEX）
+st[555] = { volumetype=1, path=1, file="nec00_3050", type=0, category=1 }; // 肉球ふぁいっ！
+st[556] = { volumetype=1, path=1, file="nec00_3051", type=0, category=1 }; // エクストリーム！
+
+// （技名：ネコパケット2022）
+st[570] = { volumetype=1, path=1, file="nec00_3056", type=0, category=1 }; // ふんふ～ん♪
+st[571] = { volumetype=1, path=1, file="nec00_3057", type=0, category=1 }; // タップタップ～♪
+st[572] = { volumetype=1, path=1, file="nec00_3058", type=0, category=1 }; // スワイプスワイプ～♪
+st[573] = { volumetype=1, path=1, file="nec00_3059", type=0, category=1 }; // ポチっとにゃー
+st[574] = { volumetype=1, path=1, file="nec00_3060", type=0, category=1 }; // おっ、ナイススタンプ
+
+// （技名：ネコパケット2022EX）
+st[575] = { volumetype=1, path=1, file="nec00_3064", type=0, category=1 }; // 謎アプリ起動！
+st[576] = { volumetype=1, path=1, file="nec00_3065", type=0, category=1 }; // 何が出るかにゃ～？
+st[577] = { volumetype=1, path=1, file="nec00_3066", type=0, category=1 }; // 呼符で来ました
+
+// （技名：ラピッドビート）
+st[580] = { volumetype=1, path=1, file="nec00_3071", type=0, category=1 }; // オラオラオラオラ！
+st[581] = { volumetype=1, path=1, file="nec00_3072", type=0, category=1 }; // にゃにゃにゃにゃにゃにゃにゃにゃ！
+st[582] = { volumetype=1, path=1, file="nec00_3073", type=0, category=1 }; // ミケ！ブチ！タマ！
+
+
+// "（技名：ネコパケット2022（Vtuber化））
+st[590] = { volumetype=1, path=1, file="nec00_3076", type=0, category=4,nofade=1, userparam=107 }; // こんばんは～
+st[591] = { volumetype=1, path=1, file="nec00_3077", type=0, category=4,nofade=1, userparam=218 }; // グレキャちゃんねる、はっじまっるよ～
+st[592] = { volumetype=1, path=1, file="nec00_3078", type=0, category=4,nofade=1, userparam=160 }; // スーパーキャッツ！サンキュー！
+st[593] = { volumetype=1, path=1, file="nec00_3079", type=0, category=4,nofade=1, userparam=100 }; // 今回の配信はこのようなもの ※時間停止の影響を受けるので実際の時間よりも短いuserparamになっている
+st[594] = { volumetype=1, path=1, file="nec00_3080", type=0, category=4,nofade=1, userparam=86 }; // 今がチャンス！
+st[595] = { volumetype=1, path=1, file="nec00_3081", type=0, category=4,nofade=1, userparam=105 }; // 今のハメじゃにゃい？
+st[596] = { volumetype=1, path=1, file="nec00_3082", type=0, category=4,nofade=1, userparam=100 }; // ここで大技！
+st[597] = { volumetype=1, path=1, file="nec00_3083", type=0, category=4,nofade=1, userparam=156 }; // ペロッ、これは神ゲーの味！
+st[598] = { volumetype=1, path=1, file="nec00_3084", type=0, category=4,nofade=1, userparam=141 }; // ここからはガチャプレイで行くゾ！
+st[599] = { volumetype=1, path=1, file="nec00_3085", type=0, category=4,nofade=1, userparam=106 }; // いいよいいよー
+
+// 超必殺技（1～2秒程度）
+// アークドライブ（技名：エクスカリバルーン）
+st[600] = { volumetype=1, path=1, file="nec00_3101", type=0, category=1 }; // 出でよ我が眷属たち！（次に続く）
+// st[601] = { volumetype=1, path=1, file="nec00_3102", type=0, category=1 }; // ういにんぐ！（ヒット後の決めポーズ）
+
+st[602] = { volumetype=1, path=1, file="nec00_3104", type=0, category=1 }; // デシジョンスタート！（集まる眷属たち）
+st[603] = { volumetype=1, path=1, file="nec00_3105_s", type=0, category=2 }; // にゃああああああ！（眷属たちがやぶれかぶれに攻撃する） ※ネコシリーズの音声を組み合わせたもの カテゴリが別
+// st[604] = { volumetype=1, path=1, file="nec00_3105_a", type=0, category=1 }; // にゃああああああ！（眷属たちがやぶれかぶれに攻撃する）
+// st[605] = { volumetype=1, path=1, file="nec00_3105_b", type=0, category=1 }; // にゃああああああ！（眷属たちがやぶれかぶれに攻撃する）
+// st[606] = { volumetype=1, path=1, file="nec00_3105_c", type=0, category=1 }; // にゃああああああ！（眷属たちがやぶれかぶれに攻撃する）
+// st[607] = { volumetype=1, path=1, file="nec00_3105_d", type=0, category=1 }; // にゃああああああ！（眷属たちがやぶれかぶれに攻撃する）
+// st[608] = { volumetype=1, path=1, file="nec00_3105_e", type=0, category=1 }; // にゃああああああ！（眷属たちがやぶれかぶれに攻撃する）
+// st[609] = { volumetype=1, path=1, file="nec00_3105_f", type=0, category=1 }; // にゃああああああ！（眷属たちがやぶれかぶれに攻撃する）
+// st[610] = { volumetype=1, path=1, file="nec00_3105_g", type=0, category=1 }; // にゃああああああ！（眷属たちがやぶれかぶれに攻撃する）
+
+st[611] = { volumetype=1, path=1, file="nec00_3107", type=0, category=1 }; // この剣は星の寝言
+st[612] = { volumetype=1, path=1, file="nec00_3108", type=0, category=1 }; // まろびでるネコの奔流―――
+
+// ラストアーク（技名：未定 ロケットに乗って宇宙から落下する）
+st[620] = { volumetype=1, path=1, file="nec00_3111", type=0, category=1 }; // む、SOS信号キャッチ！（次に続く）
+st[621] = { volumetype=1, path=1, file="nec00_3112", type=0, category=1 }; // いざ宇宙へ！
+st[622] = { volumetype=1, path=1, file="nec00_3113", type=0, category=1 }; // 地球、だいばくはつ！
+
+st[630] = { volumetype=1, path=1, file="nec00_3115", type=0, category=1 }; // すまない、先約だ
+st[631] = { volumetype=1, path=1, file="nec00_3116", type=0, category=1 }; // ちょっと火星までいってくる！
+st[632] = { volumetype=1, path=1, file="nec00_3117", type=0, category=1 }; // メイド・イン・マーズ！
+
+st[640] = { volumetype=1, path=1, file="nec00_3119", type=0, category=1 }; // アセンションプリ～ズ
+st[641] = { volumetype=1, path=1, file="nec00_3120", type=0, category=1 }; // こんな星にいられるか！
+st[642] = { volumetype=1, path=1, file="nec00_3121", type=0, category=1 }; // アタシは帰らせてもらう！
+
+//オプションキャラがしゃべる台詞（category=2）
+st[650] = { volumetype=1, path=1, file="nec00_3072", type=0, category=2 }; // にゃにゃにゃにゃにゃにゃにゃにゃ！
+st[651] = { volumetype=1, path=1, file="nec00_2112", type=0, category=2 }; // エビのように！
+st[652] = { volumetype=1, path=1, file="nec00_2124", type=0, category=2 }; // 肉球！
+st[653] = { volumetype=1, path=1, file="nec00_3022", type=0, category=2 }; // ぼわーーー！
+st[654] = { volumetype=1, path=1, file="nec00_2114", type=0, category=2 }; // 吹き飛べぃ！
+st[655] = { volumetype=1, path=1, file="nec00_3026", type=0, category=2 }; // うわぁぁぁ！？（やけくそ気味に腕をグルグル回して攻撃）
+st[656] = { volumetype=1, path=1, file="nec00_3003", type=0, category=2 }; // びぃ～～む
+st[657] = { volumetype=1, path=1, file="nec00_2123", type=0, category=2 }; // キシャーッ！
+st[658] = { volumetype=1, path=1, file="nec00_3102", type=0, category=2 }; // ういにんぐ！
+st[659] = { volumetype=1, path=1, file="nec00_3030", type=0, category=2 }; // しゃしゃしゃっ！
+st[660] = { volumetype=1, path=1, file="nec00_3012", type=0, category=2 }; // どりどりどりどり……
+st[661] = { volumetype=1, path=1, file="nec00_2307", type=0, category=2 }; // だ～っしゅ！
+st[662] = { volumetype=1, path=1, file="nec00_2122", type=0, category=2 }; // き～っく
+st[663] = { volumetype=1, path=1, file="nec00_2103_a", type=0, category=2 }; // ふん
+st[664] = { volumetype=1, path=1, file="nec00_3002", type=0, category=2 }; // デスビーム！
+st[665] = { volumetype=1, path=1, file="nec00_2100_b", type=0, category=2 }; // ふ
+
+st[700] = { volumetype=1, path=1, type= 0, file="alt01_3070", category=5}; // 「エクス……　カリバー！」

@@ -1,0 +1,38 @@
+__dofile__("./script/btl_SEDefine.txt"); //ＳＥ定数
+
+local path = "./se/normal_se/"; // ファイルパス、登録しやすいように
+local btlpath = "./se/battle_se/";
+local chrpath = btlpath + "chr018/";
+local spepath = path + "special/";
+
+SeList_Table <-
+{
+	TableNum = 1, // SEセレクトとかでのプログラム側参照用、テーブル最大値を入れておく
+	UseTable = 0, // 何番目のテーブルを使うか
+	Path = [],	// パス設定簡略化用
+	Status = [],	// 実際に再生時に使われる配列
+};
+
+SeList_Table.Path.append( path ); //Path[0]
+SeList_Table.Path.append( chrpath ); //Path[1]
+SeList_Table.Path.append( btlpath ); //Path[2]
+SeList_Table.Path.append( spepath ); //Path[3]
+
+SeList_Table.Status.resize(200); // 確保
+// local st = SeList_Table.Status; // 登録しやすいように省略
+local st = array(200,0);
+
+// local tnum = SeList_Table.UseTable;
+// SeFunc.SetParam(31,tnum);//バトルsq参照用に値を戻す
+
+// 配列補足
+// [0]汎用, [1]シエル
+
+
+
+//汎用エフェクトから呼ばれるので定義必須
+st[20] = {  volumetype=0, type=-1, file="Move_Landing", }; // 着地
+st[42] = {  volumetype=0, type=-1, file="Move_Slide", }; // 前ダッシュ
+st[44] = {  volumetype=0, type=-1, file="Move_DashStop"     }; // ダッシュ停止
+
+// SeList_Table.Status = SelectVoiceTable(st,tnum);//使用するテーブルを抽選して入れる

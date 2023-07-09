@@ -1,0 +1,446 @@
+__dofile__("./script/btl_SEDefine.txt"); //ＳＥ定数
+
+local path = "./se/normal_se/"; // ファイルパス、登録しやすいように
+local btlpath = "./se/battle_se/";
+local chrpath = btlpath + "chr005/";
+local spepath = path + "special/";
+
+SeList_Table <-
+{
+	TableNum = 2, // SEセレクトとかでのプログラム側参照用、テーブル最大値を入れておく
+	UseTable = 0, // 何番目のテーブルを使うか
+	Path = [],	// パス設定簡略化用
+	Status = [],	// 実際に再生時に使われる配列
+};
+
+SeList_Table.Path.append( path ); //Path[0]
+SeList_Table.Path.append( chrpath ); //Path[1]
+SeList_Table.Path.append( btlpath ); //Path[2]
+SeList_Table.Path.append( spepath ); //Path[3]
+
+SeList_Table.Status.resize(700); // 確保
+// local st = SeList_Table.Status; // 登録しやすいように省略
+local st = array(700,0);
+
+local tnum = SeList_Table.UseTable;
+local tblnum = SeFunc.GetParam(31);
+// print("\n tblnum:"+tblnum );
+if( tblnum == -1 )
+{
+	local enemy = SeFunc.GetParam(30);
+	if( enemy == 0 || enemy == 10 ) //アルクor暴走アルク
+	{
+		tnum = 1;
+	}
+	else
+	{
+		tnum = 0;
+	}
+}
+else
+{
+	// SE TESTでの指定再生時の処理
+	tnum = tblnum;
+}
+SeFunc.SetParam(31,tnum);//バトルsq参照用に値を戻す
+
+// 配列補足
+// [0]汎用, [1]アルク系
+
+//汎用エフェクトから呼ばれるので定義必須
+st[20] = {  volumetype=0, type=-1, file="Move_Landing", }; // 着地
+st[42] = {  volumetype=0, type=-1, file="Move_Slide", }; // 前ダッシュ
+st[44] = {  volumetype=0, type=-1, file="Move_DashStop"     }; // ダッシュ停止
+
+st[53] = { volumetype=0, path=3, type=-1, file="Atk_SwordSwingB" }; // すごいスイング
+st[59] = { volumetype=0, path=3, type=-1, file="Cmn_Whirlwind" }; // 風が吹き荒れる音
+st[65] = { volumetype=0, path=3, type=-1, file="Cmn_FlashBang" }; // フラッシュバン
+
+// 登場シーン
+st[100] = { volumetype=1, path=1, file="roa00_2000", type=0, category=1, userparam=177 }; // やれやれ。一度しかない命を
+st[101] = { volumetype=1, path=1, file="roa00_2001", type=0, category=1, userparam=149 }; // おや。早死にをご所望かい？
+st[102] = { volumetype=1, path=1, file="roa00_2002", type=0, category=1, userparam=172 }; // いいぜ。簡潔にすませよう
+st[103] = { volumetype=1, path=1, file="roa00_2003", type=0, category=1, userparam=178 }; // ふむ……この体では限度があるが……
+st[104] = { volumetype=1, path=1, file="roa00_2004", type=0, category=1, userparam=165 }; // 殺しに飽いているんだがねぇ
+
+// vs対アルクェイド
+st[105] = { volumetype=1, path=1, file="roa00_2007", type=0, category=1, userparam=243 }; // 嬉しいねぇ、十八度目の婚姻だ……！
+
+// vsシエル
+st[106] = { volumetype=1, path=1, file="roa00_2010", type=0, category=1, userparam=196 }; // さて―――そうであれば良いのですが
+
+// 登場２
+st[107] = { volumetype=1, path=1, file="roa01_2000", type=0, category=1, userparam=194 }; // 「イキがいい。今夜はツイてる」
+st[108] = { volumetype=1, path=1, file="roa01_2001", type=0, category=1, userparam=231 }; // 「まったく、人生とやらは素晴らしいな」
+
+// vsヴローヴ
+st[109] = { volumetype=1, path=1, file="roa00_2006", type=0, category=1, userparam=201 }; // 皮でいいなら、いくらでもくれてやるよ
+
+// 後が無くなったラウンドの開幕
+st[110] = { volumetype=1, path=1, file=["roa00_2011","roa01_arc_2011"], type=0, category=3, userparam=147 }; // すぐに死んでくれるなよ？
+st[111] = { volumetype=1, path=1, file=["roa00_2012","roa01_arc_2012"], type=0, category=3, userparam=134 }; // ……やれやれ。侮りましたか。
+st[112] = { volumetype=1, path=1, file=["roa00_2013","roa01_arc_2013"], type=0, category=3, userparam=174 }; // やるじゃないか。焼き甲斐がある
+
+// ラウンド勝利
+st[120] = { volumetype=1, path=1, file="roa00_2014", type=0, category=1, userparam=228 }; // いいもんだな、動かせる体ってのは！
+st[121] = { volumetype=1, path=1, file="roa00_2015", type=0, category=1, userparam=199 }; // ハ。もうちょいと楽しませてくれよ
+st[122] = { volumetype=1, path=1, file="roa00_2016", type=0, category=1, userparam=144 }; // ふむ。程度は分かりました。
+st[123] = { volumetype=1, path=1, file="roa00_2017", type=0, category=1, userparam=173 }; // お互い、温まってきたかい？
+
+// 決着勝利・汎用
+st[130] = { volumetype=1, path=1, file="roa00_2020", type=0, category=1, userparam=208 }; // 立てよ。まだ手足があるじゃねえか
+st[131] = { volumetype=1, path=1, file="roa00_2021", type=0, category=1, userparam=201 }; // フ。安らかに地獄へどうぞ
+
+// 決着勝利・辛勝
+st[132] = { volumetype=1, path=1, file="roa00_2022", type=0, category=1, userparam=232 }; // はあ……安く見られたものですねぇ
+
+// 決着勝利・楽勝
+st[133] = { volumetype=1, path=1, file="roa00_2023", type=0, category=1, userparam=229 }; // オラ、さっさと死ね！後がつかえてんだよ、こっちは！
+
+//決着汎用
+st[134] = { volumetype=1, path=1, file="roa01_2020", type=0, category=1, userparam=249 }; // 「いい戦いの後はいい食事。常識だろ？」
+st[135] = { volumetype=1, path=1, file="roa01_2021", type=0, category=1, userparam=204 }; // 「やれやれ。期待値に届きもしないとは」
+
+// 待機モーション
+st[140] = { volumetype=1, path=1, file=["roa00_2025","roa01_arc_2025"], type=0, category=1, userparam=140 }; // おいおい、降参かぁ！？
+st[141] = { volumetype=1, path=1, file=["roa00_2026","roa01_arc_2026"], type=0, category=1, userparam=174 }; // 懺悔の時間はそこまでですよ
+
+// タイムアップ判定負け	
+st[150] = { volumetype=1, path=1, file=["roa00_2027","roa01_arc_2027"], type=0, category=1, userparam=156 }; // また曖昧な結果だこと
+st[151] = { volumetype=1, path=1, file=["roa00_2028","roa01_arc_2028"], type=0, category=1, userparam=174 }; // これだから時間制はイヤなんだよ！
+
+// 弱攻撃	
+st[160] = { volumetype=1, path=1, file="roa00_2100_a", type=0, category=1}; // ふっ
+st[161] = { volumetype=1, path=1, file="roa00_2101_a", type=0, category=1}; // はっ
+st[162] = { volumetype=1, path=1, file="roa00_2102_a", type=0, category=1}; // しゃっ！
+st[163] = { volumetype=1, path=1, file="roa00_2100", type=0, category=1}; // ふっ
+st[164] = { volumetype=1, path=1, file="roa00_2101", type=0, category=1}; // はっ
+
+// 中攻撃	
+st[165] = { volumetype=1, path=1, file="roa00_2103_a", type=0, category=1}; // ふんっ！
+st[166] = { volumetype=1, path=1, file="roa00_2104_a", type=0, category=1}; // とぉ！
+st[167] = { volumetype=1, path=1, file="roa00_2105_a", type=0, category=1}; // ぜぇい！
+st[168] = { volumetype=1, path=1, file="roa00_2104", type=0, category=1}; // とぉ！
+st[169] = { volumetype=1, path=1, file="roa00_2105", type=0, category=1}; // ぜぇい！
+
+// 強攻撃	
+st[170] = { volumetype=1, path=1, file="roa00_2106_a", type=0, category=1}; // ヒューウ！
+st[171] = { volumetype=1, path=1, file="roa00_2107_a", type=0, category=1}; // ハ……！（笑）
+st[172] = { volumetype=1, path=1, file="roa00_2108_a", type=0, category=1}; // そうら！
+
+// 連打浮かせ攻撃
+st[180] = { volumetype=1, path=1, file="roa00_2109", type=0, category=3}; // 散りな！
+st[181] = { volumetype=1, path=1, file="roa00_2110", type=0, category=3}; // 舞いなさい
+st[182] = { volumetype=1, path=1, file="roa00_2113", type=0, category=3}; // ハッハァ！
+st[183] = { volumetype=1, path=1, file="roa00_2114", type=0, category=3}; // そらよ！
+
+// 浮かせ攻撃
+st[184] = { volumetype=1, path=1, file="roa00_2111", type=0, category=1}; // ハッハァ！
+st[185] = { volumetype=1, path=1, file="roa00_2112", type=0, category=1}; // そらよ！
+
+// 吹き飛ばし攻撃
+// st[192] = { volumetype=1, path=1, file="roa00_2115", type=0, category=1}; // ふぅおおお！
+// st[193] = { volumetype=1, path=1, file="roa00_2116", type=0, category=1}; // おらあああ！
+
+// 上からの攻撃
+st[200] = { volumetype=1, path=1, file="roa00_2117", type=0, category=1}; // 上です
+st[201] = { volumetype=1, path=1, file="roa00_2118", type=0, category=1}; // バカが！
+
+// 下からの攻撃
+st[210] = { volumetype=1, path=1, file="roa00_2119", type=0, category=1}; // 下です
+st[211] = { volumetype=1, path=1, file="roa00_2120", type=0, category=1}; // （足下）注意ってな！
+
+// 回避困難な攻撃
+st[220] = { volumetype=1, path=1, file="roa00_2121", type=0, category=1}; // しびれるぜ？
+st[221] = { volumetype=1, path=1, file=["roa00_2122","roa01_arc_2122"], type=0, category=1}; // 真っ二つだ！
+st[222] = { volumetype=1, path=1, file="roa00_2123", type=0, category=1}; // ヒャハー！
+
+// その他特殊攻撃
+st[230] = { volumetype=1, path=1, file="roa00_2124", type=0, category=1}; // フン！（笑）
+st[231] = { volumetype=1, path=1, file="roa00_2125", type=0, category=1}; // よくぞ！
+st[232] = { volumetype=1, path=1, file="roa00_2126", type=0, category=1}; // ―――行くぞ？（しぶかっこよく）
+st[233] = { volumetype=1, path=1, file="roa00_2127", type=0, category=1}; // 踊ってな！
+st[234] = { volumetype=1, path=1, file=["roa00_2128","roa01_arc_2128"], type=0, category=1}; // ライブビューイング！
+
+// 投げ技成功
+st[240] = { volumetype=1, path=1, file="roa00_2200", type=0, category=1}; // ちょいとイってな！
+st[241] = { volumetype=1, path=1, file="roa00_2201", type=0, category=1}; // ビバ・ヴィーノ！（ヴィーノは
+st[242] = { volumetype=1, path=1, file=["roa00_2202","roa01_arc_2202"], type=0, category=1}; // お別れだ
+st[243] = { volumetype=1, path=1, file="roa00_2203", type=0, category=1}; // 熱いのいくぜ？
+
+// 投げ技失敗
+st[250] = { volumetype=1, path=1, file=["roa00_2204","roa01_arc_2204"], type=0, category=1}; // げ
+st[251] = { volumetype=1, path=1, file=["roa00_2205","roa01_arc_2205"], type=0, category=1}; // げげげ
+st[252] = { volumetype=1, path=1, file="roa00_2206", type=0, category=1}; // なん……！？（なんだと、の意）
+
+// 敵の投げ技を回避
+st[260] = { volumetype=1, path=1, file="roa00_2207", type=0, category=1, prio=Def_SEP_ThrowTech, check=1}; // フッ（ニヒルな笑い）
+st[261] = { volumetype=1, path=1, file="roa00_2208", type=0, category=1, prio=Def_SEP_ThrowTech, check=1}; // ヘッ（チンピラっぽい笑い）
+
+// 振り向き
+st[270] = { volumetype=1, path=1, file="roa00_2300", type=0, category=1, prio=Def_SEP_Furimuki,}; //　む
+st[271] = { volumetype=1, path=1, file="roa00_2301", type=0, category=1, prio=Def_SEP_Furimuki,}; //　よく動く
+
+// ジャンプ
+st[280] = { volumetype=1, path=1, file="roa00_2302", type=0, category=1, }; //　とう
+st[281] = { volumetype=1, path=1, file="roa00_2303", type=0, category=1, }; //　しゅっ
+st[282] = { volumetype=1, path=1, file="roa00_2304", type=0, category=1, }; //　へっ
+
+// ダッシュ
+st[290] = { volumetype=1, path=1, file="roa00_2305", type=0, category=1}; // 遅い！
+st[291] = { volumetype=1, path=1, file="roa00_2306", type=0, category=1}; // ヒュウ！
+st[292] = { volumetype=1, path=1, file="roa00_2307", type=0, category=1}; // 制空！
+st[293] = { volumetype=1, path=1, file="roa00_2308", type=0, category=1}; // もらい！
+
+// バックステップ
+st[300] = { volumetype=1, path=1, file="roa00_2309", type=0, category=1}; // はん（あざわらい）
+st[301] = { volumetype=1, path=1, file="roa00_2310", type=0, category=1}; // っと
+st[302] = { volumetype=1, path=1, file="roa00_2311", type=0, category=1}; // チッ
+
+// 弱攻撃ガード
+st[310] = { volumetype=1, path=1, file="roa00_2400", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // おう
+st[311] = { volumetype=1, path=1, file="roa00_2401", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // ふん（鼻で笑う）
+st[312] = { volumetype=1, path=1, file="roa00_2402", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // はっ（鼻で笑う）
+
+// 中攻撃ガード
+st[320] = { volumetype=1, path=1, file=["roa00_2403","roa01_arc_2403"], type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // やるな！
+st[321] = { volumetype=1, path=1, file="roa00_2404", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 息苦しい！
+st[322] = { volumetype=1, path=1, file="roa00_2405", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // ああ！？
+
+// 強攻撃ガード
+st[330] = { volumetype=1, path=1, file=["roa00_2406","roa01_arc_2406"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // イきるなよ
+st[331] = { volumetype=1, path=1, file="roa00_2407", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // ははは（バカにした笑い）
+st[332] = { volumetype=1, path=1, file=["roa00_2408","roa01_arc_2408"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // やめとけ
+
+//余裕ガード
+st[340] = { volumetype=1, path=1, file="roa00_2409", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 残念
+st[341] = { volumetype=1, path=1, file="roa00_2410", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 温(ぬる)いねぇ
+st[342] = { volumetype=1, path=1, file="roa00_2411", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // なめてんのか？
+
+// ガード失敗
+st[350] = { volumetype=1, path=1, file="roa00_2412", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // はん！
+st[351] = { volumetype=1, path=1, file="roa00_2413", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // ちっ……！
+st[352] = { volumetype=1, path=1, file=["roa00_2414","roa01_arc_2414"], type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // ヤロウ……！
+
+// 受け身
+st[360] = { volumetype=1, path=1, file="roa00_2500", type=0, category=1, prio=Def_SEP_Recover}; // オレの番か！
+st[361] = { volumetype=1, path=1, file="roa00_2501", type=0, category=1, prio=Def_SEP_Recover}; // やってくれる！
+st[362] = { volumetype=1, path=1, file="roa00_2502", type=0, category=1, prio=Def_SEP_Recover}; // まだまだ
+st[363] = { volumetype=1, path=1, file="roa00_2503", type=0, category=1, prio=Def_SEP_Recover}; // ……ふむ
+
+// シールド発動
+st[370] = { volumetype=1, path=1, file="roa00_2504", type=0, category=1}; // はっ
+st[371] = { volumetype=1, path=1, file="roa00_2505", type=0, category=1}; // そこだろ？
+st[372] = { volumetype=1, path=1, file="roa00_2506", type=0, category=1}; // こいよ
+
+// シールド成功
+st[380] = { volumetype=1, path=1, file="roa00_2507", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // フン
+st[381] = { volumetype=1, path=1, file="roa00_2508", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 電荷よ……！
+st[382] = { volumetype=1, path=1, file=["roa00_2509","roa01_arc_2509"], type=0, category=1, prio=Def_SEP_ShieldSuccess}; // いいんじゃねえの？
+st[383] = { volumetype=1, path=1, file="roa00_2510", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // そらきた
+
+// シールド取って反撃
+st[390] = { volumetype=1, path=1, file="roa00_2511", type=0, category=1}; // ビンゴ
+st[391] = { volumetype=1, path=1, file="roa00_2512", type=0, category=1}; // ヒュウ……！
+st[392] = { volumetype=1, path=1, file="roa00_2513", type=0, category=1}; // そらよ！
+
+// シールド取って回り込んで反撃
+st[395] = { volumetype=1, path=1, file="roa00_2514", type=0, category=1}; // 見切った
+st[396] = { volumetype=1, path=1, file="roa00_2515", type=0, category=1}; // ヒャハハハハ！
+st[397] = { volumetype=1, path=1, file="roa00_2516", type=0, category=1}; // 君の罪だ
+
+// 弱攻撃ダメージ
+st[400] = { volumetype=1, path=1, file="roa00_2600", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // っ
+st[401] = { volumetype=1, path=1, file="roa00_2601", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // くっ
+st[402] = { volumetype=1, path=1, file="roa00_2602", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // うっ
+
+// 中攻撃ダメージ
+st[410] = { volumetype=1, path=1, file="roa00_2603", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // くあっ！？
+st[411] = { volumetype=1, path=1, file="roa00_2604", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // ずっ！
+st[412] = { volumetype=1, path=1, file="roa00_2605", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // がふっ！？
+
+// 強攻撃ダメージ
+st[420] = { volumetype=1, path=1, file="roa00_2606", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // ひゃう！？
+st[421] = { volumetype=1, path=1, file="roa00_2607", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // げぇ
+st[422] = { volumetype=1, path=1, file="roa00_2608", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // ほう……！（殴られながら睨んでる感じ）
+
+// ダウン
+st[430] = { volumetype=1, path=1, file="roa00_2609", type=0, category=1, prio=Def_SEP_KO }; // チィィィィィイイーー！
+st[431] = { volumetype=1, path=1, file=["roa00_2610","roa01_arc_2611"], type=0, category=1, prio=Def_SEP_KO }; // ウソだろ、オイ！？
+// st[432] = { volumetype=1, path=1, file="roa00_2611", type=0, category=1, prio=Def_SEP_KO }; // 大番狂わせはスモーだけにしてくれよ　ボツ
+
+// ダウン・ノックアウト
+st[440] = { volumetype=1, path=1, file="roa00_2612", type=0, category=1, prio=Def_SEP_KO }; // くおおおおおぉぉおおおおお……！
+st[441] = { volumetype=1, path=1, file="roa00_2613", type=0, category=1, prio=Def_SEP_KO }; // なんという……なんというーーー！（予想外の事なのでちょっと嬉しい）
+st[442] = { volumetype=1, path=1, file="roa01_2613", type=0, category=1}; // 「無駄な勝利、ご苦労サマだったなァ！」
+
+// 起きあがり
+st[450] = { volumetype=1, path=1, file="roa00_2614", type=0, category=1}; // ここからだ！
+st[451] = { volumetype=1, path=1, file=["roa00_2615","roa01_arc_2615"], type=0, category=1}; // たまんねえな！
+
+// 起きあがり・瀕死
+st[460] = { volumetype=1, path=1, file=["roa00_2616","roa01_arc_2616"], type=0, category=1}; // やりますねぇ
+
+// 本気を出す（体力一定値以下で発動）
+st[470] = { volumetype=1, path=1, file=["roa00_2700","roa01_arc_2700"], type=0, category=3}; // ……目障りだな（神父風）
+st[471] = { volumetype=1, path=1, file=["roa00_2701","roa01_arc_2701"], type=0, category=3}; // ……仕方ありませんね（神父風）
+
+// ゲージ溜め
+st[480] = { volumetype=1, path=1, file="roa00_2702", type=0, category=1}; // くっくっくっくっく……！
+st[481] = { volumetype=1, path=1, file="roa00_2703", type=0, category=1}; // はあああああああ！
+
+// 強制開放
+st[490] = { volumetype=1, path=1, file="roa00_2704", type=0, category=3}; // はじめていいかい？
+st[491] = { volumetype=1, path=1, file=["roa00_2705","roa01_arc_2705"], type=0, category=3}; // やかましいんだよ！（チンピラ風）
+st[492] = { volumetype=1, path=1, file=["roa00_2706","roa01_arc_2706"], type=0, category=3}; // ここらで決めるか（チンピラ風）
+
+// 623
+// st[495] = { volumetype=1, path=1, file="roa01_3001", type=0, category=1}; // 「消えな！」
+// 623EX
+// st[496] = { volumetype=1, path=1, file="roa01_3007", type=0, category=1}; //（そう）「うまくいくかよ……！」
+
+// 必殺技 昇雷
+st[500] = { volumetype=1, path=1, file="roa00_3001", type=0, category=1}; // 切り裂く！
+st[501] = { volumetype=1, path=1, file="roa00_3002", type=0, category=1}; // バラす！
+// st[502] = { volumetype=1, path=1, file="roa00_3003", type=0, category=1}; // 四等分だ！
+st[503] = { volumetype=1, path=1, file="roa00_3004", type=0, category=1}; // あばよ！
+st[504] = { volumetype=1, path=1, file="roa00_3005", type=0, category=1}; // 暴力賛成っ！
+// 必殺技 昇雷EX
+st[505] = { volumetype=1, path=1, file="roa00_3007", type=0, category=1}; // ……目も当てられないぜ？
+st[506] = { volumetype=1, path=1, file="roa00_3008", type=0, category=1}; // 死に、改めなさい（神父風）
+st[507] = { volumetype=1, path=1, file="roa00_3009", type=0, category=1}; // 決める……
+st[508] = { volumetype=1, path=1, file="roa00_3010", type=0, category=1}; // ああああ……！（発狂系）
+
+// 必殺技 瞬雷
+st[510] = { volumetype=1, path=1, file="roa00_3012", type=0, category=1}; // そおおら！
+st[511] = { volumetype=1, path=1, file="roa00_3013", type=0, category=1}; // はあああああああ！（百列系）
+// st[512] = { volumetype=1, path=1, file="roa00_3014", type=0, category=1}; // どうして！（次に続く）
+// st[513] = { volumetype=1, path=1, file="roa00_3015", type=0, category=1}; // くれる！？（逆ギレ連続技）
+st[514] = { volumetype=1, path=1, file="roa01_3012", type=0, category=1}; // 「見えるかい？ 」（馬鹿にしてる風に)
+
+
+// 必殺技 瞬雷EX
+// st[515] = { volumetype=1, path=1, file="roa00_3017", type=0, category=1}; // おしまい、デス！
+st[516] = { volumetype=1, path=1, file="roa00_3018", type=0, category=1}; // 耐えてくれよ！？
+st[517] = { volumetype=1, path=1, file="roa00_3019", type=0, category=1}; // ふ……ははは！（ニヒルに）
+st[518] = { volumetype=1, path=1, file="roa01_3017", type=0, category=1}; // 「本気ってヤツだ！」
+st[519] = { volumetype=1, path=1, file="roa01_3018", type=0, category=1}; // 「雷速、電送！」
+
+
+// 必殺技 数秘紋・蛇の巣
+// st[520] = { volumetype=1, path=1, file="roa00_3021", type=0, category=1}; // ゼーロ
+// st[521] = { volumetype=1, path=1, file="roa00_3022", type=0, category=1}; // ウーノ
+// st[522] = { volumetype=1, path=1, file="roa00_3023", type=0, category=1}; // ドゥエ
+// st[523] = { volumetype=1, path=1, file="roa00_3024", type=0, category=1}; // トゥレ
+// st[524] = { volumetype=1, path=1, file="roa00_3025", type=0, category=1}; // クアットロ
+// st[525] = { volumetype=1, path=1, file="roa01_3021", type=0, category=1}; // 「このあたりか 」（準備をするニュアンス）
+st[526] = { volumetype=1, path=1, file="roa01_3022", type=0, category=1}; // 「楽しいねぇ」
+
+// （技名：数秘紋・蛇の巣　追加技）
+// st[527] = { volumetype=1, path=1, file="roa01_3027", type=0, category=1}; // 「かかった！」（仕掛けていた罠に かかったイメージ）
+// st[528] = { volumetype=1, path=1, file="roa01_3028", type=0, category=1}; // 「ヒット！」
+
+// 必殺技 数秘紋・蛇の巣設置
+// st[530] = { volumetype=1, path=1, file="roa00_3027", type=0, category=1}; // セイ
+// st[531] = { volumetype=1, path=1, file="roa00_3028", type=0, category=1}; // セッテ
+// st[532] = { volumetype=1, path=1, file="roa00_3029", type=0, category=1}; // オット
+// st[533] = { volumetype=1, path=1, file="roa00_3030", type=0, category=1}; // ノーヴェ
+// 必殺技 数秘紋・蛇の巣EX
+// st[535] = { volumetype=1, path=1, file="roa00_3032", type=0, category=1}; // 雷の蛇よ……！
+// st[536] = { volumetype=1, path=1, file="roa00_3033", type=0, category=1}; // ヴェンテ！（２０）
+// st[537] = { volumetype=1, path=1, file="roa00_3034", type=0, category=1}; // ミッレ！（１０００）
+// st[538] = { volumetype=1, path=1, file="roa00_3035", type=0, category=1}; // ウン　ミリオーネ！（１００万）
+
+// 必殺技 その他、予備：オーバーロード
+st[540] = { volumetype=1, path=1, file="roa00_3038", type=0, category=1}; // では、始めましょう
+// st[541] = { volumetype=1, path=1, file="roa00_3039", type=0, category=1}; // ドメニカ
+// st[542] = { volumetype=1, path=1, file="roa00_3040", type=0, category=1}; // ルネディ
+// st[543] = { volumetype=1, path=1, file="roa00_3041", type=0, category=1}; // メルコレディ
+// st[544] = { volumetype=1, path=1, file="roa00_3042", type=0, category=1}; // ヴェネルディ
+// st[545] = { volumetype=1, path=1, file="roa00_3043", type=0, category=1}; // サバト
+
+// （技名：雷針）
+st[550] = { volumetype=1, path=1, file="roa01_3046", type=0, category=1}; // 「ほらよ」
+// （技名：雷針・砌）
+st[551] = { volumetype=1, path=1, file="roa01_3048", type=0, category=1}; // 「どうだ？」（馬鹿にしながら）
+// （技名：雷蛇礼賛）
+st[552] = { volumetype=1, path=1, file="roa01_3050", type=0, category=1}; // 「見切れますか？」（神父風に）
+
+
+// アークドライブ
+// st[600] = { volumetype=1, path=1, file="roa00_3068", type=0, category=1}; // 四つの福音をもって汝を聖別す（次に続く）
+// st[601] = { volumetype=1, path=1, file="roa00_3069", type=0, category=1}; // ―――嘆かわしきかな、この地に神のおらぬ土地はなし！
+// st[605] = { volumetype=1, path=1, file="roa00_3073", type=0, category=1}; // 四つの福音をもって汝を聖別す（次に続く）
+// st[606] = { volumetype=1, path=1, file="roa00_3074", type=0, category=1}; // ―――怒号をもって神意を示せ！
+
+st[600] = { volumetype=1, path=1, file="roa01_3068", type=0, category=1}; // 「四つの福音をもって汝を聖別す」（次に続く）
+st[601] = { volumetype=1, path=1, file="roa01_3069", type=0, category=1}; // 「―――嘆かわしきかな、この地に神のおらぬ土地はなし！」
+st[602] = { volumetype=1, path=1, file="roa01_3072", type=0, category=1}; // 「―――怒号をもって神意を示せ！」
+
+
+st[606] = { volumetype=1, path=1, file="roa01_3074_s0", type=0, category=1}; // 「神の国の到来」（次に続く）
+st[607] = { volumetype=1, path=1, file="roa01_3074_s1", type=0, category=1}; // 「贖 (あがな)いの血をもって汝を聖別す」（次に続く）
+st[608] = { volumetype=1, path=1, file="roa01_3075", type=0, category=1}; // 「―――歌うがいい、世はまさにパンティオン！」
+
+
+// ラストアーク
+// st[610] = { volumetype=1, path=1, file="roa00_3079", type=0, category=1}; // 回路を繋げ！
+// st[611] = { volumetype=1, path=1, file="roa00_3080", type=0, category=1}; // オーバーロード・ゲマトリア
+// st[612] = { volumetype=1, path=1, file="roa00_3081", type=0, category=1}; // ふ……ははは！（ニヒルに）
+
+// ラストアーク （技名：空洞航路・十七転生）
+st[610] = { volumetype=1, path=1, file=["roa01_3079","roa01_arc_3079"], type=0, category=1}; // 「回路を繋げ！」（次に続く）
+st[611] = { volumetype=1, path=1, file=["roa01_3080","roa01_arc_3080"], type=0, category=1}; // 「オーバーロード・ゲマトリア」（次に続く）
+st[612] = { volumetype=1, path=1, file=["roa01_3081","roa01_arc_3081"], type=0, category=1}; // 「ふ……ははは！」（ニヒルに）
+
+st[613] = { volumetype=1, path=1, file="roa01_3083", type=0, category=1}; // 「私が見たものを、キミにも見せよう」(神父風)（次に続く）
+st[614] = { volumetype=1, path=1, file="roa01_3084", type=0, category=1}; // 「死の坑道。生の産道。輪廻の鼓動――― 」（次に続く）
+st[615] = { volumetype=1, path=1, file="roa01_3085", type=0, category=1}; // 「そう、何もかも無意味だったとね！」(神父風)
+
+
+//対アルクェイド・暴走アルクェイド
+
+// 登場（3秒程度）
+st[630] = { volumetype=1, path=1, file=["","roa01_arc_2000"], type=0, category=1, userparam=330 }; // 「器の臨界が近いのか……？　百年の恋も冷める、というものだ。」// 暴走アルク限定
+
+// ラウンド勝利（3秒程度）
+st[635] = { volumetype=1, path=1, file=["","roa01_arc_2014"], type=0, category=1, userparam=185 }; // 「あん？　どうした、手ぬるいぜ？」
+st[636] = { volumetype=1, path=1, file=["","roa01_arc_2015"], type=0, category=1, userparam=192 }; // 「強いだけ、ではその結果だよ」
+st[637] = { volumetype=1, path=1, file=["","roa01_arc_2016"], type=0, category=1, userparam=216 }; // 「オイオイ、隕石にでもぶつかってたかぁ！？」
+st[638] = { volumetype=1, path=1, file=["","roa01_arc_2017"], type=0, category=1, userparam=158 }; // 「いい感覚だ。クセになる。」
+
+// 決着勝利・汎用（3秒程度）
+st[645] = { volumetype=1, path=1, file=["","roa01_arc_2020"], type=0, category=1, userparam=209 }; // 「マジかよ、最高のジョークだな！」
+st[646] = { volumetype=1, path=1, file=["","roa01_arc_2021"], type=0, category=1, userparam=139 }; // 「器の限界のようですね」
+
+// 決着勝利・辛勝（3秒程度）
+st[647] = { volumetype=1, path=1, file=["","roa01_arc_2022"], type=0, category=1, userparam=201 }; // 「最上級の失望を、ありがとう。」
+
+// 決着勝利・楽勝（3秒程度）
+st[648] = { volumetype=1, path=1, file=["","roa01_arc_2023"], type=0, category=1, userparam=263 }; // 「どういうコトだ、最高にノッてるじゃねえか！」
+
+
+// DLC
+// 登場
+// 対死徒ノエル
+st[650] = { volumetype=1, path=1, file="roa02_2006", type=0, category=1, userparam=314 }; // そう言うなご同輩。たっぷり痺れさせてやる。
+
+// 対ノエル
+st[651] = { volumetype=1, path=1, file="roa02_2007", type=0, category=1, userparam=265 }; // どうした？　殺意が足りないぜ、お嬢さん
+
+// 対青子
+st[652] = { volumetype=1, path=1, file="roa02_2008", type=0, category=1, userparam=319 }; // 昔の話だ。今はこの通りアウトローでね！
+
+// 対武装シエル
+st[653] = { volumetype=1, path=1, file="roa02_2009", type=0, category=1, userparam=220 }; // おいおいマジかよ。そりゃあ本物か？
+
+// 対マーリオゥ
+st[654] = { volumetype=1, path=1, file="roa02_2010", type=0, category=1, userparam=265 }; // では一曲、タランテラを聞かせてもらおうか。
+st[655] = { volumetype=1, path=1, file="roa02_2024", type=0, category=1, userparam=318 }; // どうやらそちらはそちらで愉快な事態(こと)になっているな？
+
+// 対巌窟王
+st[656] = { volumetype=1, path=1, file="roa04_2023", type=0, category=1, userparam=177 }; // やれやれ、妙な因果もあったものですね……
+st[660] = { volumetype=1, path=1, file="roa04_2007", type=0, category=1, userparam=238 }; // おや。見知らぬ顔ですが、私と面識が？
+st[661] = { volumetype=1, path=1, file="roa04_2008", type=0, category=1, userparam=256 }; // ひでぇ有様だ。英霊というより亡霊だな？
+
+SeList_Table.Status = SelectVoiceTable(st,tnum);//使用するテーブルを抽選して入れる

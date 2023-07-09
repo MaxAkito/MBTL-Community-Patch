@@ -1,0 +1,363 @@
+__dofile__("./script/btl_SEDefine.txt"); //ＳＥ定数
+
+local path = "./se/normal_se/"; // ファイルパス、登録しやすいように
+local btlpath = "./se/battle_se/";
+local chrpath = btlpath + "chr017/";
+local spepath = path + "special/";
+
+SeList_Table <-
+{
+	TableNum = 1, // SEセレクトとかでのプログラム側参照用、テーブル最大値を入れておく
+	UseTable = 0, // 何番目のテーブルを使うか
+	Path = [],	// パス設定簡略化用
+	Status = [],	// 実際に再生時に使われる配列
+};
+
+SeList_Table.Path.append( path ); //Path[0]
+SeList_Table.Path.append( chrpath ); //Path[1]
+SeList_Table.Path.append( btlpath ); //Path[2]
+SeList_Table.Path.append( spepath ); //Path[3]
+
+SeList_Table.Status.resize(650); // 確保
+local st = SeList_Table.Status; // 登録しやすいように省略
+// SeFunc.SetParam(31,tnum);//バトルsq参照用に値を戻す
+
+//汎用エフェクトから呼ばれるので定義必須
+st[20] = {  volumetype=0, type=-1, file="Move_LandingArmor", }; // 着地
+st[42] = {  volumetype=0, type=-1, file="Move_Slide", }; // 前ダッシュ
+st[44] = {  volumetype=0, type=-1, file="Move_DashStop"     }; // ダッシュ停止
+
+st[ 50] = { volumetype=0, path=3, type=-1, file="Atk_String" }; // 糸を使った攻撃
+st[ 51] = { volumetype=0, path=3, type=-1, file="Cmn_Swish" }; //　ピアノ線で操って飛ばす
+st[ 60] = { volumetype=0, path=3, type=-1, file="Hit_HipAttack" }; // ヒップアタック
+st[ 61] = { volumetype=0, path=3, type=-1, file="Cmn_BigBang" }; // LA 光
+st[ 62] = { volumetype=0, path=3, type=-1, file="Cmn_HolyVoice" }; // LA フィニッシュで激しい光
+
+st[ 65] = { volumetype=0, path=3, type=-1, file="Atk_StringShort" }; // 糸を使った指示
+st[ 70] = { volumetype=0, path=3, type=-1, file="Cmn_ShortHolyPow" }; // ピアノマシン生成・消滅
+st[ 71] = { volumetype=0, path=0, type=-1, file="Hit_Freeze" }; // 当身成功SE
+
+// 登場（3～6秒程度）
+st[100] = { volumetype=1, path=1, file="mar00_2000", type=0, category=1, userparam=163 }; // 「オレのシマで勝手はさせねえよ」
+st[101] = { volumetype=1, path=1, file="mar00_2001", type=0, category=1, userparam=178 }; // 「懺悔がわりだ。一曲聴いていけ。」
+st[102] = { volumetype=1, path=1, file="mar00_2002", type=0, category=1, userparam=192 }; // 「指揮者が前に出るほど人手不足でね。」
+st[103] = { volumetype=1, path=1, file="mar00_2003", type=0, category=1, userparam=134 }; // 「改宗ならいつでもどうぞ。」
+st[104] = { volumetype=1, path=1, file="mar00_2004", type=0, category=1, userparam=224 }; // 「オレは忙しい。用件だけ語ってもらう。」
+st[105] = { volumetype=1, path=1, file="mar00_2005", type=0, category=1, userparam=184}; // 「子ども相手だぜ？　加減しろよ。」
+ 
+// 登場 特殊（3～6秒程度）
+// 対死徒ノエル
+st[106] = { volumetype=1, path=1, file="mar00_2006", type=0, category=1, userparam=236 }; // 「趣味も悪けりゃ口も悪いのかよ。救えねえ。」
+st[107] = { volumetype=1, path=1, file="mar00_2019", type=0, category=1, userparam=247 }; // 「純度100パー無能だったよな？　どうなってやがる？」
+
+// 対ノエル
+st[108] = { volumetype=1, path=1, file="mar00_2007", type=0, category=1, userparam=206 }; // 「おう。査定してやるよ、かかってきな。」
+st[109] = { volumetype=1, path=1, file="mar00_2018", type=0, category=1, userparam=299 }; // 「再訓練だ。じきじきに面倒見てやるよ、ブタ。」
+
+// 対青子
+st[110] = { volumetype=1, path=1, file="mar00_2008", type=0, category=1, userparam=158 }; // 「レトロ趣味なんだよ。ほっとけ。」
+st[111] = { volumetype=1, path=1, file="mar00_2020", type=0, category=1, userparam=188 }; // 「魔法使いのクセに正義の味方かよ。」
+
+// 対武装シエル
+st[112] = { volumetype=1, path=1, file="mar00_2009", type=0, category=1, userparam=267 }; // 「処世術もクソもねぇな。これだから天才は。」
+st[113] = { volumetype=1, path=1, file="mar00_2016", type=0, category=1, userparam=213 }; // 「都市制圧戦の許可なんざ出してねえよなあ！？」
+
+// 対シエル
+st[114] = { volumetype=1, path=1, file="mar00_2010", type=0, category=1, userparam=250 }; // 「おう。下がそろって使えねえから仕方なくな。」
+st[115] = { volumetype=1, path=1, file="mar00_2015", type=0, category=1, userparam=289 }; // 「さあて。オレに負けるようじゃ埋葬機関失格だぜ？」
+
+// 対暴走アルク
+st[116] = { volumetype=1, path=1, file="mar00_2011", type=0, category=1, userparam=224 }; // 「ああ。だから、テメェからやってきたんだよ。」
+st[117] = { volumetype=1, path=1, file="mar00_2014", type=0, category=1, userparam=273 }; // 「簡単に堕ちやがって。失恋がそんなにショックか？」
+st[118] = { volumetype=1, path=1, file="mar00_2023", type=0, category=1, userparam=161 }; // 「……おまえ、そんなガワだったか？」
+
+// 対志貴
+st[119] = { volumetype=1, path=1, file="mar00_2012", type=0, category=1, userparam=321 }; // 「善良そうなツラしやがって。凶器が見えてるぜ、ガキ。」
+
+// 対アルク
+st[120] = { volumetype=1, path=1, file="mar00_2013", type=0, category=1, userparam=279 }; // 「待てよこのアバズレ。デートとかなに考えてやがる？」
+
+// 対ロア
+st[121] = { volumetype=1, path=1, file="mar00_2017", type=0, category=1, userparam=206 }; // 「最後の夜だ。リクエストはあるか？」
+st[122] = { volumetype=1, path=1, file="mar00_2024", type=0, category=1, userparam=161 }; // 「ようやく会えたな、バルダムヨォン 」
+
+// 後が無くなったラウンドの開幕（2秒程度）
+st[123] = { volumetype=1, path=1, file="mar00_2050", type=0, category=3 }; // 「ああもう、面倒くせえ！」
+st[124] = { volumetype=1, path=1, file="mar00_2051", type=0, category=3 }; // 「クソヤロウ、やるじゃねえか！」
+st[125] = { volumetype=1, path=1, file="mar00_2052", type=0, category=3 }; // 「予想通りだ、本番いくぜ」
+
+// ラウンド勝利（3秒程度）
+st[130] = { volumetype=1, path=1, file="mar00_2053", type=0, category=1, userparam=131 }; // 「華麗な勝利ってヤツだ」
+st[131] = { volumetype=1, path=1, file="mar00_2054", type=0, category=1, userparam=169 }; // 「へえ。まだ目に光があるな？」
+st[132] = { volumetype=1, path=1, file="mar00_2055", type=0, category=1, userparam=164 }; // 「寝たフリしてんな。次だ、次。」
+st[133] = { volumetype=1, path=1, file="mar00_2056", type=0, category=1, userparam=178 }; // 「な？　権力もバカにできないだろ？」
+
+// 決着勝利・汎用（3～6秒程度）
+st[140] = { volumetype=1, path=1, file="mar00_2059", type=0, category=1, userparam=162 }; // 「アホウ。手間取らせやがって。」
+st[141] = { volumetype=1, path=1, file="mar00_2060", type=0, category=1, userparam=237 }; // 「演奏は気に入ったか？　子守歌と覚えておきな」
+st[142] = { volumetype=1, path=1, file="mar00_2061", type=0, category=1, userparam=306 }; // 「ふぃー、疲れた。ガキの身でピアノは重いぜ。」
+st[143] = { volumetype=1, path=1, file="mar00_2062", type=0, category=1, userparam=227 }; // 「……腹減った。ケーキ屋、開いてっかな……」
+
+// 決着勝利・辛勝（3～6秒程度）
+st[144] = { volumetype=1, path=1, file="mar00_2063", type=0, category=1, userparam=217 }; // 「長引かせやがって。指が千切れかけたぜ。」
+
+// 決着勝利・楽勝（3～6秒程度）
+st[145] = { volumetype=1, path=1, file="mar00_2064", type=0, category=1, userparam=269 }; // 「テメェに実戦はまだ早い。訓練から出直してきな！」
+
+// 待機モーション（3～6秒程度）
+st[150] = { volumetype=1, path=1, file="mar00_2068", type=0, category=1 }; // 「ったく、極東くんだりまで来て何やってんだか。ぜんぶ爺いの失敗じゃねえか。」
+st[151] = { volumetype=1, path=1, file="mar00_2069", type=0, category=1 }; // 「休憩か？　いいぜ、好きなだけ休めよ。どうせ、何も解決しねえんだ。」
+
+// タイムアップ判定負け（3秒程度）
+st[155] = { volumetype=1, path=1, file="mar00_2070", type=0, category=1 }; // 「逃げ足だけは達者だな？」
+st[156] = { volumetype=1, path=1, file="mar00_2071", type=0, category=1 }; // 「間延びした演奏で悪かったな。」
+
+// 弱攻撃（0.08～0.18秒程度）
+st[160] = { volumetype=1, path=1, file="mar00_2100", type=0, category=1 }; // 「しっ」
+st[161] = { volumetype=1, path=1, file="mar00_2101", type=0, category=1 }; // 「はっ」
+st[162] = { volumetype=1, path=1, file="mar00_2102", type=0, category=1 }; // 「ふっ」
+st[163] = { volumetype=1, path=1, file="mar00_2100_a", type=0, category=1 }; // 「しっ」
+st[164] = { volumetype=1, path=1, file="mar00_2102_a", type=0, category=1 }; // 「ふっ」
+
+// 中攻撃（0.1～0.3秒程度）
+st[170] = { volumetype=1, path=1, file="mar00_2103", type=0, category=1 }; // 「やっ」
+st[171] = { volumetype=1, path=1, file="mar00_2104", type=0, category=1 }; // 「せい」
+st[172] = { volumetype=1, path=1, file="mar00_2105", type=0, category=1 }; // 「たっ」
+st[173] = { volumetype=1, path=1, file="mar00_2104_a", type=0, category=1 }; // 「せい」
+st[174] = { volumetype=1, path=1, file="mar00_2105_a", type=0, category=1 }; // 「たっ」
+
+// 強攻撃（0.2～0.6秒程度）
+st[180] = { volumetype=1, path=1, file="mar00_2106", type=0, category=1 }; // 「らぁ！」
+st[181] = { volumetype=1, path=1, file="mar00_2107", type=0, category=1 }; // 「はぁっ！」
+st[182] = { volumetype=1, path=1, file="mar00_2108", type=0, category=1 }; // 「そら！」
+st[183] = { volumetype=1, path=1, file="mar00_2106_a", type=0, category=1 }; // 「らぁ！」
+st[184] = { volumetype=1, path=1, file="mar00_2107_a", type=0, category=1 }; // 「はぁっ！」
+st[185] = { volumetype=1, path=1, file="mar00_2108_a", type=0, category=1 }; // 「そら！」
+
+// 浮かせ攻撃（0.3～0.85秒程度）
+st[190] = { volumetype=1, path=1, file="mar00_2109", type=0, category=3 }; // 「飛べ」3C
+// st[191] = { volumetype=1, path=1, file="mar00_2110", type=0, category=3 }; // 「強く！」
+st[192] = { volumetype=1, path=1, file="mar00_2111", type=0, category=3 }; // 「そーら！」3C
+st[193] = { volumetype=1, path=1, file="mar00_2112", type=0, category=3 }; // 「はっはぁ！（笑い声）」3C
+
+// 吹き飛ばし攻撃（0.3～0.85秒程度）
+st[200] = { volumetype=1, path=1, file="mar00_2113", type=0, category=1 }; // 「ザコがよ！」
+st[201] = { volumetype=1, path=1, file="mar00_2114", type=0, category=1 }; // 「だあっ！」J2[B]
+st[202] = { volumetype=1, path=1, file="mar00_2115", type=0, category=1 }; // 「ぶっ飛べ！」 623EXフィニッシュ
+// st[203] = { volumetype=1, path=1, file="mar00_2116", type=0, category=1 }; // 「退けオラ！」
+
+// その他特殊攻撃（0.3～0.85秒程度）
+st[212] = { volumetype=1, path=1, file="mar00_2122", type=0, category=1 }; // 「落ちな！」   J2[B]
+st[213] = { volumetype=1, path=1, file="mar00_2123", type=0, category=1 }; // 「黙ってろ」623EXフィニッシュ
+st[214] = { volumetype=1, path=1, file="mar00_2124", type=0, category=1 }; // 「ウスノロ！」
+st[215] = { volumetype=1, path=1, file="mar00_2125", type=0, category=1 }; // 「マヌケ！」   J2[B]
+st[216] = { volumetype=1, path=1, file="mar00_2126", type=0, category=1 }; // 「どうした？」RB
+st[217] = { volumetype=1, path=1, file="mar00_2127", type=0, category=1 }; // 「崩れろ」RB
+
+// 投げ成功（空中投げも）（1秒程度）
+st[240] = { volumetype=1, path=1, file="mar00_2200", type=0, category=1 }; // 「とったぜ」
+st[241] = { volumetype=1, path=1, file="mar00_2201", type=0, category=1 }; // 「欲しがるなよ」
+st[242] = { volumetype=1, path=1, file="mar00_2202", type=0, category=1 }; // 「いいな！」
+st[243] = { volumetype=1, path=1, file="mar00_2203", type=0, category=1 }; // 「こうする！」
+
+// 投げ失敗（空中投げも）（1秒程度）
+st[250] = { volumetype=1, path=1, file="mar00_2204", type=0, category=1 }; // 「お？」
+st[251] = { volumetype=1, path=1, file="mar00_2205", type=0, category=1 }; // 「やべ？」
+st[252] = { volumetype=1, path=1, file="mar00_2206", type=0, category=1 }; // 「テメェ！」
+
+// 敵の投げ技を回避（1秒程度）
+st[260] = { volumetype=1, path=1, file="mar00_2207", type=0, category=1, prio=Def_SEP_ThrowTech, check=1 }; // 「バカが！」
+st[261] = { volumetype=1, path=1, file="mar00_2208", type=0, category=1, prio=Def_SEP_ThrowTech, check=1 }; // 「うおっと！」
+st[262] = { volumetype=1, path=1, file="mar00_2128", type=0, category=1, prio=Def_SEP_ThrowTech, check=1 }; // 「遅いっての」
+
+// 振り向き（0.5秒程度）
+st[270] = { volumetype=1, path=1, file="mar00_2300", type=0, category=1, prio=Def_SEP_Furimuki }; // 「あん？」
+st[271] = { volumetype=1, path=1, file="mar00_2301", type=0, category=1, prio=Def_SEP_Furimuki }; // 「ふぅん？」
+
+// ダッシュ（空中ダッシュも）（0.5秒程度）
+st[290] = { volumetype=1, path=1, file="mar00_2305", type=0, category=1 }; // 「行くぜ」
+st[291] = { volumetype=1, path=1, file="mar00_2306", type=0, category=1 }; // 「そこか？」
+st[292] = { volumetype=1, path=1, file="mar00_2307", type=0, category=1 }; // 「だよなァ！」
+st[293] = { volumetype=1, path=1, file="mar00_2308", type=0, category=1 }; // 「は！」
+
+// バックステップ（空中バックダッシュも）（0.5秒程度）
+st[300] = { volumetype=1, path=1, file="mar00_2309", type=0, category=1 }; // 「おおっと」
+st[301] = { volumetype=1, path=1, file="mar00_2310", type=0, category=1 }; // 「はんっ（鼻で笑う）」
+st[302] = { volumetype=1, path=1, file="mar00_2311", type=0, category=1 }; // 「ふっ」
+
+// 弱攻撃ガード（0.5秒程度）
+st[310] = { volumetype=1, path=1, file="mar00_2400", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「む」
+st[311] = { volumetype=1, path=1, file="mar00_2401", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「ん」
+st[312] = { volumetype=1, path=1, file="mar00_2402", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「かっる（軽いの意）」
+
+// 中攻撃ガード（0.5秒程度）
+st[320] = { volumetype=1, path=1, file="mar00_2403", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「くっ」
+st[321] = { volumetype=1, path=1, file="mar00_2404", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「うっ」
+st[322] = { volumetype=1, path=1, file="mar00_2405", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「ふん」
+
+// 強攻撃ガード（0.5秒程度）
+st[330] = { volumetype=1, path=1, file="mar00_2406", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「チィッ！」
+st[331] = { volumetype=1, path=1, file="mar00_2407", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「ぐっ！？」
+st[332] = { volumetype=1, path=1, file="mar00_2408", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「マズ……！」
+
+// 攻撃を見切り余裕でガード（0.5秒程度）
+st[340] = { volumetype=1, path=1, file="mar00_2409", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「分かるぜ」
+st[341] = { volumetype=1, path=1, file="mar00_2410", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「見切るぜ」
+st[342] = { volumetype=1, path=1, file="mar00_2411", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「トロい！」
+
+// ガード失敗ダメージ（0.5秒程度）
+st[350] = { volumetype=1, path=1, file="mar00_2412", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「とっはぁ！？」
+st[351] = { volumetype=1, path=1, file="mar00_2413", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「クッソがぁ……！」
+st[352] = { volumetype=1, path=1, file="mar00_2414", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「ウソだろ！？」
+
+// 受け身
+st[360] = { volumetype=1, path=1, file="mar00_2500", type=0, category=1, prio=Def_SEP_Recover }; // 「よっ、と」
+st[361] = { volumetype=1, path=1, file="mar00_2501", type=0, category=1, prio=Def_SEP_Recover }; // 「そうくる」
+st[362] = { volumetype=1, path=1, file="mar00_2502", type=0, category=1, prio=Def_SEP_Recover }; // 「いい度胸だ」
+st[363] = { volumetype=1, path=1, file="mar00_2503", type=0, category=1, prio=Def_SEP_Recover }; // 「くだらねぇ！」
+
+// シールド発動
+st[370] = { volumetype=1, path=1, file="mar00_2504", type=0, category=1 }; // 「来いよ」
+st[371] = { volumetype=1, path=1, file="mar00_2505", type=0, category=1 }; // 「ここだろ」
+st[372] = { volumetype=1, path=1, file="mar00_2506", type=0, category=1 }; // 「フッ」
+
+// シールド成功
+st[380] = { volumetype=1, path=1, file="mar00_2507", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 「ほらきた」
+st[381] = { volumetype=1, path=1, file="mar00_2508", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 「ビンゴ！」
+st[382] = { volumetype=1, path=1, file="mar00_2509", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 「良い子だ！」
+st[383] = { volumetype=1, path=1, file="mar00_2510", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 「せーのっ！」
+
+// シールド取って反撃（0.3～0.85秒程度）
+st[390] = { volumetype=1, path=1, file="mar00_2511", type=0, category=1 }; // 「返すぜ！」
+st[391] = { volumetype=1, path=1, file="mar00_2512", type=0, category=1 }; // 「くらいな！」
+st[392] = { volumetype=1, path=1, file="mar00_2513", type=0, category=1 }; // 「どいてろ！」
+
+// シールド取って回り込んで反撃（0.3～0.85秒程度）
+st[395] = { volumetype=1, path=1, file="mar00_2514", type=0, category=1 }; // 「フォリア！」
+st[396] = { volumetype=1, path=1, file="mar00_2515", type=0, category=1 }; // 「ブランル！」
+st[397] = { volumetype=1, path=1, file="mar00_2516", type=0, category=1 }; // 「踊りな！」
+st[398] = { volumetype=1, path=1, file="mar00_2517", type=0, category=1 }; // 「のってきた！」
+
+// 弱攻撃ダメージ（0.3秒程度）
+st[400] = { volumetype=1, path=1, file="mar00_2600", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「チッ」
+st[401] = { volumetype=1, path=1, file="mar00_2601", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「うっ」
+st[402] = { volumetype=1, path=1, file="mar00_2602", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「ぐっ」
+
+// 中攻撃ダメージ（0.3秒程度）
+st[410] = { volumetype=1, path=1, file="mar00_2603", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「ぐぅっ」
+st[411] = { volumetype=1, path=1, file="mar00_2604", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「かはっ」
+st[412] = { volumetype=1, path=1, file="mar00_2605", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「なっ！？」
+
+// 強攻撃ダメージ（0.5秒程度）
+st[420] = { volumetype=1, path=1, file="mar00_2606", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「ぐはっ！」
+st[421] = { volumetype=1, path=1, file="mar00_2607", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「ぐあぁっ！」
+st[422] = { volumetype=1, path=1, file="mar00_2608", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「うあっ！」
+
+// ダウン
+st[430] = { volumetype=1, path=1, file="mar00_2609", type=0, category=1, prio=Def_SEP_KO }; // 「やってくれたな、テメェ……！」
+st[431] = { volumetype=1, path=1, file="mar00_2610", type=0, category=1, prio=Def_SEP_KO }; // 「クソ、なさけねぇ……！」
+st[432] = { volumetype=1, path=1, file="mar00_2611", type=0, category=1, prio=Def_SEP_KO }; // 「ガキ相手に、容赦ねぇな！？」
+
+// ダウン・ノックアウト（2～3秒程度）
+st[440] = { volumetype=1, path=1, file="mar00_2612", type=0, category=1, prio=Def_SEP_KO }; // 「見込みが甘かったか……」
+st[441] = { volumetype=1, path=1, file="mar00_2613", type=0, category=1, prio=Def_SEP_KO }; // 「うわぁーーーーーーっ」
+
+// 起き上がり（1秒程度）
+st[450] = { volumetype=1, path=1, file="mar00_2614", type=0, category=1 }; // 「舐めんな！」
+st[451] = { volumetype=1, path=1, file="mar00_2615", type=0, category=1 }; // 「なんの！」
+
+// 起き上がり・瀕死（1秒程度）
+st[460] = { volumetype=1, path=1, file="mar00_2616", type=0, category=1 }; // 「やっべえ……！」
+
+// ムーンドライブ発動（1.5秒程度）
+st[470] = { volumetype=1, path=1, file="mar00_2700", type=0, category=3 }; // 「踊れ、クソヤロウ！（楽しそうに。いきいきと）」
+st[471] = { volumetype=1, path=1, file="mar00_2701", type=0, category=3 }; // 「あげてくぞオラ！」
+
+// ゲージ溜め（1.2秒程度）
+st[480] = { volumetype=1, path=1, file="mar00_2702", type=0, category=1 }; // 「ディエーチ、ノーヴェ、オット……」
+st[481] = { volumetype=1, path=1, file="mar00_2703", type=0, category=1 }; // 「アレグレット（音楽用語：やや速く）」
+
+// 強制開放（1.2秒程度）
+st[490] = { volumetype=1, path=1, file="mar00_2704", type=0, category=3 }; // 「勝負！」
+st[491] = { volumetype=1, path=1, file="mar00_2705", type=0, category=3 }; // 「仕上げといこう！」
+st[492] = { volumetype=1, path=1, file="mar00_2706", type=0, category=3 }; // 「楽しいな、オイ！」
+
+// 必殺技（技名：未定 シスターがショートソードで連続切り付け）
+st[500] = { volumetype=1, path=1, file="mar00_3001", type=0, category=1 }; // 「刻め！」
+st[501] = { volumetype=1, path=1, file="mar00_3002", type=0, category=1 }; // 「来な」
+st[502] = { volumetype=1, path=1, file="mar00_3003", type=0, category=1 }; // 「今だろ！」
+
+// 派生
+st[503] = { volumetype=1, path=1, file="mar00_2120", type=0, category=1 }; // 「アレグロ！（音楽用語：速く）」236BBB
+st[504] = { volumetype=1, path=1, file="mar00_2121", type=0, category=1 }; // 「ヴィヴァーチェ！（音楽用語：活発に）」236[B]
+
+// 必殺技（技名：未定 シスターがショートソードで連続切り付けEX）
+st[505] = { volumetype=1, path=1, file="mar00_3007", type=0, category=1 }; // 「フェローチェ！（音楽用語：荒々しく）」
+st[506] = { volumetype=1, path=1, file="mar00_3008", type=0, category=1 }; // 「タンゴは好きか？」
+
+// 必殺技（技名：未定 ピアノ線を使った移動技）
+st[510] = { volumetype=1, path=1, file="mar00_3012", type=0, category=1 }; // 「よっと」
+st[511] = { volumetype=1, path=1, file="mar00_3013", type=0, category=1 }; // 「無駄無駄」
+st[512] = { volumetype=1, path=1, file="mar00_3014", type=0, category=1 }; // 「そこだな」
+// 必殺技（技名：未定 ピアノ線を使った移動技EX）
+st[515] = { volumetype=1, path=1, file="mar00_3016", type=0, category=1 }; // 「ファンタズマ！」
+st[516] = { volumetype=1, path=1, file="mar00_3017", type=0, category=1 }; // 「どこにでも行くさ！」
+
+// 必殺技（技名：未定 色々な武装のシスターを呼び出して攻撃する）
+st[520] = { volumetype=1, path=1, file="mar00_3022", type=0, category=1 }; // 「よーしよし！」
+st[521] = { volumetype=1, path=1, file="mar00_3023", type=0, category=1 }; // 「潰せ」214A
+st[522] = { volumetype=1, path=1, file="mar00_3024", type=0, category=1 }; // 「フォルツァ！」パワー！214A
+st[523] = { volumetype=1, path=1, file="mar00_3025", type=0, category=1 }; // 「任せる」
+// 必殺技（技名：未定 色々な武装のシスターを呼び出して攻撃するEX）
+st[525] = { volumetype=1, path=1, file="mar00_3027", type=0, category=1 }; // 「舞曲といこうか！」214C
+st[526] = { volumetype=1, path=1, file="mar00_3028", type=0, category=1 }; // 「騒々しくな！」4BC
+st[527] = { volumetype=1, path=1, file="mar00_3029", type=0, category=1 }; // 「いいぞ、働け！」214C
+
+// 必殺技（技名：未定 シスターを身代わりにした当身技）
+st[530] = { volumetype=1, path=1, file="mar00_3032", type=0, category=1 }; // 「読めてるぜ」
+st[531] = { volumetype=1, path=1, file="mar00_3033", type=0, category=1 }; // 「怖い怖い」
+st[532] = { volumetype=1, path=1, file="mar00_3034", type=0, category=1 }; // 「カノン」
+// 必殺技（技名：未定 シスターを身代わりにした当身技EX）
+st[535] = { volumetype=1, path=1, file="mar00_3037", type=0, category=1 }; // 「アジタート！（音楽用語：激しく、苛立って）」
+st[536] = { volumetype=1, path=1, file="mar00_3038", type=0, category=1 }; // 「右の頬、ってな！」
+
+// 必殺技（技名：未定 シスターへの指示出し）
+st[540] = { volumetype=1, path=1, file="mar00_3042", type=0, category=1 }; // 「行け」214B
+// st[541] = { volumetype=1, path=1, file="mar00_3043", type=0, category=1 }; // 「待機だ」
+// st[542] = { volumetype=1, path=1, file="mar00_3044", type=0, category=1 }; // 「戻れ」
+st[543] = { volumetype=1, path=1, file="mar00_3045", type=0, category=1 }; // 「おーい」
+// st[544] = { volumetype=1, path=1, file="mar00_3046", type=0, category=1 }; // 「休んでろ」
+st[545] = { volumetype=1, path=1, file="mar00_3047", type=0, category=1 }; // 「全力だ！」
+st[546] = { volumetype=1, path=1, file="mar00_3048", type=0, category=1 }; // 「ソプラノ」高音
+// st[547] = { volumetype=1, path=1, file="mar00_3049", type=0, category=1 }; // 「メゾソプラノ」中間
+st[548] = { volumetype=1, path=1, file="mar00_3050", type=0, category=1 }; // 「アルト」低音
+
+// アークドライブ （技名：自動演奏（オートマトン））
+st[550] = { volumetype=1, path=1, file="mar00_3101", type=0, category=1 }; // 「仕事の時間だ、働け三流！（次に続く）」
+st[551] = { volumetype=1, path=1, file="mar00_3102", type=0, category=1 }; // 「メスブタのパッサカリアだ！（次に続く）」
+st[552] = { volumetype=1, path=1, file="mar00_3103", type=0, category=3 }; // 「上出来、後でボーナスな！」
+
+st[560] = { volumetype=1, path=1, file="mar00_3105", type=0, category=1 }; // 「死ぬ気でやれよ肉体労働！（次に続く）」
+st[561] = { volumetype=1, path=1, file="mar00_3106", type=0, category=1 }; // 「サルタレロでいくか！（次に続く）」
+st[562] = { volumetype=1, path=1, file="mar00_3107", type=0, category=3 }; // 「しっかし重いな、テメェ！」
+
+// ラストアーク （技名：交響楽団（オーケストラ）：色々な武器を持った複数のシスターが波状攻撃を仕掛ける。）
+st[570] = { volumetype=1, path=1, file="mar00_3111", type=0, category=1 }; // 「おまえにホンモノってヤツを聴かせてやるよ……（次に続く）」
+st[571] = { volumetype=1, path=1, file="mar00_3112", type=0, category=1 }; // 「こいつで、フィナーレだ」
+
+st[575] = { volumetype=1, path=1, file="mar00_3114", type=0, category=1 }; // 「せっかくだ。フルコンで味わっていけ（次に続く）」
+st[576] = { volumetype=1, path=1, file="mar00_3115", type=0, category=1 }; // 「オレ流の、『天国と地獄』ってな！」
+
+//AD用ノエルボイス
+st[580] = { volumetype=1, path=1, file="noe02_3061", type=0, category=2 }; // 「うぇぇ！？（次に続く）」
+st[581] = { volumetype=1, path=1, file="noe02_3062", type=0, category=2 }; // 「無理無理無理～～！（次に続く）」
+st[582] = { volumetype=1, path=1, file="noe02_3063", type=0, category=2 }; // 「うぎゃーーー！（次に続く）」
+st[583] = { volumetype=1, path=1, file="noe02_3064", type=0, category=2 }; // 「いたたたた！」
+
+st[584] = { volumetype=1, path=1, file="noe02_3066", type=0, category=2 }; // 「ちくしょー、こんにゃろー！（次に続く）」
+st[585] = { volumetype=1, path=1, file="noe02_3067", type=0, category=2 }; // 「アン！（次に続く）」
+st[586] = { volumetype=1, path=1, file="noe02_3068", type=0, category=2 }; // 「ドゥ！（次に続く）」
+st[587] = { volumetype=1, path=1, file="noe02_3069", type=0, category=2 }; // 「トロワ！（次に続く）」
+st[588] = { volumetype=1, path=1, file="noe02_3070", type=0, category=2 }; // 「とどめ！」
+
+// SeList_Table.Status = SelectVoiceTable(st,tnum);//使用するテーブルを抽選して入れる

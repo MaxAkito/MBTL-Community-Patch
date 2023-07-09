@@ -510,7 +510,7 @@ Roa
 だいたいさぁ―――なんだよその若作り！
 いつまでもクリスマスって歳でもねえだろ？
 */
-And c'mon...! That youthful appearance isn't fooling anyone!
+And c'mon! That youthful appearance isn't fooling anyone!
 Do you intend to be at the age of that Christmas forever?
 
 /*-comment-
@@ -545,7 +545,7 @@ Dead_Noel
 そのために吸血鬼になったんだから……！
 */
 And that will go on forever!
-That's why I became a vampire...!
+That's why I became a vampire!
 
 \\@BGM_STOP@<0>
 \e

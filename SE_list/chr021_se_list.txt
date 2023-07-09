@@ -1,0 +1,365 @@
+__dofile__("./script/btl_SEDefine.txt"); //ＳＥ定数
+
+local path = "./se/normal_se/"; // ファイルパス、登録しやすいように
+local btlpath = "./se/battle_se/";
+local chrpath = btlpath + "chr021/";
+local spepath = path + "special/";
+
+SeList_Table <-
+{
+	TableNum = 1, // SEセレクトとかでのプログラム側参照用、テーブル最大値を入れておく
+	UseTable = 0, // 何番目のテーブルを使うか
+	Path = [],	// パス設定簡略化用
+	Status = [],	// 実際に再生時に使われる配列
+};
+
+SeList_Table.Path.append( path ); //Path[0]
+SeList_Table.Path.append( chrpath ); //Path[1]
+SeList_Table.Path.append( btlpath ); //Path[2]
+SeList_Table.Path.append( spepath ); //Path[3]
+
+SeList_Table.Status.resize(650); // 確保
+local st = SeList_Table.Status; // 登録しやすいように省略
+
+local tnum = SeList_Table.UseTable;
+local tblnum = SeFunc.GetParam(31);
+// print("\n tblnum:"+tblnum );
+SeFunc.SetParam(31,tnum);//バトルsq参照用に値を戻す
+
+//汎用エフェクトから呼ばれるので定義必須
+st[20] = {  volumetype=0, path=3, type=-1, file="Move_LandingGeta", }; // ゲタ着地
+st[42] = {  volumetype=0, path=0, type=-1, file="Move_Slide", }; // 前ダッシュ
+st[44] = {  volumetype=0, path=0, type=-1, file="Move_DashStop"     }; // ダッシュ停止
+
+//
+st[50] = {  volumetype=0, path=3, type=-1, file="Move_WalkGeta", }; // ゲタ歩き
+st[51] = {  volumetype=0, path=3, type=-1, file="Move_Teleport", }; // 瞬間移動
+st[53] = {  volumetype=0, path=3, type=-1, file="Atk_Tornado", }; // 竜巻
+st[54] = {  volumetype=0, path=3, type=-1, file="Atk_BladeSlash", }; // 刀一閃(AD/LA)
+st[55] = {  volumetype=0, path=3, type=-1, file="Cmn_RushForward", }; // 衝撃波を伴う高速移動
+
+st[56] = {  volumetype=0, path=3, type=-1, file="Cmn_WindStorm", }; // LA最初に走るところの風
+st[57] = {  volumetype=0, path=3, type=-1, file="Hit_Penetrate", }; // LAフィニッシュ一閃
+st[58] = {  volumetype=0, path=3, type=-1, file="Atk_Tornado", }; // LA風系
+st[59] = {  volumetype=0, path=3, type=-1, file="Cmn_MagicTurbine", }; // LA集まってタメ
+st[60] = {  volumetype=0, path=3, type=-1, file="Cmn_RocketBoost", }; // LAフィニッシュ爆発
+
+//登場
+st[100] = { volumetype=1, path=1, file="usw00_2000", type=0, category=1, userparam=127 }; // 「牛若丸と覚えてもらおう」
+st[101] = { volumetype=1, path=1, file="usw00_2001", type=0, category=1, userparam=167 }; // 「では、遊んで進ぜよう」
+st[102] = { volumetype=1, path=1, file="usw00_2002", type=0, category=1, userparam=234 }; // 「時代は弁えている。首はとらんさ」
+st[103] = { volumetype=1, path=1, file="usw00_2003", type=0, category=1, userparam=167 }; // 「一騎打ちとは、てっとり早い！」
+st[104] = { volumetype=1, path=1, file="usw00_2004", type=0, category=1, userparam=177 }; // 「鞍馬の天狗、ご存じかな？」
+st[105] = { volumetype=1, path=1, file="usw00_2005", type=0, category=1, userparam=151 }; // 「合戦でなければ、ノビノビと。」
+
+//登場 特殊
+
+//対死徒
+st[110] = { volumetype=1, path=1, file="usw00_2007", type=0, category=1, userparam=222 }; // 「ほう。鬼にも種類があるのだな？」
+st[111] = { volumetype=1, path=1, file="usw00_2008", type=0, category=1, userparam=188 }; // 「貴様らであれば、御首(みしるし)はいただこう」
+
+//対遠野志貴
+st[112] = { volumetype=1, path=1, file="usw00_2010", type=0, category=1, userparam=319 }; // 「この時代に浄眼(じょうがん)とは。どこの御山のご子息かな？」（志貴「そこの丘の上の洋館の長男ですけど……」）
+
+//対遠野秋葉
+st[113] = { volumetype=1, path=1, file="usw00_2012", type=0, category=1, userparam=291 }; // 「秋葉殿！　現世(げんせ)漫遊(まんゆう)の恩義、お返しいたす！」（秋葉「そこは一宿一飯の恩、ぐらいにしておきなさい」）
+
+//対暴走アルクェイド
+st[114] = { volumetype=1, path=1, file="usw00_2014", type=0, category=1, userparam=329 }; // 「相手にとって不足なし。魔王(まおう)尊(そん)、退治してご覧にいれる！」 （暴走アルクェイド「へえ、天狗って言うんだ。犬なら羽虫より楽しめる？」）
+
+//対巌窟王
+st[115] = { volumetype=1, path=1, file="usw00_2016", type=0, category=1, userparam=255 }; // 「サーヴァントか？　見覚えのない顔だが…」… （巌窟王「文字通りエキストラというヤツだ。気にするな」）
+
+//対巌窟王
+st[116] = { volumetype=1, path=1, file="usw00_2017", type=0, category=1, userparam=200 }; // （巌窟王「……今回は……自重しているな」） 「？　なんの話をしているのです？」
+
+//対マシュ
+st[117] = { volumetype=1, path=1, file="usw00_2019", type=0, category=1, userparam=161 }; // （マシュ「牛若丸さん、一手、お願いします！」） 「よろこんで、お相手つかまつる」
+
+//後が無くなったラウンドの開幕
+st[120] = { volumetype=1, path=1, file="usw00_2020", type=0, category=3 }; // 「ちょっとした息抜きです！」
+st[121] = { volumetype=1, path=1, file="usw00_2021", type=0, category=3 }; // 「極上の塩を送ったまで」
+st[122] = { volumetype=1, path=1, file="usw00_2022", type=0, category=3 }; // 「面白いな、貴様！」
+
+//ラウンド勝利
+st[125] = { volumetype=1, path=1, file="usw00_2023", type=0, category=1, userparam=168 }; // 「トントン拍子、と言いましょう！」
+st[126] = { volumetype=1, path=1, file="usw00_2024", type=0, category=1, userparam=124 }; // 「下駄の調子を見ておくか」
+st[127] = { volumetype=1, path=1, file="usw00_2025", type=0, category=1, userparam=178 }; // 「遅い遅い。それでは追いつけぬ」
+st[128] = { volumetype=1, path=1, file="usw00_2026", type=0, category=1, userparam=165 }; // 「ふっ。ここの壁は走りやすい！」
+
+//決着勝利・汎用
+st[130] = { volumetype=1, path=1, file="usw00_2029", type=0, category=1, userparam=253 }; // 「盛者必衰。流離譚、これにて。」
+st[131] = { volumetype=1, path=1, file="usw00_2030", type=0, category=1, userparam=202 }; // 「兄上には及びません。出直してください」
+st[132] = { volumetype=1, path=1, file="usw00_2031", type=0, category=1, userparam=202 }; // 「ふぅ！　いい運動になりました！」
+st[133] = { volumetype=1, path=1, file="usw00_2032", type=0, category=1, userparam=287 }; // 「結果に文句はありませんが、いささか物足りませんね。」
+
+//決着勝利・辛勝
+st[134] = { volumetype=1, path=1, file="usw00_2033", type=0, category=1, userparam=276 }; // 「ええい、手こずらせおって！　弁慶か、貴様！」
+
+//決着勝利・楽勝
+st[135] = { volumetype=1, path=1, file="usw00_2034", type=0, category=1, userparam=213 }; // 「かんらからから！　愉快、愉快！」
+
+//決着勝利 掛け合い
+
+//対死徒
+st[136] = { volumetype=1, path=1, file="usw00_2035", type=0, category=1, userparam=242 }; // 「悪鬼退散。黄泉(よみ)に引きこもっていろ。」
+
+//待機モーション
+st[155] = { volumetype=1, path=1, file="usw00_2038", type=0, category=1 }; // 「手加減は無用です。できるだけ面白い攻め手でどうぞ。」
+st[156] = { volumetype=1, path=1, file="usw00_2039", type=0, category=1 }; // 「ナマケモノという猿がいるそうだが……もしや、貴様か？」
+
+//タイムアップ判定負け
+st[160] = { volumetype=1, path=1, file="usw00_2040", type=0, category=1 }; // 「もう終わり！？　そんなぁ！」
+st[161] = { volumetype=1, path=1, file="usw00_2041", type=0, category=1 }; // 「遊びたりません……しょんぼり……」
+
+//弱攻撃
+st[170] = { volumetype=1, path=1, file="usw00_2100", type=0, category=1 }; // 「しっ」
+st[171] = { volumetype=1, path=1, file="usw00_2101", type=0, category=1 }; // 「はっ」
+st[172] = { volumetype=1, path=1, file="usw00_2102", type=0, category=1 }; // 「ふっ」
+// st[173] = { volumetype=1, path=1, file="usw00_2100_a", type=0, category=1 }; // 「しっ」
+st[174] = { volumetype=1, path=1, file="usw00_2101_a", type=0, category=1 }; // 「はっ」
+st[175] = { volumetype=1, path=1, file="usw00_2102_a", type=0, category=1 }; // 「ふっ」
+
+//中攻撃
+st[180] = { volumetype=1, path=1, file="usw00_2103", type=0, category=1 }; // 「はっ！」
+st[181] = { volumetype=1, path=1, file="usw00_2104", type=0, category=1 }; // 「たっ！」
+st[182] = { volumetype=1, path=1, file="usw00_2105", type=0, category=1 }; // 「やっ！」
+st[183] = { volumetype=1, path=1, file="usw00_2103_a", type=0, category=1 }; // 「はっ！」
+st[184] = { volumetype=1, path=1, file="usw00_2104_a", type=0, category=1 }; // 「たっ！」
+st[185] = { volumetype=1, path=1, file="usw00_2105_a", type=0, category=1 }; // 「やっ！」
+
+//強攻撃
+st[190] = { volumetype=1, path=1, file="usw00_2106", type=0, category=1 }; // 「はあっ！」
+st[191] = { volumetype=1, path=1, file="usw00_2107", type=0, category=1 }; // 「とうっ！」
+st[192] = { volumetype=1, path=1, file="usw00_2108", type=0, category=1 }; // 「やあっ！」
+st[193] = { volumetype=1, path=1, file="usw00_2106_a", type=0, category=1 }; // 「はあっ！」
+st[194] = { volumetype=1, path=1, file="usw00_2107_a", type=0, category=1 }; // 「とうっ！」
+st[195] = { volumetype=1, path=1, file="usw00_2108_a", type=0, category=1 }; // 「やあっ！」
+// st[196] = { volumetype=1, path=1, file="usw00_2107_b", type=0, category=1 }; // 「とうっ！」
+
+//浮かせ攻撃
+st[200] = { volumetype=1, path=1, file="usw00_2109", type=0, category=3 }; // 「天狗風！」
+st[201] = { volumetype=1, path=1, file="usw00_2110", type=0, category=3 }; // 「ちょいな！」
+st[202] = { volumetype=1, path=1, file="usw00_2111", type=0, category=3 }; // 「参る！」
+st[203] = { volumetype=1, path=1, file="usw00_2112", type=0, category=3 }; // 「さあさあさあ！」RB2
+
+//吹き飛ばし攻撃
+st[210] = { volumetype=1, path=1, file="usw00_2113", type=0, category=1 }; // 「遅い！」　裏周り
+st[211] = { volumetype=1, path=1, file="usw00_2114", type=0, category=1 }; // 「悪鬼、必衰！」LA攻撃
+st[212] = { volumetype=1, path=1, file="usw00_2115", type=0, category=1 }; // 「そこをどけっ！」623系
+st[213] = { volumetype=1, path=1, file="usw00_2116", type=0, category=1 }; // 「どりゃあっ！」 J[C]
+
+//その他特殊攻撃
+st[220] = { volumetype=1, path=1, file="usw00_2120", type=0, category=1 }; // 「見切れまい！」　裏周り
+// st[221] = { volumetype=1, path=1, file="usw00_2121", type=0, category=1 }; // 「いただきましょう！」
+st[222] = { volumetype=1, path=1, file="usw00_2122", type=0, category=1 }; // 「両断！」 J2C
+// st[223] = { volumetype=1, path=1, file="usw00_2123", type=0, category=1 }; // 「痛快至極！」
+// st[224] = { volumetype=1, path=1, file="usw00_2124", type=0, category=1 }; // 「激流！」
+st[225] = { volumetype=1, path=1, file="usw00_2125", type=0, category=1 }; // 「払う！」
+// st[226] = { volumetype=1, path=1, file="usw00_2126", type=0, category=1 }; // 「ナマクラが！」
+// st[227] = { volumetype=1, path=1, file="usw00_2127", type=0, category=1 }; // 「しばらく！」
+// st[228] = { volumetype=1, path=1, file="usw00_2128", type=0, category=1 }; // 「そもさん！」
+
+//投げ成功（空中投げも）
+st[240] = { volumetype=1, path=1, file="usw00_2200", type=0, category=1 }; // 「覚悟！」
+st[241] = { volumetype=1, path=1, file="usw00_2201", type=0, category=1 }; // 「そこになおれ！」
+st[242] = { volumetype=1, path=1, file="usw00_2202", type=0, category=1 }; // 「無用！」
+st[243] = { volumetype=1, path=1, file="usw00_2203", type=0, category=1 }; // 「未熟！」
+
+//投げ失敗（空中投げも）
+st[250] = { volumetype=1, path=1, file="usw00_2204", type=0, category=1 }; // 「やばっ」
+st[251] = { volumetype=1, path=1, file="usw00_2205", type=0, category=1 }; // 「あれ？」
+st[252] = { volumetype=1, path=1, file="usw00_2206", type=0, category=1 }; // 「しょぼりんりん……」
+
+//敵の投げ技を回避
+st[260] = { volumetype=1, path=1, file="usw00_2207", type=0, category=1, prio=Def_SEP_ThrowTech, check=1 }; // 「遅い遅い」
+st[261] = { volumetype=1, path=1, file="usw00_2208", type=0, category=1, prio=Def_SEP_ThrowTech, check=1 }; // 「気が合うな！」
+
+//振り向き
+st[270] = { volumetype=1, path=1, file="usw00_2300", type=0, category=1, prio=Def_SEP_Furimuki }; // 「ふむ」
+st[271] = { volumetype=1, path=1, file="usw00_2301", type=0, category=1, prio=Def_SEP_Furimuki }; // 「そちらか！」
+
+//ダッシュ（空中ダッシュも）
+st[290] = { volumetype=1, path=1, file="usw00_2305", type=0, category=1 }; // 「いざ！」
+st[291] = { volumetype=1, path=1, file="usw00_2306", type=0, category=1 }; // 「はっ！」
+st[292] = { volumetype=1, path=1, file="usw00_2307", type=0, category=1 }; // 「はっはー！（笑い声です）」
+st[293] = { volumetype=1, path=1, file="usw00_2308", type=0, category=1 }; // 「そうら！」
+
+//バックステップ（空中バックダッシュも）
+st[300] = { volumetype=1, path=1, file="usw00_2309", type=0, category=1 }; // 「ふん」
+st[301] = { volumetype=1, path=1, file="usw00_2310", type=0, category=1 }; // 「ささっ」
+st[302] = { volumetype=1, path=1, file="usw00_2311", type=0, category=1 }; // 「待て」
+
+//弱攻撃ガード
+st[310] = { volumetype=1, path=1, file="usw00_2400", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「ぬ」
+st[311] = { volumetype=1, path=1, file="usw00_2401", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「む」
+st[312] = { volumetype=1, path=1, file="usw00_2402", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「く」
+
+//中攻撃ガード
+st[320] = { volumetype=1, path=1, file="usw00_2403", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「くっ」
+st[321] = { volumetype=1, path=1, file="usw00_2404", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「ふん」
+st[322] = { volumetype=1, path=1, file="usw00_2405", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「うっ」
+
+//強攻撃ガード
+st[330] = { volumetype=1, path=1, file="usw00_2406", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「ぐっ」
+st[331] = { volumetype=1, path=1, file="usw00_2407", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「ほほう」
+st[332] = { volumetype=1, path=1, file="usw00_2408", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「なんの」
+
+//攻撃を見切り余裕でガード
+st[340] = { volumetype=1, path=1, file="usw00_2409", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「見えている」
+st[341] = { volumetype=1, path=1, file="usw00_2410", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「その程度」
+st[342] = { volumetype=1, path=1, file="usw00_2411", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「効かぬよ」
+
+//ガード失敗ダメージ
+st[350] = { volumetype=1, path=1, file="usw00_2412", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「おのれ……！」
+st[351] = { volumetype=1, path=1, file="usw00_2413", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「あいたっ！」
+st[352] = { volumetype=1, path=1, file="usw00_2414", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「うわっ！」
+
+//受け身
+st[360] = { volumetype=1, path=1, file="usw00_2500", type=0, category=1, prio=Def_SEP_Recover }; // 「くるっと」
+st[361] = { volumetype=1, path=1, file="usw00_2501", type=0, category=1, prio=Def_SEP_Recover }; // 「はぁっ！」
+st[362] = { volumetype=1, path=1, file="usw00_2502", type=0, category=1, prio=Def_SEP_Recover }; // 「ひょいっ」
+st[363] = { volumetype=1, path=1, file="usw00_2503", type=0, category=1, prio=Def_SEP_Recover }; // 「ほっ」
+
+//シールド発動
+st[370] = { volumetype=1, path=1, file="usw00_2504", type=0, category=1 }; // 「来い！」
+st[371] = { volumetype=1, path=1, file="usw00_2505", type=0, category=1 }; // 「どうした！」
+st[372] = { volumetype=1, path=1, file="usw00_2506", type=0, category=1 }; // 「勝負！」
+
+//シールド成功
+st[380] = { volumetype=1, path=1, file="usw00_2507", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 「いいぞ！」
+st[381] = { volumetype=1, path=1, file="usw00_2508", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 「はははは！」
+st[382] = { volumetype=1, path=1, file="usw00_2509", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 「さあて！」
+st[383] = { volumetype=1, path=1, file="usw00_2510", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 「ぽん！」
+
+//シールド取って反撃
+st[390] = { volumetype=1, path=1, file="usw00_2511", type=0, category=1 }; // 「そらっ！」
+st[391] = { volumetype=1, path=1, file="usw00_2512", type=0, category=1 }; // 「それまで！」
+st[392] = { volumetype=1, path=1, file="usw00_2513", type=0, category=1 }; // 「斬る！」
+
+//シールド取って回り込んで反撃
+st[395] = { volumetype=1, path=1, file="usw00_2514", type=0, category=1 }; // 「つむじ！」
+st[396] = { volumetype=1, path=1, file="usw00_2515", type=0, category=1 }; // 「ご無礼！」
+st[397] = { volumetype=1, path=1, file="usw00_2516", type=0, category=1 }; // 「こっちだ！」
+st[398] = { volumetype=1, path=1, file="usw00_2517", type=0, category=1 }; // 「飛燕！」
+
+//弱攻撃ダメージ
+st[400] = { volumetype=1, path=1, file="usw00_2600", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「ちっ」
+st[401] = { volumetype=1, path=1, file="usw00_2601", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「くっ」
+st[402] = { volumetype=1, path=1, file="usw00_2602", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「む」
+
+//中攻撃ダメージ
+st[410] = { volumetype=1, path=1, file="usw00_2603", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「なんの！」
+st[411] = { volumetype=1, path=1, file="usw00_2604", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「しまっ……！」
+st[412] = { volumetype=1, path=1, file="usw00_2605", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「ふっ……！」
+
+//強攻撃ダメージ
+st[420] = { volumetype=1, path=1, file="usw00_2606", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「おのれ」
+st[421] = { volumetype=1, path=1, file="usw00_2607", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「がっ……！」
+st[422] = { volumetype=1, path=1, file="usw00_2608", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「不覚！」
+
+//ダウン
+st[430] = { volumetype=1, path=1, file="usw00_2609", type=0, category=1, prio=Def_SEP_KO }; // 「無念……なり……」
+st[431] = { volumetype=1, path=1, file="usw00_2610", type=0, category=1, prio=Def_SEP_KO }; // 「っ、くうぅぅぅぅ！」
+st[432] = { volumetype=1, path=1, file="usw00_2611", type=0, category=1, prio=Def_SEP_KO }; // 「しくじったか……！」
+
+//ダウン・ノックアウト
+st[440] = { volumetype=1, path=1, file="usw00_2612", type=0, category=1, prio=Def_SEP_KO }; // 「負けではないので良しとしまーーーす！」
+st[441] = { volumetype=1, path=1, file="usw00_2613", type=0, category=1, prio=Def_SEP_KO }; // 「遊びがすぎたかーーーー！」
+
+//起き上がり
+st[450] = { volumetype=1, path=1, file="usw00_2614", type=0, category=1 }; // 「おのれ！」
+st[451] = { volumetype=1, path=1, file="usw00_2615", type=0, category=1 }; // 「ええい！」
+
+//起き上がり・瀕死
+st[460] = { volumetype=1, path=1, file="usw00_2616", type=0, category=1 }; // 「ついてこい、弁慶！」
+
+//ムーンドライブ発動
+st[470] = { volumetype=1, path=1, file="usw00_2700", type=0, category=3 }; // 「見切った！」
+st[471] = { volumetype=1, path=1, file="usw00_2701", type=0, category=3 }; // 「ここからです！」
+
+//ゲージ溜め
+st[480] = { volumetype=1, path=1, file="usw00_2702", type=0, category=1 }; // 「はぁぁぁぁぁぁ……」
+st[481] = { volumetype=1, path=1, file="usw00_2703", type=0, category=1 }; // 「自在天眼、六韜看破（ろくとうかんぱ）……」
+
+//強制開放
+st[490] = { volumetype=1, path=1, file="usw00_2704", type=0, category=3 }; // 「天刃、参る！」
+st[491] = { volumetype=1, path=1, file="usw00_2705", type=0, category=3 }; // 「縮地の妙、いざ！」
+st[492] = { volumetype=1, path=1, file="usw00_2706", type=0, category=3 }; // 「存分に！」
+st[493] = { volumetype=1, path=1, file="usw00_2707", type=0, category=3 }; // 「いくぞ、薄緑！」
+
+//必殺技
+
+//（技名：未定 相手の体を踏みつけて駆けあがる）
+st[500] = { volumetype=1, path=1, file="usw00_3001", type=0, category=1 }; // 「早駆ける！」
+st[501] = { volumetype=1, path=1, file="usw00_3002", type=0, category=1 }; // 「大木（だいぼく）が！」
+st[502] = { volumetype=1, path=1, file="usw00_3003", type=0, category=1 }; // 「ちょうどよい！」
+
+//（技名：未定 相手の体を踏みつけて駆けあがるEX）
+st[510] = { volumetype=1, path=1, file="usw00_3007", type=0, category=1 }; // 「はっーはっはっ！」
+st[511] = { volumetype=1, path=1, file="usw00_3008", type=0, category=1 }; // 「みたか、天狗の走法！」
+
+//（技名：未定 独楽のように回転しながら斬りつける）
+st[520] = { volumetype=1, path=1, file="usw00_3012", type=0, category=1 }; // 「でやぁあああっ！」
+st[521] = { volumetype=1, path=1, file="usw00_3013", type=0, category=1 }; // 「刻んでしんぜよう！」
+st[522] = { volumetype=1, path=1, file="usw00_3014", type=0, category=1 }; // 「そらそらそら！」
+
+//（技名：未定 独楽のように回転しながら斬りつけるEX）
+st[530] = { volumetype=1, path=1, file="usw00_3019", type=0, category=1 }; // 「なますにおろす！」
+st[531] = { volumetype=1, path=1, file="usw00_3020", type=0, category=1 }; // 「コマ遊びだ！」
+// st[532] = { volumetype=1, path=1, file="usw00_3021", type=0, category=1 }; // 「さしたる用もなかりせば！」
+
+//（技名：未定 上空に飛び上がる対空技）
+st[540] = { volumetype=1, path=1, file="usw00_3025", type=0, category=1 }; // 「なんのつもりだ！」
+st[541] = { volumetype=1, path=1, file="usw00_3026", type=0, category=1 }; // 「鳥か、貴様！」
+st[542] = { volumetype=1, path=1, file="usw00_3027", type=0, category=1 }; // 「通さず！」
+
+//（技名：未定 上空に飛び上がる対空技EX）
+st[550] = { volumetype=1, path=1, file="usw00_3031", type=0, category=1 }; // 「とくと見よ！」
+st[551] = { volumetype=1, path=1, file="usw00_3032", type=0, category=1 }; // 「縮地、天歩！」
+// st[552] = { volumetype=1, path=1, file="usw00_3033", type=0, category=1 }; // 「現れたるはこの面(おもて)！」
+
+//（技名：未定 相手とすれ違いざまに斬りつける居合切り）
+st[560] = { volumetype=1, path=1, file="usw00_3037", type=0, category=1 }; // 「（間合いに）入った！」
+st[561] = { volumetype=1, path=1, file="usw00_3038", type=0, category=1 }; // 「一閃！」
+st[562] = { volumetype=1, path=1, file="usw00_3039", type=0, category=1 }; // 「迂闊なり……！」
+
+//（技名：未定 相手とすれ違いざまに斬りつける居合切りEX）
+st[570] = { volumetype=1, path=1, file="usw00_3043", type=0, category=1 }; // 「遅い遅い遅い！」
+st[571] = { volumetype=1, path=1, file="usw00_3044", type=0, category=1 }; // 「一刀両断！」
+st[572] = { volumetype=1, path=1, file="usw00_3045", type=0, category=1 }; // 「薄緑(うすみどり)・天刃(てんじん)縮(しゅく)歩(ほ)！」
+
+//（技名：未定 空中を高速で移動）
+st[580] = { volumetype=1, path=1, file="usw00_3050", type=0, category=1 }; // 「はははははは！」
+st[581] = { volumetype=1, path=1, file="usw00_3051", type=0, category=1 }; // 「鬼さん、こちら！」
+st[582] = { volumetype=1, path=1, file="usw00_3052", type=0, category=1 }; // 「とう！」
+st[583] = { volumetype=1, path=1, file="usw00_3053", type=0, category=1 }; // 「ひゅうううううう！」
+
+//（技名：未定 空中を高速で移動EX）
+st[590] = { volumetype=1, path=1, file="usw00_3056", type=0, category=1 }; // 「魔風、見参！」
+st[591] = { volumetype=1, path=1, file="usw00_3057", type=0, category=1 }; // 「決して逃がさん！」
+st[592] = { volumetype=1, path=1, file="usw00_3058", type=0, category=1 }; // 「天狗舞、音高く！」
+
+//超必殺技
+
+//アークドライブ （技名：未定 乱舞攻撃）
+st[600] = { volumetype=1, path=1, file="usw00_3101", type=0, category=1 }; // 「遮那王流離譚が一つ……！（次に続く）」
+st[601] = { volumetype=1, path=1, file="usw00_3102", type=0, category=1 }; // 「吼(ほえ)丸(まる)・蜘蛛殺(くもころし)！」
+
+//
+st[610] = { volumetype=1, path=1, file="usw00_3104", type=0, category=1 }; // 「この間合い、捉えた……！（次に続く）」
+st[611] = { volumetype=1, path=1, file="usw00_3105", type=0, category=1 }; // 「落下、流星の如く！」
+
+//
+
+//ラストアーク （技名：壇ノ浦・八艘跳）
+st[620] = { volumetype=1, path=1, file="usw00_3111", type=0, category=1 }; // 「我が流離譚―――いざ！（次に続く）」
+st[621] = { volumetype=1, path=1, file="usw00_3112", type=0, category=1 }; // 「はあああああ！（次に続く）」
+st[622] = { volumetype=1, path=1, file="usw00_3113", type=0, category=1 }; // 「壇ノ浦・八艘跳！」
+
+//
+st[630] = { volumetype=1, path=1, file="usw00_3115", type=0, category=1 }; // 「いかなる波も惑うに及ばず！（次に続く）」
+st[631] = { volumetype=1, path=1, file="usw00_3116", type=0, category=1 }; // 「我が武名、ここに窮まり！（次に続く）」
+st[632] = { volumetype=1, path=1, file="usw00_3117", type=0, category=1 }; // 「目にもの見せよう、千本桜！」
+
+SeList_Table.Status = SelectVoiceTable(st,tnum);//使用するテーブルを抽選して入れる

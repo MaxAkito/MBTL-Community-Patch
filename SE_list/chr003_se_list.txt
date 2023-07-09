@@ -1,0 +1,658 @@
+__dofile__("./script/btl_SEDefine.txt"); //ＳＥ定数
+
+local path = "./se/normal_se/"; // ファイルパス、登録しやすいように
+local btlpath = "./se/battle_se/";
+local chrpath = btlpath + "chr003/";
+local spepath = path + "special/";
+
+SeList_Table <-
+{
+	TableNum = 2, // SEセレクトとかでのプログラム側参照用、テーブル最大値を入れておく
+	UseTable = 0, // 何番目のテーブルを使うか
+	Path = [],	// パス設定簡略化用
+	Status = [],	// 実際に再生時に使われる配列
+};
+
+SeList_Table.Path.append( path ); //Path[0]
+SeList_Table.Path.append( chrpath ); //Path[1]
+SeList_Table.Path.append( btlpath ); //Path[2]
+SeList_Table.Path.append( spepath ); //Path[3]
+
+SeList_Table.Status.resize(850); // 確保
+// local st = SeList_Table.Status; // 登録しやすいように省略
+local st = array(850,0);
+
+local tnum = SeList_Table.UseTable;
+local tblnum = SeFunc.GetParam(31);
+// print("\n tblnum:"+tblnum );
+if( tblnum == -1 )
+{
+	local enemy = SeFunc.GetParam(30);
+	if( enemy == 0 || enemy == 1 || enemy == 2 || enemy == 4 || enemy == 7 || enemy == 11 || enemy == 13 || enemy == 16 )//ヒロイン系 アルク、シエル、秋葉、ヒスコハ、都古、武装シエル
+	{
+		tnum = 1;
+	}
+	else
+	{
+		tnum = 0;
+	}
+}
+else
+{
+	// SE TESTでの指定再生時の処理
+	tnum = tblnum;
+}
+SeFunc.SetParam(31,tnum);//バトルsq参照用に値を戻す
+
+// 配列補足
+// [0]汎用, [1]ヒロイン
+
+//汎用エフェクトから呼ばれるので定義必須
+st[20] = {  volumetype=0, type=-1, file="Move_Landing", }; // 着地
+st[42] = {  volumetype=0, type=-1, file="Move_Slide", }; // 前ダッシュ
+st[44] = {  volumetype=0, type=-1, file="Move_DashStop"     }; // ダッシュ停止
+
+st[56] = { volumetype=0, path=3, type=-1, file="Cmn_Debris" }; // ガラガラ
+st[64] = { volumetype=0, path=3, type=-1, file="Hit_Penetrate" }; // 貫通音
+st[65] = { volumetype=0, path=3, type=-1, file="Cmn_FlashBang" }; // フラッシュバン
+
+// 登場シーン
+st[100] = { volumetype=1, path=1, file="sik00_2000", type=0, category=1, userparam=67 }; // 本気なんだな
+st[101] = { volumetype=1, path=1, file=["sik00_2001","sik01_her_2001"], type=0, category=1, userparam=[144,155] }; // 気は乗らないけど、仕方ない
+st[102] = { volumetype=1, path=1, file="sik00_2002", type=0, category=1, userparam=145 }; // 体力ないんだ。手短にすませよう。
+st[103] = { volumetype=1, path=1, file="sik00_2003", type=0, category=1, userparam=123 }; // ―――ああ、頭痛がする―――
+
+// vs遠野秋葉
+st[104] = { volumetype=1, path=1, file="sik00_2005", type=0, category=1, userparam=120 }; // 兄貴として心配だよ……
+st[105] = { volumetype=1, path=1, file="sik00_2006", type=0, category=1, userparam=122 }; // 家庭内暴力反対！
+
+// vs翡翠＆琥珀
+st[106] = { volumetype=1, path=1, file="sik00_2007", type=0, category=1, userparam=100 }; // 軽い手合わせってコト？
+
+// vs対アルクェイド
+st[107] = { volumetype=1, path=1, file="sik00_2008", type=0, category=1, userparam=149 }; // とにかく遊びたいだけだろ、おまえ！
+
+// vs対シエル
+st[108] = { volumetype=1, path=1, file="sik00_2009", type=0, category=1, userparam=154 }; // 先輩、それ職権乱用では？
+
+// vs対ノエル
+st[109] = { volumetype=1, path=1, file="sik00_2010", type=0, category=1, userparam=144 }; // シスターは趣味じゃなかったんですか！？
+
+// 後が無くなったラウンドの開幕
+st[110] = { volumetype=1, path=1, file=["sik00_2011","sik01_her_2011"], type=0, category=3, userparam=69 }; // ここからだな
+st[111] = { volumetype=1, path=1, file=["sik00_2012","sik01_her_2012"], type=0, category=3, userparam=131 }; // よし、だいたい分かった
+st[112] = { volumetype=1, path=1, file=["sik00_2013","sik01_her_2013"], type=0, category=3, userparam=164 }; // 酷い話になってきたよ
+
+//登場
+st[113] = { volumetype=1, path=1, file="sik01_2000", type=0, category=1, userparam=222 }; // 「腕試しなら余所で……って、聞いてないか」
+st[114] = { volumetype=1, path=1, file="sik01_2001", type=0, category=1, userparam=101 }; // 「お互いツイてないな…」(出会ったのが不運的な)
+
+// ラウンド勝利
+st[120] = { volumetype=1, path=1, file=["sik00_2014","sik01_her_2014"], type=0, category=1, userparam=[150,202] }; // あー……つっかれたぁ……
+st[121] = { volumetype=1, path=1, file="sik00_2015", type=0, category=1, userparam=141 }; // まったく、困ったもんだ
+st[122] = { volumetype=1, path=1, file="sik00_2016", type=0, category=1, userparam=188 }; // ここで終わり……にはならないか
+st[123] = { volumetype=1, path=1, file="sik00_2017", type=0, category=1, userparam=90  }; // こんなものじゃないんだろ？
+
+// vs本編で倒した吸血鬼
+st[124] = { volumetype=1, path=1, file="sik00_2018", type=0, category=1, userparam=76 }; // 悪い夢だ
+
+// 決着勝利・汎用
+st[130] = { volumetype=1, path=1, file="sik00_2020", type=0, category=1, userparam=121 }; // ふう、死ぬかと思った
+st[131] = { volumetype=1, path=1, file="sik00_2021", type=0, category=1, userparam=105 }; // 結果オーライってコトで
+
+// 決着勝利・辛勝
+st[132] = { volumetype=1, path=1, file="sik00_2022", type=0, category=1, userparam=180 }; // よし、逃げよう！　付き合っていられるか！
+
+// 決着勝利・楽勝
+st[133] = { volumetype=1, path=1, file="sik00_2023", type=0, category=1, userparam=130 }; // これに懲りたら大人しくしてくれよ。
+
+// vs吸血鬼
+st[134] = { volumetype=1, path=1, file="sik00_2024", type=0, category=1, userparam=161 }; // この先はない。消えされ吸血鬼
+
+// 決着
+st[135] = { volumetype=1, path=1, file="sik01_2020", type=0, category=1, userparam=206 }; // 「こんなの、命がいくつあっても足りないぞ…… 」
+st[136] = { volumetype=1, path=1, file="sik01_2021", type=0, category=1, userparam=159 }; // 「無理するな。そのまま寝てろ。」
+
+// 待機モーション
+st[140] = { volumetype=1, path=1, file=["sik00_2025","sik01_her_2025"], type=0, category=1, userparam=132 }; // 深呼吸、深呼吸……
+st[141] = { volumetype=1, path=1, file=["sik00_2026","sik01_her_2026"], type=0, category=1, userparam=98 }; // そろそろいいかな？
+st[142] = { volumetype=1, path=1, file=["sik01_2025",""], type=0, category=1 }; // 「……ああ。線だらけだよ、アンタ」
+
+// タイムアップ判定負け	
+st[150] = { volumetype=1, path=1, file=["sik00_2027","sik01_her_2027"], type=0, category=1, userparam=104 }; // くそ、傷が……！
+st[151] = { volumetype=1, path=1, file=["sik00_2028","sik01_her_2028"], type=0, category=1, userparam=204 }; // フルタイム走らされて……負けた……
+st[152] = { volumetype=1, path=1, file="sik01_2028", type=0, category=1 }; // 「ハンパに助かるなんて……クソ」
+
+// 弱攻撃	
+st[160] = { volumetype=1, path=1, file="sik00_2100_a", type=0, category=1}; // はっ
+st[161] = { volumetype=1, path=1, file="sik00_2101_a", type=0, category=1}; // ふっ
+st[162] = { volumetype=1, path=1, file="sik00_2102_a", type=0, category=1}; // しっ
+st[163] = { volumetype=1, path=1, file="sik00_2100_b", type=0, category=1}; // はっ
+st[164] = { volumetype=1, path=1, file="sik00_2102_b", type=0, category=1}; // しっ
+
+// 中攻撃	
+st[165] = { volumetype=1, path=1, file="sik00_2103_a", type=0, category=1}; // たっ
+st[166] = { volumetype=1, path=1, file="sik00_2104_a", type=0, category=1}; // この
+st[167] = { volumetype=1, path=1, file="sik00_2105_a", type=0, category=1}; // せい
+st[168] = { volumetype=1, path=1, file="sik00_2103_b", type=0, category=1}; // たっ
+st[169] = { volumetype=1, path=1, file="sik00_2105_b", type=0, category=1}; // せい
+
+// 強攻撃	
+st[170] = { volumetype=1, path=1, file=["sik00_2106_a","sik01_her_2106"], type=0, category=1}; // 食らえっ！
+st[171] = { volumetype=1, path=1, file=["sik00_2107_a","sik01_her_2107"], type=0, category=1}; // そらっ
+st[172] = { volumetype=1, path=1, file=["sik00_2108_a","sik01_her_2108"], type=0, category=1}; // はあっ
+
+// 連打浮かせ攻撃
+st[180] = { volumetype=1, path=1, file=["sik00_2109","sik01_her_2109"], type=0, category=3}; // いくぞっ
+st[181] = { volumetype=1, path=1, file=["sik00_2110","sik01_her_2110"], type=0, category=3}; // 飛べ！
+st[182] = { volumetype=1, path=1, file=["sik00_2113","sik01_her_2113"], type=0, category=3}; // おお！
+st[183] = { volumetype=1, path=1, file=["sik00_2114","sik01_her_2114"], type=0, category=3}; // ああ！（いちかばちかっぽく）
+
+// st[184] = { volumetype=1, path=1, file=["sik00_2111","sik01_her_2111"], type=0, category=1}; // そらっ
+// st[185] = { volumetype=1, path=1, file=["sik00_2112","sik01_her_2112"], type=0, category=1}; // 悪いね！
+
+// 吹き飛ばし攻撃
+st[192] = { volumetype=1, path=1, file=["sik00_2115","sik01_her_2115"], type=0, category=1}; // そらよっ！
+st[193] = { volumetype=1, path=1, file=["sik00_2116","sik01_her_2116"], type=0, category=1}; // ダメもと！
+
+// 上からの攻撃
+st[200] = { volumetype=1, path=1, file=["sik00_2117","sik01_her_2117"], type=0, category=1}; // 上だ！
+st[201] = { volumetype=1, path=1, file=["sik00_2118","sik01_her_2118"], type=0, category=1}; // どうだ
+
+// 下からの攻撃
+st[210] = { volumetype=1, path=1, file=["sik00_2119","sik01_her_2119"], type=0, category=1}; // 下だ！
+st[211] = { volumetype=1, path=1, file=["sik00_2120","sik01_her_2120"], type=0, category=1}; // 倒れろ！
+
+// 回避困難な攻撃
+st[220] = { volumetype=1, path=1, file=["sik00_2121","sik01_her_2121"], type=0, category=1}; // 視えたっ
+st[221] = { volumetype=1, path=1, file=["sik00_2122","sik01_her_2122"], type=0, category=1}; // はぁー！
+st[222] = { volumetype=1, path=1, file=["sik00_2123","sik01_her_2123"], type=0, category=1}; // いくぞ！
+
+// その他特殊攻撃
+st[230] = { volumetype=1, path=1, file=["sik00_2124","sik01_her_2124"], type=0, category=1}; // これで！
+st[231] = { volumetype=1, path=1, file=["sik00_2125","sik01_her_2125"], type=0, category=1}; // いち
+st[232] = { volumetype=1, path=1, file=["sik00_2126","sik01_her_2126"], type=0, category=1}; // にっ
+st[233] = { volumetype=1, path=1, file=["sik00_2127","sik01_her_2127"], type=0, category=1}; // とどめ！
+st[234] = { volumetype=1, path=1, file=["sik00_2128","sik01_her_2128"], type=0, category=1}; // （意識を、）刈り取るっ！
+
+// 投げ技成功
+st[240] = { volumetype=1, path=1, file=["sik00_2200","sik01_her_2200"], type=0, category=1}; // 取った！
+st[241] = { volumetype=1, path=1, file=["sik00_2201","sik01_her_2201"], type=0, category=1}; // 寝てろ
+st[242] = { volumetype=1, path=1, file=["sik00_2202","sik01_her_2202"], type=0, category=1}; // せーのっ！
+st[243] = { volumetype=1, path=1, file="sik00_2203", type=0, category=1}; // ふっ……！
+
+// 投げ技失敗
+st[250] = { volumetype=1, path=1, file="sik00_2204", type=0, category=1}; // しまった
+st[251] = { volumetype=1, path=1, file="sik00_2205", type=0, category=1}; // うわっ
+st[252] = { volumetype=1, path=1, file="sik00_2206", type=0, category=1}; // っと
+
+// 敵の投げ技を回避
+st[260] = { volumetype=1, path=1, file=["sik00_2207","sik01_her_2207"], type=0, category=1, prio=Def_SEP_ThrowTech, check=1}; // 甘いっ
+st[261] = { volumetype=1, path=1, file=["sik00_2208","sik01_her_2208"], type=0, category=1, prio=Def_SEP_ThrowTech, check=1}; // はっ
+st[262] = { volumetype=1, path=1, file="sik01_2207", type=0, category=1, prio=Def_SEP_ThrowTech, check=1 }; // 「っ、やるか！」
+
+// 振り向き
+st[270] = { volumetype=1, path=1, file="sik00_2300", type=0, category=1, }; //　くっ
+st[271] = { volumetype=1, path=1, file="sik00_2301", type=0, category=1, }; //　こっちか
+
+// ジャンプ
+st[280] = { volumetype=1, path=1, file="sik00_2302", type=0, category=1, }; //　ふっ
+st[281] = { volumetype=1, path=1, file="sik00_2303", type=0, category=1, }; //　たっ
+st[282] = { volumetype=1, path=1, file="sik00_2304", type=0, category=1, }; //　はっ
+
+// ダッシュ
+st[290] = { volumetype=1, path=1, file="sik00_2305", type=0, category=1}; // ふっ
+st[291] = { volumetype=1, path=1, file=["sik00_2306","sik01_her_2306"], type=0, category=1}; // 逃すか！
+st[292] = { volumetype=1, path=1, file=["sik00_2307","sik01_her_2307"], type=0, category=1}; // いくぞ
+st[293] = { volumetype=1, path=1, file=["sik00_2308","sik01_her_2308"], type=0, category=1}; // そこだよ！
+st[294] = { volumetype=1, path=1, file="sik01_2308", type=0, category=1 }; // 「おおおお！」（気合いをいれてダッシュ）
+
+// バックステップ
+st[300] = { volumetype=1, path=1, file="sik00_2309", type=0, category=1}; // くっ
+st[301] = { volumetype=1, path=1, file="sik00_2310", type=0, category=1}; // おっと
+st[302] = { volumetype=1, path=1, file="sik00_2311", type=0, category=1}; // ふっ
+
+// 弱攻撃ガード
+st[310] = { volumetype=1, path=1, file="sik00_2400", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // チッ
+st[311] = { volumetype=1, path=1, file="sik00_2401", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // なんと
+st[312] = { volumetype=1, path=1, file="sik00_2402", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // むっ
+
+// 中攻撃ガード
+st[320] = { volumetype=1, path=1, file="sik00_2403", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // このっ
+st[321] = { volumetype=1, path=1, file=["sik00_2404","sik01_her_2404"], type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // こいつっ
+st[322] = { volumetype=1, path=1, file=["sik00_2405","sik01_her_2405"], type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // やるな
+
+// 強攻撃ガード
+st[330] = { volumetype=1, path=1, file=["sik00_2406","sik01_her_2406"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // くそっ
+st[331] = { volumetype=1, path=1, file=["sik00_2407","sik01_her_2407"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // やめろって！
+st[332] = { volumetype=1, path=1, file=["sik00_2408_a","sik01_her_2408"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 殺す気か！
+st[334] = { volumetype=1, path=1, file=["sik01_2407","sik03_2406"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「まずい……！」
+st[335] = { volumetype=1, path=1, file=["sik01_2408","sik03_2406"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「負けるか……！」
+
+//余裕ガード
+st[340] = { volumetype=1, path=1, file=["sik00_2409","sik01_her_2409"], type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 見えた
+st[341] = { volumetype=1, path=1, file=["sik00_2410","sik01_her_2410"], type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // こうだ
+st[342] = { volumetype=1, path=1, file=["sik00_2411","sik01_her_2411"], type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // こっち
+
+// ガード失敗
+st[350] = { volumetype=1, path=1, file="sik00_2412", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // くっ！
+st[351] = { volumetype=1, path=1, file="sik00_2413", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // うわ！
+st[352] = { volumetype=1, path=1, file="sik00_2414", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 目が……！
+
+// 受け身
+st[360] = { volumetype=1, path=1, file="sik00_2500", type=0, category=1, prio=Def_SEP_Recover}; // はっ
+st[361] = { volumetype=1, path=1, file="sik00_2501", type=0, category=1, prio=Def_SEP_Recover}; // まだまだ
+st[362] = { volumetype=1, path=1, file="sik00_2502", type=0, category=1, prio=Def_SEP_Recover}; // そうかい
+st[363] = { volumetype=1, path=1, file="sik00_2503", type=0, category=1, prio=Def_SEP_Recover}; // よっと
+
+// シールド発動
+st[370] = { volumetype=1, path=1, file="sik00_2504", type=0, category=1}; // はっ
+st[371] = { volumetype=1, path=1, file="sik00_2505", type=0, category=1}; // たっ
+st[372] = { volumetype=1, path=1, file=["sik00_2506","sik01_her_2506"], type=0, category=1}; // はいはい
+st[373] = { volumetype=1, path=1, file="sik01_2506", type=0, category=1 }; // 「ハッ」（鼻で笑う）
+
+// シールド成功
+st[380] = { volumetype=1, path=1, file=["sik00_2507","sik01_her_2507"], type=0, category=1}; // よし
+st[381] = { volumetype=1, path=1, file=["sik00_2508","sik01_her_2508"], type=0, category=1}; // 取った
+st[382] = { volumetype=1, path=1, file=["sik00_2509","sik01_her_2509"], type=0, category=1}; // 今だ
+st[383] = { volumetype=1, path=1, file=["sik00_2510","sik01_her_2510"], type=0, category=1}; // 隙あり！
+
+// シールド取って反撃
+st[390] = { volumetype=1, path=1, file=["sik00_2511","sik01_her_2511"], type=0, category=1}; // 食らえっ！
+st[391] = { volumetype=1, path=1, file=["sik00_2512","sik01_her_2512"], type=0, category=1}; // 刻む
+st[392] = { volumetype=1, path=1, file=["sik00_2513","sik01_her_2513"], type=0, category=1}; // はっ
+
+// シールド取って回り込んで反撃
+st[395] = { volumetype=1, path=1, file=["sik00_2514","sik01_her_2514"], type=0, category=1}; // 甘いっ
+st[396] = { volumetype=1, path=1, file=["sik00_2515","sik01_her_2515"], type=0, category=1}; // もらったっ
+st[397] = { volumetype=1, path=1, file=["sik00_2516","sik01_her_2516"], type=0, category=1}; // チャンス
+
+// 弱攻撃ダメージ
+st[400] = { volumetype=1, path=1, file="sik00_2600", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // ぐっ
+st[401] = { volumetype=1, path=1, file="sik00_2601", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // つっ
+st[402] = { volumetype=1, path=1, file="sik00_2602", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // このっ
+
+// 中攻撃ダメージ
+st[410] = { volumetype=1, path=1, file="sik00_2603", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // くはっ
+st[411] = { volumetype=1, path=1, file="sik00_2604", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // ううっ
+st[412] = { volumetype=1, path=1, file="sik00_2605", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // マズ…！
+
+// 強攻撃ダメージ
+st[420] = { volumetype=1, path=1, file=["sik00_2606","sik01_her_2606"], type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 痛(つ)ぅっ
+st[421] = { volumetype=1, path=1, file=["sik00_2607","sik01_her_2607"], type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // このっ
+st[422] = { volumetype=1, path=1, file=["sik00_2608","sik01_her_2608"], type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // うあ！
+
+// ダウン
+// st[430] = { volumetype=1, path=1, file="sik00_2609", type=0, category=1, prio=Def_SEP_KO }; // うわぁーー！
+st[431] = { volumetype=1, path=1, file=["sik00_2610","sik01_her_2610"], type=0, category=1, prio=Def_SEP_KO }; // まずいな……先手をとられた……
+// st[432] = { volumetype=1, path=1, file="sik00_2611", type=0, category=1, prio=Def_SEP_KO }; // ぐあああああ！
+st[433] = { volumetype=1, path=1, file="sik00_2610_s0", type=0, category=1, prio=Def_SEP_KO }; // まずいな……
+
+// ダウン・ノックアウト
+st[440] = { volumetype=1, path=1, file="sik00_2612", type=0, category=1, prio=Def_SEP_KO }; // うわぁーーーーーーっ
+st[441] = { volumetype=1, path=1, file=["sik00_2613","sik01_her_2613"], type=0, category=1, prio=Def_SEP_KO }; // 当然の……結果だよな……
+
+// 起きあがり
+st[450] = { volumetype=1, path=1, file=["sik00_2614","sik01_her_2614"], type=0, category=1}; // まだいける
+st[451] = { volumetype=1, path=1, file=["sik00_2615","sik01_her_2615"], type=0, category=1}; // くそっ
+
+// 起きあがり・瀕死
+st[460] = { volumetype=1, path=1, file=["sik00_2616","sik01_her_2616"], type=0, category=1}; // コイツ…！
+
+// 本気を出す（体力一定値以下で発動）
+st[470] = { volumetype=1, path=1, file=["sik00_2700","sik01_her_2700"], type=0, category=3}; // ここからだ！
+st[471] = { volumetype=1, path=1, file=["sik00_2701","sik01_her_2701"], type=0, category=3}; // 全力で行く！
+
+// ゲージ溜め
+st[480] = { volumetype=1, path=1, file="sik00_2702", type=0, category=1}; // はあああああああ！
+st[481] = { volumetype=1, path=1, file=["sik00_2703","sik01_her_2703"], type=0, category=1}; // やってやる……！
+
+// 強制開放
+st[490] = { volumetype=1, path=1, file=["sik00_2704","sik01_her_2704"], type=0, category=3}; // 決めてやる
+st[491] = { volumetype=1, path=1, file=["sik00_2705","sik01_her_2705"], type=0, category=3}; // いいんだな！
+// st[492] = { volumetype=1, path=1, file=["sik01_her_2706","sik00_2706"], type=0, category=3}; // とりあえずあっち！
+//意図的にherと逆
+
+// 必殺技 切り札そのいち 閃鞘・一仞
+st[500] = { volumetype=1, path=1, file=["sik00_3001","sik01_her_3001"], type=0, category=1}; // ひゅっ！
+st[501] = { volumetype=1, path=1, file=["sik00_3002","sik01_her_3002"], type=0, category=1}; // せい！
+st[502] = { volumetype=1, path=1, file=["sik00_3003","sik01_her_3003"], type=0, category=1}; // くらえ！
+st[503] = { volumetype=1, path=1, file="sik01_3001", type=0, category=1 }; // 「あたれ！」
+
+// 必殺技 切り札そのいちEX 閃鞘・一仞
+st[505] = { volumetype=1, path=1, file=["sik00_3005","sik01_her_3005"], type=0, category=1}; // はああ、
+st[506] = { volumetype=1, path=1, file=["sik00_3006","sik01_her_3006"], type=0, category=1}; // たあ！
+st[507] = { volumetype=1, path=1, file="sik01_3005", type=0, category=1 }; // 「行くぞ！」（次に続く）
+st[508] = { volumetype=1, path=1, file="sik01_3006", type=0, category=1 }; // 「せいやぁ！」
+
+// 必殺技 切り札そのに 閃走・二折
+st[510] = { volumetype=1, path=1, file=["sik00_3008","sik01_her_3008"], type=0, category=1}; // でやっ
+st[511] = { volumetype=1, path=1, file=["sik00_3009","sik01_her_3009"], type=0, category=1}; // そこだ！
+st[512] = { volumetype=1, path=1, file="sik01_3008", type=0, category=1 }; // 「がら空き！」
+
+// 必殺技 切り札そのにEX 閃走・二折
+st[515] = { volumetype=1, path=1, file=["sik00_3011","sik01_her_3011"], type=0, category=1}; // せーの、（次に続く）
+st[516] = { volumetype=1, path=1, file=["sik00_3012","sik01_her_3012"], type=0, category=1}; // どうだ！
+st[517] = { volumetype=1, path=1, file=["sik00_3013","sik01_her_3013"], type=0, category=1}; // こいつで……（次に続く）
+st[518] = { volumetype=1, path=1, file=["sik00_3014","sik01_her_3014"], type=0, category=1}; // 倒れろ！
+
+st[514] = { volumetype=1, path=1, file="sik01_3011", type=0, category=1 }; // 「チャンス！」（次に続く）
+st[519] = { volumetype=1, path=1, file="sik01_3012", type=0, category=1 }; // 「吹っ飛べ！」
+
+// 必殺技 自分でもよくわからない蹴り 閃走・六魚
+st[520] = { volumetype=1, path=1, file="sik00_3016", type=0, category=1}; // ひゅっ！
+st[521] = { volumetype=1, path=1, file="sik01_3016", type=0, category=1 }; // 「そいっ！」
+
+// 必殺技 自分でもよくわからない蹴りEX 閃走・六魚
+st[525] = { volumetype=1, path=1, file=["sik00_3018","sik01_her_3018"], type=0, category=1}; // オマエは……！
+st[526] = { volumetype=1, path=1, file=["sik00_3019","sik01_her_3019"], type=0, category=1}; // 落ちろ……！
+st[527] = { volumetype=1, path=1, file=["sik00_3020","sik01_her_3020"], type=0, category=1}; // とどめ！
+st[528] = { volumetype=1, path=1, file="sik01_3018", type=0, category=1 }; //（発動）「ここは……！」
+st[529] = { volumetype=1, path=1, file="sik01_3019", type=0, category=1 }; //（ヒット後、叩きつけ）「こうでしょ……！」
+
+// 必殺技 突発的にでる蹴り 閃走・六鹿
+st[530] = { volumetype=1, path=1, file=["sik00_3022","sik01_her_3022"], type=0, category=1}; // いくぞっ！
+st[531] = { volumetype=1, path=1, file="sik01_3022", type=0, category=1 }; // 「そぅら！」（ガラのわるい膝パン）
+st[532] = { volumetype=1, path=1, file="sik01_3023", type=0, category=1 }; // 「そらよ！」（ちょっと七夜っぽく）
+
+// 必殺技 突発的にでる蹴りEX 閃走・六鹿
+st[535] = { volumetype=1, path=1, file="sik00_3024", type=0, category=1}; // かわせるか……！
+st[536] = { volumetype=1, path=1, file="sik00_3025", type=0, category=1}; // せやあーー！
+// st[537] = { volumetype=1, path=1, file=["sik01_3026","sik01_her_3026"], type=0, category=1 }; // 「ブチこんでやる……！」
+st[538] = { volumetype=1, path=1, file=["sik01_3027","sik01_her_3027"], type=0, category=1 }; // 「そらよ……！」
+// st[539] = { volumetype=1, path=1, file="sik01_3028", type=0, category=1 }; // 「跳ねろ……！」
+// st[534] = { volumetype=1, path=1, file="sik01_3029", type=0, category=1 }; // 「鹿のように！」
+
+// 必殺技 切り札そのさん
+// st[540] = { volumetype=1, path=1, file=["sik00_3028","sik01_her_3031"], type=0, category=1}; // 斬る……！
+st[540] = { volumetype=1, path=1, file="sik00_3028", type=0, category=1 }; // 斬る……！
+// st[541] = { volumetype=1, path=1, file="sik01_3031", type=0, category=1 }; // 「冗談！」
+
+// 必殺技 夢中の反撃
+// st[550] = { volumetype=1, path=1, file=["sik00_3031","sik01_her_3034"], type=0, category=1}; // 斬る！
+// st[551] = { volumetype=1, path=1, file="sik01_3034", type=0, category=1 }; // 「そこだよ……！」
+
+// 必殺技 夢中の反撃EX
+// st[555] = { volumetype=1, path=1, file=["sik00_3033","sik01_her_3036"], type=0, category=1}; // せやぁー！
+// st[556] = { volumetype=1, path=1, file="sik01_3036", type=0, category=1 }; // 「その頭蓋、目障りだ！」
+
+// その他、予備
+// st[560] = { volumetype=1, path=1, file=["sik00_3038","sik01_her_3039"], type=0, category=1}; // 切り上げる！
+// st[561] = { volumetype=1, path=1, file=["sik00_3039","sik01_her_3040"], type=0, category=1}; // もっと……！
+// st[562] = { volumetype=1, path=1, file=["sik00_3040","sik01_her_3041"], type=0, category=1}; // よけてくれよ……！
+// st[563] = { volumetype=1, path=1, file="sik01_3039", type=0, category=1 }; // 「寝てるのかい？」
+// st[564] = { volumetype=1, path=1, file="sik01_3040", type=0, category=1 }; // 「なってない！」
+
+// 飛び道具消し
+st[570] = { volumetype=1, path=1, file=["sik00_3044","sik01_her_3044"], type=0, category=1}; // 今なら……！ ゲージ溜め
+// st[571] = { volumetype=1, path=1, file=["sik00_3045","sik01_her_3045"], type=0, category=1}; // 無駄だ……！
+// st[572] = { volumetype=1, path=1, file=["sik00_3046","sik01_her_3046"], type=0, category=1}; // そこか！
+// st[573] = { volumetype=1, path=1, file="sik01_3044", type=0, category=1 }; // 「消えろ……！」
+
+// （技名：閃鞘・八花鏡）
+st[575] = { volumetype=1, path=1, file="sik01_3050", type=0, category=1 }; // 「避(よ)けられるか？」
+// （技名：閃鞘・八隼）
+// st[576] = { volumetype=1, path=1, file="sik01_3053", type=0, category=1 }; // 「そこっ！」
+// （技名：EX閃鞘・八隼）
+// st[578] = { volumetype=1, path=1, file="sik01_3055", type=0, category=1 }; // 「いただき…！」
+
+
+// アークドライブ
+// st[600] = { volumetype=1, path=1, file="sik00_3068", type=0, category=1}; // これが、モノを殺すと言うことだ……！
+// st[601] = { volumetype=1, path=1, file="sik00_3069", type=0, category=1}; // ───殺す
+
+st[600] = { volumetype=1, path=1, file=["sik01_3068","sik01_her_3068"], type=0, category=1 }; // 「これが、モノを殺すと言うことだ……！」（次に続く）
+st[601] = { volumetype=1, path=1, file=["sik01_3069","sik01_her_3069"], type=0, category=1 }; // 「───殺す」
+
+// st[602] = { volumetype=1, path=1, file="sik01_3071", type=0, category=1 }; // 「他の何にでもなく…」（次に続く）
+// st[603] = { volumetype=1, path=1, file="sik01_3072", type=0, category=1 }; // 「オマエは、俺に殺される！！」
+
+// st[604] = { volumetype=1, path=1, file="sik01_3074", type=0, category=1 }; // 「生きているんだろう？」（次に続く）
+// st[605] = { volumetype=1, path=1, file="sik01_3075", type=0, category=1 }; // 「なら、例外はないんだよ……！」
+
+// st[606] = { volumetype=1, path=1, file="sik01_3076", type=0, category=1 }; // 「自我境界、熔解」（次に続く）
+// st[607] = { volumetype=1, path=1, file="sik01_3077", type=0, category=1 }; // 「俺はもう―――人間である意味が、分からない」
+
+// ラストアーク
+// st[610] = { volumetype=1, path=1, file="sik00_3079", type=0, category=1}; // 見えた……！
+// st[611] = { volumetype=1, path=1, file="sik00_3080", type=0, category=1}; // 俺はもう―――人間である意味が、分からない　※監修により使用禁止
+st[610] = { volumetype=1, path=1, file="sik01_3078", type=0, category=1 }; // 「見えた……！」（次に続く）
+// st[611] = { volumetype=1, path=1, file="sik01_3079", type=0, category=1 }; // 「一瞬で、楽にしてやる……！」
+st[612] = { volumetype=1, path=1, file="sik00_3081", type=0, category=1}; // おしまいだよ。俺も、おまえも。
+st[613] = { volumetype=1, path=1, file="sik01_3080", type=0, category=1 }; // 「……いいとも。」（次に続く）
+st[614] = { volumetype=1, path=1, file="sik01_3081", type=0, category=1 }; // 「こんなものは、今回かぎりだ」
+
+// ラストアーク （技名：再証・十七分割）　（対吸血鬼）
+st[620] = { volumetype=1, path=1, file="sik01_3082", type=0, category=1 }; // 「例外はない。」（次に続く）
+st[621] = { volumetype=1, path=1, file="sik01_3083", type=0, category=1 }; // 「限界を知れ、吸血鬼。」 
+
+// ラストアーク （技名：再証・十七分割　対アルク）
+st[625] = { volumetype=1, path=1, file="sik01_her_3079", type=0, category=1 }; // 「―――ああ」（次に続く）
+st[626] = { volumetype=1, path=1, file="sik01_her_3080", type=0, category=1 }; // 「なんて、罪深い」
+
+// 対ヒロイン
+// 登場（3秒程度）
+st[650] = { volumetype=1, path=1, file=["","sik01_her_2000"], type=0, category=1, userparam=186 }; // 「うーん……なんでこんなコトに？」
+// st[651] = { volumetype=1, path=1, file=["","sik01_her_2001"], type=0, category=1 }; // 「気は乗らないけど、仕方ない」（ニュアンス違い）
+
+// ラウンド勝利（3秒程度）
+st[652] = { volumetype=1, path=1, file=["","sik01_her_2014"], type=0, category=1, userparam=203 }; // 「あー……つっかれたぁ……」（ニュアンス違い）
+st[653] = { volumetype=1, path=1, file=["","sik01_her_2015"], type=0, category=1, userparam=127 }; // 「ナイフで峰打ちもないけどね」
+st[654] = { volumetype=1, path=1, file=["","sik01_her_2016"], type=0, category=1, userparam=230 }; // 「ここで終わり……にはならないかー！」
+st[655] = { volumetype=1, path=1, file=["","sik01_her_2017"], type=0, category=1, userparam=168 }; // 「まだぜんっぜんやる気だな……」
+
+// 決着勝利・汎用（3秒程度）
+st[656] = { volumetype=1, path=1, file=["","sik01_her_2020"], type=0, category=1, userparam=104 }; // 「うまく納まったかな？」
+st[657] = { volumetype=1, path=1, file=["","sik01_her_2021"], type=0, category=1, userparam=130 }; // 「はい、今回はここまで」
+
+// 決着勝利・辛勝（3秒程度）
+st[658] = { volumetype=1, path=1, file=["","sik01_her_2022"], type=0, category=1, userparam=152 }; // 「ごめん！急用を思い出した！」
+
+// 決着勝利・楽勝（3秒程度）
+st[659] = { volumetype=1, path=1, file=["","sik01_her_2023"], type=0, category=1, userparam=178 }; // 「あっさり……勝ってしまった……」
+
+// DLC
+// 登場
+// 対死徒ノエル
+st[670] = { volumetype=1, path=1, file="sik02_2006", type=0, category=1, userparam=182 }; // 「そりゃあ、怖がる理由がないからな」
+st[671] = { volumetype=1, path=1, file="sik02_2009", type=0, category=1, userparam=166 }; // 「―――そうか。手遅れなんだな」
+
+// 対青子
+st[672] = { volumetype=1, path=1, file="sik02_2007", type=0, category=1, userparam=178 }; // 「（まったく）もう。先生らしいですね」
+st[673] = { volumetype=1, path=1, file="sik02_2008", type=0, category=1, userparam=213 }; // 「そうだった……この人、こういう人だった……」
+st[674] = { volumetype=1, path=1, file="sik02_2010", type=0, category=1, userparam=171 }; // 「試合で近況報告とか、本気ですか！？」
+
+// 対武装シエル
+st[675] = { volumetype=1, path=1, file="sik02_2011", type=0, category=1, userparam=232 }; // 「実戦訓練、なんですね」
+st[676] = { volumetype=1, path=1, file="sik02_2012", type=0, category=1, userparam=159 }; // 「（真面目なのかな、怒ってるのかな……？）」
+
+// 対マーリオゥ
+st[677] = { volumetype=1, path=1, file="sik02_2013", type=0, category=1, userparam=203 }; // 「そっちもな。物騒なお守りがたくさんだ。」
+
+// ラウンド敗北 掛け合い
+// 対青子
+st[680] = { volumetype=1, path=1, file="sik02_2057", type=0, category=1, userparam=283 }; // 「はい……真下から、アゴに、いいのが……」
+st[681] = { volumetype=1, path=1, file="sik02_2058", type=0, category=1, userparam=178 }; // 「……先生、やっぱりスパルタか……」
+
+// 決着敗北 掛け合い
+// 対青子
+st[682] = { volumetype=1, path=1, file="sik02_2065", type=0, category=1, userparam=130 }; // 「いえ……焼き肉は、いいです……」
+
+// DLC
+// 登場
+// 対ネコアルク
+st[690] = { volumetype=1, path=1, file="sik03_2007", type=0, category=1, userparam=177 }; // 「クライム同然の顔に言われたくないです」
+
+// 対牛若丸
+st[691] = { volumetype=1, path=1, file="sik04_2009", type=0, category=1, userparam=180 }; // 「そこの丘の上の洋館の長男ですけど……」
+
+// 対巌窟王
+st[692] = { volumetype=1, path=1, file="sik04_2011", type=0, category=1, userparam=174 }; // 「覚えがないのなら、そういうコトだよ」
+
+
+
+// ボスラッシュ2のラスト用
+
+ 
+// 登場
+st[700] = { volumetype=1, path=1, file="nny03_2000", type=0, category=1, userparam=197 }; // 「夢から覚めても、また悪夢ってね」
+st[701] = { volumetype=1, path=1, file="nny03_2001", type=0, category=1, userparam=180 }; // 「手向けの花は、いらないかな」
+st[702] = { volumetype=1, path=1, file="nny03_2002", type=0, category=1, userparam=149 }; // 「その不安、俺が斬り捨てる」
+
+// 後が無くなったラウンドの開幕
+st[704] = { volumetype=1, path=1, file="nny03_2020", type=0, category=3 }; // 「ほら、やればできる」
+
+// ラウンド勝利
+st[706] = { volumetype=1, path=1, file="nny03_2023", type=0, category=1, userparam=190 }; // 「しかし物好きだね、どうも」
+
+// 決着勝利・汎用
+st[710] = { volumetype=1, path=1, file="nny03_2029", type=0, category=1, userparam=127 }; // 「これにて終了でございます」
+st[711] = { volumetype=1, path=1, file="nny03_2030", type=0, category=1, userparam=144 }; // 「そこは無理して立ち上がらないと」
+
+// 待機モーション
+st[713] = { volumetype=1, path=1, file="nny03_2038", type=0, category=1 }; // 「深呼吸、深呼吸……」
+
+// タイムアップ判定負け
+st[715] = { volumetype=1, path=1, file="nny03_2040", type=0, category=1 }; // 「首は落とせないからなぁ
+
+// 弱攻撃
+st[720] = { volumetype=1, path=1, file="nny03_2100", type=0, category=1 }; // 「ふっ」
+st[721] = { volumetype=1, path=1, file="nny03_2101", type=0, category=1 }; // 「はっ」
+st[722] = { volumetype=1, path=1, file="nny03_2100_a", type=0, category=1 }; // 「ふっ」
+st[723] = { volumetype=1, path=1, file="nny03_2101_a", type=0, category=1 }; // 「はっ」
+
+// 中攻撃
+st[730] = { volumetype=1, path=1, file="nny03_2103", type=0, category=1 }; // 「斬っ」
+st[731] = { volumetype=1, path=1, file="nny03_2104", type=0, category=1 }; // 「疾(し)っ」
+st[732] = { volumetype=1, path=1, file="nny03_2103_a", type=0, category=1 }; // 「斬っ」
+st[733] = { volumetype=1, path=1, file="nny03_2104_a", type=0, category=1 }; // 「疾(し)っ」
+st[734] = { volumetype=1, path=1, file="nny03_2104_b", type=0, category=1 }; // 「疾(し)っ」
+st[734] = { volumetype=1, path=1, file="nny03_2104_c", type=0, category=1 }; // 「疾(し)っ」
+
+// 強攻撃
+st[740] = { volumetype=1, path=1, file="nny03_2106", type=0, category=1 }; // 「そら！」
+st[741] = { volumetype=1, path=1, file="nny03_2107", type=0, category=1 }; // 「せいっ」
+st[742] = { volumetype=1, path=1, file="nny03_2108", type=0, category=1 }; // 「穿(せん)っ！」
+st[743] = { volumetype=1, path=1, file="nny03_2106_a", type=0, category=1 }; // 「そら！」
+st[744] = { volumetype=1, path=1, file="nny03_2107_a", type=0, category=1 }; // 「せいっ」
+st[745] = { volumetype=1, path=1, file="nny03_2108_a", type=0, category=1 }; // 「穿(せん)っ！」
+st[746] = { volumetype=1, path=1, file="nny03_2106_b", type=0, category=1 }; // 「そら！」
+st[747] = { volumetype=1, path=1, file="nny03_2107_b", type=0, category=1 }; // 「せいっ」
+st[748] = { volumetype=1, path=1, file="nny03_2106_c", type=0, category=1 }; // 「そら！」
+st[749] = { volumetype=1, path=1, file="nny03_2107_c", type=0, category=1 }; // 「せいっ」
+
+// 浮かせ攻撃
+st[750] = { volumetype=1, path=1, file="nny03_2109", type=0, category=3 }; // 「跳ねろ」
+
+// 投げ成功（空中投げも）
+st[751] = { volumetype=1, path=1, file="nny03_2200", type=0, category=1 }; // 「そら」
+st[752] = { volumetype=1, path=1, file="nny03_2201", type=0, category=1 }; // 「寝てな」
+
+// 投げ失敗（空中投げも）
+st[753] = { volumetype=1, path=1, file="nny03_2204", type=0, category=1 }; // 「あらら」
+
+// 敵の投げ技を回避
+st[754] = { volumetype=1, path=1, file="nny03_2207", type=0, category=1, prio=Def_SEP_ThrowTech, check=1 }; // 「くっ」
+
+// ダッシュ（空中ダッシュも）
+st[760] = { volumetype=1, path=1, file="nny03_2305", type=0, category=1 }; // 「ハッ……！」
+st[761] = { volumetype=1, path=1, file="nny03_2309", type=0, category=1 }; // 「ふん！」
+
+// バックステップ（空中バックダッシュも）
+st[762] = { volumetype=1, path=1, file="nny03_2310", type=0, category=1 }; // 「はっ」
+
+// 弱攻撃ガード
+st[763] = { volumetype=1, path=1, file="nny03_2400", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「ふん」
+// st[764] = { volumetype=1, path=1, file="nny03_2400_a", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「ふん」
+
+// 中攻撃ガード
+st[770] = { volumetype=1, path=1, file="nny03_2403", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「眠い」
+st[771] = { volumetype=1, path=1, file="nny03_2404", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「遅い」
+ 
+// 強攻撃ガード
+st[772] = { volumetype=1, path=1, file="nny03_2406", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「正気？」
+st[773] = { volumetype=1, path=1, file="nny03_2407", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「うっわ」
+// st[774] = { volumetype=1, path=1, file="nny03_2407_a", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「うっわ」
+
+// 攻撃を見切り余裕でガード
+st[775] = { volumetype=1, path=1, file="nny03_2409", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「ふーん……」
+
+// ガード失敗ダメージ
+st[776] = { volumetype=1, path=1, file="nny03_2412", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「くわっ！？」
+
+// 受け身
+st[780] = { volumetype=1, path=1, file="nny03_2500", type=0, category=1, prio=Def_SEP_Recover }; // 「ふっ」
+st[781] = { volumetype=1, path=1, file="nny03_2501", type=0, category=1, prio=Def_SEP_Recover }; // 「まてまて」
+
+// シールド発動
+st[783] = { volumetype=1, path=1, file="nny03_2504", type=0, category=1 }; // 「こうかい？」
+st[784] = { volumetype=1, path=1, file="nny03_2505", type=0, category=1 }; // 「なんの」
+
+// シールド成功
+st[786] = { volumetype=1, path=1, file="nny03_2507", type=0, category=1 }; // 「ふん」
+st[787] = { volumetype=1, path=1, file="nny03_2508", type=0, category=1 }; // 「未熟」
+
+// シールド取って反撃
+st[790] = { volumetype=1, path=1, file="nny03_2511", type=0, category=1 }; // 「そぅら！」
+st[791] = { volumetype=1, path=1, file="nny03_2512", type=0, category=1 }; // 「いいのか？」
+
+// シールド取って回り込んで反撃
+st[792] = { volumetype=1, path=1, file="nny03_2514", type=0, category=1 }; // 「悪いね！」
+st[793] = { volumetype=1, path=1, file="nny03_2515", type=0, category=1 }; // 「遅すぎるんだよ！」
+
+// 弱攻撃ダメージ
+st[800] = { volumetype=1, path=1, file="nny03_2600", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「ふっ」
+
+// 中攻撃ダメージ
+st[802] = { volumetype=1, path=1, file="nny03_2603", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「はしっ」
+st[803] = { volumetype=1, path=1, file="nny03_2604", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「はっっ」
+
+// 強攻撃ダメージ
+st[805] = { volumetype=1, path=1, file="nny03_2606", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「貴様……！」
+st[806] = { volumetype=1, path=1, file="nny03_2607", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「ぐぅっ」
+
+// ダウン
+st[808] = { volumetype=1, path=1, file="nny03_2609", type=0, category=1, prio=Def_SEP_KO }; // 「いってぇなあオイ！
+
+// ダウン・ノックアウト
+st[809] = { volumetype=1, path=1, file="nny03_2612", type=0, category=1, prio=Def_SEP_KO }; // 「うーーーわーーーー！
+
+// 起き上がり
+st[810] = { volumetype=1, path=1, file="nny03_2614", type=0, category=1 }; // 「飽きないな」
+st[811] = { volumetype=1, path=1, file="nny03_2615", type=0, category=1 }; // 「そろそろ行くか」
+ 
+// ムーンドライブ発動（1.5秒程度）
+st[813] = { volumetype=1, path=1, file="nny03_2700", type=0, category=3 }; // 「よそ見はよくないね」
+st[815] = { volumetype=1, path=1, file="nny03_2701", type=0, category=3 }; // 「厳しくいこうか！」
+
+// ゲージ溜め（1.2秒程度）
+// 音声ななし
+
+// 強制開放（1.2秒程度）
+st[817] = { volumetype=1, path=1, file="nny03_2704", type=0, category=3 }; // 「盛り上げるか……！」
+st[818] = { volumetype=1, path=1, file="nny03_2705", type=0, category=3 }; // 「ショウタイム！」
+ 
+// 必殺技
+// 強技名：閃走・六魚）
+st[820] = { volumetype=1, path=1, file="nny03_3001", type=0, category=1 }; // 「通らず！」
+
+// （技名：EX 閃走・六魚）
+st[822] = { volumetype=1, path=1, file="nny03_3006", type=0, category=1 }; // 「とことん（次に続く）」
+st[823] = { volumetype=1, path=1, file="nny03_3007", type=0, category=1 }; // 「ダメだな！」
+
+// （技名：EX閃鞘・八点衝）
+st[825] = { volumetype=1, path=1, file="nny03_3014", type=0, category=1 }; // 「斬刑に処す」
+
+// （技名：閃鞘・八穿）
+st[827] = { volumetype=1, path=1, file="nny03_3018", type=0, category=1 }; // 「おやすみ」
+
+// （技名：閃鞘・七夜）
+st[829] = { volumetype=1, path=1, file="nny03_3022", type=0, category=1 }; // 「無為！」
+
+// 超必殺技
+// アークドライブ （技名：直死の魔眼）
+st[830] = { volumetype=1, path=1, file="nny03_3101", type=0, category=1 }; // 「極彩と散れ」
+
+
+
+SeList_Table.Status = SelectVoiceTable(st,tnum);//使用するテーブルを抽選して入れる

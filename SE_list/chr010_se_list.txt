@@ -1,0 +1,466 @@
+__dofile__("./script/btl_SEDefine.txt"); //ＳＥ定数
+
+local path = "./se/normal_se/"; // ファイルパス、登録しやすいように
+local btlpath = "./se/battle_se/";
+local chrpath = btlpath + "chr010/";
+local spepath = path + "special/";
+
+SeList_Table <-
+{
+	TableNum = 4, // SEセレクトとかでのプログラム側参照用、テーブル最大値を入れておく
+	UseTable = 0, // 何番目のテーブルを使うか
+	Path = [],	// パス設定簡略化用
+	Status = [],	// 実際に再生時に使われる配列
+};
+
+SeList_Table.Path.append( path ); //Path[0]
+SeList_Table.Path.append( chrpath ); //Path[1]
+SeList_Table.Path.append( btlpath ); //Path[2]
+SeList_Table.Path.append( spepath ); //Path[3]
+
+SeList_Table.Status.resize(700); // 確保
+// local st = SeList_Table.Status; // 登録しやすいように省略
+local st = array(700,0);
+
+local tnum = SeList_Table.UseTable;
+local tblnum = SeFunc.GetParam(31);
+// print("\n ★★tblnum:"+tblnum );
+if( tblnum == -1 )
+{
+	local enemy = SeFunc.GetParam(30);
+	if( enemy == 3 ) //遠野志貴
+	{
+		tnum = 1;
+	}
+	else if( enemy == 5 ) //ロア
+	{
+		tnum = 2;
+	}
+	else if( enemy == 11 || enemy == 16 ) //シエルと武装シエル
+	{
+		tnum = 3;
+	}
+	else
+	{
+		tnum = 0;
+	}
+}
+else
+{
+	// SE TESTでの指定再生時の処理
+	tnum = tblnum;
+}
+
+SeFunc.SetParam(31,tnum);//バトルsq参照用に値を戻す
+
+// print("\n ★★tblnum:"+tblnum );
+
+// 配列補足
+// [0]汎用, [1]志貴, [2]ロア, [3]シエル
+
+
+//汎用エフェクトから呼ばれるので定義必須
+st[20] = {  volumetype=0, type=-1, file="Move_Landing", }; // 着地
+st[42] = {  volumetype=0, type=-1, file="Move_Slide", }; // 前ダッシュ
+st[44] = {  volumetype=0, type=-1, file="Move_DashStop"     }; // ダッシュ停止
+
+//大技
+st[65] = { volumetype=0, path=3, type=-1, file="Cmn_FlashBang" }; // フラッシュバン
+
+// 登場シーン
+st[100] = { volumetype=1, path=1, file="boa00_2000", type=0, category=1, userparam=192 }; // 「本当、人間って可哀想ね」
+st[101] = { volumetype=1, path=1, file="boa00_2001", type=0, category=1, userparam=135 }; // 「無様に楽しませてくれる？」
+st[102] = { volumetype=1, path=1, file="boa00_2002", type=0, category=1, userparam=192 }; // 「早く私を止めないと、タイヘンよ？」
+st[103] = { volumetype=1, path=1, file="boa00_2003", type=0, category=1, userparam=208 }; // 「待っていて、すぐに殺してあげるから」
+
+// vs遠野志貴
+st[104] = { volumetype=1, path=1, file="boa00_2006", type=0, category=1, userparam=225 }; // 「（対遠野志貴） こんばんは、私の素敵な殺人鬼さん」
+// vsアルトリア
+st[106] = { volumetype=1, path=1, file="boa00_2008", type=0, category=1, userparam=380 }; // 「（対セイバー） それはこっちの台詞よ、剣(けん)の王様。 おとなしくアヴァロンにひっこんでくださらない？」
+// vsノエル
+st[107] = { volumetype=1, path=1, file="boa00_2009", type=0, category=1, userparam=179 }; // 「（対ノエル） ……よくこんなのと組んでるわね、 シエル……」
+
+st[108] = { volumetype=1, path=1, file="boa01_2000", type=0, category=1, userparam=328 }; // 「ふふ。ほんの少しだけ、遊んでいく？」
+st[109] = { volumetype=1, path=1, file="boa01_2001", type=0, category=1, userparam=199 }; // 「んー……コレは特にいらないかな？」
+
+// 後が無くなったラウンドの開幕
+st[110] = { volumetype=1, path=1, file=["boa00_2011","boa00_2011","boa01_roa_2011","boa01_cie_2011"], type=0, category=3, userparam=221 }; // 「ふうん……そういうコト、するんだ（妖しく）」
+st[111] = { volumetype=1, path=1, file=["boa00_2012","boa00_2012","boa01_roa_2012","boa01_cie_2012"], type=0, category=3, userparam=167 }; // 「次はどう？ まだいける？」
+st[112] = { volumetype=1, path=1, file="boa00_2013", type=0, category=3, userparam=197 }; // 「体を四つにするぐらいじゃ、済まさないから」
+st[113] = { volumetype=1, path=1, file="boa01_2011", type=0, category=3}; // 「地上の生き物にしては、頑丈ね」
+st[114] = { volumetype=1, path=1, file="boa01_2012", type=0, category=3}; // 「なあんだ。わりと面白い」
+st[115] = { volumetype=1, path=1, file="boa01_2013", type=0, category=3}; // 「街ごと潰されたいようね？」
+
+// ラウンド勝利
+st[120] = { volumetype=1, path=1, file="boa00_2014", type=0, category=1, userparam=164 }; // 「駄犬。跪きなさい。」
+st[121] = { volumetype=1, path=1, file="boa00_2015", type=0, category=1, userparam=194 }; // 「小さな声。張り合いがないわ。」
+st[122] = { volumetype=1, path=1, file="boa00_2016", type=0, category=1, userparam=272 }; // 「ほら、もっと頑張る、頑張る！ 潰しちゃうわよ？」
+st[123] = { volumetype=1, path=1, file="boa00_2017", type=0, category=1, userparam=176 }; // 「どう？ 少しは目が覚めた？」
+// vs遠野志貴
+st[124] = { volumetype=1, path=1, file="boa00_2018", type=0, category=1, userparam=270 }; // 「（対志貴） リベンジまであと一歩。 次はどこに逃げるの、志貴？
+
+
+// 決着勝利・汎用
+st[130] = { volumetype=1, path=1, file="boa00_2020", type=0, category=1, userparam=260 }; // 「ここで終わり、か。ま、そんなものよね」
+st[131] = { volumetype=1, path=1, file="boa00_2021", type=0, category=1, userparam=143 }; // 「暇つぶしにもならなかったわ」
+
+// 決着勝利・辛勝
+st[132] = { volumetype=1, path=1, file="boa00_2022", type=0, category=1, userparam=324 }; // 「鈍（にぶ）いなあ、この体。 やっぱりネコ被ってるのはダメね」
+
+// 決着勝利・楽勝
+st[133] = { volumetype=1, path=1, file="boa00_2023", type=0, category=1, userparam=270 }; // 「ふふ……ふふふ……あはははははははは！」
+st[134] = { volumetype=1, path=1, file="boa01_2020", type=0, category=1, userparam=354 }; // 「あーもう最ッ高！ すぐ壊れちゃうところとか、たまらないわ！」
+st[135] = { volumetype=1, path=1, file="boa01_2021", type=0, category=1, userparam=448 }; // 「え？もう終わり？ 嘘でしょ？あー……これが欲求不満ってヤツ……」
+
+// 待機モーション
+st[140] = { volumetype=1, path=1, file=["boa00_2025","boa00_2025","boa01_roa_2025","boa01_cie_2025"], type=0, category=1, userparam=309 }; // 「いーち、にーい、さーん……」
+st[141] = { volumetype=1, path=1, file=["boa00_2026","boa00_2026","boa01_roa_2026","boa01_cie_2026"], type=0, category=1, userparam=143 }; // 「そろそろ歩きだそうかしら？」
+st[142] = { volumetype=1, path=1, file="boa01_2025", type=0, category=1}; // 「なに、命乞い？ いいわよ、（そういうの）大好き」
+st[143] = { volumetype=1, path=1, file="boa01_2026", type=0, category=1}; // 「更地にした後、なにしよっかなぁ……」
+
+// タイムアップ判定負け
+st[150] = { volumetype=1, path=1, file=["boa00_2027","boa01_sik_2027","boa01_roa_2027","boa01_cie_2027"], type=0, category=1, userparam=225 }; // 「くっ……や、やるじゃない……」
+st[151] = { volumetype=1, path=1, file=["boa00_2028","boa01_sik_2028","boa01_roa_2028","boa01_cie_2028"], type=0, category=1, userparam=192 }; // 「そういう細かいルール、私嫌い！」
+
+// 弱攻撃
+st[160] = { volumetype=1, path=1, file="boa00_2100_a", type=0, category=1}; // 「ふっ」
+st[161] = { volumetype=1, path=1, file="boa00_2101_a", type=0, category=1}; // 「はっ（嘲笑）」
+st[162] = { volumetype=1, path=1, file="boa00_2102", type=0, category=1}; // 「それ」
+st[163] = { volumetype=1, path=1, file="boa00_2101", type=0, category=1}; // 「はっ（嘲笑）」
+
+// 中攻撃
+st[165] = { volumetype=1, path=1, file="boa00_2101_b", type=0, category=1}; // 「はっ（嘲笑）」
+st[166] = { volumetype=1, path=1, file="boa00_2100_c", type=0, category=1}; // 「ふっ」
+st[167] = { volumetype=1, path=1, file="boa00_2105", type=0, category=1}; // 「どう？」
+st[168] = { volumetype=1, path=1, file="boa00_2102_b", type=0, category=1}; // 「それ」
+
+// 強攻撃
+st[170] = { volumetype=1, path=1, file=["boa00_2101_c","boa00_2101_c","boa00_2101_c"], type=0, category=1}; // 「はっ（嘲笑）」
+st[171] = { volumetype=1, path=1, file=["boa00_2107","boa00_2107","boa01_roa_2107"], type=0, category=1}; // 「たあ！」
+st[172] = { volumetype=1, path=1, file=["boa00_2108","boa00_2108","boa01_roa_2108","boa01_cie_2108"], type=0, category=1}; // 「消えちゃえ」
+// st[173] = { volumetype=1, path=1, file="boa00_2108_a", type=0, category=1}; // 「消えちゃえ」　元必殺技の強いver
+
+
+// 連打浮かせ攻撃
+st[180] = { volumetype=1, path=1, file=["boa00_2111","boa00_2111","boa01_roa_2111"], type=0, category=3}; // 「鳥になあれ（※こわ可愛く）」
+st[181] = { volumetype=1, path=1, file=["boa00_2112","boa00_2112","boa01_roa_2112"], type=0, category=3}; // 「軽い軽い！」
+
+// 浮かせ攻撃
+// st[184] = { volumetype=1, path=1, file=["boa00_2106","boa00_2106","boa01_roa_2106"], type=0, category=1}; // 「そぉれ」
+st[185] = { volumetype=1, path=1, file=["boa00_2109","boa00_2109","boa01_roa_2109"], type=0, category=1}; // 「こう？」 ためJC
+// st[186] = { volumetype=1, path=1, file=["boa00_2110","boa00_2110","boa01_roa_2110"], type=0, category=1}; // 「目障り」
+
+// 吹き飛ばし攻撃
+st[190] = { volumetype=1, path=1, file=["boa00_2113","boa00_2113","boa01_roa_2113"], type=0, category=1}; // 「蹴散らしてあげる！」
+st[191] = { volumetype=1, path=1, file=["boa00_2114","boa00_2114","boa01_roa_2114"], type=0, category=1}; // 「粉々よ！」
+st[192] = { volumetype=1, path=1, file=["boa00_2115","boa00_2115",""], type=0, category=1}; // 「どっかーん！」
+st[193] = { volumetype=1, path=1, file=["boa00_2116","boa00_2116","boa01_roa_2116"], type=0, category=1}; // 「爽快！（気持ちいいー！）」
+
+// 上からの攻撃
+st[200] = { volumetype=1, path=1, file=["boa00_2117","boa00_2117","boa01_roa_2117","boa01_cie_2117"], type=0, category=1}; // 「上よ？」
+st[201] = { volumetype=1, path=1, file=["boa00_2118","boa00_2118","boa01_roa_2118","boa01_cie_2118"], type=0, category=1}; // 「平面(へいめん)になあれ」
+
+// 下からの攻撃
+st[210] = { volumetype=1, path=1, file=["boa00_2119","boa00_2119","boa01_roa_2119"], type=0, category=1}; // 「下かな？」
+st[211] = { volumetype=1, path=1, file=["boa00_2120","boa00_2120",""], type=0, category=1}; // 「（地面と）ランデヴー！」※空中投げ用
+
+// 回避困難な攻撃
+st[220] = { volumetype=1, path=1, file=["boa00_2121","boa01_sik_2121","boa01_roa_2121"], type=0, category=1}; // 「回って」
+st[221] = { volumetype=1, path=1, file=["boa00_2122","boa01_sik_2122","boa01_roa_2122"], type=0, category=1}; // 「あー、もう……！」
+
+// その他特殊攻撃
+st[230] = { volumetype=1, path=1, file=["boa00_2124","boa00_2124","boa01_roa_2124"], type=0, category=1}; // 「ふふふ（微笑）」
+st[231] = { volumetype=1, path=1, file=["boa00_2125","boa00_2125","boa01_roa_2125"], type=0, category=1}; // 「イラつくわね……！」
+st[232] = { volumetype=1, path=1, file=["boa00_2126","boa00_2126","boa01_roa_2126"], type=0, category=1}; // 「あぁあああ！」
+st[233] = { volumetype=1, path=1, file=["boa00_2127","boa00_2127","boa01_roa_2127"], type=0, category=1}; // 「あはは♪」
+st[234] = { volumetype=1, path=1, file=["boa00_2128","boa01_sik_2128","boa01_roa_2128"], type=0, category=1}; // 「消えちゃいなさい」
+
+// 投げ技成功
+st[240] = { volumetype=1, path=1, file=["boa00_2200","boa00_2200","boa01_roa_2200","boa01_cie_2200"], type=0, category=1}; // 「粉々にしてあげる」
+st[241] = { volumetype=1, path=1, file=["boa00_2201","boa00_2201","boa01_roa_2201","boa01_cie_2201"], type=0, category=1}; // 「もう諦めちゃう？」
+st[242] = { volumetype=1, path=1, file=["boa00_2203","boa00_2203","boa01_roa_2203","boa01_cie_2203"], type=0, category=1}; // 「ナイスクッション！」
+st[243] = { volumetype=1, path=1, file=["boa00_2202_s0","boa00_2202_s0","boa01_roa_2202_s0","boa01_cie_2202_s0"], type=0, category=1}; // 「そー」
+st[244] = { volumetype=1, path=1, file=["boa00_2202_s1","boa00_2202_s1","boa01_roa_2202_s1","boa01_cie_2202_s1"], type=0, category=1}; // 「れ！」
+//2202
+
+// 投げ技失敗
+st[250] = { volumetype=1, path=1, file="boa00_2204", type=0, category=1}; // 「むっ」
+st[251] = { volumetype=1, path=1, file="boa00_2205", type=0, category=1}; // 「ちぇっ」
+st[252] = { volumetype=1, path=1, file=["boa00_2206","boa01_sik_2206","boa01_roa_2206","boa01_cie_2206"], type=0, category=1}; // 「よし殺す！」
+
+// 敵の投げ技を回避
+st[260] = { volumetype=1, path=1, file=["boa00_2207","boa01_sik_2207","boa01_roa_2207","boa01_cie_2207"], type=0, category=1, prio=Def_SEP_ThrowTech, check=1}; // 「ざーんねん」
+st[261] = { volumetype=1, path=1, file=["boa00_2208","boa01_sik_2208","boa01_roa_2208","boa01_cie_2208"], type=0, category=1, prio=Def_SEP_ThrowTech, check=1}; // 「お断りよ（妖しく、優雅に）」
+
+// 振り向き
+st[270] = { volumetype=1, path=1, file="boa00_2300", type=0, category=1, prio=Def_SEP_Furimuki, }; // 「そっち？」
+st[271] = { volumetype=1, path=1, file="boa00_2301", type=0, category=1, prio=Def_SEP_Furimuki, }; // 「ふふ……（微笑み）」
+
+// ジャンプ
+st[280] = { volumetype=1, path=1, file="boa00_2302", type=0, category=1, }; // 「ふっ」
+st[281] = { volumetype=1, path=1, file="boa00_2303", type=0, category=1, }; // 「しっ」
+st[282] = { volumetype=1, path=1, file="boa00_2304", type=0, category=1, }; // 「やっ」
+
+// ダッシュ
+st[290] = { volumetype=1, path=1, file=["boa00_2305","boa01_sik_2305","boa01_roa_2305"], type=0, category=1}; // 「行くわよ！」
+st[291] = { volumetype=1, path=1, file="boa00_2306", type=0, category=1}; // 「ふん」
+st[292] = { volumetype=1, path=1, file=["boa00_2307","boa01_sik_2307","boa01_roa_2307"], type=0, category=1}; // 「ほらほら！」
+st[293] = { volumetype=1, path=1, file=["boa00_2308","boa01_sik_2308","boa01_roa_2308"], type=0, category=1}; // 「見つけた！」
+
+// バックステップ
+st[300] = { volumetype=1, path=1, file="boa00_2309", type=0, category=1}; // 「こっちよ」
+st[301] = { volumetype=1, path=1, file="boa00_2310", type=0, category=1}; // 「ふっ」
+st[302] = { volumetype=1, path=1, file="boa00_2311", type=0, category=1}; // 「なにそれ？」
+
+// 弱攻撃ガード
+//※暴走アルクェイドはこの項目の動作では音声を使用しません
+
+
+
+// 中攻撃ガード
+st[320] = { volumetype=1, path=1, file="boa00_2403", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「本気？」
+st[321] = { volumetype=1, path=1, file="boa00_2404", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「駄目ね」
+st[322] = { volumetype=1, path=1, file=["boa00_2405","boa01_sik_2405","boa01_roa_2405","boa01_cie_2405"], type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「可愛いこと」
+st[323] = { volumetype=1, path=1, file="boa00_2104_a", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「ふーん？（嘲笑）」
+
+// 強攻撃ガード
+st[330] = { volumetype=1, path=1, file=["boa00_2406","boa01_sik_2406"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「ちょっと！」
+st[331] = { volumetype=1, path=1, file=["boa00_2407","boa01_sik_2407"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「チッ」
+st[332] = { volumetype=1, path=1, file=["boa00_2408","boa01_sik_2408","boa01_roa_2408","boa01_cie_2408"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「不愉快ね…！」
+
+//余裕ガード
+st[340] = { volumetype=1, path=1, file="boa00_2409", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「無駄よ」
+st[341] = { volumetype=1, path=1, file="boa00_2410", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「はっ！」
+st[342] = { volumetype=1, path=1, file="boa00_2411", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「なにそれ？」
+
+// ガード失敗
+st[350] = { volumetype=1, path=1, file="boa00_2412", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「はっ！？」
+st[351] = { volumetype=1, path=1, file=["boa00_2413","boa01_sik_2413"], type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「くっ！（憎しをこめて）」
+st[352] = { volumetype=1, path=1, file="boa00_2414", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「そんな…！？」
+
+// 受け身
+st[360] = { volumetype=1, path=1, file=["boa00_2500","boa00_2500","boa01_roa_2500"], type=0, category=1, prio=Def_SEP_Recover}; // 「やるじゃない……！」
+// st[361] = { volumetype=1, path=1, file=["boa00_2501","boa00_2501","boa01_roa_2501","boa01_cie_2501"], type=0, category=1, prio=Def_SEP_Recover}; // 「おおーーっと！（楽しそうに）」
+st[362] = { volumetype=1, path=1, file="boa00_2502", type=0, category=1, prio=Def_SEP_Recover}; // 「ここでターン！」
+st[363] = { volumetype=1, path=1, file="boa00_2503", type=0, category=1, prio=Def_SEP_Recover}; // 「あはははは！」
+
+// シールド発動
+st[370] = { volumetype=1, path=1, file="boa00_2504", type=0, category=1}; // 「ぴぴっ」
+st[371] = { volumetype=1, path=1, file="boa00_2505", type=0, category=1}; // 「ふふ（微笑）」
+st[372] = { volumetype=1, path=1, file=["boa00_2506","boa01_sik_2506","boa01_roa_2506"], type=0, category=1}; // 「ほら、来て」
+
+// シールド成功
+st[380] = { volumetype=1, path=1, file=["boa00_2507","boa01_sik_2507","boa01_roa_2507"], type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 「やった！」
+st[381] = { volumetype=1, path=1, file=["boa00_2508","boa01_sik_2508","boa01_roa_2508","boa01_cie_2508"], type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 「でしょ～！（そうでしょ～！の意）」
+st[382] = { volumetype=1, path=1, file=["boa00_2509","boa01_sik_2509","boa01_roa_2509"], type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 「いいわ」
+
+
+// シールド取って反撃
+st[390] = { volumetype=1, path=1, file=["boa00_2511","boa01_sik_2511","boa01_roa_2511","boa01_cie_2511"], type=0, category=1}; // 「たーのしー！」
+st[391] = { volumetype=1, path=1, file=["boa00_2512","boa01_sik_2512","boa01_roa_2512","boa01_cie_2512"], type=0, category=1}; // 「これこれ！（そう、これこれ！の意）」
+st[392] = { volumetype=1, path=1, file=["boa00_2513","boa01_sik_2513"], type=0, category=1}; // 「お返しよ」
+
+// シールド取って回り込んで反撃
+st[395] = { volumetype=1, path=1, file=["boa00_2514","boa01_sik_2514","boa01_roa_2514"], type=0, category=1}; // 「あらあら」
+st[396] = { volumetype=1, path=1, file=["boa00_2515","boa01_sik_2515","boa01_roa_2515"], type=0, category=1}; // 「ごめんあそばせ」
+st[397] = { volumetype=1, path=1, file=["boa00_2516","boa01_sik_2516"], type=0, category=1}; // 「楽しい？」
+
+// boa01_sik_2515_a
+
+// 弱攻撃ダメージ
+st[400] = { volumetype=1, path=1, file="boa00_2600", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「っ」
+
+
+
+// 中攻撃ダメージ
+//※暴走アルクェイドはこの項目の動作では音声を使用しません
+
+
+
+// 強攻撃ダメージ
+st[420] = { volumetype=1, path=1, file="boa00_2606", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「このっ……！」
+st[421] = { volumetype=1, path=1, file="boa00_2607", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「つぁ！？」
+st[422] = { volumetype=1, path=1, file="boa00_2608", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「きゃっ！？」
+
+// ダウン
+st[430] = { volumetype=1, path=1, file=["boa00_2609","boa01_sik_2609","boa01_roa_2609"], type=0, category=1, prio=Def_SEP_KO }; // 「なにこれ、新感覚ーーー！？」
+st[431] = { volumetype=1, path=1, file=["boa00_2610","boa01_sik_2610","boa01_roa_2610"], type=0, category=1, prio=Def_SEP_KO }; // 「ちょっと油断しちゃった！」
+st[432] = { volumetype=1, path=1, file=["boa00_2611","boa01_sik_2611","boa01_roa_2611"], type=0, category=1, prio=Def_SEP_KO }; // 「きゃーーーーーっ」
+
+// ダウン・ノックアウト
+st[440] = { volumetype=1, path=1, file=["boa00_2612","boa01_sik_2612","boa01_roa_2612"], type=0, category=1, prio=Def_SEP_KO }; // 「きゃああああああーーーー！？」
+st[441] = { volumetype=1, path=1, file=["boa00_2613","boa01_sik_2613","boa01_roa_2613","boa01_cie_2613"], type=0, category=1, prio=Def_SEP_KO }; // 「わ、私の負け、ですって……！？」
+
+// 起きあがり
+st[450] = { volumetype=1, path=1, file=["boa00_2614","boa01_sik_2614"], type=0, category=1}; // 「いいわ……！」
+st[451] = { volumetype=1, path=1, file=["boa00_2615","boa01_sik_2615"], type=0, category=1}; // 「たまにはね！」
+
+// 起きあがり・瀕死
+st[460] = { volumetype=1, path=1, file=["boa00_2616","boa01_sik_2616","boa01_roa_2616","boa01_cie_2616"], type=0, category=1}; // 「楽しい……！」
+
+// 本気を出す（体力一定値以下で発動）
+st[470] = { volumetype=1, path=1, file=["boa00_2700","boa01_sik_2700","boa01_roa_2700"], type=0, category=3}; // 「そこまでよ！」
+st[471] = { volumetype=1, path=1, file=["boa00_2701","boa01_sik_2701","boa01_roa_2701"], type=0, category=3}; // 「恐れなさい！」
+
+// ゲージ溜め
+st[480] = { volumetype=1, path=1, file=["boa00_2702","boa01_sik_2702"], type=0, category=1}; // 「はああああああ……（静かに力を溜める）」
+st[481] = { volumetype=1, path=1, file=["boa00_2703","boa01_sik_2703"], type=0, category=1}; // 「星よ……」
+
+// 強制開放
+st[490] = { volumetype=1, path=1, file=["boa00_2704","boa01_sik_2704"], type=0, category=3}; // 「虫ケラのクセに……！」
+st[491] = { volumetype=1, path=1, file=["boa00_2705","boa01_sik_2705"], type=0, category=3}; // 「殺してあげる……！」
+
+
+// 必殺技 （技名：アルトネーゲル）
+st[500] = { volumetype=1, path=1, file=["boa00_3001","boa01_sik_3001"], type=0, category=1}; // 「そうれっ！」
+st[502] = { volumetype=1, path=1, file="boa01_3001", type=0, category=1}; // 「ガーリガリ♪」（ガリガリ削っちゃうぞー、というニュアンスで）
+
+// 必殺技 （技名：EXアルトネーゲル）
+st[505] = { volumetype=1, path=1, file=["boa00_3003","boa01_sik_3003","boa01_roa_3003"], type=0, category=1}; // 「耐えられるかしら！」
+st[506] = { volumetype=1, path=1, file="boa01_3003", type=0, category=1}; // 「どいてくださる？」
+
+// 必殺技 （技名：アルトシューレ）
+st[510] = { volumetype=1, path=1, file=["boa00_3005","boa01_sik_3005"], type=0, category=1}; // 「邪魔ね」
+st[511] = { volumetype=1, path=1, file=["boa00_3006","boa01_sik_3006"], type=0, category=1}; // 「目障りよ」
+st[512] = { volumetype=1, path=1, file="boa01_3005", type=0, category=1}; // 「ゴミクズ」
+st[513] = { volumetype=1, path=1, file="boa01_3006", type=0, category=1}; // 「がんばるじゃない」
+
+// 必殺技 （技名：EXアルトシューレ）
+st[515] = { volumetype=1, path=1, file=["boa00_3008","boa01_sik_3008"], type=0, category=1}; // 「ほおら、楽しんで……！」
+st[516] = { volumetype=1, path=1, file="boa01_3008", type=0, category=1}; // 「吹き飛ばしてあげる！」
+
+// 必殺技 （技名：アルトシューレ(空中)）
+st[520] = { volumetype=1, path=1, file=["boa00_3010","boa01_sik_3010"], type=0, category=1}; // 「砕けて」
+// st[521] = { volumetype=1, path=1, file="boa01_3010", type=0, category=1}; // 「よっと」
+st[522] = { volumetype=1, path=1, file=["boa00_2123","boa01_sik_2123","boa01_roa_2123"], type=0, category=1}; // 「目障りよ……！」
+
+// 必殺技 （技名：EXアルトシューレ(空中)）
+st[525] = { volumetype=1, path=1, file=["boa00_3012","boa01_sik_3012"], type=0, category=1}; // 「沈みなさい……！」
+st[526] = { volumetype=1, path=1, file="boa01_3012", type=0, category=1}; // 「頭が高いのよ！」
+
+// 必殺技 （技名：ヴァイス・カッツェ）
+st[530] = { volumetype=1, path=1, file=["boa00_3014","boa01_sik_3014"], type=0, category=1}; // 「行くわよ」
+st[531] = { volumetype=1, path=1, file="boa01_3014", type=0, category=1}; // 「こっちこっち」
+
+// 必殺技 （技名：カルスト・イェーガー）
+st[535] = { volumetype=1, path=1, file=["boa00_3016","boa01_sik_3016"], type=0, category=1}; // 「行くわよ（次に続く）」
+st[536] = { volumetype=1, path=1, file=["boa00_3017","boa01_sik_3017","boa01_roa_3017"], type=0, category=1}; // 「貼り付けにしてあげる」
+st[537] = { volumetype=1, path=1, file="boa01_3016", type=0, category=1}; // 「そこね」（次に続く）
+st[538] = { volumetype=1, path=1, file="boa01_3017", type=0, category=1}; // 「捕まえ……たっ！」
+
+// 必殺技 （技名：フォーアツァイト・エヒトシューレ）
+// st[540] = { volumetype=1, path=1, file=["boa00_3019","boa01_sik_3019"], type=0, category=1}; // 「走れ！」
+// st[541] = { volumetype=1, path=1, file=["boa00_3020","boa01_sik_3020"], type=0, category=1}; // 「引き裂いてあげる……！」
+// st[542] = { volumetype=1, path=1, file=["boa00_3021","boa01_sik_3021"], type=0, category=1}; // 「終わりよ！」
+
+// 必殺技 （技名：EX大斬衝撃波ｘ３）フォーアツァイト・エヒトシューレ
+st[550] = { volumetype=1, path=1, file=["","boa01_sik_3029","boa01_roa_3029"], type=0, category=1}; // 「じゃ、死のっか？」/もう飽きたわ
+// st[551] = { volumetype=1, path=1, file=["boa00_3030","boa01_sik_3030"], type=0, category=1}; // 「砕け、（次に続く）」
+// st[552] = { volumetype=1, path=1, file=["boa00_3031","boa01_sik_3031"], type=0, category=1}; // 「嘆き、（次に続く）」
+// st[553] = { volumetype=1, path=1, file=["boa00_3032","boa01_sik_3032"], type=0, category=1}; // 「後悔なさい……！」
+// st[555] = { volumetype=1, path=1, file="boa01_3019", type=0, category=1}; // 「派手にいっちゃえ！」
+
+st[554] = { volumetype=1, path=1, file=["boa00_3033","boa01_sik_3033"], type=0, category=1}; // 「星の怒りよ……！」ADとどめで使ってる
+
+// アークドライブ
+// st[600] = { volumetype=1, path=1, file="boa00_3068", type=0, category=1}; // 「力の差を知りなさい」
+// st[601] = { volumetype=1, path=1, file="boa00_3069", type=0, category=1}; // 「アイン、ツヴァイ、エンデ！！！」
+// st[602] = { volumetype=1, path=1, file="boa00_3070", type=0, category=1}; // 「なーんちゃって！ あはははは！」
+
+st[600] = { volumetype=1, path=1, file=["boa01_3068","boa01_sik_3068"], type=0, category=1}; // 「力の差を知りなさい」（次に続く）
+// st[601] = { volumetype=1, path=1, file=["boa01_3069","boa01_sik_3069"], type=0, category=1}; // 「アイン、ツヴァイ、エンデ！！！」（次に続く）
+st[602] = { volumetype=1, path=1, file=["","boa01_sik_3070"], type=0, category=1}; // 「なーんちゃって！あはははは！」（長さに応じてカット可） / このまま、いなくなればいいんだわ！
+
+st[603] = { volumetype=1, path=1, file="boa01_3072", type=0, category=1}; // 「芋虫みたいにしてあげる」（次に続く）
+// st[604] = { volumetype=1, path=1, file="boa01_3073", type=0, category=1}; // 「ほら！ほら！ほぉら！」（次に続く）
+// st[605] = { volumetype=1, path=1, file="boa01_3074", type=0, category=1}; // 「あはははははは！」
+
+
+// ラストアーク
+// st[610] = { volumetype=1, path=1, file="boa00_3079", type=0, category=1}; // 「ほら―――」
+// st[611] = { volumetype=1, path=1, file="boa00_3080", type=0, category=1}; // 「恐いコトに、なったでしょう？」
+// st[612] = { volumetype=1, path=1, file="boa00_3081", type=0, category=1}; // 「―――そこ（短く、恐く）」
+
+st[610] = { volumetype=1, path=1, file=["boa01_3079","boa01_sik_3079","boa01_roa_3079","boa01_cie_3079"], type=0, category=1}; // 「ご褒美をあげる」（次に続く）
+st[611] = { volumetype=1, path=1, file=["boa01_3080","boa01_sik_3080","boa01_roa_3080","boa01_cie_3080"], type=0, category=1}; // 「もう逃げる必要もないわ」（次に続く）
+st[612] = { volumetype=1, path=1, file=["boa01_3081","boa01_sik_3081","boa01_roa_3081","boa01_cie_3081"], type=0, category=1}; // 「虫のように消えなさい」
+
+// st[613] = { volumetype=1, path=1, file="boa01_3083", type=0, category=1}; // 「人間って、単純よね。結局―――」（次に続く）
+// st[614] = { volumetype=1, path=1, file="boa01_3084", type=0, category=1}; // 「こんなふうに。支配されるのが、好きなんでしょう？」
+
+//対遠野志貴
+
+// ラウンド勝利（3秒程度）
+st[640] = { volumetype=1, path=1, file=["","boa01_sik_2014"], type=0, category=1, userparam=272 }; // 「いけないいけない。もう少し愉しまなくっちゃ」
+// 決着勝利・汎用（3秒程度）
+st[641] = { volumetype=1, path=1, file=["","boa01_sik_2020"], type=0, category=1, userparam=326 }; // 「あーあ、もう終わりかぁ。ぜんっぜん楽しくなかったわ。」
+st[642] = { volumetype=1, path=1, file=["","boa01_sik_2021"], type=0, category=1, userparam=402 }; // 「収納してもらえるとでも？　アナタは一生、そうして苦しむのよ……！」
+// 決着勝利・辛勝（3秒程度）
+st[643] = { volumetype=1, path=1, file=["","boa01_sik_2022"], type=0, category=1, userparam=389 }; // 「……本当に残念。もっと賢ければ、私を殺せたかもしれないのにね？」
+// 決着勝利・楽勝（3秒程度）
+st[644] = { volumetype=1, path=1, file=["","boa01_sik_2023"], type=0, category=1, userparam=267 }; // 「ちょっと、弱すぎない！？　トカゲの方がまだマシなんですけど！？」
+
+
+
+// 対シエル
+// 登場
+st[105] = { volumetype=1, path=1, file="boa00_2007", type=0, category=1, userparam=257 }; // 「いい体ね。メチャクチャにしてあげる……！」
+st[657] = { volumetype=1, path=1, file="boa01_cie_2026", type=0, category=1, userparam=193 }; // 「どこからもごうか、迷っちゃう……！」
+// ラウンド勝利（3秒程度）
+st[650] = { volumetype=1, path=1, file=["","","","boa01_cie_2014"], type=0, category=1, userparam=165 }; // 「えぐり甲斐のある体、好きよ？」
+st[651] = { volumetype=1, path=1, file=["","","","boa01_cie_2015"], type=0, category=1, userparam=195 }; // 「イッちゃった？ じゃあもう一回ね？」
+st[652] = { volumetype=1, path=1, file=["","","","boa01_cie_2017"], type=0, category=1, userparam=170 }; // 「どう？ 少しは目が覚めた？」（ニュアンス違い）
+
+// 決着勝利・汎用（3秒程度）
+st[653] = { volumetype=1, path=1, file=["","","","boa01_cie_2020"], type=0, category=1, userparam=308 }; // 「ここで終わり、か。ま、そんなものよね」（ニュアンス違い）
+st[654] = { volumetype=1, path=1, file=["","","","boa01_cie_2021"], type=0, category=1, userparam=141 }; // 「退屈しのぎにはなったかな？」
+
+// 決着勝利・辛勝（3秒程度）
+st[655] = { volumetype=1, path=1, file=["","","","boa01_cie_2022"], type=0, category=1, userparam=236 }; // 「チクチク、チクチク、うざいったらなかったわ」
+ 
+// 決着勝利・楽勝（3秒程度）
+st[656] = { volumetype=1, path=1, file=["","","","boa01_cie_2023"], type=0, category=1, userparam=247 }; // 「失望したわ。アナタの方が壊れてるんじゃない？」
+
+ 
+// 対ロア
+// 登場（3秒程度）
+st[660] = { volumetype=1, path=1, file=["","","boa01_roa_2000"], type=0, category=1, userparam=252 }; // 「最高の時に、最悪の邪魔が入るなんて。」
+st[661] = { volumetype=1, path=1, file=["","","boa01_roa_2001"], type=0, category=1, userparam=361 }; // 「ああ、いたわね。そんな蛇。また踏み潰されたいの？」
+
+// ラウンド勝利（3秒程度）
+st[662] = { volumetype=1, path=1, file=["","","boa01_roa_2014"], type=0, category=1, userparam=172 }; // 「駄犬。跪きなさい。」（ニュアンス違い）
+st[663] = { volumetype=1, path=1, file=["","","boa01_roa_2015"], type=0, category=1, userparam=181 }; // 「小さな声。張り合いがないわ。」（ニュアンス違い）
+st[664] = { volumetype=1, path=1, file=["","","boa01_roa_2017"], type=0, category=1, userparam=216 }; // 「どう？ いい加減死にたくなった？」
+
+// 決着勝利・汎用（3秒程度）
+st[666] = { volumetype=1, path=1, file=["","","boa01_roa_2020"], type=0, category=1, userparam=292 }; // 「ここで終わり、か。ま、そんなものよね」（ニュアンス違い）
+st[667] = { volumetype=1, path=1, file=["","","boa01_roa_2021"], type=0, category=1, userparam=140 }; // 「暇つぶしにもならなかったわ」（ニュアンス違い）
+
+// 決着勝利・辛勝（3秒程度）
+st[668] = { volumetype=1, path=1, file=["","","boa01_roa_2022"], type=0, category=1, userparam=220 }; // 「信じられない、何やってるの私」
+
+// 決着勝利・楽勝（3秒程度）
+st[669] = { volumetype=1, path=1, file=["","","boa01_roa_2023"], type=0, category=1, userparam=339 }; // 「ふふ……ふふふ……あはははははははは！」（ニュアンス違い）
+
+// DLC
+// 登場
+// 対死徒ノエル
+st[680] = { volumetype=1, path=1, file="boa02_2006", type=0, category=1, userparam=280 }; // うるさい蚊トンボ。ああ、すり潰されたいんだ？
+
+// 対青子
+st[681] = { volumetype=1, path=1, file="boa02_2007", type=0, category=1, userparam=226 }; // いい顔ね。屈服させ甲斐があるわ。
+st[682] = { volumetype=1, path=1, file="boa02_2011", type=0, category=1, userparam=338 }; // 忌まわしい秩序の飼い犬……ここで弾き出してあげる。
+
+// 対武装シエル
+st[683] = { volumetype=1, path=1, file="boa02_2008", type=0, category=1, userparam=320 }; // ええ。人間の血なんて、ぜんっぜん飲みたくないけどね？
+st[684] = { volumetype=1, path=1, file="boa02_2009", type=0, category=1, userparam=379 }; // ふふ。お気に入りのオモチャ、みーつけた。
+
+// 対マーリオゥ
+st[685] = { volumetype=1, path=1, file="boa02_2010", type=0, category=1, userparam=256 }; // 視界に入ったら容赦はしない、と言ったわよね？
+st[686] = { volumetype=1, path=1, file="boa02_2012", type=0, category=1, userparam=281 }; // ええ。首から堕ちるような痛みだったわ。
+st[687] = { volumetype=1, path=1, file="boa02_2023", type=0, category=1, userparam=250 }; // 指導者として少しは血を流しなさい、ベスティーノ
+
+// 対牛若丸
+st[690] = { volumetype=1, path=1, file="boa03_2007", type=0, category=1, userparam=347 }; // へえ 天狗って言うんだ　犬なら羽虫より楽しめる？,
+
+SeList_Table.Status = SelectVoiceTable(st,tnum);//使用するテーブルを抽選して入れる

@@ -1,0 +1,374 @@
+__dofile__("./script/btl_SEDefine.txt"); //ＳＥ定数
+
+local path = "./se/normal_se/"; // ファイルパス、登録しやすいように
+local btlpath = "./se/battle_se/";
+local chrpath = btlpath + "chr012/";
+local spepath = path + "special/";
+
+SeList_Table <-
+{
+	TableNum = 1, // SEセレクトとかでのプログラム側参照用、テーブル最大値を入れておく
+	UseTable = 0, // 何番目のテーブルを使うか
+	Path = [],	// パス設定簡略化用
+	Status = [],	// 実際に再生時に使われる配列
+};
+
+SeList_Table.Path.append( path ); //Path[0]
+SeList_Table.Path.append( chrpath ); //Path[1]
+SeList_Table.Path.append( btlpath ); //Path[2]
+SeList_Table.Path.append( spepath ); //Path[3]
+
+SeList_Table.Status.resize(650); // 確保
+local st = SeList_Table.Status; // 登録しやすいように省略
+
+// SeFunc.SetParam(31,tnum);//バトルsq参照用に値を戻す
+
+
+//汎用エフェクトから呼ばれるので定義必須
+st[20] = {  volumetype=0, type=-1, file="Move_LandingArmor", }; // 着地
+st[42] = {  volumetype=0, type=-1, file="Move_Slide", }; // 前ダッシュ
+st[44] = {  volumetype=0, type=-1, file="Move_DashStop"     }; // ダッシュ停止
+
+//大技
+st[51] = { volumetype=0, path=3, type=-1, file="Atk_SwordSwingA" }; // 振り回す音
+st[59] = { volumetype=0, path=3, type=-1, file="Cmn_Whirlwind" }; // 風が吹き荒れる音
+
+// 登場シーン
+st[100] = { volumetype=1, path=1, file="alt00_2000", type=0, category=1, userparam=60 }; // 「始めましょう」
+st[101] = { volumetype=1, path=1, file="alt00_2001", type=0, category=1, userparam=83 }; // 「手加減は無用です」
+st[102] = { volumetype=1, path=1, file="alt00_2002", type=0, category=1, userparam=104 }; // 「死力を尽くしてくるがいい」
+st[103] = { volumetype=1, path=1, file="alt00_2003", type=0, category=1, userparam=180 }; // 「食ログではこのあたりに……は！？」
+
+// vs翡翠
+st[104] = { volumetype=1, path=1, file="alt00_2005", type=0, category=1, userparam=220 }; // 「（対翡翠） ウメサンド……私の故郷(こきょう)の気配がしますね」
+
+// vs暴走アルクェイド
+st[105] = { volumetype=1, path=1, file="alt00_2006", type=0, category=1, userparam=317 }; // 「（対暴走アルク） これは……高純度の精霊……！？ こんなものがまだ残っているとは……！」
+
+// 登場２
+st[106] = { volumetype=1, path=1, file="alt01_2000", type=0, category=1, userparam=81 }; // 「挑戦に応じよう」
+st[107] = { volumetype=1, path=1, file="alt01_2001", type=0, category=1, userparam=143 }; // 「人の目につかなければいいのですが……」
+
+// 後が無くなったラウンドの開幕
+st[110] = { volumetype=1, path=1, file="alt00_2011", type=0, category=3, userparam=113 }; // 「なんの、ここからです」
+st[111] = { volumetype=1, path=1, file="alt00_2012", type=0, category=3, userparam=122 }; // 「では、続きといきましょう」
+st[112] = { volumetype=1, path=1, file="alt00_2013", type=0, category=3, userparam=107 }; // 「はじめから退路はありません」
+
+// ラウンド勝利
+st[120] = { volumetype=1, path=1, file="alt00_2014", type=0, category=1, userparam=76  }; // 「本気をだしなさい」
+st[121] = { volumetype=1, path=1, file="alt00_2015", type=0, category=1, userparam=129 }; // 「立て、勝負はここからだ」
+st[122] = { volumetype=1, path=1, file="alt00_2016", type=0, category=1, userparam=90  }; // 「調子は悪くないな」
+st[123] = { volumetype=1, path=1, file="alt00_2017", type=0, category=1, userparam=79  }; // 「どうぞ全力で。」
+
+// 決着勝利・汎用
+st[130] = { volumetype=1, path=1, file="alt00_2020", type=0, category=1, userparam=72  }; // 「いい勝負でした」
+st[131] = { volumetype=1, path=1, file="alt00_2021", type=0, category=1, userparam=101 }; // 「騎士の誓いは破れない」
+
+// 決着勝利・辛勝
+st[132] = { volumetype=1, path=1, file="alt00_2022", type=0, category=1, userparam=181 }; // 「勝手が違うとはいえ、苦戦しました」
+
+// 決着勝利・楽勝
+st[133] = { volumetype=1, path=1, file="alt00_2023", type=0, category=1, userparam=104 }; // 「心地の良い試合でした。」
+
+//決着２
+st[136] = { volumetype=1, path=1, file="alt01_2020", type=0, category=1, userparam=94 }; // 「まだまだ未熟ですね」
+st[137] = { volumetype=1, path=1, file="alt01_2021", type=0, category=1, userparam=87 }; // 「見事な腕前でした」
+
+// 待機モーション
+st[140] = { volumetype=1, path=1, file="alt00_2025", type=0, category=1, userparam=130 }; // 「やはり、いきなり宝具は……」
+st[141] = { volumetype=1, path=1, file="alt00_2026", type=0, category=1, userparam=182 }; // 「戦いにも作法、というものがありますし……」
+
+// タイムアップ判定負け
+st[150] = { volumetype=1, path=1, file="alt00_2027", type=0, category=1, userparam=119 }; // 「戦局を見誤りました……」
+st[151] = { volumetype=1, path=1, file="alt00_2028", type=0, category=1, userparam=185 }; // 「時間切れ！
+
+
+// alt00_2102_b
+// alt00_2105_a
+
+// 弱攻撃
+st[160] = { volumetype=1, path=1, file="alt00_2100_a", type=0, category=1}; // 「はっ」
+st[161] = { volumetype=1, path=1, file="alt00_2101_a", type=0, category=1}; // 「てっ」
+st[162] = { volumetype=1, path=1, file="alt00_2102_a", type=0, category=1}; // 「ふっ」
+st[163] = { volumetype=1, path=1, file="alt00_2100", type=0, category=1}; // 「はっ」
+st[164] = { volumetype=1, path=1, file="alt00_2101", type=0, category=1}; // 「てっ」
+
+// 中攻撃
+st[165] = { volumetype=1, path=1, file="alt00_2103", type=0, category=1}; // 「はあ」
+st[166] = { volumetype=1, path=1, file="alt00_2103_a", type=0, category=1}; // 「たあ」
+st[167] = { volumetype=1, path=1, file="alt00_2105", type=0, category=1}; // 「やあ」
+st[168] = { volumetype=1, path=1, file="alt00_2104_a", type=0, category=1}; // 「たあ
+
+// 強攻撃
+st[170] = { volumetype=1, path=1, file="alt00_2106_a", type=0, category=1}; // 「たあぁ！」
+st[171] = { volumetype=1, path=1, file="alt00_2107_a", type=0, category=1}; // 「でやあっ！」
+st[172] = { volumetype=1, path=1, file="alt00_2108_a", type=0, category=1}; // 「はああっ！」
+st[173] = { volumetype=1, path=1, file="alt00_2107", type=0, category=1}; // 「でやあっ！」
+st[174] = { volumetype=1, path=1, file="alt00_2108", type=0, category=1}; // 「はああっ！」
+
+// 連打浮かせ攻撃
+st[180] = { volumetype=1, path=1, file="alt00_2110", type=0, category=3}; // 「ここから！」
+st[181] = { volumetype=1, path=1, file="alt00_2111", type=0, category=3}; // 「どうです！」
+st[182] = { volumetype=1, path=1, file="alt00_2112", type=0, category=3}; // 「舞いあがれ！」
+st[183] = { volumetype=1, path=1, file="alt00_2127", type=0, category=3}; // 「突破する！」
+
+// 浮かせ攻撃
+// st[185] = { volumetype=1, path=1, file="alt00_2109", type=0, category=1}; // 「てえいっ！」
+
+// 吹き飛ばし攻撃
+st[190] = { volumetype=1, path=1, file="alt00_2113", type=0, category=1}; // 「風よ……！」
+st[191] = { volumetype=1, path=1, file="alt00_2114", type=0, category=1}; // 「軽い！」
+st[192] = { volumetype=1, path=1, file="alt00_2115", type=0, category=1}; // 「取った……！」
+st[193] = { volumetype=1, path=1, file="alt00_2116", type=0, category=1}; // 「軟弱な！」
+
+// 上からの攻撃
+st[200] = { volumetype=1, path=1, file="alt00_2117", type=0, category=1}; // 「上です」
+st[201] = { volumetype=1, path=1, file="alt00_2118", type=0, category=1}; // 「制圧する！」
+
+// 下からの攻撃
+st[210] = { volumetype=1, path=1, file="alt00_2119", type=0, category=1}; // 「下です」
+st[211] = { volumetype=1, path=1, file="alt00_2120", type=0, category=1}; // 「もらった！」
+
+// 回避困難な攻撃
+st[220] = { volumetype=1, path=1, file="alt00_2121", type=0, category=1}; // 「音速！」
+st[221] = { volumetype=1, path=1, file="alt00_2122", type=0, category=1}; // 「死角をつく！」
+st[222] = { volumetype=1, path=1, file="alt00_2123", type=0, category=1}; // 「これなら！」
+
+// その他特殊攻撃
+st[230] = { volumetype=1, path=1, file="alt00_2124", type=0, category=1}; // 「叩き斬る！」
+st[231] = { volumetype=1, path=1, file="alt00_2125", type=0, category=1}; // 「づああっ！」
+st[232] = { volumetype=1, path=1, file="alt00_2126", type=0, category=1}; // 「全力で！」
+st[234] = { volumetype=1, path=1, file="alt00_2128", type=0, category=1}; // 「マーリン殺法！」
+
+// 投げ技成功
+st[240] = { volumetype=1, path=1, file="alt00_2200", type=0, category=1}; // 「崩す！」
+st[241] = { volumetype=1, path=1, file="alt00_2201", type=0, category=1}; // 「失礼」
+st[242] = { volumetype=1, path=1, file="alt00_2202", type=0, category=1}; // 「あいにくでしたね！」
+st[243] = { volumetype=1, path=1, file="alt00_2203", type=0, category=1}; // 「制空！（制空権はもらったよ、のニュアンスで）」
+
+// 投げ技失敗
+st[250] = { volumetype=1, path=1, file="alt00_2204", type=0, category=1}; // 「んっ」
+st[251] = { volumetype=1, path=1, file="alt00_2205", type=0, category=1}; // 「しまっ……」
+st[252] = { volumetype=1, path=1, file="alt00_2206", type=0, category=1}; // 「シュッ、シュッ（空振りしたのをシャドーボクシング風味にして誤魔化している）」
+
+// 敵の投げ技を回避
+st[260] = { volumetype=1, path=1, file="alt00_2207", type=0, category=1, prio=Def_SEP_ThrowTech, check=1}; // 「今だ！」
+st[261] = { volumetype=1, path=1, file="alt00_2208", type=0, category=1, prio=Def_SEP_ThrowTech, check=1}; // 「無駄です」
+
+// 振り向き
+st[270] = { volumetype=1, path=1, file="alt00_2300", type=0, category=1, prio=Def_SEP_Furimuki,}; // 「む」
+st[271] = { volumetype=1, path=1, file="alt00_2301", type=0, category=1, prio=Def_SEP_Furimuki,}; // 「そちらですね」
+
+// ジャンプ
+st[280] = { volumetype=1, path=1, file="alt00_2302", type=0, category=1, }; // 「たっ」
+st[281] = { volumetype=1, path=1, file="alt00_2303", type=0, category=1, }; // 「はっ」
+st[282] = { volumetype=1, path=1, file="alt00_2304", type=0, category=1, }; // 「ふっ」
+
+// ダッシュ
+st[290] = { volumetype=1, path=1, file="alt00_2305", type=0, category=1}; // 「たあっ」
+st[291] = { volumetype=1, path=1, file="alt00_2306", type=0, category=1}; // 「仕掛ける！」
+st[292] = { volumetype=1, path=1, file="alt00_2307", type=0, category=1}; // 「勝負……！」
+st[293] = { volumetype=1, path=1, file="alt00_2308", type=0, category=1}; // 「間合いに……！」
+
+// バックステップ
+st[300] = { volumetype=1, path=1, file="alt00_2309", type=0, category=1}; // 「ふっ」
+st[301] = { volumetype=1, path=1, file="alt00_2310", type=0, category=1}; // 「おっと」
+st[302] = { volumetype=1, path=1, file="alt00_2311", type=0, category=1}; // 「どうする？（自分に言い聞かせるように）」
+
+// 弱攻撃ガード
+st[310] = { volumetype=1, path=1, file="alt00_2400", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「むっ」
+st[311] = { volumetype=1, path=1, file="alt00_2401", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「ふっ」
+st[312] = { volumetype=1, path=1, file="alt00_2402", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「やっ」
+
+// 中攻撃ガード
+st[320] = { volumetype=1, path=1, file="alt00_2403", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「さて」
+st[321] = { volumetype=1, path=1, file="alt00_2404", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「ちっ」
+st[322] = { volumetype=1, path=1, file="alt00_2405", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「受けます」
+
+// 強攻撃ガード
+st[330] = { volumetype=1, path=1, file="alt00_2406", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「っう……！」
+st[331] = { volumetype=1, path=1, file="alt00_2407", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「重い」
+st[332] = { volumetype=1, path=1, file="alt00_2408", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「強い……！」
+
+//余裕ガード
+st[340] = { volumetype=1, path=1, file="alt00_2409", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「甘い」
+st[341] = { volumetype=1, path=1, file="alt00_2410", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「未熟」
+st[342] = { volumetype=1, path=1, file="alt00_2411", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「そこか」
+
+// ガード失敗
+st[350] = { volumetype=1, path=1, file="alt00_2412", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「くっ……！」
+st[351] = { volumetype=1, path=1, file="alt00_2413", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「利いたぞ……！」
+st[352] = { volumetype=1, path=1, file="alt00_2414", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「不覚……！」
+
+// 受け身
+st[360] = { volumetype=1, path=1, file="alt00_2500", type=0, category=1, prio=Def_SEP_Recover}; // 「まだです」
+st[361] = { volumetype=1, path=1, file="alt00_2501", type=0, category=1, prio=Def_SEP_Recover}; // 「ふっ……！」
+st[362] = { volumetype=1, path=1, file="alt00_2502", type=0, category=1, prio=Def_SEP_Recover}; // 「なんの！」
+st[363] = { volumetype=1, path=1, file="alt00_2503", type=0, category=1, prio=Def_SEP_Recover}; // 「挽回します」
+
+// シールド発動
+st[370] = { volumetype=1, path=1, file="alt00_2504", type=0, category=1}; // 「ここ！」
+st[371] = { volumetype=1, path=1, file="alt00_2505", type=0, category=1}; // 「好機！」
+st[372] = { volumetype=1, path=1, file="alt00_2506", type=0, category=1}; // 「見抜く……！」
+
+// シールド成功
+st[380] = { volumetype=1, path=1, file="alt00_2507", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 「よし！」
+st[381] = { volumetype=1, path=1, file="alt00_2508", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 「取った」
+st[382] = { volumetype=1, path=1, file="alt00_2509", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 「そうでしょう」
+st[383] = { volumetype=1, path=1, file="alt00_2510", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 「ここから―――！」
+
+// シールド取って反撃
+st[390] = { volumetype=1, path=1, file="alt00_2511", type=0, category=1}; // 「カチあげる！」
+st[391] = { volumetype=1, path=1, file="alt00_2512", type=0, category=1}; // 「斬り伏せる！」
+st[392] = { volumetype=1, path=1, file="alt00_2513", type=0, category=1}; // 「迎撃する！」
+
+// シールド取って回り込んで反撃
+st[395] = { volumetype=1, path=1, file="alt00_2514", type=0, category=1}; // 「遅い」
+st[396] = { volumetype=1, path=1, file="alt00_2515", type=0, category=1}; // 「前へ……！」
+st[397] = { volumetype=1, path=1, file="alt00_2516", type=0, category=1}; // 「後ろです」
+
+// 弱攻撃ダメージ
+//※セイバーはこの項目の動作では音声を使用しません
+
+
+
+// 中攻撃ダメージ
+st[410] = { volumetype=1, path=1, file="alt00_2603", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「くっ」
+st[411] = { volumetype=1, path=1, file="alt00_2604", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「つっ」
+st[412] = { volumetype=1, path=1, file="alt00_2605", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「ふあ！？」
+
+// 強攻撃ダメージ
+st[420] = { volumetype=1, path=1, file="alt00_2606", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「ぐう……！」
+st[421] = { volumetype=1, path=1, file="alt00_2607", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「はあ！」
+st[422] = { volumetype=1, path=1, file="alt00_2608", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「この程度……！」
+
+// ダウン
+st[430] = { volumetype=1, path=1, file="alt00_2609", type=0, category=1, prio=Def_SEP_KO }; // 「くぅああぁあああーーー！」
+st[431] = { volumetype=1, path=1, file="alt00_2610", type=0, category=1, prio=Def_SEP_KO }; // 「……強敵のようですね……！」
+st[432] = { volumetype=1, path=1, file="alt00_2611", type=0, category=1, prio=Def_SEP_KO }; // 「戦いはここからです……！」
+
+// ダウン・ノックアウト
+st[440] = { volumetype=1, path=1, file="alt00_2612", type=0, category=1, prio=Def_SEP_KO }; // 「ぐっ、あああああああああ……！」
+st[441] = { volumetype=1, path=1, file="alt00_2613", type=0, category=1, prio=Def_SEP_KO }; // 「なんという……戦上手……！」
+
+// 起きあがり
+st[450] = { volumetype=1, path=1, file="alt00_2614", type=0, category=1}; // 「これしき」
+st[451] = { volumetype=1, path=1, file="alt00_2615", type=0, category=1}; // 「やり返します」
+
+// 起きあがり・瀕死
+st[460] = { volumetype=1, path=1, file="alt00_2616", type=0, category=1}; // 「……諦めません！」
+
+// 本気を出す（体力一定値以下で発動）
+st[470] = { volumetype=1, path=1, file="alt00_2700", type=0, category=3}; // 「決着をつけましょう」
+st[471] = { volumetype=1, path=1, file="alt00_2701", type=0, category=3}; // 「我が退路を断つ！」
+
+// ゲージ溜め
+st[480] = { volumetype=1, path=1, file="alt00_2702_a", type=0, category=1}; // 「はああああああああ……！」
+st[481] = { volumetype=1, path=1, file="alt00_2703", type=0, category=1}; // 「咆吼は竜の如く……」
+
+// 強制開放
+st[490] = { volumetype=1, path=1, file="alt00_2704", type=0, category=3}; // 「やあぁぁぁ！」
+st[491] = { volumetype=1, path=1, file="alt00_2705", type=0, category=3}; // 「聖剣、解放！」
+
+
+// 必殺技 突進技からの連続攻撃）
+st[495] = { volumetype=1, path=1, file="alt01_3001", type=0, category=1}; // 「ファースト！」
+st[496] = { volumetype=1, path=1, file="alt01_3003", type=0, category=1}; // 「セカンド！」
+st[497] = { volumetype=1, path=1, file="alt01_3005", type=0, category=1}; // 「そこだ！」
+st[498] = { volumetype=1, path=1, file="alt01_3007", type=0, category=1}; // 「サード！」
+st[499] = { volumetype=1, path=1, file="alt01_3009", type=0, category=1}; // 「ブレイク！」
+
+st[500] = { volumetype=1, path=1, file="alt00_3001_s0", type=0, category=1}; // 「せいっ
+st[501] = { volumetype=1, path=1, file="alt00_3001_s1", type=0, category=1}; // これで
+st[502] = { volumetype=1, path=1, file="alt00_3001_s2", type=0, category=1}; // 決める！」
+st[503] = { volumetype=1, path=1, file="alt00_3002_s0", type=0, category=1}; // 「行きます
+// st[504] = { volumetype=1, path=1, file="alt00_3002_s1", type=0, category=1}; // これなら
+st[505] = { volumetype=1, path=1, file="alt00_3002_s2", type=0, category=1}; // どうだ！」
+// 必殺技 突進技からの連続攻撃EX）
+st[506] = { volumetype=1, path=1, file="alt00_3004", type=0, category=1}; // 「ゆくぞっ！」
+st[507] = { volumetype=1, path=1, file="alt00_3005", type=0, category=1}; // 「剣圧で押し通る……！」
+st[508] = { volumetype=1, path=1, file="alt01_3012", type=0, category=1}; // 「畳みかけます！」
+
+// 必殺技 相手を斬り上げる対空技）
+st[510] = { volumetype=1, path=1, file="alt00_3008", type=0, category=1}; // 「そこっ！」
+st[511] = { volumetype=1, path=1, file="alt00_3009", type=0, category=1}; // 「風を断つ！」
+st[512] = { volumetype=1, path=1, file="alt00_3010", type=0, category=1}; // 「上か！」
+st[513] = { volumetype=1, path=1, file="alt00_3011", type=0, category=1}; // 「やああああ！」
+// st[514] = { volumetype=1, path=1, file="alt01_3016", type=0, category=1}; // 「断ち切る！」
+
+// 必殺技 （技名：未定 相手を斬り上げる対空技 追加技）
+st[515] = { volumetype=1, path=1, file="alt00_3013", type=0, category=1}; // 「終わりです」
+st[516] = { volumetype=1, path=1, file="alt00_3014", type=0, category=1}; // 「とどめ！」
+// 必殺技 （技名：未定 相手を斬り上げる対空技EX）
+st[517] = { volumetype=1, path=1, file="alt00_3016", type=0, category=1}; // 「はあああっ！」
+st[518] = { volumetype=1, path=1, file="alt00_3017", type=0, category=1}; // 「ジョストォ！」
+st[519] = { volumetype=1, path=1, file="alt01_3020", type=0, category=1}; // 「見切った！」
+
+// 必殺技 （技名：未定 一度後ろに下がって攻撃を回避）
+st[520] = { volumetype=1, path=1, file="alt00_3020", type=0, category=1}; // 「こちらです」
+st[521] = { volumetype=1, path=1, file="alt00_3021", type=0, category=1}; // 「速く……！」
+// st[522] = { volumetype=1, path=1, file="alt00_3022", type=0, category=1}; // 「躱します」
+// st[523] = { volumetype=1, path=1, file="alt00_3023", type=0, category=1}; // 「判断が遅い！」　ボツ
+// st[524] = { volumetype=1, path=1, file="alt01_3024", type=0, category=1}; // 「回避！」
+
+// 必殺技 （技名：未定 一度後ろに下がって攻撃を回避 追加技）
+// st[525] = { volumetype=1, path=1, file="alt00_3025", type=0, category=1}; // 「そこだ！」
+// st[526] = { volumetype=1, path=1, file="alt00_3026", type=0, category=1}; // 「かかりましたね！！」
+// （技名：アサルトエア　エルフィンダンス追加技）
+// st[527] = { volumetype=1, path=1, file="alt01_3026", type=0, category=1}; // 「未熟！」
+st[528] = { volumetype=1, path=1, file="alt01_3028", type=0, category=1}; // 「踏み込む！」
+
+// 必殺技 （技名：未定 一度後ろに下がってから突進EX）
+st[530] = { volumetype=1, path=1, file="alt00_3028", type=0, category=1}; // 「受けるがいい」
+st[531] = { volumetype=1, path=1, file="alt00_3029", type=0, category=1}; // 「斬り捨てる！」
+st[532] = { volumetype=1, path=1, file="alt01_3030", type=0, category=1}; // 「その隙、もらった！」
+
+// 必殺技 （技名：未定 上空から地上に向かって斜めに突進）
+st[540] = { volumetype=1, path=1, file="alt00_3032", type=0, category=1}; // 「だああっ！」
+st[541] = { volumetype=1, path=1, file="alt00_3033", type=0, category=1}; // 「狙い撃つ！」
+st[542] = { volumetype=1, path=1, file="alt00_3034", type=0, category=1}; // 「これなら」
+st[543] = { volumetype=1, path=1, file="alt00_3035", type=0, category=1}; // 「届きます！」
+// st[544] = { volumetype=1, path=1, file="alt01_3033", type=0, category=1}; // 「この角度……！」（この角度からならいける、の意味で）
+// 必殺技 （技名：未定 上空から地上に向かって斜めに突進EX）
+st[545] = { volumetype=1, path=1, file="alt00_3037", type=0, category=1}; // 「捉えた」
+st[546] = { volumetype=1, path=1, file="alt00_3038", type=0, category=1}; // 「駆け抜ける……！」
+// st[547] = { volumetype=1, path=1, file="alt01_3035", type=0, category=1}; // 「逃(のが)すものか！」
+
+
+// 必殺技 （技名：風王鉄槌（ストライクエア） 剣にまとわせた風で攻撃）
+st[550] = { volumetype=1, path=1, file="alt00_3041_s0", type=0, category=1}; // 「風よ…… 吼えあがれ！」
+st[551] = { volumetype=1, path=1, file="alt00_3041_s1", type=0, category=1}; // 「風よ…… 吼えあがれ！」
+st[552] = { volumetype=1, path=1, file="alt00_3042_s0", type=0, category=1}; // 「風よ…… 荒れ狂え！」
+st[553] = { volumetype=1, path=1, file="alt00_3042_s1", type=0, category=1}; // 「風よ…… 荒れ狂え！」
+
+
+// アークドライブ （技名：エクスカリバー）
+// st[600] = { volumetype=1, path=1, file="alt00_3068", type=0, category=1}; // 「エクス…… カリバー！」
+// アークドライブ （技名：全て遠き理想郷（アヴァロン））
+st[605] = { volumetype=1, path=1, file="alt00_3071", type=0, category=1}; // 「アヴァロン！」
+st[606] = { volumetype=1, path=1, file="alt00_3072", type=0, category=1}; // 「エクス、カリバー！」
+
+// アークドライブ （技名：約束された勝利の剣）
+st[600] = { volumetype=1, path=1, file="alt01_3068", type=0, category=1}; // 「決着をつけましょう。」（「エクスカリバー！」に続く）
+// st[601] = { volumetype=1, path=1, file="alt01_3069", type=0, category=1}; // 「月光、遙かなり。」（「エクスカリバー！」に続く）
+st[602] = { volumetype=1, path=1, file="alt01_3070", type=0, category=1}; // 「エクス……　カリバー！」
+// st[602] = { volumetype=1, path=1, file="alt01_3070_a", type=0, category=1}; // 「エクス……　カリバー！」
+
+// ラストアーク
+// st[610] = { volumetype=1, path=1, file="alt00_3079_s0", type=0, category=1}; // 「神髄を見せましょう……はああああ！ エクス……カリバー！！」
+// st[611] = { volumetype=1, path=1, file="alt00_3079_s1", type=0, category=1}; // 「神髄を見せましょう……はああああ！ エクス……カリバー！！」
+// st[612] = { volumetype=1, path=1, file="alt00_3079_s2", type=0, category=1}; // 「神髄を見せましょう……はああああ！ エクス……カリバー！！」
+
+// st[615] = { volumetype=1, path=1, file="alt00_3080_s0", type=0, category=1}; // 「遙かなるアルビオンより……エクス……カリバー！！」
+// st[616] = { volumetype=1, path=1, file="alt00_3080_s1", type=0, category=1}; // 「遙かなるアルビオンより……エクス……カリバー！！」
+
+// ラストアーク （技名：約束された勝利の剣／剣舞）
+st[610] = { volumetype=1, path=1, file="alt01_3079_s0", type=0, category=1}; // 「神髄を見せましょう……はああああ！　エクス……カリバー！！」
+// st[611] = { volumetype=1, path=1, file="alt01_3079_s1", type=0, category=1}; // 「神髄を見せましょう……はああああ！　エクス……カリバー！！」
+st[612] = { volumetype=1, path=1, file="alt01_3079_s2", type=0, category=1}; // 「神髄を見せましょう……はああああ！　エクス……カリバー！！」
+st[615] = { volumetype=1, path=1, file="alt01_3080_s0", type=0, category=1}; // 「遙かなるアルビオンより……エクス……カリバー！！」
+st[616] = { volumetype=1, path=1, file="alt01_3080_s1", type=0, category=1}; // 「遙かなるアルビオンより……エクス……カリバー！！」
+st[617] = { volumetype=1, path=1, file="alt01_3082", type=0, category=1}; // 「全霊で応じます！」（次に続く）
+// st[618] = { volumetype=1, path=1, file="alt01_3083", type=0, category=1}; // 「真名開放！」（次に続く）
+st[619] = { volumetype=1, path=1, file="alt01_3084", type=0, category=1}; // 「エクス……カリバー！」
+

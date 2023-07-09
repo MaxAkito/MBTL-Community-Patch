@@ -53,7 +53,7 @@ Roa
 */
 As suspected, with her real form unleashed, I no longer 
 stand a chance. Even with all my magic circuits 
-put to defense, I wonder how many seconds will I last?
+put to defense, I wonder how many seconds I will last?
 
 \\@GO_SUB@<"RoaOUT_Face0_L">
 

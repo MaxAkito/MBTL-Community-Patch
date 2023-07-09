@@ -1,0 +1,545 @@
+__dofile__("./script/btl_SEDefine.txt"); //ＳＥ定数
+
+local path = "./se/normal_se/"; // ファイルパス、登録しやすいように
+local btlpath = "./se/battle_se/";
+local chrpath = btlpath + "chr004/";
+local spepath = path + "special/";
+
+SeList_Table <-
+{
+	TableNum = 3, // SEセレクトとかでのプログラム側参照用、テーブル最大値を入れておく
+	UseTable = 0, // 何番目のテーブルを使うか
+	Path = [],	// パス設定簡略化用
+	Status = [],	// 実際に再生時に使われる配列
+};
+
+SeList_Table.Path.append( path ); //Path[0]
+SeList_Table.Path.append( chrpath ); //Path[1]
+SeList_Table.Path.append( btlpath ); //Path[2]
+SeList_Table.Path.append( spepath ); //Path[3]
+
+SeList_Table.Status.resize(850); // 確保
+// local st = SeList_Table.Status; // 登録しやすいように省略
+local st = array(850,0);
+local tnum = SeList_Table.UseTable;
+local tblnum = SeFunc.GetParam(31);
+// print("\n tblnum:"+tblnum );
+if( tblnum == -1 )
+{
+	local enemy = SeFunc.GetParam(30);
+	if( enemy == 2 )
+	{
+		tnum = 1;
+	}
+	else if( enemy == 3 )
+	{
+		tnum = 2;
+	}
+	else
+	{
+		tnum = 0;
+	}
+}
+else
+{
+	// SE TESTでの指定再生時の処理
+	tnum = tblnum;
+}
+SeFunc.SetParam(31,tnum);//バトルsq参照用に値を戻す
+
+// 配列補足
+// [0]汎用, [1]秋葉, [2]志貴, 
+
+//汎用エフェクトから呼ばれるので定義必須
+st[20] = {  volumetype=0, type=-1, file="Move_Landing" }; // 着地
+st[42] = {  volumetype=0, type=-1, file="Move_RerereDash" }; // 前ダッシュ（レレレ走り）
+st[44] = {  volumetype=0, type=-1, file="Move_DashStop"     }; // ダッシュ停止
+
+//大技
+st[59] = { volumetype=0, path=3, type=-1, file="Cmn_Whirlwind" }; // キャラクターの周りで風が吹き荒れる音
+st[62] = { volumetype=0, path=3, type=-1, file="Atk_Railgun" }; // 空裂音
+
+// 登場シーン
+st[100] = { volumetype=1, path=1, file="koh00_2000", type=0, category=1, userparam=192 }; // うふふふふ、はじめますよ～
+st[101] = { volumetype=1, path=1, file="koh00_2001", type=0, category=1, userparam=192 }; // 頼れるお手伝いさん、ただいま参上！
+st[102] = { volumetype=1, path=1, file="koh00_2002", type=0, category=1, userparam=130 }; // どんなおクスリがお好みですか？
+st[103] = { volumetype=1, path=1, file="koh00_2003", type=0, category=1, userparam=178 }; // 今宵の針は一味違いますよ～
+
+// vs遠野志貴
+st[105] = { volumetype=1, path=1, file="koh00_2009", type=0, category=1, userparam=273 }; // ふふふ、見てしまいましたね志貴さん
+
+// 登場２
+st[106] = { volumetype=1, path=1, file="koh01_2000", type=0, category=1, userparam=195 }; // 「ふっふっふ…。いざ尋常に……！」
+st[107] = { volumetype=1, path=1, file="koh01_2001", type=0, category=1, userparam=249 }; // 「なんと不審なお方でしょう…… 成敗、ですね！」
+st[108] = { volumetype=1, path=1, file="koh01_2002", type=0, category=1, userparam=86 }; // 「(翡翠)姉妹の絆―― (琥珀)見せつけちゃいます！」
+st[109] = { volumetype=1, path=1, file="koh01_2003", type=0, category=1, userparam=96 }; // 「(琥珀)これはなかなか…… 
+
+// 後が無くなったラウンドの開幕
+st[110] = { volumetype=1, path=1, file=["koh00_2011","koh01_aki_2011","koh01_sik_2011"], type=0, category=3, userparam=148 }; // ごーむーたーいーなー！
+st[111] = { volumetype=1, path=1, file=["koh00_2012","koh01_aki_2012","koh01_sik_2012"], type=0, category=3, userparam=230 }; // 追い詰められてしまいました……よよよ
+st[112] = { volumetype=1, path=1, file="koh00_2013", type=0, category=3, userparam=98 }; // ポジティブシンキング！
+st[113] = { volumetype=1, path=1, file="koh01_2011", type=0, category=3 }; // 「まあ、どうしましょう。ふふ。」
+
+// ラウンド勝利
+st[120] = { volumetype=1, path=1, file="koh00_2014", type=0, category=1, userparam=142 }; // はい、お掃除終了です
+st[121] = { volumetype=1, path=1, file="koh00_2015", type=0, category=1, userparam=149 }; // ハイ、チャンネルはそのままです♪
+st[122] = { volumetype=1, path=1, file="koh00_2016", type=0, category=1, userparam=109 }; // ご満足いただけましたか？
+st[123] = { volumetype=1, path=1, file="koh00_2017", type=0, category=1, userparam=142 }; // 箒さばきには自信があるんです
+
+// 決着勝利・汎用
+st[130] = { volumetype=1, path=1, file="koh00_2020", type=0, category=1, userparam=114 }; // 惚れ直してくださいました？
+st[131] = { volumetype=1, path=1, file="koh00_2021", type=0, category=1, userparam=130 }; // 大番狂わせという事で（※ハート）
+
+// 決着勝利・辛勝
+st[132] = { volumetype=1, path=1, file="koh00_2022", type=0, category=1, userparam=194 }; // ふぅ、危ないところでした
+
+// 決着勝利・楽勝
+st[133] = { volumetype=1, path=1, file="koh00_2023", type=0, category=1, userparam=139 }; // やりましたー、大勝利です♪
+
+//汎用
+st[134] = { volumetype=1, path=1, file="koh01_2020", type=0, category=1, userparam=215 }; // 「次はどうぞ、アポをとってからお願いしますね？」
+st[135] = { volumetype=1, path=1, file="koh01_2021", type=0, category=1, userparam=120 }; // 「もうおイタはダメですよ？」
+
+// 待機モーション
+st[140] = { volumetype=1, path=1, file=["koh00_2025","koh01_aki_2025","koh01_sik_2025"], type=0, category=1, userparam=171 }; // もしもーし？　起きてますかー？
+st[141] = { volumetype=1, path=1, file="koh00_2026", type=0, category=1, userparam=363 }; // いえ、何も企みなどございませんとも。わたしは一介のお手伝いさんですので♪
+
+// タイムアップ判定負け	
+st[150] = { volumetype=1, path=1, file="koh00_2027", type=0, category=1, userparam=145 }; // 没収試合になりませんかねぇ？
+st[151] = { volumetype=1, path=1, file=["koh00_2028","koh01_aki_2028","koh01_sik_2028"], type=0, category=1, userparam=158 }; // ヒロイン的には勝ってたのにぃ～（涙っぽく）
+
+// 弱攻撃	
+st[160] = { volumetype=1, path=1, file="koh00_2100_j", type=0, category=1}; // は
+st[161] = { volumetype=1, path=1, file="koh00_2101_k", type=0, category=1}; // や
+st[162] = { volumetype=1, path=1, file="koh00_2102_j", type=0, category=1}; // えい
+st[163] = { volumetype=1, path=1, file="koh00_2100_h", type=0, category=1}; // は
+st[164] = { volumetype=1, path=1, file="koh00_2102_h", type=0, category=1}; // えい
+
+// 中攻撃	
+st[165] = { volumetype=1, path=1, file="koh00_2103", type=0, category=1}; // たぁ
+st[166] = { volumetype=1, path=1, file="koh00_2104_a", type=0, category=1}; // やぁ
+st[167] = { volumetype=1, path=1, file="koh00_2105", type=0, category=1}; // てや
+
+// 強攻撃	
+st[170] = { volumetype=1, path=1, file="koh00_2106_a", type=0, category=1}; // はっ
+st[171] = { volumetype=1, path=1, file="koh00_2107", type=0, category=1}; // それっ
+st[172] = { volumetype=1, path=1, file="koh00_2108_b", type=0, category=1}; // てややー♪
+
+// 連打浮かせ攻撃
+st[180] = { volumetype=1, path=1, file="koh00_2109", type=0, category=3}; // いきますよー
+st[181] = { volumetype=1, path=1, file="koh00_2114", type=0, category=3}; // カッキーン！
+st[182] = { volumetype=1, path=1, file="koh00_2110", type=0, category=3}; // まだまだいきますっ！
+st[183] = { volumetype=1, path=1, file="koh00_2112", type=0, category=3}; // フライ返しっ！
+
+// 浮かせ攻撃
+// st[184] = { volumetype=1, path=1, file="koh00_2111", type=0, category=1}; // そおれ
+
+// 吹き飛ばし攻撃
+st[190] = { volumetype=1, path=1, file="koh00_2113", type=0, category=1}; // てやぁー♪
+st[192] = { volumetype=1, path=1, file="koh00_2115", type=0, category=1}; // それー！
+st[193] = { volumetype=1, path=1, file="koh00_2116", type=0, category=1}; // 行きますよ～
+
+// 上からの攻撃
+st[200] = { volumetype=1, path=1, file="koh00_2117", type=0, category=1}; // 上です
+st[201] = { volumetype=1, path=1, file="koh00_2118", type=0, category=1}; // 見えます？
+
+// 下からの攻撃
+st[210] = { volumetype=1, path=1, file="koh00_2119", type=0, category=1}; // 下です
+st[211] = { volumetype=1, path=1, file="koh00_2120", type=0, category=1}; // ご注意を！
+
+// 回避困難な攻撃
+st[220] = { volumetype=1, path=1, file="koh00_2121", type=0, category=1}; // だーいはーんせーい！（大反省）
+st[221] = { volumetype=1, path=1, file="koh00_2122", type=0, category=1}; // たくみ！（匠の技です！）
+st[222] = { volumetype=1, path=1, file="koh00_2123", type=0, category=1}; // こはめいた！
+
+// その他特殊攻撃
+st[230] = { volumetype=1, path=1, file="koh00_2124", type=0, category=1}; // あはははは
+st[231] = { volumetype=1, path=1, file="koh00_2125", type=0, category=1}; // ふふーん
+st[232] = { volumetype=1, path=1, file="koh00_2126", type=0, category=1}; // 甘いっ！
+st[233] = { volumetype=1, path=1, file="koh00_2127", type=0, category=1}; // どぐまっ！
+st[234] = { volumetype=1, path=1, file="koh00_2128", type=0, category=1}; // そいや♪
+
+// 投げ技成功
+st[240] = { volumetype=1, path=1, file="koh00_2200", type=0, category=1}; // お注射です
+st[241] = { volumetype=1, path=1, file="koh00_2201", type=0, category=1}; // えい
+st[242] = { volumetype=1, path=1, file="koh00_2202", type=0, category=1}; // どうぞ♪
+st[243] = { volumetype=1, path=1, file="koh00_2203", type=0, category=1}; // ぬかづけですよー
+
+// 投げ技失敗
+st[250] = { volumetype=1, path=1, file="koh00_2204", type=0, category=1}; // あららっ
+st[251] = { volumetype=1, path=1, file=["koh00_2205","koh01_aki_2205","koh01_sik_2205"], type=0, category=1}; // ……チッ
+st[252] = { volumetype=1, path=1, file=["koh00_2206","koh01_aki_2206","koh01_sik_2206"], type=0, category=1}; // おやおや
+
+// 敵の投げ技を回避
+st[260] = { volumetype=1, path=1, file=["koh00_2207","koh01_aki_2207","koh01_sik_2207"], type=0, category=1, prio=Def_SEP_ThrowTech, check=1}; // スケスケですよ～（ふーんだ、という演技で）
+st[261] = { volumetype=1, path=1, file="koh00_2208", type=0, category=1, prio=Def_SEP_ThrowTech, check=1}; // そぉーれっ！
+
+// 振り向き
+st[270] = { volumetype=1, path=1, file="koh00_2300", type=0, category=1, prio=Def_SEP_Furimuki,}; //　む
+st[271] = { volumetype=1, path=1, file="koh00_2301", type=0, category=1, prio=Def_SEP_Furimuki,}; //　おや
+
+// ジャンプ
+st[280] = { volumetype=1, path=1, file="koh00_2302", type=0, category=1, }; //　よっ
+st[281] = { volumetype=1, path=1, file="koh00_2303", type=0, category=1, }; //　ほっ
+st[282] = { volumetype=1, path=1, file="koh00_2304", type=0, category=1, }; //　とぉ
+
+// ダッシュ
+st[290] = { volumetype=1, path=1, file="koh00_2305", type=0, category=1}; // だぁーっしゅ
+st[291] = { volumetype=1, path=1, file="koh00_2306", type=0, category=1}; // うふふ
+st[292] = { volumetype=1, path=1, file=["koh00_2307","koh01_aki_2307","koh01_sik_2307"], type=0, category=1}; // 逃がしませんよ～♪
+st[293] = { volumetype=1, path=1, file="koh00_2308", type=0, category=1}; // さささっ
+
+// バックステップ
+st[300] = { volumetype=1, path=1, file="koh00_2309", type=0, category=1}; // おおっと
+st[301] = { volumetype=1, path=1, file="koh00_2310", type=0, category=1}; // はっ
+st[302] = { volumetype=1, path=1, file="koh00_2311", type=0, category=1}; // よっ
+
+// 弱攻撃ガード
+st[310] = { volumetype=1, path=1, file="koh00_2400", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 効かないです
+st[311] = { volumetype=1, path=1, file="koh00_2401", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // ふふっ
+st[312] = { volumetype=1, path=1, file="koh00_2402", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // なんの
+
+// 中攻撃ガード
+st[320] = { volumetype=1, path=1, file=["koh00_2403","koh01_aki_2403","koh01_sik_2403"], type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 諦めません？
+st[321] = { volumetype=1, path=1, file="koh00_2404", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // むむむ？
+st[322] = { volumetype=1, path=1, file="koh00_2405", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // ざんねん♪
+
+// 強攻撃ガード
+st[330] = { volumetype=1, path=1, file=["koh00_2406","koh01_aki_2406"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // おいたがすぎます！
+st[331] = { volumetype=1, path=1, file="koh00_2407", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // ばりやー！
+st[332] = { volumetype=1, path=1, file="koh00_2408", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // ガードです
+
+//余裕ガード
+st[340] = { volumetype=1, path=1, file="koh00_2409", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // バレてます！
+st[341] = { volumetype=1, path=1, file="koh00_2410", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 分かりました！
+st[342] = { volumetype=1, path=1, file="koh00_2411", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 遅いです！
+
+// ガード失敗
+st[350] = { volumetype=1, path=1, file="koh00_2412", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // きゃあー♪
+st[351] = { volumetype=1, path=1, file="koh00_2413", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // てへ
+st[352] = { volumetype=1, path=1, file="koh00_2414", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // ああん♪（楽しんでいる）
+
+// 受け身
+st[360] = { volumetype=1, path=1, file="koh00_2500", type=0, category=1, prio=Def_SEP_Recover}; // よっ、と
+st[361] = { volumetype=1, path=1, file="koh00_2501", type=0, category=1, prio=Def_SEP_Recover}; // 危ない危ない
+st[362] = { volumetype=1, path=1, file="koh00_2502", type=0, category=1, prio=Def_SEP_Recover}; // くるんっと
+st[363] = { volumetype=1, path=1, file="koh00_2503", type=0, category=1, prio=Def_SEP_Recover}; // しゅぱっ
+
+// シールド発動
+st[370] = { volumetype=1, path=1, file="koh00_2504", type=0, category=1}; // はっ
+st[371] = { volumetype=1, path=1, file="koh00_2505", type=0, category=1}; // てぇーいっ
+st[372] = { volumetype=1, path=1, file="koh00_2506", type=0, category=1}; // そりゃっ
+
+// シールド成功
+st[380] = { volumetype=1, path=1, file="koh00_2507", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 危ないっと
+st[381] = { volumetype=1, path=1, file="koh00_2508", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 大甘ですよー
+st[382] = { volumetype=1, path=1, file="koh00_2509", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 見切りました
+st[383] = { volumetype=1, path=1, file="koh00_2510", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // バッチリ！
+
+// シールド取って反撃
+st[390] = { volumetype=1, path=1, file="koh00_2511", type=0, category=1}; // 一の太刀！
+st[391] = { volumetype=1, path=1, file="koh00_2512", type=0, category=1}; // しゃっ！
+st[392] = { volumetype=1, path=1, file="koh00_2513", type=0, category=1}; // お仕置きです♪
+
+// シールド取って回り込んで反撃
+st[395] = { volumetype=1, path=1, file="koh00_2514", type=0, category=1}; // こちらです！
+st[396] = { volumetype=1, path=1, file="koh00_2515", type=0, category=1}; // あちらです！
+st[397] = { volumetype=1, path=1, file="koh00_2516", type=0, category=1}; // どちらです？
+
+// 弱攻撃ダメージ
+st[400] = { volumetype=1, path=1, file="koh00_2600", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // あっ
+st[401] = { volumetype=1, path=1, file="koh00_2601", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // うっ
+st[402] = { volumetype=1, path=1, file="koh00_2602", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // くっ
+
+// 中攻撃ダメージ
+st[410] = { volumetype=1, path=1, file="koh00_2603", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // あうっ
+st[411] = { volumetype=1, path=1, file="koh00_2604", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // ひぁっ
+st[412] = { volumetype=1, path=1, file="koh00_2605", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // あはっ
+
+// 強攻撃ダメージ
+st[420] = { volumetype=1, path=1, file="koh00_2606", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // ぐはっ（コミカルに）
+st[421] = { volumetype=1, path=1, file=["koh00_2608","koh01_aki_2608","koh01_sik_2608"], type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // あいたぁっ！？
+st[422] = { volumetype=1, path=1, file=["koh00_2607","koh01_aki_2607","koh01_sik_2607"], type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // やられましたぁ
+
+// ダウン
+st[430] = { volumetype=1, path=1, file=["koh00_2609","koh01_aki_2609","koh01_sik_2609"], type=0, category=1, prio=Def_SEP_KO }; // やーらーれーたー！
+st[431] = { volumetype=1, path=1, file=["koh00_2610","koh00_2610","koh01_sik_2610"], type=0, category=1, prio=Def_SEP_KO }; // 琥珀ピーーンチ！
+st[432] = { volumetype=1, path=1, file=["koh00_2611","koh01_aki_2611"], type=0, category=1, prio=Def_SEP_KO }; // ああん、容赦のない仕打ち！
+
+// ダウン・ノックアウト
+st[440] = { volumetype=1, path=1, file="koh00_2612", type=0, category=1, prio=Def_SEP_KO }; // あ―――れ――――っ
+st[441] = { volumetype=1, path=1, file=["koh00_2613","koh01_aki_2613","koh01_sik_2613"], type=0, category=1, prio=Def_SEP_KO }; // こんなバカな～～～！……ぱたり
+
+// 起きあがり
+st[450] = { volumetype=1, path=1, file=["koh00_2614","koh00_2614","koh01_sik_2614"], type=0, category=1}; // へっちゃらですよーだ
+st[451] = { volumetype=1, path=1, file=["koh00_2615","koh00_2615","koh01_sik_2615"], type=0, category=1}; // まだまだです
+
+// 起きあがり・瀕死
+st[460] = { volumetype=1, path=1, file=["koh00_2616","koh00_2616","koh01_sik_2616"], type=0, category=1}; // ―――ふふふ。（実はまったく恐がってない琥珀）
+
+// 本気を出す（体力一定値以下で発動）
+st[470] = { volumetype=1, path=1, file="koh00_2700", type=0, category=3}; // いけませんっ！
+st[471] = { volumetype=1, path=1, file=["koh00_2701","koh01_aki_2701","koh01_sik_2701"], type=0, category=3}; // べーだっ（舌を出すように）
+
+// ゲージ溜め
+st[480] = { volumetype=1, path=1, file="koh00_2702", type=0, category=1}; // ふっふっふっふ……
+st[481] = { volumetype=1, path=1, file="koh00_2703", type=0, category=1}; // ケミカル…マジカル…メディカル…
+
+// 強制開放
+st[490] = { volumetype=1, path=1, file="koh00_2704", type=0, category=3}; // 派手に楽しくいきますよ～♪
+st[491] = { volumetype=1, path=1, file=["koh00_2705","koh00_2705","koh01_sik_2705"], type=0, category=3}; // さあ、大一番です！
+
+// 必殺技 抜刀・秘密の業物
+st[500] = { volumetype=1, path=1, file="koh00_3001", type=0, category=1}; // は！
+st[501] = { volumetype=1, path=1, file="koh00_3002", type=0, category=1}; // ていっ！
+st[502] = { volumetype=1, path=1, file="koh00_3003", type=0, category=1}; // 微塵切りですっ！
+st[503] = { volumetype=1, path=1, file="koh01_3001", type=0, category=1 }; // 「ふっ！」
+st[504] = { volumetype=1, path=1, file="koh01_3002", type=0, category=1 }; // 「そこっ！」
+
+// 必殺技 抜刀・秘密の業物EX
+st[505] = { volumetype=1, path=1, file="koh00_3005", type=0, category=1}; // 料理してさしあげます
+st[506] = { volumetype=1, path=1, file="koh00_3006", type=0, category=1}; // 覚悟してくださいまし
+st[507] = { volumetype=1, path=1, file="koh01_3005_s0", type=0, category=1 }; // 「見えた……でえぇい！」（次に続く）
+st[508] = { volumetype=1, path=1, file="koh01_3005_s1", type=0, category=1 }; // 「見えた……でえぇい！」（次に続く）
+st[509] = { volumetype=1, path=1, file="koh01_3006", type=0, category=1 }; // 「切り捨て御免……」
+
+// 必殺技 抜刀・ちゃぶ台返し
+st[510] = { volumetype=1, path=1, file="koh00_3008", type=0, category=1}; // おかわりです♪
+st[511] = { volumetype=1, path=1, file="koh01_3008", type=0, category=1 }; // 「あ、よいしょー♪」
+
+// 必殺技 琥珀マグナムアッパー
+// st[520] = { volumetype=1, path=1, file="koh00_3010", type=0, category=1}; // おいたはメッ、です♪
+// st[521] = { volumetype=1, path=1, file="koh01_3010", type=0, category=1 }; // 「アッパー！」
+// st[522] = { volumetype=1, path=1, file="koh01_3011", type=0, category=1 }; // 「クリンチ！　かーらーの、」
+// st[523] = { volumetype=1, path=1, file="koh01_3012", type=0, category=1 }; // 「ふっとべ～！」
+
+// 必殺技 マジカルアンバーミサイル
+st[530] = { volumetype=1, path=1, file="koh00_3013", type=0, category=1}; // マジカルアンバーミサイル
+st[531] = { volumetype=1, path=1, file="koh01_3015", type=0, category=1 }; // 「やっちゃうぞー♪」(可愛く)
+st[532] = { volumetype=1, path=1, file="koh01_3016", type=0, category=1 }; // 「ふははははー♪」(可愛く)
+// 必殺技 マジカルアンバーミサイルEX
+st[535] = { volumetype=1, path=1, file="koh00_3015", type=0, category=1}; // 燃えつきろ～♪
+st[536] = { volumetype=1, path=1, file="koh01_3018", type=0, category=1 }; // 「大放出です♪」
+
+// 必殺技 マジカルアンバーミサイル(空中)
+st[540] = { volumetype=1, path=1, file="koh00_3017", type=0, category=1}; // マジカルアンバーミサイル(空中)
+st[541] = { volumetype=1, path=1, file="koh01_3020", type=0, category=1 }; // 「やっちゃうぞー♪」(ダウナー系)
+st[542] = { volumetype=1, path=1, file="koh01_3021", type=0, category=1 }; // 「くっくっく…♪」(ダウナー系)
+
+// 必殺技 マジカルアンバーミサイル(空中)EX
+st[545] = { volumetype=1, path=1, file="koh00_3019", type=0, category=1}; // 燃えつきろ～（ダウナー気味に）
+st[546] = { volumetype=1, path=1, file="koh01_3023", type=0, category=1 }; // 「大盤振る舞いです♪」
+
+// 必殺技 こんなん育ててみました♪
+st[550] = { volumetype=1, path=1, file="koh00_3022", type=0, category=1}; // はい
+st[551] = { volumetype=1, path=1, file="koh00_3023", type=0, category=1}; // 頑張って
+st[552] = { volumetype=1, path=1, file="koh00_3024", type=0, category=1}; // そぉれ
+st[553] = { volumetype=1, path=1, file="koh01_3026", type=0, category=1 }; // 「よいしょっと」
+st[554] = { volumetype=1, path=1, file="koh01_3027", type=0, category=1 }; // 「私が育てました」(どや)
+
+// 必殺技 こんなん育ててみました♪EX
+st[555] = { volumetype=1, path=1, file="koh00_3027", type=0, category=1}; // ふふふ、特別製ですよ～♪
+st[556] = { volumetype=1, path=1, file="koh00_3028", type=0, category=1}; // 現代医学の犠牲者です……（嘘泣
+// st[557] = { volumetype=1, path=1, file="koh00_3029", type=0, category=1}; // ヘイジョニー、（次に続く）
+// st[558] = { volumetype=1, path=1, file="koh00_3030", type=0, category=1}; // カモーン！
+// st[559] = { volumetype=1, path=1, file="koh00_3031", type=0, category=1}; // あんまり役に立ちませんけどねー
+st[560] = { volumetype=1, path=1, file="koh01_3031", type=0, category=1 }; // 「出でよ、我が忠実なる下僕(しもべ)～！」
+
+// タメ立ちC雲雀
+// st[565] = { volumetype=1, path=1, file="koh00_3034", type=0, category=1}; // トスっと……
+// st[566] = { volumetype=1, path=1, file="koh00_3035", type=0, category=1}; // きゃー☆
+
+// 6+B足引っかけ
+st[570] = { volumetype=1, path=1, file="koh00_3038", type=0, category=1}; // ……そーっと
+// st[571] = { volumetype=1, path=1, file="koh00_3039", type=0, category=1}; // ごめんあそばせ♪
+
+// 必殺技 抜刀・空気撃ち
+// st[580] = { volumetype=1, path=1, file="koh00_3043", type=0, category=1}; // どうです！
+// st[581] = { volumetype=1, path=1, file="koh00_3044", type=0, category=1}; // なんか出ます！？
+st[582] = { volumetype=1, path=1, file="koh00_3045", type=0, category=1}; // せいやっ！
+// st[583] = { volumetype=1, path=1, file="koh01_3045", type=0, category=1 }; // 「しゅぱっ！」
+// st[584] = { volumetype=1, path=1, file="koh01_3046", type=0, category=1 }; // 「あぶないですよ～」
+//EX
+st[585] = { volumetype=1, path=1, file="koh01_3048", type=0, category=1 }; // 「本気を出しましょう！」（かっこよく）
+
+// 必殺技 抜刀準備・無礼免
+// st[590] = { volumetype=1, path=1, file="koh00_3048", type=0, category=1}; // かきーん♪
+// st[591] = { volumetype=1, path=1, file="koh00_3049", type=0, category=1}; // 驚きました？
+// st[592] = { volumetype=1, path=1, file="koh00_3050", type=0, category=1}; // 未熟です！
+// st[593] = { volumetype=1, path=1, file="koh01_3050", type=0, category=1 }; // 「今です！」
+st[594] = { volumetype=1, path=1, file="koh01_3051", type=0, category=1 }; // 「ご無礼っ！」
+st[595] = { volumetype=1, path=1, file="koh01_3052", type=0, category=1 }; // 「読み読み☆」
+
+
+// 必殺技 ムービング☆スター
+// st[600] = { volumetype=1, path=1, file="koh00_3053", type=0, category=1}; // さあ、診察の時間ですよ～♪
+// st[601] = { volumetype=1, path=1, file="koh00_3054", type=0, category=1}; // ヘイヘイヘイヘイ！
+// st[602] = { volumetype=1, path=1, file="koh00_3055", type=0, category=1}; // 診察の時間です！
+// st[603] = { volumetype=1, path=1, file="koh01_3055", type=0, category=1 }; // 「いっきまーす！」
+// st[604] = { volumetype=1, path=1, file="koh01_3056", type=0, category=1 }; // 「びゅーん！」
+
+//EX
+// st[605] = { volumetype=1, path=1, file="koh01_3058", type=0, category=1 }; // 「どけどけー！」
+// st[606] = { volumetype=1, path=1, file="koh01_3059", type=0, category=1 }; // 「よけてよけてーー！」
+
+// アークドライブ
+// st[610] = { volumetype=1, path=1, file="koh00_3068", type=0, category=1}; // 出番アルネっ
+// st[611] = { volumetype=1, path=1, file="koh00_3069", type=0, category=1}; // てぃっ（次に続く）
+// st[612] = { volumetype=1, path=1, file="koh00_3070", type=0, category=1}; // はぁっ（次に続く） 
+// st[613] = { volumetype=1, path=1, file="koh00_3071", type=0, category=1}; // そいやーっ 
+
+st[610] = { volumetype=1, path=1, file=["koh01_3073","koh01_aki_3073"], type=0, category=1 }; // 「出番アルネっ」
+st[611] = { volumetype=1, path=1, file=["koh01_3074","koh01_aki_3074"], type=0, category=1 }; // 「てぃっ」（次に続く）
+st[612] = { volumetype=1, path=1, file=["koh01_3075","koh01_aki_3075"], type=0, category=1 }; // 「はぁっ」（次に続く）
+st[613] = { volumetype=1, path=1, file=["koh01_3076","koh01_aki_3076"], type=0, category=1 }; // 「そいやーっ」
+
+// st[624] = { volumetype=1, path=1, file="koh00_3073", type=0, category=1}; // なんの（次に続く）
+// st[625] = { volumetype=1, path=1, file="koh00_3074", type=0, category=1}; // まだまだ（次に続く）
+// st[626] = { volumetype=1, path=1, file="koh00_3075", type=0, category=1}; // やーっ
+// st[627] = { volumetype=1, path=1, file="koh00_3076", type=0, category=1}; // ホァー！
+
+// st[624] = { volumetype=1, path=1, file="koh01_3078", type=0, category=1 }; // 「なんの」（次に続く）
+// st[625] = { volumetype=1, path=1, file="koh01_3079", type=0, category=1 }; // 「まだまだ」（次に続く）
+// st[626] = { volumetype=1, path=1, file="koh01_3080", type=0, category=1 }; // 「やーっ」（次に続く）
+// st[627] = { volumetype=1, path=1, file="koh01_3081", type=0, category=1 }; // 「ホァー！」
+
+st[630] = { volumetype=1, path=1, file="koh01_3083", type=0, category=1 }; // 「謎の美女、登場～！ 」（次に続く）
+st[631] = { volumetype=1, path=1, file="koh01_3084", type=0, category=1 }; // 「ほわたたたっ！ 」（次に続く）
+st[632] = { volumetype=1, path=1, file="koh01_3085", type=0, category=1 }; // 「開(かい)打(だ)靠(こう)靭(じん)…… 」（次に続く）
+st[633] = { volumetype=1, path=1, file="koh01_3086", type=0, category=1 }; // 「琥(こ)珀(はく)脚(きゃく)～！」
+
+// ラストアーク
+// st[640] = { volumetype=1, path=1, file="koh00_3079", type=0, category=1}; // 琥珀流抜刀術・奥義！（次に続く）
+// st[641] = { volumetype=1, path=1, file="koh00_3080", type=0, category=1}; // この箒に、切れぬものなし！（次に続く）
+// st[642] = { volumetype=1, path=1, file="koh00_3081", type=0, category=1}; // （煙を吸って）けほっ、けほっ
+
+st[640] = { volumetype=1, path=1, file=["koh01_3089","koh01_aki_3089"], type=0, category=1 }; // 「琥珀流抜刀術・奥義！」（次に続く）
+st[641] = { volumetype=1, path=1, file=["koh01_3090","koh01_aki_3090"], type=0, category=1 }; // 「この箒に、切れぬものなし！」（次に続く）
+st[642] = { volumetype=1, path=1, file=["koh01_3091","koh01_aki_3091"], type=0, category=1 }; // （煙を吸って）「けほっ、けほっ」
+
+st[643] = { volumetype=1, path=1, file="koh01_3093", type=0, category=1 }; // 「賀正(がしょう)、箒(ほうき)星(ほし)！ 」（次に続く）
+st[644] = { volumetype=1, path=1, file="koh01_3094", type=0, category=1 }; // 「またたのしいものを斬ってしまいました……」（次に続く）
+// st[645] = { volumetype=1, path=1, file="koh01_3095", type=0, category=1 }; // （煙を吸って）「けほっけほっ」
+
+
+// キャラクターセレクト待機5秒
+// st[620] = { volumetype=1, path=1, file="koh00_4000", type=0, category=1}; // 秋葉様にお仕えしている侍女、琥珀と申します。
+// キャラクターセレクト待機15秒
+// st[621] = { volumetype=1, path=1, file="koh00_4001", type=0, category=1}; // おやおや、私をお選びになるのですか？　勝つ事より楽しむ事を重視される方と見ました！
+// キャラクター決定
+// st[622] = { volumetype=1, path=1, file="koh00_4002", type=0, category=1}; // いきますよ～♪
+
+// コンティニュー待機
+// st[630] = { volumetype=1, path=1, file="koh00_4100", type=0, category=1}; // 失敗しちゃいました…
+// 再戦決定
+// st[631] = { volumetype=1, path=1, file="koh00_4101", type=0, category=1}; // 家政婦は二度見た！なんちゃって☆
+// ゲームオーバー
+// st[632] = { volumetype=1, path=1, file="koh00_4102", type=0, category=1}; // お薬だけでは限度がありましたか……
+
+// エンディング
+// st[640] = { volumetype=1, path=1, file="koh00_4200", type=0, category=1}; // お疲れ様でした☆宜しければお茶などいかがです？
+
+// 乱入
+// st[650] = { volumetype=1, path=1, file="koh00_4300", type=0, category=1}; // うふふふふ、はじめますよ～
+
+// 挨拶
+// st[660] = { volumetype=1, path=1, file="koh00_4400", type=0, category=1}; // よろしくです☆
+// st[661] = { volumetype=1, path=1, file="koh00_4401", type=0, category=1}; // ありがとうございました♪
+// st[662] = { volumetype=1, path=1, file="koh00_4402", type=0, category=1}; // さようなら、よい一日を！
+// st[663] = { volumetype=1, path=1, file="koh00_4403", type=0, category=1}; // 結構なお手前で（ハート）
+// st[664] = { volumetype=1, path=1, file="koh00_4404", type=0, category=1}; // お薬の時間ですよ～。
+
+// 翡翠＆琥珀用
+// 登場
+st[700] = { volumetype=1, path=1, file="hik00_2000_1k", type=0, category=1, userparam=115 }; // 遠慮はなしよ、翡翠ちゃん！
+st[701] = { volumetype=1, path=1, file="hik00_2001_1k", type=0, category=1, userparam=115 }; // ええ、本気でいきます
+st[702] = { volumetype=1, path=1, file="hik00_2002_0k", type=0, category=1, userparam=89 }; // かたづけちゃいます？
+st[703] = { volumetype=1, path=1, file="hik00_2003_0k", type=0, category=1, userparam=63 }; // ではでは
+st[704] = { volumetype=1, path=1, file="hik00_2004_0k", type=0, category=1, userparam=171 }; // んー、強そうですねー
+
+// 必殺技 姉妹の絆・基本編
+st[710] = { volumetype=1, path=1, file="hik00_3001_1k", type=0, category=1}; // おっまかせー！
+st[711] = { volumetype=1, path=1, file="hik00_3002_1k", type=0, category=1}; // いっきますよー！
+st[712] = { volumetype=1, path=1, file="hik00_3003_1k", type=0, category=1}; // お姉ちゃんにお任せよー！
+st[713] = { volumetype=1, path=1, file="koh01_3061", type=0, category=1 }; // 「(翡翠)姉さん、ファイトです (琥珀)おまかせあれ～！」
+st[714] = { volumetype=1, path=1, file="koh01_3062", type=0, category=1 }; // 「(翡翠)姉さん、今です (琥珀)ちょいさー♪」
+// st[715] = { volumetype=1, path=1, file="koh01_3063", type=0, category=1 }; // 「(翡翠)そこです姉さん (琥珀)わんくりっく！」
+
+// 必殺技 姉妹の絆・誕生編
+// st[720] = { volumetype=1, path=1, file="hik00_3006_1k", type=0, category=1}; // おっまかせー！
+st[721] = { volumetype=1, path=1, file="hik00_3007_1k", type=0, category=1}; // いきますよ～♪
+st[722] = { volumetype=1, path=1, file="hik00_3008_1k", type=0, category=1}; // はいはい♪
+st[723] = { volumetype=1, path=1, file="hik00_3009_0k", type=0, category=1}; // 翡翠ちゃん、交代♪
+st[724] = { volumetype=1, path=1, file="hik00_3010_0k", type=0, category=1}; // 後はよろしく～
+st[725] = { volumetype=1, path=1, file="hik00_3011_0k", type=0, category=1}; // 翡翠ちゃん！
+st[726] = { volumetype=1, path=1, file="koh01_3065", type=0, category=1 }; // 「(翡翠)バトンタッチです (琥珀)真打ち登場！」
+// st[727] = { volumetype=1, path=1, file="koh01_3066", type=0, category=1 }; // 「(琥珀)チェーンジ！ (翡翠)選手交代です」
+
+// 必殺技 姉妹の絆・風雲編
+st[730] = { volumetype=1, path=1, file="hik00_3014_0k", type=0, category=1}; // そこよ翡翠ちゃん！
+st[731] = { volumetype=1, path=1, file="hik00_3015_0k", type=0, category=1}; // チャンスです！
+st[732] = { volumetype=1, path=1, file="hik00_3016_0k", type=0, category=1}; // やるわよ翡翠ちゃん！
+st[733] = { volumetype=1, path=1, file="koh01_3068", type=0, category=1 }; // 「(琥珀)今よ翡翠ちゃん！ (翡翠)失礼します」
+st[734] = { volumetype=1, path=1, file="koh01_3069", type=0, category=1 }; // 「(琥珀)ゴーゴー！ (翡翠)アタックです」
+st[735] = { volumetype=1, path=1, file="koh01_3070", type=0, category=1 }; // 「(琥珀)やっちゃって翡翠ちゃん！ (翡翠)承りました」
+
+// 必殺技 姉妹の絆・劇場版
+// st[740] = { volumetype=1, path=1, file="hik00_3020_0k", type=0, category=1}; // ええ、よくてよ翡翠ちゃん！
+// st[741] = { volumetype=1, path=1, file="hik00_3021_0k", type=0, category=1}; // これが（次に続く）
+// st[742] = { volumetype=1, path=1, file="hik00_3022_0k", type=0, category=1}; // 姉妹の絆です！
+// st[743] = { volumetype=1, path=1, file="hik00_3024_0k", type=0, category=1}; // はい、合わせます……！
+// st[744] = { volumetype=1, path=1, file="hik00_3026_0k", type=0, category=1}; // せーのっ
+// st[745] = { volumetype=1, path=1, file="hik00_3027_0k", type=0, category=1}; // Ｖなのです！
+
+// アークドライブ （技名：姉妹の絆・劇場編）
+// st[000] = { volumetype=1, path=1, file="koh01_3098", type=0, category=1 }; // 「（翡翠）行くわよ、姉さん！（琥珀）ええ、よくてよ翡翠ちゃん！」
+// st[000] = { volumetype=1, path=1, file="koh01_3099", type=0, category=1 }; // 「（2人）これが」
+// st[000] = { volumetype=1, path=1, file="koh01_3100", type=0, category=1 }; // 「（2人）姉妹の絆です！」
+
+// st[000] = { volumetype=1, path=1, file="koh01_3103", type=0, category=1 }; // 「（琥珀）踊りましょう、翡翠ちゃん！　（翡翠）はい、合わせます……！」
+// st[000] = { volumetype=1, path=1, file="koh01_3104", type=0, category=1 }; // 「（2人）せーのっ」
+// st[000] = { volumetype=1, path=1, file="koh01_3105", type=0, category=1 }; // 「（2人）Ｖなのです！」
+
+// st[000] = { volumetype=1, path=1, file="koh01_3108", type=0, category=1 }; // 「(翡翠)姉さん、今こそあの技を！ (琥珀)もりあがってきたー！」
+// st[000] = { volumetype=1, path=1, file="koh01_3109", type=0, category=1 }; // 「(琥珀)翡翠ちゃん、打ち合わせ通りに！ (翡翠)ここからは、本気です」
+
+
+// ダウン
+// st[750] = { volumetype=1, path=1, file="hik00_3035_0k", type=0, category=1}; // きゃあーー、翡翠ちゃーん……！
+// st[751] = { volumetype=1, path=1, file="hik00_3036_0k", type=0, category=1}; // わたしたちの負けですね……
+// st[752] = { volumetype=1, path=1, file="hik00_3037_0k", type=0, category=1}; // 安心して翡翠ちゃん、どんな怪我もすぐ治してあげるから
+
+// 遠野秋葉
+// 登場（3秒程度）
+st[780] = { volumetype=1, path=1, file=["","koh01_aki_2000"], type=0, category=1, userparam=170 }; // 「抜き打ちテストですね、秋葉さま！」
+st[781] = { volumetype=1, path=1, file=["","koh01_aki_2001"], type=0, category=1, userparam=190 }; // 「これも遠野家の平和を守るため……」
+st[782] = { volumetype=1, path=1, file=["","koh01_aki_2002"], type=0, category=1, userparam=154 }; // 「まさか……昨日のアレがバレ……」（ばれたのかな？）
+st[783] = { volumetype=1, path=1, file=["","koh01_aki_2003"], type=0, category=1, userparam=149 }; // 「志貴さんはお預かりしていませんよ？」
+
+// ラウンド勝利（3秒程度）
+st[784] = { volumetype=1, path=1, file=["","koh01_aki_2014"], type=0, category=1, userparam=220 }; // 「おやぁ、秋葉さまともあろう方が」（ドヤ）
+st[785] = { volumetype=1, path=1, file=["","koh01_aki_2015"], type=0, category=1, userparam=177 }; // 「お互い、手の内はこのように」
+ 
+// 決着勝利・汎用（3秒程度）
+st[786] = { volumetype=1, path=1, file=["","koh01_aki_2020"], type=0, category=1, userparam=239 }; // 「ふっふっふ、下克上達成です！」
+// 決着勝利・辛勝（3秒程度）
+st[787] = { volumetype=1, path=1, file=["","koh01_aki_2022"], type=0, category=1, userparam=223 }; // 「たまに本気の殺意が混ざっていたようなー……」
+// 決着勝利・楽勝（3秒程度）
+st[788] = { volumetype=1, path=1, file=["","koh01_aki_2023"], type=0, category=1, userparam=144 }; // 「たまたま、うまくいってしまったようです」
+
+
+// 対遠野志貴
+// ラウンド勝利（3秒程度）
+st[790] = { volumetype=1, path=1, file=["","","koh01_sik_2014"], type=0, category=1, userparam=112 }; // 「志貴さんの薬(やく)師(し)ですから」（ハート）
+st[791] = { volumetype=1, path=1, file=["","","koh01_sik_2015"], type=0, category=1, userparam=127 }; // 「秋葉さまには内緒ですよ」（いたずらに微笑む）
+
+// 決着勝利・汎用（3秒程度）
+st[789] = { volumetype=1, path=1, file=["","","koh00_2020"], type=0, category=1, userparam=114 }; // 惚れ直してくださいました？
+
+// 決着勝利・辛勝（3秒程度）
+st[792] = { volumetype=1, path=1, file=["","","koh01_sik_2022"], type=0, category=1, userparam=200 }; // 「私もまだまだ、観察が足りませんね……」
+// 決着勝利・楽勝（3秒程度）
+st[793] = { volumetype=1, path=1, file=["","","koh01_sik_2023"], type=0, category=1, userparam=266 }; // 「ふっふっふー！　掌の上、でございました！」
+
+
+SeList_Table.Status = SelectVoiceTable(st,tnum);//使用するテーブルを抽選して入れる

@@ -1,0 +1,461 @@
+__dofile__("./script/btl_SEDefine.txt"); //ＳＥ定数
+
+local path ="./se/normal_se/"; // ファイルパス、登録しやすいように
+local btlpath ="./se/battle_se/";
+local chrpath = btlpath +"chr015/";
+local spepath = path + "special/";
+
+SeList_Table <-
+{
+	TableNum = 3, // SEセレクトとかでのプログラム側参照用、テーブル最大値を入れておく
+	UseTable = 0, // 何番目のテーブルを使うか
+	Path = [],	// パス設定簡略化用
+	Status = [],	// 実際に再生時に使われる配列
+};
+
+SeList_Table.Path.append( path ); //Path[0]
+SeList_Table.Path.append( chrpath ); //Path[1]
+SeList_Table.Path.append( btlpath ); //Path[2]
+SeList_Table.Path.append( spepath ); //Path[3]
+
+SeList_Table.Status.resize(650); // 確保
+// local st = SeList_Table.Status; // 登録しやすいように省略
+local st = array(650,0);
+
+local tnum = SeList_Table.UseTable;
+local tblnum = SeFunc.GetParam(31);
+print("\n tblnum:"+tblnum );
+if( tblnum == -1 )
+{
+	local enemy = SeFunc.GetParam(30);
+	if( enemy == 3 )//遠野志貴
+	{
+		tnum = 1;
+	}
+	else if( enemy == 1 || enemy == 4 || enemy == 7 )//ヒスコハ
+	{
+		tnum = 2;
+	}
+	else
+	{
+		tnum = 0;
+	}
+}
+else
+{
+	// SE TESTでの指定再生時の処理
+	tnum = tblnum;
+}
+SeFunc.SetParam(31,tnum);//バトルsq参照用に値を戻す
+
+// 配列補足
+// [0]汎用, [1]志貴, [2]翡翠・琥珀・ヒスコハ
+
+//汎用エフェクトから呼ばれるので定義必須
+st[20] = { volumetype=0, type=-1, file="Move_Landing", }; // 着地
+st[42] = { volumetype=0, type=-1, file="Move_Slide", }; // 前ダッシュ
+st[44] = { volumetype=0, type=-1, file="Move_DashStop" }; // ダッシュ停止
+
+
+st[50] = { volumetype=0, path=3, type=-1, file="Cmn_TwinkleShort" }; // 弾設置
+st[51] = { volumetype=0, path=3, type=-1, file="Cmn_CrystalBrakeShort" }; // 弾爆破
+
+//LA
+st[60] = { volumetype=0, path=3, type=-1, file="Cmn_MagicTurbine" }; // 魔法陣回転
+st[61] = { volumetype=0, path=3, type=-1, file="Atk_MagicBullet" }; // 魔弾発射
+
+st[62] = { volumetype=0, path=3, type=-1, file="Cmn_HolyField" }; // 空間
+st[63] = { volumetype=0, path=3, type=-1, file="Cmn_UpperWindDances" }; // 花びらが舞う
+st[64] = { volumetype=0, path=3, type=-1, file="Cmn_Whirlwind" }; // 最初の風
+st[65] = { volumetype=0, path=3, type=-1, file="Atk_MagicBullet" }; // フィニッシュ
+st[66] = { volumetype=0, path=3, type=-1, file="Atk_Railgun" }; // 最初の発射
+
+// 登場シーン
+st[100] = { volumetype=1, path=1, file="aok00_2000", type=0, category=1, userparam=309 }; // 「なに、バトル？　うんうん、旅先はこうでないとね！」
+st[101] = { volumetype=1, path=1, file="aok00_2001", type=0, category=1, userparam=118 }; // 「ちょっとワクワクしてきたかも」
+st[102] = { volumetype=1, path=1, file="aok00_2002", type=0, category=1, userparam=83 }; // 「お手柔らかにね」
+st[103] = { volumetype=1, path=1, file="aok00_2003", type=0, category=1, userparam=316 }; // 「わたし、容赦ないけど大丈夫？　（勝ったら）根こそぎもっていくけど？」
+st[104] = { volumetype=1, path=1, file="aok00_2004", type=0, category=1, userparam=134 }; // 「そのケンカ、買いましょう！」
+st[105] = { volumetype=1, path=1, file="aok00_2005", type=0, category=1, userparam=116 }; // 「食後の運動ってね」
+
+// vsアルクェイド
+st[110] = { volumetype=1, path=1, file="aok00_2006", type=0, category=1, userparam=167 }; // 「こんなところにいていいの、お姫さま？」
+st[111] = { volumetype=1, path=1, file="aok00_2007", type=0, category=1, userparam=191 }; // 「本気でどうぞ。こっちもマックス出しましょう！」
+
+// vs志貴
+st[112] = { volumetype=1, path=1, file="aok00_2008", type=0, category=1, userparam=156 }; // 「じゃ、ちょっと手合わせ、してみよっか！」
+st[113] = { volumetype=1, path=1, file="aok00_2009", type=0, category=1, userparam=157 }; // 「先生　が　現れた！」
+st[114] = { volumetype=1, path=1, file="aok00_2010", type=0, category=1, userparam=228 }; // 「もち。百聞は一見にしかず、って言うでしょ？」
+
+// vs暴走アルクェイド
+st[115] = { volumetype=1, path=1, file="aok00_2011", type=0, category=1, userparam=151 }; // 「来なさい。相手になってあげる。」
+
+// vsロア
+st[116] = { volumetype=1, path=1, file="aok00_2012", type=0, category=1, userparam=211 }; // 「アナタ、死徒というより神学者じゃない？」
+
+// vsセイバー
+st[117] = { volumetype=1, path=1, file="aok00_2013", type=0, category=1, userparam=210 }; // 「あ、その店知ってる～！　終わったら行きましょう！」
+
+// vs秋葉
+st[118] = { volumetype=1, path=1, file="aok00_2014", type=0, category=1, userparam=202 }; // 「志貴の妹さん……え、ホントに？」
+st[119] = { volumetype=1, path=1, file="aok00_2015", type=0, category=1, userparam=160 }; // 「……この子、私と被ってない……？」
+
+// vsシエル
+st[120] = { volumetype=1, path=1, file="aok00_2020", type=0, category=1, userparam=180 }; // 「（あ。志貴から私のコト聞いてる感じね！）」
+
+// vs暴走アルクェイド
+st[121] = { volumetype=1, path=1, file="aok00_2021", type=0, category=1, userparam=258 }; // 「それはゴメン被るわ。戻ってくるの、タイヘンなのよ？」
+
+// vsマーリオゥ
+st[122] = { volumetype=1, path=1, file="aok00_2017", type=0, category=1 , userparam=180 }; // 「顔に似合わず古風な武器を使うのね。」
+st[124] = { volumetype=1, path=1, file="aok00_2019", type=0, category=1 , userparam=164 }; // 「ひとりくらい、そういうのがいてもいいでしょ？」
+
+// vs武装シエル
+st[123] = { volumetype=1, path=1, file="aok00_2018", type=0, category=1 , userparam=206 }; // 「えー。アナタも大概だと思うけど？」
+
+// 後が無くなったラウンドの開幕
+st[130] = { volumetype=1, path=1, file="aok00_2050", type=0, category=3 }; // 「ありがとう、目が覚めたわ」
+st[131] = { volumetype=1, path=1, file="aok00_2051", type=0, category=3 }; // 「やっと回路が回ってきた」
+st[132] = { volumetype=1, path=1, file="aok00_2052", type=0, category=3 }; // 「やってくれちゃって、この～！」
+
+
+// ラウンド勝利
+st[135] = { volumetype=1, path=1, file="aok00_2053", type=0, category=1, userparam=120 }; // 「一本！　なんてね！」
+st[136] = { volumetype=1, path=1, file="aok00_2054", type=0, category=1, userparam=106 }; // 「そんなものじゃないでしょう？」
+st[137] = { volumetype=1, path=1, file="aok00_2055", type=0, category=1, userparam=106 }; // 「よし、イメージ通り！」
+st[138] = { volumetype=1, path=1, file="aok00_2056", type=0, category=1, userparam=140 }; // 「お互い、油断は禁物ね？」
+
+// ラウンド勝利vs志貴
+st[140] = { volumetype=1, path=1, file="aok00_2057", type=0, category=1, userparam=144 }; // 「ごめん、ホントに蹴り飛ばしちゃった！？」
+st[141] = { volumetype=1, path=1, file="aok00_2058", type=0, category=1, userparam=139 }; // 「集中して。次、行くわよ。」
+
+
+// 決着勝利・汎用
+st[145] = { volumetype=1, path=1, file="aok00_2059", type=0, category=1, userparam=195 }; // 「んーっ！（背筋伸ばし）まだまだってトコね」
+st[146] = { volumetype=1, path=1, file="aok00_2060", type=0, category=1, userparam=102 }; // 「いい体験になったでしょう？」
+st[147] = { volumetype=1, path=1, file="aok00_2061", type=0, category=1, userparam=116 }; // 「縁があったらまた会いましょう」
+st[148] = { volumetype=1, path=1, file="aok00_2062", type=0, category=1, userparam=125 }; // 「あれ、ノックアウトしちゃった？」
+
+// 決着勝利・辛勝
+st[149] = { volumetype=1, path=1, file="aok00_2063", type=0, category=1, userparam=168 }; // 「いい内容だったわ。もう一回、する？」
+
+
+// 決着勝利・楽勝
+st[150] = { volumetype=1, path=1, file="aok00_2064", type=0, category=1, userparam=266 }; // 「準備運動で終わっちゃったかー。加減できなくて、ゴメンね？」
+
+// 決着勝利vs志貴
+st[151] = { volumetype=1, path=1, file="aok00_2065", type=0, category=1, userparam=236 }; // 「やっば、やりすぎた……！　ごめん、生きてる！？　焼き肉食べに行く！？」
+
+
+// 待機モーション　番号直指定でMVで分岐しているので注意
+st[155] = { volumetype=1, path=1, file="aok00_2068", type=0, category=1 }; // 「タービン、セット。……ラージプランは一日10回まで、にしとこっか……」
+st[156] = { volumetype=1, path=1, file="aok00_2069", type=0, category=1 }; // 「当たるも魔弾、当たらぬも魔弾……いえ、当たるまで撃つのが魔弾よね！」
+
+// タイムアップ判定負け 
+st[160] = { volumetype=1, path=1, file="aok00_2070", type=0, category=1 }; // 「様子見が過ぎたかぁ……」
+st[161] = { volumetype=1, path=1, file="aok00_2071", type=0, category=1 }; // 「判定負けとは、情けない……」
+
+// 弱攻撃
+st[170] = { volumetype=1, path=1, file="aok00_2100", type=0, category=1 }; // 「ふっ」
+st[171] = { volumetype=1, path=1, file="aok00_2101", type=0, category=1 }; // 「はっ」
+st[172] = { volumetype=1, path=1, file="aok00_2102_a", type=0, category=1 }; // 「しっ」
+st[173] = { volumetype=1, path=1, file="aok00_2100_a", type=0, category=1 }; // 「ふっ」
+st[174] = { volumetype=1, path=1, file="aok00_2101_a", type=0, category=1 }; // 「はっ」
+
+// 中攻撃
+st[175] = { volumetype=1, path=1, file="aok00_2103", type=0, category=1 }; // 「はっ！」
+st[176] = { volumetype=1, path=1, file="aok00_2104_a", type=0, category=1 }; // 「ふっ！」
+st[177] = { volumetype=1, path=1, file="aok00_2105", type=0, category=1 }; // 「どう？」
+st[178] = { volumetype=1, path=1, file="aok00_2103_a", type=0, category=1 }; // 「はっ！」
+
+st[179] = { volumetype=1, path=1, file="aok00_2104", type=0, category=1 }; // 「ふっ！」AA
+
+// 強攻撃
+st[180] = { volumetype=1, path=1, file="aok00_2106", type=0, category=1 }; // 「せい！」
+st[181] = { volumetype=1, path=1, file="aok00_2107", type=0, category=1 }; // 「てや！」
+st[182] = { volumetype=1, path=1, file="aok00_2108", type=0, category=1 }; // 「決める！」
+// st[180] = { volumetype=1, path=1, file="aok00_2106_a", type=0, category=1 }; // 「せい！」
+// st[181] = { volumetype=1, path=1, file="aok00_2107_a", type=0, category=1 }; // 「てや！」
+
+
+// 連打浮かせ攻撃
+st[185] = { volumetype=1, path=1, file="aok00_2109", type=0, category=3 }; // 「ごあんなーい♪」
+st[186] = { volumetype=1, path=1, file="aok00_2110", type=0, category=3 }; // 「ジェット！」
+st[187] = { volumetype=1, path=1, file="aok00_2111", type=0, category=3 }; // 「勝負！」
+st[188] = { volumetype=1, path=1, file="aok00_2112", type=0, category=3 }; // 「せいやっ！」
+
+// 浮かせ攻撃
+st[190] = { volumetype=1, path=1, file="aok00_2113", type=0, category=1 }; // 「はぁああー」　※ためC系で使いたい
+st[191] = { volumetype=1, path=1, file="aok00_2114", type=0, category=1 }; // 「退いて！」　　※ためC系で使いたい
+st[192] = { volumetype=1, path=1, file="aok00_2115", type=0, category=1 }; // 「いいわね！」4C
+st[193] = { volumetype=1, path=1, file="aok00_2116", type=0, category=1 }; // 「ガラ空き！」2CC
+
+// 吹き飛ばし攻撃
+st[200] = { volumetype=1, path=1, file="aok00_2120", type=0, category=1 }; // 「バリヤー！」
+// st[201] = { volumetype=1, path=1, file="aok00_2121", type=0, category=1 }; // 「パンチ！」
+st[202] = { volumetype=1, path=1, file="aok00_2122", type=0, category=1 }; // 「へー！」
+// st[203] = { volumetype=1, path=1, file="aok00_2123", type=0, category=1 }; // 「やるじゃない！」
+st[204] = { volumetype=1, path=1, file="aok00_2124", type=0, category=1 }; // 「ビンゴ！」
+st[205] = { volumetype=1, path=1, file="aok00_2125", type=0, category=1 }; // 「転べ！」2C
+st[206] = { volumetype=1, path=1, file="aok00_2126", type=0, category=1 }; // 「チャンス！」
+
+st[207] = { volumetype=1, path=1, file="aok00_2127", type=0, category=1 }; // 「そこっ！」 623B
+st[208] = { volumetype=1, path=1, file="aok00_2128", type=0, category=1 }; // 「貫通！」 
+
+// 投げ技成功
+st[240] = { volumetype=1, path=1, file="aok00_2200", type=0, category=1 }; // 「よーし！」
+st[241] = { volumetype=1, path=1, file="aok00_2201", type=0, category=1 }; // 「ぽーいっと！」
+st[242] = { volumetype=1, path=1, file="aok00_2202", type=0, category=1 }; // 「はーい、パス！」
+st[243] = { volumetype=1, path=1, file="aok00_2203", type=0, category=1 }; // 「スカッド！」
+
+// 投げ技失敗
+st[250] = { volumetype=1, path=1, file="aok00_2204", type=0, category=1 }; // 「ととっ」
+st[251] = { volumetype=1, path=1, file="aok00_2205", type=0, category=1 }; // 「あら」
+st[252] = { volumetype=1, path=1, file="aok00_2206", type=0, category=1 }; // 「逃げないのっ！」
+
+// 敵の投げ技を回避
+st[260] = { volumetype=1, path=1, file="aok00_2207", type=0, category=1, prio=Def_SEP_ThrowTech, check=1 }; // 「こうでしょ？」
+st[261] = { volumetype=1, path=1, file="aok00_2208", type=0, category=1, prio=Def_SEP_ThrowTech, check=1 }; // 「甘い甘い」
+
+// 振り向き
+st[270] = { volumetype=1, path=1, file="aok00_2300", type=0, category=1, prio=Def_SEP_Furimuki }; // 「む」
+st[271] = { volumetype=1, path=1, file="aok00_2301", type=0, category=1, prio=Def_SEP_Furimuki }; // 「そっちね」
+
+// ダッシュ
+st[290] = { volumetype=1, path=1, file="aok00_2305", type=0, category=1 }; // 「はっ！」
+st[291] = { volumetype=1, path=1, file="aok00_2306", type=0, category=1 }; // 「いくわよ～！」
+st[292] = { volumetype=1, path=1, file="aok00_2307", type=0, category=1 }; // 「よっ」
+st[293] = { volumetype=1, path=1, file="aok00_2308", type=0, category=1 }; // 「オッケー！」
+
+
+// バックステップ
+st[300] = { volumetype=1, path=1, file="aok00_2309", type=0, category=1 }; // 「こっちこっち！」
+st[301] = { volumetype=1, path=1, file="aok00_2310", type=0, category=1 }; // 「おおっと！」
+st[302] = { volumetype=1, path=1, file="aok00_2311", type=0, category=1 }; // 「ほいっと」
+
+// 弱攻撃ガード
+st[310] = { volumetype=1, path=1, file="aok00_2400", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「っと」
+st[311] = { volumetype=1, path=1, file="aok00_2401", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「ん」
+st[312] = { volumetype=1, path=1, file="aok00_2402", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「く」
+
+// 中攻撃ガード
+st[320] = { volumetype=1, path=1, file="aok00_2403", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「むっ」
+st[321] = { volumetype=1, path=1, file="aok00_2404", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「おっ」
+st[322] = { volumetype=1, path=1, file="aok00_2405", type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「うん」
+
+// 強攻撃ガード
+st[330] = { volumetype=1, path=1, file="aok00_2406", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「そうそう！（そうこなくちゃ！の意）」
+st[331] = { volumetype=1, path=1, file="aok00_2407", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「へえ、けっこう……（やるじゃん、と続く）」
+st[332] = { volumetype=1, path=1, file="aok00_2408", type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「やるぅ！」
+
+//余裕ガード
+st[340] = { volumetype=1, path=1, file="aok00_2409", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「ふふん？」
+st[341] = { volumetype=1, path=1, file="aok00_2410", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「シンプル」
+st[342] = { volumetype=1, path=1, file="aok00_2411", type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「フッ……（余裕笑い）」
+
+// ガード失敗
+st[350] = { volumetype=1, path=1, file="aok00_2412", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「あいたぁ！？」
+st[351] = { volumetype=1, path=1, file="aok00_2413", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「なんでよーー！？」
+st[352] = { volumetype=1, path=1, file="aok00_2414", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「ああもう！」
+
+// 受け身
+st[360] = { volumetype=1, path=1, file="aok00_2500", type=0, category=1, prio=Def_SEP_Recover }; // 「なんのっ♪」
+st[361] = { volumetype=1, path=1, file="aok00_2501", type=0, category=1, prio=Def_SEP_Recover }; // 「さぁーてっと♪」
+st[362] = { volumetype=1, path=1, file="aok00_2502", type=0, category=1, prio=Def_SEP_Recover }; // 「効いたぁ……（クラクラしている）」
+st[363] = { volumetype=1, path=1, file="aok00_2503", type=0, category=1, prio=Def_SEP_Recover }; // 「もういい？」
+
+// シールド発動
+st[370] = { volumetype=1, path=1, file="aok00_2504", type=0, category=1 }; // 「はっ」
+st[371] = { volumetype=1, path=1, file="aok00_2505", type=0, category=1 }; // 「ぴかーん！」
+st[372] = { volumetype=1, path=1, file="aok00_2506", type=0, category=1 }; // 「悪いわね」
+
+// シールド成功
+st[380] = { volumetype=1, path=1, file="aok00_2507", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 「ゲット♪」
+st[381] = { volumetype=1, path=1, file="aok00_2508", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 「ナイキャッチ！（ナイスキャッチ！の意）」
+st[382] = { volumetype=1, path=1, file="aok00_2509", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 「ぬるい」
+st[383] = { volumetype=1, path=1, file="aok00_2510", type=0, category=1, prio=Def_SEP_ShieldSuccess }; // 「ふるい」
+
+// シールド取って反撃
+st[390] = { volumetype=1, path=1, file="aok00_2511", type=0, category=1 }; // 「反省～☆」
+st[391] = { volumetype=1, path=1, file="aok00_2512", type=0, category=1 }; // 「クロス！（クロスカウンターの意）」
+st[392] = { volumetype=1, path=1, file="aok00_2513", type=0, category=1 }; // 「私のターン！」
+
+// シールド取って回り込んで反撃
+st[395] = { volumetype=1, path=1, file="aok00_2514", type=0, category=1 }; // 「もーらいっ！（もーらいっと！）」
+st[396] = { volumetype=1, path=1, file="aok00_2515", type=0, category=1 }; // 「丸見えよ♪」
+st[397] = { volumetype=1, path=1, file="aok00_2516", type=0, category=1 }; // 「このあたり？」
+st[398] = { volumetype=1, path=1, file="aok00_2517", type=0, category=1 }; // 「いっただきぃー！」
+
+// 弱攻撃ダメージ
+st[400] = { volumetype=1, path=1, file="aok00_2600", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「く」
+st[401] = { volumetype=1, path=1, file="aok00_2601", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「お」
+st[402] = { volumetype=1, path=1, file="aok00_2602", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「ぐっ！」
+
+// 中攻撃ダメージ
+st[410] = { volumetype=1, path=1, file="aok00_2603", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「とはっ」
+st[411] = { volumetype=1, path=1, file="aok00_2604", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「っっ！」
+st[412] = { volumetype=1, path=1, file="aok00_2605", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「チィ……！」
+
+// 強攻撃ダメージ
+st[420] = { volumetype=1, path=1, file="aok00_2606", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「うそ！？」
+st[421] = { volumetype=1, path=1, file="aok00_2607", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「いたっ……！」
+st[422] = { volumetype=1, path=1, file="aok00_2608", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「こんのぉ……！」
+
+// ダウン
+st[430] = { volumetype=1, path=1, file="aok00_2609", type=0, category=1, prio=Def_SEP_KO }; // 「ちょっとタ～～～～イム！」
+st[431] = { volumetype=1, path=1, file="aok00_2610", type=0, category=1, prio=Def_SEP_KO }; // 「いったぁ～～～い！」
+st[432] = { volumetype=1, path=1, file="aok00_2611", type=0, category=1, prio=Def_SEP_KO }; // 「甘かったかーーー！」
+
+// ダウン・ノックアウト
+st[440] = { volumetype=1, path=1, file="aok00_2612", type=0, category=1, prio=Def_SEP_KO }; // 「うーそーでーしょー！？」
+st[441] = { volumetype=1, path=1, file="aok00_2613", type=0, category=1, prio=Def_SEP_KO }; // 「やーらーれーたー！」
+
+// 起きあがり
+st[450] = { volumetype=1, path=1, file="aok00_2614", type=0, category=1 }; // 「追いつく！」
+st[451] = { volumetype=1, path=1, file="aok00_2615", type=0, category=1 }; // 「反撃、いこっか！」
+
+// 起きあがり・瀕死
+st[460] = { volumetype=1, path=1, file="aok00_2616", type=0, category=1 }; // 「逆転、しよっか！」
+
+// 本気を出す（体力一定値以下で発動）
+st[470] = { volumetype=1, path=1, file="aok00_2700", type=0, category=3 }; // 「シューティング！」
+st[471] = { volumetype=1, path=1, file="aok00_2701", type=0, category=3 }; // 「アクセル、全開！」
+
+// ゲージ溜め
+st[480] = { volumetype=1, path=1, file="aok00_2702", type=0, category=1 }; // 「第二タービン、接続……」
+st[481] = { volumetype=1, path=1, file="aok00_2703", type=0, category=1 }; // 「ひゅううう……（呼吸っぽく）」
+
+// 強制開放
+st[490] = { volumetype=1, path=1, file="aok00_2704", type=0, category=3 }; // 「ツアープラン、ブレーザー！」
+st[491] = { volumetype=1, path=1, file="aok00_2705", type=0, category=3 }; // 「火星までぶっ飛ばす！」
+st[492] = { volumetype=1, path=1, file="aok00_2706", type=0, category=3 }; // 「いい度胸ね！」
+// st[493] = { volumetype=1, path=1, file="aok00_2707", type=0, category=3 }; // 「さあ、どこに行きたい？」
+
+// 必殺技 ブロウニング・スターマイン(236)
+st[500] = { volumetype=1, path=1, file="aok00_3001", type=0, category=1 }; // 「そこ！」
+st[501] = { volumetype=1, path=1, file="aok00_3002", type=0, category=1 }; // 「ばん！（発砲音）」
+st[502] = { volumetype=1, path=1, file="aok00_3003", type=0, category=1 }; // 「ぴぴっ♪」
+
+st[503] = { volumetype=1, path=1, file="aok00_3004", type=0, category=1 }; // 「びーむ♪」
+st[504] = { volumetype=1, path=1, file="aok00_3004_a", type=0, category=1 }; // 「びーむ♪（BE用）」
+
+// 必殺技 ブロウニング・スターマインEX(236C)
+st[505] = { volumetype=1, path=1, file="aok00_3007", type=0, category=1 }; // 「大きいの、好きでしょ！？」
+st[506] = { volumetype=1, path=1, file="aok00_3008", type=0, category=1 }; // 「プチ本気、出しましょう！」
+st[507] = { volumetype=1, path=1, file="aok00_3009", type=0, category=1 }; // 「容赦？　忘れた！」
+
+// 必殺技 ブロウニング・スターマイン 追加技1(236追加)
+st[510] = { volumetype=1, path=1, file="aok00_3012", type=0, category=1 }; // 「そりゃ！」
+st[511] = { volumetype=1, path=1, file="aok00_3013", type=0, category=1 }; // 「ばばん！（発砲音）」
+st[512] = { volumetype=1, path=1, file="aok00_3014", type=0, category=1 }; // 「本命っ！」
+st[513] = { volumetype=1, path=1, file="aok00_3015", type=0, category=1 }; // 「どうよ！」
+// 必殺技 ブロウニング・スターマイン 追加技2(236追加2)
+st[515] = { volumetype=1, path=1, file="aok00_3017", type=0, category=1 }; // 「ってえーー！（撃て）」
+st[516] = { volumetype=1, path=1, file="aok00_3018", type=0, category=1 }; // 「ついでにこれもね！」
+st[517] = { volumetype=1, path=1, file="aok00_3019", type=0, category=1 }; // 「きっもちいぃーー！」
+st[518] = { volumetype=1, path=1, file="aok00_3020", type=0, category=1 }; // 「魔弾、大セール！」
+  
+// 必殺技 フローティング・スターマイン(214)
+st[520] = { volumetype=1, path=1, file="aok00_3023", type=0, category=1 }; // 「ほい」
+st[521] = { volumetype=1, path=1, file="aok00_3024", type=0, category=1 }; // 「はい」
+st[522] = { volumetype=1, path=1, file="aok00_3025", type=0, category=1 }; // 「すすっ……（そっと、バレないように罠を設置）」
+st[523] = { volumetype=1, path=1, file="aok00_3026", type=0, category=1 }; // 「まあまあ（まあまあ、いいじゃない、の意で）」
+// 必殺技 フローティング・スターマインEX(214C)
+st[525] = { volumetype=1, path=1, file="aok00_3028", type=0, category=1 }; // 「ちょっとおっきいわよ？」
+st[526] = { volumetype=1, path=1, file="aok00_3029", type=0, category=1 }; // 「うまくかわせる？」
+st[527] = { volumetype=1, path=1, file="aok00_3030", type=0, category=1 }; // 「プラン、パルサー！」
+st[528] = { volumetype=1, path=1, file="aok00_3031", type=0, category=1 }; // 「趣味じゃないけど、ね！」
+// 必殺技 フローティング・スターマイン（空中）EX(J214C)
+st[530] = { volumetype=1, path=1, file="aok00_3033", type=0, category=1 }; // 「制空権、いただき！」
+st[531] = { volumetype=1, path=1, file="aok00_3034", type=0, category=1 }; // 「青子トラーーーップ！」
+st[532] = { volumetype=1, path=1, file="aok00_3035", type=0, category=1 }; // 「準備オッケー！」
+
+// 必殺技 フローティング・スターマイン（瞬間移動）(421)
+st[540] = { volumetype=1, path=1, file="aok00_3038", type=0, category=1 }; // 「驚いた？」
+st[541] = { volumetype=1, path=1, file="aok00_3039", type=0, category=1 }; // 「そこ」
+st[542] = { volumetype=1, path=1, file="aok00_3040", type=0, category=1 }; // 「見える？」
+st[543] = { volumetype=1, path=1, file="aok00_3041", type=0, category=1 }; // 「ルックバック！」
+
+// 必殺技 ブレイジング・スターマイン(22)
+st[550] = { volumetype=1, path=1, file="aok00_3043", type=0, category=1 }; // 「ブレイズ！」
+st[551] = { volumetype=1, path=1, file="aok00_3044", type=0, category=1 }; // 「よいしょっ！」
+st[552] = { volumetype=1, path=1, file="aok00_3045", type=0, category=1 }; // 「スマッシュ！」
+st[553] = { volumetype=1, path=1, file="aok00_3046", type=0, category=1 }; // 「ふふーん♪」
+// 必殺技 ブレイジング・スターマインEX(22C)
+st[555] = { volumetype=1, path=1, file="aok00_3048", type=0, category=1 }; // 「薙ぎ払え……！」
+st[556] = { volumetype=1, path=1, file="aok00_3049", type=0, category=1 }; // 「アースライト、ブレイジング！」
+st[557] = { volumetype=1, path=1, file="aok00_3050", type=0, category=1 }; // 「蹴り上げるっ！」
+
+// 必殺技 レイニング・スターマイン(J236)
+st[560] = { volumetype=1, path=1, file="aok00_3052", type=0, category=1 }; // 「そこか！」
+st[561] = { volumetype=1, path=1, file="aok00_3053", type=0, category=1 }; // 「落とす！」
+st[562] = { volumetype=1, path=1, file="aok00_3054", type=0, category=1 }; // 「クラック！」
+st[563] = { volumetype=1, path=1, file="aok00_3055", type=0, category=1 }; // 「しっつれーい！」
+// 必殺技 レイニング・スターマインEX(J236EX)
+st[565] = { volumetype=1, path=1, file="aok00_3057", type=0, category=1 }; // 「頭上、大注意！」
+st[566] = { volumetype=1, path=1, file="aok00_3058", type=0, category=1 }; // 「プラン、メテオライト！」
+st[567] = { volumetype=1, path=1, file="aok00_3059", type=0, category=1 }; // 「悪いけど、手遅れね！」
+
+// 必殺技 ブロウニング・スターボゥ
+st[570] = { volumetype=1, path=1, file="aok00_3061", type=0, category=1 }; // 「やりますか！」
+st[571] = { volumetype=1, path=1, file="aok00_3062", type=0, category=1 }; // 「ほらほら！」
+st[572] = { volumetype=1, path=1, file="aok00_3063", type=0, category=1 }; // 「ミラー、展開！」
+// 必殺技 ブロウニング・スターボゥEX
+st[575] = { volumetype=1, path=1, file="aok00_3065", type=0, category=1 }; // 「光り巻け……！」
+st[576] = { volumetype=1, path=1, file="aok00_3066", type=0, category=1 }; // 「このあたりで、さよならね！」
+st[577] = { volumetype=1, path=1, file="aok00_3067", type=0, category=1 }; // 「ボルテクス！」
+// 必殺技 蹴り飛ばすわよー(623)
+st[580] = { volumetype=1, path=1, file="aok00_3069", type=0, category=1 }; // 「はぁぁーーーあ！」
+// st[581] = { volumetype=1, path=1, file="aok00_3070", type=0, category=1 }; // 「その時に！！（→考える！　に続く）」
+st[582] = { volumetype=1, path=1, file="aok00_3071", type=0, category=1 }; // 「いいじゃない！」
+// 必殺技 蹴り飛ばすわよー派生蹴り上げ
+st[585] = { volumetype=1, path=1, file="aok00_3074", type=0, category=1 }; // 「ほいさー！」
+// st[586] = { volumetype=1, path=1, file="aok00_3075", type=0, category=1 }; // 「考える！！」
+st[587] = { volumetype=1, path=1, file="aok00_3076", type=0, category=1 }; // 「のってきたー！」
+// 必殺技 蹴り飛ばすわよーEX
+st[590] = { volumetype=1, path=1, file="aok00_3079", type=0, category=1 }; // 「……いっとく？」
+st[591] = { volumetype=1, path=1, file="aok00_3080", type=0, category=1 }; // 「記憶を失え！」
+st[592] = { volumetype=1, path=1, file="aok00_3081", type=0, category=1 }; // 「タービュランス！」
+// 必殺技 青子ワンツースリー
+st[600] = { volumetype=1, path=1, file="aok00_3083_s0", type=0, category=1 }; // 「ふっ……はっ……きまり！」
+st[601] = { volumetype=1, path=1, file="aok00_3083_s1", type=0, category=1 }; // 「ふっ……はっ……きまり！」
+st[602] = { volumetype=1, path=1, file="aok00_3083_s2", type=0, category=1 }; // 「ふっ……はっ……きまり！」
+
+st[603] = { volumetype=1, path=1, file="aok00_3084_s0", type=0, category=1 }; // 「ワン、ツー、フィニッシュ！」
+st[604] = { volumetype=1, path=1, file="aok00_3084_s1", type=0, category=1 }; // 「ワン、ツー、フィニッシュ！」
+st[605] = { volumetype=1, path=1, file="aok00_3084_s2", type=0, category=1 }; // 「ワン、ツー、フィニッシュ！」
+
+// 必殺技 青子ワンツースリー追加技
+st[606] = { volumetype=1, path=1, file="aok00_3086", type=0, category=1 }; // 「おまけ！」
+st[607] = { volumetype=1, path=1, file="aok00_3087", type=0, category=1 }; // 「と思ったか！」
+
+// アークドライブ
+st[610] = { volumetype=1, path=1, file="aok00_3101_s0", type=0, category=1 }; // 「行くわよ、ふっ、はっ、らーーーーー！」
+st[611] = { volumetype=1, path=1, file="aok00_3101_s1", type=0, category=1 }; // 「行くわよ、ふっ、はっ、らーーーーー！」
+st[612] = { volumetype=1, path=1, file="aok00_3101_s2", type=0, category=1 }; // 「行くわよ、ふっ、はっ、らーーーーー！」
+st[613] = { volumetype=1, path=1, file="aok00_3101_s3", type=0, category=1 }; // 「行くわよ、ふっ、はっ、らーーーーー！」
+
+st[614] = { volumetype=1, path=1, file="aok00_3102_s0", type=0, category=1 }; // 「スヴィア、ブレイク、スライダー……！」
+st[615] = { volumetype=1, path=1, file="aok00_3102_s1", type=0, category=1 }; // 「スヴィア、ブレイク、スライダー……！」
+st[616] = { volumetype=1, path=1, file="aok00_3102_s2", type=0, category=1 }; // 「スヴィア、ブレイク、スライダー……！」
+
+st[617] = { volumetype=1, path=1, file="aok00_3103_s0", type=0, category=1 }; // 「今ね！　作って、回して、ぶち砕く！」
+st[618] = { volumetype=1, path=1, file="aok00_3103_s1", type=0, category=1 }; // 「今ね！　作って、回して、ぶち砕く！」
+st[619] = { volumetype=1, path=1, file="aok00_3103_s2", type=0, category=1 }; // 「今ね！　作って、回して、ぶち砕く！」
+st[620] = { volumetype=1, path=1, file="aok00_3103_s3", type=0, category=1 }; // 「今ね！　作って、回して、ぶち砕く！」
+
+// ラストアーク
+st[630] = { volumetype=1, path=1, file="aok00_3111", type=0, category=1 }; // 「セット―――タイムレス・ワーズ（次に続く）」
+st[631] = { volumetype=1, path=1, file="aok00_3112_s0", type=0, category=1 }; // 「彼方の彼方までいってこい！ 逆行銀河、創世光年！」
+st[632] = { volumetype=1, path=1, file="aok00_3112_s1", type=0, category=1 }; // 「彼方の彼方までいってこい！ 逆行銀河、創世光年！」
+
+st[633] = { volumetype=1, path=1, file="aok00_3115", type=0, category=1 }; // 「最後の魔法を見せてあげる（次に続く）」
+st[634] = { volumetype=1, path=1, file="aok00_3116_s0", type=0, category=1 }; // 「これが私の、ビッグ・リップ！　……なんてね！」
+st[635] = { volumetype=1, path=1, file="aok00_3116_s1", type=0, category=1 }; // 「これが私の、ビッグ・リップ！　……なんてね！」
+st[636] = { volumetype=1, path=1, file="aok00_3116_s2", type=0, category=1 }; // 「これが私の、ビッグ・リップ！　……なんてね！」
+
+
+
+
+
+SeList_Table.Status = SelectVoiceTable(st,tnum);//使用するテーブルを抽選して入れる

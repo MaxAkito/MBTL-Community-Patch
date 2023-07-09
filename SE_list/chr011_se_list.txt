@@ -1,0 +1,560 @@
+__dofile__("./script/btl_SEDefine.txt"); //ＳＥ定数
+
+local path = "./se/normal_se/"; // ファイルパス、登録しやすいように
+local btlpath = "./se/battle_se/";
+local chrpath = btlpath + "chr011/";
+local spepath = path + "special/";
+
+SeList_Table <-
+{
+	TableNum = 4, // SEセレクトとかでのプログラム側参照用、テーブル最大値を入れておく
+	UseTable = 0, // 何番目のテーブルを使うか
+	Path = [],	// パス設定簡略化用
+	Status = [],	// 実際に再生時に使われる配列
+};
+
+SeList_Table.Path.append( path ); //Path[0]
+SeList_Table.Path.append( chrpath ); //Path[1]
+SeList_Table.Path.append( btlpath ); //Path[2]
+SeList_Table.Path.append( spepath ); //Path[3]
+
+SeList_Table.Status.resize(810); // 確保
+// local st = SeList_Table.Status; // 登録しやすいように省略
+local st = array(810,0);
+
+local tnum = SeList_Table.UseTable;
+local tblnum = SeFunc.GetParam(31);
+// print("\n ★★tblnum:"+tblnum );
+if( tblnum == -1 )
+{
+	local enemy = SeFunc.GetParam(30);
+	if( enemy == 8 || enemy == 5 || enemy == 9 || enemy == 14 ) //ノエル、吸血鬼（ロア、ヴローヴ、死徒ノエル）
+	{
+		tnum = 1;
+	}
+	else if( enemy == 3 ) //遠野志貴
+	{
+		tnum = 2;
+	}
+	else if( enemy == 0 || enemy == 10 ) //アルク・暴走アルク
+	{
+		tnum = 3;
+	}
+	else
+	{
+		tnum = 0;
+	}
+}
+else
+{
+	// SE TESTでの指定再生時の処理
+	tnum = tblnum;
+}
+SeFunc.SetParam(31,tnum);//バトルsq参照用に値を戻す
+
+// print("\n ★★tblnum:"+tblnum );
+
+// 配列補足
+// [0]汎用, [1]ノエル＋吸血鬼(ロア・ヴローヴ), [2]志貴, [3]アルク
+
+//汎用エフェクトから呼ばれるので定義必須
+st[20] = {  volumetype=0, type=-1, file="Move_Landing", }; // 着地
+st[42] = {  volumetype=0, type=-1, file="Move_Slide", }; // 前ダッシュ
+st[44] = {  volumetype=0, type=-1, file="Move_DashStop"     }; // ダッシュ停止
+
+// 固有SE
+st[ 50] = { volumetype=0, path=3, type=-1, file="Atk_MetalNoise" }; // 蛇腹剣を分解する音
+st[ 51] = { volumetype=0, path=3, type=-1, file="Atk_SwordSwingA" }; // 蛇腹剣を振り回す音
+
+st[ 52] = { volumetype=0, path=3, type=-1, file="Atk_MetalDocking" }; // 分割した蛇腹剣を合体させる音
+st[ 53] = { volumetype=0, path=3, type=-1, file="Atk_SwordSwingB" }; // 蛇腹剣を大きく振り回す音
+st[ 54] = { volumetype=0, path=3, type=-1, file="Cmn_LandBreak" }; // 地面を破壊しながら攻撃する音
+
+
+st[ 55] = { volumetype=0, path=3, type=-1, file="Atk_MetalConflict" }; // 重い金属の機械を地面に置く音
+st[ 56] = { volumetype=0, path=3, type=-1, file="Cmn_Debris" }; // ガラガラと岩や石が転がる音
+st[ 57] = { volumetype=0, path=3, type=-1, file="Cmn_Ivy" }; // 弩弓から聖樹（赤いパーツ）が一瞬で伸びる音
+st[ 58] = { volumetype=0, path=3, type=-1, file="Cmn_Rubbing" }; // 聖樹と弩弓に布が巻き付く衣擦れの音
+st[ 59] = { volumetype=0, path=3, type=-1, file="Cmn_Whirlwind" }; // キャラクターの周りで風が吹き荒れる音
+st[ 60] = { volumetype=0, path=3, type=-1, file="Cmn_MagicCharge" }; // 渾身の一撃を放つ前に魔力を溜める時の音（弓の弦が出現する）
+
+st[ 61] = { volumetype=0, path=3, type=-1, file="Atk_ShotCrossbow" }; // 弩弓から矢を発射する音
+st[ 62] = { volumetype=0, path=3, type=-1, file="Atk_Railgun" }; // 電荷を帯びた矢が空を裂いて飛ぶ音
+st[ 63] = { volumetype=0, path=3, type=-1, file="Atk_WindNoise" }; // 撃ち出した矢の風切音
+st[ 64] = { volumetype=0, path=3, type=-1, file="Hit_Penetrate" }; // 矢がヒットして貫通する音
+st[ 65] = { volumetype=0, path=3, type=-1, file="Cmn_FlashBang" }; // 強烈な光が一気に広がる音
+
+st[ 70] = { volumetype=0, path=3, type=-1, file="Cmn_ShortHolyPow" }; // 法衣生成
+
+// 登場シーン
+st[100] = { volumetype=1, path=1, file="cie00_2000", type=0, category=1, userparam=95 }; // 「懺悔は済みましたか？」
+st[101] = { volumetype=1, path=1, file="cie00_2001", type=0, category=1, userparam=125 }; // 「食後の運動といきますか」
+st[102] = { volumetype=1, path=1, file="cie00_2002", type=0, category=1, userparam=150 }; // 「その魂、煉獄に送ります」
+st[103] = { volumetype=1, path=1, file="cie00_2003", type=0, category=1, userparam=176 }; // 「さて、どう片付けたものでしょうか……」
+// vs暴走アルクェイド
+st[104] = { volumetype=1, path=1, file="cie00_2005", type=0, category=1, userparam=229 }; // 「（対暴走アルク） その前に、その茹だった頭をたたき割りましょう」
+// vsヴローヴ
+st[105] = { volumetype=1, path=1, file="cie00_2006", type=0, category=1, userparam=231 }; // 「（対ヴローヴ） ……あいにく、第七聖典は安い武器ではありませんので。」
+// vs遠野志貴
+st[106] = { volumetype=1, path=1, file="cie00_2009", type=0, category=1, userparam=253 }; // 「（対志貴） 深夜の徘徊は感心できません！
+// ロア
+st[107] = { volumetype=1, path=1, file="cie00_2010", type=0, category=1, userparam=188 }; // 「（対ロア） 転生の終焉です、アカシャの蛇」
+
+// 後が無くなったラウンドの開幕
+st[110] = { volumetype=1, path=1, file=["cie00_2011","cie00_2011","cie01_sik_2011","cie01_arc_2011"], type=0, category=3, userparam=98 }; // 「目が覚めました。」
+st[111] = { volumetype=1, path=1, file=["cie00_2012","cie00_2012","cie01_sik_2012","cie01_arc_2012"], type=0, category=3, userparam=151 }; // 「予想より動ける相手のようですね」
+st[112] = { volumetype=1, path=1, file=["cie00_2013","cie00_2013","cie01_sik_2013","cie01_arc_2013"], type=0, category=3, userparam=119 }; // 「では、ここからが本番です」
+
+// 登場２
+st[113] = { volumetype=1, path=1, file="cie01_2000", type=0, category=1, userparam=92 }; // 「裁きの時間です」
+st[114] = { volumetype=1, path=1, file="cie01_2001", type=0, category=1, userparam=144}; // 「食事の前の運動と行きますか」
+
+// ラウンド勝利
+st[120] = { volumetype=1, path=1, file="cie00_2014", type=0, category=1, userparam=136 }; // 「逃げるなら逃げちゃって下さいねー」
+st[121] = { volumetype=1, path=1, file="cie00_2015", type=0, category=1, userparam=133 }; // 「ふむ、こんなところですか」
+st[122] = { volumetype=1, path=1, file="cie00_2016", type=0, category=1, userparam=75  }; // 「まだやりますか？」
+st[123] = { volumetype=1, path=1, file="cie00_2017", type=0, category=1, userparam=170 }; // 「ふわ～ぁ……おっと、失礼。」
+
+// 決着勝利・汎用
+st[130] = { volumetype=1, path=1, file="cie00_2020", type=0, category=1, userparam=212 }; // 「貴方の罪は、貴方の命で調停します」
+st[131] = { volumetype=1, path=1, file="cie00_2021", type=0, category=1, userparam=188 }; // 「なーんて、ちょっと脅かしただけですよ？」
+
+// 決着勝利・辛勝
+st[132] = { volumetype=1, path=1, file="cie00_2022", type=0, category=1, userparam=182 }; // 「まったく、手間をかけさせるんですから」
+
+// 決着勝利・楽勝
+st[133] = { volumetype=1, path=1, file="cie00_2023", type=0, category=1, userparam=288 }; // 「まったく、ナンですか。ルーをつけるまでもありませんでした。」
+
+// 決着勝利・汎用（3秒程度）
+st[136] = { volumetype=1, path=1, file="cie01_2020", type=0, category=1, userparam=218 }; // 「さて……後処理は司祭代行に任せますか」
+st[137] = { volumetype=1, path=1, file="cie01_2021", type=0, category=1, userparam=216 }; // 「はい、おしまいです！ 次は気を付けてくださいね」
+
+
+// 待機モーション
+st[140] = { volumetype=1, path=1, file=["cie00_2025","cie00_2025","cie01_sik_2025","cie01_arc_2025"], type=0, category=1, userparam=118 }; // 「……無駄の多い敵ですね」
+st[141] = { volumetype=1, path=1, file=["cie00_2026","cie00_2026","cie01_sik_2026","cie01_arc_2026"], type=0, category=1, userparam=93 }; // 「そろそろ仕留めます」
+
+// タイムアップ判定負け
+st[150] = { volumetype=1, path=1, file=["cie00_2027","cie00_2027","cie00_2027","cie01_arc_2027"], type=0, category=1, userparam=246 }; // 「時間ぎれ……だから、早起きは苦手だと……」
+st[151] = { volumetype=1, path=1, file=["cie00_2028","cie00_2028","cie00_2028","cie01_arc_2028"], type=0, category=1, userparam=105 }; // 「次はありませんので！」
+
+// cie00_2101_b
+// cie00_2102_b
+// cie00_2103_b
+// cie00_2105_b
+// cie00_2106_b
+// cie00_2107_b
+
+// 弱攻撃
+st[160] = { volumetype=1, path=1, file="cie00_2100_a", type=0, category=1}; // 「ふっ」
+st[161] = { volumetype=1, path=1, file="cie00_2101_a", type=0, category=1}; // 「はっ」
+st[162] = { volumetype=1, path=1, file="cie00_2102_a", type=0, category=1}; // 「たっ」
+st[163] = { volumetype=1, path=1, file="cie00_2100_b", type=0, category=1}; // 「ふっ」
+
+// 中攻撃
+st[165] = { volumetype=1, path=1, file="cie00_2103_a", type=0, category=1}; // 「えいっ」
+st[166] = { volumetype=1, path=1, file="cie00_2104_a", type=0, category=1}; // 「やっ」
+st[167] = { volumetype=1, path=1, file="cie00_2105_a", type=0, category=1}; // 「よっ」
+st[168] = { volumetype=1, path=1, file="cie00_2104_b", type=0, category=1}; // 「やっ」
+
+// 強攻撃
+st[170] = { volumetype=1, path=1, file="cie00_2106_a", type=0, category=1}; // 「はっ」
+st[171] = { volumetype=1, path=1, file="cie00_2107_a", type=0, category=1}; // 「じゃっ」
+st[172] = { volumetype=1, path=1, file="cie00_2108_a", type=0, category=1}; // 「せいっ」
+st[173] = { volumetype=1, path=1, file="cie00_2108_b", type=0, category=1}; // 「せいっ」
+
+// 浮かせ攻撃
+st[180] = { volumetype=1, path=1, file=["cie00_2109","cie01_noe_2109","cie01_sik_2109","cie01_arc_2109"], type=0, category=3}; // 「痛いですよ～」
+st[182] = { volumetype=1, path=1, file=["cie00_2113","cie01_noe_2113","cie01_sik_2113","cie01_arc_2113"], type=0, category=3}; // 「軟弱ものっ！」
+st[183] = { volumetype=1, path=1, file=["cie00_2114","cie01_noe_2114","cie01_sik_2114","cie01_arc_2114"], type=0, category=3}; // 「いきます」
+
+
+// 浮かせ攻撃
+st[184] = { volumetype=1, path=1, file=["cie00_2112","cie01_noe_2112"], type=0, category=1}; // 「フン！」
+
+// タメC
+st[185] = { volumetype=1, path=1, file=["cie00_2110","cie01_noe_2110"], type=0, category=1}; // 「はぁーっ」
+st[186] = { volumetype=1, path=1, file=["cie00_2111","cie01_noe_2111"], type=0, category=1}; // 「どん！」　かわいい感じあり
+
+// 吹き飛ばし攻撃
+st[192] = { volumetype=1, path=1, file="cie00_2115", type=0, category=1}; // 「壁！（壁までフッ飛ばす、の意で）」
+st[193] = { volumetype=1, path=1, file=["cie00_2116","cie01_noe_2116","cie01_sik_2116","cie01_arc_2116"], type=0, category=1}; // 「反省！」
+
+// 上からの攻撃
+st[200] = { volumetype=1, path=1, file=["cie00_2117","cie01_noe_2117"], type=0, category=1}; // 「えい、やっ！」
+st[201] = { volumetype=1, path=1, file=["cie00_2118","cie01_noe_2118"], type=0, category=1}; // 「ひゅっ！」
+
+// 下からの攻撃
+st[210] = { volumetype=1, path=1, file=["cie00_2119","cie01_noe_2119"], type=0, category=1}; // 「カポエラ！」
+st[211] = { volumetype=1, path=1, file=["cie00_2120","cie01_noe_2120","cie01_sik_2120","cie01_arc_2120"], type=0, category=1}; // 「すくう…！（あしもとを）」
+
+// 回避困難な攻撃
+st[220] = { volumetype=1, path=1, file=["cie00_2121","cie01_noe_2121","cie01_sik_2121","cie01_arc_2121"], type=0, category=1}; // 「せーのっ！」
+st[221] = { volumetype=1, path=1, file=["cie00_2122","cie01_noe_2122","cie01_sik_2122","cie01_arc_2122"], type=0, category=1}; // 「（そこ、）動かない！」
+st[222] = { volumetype=1, path=1, file=["cie00_2123","cie01_noe_2123","cie01_sik_2123","cie01_arc_2123"], type=0, category=1}; // 「そこです！」
+
+// その他特殊攻撃
+st[230] = { volumetype=1, path=1, file=["cie00_2124","cie01_noe_2124","cie01_sik_2124","cie01_arc_2124"], type=0, category=1}; // 「必中！」
+st[231] = { volumetype=1, path=1, file=["cie00_2125","cie01_noe_2125","cie01_sik_2125","cie01_arc_2125"], type=0, category=1}; // 「思い知りなさい！」
+st[232] = { volumetype=1, path=1, file=["cie00_2126","cie01_noe_2126","cie01_sik_2126","cie01_arc_2126"], type=0, category=1}; // 「せい、はっ！」
+st[233] = { volumetype=1, path=1, file=["cie00_2127","cie01_noe_2127","cie01_sik_2127","cie01_arc_2127"], type=0, category=1}; // 「重いですよ～」
+st[234] = { volumetype=1, path=1, file=["cie00_2128","cie01_noe_2128","cie01_sik_2128","cie01_arc_2128"], type=0, category=1}; // 「落とす！」
+
+// 投げ技成功
+st[240] = { volumetype=1, path=1, file="cie00_2200", type=0, category=1}; // 「せいっ」
+st[241] = { volumetype=1, path=1, file="cie00_2201", type=0, category=1}; // 「はっ」
+st[242] = { volumetype=1, path=1, file=["cie00_2202","cie01_noe_2202","cie01_sik_2202","cie01_arc_2202"], type=0, category=1}; // 「キャリバー！」
+st[243] = { volumetype=1, path=1, file=["cie00_2203","cie01_noe_2203","cie01_sik_2203","cie01_arc_2203"], type=0, category=1}; // 「ぽぽーいっと」
+
+// 投げ技失敗
+st[250] = { volumetype=1, path=1, file="cie00_2204", type=0, category=1}; // 「あらら」
+st[251] = { volumetype=1, path=1, file="cie00_2205", type=0, category=1}; // 「おっと」
+
+
+// 敵の投げ技を回避
+st[260] = { volumetype=1, path=1, file="cie00_2207", type=0, category=1, prio=Def_SEP_ThrowTech, check=1}; // 「ふっ」
+st[261] = { volumetype=1, path=1, file="cie00_2208", type=0, category=1, prio=Def_SEP_ThrowTech, check=1}; // 「そこです」
+
+// 振り向き
+st[270] = { volumetype=1, path=1, file="cie00_2300", type=0, category=1, prio=Def_SEP_Furimuki,}; // 「そちらです」
+st[271] = { volumetype=1, path=1, file="cie00_2301", type=0, category=1, prio=Def_SEP_Furimuki,}; // 「ふん」
+
+// ジャンプ
+st[280] = { volumetype=1, path=1, file="cie00_2302", type=0, category=1, }; // 「よっ」
+st[281] = { volumetype=1, path=1, file="cie00_2303", type=0, category=1, }; // 「ほっ」
+st[282] = { volumetype=1, path=1, file="cie00_2304", type=0, category=1, }; // 「たっ」
+
+// ダッシュ
+st[290] = { volumetype=1, path=1, file="cie00_2305", type=0, category=1}; // 「はっ」
+st[291] = { volumetype=1, path=1, file="cie00_2306", type=0, category=1}; // 「ふっ」
+st[292] = { volumetype=1, path=1, file="cie00_2307", type=0, category=1}; // 「それ」
+st[293] = { volumetype=1, path=1, file="cie00_2308", type=0, category=1}; // 「しゃっ……！」
+
+// バックステップ
+st[300] = { volumetype=1, path=1, file="cie00_2309", type=0, category=1}; // 「はっ」
+st[301] = { volumetype=1, path=1, file="cie00_2310", type=0, category=1}; // 「おっと」
+st[302] = { volumetype=1, path=1, file="cie00_2311", type=0, category=1}; // 「よっ」
+
+// 弱攻撃ガード
+st[310] = { volumetype=1, path=1, file="cie00_2400", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「ふっ」
+st[311] = { volumetype=1, path=1, file="cie00_2401", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「さて」
+st[312] = { volumetype=1, path=1, file="cie00_2402", type=0, category=1, prio=Def_SEP_GuardLv1, check=1 }; // 「はぁ（ため息）」
+
+// 中攻撃ガード
+st[320] = { volumetype=1, path=1, file=["cie00_2403","cie01_noe_2403","cie01_sik_2403","cie01_arc_2403"], type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「嫌な性格です」
+st[321] = { volumetype=1, path=1, file=["cie00_2404","cie01_noe_2404","cie01_sik_2404","cie01_arc_2404"], type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「軽いのでは？」
+st[322] = { volumetype=1, path=1, file=["cie00_2405","cie01_noe_2405","cie01_sik_2405","cie01_arc_2405"], type=0, category=1, prio=Def_SEP_GuardLv2, check=1 }; // 「効きません」
+
+// 強攻撃ガード
+st[330] = { volumetype=1, path=1, file=["cie00_2406","cie01_noe_2406","cie01_sik_2406","cie01_arc_2406"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「まだまだ」
+st[331] = { volumetype=1, path=1, file=["cie00_2407","cie01_noe_2407","cie01_sik_2407","cie01_arc_2407"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「これしき」
+st[332] = { volumetype=1, path=1, file=["cie00_2408","cie01_noe_2408","cie01_sik_2408","cie01_arc_2408"], type=0, category=1, prio=Def_SEP_GuardLv3, check=1 }; // 「偉い偉い（余裕から相手をほめている。）」
+
+//余裕ガード
+st[340] = { volumetype=1, path=1, file=["cie00_2409","cie01_noe_2409","cie01_sik_2409","cie01_arc_2409"], type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「無駄です」
+st[341] = { volumetype=1, path=1, file=["cie00_2410","cie01_noe_2410","cie01_sik_2410","cie01_arc_2410"], type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「甘いです」
+st[342] = { volumetype=1, path=1, file=["cie00_2411","cie01_noe_2411","cie01_sik_2411","cie01_arc_2411"], type=0, category=1, prio=Def_SEP_NiceGuard, check=1 }; // 「みえみえですよ」
+
+// ガード失敗
+st[350] = { volumetype=1, path=1, file=["cie00_2412","cie01_noe_2412"], type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「むっ！」
+st[351] = { volumetype=1, path=1, file=["cie00_2413","cie01_noe_2413"], type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「辛口！？」
+st[352] = { volumetype=1, path=1, file="cie00_2414", type=0, category=1, prio=Def_SEP_GuardMiss, check=1 }; // 「おっと！」
+
+// 受け身
+st[360] = { volumetype=1, path=1, file=["cie00_2500","cie01_noe_2500","cie01_sik_2500"], type=0, category=1, prio=Def_SEP_Recover}; // 「危ないっと」
+st[361] = { volumetype=1, path=1, file=["cie00_2501","cie01_noe_2501","cie01_sik_2501"], type=0, category=1, prio=Def_SEP_Recover}; // 「甘口ですね」
+st[362] = { volumetype=1, path=1, file=["cie00_2502","cie00_2502","cie01_sik_2502"], type=0, category=1, prio=Def_SEP_Recover}; // 「終わりですか？」
+st[363] = { volumetype=1, path=1, file=["cie00_2503","cie00_2503","cie01_sik_2503"], type=0, category=1, prio=Def_SEP_Recover}; // 「痛いじゃないですか」
+
+// シールド発動
+st[370] = { volumetype=1, path=1, file="cie00_2504", type=0, category=1}; // 「はっ」
+st[371] = { volumetype=1, path=1, file="cie00_2505", type=0, category=1}; // 「ひょいっ」
+
+
+// シールド成功
+st[380] = { volumetype=1, path=1, file="cie00_2507", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 「甘い」
+st[381] = { volumetype=1, path=1, file="cie00_2508", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 「ぬん！」
+st[382] = { volumetype=1, path=1, file="cie00_2509", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 「弱い！」
+st[383] = { volumetype=1, path=1, file="cie00_2510", type=0, category=1, prio=Def_SEP_ShieldSuccess}; // 「そこっ！」
+
+// シールド取って反撃
+st[390] = { volumetype=1, path=1, file=["cie00_2511","cie00_2511","cie01_sik_2511"], type=0, category=1}; // 「安易です！」
+st[391] = { volumetype=1, path=1, file=["cie00_2512","cie01_noe_2512","cie01_sik_2512"], type=0, category=1}; // 「やかましいっ！」
+st[392] = { volumetype=1, path=1, file=["cie00_2513","cie01_noe_2513","cie01_sik_2513"], type=0, category=1}; // 「行きますよ」
+
+// シールド取って回り込んで反撃
+st[395] = { volumetype=1, path=1, file=["cie00_2514","cie01_noe_2514","cie01_sik_2514"], type=0, category=1}; // 「お返しです」
+st[396] = { volumetype=1, path=1, file=["cie00_2515","cie01_noe_2515","cie01_sik_2515"], type=0, category=1}; // 「ちょこざいな！」
+st[397] = { volumetype=1, path=1, file=["cie00_2516","cie01_noe_2516","cie01_sik_2516"], type=0, category=1}; // 「お見通し！」
+
+// 弱攻撃ダメージ
+st[400] = { volumetype=1, path=1, file="cie00_2600", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「あっ」
+st[401] = { volumetype=1, path=1, file="cie00_2601", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「うっ」
+st[402] = { volumetype=1, path=1, file="cie00_2602", type=0, category=1, prio=Def_SEP_DamageLv1, check=1 }; // 「くっ」
+
+// 中攻撃ダメージ
+st[410] = { volumetype=1, path=1, file="cie00_2603", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「はっ」
+st[411] = { volumetype=1, path=1, file="cie00_2604", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「つっ」
+st[412] = { volumetype=1, path=1, file="cie00_2605", type=0, category=1, prio=Def_SEP_DamageLv2, check=1 }; // 「くはっ」
+
+// 強攻撃ダメージ
+st[420] = { volumetype=1, path=1, file="cie00_2606", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「ぐっ！」
+st[421] = { volumetype=1, path=1, file="cie00_2607", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「このっ」
+st[422] = { volumetype=1, path=1, file="cie00_2608", type=0, category=1, prio=Def_SEP_DamageLv3, check=1 }; // 「きゃっ」
+
+// ダウン
+st[430] = { volumetype=1, path=1, file="cie00_2609", type=0, category=1, prio=Def_SEP_KO }; // 「くっ、つぅぅうううう…………！」
+st[431] = { volumetype=1, path=1, file=["cie00_2610","cie01_noe_2610"], type=0, category=1, prio=Def_SEP_KO }; // 「おかわりが悪かった気がしますーーー！」
+st[432] = { volumetype=1, path=1, file=["cie00_2611","cie01_noe_2611"], type=0, category=1, prio=Def_SEP_KO }; // 「なんの、まだまだーーー！」
+
+// ダウン・ノックアウト
+st[440] = { volumetype=1, path=1, file="cie00_2612", type=0, category=1, prio=Def_SEP_KO }; // 「きゃあぁーーーーーっ」
+st[441] = { volumetype=1, path=1, file=["cie00_2613","cie01_noe_2613","cie01_sik_2613","cie01_arc_2613"], type=0, category=1, prio=Def_SEP_KO }; // 「特売日なのにーーーーーーー！」
+
+// 起きあがり
+st[450] = { volumetype=1, path=1, file=["cie00_2614","cie00_2614","cie01_sik_2614","cie01_arc_2614"], type=0, category=1}; // 「不覚でした」
+st[451] = { volumetype=1, path=1, file=["cie00_2615","cie00_2615","cie01_sik_2615","cie01_arc_2615"], type=0, category=1}; // 「もう一度……！」
+
+// 起きあがり・瀕死
+st[460] = { volumetype=1, path=1, file=["cie00_2616","cie01_noe_2616","cie01_sik_2616","cie01_arc_2616"], type=0, category=1}; // 「負けません！」
+
+// 本気を出す（体力一定値以下で発動）
+st[470] = { volumetype=1, path=1, file=["cie00_2700","cie01_noe_2700","cie01_sik_2700","cie01_arc_2700"], type=0, category=3}; // 「恐れなさい！」
+st[471] = { volumetype=1, path=1, file="cie00_2701", type=0, category=3}; // 「メシアン！」
+
+// ゲージ溜め
+st[480] = { volumetype=1, path=1, file="cie00_2702", type=0, category=1}; // 「はああああああああ！」
+st[481] = { volumetype=1, path=1, file="cie00_2703", type=0, category=1}; // 「命は燃える人は病む……」
+
+// 強制開放
+st[490] = { volumetype=1, path=1, file=["cie00_2704","cie01_noe_2704","cie01_sik_2704","cie01_arc_2704"], type=0, category=3}; // 「これで最後です！」
+st[491] = { volumetype=1, path=1, file=["cie00_2705","cie01_noe_2705","cie01_sik_2705","cie01_arc_2705"], type=0, category=3}; // 「見せてあげましょう！」
+// st[492] = { volumetype=1, path=1, file="cie00_2706", type=0, category=3}; // 「エイメン！」
+st[493] = { volumetype=1, path=1, file=["cie00_2707","cie01_noe_2707","cie01_sik_2707","cie01_arc_2707"], type=0, category=3}; // 「不浄者！」
+
+// 黒鍵
+st[495] = { volumetype=1, path=1, file="cie01_3001", type=0, category=1}; // 「しっ！」
+// st[496] = { volumetype=1, path=1, file="cie01_3003", type=0, category=1}; // 「まだ！」
+// st[497] = { volumetype=1, path=1, file="cie01_3005", type=0, category=1}; // 「終わりです！」
+
+// 必殺技 （技名：黒鍵投げ）
+st[500] = { volumetype=1, path=1, file="cie00_3001", type=0, category=1}; // 「ゼロ」
+st[501] = { volumetype=1, path=1, file="cie00_3002", type=0, category=1}; // 「トゥロア」
+st[502] = { volumetype=1, path=1, file="cie00_3003", type=0, category=1}; // 「セット」
+st[503] = { volumetype=1, path=1, file="cie00_3004", type=0, category=1}; // 「キャトル」
+st[504] = { volumetype=1, path=1, file="cie00_3005", type=0, category=1}; // 「ヌフ」
+
+// 必殺技 （技名：黒鍵・大終節）
+st[505] = { volumetype=1, path=1, file=["cie00_3007","cie00_3007","cie01_sik_3007"], type=0, category=1}; // 「串刺しにしてあげましょう」
+st[506] = { volumetype=1, path=1, file=["cie00_3008","cie00_3008","cie01_sik_3008"], type=0, category=1}; // 「踊りなさい……！」
+// st[507] = { volumetype=1, path=1, file="cie01_3007", type=0, category=1}; // 「悔い改めなさい……！」
+
+// 必殺技 （技名：空中黒鍵投げ）
+st[510] = { volumetype=1, path=1, file="cie00_3010", type=0, category=1}; // 「ゼロ」
+st[511] = { volumetype=1, path=1, file="cie00_3011", type=0, category=1}; // 「キャトル」
+st[512] = { volumetype=1, path=1, file="cie00_3012", type=0, category=1}; // 「セット」
+
+st[513] = { volumetype=1, path=1, file="cie01_3010", type=0, category=1}; // 「いま……！」
+st[514] = { volumetype=1, path=1, file="cie01_3012", type=0, category=1}; // 「そこで！」
+st[515] = { volumetype=1, path=1, file="cie01_3014", type=0, category=1}; // 「とどめ！」
+
+// 必殺技 （技名：黒鍵・埋葬）
+st[516] = { volumetype=1, path=1, file=["cie00_3014","cie00_3014","cie01_sik_3016"], type=0, category=1}; // 「蜂の巣に……なりなさい！」
+st[517] = { volumetype=1, path=1, file=["cie00_3015","cie00_3015","cie01_sik_3017"], type=0, category=1}; // 「これが……裁きの雨です……！」
+st[518] = { volumetype=1, path=1, file="cie01_3016", type=0, category=1}; // 「眠りなさい！」
+
+// 必殺技 （技名：Aハイロウ）
+st[520] = { volumetype=1, path=1, file="cie00_3017", type=0, category=1}; // 「じゃっ」
+st[521] = { volumetype=1, path=1, file="cie00_3018", type=0, category=1}; // 「ふっ！」
+st[522] = { volumetype=1, path=1, file="cie01_3018", type=0, category=1}; // 「とうっ！」
+
+// 必殺技 （技名：Aハイロウ追加技）
+st[525] = { volumetype=1, path=1, file=["cie00_3021","cie00_3021","cie01_sik_3020"], type=0, category=1}; // 「てや（可愛く）」
+st[526] = { volumetype=1, path=1, file=["cie00_3022","cie00_3022","cie01_sik_3021"], type=0, category=1}; // 「もらいました！」
+// st[527] = { volumetype=1, path=1, file="cie01_3020", type=0, category=1}; // 「隠し味！」
+
+// 必殺技 （技名：Bハイロウ）
+st[530] = { volumetype=1, path=1, file="cie00_3024", type=0, category=1}; // 「ふっ！」
+// 必殺技 （技名：Bハイロウ追加技）
+st[535] = { volumetype=1, path=1, file=["cie00_3026","cie01_noe_3020"], type=0, category=1}; // 「いやーーあ！」
+st[536] = { volumetype=1, path=1, file=["cie00_3027","cie01_noe_3021"], type=0, category=1}; // 「どうです！？」
+
+// 必殺技 （技名：エンジェルハイロウ）
+st[540] = { volumetype=1, path=1, file=["cie00_3029","cie01_noe_3029","cie01_sik_3029"], type=0, category=1}; // 「ひょいっと（物をつまむ感じで）」
+st[541] = { volumetype=1, path=1, file=["cie00_3030","cie00_3030","cie01_sik_3030"], type=0, category=1}; // 「捕まえました」
+// st[542] = { volumetype=1, path=1, file="cie01_3029", type=0, category=1}; // 「ぽーいっと」(軽い感じ)
+
+// 必殺技 （技名：ハイロウ(空中)）
+st[550] = { volumetype=1, path=1, file="cie00_3032", type=0, category=1}; // 「逃(に)がしません！」
+st[551] = { volumetype=1, path=1, file="cie01_3031", type=0, category=1}; // 「強襲！」
+
+// 必殺技 （技名：EXハイロウ(空中)）
+st[555] = { volumetype=1, path=1, file="cie00_3034_s0", type=0, category=1}; // 「その隙……もらった！」
+st[556] = { volumetype=1, path=1, file="cie00_3034_s1", type=0, category=1}; // 「その隙……もらった！」
+st[557] = { volumetype=1, path=1, file="cie01_3033_s0", type=0, category=1}; // 「遅い…捕らえた！」
+st[558] = { volumetype=1, path=1, file="cie01_3033_s1", type=0, category=1}; // 「遅い…捕らえた！」
+
+
+// 必殺技 （技名：セブンスヘブン）
+st[560] = { volumetype=1, path=1, file=["cie00_3036","cie01_noe_3035","cie01_sik_3037"], type=0, category=1}; // 「手加減できませんからね……！」
+st[561] = { volumetype=1, path=1, file="cie00_3038", type=0, category=1}; // 「いくら遠野くんでも……手加減できませんからね！」
+st[562] = { volumetype=1, path=1, file="cie01_3035", type=0, category=1}; // 「主よ、許し給え……！」
+
+
+// 必殺技 （技名：ブレイドシンカー）
+st[570] = { volumetype=1, path=1, file="cie00_3040", type=0, category=1}; // 「しゃっ……！」
+st[571] = { volumetype=1, path=1, file="cie01_3039", type=0, category=1}; // 「スナップ！」
+
+// 必殺技 （技名：EXブレイドシンカー）
+st[575] = { volumetype=1, path=1, file=["cie00_3042","cie01_noe_3041"], type=0, category=1}; // 「行きます……！」
+st[576] = { volumetype=1, path=1, file="cie01_3041", type=0, category=1}; // 「縫い止めましょう！」
+
+
+// 必殺技 （技名：シエルサマー）
+st[580] = { volumetype=1, path=1, file="cie00_3044", type=0, category=1}; // 「はっ！」
+st[581] = { volumetype=1, path=1, file="cie01_3043", type=0, category=1}; // 「てやぁ！」
+
+// 必殺技 （技名：EXシエルサマー）
+st[585] = { volumetype=1, path=1, file="cie00_3046", type=0, category=1}; // 「倒れなさい！」
+// st[586] = { volumetype=1, path=1, file="cie01_3045", type=0, category=1}; // 「これで、満足ですか！」
+
+// 必殺技 （技名：シエルサマー(空中)）
+// st[590] = { volumetype=1, path=1, file="cie00_3048", type=0, category=1}; // 「はっ！」
+// st[591] = { volumetype=1, path=1, file="cie01_3047", type=0, category=1}; // 「弾く！」
+
+// 必殺技 （技名：EXシエルサマー(空中)）
+st[595] = { volumetype=1, path=1, file="cie00_3050_s0", type=0, category=1}; // 「もっと、倒れなさい！」
+st[596] = { volumetype=1, path=1, file="cie00_3050_s1", type=0, category=1}; // 「もっと、倒れなさい！」
+st[597] = { volumetype=1, path=1, file="cie01_3049_s0", type=0, category=1}; // 「これくらい、軽いものです！」
+st[598] = { volumetype=1, path=1, file="cie01_3049_s1", type=0, category=1}; // 「これくらい、軽いものです！」
+
+
+// 必殺技 （技名：黒鍵・影縫い）
+st[600] = { volumetype=1, path=1, file="cie00_3052", type=0, category=1}; // 「諦めなさい……！」
+// st[601] = { volumetype=1, path=1, file="cie00_3053", type=0, category=1}; // 「動けないでしょう？」
+// st[602] = { volumetype=1, path=1, file="cie00_3054", type=0, category=1}; // 「捕縛します」
+// st[603] = { volumetype=1, path=1, file="cie00_3055", type=0, category=1}; // 「聖堂よ、あれ」
+
+// アークドライブ
+// st[000] = { volumetype=1, path=1, file="cie01_3068", type=0, category=1}; // 「セブン」（次に続く）（前回収録音声を使う）
+// st[000] = { volumetype=1, path=1, file="cie01_3069", type=0, category=1}; // 「コード・スクエア……！」（次に続く）（前回収録音声を使う）
+// st[690] = { volumetype=1, path=1, file="cie01_3070", type=0, category=1}; // 「クレアトゥーラ・デル・シエロ！」
+st[691] = { volumetype=1, path=1, file="cie01_3072", type=0, category=1}; // 「コーノカント、装填！」（次に続く）
+st[692] = { volumetype=1, path=1, file="cie01_3073", type=0, category=1}; // 「この一撃で！」（次に続く）
+st[693] = { volumetype=1, path=1, file="cie01_3074", type=0, category=1}; // 「土塊(つちくれ)に還るがいい！」
+
+st[700] = { volumetype=1, path=1, file="cie00_3068", type=0, category=1}; // 「セブン」
+st[701] = { volumetype=1, path=1, file="cie00_3069", type=0, category=1}; // 「コード・スクエア……！」
+
+// st[702] = { volumetype=1, path=1, file="cie00_3070", type=0, category=1}; // 「クレアトゥーラ・デル・シエロ！」
+
+// st[705] = { volumetype=1, path=1, file="cie00_3073", type=0, category=1}; // 「セブン……！」
+// st[706] = { volumetype=1, path=1, file="cie00_3074", type=0, category=1}; // 「カルヴァリア・デスピアー……！」
+
+// st[707] = { volumetype=1, path=1, file="cie00_3075", type=0, category=1}; // 「ルート」
+// st[708] = { volumetype=1, path=1, file="cie00_3076", type=0, category=1}; // 「エディンバラ・ディスロアー！」
+
+// ラストアーク
+// st[710] = { volumetype=1, path=1, file="cie00_3079", type=0, category=1}; // 「主(しゅ)の御名において。第七の死因よ、来(き)よ」
+// st[711] = { volumetype=1, path=1, file="cie00_3080", type=0, category=1}; // 「今！」
+// st[712] = { volumetype=1, path=1, file="cie00_3081", type=0, category=1}; // 「聖霊よ、この魂を救い給え……！」
+
+// ラストアーク （技名：第七聖典・天罰死）
+st[710] = { volumetype=1, path=1, file="cie01_3077", type=0, category=1}; // 「主の御名において。第七の死因よ、来よ」（次に続く）
+st[711] = { volumetype=1, path=1, file="cie01_3078", type=0, category=1}; // 「今！」（次に続く）
+st[712] = { volumetype=1, path=1, file="cie01_3079", type=0, category=1}; // 「聖霊よ、この魂を救い給え……！」
+
+st[713] = { volumetype=1, path=1, file="cie01_3081", type=0, category=1}; // 「切断による出血死、」（次に続く）
+st[714] = { volumetype=1, path=1, file="cie01_3082", type=0, category=1}; // 「砲撃による衝突死、」（次に続く）
+st[715] = { volumetype=1, path=1, file="cie01_3083", type=0, category=1}; // 「汝、二重の死で償うべし！」
+
+
+// 対ノエル
+// 後が無くなったラウンドの開幕２
+st[740] = { volumetype=1, path=1, file=["","cie01_noe_2011"], type=0, category=3, userparam=0 }; // 「目が覚めました。」
+st[741] = { volumetype=1, path=1, file=["","cie01_noe_2012"], type=0, category=3, userparam=0 }; // 「予想より動ける相手のようですね」
+st[742] = { volumetype=1, path=1, file=["","cie01_noe_2013"], type=0, category=3, userparam=0 }; // 「では、ここからが本番です」
+
+// 待機モーション
+st[743] = { volumetype=1, path=1, file=["","cie01_noe_2025"], type=0, category=1, userparam=0 }; // 「……無駄の多い敵ですね」
+st[744] = { volumetype=1, path=1, file=["","cie01_noe_2026"], type=0, category=1, userparam=0 }; // 「そろそろ仕留めます」
+
+// タイムアップ判定負け
+st[745] = { volumetype=1, path=1, file=["","cie01_noe_2027"], type=0, category=1, userparam=0 }; // 「時間ぎれ……だから、早起きは苦手だと……」
+st[746] = { volumetype=1, path=1, file=["","cie01_noe_2028"], type=0, category=1, userparam=0 }; // 「次はありませんので！」
+
+// 登場（3秒程度）
+st[750] = { volumetype=1, path=1, file=["","cie01_noe_2001"], type=0, category=1, userparam=122 }; // 「アナタは、まったく……」
+st[751] = { volumetype=1, path=1, file=["","cie01_noe_2002"], type=0, category=1, userparam=106 }; // 「日課はこなしていますか？」
+st[752] = { volumetype=1, path=1, file=["","cie01_noe_2003"], type=0, category=1, userparam=172 }; // 「お喋りの前に呼吸を整えてください」
+
+// ラウンド勝利（3秒程度）
+st[753] = { volumetype=1, path=1, file=["","cie01_noe_2014"], type=0, category=1, userparam=129 }; // 「やられたフリはやめてください」
+st[754] = { volumetype=1, path=1, file=["","cie01_noe_2015"], type=0, category=1, userparam=144 }; // 「さぼり癖だけは治りませんね……」
+st[755] = { volumetype=1, path=1, file=["","cie01_noe_2016"], type=0, category=1, userparam=102 }; // 「戦いはここからです」
+// ラウンド勝利　掛け合い（3秒程度）
+st[756] = { volumetype=1, path=1, file=["","cie01_noe_2018"], type=0, category=1, userparam=178 }; // 「汚らわしい。温情はありません。」（対吸血鬼）
+st[757] = { volumetype=1, path=1, file=["","cie01_noe_2019"], type=0, category=1, userparam=143 }; // 「代行者の戦いを教えましょう」（対吸血鬼）
+
+// 決着勝利・汎用（3秒程度）
+st[758] = { volumetype=1, path=1, file=["","cie01_noe_2020"], type=0, category=1, userparam=176 }; // 「今日はここまでに。お疲れ様でした」
+st[759] = { volumetype=1, path=1, file=["","cie01_noe_2021"], type=0, category=1, userparam=145 }; // 「報告書は明日までにお願いします」
+// 決着勝利・辛勝（3秒程度）
+st[760] = { volumetype=1, path=1, file=["","cie01_noe_2022"], type=0, category=1, userparam=212 }; // 「いい思い切りの良さでした。成長しましたね」
+// 決着勝利・楽勝（3秒程度）
+st[761] = { volumetype=1, path=1, file=["","cie01_noe_2023"], type=0, category=1, userparam=191 }; // 「一度、自分の長所を研究してみては？」
+// 決着勝利　掛け合い（3秒程度）
+st[762] = { volumetype=1, path=1, file=["","cie01_noe_2024"], type=0, category=1, userparam=292 }; // 「塵は塵に、穢れは霞みに。清算の時です。」（対吸血鬼）
+
+
+// 対遠野志貴
+// ラウンド勝利（3秒程度）
+st[770] = { volumetype=1, path=1, file=["","","cie01_sik_2014"], type=0, category=1, userparam=203 }; // 「ふむ。もう少し、相手をしてあげましょう」
+st[771] = { volumetype=1, path=1, file=["","","cie01_sik_2015"], type=0, category=1, userparam=205 }; // 「ふふ。先輩ですので、これくらいは。」
+st[772] = { volumetype=1, path=1, file=["","","cie01_sik_2016"], type=0, category=1, userparam=128 }; // 「魔眼だけではないようですね……」
+st[773] = { volumetype=1, path=1, file=["","","cie01_sik_2017"], type=0, category=1, userparam=167 }; // 「失礼。つい、見蕩れて本気で。」
+// 決着勝利・汎用（3秒程度）
+st[774] = { volumetype=1, path=1, file=["","","cie01_sik_2020"], type=0, category=1, userparam=138 }; // 「では、茶道室に直行です！」
+st[775] = { volumetype=1, path=1, file=["","","cie01_sik_2021"], type=0, category=1, userparam=194 }; // 「なーんて、ちょっと脅かしただけですよ？」（ニュアンス違い）
+// 決着勝利・辛勝（3秒程度）
+st[776] = { volumetype=1, path=1, file=["","","cie01_sik_2022"], type=0, category=1, userparam=158 }; // 「ふう、危ないところでした」（ニュアンス違い）
+// 決着勝利・楽勝（3秒程度）
+st[777] = { volumetype=1, path=1, file=["","","cie01_sik_2023"], type=0, category=1, userparam=170 }; // 「手も足もでないとは、なさけない。」
+
+
+// 対アルクェイド
+// 登場（3秒程度）
+st[780] = { volumetype=1, path=1, file=["","","","cie01_arc_2000"], type=0, category=1, userparam=268 }; // 「理性をうしな……失礼、はじめからありませんでしたね。」
+st[781] = { volumetype=1, path=1, file=["","","","cie01_arc_2001"], type=0, category=1, userparam=184 }; // 「代行者として、吸血鬼を排除します」
+st[788] = { volumetype=1, path=1, file=["","","","cie01_arc_2025"], type=0, category=1, userparam=198 }; // 「……軽口は結構。本性をあらわしなさい。」
+// ラウンド勝利（3秒程度）
+st[782] = { volumetype=1, path=1, file=["","","","cie01_arc_2014"], type=0, category=1, userparam=122 }; // 「このまま押し切ってあげましょう」
+st[783] = { volumetype=1, path=1, file=["","","","cie01_arc_2015"], type=0, category=1, userparam=106 }; // 「アナタに隙は見せません」
+st[784] = { volumetype=1, path=1, file=["","","","cie01_arc_2016"], type=0, category=1, userparam=195 }; // 「残り武装、確認。確実に仕留めます」
+// 決着勝利・汎用（3秒程度）
+st[785] = { volumetype=1, path=1, file=["","","","cie01_arc_2020"], type=0, category=1, userparam=204 }; // 「貴方の業は、貴方の命で調停します」
+// 決着勝利・辛勝（3秒程度）
+st[786] = { volumetype=1, path=1, file=["","","","cie01_arc_2022"], type=0, category=1, userparam=206 }; // 「なんとか倒しきりましたか……ふう」
+// 決着勝利・楽勝（3秒程度）
+st[787] = { volumetype=1, path=1, file=["","","","cie01_arc_2023"], type=0, category=1, userparam=171 }; // 「あれ？　思いのほか甘口でした？」
+
+// DLC
+// 登場
+// 対死徒ノエル
+st[790] = { volumetype=1, path=1, file="cie02_2006", type=0, category=1, userparam=211 }; // ええ。そうである事を期待します。
+
+// 対志貴
+st[791] = { volumetype=1, path=1, file="cie02_2007", type=0, category=1, userparam=231 }; // （……ふふ……おそろい……おそろいメガネ（属性）です！）
+
+// 対青子
+st[792] = { volumetype=1, path=1, file="cie02_2009", type=0, category=1, userparam=336 }; // ふふふ。どなたか存じませんが、ここで倒しておきますね。
+
+// 対マーリオゥ
+st[793] = { volumetype=1, path=1, file="cie02_2008", type=0, category=1, userparam=187 }; // またお忍びですか、司祭代行？
+st[794] = { volumetype=1, path=1, file="cie02_2010", type=0, category=1, userparam=239 }; // ご安心を。あくまで代行者としてお相手します。
+
+// 対ネコアルク
+st[800] = { volumetype=1, path=1, file="cie03_2007", type=0, category=1, userparam=142 }; // い、言いがかりはやめなさい！
+
+
+SeList_Table.Status = SelectVoiceTable(st,tnum);//使用するテーブルを抽選して入れる

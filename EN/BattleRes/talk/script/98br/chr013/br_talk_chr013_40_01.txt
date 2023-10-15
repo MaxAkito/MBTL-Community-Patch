@@ -18,7 +18,7 @@
 \\@SYSTEM@<100>
 \aw
 
-\\@BGM_PLAY@<0, 76, 100>
+\\@BGM_PLAY@<0, 76, 50>
 \\@FADE_IN@<1,255,255,255,0>
 \\@SQ_CALL@<1>
 
@@ -37,7 +37,7 @@ My days were filled with joy and happiness! ☆
 \\@BGM_STOP@<0>
 \\@SQ_CALL@<2>
 \w<30>
-\\@SE_PLAY@<0, "talk/talk_se/Cmn_Clank", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Clank", 0, 75>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10001", 100>
 \\@TEXT_ID@<20>
@@ -52,7 +52,7 @@ Wha-wha--
 
 \\@FADE_CLEAR@<2>
 \w<50>
-\\@SE_PLAY@<0, "talk/talk_se/Cmn_GrassBreak", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_GrassBreak", 0, 75>
 \w<30>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "13Miy/Miy_10002", 100>
@@ -70,7 +70,7 @@ Miyako
 */
 Whaaaaaat?!
 
-\\@BGM_PLAY@<0, 61, 100>//コミカルでちょっと怪しげなBGM
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
 \\@CHARA_FOCUS_COLOR@< 0, 1>
 
 \\@SYSTEM@<100>

@@ -11,7 +11,7 @@
 \\@CHARA_IN@<1,  5, 1, 2, 0>
 \aw
 
-\\@BGM_PLAY@<0, 75, 100>
+\\@BGM_PLAY@<0, 75, 50>
 
 \\@NPC_LOAD_SYNC@<4, 12, -320, 0, 0>
 \\@CHARA_SET_MVNAME@<4, "FadeIn">//saber

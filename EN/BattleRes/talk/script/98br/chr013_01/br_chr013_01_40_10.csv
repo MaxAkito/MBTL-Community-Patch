@@ -1,0 +1,247 @@
+10,Akiha,Alright. Are you two ready?
+20,Hisui,"Yes. Mistress Miyako and the rest have left,
+and no one else is on the property."
+30,Kohaku,"Mistress Akiha, you are more devoted to Shiki than anyone,
+and you handed over the statue."
+40,Kohaku,"Once Ciel and Arcueid hear about it, they will surely
+withdraw from searching the manor as well."
+50,Kohaku,"Is there any clearer way to signal your innocence?
+I have to admit you've outdone yourself, Mistress Akiha."
+60,Akiha,"It's nothing so special, Kohaku."
+70,Akiha,"I simply determined on the spot that holding onto
+the statue would not go well for me."
+80,Akiha,"We had four statues here from the start.
+All I did was take that into account."
+90,Hisui,"You stashed the fourth statue in the study vault
+early this morning, right?"
+100,Kohaku,"Yes, you took them from the servants without asking! *sob*
+It is, of course, your prerogative to do so, but still...!"
+110,Akiha,Quiet. My prudence has brought us victory.
+120,Akiha,"With Ciel and Arcueid involved, I'm certain my brother
+will be restored from his 17 parts."
+130,Akiha,"However, surely there is no reason they require
+every part, right? They might not."
+140,Akiha,"How much damage could be caused by missing 1/17 part?
+He was always a bit of an odd boy anyway."
+150,Hisui,Mistress Akiha...your reasoning is very...unique...
+160,Kohaku,"(Shh, Hisui, pay attention to how she's acting!
+ We have to stop her before she goes too far!)"
+170,Kohaku,"(Mistress Akiha is the one who will end up in trouble
+ no matter how things turn out!)"
+180,Hisui,...
+190,Akiha,"*ahem* According to Miyako, if we kiss them,
+the statues turn human again."
+200,Akiha,"Well, then. There is no choice. This is my responsibility."
+210,Akiha,"Now... Wake up, dear brother. My brother,
+and no one else's."
+220,Akiha,I did it...! He's really back!
+230,Akiha,"Shiki, you were a statue for so long.
+Was it rough? How are you feeling?"
+240,H_Shiki_Kakusi,"Whoa, Akiha?!"
+250,Akiha,Wha?!
+260,H_Shiki_Kakusi,Uh... Huh?
+270,H_Shiki_Kakusi,"I see, so the cat hit me with a weird beam...
+and that did this to me. Hahaha, what a mess."
+280,Akiha,"You're acting kind of odd.
+Why did you say ""whoa""?"
+290,H_Shiki_Kakusi,"Oh, because you're so big.
+That all, really."
+300,Akiha,"Well...from your perspective,
+I suppose everything is big."
+310,Akiha,"Really, though, you're just small.
+You're like a little bird, Shiki."
+320,Hisui,"She's right. You're vulnerable at that size, Master Shiki.
+So..."
+330,Hisui,"You're in such danger, I'm very worried.
+Please be careful."
+340,H_Shiki_Kakusi,"It feels more real when even Hisui says it...
+How small am I, then?"
+350,Kohaku,"Allow me... Please, don't move..."
+360,Kohaku,"My, my... you're like a sitting duck... no, more like
+a sparrow...or a hummingbird?"
+370,H_Shiki_Kakusi,"Um, Kohaku? Your fingers are a little..."
+380,Kohaku,Oh dear. My apologies!Åô
+390,Kohaku,"You appear to be about 10 cm tall. An adorable size,
+perfect for decorating a shelf somewhere\sf000"
+400,H_Shiki_Kakusi,"Whoa, so when I was split into 17, that means..."
+410,H_Shiki_Kakusi,"My head hurts. That cat... I would have preferred
+one of your usual pranks, Kohaku."
+420,Kohaku,Really? Would you forgive me if I had done this?
+430,H_Shiki_Kakusi,"Well...mostly. I'd still scold you though.
+You and Hisui are special."
+440,Hisui,...
+450,Kohaku,...
+460,Akiha,"(Something seems off...
+ But, at least I still have him here.)"
+470,Akiha,"(If this goes well, he'll stay in the manor forever,
+ with me...)"
+480,Akiha,"Heh. I've won. Hisui, Kohaku, a toast!"
+490,Akiha,"This is the day of my ascent... We shall call it
+The Little Sister Perfect Completion ending!"
+500,Miyako,"But, I thought there weren't supposed to be any more
+statues on the estate?!"
+510,Ciel,"Akiha, Hisui, and Kohaku all
+gave us theirs, right?"
+520,Ciel,"And no one else lives there, right?
+So there should only have been three Shiki statues."
+530,Ciel,"It's only natural you'd think that.
+But this is MB!"
+540,Neco_Arc,"(Hehehe, she's going meta without realizing it...
+ I'm steadily transforming Ciel, meow!)"
+550,C_Shiki,"I see... the way things are categorized,
+there should still be one left. Definitely."
+560,Shiki,Huh? Do you know something?
+570,C_Shiki,"Why don't we try going back, just to see?
+The specifics are too horrible to get into."
+580,Shiki,Why is that?
+590,C_Shiki,"Because however gentle the person carrying me is,
+she can also be terrifying."
+600,Ciel,I'm glad we understand each other.
+610,Ciel,"Shiki, you know me so well it's a sin,
+but there's still no stopping me."
+620,Neco_Arc,"Stop with the heartwarming blast furnace of a conversation.
+We're almost to the Tohno manor!"
+630,Neco_Arc,"The alarm will go off as soon as we enter!
+I've done this a lot, so I'm an expert!"
+640,Neco_Arc,"We'll have three minutes to get our work done!
+After that our safety isn't guaranteed!"
+650,Miyako,"You're being weirdly helpful, bad cat!
+You'd better not be plotting something!"
+660,Neco_Arc,"Cats have a sense of responsibility too, kung fu girl.
+Splitting glasses boy up was my mistake."
+670,Neco_Arc,"I'll admit that I went too far, even for me.
+So I'm turning him back."
+680,Neco_Arc,"If defeating just one of him is my life's work, having a lot
+of him around if overwhelming, know what I mean?"
+690,Neco_Arc,"And besides... I just love stories where you're left
+wondering which heroine gets a happy ending."
+700,Neco_Arc,"I don't think this is what people mean when they talk
+about needing a one romantic interest per main character."
+710,Neco_Arc,"You don't get multiple destinies that way,
+I guess."
+720,Neco_Arc,"I think it's because people dream of finding their
+one-and-only."
+730,Neco_Arc,"Even if it's not exactly the future that you envisioned,
+right?"
+740,Miyako,(That's true... You can't undo the past...)
+750,Ciel,"Miyako, Shiki! We're now entering the manor!
+Prioritize the hunt for the statue!"
+760,Akiha,"Honestly, we have to deal not just with visitors at this
+hour, but illegal intruders as well?"
+770,Akiha,"Do the Arimas not learn manners growing up?
+You could easily be mistaken for a burglar...!"
+780,Akiha,"Or perhaps it's not a mistake, and you're breaking in.
+You've come to steal something precious from me!"
+790,Miyako,"Akiha! And Shiki! You have a restored Shiki, too?!"
+800,Miyako,Sister was right! You were hiding him! That's cheating!
+810,Akiha,Don't act like he's your brother! He's my actual brother!
+820,Akiha,"I may have forgiven your childish infatuation
+before and let you go..."
+830,Akiha,"But now you better watch your mouth,
+or be punished for your insolence!"
+840,Akiha,"And you do seem to be in need of strict discipline.
+As does that fool guiding you from your shoulder."
+850,Shiki,"She's being very condescending. Is that girl
+really Akiha?"
+860,Shiki,"She's so beautiful and cold...
+Is she a lookalike?"
+870,Akiha,"I can hear you, Shiki. You'd better watch your
+tongue, too."
+880,Akiha,"Once I've taught Miyako her lesson,
+you'll be next."
+890,Akiha,"To think you'd make so many rude comments after seven
+years apart... No, I won't stand for it!"
+900,Akiha,"And so... Yes, I will be thorough and merciless."
+910,Akiha,"I will reinforce your discipline,
+like this Shiki right here."
+920,H_Shiki_Kakusi,I'm so tired.
+930,Ciel,"He's so subservient, he must be terribly abused!
+What did you do to him, Akiha?!"
+940,Akiha,"What? We simply spent four uninterrupted hours
+going over his problematic past behavior."
+950,Akiha,"And that was simply a light review. We will go through
+a more detailed review soon. That was nothing at all."
+960,C_Shiki,A four-hour scolding from Akiha?!
+970,Ciel,"Just look how much that's affected our Shiki just hearing
+about it! Are you trying to ruin him?!"
+980,H_Shiki_Kakusi,"She's terribly strict! Save me, Ciel! I'll die at this rate!"
+990,Akiha,Shiki? Haven't you been fully reformed yet?
+1000,H_Shiki_Kakusi,"See?! Help, save me! Her lessons are going to kill me!
+She's a Spartan!"
+1010,Shiki,"Is this...something he brought on himself?
+He's me, but I don't know..."
+1020,Shiki,"For a pretty girl like her to go that far, anyone would
+assume he was the problem..."
+1030,C_Shiki,"I agree. I think he's a me from a route
+where I'm not a great person."
+1040,C_Shiki,"Let's go, Ciel. We can leave him here."
+1050,C_Shiki,"When I get returned to a single Shiki Tohno, I don't think
+I want him to be a part of me."
+1060,H_Shiki_Kakusi,"How dare you! Seriously?!
+How are you the same person as me?!"
+1070,H_Shiki_Kakusi,"You know the situation if you're me!
+We're on a straight path to the bad ending!"
+1080,Miyako,"The Shikis are fighting...
+What should we do, Sister?"
+1090,Ciel,"Hahaha... They're all parts of Shiki,
+so we can't ignore any of them..."
+1100,Ciel,"Oh. Wait, actually... A straight path to
+the bad ending?"
+1110,Ciel,Excuse me. I have a question for that Shiki.
+1120,Ciel,"Could it be that you're not the Shiki that appeared
+near Akiha?"
+1130,Akiha,"Of course not. I handed that one over to Miyako.
+All else aside, I want him back to normal."
+1140,Akiha,"This little Shiki was the fourth statue at the manor...
+I released him. Is that an issue?"
+1150,Ciel,"Oh... I see. You were being smart,
+and wanted the best one overall."
+1160,Ciel,"But if you had given Miyako that statue,
+it wouldn't have gone this way."
+1170,Akiha,What are you trying to say?
+1180,Ciel,"You could have built a trusting relationship
+instead of locking him in a birdcage."
+1190,Ciel,"But it can't be helped, I suppose.
+That Shiki has problems...or doesn't."
+1200,Ciel,"It's natural for him not to favor you, Akiha.
+Specifically because..."
+1210,Ciel,"He isn't the destined lover for you,
+or Hisui, or Kohaku."
+1220,Ciel,"He's the Shiki Tohno that could love Hisui & Kohaku.
+He's not your Shiki, Akiha."
+1230,Akiha,What...?
+1240,Miyako,What...?
+1250,Neco_Arc,No way.
+1260,Akiha,"Wh-What does that mean, Shiki?!
+Is that plausible?!"
+1270,H_Shiki,Well... I wonder?
+1280,Akiha,"I'm the one asking you! That's why you said
+""whoa"" before, isn't it?!"
+1290,Miyako,Well...
+1300,Miyako,"Anyway, that Shiki isn't Akiha's Shiki, right?"
+1310,Miyako,"So you can give him to me, right?
+Then we can make him back to normal."
+1320,Akiha,No.
+1330,Akiha,"I will not surrender him. Even with all these problems,
+he's still the heir to the Tohno estate..."
+1340,Akiha,"My brother, and mine alone. Even if his heart strays."
+1350,Ciel,Akiha...
+1360,Akiha,"To begin with, Hisui and Kohaku belong to the family.
+Their lovers are also my property."
+1370,Akiha,"I see no reason to give you what's mine. This Shiki will
+spend his life in a birdcage, thinking about what he's done."
+1380,H_Shiki,"Oh no! She's back for real! It's a revival of the
+""mean lady"" version in our era!"
+1390,H_Shiki,Nooooo!
+1400,Akiha,"If you still want to take him by force, feel free to try it.
+But I won't back down."
+1410,Akiha,"I get your two as well, if I win.
+Is that acceptable?"
+1420,Miyako,"Oh, wow... She's so different from earlier!
+Akiha is ready to really fight!"
+1430,Ciel,"It seems so. She's too much for you, Miyako.
+I'll..."
+1440,Miyako,"No, I'll be fine!"
+1450,Miyako,"If she's really serious, I can get serious, too!"
+1460,Miyako,"I'm the better little sister! I'll give it my all,
+even if I can't win!"

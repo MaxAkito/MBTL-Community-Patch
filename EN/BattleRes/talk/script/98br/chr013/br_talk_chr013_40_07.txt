@@ -8,7 +8,7 @@
 // \\@SYSTEM@<1>
 \aw
 
-\\@BGM_PLAY@<0, 61, 100>//コミカルでちょっと怪しげなBGM
+\\@BGM_PLAY@<0, 61, 50>//コミカルでちょっと怪しげなBGM
 
 
 
@@ -513,10 +513,10 @@ Until we meet again, China-girl. GOOD CA--
 \\@CHARA_OUT@<3, 3, 12, 2, 1>
 \\@SQ_CALL@<1>
 \\@GO_SUB@<"QUAKE_2">
-\\@SE_PLAY@<0, "talk/talk_se/Cmn_Clank", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_Clank", 0, 75>
 \aw
 
-\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\@BGM_FADE@<0, -1, 0, -2, 1>
 
 \\@SQ_CALL@<2>
 \\@CHARA_CLEAR@<1>
@@ -538,7 +538,7 @@ Everything is... falling... diagonally...?
 \\@CHARA_SET_MVNAME@<5, "FadeIn">//shiki
 \\@CHARA_SET_PATTERN@<5, 22>//shiki 眼鏡お手
 
-\\@BGM_PLAY@<1, 75, 100>
+\\@BGM_PLAY@<1, 75, 50>
 \\@CHARA_IN@< 2, 3, 109, 2, 0>
 \aw
 

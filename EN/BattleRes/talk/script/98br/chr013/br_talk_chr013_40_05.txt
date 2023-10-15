@@ -8,7 +8,7 @@
 // \\@SYSTEM@<1>
 \aw
 
-\\@BGM_PLAY@<0, 75, 100>
+\\@BGM_PLAY@<0, 75, 50>
 
 
 
@@ -60,7 +60,7 @@ What's that?! It looks like a tsunami is headed this way!
 \\@SQ_CALL@<1>
 
 \\@GO_SUB@<"QUAKE_2">
-\\@SE_PLAY@<0, "talk/talk_se/Cmn_BombE", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Cmn_BombE", 0, 75>
 
 \\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
 \\@NPC_LOAD_SYNC@<5, -1, 0, 0, 0>
@@ -68,13 +68,13 @@ What's that?! It looks like a tsunami is headed this way!
 
 \\@CHARA_OUT@<0, 13, -1, 0, 0>
 \\@CHARA_OUT@<2, 3, -1, 0, 0>
-\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\@BGM_FADE@<0, -1, 0, -2, 1>
 \\aw
 
 \\@DRAW_EFFECT@<1>
 \aw
 
-\\@BGM_PLAY@<1, 61, 100>//コミカルでちょっと怪しげなBGM
+\\@BGM_PLAY@<1, 61, 50>//コミカルでちょっと怪しげなBGM
 
 \\@CHARA_IN@< 3, 19,  0, 44, 0>
 \\@CHARA_MUKI@<3,0>
@@ -107,11 +107,11 @@ Who cares about the story so far!
 \\@SQ_CALL@<2>
 
 \\@GO_SUB@<"QUAKE_2">
-\\@SE_PLAY@<0, "talk/talk_se/Hit_SlashC", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Hit_SlashC", 0, 75>
 
 \\@CHARA_OUT@<3, -1, -1, 0, 0>
 \\aw
-\\@BGM_FADE@<1, 100, 0, -2, 1>
+\\@BGM_FADE@<1, -1, 0, -2, 1>
 
 //灰色、解除
 \\@CHARA_FOCUS_COLOR@< 1, 1>
@@ -130,7 +130,7 @@ Who cares about the story so far!
 \\@CHARA_SET_MVNAME@<6, "FadeIn">//warc
 \\@CHARA_SET_PATTERN@<6, 0>//warc
 
-\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_PLAY@<0, 74, 50>
 
 \\@CHARA_IN@< 0, 13, 3, 11, 0>
 \\@CHARA_IN@< 2, 3,  0, 11, 0>

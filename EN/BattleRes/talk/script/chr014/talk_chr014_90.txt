@@ -19,7 +19,7 @@
 // \\@CHARA_MUKI@<0,0>
 // \aw
 
-\\@BGM_PLAY@<0, 76, 100>
+\\@BGM_PLAY@<0, 76, 50>
 
 \\@FADE_IN@<1,255,255,255,0>
 
@@ -146,7 +146,7 @@ can pose a threat to me anymore, is there...?
 \\@BGM_STOP@<0>
 
 \\@GO_SUB@<"QUAKE_1">
-\\@SE_PLAY@<0, "talk/talk_se/Bound_GroundA", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Bound_GroundA", 0, 75>
 \\@FADE_OUT@<1,0,0,0,0>
 \\@SPEAKERCG_IN@<0, 14,6, 128,-200, 128,-60, 255,0, 30, 1024,1024, 0>//óéâ∫è¡ñ≈
 // \aw
@@ -158,7 +158,7 @@ can pose a threat to me anymore, is there...?
 âÊñ ÅAÉhÉìÅAÇ∆ì|ÇÍÇÈâπ
 */
 
-\\@BGM_PLAY@<0, 77, 100>
+\\@BGM_PLAY@<0, 77, 50>
 \\@FADE_IN@<1,0,0,0,0>
 \\@SQ_CALL@<1>
 \aw
@@ -341,14 +341,14 @@ Executor
 ...
 May the Lord have mercy upon your soul.
 
-\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\@BGM_FADE@<0, -1, 0, -2, 1>
 \\@FADE_OUT@<2,0,0,0,0>
 \aw
 \w<60>
 
-\\@SE_PLAY@<0, "talk/talk_se/Atk_Piling", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Atk_Piling", 0, 75>
 \\w<3>
-\\@SE_PLAY@<1, "talk/talk_se/Hit_PunchD", 0, 100>
+\\@SE_PLAY@<1, "talk/talk_se/Hit_PunchD", 0, 75>
 \w<60>
 
 \\@SYSTEM@<21>

@@ -13,7 +13,7 @@
 \\@CHARA_IN@<0, 12, 1, 1, 0>
 \aw
 
-\\@BGM_PLAY@<0, 76, 100>
+\\@BGM_PLAY@<0, 76, 50>
 
 \\@CHARA_IN@< 0, 12, 6, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "12Alt/Alt05_0030", 100>
@@ -40,6 +40,7 @@ that duty is over.
 \\@NPC_LOAD_SYNC@<5, 0, 320, 0, 1>
 \\@CHARA_SET_MVNAME@<5, "FadeIn">//arc
 \\@CHARA_SET_PATTERN@<5, 12>//arc
+
 
 \\@CHARA_IN@<1, 0, 1, 2, 0>
 \aw

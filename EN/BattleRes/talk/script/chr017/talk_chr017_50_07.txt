@@ -15,7 +15,7 @@
 \\@CHARA_MUKI@<1,1>
 \aw
 
-\\@BGM_PLAY@<0, 76, 100>
+\\@BGM_PLAY@<0, 76, 50>
 
 \\@SYSTEM@<102>
 
@@ -31,9 +31,9 @@ Aoko
 Vampire extermination, complete! ☆ 
 Not to mention the Workshop, blown to smithereens! ☆
 
-\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\@BGM_FADE@<0, -1, 0, -2, 1>
 \\@FADE_OUT@<0, 255, 255, 255, 0>
-\\@SE_PLAY@<1, "talk/talk_se/Cmn_BombB", 0, 100>
+\\@SE_PLAY@<1, "talk/talk_se/Cmn_BombB", 0, 75>
 \w<180>
 
 // ステージ　地下爆心地にできる？
@@ -63,7 +63,7 @@ Aoko
 Ahh, the air feels so much fresher when you've been out
 doing good. Ventilation is pretty good now too, awesome!
 
-\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_PLAY@<0, 74, 50>
 
 \\@SYSTEM@<121>
 

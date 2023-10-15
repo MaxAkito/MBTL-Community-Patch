@@ -7,7 +7,7 @@
 // \\@SYSTEM@<1>
 \aw
 
-\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_PLAY@<0, 74, 50>
 
 \\@SYSTEM@<102>
 

@@ -8,7 +8,7 @@
 // \\@SYSTEM@<1>
 \aw
 
-\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_PLAY@<0, 74, 50>
 
 //＃公園_夜
 
@@ -109,7 +109,7 @@ seemed pretty shady too, Hisui.
 \\@DRAW_EFFECT@<1>
 \aw
 
-\\@BGM_PLAY@<1, 61, 100>//コミカルでちょっと怪しげなBGM
+\\@BGM_PLAY@<1, 61, 50>//コミカルでちょっと怪しげなBGM
 
 \\@CHARA_IN@< 3, 19,  0, 44, 0>
 \\@CHARA_MUKI@<3,0>
@@ -204,7 +204,7 @@ by fighting together?
 \\@CHARA_SET_PATTERN@<6, 0>//立ち
 
 
-\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_PLAY@<0, 74, 50>
 \\@CHARA_IN@< 0, 13, 0, 11, 0>
 \\@CHARA_IN@< 2, 3, 0, 11, 0>
 \\@CHARA_IN@< 3, 4, 101, 12, 100>

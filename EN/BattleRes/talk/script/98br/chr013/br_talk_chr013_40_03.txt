@@ -5,7 +5,7 @@
 \\@LOAD_BATTLE_BG@<14>
 // \\@SQ_CALL@<1>
 \\@FADE_IN@<1,255,255,255,0>
-\\@SE_PLAY@<0, "talk/talk_se/Atk_StrongWind", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Atk_StrongWind", 0, 75>
 \aw
 
 \\@NPC_LOAD_SYNC@<5, 3, 100, 0, 0>
@@ -20,7 +20,7 @@
 // \\@SYSTEM@<1>
 \aw
 
-\\@BGM_PLAY@<0, 75, 100>
+\\@BGM_PLAY@<0, 75, 50>
 
 
 \\@CHARA_IN@< 0, 13, 3, 1, 0>
@@ -57,9 +57,9 @@ A-A-Anyways! Hyah!!
 \\@CHARA_IN@< 0, 13, 4, 52, 20>
 \\@CHARA_MUKI@<0,0>
 \\@SQ_CALL@<2>
-\\@SE_PLAY@<1, "talk/talk_se/Atk_IcePillar", 0, 100>
+\\@SE_PLAY@<1, "talk/talk_se/Atk_IcePillar", 0, 75>
 \w<20>
-\\@SE_PLAY@<0, "talk/talk_se/Hit_PunchC", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Hit_PunchC", 0, 75>
 \\@GO_SUB@<"QUAKE_1">
 \\@CHARA_IN@< 0, 13, -1, 50, 20>
 \\@CHARA_FOCUS_COLOR@< 0, 1>
@@ -90,7 +90,7 @@ What in the world could be crueler than this?
 \\@CHARA_OUT@<0, 13, -1, 0, 0>
 \\@CHARA_OUT@<1, 9, -1, 0, 0>
 \\@CHARA_OUT@<2, 3, -1, 0, 0>
-\\@BGM_FADE@<0, 100, 0, -2, 1>
+\\@BGM_FADE@<0, -1, 0, -2, 1>
 \\aw
 
 \\@NPC_LOAD_SYNC@<4, -1, 0, 0, 0>
@@ -101,7 +101,7 @@ What in the world could be crueler than this?
 \\@DRAW_EFFECT@<1>
 \aw
 
-\\@BGM_PLAY@<1, 61, 100>//コミカルでちょっと怪しげなBGM
+\\@BGM_PLAY@<1, 61, 50>//コミカルでちょっと怪しげなBGM
 
 \\@CHARA_IN@< 3, 19,  0, 44, 0>
 \\@CHARA_MUKI@<3,0>
@@ -186,7 +186,7 @@ Miyako awoke to her inner true power!
 
 \\@CHARA_OUT@<3, -1, -1, 0, 0>
 \\aw
-\\@BGM_FADE@<1, 100, 0, -2, 1>
+\\@BGM_FADE@<1, -1, 0, -2, 1>
 
 
 \\@DRAW_EFFECT@<0>
@@ -205,7 +205,7 @@ Miyako awoke to her inner true power!
 \\@CHARA_SET_PATTERN@<6, 0>//vlov
 
 
-\\@BGM_PLAY@<0, 75, 100>
+\\@BGM_PLAY@<0, 75, 50>
 \\@CHARA_IN@< 0, 13, 4, 11, 0>
 \\@CHARA_IN@< 2, 3,  0, 11, 0>
 \\@CHARA_IN@< 1, 9,  0, 12, 100>

@@ -2,10 +2,9 @@
 \\@LOAD_BATTLE_BG@<5>//背景　路地裏
 \\@FADE_IN@<0, 0, 0, 0, 0>//黒フェードイン
 // \\@BG_IN@<"screen_bg05", 0, 2, 0>//背景　路地裏
-\\@SYSTEM@<0>
-\aw
 
 \\@SYSTEM@<0>
+\aw
 
 //\\@SYSTEM@<1>
 
@@ -22,7 +21,7 @@
 \\@CHARA_IN@<1, 8, 0, 2, 0>
 \aw
 
-\\@BGM_PLAY@<0, 74, 100>
+\\@BGM_PLAY@<0, 74, 50>
 
 \\@GO_SUB@<"QUAKE_1">
 

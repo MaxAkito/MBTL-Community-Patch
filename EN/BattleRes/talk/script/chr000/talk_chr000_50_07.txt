@@ -1,5 +1,5 @@
 \\@SYSTEM@<9999>
-\\@LOAD_BATTLE_BG@<6>//背景　地下空洞
+\\@LOAD_BATTLE_BG@<6>//背景　地下空洞 
 \\@FADE_IN@<0, 0, 0, 0, 0>
 
 
@@ -21,7 +21,7 @@
 \\@CHARA_IN@<1, 9, 0, 2, 0>
 \aw
 
-\\@BGM_PLAY@<0, 75, 100>
+\\@BGM_PLAY@<0, 75, 50>
 
 \\@CHARA_IN@< 1, 9, -1, 0, 1>
 /*-auto-*/\\@VOICE_PLAY@<0, "09Vlo/Vlo05_0000", 100>

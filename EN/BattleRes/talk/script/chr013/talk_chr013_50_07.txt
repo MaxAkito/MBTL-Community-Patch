@@ -14,7 +14,7 @@
 \\@CHARA_IN@<0, 13, 1, 1, 0>
 \aw
 
-\\@BGM_PLAY@<0, 71, 100>
+\\@BGM_PLAY@<0, 71, 50>
 
 \\@SYSTEM@<101>
 
@@ -69,7 +69,7 @@ Duck, China-girl!
 Watch out from above, meow!
 
 \\@QUAKE@<3, 20>
-\\@SE_PLAY@<0, "talk/talk_se/Bound_GroundA", 0, 100>
+\\@SE_PLAY@<0, "talk/talk_se/Bound_GroundA", 0, 75>
 
 \\@SYSTEM@<101>
 \\@CHARA_SET_PATTERN@<4, 4>//miyako

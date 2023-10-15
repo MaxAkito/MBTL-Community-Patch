@@ -22,7 +22,7 @@
 \\@CHARA_MUKI@<0,0>
 \aw
 
-\\@BGM_PLAY@<0, 76, 100>
+\\@BGM_PLAY@<0, 76, 50>
 
 \\@CHARA_FOCUS_COLOR@<0,1>
 \\@QUAKE@<2,30,30>
@@ -236,7 +236,7 @@ Wait--what?!
 \\@FADE_IN@<0, 255, 255, 255, 0>
 
 \\@SQ_CALL@<1>
-\\@BGM_PLAY@<0, 66, 100>
+\\@BGM_PLAY@<0, 66, 50>
 \aw
 
 /*-auto-*/\\@VOICE_PLAY@<0, "15Aok/Aok07_0048", 100>

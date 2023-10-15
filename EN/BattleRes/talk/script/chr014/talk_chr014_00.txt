@@ -15,7 +15,7 @@
 \\@CHARA_MUKI@<1,0>
 \aw
 
-\\@BGM_PLAY@<0, 78, 100>
+\\@BGM_PLAY@<0, 78, 50>
 
 \\@SYSTEM@<101>
 

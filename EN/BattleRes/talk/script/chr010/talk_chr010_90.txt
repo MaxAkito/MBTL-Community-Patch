@@ -12,7 +12,7 @@
 \aw
 
 
-\\@BGM_PLAY@<0, 77, 100>
+\\@BGM_PLAY@<0, 77, 50>
 
 \\@SPEAKERCG_IN@<0, 10,6, 128,-240, 128,-240, 255,255, 0, 1024,1024, 0>
 // \\@CHARA_IN@< 0, 10, 6, 0, 1>
@@ -58,12 +58,12 @@ as you find yourself in my hands.
 // \\@CHARA_OUT@<0, -1, -1, 0, 0>
 \aw
 
-\\@BGM_FADE@<0, 100, 0, 60, 1>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
 \\@FADE_IN@<1,255,255,255,0>
 \\@SQ_CALL@<1>
 \bgmw0
 
-\\@BGM_PLAY@<0, 75, 100>
+\\@BGM_PLAY@<0, 75, 50>
 
 /*-auto-*/\\@VOICE_PLAY@<0, "10Boa/Boa05_0043", 100>
 \\@TEXT_ID@<40>
@@ -232,7 +232,7 @@ Gaaahhh!
 Was this really all my fault?!
 
 \\@FADE_OUT@<0,0,0,0,0>
-\\@BGM_FADE@<0, 100, 0, 60, 1>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
 \bgmw0
 // \\@BG_IN@<"screen_bg04", 0, 2>
 \aw
@@ -240,7 +240,7 @@ Was this really all my fault?!
 \\@BG_OUT@<0,0>
 \\@LOAD_BATTLE_BG@<4>
 
-\\@BGM_PLAY@<0, 76, 100>
+\\@BGM_PLAY@<0, 76, 50>
 \\@FADE_IN@<0,0,0,0,0>
 \\@SQ_CALL@<2>
 
@@ -410,7 +410,7 @@ Especially when you're still dreaming.
 Maybe it's still too early to relax?
 \l
 
-\\@BGM_FADE@<0, 100, 0, 60, 1>
+\\@BGM_FADE@<0, -1, 0, 60, 1>
 \bgmw0
 
 \\@SPEAKERCG_IN@<0, 10,8, 128,-240, 128,-240, 0,255, 30, 1024,1024, 0>

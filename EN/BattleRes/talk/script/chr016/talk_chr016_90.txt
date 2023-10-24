@@ -223,7 +223,7 @@ Powered_Ciel
 */
 Emissary of Heaven, Sound of Crucifixion.
 Foliage of Blades, Waves of Iron. 
-Idea Blood Number Seven, The Gutwood Einnashe.
+Idea Blood #7, The Gutwood Einnashe.
 \l
 
 \\@FADE_OUT@<1,255,255,255,0>
@@ -237,7 +237,7 @@ Powered_Ciel
 致死の傷ではなく、無限の苦痛でその生態を押し返します！
 */
 Seedbed Altar, bear fruit! Strike not a fatal blow,
-but repel this physis through never-ending torment!
+but repel this bioform through never-ending torment!
 
 \\@SYSTEM@<21>
 \aw
